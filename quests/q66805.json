@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Mushroom Madness",
+        "location": "East Shroud",
+        "id": 66805,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005562,
+        "target": 1005562,
+        "genre": 37,
+        "journal": [
+            "Something in the air has Ponnixia distressed.",
+            "Malevolent sylphs have been working their mischief on the forest's mushrooms, lacing them with a poisonous powder that coaxes them to emit toxic fumes. Wash them with spring water to spare the sylphs of Little Solace from a coughing epidemic.",
+            "You have doused the mushrooms, removing their poisonous properties. Inform Ponnixia she may breathe easy again.",
+            "Ponnixia takes a deep breath, savoring the clean, crisp forest air. Once again, you have proven yourself a true friend to Little Solace and its inhabitants."
+        ],
+        "objectives": [
+            "Douse the greater banestools with spring water.",
+            "Report back to Ponnixia."
+        ],
+        "dialogue": [
+            {
+                "name": "PONNIXIA",
+                "text": "Just when this one thought touched ones couldn't get any nastier! Does friendly one smell something funny in the air?"
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "This one saw touched ones scattering strange powder on stinkshrooms, making nasty stink even stinkier! These ones cannot stop sniffling and sneezing."
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "Please, friendly one! Wash nasty one's nasty powder off of stinkshrooms, before all of these ones become sickly ones."
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "Please, friendly one! Wash powder off of stinkshrooms, before all of these ones become sickly ones."
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "This one's nose has stopped tingling. Friendly one has cleaned stinkshrooms of their stink, yes?"
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "These ones breathe a sigh of relief. Ahhhhhh, does friendly one not too love the sweet smells of the forest?"
+            }
+        ],
+        "reward": {
+            "gil": 600,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9315
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 45,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005562",
+            "obj": {
+                "i": 1005562,
+                "n": "Ponnixia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

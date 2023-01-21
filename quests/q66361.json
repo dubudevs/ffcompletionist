@@ -1,0 +1,97 @@
+{
+    "quest": {
+        "name": "Tools of Office",
+        "location": "Southern Thanalan",
+        "id": 66361,
+        "patch": 2.0,
+        "sort": 310,
+        "eventIcon": 71221,
+        "issuer": 1006288,
+        "target": 1006288,
+        "genre": 93,
+        "journal": [
+            "U'khuba Tia seems to be in an impatient mood.",
+            "U'khuba Tia needs material for arrowheads, and, in the desert, that means only one thing─the dismemberment of unsuspecting creatures. After a short lecture on the intricacies of advancement within the U tribe, he bids you wrest six barbs from russet yarzons.",
+            "Six yarzon barbs, still slick with blood and fury, rest in your palm. Take them to U'khuba Tia.",
+            "You have delivered the fresh collection of yarzon parts to a grateful U'khuba Tia, who seems to be growing ever more confident about his upcoming challenge."
+        ],
+        "objectives": [
+            "Slay russet yarzons and acquire barbs.",
+            "Give the yarzon barbs to U'khuba Tia."
+        ],
+        "dialogue": [
+            {
+                "name": "UKHUBATIA",
+                "text": "The law is clear─to become the nunh of the U tribe, one must defeat the current nunh. In my case, this means U'odh Nunh."
+            },
+            {
+                "name": "UKHUBATIA",
+                "text": "However, in order to win the right to challenge U'odh, I must first triumph over U'tykha. He stands in my way, and I in his. In this manner the nunh is protected from constant challenge."
+            },
+            {
+                "name": "UKHUBATIA",
+                "text": "But to defeat U'tykha, my arms must be impeccable; a fool he may be, but weak he is not. I shall make new arrowheads, and for that I need barbs from a yarzon. Half a dozen should be enough."
+            },
+            {
+                "name": "UKHUBATIA",
+                "text": "The yarzon barbs, have you fetched them?"
+            },
+            {
+                "name": "UKHUBATIA",
+                "text": "My appreciations, adventurer. You may be surprised by what target these find. Note what you see of Forgotten Springs this day. The old ways are going, and as quickly as arrows do fly."
+            }
+        ],
+        "reward": {
+            "gil": 1650,
+            "xp": 7600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 31,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66360
+            ]
+        },
+        "next": [
+            66364
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006288",
+            "obj": {
+                "i": 1006288,
+                "n": "U'khuba Tia",
+                "l": 45,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66360",
+            "obj": {
+                "i": 66360,
+                "n": "Survey Says",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 310
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66364",
+            "obj": {
+                "i": 66364,
+                "n": "The Eyes Have It",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 310
+            }
+        }
+    ]
+}

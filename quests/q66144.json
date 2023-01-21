@@ -1,0 +1,186 @@
+{
+    "quest": {
+        "name": "Way of the Goldsmith",
+        "location": "Ul'dah",
+        "id": 66144,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100055,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1002280,
+        "target": 1004093,
+        "genre": 139,
+        "journal": [
+            "Jemime would have you reaffirm your desire to join the Goldsmiths' Guild.",
+            "The receptionist bids you present yourself to Serendipity, the young lady in charge of the guild. Seek her out and show her your burning desire to become a goldsmith.",
+            "Mistress Serendipity eagerly accepts you into the fold, and gifts you with a weathered chaser hammer. With the new tool of your trade in hand, speak to your guildmaster once more to begin your journey as a goldsmith."
+        ],
+        "objectives": [
+            "Speak with Mistress Serendipity."
+        ],
+        "dialogue": [
+            {
+                "name": "JEMIME",
+                "text": "Before you can embark upon your journey to become a goldsmith, you must first seek an audience with our guildmaster. Are you ready to do so?"
+            },
+            {
+                "name": "JEMIME",
+                "text": "You shall find Mistress Serendipity on the workshop floor, just down the steps."
+            },
+            {
+                "name": "JEMIME",
+                "text": "Show her your burning desire to learn, and you are certain to receive her permission to join."
+            },
+            {
+                "name": "JEMIME",
+                "text": "Nervous, are we? I find slow, deep breaths calm the nerves. See if that works for you, and let me know when you are ready to meet the guildmaster."
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Stop right there, you little troublemaker! People are working here!"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Oh! Pardon me, I had you mistaken for a mammet. For a moment there I─"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "&lt;sigh&gt; Let's start over, shall we? What brings you here today, adventurer? Do you perchance have aspirations to become a goldsmith?"
+            },
+            {
+                "name": "A1",
+                "text": "Have you aspirations to become a goldsmith?"
+            },
+            {
+                "name": "Q1",
+                "text": "Yes"
+            },
+            {
+                "name": "Q1",
+                "text": "No"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Sorry, sorry. My mistake, it's been a long day. I don't ordinarily mind visitors, but I'm afraid I'm very busy at the moment. If you would excuse me..."
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "<span class=\"emphasis\">Really</span>!?"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "That's great! Welcome, <span class=\"emphasis\">welcome</span>! I'm Serendipity, but you can call me Sera."
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Or is that too informal?"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Sorry, I'm still unaccustomed to this whole “guildmaster” business... Ah, right! What did you say your name was again? <span class=\"alternative-container\"><span class=\"alternative\">Adrian</span><span class=\"alternative\">Apollo</span></span>?"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Oh, right─<span class=\"highlight\">Forename Surname</span>! Well then, <span class=\"highlight\">Forename Surname</span>! Work hard and one day your creations may line the shelves at Eshtaime's Aesthetics. Trust in yourself and you can achieve anything!"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "That was sufficiently inspiring, I trust?"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Good! Next order of business: here is your new chaser hammer. Well...I say “new,” but it's actually a bit weathered."
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "But never you mind that! Just show me that you know how to hold it so we can get started."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "items": [
+                {
+                    "num": 100,
+                    "id": 4
+                },
+                {
+                    "num": 50,
+                    "id": 2
+                },
+                {
+                    "id": 2391
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65723
+            ]
+        },
+        "next": [
+            66146
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002280",
+            "obj": {
+                "i": 1002280,
+                "n": "Jemime",
+                "l": 41,
+                "q": 7,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004093",
+            "obj": {
+                "i": 1004093,
+                "n": "Serendipity",
+                "l": 41,
+                "q": 29,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2391",
+            "obj": {
+                "i": 2391,
+                "n": "Weathered Chaser Hammer",
+                "l": 1,
+                "c": 35301,
+                "t": 18,
+                "p": 71
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65723",
+            "obj": {
+                "i": 65723,
+                "n": "So You Want to Be a Goldsmith",
+                "g": 0,
+                "l": "Ul'dah - Steps of Thal",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66146",
+            "obj": {
+                "i": 66146,
+                "n": "My First Chaser Hammer",
+                "g": 139,
+                "l": "Ul'dah",
+                "s": 11,
+                "f": 1
+            }
+        }
+    ]
+}

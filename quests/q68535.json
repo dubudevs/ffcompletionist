@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "You Blow It Up",
+        "location": "The Ruby Sea",
+        "id": 68535,
+        "patch": 4.1,
+        "sort": 27,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "genre": 51,
+        "journal": [
+            "Zukin is seeing Red.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Use Confederate explosives to destroy imperial crates on the Isle of Zekki.",
+            "Report to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "The Red's recent activities give me cause for concern, <span class=\"highlight\">Forename</span>. They have begun moving their imperial weaponry out of storage. There can be no doubt─they are planning an assault, and we may well be the targets."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "To see that this does not come to pass, I have a mind to sabotage these weapons. We have some Confederate explosives that would be suitable for this purpose, but they are not made for large Kojin hands."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "And so we must turn to you. I ask that you infiltrate the Red stronghold, the Isle of Zekki, and use the explosives to destroy the imperial crates that you see lying about. May the kami bless you and keep you!"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "<span class=\"highlight\">Forename</span>, I've awaited your return with bated breath! Tell me you were able to destroy the weapons!"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Oh, the relief! Thanks to you, we may rest easy for a while. But that is not to say we can afford to slacken our vigil."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Even assuming the Red are defanged for now, they can easily acquire more weapons from their imperial masters. We may well have need of your prowess again."
+            }
+        ],
+        "reward": {
+            "gil": 550,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

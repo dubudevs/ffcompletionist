@@ -1,0 +1,185 @@
+{
+    "quest": {
+        "name": "Migrant Marauders",
+        "location": "Central Shroud",
+        "id": 65917,
+        "patch": 2.0,
+        "sort": 57,
+        "eventIcon": 71201,
+        "issuer": 1000741,
+        "target": 1000491,
+        "genre": 1,
+        "journal": [
+            "Eylgar would like to impose upon the kindness of an adventurer.",
+            "Eylgar has asked you to verify the claims of a Lalafellin peddler, who swears that winged beasts attacked him on the road south of Bentbranch. Retrace his steps and search for any evidence to support his story.",
+            "After stumbling upon a large vulture egg, two northern vultures descend to defend their nest. Now that you have slain the beasts, seek out Lothaire at Galvanth's Spire and tell him what transpired.",
+            "Lothaire is shocked to learn of the nest hidden less than twenty yalms from his post. He implores you to keep its existence a secret, and vows that similar incidents will never happen again."
+        ],
+        "objectives": [
+            "Search for signs of the winged beasts.",
+            "Speak with Lothaire."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "EYLGAR",
+                "text": "You're quite the compassionate adventurer, by the sound of it. Well far be it from me to look a gift chocobo in the mouth─I have need of a capable <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> like yourself."
+            },
+            {
+                "name": "EYLGAR",
+                "text": "We received a peddler at the gates the other day─an excitable Lalafell that was sweating and swearing that he had been attacked by large winged beasts. Yet other than hornets, I know of no flying creatures in this region."
+            },
+            {
+                "name": "EYLGAR",
+                "text": "If there's any truth to what he said, it might prove problematic for other travelers. Follow the road south and see if you can find any evidence to support his claim."
+            },
+            {
+                "name": "EYLGAR",
+                "text": "And, should you find something, kindly tell Lothaire to patrol his area sometime instead of just standing beneath the spire and staring at the godsdamned road. In those words."
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "...A northern vulture? Two? And they were defending a <span class=\"emphasis\">nest</span>!?"
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "Well, I, uh...perhaps we could omit that last detail from any official reports. I would rather not give Eylgar any further cause to be cross."
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "Thank you for slaying the beasts. You may rest assured that I will not permit this to happen again."
+            },
+            {
+                "name": "POP",
+                "text": "You hear the beating of wings..."
+            }
+        ],
+        "reward": {
+            "gil": 189,
+            "items": [
+                {
+                    "id": 3539,
+                    "one": 1
+                },
+                {
+                    "id": 3538,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 5250
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65916
+            ]
+        },
+        "next": [
+            65918,
+            65920
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000741",
+            "obj": {
+                "i": 1000741,
+                "n": "Eylgar",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000491",
+            "obj": {
+                "i": 1000491,
+                "n": "Lothaire",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "3539",
+            "obj": {
+                "i": 3539,
+                "n": "Hempen Bracers",
+                "l": 11,
+                "c": 44042,
+                "t": 37,
+                "p": 280
+            }
+        },
+        {
+            "type": "item",
+            "id": "3538",
+            "obj": {
+                "i": 3538,
+                "n": "Hempen Dress Gloves",
+                "l": 11,
+                "c": 44159,
+                "t": 37,
+                "p": 224
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65916",
+            "obj": {
+                "i": 65916,
+                "n": "Threat Level Elevated",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 50
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65918",
+            "obj": {
+                "i": 65918,
+                "n": "Skeletons in My Deepcroft",
+                "g": 0,
+                "l": "Central Shroud",
+                "s": 62
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65920",
+            "obj": {
+                "i": 65920,
+                "n": "A Hearer Is Often Late",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 63
+            }
+        }
+    ]
+}

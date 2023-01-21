@@ -1,0 +1,161 @@
+{
+    "quest": {
+        "name": "Way of the Arcanist",
+        "location": "Limsa Lominsa",
+        "id": 65988,
+        "patch": 3.1,
+        "sort": 10,
+        "icon": 100100,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000895,
+        "target": 1000909,
+        "genre": 135,
+        "journal": [
+            "Murie wishes you to reaffirm your desire to join the Arcanists' Guild.",
+            "Though it is standard practice to present yourself to the guildmaster, Murie explains that the leader of the arcanists is not presently available. You are, instead, to speak with the acting guildmaster, Thubyrgeim.",
+            "After presenting yourself to Thubyrgeim and stating your intention to join the Arcanists' Guild, the scholarly Roegadyn hands you a weathered grimoire. Take the arcane tome in hand, and submit yourself to Thubyrgeim's instruction."
+        ],
+        "objectives": [
+            "Speak with Thubyrgeim."
+        ],
+        "dialogue": [
+            {
+                "name": "MURIE",
+                "text": "Well? Have you decided to enroll in our guild? Or are you now intimidated by the thought of excessive thinking?"
+            },
+            {
+                "name": "MURIE",
+                "text": "You are, of course, free to ponder your decision for however long you like. I will be waiting should you choose to embrace a life of academic exertion."
+            },
+            {
+                "name": "MURIE",
+                "text": "Your sound judgment is to be commended. Now, standard practice dictates that I introduce you to our guildmaster that you might convey your intentions in person..."
+            },
+            {
+                "name": "MURIE",
+                "text": "Due to extraordinary circumstances, however, he is...unreachable at present. Instead, you may speak with Mistress Thubyrgeim. She has shouldered full responsibility for the guild's leadership in the interim."
+            },
+            {
+                "name": "MURIE",
+                "text": "You will find her just over there, by the bookshelves. You needn't be shy─though her mind is sharp and critical, her manner is always most welcoming."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "Yes, I am Thubyrgeim. Greetings, and welcome to the Arcanists' Guild. As Murie has doubtlessly explained, I am serving as acting guildmaster until our wayward leader deigns to return. I assume our capable receptionist also spoke of our art's origins?"
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "Allow me, then, to expound upon its nature. Arcanima taps into the living energies of aether. The evidence of this is represented most aptly, perhaps, by our ability to manifest the arcane entity Carbuncle, and the manner of magic which this aetherial ally employs at our command."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "The core of the discipline, however, is found in the pursuit of definitive solutions to any potential quandary. Even on the field of battle─nay, <span class=\"emphasis\">especially</span> on the field of battle─this principle takes precedence."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "If one wishes to make certain the question of victory, then one must apply the most effective strategy. An arcanist is measured by <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> ability to calmly analyze a situation from moment to moment, and respond with the most appropriate spells at hand."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "The study of arcanima will test your mental faculties to the point of perplexity. Are you prepared to reason your way through predicament after predicament?"
+            },
+            {
+                "name": "Q1",
+                "text": "Are you prepared to reason?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "I see. Though I commend you on coming to such a realization <span class=\"emphasis\">before</span> joining the guild, I must admit to a measure of disappointment. Should you have a change in perspective, pray do not hesitate to seek me out once more."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "An unambiguous response─the kind I most prefer. Let us now see if the clarity of your words is matched by the sharpness of your mind. Here, take this grimoire in hand, and we shall next judge your aptitude for our discipline."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2142
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65987
+            ]
+        },
+        "next": [
+            65990
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000895",
+            "obj": {
+                "i": 1000895,
+                "n": "Murie",
+                "l": 29,
+                "q": 5,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000909",
+            "obj": {
+                "i": 1000909,
+                "n": "Thubyrgeim",
+                "l": 29,
+                "q": 15,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2142",
+            "obj": {
+                "i": 2142,
+                "n": "Weathered Grimoire",
+                "l": 1,
+                "c": 33401,
+                "t": 10,
+                "p": 92
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65987",
+            "obj": {
+                "i": 65987,
+                "n": "So You Want to Be an Arcanist",
+                "g": 0,
+                "l": "Limsa Lominsa Lower Decks",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65990",
+            "obj": {
+                "i": 65990,
+                "n": "My First Grimoire",
+                "g": 135,
+                "l": "Limsa Lominsa",
+                "s": 12,
+                "f": 1
+            }
+        }
+    ]
+}

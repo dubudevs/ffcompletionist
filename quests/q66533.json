@@ -1,0 +1,171 @@
+{
+    "quest": {
+        "name": "Passing the Smell Test",
+        "location": "Mor Dhona",
+        "id": 66533,
+        "patch": 2.0,
+        "sort": 440,
+        "eventIcon": 71221,
+        "issuer": 1006542,
+        "target": 1006542,
+        "genre": 95,
+        "journal": [
+            "The adventurers of Revenant's Toll have an initiation rite involving smelly seedkin, a proud tradition that only Aganbold appears to know about.",
+            "Aganbold insists that in order to be recognized as an adventurer at Revenant's Toll, you must pass the test. This is news to you, but since your schedule allows it, go west into the Tangle and slay three morbols.",
+            "The ill-tempered seedkin are dead and Eorzea is better for it. Speak with Aganbold, who will no doubt be satisfied, and cease holding forth in a manner most theatrical.",
+            "Your hopes are dashed. If anything, Aganbold grows louder and more florid as he declares that you must now slay the mortal enemy of Revenant's Toll. Lurk at the ambush point and slay this Morbolger when it appears.",
+            "The Morbolger is dead, as is possibly your sense of smell. Lest your sensory sacrifices be in vain, report your success to Aganbold and bring this trial to an end.",
+            "Aganbold declares you one of the adventurers of Revenant's Toll, and returns to speaking in a normal tone of voice. Your relief outweighs any suspicion you may entertain that you have been cozened in some way..."
+        ],
+        "objectives": [
+            "Slay morbols.",
+            "Report to Aganbold.",
+            "Lurk at the ambush spot and slay the Morbolger.",
+            "Report to Aganbold."
+        ],
+        "dialogue": [
+            {
+                "name": "AGANBOLD",
+                "text": "I speak for the confraternity of 'venturers who call Revenant's Toll home. Take heed, <span class=\"highlight\">Forename</span>. We have a common foe! A hated enemy! A fierce adversary! And its name is─morbol!"
+            },
+            {
+                "name": "AGANBOLD",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Sister</span><span class=\"alternative\">Brother</span></span> <span class=\"highlight\">Forename</span>! You hate this enemy!? Does your heart yearn to slay it!? Then do so, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>! Go and slay three!"
+            },
+            {
+                "name": "AGANBOLD",
+                "text": "This is a rite of passage, <span class=\"alternative-container\"><span class=\"alternative\">Sister</span><span class=\"alternative\">Brother</span></span> <span class=\"highlight\">Forename</span>! If you're to be part of Revenant's Toll, we must know: do you ring true?"
+            },
+            {
+                "name": "AGANBOLD",
+                "text": "Hear ye, hear all! The morbols are slain...and <span class=\"highlight\">Forename</span> has passed the <span class=\"emphasis\">first</span> test of Revenant's Toll 'venturers! What, you didn't think it would just be <span class=\"emphasis\">one</span> test, did you?"
+            },
+            {
+                "name": "AGANBOLD",
+                "text": "The next trial is...by combat! Face our nemesis─the enemy to sing our threnody, the foe to tag our big toe! See you where I placed the mark on your map? Return alive, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>."
+            },
+            {
+                "name": "AGANBOLD",
+                "text": "Aaand the fearsome Morbolger falls to the newest brave of the Revenant's Toll 'Venturers' Guild─<span class=\"highlight\">Forename</span>! Welcome to the confraternity, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>!"
+            },
+            {
+                "name": "AGANBOLD",
+                "text": "Seriously, how'd you kill that thing? That Morbolger was something else. They say it started off as an escaped pet. Guess that's what you get when <span class=\"emphasis\">spoiled rotten</span> meets <span class=\"emphasis\">red in tooth and claw</span>."
+            },
+            {
+                "name": "AGANBOLD",
+                "text": "That thing slew more 'venturers with its charnel breath than a whole parade of gigas. Not that I wanted you dead exactly, you understand, but folk have been known not to come back."
+            },
+            {
+                "name": "AGANBOLD",
+                "text": "Well, that's all in the past, eh, <span class=\"alternative-container\"><span class=\"alternative\">Sister</span><span class=\"alternative\">Brother</span></span> <span class=\"highlight\">Forename</span>! You're one of the Revenant's Toll 'venturers now. Death to morbols!"
+            },
+            {
+                "name": "POP",
+                "text": "Your eyes water and your senses swim!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 5671,
+                    "one": 1
+                },
+                {
+                    "id": 5666,
+                    "one": 1
+                },
+                {
+                    "id": 5676,
+                    "one": 1
+                }
+            ],
+            "xp": 12190
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66535
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006542",
+            "obj": {
+                "i": 1006542,
+                "n": "Aganbold",
+                "l": 67,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "5671",
+            "obj": {
+                "i": 5671,
+                "n": "Savage Aim Materia III",
+                "l": 45,
+                "c": 20223,
+                "t": 58,
+                "materia": {
+                    "tier": 2,
+                    "value": 3,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5666",
+            "obj": {
+                "i": 5666,
+                "n": "Heavens' Eye Materia III",
+                "l": 45,
+                "c": 20223,
+                "t": 58,
+                "materia": {
+                    "tier": 2,
+                    "value": 3,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5676",
+            "obj": {
+                "i": 5676,
+                "n": "Savage Might Materia III",
+                "l": 45,
+                "c": 20223,
+                "t": 58,
+                "materia": {
+                    "tier": 2,
+                    "value": 3,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66535",
+            "obj": {
+                "i": 66535,
+                "n": "The Trickster of the Toll",
+                "g": 95,
+                "l": "Mor Dhona",
+                "s": 450
+            }
+        }
+    ]
+}

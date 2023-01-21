@@ -1,0 +1,161 @@
+{
+    "quest": {
+        "name": "Curiosity Killed the Coeurl",
+        "location": "Western La Noscea",
+        "id": 66827,
+        "patch": 2.1,
+        "sort": 150,
+        "eventIcon": 71221,
+        "issuer": 1005394,
+        "target": 1005394,
+        "involved": [
+            1005396
+        ],
+        "genre": 91,
+        "journal": [
+            "Skribyld requires assistance with an ongoing investigation.",
+            "Skribyld explains to you the growing threat of coeurls still roaming the lands around Aleport. Fearful for the local populace, Skribyld feels there is no other choice but to exterminate the remaining coeurls. You are to head to Skull Valley and carry out this grievous task.",
+            "You locate a coeurl, but find she has been slain by a pack of jackals, leaving behind a defenseless newborn. As you ponder what is to be done with the kitten, you are set upon by a pair of the grisly jackals. You defeat them with your usual flourish, but the question of how to care for the baby coeurl remains. Approach him with gentleness to see what comfort you might provide.",
+            "To your surprise, the baby coeurl immediately warms to your presence. Take him back to Skribyld and report your findings.",
+            "Although relieved to hear the coeurls running rampant in Aleport are no more, Skribyld is saddened by the loss of life and the now orphaned baby coeurl. Rather than leave him to fend for himself in the wilderness, Skribyld insists that you look after him, that he may grow to become a friend to man."
+        ],
+        "objectives": [
+            "Search for coeurls in Skull Valley.",
+            "Rescue the baby coeurl.",
+            "Report to Skribyld."
+        ],
+        "dialogue": [
+            {
+                "name": "SKRIBYLD",
+                "text": "Now then, we need to do something about the coeurls running wild in Vylbrand."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "Jackals have greatly reduced their numbers, but the presence of coeurls will upset the balance of predation in Aleport. Given time, they will establish a breeding population, and perhaps even prey upon more than just animals."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "A large number of merchants, sailors, and travelers pass through Aleport daily, meaning a great many people will be at risk unless we stop the coeurls here and now."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "As much as it pains me to say this, they must be done away with. I like this no more than you, but we Yellowjackets must put the safety of the people above all else."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "Reports indicate that coeurls were last sighted somewhere in Skull Valley. When you are ready, pray seek them out and do what needs be done."
+            },
+            {
+                "name": "COEURLCHILD",
+                "text": "Mew..."
+            },
+            {
+                "name": "COEURLCHILD",
+                "text": "Mew, mew!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The baby coeurl looks at you affectionately."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "Welcome back, adventurer. How did you fare against the coeurls in Skull Valley?"
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "I see... So this baby coeurl is all that remains. It is truly a shame it came to this."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "Most of the jackals died fighting against coeurls, but it would seem you slew the pirates' last litter while saving this one. Let us at least take solace in knowing the bloodshed has ended."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "There is a bit of good news to be had, however. I received word not long ago that a group of pirates related to our investigation was taken into custody."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "To instigate such carnage without scruple... The true animals in this case have been placed behind bars. With any luck, their leader and remaining members will join them shortly."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "But what to do with this baby coeurl? He seems quite fond of you, almost as if you were his <span class=\"alternative-container\"><span class=\"alternative\">mother</span><span class=\"alternative\">father</span></span>."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "Hmmm...the Yellowjackets are not fit to care for a coeurl, especially when full grown. But we cannot simply release him back into the wilds. I suppose there is only one option."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "Friend, I leave this baby coeurl in your capable hands. I'm sure you will do what's best for him."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 6180
+                }
+            ],
+            "xp": 2520
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66825
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005394",
+            "obj": {
+                "i": 1005394,
+                "n": "Skribyld",
+                "l": 33,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005396",
+            "obj": {
+                "i": 1005396,
+                "n": "Baby Coeurl",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "6180",
+            "obj": {
+                "i": 6180,
+                "n": "Coeurl Kitten",
+                "l": 1,
+                "c": 59452,
+                "t": 81
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66825",
+            "obj": {
+                "i": 66825,
+                "n": "Like Cats and Dogs",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 150
+            }
+        }
+    ]
+}

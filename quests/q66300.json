@@ -1,0 +1,108 @@
+{
+    "quest": {
+        "name": "Braving New Depths",
+        "location": "Western Thanalan",
+        "id": 66300,
+        "patch": 2.0,
+        "sort": 350,
+        "icon": 112009,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1005021,
+        "target": 1006220,
+        "genre": 93,
+        "journal": [
+            "Nedrick has a tantalizing bit of information to share with an adventurer.",
+            "Nedrick informs you that the Immortal Flames are recruiting adventurers to explore the Sunken Temple of Qarn. Travel to the entrance of the temple and seek out one Bibimu.",
+            "Bibimu has granted you permission to explore the Sunken Temple of Qarn. Steel yourself for the many challenges that lie in wait.<br><br>※The Sunken Temple of Qarn can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Speak with Bibimu at the Sunken Temple of Qarn."
+        ],
+        "dialogue": [
+            {
+                "name": "NEDRICK",
+                "text": "Hail, adventurer! You wear the expression of one who seeks new battlegrounds to hone your burgeoning skills. Do not ask how Nedrick knows─he simply knows!"
+            },
+            {
+                "name": "NEDRICK",
+                "text": "Now, tell me: are you perchance familiar with the Sunken Temple of Qarn? I will not hold it against you if you are not. The ruins only surfaced when the Calamity split the ground asunder, after all. Anyroad, it's a popular destination these days for adventurers looking for new frontiers to explore."
+            },
+            {
+                "name": "NEDRICK",
+                "text": "If you're keen to join them, why not make the journey to southern Thanalan and visit the temple for yourself? What with the many dangers that lurk within, the Immortal Flames are keeping close watch over the place, but a Lalafell by the name of Bibimu should be able to offer you passage."
+            },
+            {
+                "name": "BIBIMU",
+                "text": "Welcome to the Sunken Temple of Qarn─or what remains of it, at least. Used by ancient Belah'dians as a place to worship the sun goddess, Azeyma, much about the temple's history remains shrouded in mystery."
+            },
+            {
+                "name": "BIBIMU",
+                "text": "While we have sent a research team into the depths, I regret to say that the investigation proceeds at a snail's pace─that is, when it proceeds at all."
+            },
+            {
+                "name": "BIBIMU",
+                "text": "It would seem that the Belah'dians have rigged the temple with all manner of devious traps and snares─to deter temple robbers, no doubt."
+            },
+            {
+                "name": "BIBIMU",
+                "text": "We have recruited adventurers to assist in disarming the traps, but be forewarned: many who have entered have yet to return. Should you wish to brave the depths, we would welcome your aid."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have unlocked the Duty Finder! This feature allows you to undertake multiplayer duties without having to form a party on your own."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To bring up the Duty Finder interface, select <span class=\"highlight\">Duty Finder</span> under <span class=\"highlight\">Duty</span> from the <span class=\"highlight\">main menu</span>."
+            }
+        ],
+        "reward": {
+            "gil": 1518,
+            "instance": 9,
+            "xp": 9020
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005021",
+            "obj": {
+                "i": 1005021,
+                "n": "Nedrick Ironheart",
+                "l": 42,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006220",
+            "obj": {
+                "i": 1006220,
+                "n": "Bibimu",
+                "l": 45,
+                "q": 3
+            }
+        },
+        {
+            "type": "instance",
+            "id": "9",
+            "obj": {
+                "i": 9,
+                "n": "The Sunken Temple of Qarn",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 35,
+                "max_lvl": 37
+            }
+        }
+    ]
+}

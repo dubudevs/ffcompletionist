@@ -1,0 +1,201 @@
+{
+    "quest": {
+        "name": "Hatchling Humiliation",
+        "location": "Southern Thanalan",
+        "id": 66786,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "genre": 35,
+        "journal": [
+            "Yadovv Gah has no use for fair-weather allies.",
+            "The rising reputation of the Brotherhood has instilled doubt in the hearts of young Flamefangs, some of whom have made overtures. However, Yadovv Gah believes these hatchlings to be naught more than opportunists. The warrior bids you beat the would-be turncloaks senseless and douse them with water, thus subjecting them to the ultimate insult.",
+            "You faithfully carry out Yadovv Gah's instructions, leaving the naive hatchlings alive but shamed. Return and report that the deed is done.",
+            "Upon hearing how the hatchlings cried out in horror, Yadovv Gah makes no effort to conceal his delight. Though the experience has likely scarred the young Amalj'aa for life, the old warrior believes it to be a well-deserved punishment for their vacillation."
+        ],
+        "objectives": [
+            "Lie in wait for Zahar'ak hatchlings and douse them in water upon their defeat.",
+            "Report to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "With every innocent we save, with every unholy beacon we destroy, the Brotherhood's reputation grows, and that of the Flamefangs worsens."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "There is dissent even within their ranks─hatchlings who whisper of leaving Zahar'ak to pledge their spears to our cause."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Bah! Theirs is a fickle loyalty, borne on the winds of summer. They would betray us at first hardship."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "These fair-weather fools are a disgrace to all Amalj'aa. They must be taught the value of honor."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "The hatchlings expect to meet with one of the Brotherhood. Instead, they will meet with humiliation at your hands! Beat them senseless and douse them with water!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "The words of these hatchlings ring false in my ears. Show them the folly of their ways by subjecting them to the ultimate insult!"
+            },
+            {
+                "name": "AMALJAAENEMYA",
+                "text": "Not water! Anything but water!"
+            },
+            {
+                "name": "AMALJAAENEMYAB000",
+                "text": "H-How could you! Damn you!"
+            },
+            {
+                "name": "AMALJAAENEMYC",
+                "text": "You will regret this! I have powerful allies!"
+            },
+            {
+                "name": "AMALJAAENEMYD",
+                "text": "Forgive me! I beg of you, please!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Good, good! The hatchlings have learned what their vacillation has wrought. Perhaps now they understand what it means to be a warrior!"
+            },
+            {
+                "name": "POP",
+                "text": "Your quarry approaches..."
+            },
+            {
+                "name": "POP",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

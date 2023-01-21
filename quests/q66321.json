@@ -1,0 +1,84 @@
+{
+    "quest": {
+        "name": "Ziz Is So Ridiculous",
+        "location": "North Shroud",
+        "id": 66321,
+        "patch": 2.0,
+        "sort": 150,
+        "eventIcon": 71201,
+        "target": 1006241,
+        "genre": 0,
+        "journal": [
+            "Aideen has a proposal to make concerning your investigation.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Aideen at Fallgourd Float.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You have culled six ziz as suggested, and have little to show for it besides a rich crop of bites and gashes. Return to Fallgourd Float and report to Aideen.",
+            "Aideen strikes ziz from her list of suspects, and turns her attention once more towards the masked man and his winged eyeball."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Aideen at Fallgourd Float.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "AIDEEN",
+                "text": "So, here's what I know about the deaths: all the victims were found with their faces torn to shreds."
+            },
+            {
+                "name": "AIDEEN",
+                "text": "Among the local fauna, only the scalekin known as ziz could inflict such wounds. That's why some folk are pointing the finger at them."
+            },
+            {
+                "name": "AIDEEN",
+                "text": "I somehow doubt that the answer's that simple, but for the sake of thoroughness, we should look into it. Why don't you put down, say, six of the creatures, and see if you can find any proof connecting them to the deaths?"
+            },
+            {
+                "name": "DUMMY",
+                "text": "(Defeat six ziz.)"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "You've already seen to the ziz? Good work, adventurer! So, were you able to find aught to suggest that the creatures are our culprits?"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "...Nothing? Truth be told, even if there were proof, I wouldn't know what it looked like. Aaanyway, I believe we can safely strike ziz from our list of suspects. Which leaves us with...the masked man and his winged eyeball!"
+            }
+        ],
+        "reward": {
+            "xp": 12580
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66320
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006241",
+            "obj": {
+                "i": 1006241,
+                "n": "Aideen",
+                "l": 57,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66320",
+            "obj": {
+                "i": 66320,
+                "n": "Terror at Fallgourd",
+                "g": 0,
+                "l": "The Waking Sands",
+                "s": 149
+            }
+        }
+    ]
+}

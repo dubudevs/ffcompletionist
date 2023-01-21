@@ -1,0 +1,116 @@
+{
+    "quest": {
+        "name": "Neighborhood Squabbles",
+        "location": "The Dravanian Forelands",
+        "id": 67815,
+        "patch": 3.2,
+        "sort": 25,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 7,
+        "eventIcon": 71222,
+        "issuer": 1016803,
+        "target": 1016803,
+        "genre": 47,
+        "journal": [
+            "The Vath keeneye is deep in thought.<br>※The difficulty of this quest will be synced to your current level.",
+            "Silver dew smoke hovers in a thick cloud draped about Anyx Trine, and the dragons inhabiting the tower believe the Vath to be the perpetrators of this heinous crime. The Vath, however, suspect the true source of this smoke to be the censers that have recently been appearing across Gnath territory. The Vath keeneye believes there to be four new censers, having counted four distinct wisps of smoke from a distance. Make your way to the Smoldering Wastes, disable the Gnath censers, and help the Vath clear the air.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You disable all the Gnath censers. Return to Loth ast Vath and report to the Vath keeneye.",
+            "The Vath keeneye thanks you for your hard work. He is convinced the Vath can remain in the dragons' good graces now that the Gnath censers have been disabled."
+        ],
+        "objectives": [
+            "Disable the Gnath censers.",
+            "Report to the Vath keeneye."
+        ],
+        "dialogue": [
+            {
+                "name": "SEARCHER",
+                "text": "Adventurer, it is a good thing you are here. We have received complaints. The dragons say Anyx Trine and the area around it reek of burning silver dew."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "They are convinced we are the culprits. This does not make sense. We have not changed the amount of silver dew we burn. &lt;click&gt; &lt;click&gt; There is only one thing it can be. The Onemind─they are erecting new censers."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "The trust we have built between ourselves and the dragons is in much danger. We must prove to them our innocence! If we do not, they may be lost to us as clients forever."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Our scouts have observed four new pillars of smoke. They are undoubtedly the product of these censers. &lt;click&gt; &lt;click&gt; Please seek them out and put an end to their plots."
+            },
+            {
+                "name": "GNATHDRONEA02279",
+                "text": "(-Firedrone Scout-)&lt;click&gt; &lt;click&gt; Fleshling, how dare you lay your hands upon our precious censers!"
+            },
+            {
+                "name": "GNATHDRONEB02279",
+                "text": "(-Firedrone Scout-)&lt;click&gt; &lt;click&gt; You defy the will of the Overmind for the last time!"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "We know not how to thank you, kind hunter. The dragons will remain our friends and clients. Who knew maintaining good relations with your neighbors could be such hard work?"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "It is our hope that one day the Vath, the Gnath, and the dragons of Dravania will all find a way to live in harmony. &lt;click&gt; &lt;click&gt; Then there will be no need for anyone to suffer the stench of silver dew!"
+            }
+        ],
+        "reward": {
+            "gil": 517,
+            "reputation": 70,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21079
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016803",
+            "obj": {
+                "i": 1016803,
+                "n": "Vath Keeneye",
+                "l": 2000,
+                "q": 20
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21079",
+            "obj": {
+                "i": 21079,
+                "n": "Black Copper Gil",
+                "l": 1,
+                "c": 65056,
+                "t": 100
+            }
+        }
+    ]
+}

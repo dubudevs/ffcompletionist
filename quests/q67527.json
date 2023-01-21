@@ -1,0 +1,148 @@
+{
+    "quest": {
+        "name": "Environmental Unbalance",
+        "location": "Azys Lla",
+        "id": 67527,
+        "patch": 3.0,
+        "sort": 5913,
+        "eventIcon": 71221,
+        "issuer": 1012297,
+        "target": 1012297,
+        "genre": 102,
+        "journal": [
+            "The Allagan administrative node's warning lights are flashing.",
+            "The Allagan administrative node informs you that a large number of unidentified dragons have been detected nearby. These creatures pose a severe risk to the native fauna. It asks you to alleviate this risk by slaying four of the things.",
+            "You kill the beasts as instructed by the administrative node. Report your success to the system so that it may reevaluate the situation.",
+            "The administrative node indicates that although you have reduced the dragon population somewhat, their rate of reproduction is too high for this to be a viable long-term solution. The entire population of dragons must be eliminated to prevent further risk to the environment."
+        ],
+        "objectives": [
+            "Slay Meracydian brobinyaks.",
+            "Report to the administrative node."
+        ],
+        "dialogue": [
+            {
+                "name": "MANAGINGSYSTEM",
+                "text": "Warning. Warning. Sensors indicate a large number of unidentified dragons in the immediate vicinity. These creatures present a significant threat to the balance of the local environment. Creatures are designated as Meracydian brobinyaks."
+            },
+            {
+                "name": "MANAGINGSYSTEM",
+                "text": "All troops of the Allagan Empire, eliminate this threat. Each soldier is to exterminate four Meracydian brobinyaks."
+            },
+            {
+                "name": "MANAGINGSYSTEM",
+                "text": "The nearby unregistered dragons present an extreme threat to the biodiversity of the local environment. Please destroy four Meracydian brobinyaks."
+            },
+            {
+                "name": "MANAGINGSYSTEM",
+                "text": "&lt;blip&gt; &lt;blip&gt; Elimination of unregistered life-forms confirmed. Verifying population of brobinyaks. &lt;beep&gt; &lt;beep&gt; Brobinyak reproduction rate significantly higher than initially anticipated. Environmental unbalance unavoidable without complete annihilation of dragon population."
+            },
+            {
+                "name": "MANAGINGSYSTEM",
+                "text": "Unregistered life-forms are a direct violation of the Allagan Imperial Environmental Protection Act, the Pets and Domesticated Animals Preservation Statute, the Azys Lla Livestock Control Resolution, the Allagan Ecological Beautification Reform Treaty, the... &lt;buzzzzzz&gt;"
+            }
+        ],
+        "reward": {
+            "gil": 673,
+            "items": [
+                {
+                    "id": 12868
+                },
+                {
+                    "num": 3,
+                    "id": 9334,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4715,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4687,
+                    "one": 1
+                }
+            ],
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67203
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012297",
+            "obj": {
+                "i": 1012297,
+                "n": "Administrative Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "12868",
+            "obj": {
+                "i": 12868,
+                "n": "Stuffed Chysahl",
+                "l": 150,
+                "c": 24159,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "9334",
+            "obj": {
+                "i": 9334,
+                "n": "Haddock Dip",
+                "l": 90,
+                "c": 24258,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4715",
+            "obj": {
+                "i": 4715,
+                "n": "Trapper's Quiche",
+                "l": 50,
+                "c": 24252,
+                "t": 46,
+                "p": 376
+            }
+        },
+        {
+            "type": "item",
+            "id": "4687",
+            "obj": {
+                "i": 4687,
+                "n": "Stuffed Artichoke",
+                "l": 39,
+                "c": 24159,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67203",
+            "obj": {
+                "i": 67203,
+                "n": "Close Encounters of the VIth Kind",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 92
+            }
+        }
+    ]
+}

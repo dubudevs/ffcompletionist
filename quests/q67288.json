@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Flower Mill",
+        "location": "Coerthas Western Highlands",
+        "id": 67288,
+        "patch": 3.0,
+        "sort": 5101,
+        "eventIcon": 71221,
+        "issuer": 1013346,
+        "target": 1013346,
+        "genre": 94,
+        "journal": [
+            "The widow is gazing mournfully at the bunch of flowers she is carrying.",
+            "A well-mannered widow wants to pay her respects at her husband's grave, but is unable to make the long journey to Gorgagne Mills. Take her flowers to the farm and place them on her husband's grave for her.",
+            "You place the flowers on the grave. Return to the widow and let her know that her respects have been paid.",
+            "The widow tells you that her husband was once tutor to the heir to House Durendaire. The bright young boy was a true prodigy, but he went missing one day during an excursion and was never seen again. The man never recovered from this loss and left the employ of the house to become a farmer, starting the farm at Gorgagne Mills."
+        ],
+        "objectives": [
+            "Place the flowers on the grave at Gorgagne Mills.",
+            "Report to the widow."
+        ],
+        "dialogue": [
+            {
+                "name": "OLDWOMAN01752",
+                "text": "Oh, how do you do there, deary? Not many people have time to talk to someone like me. I wanted to go and visit my husband's grave, but my back is troubling me dreadfully."
+            },
+            {
+                "name": "OLDWOMAN01752",
+                "text": "Do you have the time to do a kindness for a weary old woman? It would mean the world to me if you could take these flowers to Gorgagne Mills and place them on my husband's grave."
+            },
+            {
+                "name": "OLDWOMAN01752",
+                "text": "If you have the time to do a kindness for a weary old woman, place those flowers on my husband's grave at Gorgagne Mills."
+            },
+            {
+                "name": "OLDWOMAN01752",
+                "text": "Thank you ever so much for that, deary. I'm sure my husband appreciated it. ...Well, that, or he's turning in his grave, shouting, “Do it yourself, you lazy hag!” Heh..."
+            },
+            {
+                "name": "OLDWOMAN01752",
+                "text": "He used to be a great knight under House Durendaire, you know. He was tutor to the house's heir─training him in the ways of combat. I was so proud of him having a job like that."
+            },
+            {
+                "name": "OLDWOMAN01752",
+                "text": "And the heir himself was ever such a bright young lad. A genius if ever there was one... But one day, the poor boy set out to see the realm...and didn't come back. We never saw him again..."
+            },
+            {
+                "name": "OLDWOMAN01752",
+                "text": "After that, my husband just wasn't the same... He ended up stepping down from his position and cutting his ties with the nobility. He became a farmer and started the farm at Gorgagne Mills. I think he just couldn't stand to be reminded of that boy every day he was at House Durendaire."
+            }
+        ],
+        "reward": {
+            "gil": 596,
+            "xp": 25200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67139
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013346",
+            "obj": {
+                "i": 1013346,
+                "n": "Well-mannered Widow",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67139",
+            "obj": {
+                "i": 67139,
+                "n": "Alphinaud's Way",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 24
+            }
+        }
+    ]
+}

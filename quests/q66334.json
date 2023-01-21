@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "A Leg Up",
+        "location": "North Shroud",
+        "id": 66334,
+        "patch": 2.0,
+        "sort": 280,
+        "eventIcon": 71221,
+        "issuer": 1006258,
+        "target": 1006258,
+        "genre": 92,
+        "journal": [
+            "Ademar could use a lift.",
+            "Ademar would explore for new ore veins, and seeks your aid in setting up ladders that will grant him passage to hard-to-reach places.",
+            "You have placed all three ladders as instructed. Inform Ademar that the deed is done.",
+            "Ore veins are quick to run dry, and prospectors must ever be on the lookout for their next quarry. Ademar digs on, hoping that the day he finds his fortune is not far off."
+        ],
+        "objectives": [
+            "Place ladders as directed by Ademar.",
+            "Report to Ademar."
+        ],
+        "dialogue": [
+            {
+                "name": "ADEMAR",
+                "text": "Mayhap ye can help me again, friend. I've got me eyes set on new veins of ore, but these legs o' mine aren't quite long enough to get me there."
+            },
+            {
+                "name": "ADEMAR",
+                "text": "Might ye be so kind as to set these ladders up for me? I'd do it meself, but these parts have been terribly dangerous o' late."
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: place ladders"
+            },
+            {
+                "name": "ADEMAR",
+                "text": "Truly, ye've done me well again. What with all those nasty critters lurkin' about, I never could have done the job meself."
+            },
+            {
+                "name": "ADEMAR",
+                "text": "I know not what manner of ore lies in wait, but mark me words: one day I'll strike it rich and leave this place behind fer good!"
+            }
+        ],
+        "reward": {
+            "gil": 1320,
+            "xp": 6290
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66333
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006258",
+            "obj": {
+                "i": 1006258,
+                "n": "Ademar",
+                "l": 57,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66333",
+            "obj": {
+                "i": 66333,
+                "n": "Digging in the Dark",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        }
+    ]
+}

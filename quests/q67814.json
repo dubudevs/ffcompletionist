@@ -1,0 +1,194 @@
+{
+    "quest": {
+        "name": "A Romp around the Foothills",
+        "location": "The Dravanian Forelands",
+        "id": 67814,
+        "patch": 3.2,
+        "sort": 24,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 7,
+        "eventIcon": 71222,
+        "issuer": 1016803,
+        "target": 1016803,
+        "involved": [
+            1016875,
+            1016876,
+            1016877,
+            1016878
+        ],
+        "genre": 47,
+        "journal": [
+            "The Vath keeneye needs you to search for a lost child.<br>※The difficulty of this quest will be synced to your current level.",
+            "One of the younglings of Anyx Trine has gone out to play but does not return, and an anxious mother dragon enlists the guild's services. While many Vath have been scouring the nearby lands to find this missing child, their latest encounter with a vicious monster has left all of them far too shaken up to press on in their search. The Vath keeneye turns to you once more, and asks that you look for the baby dragon in their stead.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "The mother dragon tells you that her son often plays in the Sohm Al foothills. As per her suggestion, go there and search for him.",
+            "You find the playful pup, who starts a game of tag. Follow him.",
+            "You catch up to the little dragon, who insists on continuing his little game. Pursue him.",
+            "You finally corner the dragon pup. He tells you he is tired and will now return home. Report to the mother at Anyx Trine.",
+            "You speak with the mother, who is relieved to have her son returned to her safe and sound. She thanks you for finding him, and tells you that he was ecstatic to have made acquaintance with those from outside of the tower. Return to Loth ast Vath and report to the Vath keeneye.",
+            "After learning of your success in retrieving and returning the naughty dragon pup, the Vath keeneye breathes a sigh of relief. He is extremely happy that he will not need to contend with any angry mother dragons in the near future."
+        ],
+        "objectives": [
+            "Speak with the mother dragon.",
+            "Search for the playful pup.",
+            "Follow the playful pup.",
+            "Catch the playful pup.",
+            "Report to the mother dragon.",
+            "Report to the Vath keeneye."
+        ],
+        "dialogue": [
+            {
+                "name": "SEARCHER",
+                "text": "Adventurer, we have an urgent request. &lt;click&gt; &lt;click&gt; A mother dragon cannot find her child. She begged our assistance with the search, and so we dispatched many of our brothers and sisters─but to no avail."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Several times we thought we had found him, only for our quarry to flee from sight. What is worse, our last brother to give chase found himself face-to-face with a gruesome monster! Now everyone is far too terrified to continue in this pursuit!"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "We need someone strong and swift like you, adventurer. &lt;click&gt; &lt;click&gt; The mother is most anxious to find her baby. Please go to Anyx Trine and speak with her."
+            },
+            {
+                "name": "DRAGON02278",
+                "text": "...Ah, another adventurer. As I have told the others, I desire the safe return of my son."
+            },
+            {
+                "name": "DRAGON02278",
+                "text": "He has a propensity to cause trouble, so I ask that you hurry. Sohm Al is his favorite place to play─I suggest starting there."
+            },
+            {
+                "name": "DRAGON02278",
+                "text": "I hope he has not strayed too far. He may think himself full grown, but there are beasts beyond even I would be loath to face."
+            },
+            {
+                "name": "DRAGONPUPPY02278",
+                "text": "Hehehe! Now they send <span class=\"alternative-container\"><span class=\"alternative\">Hyurs</span><span class=\"alternative\">Elezen</span><span class=\"alternative\">Lalafells</span><span class=\"alternative\">Miqo'te</span><span class=\"alternative\">Roegadyn</span><span class=\"alternative\">Au Ra</span><span class=\"alternative\">Hrothgar</span><span class=\"alternative\">Viera</span></span> to challenge this mighty king of dragons to a game of tag!? You will never catch me! Tee hee!"
+            },
+            {
+                "name": "DRAGONPUPPY02278",
+                "text": "Ahhh! You are really, really fast─but not fast enough!"
+            },
+            {
+                "name": "DRAGONPUPPY02278",
+                "text": "Nooo! <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span> got me! <br>Tee hee hee! You are so much more fun to play with than the Vath! So slow and clumsy─you can hear them coming from malms away!"
+            },
+            {
+                "name": "DRAGONPUPPY02278",
+                "text": "&lt;yawn&gt; All that flying made me tired! Time to return home now. Bye-bye, <span class=\"alternative-container\"><span class=\"alternative\">missus</span><span class=\"alternative\">mister</span></span>!"
+            },
+            {
+                "name": "DRAGON02278",
+                "text": "Soon after his return, my son fell fast asleep. I have not seen him so happy or exhausted in a long while."
+            },
+            {
+                "name": "DRAGON02278",
+                "text": "'Tis a rare experience for him to play with those not of our brood. My thanks to you."
+            },
+            {
+                "name": "DRAGON02278",
+                "text": "Pray extend my thanks to the Adventurers' Guild."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Where all fail, you stand triumphant! Thank you, great hunter! &lt;click&gt; &lt;click&gt; We shudder to think what would have become of us had we been unable to deliver the baby back to his mother."
+            }
+        ],
+        "reward": {
+            "gil": 642,
+            "reputation": 70,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21079
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016803",
+            "obj": {
+                "i": 1016803,
+                "n": "Vath Keeneye",
+                "l": 2000,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016875",
+            "obj": {
+                "i": 1016875,
+                "n": "Concerned Mother",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016876",
+            "obj": {
+                "i": 1016876,
+                "n": "Playful Pup",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016877",
+            "obj": {
+                "i": 1016877,
+                "n": "Playful Pup",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016878",
+            "obj": {
+                "i": 1016878,
+                "n": "Playful Pup",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21079",
+            "obj": {
+                "i": 21079,
+                "n": "Black Copper Gil",
+                "l": 1,
+                "c": 65056,
+                "t": 100
+            }
+        }
+    ]
+}

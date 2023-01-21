@@ -1,0 +1,236 @@
+{
+    "quest": {
+        "name": "What Poor People Think",
+        "location": "Eastern Thanalan",
+        "id": 66155,
+        "patch": 2.0,
+        "sort": 99,
+        "eventIcon": 71201,
+        "issuer": 1003929,
+        "target": 1003929,
+        "involved": [
+            1003964,
+            1003965,
+            1003966,
+            1003967
+        ],
+        "genre": 1,
+        "journal": [
+            "Isembard aims to turn his investigation to the commonfolk.",
+            "Isembard has told you of someone who knows the most about the commonfolk and their ways. Seek out Ungust and show him the note Isembard has given you.",
+            "Ungust tells you that the commonfolk are as vigilant a folk as any, and more than most. Speak with them yourself to see if he speaks the truth.",
+            "In their terror, the commonfolk tell you little of use. Go speak with Ungust once more.",
+            "Ungust seems unconcerned about the growing list of missing people around Drybone. Report back to Isembard to see if he has any ideas on how to proceed.",
+            "Isembard believes that perhaps the people are holding their tongues because they have come to trust only in their gods."
+        ],
+        "objectives": [
+            "Deliver Isembard's note to Ungust.",
+            "Speak with the commonfolk.",
+            "Speak with Ungust.",
+            "Report to Isembard."
+        ],
+        "dialogue": [
+            {
+                "name": "ISEMBARD",
+                "text": "What say we turn an eye to the commonfolk themselves? It may be among them that we find the reasons for these vanishings, Twelve forbid it be so."
+            },
+            {
+                "name": "ISEMBARD",
+                "text": "There is a merchant by the name of Ungust who was born here in Drybone and grew up in the Golden Bazaar. A...rough character, but he knows the people here better than anyone else."
+            },
+            {
+                "name": "ISEMBARD",
+                "text": "I'd wager he's at the inn, quaffing away the day's earnings. Here, I'll write a note for you to show him, else he's not like to speak to you."
+            },
+            {
+                "name": "UNGUST",
+                "text": "&lt;belch&gt; Well, gods be damned! You're that bloody adventurer who threatened me back in Ul'dah! What in the seven hells do you want with me now!?"
+            },
+            {
+                "name": "UNGUST",
+                "text": "“Dear friend... &lt;belch&gt; Missing people... Please help... &lt;hiccup&gt; Yours, Isembard.”"
+            },
+            {
+                "name": "UNGUST",
+                "text": "Folk around here are as wary as they come. They'll turn tail and run if you so much as pass wind nearby. Played them all for fools and coaxed some hard labor out of them, I did."
+            },
+            {
+                "name": "UNGUST",
+                "text": "If anything, they're even <span class=\"emphasis\">more</span> timid than before, what with all the disappearances. You can go talk to 'em yourself if you don't believe me."
+            },
+            {
+                "name": "UNGUST",
+                "text": "The folk around here are more timid now than ever before, what with all the disappearances. You can go talk to 'em yourself if you don't believe me."
+            },
+            {
+                "name": "POVERTY1",
+                "text": "Wh-What do you want from me!? I d–don't know anything, I swear! Please don't kill me!"
+            },
+            {
+                "name": "POVERTY2",
+                "text": "I've nothing to say but this: Thal take who─or <span class=\"emphasis\">what</span>ever's been feeding off us low folk."
+            },
+            {
+                "name": "POVERTY3",
+                "text": "P-Please, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>, just leave me be..."
+            },
+            {
+                "name": "UNGUST",
+                "text": "Just as I told you, wasn't it? The whole lot of them are terrified. &lt;hiccup&gt;"
+            },
+            {
+                "name": "UNGUST",
+                "text": "There's been talk of folk getting abducted, but if you ask me, they simply up and moved on to a better place. This place isn't exactly Costa del Sol, if you know what I'm saying."
+            },
+            {
+                "name": "ISEMBARD",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. Have you learned aught of import?"
+            },
+            {
+                "name": "ISEMBARD",
+                "text": "I see... I suppose I should have expected as much from Ungust. Well, another thought occurred to me in your absence. The commonfolk are nothing if not fervent in their religious beliefs. Perhaps if they speak freely to their gods, then the clergy may know something of use."
+            }
+        ],
+        "reward": {
+            "gil": 209,
+            "items": [
+                {
+                    "id": 2697,
+                    "one": 1
+                },
+                {
+                    "id": 2685,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 7560
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 18,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66154
+            ]
+        },
+        "next": [
+            66156
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003929",
+            "obj": {
+                "i": 1003929,
+                "n": "Isembard",
+                "l": 44,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003964",
+            "obj": {
+                "i": 1003964,
+                "n": "Ungust",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003965",
+            "obj": {
+                "i": 1003965,
+                "n": "Petrified Pauper",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003966",
+            "obj": {
+                "i": 1003966,
+                "n": "Devious Derelict",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003967",
+            "obj": {
+                "i": 1003967,
+                "n": "Hungry Beggar",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "2697",
+            "obj": {
+                "i": 2697,
+                "n": "Goatskin Pot Helm",
+                "l": 18,
+                "c": 40016,
+                "t": 34,
+                "p": 607
+            }
+        },
+        {
+            "type": "item",
+            "id": "2685",
+            "obj": {
+                "i": 2685,
+                "n": "Brass Circlet (Sunstone)",
+                "l": 18,
+                "c": 40582,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66154",
+            "obj": {
+                "i": 66154,
+                "n": "Unsolved Mystery",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 98
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66156",
+            "obj": {
+                "i": 66156,
+                "n": "A Proper Burial",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 100
+            }
+        }
+    ]
+}

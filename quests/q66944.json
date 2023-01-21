@@ -1,0 +1,211 @@
+{
+    "quest": {
+        "name": "Plunder Fire",
+        "location": "Western La Noscea",
+        "id": 66944,
+        "patch": 2.2,
+        "sort": 38,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005940,
+        "target": 1005940,
+        "involved": [
+            1005946
+        ],
+        "genre": 41,
+        "journal": [
+            "Seww would ask you to swim softly and carry a big stone.",
+            "Seww has word that the ill-gotten cargo of the Serpent Reavers is now vulnerable on the deck of their pirate vessel. In order to prevent the pillaged goods from supplying the bloody schemes of the Coral Tridents, the spawnling asks that you set fire to the pitch-caulked chests of the tattooed thugs. Borrow an elbst from his clutchmate Pahh, and use the small flint stone to strike sparks aboard the Reavers' ship.",
+            "You have ignited the plundered cargo of the Serpent Reavers. Return to Novv's Nursery and report to Seww.",
+            "Seww seems overjoyed at the thought of the Serpent Reavers' anguish, and commends you on your efforts to cut the Coral Tridents' supply lines. He is adamant that a continued campaign of such sabotage will do much to impede the warmongering Sahagin and their antagonistic actions."
+        ],
+        "objectives": [
+            "Burn plundered cargo on the deck of the pirate vessel.",
+            "Report to Seww."
+        ],
+        "dialogue": [
+            {
+                "name": "SEWW",
+                "text": "Pshhh... It appears that the Shhherpent Reavers have dragged shhheveral chests of pillaged goods onto the deck of their shhhip. The better to examine their haul? I know not."
+            },
+            {
+                "name": "SEWW",
+                "text": "What I do know is that thishhh plunder will directly shhhupply the war effortshhh of the Coral Tridentshhh. And that, we cannot allow."
+            },
+            {
+                "name": "SEWW",
+                "text": "It is fortunate, then, that they caulk their loot boxes with pitch─a highly flammable shhhubstance. One rarely has the need to fear open flames in the middle of the ocean, but, armed with a shhhimple flint shhhtone, the Reavers will shhhoon learn to fear you!<br>Have Pahh lend you a shhheabeast, and make your way to the pirates' shhhip as shhhoon as you are able."
+            },
+            {
+                "name": "SEWW",
+                "text": "Shhhetting fires on a shhhip will not go unnoticed, but the Reavers' plunder mushhht not reach the hands of the Tridentshhh. Take one of Pahh's elbshhht to the pirates' vessel, and make good use of that flint shhhtone!"
+            },
+            {
+                "name": "TAMER01376",
+                "text": "Pshhh... The Reavers' shhhip? It is ssswift, but my elbssst can catch her."
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to the pirate vessel?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... How the Reavers mushhht howl at the loss of their loot! You have done well, shhhorewalker."
+            },
+            {
+                "name": "SEWW",
+                "text": "Without the shhhupplies of their finless allies, the war effortshhh of the Tridentshhh will be shhhlowed to a crawl. And the less they are able to antagonize the shhhorewalkers, the better it will be for my people..."
+            },
+            {
+                "name": "POP",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "A sentry is summoned by the smoke and flames!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21077
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005940",
+            "obj": {
+                "i": 1005940,
+                "n": "Seww",
+                "l": 33,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21077",
+            "obj": {
+                "i": 21077,
+                "n": "Rainbowtide Psashp",
+                "l": 1,
+                "c": 65053,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

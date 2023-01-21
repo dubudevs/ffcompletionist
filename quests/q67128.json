@@ -1,0 +1,222 @@
+{
+    "quest": {
+        "name": "Meeting the Neighbors",
+        "location": "The Sea of Clouds",
+        "id": 67128,
+        "patch": 3.0,
+        "sort": 13,
+        "eventIcon": 71201,
+        "issuer": 1011952,
+        "target": 1012060,
+        "genre": 3,
+        "journal": [
+            "Lady Laniaitte is eager to get to more important business.",
+            "Instead of listening to her expound at greater length, Lady Laniaitte would rather have you gain firsthand experience of the Vanu Vanu. To that end, she sends you to speak with Ser Marielle, who could use your assistance.",
+            "Though Ser Marielle describes the Vanu as birdmen, she is quick to clarify that they are nothing like the Ixal. She marks several locations on your map and bids you stand watch in case the Vanu are nearby.",
+            "As expected, you spy several Vanu during your patrol and are forced to drive them off. Report all that has transpired to Ser Marielle.",
+            "Another day, another foiled attack by the Vanu. Ser Marielle is somewhat disappointed to learn that your patrol was not uneventful, but glad that you had no difficulty dispatching your foes."
+        ],
+        "objectives": [
+            "Speak with Marielle.",
+            "Keep watch for Vanu.",
+            "Report to Marielle."
+        ],
+        "dialogue": [
+            {
+                "name": "LANIAITTE",
+                "text": "Now that Emmanellain is out of harm's way, we are free to discuss matters of actual import, such as our struggles with the Vanu Vanu."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "We first encountered the Vanu several years ago, when we had just begun to explore the Sea of Clouds. After an exchange of pleasantries and gifts, we received permission to construct a permanent lookout post."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "There was peace between our peoples for half a year, until suddenly, for reasons unknown, their attitudes towards us changed. They began to attack our foraging parties without provocation, forcing us to rely more heavily on supplies flown in from Ishgard."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "...But words are no substitute for firsthand experience. Go and see Ser Marielle─she could use your assistance."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "Rather than listening to me go on and on, I think you would benefit from firsthand experience with the Vanu. Speak with Ser Marielle─she'll be expecting you."
+            },
+            {
+                "name": "MARIELLE",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I presume? Lady Laniaitte told me you were coming."
+            },
+            {
+                "name": "MARIELLE",
+                "text": "I hear tell you've never faced a Vanu before? Well, spend enough time on patrol and you're sure to cross paths with them eventually."
+            },
+            {
+                "name": "MARIELLE",
+                "text": "These birdmen are native to the floating isles. I say “birdmen,” but they're not at all like the Ixal─unless that Ixal's mother was a gigas."
+            },
+            {
+                "name": "MARIELLE",
+                "text": "Here, let me mark several locations on your map. If you discover any Vanu in these areas, kill or drive them away."
+            },
+            {
+                "name": "MARIELLE",
+                "text": "For all I know, you may find nothing. If so, let us consider it an auspicious omen..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You steel yourself for a mighty struggle, yet find no Vanu lying in wait."
+            },
+            {
+                "name": "MARIELLE",
+                "text": "Finished with your patrol? Anything to report?"
+            },
+            {
+                "name": "MARIELLE",
+                "text": "Heh, maybe it was too much to hope for a day without a skirmish. At least I can take solace in the fact that Halone has blessed us with a mighty ally."
+            }
+        ],
+        "reward": {
+            "gil": 658,
+            "items": [
+                {
+                    "id": 10824,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10908,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10950,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67127
+            ]
+        },
+        "next": [
+            67129,
+            67275
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011952",
+            "obj": {
+                "i": 1011952,
+                "n": "Laniaitte",
+                "l": 2100,
+                "q": 19
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012060",
+            "obj": {
+                "i": 1012060,
+                "n": "Marielle",
+                "l": 2100,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "10824",
+            "obj": {
+                "i": 10824,
+                "n": "Rainbow Slops of Aiming",
+                "l": 115,
+                "c": 45644,
+                "t": 36,
+                "p": 10929
+            }
+        },
+        {
+            "type": "item",
+            "id": "10908",
+            "obj": {
+                "i": 10908,
+                "n": "Rainbow Slops of Healing",
+                "l": 115,
+                "c": 45645,
+                "t": 36,
+                "p": 10929
+            }
+        },
+        {
+            "type": "item",
+            "id": "10950",
+            "obj": {
+                "i": 10950,
+                "n": "Rainbow Slops of Casting",
+                "l": 115,
+                "c": 45646,
+                "t": 36,
+                "p": 10929
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67127",
+            "obj": {
+                "i": 67127,
+                "n": "An Indispensable Ally",
+                "g": 3,
+                "l": "The Sea of Clouds",
+                "s": 12
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67129",
+            "obj": {
+                "i": 67129,
+                "n": "Sense of Urgency",
+                "g": 3,
+                "l": "The Sea of Clouds",
+                "s": 14
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67275",
+            "obj": {
+                "i": 67275,
+                "n": "Made to Order",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5002
+            }
+        }
+    ]
+}

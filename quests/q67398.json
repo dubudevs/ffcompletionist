@@ -1,0 +1,80 @@
+{
+    "quest": {
+        "name": "Give Back My Precious",
+        "location": "The Churning Mists",
+        "id": 67398,
+        "patch": 3.0,
+        "sort": 5527,
+        "eventIcon": 71221,
+        "issuer": 1013548,
+        "target": 1013548,
+        "genre": 100,
+        "journal": [
+            "This moogle has lost something precious to him.",
+            "This poor moogle's ring was picked up by a syricta after the moogle dropped it during a leisurely stroll through the House of Letters. Get the precious ring back from one of the vicious syrictae in the area. ",
+            "You have slain four elder syrictae, but none of them were the one that stole the poor moogle's ring. Slay more syrictae until you find the brazen beast that stole the ring.",
+            "The syricta gives up the lost ring after a fierce battle. Return it to the downcast moogle.",
+            "The moogle lights up when you present the ring to him─apparently it cost him every kupo nut he had."
+        ],
+        "objectives": [
+            "Retrieve the ring from an elder syricta.",
+            "Deliver the ring to the moogle."
+        ],
+        "dialogue": [
+            {
+                "name": "REMAINSMOG01862",
+                "text": "Oh no... I was just enjoying a leisurely stroll and I dropped my favorite ring. I saw one of those brutish-looking syrictae pick it up. Pretty please, could you get it back for me, kupo?"
+            },
+            {
+                "name": "REMAINSMOG01862",
+                "text": "I can't possibly hope to wrestle my ring from one of those syrictae by myself. You look like you can, though!"
+            },
+            {
+                "name": "REMAINSMOG01862",
+                "text": "I can't believe those syrictae have the nerve to just take whatever they find off the ground. Were you able to recover my ring, kupo?"
+            },
+            {
+                "name": "REMAINSMOG01862",
+                "text": "It's my ring! I knew you'd be able to get it back from those mean old syrictae. I'd never be able to forgive myself if I had lost this ring─it cost me my life savings of forty-two kupo nuts!"
+            }
+        ],
+        "reward": {
+            "gil": 460,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67171
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013548",
+            "obj": {
+                "i": 1013548,
+                "n": "Mewling Moogle",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        }
+    ]
+}

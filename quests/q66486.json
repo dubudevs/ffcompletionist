@@ -1,0 +1,108 @@
+{
+    "quest": {
+        "name": "Days of Brandewine and Behemoths",
+        "location": "Coerthas Central Highlands",
+        "id": 66486,
+        "patch": 2.0,
+        "sort": 400,
+        "eventIcon": 71221,
+        "issuer": 1006484,
+        "target": 1006484,
+        "involved": [
+            1006485
+        ],
+        "genre": 94,
+        "journal": [
+            "Meurise is concerned for a lost patrol fighting for warmth out in the howling blizzard.",
+            "Meurise receives word that a patrol from another camp huddles in the Behemoth's Dominion, their reckoning shredded by the howling winds and snow. Sending medics with litters is out of the question, but emergency brandewine may do the trick.",
+            "You give the bottle of brandewine to one of the men, who rapidly emerges from his stupor. He will see to the rest of the men, and use this lull in the storm to return to their camp. You must do likewise, lest you make the same mistake they did.",
+            "Thanks to the restorative brandewine you have conveyed, the patrol has made it back to camp without losing a single man. You have apparently saved their lives for better things─namely, dying in a much more painful way."
+        ],
+        "objectives": [
+            "Give the emergency brandewine to the lost dragoons.",
+            "Report to Meurise."
+        ],
+        "dialogue": [
+            {
+                "name": "MEURISE",
+                "text": "It's an ill night for patrols, in this blizzard. We had contact via linkpearl─one of the parties has managed to blunder into the Behemoth's Dominion, of all places."
+            },
+            {
+                "name": "MEURISE",
+                "text": "The cold and fatigue have robbed them of their mobility. I've heard it said you are as a snow wolf, feeling the cold far less than other <span class=\"alternative-container\"><span class=\"alternative\">women</span><span class=\"alternative\">men</span></span>. If you can get this brandewine to the patrol, you will save lives tonight."
+            },
+            {
+                "name": "MEURISE",
+                "text": "One more thing, adventurer. Do not presume to provoke the behemoth to battle. You will fail, and you will die. Rescue the dragoons─that is your task this day and naught more."
+            },
+            {
+                "name": "NPCA",
+                "text": "Wh–Wh–What're you doing here? You m–m–moon–brain, the behemoth walks nearby and we cannot move. Save yourself!"
+            },
+            {
+                "name": "NPCA",
+                "text": "Wh–What's this? Hold it against my lips, there─<span class=\"emphasis\">kuuuhk! Kuuuhk</span>! Amazing, I can feel my feet again. I believe─yes, I can walk again."
+            },
+            {
+                "name": "NPCA",
+                "text": "The rest of my patrol is just over there. I will administer the cure to them. The gale has died, and we shall find it short work making our way back. You have longer to go to Whitebrim Front before the winds return."
+            },
+            {
+                "name": "MEURISE",
+                "text": "A snow wolf indeed. You will not be needing the brandewine tonight, I believe. Potent as it is, it extracts a price..."
+            },
+            {
+                "name": "MEURISE",
+                "text": "The patrol is no doubt back at camp by now. They have had a close call, those men. A terrible shame it would have been had they been slain by a common thing like a behemoth, when they are meant to face dragons..."
+            }
+        ],
+        "reward": {
+            "gil": 1448,
+            "xp": 11270
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 40,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66477
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006484",
+            "obj": {
+                "i": 1006484,
+                "n": "Meurise",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006485",
+            "obj": {
+                "i": 1006485,
+                "n": "Stranded Knight",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66477",
+            "obj": {
+                "i": 66477,
+                "n": "The Heretic among Us",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 210
+            }
+        }
+    ]
+}

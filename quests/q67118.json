@@ -1,0 +1,757 @@
+{
+    "quest": {
+        "name": "The Better Half",
+        "location": "Ishgard",
+        "id": 67118,
+        "patch": 3.0,
+        "sort": 3,
+        "eventIcon": 71201,
+        "issuer": 1012323,
+        "target": 1013036,
+        "involved": [
+            1011192,
+            1012324,
+            1012325,
+            1012327,
+            1012328,
+            1012329,
+            1013033,
+            1013034,
+            1013035,
+            1013039,
+            1013040,
+            1013041,
+            1013383
+        ],
+        "genre": 3,
+        "journal": [
+            "Your guide is eager to continue your tour of Ishgard.",
+            "While you are discussing where next to visit, a passerby jeers at Alphinaud, challenging him to visit the Forgotten Knight─a local tavern, by the sound of things─if he wishes to see how the “better half” live. His interest piqued, Alphinaud decides to accept the man's invitation, hoping to learn something of recent events. Speak with Gibrillont, the proprietor of the establishment, and see if there is merit to Alphinaud's plan.",
+            "The Forgotten Knight serves two very different classes of customer: the relatively affluent knights and merchants who frequent the upper floor, and the lowborn residents of the Brume who prefer the more affordable fare served downstairs. It would seem the stark division between these two clienteles reflects the divisions beyond the tavern's walls─as the differing experiences of the high- and lowborn during the recent wyvern attack make plain. While the Pillars' defenses were fortified, the Brume and its residents were left to bear the brunt of the Dravanians' fury. A troubling thought indeed... Sensing that the tavern might be just the place to glean useful information─perhaps even some word of the missing Scions' whereabouts─Tataru proposes that she stay behind and ingratiate herself with the regulars. Leave your gregarious friend to her gossip, and return with Alphinaud to Fortemps Manor and the count, who is doubtless eager to hear your impressions of the city.",
+            "The scars left by the recent Dravanian attack have not escaped Alphinaud's notice, and Edmont admits that there is much work yet to be done. Sensing the implication, Alphinaud offers the Scions' services, and the count hesitantly but graciously accepts─unlike his two sons, who greet your proposal with a mixture of indignation and mirth. Scolding them for their impropriety, he turns to you once more, and asks that you lend them each a helping hand with their duties.",
+            "The count has taken a tremendous risk in granting the Scions his protection, and only by publicly serving Ishgard can you hope to silence his opponents' objections. However, Alphinaud believes that this arrangement may yet benefit the Scions in unexpected ways, such as inviting contact with people outside Ishgard who might feasibly know something of your missing comrades' whereabouts. While he and Tataru focus their efforts on that task, he implores you to see to the young lords' needs, reaffirming that your efforts to further the goals of others will inevitably further the goals of the Scions."
+        ],
+        "objectives": [
+            "Speak with Gibrillont in the Forgotten Knight.",
+            "Speak with Edmont in Fortemps Manor.",
+            "Speak with Alphinaud."
+        ],
+        "dialogue": [
+            {
+                "name": "BUTLER01582",
+                "text": "As for our next destination..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Mayhap we should decide together. What else can be found nearby?"
+            },
+            {
+                "name": "BUTLER01582",
+                "text": "The Skysteel Manufactory stands to the west. There our engineers conceive and manufacture weapons for use against the dragons. The Holy Stables, where chocobos are trained for war, also lie in that direction."
+            },
+            {
+                "name": "BUTLER01582",
+                "text": "To the north and east can be found the Congregation of Our Knights Most Heavenly, while to the south and east...well... 'Twould be best if you avoided that area."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "And why is that?"
+            },
+            {
+                "name": "BUTLER01582",
+                "text": "I...I fear our knights may not be able to ensure your safety in the lowest levels, Master Alphinaud..."
+            },
+            {
+                "name": "THEPOOR01582",
+                "text": "(-???-)Hold yer nose when ye pass the Brume, little lord! A delicate flower like you is like to wilt in our fumes!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You misjudge me, sir, for I am no lord but a humble traveler."
+            },
+            {
+                "name": "THEPOOR01582",
+                "text": "Oh, come to see the sights, have ye? Take a turn down the Hoplon and gawp at the statues?"
+            },
+            {
+                "name": "THEPOOR01582",
+                "text": "Bwahaha! Well, if ye've a mind to learn how the better half live, come and have a drink at the Forgotten Knight─if yer nursemaid'll let ye!"
+            },
+            {
+                "name": "BUTLER01582",
+                "text": "My humblest apologies, Master Alphinaud. Pray pay that drunken lout no mind."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Oh, but I must. It would not do to refuse such a heartfelt invitation. Yes, I simply <span class=\"emphasis\">must</span> see this Forgotten Knight for myself."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I trust you see the wisdom in this, <span class=\"highlight\">Forename</span>. There are few sources of information more abundant than a bustling local hostelry."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Not that I expect to hear any news of our missing comrades just yet. Nevertheless, who can say what we might learn of recent events?"
+            },
+            {
+                "name": "TATARU",
+                "text": "Then I'm coming too!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "If you have attuned to the aetheryte then let us move on. I am eager to see more of the city."
+            },
+            {
+                "name": "TATARU",
+                "text": "You don't think it's anything serious, do you? The tingling, I mean. There couldn't be something wrong with my anima, could there...?"
+            },
+            {
+                "name": "EDMONT",
+                "text": "Back so soon from your excursion? I confess, I thought you would want to see more of the city."
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "I suppose your presence here will serve to make us seem that much more mysterious by association. And few things are more attractive than an air of mystery..."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "You are, of course, free to come and go as you please. Do let us know if you require anything."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Mayhap one drink would be... No, no, I mustn't."
+            },
+            {
+                "name": "TATARU",
+                "text": "Hm. Hmmm... Yes, I've got a good feeling about this place."
+            },
+            {
+                "name": "BUTLER01582",
+                "text": "Once more, I must urge you to reconsider. There are several...gentlemen who appear less than pleased by our presence."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Must say, this is rather unusual. Not just one, but a whole party of fresh new faces in my tavern."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We but recently arrived in Ishgard and are eager to acquaint ourselves with her more notable establishments, Master...?"
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Gibrillont─just Gibrillont'll do. And I'm flattered you think so highly of my establishment. Can't promise it'll live up to your expectations, but if it's decent food and drink you're after, you could do much worse."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Judging by the number of customers I see, I suspect your fare is rather more than decent. Speaking of your clientele...I could not help but note a difference between those who frequent the upper and lower floors..."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Spotted that, did you? Aye, up here you'll find peddlers, porters, off-duty knights, and so forth, dropping in on their way to or from somewhere else. Regulars maybe, but not locals."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Folks from the Brume, they tend to congregate downstairs, where we offer a menu more suited to their tastes. Cheaper meals, stronger spirits─all quality, mind, but not the sort of stuff I'd recommend to yourselves."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You speak of the lowest levels, yes? Why do they call them the Brume, if I may ask?"
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "'Cause when the weather's foul and the brume rolls in thick, it's the poor sods living at the bottom who have to deal with it."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I see..."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "...And it's not just the weather. When the wyverns broke through the wards and started tearing up the city, it was the Brume that got the worst of it, while the Pillars enjoyed the protection of the High Houses and the Temple Knights."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "More'n a few people are still sore about that, mind, which is why, considering your present company, I'd recommend you keep your wits about you if you mean to go below─and something sharp in your boot, just to be sure."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "...I shall take your words to heart, sir."
+            },
+            {
+                "name": "BUTLER01582",
+                "text": "Master Alphinaud, I think it would be best if we returned to Fortemps Manor."
+            },
+            {
+                "name": "TATARU",
+                "text": "You go on ahead without me. I'm staying for a drink or two!"
+            },
+            {
+                "name": "BUTLER01582",
+                "text": "M-Miss Tataru...I am afraid that is out of the question! My lord the count would never forgive me if I abandoned one of his charges in such a place─least of all a <span class=\"emphasis\">maiden</span>!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "What are you up to, Tataru?"
+            },
+            {
+                "name": "TATARU",
+                "text": "Look around, Alphinaud─this tavern is full of people whose business regularly takes them beyond the Gates of Judgement."
+            },
+            {
+                "name": "TATARU",
+                "text": "With friends like that, I could practically live here and wait for the newest gossip to come to me."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Indeed. But will you be safe here on your own?"
+            },
+            {
+                "name": "TATARU",
+                "text": "Oh please─do you know how often I looked after the Waking Sands and the Rising Stones by myself? If I had a gil for every unwelcome caller I've driven away, I'd be rich beyond my wildest dreams! I'll be fiiine!"
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Not that I doubt the lady's knack for fending off unwanted advances, but I'll be damned if I'm going to let anyone lay an unwelcome hand on a patron in my establishment."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "That settles it, then. Tataru, <span class=\"highlight\">Forename</span> and I shall return to the manor for now. Contact me by linkpearl if you require assistance."
+            },
+            {
+                "name": "TATARU",
+                "text": "I will!"
+            },
+            {
+                "name": "TATARU",
+                "text": "Don't you worry, <span class=\"highlight\">Forename</span>─if there's any news of our friends, I'll find it!"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "How do you find our city? Beautiful, is it not?"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Is that...? &lt;sniff&gt; &lt;sniff&gt; Aye, it <span class=\"emphasis\">is</span> the smell of mead! Newly come and already sampling the delights of our taverns! Oh yes, I like you. I like you a lot."
+            },
+            {
+                "name": "HONOROIT",
+                "text": "Ah, pray do not concern yourself with me, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>."
+            },
+            {
+                "name": "EDMONT",
+                "text": "Tell us, then, Master Alphinaud─does Ishgard meet with your expectations?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "That which I imagined pales in comparison to the reality. I felt the weight of a thousand years of history with every step I took...and when those steps took me past the scars left by the wyverns in Foundation, I understood how easily that history could end in tragedy."
+            },
+            {
+                "name": "EDMONT",
+                "text": "The attack was devastating─the casualties...unspeakable. The wyverns did not discriminate. Unarmed men and women...even children were given no quarter."
+            },
+            {
+                "name": "EDMONT",
+                "text": "Ser Aymeric has ordered his knights to strengthen our defenses, and each house has been called upon to lend what support it can. There is much to be done, yet alas, able-bodied men and women are in short supply."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Mayhap we could be of assistance, my lord? After all you have done for us, we would welcome any opportunity to repay your kindness."
+            },
+            {
+                "name": "EDMONT",
+                "text": "That is...a most generous offer, Master Alphinaud."
+            },
+            {
+                "name": "EDMONT",
+                "text": "You are guests in my home, to whom I have extended my hospitality without obligation, let, or lien. Nevertheless, Ishgard's need is great, and if you are willing to aid our cause, I cannot well refuse."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Good. What would you ask of us?"
+            },
+            {
+                "name": "EDMONT",
+                "text": "From what I have heard, you are an intelligent and persuasive young man. Such qualities may prove most useful to us in our efforts to secure provisions from foreign sources─identifying trustworthy suppliers, brokering contracts, and so on."
+            },
+            {
+                "name": "EDMONT",
+                "text": "As for you, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>... I could ask for no one better than a storied veteran such as yourself─a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> with the capacity to act swiftly and decisively when needed─to aid Artoirel and Emmanellain in their duties."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I beg your pardon!?"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I am more than capable of carrying out my duty by myself. I have no need of our <span class=\"emphasis\">honored</span> guest's assistance!"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Now, now, be reasonable, Brother. What manner of fool would say no when a famous hero offered to do his work?"
+            },
+            {
+                "name": "EDMONT",
+                "text": "Hold your tongues! By the Fury...the two of you <span class=\"emphasis\">will</span> conduct yourselves with dignity befitting your station and show <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span> the respect <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> deserves!"
+            },
+            {
+                "name": "EDMONT",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span><span class=\"alternative\">Lest you forget, you speak of a  who has bested <span class=\"emphasis\">two</span> imperial legatuses</span><span class=\"alternative\">This is the  who slew Gaius van Baelsar</span></span> and some half-dozen primals besides! <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span> is not here to steal your glory or serve as your errand <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>!"
+            },
+            {
+                "name": "EDMONT",
+                "text": "...If you can pardon them their impropriety, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I should be much obliged if you would lend my sons a helping hand."
+            },
+            {
+                "name": "EDMONT",
+                "text": "My thanks. Fury willing, they may even learn something from you."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Forgive me, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. I was...unprepared for my father's decision."
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "I look forward to working with you, <span class=\"highlight\">Forename</span>! It's going to be grand!"
+            },
+            {
+                "name": "HONOROIT",
+                "text": "(Please look after Lord Emmanellain, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>...)"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "'Twould seem we shall not want for employment over the coming days─though that was never in doubt."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Our host's initial reluctance to accept our offer of aid was solely for appearance's sake. In truth, he is glad of this opportunity to put us to work."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "By granting us patronage, House Fortemps has taken a tremendous risk. Until we demonstrate our worth to Ishgard at large, the count will face considerable opposition from his peers in matters great and small."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "And so he would have us publicly serve Ishgard─whilst simultaneously keeping his sons in check."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "'Tis an arrangement we may benefit from in unexpected ways. My own duties may feasibly bring me into contact with people who know something of our missing comrades."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "And as you go about helping our two lords with their various responsibilities, you will inevitably make new acquaintances in Ishgard, mayhap even new allies. Yes...the more I think on it, the more confident I am that by furthering their goals, we shall further our own."
+            }
+        ],
+        "reward": {
+            "gil": 517,
+            "items": [
+                {
+                    "id": 10796,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10880,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10922,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67117
+            ]
+        },
+        "next": [
+            67119,
+            67126,
+            67262,
+            67263,
+            67264,
+            67265,
+            67266,
+            67267,
+            67631,
+            67632,
+            67633,
+            67634,
+            67642
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012323",
+            "obj": {
+                "i": 1012323,
+                "n": "House Fortemps Manservant",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013036",
+            "obj": {
+                "i": 1013036,
+                "n": "Alphinaud",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011192",
+            "obj": {
+                "i": 1011192,
+                "n": "Gibrillont",
+                "l": 2300,
+                "q": 10,
+                "t": "Forgotten Knight Proprietor"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012324",
+            "obj": {
+                "i": 1012324,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012325",
+            "obj": {
+                "i": 1012325,
+                "n": "Tataru",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012327",
+            "obj": {
+                "i": 1012327,
+                "n": "Honoroit",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012328",
+            "obj": {
+                "i": 1012328,
+                "n": "Artoirel",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012329",
+            "obj": {
+                "i": 1012329,
+                "n": "Emmanellain",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013033",
+            "obj": {
+                "i": 1013033,
+                "n": "Count Edmont De Fortemps",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013034",
+            "obj": {
+                "i": 1013034,
+                "n": "Artoirel",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013035",
+            "obj": {
+                "i": 1013035,
+                "n": "Emmanellain",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013039",
+            "obj": {
+                "i": 1013039,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013040",
+            "obj": {
+                "i": 1013040,
+                "n": "Tataru",
+                "l": 2300,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013041",
+            "obj": {
+                "i": 1013041,
+                "n": "House Fortemps Manservant",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013383",
+            "obj": {
+                "i": 1013383,
+                "n": "Honoroit",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10796",
+            "obj": {
+                "i": 10796,
+                "n": "Rainbow Cap of Aiming",
+                "l": 115,
+                "c": 41260,
+                "t": 34,
+                "p": 14345
+            }
+        },
+        {
+            "type": "item",
+            "id": "10880",
+            "obj": {
+                "i": 10880,
+                "n": "Rainbow Cap of Healing",
+                "l": 115,
+                "c": 41261,
+                "t": 34,
+                "p": 14345
+            }
+        },
+        {
+            "type": "item",
+            "id": "10922",
+            "obj": {
+                "i": 10922,
+                "n": "Rainbow Cap of Casting",
+                "l": 115,
+                "c": 41262,
+                "t": 34,
+                "p": 14345
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67117",
+            "obj": {
+                "i": 67117,
+                "n": "Taking in the Sights",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67119",
+            "obj": {
+                "i": 67119,
+                "n": "Over the Wall",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67126",
+            "obj": {
+                "i": 67126,
+                "n": "Onwards and Upwards",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 11
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67262",
+            "obj": {
+                "i": 67262,
+                "n": "Remembering Ishgard",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5001
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67263",
+            "obj": {
+                "i": 67263,
+                "n": "The Best Laid Plans",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5002
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67264",
+            "obj": {
+                "i": 67264,
+                "n": "Drinking the Pain Away",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5003
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67265",
+            "obj": {
+                "i": 67265,
+                "n": "Landing a Stable Job",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5004
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67266",
+            "obj": {
+                "i": 67266,
+                "n": "Cold Days, Colder Nights",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5005
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67267",
+            "obj": {
+                "i": 67267,
+                "n": "Dinner for Four",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5006
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67631",
+            "obj": {
+                "i": 67631,
+                "n": "Inscrutable Tastes",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 15001,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67632",
+            "obj": {
+                "i": 67632,
+                "n": "Beloved of the Builder",
+                "g": 95,
+                "l": "Mor Dhona",
+                "s": 550,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67633",
+            "obj": {
+                "i": 67633,
+                "n": "No Longer a Collectable",
+                "g": 95,
+                "l": "Mor Dhona",
+                "s": 560,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67634",
+            "obj": {
+                "i": 67634,
+                "n": "Go West, Craftsman",
+                "g": 95,
+                "l": "Mor Dhona",
+                "s": 600,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67642",
+            "obj": {
+                "i": 67642,
+                "n": "Leves of Ishgard",
+                "g": 0,
+                "l": "Foundation",
+                "s": 0,
+                "f": 1
+            }
+        }
+    ]
+}

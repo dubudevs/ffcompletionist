@@ -1,0 +1,519 @@
+{
+    "quest": {
+        "name": "Not without Incident",
+        "location": "Mor Dhona",
+        "id": 68005,
+        "patch": 4.0,
+        "sort": 240,
+        "icon": 100644,
+        "eventIcon": 71201,
+        "issuer": 1020436,
+        "target": 1020454,
+        "involved": [
+            1020014,
+            1020396,
+            1020439,
+            1020441,
+            1020442,
+            1020443,
+            1020444,
+            1020445,
+            1020447,
+            1020450,
+            1020451,
+            1020452,
+            1020453,
+            1021740,
+            1023076
+        ],
+        "genre": 6,
+        "journal": [
+            "Lyse thinks it is time you returned to Limsa Lominsa.",
+            "Having spoken with the Doman refugees of Revenant's Toll, you have gained a greater understanding of their homeland, as has Lyse. Duly educated, you depart for Limsa Lominsa, where Captain Carvallain and the crew of the <span class=\"emphasis\">Misery</span> are preparing for your journey to the other side of the world.",
+            "Returned from their various errands, Alphinaud and the others may board the ship at any time. As is all too often the case, however, Alphinaud elects to let you “do the honors” and inform the deckhand of you and your comrades' readiness.",
+            "Before you and Alisaie board the <span class=\"emphasis\">Misery</span>, Urianger arrives bearing a cryptic warning and a practical gift: a rapier made for your young companion. Moved by the gesture, her steely demeanor softens, and you sense that the rift between the two may have finally begun to heal. Alas, there is no time for further conversation, as Carvallain declares that it is time to depart.<br><br>The voyage is smooth and almost entirely uneventful... <span class=\"emphasis\">Almost.</span> On a day like any other, while conversing with your comrades and the captain below deck, the ship lurches violently. Moments later a deckhand barges into the room, speaking of strange things in the water, and a mysterious force dragging the <span class=\"emphasis\">Misery</span> off course. With a sigh, Carvallain goes to investigate─but not before asking you to join him.",
+            "Though he puts no stock in Sea Wolf superstitions and faerie tales, Carvallain explains to you that the “things” in the water his sailors refuse to name are the souls of deceased women said to lure sailors to their deaths. Though the very thought is enough to cause Alphinaud considerable distress, Alisaie flatly concludes that whatever the cause of your troubles, you have no recourse but to surrender to the current, let it take the <span class=\"emphasis\">Misery</span> where it will, and deal with whatever you find there. Carvallain duly agrees, and the matter is settled.<br><br>Once you arrive at your unknown destination, most will stay with the ship, but you and the fellow adventurers that you had the wisdom and foresight to invite to accompany you on this long journey to the Far East will proceed ashore and seek out the fiend responsible for your troubles.<br><br>※The Sirensong Sea can be accessed via the Duty Finder.",
+            "With the demise of the mysterious being the sailors call Lorelei, the clouds part, leaving you and your comrades free to resume your journey aboard the <span class=\"emphasis\">Misery</span>. But what wonders await you in distant Kugane?",
+            "As the ship sails into port, you and your comrades line the deck, marveling at the many colors of the city. From the corner of your eye you spy Lyse, standing apart from the others, her lips moving silently. A prayer or an oath, perhaps. But it is not for you to know...",
+            "And so you disembark, strangers in a strange land. What wonders and perils await you in this island nation on the far side of the world?"
+        ],
+        "objectives": [
+            "Speak with Alphinaud at the ferry docks.",
+            "Speak with the Kraken's Arms deckhand.",
+            "Speak with Carvallain.",
+            "Enter the Sirensong Sea.",
+            "Speak with Carvallain."
+        ],
+        "dialogue": [
+            {
+                "name": "LYSE",
+                "text": "Right. No point waiting around here, is there?"
+            },
+            {
+                "name": "LYSE",
+                "text": "We should head back to Limsa Lominsa. Alphinaud said to meet at the ferry docks, I think?"
+            },
+            {
+                "name": "LYSE",
+                "text": "It's times like this I'm glad we've got Tataru taking care of business."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "\"An army marches on its stomach.“ Tataru took that lesson to heart."
+            },
+            {
+                "name": "TATARU",
+                "text": "A surfeit of sumptuous foods, wondrous sundries, plenty of clean undergarments... Yes, I do believe we have everything we need for a lengthy voyage!"
+            },
+            {
+                "name": "KRAKENSDECKHAND",
+                "text": "The <span class=\"emphasis\">Misery</span> is the finest ship ever to sail the Rhotano, and I'll not hear any man say otherwise!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You are returned, <span class=\"highlight\">Forename</span>. I trust you learned much from our Doman friends in Revenant's Toll."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I am eager to hear all─though that can wait until we have left port. We will have time enough to talk on our journey to Kugane."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Our spice-trading friends have completed their preparations. Assuming you have completed yours, you may inform the deckhand that we are ready to depart."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Something left undone, my friend? If not, let us be off."
+            },
+            {
+                "name": "KRAKENSDECKHAND",
+                "text": "All set, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>? I'll see you to the ship if so."
+            },
+            {
+                "name": "EVENTAREA",
+                "text": "Board the <span class=\"emphasis\">Misery</span>?"
+            },
+            {
+                "name": "KRAKENSDECKHAND",
+                "text": "How in the blue blazes did you─ Ugh, naught for it but to get our fastest ship to take you to the <span class=\"emphasis\">Misery</span>."
+            },
+            {
+                "name": "KRAKENSDECKHAND",
+                "text": "This ain't right. This ain't right at all."
+            },
+            {
+                "name": "CARVALLAIN",
+                "text": "Hmm... Odd. Most odd."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Well? Do you have any idea what's going on?"
+            },
+            {
+                "name": "CARVALLAIN",
+                "text": "...No. As the man said, despite the absence of wind and current, the <span class=\"emphasis\">Misery</span> is somehow being pulled off course."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Well, why not fire up the ceruleum engines you have hidden below?"
+            },
+            {
+                "name": "CARVALLAIN",
+                "text": "An excellent suggestion based on knowledge you should not have. Alas, our engines appear to be malfunctioning for reasons that escape my engineers at present..."
+            },
+            {
+                "name": "KRAKENSDECKHAND",
+                "text": "I'm telling you, Captain, it's them...<span class=\"emphasis\">things</span> the lads saw..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "\"Things“? I don't suppose I could convince you to attempt something more descriptive? An adjective, for example."
+            },
+            {
+                "name": "CARVALLAIN",
+                "text": "Sea Wolf superstitions and faerie tales, naught more... But if you must know, the “things” which he is so reticent to name are the souls of deceased women said to lure sailors to their deaths."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "P-P-Preposterous!"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Yeees, indeed... If it is neither the sea nor the weather which is responsible, then it is probably a predatory entity of some sort─perhaps a siren or some such."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "For all we know, it could be a fellow “spice trader” employing magicks to seize and plunder passing vessels."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Regardless, we have but one recourse: to let the current take us where it will, and deal with whatever we find there."
+            },
+            {
+                "name": "CARVALLAIN",
+                "text": "What a thoroughly pragmatic suggestion. Oh, I am beginning to like you, girl."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I assure you the feeling is not mutual. Once we arrive at our destination, be it a vessel or an island or something else, Lyse and I will remain with the ship to defend it in case of attack. <span class=\"highlight\">Forename</span>, I believe you would be the ideal choice to venture forth and deal with the cause of our troubles."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Then it is settled! I know not what awaits us, but it will rue the day it reeled us in!"
+            },
+            {
+                "name": "LYSE",
+                "text": "I'll make sure Tataru stays below deck until we know it's safe."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Alphinaud was terrified of ghost stories as a child. I'm glad to see that some things never change."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Wh-What? Why are you looking at me like that? I am calm and collected as ever! Carry on!"
+            },
+            {
+                "name": "KRAKENSDECKHAND",
+                "text": "I'm not saying that I believe beyond a shadow of a doubt that vengeful spirits are plotting our demise at this very moment! I'm just saying we cannot discount the possibility!"
+            },
+            {
+                "name": "CARVALLAIN",
+                "text": "(The fiery one─Alisaie, was it? 'Tis a pity she holds our profession in such disdain. She would make an <span class=\"emphasis\">excellent</span> pirate.)"
+            },
+            {
+                "name": "KRAKENSDECKHAND",
+                "text": "Glad that's over and done with. Sorry about the delay, eh? We'll be in Kugane before you know it!"
+            },
+            {
+                "name": "LYSE",
+                "text": "I...I don't know what I was expecting, but it wasn't this."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "It's very...colorful, is it not?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "By the Twelve, I have never been happier to be back on terra firma... Our voyage has instilled in me a new appreciation for surfaces which do not move of their own accord."
+            },
+            {
+                "name": "TATARU",
+                "text": "Strange... Is it just me, or is the ground swaying?"
+            },
+            {
+                "name": "KRAKENSDECKHAND",
+                "text": "Thanks again for, uh, saving us from certain death at the hands of Lorelei and whatnot. We'll not soon forget it."
+            },
+            {
+                "name": "CARVALLAIN",
+                "text": "Congratulations. You now stand in Kugane, the western port of Hingashi. Regrettably, the only port in this nation open to foreign trade."
+            },
+            {
+                "name": "CARVALLAIN",
+                "text": "Oh, and I do apologize for the unforeseen difficulties which befell us during our journey. Needless to say, your assistance in overcoming them was much appreciated."
+            }
+        ],
+        "reward": {
+            "gil": 4358,
+            "items": [
+                {
+                    "id": 18070,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18082,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18088,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5668,
+                    "one": 1
+                }
+            ],
+            "xp": 175500,
+            "instance": 52
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 61,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68004
+            ]
+        },
+        "next": [
+            68006
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1020436",
+            "obj": {
+                "i": 1020436,
+                "n": "Lyse",
+                "l": 67,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020454",
+            "obj": {
+                "i": 1020454,
+                "n": "Carvallain",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020014",
+            "obj": {
+                "i": 1020014,
+                "n": "Alisaie",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020396",
+            "obj": {
+                "i": 1020396,
+                "n": "Tataru",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020439",
+            "obj": {
+                "i": 1020439,
+                "n": "Alphinaud",
+                "l": 29,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020441",
+            "obj": {
+                "i": 1020441,
+                "n": "Lyse",
+                "l": 29,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020442",
+            "obj": {
+                "i": 1020442,
+                "n": "Kraken's Arms Deckhand",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020443",
+            "obj": {
+                "i": 1020443,
+                "n": "Alphinaud",
+                "l": 1960,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020444",
+            "obj": {
+                "i": 1020444,
+                "n": "Alisaie",
+                "l": 1960,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020445",
+            "obj": {
+                "i": 1020445,
+                "n": "Lyse",
+                "l": 1960,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020447",
+            "obj": {
+                "i": 1020447,
+                "n": "Carvallain",
+                "l": 1960,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020450",
+            "obj": {
+                "i": 1020450,
+                "n": "Alphinaud",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020451",
+            "obj": {
+                "i": 1020451,
+                "n": "Alisaie",
+                "l": 2404,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020452",
+            "obj": {
+                "i": 1020452,
+                "n": "Lyse",
+                "l": 2404,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020453",
+            "obj": {
+                "i": 1020453,
+                "n": "Tataru",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021740",
+            "obj": {
+                "i": 1021740,
+                "n": "Kraken's Arms Deckhand",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023076",
+            "obj": {
+                "i": 1023076,
+                "n": "Kraken's Arms Deckhand",
+                "l": 1960,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "18070",
+            "obj": {
+                "i": 18070,
+                "n": "Gaganaskin Chaps of Aiming",
+                "l": 255,
+                "c": 47343,
+                "t": 36,
+                "p": 33323
+            }
+        },
+        {
+            "type": "item",
+            "id": "18082",
+            "obj": {
+                "i": 18082,
+                "n": "Bloodhempen Culottes of Healing",
+                "l": 255,
+                "c": 47342,
+                "t": 36,
+                "p": 33323
+            }
+        },
+        {
+            "type": "item",
+            "id": "18088",
+            "obj": {
+                "i": 18088,
+                "n": "Bloodhempen Culottes of Casting",
+                "l": 255,
+                "c": 47341,
+                "t": 36,
+                "p": 33323
+            }
+        },
+        {
+            "type": "item",
+            "id": "5668",
+            "obj": {
+                "i": 5668,
+                "n": "Heavens' Eye Materia V",
+                "l": 160,
+                "c": 20258,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "instance",
+            "id": "52",
+            "obj": {
+                "i": 52,
+                "n": "The Sirensong Sea",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 61,
+                "max_lvl": 62,
+                "min_ilvl": 240
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68004",
+            "obj": {
+                "i": 68004,
+                "n": "Tales from the Far East",
+                "g": 6,
+                "l": "Limsa Lominsa",
+                "s": 230
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68006",
+            "obj": {
+                "i": 68006,
+                "n": "The Man from Ul'dah",
+                "g": 6,
+                "l": "Kugane",
+                "s": 250
+            }
+        }
+    ]
+}

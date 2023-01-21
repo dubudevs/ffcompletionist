@@ -1,0 +1,107 @@
+{
+    "quest": {
+        "name": "A Ship on His Shoulder",
+        "location": "Eulmore",
+        "id": 69267,
+        "patch": 5.1,
+        "sort": 8003,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1027570,
+        "target": 1031118,
+        "genre": 112,
+        "journal": [
+            "Anfrigg may be tempted to put down his cocktail shaker for a change if you were to engage him in conversation."
+        ],
+        "objectives": [
+            "Speak with Lereberd."
+        ],
+        "dialogue": [
+            {
+                "name": "ANFRIGG",
+                "text": "I'm glad you saved me the trouble of tracking you down. There's a bit of news I've been asked to share with you."
+            },
+            {
+                "name": "ANFRIGG",
+                "text": "One of the refitted airships is about to embark on the very first commercial flight to the Crystarium, and you've been invited to join them as a passenger of honor!"
+            },
+            {
+                "name": "ANFRIGG",
+                "text": "Considering everything you contributed to the cause, it's only fitting. When you're ready to board, speak with Lereberd, that gaudily dressed twit over by the Xylem Lift. Be warned, though, he usually has an expression so sour he could curdle milk at twenty paces."
+            },
+            {
+                "name": "ANFRIGG",
+                "text": "The Xylem Lift's normally manned by a bloke who looks like he stole his mum's curtains and made a coat out of them. Lereberd's his name, and a more odious bastard you're never likely to meet."
+            },
+            {
+                "name": "LEREBERD",
+                "text": "Here to board the airship, are you? Hmph!"
+            },
+            {
+                "name": "LEREBERD",
+                "text": "Are you one of those sweat-stained soldiers? Or a shipbuilder with nothing better to do than spend all day hammering nails so fervently as to give the impression they have personally wronged you? Hmm? Which is it?"
+            },
+            {
+                "name": "LEREBERD",
+                "text": "Why it was decided that you all be given lifetime passes for whatever shoddy work was performed is beyond me. Not that it is any concern of mine, of course. Riffraff is riffraff."
+            },
+            {
+                "name": "LEREBERD",
+                "text": "&lt;sigh&gt; I am duty-bound to inform you that all passengers are to be guided from here to the uppermost level of Eulmore where the airship landing is situated. Only those granted permission to board may pass beyond this point."
+            },
+            {
+                "name": "LEREBERD",
+                "text": "Alas, the powers that be have neglected to provide me with a proper reception area, and I am relegated to standing upright for bells on end like some wretched footman. &lt;sigh&gt; If you are quite done boring me, your airship awaits. <span class=\"alternative-container\"><span class=\"alternative\"><span class=\"emphasis\">Madam</span></span><span class=\"alternative\"><span class=\"emphasis\">Sir</span></span></span>."
+            }
+        ],
+        "reward": {
+            "gil": 533
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                69266
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1027570",
+            "obj": {
+                "i": 1027570,
+                "n": "Anfrigg",
+                "l": 2952,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1031118",
+            "obj": {
+                "i": 1031118,
+                "n": "Lereberd",
+                "l": 2952,
+                "q": 1,
+                "t": "Airship Steward"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69266",
+            "obj": {
+                "i": 69266,
+                "n": "Commercially Flyable",
+                "g": 112,
+                "l": "Eulmore",
+                "s": 8002,
+                "f": 1
+            }
+        }
+    ]
+}

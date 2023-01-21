@@ -1,0 +1,100 @@
+{
+    "quest": {
+        "name": "Pollution Solution",
+        "location": "Azys Lla",
+        "id": 67520,
+        "patch": 3.0,
+        "sort": 5906,
+        "eventIcon": 71221,
+        "issuer": 1012290,
+        "target": 1012290,
+        "genre": 102,
+        "journal": [
+            "The Allagan life support node's status light is blinking an ominous red...",
+            "The Allagan life support node informs you that atmospheric levels of corpse flower spores are at critically dangerous levels─and rising. Destroy corpse flowers to reduce the release of these apparently dangerous pollutants.",
+            "You extirpate the troublesome corpse flowers. Return to the life support node to confirm that there are no other sources of dangerous atmospheric contaminants.",
+            "With the reduced rate of spore output, the life support system is now able to purify the air faster than it is being polluted. The abnormally high corpse flower population seems to have been caused by an airborne growth stimulation medium released from the ecological synthesis research facility."
+        ],
+        "objectives": [
+            "Slay corpse flowers.",
+            "Report to the life support node."
+        ],
+        "dialogue": [
+            {
+                "name": "CONSERVATIONSYSTEM",
+                "text": "Atmospheric impurities at critical levels. Atmospheric corpse flower spore levels currently at one thousand three hundred and twelve percent of maximum safe limit and rising."
+            },
+            {
+                "name": "CONSERVATIONSYSTEM",
+                "text": "Immediate destruction of corpse flowers is highly recommended to ensure citizen safety."
+            },
+            {
+                "name": "CONSERVATIONSYSTEM",
+                "text": "Immediate destruction of corpse flowers is highly recommended to ensure continued citizen safety."
+            },
+            {
+                "name": "CONSERVATIONSYSTEM",
+                "text": "Atmospheric corpse flower spore levels currently at one thousand three hundred and eleven percent of maximum safe limit and falling."
+            },
+            {
+                "name": "CONSERVATIONSYSTEM",
+                "text": "Increased corpse flower population determined to be a result of atmospheric growth stimulation catalyst being unintentionally released by the ecological synthesis research facility. Transmitting report to research facility... &lt;blip&gt; &lt;blip&gt; Transmission complete."
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 21800
+                }
+            ],
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67201
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012290",
+            "obj": {
+                "i": 1012290,
+                "n": "Life Support Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "21800",
+            "obj": {
+                "i": 21800,
+                "n": "Glamour Prism",
+                "l": 35,
+                "c": 26235,
+                "t": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67201",
+            "obj": {
+                "i": 67201,
+                "n": "In Node We Trust",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 90
+            }
+        }
+    ]
+}

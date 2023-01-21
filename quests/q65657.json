@@ -1,0 +1,114 @@
+{
+    "quest": {
+        "name": "Back in the Water",
+        "location": "Limsa Lominsa",
+        "id": 65657,
+        "patch": 2.0,
+        "sort": 30,
+        "eventIcon": 71221,
+        "issuer": 1000857,
+        "target": 1001000,
+        "genre": 91,
+        "journal": [
+            "Sisipu of the Fishermen's Guild wants to order a new fishing boat.",
+            "Keen to take to the seas once more, Sisipu expresses her desire to have a new fishing boat built. She bids you consult with Forgemaster H'naanza of the Armorers' Guild in her stead regarding how long the commission might take.",
+            "H'naanza regretfully informs you that Naldiq & Vymelli's is presently occupied with a large commission. Nonetheless, the forgemaster promises to do what she can in honor of the long-standing relationship between their two guilds."
+        ],
+        "objectives": [
+            "Speak with H'naanza at the Armorers' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "SISIPU",
+                "text": "The Calamity really knocked the wind out the fishing industry's sails, but fisherfolk are starting to return to the seas once more. It's past time I did the same."
+            },
+            {
+                "name": "SISIPU",
+                "text": "But before I can put out to sea again, I need to have a new boat built. Our guild has always commissioned Naldiq & Vymelli's for its crafts, but they are beastly busy these days."
+            },
+            {
+                "name": "SISIPU",
+                "text": "If you want for something to do, mayhap you could run over to the Armorers' Guild and consult with Forgemaster H'naanza in my stead. I would know how long we might expect to have to wait."
+            },
+            {
+                "name": "SISIPU",
+                "text": "Textless"
+            },
+            {
+                "name": "HNAANZA",
+                "text": "A new boat for the Fishermen's Guild? I'm afraid now isn't the best time..."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "You see, we have recently taken on a commission for a galleon. This task alone has all our hands full."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "But look, I will see what I can do. The Fishermen's Guild has long been one of our best clients, and I would be loath to disappoint Sisipu. It may yet take a while, but I shall endeavor to have her boat ready in a timely fashion."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 4551,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 210
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000857",
+            "obj": {
+                "i": 1000857,
+                "n": "Sisipu",
+                "l": 29,
+                "q": 22
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001000",
+            "obj": {
+                "i": 1001000,
+                "n": "H'naanza",
+                "l": 28,
+                "q": 28,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        }
+    ]
+}

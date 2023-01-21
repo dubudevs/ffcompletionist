@@ -1,0 +1,132 @@
+{
+    "quest": {
+        "name": "Fighting Firesand with Fire",
+        "location": "Southern Thanalan",
+        "id": 66762,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005550,
+        "target": 1005550,
+        "involved": [
+            1008327
+        ],
+        "genre": 35,
+        "journal": [
+            "Fibubb Gah is incensed at the dishonorable tactics of his enemies.",
+            "Fibubb Gah has tasked you with depriving his fanatic kin of the firesand they use in their cowardly traps. Speak with the drake whisperer to the west of the Ring of Ash, and climb atop one of his scaly charges.",
+            "Ride the cavalry drake into Zanr'ak, and destroy the stockpiles of firesand using your mount's Fiery Breath.<br><br>※Speak with the drake whisperer west of the Ring of Ash to mount a cavalry drake.",
+            "With the aid of your fire-breathing mount, you have successfully destroyed the barrels of firesand. Return to the Ring of Ash and report to Fibubb Gah.",
+            "Fibubb Gah expresses fierce joy at the sounds of exploding barrels. He cautions you, however, to stand ready for whatever depraved strategy the foe will next attempt to employ."
+        ],
+        "objectives": [
+            "Speak with the drake whisperer and mount the cavalry drake.",
+            "Ride the cavalry drake into Zanr'ak and use its Fiery Breath to destroy barrels of firesand.",
+            "Report to Fibubb Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "FIBUBBGAH",
+                "text": "The honorless snakes of Zahar'ak care naught for the righteous glories of battle. They would sooner injure their foes with cowardly traps than risk an equal confrontation."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "The traps of which I speak often make use of barrels stuffed with firesand─a substance which, when ignited in sufficient quantities, can launch a merchant's wagon two full spear-lengths into the air. The victims of such shameful tactics are left dazed and vulnerable, if not slain outright."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "Does your blood not seethe at the thought? Then I task you with removing the source of this ignominy─the firesand itself. But I would not have you risk life and limb in its destruction."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "By the bridge to the west of here, one of our brethren awaits you. He is a tamer of drakes, and has promised to lend you a creature from his stables to aid you in your noble efforts."
+            },
+            {
+                "name": "MOUNTAMALJAA",
+                "text": "My brother, Fibubb Gah, has told me of his plan. You will have command of one of my scaly children and the fiery destruction she breathes. Climb onto her back, honored ally, and direct her to the barrels you wish to incinerate."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "The barrels of firesand must be destroyed. Speak with the drake whisperer, and he will provide you with the means with which to safely dispose of your targets."
+            },
+            {
+                "name": "MOUNTAMALJAA",
+                "text": "Should you need to dismount, the drake will return here to me. I will hold her in readiness until you are prepared to continue your mission. Now go, and bring ravenous fire to the servants of the flame."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "The echoing reports of exploding barrels were as triumphant cries to my ears. I am afraid, however, that the loss of the firesand will simply spur our enemy into ever more shameless acts of cowardice. We must stand ready!"
+            }
+        ],
+        "reward": {
+            "gil": 480,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 8970
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 43,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005550",
+            "obj": {
+                "i": 1005550,
+                "n": "Fibubb Gah",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008327",
+            "obj": {
+                "i": 1008327,
+                "n": "Drake Whisperer",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

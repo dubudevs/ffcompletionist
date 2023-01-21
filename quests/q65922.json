@@ -1,0 +1,198 @@
+{
+    "quest": {
+        "name": "Walking the Planks",
+        "location": "Central Shroud",
+        "id": 65922,
+        "patch": 2.0,
+        "sort": 110,
+        "eventIcon": 71221,
+        "issuer": 1000501,
+        "target": 1000501,
+        "involved": [
+            1000502,
+            1000505,
+            1000507
+        ],
+        "genre": 92,
+        "journal": [
+            "Waltheof, a local at the Mirror Planks, wants you to help deliver goods that have been unloaded at the pier.",
+            "Waltheof has asked that you help deliver newly arrived goods to their respective owners. Start by collecting the cargo from the end of the pier.",
+            "Deliver the goods to their owners. The suit of unworn plate mail belongs to Daranmert, the Mun–Tuy beans to Kyleigh, and the smoked crayfish balls to Berthe.",
+            "You have delivered all of the goods. Report to Waltheof.",
+            "Waltheof is pleased with the alacrity of your deliveries. Now that the pier is free of obstructions, the next boatload of cargo can be unloaded with a minimum of fuss."
+        ],
+        "objectives": [
+            "Pick up the goods at the end of the pier.",
+            "Deliver the goods.",
+            "Report to Waltheof."
+        ],
+        "dialogue": [
+            {
+                "name": "WALTHEOF",
+                "text": "Ah, perfect. You're just in time to help deliver some goods that arrived not moments ago."
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "Allow me to double-check my manifest... Ahem, now listen carefully. Take the suit of plate mail to Daranmert─he's the guard you see right over there. The Mun–Tuy beans belong to Kyleigh, and the smoked crayfish balls to my friend Berthe here. That's it for this load."
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "A strapping adventurer like you should barely work up a sweat, am I right? The cargo you're looking for hasn't moved since they unloaded it at the end of the pier. Much obliged."
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "All done then? Excellent work─swift and sure. Adventurers are such handy individuals to have around."
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "If we leave cargo piled up on the pier, the next crew has no room to unload their shipment, you see. It can be backbreaking work, but <span class=\"emphasis\">someone</span> has to do it."
+            },
+            {
+                "name": "BERTHE",
+                "text": "One, two, three...<br>No, this won't do at all. I'm sure I heard Waltheof mention the shipment had─"
+            },
+            {
+                "name": "BERTHE",
+                "text": "Oh, why thank you very much! It would have been a short afternoon of fishing if this bait hadn't arrived."
+            },
+            {
+                "name": "KEILEIGH",
+                "text": "They should be here by now..."
+            },
+            {
+                "name": "KEILEIGH",
+                "text": "Hm? Are these the Mun–Tuy beans? Praise the Matron! It's my job to pick up provisions from the pier and deliver them to the settlements in the area, but I couldn't leave without the beans."
+            },
+            {
+                "name": "KEILEIGH",
+                "text": "Now I can finish loading up my cart and be on my way. Thank you for your help!"
+            },
+            {
+                "name": "DARANMERT",
+                "text": "Hm? You have something for me?"
+            },
+            {
+                "name": "DARANMERT",
+                "text": "Oof. What is─? Ah, my new plate mail. And what would a Wood Wailer want with metal armor, you ask? Let's just say that after a number of engagements with Garlean heavy infantry, my mind has been opened to the protection such steel encasements can provide."
+            }
+        ],
+        "reward": {
+            "gil": 178,
+            "items": [
+                {
+                    "id": 4422,
+                    "one": 1
+                },
+                {
+                    "id": 4421,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5823,
+                    "one": 1
+                }
+            ],
+            "xp": 2100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            65694
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000501",
+            "obj": {
+                "i": 1000501,
+                "n": "Waltheof",
+                "l": 54,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000502",
+            "obj": {
+                "i": 1000502,
+                "n": "Berthe",
+                "l": 54,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000505",
+            "obj": {
+                "i": 1000505,
+                "n": "Daranmert",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000507",
+            "obj": {
+                "i": 1000507,
+                "n": "Kyleigh",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4422",
+            "obj": {
+                "i": 4422,
+                "n": "Copper Ring",
+                "l": 9,
+                "c": 54401,
+                "t": 43,
+                "p": 170
+            }
+        },
+        {
+            "type": "item",
+            "id": "4421",
+            "obj": {
+                "i": 4421,
+                "n": "Bone Ring",
+                "l": 9,
+                "c": 54432,
+                "t": 43,
+                "p": 132
+            }
+        },
+        {
+            "type": "item",
+            "id": "5823",
+            "obj": {
+                "i": 5823,
+                "n": "Allagan Tin Piece",
+                "l": 5,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65694",
+            "obj": {
+                "i": 65694,
+                "n": "Sting in a Bottle",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 120
+            }
+        }
+    ]
+}

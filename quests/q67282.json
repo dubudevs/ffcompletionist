@@ -1,0 +1,165 @@
+{
+    "quest": {
+        "name": "Bad Wine",
+        "location": "Coerthas Western Highlands",
+        "id": 67282,
+        "patch": 3.0,
+        "sort": 5009,
+        "icon": 100466,
+        "eventIcon": 71221,
+        "issuer": 1011231,
+        "target": 1011231,
+        "involved": [
+            1013709,
+            1014125
+        ],
+        "genre": 94,
+        "journal": [
+            "Redwald wants to make the next move in his investigation.",
+            "Redwald wants you to go to Auriaune and show her the bottle that contained the poisoned wine. She is in charge of logistics at Falcon's Nest and should be able to determine who would have had chance to poison the wine.",
+            "Auriaune realizes that the poisoned wine was in the crate of stolen supplies that you previously recovered for her. She posits that the thieves poisoned the wine under the assumption that the crate would be recovered. It has since come to light that these men were not working alone. They had accomplices who have been sighted several times at Camp Riversmeet. Go there, find these heretics, and question them.",
+            "The heretics attack you, but not before gloating that the poison they used was made from dragon venom. There is no known antidote. Report to Redwald with this grim news.",
+            "Redwald, having been informed of the situation by Auriaune, was ready and waiting for your report. He is not surprised to hear of the heretics' involvement and is resolved to finding an antidote to the poison before it is too late."
+        ],
+        "objectives": [
+            "Deliver the bottle to Auriaune.",
+            "Speak with the heretics at Camp Riversmeet.",
+            "Report to Redwald."
+        ],
+        "dialogue": [
+            {
+                "name": "REDWALD",
+                "text": "We may have confirmed that poison was causing the illness that struck the fort, but there's still one thing left to do─find those responsible for this reprehensible crime and bring them to justice."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Auriaune is in charge of logistics here. I suspect that if you show her this bottle, she should be able to tell you where it came from."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Show that bottle to Auriaune. She should be able to find out where it came from."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "Hello there. Is there something I can help you with?"
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "What? The wine that was in this bottle was the cause of the sickness plaguing the fortress!? Our records should show where this came from, who handled it, and─wait!"
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "The crate of supplies that you recovered for me previously─the one that had been stolen by heretics─it was full of wine. I'm almost certain that this bottle was in that crate. I'd wager that those heretics poisoned the wine, counting on us recovering it."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "As a matter of fact, I've been looking into that case lately. It seems that the culprits had accomplices. They've been seen several times at Camp Riversmeet lately."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "I wouldn't be surprised if they're still looking for another opportunity to poison us. See if you can't press them for any information. Report to Redwald with anything you're able to find out."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "Try questioning the heretics' accomplices at Camp Riversmeet. Report back to Redwald with whatever you find out."
+            },
+            {
+                "name": "HERETIC",
+                "text": "Ahah! So you found out about the poison and came here looking for answers? Well, give up! The poison is made from dragon venom. There is no antidote. Everyone who drank it will die...and so will you!"
+            },
+            {
+                "name": "REDWALD",
+                "text": "Greetings, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. Auriaune has already apprised me of the situation. She tells me you might have information regarding the poisonings?"
+            },
+            {
+                "name": "REDWALD",
+                "text": "I see. So it was the heretics after all. And poison made from dragon venom? This is very bad indeed. We will need to find an antidote as quickly as possible..."
+            }
+        ],
+        "reward": {
+            "gil": 574,
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67134,
+                67281
+            ]
+        },
+        "next": [
+            67283
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011231",
+            "obj": {
+                "i": 1011231,
+                "n": "Redwald",
+                "l": 2200,
+                "q": 17
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013709",
+            "obj": {
+                "i": 1013709,
+                "n": "Auriaune",
+                "l": 2200,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014125",
+            "obj": {
+                "i": 1014125,
+                "n": "Suspicious Coerthan",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67134",
+            "obj": {
+                "i": 67134,
+                "n": "Disclosure",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 19
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67281",
+            "obj": {
+                "i": 67281,
+                "n": "A Mystery Illness",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5008
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67283",
+            "obj": {
+                "i": 67283,
+                "n": "Ancient Wisdom",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5010
+            }
+        }
+    ]
+}

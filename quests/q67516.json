@@ -1,0 +1,170 @@
+{
+    "quest": {
+        "name": "Good Clean Fun",
+        "location": "Azys Lla",
+        "id": 67516,
+        "patch": 3.0,
+        "sort": 5902,
+        "eventIcon": 71221,
+        "issuer": 1012146,
+        "target": 1012146,
+        "genre": 102,
+        "journal": [
+            "The Allagan sterilization node is silently awaiting user interaction.",
+            "The Allagan sterilization node informs you that the facility has lost its control link with five of its cleaning units─clockwork harvestmen. These units are out of control and hazardous. Destroy them.",
+            "You destroy the malfunctioning equipment. Update the sterilization node with this new information.",
+            "With the non-responsive harvestmen dismantled, the sterilization node can resume its work, but you learn that the system is massively overdue for replacement. Unfortunately, there is nothing you can do about this."
+        ],
+        "objectives": [
+            "Slay clockwork harvestmen.",
+            "Report to the sterilization node."
+        ],
+        "dialogue": [
+            {
+                "name": "CLEANINGSYSTEM",
+                "text": "&lt;beep&gt; &lt;beep&gt; Error reinitializing sanitation protocols. Control link to cleaning units inoperative."
+            },
+            {
+                "name": "CLEANINGSYSTEM",
+                "text": "Manual disassembly of cleaning units required. Please decommission five clockwork harvestmen. Manual disassembly of cleaning units required. Please decommission five clockwork harvestmen. Manual... &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "CLEANINGSYSTEM",
+                "text": "&lt;buzzzzzz&gt; ...of cleaning units required. Please decommission five clockwork harvestmen. Manual disassembly of cleaning units required. Please decommission five... &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "CLEANINGSYSTEM",
+                "text": "&lt;buzzzzzz&gt; ...Confirming control of all cleaning units... &lt;blip&gt; &lt;blip&gt; Control link to all cleaning units within acceptable parameters."
+            },
+            {
+                "name": "CLEANINGSYSTEM",
+                "text": "This sterilization node is four thousand nine hundred and sixty-two years, three months, and twelve days overdue for replacement. To minimize risk of catastrophic system failure, please replace this sterilization node at your earliest convenience."
+            }
+        ],
+        "reward": {
+            "gil": 673,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 5767,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5753,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5772,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5736,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5780,
+                    "one": 1
+                }
+            ],
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67200
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012146",
+            "obj": {
+                "i": 1012146,
+                "n": "Sterilization Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5767",
+            "obj": {
+                "i": 5767,
+                "n": "Coeurl Yellow Dye",
+                "l": 1,
+                "c": 22806,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "item",
+            "id": "5753",
+            "obj": {
+                "i": 5753,
+                "n": "Aldgoat Brown Dye",
+                "l": 1,
+                "c": 22809,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "item",
+            "id": "5772",
+            "obj": {
+                "i": 5772,
+                "n": "Sylph Green Dye",
+                "l": 1,
+                "c": 22810,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "item",
+            "id": "5736",
+            "obj": {
+                "i": 5736,
+                "n": "Lilac Purple Dye",
+                "l": 1,
+                "c": 22805,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "item",
+            "id": "5780",
+            "obj": {
+                "i": 5780,
+                "n": "Hunter Green Dye",
+                "l": 30,
+                "c": 22810,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67200",
+            "obj": {
+                "i": 67200,
+                "n": "Systematic Exploration",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 89
+            }
+        }
+    ]
+}

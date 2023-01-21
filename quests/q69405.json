@@ -1,0 +1,137 @@
+{
+    "quest": {
+        "name": "The Best Inventions",
+        "location": "Coerthas Central Highlands",
+        "id": 69405,
+        "patch": 5.3,
+        "sort": 206,
+        "icon": 100141,
+        "eventIcon": 71201,
+        "issuer": 1006461,
+        "target": 1006461,
+        "genre": 1,
+        "journal": [
+            "Cid would like to furnish the infirmary with a new alembic.",
+            "Having observed that the infirmary lacks sufficient alembics, Cid has resolved to furnish the chirurgeons with an additional, more advanced device. His work is nearly complete, but there is one final component that he cannot obtain on his own: three ice sprite cores, which he has asked you to bring to him.",
+            "You obtain the requisite cores with little difficulty. Return to the infirmary and deliver the cores to Cid.",
+            "Cid's efforts are ultimately for naught, as Inquisitor Guillaime makes another unannounced visit and warns the chirurgeons against accepting gifts from foreigners who have interfered with the trial of an accused heretic. The revelation shocks the chirurgeons, who immediately reject Cid's newly constructed alembic. The inquisitor appears to have developed a hatred for you and your associates, and it has become increasingly clear that he will do his utmost to prevent you from achieving your goals."
+        ],
+        "objectives": [
+            "Slay ice sprites and obtain their cores.",
+            "Deliver the cores to Cid."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "CID",
+                "text": "Might I have a word with you, <span class=\"highlight\">Forename</span>? It concerns the chirurgeons. After speaking with them earlier, I learned that they lack sufficient alembics for their needs, you see..."
+            },
+            {
+                "name": "CID",
+                "text": "So I used some of their broken equipment to craft a more advanced alembic─both as a gesture of goodwill, and as a means to help me recover my memories, since working with my hands kindles familiar feelings."
+            },
+            {
+                "name": "CID",
+                "text": "All I require to complete the device are the cores of three ice sprites. Though commonly used to reduce the temperatures of alchemical mixtures, there is a way to alter their properties so that they draw the cold within rather than radiate it without."
+            },
+            {
+                "name": "CID",
+                "text": "It must sound ridiculous to you─impossible, even. Yet somehow I <span class=\"emphasis\">know</span> it will work."
+            },
+            {
+                "name": "CID",
+                "text": "Have you obtained the cores? If so, please show them to me."
+            },
+            {
+                "name": "CENOTA",
+                "text": "What an amazing device! But...is it truly an alembic, sir? I've never seen its like before."
+            },
+            {
+                "name": "ASTIDIEN",
+                "text": "I too am unsure what to make of this machine. While certainly impressive, I've no idea how to make use of it."
+            },
+            {
+                "name": "CENOTA",
+                "text": "Nevertheless, if it is as effective as he claims, it will be a great boon to the infirmary! Think of the medicines we could create, the lives we could save!"
+            },
+            {
+                "name": "ASTIDIEN",
+                "text": "Even so, I wonder..."
+            },
+            {
+                "name": "GUILLAIME",
+                "text": "Ware thee the kindly stranger, bearer of gifts wondrous and strange, for his generosity comes at cost."
+            },
+            {
+                "name": "GUILLAIME",
+                "text": "Their earnest efforts are but a means to an as-yet-unknown end. Moreover, you should be wary of associating with individuals who have interfered with the questioning of a suspected heretic."
+            },
+            {
+                "name": "ASTIDIEN",
+                "text": "They did <span class=\"emphasis\">what</span>!? Bless you, Inquisitor, for coming along when you did! We almost succumbed to the temptation proffered by these...these <span class=\"emphasis\">unbelievers</span>!"
+            },
+            {
+                "name": "CID",
+                "text": "Why does that man detest us so? Is it all because we interrupted Lord Francel's trial?"
+            },
+            {
+                "name": "CID",
+                "text": "Whatever his reasons, he clearly means to oppose us at every turn..."
+            }
+        ],
+        "reward": {
+            "gil": 1927
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 39,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66463
+            ]
+        },
+        "next": [
+            66474
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006461",
+            "obj": {
+                "i": 1006461,
+                "n": "Cid",
+                "l": 63,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66463",
+            "obj": {
+                "i": 66463,
+                "n": "Factual Folklore",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 205
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66474",
+            "obj": {
+                "i": 66474,
+                "n": "Influencing Inquisitors",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 207
+            }
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "quest": {
+        "name": "The Wealth of Nations",
+        "location": "Ul'dah",
+        "id": 65931,
+        "patch": 2.0,
+        "sort": 20,
+        "eventIcon": 71221,
+        "issuer": 1001657,
+        "target": 1001679,
+        "genre": 93,
+        "journal": [
+            "Landebert wishes to offer you a small token of his gratitude.",
+            "By way of thanks for bringing the medicine, Landebert offers you a cracked vase of indeterminate value. Perhaps someone in the Sapphire Avenue Exchange can appraise it for you.",
+            "A quick glance is enough for Syntgoht to judge the vase worthless. He advises you to follow current trends closely, for even the most successful merchants can be undone, as he once was."
+        ],
+        "objectives": [
+            "Find a merchant who will appraise the vase."
+        ],
+        "dialogue": [
+            {
+                "name": "LANDEBER",
+                "text": "Few come here by choice, and fewer still bearing medicine. Your kindness shouldn't go unrewarded."
+            },
+            {
+                "name": "LANDEBER",
+                "text": "This vase is important to us, but I want you to have it."
+            },
+            {
+                "name": "LANDEBER",
+                "text": "It's just some old pottery, I know, but it might be valued by...collectors of cultural artifacts."
+            },
+            {
+                "name": "LANDEBER",
+                "text": "There are men who are willing to pay good coin for such objects. If you go to the Sapphire Avenue Exchange, chances are you'll find one of them."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "Welcome, <span class=\"emphasis\">welcome</span>! What might a discerning <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">gentleman</span></span> like yourself be looking for today?"
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "Hmmm... Permit me to examine this vase of yours."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "...I hope you did not spend too much coin on this trash! A flood of like items brought in by refugees has destroyed what demand once existed."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "The markets are fickle, my friend. If you lose sight of current trends, you stand to lose everything─as I once did. Market wards once bore my name, until fate and hubris reduced me to this. For your sake, I pray that you do not have to learn this lesson the same way I did."
+            }
+        ],
+        "reward": {
+            "gil": 111,
+            "items": [
+                {
+                    "num": 9,
+                    "id": 4
+                }
+            ],
+            "xp": 110
+        },
+        "reqs": {
+            "quests": [
+                65930
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001657",
+            "obj": {
+                "i": 1001657,
+                "n": "Landebert",
+                "l": 41,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001679",
+            "obj": {
+                "i": 1001679,
+                "n": "Syntgoht",
+                "l": 41,
+                "q": 12
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65930",
+            "obj": {
+                "i": 65930,
+                "n": "A Luxury Long Lost",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 20
+            }
+        }
+    ]
+}

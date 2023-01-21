@@ -1,0 +1,97 @@
+{
+    "quest": {
+        "name": "Adding Fuel to the Fire",
+        "location": "Coerthas Central Highlands",
+        "id": 66428,
+        "patch": 2.0,
+        "sort": 360,
+        "eventIcon": 71221,
+        "issuer": 1006388,
+        "target": 1006386,
+        "genre": 94,
+        "journal": [
+            "Prairillot needs a favor of you, and the chagrin it causes him is almost payment enough for the job.",
+            "As the relentless cold batters Skyfire Locks, Prairillot is vexed to discover that there are no men to spare for firewood duty, and he must avail himself of an adventurer's help. Your task is to gather eight bundles of firewood from the area around Skyfire Locks.",
+            "You have eight bundles of firewood, dry and ready for the stove. They should be delivered to Stephannot on the east hill ere he and his men freeze to death.",
+            "Stephannot's thanks has a forced ring to it, despite his obvious relief at having more fuel on hand for the killing chill of night. Many in these parts mistrust outlanders and mislike adventurers, a state of things that makes your stay in Coerthas an uneasy one."
+        ],
+        "objectives": [
+            "Gather bundles of firewood from around Skyfire Locks.",
+            "Give the firewood to Stephannot."
+        ],
+        "dialogue": [
+            {
+                "name": "PRAIRILLOT",
+                "text": "It galls me to ask for the help of an adventurer, yet I cannot leave the fort, not now...damn it! "
+            },
+            {
+                "name": "PRAIRILLOT",
+                "text": "You are eager to do us service, is that not right, adventurer? There is some urgent need for firewood and you would gain much by assisting us."
+            },
+            {
+                "name": "PRAIRILLOT",
+                "text": "The area around Skyfire Locks never lacks for firewood. Collect eight bundles and deliver them to Stephannot on the east hill."
+            },
+            {
+                "name": "STEPHANNOT",
+                "text": "Took your time, you sniveling whey-face! ...Firewood? Who told you to bring firewood, whelp!? What happened to the fresh supplies from Camp Dragonhead? And stand up straight when I address you!"
+            },
+            {
+                "name": "STEPHANNOT",
+                "text": "Fie, I mistook you for another; I sent out a recruit some time ago to take delivery of relief supplies. You came all this way to bring more fuel? I bid you thanks."
+            },
+            {
+                "name": "STEPHANNOT",
+                "text": "'Tis no comfort we seek, you understand, but life. The cold is too relentless to go long without fire. I give thanks for your service, but Coerthas is no place for those who lack discipline and faith. You will perish, and in so doing, mayhap endanger the crusade."
+            }
+        ],
+        "reward": {
+            "gil": 1544,
+            "xp": 9450
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 36,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66430
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006388",
+            "obj": {
+                "i": 1006388,
+                "n": "Prairillot",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006386",
+            "obj": {
+                "i": 1006386,
+                "n": "Stephannot",
+                "l": 63,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66430",
+            "obj": {
+                "i": 66430,
+                "n": "I'd Rather Be Cannon Fodder",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 360
+            }
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "quest": {
+        "name": "The Spice of Life",
+        "location": "Ishgard",
+        "id": 67529,
+        "patch": 3.0,
+        "sort": 60,
+        "eventIcon": 71201,
+        "issuer": 1013332,
+        "target": 1011192,
+        "involved": [
+            1013196,
+            1013333
+        ],
+        "genre": 3,
+        "journal": [
+            "Alphinaud is not one to be easily deterred.",
+            "Displaying an uncharacteristic lack of imagination, Alphinaud decides to continue questioning the people of the Brume, and bids you speak with Gibrillont in the meantime. Perhaps the proprietor of the Forgotten Knight will be more forthcoming than his customers.",
+            "In response to your inquiries about the Mongrel, Gibrillont stresses that discretion is key to running a successful tavern, making it all too clear that he will divulge no useful information. Before you can turn to leave, however, he offers to point you in the right direction in exchange for a small favor. Make your way to the Jeweled Crozier and collect a satchel of herbs from a hunter in Gibrillont's stead.",
+            "The hunter hands over the herbs with minimal fuss. Return to the Forgotten Knight and deliver them to Gibrillont.",
+            "Herbs in hand, the proprietor of the Forgotten Knight sets about preparing a batch of mulled wine. Few things stir the hearts of men so well, he says. If shared with the right people, what stories─and secrets─might spill from their lips?"
+        ],
+        "objectives": [
+            "Speak with Gibrillont.",
+            "Speak with the hulking hunter in the Pillars.",
+            "Deliver the fresh herbs to Gibrillont."
+        ],
+        "dialogue": [
+            {
+                "name": "ALPHINAUD",
+                "text": "Frustrating though it may be, we must press on. While I continue speaking with the people of the Brume, why not go and see if Gibrillont knows aught of value?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "As the proprietor of the Forgotten Knight, surely he must have heard whispers of the Mongrel before. We can only hope that he will be more forthcoming than the others."
+            },
+            {
+                "name": "TATARU",
+                "text": "If you haven't yet, you should learn the Manderville art of parley. It's surprisingly effective─so long as you stick to topics you know well. For example, the other day I was discussing the copper ore market with this one gentleman..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I shall join you in the Forgotten Knight anon. There we can discuss our findings."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "You know, people long for a sympathetic ear, but they need to know that it comes with tight lips."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Discretion, <span class=\"highlight\">Forename</span>─that's what my customers expect. If they don't get it, then I don't get them."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "That being said, I'm not without my sympathies. I've heard the tales, and I know you've done right by highborn and lowborn alike."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Least I can do is point you in the right direction. But to do that, I'll need you to do something for me."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "So happens there's a hunter up in the Crozier who owes me a fair bit of coin. However, I've agreed to accept payment in fresh herbs. Go and get them for me. Agreed?"
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Tell the hunter I sent you, and he should hand over the herbs without a fuss."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Come back here as soon as you have them. Simple as that."
+            },
+            {
+                "name": "HUNTER01993",
+                "text": "So you're Gibrillont's errand <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>? Good, good! How's he doing? Same as always? Right, right..."
+            },
+            {
+                "name": "HUNTER01993",
+                "text": "Anyroad, I hope he appreciates how much trouble I had to go through on account of his bloody herbs. Tell him to enjoy them while they last, because I doubt I'll be able to find any more next year."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "&lt;sniff&gt; &lt;sniff&gt; Well? You going to hand them over or not?"
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Aye, this ought to do it. With a few other spices, I can make it just like she used to..."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "There are few things which stir the hearts of men like a sip of mulled wine. Share a glass with the right people, and who knows what stories they'll share?"
+            }
+        ],
+        "reward": {
+            "gil": 527,
+            "items": [
+                {
+                    "id": 10680,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10722,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10764,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10848,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 72000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67174
+            ]
+        },
+        "next": [
+            67530
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013332",
+            "obj": {
+                "i": 1013332,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011192",
+            "obj": {
+                "i": 1011192,
+                "n": "Gibrillont",
+                "l": 2300,
+                "q": 10,
+                "t": "Forgotten Knight Proprietor"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013196",
+            "obj": {
+                "i": 1013196,
+                "n": "Hulking Hunter",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013333",
+            "obj": {
+                "i": 1013333,
+                "n": "Tataru",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10680",
+            "obj": {
+                "i": 10680,
+                "n": "Titanium Cuirass of Fending",
+                "l": 139,
+                "c": 48084,
+                "t": 35,
+                "p": 30051
+            }
+        },
+        {
+            "type": "item",
+            "id": "10722",
+            "obj": {
+                "i": 10722,
+                "n": "Titanium Mail of Maiming",
+                "l": 139,
+                "c": 48085,
+                "t": 35,
+                "p": 30051
+            }
+        },
+        {
+            "type": "item",
+            "id": "10764",
+            "obj": {
+                "i": 10764,
+                "n": "Titanium Mail of Striking",
+                "l": 139,
+                "c": 48086,
+                "t": 35,
+                "p": 30051
+            }
+        },
+        {
+            "type": "item",
+            "id": "10848",
+            "obj": {
+                "i": 10848,
+                "n": "Titanium Mail of Scouting",
+                "l": 139,
+                "c": 48087,
+                "t": 35,
+                "p": 30051
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67174",
+            "obj": {
+                "i": 67174,
+                "n": "Ill-weather Friends",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 59
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67530",
+            "obj": {
+                "i": 67530,
+                "n": "Noble Indiscretions",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 61
+            }
+        }
+    ]
+}

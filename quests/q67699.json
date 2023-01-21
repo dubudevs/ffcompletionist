@@ -1,0 +1,839 @@
+{
+    "quest": {
+        "name": "As Goes Light, So Goes Darkness",
+        "location": "Ishgard",
+        "id": 67699,
+        "patch": 3.1,
+        "sort": 8,
+        "icon": 100512,
+        "eventIcon": 71201,
+        "issuer": 1016008,
+        "target": 1016050,
+        "involved": [
+            1012163,
+            1012251,
+            1012252,
+            1012253,
+            1012337,
+            1012377,
+            1013167,
+            1016009,
+            1016010,
+            1016011,
+            1016012,
+            1016034,
+            1016035,
+            1016036,
+            1016037,
+            1016038,
+            1016039,
+            1016040,
+            1016041,
+            1016042,
+            1016049,
+            1016051,
+            1016060,
+            1016061
+        ],
+        "genre": 4,
+        "journal": [
+            "Lucia is not one to rest on her laurels.",
+            "As you and the others debate how best to proceed, Ser Aymeric enters the room in the company of lords Edmont and Artoirel to the delight and relief of all present. Alas, the resulting mood of optimism is soon soured by the arrival of a panicked knight bearing grave tidings: a rebel faction calling themselves the True Brothers of the Faith have seized control of the Vault, and taken the refugees sheltering within hostage. Needless to say, the lord commander cannot bow to the demands of such zealots, leaving him with but one option: an armed assault. Without hesitation, you and your fellow Scions volunteer to help, prompting Lord Artoirel to pledge his support as well.",
+            "Though you succeed in sneaking into the basilica undetected, the rebels soon catch wind of your presence, and attempt to execute the hostages. Fortunately, they are no match for you and your allies, and together you are able to rescue all but one of their captives─a young girl named Maelie, whom you learn was borne off to the upper levels by a priest. You, Ser Aymeric, and Lord Artoirel have no choice but to give chase.",
+            "You finally corner the priest on the uppermost level of the Vault, and Ser Aymeric demands his immediate surrender. Alas, the man will not hear reason, being convinced beyond all doubt that Ser Aymeric is a traitor to both kin and country. In a final act of defiance, he throws Maelie from the ledge, sending the child tumbling towards the plaza.<br><br>Far below, Lucia and Y'shtola can only watch in horror as the screaming figure plummets towards them. But just when all hope seems lost, a great white dragon swoops down to pluck her from the very jaws of death. Vidofnir!<br><br>Soon after, you, Ser Aymeric, and Lord Artoirel join the others outside, where Vidofnir is waiting to deliver a warning from Hraesvelgr. It would seem Nidhogg and his brood have flown for skies unknown. When Alphinaud subsequently presses the dragon for answers regarding Estinien, she declares that she can provide none, and bids you farewell. Though her visit was all too brief, Ser Aymeric hopes that it will do much to change the opinions of the common man. Yet Lord Edmont, who does not share in his optimism, implores the young knight to move with greater caution, lest more perish in his headlong rush for change─not least Ser Aymeric himself, whom the count plainly cherishes as a son.",
+            "In the wake of Vidofnir's departure, Y'shtola speaks to you privately regarding Thancred, in whom she senses a troubling change. According to her, his aetheric flow has been disrupted in a manner which would theoretically prevent him from wielding all magicks, teleportation included. Though she stresses that this is as yet mere speculation, it would do much to explain why he did not risk seeking out the Scions upon learning that a primal had been summoned. In the absence of proof, however, you have no choice but to remain silent and attend Alphinaud in Fortemps Manor.",
+            "As you discuss recent events with Alphinaud and Tataru, lords Artoirel and Emmanellain enter, having come to present you all a token of their gratitude: a House Fortemps shield fit for a true knight. It soon becomes clear, however, that this was not Artoirel's only reason for seeking an audience when he reveals that Count Edmont means to step aside, leaving him to take his father's place as the head of House Fortemps. In this way, Count Edmont intends to rid the house of the lingering suspicion that it was complicit in a coup d'état orchestrated by Ser Aymeric. Yet while Lord Artoirel had long dreamed of this day, it would seem that the recent revelations regarding the founding fathers of Ishgard had prompted him to question the value of his birthright─until, that is, he recalled his late brother's words: “A knight lives to serve─to aid those in need.” And so he vows to follow Haurchefant's proud example and labor for the greater good of Ishgard. And should his resolve waver, he hopes that you will show him the way─as a <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>."
+        ],
+        "objectives": [
+            "Rendezvous with Aymeric in the Pillars.",
+            "Speak with Aymeric.",
+            "Speak with Alphinaud.",
+            "Speak with Alphinaud at Fortemps Manor.",
+            "Rescue the hostages!",
+            "Aymeric's Vitality",
+            "Hostages Rescued",
+            "Bonds Untied"
+        ],
+        "dialogue": [
+            {
+                "name": "YSHTOLA",
+                "text": "How desperately we cling to that which we hold dear, knowing all the while that a day will come when we must let go."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "It was not so long ago, was it..."
+            },
+            {
+                "name": "HILDA",
+                "text": "The past belongs to the dead. The future's ours to do with what we will."
+            },
+            {
+                "name": "THANCRED",
+                "text": "No more farewells. Not for a good while yet, at least."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Concentrate on freeing the hostages. I will tend to their wounds."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Ready when you are, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "HILDA",
+                "text": "Bastards! If I had it my way, I'd be leadin' the charge myself!"
+            },
+            {
+                "name": "SYMME",
+                "text": "Give 'em what for, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "EUDESTAND",
+                "text": "Don't you dare let us down! Bring our people home safe!"
+            },
+            {
+                "name": "LUCIA",
+                "text": "We will hold here, <span class=\"highlight\">Forename</span>. The Fury guide and keep you!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Just like old times, eh?"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Do not concern yourself with my safety. Lest you forget, I too am a knight."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "Pray keep in mind that the lord commander has not fully recovered from his wounds. Though the safety of the hostages is of paramount concern, I would ask that you do your utmost to dissuade him from engaging in any...heroics."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Listen well. We will enter the basilica silently via this gate. According to our latest reports, there are at least six hostages being held within. The numbers and readiness of the True Brothers of the Faith are unknown."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I am told one claimed to have served under Thordan VII. Might the same be true of the rest?"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Given the swiftness with which they seized control of the Vault, I think it highly likely, yes─which means that they may well possess the knowledge required to turn the building's defenses against us."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Be that as it may, we have no choice but to press on. Lord Artoirel─you are a brave man and true, and none would dare question your honor if you chose not to risk your life in this endeavor. Are you certain you wish to join us?"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I am no stranger to the battlefield, Ser Aymeric! My arm will not falter; my shield will not break! Halone as my witness, we will bring these fanatics to justice!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Well said, my lord! Friends─follow me!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Ser Simeonard! Lay down your arms and release the hostages, and you will be shown mercy! I give you my word!"
+            },
+            {
+                "name": "TERRORIST",
+                "text": "(-Simeonard of the Holiest Flame-)Hah! The word of a heretic and kinslayer! I would sooner trust a dragon. Activate the knights! We shall show the hostages the same mercy he showed the archbishop!"
+            },
+            {
+                "name": "TERRORIST",
+                "text": "(-Simeonard of the Holiest Flame-)Unlike you, Ser Aymeric, I am a man of honor. By my hand, you shall receive of the Fury's judgment!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "So it is to be a trial, then. Lord Artoirel, <span class=\"highlight\">Forename</span>─leave us and save the hostages! I will deal with Ser Simeonard!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Well that was timely. Vidofnir must have been circling for hours."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "In the moments before Vidofnir appeared, I contemplated teleporting the girl. Thank the Twelve that I did not."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Since Haurchefant's death, Lord Edmont has grown ever more cautious. To speak plain, the man is afraid to hope. But I am not. Vidofnir's act of heroism <span class=\"emphasis\">will</span> serve to shift public opinion in our favor, of that I have no doubt."
+            },
+            {
+                "name": "HILDA",
+                "text": "After this, I reckon there'll be a few less folk cursin' dragons 'round here, and a few more cursin' the clergy─which is fine by me."
+            },
+            {
+                "name": "SYMME",
+                "text": "Well, I'll be damned! Not only is Maelie safe, but she got to ride a dragon!"
+            },
+            {
+                "name": "EUDESTAND",
+                "text": "We're the only family Maelie's got─her and a lot of other children. All the more reason to strengthen the watch, I say."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "Words cannot well express our gratitude, <span class=\"highlight\">Forename</span>. Thank you for rescuing the hostages...and for keeping the lord commander safe."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "This has been a day of surprises, has it not? 'Tis but a pity Vidofnir could not stay longer."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Yes, I think it's fair to say that she timed her departure rather less well than her arrival."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Well-timed scarcely does it justice. But one moment later would have been a moment too late."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Let us pray that the Ishgardians who yet harbored doubts will take these events to heart and accept the truth of Ser Aymeric's words."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Well, 'tis only meet that I inform Tataru of what has occurred here. If you have need of me, I shall be at Fortemps Manor."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Allow me to accompany you. Tataru would never forgive me if I left for the Rising Stones without saying good-bye."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "A moment, <span class=\"highlight\">Forename</span>. I wish a word."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Tell me, does Thancred seem quite well to you?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "He held his own in the Vault."
+            },
+            {
+                "name": "A1",
+                "text": "He got on well enough with Hilda."
+            },
+            {
+                "name": "A1",
+                "text": "I'm not sure how to put it into words, but..."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "That he did─which is especially remarkable given the injury to his eye. I can only assume that his time in the wilderness afforded him ample opportunity to compensate for his impairment."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "However, I speak not of his physical state, but rather his aetheric flow, which I fear has been irreparably disrupted."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Of that I have no doubt. His time in the wilderness did not deprive him of his charm."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "But that is neither here nor there. What concerns me is his aetheric flow, which I fear has been irreparably disrupted."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "So you sense it too. A subtle change, imperceptible to most."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I myself did not notice it at first, but upon closer examination, I saw that his aetheric flow had been irreparably disrupted."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "As a result, I strongly suspect that his ability to manipulate aether has been compromised. Simply put, Thancred may no longer be able to wield magicks."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "It would do much to explain why he chose to remain within the wilderness instead of seeking us out. He would have been compelled to rely solely on traditional methods of travel, significantly prolonging his journey. And when he learned that a nearby beast tribe was making preparations to summon a primal, it may well have seemed more sensible to wait."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "But this is still little more than speculation. Until I have proof, pray speak no word of it."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Right, then. I should be on my way. Krile may have charmed Master Matoya for now, but who can say how long it will last."
+            },
+            {
+                "name": "TATARU",
+                "text": "Lord Edmont told me all about what Vidofnir did! Gods, how I wish I had been there to see it."
+            },
+            {
+                "name": "BUTLER01580",
+                "text": "When I heard the commotion, I went outside to look, but all I saw was the dragon's silhouette on the horizon..."
+            },
+            {
+                "name": "STEWARD",
+                "text": "It is a relief to see that you are unharmed, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. Pray remain here a moment─Lord Artoirel should be returning shortly."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "'Twould seem our presence yet goes unnoticed. Come─we must secure the entrance."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Remember: saving the hostages takes precedence over all else. Mind your attacks, and subdue the enemy quickly."
+            },
+            {
+                "name": "HOSTAGE01",
+                "text": "You must hurry! The others were taken elsewhere by Ser Simeonard."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I will hold the entrance and look after this one. Now go!"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Ser Simeonard? So this is indeed the work of the archbishop's former servants..."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Secure the hostage, <span class=\"highlight\">Forename</span>! Leave the others to us!"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "On your guard! They've sounded the alarum!"
+            },
+            {
+                "name": "HOSTAGE02",
+                "text": "Th-They took the others somewhere. I... It all happened so quickly..."
+            },
+            {
+                "name": "TERRORIST",
+                "text": "There they are! Let none escape!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Keep going! I will hold them here!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Not alone you won't! <span class=\"highlight\">Forename</span>─stay with Ser Aymeric and Lord Artoirel!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "This way, <span class=\"highlight\">Forename</span>! To the Quire!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Come, then! Let us see whom the Fury favors!"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Ser Aymeric is still wounded, <span class=\"highlight\">Forename</span>! If we do not move quickly, he will surely fall!"
+            },
+            {
+                "name": "TERRORIST",
+                "text": "O Halone, render unto us Your judgment! Raise up the righteous, and cast down the wicked!"
+            },
+            {
+                "name": "TERRORIST",
+                "text": "Traitor! Kinslayer! By what sorcery do you yet stand!? Enough! All of you─attack!"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I see no others nearby. Come, <span class=\"highlight\">Forename</span>! Ser Aymeric needs our help!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Well done! Now let us finish this, ser─before the eyes of gods and men!"
+            },
+            {
+                "name": "TERRORIST",
+                "text": "Stand fast, my brothers! The Fury is with us!"
+            },
+            {
+                "name": "TERRORIST",
+                "text": "One day...I swear...you will..."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "There must be others nearby, but where!?"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Ser Aymeric's strength is almost spent, <span class=\"highlight\">Forename</span>! We must go to his aid at once!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Have no fear, child. We will save your friend!"
+            },
+            {
+                "name": "HOSTAGE03",
+                "text": "You must hurry! The priest took Maelie upstairs when he saw you kill his men!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Damn it all..."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "A knight lives to serve..."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "No, NO! The hostages, they... O Halone, pray forgive me..."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Fury take me, they murdered them! And we allowed it to happen..."
+            },
+            {
+                "name": "URIANGER",
+                "text": "...This is thy proof? <span class=\"emphasis\">The Gerun Oracles</span>? Apocrypha."
+            },
+            {
+                "name": "ELIDIBUSEORZEA",
+                "text": "(-???-)It is a truth long forgotten─a tale of the beginning, and of the path we have been set upon."
+            },
+            {
+                "name": "ELIDIBUSEORZEA",
+                "text": "(-Elidibus-)Our fates were ordained long ago, Archon. The Garleans are no exception. Nor the Triad. You know what must be done."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "...Well?"
+            },
+            {
+                "name": "YDA",
+                "text": "Everyone has their orders."
+            },
+            {
+                "name": "YDA",
+                "text": "The Masks will attack as soon as all units are in position. The imperials won't know what hit them."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "I fear it will be bloody..."
+            },
+            {
+                "name": "YDA",
+                "text": "By Rhalgr, it had better be."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "We cannot stay here forever, Yda. We have other responsibilities."
+            },
+            {
+                "name": "YDA",
+                "text": "I know full well what my responsibilities are─and I mean to fulfill them, every one!"
+            }
+        ],
+        "reward": {
+            "gil": 10000,
+            "items": [
+                {
+                    "id": 13118
+                },
+                {
+                    "id": 13774
+                },
+                {
+                    "id": 20610,
+                    "one": 1
+                },
+                {
+                    "id": 20611,
+                    "one": 1
+                },
+                {
+                    "id": 20612,
+                    "one": 1
+                },
+                {
+                    "num": 7,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 16740
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67698
+            ]
+        },
+        "next": [
+            67766,
+            67767
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016008",
+            "obj": {
+                "i": 1016008,
+                "n": "Lucia",
+                "l": 2300,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016050",
+            "obj": {
+                "i": 1016050,
+                "n": "Alphinaud",
+                "l": 2320,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012163",
+            "obj": {
+                "i": 1012163,
+                "n": "Handeloup",
+                "l": 2300,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012251",
+            "obj": {
+                "i": 1012251,
+                "n": "Hilda",
+                "l": 2300,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012252",
+            "obj": {
+                "i": 1012252,
+                "n": "Symme",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012253",
+            "obj": {
+                "i": 1012253,
+                "n": "Eudestand",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012337",
+            "obj": {
+                "i": 1012337,
+                "n": "House Fortemps Manservant",
+                "l": 2320,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012377",
+            "obj": {
+                "i": 1012377,
+                "n": "House Fortemps Steward",
+                "l": 2320,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013167",
+            "obj": {
+                "i": 1013167,
+                "n": "Lucia",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016009",
+            "obj": {
+                "i": 1016009,
+                "n": "Hilda",
+                "l": 2300,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016010",
+            "obj": {
+                "i": 1016010,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016011",
+            "obj": {
+                "i": 1016011,
+                "n": "Y'shtola",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016012",
+            "obj": {
+                "i": 1016012,
+                "n": "Thancred",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016034",
+            "obj": {
+                "i": 1016034,
+                "n": "Aymeric",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016035",
+            "obj": {
+                "i": 1016035,
+                "n": "Alphinaud",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016036",
+            "obj": {
+                "i": 1016036,
+                "n": "Y'shtola",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016037",
+            "obj": {
+                "i": 1016037,
+                "n": "Thancred",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016038",
+            "obj": {
+                "i": 1016038,
+                "n": "Artoirel",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016039",
+            "obj": {
+                "i": 1016039,
+                "n": "Hilda",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016040",
+            "obj": {
+                "i": 1016040,
+                "n": "Eudestand",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016041",
+            "obj": {
+                "i": 1016041,
+                "n": "Symme",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016042",
+            "obj": {
+                "i": 1016042,
+                "n": "Lucia",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016049",
+            "obj": {
+                "i": 1016049,
+                "n": "Alphinaud",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016051",
+            "obj": {
+                "i": 1016051,
+                "n": "Tataru",
+                "l": 2320,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016060",
+            "obj": {
+                "i": 1016060,
+                "n": "Y'shtola",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016061",
+            "obj": {
+                "i": 1016061,
+                "n": "Thancred",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "13118",
+            "obj": {
+                "i": 13118,
+                "n": "House Fortemps Kite Shield",
+                "l": 1,
+                "c": 30131,
+                "t": 11,
+                "p": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "13774",
+            "obj": {
+                "i": 13774,
+                "n": "Wind-up Haurchefant",
+                "l": 1,
+                "c": 59568,
+                "t": 81
+            }
+        },
+        {
+            "type": "item",
+            "id": "20610",
+            "obj": {
+                "i": 20610,
+                "n": "Primal Accessories of Aiming Coffer (IL 240)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "20611",
+            "obj": {
+                "i": 20611,
+                "n": "Primal Accessories of Healing Coffer (IL 240)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "20612",
+            "obj": {
+                "i": 20612,
+                "n": "Primal Accessories of Casting Coffer (IL 240)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67698",
+            "obj": {
+                "i": 67698,
+                "n": "Against the Dying of the Light",
+                "g": 4,
+                "l": "Ishgard",
+                "s": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67766",
+            "obj": {
+                "i": 67766,
+                "n": "When the Bough Wakes",
+                "g": 17,
+                "l": "The Rising Stones",
+                "s": 16002,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67767",
+            "obj": {
+                "i": 67767,
+                "n": "As It Once Was",
+                "g": 4,
+                "l": "Ishgard",
+                "s": 9
+            }
+        }
+    ]
+}

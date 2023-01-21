@@ -1,0 +1,831 @@
+{
+    "quest": {
+        "name": "Rhalgr's Beacon",
+        "location": "The Fringes",
+        "id": 68064,
+        "patch": 4.0,
+        "sort": 880,
+        "icon": 100660,
+        "eventIcon": 71201,
+        "issuer": 1020304,
+        "target": 1020567,
+        "involved": [
+            1019466,
+            1020205,
+            1020206,
+            1020334,
+            1020354,
+            1020390,
+            1020391,
+            1020392,
+            1020393,
+            1020432,
+            1020527,
+            1020554,
+            1020559,
+            1020560,
+            1020561,
+            1020562,
+            1020565,
+            1020568,
+            1020569,
+            1020572,
+            1022087,
+            1023298,
+            1023762,
+            1023763
+        ],
+        "genre": 6,
+        "journal": [
+            "You, Raubahn, and your allies have much to discuss.",
+            "Having returned to Gyr Abania after a lengthy absence, the Alliance and Resistance leaders are eager to hear you recount the tale of your adventures in the Far East. And so you tell them of your many trials and tribulations, culminating with the liberation of Doma. The news has already spread throughout the Empire, doubtless leading to unrest and unease within the imperial ranks. The time to strike is now. The Alliance and Resistance will resume their campaign to retake Ala Mhigo, beginning by capturing Castellum Velodyna.",
+            "Preparations are underway in Rhalgr's Reach for the forthcoming operation, but Conrad would not have you assist with them. Instead, he requests that you take a moment to speak with several of the men under his command who have each suffered great personal tragedy. Perhaps a visit from the Warrior of Light will serve to raise their spirits.",
+            "To your surprise, you learn that in various small ways you have touched these soldiers' lives and helped to make them the men they are today. Another reminder, if any were needed, that we can never predict the ways in which our actions will influence those around us...",
+            "Though Conrad was aware of the part you played in shaping his soldiers' destinies, that was not his only reason for asking you to speak with them. Hailing from vastly different walks of life, each one had his own unique motive for joining the Resistance, and he has come to question his ability to represent their interests equally. But who could possibly serve in his stead? None other than Lyse Hext, Conrad believes─though it will be for her to decide whether or not to accept this burden when the time comes.",
+            "You and the Resistance forces gather at the ruins of Castellum Corvi to await the signal from the Alliance. Once General Aldynn and his men lure the bulk of the garrison away from Velodyna, you are to make for the bridge and engage the remaining defenders. Yet this too is but a feint, as the success of the operation rests on the shoulders of M'naago, who will fly to the top of the castellum with the aid of her griffin, and there employ a number of modified glamour prisms to create the illusion that the massive imperial banner has been replaced by that of the Resistance. The sight of the banner should serve to sow chaos and confusion in the imperial ranks, if all goes to plan, allowing the Allied forces to rout the enemy and claim Castellum Velodyna at last...",
+            "The plan is executed to perfection. When M'naago blows her horn to draw all eyes heavensward, the imperials begin to break and run, believing the day lost. Fordola, having remained at the bridge, urges her men to stand their ground, but soon retreats herself after realizing there is naught to be done. At Conrad's urging, Lyse lets her go, for while capturing the Skulls commander would represent a fine achievement, the greater goal has been accomplished: Castellum Velodyna is yours.",
+            "Ala Mhigo was not built in a single day, and neither will it be liberated in one. But the fall of the castellum marks a turning point in the campaign, for the imperials have been all but driven from the Fringes."
+        ],
+        "objectives": [
+            "Speak with Conrad in Rhalgr's Reach.",
+            "Speak with the swarthy Resistance fighter.",
+            "Speak with the Ala Mhigan Brigade officer.",
+            "Speak with the hot-blooded youth.",
+            "Speak with Conrad.",
+            "Speak with Conrad in Castellum Corvi.",
+            "Speak with Lyse.",
+            "Head for Castellum Velodyna!",
+            "Defeat Fordola rem Lupis!"
+        ],
+        "dialogue": [
+            {
+                "name": "LYSE",
+                "text": "You can go ahead and tell Marshal Tarupin that Conrad's party will be arriving any moment."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Ephemie and the others at the Rising Stones are looking after Y'shtola now. We need not fear for her safety. As for Krile, everything that can be done is being done. It falls to the rest of us to carry on the fight."
+            },
+            {
+                "name": "ARENVALD",
+                "text": "Y'shtola may be safe, but it's still anyone's guess when she'll be strong enough to return to the field."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I know, I know. There's naught to be gained from giving in to my emotions. I need to stay calm and composed. Krile herself would say as much."
+            },
+            {
+                "name": "SERPENTOFFICER",
+                "text": "I swear to you, the imperials will not cross this wall again, on my honor as a man of the Twin Adder."
+            },
+            {
+                "name": "STORMOFFICER",
+                "text": "Imperial scum! We will make them pay for this!"
+            },
+            {
+                "name": "PIPIN",
+                "text": "...You <span class=\"emphasis\">are</span> ready, yes? Then I pray you inform Father."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "There you are─and there is Commander Kemp, I see. I know you are eager to speak of our next move, but we would first hear more of your last. Tell us of your deeds in Doma."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "The success of this operation is paramount. So long as the Empire holds Castellum Velodyna, the main host cannot advance."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Zenos knows this, which is why he has ordered Fordola and her men to see to the bridge's defense."
+            },
+            {
+                "name": "LYSE",
+                "text": "So we'll get to fight the Skulls again..."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "The Butcher is not to be underestimated. She is decisive, ruthless, and feared by foes and friends alike. But we have a plan to defeat her."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "First, we send an Alliance force down the main road, signaling our intention to mount an all-out assault. The garrison will muster their forces and prepare for a protracted battle..."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "However, they will soon find that we are ill prepared for their counterattack. Our men will begin to break ranks and flee."
+            },
+            {
+                "name": "CONRAD",
+                "text": "I see... Show them your backs and give them a target too tempting not to pursue."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Aye, Fordola is too aggressive not to press the advantage. She will order her men to give chase."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "We lure them as far as East End, where the commanders will rally their forces and attempt to hold their ground. If all goes to plan, we should be able to keep the greater part of their garrison occupied."
+            },
+            {
+                "name": "CONRAD",
+                "text": "...Leaving us to tackle the bridge's remaining defenders. Very clever, I'm sure. But what are we to do if the imperials smell a rat and return before we've taken the place?"
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "I don't need you to take Velodyna, Commander Kemp. All I need is for you to fly your flag from its tower."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You mean to trick them into believing that the bridge has fallen!"
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Aye. We convince them Velodyna is lost, hit them hard with our reinforcements, and watch them go running for the hills."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Then, when the dust has settled, we regroup at the castellum. What say you?"
+            },
+            {
+                "name": "CONRAD",
+                "text": "It's a bold plan...but a good one. We'll do it."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "In that case, we shall support both the Resistance and the Alliance forces."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "<span class=\"highlight\">Forename</span>, Lyse, Arenvald─I ask that you accompany Commander Kemp. Alisaie and I will remain with the Flame General."
+            },
+            {
+                "name": "CONRAD",
+                "text": "We will return to Rhalgr's Reach and make our preparations. As soon as they are complete, we will join you in the field. Godsspeed!"
+            },
+            {
+                "name": "LYSE",
+                "text": "Conrad wasn't kidding when he said they'd made a lot of progress while we were away..."
+            },
+            {
+                "name": "MNAAGO",
+                "text": "I can't tell you how long I've been waiting for this! It's going to be grand!"
+            },
+            {
+                "name": "ARENVALD",
+                "text": "If it takes a hundred battles like this to rescue Krile, then I'll fight in every one!"
+            },
+            {
+                "name": "CONRAD",
+                "text": "In case you haven't noticed, the flag flying above Velodyna is bloody massive. It'd take a dozen men to change it, and far too long besides. But there's no need for all that─right, M'naago?"
+            },
+            {
+                "name": "MNAAGO",
+                "text": "Not so long as I have my griffin and a satchel of glamour prisms, no!"
+            },
+            {
+                "name": "CONRAD",
+                "text": "Arenvald, you're in charge of the runners between us and the Alliance. No linkpearls.<br>Lyse, I want you to look in on the squadrons─make sure they've got everything they need. Everybody clear?"
+            },
+            {
+                "name": "MNAAGO",
+                "text": "(-All-)Aye, sir!"
+            },
+            {
+                "name": "CONRAD",
+                "text": "All forces are to depart for Castellum Corvi when ready. That will be all.<br><span class=\"highlight\">Forename</span>, stay with me a moment, if you would."
+            },
+            {
+                "name": "CONRAD",
+                "text": "There's a few men I'd like you to look in on personally. Each of them has lost people, and I can tell that it weighs on their hearts..."
+            },
+            {
+                "name": "CONRAD",
+                "text": "There have been a lot of new faces since last you were here, so it's best if I just tell you where to look. One's an officer you'll find in the Barber, another's an older fellow who likes to pass the time on the shore of Starfall. The last is a fiery young lad from Little Ala Mhigo, who I'm told trains by himself by the river to the Fringes. You'll know them when you see them. Come and find me when you've finished."
+            },
+            {
+                "name": "CONRAD",
+                "text": "I have a few things to see to here, so I should still be around when you've had a word with those three men I mentioned."
+            },
+            {
+                "name": "ALAMHIGAN02528",
+                "text": "Wait, I know you! [GC Rank][GC Rank][GC Rank] <span class=\"highlight\">Surname</span><span class=\"alternative-container\"><span class=\"alternative\"> of the Maelstrom</span><span class=\"alternative\"> of the Twin Adder</span></span>! It is an honor to meet you!"
+            },
+            {
+                "name": "ALAMHIGAN02528",
+                "text": "I was living hand-to-mouth in Ul'dah, but decided to enlist in the Flames after I heard tales of your derring-do. And now, as fate would have it, I've been sent here to join in the fight for my homeland's liberation."
+            },
+            {
+                "name": "ALAMHIGAN02528",
+                "text": "Ah, but this is no time to talk. I've got to prepare for the operation! Take care, [GC Rank][GC Rank][GC Rank]! We'll give those imperial whoresons what for!"
+            },
+            {
+                "name": "BURLYPRIVATE02638",
+                "text": "I say, if it isn't the <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span> who helped me find the Ward I misplaced!"
+            },
+            {
+                "name": "BURLYPRIVATE02638",
+                "text": "Ah, but there I go again treating you as an equal! It wasn't till after you'd gone that one of my comrades pulled me aside and told me it was only the bleedin' hero of Eorzea who'd taken time out of <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> busy day to help me!"
+            },
+            {
+                "name": "BURLYPRIVATE02638",
+                "text": "Well, what is done is done. But know that I will fight with every onze of my strength in this coming battle, and the next and the next! Mayhap that will serve to repay the favor. Fare you well!"
+            },
+            {
+                "name": "STRAPPINGLAD02528",
+                "text": "...<span class=\"highlight\">Forename</span>, am I right? I doubt you remember me, but I'll never forget you─saved my life in Little Ala Mhigo, you did."
+            },
+            {
+                "name": "STRAPPINGLAD02528",
+                "text": "Wilred and the rest of us had got it into our heads that if we had enough crystals, we could summon Rhalgr like the Amalj'aa summoned their god. Thankfully, you put a stop to it."
+            },
+            {
+                "name": "STRAPPINGLAD02528",
+                "text": "Ever hear about what happened to Wilred? Joined the Braves when they came calling, only to turn up dead one day. Never found out how or why, but I reckon it doesn't matter. Dead's dead, after all."
+            },
+            {
+                "name": "STRAPPINGLAD02528",
+                "text": "But at least he died doing what he thought was right. And maybe that's the best folks like us can hope for, eh? Not that I'm in any hurry, mind!"
+            },
+            {
+                "name": "CONRAD",
+                "text": "You've had a word with the men I mentioned, then?"
+            },
+            {
+                "name": "CONRAD",
+                "text": "As I'm sure you noticed, they've another thing in common aside from tragedy: you've touched each of their lives in one way or another. But that's not the reason I wanted you to speak with them."
+            },
+            {
+                "name": "CONRAD",
+                "text": "A man who's lived in Gyr Abania his entire life, who bore witness to the realities of the occupation for twenty unbroken years..."
+            },
+            {
+                "name": "CONRAD",
+                "text": "A man who fled Ala Mhigo in search of a new life, who swore to serve another nation, only for fate to conspire to send him back here..."
+            },
+            {
+                "name": "CONRAD",
+                "text": "A youth born on foreign soil, who never knew his parents' homeland, yet nevertheless felt kinship with our cause..."
+            },
+            {
+                "name": "CONRAD",
+                "text": "Three men, three stories, three reasons. Yet all belong to the Resistance. In growing larger, we've grown more diverse, and while there is good in that, there's also the potential for strife and discord."
+            },
+            {
+                "name": "CONRAD",
+                "text": "It'd take a special sort to lead such men to Ala Mhigo, don't you think?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Good thing they've got you."
+            },
+            {
+                "name": "A1",
+                "text": "Someone like Lyse, you mean?"
+            },
+            {
+                "name": "A1",
+                "text": "...Leader of the Resistance, eh? Don't I have enough titles already?"
+            },
+            {
+                "name": "CONRAD",
+                "text": "For now, aye, but not forever. And, to be frank, I don't always know what to say to the ones who left, not to mention the youths."
+            },
+            {
+                "name": "CONRAD",
+                "text": "Nay, the Resistance needs a leader with a wider view. Someone who's not lived their whole life in Gyr Abania; who's known death and hardship but not been ground down by them."
+            },
+            {
+                "name": "CONRAD",
+                "text": "Aye. As you may have guessed, I've been thinking of asking Lyse. But it'll be her decision in the end."
+            },
+            {
+                "name": "CONRAD",
+                "text": "I see we're of one mind. She'll have to make the decision for herself, of course."
+            },
+            {
+                "name": "CONRAD",
+                "text": "You've traveled with her. Been by her side when she's had to make hard choices. You've seen her at her worst and her best. If you think she's got it in her, then she does."
+            },
+            {
+                "name": "CONRAD",
+                "text": "Look after her, <span class=\"highlight\">Forename</span>. She's our future, and my hope."
+            },
+            {
+                "name": "CONRAD",
+                "text": "Hah, now wouldn't that be a sight! The Slayer of Gods and Savior of Ishgard leading the Resistance into battle. You're not short of relevant combat experience, I'll give you that!"
+            },
+            {
+                "name": "CONRAD",
+                "text": "Being serious, though...I've been thinking about asking Lyse to be my successor. She's young and worldly, strong and kind. A bit daft at times, but not so much that it worries me─especially given what I've seen of her since she returned."
+            },
+            {
+                "name": "CONRAD",
+                "text": "Look after her, <span class=\"highlight\">Forename</span>. She's our future, and my hope."
+            },
+            {
+                "name": "CONRAD",
+                "text": "I trust I needn't say that this conversation is just between you and me?"
+            },
+            {
+                "name": "CONRAD",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">lad</span></span>. Right, then─we'd best head to Castellum Corvi. Or what remains of it, rather."
+            },
+            {
+                "name": "LYSE",
+                "text": "I said it then, and I'll say it again: I won't let it all be for nothing..."
+            },
+            {
+                "name": "ARENVALD",
+                "text": "I'll prove to them that it wasn't a mistake...<br>...That I wasn't a mistake."
+            },
+            {
+                "name": "MNAAGO",
+                "text": "Her name is Obda. We've known each other since we were small. We'll be going on this mission together..."
+            },
+            {
+                "name": "ANANTASOLDIER",
+                "text": "You are the warrior, yesss? It is an honor."
+            },
+            {
+                "name": "CONRAD",
+                "text": "We'll lead the way while the other units launch their own separate attacks. Remember that we need to hold out until M'naago sees to the flag."
+            },
+            {
+                "name": "CONRAD",
+                "text": "Got your gear in order? Any moment now..."
+            },
+            {
+                "name": "FORDRA",
+                "text": "Think you're clever with all your little tricks? Think again!<br>None of you are leaving here alive!"
+            },
+            {
+                "name": "ARENVALD",
+                "text": "Did you see that, A'aba, Aulie? We did it!"
+            },
+            {
+                "name": "MNAAGO",
+                "text": "&lt;pant&gt; &lt;pant&gt; For a moment there, I didn't think I could do it...but then I did!"
+            },
+            {
+                "name": "CONRAD",
+                "text": "Well fought, brothers and sisters! Today is a day that will be remembered for generations to come!"
+            },
+            {
+                "name": "ANANTASOLDIER",
+                "text": "Ssso, you are indeed everything they sssay. The ssstuff of legends..."
+            },
+            {
+                "name": "LYSE",
+                "text": "It's a shame Fordola got away, but we did what we came here to do."
+            },
+            {
+                "name": "LYSE",
+                "text": "I have to remind myself it's just the first step...but it's a big one. We're going to take it back...all of it─one ilm at a time if we have to!"
+            },
+            {
+                "name": "CONRAD",
+                "text": "Quickly now! We've got to reach Velodyna before General Aldynn and his men are overwhelmed!"
+            },
+            {
+                "name": "LYSE",
+                "text": "Scouts, dead ahead! If they see us, they'll warn the others!"
+            },
+            {
+                "name": "ARENVALD",
+                "text": "Not if we kill them first!"
+            },
+            {
+                "name": "ARENVALD",
+                "text": "That's the last of 'em! Let's keep moving!"
+            },
+            {
+                "name": "LYSE",
+                "text": "What are you doing, <span class=\"highlight\">Forename</span>!? Stay close!"
+            },
+            {
+                "name": "ARENVALD",
+                "text": "Bah, <span class=\"highlight\">Forename</span>'s gone on ahead. After <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>!"
+            },
+            {
+                "name": "CONRAD",
+                "text": "No sign of sentries. General Aldynn must have his hands full."
+            },
+            {
+                "name": "ARENVALD",
+                "text": "Then let's seize the bridge and be done with it!"
+            },
+            {
+                "name": "ARENVALD",
+                "text": "They left a token force behind. Nothing we can't handle!"
+            },
+            {
+                "name": "LYSE",
+                "text": "Cannons! They could use those to fire on Naago!"
+            },
+            {
+                "name": "LYSE",
+                "text": "That's the last of the cannons! It should be safe for Naago now!"
+            },
+            {
+                "name": "MARMOR",
+                "text": "Fire at will! Kill every last one of the savages!"
+            },
+            {
+                "name": "FORDRA",
+                "text": "You may have survived the Reach, <span class=\"emphasis\">hero</span>, but this time you won't be so lucky."
+            },
+            {
+                "name": "FORDRA",
+                "text": "This bridge belongs to the Empire! I am not about to give it up!"
+            },
+            {
+                "name": "FORDRA",
+                "text": "Hero or not, you'll die just like all the rest!"
+            },
+            {
+                "name": "FORDRA",
+                "text": "This is MY BRIDGE! You are NOT taking this from me!"
+            },
+            {
+                "name": "LISE",
+                "text": "Naago made it! We've only got to hold on a little longer..."
+            },
+            {
+                "name": "ARENVALD",
+                "text": "No, I can't! Not yet!"
+            },
+            {
+                "name": "LYSE",
+                "text": "Damn it all..."
+            },
+            {
+                "name": "CONRAD",
+                "text": "Ugh... That's it for me..."
+            }
+        ],
+        "reward": {
+            "gil": 2215,
+            "items": [
+                {
+                    "id": 18577,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18578,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5673,
+                    "one": 1
+                }
+            ],
+            "xp": 224100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 67,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68063
+            ]
+        },
+        "next": [
+            68065
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1020304",
+            "obj": {
+                "i": 1020304,
+                "n": "Raubahn",
+                "l": 2406,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020567",
+            "obj": {
+                "i": 1020567,
+                "n": "Lyse",
+                "l": 2406,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019466",
+            "obj": {
+                "i": 1019466,
+                "n": "Conrad",
+                "l": 2403,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020205",
+            "obj": {
+                "i": 1020205,
+                "n": "Alphinaud",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020206",
+            "obj": {
+                "i": 1020206,
+                "n": "Alisaie",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020334",
+            "obj": {
+                "i": 1020334,
+                "n": "Lyse",
+                "l": 2403,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020354",
+            "obj": {
+                "i": 1020354,
+                "n": "Pipin",
+                "l": 2406,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020390",
+            "obj": {
+                "i": 1020390,
+                "n": "M'naago",
+                "l": 2403,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020391",
+            "obj": {
+                "i": 1020391,
+                "n": "Arenvald",
+                "l": 2403,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020392",
+            "obj": {
+                "i": 1020392,
+                "n": "Serpent Officer",
+                "l": 2406,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020393",
+            "obj": {
+                "i": 1020393,
+                "n": "Storm Officer",
+                "l": 2406,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020432",
+            "obj": {
+                "i": 1020432,
+                "n": "Lyse",
+                "l": 2406,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020527",
+            "obj": {
+                "i": 1020527,
+                "n": "Lyse",
+                "l": 2406,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020554",
+            "obj": {
+                "i": 1020554,
+                "n": "Arenvald",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020559",
+            "obj": {
+                "i": 1020559,
+                "n": "Conrad",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020560",
+            "obj": {
+                "i": 1020560,
+                "n": "Lyse",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020561",
+            "obj": {
+                "i": 1020561,
+                "n": "M'naago",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020562",
+            "obj": {
+                "i": 1020562,
+                "n": "Arenvald",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020565",
+            "obj": {
+                "i": 1020565,
+                "n": "Ananta Battlemaid",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020568",
+            "obj": {
+                "i": 1020568,
+                "n": "Conrad",
+                "l": 2406,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020569",
+            "obj": {
+                "i": 1020569,
+                "n": "Arenvald",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020572",
+            "obj": {
+                "i": 1020572,
+                "n": "Ananta Battlemaid",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022087",
+            "obj": {
+                "i": 1022087,
+                "n": "M'naago",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023298",
+            "obj": {
+                "i": 1023298,
+                "n": "Swarthy Resistance Fighter",
+                "l": 2403,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023762",
+            "obj": {
+                "i": 1023762,
+                "n": "Ala Mhigan Brigade Officer",
+                "l": 2403,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023763",
+            "obj": {
+                "i": 1023763,
+                "n": "Hot-blooded Youth",
+                "l": 2403,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "18577",
+            "obj": {
+                "i": 18577,
+                "n": "Azurite Ring of Healing",
+                "l": 279,
+                "c": 54625,
+                "t": 43,
+                "p": 16395
+            }
+        },
+        {
+            "type": "item",
+            "id": "18578",
+            "obj": {
+                "i": 18578,
+                "n": "Azurite Ring of Casting",
+                "l": 279,
+                "c": 54625,
+                "t": 43,
+                "p": 16395
+            }
+        },
+        {
+            "type": "item",
+            "id": "5673",
+            "obj": {
+                "i": 5673,
+                "n": "Savage Aim Materia V",
+                "l": 160,
+                "c": 20258,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68063",
+            "obj": {
+                "i": 68063,
+                "n": "While You Were Away",
+                "g": 6,
+                "l": "Limsa Lominsa",
+                "s": 870
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68065",
+            "obj": {
+                "i": 68065,
+                "n": "The Fortunes of War",
+                "g": 6,
+                "l": "The Fringes",
+                "s": 890
+            }
+        }
+    ]
+}

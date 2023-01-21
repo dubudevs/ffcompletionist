@@ -1,0 +1,100 @@
+{
+    "quest": {
+        "name": "Lost and Found",
+        "location": "Limsa Lominsa",
+        "id": 65655,
+        "patch": 2.0,
+        "sort": 20,
+        "eventIcon": 71221,
+        "issuer": 1000938,
+        "target": 1002433,
+        "involved": [
+            1000981
+        ],
+        "genre": 91,
+        "journal": [
+            "Ginnade seeks help with a growing problem in Limsa Lominsa.",
+            "You have been entrusted with a missing persons list from Ginnade. Deliver it to N'delika, who can be found welcoming newcome travelers in Bulwark Hall, on the lower decks.",
+            "In spite of her appearance, N'delika is a member of the Yellowjackets, charged with keeping a watchful eye over all who enter and leave the city."
+        ],
+        "objectives": [
+            "Deliver the missing persons list to N'delika in Bulwark Hall."
+        ],
+        "dialogue": [
+            {
+                "name": "GINNADE",
+                "text": "An alarming number of citizens have gone missing of late, though I suspect you've already heard the rumors."
+            },
+            {
+                "name": "GINNADE",
+                "text": "It is essential that we ascertain their safety. To this end, I have prepared a list based on reports from our citizens. Would you be so kind as to deliver it to my colleague in Bulwark Hall? N'delika is her name. My thanks in advance, friend."
+            },
+            {
+                "name": "NDELIKA",
+                "text": "Welcome to Limsa Lominsa! If there's aught you would like to know, feel free to─<br>...Hm? You've got something for me, you say? A missing persons list? I'm not sure I follow..."
+            },
+            {
+                "name": "NDELIKA",
+                "text": "(Thanks for bringing the list─I'll be sure to memorize these names. If any of the missing persons reappear, you can count on me to spot them.)"
+            },
+            {
+                "name": "NDELIKA",
+                "text": "(Most folk enter the city via the Zephyr Drift, which means they must pass through Bulwark Hall. That's why I'm on constant watch here, and undercover so as to keep an eye out for suspicious activity.)"
+            },
+            {
+                "name": "NDELIKA",
+                "text": "(I've been doing this for so long, I've become a pretty good judge of character. If there're shady characters skulking about, you can rest assured I can pick them out. Heh heh heh.)"
+            }
+        ],
+        "reward": {
+            "gil": 110,
+            "xp": 110
+        },
+        "next": [
+            65656
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000938",
+            "obj": {
+                "i": 1000938,
+                "n": "Ginnade",
+                "l": 28,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002433",
+            "obj": {
+                "i": 1002433,
+                "n": "N'delika",
+                "l": 29,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000981",
+            "obj": {
+                "i": 1000981,
+                "n": "Niniya",
+                "l": 28,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65656",
+            "obj": {
+                "i": 65656,
+                "n": "I Stay the Streetlight",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 20
+            }
+        }
+    ]
+}

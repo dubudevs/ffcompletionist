@@ -1,0 +1,133 @@
+{
+    "quest": {
+        "name": "A Lesson in Patience",
+        "location": "Ishgard",
+        "id": 67551,
+        "patch": 3.0,
+        "sort": 400,
+        "icon": 100442,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012222,
+        "target": 1014944,
+        "genre": 159,
+        "journal": [
+            "Jannequinard appears slightly distressed. Speak with the astrologian and try to learn if aught is amiss.",
+            "Leveva and Quimperain were ambushed once again by bandits, and the Sharlayan astrologian is currently recovering in a refurbished alcove on the second floor of the Athenaeum.",
+            "Lady Leveva's plan to use the news of her attack as an opportunity to teach her students about holding certain cards in their spreads was only half successful. Fortunately, it was your half that was the success. Speak with Leveva again to have her continue the lesson."
+        ],
+        "objectives": [
+            "Speak with Leveva on the second floor."
+        ],
+        "dialogue": [
+            {
+                "name": "JANNEQUINARD",
+                "text": "Are you doing well, <span class=\"highlight\">Forename</span>? Well then that at least makes two of us... Ah... I mean... Oh, I cannot keep such important news from you, <span class=\"highlight\">Forename</span>! Lady Leveva and Quimperain...just last night they fell victim to another ambush at the hands of bandits!"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "The ever-resourceful Quimperain proved his invaluable worth once again with a dashing display of chivalry that would shame any knight in the See─a statement that attests to the sorry state of our knights. But that is a chat we can have over a different cup of tea."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "When Lady Leveva attempted to retire to a room at that filthy inn in the Brume, I had our sorely disused second floor cleared and furnished with trappings from my own home. She is up there now, and asked to see you the moment you arrived."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "The lady has been given a place on the second floor to recover, much to the chagrin of several of my fellow astrologians. Pah! It is not as if they ever go up there... Well, except for that what's-his-name. What <span class=\"emphasis\">is</span> his name? Anyway, she has asked that you pay her a visit the moment you arrive...which, if this isn't last night's mead talking, is right now."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Wait... You don't seem at all surprised to see me here... Did Jannequinard tell you of the attack? Damn the fool! And after I told him to keep his mouth shut! Though, I suppose I must bear some of the fault for ever thinking he could do as he was told."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Now, I suppose you are wondering why I summoned you here to these makeshift chambers, and no, it has naught to do with the bandit attacks it appears are much more common in your realm than I thought."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "There are times when the heavens may provide you with a vision of a future that is...slightly beyond your original aim. In these cases, the stars are not flawed, only...out of order."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "So by shuffling a card back into the deck, we are in no way ignoring or denying a future, merely postponing a reading intended for a later date, and replacing it with something that better pertains to the present. I trust that you will pick up this technique swifter than Jannequinard."
+            }
+        ],
+        "reward": {
+            "action": 3593,
+            "xp": 11270
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 40,
+                    "id": 99
+                }
+            ],
+            "quests": [
+                67550
+            ]
+        },
+        "next": [
+            67552
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012222",
+            "obj": {
+                "i": 1012222,
+                "n": "Jannequinard",
+                "l": 2301,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014944",
+            "obj": {
+                "i": 1014944,
+                "n": "Leveva",
+                "l": 2301,
+                "q": 4
+            }
+        },
+        {
+            "type": "action",
+            "id": "3593",
+            "obj": {
+                "i": 3593,
+                "n": "Redraw",
+                "c": 3105,
+                "j": 33,
+                "t": 4,
+                "l": 40
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67550",
+            "obj": {
+                "i": 67550,
+                "n": "Hanging in the Balance",
+                "g": 159,
+                "l": "Ishgard",
+                "s": 350,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67552",
+            "obj": {
+                "i": 67552,
+                "n": "Slings and Arrows",
+                "g": 159,
+                "l": "Ishgard",
+                "s": 401,
+                "f": 1
+            }
+        }
+    ]
+}

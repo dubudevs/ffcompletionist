@@ -1,0 +1,159 @@
+{
+    "quest": {
+        "name": "Eggs over Queasy",
+        "location": "Central Shroud",
+        "id": 69390,
+        "patch": 5.3,
+        "sort": 24,
+        "eventIcon": 71201,
+        "issuer": 1000421,
+        "target": 1000449,
+        "genre": 1,
+        "journal": [
+            "Galfrid, chief instructor at the Bannock, wishes you to collect chigoe egg sacs.",
+            "Galfrid requires an extra hand after his subordinates were injured. Obtain three chigoe egg sacs from the chigoes found in the vicinity of the Bannock.",
+            "You have collected three chigoe egg sacs. Deliver them to Monranguin at Gilbert's Spire.",
+            "Chigoes are known carriers of the Creeping Death─a terrifying illness that almost invariably proved fatal to its Hyuran victims. Though a cure is now available, Gridanian researchers periodically check the chigoes for signs of the disease in order to prevent further outbreaks."
+        ],
+        "objectives": [
+            "Obtain chigoe egg sacs from chigoes.",
+            "Deliver the chigoe egg sacs to Monranguin at Gilbert's Spire."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "GALFRID",
+                "text": "<span class=\"highlight\">Forename</span>, injuries to several of my men have left me shorthanded, and I require a capable sort to complete their unfinished duty."
+            },
+            {
+                "name": "GALFRID",
+                "text": "The task is simple: put down as many of the local chigoe population as necessary to acquire three of their egg sacs."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Having done so, you are to deliver them to Monranguin at Gilbert's Spire. He will answer any queries you might have. Now, I have other business to attend to."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "Ah, you must be the adventurer standing in for our injured companions. Terribly unfortunate business, that."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "It seems, however, that you had little trouble gathering the egg sacs in their stead. Excellent work. I shall have them sent over to the Trappers' League immediately."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "Lest you wonder, these egg sacs are not destined for the dinner table! Members of the Twin Adder and the Wood Wailers are assisting the League by collecting the samples they need to check for signs of sickness."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "The chigoe, you see, is one of the few creatures capable of transmitting the disease known as the Creeping Death. Until relatively recently, any Hyur who contracted this ghastly illness would almost invariably perish."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "Indeed, a single outbreak once claimed the lives of a third of the Hyuran population here in Gridania. That was a long time ago, of course. With the medicines available to us now, the Creeping Death is not the killer it once was."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "Even so, it is best to halt any new outbreaks before they occur. Thus we gather chigoe eggs on a regular basis in order to assist the Trappers' League with their ongoing research. Your timely assistance is most appreciated."
+            }
+        ],
+        "reward": {
+            "gil": 151,
+            "items": [
+                {
+                    "num": 13,
+                    "id": 4
+                },
+                {
+                    "id": 4552
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65981
+            ]
+        },
+        "next": [
+            65708,
+            65711
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000421",
+            "obj": {
+                "i": 1000421,
+                "n": "Galfrid",
+                "l": 54,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000449",
+            "obj": {
+                "i": 1000449,
+                "n": "Monranguin",
+                "l": 54,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65981",
+            "obj": {
+                "i": 65981,
+                "n": "Chasing Shadows",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 16
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65708",
+            "obj": {
+                "i": 65708,
+                "n": "More than a Flesh Wound",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 70
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65711",
+            "obj": {
+                "i": 65711,
+                "n": "Surveying the Damage",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 27
+            }
+        }
+    ]
+}

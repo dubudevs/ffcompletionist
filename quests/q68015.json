@@ -1,0 +1,613 @@
+{
+    "quest": {
+        "name": "To Bend with the Wind",
+        "location": "The Ruby Sea",
+        "id": 68015,
+        "patch": 4.0,
+        "sort": 340,
+        "icon": 100648,
+        "eventIcon": 71201,
+        "issuer": 1023650,
+        "target": 1019930,
+        "involved": [
+            1019915,
+            1019916,
+            1019917,
+            1019918,
+            1019919,
+            1019920,
+            1019921,
+            1019922,
+            1019923,
+            1019924,
+            1019925,
+            1019926,
+            1019927,
+            1019928,
+            1019929,
+            1023647,
+            1023648,
+            1023649,
+            1023683
+        ],
+        "genre": 6,
+        "journal": [
+            "Soroban is in high spirits.",
+            "Relieved that you will not judge him and his fellow Blue Kojin harshly for the deeds of the Red, Soroban is eager to take you the rest of the way to Othard. He leaves with the others to ready his ship, and bids you inform the Confederates of your impending departure.",
+            "The Confederate with whom you speak reiterates that there is no need to pay the Ruby Tithe, though he and the others should be glad if you would consider purchasing supplies before leaving the island.",
+            "All due preparations made, you set forth, and Sakazuki recedes into the distance as the eastern coastline of Othard grows larger. Recalling that Tansui spoke of Doma's viceroy “holding court” in one of the fishing villages, you come ashore some distance from Isari, in case it should chance to be the selfsame village.",
+            "Agreements fulfilled and debts paid, you part ways with Soroban, and turn your attentions to Isari, which you soon discover to be occupied by imperial forces. From afar, you catch your first glimpse of Yotsuyu, the imperial viceroy, and <span class=\"emphasis\">Grynewaht</span> of all people, who seems none the worse for the trouncings you dealt him in Gyr Abania and Carteneau. To the disgust and horror of your comrades, Yotsuyu forces one villager to execute another, before having him shot for refusing to kill his own parents. Incensed, Gosetsu resolves to end the madness by surrendering himself into the viceroy's custody, reasoning that she will wish to question him thoroughly, giving you time to formulate a rescue plan. Despite your comrades' protestations, the samurai will not be swayed, and you can only watch as he is led away into the local tavern.",
+            "Though Alisaie is frustrated by this turn of events, she recognizes that what is done is done, and that you have no choice but to find a solution. Recalling that Gosetsu bade you seek aid at the mysterious tower to the northeast, she takes to the water with Lyse, and begins swimming for the isle of Onokoro.",
+            "As Alisaie laments a brief moment of Alphinaud-like exposition, massive beasts with big, nasty teeth emerge from the water and howl in rage. Others are soon drawn to the commotion, and since discretion is the better part of valor, your comrades resolve to run, fending the beasts off as they go. You, meanwhile, decide to deal with the first two beasts before following suit.",
+            "Ravenous beasts are rarely a challenge for you, and these are no exception. Doubtless Lyse and Alisaie fared just as well...",
+            "As expected, you find your comrades standing over several slain beasts, none the worse for wear. The tower is not far, and you can almost make out the banners, which look rather familiar even at this distance.",
+            "It would seem that Gosetsu intended for you to seek the aid of the Confederacy, as the large settlement─complete with its own aetheryte─appears to be under their control. But given what Tansui told you before, there is surely little chance that they will answer your call."
+        ],
+        "objectives": [
+            "Speak with the proud Confederate.",
+            "Speak with Soroban.",
+            "Speak with Alisaie.",
+            "Follow Alisaie.",
+            "Defeat the gyuki.",
+            "Search for Lyse.",
+            "Follow Lyse."
+        ],
+        "dialogue": [
+            {
+                "name": "LYSE",
+                "text": "So we can leave for Othard, right?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "...Hm. I suppose that shall have to suffice for now."
+            },
+            {
+                "name": "GOSETSU",
+                "text": "Hah! I told you he would not abandon us!"
+            },
+            {
+                "name": "SOROBAN",
+                "text": "I shall return to the ship and prepare for our departure. If you have any remaining business to conduct with the pirates here, I pray you do so now."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Ah, that reminds me. <span class=\"highlight\">Forename</span>, would you be so kind as to inform the Confederates of our plans? The more they know of our movements, the less like we are to be mistaken for another vessel by their comrades."
+            },
+            {
+                "name": "LYSE",
+                "text": "Next stop, Othard...and Doma. We're coming, Yugiri..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Even if we need not fear the Confederacy, there is no telling what manner of imperial presence we will find waiting for us. We must be careful."
+            },
+            {
+                "name": "GOSETSU",
+                "text": "What are we standing around for? Did you not hear what Tansui said? The viceroy must be stopped!"
+            },
+            {
+                "name": "GOSETSU",
+                "text": "Regardless of Tansui's assurances, I would take no chances and inform the pirates of our plans, lest the more unscrupulous among them decide to board us regardless. Stranger things have been known to happen..."
+            },
+            {
+                "name": "TESHITAPIRATE",
+                "text": "Oh, you're one of the ijin from the beach. Leaving us already?"
+            },
+            {
+                "name": "TESHITAPIRATE",
+                "text": "No need to pay the tithe, like Tansui said. On the other hand, if you were to peruse our wares and find anything to your liking, we should be glad to sell it to you for a fair price."
+            },
+            {
+                "name": "TESHITAPIRATE",
+                "text": "Tansui seems to believe you're not the type to let a favor go unanswered. Assuming he's not mistaken, I've no doubt you could find a few odd jobs here."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "You have spoken with the Confederates up above, then? Excellent! If you are ready to depart, we may do so at any time."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "All aboard!"
+            },
+            {
+                "name": "A1",
+                "text": "One moment..."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Of course. Take as much time as you require."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Then let us be off! I shall deliver you to the fishing village of Isari."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Wait─Tansui said that the viceroy was “holding court” in one of the fishing villages, did he not?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Should Isari chance to be the village in question, we could instantly find ourselves surrounded by imperial soldiers. I think it safer to come ashore some distance away."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Very well! I know just the place."
+            },
+            {
+                "name": "LYSE",
+                "text": "Hmm... It would have been silly to try to swim all the way here. At least this time."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Still have your bearings? I know it can be difficult when you're on the water."
+            },
+            {
+                "name": "GOSETSU",
+                "text": "At long last, I am returned to my homeland..."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Here we are! I am reasonably certain none bore witness to our approach."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "And with this, I believe I have fulfilled the terms of our agreement?"
+            },
+            {
+                "name": "GOSETSU",
+                "text": "Aye, that you have. You have my deepest thanks, Soroban. Truly, we are blessed to have befriended such a clever and industrious merchant!"
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Oh, you are much too kind, good sir!"
+            },
+            {
+                "name": "SOROBAN",
+                "text": "I know not where your path may lead, but I wish you the very best, and hope that we shall meet again."
+            },
+            {
+                "name": "LYSE",
+                "text": "So we've finally arrived in Othard. All we need to do now is, uh...liberate Doma."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Ah, yes...that.<br>Look...daunting though it is, we do have one thing in our favor: the element of surprise. Unlike in Gyr Abania, the imperials don't know we're here."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Admittedly, that may be our <span class=\"emphasis\">only</span> advantage, considering how few of us there are..."
+            },
+            {
+                "name": "LYSE",
+                "text": "Well, I expect the Doman Liberation Front will even up the odds a bit. But before all that, we need to see if this is the fishing village Tansui was talking about."
+            },
+            {
+                "name": "GOSETSU",
+                "text": "It may well be. I smell ceruleum on the breeze..."
+            },
+            {
+                "name": "LYSE",
+                "text": "You heard him. Let's go!"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I hate it as much as you. Maybe even more. Every fiber of my being was crying out to intervene, but..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "But what's done is done. Gosetsu's gamble has gifted us the time we need to find a solution."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "He bade us seek aid at the distant tower, yes? For want of a better idea, I say we do just that─while taking care to avoid the imperials."
+            },
+            {
+                "name": "LYSE",
+                "text": "She's right. This is not like the Reach. This is worse. They were defenseless..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "We seem to have evaded their patrols so far..."
+            },
+            {
+                "name": "LYSE",
+                "text": "What is that tower, anyway? I've never seen anything like it."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "According to my map, we are on Onokoro, and the tower is known as Heaven–on–High. A mysterious structure built long ago by persons unknown..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Oh gods, listen to me. I'm starting to sound like Alphinaud. Next thing you know, I'll be saying things like, “As you are doubtless already aware...”"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Hm? Over there! Do you see it?"
+            },
+            {
+                "name": "LYSE",
+                "text": "Hmm... Doesn't look like it's been dead long."
+            },
+            {
+                "name": "LYSE",
+                "text": "Whoever did this, they're a good shot. I can't see a single stray arrow."
+            },
+            {
+                "name": "LYSE",
+                "text": "Well, someone's hungry! Wait...that wasn't either of you two, was it."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Calm down! We had nothing to do wi─<br>Wait, what am I doing? They can't possibly understand us."
+            },
+            {
+                "name": "LYSE",
+                "text": "Probably not, no..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Time to run, Lyse! We save our strength for any that give chase! You too, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "POP",
+                "text": "The beasts howl in rage and charge!"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Whew... That went better than expected."
+            },
+            {
+                "name": "LYSE",
+                "text": "Just imagine if they'd taken us by surprise. What a fine ending that would have been to our story..."
+            },
+            {
+                "name": "LYSE",
+                "text": "Anyway, I think it's safe to assume that the people at the tower know how to defend themselves. You'd have to, sharing an island with these things. Now all we need to do is convince them to help us!"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "So that's the way of it..."
+            },
+            {
+                "name": "LYSE",
+                "text": "Ohh...there's a settlement here! And they've even got their own aetheryte."
+            },
+            {
+                "name": "LYSE",
+                "text": "Wait a minute... I've seen that standard before. It was when we met with Tansui. Which means this place belongs to... Oh."
+            }
+        ],
+        "reward": {
+            "gil": 1262,
+            "items": [
+                {
+                    "id": 18227,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18239,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18245,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5668,
+                    "one": 1
+                }
+            ],
+            "xp": 183600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 62,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68014
+            ]
+        },
+        "next": [
+            68016
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1023650",
+            "obj": {
+                "i": 1023650,
+                "n": "Soroban",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019930",
+            "obj": {
+                "i": 1019930,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019915",
+            "obj": {
+                "i": 1019915,
+                "n": "Soroban",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019916",
+            "obj": {
+                "i": 1019916,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019917",
+            "obj": {
+                "i": 1019917,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019918",
+            "obj": {
+                "i": 1019918,
+                "n": "Gosetsu",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019919",
+            "obj": {
+                "i": 1019919,
+                "n": "Soroban",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019920",
+            "obj": {
+                "i": 1019920,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019921",
+            "obj": {
+                "i": 1019921,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019922",
+            "obj": {
+                "i": 1019922,
+                "n": "Gosetsu",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019923",
+            "obj": {
+                "i": 1019923,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019924",
+            "obj": {
+                "i": 1019924,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019925",
+            "obj": {
+                "i": 1019925,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019926",
+            "obj": {
+                "i": 1019926,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019927",
+            "obj": {
+                "i": 1019927,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019928",
+            "obj": {
+                "i": 1019928,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019929",
+            "obj": {
+                "i": 1019929,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023647",
+            "obj": {
+                "i": 1023647,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023648",
+            "obj": {
+                "i": 1023648,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023649",
+            "obj": {
+                "i": 1023649,
+                "n": "Gosetsu",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023683",
+            "obj": {
+                "i": 1023683,
+                "n": "Proud Confederate",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "18227",
+            "obj": {
+                "i": 18227,
+                "n": "Gyuki Leather Boots of Aiming",
+                "l": 265,
+                "c": 46768,
+                "t": 38,
+                "p": 20778
+            }
+        },
+        {
+            "type": "item",
+            "id": "18239",
+            "obj": {
+                "i": 18239,
+                "n": "Gyuki Leather Boots of Healing",
+                "l": 265,
+                "c": 46767,
+                "t": 38,
+                "p": 20778
+            }
+        },
+        {
+            "type": "item",
+            "id": "18245",
+            "obj": {
+                "i": 18245,
+                "n": "Gyuki Leather Pattens",
+                "l": 265,
+                "c": 46766,
+                "t": 38,
+                "p": 20778
+            }
+        },
+        {
+            "type": "item",
+            "id": "5668",
+            "obj": {
+                "i": 5668,
+                "n": "Heavens' Eye Materia V",
+                "l": 160,
+                "c": 20258,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68014",
+            "obj": {
+                "i": 68014,
+                "n": "Boys with Boats",
+                "g": 6,
+                "l": "The Ruby Sea",
+                "s": 330
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68016",
+            "obj": {
+                "i": 68016,
+                "n": "Confederate Consternation",
+                "g": 6,
+                "l": "The Ruby Sea",
+                "s": 350
+            }
+        }
+    ]
+}

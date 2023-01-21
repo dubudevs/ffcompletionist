@@ -1,0 +1,157 @@
+{
+    "quest": {
+        "name": "A Small-scale Operation",
+        "location": "Ul'dah",
+        "id": 66885,
+        "patch": 2.2,
+        "sort": 24,
+        "eventIcon": 71201,
+        "target": 1008626,
+        "genre": 0,
+        "journal": [
+            "Alphinaud has a mind to send you to Vesper Bay.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Alphinaud at the Quicksand.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "After speaking with Hozan in Vesper Bay, he observes that an experienced adventurer such as you should not be burdened with the kinds of menial tasks he would assign. Nevertheless, he and his people are in need, and he asks that you retrieve a heavy crate at the docks.",
+            "The crate, while admittedly heavy, is a far cry from some of the more cumbersome objects you have carried over the course of your adventuring career. Return to Hozan and present to him the crate.",
+            "Upon inspection, Hozan is horrified to discover that the scale armor within the crate was damaged during its long storage. Fortunately, it is not beyond repair─assuming that you can locate and retrieve the four missing scales which slipped through holes in the bottom of the crate. Retrace your steps and search for the scales.",
+            "With relatively little difficulty, you recover the errant scales. Hozan will be relieved to receive them.",
+            "Although Hozan is full glad for your help, he remains somewhat withdrawn. Gazing upon his father's armor, he wonders what will become of his people, who have naught but mementos and memories of their homeland..."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Alphinaud at the Quicksand.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "ALPHINAUD",
+                "text": "As we speak, the Domans are being ferried to Vesper Bay, after which they will be transported by carriage to Ul'dah."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Alas, while our plans have proceeded relatively smoothly until now, efforts to coordinate the refugees' preparations have met with less success."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "<span class=\"highlight\">Forename</span>, I would have you return to Vesper Bay and facilitate the process through tasks great and small. In short: whatever must needs be done, do it."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Speak with Hozan when you arrive. He has been designated the leader of the first group."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I know that these tasks may seem trifling at times. However, they are vital to ensuring the safety of the refugees for their pending journey."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Greetings. Alphinaud informed me that a Scion would be arriving to help with the preparations. I am honored to meet you, though shamed as well. A great warrior should not be tasked with such trivialities."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Aye, I knew from a glance what manner of <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> you were. I too have some skill at arms, as do many of our people."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Little good it does us when our enemies are the elements and starvation. An act so simple as carrying a heavy crate is beyond the capabilities of our healthiest men, believe it or not."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Pray forgive this trifle, but would you bring to me the aforementioned crate on the docks? There is no one else to whom I can turn."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Brought low by a crate─hah! It almost beggars belief. Alas, I speak true when I say we cannot carry it ourselves. If you would be so kind, please bring it to me."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Is that the crate I spy in your arms? Pray give it to me quickly─the contents are dear."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Hurk! I thought my strength somewhat restored, but that clearly is not the case..."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "By the gods, the armor! How could this have happened!?"
+            },
+            {
+                "name": "HOUZAN",
+                "text": "'Twas bestowed upon my father for feats of valor. Every scale forged by a master smith, guaranteed to withstand the test of time─or so we thought."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "The armor must have shifted within its confines during the long sea voyage. Many scales have come loose, and there are holes in the bottom of the crate...through which the four missing scales I count must have fallen."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "It can be repaired in time, but only if we recover those scales. Please, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>, retrace your steps and collect any scales you come across."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Only four scales appear to be missing. If we are fortunate, they but recently slipped through the holes in the crate and are somewhere between here and the docks."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "I know not how I can face my father should those scales be forever lost..."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Bless you, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>; I am in your debt. All that remains of Doma now are our mementos and memories."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "I can only hope that when such keepsakes are lost to us, those memories will be enough..."
+            }
+        ],
+        "reward": {
+            "xp": 4800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                66884
+            ]
+        },
+        "next": [
+            66886
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1008626",
+            "obj": {
+                "i": 1008626,
+                "n": "Hozan",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66884",
+            "obj": {
+                "i": 66884,
+                "n": "Promises to Keep",
+                "g": 0,
+                "l": "Ul'dah",
+                "s": 23
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66886",
+            "obj": {
+                "i": 66886,
+                "n": "Yugiri's Game",
+                "g": 0,
+                "l": "Western Thanalan",
+                "s": 25
+            }
+        }
+    ]
+}

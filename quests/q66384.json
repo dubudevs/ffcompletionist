@@ -1,0 +1,136 @@
+{
+    "quest": {
+        "name": "Battle Scars",
+        "location": "Eastern La Noscea",
+        "id": 66384,
+        "patch": 2.0,
+        "sort": 176,
+        "eventIcon": 71201,
+        "issuer": 1006312,
+        "target": 1006305,
+        "involved": [
+            1006266
+        ],
+        "genre": 1,
+        "journal": [
+            "Drest appears to be in greater control of his faculties.",
+            "To express his gratitude to Shamani Lohmani, Drest has asked you to deliver three coconuts filled with palm wine, a sweet beverage made from naturally fermented tree sap. Collect the three coconuts Drest has placed at Red Mantis Falls.",
+            "You have no trouble locating Drest's palm wine. Deliver the gifts to Shamani Lohmani at Wineport.",
+            "The blind vintner immediately identifies the palm wine with his impeccable sense of smell. Grateful for the gesture, he reflects upon the similarities between himself and the troubled man. Shamani Lohmani then thanks you for looking after Drest, with whom he resolves to spend more time."
+        ],
+        "objectives": [
+            "Collect the palm wine.",
+            "Deliver the palm wine to Shamani Lohmani."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "DREST",
+                "text": "I...I wish to thank Shamani for the wine. That...that was overly kind... Would you be willing to bear a gift back to him?"
+            },
+            {
+                "name": "DREST",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Earlier today</span><span class=\"alternative\">Last night</span></span> at Red Mantis Falls, I collected the sap from nearby palm trees. If...if placed in coconut shells and stored for a few bells' time, it...it makes for a fine wine, see... It should be ready by now."
+            },
+            {
+                "name": "DREST",
+                "text": "I left three shells out there. Please, take them to Shamani for me. I'm...I'm glad he's moved on with his life. I hope to one day do the same..."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "It has been some time, <span class=\"highlight\">Forename</span>. What news do you have of Drest?"
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "&lt;sniff&gt; &lt;sniff&gt; Ah, yes, I recall he did have some knowledge of winemaking. A simplistic but nevertheless effective method that utilizes the natural properties of palm sap. I shall have to enjoy this batch before it spoils."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "We are not so different, Drest and I. Two men who have long struggled not to let our scars define us..."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "I worry that he has been alone with his thoughts for far too long."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "Aye, it is past time I paid him a visit. Thank you for looking after him, <span class=\"highlight\">Forename</span>."
+            }
+        ],
+        "reward": {
+            "gil": 1289,
+            "xp": 16380
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 33,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66382
+            ]
+        },
+        "next": [
+            66386
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006312",
+            "obj": {
+                "i": 1006312,
+                "n": "Drest",
+                "l": 32,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006305",
+            "obj": {
+                "i": 1006305,
+                "n": "Shamani Lohmani",
+                "l": 32,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006266",
+            "obj": {
+                "i": 1006266,
+                "n": "Wheiskaet",
+                "l": 32,
+                "q": 20
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66382",
+            "obj": {
+                "i": 66382,
+                "n": "That Weight",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 174
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66386",
+            "obj": {
+                "i": 66386,
+                "n": "It Was a Very Good Year",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 177
+            }
+        }
+    ]
+}

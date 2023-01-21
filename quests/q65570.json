@@ -1,0 +1,180 @@
+{
+    "quest": {
+        "name": "Derision of Labor",
+        "location": "Gridania",
+        "id": 65570,
+        "patch": 2.0,
+        "sort": 40,
+        "eventIcon": 71221,
+        "issuer": 1000370,
+        "target": 1000408,
+        "involved": [
+            1000100
+        ],
+        "genre": 92,
+        "journal": [
+            "Celestine, a world-weary veteran of many adventures, is looking for an inexperienced young soul to make a delivery on her behalf.",
+            "Celestine, a veteran adventurer who has long since grown weary of menial tasks, sizes you up at a glance and declares you the perfect person to undertake her latest commission. Deliver a bag of basic provisions to Tsubh Khamazom at the Bannock.",
+            "You deliver a bag of basic provisions to Tsubh Khamazom, an unabashed coward who commends your bravery whilst simultaneously questioning your sanity. Though you are proud to have done your bit to aid the gentler souls of Gridania, you are somewhat surprised by her mention of another, earlier payment. Putting the thought from your mind, you look forward to the day when you, too, can foist such drudgery on green adventurers."
+        ],
+        "objectives": [
+            "Deliver the provisions to Tsubh Khamazom."
+        ],
+        "dialogue": [
+            {
+                "name": "CELESTINE",
+                "text": "Hey, <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>, you seem unoccupied."
+            },
+            {
+                "name": "CELESTINE",
+                "text": "You know the Bannock, I trust? Fancy taking a bag of basic provisions over there for me? It's not too heavy, mostly filled with dried meats and other bland rations."
+            },
+            {
+                "name": "CELESTINE",
+                "text": "It's a straightforward job that I'd do with a smile and a spring in my step...if I were ten years younger. Alas, my tastes have matured. Evolved. Advanced to a higher <span class=\"emphasis\">level</span>, you might even say."
+            },
+            {
+                "name": "CELESTINE",
+                "text": "But it's a perfect little task for someone <span class=\"emphasis\">fresh-faced</span> like you. Worry not─you'll receive appropriate compensation upon delivery, which you may keep with my blessings."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "A delivery, eh?<br>...You're certain you weren't followed?"
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "Yes, this is what I requested. Strange...I was expecting someone with rather more experience. I usually balk at such <span class=\"emphasis\">outrageous</span> payments prior to delivery."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "Honestly, I'm amazed you made it this far! These woods are teeming with anoles and other nasties, ready to make a quick meal of the unprepared."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "I commend your bravery and thank you for your trouble. Here, take the remainder of the fee. I should be very happy to employ you ag─<br>Wait! Did you see that!? It looked like an anole! Quickly, go before you bring it here and get us all killed!"
+            }
+        ],
+        "reward": {
+            "gil": 127,
+            "items": [
+                {
+                    "id": 3311,
+                    "one": 1
+                },
+                {
+                    "id": 3312,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 455
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "questsType": "any",
+            "quests": [
+                65621,
+                65659
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000370",
+            "obj": {
+                "i": 1000370,
+                "n": "Celestine",
+                "l": 52,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000408",
+            "obj": {
+                "i": 1000408,
+                "n": "Tsubh Khamazom",
+                "l": 54,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000100",
+            "obj": {
+                "i": 1000100,
+                "n": "Mother Miounne",
+                "l": 52,
+                "q": 21,
+                "t": "Carline Canopy Proprietress"
+            }
+        },
+        {
+            "type": "item",
+            "id": "3311",
+            "obj": {
+                "i": 3311,
+                "n": "Hempen Sarouel",
+                "l": 5,
+                "c": 45064,
+                "t": 36,
+                "p": 108
+            }
+        },
+        {
+            "type": "item",
+            "id": "3312",
+            "obj": {
+                "i": 3312,
+                "n": "Hempen Tights",
+                "l": 5,
+                "c": 45079,
+                "t": 36,
+                "p": 94
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65621",
+            "obj": {
+                "i": 65621,
+                "n": "Close to Home",
+                "g": 1,
+                "l": "Gridania",
+                "s": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65659",
+            "obj": {
+                "i": 65659,
+                "n": "Close to Home",
+                "g": 1,
+                "l": "Gridania",
+                "s": 3
+            }
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "quest": {
+        "name": "In Too Deep",
+        "location": "Central Shroud",
+        "id": 66342,
+        "patch": 2.0,
+        "sort": 290,
+        "eventIcon": 71221,
+        "issuer": 1006262,
+        "target": 1006262,
+        "genre": 92,
+        "journal": [
+            "Hobriaut is suffering at the hands of the taskmaster Marcette.",
+            "You agree to conduct a water survey on behalf of Hobriaut, who has been worked to the point of exhaustion by the unforgiving taskmaster Marcette. Obtain three bottles of water from Hopeseed Pond.",
+            "You have completed the water survey entrusted to the young researcher Hobriaut. Deliver the three bottles of water to him.",
+            "Though your assistance will spare Hobriaut from feeling Marcette's wrath today, the young researcher still fears for his life."
+        ],
+        "objectives": [
+            "Obtain water samples from Hopeseed Pond.",
+            "Deliver the bottles of water to Hobriaut."
+        ],
+        "dialogue": [
+            {
+                "name": "HOBRIAUT",
+                "text": "&lt;pant&gt; &lt;pant&gt; I swear to you, that woman is a fiend! A monster! A greater danger to this realm than all the beast tribes put together, and then some! Why, I speak of Marcette, of course."
+            },
+            {
+                "name": "HOBRIAUT",
+                "text": "No sooner did I return with the three hundred hornet stingers she requested than she sends me off to conduct a water survey at Hopeseed Pond! In my condition, I'm like to fall in face-first and drown. Oh, friend, I'm too young to die! Please say you'll help me...you must!"
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: survey water at three points"
+            },
+            {
+                "name": "HOBRIAUT",
+                "text": "I don't want to be Research Assistant Seven, Twelve, or Forty-three! I just want to go hoooooome─hm? Ah, praise the gods, you're back. Were you able to complete the survey?"
+            },
+            {
+                "name": "HOBRIAUT",
+                "text": "One, two, three samples from Hopeseed Pond. Wonderful! I cannot thank you enough. Though I cannot help but ponder what other backbreaking tasks might be in my future... Pluck the wisdom teeth of a goobbue? Procure a leaf from a treant's head? The gods only know."
+            },
+            {
+                "name": "HOBRIAUT",
+                "text": "Grandfather, Grandmother...can you hear me up there? Your dear grandson shall be joining you all too soon..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4448,
+                    "one": 1
+                },
+                {
+                    "id": 4442,
+                    "one": 1
+                },
+                {
+                    "id": 4446,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 7220
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 29,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66341
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006262",
+            "obj": {
+                "i": 1006262,
+                "n": "Hobriaut",
+                "l": 54,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4448",
+            "obj": {
+                "i": 4448,
+                "n": "Sphene Ring",
+                "l": 29,
+                "c": 54410,
+                "t": 43,
+                "p": 1735
+            }
+        },
+        {
+            "type": "item",
+            "id": "4442",
+            "obj": {
+                "i": 4442,
+                "n": "Sunstone Ring",
+                "l": 29,
+                "c": 54407,
+                "t": 43,
+                "p": 1735
+            }
+        },
+        {
+            "type": "item",
+            "id": "4446",
+            "obj": {
+                "i": 4446,
+                "n": "Malachite Ring",
+                "l": 29,
+                "c": 54409,
+                "t": 43,
+                "p": 1735
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66341",
+            "obj": {
+                "i": 66341,
+                "n": "Shocking Discoveries",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 290
+            }
+        }
+    ]
+}

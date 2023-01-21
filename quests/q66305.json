@@ -1,0 +1,97 @@
+{
+    "quest": {
+        "name": "A Bumper Crop",
+        "location": "South Shroud",
+        "id": 66305,
+        "patch": 2.0,
+        "sort": 260,
+        "eventIcon": 71221,
+        "issuer": 1006237,
+        "target": 1001186,
+        "genre": 92,
+        "journal": [
+            "The orchard-keeper Fawkes seeks your aid in giving thanks for the harvest.",
+            "Fawkes has been blessed with his most bountiful harvest in years, and would give due thanks to the guardian of the forest. Seek out the guardian to the southwest of Quarrymill and place a sprite apple in offering.",
+            "The offering to the forest guardian made, deliver the remaining apple to Castellaint of Quarrymill.",
+            "Castellaint declares the apple the finest he has tasted in years. The bounty of the forest has brought joy to Quarrymill once more."
+        ],
+        "objectives": [
+            "Place a sprite apple in offering before the withered treant.",
+            "Deliver a sprite apple to Castellaint."
+        ],
+        "dialogue": [
+            {
+                "name": "FAWKES",
+                "text": "Friend, feast yer eyes on this! Why, I've not been blessed with a harvest the likes of this in...well, as long as I can remember."
+            },
+            {
+                "name": "FAWKES",
+                "text": "All I've done is the pickin'─it's the guardians of the forest what brought me this bounty. I'd give thanks meself, but what with those poachers around, I'm like to end up with an arrow through me head."
+            },
+            {
+                "name": "FAWKES",
+                "text": "Might you be kind enough to go make the offerin' in my stead? And on your return, bring an apple to Castellaint. He's been lookin' gaunt of late."
+            },
+            {
+                "name": "SYSTEM",
+                "text": ", place offering"
+            },
+            {
+                "name": "CASTELLAINT",
+                "text": "A sprite apple! My favorite! However did you know?<br>...From Fawkes, you say? The man is too kind. Why, each scrumptious bite brings me back to days of... Ah, forgive me, friend."
+            },
+            {
+                "name": "CASTELLAINT",
+                "text": "What brings you to Quarrymill, adventurer? Mayhap you heard that our pact with the elementals permits hunting in this area? Do not think that gives you leave to strip the forest bare."
+            }
+        ],
+        "reward": {
+            "gil": 1263,
+            "xp": 5075
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 26,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66304
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006237",
+            "obj": {
+                "i": 1006237,
+                "n": "Fawkes",
+                "l": 56,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001186",
+            "obj": {
+                "i": 1001186,
+                "n": "Castellaint",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66304",
+            "obj": {
+                "i": 66304,
+                "n": "An Apple a Day",
+                "g": 92,
+                "l": "South Shroud",
+                "s": 260
+            }
+        }
+    ]
+}

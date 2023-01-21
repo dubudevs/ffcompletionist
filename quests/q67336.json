@@ -1,0 +1,114 @@
+{
+    "quest": {
+        "name": "Hungry for Seconds",
+        "location": "The Dravanian Forelands",
+        "id": 67336,
+        "patch": 3.0,
+        "sort": 5313,
+        "eventIcon": 71221,
+        "issuer": 1011940,
+        "target": 1011940,
+        "genre": 98,
+        "journal": [
+            "The grumbling of Toh Y Thrah's stomach seems to be growing louder.",
+            "With his hunger for meat sated, Toh Y Thrah now asks that you bring him gallimimus eggs. Search the gallimimus nests of the Sohm Al foothills and procure eggs for his next meal.",
+            "You pilfer the eggs from gallimimus nests. Deliver them to Toh Y Thrah and quiet the rumbling of his stomach.",
+            "You deliver the gallimimus eggs to Toh Y Thrah. You can see him beaming with delight as the eggs find their way to the recesses of his belly. Satisfied with the meal, he seems determined to steal eggs for himself in the future."
+        ],
+        "objectives": [
+            "Obtain gallimimus eggs from the Sohm Al foothills.",
+            "Deliver the gallimimus eggs to Toh Y Thrah. "
+        ],
+        "dialogue": [
+            {
+                "name": "TOHYTHRAH",
+                "text": "I still hunger, but not for meat─no, I crave eggs! Nothing is more delicious than swallowing eggs whole, their smooth shells slithering down your throat."
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "Bring me five eggs from the gallimimuses of the Sohm Al foothills. They lay eggs in abundance, and will not miss the few I require."
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "The gallimimuses of the Sohm Al foothills lay the best eggs. Five will make for a good meal."
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "You have returned, but did you bring the eggs?"
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "Yes, yes! You have done well. My hunger is not so easily sated... &lt;gulp&gt;"
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "Mmm... So smooth, so satisfying! I must find a way to pilfer them myself."
+            }
+        ],
+        "reward": {
+            "gil": 567,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67150,
+                67335
+            ]
+        },
+        "next": [
+            67337
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011940",
+            "obj": {
+                "i": 1011940,
+                "n": "Toh Y Thrah",
+                "l": 2000,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67150",
+            "obj": {
+                "i": 67150,
+                "n": "A Gnathic Deity",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67335",
+            "obj": {
+                "i": 67335,
+                "n": "How to Feed Your Dragon",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5312
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67337",
+            "obj": {
+                "i": 67337,
+                "n": "A Taste of the Peculiar",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5314
+            }
+        }
+    ]
+}

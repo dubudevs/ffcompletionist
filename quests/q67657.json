@@ -1,0 +1,144 @@
+{
+    "quest": {
+        "name": "Top Marks",
+        "location": "Idyllshire",
+        "id": 67657,
+        "patch": 3.0,
+        "sort": 5901,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1013721,
+        "involved": [
+            1012225
+        ],
+        "genre": 101,
+        "journal": [
+            "Yloise is eager for you to rise through the ranks in Clan Centurio.",
+            "Yloise is pleased to meet the adventurer whose heroics have been the subject of much discussion in Clan Centurio, but is dismayed that as yet you have only been permitted to hunt mid-level marks. She instructs you to return to the Forgotten Knight, and demand that Ardolain allow you access to a higher tier of hunting.",
+            "Ardolain defers to Yloise's judgment, and allows you access to more advanced marks. He suggests that you peruse the Clan Hunt board to examine the targets Clan Centurio reserve for their more advanced hunters.",
+            "You examine the Clan Hunt board, and the level three bills posted thereon. For more information about the Clan Hunt, or to exchange Centurio Seals for exclusive items, speak with Ardolain in the Forgotten Knight. Otherwise, it is time to test your mettle against some of the most ferocious fiends that threaten the denizens of the north."
+        ],
+        "objectives": [
+            "Speak with Ardolain in the Forgotten Knight.",
+            "Examine the Clan Hunt board."
+        ],
+        "dialogue": [
+            {
+                "name": "YLOISE",
+                "text": "So you're the famous <span class=\"highlight\">Forename</span>, are you? Heh heh heh. The Clan's all abuzz with talk of the brave young adventurer who's joined our ranks."
+            },
+            {
+                "name": "YLOISE",
+                "text": "But tell me: how is it a storied young <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">feller</span></span> like you's only approved to take on level two marks? Scared of getting that pretty face of yours scratched, are you?"
+            },
+            {
+                "name": "YLOISE",
+                "text": "Well, it's up to you, but if you've got the stomach for a new challenge, you go back to that inn and tell Ardolain that Yloise says he's holding you back! If he doesn't approve you for more advanced marks, he'll have me to deal with!"
+            },
+            {
+                "name": "YLOISE",
+                "text": "If you're happy taking on middling marks all your life, that's fine by me. But if you want to make a name for yourself in Clan Centurio, you'll get yourself down to the Forgotten Knight, and tell Ardolain that Yloise says you're ready for bigger things. That'll soften him up!"
+            },
+            {
+                "name": "ARDOLAIN",
+                "text": "Oho... So you've met Yloise, then, have you? Well, if she says you're ready for level three marks, it ain't worth arguing."
+            },
+            {
+                "name": "ARDOLAIN",
+                "text": "Just make sure you're well prepared before you go after one of these beasts. They're more dangerous than anything you've hunted so far. The rewards are bigger too, provided you make it back in one piece..."
+            },
+            {
+                "name": "ARDOLAIN",
+                "text": "Anyroad, go and have a gander at the Clan Hunt board─so long as you understand the risks, I'll let you pick any level three mark that takes your fancy."
+            },
+            {
+                "name": "ARDOLAIN",
+                "text": "The level three marks are up on the Clan Hunt board with the others. If you're sure you know what you're getting yourself into, go up and take a look at them."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Clan Hunt board is covered in bills showing the details of wanted monsters. If you are sure you are up to the challenge, try taking on one of the level 3 marks."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Level 3 Clan marks are now available!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You are now permitted to take bills for level 3 Clan marks from the Clan Hunt board."
+            }
+        ],
+        "reward": {
+            "gil": 1215,
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67656
+            ]
+        },
+        "next": [
+            67658
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013721",
+            "obj": {
+                "i": 1013721,
+                "n": "Yloise",
+                "l": 2082,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012225",
+            "obj": {
+                "i": 1012225,
+                "n": "Ardolain",
+                "l": 2300,
+                "s": 2,
+                "q": 4,
+                "t": "Clan Centurio Member",
+                "r": 1,
+                "a": 2310,
+                "c": [
+                    13.05,
+                    11.85
+                ]
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67656",
+            "obj": {
+                "i": 67656,
+                "n": "Better Bill Hunting",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 15601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67658",
+            "obj": {
+                "i": 67658,
+                "n": "Elite and Dangerous",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 16001,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "quest": {
+        "name": "Sealed with Science",
+        "location": "Eastern Thanalan",
+        "id": 66491,
+        "patch": 2.0,
+        "sort": 214,
+        "eventIcon": 71201,
+        "issuer": 1006493,
+        "target": 1006495,
+        "genre": 1,
+        "journal": [
+            "Professor Lamberteint is about to show you something you will never forget.",
+            "Professor Lamberteint is delighted to encounter one of the few people with an interest in corrupted crystals, although he doubts your ability to handle such dangerous materials. As luck would have it, he is in possession of a specially warded containment device for such an occasion, which he is prepared to lend to you, in spite of your apparent shortcomings. Duly armed, proceed to Highbridge and introduce yourself to Hahasako, one of Professor Lamberteint's dedicated pupils.",
+            "Hahasako's annoyance turns to delight as he realizes that the professor bade you seek him out. Interpreting his mentor's decision as a tacit acknowledgement of his expertise, Hahasako struggles to regain his composure so that he might aid you."
+        ],
+        "objectives": [
+            "Deliver the warded pot to Hahasako."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "Ahhh, so rare it is to find fellow intellectuals in this region. 'Tis even rarer to find one capable of comprehending the nature of corrupted crystals."
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "Come to think of it, there was another─a hermit to whom the church had given sanctuary. Curious fellow. Unsociable, rather daft at first impression, yet possessed of an amazing affinity towards the scientific pursuits..."
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "But to the matter at hand─did you say you wish not to conduct field observations, but to <span class=\"emphasis\">harvest</span> a corrupted crystal?"
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "Egads, <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>! At least take the necessary precautions so that you do not suffer from exposure to its harmful energies! I'm beginning to wonder if you've sufficient qualifications to handle such hazardous materials..."
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "Still, your ignorance is somehow endearing. Luckily for you, I have precisely the means by which these inherent dangers may be averted. Simply store the crystal you seek within this warded pot to protect yourself from its deleterious effects. Though I suppose you will be bombarded with its energies until you place it within the vessel..."
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "Well, perhaps it shall motivate you to work quickly. In any case, take the pot to Hahasako, a student of mine monitoring the flow of aether at Highbridge. Explain to him your quest, and he shall instruct you in the finer points of crystal harvesting."
+            },
+            {
+                "name": "HAHASAKO",
+                "text": "How many times must I be made to explain myself!? I am not contemplating suicide, you imbecile─I have chosen this precise position to perform scientific measurements!"
+            },
+            {
+                "name": "HAHASAKO",
+                "text": "What have we here...a containment vessel!? Why, this is the handiwork of Professor Lamberteint! You thieving knave, I shall call for the─ Oh, you say the man himself lent it to you..."
+            },
+            {
+                "name": "HAHASAKO",
+                "text": "Then you must have sought me out per his instruction...which means he believes me experienced enough to expound upon his explanations! At last, the recognition I so rightfully deserve!"
+            }
+        ],
+        "reward": {
+            "gil": 1676,
+            "items": [
+                {
+                    "id": 3149,
+                    "one": 1
+                },
+                {
+                    "id": 27675,
+                    "one": 1
+                },
+                {
+                    "id": 27642,
+                    "one": 1
+                },
+                {
+                    "num": 6,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 23000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 41,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66489
+            ]
+        },
+        "next": [
+            66492
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006493",
+            "obj": {
+                "i": 1006493,
+                "n": "Lamberteint",
+                "l": 44,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006495",
+            "obj": {
+                "i": 1006495,
+                "n": "Hahasako",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "3149",
+            "obj": {
+                "i": 3149,
+                "n": "Mythril Cuirass",
+                "l": 40,
+                "c": 48033,
+                "t": 35,
+                "p": 7371
+            }
+        },
+        {
+            "type": "item",
+            "id": "27675",
+            "obj": {
+                "i": 27675,
+                "n": "Altered Woolen Gown",
+                "l": 41,
+                "c": 42220,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "27642",
+            "obj": {
+                "i": 27642,
+                "n": "Altered Woolen Shirt",
+                "l": 40,
+                "c": 43441,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66489",
+            "obj": {
+                "i": 66489,
+                "n": "Into the Eye of the Storm",
+                "g": 1,
+                "l": "Gridania",
+                "s": 212
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66492",
+            "obj": {
+                "i": 66492,
+                "n": "With the Utmost Care",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 215
+            }
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+{
+    "quest": {
+        "name": "Caught in the Act",
+        "location": "Ishgard",
+        "id": 67406,
+        "patch": 3.0,
+        "sort": 5604,
+        "eventIcon": 71221,
+        "issuer": 1012180,
+        "target": 1012180,
+        "involved": [
+            1014721
+        ],
+        "genre": 96,
+        "journal": [
+            "Elaisse is waiting for something with bated breath.",
+            "A thief has been stealing money from the shops along the Jeweled Crozier and Elaisse has had enough. She has placed three sacks in the area containing counterfeit coins, and is waiting for the thief to take her bait. Check the sacks of counterfeit coins and see if her traps are still in place.",
+            "After taking a look around the Jeweled Crozier, you find one of the bags is missing. Return to Elaisse and tell her the trap has been sprung.",
+            "Letting the thief steal her bag of coins was only the first step of her plan. A small hole has been cut in the bottom, and the coins spilling from it will make a trail leading to the culprit. Follow the counterfeit coins and find who is behind this rash of robberies.",
+            "Following the trail of coins leads you to Osaulie, the young thief you encountered in the Brume. She runs away before you can reprimand her for what she has done. In her haste, she leaves behind the sack of counterfeit coins. Retrieve the sack and see what remains.",
+            "You retrieve the sack of counterfeit coins. Though its load has been lightened, it was all according to plan. Return to Elaisse and reveal to her the culprit's identity.",
+            "You tell Elaisse that Osaulie was the thief making off with the merchants' money. She immediately recognizes the name of the Brume's most notorious thief. Although she was not apprehended, Elaisse suspects Osaulie has learned her lesson, and will no longer be a nuisance to the Jeweled Crozier."
+        ],
+        "objectives": [
+            "Check the traps placed around the Jeweled Crozier.",
+            "Speak with Elaisse.",
+            "Search for the robber.",
+            "Retrieve the sack of counterfeit coins.",
+            "Return the sack of counterfeit coins to Elaisse."
+        ],
+        "dialogue": [
+            {
+                "name": "ELAISSE",
+                "text": "The trap is set. All I can do now is wait..."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "Ah, are you not the new ward of House Fortemps? The city is practically buzzing with talk of you. I don't suppose you could spare a moment?"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "A thief has been pilfering the profits of merchants here at the Jeweled Crozier, and I mean to flush him out. I placed three sacks of counterfeit coins about the lane as bait. Could you check to see if any are missing?"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "If the thief has taken any of the sacks, my trap will have been sprung. Please go see if they are still there."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The sack of counterfeit coins has been taken!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The sack of counterfeit coins is still in place."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The sack of counterfeit coins is still in place."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "It looks as though they've taken the bait. Excellent. What they've likely failed to note, however, is the hole in the bottom of the sack."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "Not a gaping hole, mind you. Just large enough for a coin or two to trickle out as they flee to their hiding place. Let us follow the trail and see who is behind all this."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "The hole in the sack is fairly small, so I doubt they noticed the occasional coin falling to the ground. Follow the trail. They cannot hide now."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You find a poorly crafted counterfeit coin..."
+            },
+            {
+                "name": "OSAULIE",
+                "text": "Wh-What!? What are you giving me that look for? Is it a crime to stand around, minding my own business? Leave me alone!"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "So, what did you find at the end of the trail?"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "A young girl, you say. No doubt she's the thief from the Brume I've heard so much about."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "I can't imagine the pain she must feel, alone in the world at a time such as this. My heart goes out to her, it truly does, but stealing is simply inexcusable."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "If she's as clever as people claim her to be, she will know not to try something so foolish again."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "（★未使用／削除予定★）"
+            }
+        ],
+        "reward": {
+            "gil": 496,
+            "items": [
+                {
+                    "id": 10799,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10883,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10925,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67266
+            ]
+        },
+        "next": [
+            67442
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012180",
+            "obj": {
+                "i": 1012180,
+                "n": "Elaisse",
+                "l": 2301,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014721",
+            "obj": {
+                "i": 1014721,
+                "n": "Osaulie",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "10799",
+            "obj": {
+                "i": 10799,
+                "n": "Hallowed Chestnut Mask of Aiming",
+                "l": 139,
+                "c": 40459,
+                "t": 34,
+                "p": 10402
+            }
+        },
+        {
+            "type": "item",
+            "id": "10883",
+            "obj": {
+                "i": 10883,
+                "n": "Hallowed Chestnut Mask of Healing",
+                "l": 139,
+                "c": 40460,
+                "t": 34,
+                "p": 10402
+            }
+        },
+        {
+            "type": "item",
+            "id": "10925",
+            "obj": {
+                "i": 10925,
+                "n": "Hallowed Chestnut Mask of Casting",
+                "l": 139,
+                "c": 40461,
+                "t": 34,
+                "p": 10402
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67266",
+            "obj": {
+                "i": 67266,
+                "n": "Cold Days, Colder Nights",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5005
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67442",
+            "obj": {
+                "i": 67442,
+                "n": "Unfulfilled Dreams",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5702
+            }
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "quest": {
+        "name": "Thordan's Reign",
+        "location": "Mor Dhona",
+        "id": 67739,
+        "patch": 3.1,
+        "sort": 601,
+        "icon": 112122,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006950,
+        "target": 1008278,
+        "genre": 95,
+        "journal": [
+            "Alys is casting pained glances at one of her regulars.",
+            "Alys informs you that the wandering minstrel has been desperately awaiting your return to the Seventh Heaven. Share your tales of adventure with the forlorn bard, and supply him with the inspiration he needs to craft fresh verse.",
+            "You regale the melancholy minstrel with the story of your exploits on Azys Lla. The bard's transformation upon hearing your tale is nothing short of miraculous, and he immediately takes up his harp. The stirring epic he composes to commemorate your triumph is flattering, but seems to suffer from some measure of embellishment...<br><br>※The Minstrel's Ballad: Thordan's Reign can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Speak with the wandering minstrel."
+        ],
+        "dialogue": [
+            {
+                "name": "ALYS",
+                "text": "Greetings, <span class=\"highlight\">Forename</span>. Yon bard has been gazing forlornly at the door for days, awaiting your return to the Seventh Heaven. Pray be so kind as to indulge the suffering fool, and favor him with one of your epic tales."
+            },
+            {
+                "name": "ALYS",
+                "text": "It seems his inspiration has run dry once more, and only a draft of your most excellent adventuring vintage will slake his creative thirst..."
+            },
+            {
+                "name": "ALYS",
+                "text": "I'll serve you in a moment, but I'd appreciate it if you could first spare a story for our musical friend over there."
+            },
+            {
+                "name": "WANDERINGMINSTREL",
+                "text": "<span class=\"highlight\">Forename</span>, at last! In muted agony have I lingered, longing to hear the hero <span class=\"alternative-container\"><span class=\"alternative\">herself</span><span class=\"alternative\">himself</span></span> speak of <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> epic deeds in Ishgard and beyond."
+            },
+            {
+                "name": "WANDERINGMINSTREL",
+                "text": "The frozen tundra you braved, and into the vault of the heavens you ascended. To a sacred peak, both temple and tomb. To a ruined city, reborn and resettled. To a citadel of the ancients you ventured, parting the misty veil of millennia."
+            },
+            {
+                "name": "WANDERINGMINSTREL",
+                "text": "The journey made by you and your companions has made its mark upon the stars...and I would hear the tale in its entirety."
+            },
+            {
+                "name": "WANDERINGMINSTREL",
+                "text": "Your words have worked a miracle upon my melancholy heart! New verses arise unbidden, and threaten to spill from my lips... My harp! I must have my harp!"
+            },
+            {
+                "name": "WANDERINGMINSTREL",
+                "text": "The song of war 'twixt wyrm and man♪<br>Some thousand years ago began,♪<br>When mortals grasped for godly might,♪<br>Defaming name of king and knight...♪"
+            },
+            {
+                "name": "WANDERINGMINSTREL",
+                "text": "...In Azys Lla, for woe or weal,♪<br>Did holy will meet righteous steel,♪<br>And thence was high divinity♪<br>Compelled by Light to bend the knee.♪"
+            },
+            {
+                "name": "WANDERINGMINSTREL",
+                "text": "...What say you? Have I captured the spirit of your triumph?"
+            },
+            {
+                "name": "WANDERINGMINSTREL",
+                "text": "Pray forgive any small liberties I may have taken with the details─one cannot evoke the proper picture of your glory without a certain measure of embellishment!"
+            }
+        ],
+        "reward": {
+            "gil": 485,
+            "instance": 20036,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67205
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006950",
+            "obj": {
+                "i": 1006950,
+                "n": "Alys",
+                "l": 67,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008278",
+            "obj": {
+                "i": 1008278,
+                "n": "Wandering Minstrel",
+                "l": 67,
+                "q": 10,
+                "t": "Keeper of Knowledge"
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20036",
+            "obj": {
+                "i": 20036,
+                "n": "The Minstrel's Ballad: Thordan's Reign",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 60,
+                "max_lvl": 60,
+                "min_ilvl": 190
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67205",
+            "obj": {
+                "i": 67205,
+                "n": "Heavensward",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 94
+            }
+        }
+    ]
+}

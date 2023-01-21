@@ -1,0 +1,376 @@
+{
+    "quest": {
+        "name": "In Search of Iceheart",
+        "location": "Ishgard",
+        "id": 67140,
+        "patch": 3.0,
+        "sort": 25,
+        "eventIcon": 71201,
+        "issuer": 1012588,
+        "target": 1012592,
+        "involved": [
+            1011231,
+            1012589,
+            1012591,
+            1012593,
+            1012594,
+            1012595,
+            1013197,
+            1013422,
+            1013423
+        ],
+        "genre": 3,
+        "journal": [
+            "Alphinaud would see to one final matter before setting forth.",
+            "Though eager to depart, Alphinaud thinks it prudent to relay the details of the impending journey to Tataru. Return to Fortemps Manor, and speak with the waiting receptionist.",
+            "Having listened to the particulars of your mission, Tataru wishes you well, and promises to continue her search for the missing Scions in your absence. By way of a parting gift, she then presents Alphinaud with clothing more suited to the harsh conditions of the Coerthan wilderness. Your farewells now said, seek out Estinien at Saint Reinette's Forum, and inform him that you are ready to leave.",
+            "Alphinaud proposes that you begin the search for Lady Iceheart in the last place you encountered her─the Coerthas western highlands. Travel to Falcon's Nest, and speak with Ser Redwald for the latest reports on heretical activity in the area.",
+            "In response to Alphinaud's request for information, Ser Redwald suggests that you consult his knights─both a group soon to return from patrol, and an expedition sent to pick over the remnants of the heretic hideaway you discovered at Gorgagne Mills. While Estinien awaits the return of the patrol, head to the Gorgagne Holding with Alphinaud and question the leader of the knights assigned to search the farmhouse.",
+            "The expedition leader claims to have discovered a promising sheaf of letters in the farmhouse. Alas, these were not the only things the heretics left behind... Apparently, their “pets” fell upon the knights unexpectedly, wounding several, and preventing further investigation. Slay the beasts so that whatever remains of the heretics' missives can be retrieved.",
+            "You have slain the tamed polar bears lurking within the farmhouse. Inform the expedition leader that it is safe for his men to continue their investigation.",
+            "The expedition leader is relieved to hear that he and his men may return to their duties without fear of further maulings. All that remains is to claim the letters left behind by the heretics..."
+        ],
+        "objectives": [
+            "Return to Fortemps Manor.",
+            "Speak with Estinien.",
+            "Speak with Redwald at Falcon's Nest.",
+            "Speak with the expedition leader.",
+            "Slay the beasts within Gorgagne Mills.",
+            "Speak with the expedition leader."
+        ],
+        "dialogue": [
+            {
+                "name": "ALPHINAUD",
+                "text": "Before we set forth, we must needs inform Tataru of our plans."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Then I shall await you at Saint Reinette's Forum. Tell your friend we may be some time─the road you have chosen is neither short nor easy."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Of that I need no reminding. Come, <span class=\"highlight\">Forename</span>. Let us head back to Fortemps Manor."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I will say this for your plan: it has made keeping secrets from the Holy See seem almost entertaining."
+            },
+            {
+                "name": "TATARU",
+                "text": "I told the count that the Scions are here to stay!"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Have you spoken with your friend? ...Well, see that she is prepared for a long wait. She will burn many a candle at her window ere we set foot in Ishgard again."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Our course is set, Tataru. It may be some time before <span class=\"highlight\">Forename</span> and I return to Ishgard."
+            },
+            {
+                "name": "TATARU",
+                "text": "Well, just you be careful, all right? Oh, and don't worry about me─I'll be busy listening out for news of our lost friends!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "If anyone can find them, it is you, Tataru. Farewell, for now..."
+            },
+            {
+                "name": "TATARU",
+                "text": "Oh! Oh! Before you go! You must put this on, Alphinaud! I made it specially!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "No, no, I...I couldn't possibly... &lt;sigh&gt; <span class=\"emphasis\">Very well</span>."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "By the Twelve... It fits perfectly. And the quality is...actually rather good."
+            },
+            {
+                "name": "TATARU",
+                "text": "I'm glad you like it! I've been practicing my needlework while I listen to rumors and the like. A good receptionist is always learning new skills!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "My thanks, Tataru. Whatever else awaits me upon the road, I shall not fear the cold."
+            },
+            {
+                "name": "TATARU",
+                "text": "'Twas the least I could do. Now, I must be getting back to the tavern, or I'll never catch up with all the gossip! Best of luck on your journey!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "This new attire will serve me well in the bitter cold of Coerthas. I shall have to thank Tataru properly upon our return."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "You have said your farewells, then?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Aye, we are ready to depart. I suggest we begin our search for Lady Iceheart without delay."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Very well, but she will prove an elusive quarry. Where do you intend to start looking?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "In the absence of any fresh intelligence on Ysayle's movements, I propose we pick up the trail where she was encountered last─the Coerthas western highlands."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Let us speak with...Ser Redwald, was it? As the commander of Falcon's Nest, it is like that he will know if any heretic activity has been reported in the area."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Well, well! <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>! What business brings you back to Falcon's Nest?"
+            },
+            {
+                "name": "REDWALD",
+                "text": "...Judging by the company you keep, it can be no trifling matter. The Azure Dragoon I know, of course, but I do not believe I have met this young gentleman...?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Alphinaud Leveilleur, at your service. And you are not mistaken as to the gravity of our mission, Ser Redwald. As I am sure you are aware, the Observatorium has warned that the Dravanians gather for another assault."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We believe there may yet be a way to avert the coming conflict─but <span class=\"emphasis\">only</span> if we can find the elusive Lady Iceheart. Thus have we come to Falcon's Nest in the hope of acquiring the latest intelligence on the heretics' movements."
+            },
+            {
+                "name": "REDWALD",
+                "text": "I see. Then you would be best served by speaking directly to my men. A patrol is due to return from its sweep of the surrounding lands at any moment."
+            },
+            {
+                "name": "REDWALD",
+                "text": "You may also wish to question the knights assigned to pick over the remains of the heretic refuge at Gorgagne Mills. 'Tis possible they have unearthed information that could be of use to you. <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span> knows well the place I speak of, for it was <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> who first discovered it."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Let us divide our forces, then. I will stay and await the return of the patrol while the two of you visit this refuge. When I have completed my inquiries, I will join you there."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "A wise use of our time."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Come, <span class=\"highlight\">Forename</span>. I am eager to learn what Ser Redwald's men have found in the heretics' lair."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "As agreed, I will stay and await the return of the patrol while the two of you visit the heretics' refuge. When I have completed my inquiries, I will join you there."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Just a simple farmhouse... It makes one wonder what other innocent facades the heretics have chosen to hide behind."
+            },
+            {
+                "name": "KIGHTLEADER01604",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>! ...Our findings, you say? Well, there is something of a tale there..."
+            },
+            {
+                "name": "KIGHTLEADER01604",
+                "text": "No sooner had we chanced upon a promising-looking sheaf of letters than we were ambushed from the shadows by great white beasts."
+            },
+            {
+                "name": "KIGHTLEADER01604",
+                "text": "'Twould seem the heretics foresaw our coming, and left behind their pets to discourage further investigation. Several of our number were badly wounded..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "...And you cannot carry out your duties until the creatures are slain. We have not the time to wait for reinforcements─let us deal with these “pets” ourselves, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Oh... Oh dear... Th-The creature took me by surprise... F-Forgive me... Until my hands stop shaking, I fear I shall prove more a hindrance than a h-help. Pray go on ahead, and when you are certain that the rest of these...<span class=\"emphasis\">things</span> have been slain, notify the expedition leader that it is safe to return."
+            },
+            {
+                "name": "KIGHTLEADER01604",
+                "text": "We were ill prepared for what awaited us at the farmhouse... Forgive me, but until the creatures have been put down, we cannot safely continue our investigation."
+            },
+            {
+                "name": "KIGHTLEADER01604",
+                "text": "The beasts are slain, then? My thanks, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>... We may return to our duty without fear of a mauling."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "My inquiries availed me naught. The patrol leader had little to say beyond which of his extremities the frost had bitten the hardest..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I heard a frightful growling from below. You encountered more of the beasts, I take it?"
+            }
+        ],
+        "reward": {
+            "gil": 753,
+            "items": [
+                {
+                    "id": 10074
+                }
+            ],
+            "xp": 50400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67139
+            ]
+        },
+        "next": [
+            67141
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012588",
+            "obj": {
+                "i": 1012588,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012592",
+            "obj": {
+                "i": 1012592,
+                "n": "Expedition Leader",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011231",
+            "obj": {
+                "i": 1011231,
+                "n": "Redwald",
+                "l": 2200,
+                "q": 17
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012589",
+            "obj": {
+                "i": 1012589,
+                "n": "Estinien",
+                "l": 2300,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012591",
+            "obj": {
+                "i": 1012591,
+                "n": "Estinien",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012593",
+            "obj": {
+                "i": 1012593,
+                "n": "Alphinaud",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012594",
+            "obj": {
+                "i": 1012594,
+                "n": "Estinien",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012595",
+            "obj": {
+                "i": 1012595,
+                "n": "Alphinaud",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013197",
+            "obj": {
+                "i": 1013197,
+                "n": "Tataru",
+                "l": 2320,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013422",
+            "obj": {
+                "i": 1013422,
+                "n": "Estinien",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013423",
+            "obj": {
+                "i": 1013423,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "10074",
+            "obj": {
+                "i": 10074,
+                "n": "Wind-up Alphinaud",
+                "l": 1,
+                "c": 59519,
+                "t": 81
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67139",
+            "obj": {
+                "i": 67139,
+                "n": "Alphinaud's Way",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 24
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67141",
+            "obj": {
+                "i": 67141,
+                "n": "From One Heretic to Another",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 26
+            }
+        }
+    ]
+}

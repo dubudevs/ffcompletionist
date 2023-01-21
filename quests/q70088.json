@@ -1,0 +1,146 @@
+{
+    "quest": {
+        "name": "Deal by the Docks",
+        "location": "Thavnair",
+        "id": 70088,
+        "patch": 6.15,
+        "sort": 102,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 15,
+        "eventIcon": 71222,
+        "issuer": 1042301,
+        "target": 1042301,
+        "genre": 33,
+        "journal": [
+            "Maru is evaluating you with an unsettling look.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Deliver the elegant purse to Khanga.",
+            "Deliver the pouch of mysterious dried goods to the Lominsan visitor.",
+            "Deliver the familiar wooden crate to Maru."
+        ],
+        "dialogue": [
+            {
+                "name": "MARU",
+                "text": "Tell me, <span class=\"highlight\">Forename</span>─you're from Eorzea, ain't you?"
+            },
+            {
+                "name": "MARU",
+                "text": "Just so happens we've got a deal lined up with an Eorzean trader, but... We don't want no trouble, is all. You don't mind actin' as my middleman, do you?"
+            },
+            {
+                "name": "MARU",
+                "text": "Alright, you'll need to pick up our side of the bargain from a fisher called Khanga in Akyaali. Hand him this─he'll know what to do."
+            },
+            {
+                "name": "MARU",
+                "text": "Take what he gives you to the Eorzean trader at the docks in Yedlihmad, an' then report back with the goods once you've finished. Easy, right?"
+            },
+            {
+                "name": "KHANGA",
+                "text": "Hm? What brings you here?"
+            },
+            {
+                "name": "KHANGA",
+                "text": "Ah. Maru's “favor,” yes... I see you've brought payment in full."
+            },
+            {
+                "name": "KHANGA",
+                "text": "He wanted these seen safely into the hands of a certain Lominsan visitor. I assume I can trust you with the rest?"
+            },
+            {
+                "name": "KHANGA",
+                "text": "Have you not a delivery to make?"
+            },
+            {
+                "name": "LIMSAMARINER04552",
+                "text": "Ho, there! You wouldn't happen to be Master Maru's associate, now would you?"
+            },
+            {
+                "name": "LIMSAMARINER04552",
+                "text": "Oh, good! I've been eagerly awaiting your arrival, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. Yours is my final trade, so it's back to the diamond of the Rhotano I go."
+            },
+            {
+                "name": "LIMSAMARINER04552",
+                "text": "These? Why, they're the finest dried ingredients this side of the Bounty! Make for a glorious soup stock...and fetch a glorious price, at that. Limsa Lominsa is a culinary capital, after all. For her chefs, only the very best will suffice."
+            },
+            {
+                "name": "LIMSAMARINER04552",
+                "text": "Well then, a pleasure doing business with you! This crate contains Master Maru's goods─send him my regards, yes? "
+            },
+            {
+                "name": "MARU",
+                "text": "Did the deal go alright?"
+            },
+            {
+                "name": "MARU",
+                "text": "Brilliant! I knew you were the right <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> for the job. I reckoned that skipper might've skipped clear away if one of us came lumberin' at him, fish or no..."
+            },
+            {
+                "name": "MARU",
+                "text": "Oh, this? It's a prototype for a new kinda wheel. There's this really reputable company in Limsa that's comin' up with upgrades for our carts."
+            },
+            {
+                "name": "MARU",
+                "text": "We've gotta make sure we can handle any road now that we're ridin' all over the island. Can't wait to give these a spin..."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 44
+                },
+                {
+                    "id": 36657
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042301",
+            "obj": {
+                "i": 1042301,
+                "n": "Maru",
+                "l": 3709,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "44",
+            "obj": {
+                "i": 44,
+                "n": "Allagan Tomestone of Causality",
+                "l": 1,
+                "c": "t/65094",
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "36657",
+            "obj": {
+                "i": 36657,
+                "n": "Arkasodara Pana",
+                "l": 1,
+                "c": "t/65091",
+                "t": 100
+            }
+        }
+    ]
+}

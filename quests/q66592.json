@@ -1,0 +1,161 @@
+{
+    "quest": {
+        "name": "Honor Lost",
+        "location": "Ul'dah",
+        "id": 66592,
+        "patch": 2.0,
+        "sort": 2,
+        "icon": 100106,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006747,
+        "target": 1006747,
+        "genre": 147,
+        "journal": [
+            "Captain Jenlyns wishes to teach you more of the paladin arts.",
+            "Jenlyns tells you that the elite of the Sultansworn have lost the respect that their good name once commanded, and the main reason is the theft of the sword Oathkeeper by a traitor. Jenlyns is hoping that your skills in battle will help him recover the sword, which has been passed down through generations of Sultansworn captains. To that end, he pledges to teach you more paladin skills and assigns a new task. You are to journey to outer La Noscea and defeat a host of leaping ringtails in order to further hone your skills.",
+            "Guided by the souls of paladins past, you have mastered new battle skills. Return to Ul'dah's Hustings Strip and report to Jenlyns.",
+            "Jenlyns declares that you have taken the skills he taught you and made them your own. Though he still has no word of where the traitor free paladin is hiding, he will inform you the moment he does.<br><br>※The next paladin quest will be available from Jenlyns upon reaching level 40."
+        ],
+        "objectives": [
+            "Light the brazier and slay the leaping ringtails drawn to the incense.",
+            "Report to Jenlyns."
+        ],
+        "dialogue": [
+            {
+                "name": "JENLYNS",
+                "text": "You have earned the right to call yourself a paladin. But how do others treat you? Do they recognize you for what you are?"
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Remember that fancy swordplay and well-polished armor do not make you a paladin. You must be just in your heart and strive always to be an exemplar of true virtue."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Once, not so long ago, the Sultansworn could walk the streets with their heads held high. When they marched by, the smallfolk would look upon them with reverence and gratitude. And no one was more respected than the captain. My predecessor."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "When I first saw him, I was still a child. My father had promised to take me to a local festival, but somewhere he took a wrong turn. We became lost and stumbled into a secluded back alley. Luck was not with us, because the next moment, we found ourselves in the middle of a riot. Drunken hunters were firing arrows into the crowd, and we were caught between them. There was no way out─it was only a matter of time before we would be struck..."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "That's when the captain saved us from our plight. I'd never seen a sword move so swiftly! It flashed faster than my eyes could follow, and in seconds the hunters were on the ground or fleeing for their lives. The captain was gone down the street, slicing at their heels, before my father had time to thank him. Even today, I can see the captain as he was then, blood on his sword, armor impossibly bright in the sun."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "After that, all I ever wanted to be was a paladin. I would practice endlessly with my sword, dreaming of bandits defeated and monsters slain. Even after I became one of the Sultansworn, the memory of the captain still inspired me─I was always the first to arrive in the training yard, and the last to leave."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "And so the years passed, and before I knew it, I found myself named captain of the Sultansworn. Yet the triumph was hollow, because by then, the honor of the Sultansworn elite, that very thing that had drawn me to the brotherhood, was a mere vestige, like the discarded banner of a defeated foe."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "There were many reasons for the fall, but the loss of Oathkeeper... Yes, that was the mortal blow."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "The sword Oathkeeper was bestowed upon the first captain of the Sultansworn by the then sultan of Ul'dah. In time it became our standard, the symbol of the oaths we had sworn, and it was treasured by each new captain for generations. Possession was proof of Sultansworn command."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "But then the unthinkable came to pass─Oathkeeper was stolen by the traitor. It shook our brotherhood to the core. How can we be trusted to protect the sultana if we cannot even hold on to the symbol of our fealty? We have been tarnished, in the eyes of ruler and ruled alike."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "If the Sultansworn are to survive, we must find the traitor and recover Oathkeeper. But...the Sultansworn have grown too weak, and we cannot do it ourselves. We've been forced to recruit outsiders to help us in our cause."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "I have high hopes for you, my friend. It is a great thing that we ask, and you must learn more of our secrets if you are to succeed."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "In outer La Noscea, near the Hermit's Hovel, is a grove where ringtails congregate. Pitting yourself against a host of the beasts would be a fine way to hone the skills that I will teach you."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "In the grove you will find another brazier, this time filled with a potent incense that will drive the creatures into a frenzy. Defeat your attackers and return to me."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Well done. You have taken the skills I taught you and made them your own."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "I still do not have word of where the traitor is hiding, but I will inform you the moment I do. Until then, continue your training."
+            },
+            {
+                "name": "POP",
+                "text": "A strange odor begins to fill the air..."
+            }
+        ],
+        "reward": {
+            "action": 3542,
+            "xp": 18040
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 20
+                }
+            ],
+            "quests": [
+                66591
+            ]
+        },
+        "next": [
+            66593
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006747",
+            "obj": {
+                "i": 1006747,
+                "n": "Jenlyns",
+                "l": 41,
+                "q": 9
+            }
+        },
+        {
+            "type": "action",
+            "id": "3542",
+            "obj": {
+                "i": 3542,
+                "n": "Sheltron",
+                "c": 2510,
+                "j": 19,
+                "t": 4,
+                "l": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66591",
+            "obj": {
+                "i": 66591,
+                "n": "Paladin's Pledge",
+                "g": 147,
+                "l": "Ul'dah",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66593",
+            "obj": {
+                "i": 66593,
+                "n": "Power Struggles",
+                "g": 147,
+                "l": "Ul'dah",
+                "s": 3,
+                "f": 1
+            }
+        }
+    ]
+}

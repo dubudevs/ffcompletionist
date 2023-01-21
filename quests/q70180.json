@@ -1,0 +1,85 @@
+{
+    "quest": {
+        "name": "Seeing the Cieldalaes",
+        "location": "Lower La Noscea",
+        "id": 70180,
+        "patch": 6.2,
+        "sort": 10,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1043621,
+        "target": 1043621,
+        "genre": 0,
+        "journal": [
+            "After a brief and seemingly reluctant explanation regarding island sanctuaries, Baldin has offered you his services. Speak with him any time you would like to visit an ally's island."
+        ],
+        "objectives": [],
+        "dialogue": [
+            {
+                "name": "BARDIN",
+                "text": "Ahoy there, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Yer keen to visit one o' them island sanctuaries, I take it?"
+            },
+            {
+                "name": "BARDIN",
+                "text": "Bugger me, yer unaware o' the fuss goin' on 'bout this 'ole affair?"
+            },
+            {
+                "name": "BARDIN",
+                "text": "&lt;sigh&gt; If ye 'ead southeast from 'ere─the isle o' Vylbrand, that is─ye'll reach the Cieldalaes. 'Venturers much like yerself've been granted the right to cultivate a number o' the deserted isles there."
+            },
+            {
+                "name": "BARDIN",
+                "text": "Don't get yer 'opes up, though. Ain't as if any and all can go an' get 'emselves a permit fer one o' them sanctuaries. Far as I can tell, 'ole project's still in its infancy, an' the Admiral's bloody fussy about candidates."
+            },
+            {
+                "name": "BARDIN",
+                "text": "Tell ye what─since I like ye, I'll take ye to any mate of yers' isle, safe an' sound. Ye need only say the word."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may now visit the island sanctuary of a party member, free company member, or friend who has unlocked the feature by speaking with Baldin in the Moraby Drydocks."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You will be unable to visit an island sanctuary if the owner has forbidden access to their island, there is no one on the isle in question, or if the isle in question has already reached its maximum capacity."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you must be on an acquaintance's Home World if you wish to visit their island sanctuary."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To unlock your personal island sanctuary, you must first complete the main scenario quest “Endwalker,” and proceed through the quest “Seeking Sanctuary.”"
+            }
+        ],
+        "reqs": {
+            "quests": [
+                70058
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1043621",
+            "obj": {
+                "i": 1043621,
+                "n": "Baldin",
+                "l": 31,
+                "q": 1,
+                "t": "Cieldalaes Ferryman"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70058",
+            "obj": {
+                "i": 70058,
+                "n": "The Ultimate Weapon",
+                "g": 1,
+                "l": "Northern Thanalan",
+                "s": 249
+            }
+        }
+    ]
+}

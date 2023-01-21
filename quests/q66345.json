@@ -1,0 +1,140 @@
+{
+    "quest": {
+        "name": "Tales from the Tidus Slayer",
+        "location": "Lower La Noscea",
+        "id": 66345,
+        "patch": 2.0,
+        "sort": 157,
+        "icon": 100127,
+        "eventIcon": 71201,
+        "issuer": 1006264,
+        "target": 1006264,
+        "genre": 1,
+        "journal": [
+            "Trachtoum is eager to regale you with stories of his glory days.",
+            "Although Trachtoum claims to have battled a dread primal known as “Tidus,” you cannot help but question his account. He quickly recognizes your doubt, and refuses to reveal the Company's secret strategy─that is, unless you destroy a nest of wild rats by one of the windmills outside. If you wish to defeat Titan, then you have no choice but to acquiesce to his demands.",
+            "You effortlessly slay the vermin and destroy their nest. Return to Trachtoum and tell him the deed is done.",
+            "It would appear that Trachtoum used you to handle work he himself had been tasked to do. In spite of this irritating revelation, you must swallow your pride and press him for more information."
+        ],
+        "objectives": [
+            "Destroy the rats' nest.",
+            "Speak with Trachtoum."
+        ],
+        "dialogue": [
+            {
+                "name": "TRACHTOUM",
+                "text": "Gah hah hah! So, ye want to hear the tale of how the Company of Heroes bested a primal, do ye?"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Let me guess: ye mean that bastard Tidus, aye?"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Oh, if only ye'd been there to see it!"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "'Twas a mighty struggle, like the legends of old! "
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Me an' the boys fought him for three days an' nights, we did!"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "The ground trembled with every step Tidus took, an' when he hit ye, <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>, it felt like a cannonball to the gut. <span class=\"emphasis\">Uggghhh</span>! Just like that!"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Oi, what's that look for? I'm a godsdamned hero, I'll have you know! The people 'round here sing me praises! Don't tell me ye only care about learnin' the secret tactics we used to beat ol' Tidus..."
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Hmph! Well, too bad, 'cause now I'm not feelin' charitable. If yer so damn desperate, then why don't ye do me a favor an' kill those rats that've made a nest by the windmill just south of here? Aye, do that, then we'll talk!"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Eh? So the beasties are dead, are they? Nice work, 'venturer!"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Saved me the hassle of─ah, never mind."
+            },
+            {
+                "name": "POP",
+                "text": "A high-pitched squeal pierces the air!"
+            }
+        ],
+        "reward": {
+            "gil": 1346,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5789
+                }
+            ],
+            "xp": 14820
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 30,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66052
+            ]
+        },
+        "next": [
+            66346
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006264",
+            "obj": {
+                "i": 1006264,
+                "n": "Trachtoum",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "5789",
+            "obj": {
+                "i": 5789,
+                "n": "Sky Blue Dye",
+                "l": 1,
+                "c": 22804,
+                "t": 55,
+                "p": 40
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66052",
+            "obj": {
+                "i": 66052,
+                "n": "Wrath of the Titan",
+                "g": 1,
+                "l": "The Waking Sands",
+                "s": 156
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66346",
+            "obj": {
+                "i": 66346,
+                "n": "Hungry Hungry Goobbues",
+                "g": 1,
+                "l": "Lower La Noscea",
+                "s": 158
+            }
+        }
+    ]
+}

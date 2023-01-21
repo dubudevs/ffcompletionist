@@ -1,0 +1,165 @@
+{
+    "quest": {
+        "name": "A Quick Snip",
+        "location": "Western La Noscea",
+        "id": 66920,
+        "patch": 2.2,
+        "sort": 14,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005938,
+        "target": 1005938,
+        "involved": [
+            1005946
+        ],
+        "genre": 41,
+        "journal": [
+            "Fyuu wishes you to demonstrate your goodwill towards the clutch.",
+            "After explaining that one of his duties as an elder spawnbrother is to teach the hatchlings the skill of spearfishing, Fyuu requests that you gather the snipper shells he needs to fashion their hunting tools. Borrow an elbst from Pahh to travel to Moonshade Isle, and prepare to lure the snippers from their burrows by slaying pugils for their flesh.",
+            "You have carved some generous slabs of flesh from a pair of freshly slain pugils. Place the pugil flesh by the crab burrows, and defeat the snippers that emerge for their shells.",
+            "You have successfully dispatched the hungry snippers. Deliver their rigid shells to Fyuu at Novv's Nursery.",
+            "You have supplied Fyuu with the materials he needs to craft sharp and durable spearheads. Though thankful for the contribution you have made to the education of the hatchlings, he seems none too eager to place such lethal tools in the hands of his younger siblings..."
+        ],
+        "objectives": [
+            "Slay Moonshade pugils and obtain their flesh.",
+            "Place fresh pugil flesh near crab burrows, and slay hungry snippers for their shells.",
+            "Deliver the rigid megalocrab shells to Fyuu."
+        ],
+        "dialogue": [
+            {
+                "name": "FYUU",
+                "text": "Among the Sssahagin, it is the duty of the elder ssspawnbrothers to aid the clutchfather with teaching the hatchlings the ways of the sssea."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... It has fallen upon me to instruct my younger clutchmatesss in the art of fishhhing. Our campaign againssst the Coral Tridentsss, however, has left me ssscant time to hunt for the sssnipper shhhells we use to craft the heads of our fishhhing ssspears."
+            },
+            {
+                "name": "FYUU",
+                "text": "As a sssymbol of your willingness to aid our clutch, would you gather the shhhells in my ssstead?"
+            },
+            {
+                "name": "FYUU",
+                "text": "Travel to Moonshhhade Isle, and firssst ssslay the pugils for their fleshhh. If you then place these morsssels on the sssand, the sssnippers will sssoon emerge from their burrows to feed."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... Pahh's elbssst know the way to the isle─you need only remain upright in the sssaddle."
+            },
+            {
+                "name": "FYUU",
+                "text": "Travel to Moonshhhade Isle, and use the fleshhh of freshhhly ssslain pugils to lure the sssnippers from their burrows. The shhhells are quite large, ssso you need only gather one or two. Pshhh... Make it two."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... Pahh's elbssst know the way to the isle─you need only remain upright in the sssaddle."
+            },
+            {
+                "name": "TAMER01376",
+                "text": "Pshhh... Moonshhhade Isle? My elbssst will carry you there with her eyes closed."
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to Moonshade Isle?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "A ravenous crustacean emerges from beneath the sand!"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "The enemy is still about!"
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... How fares your grand hunt for sssnipper shhhells?"
+            },
+            {
+                "name": "FYUU",
+                "text": "Yesss, these are fine ssspecimens, indeed. Though difficult to crack, the resulting sssplinters are uncommonly shhharp and rigid─perfect for ssspearheads. Thank you, shhhorewalker."
+            },
+            {
+                "name": "FYUU",
+                "text": "Learning to thrussst, and gauging dissstance to prey─these are ssskills all Sssahagin mussst learn. The hardessst part of teaching the hatchlings, however, is making shhhure they do not impale themssselves or each other..."
+            }
+        ],
+        "reward": {
+            "gil": 540,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9142
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005938",
+            "obj": {
+                "i": 1005938,
+                "n": "Fyuu",
+                "l": 33,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

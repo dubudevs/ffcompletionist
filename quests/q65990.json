@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "My First Grimoire",
+        "location": "Limsa Lominsa",
+        "id": 65990,
+        "patch": 2.0,
+        "sort": 12,
+        "icon": 100100,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000909,
+        "target": 1000909,
+        "genre": 135,
+        "journal": [
+            "Acting Guildmaster Thubyrgeim wishes to judge your aptitude for arcanima.",
+            "Thubyrgeim wishes you to display your commitment to the study of arcanima by means of a simple trial. Travel to lower La Noscea, and slay three wharf rats, three aureliae, and three little ladybugs.",
+            "You have slain the designated creatures. Return to the Arcanists' Guild and speak with the waiting Thubyrgeim.",
+            "With the completion of your preliminary trial, Acting Guildmaster Thubyrgeim officially welcomes you to the ranks of the Arcanists' Guild. Follow the Roegadyn's advice and continue to hone your arcanima skills and tactics by pitting yourself against the creatures of the wild.<br><br>※The next arcanist quest will be available from Thubyrgeim upon reaching level 5."
+        ],
+        "objectives": [
+            "Slay wharf rats as an arcanist.",
+            "Slay aureliae as an arcanist.",
+            "Slay little ladybugs as an arcanist.",
+            "Report to Thubyrgeim at the Arcanists' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "THUBYRGEIM",
+                "text": "It is a hefty tome, is it not? I promise you, a grimoire's weight becomes a comforting anchor amidst the shifting seas of battle─a fact you will soon discover."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "In lower La Noscea, you will find, among others, three species of pest: wharf rats, little ladybugs, and aureliae. I ask that you employ your fledgling skill in arcanima to eradicate three of each type of creature."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "Leave the city through the Tempest Gate, and you will soon encounter the potential targets in abundance. As long as you remain focused, I do not foresee these opponents causing you or your budding abilities undue difficulty."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "Once you return from completing this preliminary trial, I will welcome you as an official member of the Arcanists' Guild. May your judgment remain swift and clear."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "I see the creatures beyond the city walls posed you little threat. It is with great pleasure, then, that I formally recognize your initiation into the guild. From this day forth, you may proudly bear the title of “arcanist.”"
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "I suggest you continue your forays into the wilderness, and keep the pages of your grimoire turning─there is no finer teacher than the harsh mistress of experience."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "And when you feel you can command Carbuncle as easily as you might move your own limbs, return to me for further instruction. I will be waiting."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next arcanist quest will be available from Thubyrgeim upon reaching level 5."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "xp": 100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 27
+                }
+            ],
+            "quests": [
+                65988
+            ]
+        },
+        "next": [
+            65991,
+            65993
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000909",
+            "obj": {
+                "i": 1000909,
+                "n": "Thubyrgeim",
+                "l": 29,
+                "q": 15,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65988",
+            "obj": {
+                "i": 65988,
+                "n": "Way of the Arcanist",
+                "g": 135,
+                "l": "Limsa Lominsa",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65991",
+            "obj": {
+                "i": 65991,
+                "n": "What's in the Box",
+                "g": 135,
+                "l": "Limsa Lominsa",
+                "s": 50,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65993",
+            "obj": {
+                "i": 65993,
+                "n": "Tactical Planning",
+                "g": 135,
+                "l": "Limsa Lominsa",
+                "s": 100,
+                "f": 1
+            }
+        }
+    ]
+}

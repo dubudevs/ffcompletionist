@@ -1,0 +1,145 @@
+{
+    "quest": {
+        "name": "The Binding Soil",
+        "location": "The Sea of Clouds",
+        "id": 67717,
+        "patch": 3.1,
+        "sort": 21,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016091,
+        "genre": 45,
+        "journal": [
+            "Muna Vanu is watching Ranu Vali sow seeds with little success.<br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu comments that Ranu Vali looks frustrated when she sows her seeds. When he offered to help her, she apparently asked for your help instead. Speak with Ranu Vali about how you can assist in the village's tilling.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "Ranu Vali laments the pitiful soil on their new home and has her doubts whether the island can sustain itself by growing crops in the sandy dirt. Fondly recalling the richness of the soil around her former village, she asks you to return to retrieve some sackfuls to be used on Ok' Gundu Nakki, as well as some fire-touched wind crystals to treat the existing soil. ",
+            "You have retrieved three sackfuls of soil from the Gundu village and a handful of fire-touched wind crystals. Return to Ok' Gundu Nakki to deliver the items to Ranu Vali.",
+            "You have handed over the items to Ranu Vali, who holds her ancestors' chosen soil with delight. With the right nutrients and a helping of wind crystals, Ranu Vali claims the earth of Ok' Gundu Nakki will soon bear delicious fruit for all."
+        ],
+        "objectives": [
+            "Speak with Ranu Vali.",
+            "Obtain sacks of soft soil. ",
+            "Obtain fire-touched wind crystals.",
+            "Deliver the sacks of soft soil and the fire-touched wind crystals to Ranu Vali."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "Greetings, netherling. Muna Vanu is concerned about Ranu Vali, who prepares the land for crops. He often sees her with ruffled feathers as she sows seeds, but no juicy bounties of fruit.  "
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Muna offers to help her, but she asks for netherling's assistance instead. Maybe netherling helps sow seeds, too?"
+            },
+            {
+                "name": "RANUVALI",
+                "text": "Ranu Vali is glad netherling came. There is lots to do and scarce to work with for preparing village land for tilling. As of this sun, earth of Ok' Gundu Nakki is dry as dhalmel bones, impossible to grow crops."
+            },
+            {
+                "name": "RANUVALI",
+                "text": "See here? How it blows away like dust in breeze? Ranu tries sowing and sowing, but soil is not favorable for almonds, or lemons, or even sanuwa relief patch!"
+            },
+            {
+                "name": "RANUVALI",
+                "text": "Even so, Ranu still has hope, remembers soil of old village. Very rich for tilling, very reason why ancestors settle on that spot. If netherling brings ancestors' chosen soil to Ok' Gundu Nakki, Ranu is certain that village grows sweetest lemons in Sea of Clouds!"
+            },
+            {
+                "name": "RANUVALI",
+                "text": "But chosen soil alone will not bear fruit! Wind crystals of Last Step, those touched by fire are also very important for treating barren soil. Might netherling bring those as well? Ranu is very grateful in advance, like dry plains awaiting approaching rainstorm."
+            },
+            {
+                "name": "RANUVALI",
+                "text": "Wind crystals must be able to balance right amount of soil. Three wind crystals good for about three sackfuls of Gundu soil. Ranu Vali is counting on netherling! "
+            },
+            {
+                "name": "RANUVALI",
+                "text": "Was netherling able to find ancestral soil and wind crystals? Ranu can feel sowing season drawing near on breeze..."
+            },
+            {
+                "name": "RANUVALI",
+                "text": "Yes, ancestors' chosen soil smells exactly as Ranu remembers as nestling! Feels so soft and moist as fresh spring shower!"
+            },
+            {
+                "name": "RANUVALI",
+                "text": "Ranu Vali was worried about leaving Ok' Gundu soil far behind. Dry, dusty land of Ok' Gundu Nakki felt foreign under her feet. But thanks to netherling, little piece of former village returns and island will truly feel like Gundu land!"
+            },
+            {
+                "name": "RANUVALI",
+                "text": "Now real work begins! Ranu must treat dry Ok' Gundu Nakki soil with wind crystals, then mix fertile earth from old Gundu village into crop patch, so two homes become one. "
+            },
+            {
+                "name": "RANUVALI",
+                "text": "Hmmm...it will take a while to sow seeds. Gundu and netherling must wait patiently. But when juicy fruit ready for harvest, taste moves <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> like mountain! "
+            }
+        ],
+        "reward": {
+            "gil": 609,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016091",
+            "obj": {
+                "i": 1016091,
+                "n": "Ranu Vali",
+                "l": 2100,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

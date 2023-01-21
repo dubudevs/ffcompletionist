@@ -1,0 +1,167 @@
+{
+    "quest": {
+        "name": "A Crate-ful Response",
+        "location": "Western La Noscea",
+        "id": 66923,
+        "patch": 2.2,
+        "sort": 15,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005938,
+        "target": 1005938,
+        "involved": [
+            1005946
+        ],
+        "genre": 41,
+        "journal": [
+            "Fyuu wishes you to raid the raiders.",
+            "Word has reached Fyuu that another trading vessel has fallen prey to the Coral Tridents. Though the crew managed to flee unscathed using a landing skiff, their valuable cargo yet remains on the captured ship. Novv's spawnling asks that you attempt to liberate this cargo from the claws of his zealous kin. Borrow an elbst from Pahh, and locate the crates on the deck of the merchantman.",
+            "You have relieved the Coral Tridents on the trading vessel of their ill-gotten cargo. Return to Novv's Nursery and deliver the crates to Fyuu.",
+            "You have deposited the captured vessel's cargo at the feet of the young beastman. Fyuu hopes that by returning the crates in person, the shorewalkers will come to realize that not all Sahagin are creatures of violence and villainy."
+        ],
+        "objectives": [
+            "Reclaim cargo crates from the deck of the merchantman.",
+            "Deliver the cargo crates to Fyuu."
+        ],
+        "dialogue": [
+            {
+                "name": "FYUU",
+                "text": "Pshhh... The piracy of the Coral Tridentsss continues unabated─they have ssstruck another trading vessel."
+            },
+            {
+                "name": "FYUU",
+                "text": "The merchantman's captain and crew were able to essscape in a landing ssskiff, but they were forced to abandon their shhhip─and its cargo─to their attackers."
+            },
+            {
+                "name": "FYUU",
+                "text": "I am of a mind to sssee this cargo returned to the shhhorewalkers. Pshhh... Perhapsss it is time you practiced a little piracy of your own! Ssspeak with Pahh and borrow an elbssst─his ssseabeast will sssoon catch up to your burdened target."
+            },
+            {
+                "name": "FYUU",
+                "text": "Take an elbssst, and make your way to the Trident-infesssted merchantman. Let us sssee what cargo you can retrieve for the shhhorewalkers."
+            },
+            {
+                "name": "TAMER01376",
+                "text": "Pshhh... The captured merchantman? My elbssst will have you sssnapping at its rudder before you've sssettled in the sssaddle."
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to the merchantman?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "FYUU",
+                "text": "Shhhorewalker, were you able to sssteal back the cargo?"
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... Thank you. We will deliver these cratesss ourssselves."
+            },
+            {
+                "name": "FYUU",
+                "text": "The crew of the merchantman may be alarmed by our appearance, but we mussst make an effort to teach them that not all Sssahagin desire conflict and chaosss."
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "A watchful surftooth sentry attempts to prevent you from taking the crate!"
+            },
+            {
+                "name": "POP",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "The enemy is still about!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Pshhh! You will not have our shhhpoils!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Pshhh! I'll take your thieving hands!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Shhhneaky, trickshhhy shhhorewalker!"
+            }
+        ],
+        "reward": {
+            "gil": 540,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9142
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005938",
+            "obj": {
+                "i": 1005938,
+                "n": "Fyuu",
+                "l": 33,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

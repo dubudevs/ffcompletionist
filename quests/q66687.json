@@ -1,0 +1,119 @@
+{
+    "quest": {
+        "name": "Scythe Extra Large",
+        "location": "Western La Noscea",
+        "id": 66687,
+        "patch": 2.0,
+        "sort": 160,
+        "eventIcon": 71221,
+        "issuer": 1003475,
+        "target": 1006614,
+        "genre": 91,
+        "journal": [
+            "Sergeant Roehanth has the cross-eyed look of a man threading a needle, and none can doubt that you are the stitch in time that saves nine.",
+            "Killer mantises have spawned near the Founder's Crypt, and despite the Maelstrom's best efforts, several still roam free. You are bid to slay the remaining four.",
+            "The last of the mantises are dead. One hopes they did not leave an egg sac or two behind. Make your report to Sergeant Roehanth.",
+            "The dead may sleep without hearing the scrape of gristly scythe. Sergeant Roehanth is pleased. This task being Maelstrom business, you must take yourself to Commander Falkbryda at Camp Skull Valley for your pay.",
+            "You report the destruction of the mantises to Commander Falkbryda, who appears to see new value in having an adventurer undertake such missions. A job well done is often a prelude to another."
+        ],
+        "objectives": [
+            "Slay the killer mantises.",
+            "Report to Roehanth.",
+            "Report to Falkbryda."
+        ],
+        "dialogue": [
+            {
+                "name": "ROEHANTH",
+                "text": "An adventurer, are ye? Seems a shame for you to come all the way out here without more to show for it. How about a bit of vilekin hunting?"
+            },
+            {
+                "name": "ROEHANTH",
+                "text": "There's a few killer mantises about on account of a hatching we missed. The commander sent out hunting parties and collected ten and six heads. There's no more'n twenty in a clutch, think you can handle the last four?"
+            },
+            {
+                "name": "ROEHANTH",
+                "text": "Nasty critters, those killer mantises. I'm sure Aerghaemr wouldn't've wanted anyone dying near his resting place. Good hunting, adventurer."
+            },
+            {
+                "name": "ROEHANTH",
+                "text": "Tsk, see <span class=\"alternative-container\"><span class=\"alternative\">the birds fly to their nests</span><span class=\"alternative\">how high the sun climbs</span><span class=\"alternative\">how my shadow grows</span></span>, it's time I returned to the gate. Alyrloef said we'd be testing a new cannon. Like to blow himself to bits without me about."
+            },
+            {
+                "name": "ROEHANTH",
+                "text": "You can collect your pay from Commander Falkbryda at Camp Skull Valley. Be well, adventurer. The Twelve go with ye."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "Ah, <span class=\"highlight\">Forename</span>, you've become a familiar face about these parts. What brings you here today?<br>The rest of the killer mantises? Well done, and I must commend Sergeant Roehanth for his quick thinking."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "You have the thanks of this camp. Sometimes, I fear that we will lose the war against the Sahagin for having to deal with pests and beasts..."
+            }
+        ],
+        "reward": {
+            "gil": 248,
+            "xp": 3500
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 16,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66686
+            ]
+        },
+        "next": [
+            66688
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003475",
+            "obj": {
+                "i": 1003475,
+                "n": "Roehanth",
+                "l": 33,
+                "q": 2,
+                "t": "Storm Sergeant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006614",
+            "obj": {
+                "i": 1006614,
+                "n": "Falkbryda",
+                "l": 33,
+                "q": 14,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66686",
+            "obj": {
+                "i": 66686,
+                "n": "Flowers for Aerghaemr",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 160
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66688",
+            "obj": {
+                "i": 66688,
+                "n": "I Hereby Relieve You",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 160
+            }
+        }
+    ]
+}

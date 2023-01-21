@@ -1,0 +1,146 @@
+{
+    "quest": {
+        "name": "Contingency Supplies",
+        "location": "Coerthas Western Highlands",
+        "id": 67268,
+        "patch": 3.0,
+        "sort": 5001,
+        "eventIcon": 71221,
+        "issuer": 1011238,
+        "target": 1011238,
+        "genre": 94,
+        "journal": [
+            "Noirterel grows worried about the supply stores at Falcon's Nest.",
+            "Noirterel has asked you to gather meat for him. Kill three steinbocks and obtain their meat.",
+            "You slay the steinbocks and butcher their carcasses. Return to Noirterel with the meat.",
+            "Noirterel explains that, as a key strategic location, Falcon's Nest must withstand some of the Horde's most vicious attacks. These onslaughts take the form of both direct, frontal assaults and long, drawn-out sieges. The meat you recovered will be frozen and stored for use as emergency rations in the event that supply lines are severed."
+        ],
+        "objectives": [
+            "Slay steinbocks and obtain meat.",
+            "Deliver the meat to Noirterel."
+        ],
+        "dialogue": [
+            {
+                "name": "NOIRTEREL",
+                "text": "You'd like to help out, would you? I suppose there is something you might be able to lend a hand with."
+            },
+            {
+                "name": "NOIRTEREL",
+                "text": "We're rather short of foodstuffs. There're plenty of steinbocks wandering around just outside the fortress. Please slay a few of them and bring me their meat. I'd say three should be enough for the time being."
+            },
+            {
+                "name": "NOIRTEREL",
+                "text": "It's horrible stuff. It's tough like boot leather and it tastes like it too. But we can't afford to be picky around here─especially not with our food stores looking the way they do."
+            },
+            {
+                "name": "NOIRTEREL",
+                "text": "Have you found any of those steinbocks yet? Kill three of them and bring me their meat."
+            },
+            {
+                "name": "NOIRTEREL",
+                "text": "Do you have the steinbock meat?"
+            },
+            {
+                "name": "NOIRTEREL",
+                "text": "You have it already? Marvelous! I'm sure you're wondering what I plan to do with something so unappetizing. It's really quite simple─I'm going to leave it outside until it's frozen right through."
+            },
+            {
+                "name": "NOIRTEREL",
+                "text": "Falcon's Nest is one of Ishgard's first lines of defense against the Dravanian Horde. We need to resist the dragons' fiercest onslaughts, but we also need to outlast prolonged, protracted sieges."
+            },
+            {
+                "name": "NOIRTEREL",
+                "text": "Once frozen, this meat will last a very long time. It may not taste good, but it'll keep our troops fighting when the supply lines have been cut off. Thank you for providing it."
+            }
+        ],
+        "reward": {
+            "gil": 602,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4702,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4730,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4749,
+                    "one": 1
+                }
+            ],
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67119
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011238",
+            "obj": {
+                "i": 1011238,
+                "n": "Noirterel",
+                "l": 2200,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "4702",
+            "obj": {
+                "i": 4702,
+                "n": "Knight's Bread",
+                "l": 38,
+                "c": 24002,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4730",
+            "obj": {
+                "i": 4730,
+                "n": "Dried Plums",
+                "l": 21,
+                "c": 24058,
+                "t": 46,
+                "p": 44
+            }
+        },
+        {
+            "type": "item",
+            "id": "4749",
+            "obj": {
+                "i": 4749,
+                "n": "Chamomile Tea",
+                "l": 24,
+                "c": 24406,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67119",
+            "obj": {
+                "i": 67119,
+                "n": "Over the Wall",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 4
+            }
+        }
+    ]
+}

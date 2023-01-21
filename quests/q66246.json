@@ -1,0 +1,144 @@
+{
+    "quest": {
+        "name": "First Impressions",
+        "location": "East Shroud",
+        "id": 66246,
+        "patch": 2.0,
+        "sort": 116,
+        "eventIcon": 71201,
+        "issuer": 1000540,
+        "target": 1000540,
+        "involved": [
+            1000766
+        ],
+        "genre": 1,
+        "journal": [
+            "Rolfe Hawthorne would share further knowledge to assist you in befriending the sylphs.",
+            "Rolfe tells you that it would be unwise to greet the sylphs without a proper gift, but he has trouble remembering exactly what that gift should be. However, it is possible that his wife, Rosa, can tell you. Speak with her at Fullflower Comb to see what she has to say.",
+            "Though she does not fully understand why, Rosa informs you that the sylphs are said to be quite fond of milkroot, which can be obtained from ochus. In order to find one such ochu, take the amber syrup given to you by Rosa and pour it on the curious tussock in the Honey Yard. Once uncovered, slay the ochu, and pray that you find some milkroot among its remains.",
+            "Your prayers have been answered, and you have the milkroot in your possession. Take your prize back to Rolfe at the Hawthorne Hut to ensure that it is indeed a suitable offering for the sylphs.",
+            "Rolfe immediately recognizes the milkroot upon your presentation of it, and is sure that the sylphs will appreciate the offering. Just take care not to inhale too many of the fumes yourself before giving it to the sylphs."
+        ],
+        "objectives": [
+            "Speak with Rosa Hawthorne.",
+            "Use amber syrup on the curious tussock and slay the ochu.",
+            "Present the milkroot to Rolfe Hawthorne."
+        ],
+        "dialogue": [
+            {
+                "name": "ROLFE",
+                "text": "Oh, still here, eh? Great! There's one more thing you should know about the sylphs. They don't take kindly to guests who show up empty-handed. To earn their trust, you'd do well to bring along a...a... Uh..."
+            },
+            {
+                "name": "ROLFE",
+                "text": "Drat! What was it, again? And my wife Rosa and I were just speaking of the matter not days ago..."
+            },
+            {
+                "name": "ROLFE",
+                "text": "Forgive me, friend. Speak to Rosa at the Comb─her memory should prove more reliable than mine own."
+            },
+            {
+                "name": "ROSA",
+                "text": "A peace offering for the sylphs? Were it anyone else, I'd recommend a jar of honey, but I fear that wouldn't get you past their front doorstep, dear. No, their tastes run more to the <span class=\"emphasis\">un</span>usual."
+            },
+            {
+                "name": "ROSA",
+                "text": "Are you, perchance, familiar with milkroot? That's what we call the root of that most fiendish seedkin, the ochu. When chewed, it exudes a cloudy liquid that's said to induce curious visions in the imbiber. You'd not catch me dead trying the stuff, but the sylphs seem to enjoy it to no end."
+            },
+            {
+                "name": "ROSA",
+                "text": "I've not seen an ochu around the Comb in quite some time, but I did encounter a suspicious clump of grass the other day. Were you to stimulate it somehow─with some of this amber syrup, for example─you might be surprised at what comes out. Good luck."
+            },
+            {
+                "name": "ROLFE",
+                "text": "Ah, you're back. Was my wife able to direct you to a suitable offering?"
+            },
+            {
+                "name": "ROLFE",
+                "text": "Milkroot! But of course! Those sylphs quaff that cloudy stuff as quick as I do a flagon of mead. The effect's just about the same, as well."
+            },
+            {
+                "name": "ROLFE",
+                "text": "Anyroad, a gift of milkroot will have the sylphs calling you friend and <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span> the moment they lay eyes on it. Now let me wrap that up for you─I'm startin' to feel a bit woozy..."
+            },
+            {
+                "name": "POP",
+                "text": "With branches a-thrashing, the vegetation springs to life!"
+            }
+        ],
+        "reward": {
+            "gil": 1245,
+            "xp": 8120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66245
+            ]
+        },
+        "next": [
+            66251,
+            66252
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000540",
+            "obj": {
+                "i": 1000540,
+                "n": "Rolfe Hawthorne",
+                "l": 55,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000766",
+            "obj": {
+                "i": 1000766,
+                "n": "Rosa Hawthorne",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66245",
+            "obj": {
+                "i": 66245,
+                "n": "Sylphic Studies",
+                "g": 1,
+                "l": "East Shroud",
+                "s": 115
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66251",
+            "obj": {
+                "i": 66251,
+                "n": "First Contact",
+                "g": 1,
+                "l": "East Shroud",
+                "s": 117
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66252",
+            "obj": {
+                "i": 66252,
+                "n": "Roof Riders",
+                "g": 92,
+                "l": "East Shroud",
+                "s": 210
+            }
+        }
+    ]
+}

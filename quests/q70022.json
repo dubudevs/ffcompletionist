@@ -1,0 +1,187 @@
+{
+    "quest": {
+        "name": "Fiery Thirst",
+        "location": "Labyrinthos",
+        "id": 70022,
+        "patch": 6.0,
+        "sort": 9203,
+        "icon": 101078,
+        "eventIcon": 71221,
+        "issuer": 1041688,
+        "target": 1041691,
+        "genre": 121,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Verpaulaine is deep in thought.",
+            "Verpaulaine tells you he wants to measure the flow of aether that travels from the reactor to Phoibos itself to check for any anomalies. He is fairly confident you can obtain an aetherometer at Meryall Agronomics.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "Verpaulaine ascertains that the aether is weakest to the south of Meryall Agronomics. You agree to head there to investigate further.",
+            "Verpaulaine discovers an anala, which are normally only found near the elemental reactor, has been feeding on the aether supply. He tasks you with slaying it and claiming its core to act as proof that all is not normal with the artificial sun.",
+            "You successfully slay the creature and retrieve its core. Verpaulaine will be pleased.",
+            "Verpaulaine thanks you for your efforts and resolves to prove he is right once and for all."
+        ],
+        "objectives": [
+            "Speak with Verpaulaine.",
+            "Speak with Verpaulaine again.",
+            "Slay the anala and obtain its core.",
+            "Deliver the anala's core to Verpaulaine."
+        ],
+        "dialogue": [
+            {
+                "name": "VERPAULAINE",
+                "text": "Thank you for sticking around. It's nice to be believed, for once."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "Now that it's clear the problem doesn't lie here, we should move on."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "Let's take a look at the supply route the fire-aspected aether travels along from the elemental reactor to the artificial sun."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "I learned a while ago that the sun automatically goes into overdrive to maintain its brightness if it gets less fire aether than it needs."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "If that is what's happening, then there must be a problem with the reactor's aether supply."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "To know for sure, we'll need to check the flow of the aether to see if there are any spots where it's abnormally weak. To do that, though, we need an aetherometer..."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "Maybe we can borrow one from Meryall Agronomics. Then we won't have to go out of our way."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "See? I fed them a lie about helping with some research and they lent me an aetherometer. Come on, let's see if we can pick up any abnormal readings."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "Just as I thought! The concentration of fire aether is too low."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "It seems to be weakest at...an area south of here. That must be where the problem lies!"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "You can tell all that just from the aetherometer?"
+            },
+            {
+                "name": "A1",
+                "text": "You are wise beyond your years."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "Well, when you've got a father who's an expert in aetherology and a mother who's a mathematician, you learn a thing or two."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "What's more, I was born and raised here. It'd be embarrassing if I didn't know it better than everyone else."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "Now, let's get to the bottom of this!"
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "I've identified the problem! There's an anala here─they're normally only found near the elemental reactor."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "I can't say for sure if it came here on purpose or simply got lost, but either way it's clearly been feeding on fire-aspected aether."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "Most of the aether travels deep underground on its way from the reactor, but the supply route is close to the surface here."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "I imagine the anala must be pretty powerful at this point, if it's been here absorbing all of that aether. No doubt its core is full of it..."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "If I can just get my hands on that core, I could use it to convince the adults that I was right all along. Do you think you can slay it for me?"
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "It's a good thing I brought you along. As Mother always says─I'm a reader, not a fighter."
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "Nicely done! Can you show me the core?"
+            },
+            {
+                "name": "VERPAULAINE",
+                "text": "So this is what an abundance of aether can do to their cores... It's massive! Father and the others will have no choice but to believe me when they see this."
+            }
+        ],
+        "reward": {
+            "gil": 1135
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                70021
+            ]
+        },
+        "next": [
+            70023
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1041688",
+            "obj": {
+                "i": 1041688,
+                "n": "Verpaulaine",
+                "l": 3708,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1041691",
+            "obj": {
+                "i": 1041691,
+                "n": "Verpaulaine",
+                "l": 3708,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70021",
+            "obj": {
+                "i": 70021,
+                "n": "Here Comes the Sun",
+                "g": 121,
+                "l": "Labyrinthos",
+                "s": 9202
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70023",
+            "obj": {
+                "i": 70023,
+                "n": "The Hero in Labyrinthos",
+                "g": 121,
+                "l": "Labyrinthos",
+                "s": 9204
+            }
+        }
+    ]
+}

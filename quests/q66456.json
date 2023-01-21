@@ -1,0 +1,203 @@
+{
+    "quest": {
+        "name": "Thieves and Robbers",
+        "location": "Northern Thanalan",
+        "id": 66456,
+        "patch": 2.0,
+        "sort": 380,
+        "eventIcon": 71221,
+        "issuer": 1006438,
+        "target": 1006438,
+        "involved": [
+            1006718
+        ],
+        "genre": 93,
+        "journal": [
+            "When ceruleum is thin on the ground, plots grow thick. None other than Papawazu, the nine-time Employee of the Moon, wishes to consort with you.",
+            "Papawazu is inclined to think that porters are pilfering the processed ceruleum coming out of the plant. You have his leave to question them; approach the spirited porter and express your /doubt.",
+            "Unbowed by your withering skepticism, the porter protests his innocence. Assume for a moment he is not guilty until so proven, and check the barrels of processed ceruleum as he bade you.",
+            "Resigned to spending a few interminable bells inventorying the ceruleum, you are pleasantly surprised to be attacked by coblyns instead. You are less charmed by what they were doing: drinking the ceruleum. Speak with the spirited porter. ",
+            "Lucky for you, the porter's amazement at the coblyns' obnoxious choice of beverage usurps any righteous fury he might have unleashed. Additional ceruleum from the plant will make up for the current shortfall. Report the facts to Papawazu.",
+            "Papawazu receives the news with his characteristic aplomb of sorts. It seems the porters will get much-needed protection from fell creatures, but no doubt be assigned the blame for the impending price gouge..."
+        ],
+        "objectives": [
+            "Question the spirited porter with much /doubt.",
+            "Investigate the processed ceruleum.",
+            "Speak with the porter.",
+            "Report to Papawazu."
+        ],
+        "dialogue": [
+            {
+                "name": "PAPAWAZU",
+                "text": "Sooo, we may have a shared problem here, as <span class=\"emphasis\">un</span>likely as that sounds. We would love─but <span class=\"emphasis\">love</span>─to ship ceruleum. <span class=\"emphasis\">But</span>..."
+            },
+            {
+                "name": "PAPAWAZU",
+                "text": "There's far too little of it coming out of the plant. I sus<span class=\"emphasis\">pect</span> thievery! A little skimming off the top, hmmm?"
+            },
+            {
+                "name": "PAPAWAZU",
+                "text": "Furthermore, I sus<span class=\"emphasis\">pect</span> the porters! I <span class=\"emphasis\">was</span> just going to keep an eye─wouldn't want trouble with the labor confraternities, you know! But <span class=\"emphasis\">you</span> are welcome to <span class=\"highlight\">doubt</span> and question them... Aaand I use one problem to solve another! Mmm, <span class=\"emphasis\">brilliant</span>."
+            },
+            {
+                "name": "NPCA",
+                "text": "Bless me, Nald'thal, let there be no creature features today, Your name be praised. I don't get paid enough for this..."
+            },
+            {
+                "name": "NPCA",
+                "text": "Stealin' ceruleum? One, I oughta punch you in the face for impugnin' my reputation. Two, you think I'd still be here with my arse out in the wind if I'd made off with that kind of loot?"
+            },
+            {
+                "name": "NPCA",
+                "text": "We're doin' honest work out here with all manner of nasties just yalms away. You doubt my words, go check the ceruleum in those barrels. Ain't nothin' missin' from what's in the books!"
+            },
+            {
+                "name": "NPCA",
+                "text": "Whyn't you go home before you get any more useless? There's creatures out here would take your arm off without even creasin' your shirt."
+            },
+            {
+                "name": "NPCA",
+                "text": "Coblyns!? <span class=\"emphasis\">Drinking</span> ceruleum? Now I have seen everything."
+            },
+            {
+                "name": "NPCA",
+                "text": "Well, I guess I don't need to get me a champion from the confraternity, that's a relief. But we'll have to make an extra trip to the plant to make up for what those cursed topers put down the hatch."
+            },
+            {
+                "name": "PAPAWAZU",
+                "text": "<span class=\"emphasis\">In</span>teresting! Coblyns, coblyns...no, I <span class=\"emphasis\">def</span>initely didn't order any. We do sometimes, though, for business reasons. Everybody does it."
+            },
+            {
+                "name": "PAPAWAZU",
+                "text": "Shush, you can stop talking now. Sooo, I'll have to hire guards for that whole area, and, oh, an <span class=\"emphasis\">idea</span>─raise the price and call it a special security surcharge..."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4347,
+                    "one": 1
+                },
+                {
+                    "id": 4343,
+                    "one": 1
+                },
+                {
+                    "id": 4341,
+                    "one": 1
+                },
+                {
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 10105
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 38,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66455
+            ]
+        },
+        "next": [
+            66458
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006438",
+            "obj": {
+                "i": 1006438,
+                "n": "Papawazu",
+                "l": 46,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006718",
+            "obj": {
+                "i": 1006718,
+                "n": "Spirited Porter",
+                "l": 46,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4347",
+            "obj": {
+                "i": 4347,
+                "n": "Amethyst Choker",
+                "l": 38,
+                "c": 54820,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "4343",
+            "obj": {
+                "i": 4343,
+                "n": "Peridot Choker",
+                "l": 38,
+                "c": 54817,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "4341",
+            "obj": {
+                "i": 4341,
+                "n": "Goshenite Choker",
+                "l": 38,
+                "c": 54819,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66455",
+            "obj": {
+                "i": 66455,
+                "n": "Hold for Customer Support",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 380
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66458",
+            "obj": {
+                "i": 66458,
+                "n": "The Ceruleum Must Flow",
+                "g": 93,
+                "l": "Northern Thanalan",
+                "s": 380
+            }
+        }
+    ]
+}

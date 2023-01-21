@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "No Place Like Home",
+        "location": "North Shroud",
+        "id": 66331,
+        "patch": 2.0,
+        "sort": 280,
+        "eventIcon": 71221,
+        "issuer": 1002800,
+        "target": 1002800,
+        "genre": 92,
+        "journal": [
+            "Gogolata has a confession to make.",
+            "Gogolata confesses to you the true reason he is reluctant to return to Ul'dah: his wares were stolen by Qiqirn bandits, and he will bear the full brunt of his wife's wrath if he returns without them. Gogolata suspects the thieves have taken the loot to their hideout south of Fallgourd Float. Retrieve them to spare the merchant a dire fate.",
+            "You have recovered the stolen wares. Return them to Gogolata at the Bobbing Cork.",
+            "Though relieved at the return of his property, Gogolata remains less than elated at the thought of returning to Ul'dah. What with ill rumors about, he decides to extend his sojourn for a while longer."
+        ],
+        "objectives": [
+            "Retrieve Gogolata's goods.",
+            "Return the goods to Gogolata."
+        ],
+        "dialogue": [
+            {
+                "name": "GOGOLATA",
+                "text": "In all truth, friend, I would like nothing more than to return home to Ul'dah where my loving wife awaits. That is, were it not for a small complicating matter..."
+            },
+            {
+                "name": "GOGOLATA",
+                "text": "My wares, you see, were stolen from me by the positively frightful band of Qiqirn thieves encamped to the south. Why, were I to return home empty-handed, my wife's wrath would make the Calamity look like a minor brushfire. No, I fear I have no choice but to prolong my stay..."
+            },
+            {
+                "name": "GOGOLATA",
+                "text": "//: retrieve goods from Qiqirn bandit"
+            },
+            {
+                "name": "GOGOLATA",
+                "text": "Oh woe, woe is me! A merchant without his wares is not worth a lump of opo–opo dung! How can I ever show my face to my dearest wife again?"
+            },
+            {
+                "name": "GOGOLATA",
+                "text": "M-My wares! Why, wherever did you find them? The Qiqirn camp...exactly as I told you? Preposterous! Why, I didn't think you'd <span class=\"emphasis\">actually</span>─er, ah!"
+            },
+            {
+                "name": "GOGOLATA",
+                "text": "Ahem! That is to say, I am in your debt once again, friend! Thanks to you, I can at long last return to Ul'dah, where my loving wife awaits!"
+            },
+            {
+                "name": "GOGOLATA",
+                "text": "...Then again, there are those nasty rumors going around of late. A masked man, was it? Indeed, the roads may not yet be safe. Though it pains me so, I fear I've no recourse but to sojourn here a while longer..."
+            }
+        ],
+        "reward": {
+            "gil": 1320,
+            "xp": 6290
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66330
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002800",
+            "obj": {
+                "i": 1002800,
+                "n": "Gogolata",
+                "l": 57,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66330",
+            "obj": {
+                "i": 66330,
+                "n": "A Welcome Overstayed",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "quest": {
+        "name": "Getting the Shaft",
+        "location": "The Dravanian Forelands",
+        "id": 67797,
+        "patch": 3.2,
+        "sort": 7,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 7,
+        "eventIcon": 71222,
+        "issuer": 1016803,
+        "target": 1016803,
+        "genre": 47,
+        "journal": [
+            "By the clacker of his mandibles, the Vath keeneye seems happy to see you.<br>※The difficulty of this quest will be synced to your current level.",
+            "Not long ago, hunters from Tailfeather put in a request for melia branches, a pliable wood perfect for making arrows. The Vath keeneye asks that you venture out into the Smoldering Wastes in his stead. Marking your map with three locations known to be melia budding grounds, he asks that you slay any meliae you find and collect their branches.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You visit the three budding grounds, but only obtain branches from two of the meliae that appeared. Nevertheless, you can do no more than what was asked of you. Return to Loth ast Vath and deliver what melia branches you found.",
+            "The Vath keeneye is more than happy with the branches you provide him. As an aside, he tells you of his offer of nanka eggs to the hunters of Tailfeather, in addition to the branches they requested. Though his intentions were pure, he was surprised at the hunters' reaction. It would seem the Vath keeneye has much to learn of the likes and dislikes of other races. "
+        ],
+        "objectives": [
+            "Survey the designated spots and slay meliae for their branches.",
+            "Deliver the melia branches to the Vath keeneye."
+        ],
+        "dialogue": [
+            {
+                "name": "SEARCHER",
+                "text": "Well come, great hunter. Not long ago we received a request from the fleshlings of Tailfeather. Yes, a few bells past they asked that we procure melia branches. Would you go out and gather them for us?"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Meliae prefer soil in the Smoldering Wastes best. Here, let me mark your map with location of good budding grounds. Three places, three chances to find melia branches. &lt;click&gt; &lt;click&gt; If you see them, defeat them quickly, then bring back what you find."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You survey the area, but find no sign of the meliae."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "The great hunter returns. Did you find meliae? Did you find flexible, pliable melia branches?"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Branches from <span class=\"emphasis\">two</span> meliae? One would be plenty, but with two the fleshlings will be very pleased. These branches make great arrows for chocobo hunting, or so fleshlings say. &lt;click&gt; &lt;click&gt; They seem to enjoy making arrows. Yes, many arrows."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Until now meliae were only a nuisance. Their limbs bear no fruit, their bark inedible. Hunting in the Smoldering Wastes was bothersome. Now meliae have value thanks to the hunters. "
+            },
+            {
+                "name": "SEARCHER",
+                "text": "For the Vath, nanka eggs always have great value. They are a delicacy. A very tasty treat. &lt;click&gt; &lt;click&gt; We offered them to the hunters, but they say our eggs are putrid. Such strange fleshlings they are. Yes, very strange."
+            }
+        ],
+        "reward": {
+            "gil": 489,
+            "reputation": 70,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21079
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016803",
+            "obj": {
+                "i": 1016803,
+                "n": "Vath Keeneye",
+                "l": 2000,
+                "q": 20
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21079",
+            "obj": {
+                "i": 21079,
+                "n": "Black Copper Gil",
+                "l": 1,
+                "c": 65056,
+                "t": 100
+            }
+        }
+    ]
+}

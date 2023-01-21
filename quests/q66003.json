@@ -1,0 +1,198 @@
+{
+    "quest": {
+        "name": "Loam Maintenance",
+        "location": "Middle La Noscea",
+        "id": 66003,
+        "patch": 2.0,
+        "sort": 34,
+        "eventIcon": 71201,
+        "issuer": 1002627,
+        "target": 1002631,
+        "involved": [
+            1002629
+        ],
+        "genre": 1,
+        "journal": [
+            "Gurcant seeks fertile soil to improve the yields of his newly plowed fields.",
+            "It would appear that Rhotwyda is knowledgeable about blackloam. Seek her in the orchard and ask her about this special soil.",
+            "While Rhotwyda knows where blackloam may be found, she refuses to do the obtaining herself. In her stead, gather three bushels of blackloam from the lair of aurochs known as the Cookpot.",
+            "You have obtained the required quantity of blackloam. Deliver it to Pfrewahl at Tiller's Rest.",
+            "Pfrewahl is overjoyed upon seeing the blackloam, but becomes coy when you express your curiosity at the soil's origins. Hopefully it is nothing to soil oneself over."
+        ],
+        "objectives": [
+            "Speak with Rhotwyda.",
+            "Obtain the blackloam in the Cookpot.",
+            "Take the blackloam to Pfrewahl at Tiller's Rest."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "GURCANT",
+                "text": "Blast! At this rate, the crops will never be ready for harvest."
+            },
+            {
+                "name": "GURCANT",
+                "text": "If only we had blackloam... Just a bit could send our stalks soaring!"
+            },
+            {
+                "name": "GURCANT",
+                "text": "I'll bet Rhotwyda knows where you might find some. Perhaps you might pay her a visit in the orchard?"
+            },
+            {
+                "name": "RHOTWYDA",
+                "text": "That Gurcant's got a head of cabbage if he thinks I'm fetchin' him any blackloam! "
+            },
+            {
+                "name": "RHOTWYDA",
+                "text": "But if you dare to pinch some from the Cookpot, then be my guest. Just mind you don't get trampled upon by the aurochs that dwell there."
+            },
+            {
+                "name": "RHOTWYDA",
+                "text": "Once you've three bushels' worth, take the blackloam to Pfrewahl at Tiller's Rest. He'll know what to do."
+            },
+            {
+                "name": "PFREWAHL",
+                "text": "Argh, even the weeds wither and die in this desolate dirt."
+            },
+            {
+                "name": "PFREWAHL",
+                "text": "But a bit of this blackloam ought to change all that! I haven't seen any in ages. Gathering blackloam's not for the weak of will...nor the weak of stomach, eh? Hahaha!"
+            },
+            {
+                "name": "PFREWAHL",
+                "text": "...Oh, don't tell me Gurcant and Rhotwyda neglected to mention where blackloam comes from."
+            },
+            {
+                "name": "PFREWAHL",
+                "text": "Well, surely you figured it out on your own from the cloying stench! It comes from the aurochs' <span class=\"emphasis\">lair</span>, of all places!"
+            },
+            {
+                "name": "PFREWAHL",
+                "text": "Ahem, well, why dwell on who misled whom about what? What matters is that your efforts have brought us the blackloam, and we can expect a bountiful harvest as a result. Thank you!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4092,
+                    "one": 1
+                },
+                {
+                    "id": 4091,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 3240
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 5,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66002
+            ]
+        },
+        "next": [
+            66004
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002627",
+            "obj": {
+                "i": 1002627,
+                "n": "Gurcant",
+                "l": 30,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002631",
+            "obj": {
+                "i": 1002631,
+                "n": "Pfrewahl",
+                "l": 30,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002629",
+            "obj": {
+                "i": 1002629,
+                "n": "Rhotwyda",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4092",
+            "obj": {
+                "i": 4092,
+                "n": "Leather Wristbands",
+                "l": 8,
+                "c": 55643,
+                "t": 42,
+                "p": 201
+            }
+        },
+        {
+            "type": "item",
+            "id": "4091",
+            "obj": {
+                "i": 4091,
+                "n": "Copper Wristlets",
+                "l": 8,
+                "c": 55601,
+                "t": 42,
+                "p": 229
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66002",
+            "obj": {
+                "i": 66002,
+                "n": "Double Dealing",
+                "g": 1,
+                "l": "Middle La Noscea",
+                "s": 25
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66004",
+            "obj": {
+                "i": 66004,
+                "n": "Plowshares to Swords",
+                "g": 1,
+                "l": "Middle La Noscea",
+                "s": 35
+            }
+        }
+    ]
+}

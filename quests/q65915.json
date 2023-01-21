@@ -1,0 +1,178 @@
+{
+    "quest": {
+        "name": "In the Grim Darkness of the Forest",
+        "location": "Central Shroud",
+        "id": 65915,
+        "patch": 2.0,
+        "sort": 49,
+        "eventIcon": 71201,
+        "issuer": 1000436,
+        "target": 1000748,
+        "genre": 1,
+        "journal": [
+            "Theodore is looking for an adventurer to deliver a message.",
+            "In spite of his efforts to not look down below, Theodore noticed a shadowy figure in the woods north of the Matron's Lethe. Share Theodore's observations with Roseline.",
+            "Roseline saw something similar, but believes it to be nothing significant. However, should you find anything unusual, she asks you to show it to her. Search the woods to the north for any signs of the shadowy figure.",
+            "Next to the still-warm remnants of an old campfire, you discover a worn leather bag. Deliver the bag to Roseline and see what she has to say.",
+            "At first, Roseline judges the bag to be nothing more than a traveler's forgotten pouch. However, after deeper consideration, she finds it highly suspicious for a traveler to make camp in woods filled with dangerous beasts when Bentbranch Meadows would provide safe shelter. She thanks you for your diligence and resolves to be more vigilant."
+        ],
+        "objectives": [
+            "Speak with Roseline.",
+            "Search for signs of the shadowy figure.",
+            "Deliver the leather bag to Roseline."
+        ],
+        "dialogue": [
+            {
+                "name": "THEODORE",
+                "text": "It is─regrettably─my duty to stand watch over the road from here to Bentbranch Meadows."
+            },
+            {
+                "name": "THEODORE",
+                "text": "The ranch has become a veritable institution of Gridania, so any threats to its continued operation are taken quite seriously by the Wood Wailers."
+            },
+            {
+                "name": "THEODORE",
+                "text": "Which reminds me─mayhap it was my imagination, but I believe I caught a glimpse of some shadowy fellow not too long ago. Would you mind passing word to Roseline down below? I would go myself but, well...it's hard enough marshaling the courage to walk the root for my shift..."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "A shadowy fellow? Hmmm...now that you mention it, I may have seen something."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "I dismissed it as a trick of the light before, but I thought I saw a shadow in the forest to the north. Still, I suspect it is nothing more than a Qiqirn thief on the run."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "If you must sate your curiosity, by all means investigate. Should you actually find something of note, I would like very much to see it."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "Hmmm? Have you found something?"
+            },
+            {
+                "name": "ROSELINE",
+                "text": "Remnants of a campfire and a forgotten bag...this could belong to any adventurer or traveler. And inside we have...a chocobo grooming brush and roseling oil?"
+            },
+            {
+                "name": "ROSELINE",
+                "text": "But wait─why would a traveler make camp here, when it would be far safer to beg the hospitality of Bentbranch Meadows?"
+            },
+            {
+                "name": "ROSELINE",
+                "text": "Bugger me, I think this belongs to that stranger said to be meddling with the chocobos! Thank you, adventurer. We have been lax in our duties, but no longer─I swear we will find this shadow."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3770,
+                    "one": 1
+                },
+                {
+                    "id": 3769,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65913
+            ]
+        },
+        "next": [
+            65916
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000436",
+            "obj": {
+                "i": 1000436,
+                "n": "Theodore",
+                "l": 54,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000748",
+            "obj": {
+                "i": 1000748,
+                "n": "Roseline",
+                "l": 54,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "3770",
+            "obj": {
+                "i": 3770,
+                "n": "Leather Jackboots",
+                "l": 10,
+                "c": 46816,
+                "t": 38,
+                "p": 288
+            }
+        },
+        {
+            "type": "item",
+            "id": "3769",
+            "obj": {
+                "i": 3769,
+                "n": "Amateur's Duckbills",
+                "l": 10,
+                "c": 46109,
+                "t": 38,
+                "p": 230
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65913",
+            "obj": {
+                "i": 65913,
+                "n": "Don't Look Down",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 48
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65916",
+            "obj": {
+                "i": 65916,
+                "n": "Threat Level Elevated",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 50
+            }
+        }
+    ]
+}

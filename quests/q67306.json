@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Clever Chicks",
+        "location": "The Dravanian Forelands",
+        "id": 67306,
+        "patch": 3.0,
+        "sort": 5205,
+        "eventIcon": 71221,
+        "issuer": 1011918,
+        "target": 1011918,
+        "genre": 98,
+        "journal": [
+            "Virgeaume seems to have chocobos on his mind.",
+            "Virgeaume has asked you to check on the two traps he set up: one is upstream of the Whilom River and the other lies to the east of Tailfeather. Check if the chocobo traps have caught anything.",
+            "It appears the chocobos that Virgeaume had intended to ensnare made off with the bait without triggering the traps. Bring him the sad news.",
+            "Although Virgeaume mourns the loss of his bait, he is surprised that the birds─and you─were able to avoid his cleverly dug pitfalls."
+        ],
+        "objectives": [
+            "Investigate the traps at the two locations.",
+            "Report to Virgeaume."
+        ],
+        "dialogue": [
+            {
+                "name": "VIRGEAUME",
+                "text": "Chocobo hunting isn't as easy as it looks─those birds are too clever by half! I've designed some new traps, though, that I set up around Tailfeather a few days ago. Might be about time to check them... Think you could do that for me?"
+            },
+            {
+                "name": "VIRGEAUME",
+                "text": "There are two of them: one upstream of the Whilom River and one out to the east of Tailfeather. All you really need to do is head out there to see if they've caught anything."
+            },
+            {
+                "name": "VIRGEAUME",
+                "text": "Go upstream of the Whilom River for the first trap, and out east of Tailfeather for the second. Let me know if they've caught anything."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The trap has not been sprung, but neither do you see any bait."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The trap has not been sprung, but neither do you see any bait."
+            },
+            {
+                "name": "VIRGEAUME",
+                "text": "Ah, so the chocobos made off with the bait without springing the traps... Looks like I've come up empty-handed again."
+            },
+            {
+                "name": "VIRGEAUME",
+                "text": "I half expected that would happen. That's why I dug pits near the traps in hopes of catching one off guard. Ah, sorry...guess I forgot to mention that part. Looks like both you and the chocobos managed to get past them on your own, though!"
+            },
+            {
+                "name": "VIRGEAUME",
+                "text": "Truth be told, this isn't the first time I've been outwitted by a chocobo. I've got more trap designs in the works, and I plan to test them out soon. Stop by again if you feel like joining in."
+            }
+        ],
+        "reward": {
+            "gil": 573,
+            "xp": 26400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 52,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67145
+            ]
+        },
+        "next": [
+            67314
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011918",
+            "obj": {
+                "i": 1011918,
+                "n": "Virgeaume",
+                "l": 2000,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67145",
+            "obj": {
+                "i": 67145,
+                "n": "Where the Chocobos Roam",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 30
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67314",
+            "obj": {
+                "i": 67314,
+                "n": "A Trap to Yawn For",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5206
+            }
+        }
+    ]
+}

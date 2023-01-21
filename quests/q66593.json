@@ -1,0 +1,153 @@
+{
+    "quest": {
+        "name": "Power Struggles",
+        "location": "Ul'dah",
+        "id": 66593,
+        "patch": 2.0,
+        "sort": 3,
+        "icon": 100106,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006747,
+        "target": 1006747,
+        "genre": 147,
+        "journal": [
+            "Captain Jenlyns has another lesson to teach you.",
+            "You learn from Jenlyns that the traitor who stole the sword Oathkeeper is named Solkzagyl, and that he was the Sultansworn captain for thirty long years. The recovery of the sword will be very difficult, and Jenlyns pledges to teach you more of the paladin arts to prepare you for the fight. For that purpose, he bids you test your might against the lepidotes dwelling within the waters of the Yugr'am River in eastern Thanalan.",
+            "Awakened by your victory, the memories of paladins past guide you to ever greater heights. Return to Ul'dah's Hustings Strip and report to Jenlyns.",
+            "Though pleased with your progress, Jenlyns reminds you that much work remains to be done before you can face the traitor Solkzagyl. As the net draws tighter, it grows ever more important that the Sultansworn be ready for when Solkzagyl is found.<br><br>※The next paladin quest will be available from Jenlyns upon reaching level 45."
+        ],
+        "objectives": [
+            "Light the brazier and slay the lepidotes drawn to the flame.",
+            "Report to Jenlyns."
+        ],
+        "dialogue": [
+            {
+                "name": "JENLYNS",
+                "text": "Welcome, paladin. You should know that word of your deeds has reached me. Few are those who follow the true paladin path without misstep, but you are one of them. I am proud to call you <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>. "
+            },
+            {
+                "name": "JENLYNS",
+                "text": "You have kept the faith, and in return, I must have faith in you. It is time that you knew the truth─though it is hard to share, for it is a shame I would rather keep hidden from outsiders."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Perhaps you remember when I told you of the traitor and the sword Oathkeeper that he stole. His name is Solkzagyl, and he was my predecessor as captain of the Sultansworn elite."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Yes, he was the same man whom I had admired as a child, who inspired me to take up the sword and follow the way of the paladin. He was the paragon of paladins─until, that is, he changed."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Some years ago now, there was a struggle for influence between the sultanate military and a faction within the Syndicate known as the Monetarists. The latter emerged triumphant, and the army's authority was diminished dramatically."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Although Solkzagyl was still captain of the Sultansworn elite, he knew his position was perilous─so he fled, taking Oathkeeper with him. In doing so, he went against the words that he had spoken on bended knee before his royal liege."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Now it falls to me, as captain, to restore the honor and name of the Sultansworn. If that means cutting down my former mentor and master, I would do it gladly, for his misdeed cannot be forgiven."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "But his death will not lift the stain that mars our name. He must be put on trial, in a public court, so that everyone knows his crimes. Then, and only then, can we begin to earn the people's trust again."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "He served for over thirty years as captain of the Sultansworn elite, and he is a formidable foe─few can match his skill with the sword. Even together, you and I will find it difficult to take him alive without mortal harm to one side or the other. So you must continue to hone your skills and prepare for the day when we will face him."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "To complete the next stage of your training, you must do this: go to the Yugr'am River in eastern Thanalan and find the brazier we have placed there."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "By lighting it, you will draw the ire of the lepidotes dwelling within the waters. Face the creatures in battle and master your new skills."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "The fight will not be easy, but if you take to heart what you have learned and let the crystal be your guide, you will triumph."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "Good. You've mastered your new skills and made them your own."
+            },
+            {
+                "name": "JENLYNS",
+                "text": "But much work remains to be done before you can face the traitor Solkzagyl. We are close to finding him, and as our net draws tighter, it grows ever more important that we make ready for the moment when the fish must at last be landed."
+            },
+            {
+                "name": "POP",
+                "text": "The waters around you begin to churn..."
+            }
+        ],
+        "reward": {
+            "action": 16457,
+            "xp": 22540
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 40,
+                    "id": 20
+                }
+            ],
+            "quests": [
+                66592
+            ]
+        },
+        "next": [
+            66594
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006747",
+            "obj": {
+                "i": 1006747,
+                "n": "Jenlyns",
+                "l": 41,
+                "q": 9
+            }
+        },
+        {
+            "type": "action",
+            "id": "16457",
+            "obj": {
+                "i": 16457,
+                "n": "Prominence",
+                "c": 2516,
+                "j": 19,
+                "t": 3,
+                "l": 40
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66592",
+            "obj": {
+                "i": 66592,
+                "n": "Honor Lost",
+                "g": 147,
+                "l": "Ul'dah",
+                "s": 2,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66594",
+            "obj": {
+                "i": 66594,
+                "n": "Poisoned Hearts",
+                "g": 147,
+                "l": "Ul'dah",
+                "s": 4,
+                "f": 1
+            }
+        }
+    ]
+}

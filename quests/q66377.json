@@ -1,0 +1,122 @@
+{
+    "quest": {
+        "name": "Raptor 'round Your Little Finger",
+        "location": "Eastern La Noscea",
+        "id": 66377,
+        "patch": 2.0,
+        "sort": 320,
+        "eventIcon": 71221,
+        "issuer": 1006307,
+        "target": 1006307,
+        "genre": 91,
+        "journal": [
+            "Etgar requires your assistance with a raptor predicament.",
+            "Etgar, a local tender of Wineport's vineyards, has requested your assistance with a grass raptor problem. The scalekin have been munching on the outpost's precious vines, and they must be stopped. Track down four of the beasts and teach them a lesson.",
+            "You have shown a quartet of raptors what for, and made the vineyards safe for another day. Report your success to Etgar.",
+            "Etgar seems well pleased by your tidings, and vows to keep you in mind should he have need of your services in the future."
+        ],
+        "objectives": [
+            "Slay grass raptors.",
+            "Report to Etgar."
+        ],
+        "dialogue": [
+            {
+                "name": "ETGAR",
+                "text": "Hallo, adventurer! Hear me, or Master Byrglaent will know the reason why! I mean that he'll simply tell you himself if you refuse to hear it from <span class=\"emphasis\">me</span>."
+            },
+            {
+                "name": "ETGAR",
+                "text": "You've no doubt seen those ghastly grass raptors skulking about outside our gates. Well, they've developed a taste for the vines we use to grow our brandewine cherries, and we can't abide that. You <span class=\"emphasis\">must</span> kill the horrible creatures!"
+            },
+            {
+                "name": "ETGAR",
+                "text": "Ah, the conquering <span class=\"alternative-container\"><span class=\"alternative\">heroine</span><span class=\"alternative\">hero</span></span> returns! And so quickly, too. You are as strong as you are kind, and <span class=\"alternative-container\"><span class=\"alternative\">pleasingly made about the shoulders</span><span class=\"alternative\">wonderfully trim of waist</span></span>. I shall make sure to keep you in mind should any future troubles creep up."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3377,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 7995
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66368
+            ]
+        },
+        "next": [
+            66380
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006307",
+            "obj": {
+                "i": 1006307,
+                "n": "Etgar",
+                "l": 32,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "3377",
+            "obj": {
+                "i": 3377,
+                "n": "Toadskin Breeches",
+                "l": 32,
+                "c": 45307,
+                "t": 36,
+                "p": 2796
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66368",
+            "obj": {
+                "i": 66368,
+                "n": "The Things We Do for Cheese",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 169
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66380",
+            "obj": {
+                "i": 66380,
+                "n": "Mona Lisa Smile",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 330
+            }
+        }
+    ]
+}

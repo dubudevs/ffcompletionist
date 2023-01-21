@@ -1,0 +1,178 @@
+{
+    "quest": {
+        "name": "What Goes Around",
+        "location": "Lower La Noscea",
+        "id": 66020,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1002653,
+        "target": 1002652,
+        "involved": [
+            1002654,
+            1002655,
+            1002656
+        ],
+        "genre": 91,
+        "journal": [
+            "Loetrswys wishes to check for any trouble that might be milling about the Grey Fleet.",
+            "Loetrswys is not one to leave until the morrow what can be done today. Find what's been going on around the mill by asking the millers.",
+            "The task has come full circle. Let Weitzaren know.",
+            "Weitzaren will arrange repairs for Eshushu's sail, just in case circumstances take an unexpected turn for the worse. "
+        ],
+        "objectives": [
+            "Speak to Eshushu, Waentzirn, and R'jumani.",
+            "Report to Weitzaren."
+        ],
+        "dialogue": [
+            {
+                "name": "LOETRSWYS",
+                "text": "Breathtaking, is it not? Proud sails turning, rugged gears churning─the mill never stops, and so neither can the millers assigned to its upkeep."
+            },
+            {
+                "name": "LOETRSWYS",
+                "text": "Vigilance is the key. By addressing tomorrow's issues today, we assure the wheels of prosperity continue to grind. Unfortunately, I've my hands full with the work of the day, and cannot leave my station to tend to inspection."
+            },
+            {
+                "name": "LOETRSWYS",
+                "text": "I would entrust this duty to you. Seek out the other three millers, heed their concerns, and apprise Weitzaren of your findings."
+            },
+            {
+                "name": "RJUMANI",
+                "text": "Well, you see the mill spinnin', don't you? What more do you need to know?"
+            },
+            {
+                "name": "RJUMANI",
+                "text": "Only problem I have is you meddlin' in my chores. Away with you, then."
+            },
+            {
+                "name": "ESHUSHU",
+                "text": "I haven't noticed anythin' off meself, but let's have a look now, shall we?"
+            },
+            {
+                "name": "ESHUSHU",
+                "text": "Hmmm... Look there─the sail's been nicked a bit. Nothing urgent, mind you."
+            },
+            {
+                "name": "ESHUSHU",
+                "text": "The cloth we use is the same as they use for sails out on the sea, made to stand up to blusterin' wind."
+            },
+            {
+                "name": "WAENTZIRN",
+                "text": "Pshaw! The mill is fine."
+            },
+            {
+                "name": "WAENTZIRN",
+                "text": "We'd be wiser to concern ourselves with the grubby scavengers that rob us of our yield."
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "I trust you enjoyed your tour of the mill! You are impressed, yes?"
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "The matter of Eshushu's sail is most worrisome indeed! The matter shall be remedied at once!"
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "To delay acting until trouble occurs is to ask for trouble! The Grey Fleet stops for nothing! Full sail ahead!"
+            }
+        ],
+        "reward": {
+            "gil": 141,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 4673
+                }
+            ],
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66022
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002653",
+            "obj": {
+                "i": 1002653,
+                "n": "Loetrswys",
+                "l": 31,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002652",
+            "obj": {
+                "i": 1002652,
+                "n": "Weitzaren",
+                "l": 31,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002654",
+            "obj": {
+                "i": 1002654,
+                "n": "R'jumani",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002655",
+            "obj": {
+                "i": 1002655,
+                "n": "Eshushu",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002656",
+            "obj": {
+                "i": 1002656,
+                "n": "Waentzirn",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4673",
+            "obj": {
+                "i": 4673,
+                "n": "Mutton Stew",
+                "l": 9,
+                "c": 24107,
+                "t": 46,
+                "p": 16
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66022",
+            "obj": {
+                "i": 66022,
+                "n": "Kobolds Ahoy",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 80
+            }
+        }
+    ]
+}

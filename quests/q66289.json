@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Scholarly Funds",
+        "location": "Eastern Thanalan",
+        "id": 66289,
+        "patch": 2.0,
+        "sort": 250,
+        "eventIcon": 71221,
+        "issuer": 1006207,
+        "target": 1006210,
+        "genre": 93,
+        "journal": [
+            "Claudien needs to secure additional resources for his research.",
+            "Claudien's research has borne considerable fruit, but he lacks for the manpower and supplies to restore invaluable Belah'dian artifacts. Deliver an abstract of his findings to Kyokyozo at Thal's Respite, that the priest might be convinced to send aid.",
+            "Kyokyozo is duly impressed with the historical significance of Claudien's findings, and promises to arrange for additional researchers and supplies to be sent to Highbridge without delay."
+        ],
+        "objectives": [
+            "Deliver the Highbridge report to Kyokyozo."
+        ],
+        "dialogue": [
+            {
+                "name": "CLAUDIEN",
+                "text": "Ah, greetings. Thanks to you, friend, my research has finally gotten off the ground. So many discoveries to be made, and ancient wonders to be restored! ...And yet, I have only these two hands with which to do my work."
+            },
+            {
+                "name": "CLAUDIEN",
+                "text": "If only I could convince the Order of the potential significance of my work, perhaps they would be willing to dispatch aid. I have here a report of my findings thus far. Might you be so kind as to deliver it to Kyokyozo at Thal's Respite?"
+            },
+            {
+                "name": "KYOKYOZO",
+                "text": "Welcome, adventurer. May you find respite from your hardships."
+            },
+            {
+                "name": "KYOKYOZO",
+                "text": "You bring a report from Claudien of Highbridge? A most welcome surprise, indeed. I was prepared to wait months before that young one made any significant progress."
+            },
+            {
+                "name": "KYOKYOZO",
+                "text": "What's this!? The ruins date back to the latter Belah'dian Era, and house the final resting place of Lalafuto IV himself? The historical implications of this research are beyond anything the Order had imagined. I must arrange for additional researchers and supplies to be sent to Highbridge immediately!"
+            }
+        ],
+        "reward": {
+            "gil": 1232,
+            "xp": 4760
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 24,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66285
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006207",
+            "obj": {
+                "i": 1006207,
+                "n": "Claudien",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006210",
+            "obj": {
+                "i": 1006210,
+                "n": "Kyokyozo",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66285",
+            "obj": {
+                "i": 66285,
+                "n": "Strawman Defense",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 240
+            }
+        }
+    ]
+}

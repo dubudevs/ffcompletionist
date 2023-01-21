@@ -1,0 +1,167 @@
+{
+    "quest": {
+        "name": "Without a Doubt",
+        "location": "Lower La Noscea",
+        "id": 65948,
+        "patch": 2.0,
+        "sort": 58,
+        "eventIcon": 71201,
+        "issuer": 1002238,
+        "target": 1002274,
+        "genre": 1,
+        "journal": [
+            "Ahtbyrm is looking for a member of his crew and the items he was supposed to deliver.",
+            "Take the road leading west from the Moraby Drydocks and speak with Haldbroda regarding the whereabouts of one Fyrilsmyd, making sure to express your /doubt concerning his honesty.",
+            "It appears that Haldbroda truly does not recall ever seeing Fyrilsmyd. Could it be that the young shipwright was somehow caught up in the tragedy that claimed a ship off of the Salt Strand?"
+        ],
+        "objectives": [
+            "Journey to Candlekeep Quay and relay Ahtbyrm's /doubt to Haldbroda."
+        ],
+        "dialogue": [
+            {
+                "name": "AHTBYRM",
+                "text": "Where in the seven hells is that man!? Not once in twelve moons has he been late with a shipment, and now two whole turns of the sun without a single word."
+            },
+            {
+                "name": "AHTBYRM",
+                "text": "A shipwright of mine─a young man named Fyrilsmyd─recently left Candlekeep Quay to retrieve several crates of supplies ordered from Limsa Lominsa...but has yet to return."
+            },
+            {
+                "name": "AHTBYRM",
+                "text": "I have sent several missives to Haldbroda, but his replies are always the same. He does not recall ever seeing the wright, nor the supplies he was scheduled to collect. That man knows something, and I severely <span class=\"highlight\">doubt</span> he is telling me the whole truth."
+            },
+            {
+                "name": "AHTBYRM",
+                "text": "As I cannot leave my post, I would ask you to travel to Candlekeep Quay in my stead and inform Haldbroda that if he insists on playing these games, I will personally see that he is transferred to Turtleback Island, where he can rot alone in the middle of the sea for eternity."
+            },
+            {
+                "name": "HALDBRODA",
+                "text": "Eh? Does that self-righteous dog Ahtbyrm <span class=\"highlight\">doubt</span> that I've never told him anything less than the truth!?"
+            },
+            {
+                "name": "HALDBRODA",
+                "text": "Turtleback Island!? He cannot do that...can he?"
+            },
+            {
+                "name": "HALDBRODA",
+                "text": "I swear on my poor nana's grave, Navigator rest her soul, I know naught of this Fyrilsmyd, nor his precious supplies."
+            },
+            {
+                "name": "HALDBRODA",
+                "text": "Hells, we here at the Quay have had enough trouble these past few suns, what with the sinking of that Lominsan cargo ship off the Salt Strand. I haven't the time to take a proper piss, let alone make note of every scrag that wanders in off the Grip."
+            }
+        ],
+        "reward": {
+            "gil": 196,
+            "items": [
+                {
+                    "id": 3539,
+                    "one": 1
+                },
+                {
+                    "id": 3538,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 5250
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65942
+            ]
+        },
+        "next": [
+            65951
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002238",
+            "obj": {
+                "i": 1002238,
+                "n": "Ahtbyrm",
+                "l": 31,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002274",
+            "obj": {
+                "i": 1002274,
+                "n": "Haldbroda",
+                "l": 31,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "3539",
+            "obj": {
+                "i": 3539,
+                "n": "Hempen Bracers",
+                "l": 11,
+                "c": 44042,
+                "t": 37,
+                "p": 280
+            }
+        },
+        {
+            "type": "item",
+            "id": "3538",
+            "obj": {
+                "i": 3538,
+                "n": "Hempen Dress Gloves",
+                "l": 11,
+                "c": 44159,
+                "t": 37,
+                "p": 224
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65942",
+            "obj": {
+                "i": 65942,
+                "n": "On to the Drydocks",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 54
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65951",
+            "obj": {
+                "i": 65951,
+                "n": "Righting the Shipwright",
+                "g": 1,
+                "l": "Lower La Noscea",
+                "s": 59
+            }
+        }
+    ]
+}

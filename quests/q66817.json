@@ -1,0 +1,219 @@
+{
+    "quest": {
+        "name": "Mist Opportunities",
+        "location": "East Shroud",
+        "id": 66817,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005563,
+        "target": 1005563,
+        "involved": [
+            1005885
+        ],
+        "genre": 37,
+        "journal": [
+            "Moxia wears an oddly coy expression on her face.",
+            "The touched sylphs of the Sylphlands have fashioned devices to inundate the forest air with a constant stream of milkroot mist, imparting an altered state of mind on all sylphs who draw near─the uncharacteristically amorous Moxia included. Moxia entrusts to you two phials of morbol gall, an acidic substance derived from morbol bile, and urges you to speak with the mysterious sylph at the entrance to the Sylphlands before embarking on your mission.",
+            "The mysterious sylph works her magic to render you transparent. Seek out the milkmist makers and destroy them using Moxia's morbol gall.<br><br>※You must complete the task before the enchantment expires. The fragrant blooms you encounter on your path will extend the duration of the spell.",
+            "With the milkmist makers dissolved by the power of morbol bile, the forest air begins to clear. Report your success to Moxia.",
+            "Moxia thanks you for your efforts, making sure to reiterate that her odd behavior before was solely due to milkmist exposure. That said, she will doubtless have occasion to call upon your aid again."
+        ],
+        "objectives": [
+            "Speak with the mysterious sylph by the entrance to the Sylphlands.",
+            "Use morbol gall on milkmist makers.",
+            "Report to Moxia."
+        ],
+        "dialogue": [
+            {
+                "name": "MOXIA",
+                "text": "Brave one is back to see this one, yes? Tee hee! This one sees how brave one looks at this one's wings. Tee hee! Brave one need not be such a shy one..."
+            },
+            {
+                "name": "MOXIA",
+                "text": "...F-Forgive this one! Ever since coming back from Sylphlands, this one feels tipsy."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Why? Touched ones fill forest air with mist of milkroot, this is why! These ones cannot draw near without one's head becoming a muddled mess."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Brave one feels nothing from milkroot, yes? Perfect! Brave one must take bottles of burny-goo, burn touched ones' mist-makers and stop those ones from making more mist."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Touched ones will not take kindly to meddling ones. Brave one must take care not to be seen─mysterious one near entrance to Sylphlands will see to that."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Walking one need say nothing. This one knows why walking one comes to this one."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Walking one remembers, yes? If walking one starts to be seen, walking one should seek out sweet-blooms. Sweet-blooms are walking one's friend."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Brave one must take bottles of burny-goo, stop mist-makers from making more mist."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "A sylphic incantation is about to render you transparent. Hurry and destroy the milkmist makers before the magic is lifted."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "The incantation will expire in thirty-five seconds, after which time you will be unable to complete your task. To have the spell cast anew, return and speak with the mysterious sylph."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "The fragrant blooms you encounter on the way will extend the duration of the incantation. Seek them out if the spell's power begins to wane."
+            },
+            {
+                "name": "RECOVER",
+                "text": "A fragrant mist envelops you!"
+            },
+            {
+                "name": "NOTRECOVER",
+                "text": "It is not safe to perform this action while visible. Return to the mysterious sylph to have the incantation cast anew."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Mist-makers are no more, yes? Brave one is a true friend to these ones. But just a friend, yes? Brave one should not dwell overmuch on what this one said before..."
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21075
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005563",
+            "obj": {
+                "i": 1005563,
+                "n": "Moxia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005885",
+            "obj": {
+                "i": 1005885,
+                "n": "Mysterious Sylph",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21075",
+            "obj": {
+                "i": 21075,
+                "n": "Sylphic Goldleaf",
+                "l": 1,
+                "c": 65051,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

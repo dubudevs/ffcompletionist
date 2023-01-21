@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "Saving the Bait",
+        "location": "The Dravanian Forelands",
+        "id": 67310,
+        "patch": 3.0,
+        "sort": 5204,
+        "eventIcon": 71221,
+        "issuer": 1011932,
+        "target": 1011932,
+        "genre": 98,
+        "journal": [
+            "Aimebert is in need of an adventurer to do his fighting for him.",
+            "Bandersnatches have been making easy meals of trapped chocobos. Aimebert bids you slay three of these opportunistic predators.",
+            "The bandersnatches are no longer a threat to the trapped chocobos. Inform Aimebert that his trapped birds are now safe.",
+            "Aimebert is pleased with the good news. He expresses regret that chocobos in his traps fell victim to hungry predators, and is grateful that no more birds will meet such grisly fates on his account."
+        ],
+        "objectives": [
+            "Slay bandersnatches.",
+            "Report to Aimebert."
+        ],
+        "dialogue": [
+            {
+                "name": "AIMEBERT",
+                "text": "Godsdammit─that's the third time this week! Blasted bandersnatches keep snappin' up the chocobos afore we collect 'em from the traps."
+            },
+            {
+                "name": "AIMEBERT",
+                "text": "The blasted beasts got a taste of chocobo meat, an' now they won't stay away!"
+            },
+            {
+                "name": "AIMEBERT",
+                "text": "Why, I seen three prowlin' nearby not a bell ago, waitin' for an easy meal. If you were to get rid of them, might be as I'll make it worth your while."
+            },
+            {
+                "name": "AIMEBERT",
+                "text": "The natural predators 'round these parts make our chocobos more fierce than any other region's, which is why it's a shame to lose even one. Hurry an' slay those bandersnatches before they make a meal outta any more birds."
+            },
+            {
+                "name": "AIMEBERT",
+                "text": "...You slew the beasts? Wonderful! Now the chocobos won't become bandersnatch fodder no more!"
+            },
+            {
+                "name": "AIMEBERT",
+                "text": "To be fair, though, the birds're perfectly capable of fendin' for themselves. They only fell prey to the bandersnatches 'cause they were trapped. For that, I feel bloody awful..."
+            },
+            {
+                "name": "AIMEBERT",
+                "text": "But thanks to you, the noble creatures won't meet such an unfittin' end no more."
+            }
+        ],
+        "reward": {
+            "gil": 473,
+            "xp": 26400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 52,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67145,
+                67307
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011932",
+            "obj": {
+                "i": 1011932,
+                "n": "Aimebert",
+                "l": 2000,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67145",
+            "obj": {
+                "i": 67145,
+                "n": "Where the Chocobos Roam",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 30
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67307",
+            "obj": {
+                "i": 67307,
+                "n": "Some Bad News",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5201,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "quest": {
+        "name": "Hard-boiled Hocus",
+        "location": "Gridania",
+        "id": 67666,
+        "patch": 3.2,
+        "sort": 103,
+        "repeatable": 1,
+        "icon": 100535,
+        "eventIcon": 71222,
+        "issuer": 1016898,
+        "target": 1016898,
+        "genre": 199,
+        "journal": [
+            "The cultured collector flashes a smile at you.<br>※This quest is available for a limited time only.",
+            "The cultured collector tells you that the enormous benediction egg rolling throughout the quarters of Old Gridania is actually an enchantment of sylphic design. Although it appears practically unblemished despite the speed at which it plunges through the crowd, the collector bids you break off a piece of its shell by rubbing a magicked powder onto it. Chase after the egg fit for a king. <br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "You successfully break off a piece of the benediction egg. Return to Mih Khetto's Amphitheatre and deliver it to the cultured collector.",
+            "The cultured collector is satisfied with the choice piece you were able to break off and hands over your prize. You patiently await a bit of egg humor, only to find the collector would rather leave it to his other compeers."
+        ],
+        "objectives": [
+            "Use the shimmering scalepowder on the benediction egg to obtain an egg fragment.",
+            "Deliver the egg fragment to the cultured collector."
+        ],
+        "dialogue": [
+            {
+                "name": "EGGHUNTINGSTAFFB02130",
+                "text": "No doubt you have seen the enormous egg bounding through the streets of Old Gridania. It has been enchanted by our friends the sylphs for this very occasion; though it rolls over root, stone, and man, there is not a single scratch upon it!"
+            },
+            {
+                "name": "EGGHUNTINGSTAFFB02130",
+                "text": "And therein comes the challenge. I will give you magicked powder that, when thoroughly rubbed onto a spot of the egg, will weaken its shell. If you can catch up to it and break off a fragment, bring it hither and trade it to me for a more fortuitous reward!"
+            },
+            {
+                "name": "EGGHUNTINGSTAFFB02130",
+                "text": "Remember that timing is everything. You never know when the egg will start moving again, so my advice is to throw yourself upon it as soon as it stops."
+            },
+            {
+                "name": "EGGHUNTINGSTAFFB02130",
+                "text": "Chasing after the egg can tire you out quite quickly. Have you come to rest for a bit?"
+            },
+            {
+                "name": "EGGHUNTINGSTAFFB02130",
+                "text": "Aha, it seems your determination has won out. This is indeed a piece of the benediction egg. I shall dispense your reward as promised."
+            },
+            {
+                "name": "EGGHUNTINGSTAFFB02130",
+                "text": "Splendid work, and come again, my good <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>! ...Ah, yes, noticed I did not say <span class=\"emphasis\">eggsellent</span> or some such, did you? I may be a Dreamer, but like others I find my comrades' humor to be a little...tiring at times."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 14944
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                67664
+            ]
+        },
+        "next": [
+            67668
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016898",
+            "obj": {
+                "i": 1016898,
+                "n": "Cultured Collector",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "14944",
+            "obj": {
+                "i": 14944,
+                "n": "Chipped Fortune Egg",
+                "l": 1,
+                "c": 21308,
+                "t": 85
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67664",
+            "obj": {
+                "i": 67664,
+                "n": "Jihli Dreams of Egg Hunts",
+                "g": 199,
+                "l": "Gridania",
+                "s": 101
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67668",
+            "obj": {
+                "i": 67668,
+                "n": "Eggsaltation of a Lark",
+                "g": 199,
+                "l": "Gridania",
+                "s": 105
+            }
+        }
+    ]
+}

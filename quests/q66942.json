@@ -1,0 +1,214 @@
+{
+    "quest": {
+        "name": "Unfair Trading",
+        "location": "Western La Noscea",
+        "id": 66942,
+        "patch": 2.2,
+        "sort": 36,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005940,
+        "target": 1005940,
+        "involved": [
+            1005946
+        ],
+        "genre": 41,
+        "journal": [
+            "Seww would have you turn the tables on the Serpent Reavers.",
+            "In a bid to weaken the forces of the Coral Tridents, Seww asks that you launch a surprise attack on a vessel of their allies, the Serpent Reavers. Take one of Pahh's elbst to the disguised merchantman, and defeat drowned raiders until their leader comes forth to challenge you himself.",
+            "You have slain the drowned seaman and demoralized the crew of the repurposed trading vessel. Return to Novv's Nursery and report to Seww.",
+            "Seww is pleased to hear of the Serpent Reaver officer's demise, and judges that the surviving pirates will need time to regroup from their sudden losses. The spawnling muses over the unenviable position of the tattooed thugs─despised by their own kin, and treated as lowly servants by the Sahagin─and expects that their thirst for violence will never truly be quenched."
+        ],
+        "objectives": [
+            "Defeat drowned raiders aboard the merchantman, then slay the drowned seaman when he appears.",
+            "Report to Seww."
+        ],
+        "dialogue": [
+            {
+                "name": "SEWW",
+                "text": "If we are to weaken the thrushhhts of the Coral Tridentshhh, then we need also thin the rankshhh of their allies, the Shhherpent Reavers."
+            },
+            {
+                "name": "SEWW",
+                "text": "One of their shhhenior tactical officers is a-sea with a crew even as we shhhpeak."
+            },
+            {
+                "name": "SEWW",
+                "text": "They prowl the waters in a merchantman, posing as traders shhho as not to alert their prey to their true nature. But we are not shhho easily fooled."
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... Take an elbshhht, and shhhlip aboard the disguised pirate vessel. Your main target will come to you once you have shhhlain enough of his men."
+            },
+            {
+                "name": "SEWW",
+                "text": "Board the Shhherpent Reavers' merchantman, and bring down the shhhenior officer. My shhhpawnbrother Pahh will lend you a shhheabeast for the tashhhk."
+            },
+            {
+                "name": "TAMER01376",
+                "text": "Pshhh... Hunting Ssserpent Reavers today? My elbssst will ssspeed you to their shhhip."
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to the pirates' merchantman?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... The officer is dead? Well done. I imagine the Reavers are not accushhhtomed to being the <span class=\"emphasis\">target</span> of a shhhurprise attack─they will need to return to port to recover and regroup."
+            },
+            {
+                "name": "SEWW",
+                "text": "These tattooed pirates... The shhhorewalkers despise them, and my people treat them little better than shhhlaves. It is little wonder that they act with shhhuch unreshhhtrained cruelty."
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "A Serpent Reaver officer comes forth to challenge you!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "I'll leave yer guts<br>fer the gulls, whelp!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21077
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005940",
+            "obj": {
+                "i": 1005940,
+                "n": "Seww",
+                "l": 33,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21077",
+            "obj": {
+                "i": 21077,
+                "n": "Rainbowtide Psashp",
+                "l": 1,
+                "c": 65053,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

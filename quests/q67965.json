@@ -1,0 +1,760 @@
+{
+    "quest": {
+        "name": "Choices and Paths",
+        "location": "The Peaks",
+        "id": 67965,
+        "patch": 4.0,
+        "sort": 680,
+        "icon": 100672,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1023728,
+        "target": 1022390,
+        "involved": [
+            1022391,
+            1022392,
+            1022436,
+            1022437,
+            1022438,
+            1022439,
+            1022440,
+            1022441,
+            1022442,
+            1022443,
+            1022444,
+            1022445,
+            1022446
+        ],
+        "genre": 148,
+        "journal": [
+            "Widargelt remains in the depths of despair.",
+            "Widargelt still needs time to process his recent defeat and the revelations about his past. But in spite of his own woes, he manages to show concern for his disciples, and asks that you speak with them and lift their spirits.",
+            "You look in on D'zentsa and O'tchakha, who in turn express their concern for their master. Uncertain what to do, they decide to turn to the ever-insightful Erik. While they keep an eye on the despairing Widargelt, they bid you fetch the professor from Rhalgr's Reach, home of the Resistance, where he is making his inquiries.",
+            "You find Erik just as he finishes asking Resistance soldiers about the mysterious Theobald. After sharing with you his findings, he agrees to accompany you back to Ala Gannha to have a stern word with Widargelt.",
+            "Widargelt has largely come to terms with his defeat; rather, the revelation of his true identity as the nephew of the King of Ruin has made him question his fitness to revive the Fist of Rhalgr. Through a tale about his departed son, Erik teaches Widargelt that a man is defined not by his blood, but by the choices he makes. His vigor and purpose thus restored, Widargelt turns his attention to what must be done. He reveals his suspicion that Theobald is in fact someone known to him: a brother from the Temple of the Fist named Adri, whom he had long believed dead. If it comes to it, Widargelt stands ready to strike him down, and he asks that you train him and his disciples in the way of the pugilist, that they might defeat the Corpse Brigade. Make your way to the old training grounds and begin their training.",
+            "Widargelt and his disciples prove eager students, and they quickly grasp the fundamentals of pugilism. As you train, a man named Hewerald arrives bearing the news that Erik has made a momentous discovery pertaining to Theobald. While your students continue their training, you decide to follow the messenger to East End, where the professor awaits.",
+            "The meeting with Erik turns out to be a trap, and you are forced to defend yourself. As you gain the upper hand, however, the battle transforms into a hostage situation. Just when it seems you must surrender, Widargelt and his disciples come to the rescue, having used their newfound fighting skills to overwhelm the sentries posted around the forest.",
+            "With the enemy thus routed, you may turn your attention to the liberated Erik.",
+            "Erik is well considering his ordeal, and your friends set out for Ala Gannha. Join them back at the village and speak with Widargelt to learn of his plans.",
+            "Widargelt declares his intent to challenge Theobald and put an end to his tyrannical ambitions. As your brother monk prepares for the encounter, see to it that you hone your own fists and feet.<br><br>※The next monk quest will be available from Widargelt upon reaching level 70."
+        ],
+        "objectives": [
+            "Speak with O'tchakha.",
+            "Speak with Erik at Rhalgr's Reach.",
+            "Speak with Widargelt in Ala Gannha.",
+            "Speak with Widargelt at Gyr Kehim.",
+            "Speak with Hewerald in East End.",
+            "Speak with Erik.",
+            "Speak with Widargelt in Ala Gannha.",
+            "Defeat the enemy!"
+        ],
+        "dialogue": [
+            {
+                "name": "WIDARGELT",
+                "text": "It's you again, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "My new pupils. They have lost faith in me. And so I have lost them."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "But perhaps it is just as well. For I am unfit to teach. I am the mad king's kin. It would be an affront."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Forgive me... I should not burden you. But to you, I feel I can speak my heart. Reveal things I would not to others. Not even my closest disciples. Speaking of whom..."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "D'zentsa and O'tchakha. Their bodies may have healed. But their pride will yet be raw. They would be heartened for your visit."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. How good of you to come and see us."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "Both Zentsa and I are well now, never you fear. 'Tis Master Widargelt that worries us. He will not soon recover from the emotional blow."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "Given all that's happened, you can hardly blame him. &lt;sigh&gt; We were supposed to support Master, but in the end we were just dead weight..."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "Lessons have been suspended since the incident. Not that it matters, though─the villagers have ceased attending. It is a big setback to our mission, but the biggest setback of all is Master's melancholy."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "Professor Erik would know what to do, I'd wager. Let's go and consult him. ...But, ugh, I don't want to leave Master by himself."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "Nor do I. <span class=\"highlight\">Forename</span>, might we trouble you to find the professor and bring him back?"
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "I believe he took his investigation of the man named Theobald to the Resistance, at Rhalgr's Reach."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I have not the right to revive the Fist..."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "If only I was stronger, dammit!"
+            },
+            {
+                "name": "ERIK",
+                "text": "Ah, <span class=\"highlight\">Forename</span>, you come at a good time. I've just finished inquiring after our friend, His Aspiring Majesty Theobald, and you are doubtless eager to hear my findings. Ahem!"
+            },
+            {
+                "name": "ERIK",
+                "text": "By all accounts, 'twas but recently that the man surfaced. None can quite say whence he came, but no sooner did he appear than he declared himself Theodoric's heir and proceeded to recruit people to his cause."
+            },
+            {
+                "name": "ERIK",
+                "text": "But the prevailing sentiment around the fellow is one of uncertainty. It should come as no surprise, but folk are not exactly keen on the Griffin's return. And lest we forget, few have fond memories of the King of Ruin's reign, nor do they have any reason to love his heir."
+            },
+            {
+                "name": "ERIK",
+                "text": "That is all. Now then, what brings you here?"
+            },
+            {
+                "name": "ERIK",
+                "text": "Still sulking into his cyclas, you say? &lt;sigh&gt; Utterly hopeless..."
+            },
+            {
+                "name": "ERIK",
+                "text": "Very well, I shall go and slap some sense into the fool. Come, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "This won't do. I need to get stronger, else I can't protect anyone. Else I can't protect..."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "Rain, hail, or shine, Master Widargelt has never skipped training. It must be a veritable storm inside."
+            },
+            {
+                "name": "ERIK",
+                "text": "Widargelt. A thrashing though it was, how long will you let a single defeat keep you down? As I hear it, you've been neglecting your training─haven't so much as lifted a finger. You would let all that muscle go to fat?"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Defeat is painful. This is true. But I am no stranger to its sting. In time, the sensation fades. But this... It is no mere sensation. It is my very existence."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "The man who destroyed the Fist of Rhalgr. His blood courses through my veins. That I should seek to revive the order... It is an affront to the dead. I have not the right."
+            },
+            {
+                "name": "ERIK",
+                "text": "...So that is the way of it. I will tell you a story. I once had a son. In many ways he took after me, and 'twas my hope that he would one day follow in my footsteps."
+            },
+            {
+                "name": "ERIK",
+                "text": "But the boy had grander dreams. Wanting to change the world, he took off and joined the Resistance. And then he died."
+            },
+            {
+                "name": "ERIK",
+                "text": "His unit was hopelessly surrounded by imperial forces. In order to save his comrades, he swept up a sack of explosives and─<br>...But the details are irrelevant."
+            },
+            {
+                "name": "ERIK",
+                "text": "For long years I lived with regret. If only my son had walked the path of science, I lamented, he might still be here."
+            },
+            {
+                "name": "ERIK",
+                "text": "But eventually I came to a realization: it was his choice to make, and make it he did. He chose to be a soldier and died a hero. In acknowledging this, I was able to attain a semblance of peace."
+            },
+            {
+                "name": "ERIK",
+                "text": "We are defined not by our blood, Widargelt, but by our choices. So your uncle is the mad king. What of it? You are not him. You are you, by whatever name, and there is no limit to what path you may walk. That path may be fraught with hardship, but you mustn't give up."
+            },
+            {
+                "name": "ERIK",
+                "text": "Behold the soldiers of the Resistance. Even now, they fight tirelessly against the might of the Empire, ever ready to render up their lives for their cause."
+            },
+            {
+                "name": "ERIK",
+                "text": "Behold the soldiers of the Resistance. Even after their great victory, they continue their vigil, ever ready to render up their lives for their cause."
+            },
+            {
+                "name": "ERIK",
+                "text": "These men and women bear a great burden, one beneath which they could buckle at any moment. Yet they stand firm to the very last. I used to wonder, why do they not give up? My son taught me the answer: they believe that the moment you give up on something is the moment you lose it."
+            },
+            {
+                "name": "ERIK",
+                "text": "When first we met, you were hells-bent on retribution. Mule-headed though you were, you came to see the folly of your path. But there comes a time when a man must fight. For you, that time is now."
+            },
+            {
+                "name": "ERIK",
+                "text": "So find your inner mule, Widargelt, and fight. Fight for that which you believe in."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "You are right, Professor. I see now what is truly important. Theobald desires absolute rule. If he has his way, the people will suffer. This cannot be borne. It flies in the face of the new Fist."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I would restore hope to the people. But to do this, I must transcend him. I will become stronger. And I will protect that which I hold dear."
+            },
+            {
+                "name": "ERIK",
+                "text": "Full glad am I to hear it. Suffice it to say I shall aid in whatever way I can."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Something else has been bothering me, Professor. About Theobald. His polearm techniques are distinct. I have seen them before. But when? Where?"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "'Twas a long time ago. When the Temple of the Fist still stood."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "&lt;gasp&gt; No... It couldn't possibly be...Adri?"
+            },
+            {
+                "name": "ERIK",
+                "text": "Who is this Adri?"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "A brother at the Temple of the Fist. And the closest thing I had to family. I had thought him dead. Slain when the temple was razed."
+            },
+            {
+                "name": "ERIK",
+                "text": "But now you believe that he may still be alive, and is the one who seeks to prevent your reviving the Fist of Rhalgr?"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Let us confront him and uncover the truth."
+            },
+            {
+                "name": "A2",
+                "text": "If it comes to it, could you strike him down?"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I looked upon Adri as a true brother. I do not wish for us to fight."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I looked upon Adri as a true brother. I do not wish for it to end that way."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "But neither can I yield in my purpose. I seek to restore hope to the people. Adri seeks to deprive them of it. If we must stand opposed..."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Then I stand ready to strike him down!"
+            },
+            {
+                "name": "ERIK",
+                "text": "But remember, Adri is not alone. He has rallied the Corpse Brigade to his cause, and against them the Fist of Rhalgr is ineffectual. How do you intend to overcome this disadvantage?"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "If our fighting style will not serve, we will master another. One that is free and unshackled by form."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "<span class=\"highlight\">Forename</span>, I would ask a favor of you. All you learned as a pugilist, we would learn also. Will you teach us?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Reckon you can keep up?"
+            },
+            {
+                "name": "A1",
+                "text": "It's going to be tough."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Give us your worst, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>! We will take it all in our stride!"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "If you are ready, I would begin at once. Let us train at Gyr Kehim. As the monks of old once did. I shall summon the girls. Pray meet us there."
+            },
+            {
+                "name": "ERIK",
+                "text": "Well, it would seem that the storm has blown over. With that, I shall return to Ul'dah to tend to a task of mine own. I trust you will see to the rest here."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Theobald leads the Corpse Brigade. Soldiers trained to suppress the Fist of Rhalgr. Against them, our style is ineffective."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "If we are to triumph, we must broaden our horizons. And <span class=\"highlight\">Forename</span> will help us."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "Alright! Let's do it!"
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "I shall give it my all!"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "You well know how we fight. Our strengths and our weaknesses. Tell us what we must improve. From the eyes of a pugilist."
+            },
+            {
+                "name": "Q1",
+                "text": "What do they need to improve?"
+            },
+            {
+                "name": "A1",
+                "text": "Speed."
+            },
+            {
+                "name": "A1",
+                "text": "Endurance."
+            },
+            {
+                "name": "A1",
+                "text": "Strength."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I see... Above all, a pugilist is swift. For each blow he receives, he delivers a dozen."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "D'zentsa, O'tchakha! Our combinations must be seamless! Ten thousand Bootshines!"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I see... Beside the pugilist, we want for endurance. No number of blows must stop us."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "D'zentsa, O'tchakha! Our endurance must be unyielding! Steel Peak ten thousand times!"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I see... Beside the pugilist, we want for power. Every blow must be telling."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "D'zentsa, O'tchakha! Our strikes must be harder than stone! Arm of the Destroyer for ten hours!"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "&lt;pant&gt; So this is how you trained... &lt;pant&gt; It is eye-opening..."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "But it is not enough. We must learn more. Or we cannot defeat the enemy. Please, <span class=\"highlight\">Forename</span>! Teach us more!"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "So our speed is yet lacking? Very well."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "So our endurance is yet lacking? Very well."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "So our power is yet lacking? Very well."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "&lt;huff&gt; Such brutal training... &lt;gasp&gt; Small wonder you are strong..."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "But we are not finished yet! Again, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "HEWERALD",
+                "text": "(-???-)Pray forgive me my interruption. My name is Hewerald, and I am come at Professor Erik's behest."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "The professor? Has something happened?"
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Nothing untoward, I assure you. He has made a momentous discovery pertaining to the man called Theobald."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Truly!? We must go to him at once!"
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Ah, beg your pardons, but the professor bade me bring <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Forename</span> alone. He believes that you and the ladies should focus upon your training first and foremost."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I suppose he is right. Very well."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Go on, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>. You have taught us all we need to know. All that remains is to practice. Make it second nature."
+            },
+            {
+                "name": "HEWERALD",
+                "text": "My thanks for your understanding. Then without further ado, please follow me."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "No way I'm gettin' thrashed like that again. I'm gonna train harder than I've ever trained before!"
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "It wouldn't do to always rely on you and Master Widargelt. Nay, we must grow strong and become able to fend for ourselves."
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Not far now. The professor awaits beyond."
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Hehehehe..."
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Hahahaha! I can't believe you fell for it!"
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Ah, but to be fair, I spoke no lies. The professor <span class=\"emphasis\">did</span> call for you."
+            },
+            {
+                "name": "HEWERALD",
+                "text": "“Help me, <span class=\"highlight\">Forename</span>,” he said! Ahahaha!"
+            },
+            {
+                "name": "QIB",
+                "text": "Can't have you meddling no more, see?"
+            },
+            {
+                "name": "QIB",
+                "text": "You're strong, I'll give you that. But how do you like these odds?"
+            },
+            {
+                "name": "QIB",
+                "text": "I'll put you in your place!"
+            },
+            {
+                "name": "QIB",
+                "text": "The hells you all waiting for!? Finish <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>!"
+            },
+            {
+                "name": "QIB",
+                "text": "Stubborn bastard... We'll just have to try something different."
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Surrender now or he's a dead man!"
+            },
+            {
+                "name": "ERIK",
+                "text": "Can't even finish a fight you started!? Cravens, the whole lot of you!"
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Call me what you will, but no one stands between the king and his throne!"
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "You were slow to return. So we followed. It was right that we did."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "Thank Rhalgr we were not too late."
+            },
+            {
+                "name": "HEWERALD",
+                "text": "You... How the hells did you get past the sentries?"
+            },
+            {
+                "name": "DZENTSA",
+                "text": "We trampled right over them, how else?"
+            },
+            {
+                "name": "HEWERALD",
+                "text": "Damn it... Your ilk was supposed to be easy pickings..."
+            },
+            {
+                "name": "HEWERALD",
+                "text": "The day's yours, but it isn't over. Mark my words."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "Worry not about us, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>. Go to the professor."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "&lt;pant&gt; And there I thought you were a demon in battle..."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "The training is arduous, but we will persevere─for Master Widargelt."
+            },
+            {
+                "name": "ERIK",
+                "text": "My thanks, <span class=\"highlight\">Forename</span>. I was on my way back from Ul'dah when they set upon me, and none too gently, the bloody brutes."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I am sorry, Professor. It is my fault. You were put in danger because of me."
+            },
+            {
+                "name": "ERIK",
+                "text": "Haven't you learned anything, you dolt? I am part of this cause of my own volition. For better or worse, I alone bear responsibility for my actions. At any rate, I have done what I needed to do, and you may resume training safe in that knowledge."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "Begging your pardons, but may I suggest we leave this place? The enemy may still be lurking nearby."
+            },
+            {
+                "name": "ERIK",
+                "text": "The wisest thing said all day. Come, let us return to Ala Gannha."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "We are stronger thanks to your teachings. Strong enough to face the Corpse Brigade."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "We're still nowhere near your level, but I reckon we've improved some!"
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "&lt;pant&gt; From the training...to our rushing here...to the battle itself... &lt;pant&gt; It has been a day...of exertion..."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "I thank you again, <span class=\"highlight\">Forename</span>. For your teachings. Owing to them, we could save the professor."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "He sustained some injuries. But for a blessing, they are minor. The village healer tends to him."
+            },
+            {
+                "name": "WIDARGELT",
+                "text": "When he is recovered, I mean to challenge Theobald. For that day, I will train hard. And I will put an end to his tyrannical ambitions. Witness me, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>."
+            },
+            {
+                "name": "DZENTSA",
+                "text": "We got the better of the Corpse Brigade this time, and it's all thanks to you, <span class=\"highlight\">Forename</span>. You and your...ungh...brutal training."
+            },
+            {
+                "name": "OTCHAKHA",
+                "text": "Your lessons have allowed us to transcend the limits of our style, <span class=\"highlight\">Forename</span>. All you have taught us, we shall practice without cease."
+            }
+        ],
+        "reward": {
+            "gil": 3074,
+            "xp": 232200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 68,
+                    "id": 21
+                }
+            ],
+            "quests": [
+                67964
+            ]
+        },
+        "next": [
+            67966
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1023728",
+            "obj": {
+                "i": 1023728,
+                "n": "Widargelt",
+                "l": 2407,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022390",
+            "obj": {
+                "i": 1022390,
+                "n": "Widargelt",
+                "l": 2407,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022391",
+            "obj": {
+                "i": 1022391,
+                "n": "D'zentsa",
+                "l": 2407,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022392",
+            "obj": {
+                "i": 1022392,
+                "n": "O'tchakha",
+                "l": 2407,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022436",
+            "obj": {
+                "i": 1022436,
+                "n": "D'zentsa",
+                "l": 2407,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022437",
+            "obj": {
+                "i": 1022437,
+                "n": "O'tchakha",
+                "l": 2407,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022438",
+            "obj": {
+                "i": 1022438,
+                "n": "Erik",
+                "l": 2403,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022439",
+            "obj": {
+                "i": 1022439,
+                "n": "Widargelt",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022440",
+            "obj": {
+                "i": 1022440,
+                "n": "D'zentsa",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022441",
+            "obj": {
+                "i": 1022441,
+                "n": "O'tchakha",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022442",
+            "obj": {
+                "i": 1022442,
+                "n": "Hewerald",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022443",
+            "obj": {
+                "i": 1022443,
+                "n": "Widargelt",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022444",
+            "obj": {
+                "i": 1022444,
+                "n": "D'zentsa",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022445",
+            "obj": {
+                "i": 1022445,
+                "n": "O'tchakha",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022446",
+            "obj": {
+                "i": 1022446,
+                "n": "Erik",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67964",
+            "obj": {
+                "i": 67964,
+                "n": "Cross-fist Training",
+                "g": 148,
+                "l": "The Peaks",
+                "s": 650,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67966",
+            "obj": {
+                "i": 67966,
+                "n": "The Power to Protect",
+                "g": 148,
+                "l": "The Peaks",
+                "s": 700,
+                "f": 1
+            }
+        }
+    ]
+}

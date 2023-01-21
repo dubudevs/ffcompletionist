@@ -1,0 +1,347 @@
+{
+    "quest": {
+        "name": "Disclosure",
+        "location": "Ishgard",
+        "id": 67134,
+        "patch": 3.0,
+        "sort": 19,
+        "icon": 100401,
+        "eventIcon": 71201,
+        "issuer": 1012381,
+        "target": 1012387,
+        "involved": [
+            1012377,
+            1012386,
+            1013033,
+            1013034,
+            1013035,
+            1013197,
+            1013383
+        ],
+        "genre": 3,
+        "journal": [
+            "Lord Haurchefant thinks you could do with a well-deserved rest.",
+            "Although the trial is ended, Lord Haurchefant must attend to some minor formalities before Alphinaud and Tataru can be released. In the meantime, he suggests that you return to the manor, and discuss the day's events with Count Edmont.",
+            "As usual, your conversation with the count is cut short, this time by the arrival of a message from the Vault. It would seem that His Eminence Archbishop Thordan VII has requested your presence. Hasten to the Holy Vault and speak with the priest outside the entrance to be granted admission.",
+            "Thordan VII warmly welcomes you and apologizes for the misunderstanding that led to Alphinaud and Tataru's incarceration. Having taken the highly unusual step of dismissing his personal guard, he then reveals to you that he has communicated with the Ascians, going on to explain that he is paying lip service to their wishes while plotting to move against them. He asks for your help in this endeavor, stating that only by wresting Eorzea from their grasp can a lasting peace ever be forged. Return to Fortemps Manor and share this disturbing revelation with Alphinaud.",
+            "Alphinaud is shocked to learn that the Ascians' influence has also spread to Ishgard. Even as he ponders a course of action, Tataru remembers with a start a troubling rumor she had heard. It would seem that Raubahn is to be executed for crimes against the sultanate. Determined not to lose yet another ally, Alphinaud resolves to do everything in his power to rescue the deposed Flame General."
+        ],
+        "objectives": [
+            "Speak with Edmont.",
+            "Speak with the priest at the Vault.",
+            "Speak with Alphinaud at Fortemps Manor."
+        ],
+        "dialogue": [
+            {
+                "name": "HAURCHEFANT",
+                "text": "Black chocobos are all well and good, but the true reward for your efforts is the exoneration of your comrades."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "They shall be released upon the completion of certain minor formalities, which I mean to see to personally. In the meantime, pray return to Fortemps Manor. The count has done so already, and will doubtless be eager to discuss the day's events."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Rest assured that Master Alphinaud and Mistress Tataru are no longer in danger. They will join you at the manor anon."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I was not present at the trial, but my father told me of your performance. He said you were a wonder to behold!"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Are you trying to become the talk of the city? Because if you are, you're doing an admirable job of it."
+            },
+            {
+                "name": "HONOROIT",
+                "text": "It brings me joy to see you in good health, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>."
+            },
+            {
+                "name": "EDMONT",
+                "text": "Halone smiles on us yet again, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, guiding you to victory and setting your comrades free."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I confess, I did fear for your safety. Which is not to say I doubted your prowess, you understand... I merely knew the strength of your opponents. Ahem. You do have a habit of exceeding my expectations."
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Besting two of the Heavens' Ward while the city's elite looked on? By the Fury, anyone who hasn't been paying attention to you will surely do so from now on!"
+            },
+            {
+                "name": "HOUSEFORTEMPSSTEWARD01598",
+                "text": "M-My lord!"
+            },
+            {
+                "name": "HOUSEFORTEMPSSTEWARD01598",
+                "text": "We have just received a message from the Vault. His Eminence the archbishop requests the presence of <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>."
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "An invitation from the archbishop!?"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "What an honor..."
+            },
+            {
+                "name": "EDMONT",
+                "text": "A personal summons is indeed a great honor, and given recent events, you would be wise not to delay..."
+            },
+            {
+                "name": "EDMONT",
+                "text": "Go, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. We shall speak anon."
+            },
+            {
+                "name": "HOUSEFORTEMPSSTEWARD01598",
+                "text": "A priest will be waiting for you outside the Vault. Identify yourself to him and he will escort you inside."
+            },
+            {
+                "name": "EDMONT",
+                "text": "Do not worry about Master Alphinaud and Mistress Tataru. We will tend to them when they return from the Tribunal."
+            },
+            {
+                "name": "HOUSEFORTEMPSSTEWARD01598",
+                "text": "In case you have forgotten, the Vault lies at the opposite end of the Hoplon. Pray do not keep His Eminence waiting."
+            },
+            {
+                "name": "PRIEST01598",
+                "text": "We are honored to receive you, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. This way, please."
+            },
+            {
+                "name": "PRIEST01598",
+                "text": "I nearly cried when you stepped forward at the Tribunal, <span class=\"highlight\">Forename</span>! Thank you, thank you, thank you!"
+            }
+        ],
+        "reward": {
+            "gil": 714,
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67133
+            ]
+        },
+        "next": [
+            67135,
+            67278,
+            67279,
+            67280,
+            67281,
+            67282,
+            67283,
+            67284,
+            67285
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012381",
+            "obj": {
+                "i": 1012381,
+                "n": "Haurchefant",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012387",
+            "obj": {
+                "i": 1012387,
+                "n": "Alphinaud",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012377",
+            "obj": {
+                "i": 1012377,
+                "n": "House Fortemps Steward",
+                "l": 2320,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012386",
+            "obj": {
+                "i": 1012386,
+                "n": "Ishgardian Priest",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013033",
+            "obj": {
+                "i": 1013033,
+                "n": "Count Edmont De Fortemps",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013034",
+            "obj": {
+                "i": 1013034,
+                "n": "Artoirel",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013035",
+            "obj": {
+                "i": 1013035,
+                "n": "Emmanellain",
+                "l": 2320,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013197",
+            "obj": {
+                "i": 1013197,
+                "n": "Tataru",
+                "l": 2320,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013383",
+            "obj": {
+                "i": 1013383,
+                "n": "Honoroit",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67133",
+            "obj": {
+                "i": 67133,
+                "n": "Divine Intervention",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 18
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67135",
+            "obj": {
+                "i": 67135,
+                "n": "Flame General Affairs",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 20
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67278",
+            "obj": {
+                "i": 67278,
+                "n": "Mum's the Word",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5007
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67279",
+            "obj": {
+                "i": 67279,
+                "n": "An Unwanted Delivery",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5008
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67280",
+            "obj": {
+                "i": 67280,
+                "n": "Bridge over Frozen Water",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5005,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67281",
+            "obj": {
+                "i": 67281,
+                "n": "A Mystery Illness",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5008
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67282",
+            "obj": {
+                "i": 67282,
+                "n": "Bad Wine",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5009
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67283",
+            "obj": {
+                "i": 67283,
+                "n": "Ancient Wisdom",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5010
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67284",
+            "obj": {
+                "i": 67284,
+                "n": "Clipped Wings",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5003,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67285",
+            "obj": {
+                "i": 67285,
+                "n": "Unclear Motives",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5006
+            }
+        }
+    ]
+}

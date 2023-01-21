@@ -1,0 +1,266 @@
+{
+    "quest": {
+        "name": "Sea Scraps",
+        "location": "Western La Noscea",
+        "id": 66943,
+        "patch": 2.2,
+        "sort": 37,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005940,
+        "target": 1005940,
+        "involved": [
+            1005946,
+            1008912,
+            1008913,
+            1008914,
+            1008915
+        ],
+        "genre": 41,
+        "journal": [
+            "Seww would have you get your feet wet for a good cause.",
+            "According to Seww's spawnbrothers, a pillaged merchantman under the command of the Reavers has seen battle with a Maelstrom warship. Though the Lominsan troops were forced to retreat from the deck of the trading vessel, it seems that several of their soldiers were captured by the pirates as they attempted to withdraw. Seww wishes you to board the Reavers' ship and help the captive soldiers escape before the Maelstrom decides to return with a larger force. Speak with Pahh, and borrow an elbst to carry you to the rail of the merchantman.",
+            "You have freed the captive soldiers. Return to Novv's Nursery and report to Seww.",
+            "Seww is greatly relieved to hear that you were able to free the Maelstrom soldiers from their Reaver captors, and thereby avert the need for further intervention by the Lominsan military. The spawnling compares the Maelstrom to his own clutch, saying that the shorewalker troops share a bond as strong as any blood-related family and will go to extraordinary lengths to save one of their own."
+        ],
+        "objectives": [
+            "Free captive soldiers on the deck of the merchantman.",
+            "Report to Seww."
+        ],
+        "dialogue": [
+            {
+                "name": "SEWW",
+                "text": "Pshhh... My shhhpawnbrothers were out shhhpearfishing in deeper waters than usual when they shhhpied a shhhea battle between a Reaver-controlled merchantman and a Maelshhhtrom warship."
+            },
+            {
+                "name": "SEWW",
+                "text": "It appears the shhhides were evenly matched. Though the shhhorewalker shhholdiers pressed the attack on the deck of the trader, heavy losses eventually forced them to retreat to their own vessel."
+            },
+            {
+                "name": "SEWW",
+                "text": "That is all well and good, but shhheveral of the Maelshhhtrom combatants were taken captive during the withdrawal. Conshhhidering the dreadful fate that awaits them back at the shhhpawning grounds, their comrades will likely return in greater numbers and attempt a reshhhcue on land."
+            },
+            {
+                "name": "SEWW",
+                "text": "You mushhht ride an elbshhht to the merchantman and free the prisoners before any shhhuch plan need be put into action. Additional shhheabeasts shhhould not be necessary─the trading vessel will have rowboatshhh that the liberated shhholdiers can use to reach the shhhore."
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... Take an elbshhht and intercept the merchantman. You mushhht free those captives before the Maelshhhtrom has a reason to launch an attack!"
+            },
+            {
+                "name": "TAMER01376",
+                "text": "Pshhh... Ssseww has told me of the sssituation aboard the merchantman. Jussst see to it that those finless warriors do not harm my elbssst!"
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to the merchantman?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "KOKKA01407",
+                "text": "Me thanks! Caught a blow to the back of me 'ead just as I made to leap the rail. They won't be catchin' me a second time..."
+            },
+            {
+                "name": "KOKKA01407",
+                "text": "Thank Llymlaen for mad adventurers! I thought I was done for. That'll teach me to treat seasoned pirates like they was back-alley thugs!"
+            },
+            {
+                "name": "KOKKA01407",
+                "text": "Eh? Where in the seven hells did you come from? Strike that─I don't even want to know. Just point me to the nearest lifeboat..."
+            },
+            {
+                "name": "KOKKA01407",
+                "text": "Phew! Yer a godssend! Free me mates an' we'll find our own way off this stinkin' ship!"
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... Thank you, <span class=\"highlight\">Forename</span>. It is beshhht we give the Maelshhhtrom no vendettas to purshhhue."
+            },
+            {
+                "name": "SEWW",
+                "text": "These shhhorewalkers are not shhho very different from us─they will shhhacrifice much for members of their clutch. Never undereshhhtimate the bonds of family."
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21077
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005940",
+            "obj": {
+                "i": 1005940,
+                "n": "Seww",
+                "l": 33,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008912",
+            "obj": {
+                "i": 1008912,
+                "n": "Captive Soldier",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008913",
+            "obj": {
+                "i": 1008913,
+                "n": "Captive Soldier",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008914",
+            "obj": {
+                "i": 1008914,
+                "n": "Captive Soldier",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008915",
+            "obj": {
+                "i": 1008915,
+                "n": "Captive Soldier",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21077",
+            "obj": {
+                "i": 21077,
+                "n": "Rainbowtide Psashp",
+                "l": 1,
+                "c": 65053,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

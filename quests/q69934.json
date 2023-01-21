@@ -1,0 +1,147 @@
+{
+    "quest": {
+        "name": "The Martyr",
+        "location": "Mare Lamentorum",
+        "id": 69934,
+        "patch": 6.0,
+        "sort": 552,
+        "icon": 101113,
+        "eventIcon": 71201,
+        "issuer": 1039987,
+        "target": 1039989,
+        "genre": 11,
+        "journal": [
+            "Something has raised the lustrous dog's hackles.",
+            "Sensing danger, the dog gives you a nudge as if to urge you onto its back. A curious invitation, to be sure, but still far from the strangest thing that has happened to you today.",
+            "You clamber onto the dog's back and soar across the moon, only for Zenos to destroy the final brand before your eyes. Although his aim is to make the god of Darkness's power his own, he challenges you to a duel here and now, only to be interrupted by Fandaniel. The Ascian then plunges into the Dark Inside and claims the primal for himself. For the future, for the star, and for all of those who gave their lives to save it, he must be stopped.<br><br>※The Dark Inside can be accessed via the Duty Finder.",
+            "Fandaniel succeeds in gaining full control of Zodiark's unfathomable powers, and yet even that proves insufficient to overcome your indomitable will. Matching his unrelenting onslaught blow for blow, you finally emerge victorious, and the god of Darkness lies before you, broken and defeated.",
+            "The watcher prepares to seal Zodiark once more, but Fandaniel has other plans. Indeed, it was always his intention for you to slay Zodiark─as it is His absence that will set in motion the Final Days. He tears into Zodiark's breast to ensure that His heart might stir no more, and as aether spills forth into the Sea of Stars, he exults in death. A vision of your own star turned to ash fills your mind─an omen of things to come. Never one to let the fate of the world come before his coveted contest, Zenos then reappears to remind you that if even the god of Darkness was insufficient to stoke your rage against him, then perhaps pure, unadulterated despair will have to suffice.",
+            "With Zenos gone from the moon, the watcher offers to speak to you of Zodiark and the coming end. Such ancient secrets will doubtless be invaluable if you are to avert it and deny Fandaniel his dying wish."
+        ],
+        "objectives": [
+            "Ride the lustrous dog.",
+            "Confront Zodiark in the Dark Inside.",
+            "Speak with the watcher."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "The dog growls, agitated."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "We must protect the brand! Come on, boy!"
+            },
+            {
+                "name": "A1",
+                "text": "Cry havoc and let slip the dog of war! That's you, by the way."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The dog nudges you with its nose. You get the feeling it wants you to...hop on?"
+            },
+            {
+                "name": "Q2",
+                "text": "Ride the dog?"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "With a powerful leap, the dog takes flight!"
+            },
+            {
+                "name": "Q3",
+                "text": "Proceed to the Dark Inside?"
+            },
+            {
+                "name": "WATCHEROFMOON",
+                "text": "<span class=\"highlight-purple\">I sense his presence on the moon no longer.</span>"
+            },
+            {
+                "name": "WATCHEROFMOON",
+                "text": "<span class=\"highlight-purple\">If you need not follow, then I beg you stay and listen to what I have to tell you.</span>"
+            },
+            {
+                "name": "WATCHEROFMOON",
+                "text": "<span class=\"highlight-purple\">Of Zodiark...and the end of all things.</span>"
+            }
+        ],
+        "reward": {
+            "gil": 3000,
+            "instance": 20080
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 83,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69933
+            ]
+        },
+        "next": [
+            69935
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1039987",
+            "obj": {
+                "i": 1039987,
+                "n": "Lustrous Dog",
+                "l": 3711,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1039989",
+            "obj": {
+                "i": 1039989,
+                "n": "The Watcher",
+                "l": 3711,
+                "q": 2
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20080",
+            "obj": {
+                "i": 20080,
+                "n": "The Dark Inside",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 83,
+                "max_lvl": 84
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69933",
+            "obj": {
+                "i": 69933,
+                "n": "Sea of Sorrow",
+                "g": 11,
+                "l": "Mare Lamentorum",
+                "s": 551
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69935",
+            "obj": {
+                "i": 69935,
+                "n": "In Shadow's Wake",
+                "g": 11,
+                "l": "Mare Lamentorum",
+                "s": 553
+            }
+        }
+    ]
+}

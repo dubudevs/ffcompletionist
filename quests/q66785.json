@@ -1,0 +1,222 @@
+{
+    "quest": {
+        "name": "Fodder for the Flamefangs",
+        "location": "Southern Thanalan",
+        "id": 66785,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "genre": 35,
+        "journal": [
+            "Yadovv Gah requires your skill at subterfuge.",
+            "The Flamefangs have kidnapped more men and women to offer up to the Lord of the Inferno. Believing that the captives will be tempered ere long, Yadovv Gah urges you to act with all haste. Stalk and slay the guards who hold the keys to the cages.",
+            "Having obtained the keys, you must now liberate the prisoners. Search for the cages which hold the captive men and women, then use the keys to set them free.",
+            "The Lord of the Inferno will claim no new souls this day, for the captives have all escaped. Return to the Ring of Ash and report to Yadovv Gah.",
+            "Yadovv Gah thanks you for sparing him and his brothers from the loathsome task of slaying more tempered slaves in battle. As he decries the cowardice of the Flamefangs, you observe that his distaste for the enemy runs deep..."
+        ],
+        "objectives": [
+            "Lie in wait for Zahar'ak guards.",
+            "Free the captives from their cages.",
+            "Report to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "The Brotherhood thrives, and the Flamefangs cower. Share in our glory, honored ally, for you have labored much for our cause."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "But share too in our sorrow, for more men and women have been taken to swell the ranks of our enemies."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "The zealots will brook no further delay. The captives will be tempered ere long if we do not act."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Stalk the guards who hold the keys to the cages. Lie in wait for their arrival and slay them with impunity!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "When finished, move with all haste to free the captives. Let not the Flamefangs delay you, for every second is precious."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "This occasion calls for subterfuge, not bravado. Slake your bloodlust another day."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Remember that time is of the essence. Move in shadow and strike only when necessary. The welfare of the prisoners takes priority above all else!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "There is no honor in facing a mindless slave in battle. That you have spared us this loathsome task is of great comfort to me."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "The cowardice of the Flamefangs is beyond all measure─beyond all forgiveness! That they offer themselves willingly is pathetic; that they sacrifice others is sickening..."
+            },
+            {
+                "name": "POP",
+                "text": "Your quarry approaches..."
+            },
+            {
+                "name": "POP",
+                "text": "The enemy is still about!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Relieved Captive-)Th-Thank the gods you've come!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Grateful Captive-)Bless you, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>, bless you!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Surprised Captive-)I...I never believed I'd... Thank you!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Disheveled Captive-)I'm...I'm free? Truly?"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Impressed Captive-)What!? How in the seven hells did you─ Gah, there's no time for this!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Enraged Captive-)I'll kill them all, I swear! They were fools to cross an Ala Mhigan!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Disbelieving Captive-)This is a dream, right? You're not real...are you?"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

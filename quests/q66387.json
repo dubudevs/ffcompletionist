@@ -1,0 +1,107 @@
+{
+    "quest": {
+        "name": "The Wind, It Passes",
+        "location": "Eastern La Noscea",
+        "id": 66387,
+        "patch": 2.0,
+        "sort": 330,
+        "eventIcon": 71221,
+        "issuer": 1006273,
+        "target": 1006273,
+        "genre": 91,
+        "journal": [
+            "Lock up your arcanists and hide the heavy equipment, Master Gegeruju is feeling bored.",
+            "Master Gegeruju's idea is refreshingly harmless. In order to call up the winds, first collect three cores from wind sprites.",
+            "You collected three wind sprite cores. Place them at the tip of the nearby cliffs to summon a storm sprite.",
+            "Nature is not to be trifled with─the storm sprite attacks you. Report to Master Gegeruju.",
+            "Far from apologetic, Master Gegeruju pouts that he only felt a whiffle. There is no greater adventure than serving at his pleasure."
+        ],
+        "objectives": [
+            "Collect cores from wind sprites.",
+            "Place the wind sprite cores at the tip of the cliffs.",
+            "Report to Master Gegeruju."
+        ],
+        "dialogue": [
+            {
+                "name": "GEGERUJU",
+                "text": "Excellent timing, come, come! Such a still, wilting day and I had a thought─a little thought, a violet not a rose─to call up a refreshing breeze."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "The wind sprites now, you can get a healthy puff or two out of them. It follows that a powerful sprite can set a whole city aflutter!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "According to my best calculations─or rather my <span class=\"emphasis\">second</span> best calculations, no need to ask how or why─collecting three cores from wind sprites should permit you to summon a more powerful specimen."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Won't someone─present company definitely included─carry out my genius plan? Will someone deign to collect this handsome reward?"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "The storm sprite attacked <span class=\"emphasis\">you</span>?"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "So only <span class=\"emphasis\">you</span> enjoyed a refreshing buffeting? I had but a whimpering whiffle! Oh, phooey, now I shall be bored again."
+            },
+            {
+                "name": "POP",
+                "text": "The wind rises about you!"
+            }
+        ],
+        "reward": {
+            "gil": 1725,
+            "xp": 8190
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 33,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66349
+            ]
+        },
+        "next": [
+            66388
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006273",
+            "obj": {
+                "i": 1006273,
+                "n": "Gegeruju",
+                "l": 32,
+                "q": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66349",
+            "obj": {
+                "i": 66349,
+                "n": "Costa Beach Party",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 300
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66388",
+            "obj": {
+                "i": 66388,
+                "n": "Bird's-eye View",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 330
+            }
+        }
+    ]
+}

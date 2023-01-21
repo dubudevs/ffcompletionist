@@ -1,0 +1,139 @@
+{
+    "quest": {
+        "name": "Tale of Roe",
+        "location": "The Ruby Sea",
+        "id": 68534,
+        "patch": 4.1,
+        "sort": 26,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "involved": [
+            1024317
+        ],
+        "genre": 51,
+        "journal": [
+            "Zukin has an eye for eggs.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Lure out tatsunoko with live ruby shrimp near Sakazuki and slay them for their roe.",
+            "Deliver the tatsunoko roe to the cook at the Ruby Price.",
+            "Deliver the fine Hingan wine to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "Ah, <span class=\"highlight\">Forename</span>, the very <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> I was seeking. There is a task I would have you perform in the name of trade relations."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Take these live ruby shrimp and release them along the shore of Sakazuki. This will lure out tatsunoko, whose roe you may then harvest."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Once you have the roe, pray deliver it to the cook at the Ruby Price. He will know what to do with it. My thanks in advance, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "COOK02998",
+                "text": "Looking for the cook? You've found him. What is it you require?"
+            },
+            {
+                "name": "COOK02998",
+                "text": "Oho, if this isn't tatsunoko roe, and some of the freshest I've seen! Compliments of Zukin, you say? Well, how thoughtful of him!"
+            },
+            {
+                "name": "COOK02998",
+                "text": "In case you didn't know, tatsunoko roe is a rare delicacy. I'll be able to prepare such a treat for our troops as they seldom enjoy! Now, such kindness shouldn't go unacknowledged..."
+            },
+            {
+                "name": "COOK02998",
+                "text": "One of the finest wines I have in my stores. Please give it to Zukin along with my regards. And with that, I take my leave─I have a feast to prepare!"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "...Our gift was so well received that we received one in return? Wonderful!"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "&lt;sniff&gt; Ah, this is truly a fine rice wine. We've not the means to brew our own, so it is doubly appreciated. My thanks for handling the task, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Ever since we began trading with Kokajiya, travel to Kugane has become a regularity. This in turn led to more opportunities for contact with the Ruby Price."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "For now, the fortification serves simply as a convenient waypoint, but ere long it will become a destination in its own right. Our efforts to establish new trade channels continue to flourish, and we owe no small part of our success to you."
+            }
+        ],
+        "reward": {
+            "gil": 615,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024317",
+            "obj": {
+                "i": 1024317,
+                "n": "Ruby Price Cook",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

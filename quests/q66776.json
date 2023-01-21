@@ -1,0 +1,163 @@
+{
+    "quest": {
+        "name": "Hard to Port",
+        "location": "Southern Thanalan",
+        "id": 66776,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005551,
+        "target": 1005551,
+        "involved": [
+            1005745
+        ],
+        "genre": 35,
+        "journal": [
+            "Narujj Boh wishes to take advantage of your un-Amalj'aa-like appearance.",
+            "Narujj Boh suspects that the boxes an Amalj'aa raider seized from an unfortunate merchant were filled with crystals. Speak with the troubled trader resting to the east of Little Ala Mhigo, and learn the contents of his stolen cargo.",
+            "You question the troubled trader, and discover that his cargo did, indeed, consist of a substantial number of crystals. Make haste into Zanr'ak, find the stolen boxes, and catch the thief himself before he hands over the bulk of his haul to Ifrit's eager clergy.",
+            "You have recovered all of the crystal-filled boxes. Make your way back to the troubled trader, and return to him his precious cargo.",
+            "You return with the cargo of crystals, to the merchant's overwhelming joy and relief. Return to the Ring of Ash and report to Narujj Boh.",
+            "You inform Narujj Boh of the successful retrieval of the trader's wares. The Brotherhood warrior thanks you for your deeds, relieved that your presence has averted a potential disaster."
+        ],
+        "objectives": [
+            "Speak with the troubled trader to the east of Little Ala Mhigo.",
+            "Recover boxes of crystals in Zanr'ak.",
+            "Defeat the Amalj'aa porter, and recover the large box of crystals.",
+            "Deliver the boxes of crystals to the troubled trader.",
+            "Report to Narujj Boh."
+        ],
+        "dialogue": [
+            {
+                "name": "NARUJIBOH",
+                "text": "Greetings, honored ally. Have you heard the murmuring around the camp? It seems a bedraggled merchant has wandered close to the Ring of Ash after escaping a Flamefang attacker."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Our scout reports that the single ambusher appeared more interested in the trader's cargo─a number of boxes that drew our addled kin's undivided attention. I strongly suspect that only a haul of crystals would outweigh the value of a potential tempered slave."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "If this is true, then we cannot allow the contents of those boxes to reach the Zahar'ak Amalj'aa and their summoning rituals! ...And considering the circumstances of his misfortune, I think it best that you be the one to approach this trader and confirm my suspicions."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "(deleted)"
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "(deleted)"
+            },
+            {
+                "name": "MERCHANT",
+                "text": "Oh, thank Nald, an adventurer! I have just suffered an attack at the hands of an Amalj'aa ruffian! I managed to escape with my life, but the brute made off with my cargo of crystals!"
+            },
+            {
+                "name": "MERCHANT",
+                "text": "The last I saw of the fiend, he was stumbling off to the south with my boxes precariously balanced one atop the other. I can't imagine he made it very far... Perhaps you might still catch the vile brigand!"
+            },
+            {
+                "name": "MERCHANT",
+                "text": "I'm ruined. Ruined! Why did I choose this route!? Why did I not listen to the warnings!?"
+            },
+            {
+                "name": "MERCHANT",
+                "text": "You rescued my cargo of crystals!? Huzzah! A wonder you are, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>, a gods-blessed wonder! How...how did you carry all those boxes, anyway? I shall have to retrieve my wagon before I can be on my way..."
+            },
+            {
+                "name": "MERCHANT",
+                "text": "The Immortal Flames cautioned me about the rising number of Amalj'aa attacks, but I thought perhaps I could slip through their lands unnoticed. What a perfect fool I was..."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "I will not send you into enemy territory on the strength of a suspicion. Speak with this unlucky merchant and learn what cargo he carried."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "So, my suspicions were correct. And you have returned the crystals to the trader? I thank you for averting this disaster."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "We are fortunate for your aid, honored ally. I fear the intervention of the Brotherhood would have only exacerbated matters..."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 660,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9693
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005551",
+            "obj": {
+                "i": 1005551,
+                "n": "Narujj Boh",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005745",
+            "obj": {
+                "i": 1005745,
+                "n": "Troubled Trader",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

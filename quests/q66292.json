@@ -1,0 +1,138 @@
+{
+    "quest": {
+        "name": "Where There Is Smoke",
+        "location": "Eastern Thanalan",
+        "id": 66292,
+        "patch": 2.0,
+        "sort": 136,
+        "icon": 100119,
+        "eventIcon": 71201,
+        "issuer": 1006196,
+        "target": 1006196,
+        "genre": 1,
+        "journal": [
+            "Hihibaru has information that will <span class=\"emphasis\">surely</span> lead you to Lahabrea.",
+            "Hihibaru claims to have witnessed a masked man meeting his beastman accomplices in secret. Make your way to the ash-covered ground northeast of Highbridge, and use a smoldering coal to arrange a similar rendezvous.",
+            "The smoldering coal gives rise to a column of smoke, which serves to summon a bandit. Forced to defend yourself, you slay the man and find upon his corpse a peculiar scroll bearing the mark of Rhalgr, the Destroyer. Return to Highbridge and present your find to Hihibaru.",
+            "It would seem that Lahabrea has clandestine connections not only with the Qiqirn, but also the Ala Mhigans. Your investigation begins to unfold, and where it may lead is anyone's guess..."
+        ],
+        "objectives": [
+            "Use the smoldering coal at the specified location.",
+            "Present the ward of the Destroyer to Hihibaru."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "I've finally got some honest-to-gods information on your masked man! Why so confident? Because I <span class=\"emphasis\">saw</span> him with my own two eyes!"
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "I was out for an evening stroll, minding my own business, when I noticed a column of smoke rising from a cliff over at Thal's Respite. Curious, I took myself there to find a masked man─<span class=\"emphasis\">your</span> masked man, I'm sure of it─standing by a fire."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "As if in answer, some Qiqirn appeared soon after, and the group began talking at length. I'm afraid I was too far out of earshot to hear much of anything."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "After the group had dispersed, an idea came to me: if you were to use this smoldering coal to start a fire, you might be able to arrange a similar meeting. It will be dangerous, I shouldn't doubt, but you've proven yourself more than a match for a pack of rats."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "So, what do you think? That's some sound, reliable information, even if I do say so myself. Well worth all the lingering about you've been doing, wouldn't you say?"
+            },
+            {
+                "name": "DUMMYTODO",
+                "text": "//Use stuff and kill things."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "Back so soon? Were you able to find any clues leading to your masked man?"
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "Bound for the deletion train."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "&lt;gasp&gt; Th-This scroll! It bears a prayer to Rhalgr, the Destroyer!"
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "In case you're unfamiliar, Rhalgr is the guardian deity of Ala Mhigo, which is currently under Garlean rule."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "It's <span class=\"emphasis\">highly</span> uncommon for folk of other nations to revere Him. I'd wager my last gil that your assailant was Ala Mhigan."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "It seems this masked man of yours is very well connected. I must confess, the merchant in me envies such a diverse network of contacts."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "That selfsame merchant also senses danger ahead...and darkness besides. Are you certain you'd rather not take things nice and slow here at Highbridge?"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 1516,
+            "xp": 9520
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 25,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66284
+            ]
+        },
+        "next": [
+            66293
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006196",
+            "obj": {
+                "i": 1006196,
+                "n": "Hihibaru",
+                "l": 44,
+                "q": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66284",
+            "obj": {
+                "i": 66284,
+                "n": "Highbridge Times",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 134
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66293",
+            "obj": {
+                "i": 66293,
+                "n": "On to Little Ala Mhigo",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 137
+            }
+        }
+    ]
+}

@@ -1,0 +1,194 @@
+{
+    "quest": {
+        "name": "Fire-spitting Image",
+        "location": "Southern Thanalan",
+        "id": 66783,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "genre": 35,
+        "journal": [
+            "Yadovv Gah means to use the nature of the Amalj'aa's blessings against them.",
+            "Yadovv Gah suspects that the voracious flames of Ifrit's blessings will feed upon each other, and has enlisted your aid to test his theory in practice. Pass through the gates of Zahar'ak, and first hunt down fortune-tellers for their wildfire idols.",
+            "You have slain fortune-tellers and obtained a pair of wildfire idols. Find the Inferno altar in the north of Zahar'ak, and cast the idols into its flames.",
+            "You consign the wildfire idols to the fires of the Inferno altar, and the resulting conflagration reduces everything in the vicinity to slag and charcoal. Return to the Ring of Ash and report to Yadovv Gah.",
+            "Yadovv Gah seems both elated and relieved at the success of his plan. With such tactics proven to be effective, it is only a matter of time before the fragile strength of the Zahar'ak Amalj'aa is shattered completely."
+        ],
+        "objectives": [
+            "Slay Zahar'ak fortune-tellers and obtain wildfire idols.",
+            "Cast wildfire idols into the Inferno altar.",
+            "Report to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "Have you met with the fortune-tellers of Zahar'ak in battle, honored ally? Each of these mystics carries a ritual tool known as a wildfire idol."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "It is an iron statuette forged in the sacred flames of Ifrit, and possessed of a potent aura that invigorates any of the faithful that draw near. Though we have seized several of these idols before, their god-tempered nature rendered them irritatingly difficult to destroy."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "But if we are to deny our hated enemy every advantage, then destroy them we must! I have thought long on this matter, and the mindless, raging nature of Ifrit's blessings might be made to work in our favor."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Our demented kin also draw strength from the fires of the Inferno altar. Casting wildfire idols into its flames will cause the blessings to feed one upon the other, igniting a conflagration violent enough to ensure their mutual destruction."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Is your task clear, honored ally? Hunt down the Zahar'ak fortune-tellers and relieve them of their ritual tools."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Bear the idols to the Inferno altar, and hurl them into the flames!<br>...Be sure to stand back from the explosion, honored ally. I would not have you perish in such a foolish manner."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Make your way into the depths of Zahar'ak and slay the fortune-tellers for their wildfire idols."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Take the ritual tools and cast them into the Inferno altar. The flames of their blessings will feed upon each other, consuming with mindless hunger until nothing but ash remains!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The potent energies of the wildfire idols cause the flames of the Inferno altar to rage out of control!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Was my plan a success? Ah, the fortunes of battle favor the bold!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Again, the illusion of my addled kin's strength is revealed. When power is not earned, there is no control. You have proven the truth of that, honored ally."
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

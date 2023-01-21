@@ -1,0 +1,185 @@
+{
+    "quest": {
+        "name": "Roof Riders",
+        "location": "East Shroud",
+        "id": 66252,
+        "patch": 2.0,
+        "sort": 210,
+        "eventIcon": 71221,
+        "issuer": 1000557,
+        "target": 1000587,
+        "genre": 92,
+        "journal": [
+            "Blaisette is troubled by something she saw.",
+            "Blaisette swears she saw a child playing atop the roof of the hut at night. Investigate the scene and put her mind at rest.",
+            "Upon climbing atop the roof, you discover an undersized cane. Might it offer a clue as to the identity of the mysterious figure? Return to Blaisette and see what she makes of it.",
+            "Blaisette believes the cane you found belongs to a sylph. It would seem she mistook one of their kind for a child. Deliver the cane to a sylph named Dellexia, who abides in Little Solace.",
+            "The cane was indeed one of Dellexia's prized possessions. Profuse with gratitude over its return, Dellexia promises her friendship and cooperation. Continue to seek out ways to provide succor to the sylphs, that you might fully earn their trust."
+        ],
+        "objectives": [
+            "Scour the roof for signs of a visitor.",
+            "Deliver the small cane to Blaisette.",
+            "Deliver the small cane to Dellexia."
+        ],
+        "dialogue": [
+            {
+                "name": "BLAISETTE",
+                "text": "Ahhh! I shan't get a wink of sleep until I find out who it was!"
+            },
+            {
+                "name": "BLAISETTE",
+                "text": "Hear my tale, adventurer! Last night, upon returning from my patrol, I caught sight of a child playing atop the roof. Fearing for the little one's safety, I called out, but the child promptly vanished."
+            },
+            {
+                "name": "BLAISETTE",
+                "text": "Now, we haven't received word of any missing children, but if there were even a chance... &lt;sigh&gt; Were it not for my duties here, I would be out searching now. Might I trouble you to climb to the roof and investigate in my stead?"
+            },
+            {
+                "name": "BLAISETTE",
+                "text": "Ah! You have returned! Tell me all that you have learned!"
+            },
+            {
+                "name": "BLAISETTE",
+                "text": "...Hm? Found this cane atop the roof, you say? 'Tis far too small for our use. I'd wager it belongs to one of the sylphs of Little Solace, the settlement to the east."
+            },
+            {
+                "name": "BLAISETTE",
+                "text": "Well, I suppose that solves the mystery. It would seem that the “child” I saw was in fact a sylph. And I was so worried..."
+            },
+            {
+                "name": "BLAISETTE",
+                "text": "At any rate, we should return the cane to its rightful owner. Please take it to a sylph named Dellexia in Little Solace─she will know what to do with it. And while you are there, tell her in no uncertain terms that her people should not wander the forest at night."
+            },
+            {
+                "name": "DELLEXIA",
+                "text": "What brings walking one to the abode of these ones?"
+            },
+            {
+                "name": "DELLEXIA",
+                "text": "Walking one brings cane! This one was looking under every leaf and flower for cane. This one's heart is full of joy. "
+            },
+            {
+                "name": "DELLEXIA",
+                "text": "Walking one is kind, like seedseeing one. This one likes kind ones."
+            },
+            {
+                "name": "DELLEXIA",
+                "text": "This one will be friend to kind one. Kind one has this one's word!"
+            }
+        ],
+        "reward": {
+            "gil": 1109,
+            "items": [
+                {
+                    "id": 3045,
+                    "one": 1
+                },
+                {
+                    "id": 3050,
+                    "one": 1
+                },
+                {
+                    "id": 3043,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 21,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66246
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000557",
+            "obj": {
+                "i": 1000557,
+                "n": "Blaisette",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000587",
+            "obj": {
+                "i": 1000587,
+                "n": "Dellexia",
+                "l": 55,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "3045",
+            "obj": {
+                "i": 3045,
+                "n": "Iron Cuirass",
+                "l": 20,
+                "c": 48002,
+                "t": 35,
+                "p": 1228
+            }
+        },
+        {
+            "type": "item",
+            "id": "3050",
+            "obj": {
+                "i": 3050,
+                "n": "Cotton Halfrobe",
+                "l": 21,
+                "c": 42154,
+                "t": 35,
+                "p": 820
+            }
+        },
+        {
+            "type": "item",
+            "id": "3043",
+            "obj": {
+                "i": 3043,
+                "n": "Goatskin Jacket",
+                "l": 20,
+                "c": 43030,
+                "t": 35,
+                "p": 877
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66246",
+            "obj": {
+                "i": 66246,
+                "n": "First Impressions",
+                "g": 1,
+                "l": "East Shroud",
+                "s": 116
+            }
+        }
+    ]
+}

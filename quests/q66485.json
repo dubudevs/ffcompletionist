@@ -1,0 +1,108 @@
+{
+    "quest": {
+        "name": "Whey Too into You",
+        "location": "Coerthas Central Highlands",
+        "id": 66485,
+        "patch": 2.0,
+        "sort": 400,
+        "eventIcon": 71221,
+        "issuer": 1006480,
+        "target": 1006480,
+        "involved": [
+            1006482
+        ],
+        "genre": 94,
+        "journal": [
+            "Ourdilic is seeking aid for a rescue attempt.",
+            "One of the researchers at Snowcloak has not yet returned from collecting ice samples, and he has a reputation for attracting ice sprites. Ourdilic bids you find the hapless man, and if necessary, rescue him from attackers.",
+            "Ourdilic proves to be impressively correct in her surmise, for you come across the whey-faced researcher cringing from the ice sprite. Now that you have slain the sprite and extricated yourself from the researcher's fawning attentions, you must make your report to Ourdilic.",
+            "Ourdilic has a spot of good news for you as well; she has nipped in the bud the researcher's hopes for a <span class=\"alternative-container\"><span class=\"alternative\">romance</span><span class=\"alternative\">bromance</span></span>. A happy ending for everyone─except the ice sprite, of course."
+        ],
+        "objectives": [
+            "Rescue the researcher.",
+            "Report to Ourdilic."
+        ],
+        "dialogue": [
+            {
+                "name": "OURDILIC",
+                "text": "Never has the course of research run smooth at Snowcloak. We are bedeviled by ice sprites, for one."
+            },
+            {
+                "name": "OURDILIC",
+                "text": "I suspect the sprites are to blame for our latest problem─a researcher on a sample-drilling duty is late returning to camp."
+            },
+            {
+                "name": "OURDILIC",
+                "text": "The sprites delight in tormenting some more than others, and, well, he's just one of those fellows. Will you rush to his rescue?"
+            },
+            {
+                "name": "NPCA",
+                "text": "You <span class=\"emphasis\">saved</span> me! <span class=\"alternative-container\"><span class=\"alternative\">I think I'm in love with you!</span><span class=\"alternative\">You're my best friend!</span></span> Let us return to the camp together─oh, you have something dangerous to do first? Um, all right. I'll just...see you later!"
+            },
+            {
+                "name": "OURDILIC",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. I just spoke with that whey-face. I made certain he understands you are a busy <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>, also."
+            },
+            {
+                "name": "OURDILIC",
+                "text": "Thanks to you, we too can busy ourselves with our mission! There will still be much hardship, but with your help, we <span class=\"emphasis\">shall</span> find a way through the ice wall!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a sudden chill in the air!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The sprite still lives!"
+            }
+        ],
+        "reward": {
+            "gil": 1958,
+            "xp": 11270
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 40,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66483
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006480",
+            "obj": {
+                "i": 1006480,
+                "n": "Ourdilic",
+                "l": 63,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006482",
+            "obj": {
+                "i": 1006482,
+                "n": "Whey-faced Researcher",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66483",
+            "obj": {
+                "i": 66483,
+                "n": "A Heart Divided",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 400
+            }
+        }
+    ]
+}

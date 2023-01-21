@@ -1,0 +1,158 @@
+{
+    "quest": {
+        "name": "My Friend the Yeti",
+        "location": "Thavnair",
+        "id": 69798,
+        "patch": 6.0,
+        "sort": 2070,
+        "eventIcon": 71221,
+        "issuer": 1040856,
+        "target": 1040856,
+        "genre": 122,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>The young Arkasodara is staring off into the jungle with worry in his eyes."
+        ],
+        "objectives": [
+            "With the chat mode in <span class=\"highlight\">Say</span>, enter any phrase containing “Sushena” to call out for him.",
+            "Investigate the sounds.",
+            "Use the healing salve on Sushena.",
+            "Report to the Arkasodara youth."
+        ],
+        "dialogue": [
+            {
+                "name": "YOUTH04262",
+                "text": "Ah, excuse me, but you're a traveler, yes? Would you be willing to take on a personal request? I'm worried for the safety of a friend of mine, and would ask you to check on them."
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "Thank you. I know you have no shortage of demands on your time. My friend, you see, he's a bit of a private person, and I only wish to know how he is faring after the recent troubles."
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "However, the journey to his abode is much too dangerous for me to attempt alone, and I wouldn't dare ask another villager to go in my stead. A traveler with a sharp blade, however, could surely get the task done with little effort."
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "He resides in the jungle to the northwest, or at least, he used to. I'll mark the location on your map─his name is Sushena, and if you <span class=\"highlight\">say</span> his name, he <span class=\"emphasis\">should</span> respond."
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "If my worst fears have come to pass and he is wounded, please use this medicine to treat his wounds. You will be rewarded for your efforts, but I suspect you would have helped me even if I had nothing to give in return."
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "I've marked the location that Sushena dwells on your map. <span class=\"highlight\">Say</span> his name, and hopefully he will respond in turn."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Sushena"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With the chat mode in <span class=\"highlight\">Say</span>, use your keyboard or the software keyboard to enter any phrase containing the word “Sushena” near the area marked on your map."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You hear faint sounds of an animal in pain emanating from the direction of the bluffs. Investigate its source."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The yeti appears to be wounded. Perhaps the medicine provided to you will alleviate its suffering."
+            },
+            {
+                "name": "FRIEND04262",
+                "text": "&lt;huff&gt; &lt;pant&gt;...Ugwah...&lt;pant&gt;...Ungeh..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Although you cannot understand the yeti's words, you can sense the gratitude behind them. Return to the young Arkasodara and inform him that his friend is well."
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "Welcome back, traveler! So, how was he?"
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "Oh, that's horrible! Still, I suppose I can be grateful that you could treat his wounds. I owe Sushena my life─when I was attacked by one of those terrible pisaca, Sushena's roar drove the monster off."
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "That was the start of our friendship─one I've treasured ever since. But my family has forbidden me from venturing into the woods, so I haven't been able to check up on him. I know they're only worried for my safety, but still..."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "You should explain everything to them."
+            },
+            {
+                "name": "A1",
+                "text": "You shouldn't abandon your friend!"
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "You're right, of course. Surely if I explain Sushena's bravery and selflessness, they'd understand. I've nothing to lose by trying, anyways!"
+            },
+            {
+                "name": "YOUTH04262",
+                "text": "Thank you. Not only did you save Sushena, but you've reminded me what true friendship is worth. It's not much, but please, take this!"
+            }
+        ],
+        "reward": {
+            "gil": 815,
+            "items": [
+                {
+                    "num": 2,
+                    "id": 36051
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                69953
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1040856",
+            "obj": {
+                "i": 1040856,
+                "n": "Arkasodara Youth",
+                "l": 3709,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "36051",
+            "obj": {
+                "i": 36051,
+                "n": "Lentil Curry",
+                "l": 539,
+                "c": 24035,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69953",
+            "obj": {
+                "i": 69953,
+                "n": "Under His Wing",
+                "g": 11,
+                "l": "Thavnair",
+                "s": 571
+            }
+        }
+    ]
+}

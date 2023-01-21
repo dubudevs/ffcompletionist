@@ -1,0 +1,297 @@
+{
+    "quest": {
+        "name": "In the Footsteps of Bardam the Brave",
+        "location": "The Azim Steppe",
+        "id": 68043,
+        "patch": 4.0,
+        "sort": 650,
+        "icon": 112228,
+        "eventIcon": 71201,
+        "issuer": 1020679,
+        "target": 1020682,
+        "involved": [
+            1020680,
+            1020681
+        ],
+        "genre": 6,
+        "journal": [
+            "Hien is ready to undertake the challenge of Bardam's Mettle.",
+            "If you are to participate in the Naadam and fight alongside the Mol, you must first be recognized as a warrior of the Steppe. To earn this honor, you will be required to complete a rite of passage involving walking in the footsteps of the legendary hero Bardam and taming a yol. Each member of your party must do this by themselves, of course, and so you shall...though if by pure coincidence some of your fellow adventurers happened to have made the long journey to the Far East, and simply <span class=\"emphasis\">insisted</span> on accompanying you...surely no one would be any the wiser.<br><br>※Bardam's Mettle can be accessed via the Duty Finder.",
+            "At the end of a strange and bewildering journey through Bardam's Mettle, you manage to tame a wild yol in the traditional fashion. Trial complete, you leave to rejoin your comrades.",
+            "Lyse emerges from the pass not long after you do, her trial also complete. However, there is still no sign of Hien or Gosetsu...",
+            "Suddenly recalling the whistles entrusted to her by Cirina, Lyse brings them forth, handing one to you. With a blow, you summon your respective yols, which circle in the skies above in acknowledgement of your new bond. There can be no doubt: you are now warriors of the Steppe."
+        ],
+        "objectives": [
+            "Enter Bardam's Mettle. ",
+            "Speak with Lyse."
+        ],
+        "dialogue": [
+            {
+                "name": "LYSE",
+                "text": "&lt;huff&gt; &lt;puff&gt; This is it! The real trial!"
+            },
+            {
+                "name": "GOSETSU",
+                "text": "Tread softly. We are for hallowed ground, and the kami are restless..."
+            },
+            {
+                "name": "HIEN",
+                "text": "Nothing left but to begin, then."
+            },
+            {
+                "name": "HIEN",
+                "text": "To complete the trial, we must each pass through Bardam's Mettle and tame a yol. How precisely we are to do this, I am not sure, but since countless warriors before us have succeeded, I imagine we'll muddle through somehow..."
+            },
+            {
+                "name": "HIEN",
+                "text": "But enough talk! We have a Naadam to win!"
+            },
+            {
+                "name": "LYSE",
+                "text": "First the trial, then the Naadam, then Doma, then Ala Mhigo! We'll be back home before you know it!"
+            },
+            {
+                "name": "HIEN",
+                "text": "Quite frankly, if I cannot convince a large bird to follow me, then what hope do I have with the Xaela? Or my own countrymen, for that matter."
+            },
+            {
+                "name": "GOSETSU",
+                "text": "I have stood upon more battlefields than I can count and lived to tell the tale. No bird will be my downfall!"
+            },
+            {
+                "name": "LYSE",
+                "text": "I should've known you'd be the first to make it through."
+            },
+            {
+                "name": "LYSE",
+                "text": "I'm assuming you had no trouble? Good, good. I managed somehow, as you may have guessed."
+            },
+            {
+                "name": "LYSE",
+                "text": "Looks like Hien and Gosetsu are still in there, though. Nothing for it but to wait, then."
+            },
+            {
+                "name": "LYSE",
+                "text": "Oh, right. I've still got those whistles Cirina gave me."
+            },
+            {
+                "name": "LYSE",
+                "text": "Here's yours. I suppose we ought to give them a try like she said."
+            },
+            {
+                "name": "LYSE",
+                "text": "Up there, look!"
+            },
+            {
+                "name": "LYSE",
+                "text": "I think that means we've won them over. That one there is yours, right? The other one is mine. Awww..."
+            },
+            {
+                "name": "LYSE",
+                "text": "So that's that, then! We're officially warriors of the Steppe!"
+            }
+        ],
+        "reward": {
+            "gil": 717,
+            "items": [
+                {
+                    "id": 20555
+                },
+                {
+                    "id": 18362,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18368,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18374,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18386,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5668,
+                    "one": 1
+                }
+            ],
+            "xp": 207900,
+            "instance": 53
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 65,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68042
+            ]
+        },
+        "next": [
+            68044
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1020679",
+            "obj": {
+                "i": 1020679,
+                "n": "Hien",
+                "l": 2411,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020682",
+            "obj": {
+                "i": 1020682,
+                "n": "Lyse",
+                "l": 2411,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020680",
+            "obj": {
+                "i": 1020680,
+                "n": "Lyse",
+                "l": 2411,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020681",
+            "obj": {
+                "i": 1020681,
+                "n": "Gosetsu",
+                "l": 2411,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "20555",
+            "obj": {
+                "i": 20555,
+                "n": "Yol Whistle",
+                "l": 1,
+                "c": 26039,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "18362",
+            "obj": {
+                "i": 18362,
+                "n": "Tigerskin Coat of Fending",
+                "l": 273,
+                "c": 43376,
+                "t": 35,
+                "p": 35673
+            }
+        },
+        {
+            "type": "item",
+            "id": "18368",
+            "obj": {
+                "i": 18368,
+                "n": "Tigerskin Coat of Maiming",
+                "l": 273,
+                "c": 43377,
+                "t": 35,
+                "p": 35673
+            }
+        },
+        {
+            "type": "item",
+            "id": "18374",
+            "obj": {
+                "i": 18374,
+                "n": "Kudzu Tunic of Striking",
+                "l": 273,
+                "c": 43378,
+                "t": 35,
+                "p": 35673
+            }
+        },
+        {
+            "type": "item",
+            "id": "18386",
+            "obj": {
+                "i": 18386,
+                "n": "Kudzu Tunic of Scouting",
+                "l": 273,
+                "c": 43380,
+                "t": 35,
+                "p": 35673
+            }
+        },
+        {
+            "type": "item",
+            "id": "5668",
+            "obj": {
+                "i": 5668,
+                "n": "Heavens' Eye Materia V",
+                "l": 160,
+                "c": 20258,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "instance",
+            "id": "53",
+            "obj": {
+                "i": 53,
+                "n": "Bardam's Mettle",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 65,
+                "max_lvl": 66,
+                "min_ilvl": 250
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68042",
+            "obj": {
+                "i": 68042,
+                "n": "A Trial Before the Trial",
+                "g": 6,
+                "l": "The Azim Steppe",
+                "s": 640
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68044",
+            "obj": {
+                "i": 68044,
+                "n": "The Children of Azim",
+                "g": 6,
+                "l": "The Azim Steppe",
+                "s": 660
+            }
+        }
+    ]
+}

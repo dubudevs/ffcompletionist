@@ -1,0 +1,111 @@
+{
+    "quest": {
+        "name": "Nix That",
+        "location": "Eastern La Noscea",
+        "id": 66348,
+        "patch": 2.0,
+        "sort": 160,
+        "eventIcon": 71201,
+        "issuer": 1006266,
+        "target": 1006266,
+        "genre": 1,
+        "journal": [
+            "Wheiskaet would first like to verify that you are not a complete fraud.",
+            "Before he bothers giving you a truly demanding task, Wheiskaet would first have you attend to a simple one. Place the herring he has given you on an eastern cape near Costa del Sol to lure out the nix that has been seen in the vicinity.",
+            "Having baited the trap with your herring, all that remains is to wait for and slay the nix that comes forth to claim it.",
+            "You dispatch the slimy creature with great fanfare and sever one of its legs as proof of your kill. Show Wheiskaet that the deed is done.",
+            "Wheiskaet explains that a recent incident with a former employee has forced him to treat strangers with greater caution. Having proven yourself to be nothing like that other poor, unfortunate soul, he is now willing to give you a challenge as befits your talents."
+        ],
+        "objectives": [
+            "Use the herring to lure out the nix.",
+            "Lie in wait for the nix.",
+            "Deliver the nix leg to Wheiskaet."
+        ],
+        "dialogue": [
+            {
+                "name": "WHEISKAET",
+                "text": "Master Gegeruju's requests can be more demanding than you realize. Before I set you to your true task, I would like to verify that this won't be a waste of my time."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "A nix has recently been seen prowling the beach to the east. As you can imagine, my master does not want large slimy creatures anywhere near his lands."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "The beast is cunning, but you should have no difficulty luring it out with herring."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Slay the nix and return to me. Oh, and don't forget to bring me a leg as proof of the kill."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Well? Did you deal with the nix?"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Lest you think me overly cautious for testing you in this way, you should know that we had an incident not long ago. A foolish young employee was dismissed for lying about his past. He claimed to have served in the Company of Heroes, but I knew for a fact he did not."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Anyway, now that the pointless busywork is finished, I shall give you a challenge as befits your talents."
+            },
+            {
+                "name": "POP",
+                "text": "Ripples in the water catch your eye..."
+            }
+        ],
+        "reward": {
+            "gil": 1615,
+            "xp": 14820
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 30,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66347
+            ]
+        },
+        "next": [
+            66350
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006266",
+            "obj": {
+                "i": 1006266,
+                "n": "Wheiskaet",
+                "l": 32,
+                "q": 20
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66347",
+            "obj": {
+                "i": 66347,
+                "n": "The Lominsan Way",
+                "g": 1,
+                "l": "Lower La Noscea",
+                "s": 159
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66350",
+            "obj": {
+                "i": 66350,
+                "n": "A Modest Proposal",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 161
+            }
+        }
+    ]
+}

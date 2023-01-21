@@ -1,0 +1,139 @@
+{
+    "quest": {
+        "name": "Endymion Disco",
+        "location": "The Sea of Clouds",
+        "id": 67709,
+        "patch": 3.1,
+        "sort": 13,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016089,
+        "involved": [
+            1016093
+        ],
+        "genre": 45,
+        "journal": [
+            "Muna Vanu is dreadfully busy, and could do with a hand.<br>※The difficulty of this quest will be synced to your current level.",
+            "Endymions have made a home for themselves in Ok' Zundu, and Muna Vanu bids you remove their nests. The perilous task of dislodging them from high atop the rooftops is made easier and safer by using a sanuwa, a creature capable of creating great gusts of wind that can blast away these aeries of mud and branches as though they were tiny affairs made of mere twig and down. Luna Vanu will have prepared such a beast for you to use in this endeavor─you need only say the word.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You speak with Luna Vanu and he is more than happy to supply you with a sanuwa. Its powerful breath will make short work of the endymion nests.<br><br>※Speak with Luna Vanu in Ok' Gundu Nakki to mount a sanuwa.",
+            "With the help of the sanuwa, you effortlessly destroy the endymion nests. Return to Muna Vanu and tell him your mission has been completed.",
+            "The venerable Gundu greatly appreciates your contributions to his tribe's safety. He explains that the endymions' encroachment is a recent development, and that incursions by aggressive creatures from the north grow ever more frequent in recent years."
+        ],
+        "objectives": [
+            "Speak with Luna Vanu.",
+            "Ride a sanuwa and use its Buffet ability to destroy the endymion nests.",
+            "Report to Muna Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "<span class=\"highlight\">Forename</span>, Muna Vanu has request to make. Endymions make nests upon Zundu nests! Please remove nests and rid us all─Gundu and Zundu alike─of threat of endymion attack!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Endymions make nests as high as possible─removing them is dangerous and takes much time. But gust of wind from sanuwa blasts away whole nest─scatters to wind like spores of wild mushroom."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Luna Vanu provides <span class=\"highlight\">Forename</span> with sanuwa. Use powerful, buffeting blast of wind from it to destroy four endymion nests!"
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "Always it is pleasure to see <span class=\"highlight\">Forename</span>! Muna Vanu tells Luna of plan to destroy endymion nests. Please, blow them away like kindling before gale!"
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "Even Vanu nestlings fall from sanuwa sometimes. It is no surprise that <span class=\"highlight\">Forename</span> does too. Luna Vanu prepares fresh sanuwa."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "<span class=\"highlight\">Forename</span> has whole tribe's thanks! With <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> efforts, beasts' nests are gone and Vanu Vanu nestlings may rest easy once more."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Endymion is more dangerous than raging anzu. They swoop down like fell wind and carry off young Vanu Vanu! Nests must be removed before vicious beasts grow too strong."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "When Muna Vanu is but mere nestling, endymions do not prowl Sea of Clouds. But in recent years, dangerous creatures blow in from northern seas. Each year is worse─more threatening─like swelling storm on horizon..."
+            }
+        ],
+        "reward": {
+            "gil": 581,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016093",
+            "obj": {
+                "i": 1016093,
+                "n": "Luna Vanu",
+                "l": 2100,
+                "s": 2,
+                "q": 8,
+                "t": "Whitebone Exchange",
+                "r": 1,
+                "a": 2240,
+                "c": [
+                    7.04,
+                    14.28
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

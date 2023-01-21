@@ -1,0 +1,197 @@
+{
+    "quest": {
+        "name": "Unclear Motives",
+        "location": "The Sea of Clouds",
+        "id": 67285,
+        "patch": 3.0,
+        "sort": 5006,
+        "icon": 100467,
+        "eventIcon": 71221,
+        "issuer": 1012059,
+        "target": 1012059,
+        "involved": [
+            1014128
+        ],
+        "genre": 97,
+        "journal": [
+            "Gildon seeks help to learn more of the Vanu's plans.",
+            "Gildon informs you that, according to reports from the other men, your tussle with the Vanu atop the cliff northeast of camp was not a one-off encounter. In fact, they believe the Vanu are conducting routine surveillance of the area. The only question that remains is to what end, and Gildon requests your assistance in finding the answer. Travel northeast to where you were assaulted by the Vanu and search for clues to what they are planning.",
+            "Returning to where you last encountered the Vanu scout, another has taken its place, peering out into the distance toward Camp Cloudtop. You make short work of the beastman spy, and find a strange bone in his possession.",
+            "You pick up the bone and decide it may be a clue. Return to Camp Cloudtop to have Gildon examine it.",
+            "You return to Camp Cloudtop and hand over the gnawed bone to Gildon. Inspecting it more closely reveals a strange pattern scratched into its surface. With this newest clue, the search for the truth has sparked a fire in Gildon. Perhaps this will lead to rekindling the spirits of his fellow cavalrymen."
+        ],
+        "objectives": [
+            "Search the area near Camp Cloudtop for Vanu.",
+            "Pick up the gnawed bone.",
+            "Deliver the gnawed bone to Gildon."
+        ],
+        "dialogue": [
+            {
+                "name": "GILDON",
+                "text": "Your timing is perfect as always. I was thinking of your recent encounter with the Vanu when I recalled reports from our men who patrol that area."
+            },
+            {
+                "name": "GILDON",
+                "text": "They often catch the Vanu on higher ground, in places that offer commanding views of the surrounding area. It's believed they are conducting routine surveillance, but to what end, we know not."
+            },
+            {
+                "name": "GILDON",
+                "text": "But I mean to find out, and I would have you assist me."
+            },
+            {
+                "name": "GILDON",
+                "text": "Pray return to where you first sighted the Vanu and search for clues. Whatever they are scheming, we must know of it."
+            },
+            {
+                "name": "GILDON",
+                "text": "I trust you still remember where you encountered the Vanu? Anything you can find will be of great help in uncovering their plans."
+            },
+            {
+                "name": "VANUVANU01749",
+                "text": "Waiting is boring, like watching moss grow on rocks. But I must─<br>...What? Netherlings return to interfere again!?"
+            },
+            {
+                "name": "GILDON",
+                "text": "Good to see you returned safely. So tell me, what did you discover of the Vanu's plotting?"
+            },
+            {
+                "name": "GILDON",
+                "text": "Oh my, what have we here? Hmmm... There is a pattern of some sort etched into this bone, though it doesn't appear to be any manner of lettering."
+            },
+            {
+                "name": "GILDON",
+                "text": "Perhaps they use bones like this to keep record of what they're observing from atop the cliffs."
+            },
+            {
+                "name": "GILDON",
+                "text": "This could be the opportunity I've been looking for─the kindling to ignite the fire in the hearts of my men! We must delve further and get to the bottom of this."
+            }
+        ],
+        "reward": {
+            "gil": 517,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4678,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 7571,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4747,
+                    "one": 1
+                }
+            ],
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67134,
+                67277
+            ]
+        },
+        "next": [
+            67292
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012059",
+            "obj": {
+                "i": 1012059,
+                "n": "Gildon",
+                "l": 2100,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014128",
+            "obj": {
+                "i": 1014128,
+                "n": "Vanu Scout",
+                "l": 2100,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4678",
+            "obj": {
+                "i": 4678,
+                "n": "Beef Stew",
+                "l": 50,
+                "c": 24110,
+                "t": 46,
+                "p": 415
+            }
+        },
+        {
+            "type": "item",
+            "id": "7571",
+            "obj": {
+                "i": 7571,
+                "n": "Popoto Pancakes",
+                "l": 90,
+                "c": 24072,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4747",
+            "obj": {
+                "i": 4747,
+                "n": "Apple Juice",
+                "l": 40,
+                "c": 24402,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67134",
+            "obj": {
+                "i": 67134,
+                "n": "Disclosure",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 19
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67277",
+            "obj": {
+                "i": 67277,
+                "n": "Dragons in the Mist",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5005
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67292",
+            "obj": {
+                "i": 67292,
+                "n": "Featherbrained Schemes",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5101
+            }
+        }
+    ]
+}

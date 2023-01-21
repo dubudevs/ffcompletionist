@@ -1,0 +1,99 @@
+{
+    "quest": {
+        "name": "Friendlier Skies",
+        "location": "Eastern Thanalan",
+        "id": 66291,
+        "patch": 2.0,
+        "sort": 250,
+        "eventIcon": 71221,
+        "issuer": 1006210,
+        "target": 1006196,
+        "genre": 93,
+        "journal": [
+            "Sister Kyokyozo seeks an adventurer to deliver a missive to Highbridge.",
+            "Sister Kyokyozo has entrusted you with a signed petition intended for Highwind Skyways. Deliver it to the merchant Hihibaru at Highbridge.",
+            "The earnest petitions of the Order of Nald'thal and Hihibaru's trade union will carry considerable weight in persuading Highwind Skyways to establish regular flights to and from Highbridge. It is only a matter of time before prosperity comes to the area."
+        ],
+        "objectives": [
+            "Deliver the signed petition to Hihibaru."
+        ],
+        "dialogue": [
+            {
+                "name": "KYOKYOZO",
+                "text": "I am loath to trouble you again, but you have proven yourself a friend to the Order. I have an urgent missive to be delivered to Hihibaru of Highbridge."
+            },
+            {
+                "name": "KYOKYOZO",
+                "text": "Or, to be precise, a petition. The Order would entreat Highwind Skyways to establish regular flights between Highbridge and Ul'dah."
+            },
+            {
+                "name": "KYOKYOZO",
+                "text": "Such flights would greatly ease the travels of pilgrims to Thal's Respite, not to mention stimulate commerce in the area."
+            },
+            {
+                "name": "KYOKYOZO",
+                "text": "It is for the latter reason that we believe Hihibaru and his fellow merchants will lend us their support. Go now, and may the Traders watch over your journey."
+            },
+            {
+                "name": "HIHIBALRU",
+                "text": "A message from Sister Kyokyozo? Whatever business could the Order have with a common trader like me?"
+            },
+            {
+                "name": "HIHIBALRU",
+                "text": "Well, I'll be... A petition for regular airship service between Highbridge and Ul'dah. Hah, the idea's so bloody brilliant I'm right ashamed not to have thought it up myself! Business would simply go through the roof!"
+            },
+            {
+                "name": "HIHIBALRU",
+                "text": "I'll add my signature and deliver it to Highwind Skyways straightaway! Now, if only someone would deal with those bloody Qiqirn, Highbridge would be a trader's paradise..."
+            }
+        ],
+        "reward": {
+            "gil": 1232,
+            "xp": 4760
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 24,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66290
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006210",
+            "obj": {
+                "i": 1006210,
+                "n": "Kyokyozo",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006196",
+            "obj": {
+                "i": 1006196,
+                "n": "Hihibaru",
+                "l": 44,
+                "q": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66290",
+            "obj": {
+                "i": 66290,
+                "n": "The Perils of Pilgrimage",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 250
+            }
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "quest": {
+        "name": "A Cropper's Duty",
+        "location": "The Sea of Clouds",
+        "id": 67438,
+        "patch": 3.0,
+        "sort": 5606,
+        "eventIcon": 71221,
+        "issuer": 1012056,
+        "target": 1012056,
+        "genre": 97,
+        "journal": [
+            "Caribault seeks an adventurer who is not afraid to get dirty.",
+            "Crops are only as fine as the soil from which they are grown, and Caribault is in need of blackloam to ensure a bountiful harvest. He asks that you bring him five bushels of the rich soil from wisent grazing grounds east of Camp Cloudtop.",
+            "You collect five bushels of blackloam. Take them to Caribault so he can prepare the soil for a rich harvest.",
+            "Caribault is thrilled to see your bag filled to the brim with rich blackloam. He notes that it is particularly rich, perhaps because it is so fresh. As you leave, he suggests you clean yourself up. You cannot help but wonder if the job was dirtier than he would have you believe."
+        ],
+        "objectives": [
+            "Obtain bushels of blackloam.",
+            "Deliver the blackloam to Caribault."
+        ],
+        "dialogue": [
+            {
+                "name": "CARIBAULT",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! Your timing is impeccable! I need you to retrieve five bushels of blackloam for the crops. You can find it in the fields east of here where the wisents graze. I would go myself but I haven't the stomach for it. Going near those gargantuan beasts, that is."
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "Five bushels of blackloam should do the trick. Be careful not to get trampled by the wisents, though."
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "&lt;sniff&gt; Ah, say no more─you've collected the blackloam, yes? I fear we can't expect a good harvest without it."
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "Oh my! It's been a while since we've had such rich loam. Splendid work, <span class=\"highlight\">Forename</span>. I knew I could count on you."
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "The wisents are quite dangerous, to be sure, but I cannot deny the benefits of their, erm...<span class=\"emphasis\">contributions</span> to nature. Which reminds me, you may want to wash up before you do any more adventuring."
+            }
+        ],
+        "reward": {
+            "gil": 527,
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67410
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012056",
+            "obj": {
+                "i": 1012056,
+                "n": "Caribault",
+                "l": 2100,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67410",
+            "obj": {
+                "i": 67410,
+                "n": "Honoring the Past",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5603,
+                "f": 1
+            }
+        }
+    ]
+}

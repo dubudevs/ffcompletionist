@@ -1,0 +1,150 @@
+{
+    "quest": {
+        "name": "Hair Club for Hyur",
+        "location": "Eastern Thanalan",
+        "id": 66287,
+        "patch": 2.0,
+        "sort": 240,
+        "eventIcon": 71221,
+        "issuer": 1006209,
+        "target": 1006209,
+        "genre": 93,
+        "journal": [
+            "Helmhart of Highbridge could use an adventurer's assistance with a hair-raising problem.",
+            "Helmhart has a grievous physical ailment which requires immediate treatment. Slay phurbles around Highbridge to obtain three bottles of phurble blood, and deliver them to Helmhart with all speed.",
+            "You have successfully obtained the requisite bottles of phurble blood. Hasten back to Helmhart and deliver them before his condition deteriorates.",
+            "Helmhart concocts a potent hair tonic with the phurble blood you retrieved. Apply it liberally to his head, that his locks might flow forth once more.",
+            "Having applied the hair tonic to his shiny pate, Helmhart rejoices at the pleasant tingling sensation it affords. Whether it has any effect beyond this remains to be seen."
+        ],
+        "objectives": [
+            "Slay phurbles to obtain their blood.",
+            "Deliver the bottles of phurble blood to Helmhart.",
+            "Apply the hair tonic to Helmhart's head."
+        ],
+        "dialogue": [
+            {
+                "name": "HELMHART",
+                "text": "You! Yes, you! Adventurer! I need you to fetch three bottles of phurble blood, and do so with all haste!"
+            },
+            {
+                "name": "HELMHART",
+                "text": "Where to find phurble blood, you ask? Why, from phurbles, of course! Now hurry! This is a matter of life and death!"
+            },
+            {
+                "name": "DUMMYTODO",
+                "text": "//Kill monsters, get stuff."
+            },
+            {
+                "name": "HELMHART",
+                "text": "Well? Have you brought the phurble blood I asked for? If so, then hand it over, and quickly now!"
+            },
+            {
+                "name": "HELMHART",
+                "text": "At long last! My friend, you're a godssend! Now, how did it go? Ah, yes─stir twice, a dash of spittle, shake thrice more, and...voilà!"
+            },
+            {
+                "name": "HELMHART",
+                "text": "Well, what are you waiting for, friend? Grab yourself a dollop and start spreading─my scalp cries out for succor! Oh, and do try not to miss a spot."
+            },
+            {
+                "name": "HELMHART",
+                "text": "Ooh! Ahhh! Ahhhhhhhhh!!!"
+            },
+            {
+                "name": "HELMHART",
+                "text": "My, that tingles! Why, I can already feel my pores opening! In no time at all, I'll have flowing locks a fulm long!"
+            },
+            {
+                "name": "HELMHART",
+                "text": "I can't thank you enough, friend. What with the sun beating down the way it does in these parts, a bald pate is a potentially fatal affliction."
+            }
+        ],
+        "reward": {
+            "gil": 1399,
+            "items": [
+                {
+                    "num": 2,
+                    "id": 4574,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 4575,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4620
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 24,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66493
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006209",
+            "obj": {
+                "i": 1006209,
+                "n": "Helmhart",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4574",
+            "obj": {
+                "i": 4574,
+                "n": "Weak Poisoning Potion",
+                "l": 20,
+                "c": 20681,
+                "t": 44
+            }
+        },
+        {
+            "type": "item",
+            "id": "4575",
+            "obj": {
+                "i": 4575,
+                "n": "Weak Blinding Potion",
+                "l": 20,
+                "c": 20685,
+                "t": 44
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66493",
+            "obj": {
+                "i": 66493,
+                "n": "Tresses in Distress",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 410
+            }
+        }
+    ]
+}

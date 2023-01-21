@@ -1,0 +1,174 @@
+{
+    "quest": {
+        "name": "Never Trout That I Love",
+        "location": "Outer La Noscea",
+        "id": 66395,
+        "patch": 2.0,
+        "sort": 340,
+        "eventIcon": 71221,
+        "issuer": 1006325,
+        "target": 1006325,
+        "involved": [
+            1006326,
+            1006327,
+            1006328
+        ],
+        "genre": 91,
+        "journal": [
+            "Commander Bloeidin has a request of you, and when a Red Swallow asks nicely for something, it is best to oblige. ",
+            "Bloeidin is concerned about his scouts, who eat far too much weevil and too little meat and fish. Grill them a large trout using the nearby campfire.",
+            "The fish looks enticingly crispy, a credit to your cooking prowess. Remove it from the fire.",
+            "You have a grilled warmwater trout of great size, with deliciously singed skin and succulent flesh. You will not see its like again. Give it to the three Red Swallows.",
+            "Notwithstanding the disheartening lack of three-star reviews, the scouts have been fed. Inform Commander Bloeidin that his troops are satiated.",
+            "Having spoken with the commander, you find your heart strangely stirred by his words of admiration for his soldiers. While it would have been better manners for the scouts to have exclaimed over the fish, it cannot be expected of former pirates."
+        ],
+        "objectives": [
+            "Grill the trout at the nearby campfire.",
+            "Take the grilled trout off the fire.",
+            "Give the grilled trout to the soldiers.",
+            "Report to Bloeidin."
+        ],
+        "dialogue": [
+            {
+                "name": "BLOEIDIN",
+                "text": "The commissary finally received a shipment this morning─that should make things a bit easier around here. The brass sent me a fresh warmwater trout, biggest I've seen. The privilege of command, eh?"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "But I can't rightly eat it myself. My three best scouts haven't had anything like real food in weeks. They're out finding paths and breaking kobold skulls every day. So I'm going to ask you to grill that fine trout and serve it to them."
+            },
+            {
+                "name": "SOLDIERA",
+                "text": "I am steel! Hear me, you mole bastards? I am steel!"
+            },
+            {
+                "name": "SOLDIERA",
+                "text": "The commander sends a plate, eh? Smells good! I usually like beef, hot and bloody, but this'll do for a snack."
+            },
+            {
+                "name": "SOLDIERB",
+                "text": "The Twelve watch over me, and if I should perish before this day is over, may I take as many of the enemy as I've known doxies."
+            },
+            {
+                "name": "SOLDIERB",
+                "text": "Trout? Bah. I'd a fancy for a fat hen. There are four things I like: a bit of petticoat, a mug of sour beer, a leg of fowl, and a whole lot of dead kobolds."
+            },
+            {
+                "name": "SOLDIERC",
+                "text": "This ain't getting easier, going out day after day. 'Specially with that smell of fish grilling... "
+            },
+            {
+                "name": "SOLDIERC",
+                "text": "What's this, now? The commander had you grill it up for <span class=\"emphasis\">us</span>? Ohoho! Look at the size of the thing... But next time, give us a suckling pig!"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Haha, that's my boys, no respect 'cept where it counts. Mark my words: soon as your back was turned, all three fell to, and swore 'twas the best thing they ever tasted."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "We're a crew, you hear me? Them that's here, them that's gone, them that's eating their heart out at Bronze Lake. The Red Swallows do for each other, and Ifrit never takes the hindmost because there ain't ever anyone left behind."
+            }
+        ],
+        "reward": {
+            "gil": 1492,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4663
+                }
+            ],
+            "xp": 8385
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 34,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66394
+            ]
+        },
+        "next": [
+            66397
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006325",
+            "obj": {
+                "i": 1006325,
+                "n": "Bloeidin",
+                "l": 350,
+                "q": 15,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006326",
+            "obj": {
+                "i": 1006326,
+                "n": "Eager Red Swallow",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006327",
+            "obj": {
+                "i": 1006327,
+                "n": "Ardent Red Swallow",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006328",
+            "obj": {
+                "i": 1006328,
+                "n": "Starving Red Swallow",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4663",
+            "obj": {
+                "i": 4663,
+                "n": "Mugwort Carp",
+                "l": 38,
+                "c": 24314,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66394",
+            "obj": {
+                "i": 66394,
+                "n": "One Swallow Does Not a Victory Make",
+                "g": 91,
+                "l": "Upper La Noscea",
+                "s": 340
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66397",
+            "obj": {
+                "i": 66397,
+                "n": "Return to Your Dust",
+                "g": 91,
+                "l": "Outer La Noscea",
+                "s": 340
+            }
+        }
+    ]
+}

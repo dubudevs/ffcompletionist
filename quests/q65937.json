@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Baiting Buzzards",
+        "location": "Middle La Noscea",
+        "id": 65937,
+        "patch": 2.0,
+        "sort": 100,
+        "eventIcon": 71221,
+        "issuer": 1003243,
+        "target": 1003243,
+        "genre": 91,
+        "journal": [
+            "Kazai Buoyzai, a cargo transporter at the Skylift, wants you to slay buzzards that have been attacking wagons on the road.",
+            "Drawn by the scent of meat, hungry buzzards have been swooping down on food-laden wagons en route to the De Nevelle Checkpoint. Turn the birds' taste for dead flesh to your advantage by taking a sack of rotting rat meat to their nest and luring the avian scavengers into a deadly ambush.",
+            "You have slain the buzzards. Return to the Skylift and report to Kazai Buoyzai.",
+            "The lingering influence of the Calamity affects more than just the lives of Eorzea's citizens─even the realm's scavengers are forced into uncharacteristic and desperate behaviors. Though much work has been done to repair the devastation, the scars will be long in fading."
+        ],
+        "objectives": [
+            "Empty the sack of rat meat in the buzzards' nest and slay the buzzards that appear.",
+            "Report to Kazai Buoyzai at the Skylift."
+        ],
+        "dialogue": [
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Ye've shown yerself to be a useful <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">bloke</span></span>. What say ye to doin' me another favor? We've been havin' a wee problem with buzzards swoopin' down and snatchin' cargo from the wagons what are travelin' the road to the De Nevelle Checkpoint."
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Most days, them feathered hellions stay well enough away, but it seems they can't resist a wagon what's loaded with meat. Well, I say we make use o' that weakness to lure the greedy buggers into a trap."
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Take this here sack o' rotting rat meat and set it down in vulture territory─that be where the buzzards make their nests. When the bastards show up for the feast, ye start breakin' beaks with a vengeance. Easy."
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Didn't get yer eyes pecked out, did ye? Them buzzards be a nasty lot. But the last wagon made it through with nary a morsel lost, so I'd say ye've plucked enough o' their thievin' hides to secure the route."
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Ye have me thanks, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. I make most of me coin haulin' foodstuffs, and I'd be beddin' down in the gutter within the week if it weren't for yer help."
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Seems even the scavengers are findin' the pickin's scarce since the Calamity hit, otherwise ye'd never see 'em tryin' aught so bold. Fortune didn't favor 'em worth spit this time, though, eh?"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 175,
+            "xp": 1710
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65936
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003243",
+            "obj": {
+                "i": 1003243,
+                "n": "Kazai Buoyzai",
+                "l": 30,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65936",
+            "obj": {
+                "i": 65936,
+                "n": "Keeping It Fresh",
+                "g": 91,
+                "l": "Middle La Noscea",
+                "s": 100
+            }
+        }
+    ]
+}

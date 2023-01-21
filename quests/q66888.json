@@ -1,0 +1,686 @@
+{
+    "quest": {
+        "name": "Why We Adventure",
+        "location": "Western Thanalan",
+        "id": 66888,
+        "patch": 2.2,
+        "sort": 27,
+        "icon": 100222,
+        "eventIcon": 71201,
+        "issuer": 1008639,
+        "target": 1008623,
+        "involved": [
+            1008632,
+            1008638,
+            1008640,
+            1008643,
+            1008644,
+            1008645,
+            1008646,
+            1008647,
+            1008648,
+            1008651,
+            1008652,
+            1008653,
+            1008654,
+            1008655,
+            1008656,
+            1008657,
+            1008658,
+            1008703,
+            1008704
+        ],
+        "genre": 2,
+        "journal": [
+            "At long last, Hozan and his group are ready to leave Vesper Bay.",
+            "The road to Ul'dah may be regularly patrolled by the Brass Blades, but Hozan craves the peace of mind your presence would bring, and has thus requested that you accompany his party to Ul'dah. Speak with the coachman when you are ready to leave.",
+            "The coachman is concerned about recent sightings of a fearsome beast near the bridge to Hammerlea, and asks that you travel ahead of the carriage to survey the area. Should you encounter the creature in question, you are to assess the threat it poses, and take appropriate action.",
+            "Thanks to you, the road is now safe for travel once more. Retrace your steps and look for the carriage and its coachman outside Horizon.",
+            "As Hozan and Homei wax poetical about the debt they owe Yugiri, Yozan and Koharu push the two adults aside and begin peppering you with questions. Your motivations, your experiences, your secrets─they would know them all and more. Fortunately, Hozan intervenes before they have a chance to ask you anything too embarrassing. Plainly fascinated by your chosen way of life, the two children resolve there and then to form a Doman Adventurers' Guild once they reach Revenant's Toll. First, however, they must rest awhile in Ul'dah. Report the group's safe arrival to Alphinaud in the Quicksand.",
+            "In a manner you have long since grown accustomed to, Alphinaud begins to speak of your next assignment having scarcely acknowledged the completion of the last. Stifle the sigh that longs to be set free and ask your fellow Scion for further details."
+        ],
+        "objectives": [
+            "Speak with the Hyuran coachman.",
+            "Survey the road to Ul'dah for any dangerous beasts.",
+            "Speak with the Hyuran coachman outside Horizon.",
+            "Speak with Alphinaud at the Quicksand."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "HOUZAN",
+                "text": "The first caravan is due to depart shortly, followed by the rest at regular intervals. My family and I─including my stubborn old father Homei─will be traveling in the lead carriage together with young Koharu, whom I believe you've already met."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Though I understand the road to Ul'dah is regularly patrolled by your Brass Blades, it would give us great comfort if you would agree to accompany us on our journey..."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Once again, I thank you for your kindness. When you are ready to leave, please inform our coachman."
+            },
+            {
+                "name": "HOUMEI",
+                "text": "A giant bird that one rides as if it were a horse? What a curious creature..."
+            },
+            {
+                "name": "GYOSHA01348",
+                "text": "Eager to be off, are ye? Aye, well, I was meanin' to have a word with ye about that. Runner from the Blades says we might have a problem."
+            },
+            {
+                "name": "GYOSHA01348",
+                "text": "A fierce-lookin' beastie's been sighted south of the bridge to Hammerlea. Might be as someone's eyes are playin' tricks on 'em, o' course, but it don't pay to gamble in this business."
+            },
+            {
+                "name": "GYOSHA01348",
+                "text": "Now I know ye can handle yerself in a fight, but this lot here's another story. So I was thinkin' ye might go on ahead an' have a quick look around─make sure the area's safe, like. An' if ye come across anythin' dangerous, ye know what to do."
+            },
+            {
+                "name": "GYOSHA01348",
+                "text": "When yer satisfied the way's clear, meet us outside Horizon. The Blades tell me the road there's safe, so I reckon we can make it that far on our own─assumin' the selfsame bastards don't try to rob us, that is."
+            },
+            {
+                "name": "GYOSHA01348",
+                "text": "You go on ahead, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">son</span></span>, an' meet us in Horizon when yer satisfied our beastie problem's solved. We'll be on our way soon enough."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "These reports of a great beast on the road to Ul'dah are most troubling..."
+            },
+            {
+                "name": "HOUMEI",
+                "text": "Fascinating creatures... Whence did they come?"
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Ugh, Grandfather is so lucky. These─<span class=\"emphasis\">hurk</span>!─horsebirds smell terrible!"
+            },
+            {
+                "name": "KOHARU",
+                "text": "Ohh, it's just so...<span class=\"emphasis\">fluffy</span>!"
+            },
+            {
+                "name": "HOUMEI",
+                "text": "I must say, that was a surprisingly pleasant ride! Mayhap the journey to Revenant's Toll will not be so bad after all."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "It pleases me to see you well. Come, let the coachman know we can continue onward to Ul'dah."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Which do you think would win in a race? A horse or a horsebird?"
+            },
+            {
+                "name": "KOHARU",
+                "text": "They have wings, so does that mean they can fly? And does that mean <span class=\"emphasis\">we</span> can fly if we ride one!?"
+            },
+            {
+                "name": "GYOSHA01348",
+                "text": "So there <span class=\"emphasis\">was</span> a beastie! “Was” bein' the operative word, eh!? Hah hah!"
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Well fought, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>, well fought! Ah, if only I were in better health, I should have been proud to stand at your side!"
+            },
+            {
+                "name": "HOUMEI",
+                "text": "Pay my son no mind. He forgets that his responsibilities preclude acts of derring-do."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Hmph. Be that as it may, I cannot help but envy you. Had we been able to call upon heroes of your strength and skill in Doma, things would have been very different."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "&lt;sigh&gt; But we cannot change the past. Those who fought─and fell─are forever lost to us."
+            },
+            {
+                "name": "HOUMEI",
+                "text": "Lost but not forgotten─Lady Yugiri's kinsmen least of all. They fought fiercest, though they knew full well it was in vain."
+            },
+            {
+                "name": "HOUMEI",
+                "text": "She had every right to walk away, yet she chose to stay. Food, shelter, the promise of a better life─all this and more we owe to her. How does one even begin to repay such a debt?"
+            },
+            {
+                "name": "HOUZAN",
+                "text": "In kind, Father. To she who has given everything, we shall give our all."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "Whatever work there is to be done we shall do without question. Ditch digging, bricklaying, it matters not─Revenant's Toll will grow and prosper by our hands."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Hey, <span class=\"alternative-container\"><span class=\"alternative\">Miss</span><span class=\"alternative\">Mister</span></span> <span class=\"highlight\">Forename</span>! Koharu and I want to know why you became an adventurer!"
+            },
+            {
+                "name": "Q1",
+                "text": "Why did you become an adventurer?"
+            },
+            {
+                "name": "A1",
+                "text": "To gain power."
+            },
+            {
+                "name": "A1",
+                "text": "To win glory."
+            },
+            {
+                "name": "A1",
+                "text": "To amass a fortune."
+            },
+            {
+                "name": "A1",
+                "text": "To go whither the <span class=\"emphasis\">wild rose</span> blooms."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "I <span class=\"emphasis\">knew</span> it! That's what I told Koharu, but she didn't believe me."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Glory? Ah, like bringing honor to your family, you mean!? Yes, Father always goes on about that."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Money, eh? Yes, I want money, too. I could do a lot of things if I had some─well, <span class=\"emphasis\">any</span>..."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "So...you like roses? I think I understand... I mean, they're nice and everything... But don't they grow in lots of places?"
+            },
+            {
+                "name": "KOHARU",
+                "text": "It's <span class=\"emphasis\">my</span> turn now! Excuse me, <span class=\"alternative-container\"><span class=\"alternative\">Miss</span><span class=\"alternative\">Mister</span></span> <span class=\"highlight\">Forename</span>! I've got a question! What's Revenant's Toll like? Is it pretty?"
+            },
+            {
+                "name": "Q2",
+                "text": "How would you describe Revenant's Toll?"
+            },
+            {
+                "name": "A2",
+                "text": "It is a bustling outpost frequented by countless adventurers."
+            },
+            {
+                "name": "A2",
+                "text": "It is a bastion of civilization in a harsh and unforgiving wilderness."
+            },
+            {
+                "name": "A2",
+                "text": "It is home to the Scions of the Seventh Dawn."
+            },
+            {
+                "name": "A2",
+                "text": "It is...a stone's throw from an imperial castrum?"
+            },
+            {
+                "name": "KOHARU",
+                "text": "You mean...there are lots of people there who are just as strong as you!? Oh, I can't wait!"
+            },
+            {
+                "name": "KOHARU",
+                "text": "So...there are lots of rocks and things? It sounds a bit scary...but you'll be there too, won't you?"
+            },
+            {
+                "name": "KOHARU",
+                "text": "Oh, so you live there with your friends! That means you'll always be there to protect us!"
+            },
+            {
+                "name": "KOHARU",
+                "text": "Ha! You can't fool me! No one would <span class=\"emphasis\">ever</span> live that close to a castrum. Liar, liar, breeches on fire!"
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Enough, Koharu! It's my turn again! <span class=\"alternative-container\"><span class=\"alternative\">Miss</span><span class=\"alternative\">Mister</span></span> <span class=\"highlight\">Forename</span>─when I'm older, I want to be strong like you. What do I have to do?"
+            },
+            {
+                "name": "Q3",
+                "text": "What is the best way to become more powerful?"
+            },
+            {
+                "name": "A3",
+                "text": "Seek out new experiences and adventures."
+            },
+            {
+                "name": "A3",
+                "text": "Fight ferocious beasts."
+            },
+            {
+                "name": "A3",
+                "text": "Train every day."
+            },
+            {
+                "name": "A3",
+                "text": "Buy weapons and armor from Rowena."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Of course! To be a better adventurer, you need to go <span class=\"emphasis\">adventuring</span>!"
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Like that thing you fought earlier, you mean? Right, right!"
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Aha! So my father was right! How do you do it, then? Come on, tell me! And don't leave anything out!"
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Rowena? Is she nice? Are her weapons cheap? I don't have any money at the moment, but my father might. I'll have to ask him."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "All right, all right─ That's enough questions for <span class=\"alternative-container\"><span class=\"alternative\">Miss</span><span class=\"alternative\">Mister</span></span> <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "KOHARU",
+                "text": "That's not fair! Why does Yozan get to ask two questions? I want to know about adventuring just as much as he does..."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Just one more─please! Do you think I could be an adventurer like you one day?"
+            },
+            {
+                "name": "YOUZAN",
+                "text": "Really!? Then I will! Thanks for the advice, <span class=\"alternative-container\"><span class=\"alternative\">Miss</span><span class=\"alternative\">Mister</span></span> <span class=\"highlight\">Forename</span>. I won't forget it!"
+            },
+            {
+                "name": "KOHARU",
+                "text": "I'm going to be an adventurer too!"
+            },
+            {
+                "name": "YOUZAN",
+                "text": "When we get to Revenant's Toll, let's make an Adventurers' Guild for Domans!"
+            },
+            {
+                "name": "YOUZAN",
+                "text": "We'll protect our friends and punish the wicked─just like <span class=\"alternative-container\"><span class=\"alternative\">Miss</span><span class=\"alternative\">Mister</span></span> <span class=\"highlight\">Forename</span> and Lady Yugiri!"
+            },
+            {
+                "name": "KOHARU",
+                "text": "Yeah! Just like <span class=\"alternative-container\"><span class=\"alternative\">Miss</span><span class=\"alternative\">Mister</span></span> <span class=\"highlight\">Forename</span> and Lady Yugiri!"
+            },
+            {
+                "name": "HOUZAN",
+                "text": "We can talk more about it in the carriage on the way. Will you be joining us?"
+            },
+            {
+                "name": "HOUMEI",
+                "text": "Would you look at that..."
+            },
+            {
+                "name": "HOUZAN",
+                "text": "It will be good to sleep in a proper bed for a change, even if it's only for a night."
+            },
+            {
+                "name": "YOUZAN",
+                "text": "I bet they could keep out an entire legion with those walls!"
+            },
+            {
+                "name": "KOHARU",
+                "text": "How many steps are there? A hundred? I'm going to count!"
+            },
+            {
+                "name": "GYOSHA01348",
+                "text": "Mind lettin' Master Alphinaud know we're here? I need to stay with the birds."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "I pray they do not grow too accustomed to this treatment. It is a welcome respite, to be sure, but a far cry from what we can expect in Revenant's Toll."
+            },
+            {
+                "name": "KSASAGI",
+                "text": "We welcome your return, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>."
+            },
+            {
+                "name": "KIKYOU",
+                "text": "Has the first group arrived already? Wonderful! Pray inform Master Alphinaud at once."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. I take it the first group has arrived? Excellent."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Hm? Is there aught else? No, no. I have matters well in hand here. You and Lady Yugiri should travel to Revenant's Toll forthwith."
+            },
+            {
+                "name": "POP",
+                "text": "You feel an eye upon you..."
+            }
+        ],
+        "reward": {
+            "gil": 1220,
+            "items": [
+                {
+                    "id": 6242,
+                    "one": 1
+                },
+                {
+                    "id": 6243,
+                    "one": 1
+                },
+                {
+                    "id": 6244,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 4800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69417
+            ]
+        },
+        "next": [
+            66889,
+            69418
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1008639",
+            "obj": {
+                "i": 1008639,
+                "n": "Hozan",
+                "l": 42,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008623",
+            "obj": {
+                "i": 1008623,
+                "n": "Alphinaud",
+                "l": 40,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008632",
+            "obj": {
+                "i": 1008632,
+                "n": "Hyuran Coachman",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008638",
+            "obj": {
+                "i": 1008638,
+                "n": "Homei",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008640",
+            "obj": {
+                "i": 1008640,
+                "n": "Hyuran Coachman",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008643",
+            "obj": {
+                "i": 1008643,
+                "n": "Hozan",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008644",
+            "obj": {
+                "i": 1008644,
+                "n": "Homei",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008645",
+            "obj": {
+                "i": 1008645,
+                "n": "Yozan",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008646",
+            "obj": {
+                "i": 1008646,
+                "n": "Koharu",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008647",
+            "obj": {
+                "i": 1008647,
+                "n": "Hozan",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008648",
+            "obj": {
+                "i": 1008648,
+                "n": "Hyuran Coachman",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008651",
+            "obj": {
+                "i": 1008651,
+                "n": "Hozan",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008652",
+            "obj": {
+                "i": 1008652,
+                "n": "Homei",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008653",
+            "obj": {
+                "i": 1008653,
+                "n": "Yozan",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008654",
+            "obj": {
+                "i": 1008654,
+                "n": "Koharu",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008655",
+            "obj": {
+                "i": 1008655,
+                "n": "Homei",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008656",
+            "obj": {
+                "i": 1008656,
+                "n": "Yugiri",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008657",
+            "obj": {
+                "i": 1008657,
+                "n": "Kasasagi",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008658",
+            "obj": {
+                "i": 1008658,
+                "n": "Kikyo",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008703",
+            "obj": {
+                "i": 1008703,
+                "n": "Yozan",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008704",
+            "obj": {
+                "i": 1008704,
+                "n": "Koharu",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "6242",
+            "obj": {
+                "i": 6242,
+                "n": "Hero's Necklace of Fending",
+                "l": 90,
+                "c": 54896,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "6243",
+            "obj": {
+                "i": 6243,
+                "n": "Hero's Necklace of Slaying",
+                "l": 90,
+                "c": 54896,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "6244",
+            "obj": {
+                "i": 6244,
+                "n": "Hero's Necklace of Aiming",
+                "l": 90,
+                "c": 54896,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69417",
+            "obj": {
+                "i": 69417,
+                "n": "Yugiri's Game",
+                "g": 2,
+                "l": "Ul'dah",
+                "s": 25
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66889",
+            "obj": {
+                "i": 66889,
+                "n": "All Due Respect",
+                "g": 0,
+                "l": "Ul'dah",
+                "s": 28
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69418",
+            "obj": {
+                "i": 69418,
+                "n": "All Due Respect",
+                "g": 2,
+                "l": "Ul'dah",
+                "s": 30
+            }
+        }
+    ]
+}

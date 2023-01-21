@@ -1,0 +1,100 @@
+{
+    "quest": {
+        "name": "Fit to Be Tied",
+        "location": "The Dravanian Forelands",
+        "id": 67346,
+        "patch": 3.0,
+        "sort": 5320,
+        "eventIcon": 71221,
+        "issuer": 1011938,
+        "target": 1011938,
+        "genre": 98,
+        "journal": [
+            "Gullinkambi seems unusually irritable.",
+            "Gullinkambi complains to you of an aching body, desperate for relief from pain. She asks that you retrieve a flower named gron mhar from Ehs Daih that may grant her relief.",
+            "You find a gron mhar. Bring it to Gullinkambi and see if it improves her condition.",
+            "You bring a gron mhar to Gullinkambi. She immediately feels the tension in her body melting away. She tells you that warming the eggs for weeks and months on end causes her body to grow sore, and thus she becomes irascible. She thanks you for giving her the peace she needs to continue guarding her eggs."
+        ],
+        "objectives": [
+            "Search Ehs Daih for a gron mhar.",
+            "Deliver a gron mhar to Gullinkambi."
+        ],
+        "dialogue": [
+            {
+                "name": "GULLINKAMBI",
+                "text": "My muscles grow stiff, and my joints ache. And the Gnath... Their incessant clicking is insufferable."
+            },
+            {
+                "name": "GULLINKAMBI",
+                "text": "I need a gron mhar. It blooms in the cavern of Ehs Daih. Bring it to me."
+            },
+            {
+                "name": "GULLINKAMBI",
+                "text": "Only a gron mhar can give me peace. You must retrieve it from Ehs Daih."
+            },
+            {
+                "name": "GULLINKAMBI",
+                "text": "Do you have what I require?"
+            },
+            {
+                "name": "GULLINKAMBI",
+                "text": "Ah, such sweet savor... Thank you. I can feel the knots in my muscles uncoil. "
+            },
+            {
+                "name": "GULLINKAMBI",
+                "text": "My body has grown rigid confined to this tower, but now I can endure my watch a while longer."
+            }
+        ],
+        "reward": {
+            "gil": 479,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67152,
+                67345
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011938",
+            "obj": {
+                "i": 1011938,
+                "n": "Gullinkambi",
+                "l": 2000,
+                "q": 8
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67152",
+            "obj": {
+                "i": 67152,
+                "n": "Lord of the Hive",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 37
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67345",
+            "obj": {
+                "i": 67345,
+                "n": "Like Gnaths to a Flame",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5319
+            }
+        }
+    ]
+}

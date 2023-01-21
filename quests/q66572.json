@@ -1,0 +1,573 @@
+{
+    "quest": {
+        "name": "Operation Archon",
+        "location": "The Waking Sands",
+        "id": 66572,
+        "patch": 2.0,
+        "sort": 242,
+        "icon": 100155,
+        "eventIcon": 71201,
+        "target": 1006578,
+        "involved": [
+            1006633
+        ],
+        "genre": 0,
+        "journal": [
+            "Minfilia would brief you on the Eorzean Alliance's planned counteroffensive against the Empire.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Minfilia at the Waking Sands.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "The Immortal Flames stand ready to launch their assault on the imperial outpost at Cape Westwind. Make your way to the staging point situated before the enemy stronghold, and report for duty to Lieutenant Adalbert.",
+            "Phase one of Operation Archon is now in motion. Enter the imperial outpost and fight your way through to the innermost sector.",
+            "The path leading to the innermost sector of the imperial outpost is now open, and a confrontation with Rhitahtyn sas Arvina awaits. Proceed when you are ready and strike down the praefectus.<br><br>※Cape Westwind can be accessed via the Duty Finder.",
+            "At the end of a fierce struggle, you deal Rhitahtyn his death-blow, consigning the first Roegadyn to hold the rank of praefectus to history. Phase one of Operation Archon has ended in success.",
+            "With Rhitahtyn's demise, the forces garrisoned at Castrum Occidens have been thrown into disarray. For now, withdraw to the Immortal Flames encampment north of Vesper Bay, and report to the Allied communications officer.",
+            "The time has come to commence the second phase of Operation Archon. When you are ready, request further orders from the Allied communications officer."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Minfilia at the Waking Sands.</span>",
+            "(Reach the innermost gate. Unlocks access to the imperial outpost)",
+            "(Defeat Rhitahtyn)"
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "In order to proceed with this quest, you must first complete the quest “My Little Chocobo (MaelstromTwin AdderImmortal Flames).”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may accept the quest “My Little Chocobo (MaelstromTwin AdderImmortal Flames)” by speaking with R'ashaht Rhiki at Maelstrom CommandVorsaile Heuloix at the Adders' NestCommander Swift at the Hall of Flames."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "All present? Then let us begin."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We have received the details of the impending operation."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "In what promises to be the largest single counteroffensive in the realm's troubled history, the Alliance will strike at every imperial stronghold standing upon Eorzean soil."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "As might be expected, the operation will be complex, but you need not commit its intricacies to memory."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "It is enough that each man understands his part and plays it to the best of his ability."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "The finer instructions, you will receive at each staging point."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "To begin, let us review the distribution of our forces."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "From west to east─the Maelstrom of Limsa Lominsa, the Immortal Flames of Ul'dah, and the Order of the Twin Adder of Gridania."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Next, let us examine the locations of the imperial strongholds."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Near Limsa Lominsa, we have Castrum Occidens, situated in eastern Vylbrand, and Castrum Marinum, which lies to the south and east, in the midst of the Rhotano Sea."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Near Ul'dah, we have Castrum Meridianum to the north, and the coastal outpost at Cape Westwind which connects Castrum Marinum to the mainland by means of a magitek transporter."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Near Gridania, we have Castrum Oriens, which lies upon the eastern edge of the Twelveswood."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "And finally, in Mor Dhona...stands Castrum Centri. A thorn in the heart of Eorzea."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The forthcoming operation will see Allied forces assault each of the aforementioned locations, with the ultimate objective of destroying the Empire's new weapon, housed within Castrum Meridianum."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "As one might expect of the Black Wolf's seat of power, Castrum Meridianum boasts all but impenetrable defenses. If we are to breach it, we must needs isolate it from its sister strongholds."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "To do otherwise would be to risk being caught 'twixt hammer and anvil."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The operation will comprise four distinct phases, all told."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The first shall see us eliminate one of the Black Wolf's most trusted lieutenants─Rhitahtyn sas Arvina."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "According to our intelligence, the praefectus is due to visit the imperial outpost at Cape Westwind for an inspection."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "When he arrives, we shall dispatch an elite adventurer unit to eliminate him. <span class=\"highlight\">Forename</span>, we would have you lead this assault."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Rhitahtyn is a peerless field tactician. Shorn of his leadership, the garrison at Castrum Occidens will be as a snake without its head."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Phase two will see us sever Castrum Meridianum's primary lines of supply."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "As soon as Rhitahtyn's presence is confirmed at the coastal outpost, the Maelstrom will lay siege to Castrum Occidens."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "At that very hour, the Lominsan Armada, helmed by the Admiral herself, shall move to blockade Castrum Marinum."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Meanwhile, in the Twelveswood, the Order of the Twin Adder will surround Castrum Oriens."
+            },
+            {
+                "name": "YDA",
+                "text": "And they'll have the sylphs to help them! Frixio's been waiting for a chance to avenge these ones!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Phase three shall see us neutralize Castrum Meridianum's defenses."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Forming our main thrust, the Immortal Flames will march against the stronghold with all their strength. While the enemy's eyes are thus drawn outwards, another elite adventurer unit shall infiltrate the castrum."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Its mission: to disable the magitek field generator which protects the <span class=\"emphasis\">Praetorium</span>, a fortress within a fortress wherein the Ultima Weapon is believed to be housed. <span class=\"highlight\">Forename</span>, we would have you take command once more."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Meanwhile, the Order of the Twin Adder will blockade the railway which connects Centri and Meridianum, preventing the timely arrival of reinforcements from Mor Dhona."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "A wise precaution. The monstrous locomotive which runs back and forth between the two castra is capacious enough to transport a small army, by all accounts."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "It is well the Garleans did not think to give it wings."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Once Meridianum's defenses have been compromised, the operation will enter its fourth and final phase."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "This will see the Immortal Flames enter the stronghold and suppress the remnants of the enemy garrison."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "...Allowing <span class=\"highlight\">Forename</span>'s unit to pass unopposed into the Praetorium, where they will locate and destroy the Ultima Weapon."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "By this feat shall the operation be deemed a success."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "In addition to the Grand Companies, we can count upon the support of a variety of other parties, from the pirates of Limsa Lominsa to the Monetarists of Ul'dah. In all, the operation will involve no fewer than <span class=\"emphasis\">twelve</span> major factions."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Legend holds that the Archons were twelve in one, and one in twelve...<br>It is for this reason that our grand endeavor has been dubbed “Operation Archon.”"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Countless free companies have also pledged their swords, and more join us by the day. At long last, all of Eorzea is rising as one."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "As before, we Scions shall work in concert with the Grand Companies. Yda, Papalymo, Y'shtola─pray accompany your respective organizations on their missions."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Urianger, I would have you represent us in Ul'dah. Reassure the financiers that they have made a sound investment. When that is done, pray return here and aid in the coordination of our forces."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Tataru, please assist Urianger in any way you are able, and ensure that everyone is kept abreast of the latest developments."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Minfilia, Cid, and I shall accompany the main host in an advisory capacity. It will be our task to analyze intelligence as it comes into our possession, and make the necessary recommendations to command."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "As Alphinaud mentioned, you are to lead the elite unit of adventurers whose task it will be to see each of Operation Archon's main objectives fulfilled. Yours is the most important role of all, and like to be the most dangerous. Pray choose your party well, and stint not in your preparation."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The battle for the future of the realm is about to begin. Together, let us show the Black Wolf the power of a united Eorzea!"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Pray report to the Immortal Flames encampment situated to the north of here when you are ready to be briefed on your first mission."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "I cannot stress this enough, but please be careful. May you walk in the light of the Crystal."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "You are well come, <span class=\"highlight\">Forename Surname</span> of the Scions. As communications officer, it falls to me to issue you your orders, and provide guidance on forthcoming missions."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "Your first mission is to infiltrate the imperial outpost at Cape Westwind and eliminate Praefectus Rhitahtyn sas Arvina."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "All participating units are now in position and awaiting your arrival. Please proceed to the staging point and report to Lieutenant Adalbert."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "This is but the first step in our bid to purge the realm of the Garlean menace. I shall pray for your success!"
+            },
+            {
+                "name": "ADALBELT",
+                "text": "No text"
+            },
+            {
+                "name": "ADALBERT",
+                "text": "So you're <span class=\"highlight\">Forename Surname</span>, the fearless leader of the elite adventurer unit. We've been expecting you."
+            },
+            {
+                "name": "ADALBERT",
+                "text": "Our Maelstrom friends report that Rhitahtyn sas Arvina departed Castrum Occidens a bell ago."
+            },
+            {
+                "name": "ADALBERT",
+                "text": "And sure enough, a convoy of imperial airships landed here just now."
+            },
+            {
+                "name": "ADALBERT",
+                "text": "The likelihood is high that our target was aboard one of the vessels. I've dispatched scouts to verify his presence before we strike."
+            },
+            {
+                "name": "FLAMERUNNER",
+                "text": "Command to all units. Requesting status report."
+            },
+            {
+                "name": "FIRSTPLATOON",
+                "text": "This is Antlion I. Target has not been sighted."
+            },
+            {
+                "name": "SECONDPLATOON",
+                "text": "This is Antlion II. Likewise, target has not been sighted."
+            },
+            {
+                "name": "THIRDPLATOON",
+                "text": "Antlion III here. We've got nothin' for ye neither."
+            },
+            {
+                "name": "FOURTHPLATOON",
+                "text": "This is Antlion IV. Nothing to report as of─"
+            },
+            {
+                "name": "FOURTHPLATOON",
+                "text": "Wait! Disregard previous message! Target sighted. I say again: target sighted."
+            },
+            {
+                "name": "FLAMERUNNER",
+                "text": "Understood. Hold your position."
+            },
+            {
+                "name": "ADALBERT",
+                "text": "Attention, all units. This is Lieutenant Adalbert Cotter."
+            },
+            {
+                "name": "ADALBERT",
+                "text": "The first step of Operation Archon begins with us. Should we falter here, all hope of victory will be lost."
+            },
+            {
+                "name": "ADALBERT",
+                "text": "'Tis no small burden, but know that I believe in all of you. So believe in yourselves, and together we will blaze a path for our brothers and sisters of the Alliance to follow."
+            },
+            {
+                "name": "ADALBERT",
+                "text": "We will create multiple diversions and disperse the enemy garrison. That should give you a chance to breach their defenses."
+            },
+            {
+                "name": "ADALBERT",
+                "text": "Go now, <span class=\"highlight\">Forename</span>, and bring us Rhitahtyn's head! May Rhalgr grant you strength!"
+            },
+            {
+                "name": "ADALBERT",
+                "text": "Commence diversionary maneuvers!"
+            },
+            {
+                "name": "ADALBERT",
+                "text": "Go now, <span class=\"highlight\">Forename</span>, and bring us Rhitahtyn's head! May Rhalgr grant you strength!"
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "It would appear we have unexpected guests."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "Now, where have I seen you before? Ah, but of course─the <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> who felled the mighty Titan."
+            },
+            {
+                "name": "IMPERIALCENTURION",
+                "text": "This is the eikon-slayer!?"
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "I see. The commotion without is naught but a diversion."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "Allow me to hazard a guess: by eliminating me, you hope to undermine the garrison at Occidens."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "A bold strategy, to be sure, but have you the strength to see it to fruition?"
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "Leave us. None of you are a match for <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "Send word to Castrum Occidens. Tell them the Lominsans are coming."
+            },
+            {
+                "name": "IMPERIALCENTURION",
+                "text": "At once, my lord!"
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "Fifteen years have come and gone since Lord van Baelsar first set foot in Eorzea, yet his ambition for the realm burns as strong as ever it did. Know you what fuels it, adventurer? The desire to deliver the people from their suffering."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "The lands he has conquered were all beset with problems─poverty, starvation, lawlessness, and strife. My homeland was no exception. Had my lord not reached out and claimed it for the Empire, it would eventually have destroyed itself."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "But under his sage leadership, my people enjoyed such peace and stability as we had never known. And he only desires the selfsame for the people of this realm. Under his rule, Eorzea would be free from the shackles which bind it─the shackles of false faith."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "There would be no feeble leaders to misguide the masses, no eikons to bleed the realm dry. True peace would reign, and the people would be free to live their lives without fear of persecution or oppression."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "Should you doubt the truth of my words, I bid you look upon me. I am no son of Garlemald, yet Lord van Baelsar saw fit to raise me to a station of great honor."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "He measures a man not by his birth, but by his worth. Such is his sense of justice. By the grace of His Excellency, I am where I was born to be─upon the field of battle."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "He has given me a noble cause to fight for, and worthy adversaries to smite."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "I am not wont to bare my steel needlessly. But if you are deaf to reason..."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "In the name of Lord van Baelsar, I, Rhitahtyn sas Arvina, do swear to strike you down!"
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "&lt;gasp&gt; &lt;pant&gt;"
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "Forgive me... I have failed you..."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "Lord van Baelsar!!!"
+            },
+            {
+                "name": "CID",
+                "text": "That light─ &lt;gasp&gt; The magitek transporter!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "<span class=\"highlight\">Forename</span>, are you there? What news of Rhitahtyn? ...<span class=\"emphasis\">Fallen</span>?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "With this deed, you have sown the seeds of our ultimate victory."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The fading of that light presages an end to the Empire's tyranny!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Rhitahtyn sas Arvina is no more!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Let the next phase of Operation Archon commence!"
+            },
+            {
+                "name": "ALLIEDARMIES",
+                "text": "(-All-)HURRAH!"
+            },
+            {
+                "name": "CID",
+                "text": "'Tis I! It seems you've done it again, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "CID",
+                "text": "I'd raise a tankard to you, but I'm afraid we've no time to savor the victory. There's still the small matter of infiltrating Castrum Meridianum and destroying the Ultima Weapon!"
+            },
+            {
+                "name": "CID",
+                "text": "I know, I know...no rest for the preternaturally gifted. Now stop feeling sorry for yourself, and make your way back to the Immortal Flames' encampment. The communications officer will issue you your orders. I'll be waiting for you with the main host."
+            },
+            {
+                "name": "LAHABREAANCIENT",
+                "text": "<span class=\"highlight-purple\">Look, Hydaelyn─Your minion comes...<span class=\"emphasis\">bringing the Light</span>.</span>"
+            },
+            {
+                "name": "LAHABREAANCIENT",
+                "text": "<span class=\"highlight-purple\">Alas, the gate to the void already stands open. Soon, Darkness shall consume all, and you shall bow down before the one true god.</span>"
+            },
+            {
+                "name": "LAHABREAANCIENT",
+                "text": "<span class=\"highlight-purple\">Ahahahahaha!</span>"
+            },
+            {
+                "name": "GAIUS",
+                "text": "The praefectus...slain?"
+            },
+            {
+                "name": "IMPERIALMILITUM",
+                "text": "Regrettably so, my lord. And at the hand of the eikon-slayer, if the centurion who survived the attack is to be believed."
+            },
+            {
+                "name": "LIVIA",
+                "text": "Rhitahtyn..."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Where were his men when he faced the enemy!? Fleeing, even as their commander yielded up his last breath!? If it should prove they questioned his right..."
+            },
+            {
+                "name": "IMPERIALMILITUM",
+                "text": "I-I cannot speak for them, my lord."
+            },
+            {
+                "name": "IMPERIALSTAFF",
+                "text": "...Beg pardons, my lord, but there is more. The Maelstrom has laid siege to Castrum Occidens."
+            },
+            {
+                "name": "IMPERIALSTAFF",
+                "text": "Likewise, the Crimson Fleet moves to blockade Castrum Marinum."
+            },
+            {
+                "name": "GAIUS",
+                "text": "So this is their answer..."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Very well! We shall crush them as we crushed the eikons!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Go forth and show them the futility of their resistance!"
+            },
+            {
+                "name": "LIVIANERO",
+                "text": "(-Tribuni-)Yes, my lord!"
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "Scion <span class=\"highlight\">Surname</span>! Your deeds this day are an inspiration to us all!"
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "With the death of the praefectus, Operation Archon has entered its second phase. Even as we speak, the Maelstrom moves to blockade Castrum Occidens and Castrum Marinum."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "And far to the east, in the Black Shroud, the Order of the Twin Adder advances upon Castrum Oriens."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "Already, you have done much to advance our cause, performing such feats as are worthy of song─but if our plan is to succeed, more is required of you."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "Let me know when your preparations are in order, and I shall relay to you the particulars of your next mission."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "The assault on Cape Westwind is but the first step in our bid to purge the realm of the Garlean menace. I shall pray for your success!"
+            }
+        ],
+        "reward": {
+            "xp": 28420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 49,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66058
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006578",
+            "obj": {
+                "i": 1006578,
+                "n": "Allied Communications Officer",
+                "l": 42,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006633",
+            "obj": {
+                "i": 1006633,
+                "n": "Adalbert",
+                "l": 42,
+                "q": 1,
+                "t": "Flame Lieutenant"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66058",
+            "obj": {
+                "i": 66058,
+                "n": "The Black Wolf's Ultimatum",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 241
+            }
+        }
+    ]
+}

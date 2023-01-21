@@ -1,0 +1,222 @@
+{
+    "quest": {
+        "name": "Way of the Archer",
+        "location": "Gridania",
+        "id": 65667,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100048,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000197,
+        "target": 1000200,
+        "genre": 131,
+        "journal": [
+            "Athelyna wishes you to reaffirm your desire to join the Archers' Guild.",
+            "You have been referred to Luciane, the master of the Archers' Guild. Seek her out in the rear chamber.",
+            "Luciane teaches you that an archer must be able to identify and exploit the enemy's weakness. To this end, the guild seeks to instill a discerning eye within its members. Equip the weathered shortbow Luciane has gifted you, and speak to her once more to be assigned your first trial."
+        ],
+        "objectives": [
+            "Speak with Luciane, the master of the Archers' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "ATHELYNA",
+                "text": "So, are you resolved to join the Archers' Guild?"
+            },
+            {
+                "name": "ATHELYNA",
+                "text": "Need more time to consider, do you? Very well."
+            },
+            {
+                "name": "ATHELYNA",
+                "text": "Our guildmaster would discern your indecision ere you had approached to within fifty paces, so keen is her eye. Best you do not go before her until such time as you know your own mind."
+            },
+            {
+                "name": "ATHELYNA",
+                "text": "The look in your eye bespeaks your determination. It would be my pleasure to refer you to Guildmaster Luciane."
+            },
+            {
+                "name": "ATHELYNA",
+                "text": "Lest you worry unduly, Luciane is an affable and kind-hearted woman. Even those not of the guild have been known to seek her counsel on various matters, and ever have they been given fair hearing."
+            },
+            {
+                "name": "ATHELYNA",
+                "text": "Luciane awaits you in the training area yonder. Present yourself before her, and impress upon her your desire to join the guild."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Greetings, adventurer. I am told you wish to join our ranks."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "I am Luciane, the master of the Archers' Guild, and I bid you welcome. Our doors are open to all who have the will to learn."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Allow me to explain the basics of our art, and offer you a foretaste of that which we teach the members of our guild."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "The bow's greatest advantage is its range. Unlike those arms used in other disciplines of war, it allows one to strike at the enemy from afar."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Though the bow may not boast the destructive force of a sword or spear, its myriad strategic applications more than compensate for this shortcoming. An experienced archer can immobilize an enemy by striking a leg, or sap its strength with a poisoned arrow."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Rise to become a virtuoso of archery, and a veritable deluge of death will be yours to rain down upon your foes."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "By fighting from a distance, we can better assess the battlefield and thereby determine the most advantageous course of action."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "This is of paramount import, as our role in battle is to exploit the enemy's weakness. With the requisite placement and timing, but a single arrow may serve to turn the tide."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "To this end, the guild seeks to instill a discerning eye within its members, that they might learn to strike at vulnerabilities, swiftly and surely."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Now, any half-wit can bend the bow, but it is no simple undertaking to become a skilled archer. You must be prepared for a long and arduous journey."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Are you resolved to complete that journey?"
+            },
+            {
+                "name": "Q1",
+                "text": "Will you dedicate yourself to archery?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "LUCIANE",
+                "text": "That is regrettable. Yet it is good to see a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> who knows <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> own mind."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "You would make a fine archer─had you but the will. Should you experience a change of heart, seek me here once more."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "That is well. From this moment forth, you may consider yourself one of our number."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Now, lend me your hunting log, if you would. I shall add to it the names of such creatures as would provide a fitting challenge to an archer."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "And to help you on your way, I bestow upon you this shortbow."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Arm yourself with your new weapon and then speak to me again."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "I would have you undertake a trial to gauge your fitness to join the guild."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 1889
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65717
+            ]
+        },
+        "next": [
+            65670,
+            65755
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000197",
+            "obj": {
+                "i": 1000197,
+                "n": "Athelyna",
+                "l": 52,
+                "q": 4,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000200",
+            "obj": {
+                "i": 1000200,
+                "n": "Luciane",
+                "l": 52,
+                "q": 13,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "1889",
+            "obj": {
+                "i": 1889,
+                "n": "Weathered Shortbow",
+                "l": 1,
+                "c": 32204,
+                "t": 4,
+                "p": 89
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65717",
+            "obj": {
+                "i": 65717,
+                "n": "So You Want to Be an Archer",
+                "g": 0,
+                "l": "New Gridania",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65670",
+            "obj": {
+                "i": 65670,
+                "n": "Training with Leih",
+                "g": 131,
+                "l": "Gridania",
+                "s": 100,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65755",
+            "obj": {
+                "i": 65755,
+                "n": "My First Bow",
+                "g": 131,
+                "l": "Gridania",
+                "s": 12,
+                "f": 1
+            }
+        }
+    ]
+}

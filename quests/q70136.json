@@ -1,0 +1,233 @@
+{
+    "quest": {
+        "name": "Buried Memory",
+        "location": "Radz-at-Han",
+        "id": 70136,
+        "patch": 6.2,
+        "sort": 637,
+        "icon": 101199,
+        "eventIcon": 71201,
+        "issuer": 1043858,
+        "target": 1039645,
+        "genre": 12,
+        "journal": [
+            "A gentle smile plays on Varshahn's lips.",
+            "With your aid, Varshahn has finished showing Radz-at-Han to Zero. Your task accomplished, you go to rejoin the others back at Meghaduta.",
+            "In return for learning about Radz-at-Han, Zero tells you of the events that saw Darkness engulf the Thirteenth─the Contramemoria.<br><br>Light once filled the world, and all was at peace. But as they did elsewhere, the Ascians came and sowed the seeds of Darkness, teaching men how to summon eidolons─beings like unto primals. When it seemed the world would be plunged into chaos, heroes appeared─men and women blessed with the power to bind the eidolons in crystal. And though these heroes succeeded in restoring the peace, in time they too were seduced by the Darkness they had defeated. With their tainted gifts they transformed men into monsters─voidsent─and raised armies to wage new wars. Zero and her mother were among the token few who defied temptation and held fast to the Light, but in the end, the enemy proved too strong, and their world fell to ruin. In that moment, Zero was cast into the rift, and so was spared the fate of becoming a voidsent in full.<br><br>At the end of her tale, Zero declares her world lost. But through an explanation of the Source and its reflections, Y'shtola reveals to her that there is yet hope for the Thirteenth. While Zero declares she has no desire to save it, she agrees to continue helping you in your quest to find Azdaja─provided her price is paid. The demanded deposit: a single apple.",
+            "Your journey into the void has led to the most fortuitous of encounters, for only with Zero's aid were you able to defeat the voidsent that barred your path. That she will remain at your side for the coming search gives you hope that you will succeed in rescuing Vrtra's sister. Nevertheless, Golbez and his remaining minions will surely seek to bar your way, and you steel yourself for the trials to come."
+        ],
+        "objectives": [
+            "Speak with the Meghaduta attendant.",
+            "Speak with Varshahn."
+        ],
+        "dialogue": [
+            {
+                "name": "YSHTOLA",
+                "text": "During his brief reign, Zenos ruled over the ruins of Garlemald. A stark contrast from the vibrance of Radz-at-Han. I trust Zero enjoyed it, in her own way."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I'm not surprised that Zero is unfamiliar with money. If she means to stay in Radz-at-Han for a while, we'll need to teach her how to deal with the local merchants."
+            },
+            {
+                "name": "MYSTERIOUSPERSON",
+                "text": "Darkness warped all life in the void. Even plants. Only now do I recall flowers, and the value they held. "
+            },
+            {
+                "name": "MEGHADUTAEMPLOYEE",
+                "text": "Ah, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. I shall be glad to show you to the guest chambers."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Proceed to the Meghaduta guest chambers?"
+            },
+            {
+                "name": "VARSHAHN",
+                "text": "I believe Zero's time here has been rewarding, and 'twas in no small part due to your company. My thanks for agreeing to join us."
+            },
+            {
+                "name": "VARSHAHN",
+                "text": "Come, let us return to Meghaduta."
+            },
+            {
+                "name": "MEGHADUTAEMPLOYEE",
+                "text": "Welcome back, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. Will you be heading to the guest chambers?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Proceed to the Meghaduta guest chambers?"
+            },
+            {
+                "name": "VARSHAHN",
+                "text": "Though our time in the void was short, we managed to ascertain that my sister yet lives. And it cannot be overstated how fortunate we are to have met Zero."
+            },
+            {
+                "name": "VARSHAHN",
+                "text": "But the greater blessing is nevertheless you, my friend. For your encouragement to embark upon my search anew, and your help in overcoming the challenges thus far."
+            },
+            {
+                "name": "VARSHAHN",
+                "text": "Golbez and his minions will seek to stymie our efforts. Of this we can be sure. "
+            },
+            {
+                "name": "VARSHAHN",
+                "text": "But with you all at my side, I have confidence that we will succeed. That we will find and liberate my sister. And that we shall return home together."
+            }
+        ],
+        "reward": {
+            "gil": 1001,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 36076,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 36069,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 36072,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 36074,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 90,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                70135
+            ]
+        },
+        "next": [
+            70196,
+            70206
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1043858",
+            "obj": {
+                "i": 1043858,
+                "n": "Varshahn",
+                "l": 3707,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1039645",
+            "obj": {
+                "i": 1039645,
+                "n": "Varshahn",
+                "l": 3707,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "36076",
+            "obj": {
+                "i": 36076,
+                "n": "Scallop Curry",
+                "l": 580,
+                "c": "t/24041",
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "36069",
+            "obj": {
+                "i": 36069,
+                "n": "Pumpkin Ratatouille",
+                "l": 580,
+                "c": 24108,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "36072",
+            "obj": {
+                "i": 36072,
+                "n": "Peach Tart",
+                "l": 580,
+                "c": "t/24095",
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "36074",
+            "obj": {
+                "i": 36074,
+                "n": "Thavnairian Chai",
+                "l": 580,
+                "c": 24410,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70135",
+            "obj": {
+                "i": 70135,
+                "n": "A World with Light and Life",
+                "g": 12,
+                "l": "Radz-at-Han",
+                "s": 636
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70196",
+            "obj": {
+                "i": 70196,
+                "n": "Shadowed Pasts",
+                "g": 67,
+                "l": "Radz-at-Han",
+                "s": 10
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70206",
+            "obj": {
+                "i": 70206,
+                "n": "Once More unto the Void",
+                "g": 12,
+                "l": "Radz-at-Han",
+                "s": 638
+            }
+        }
+    ]
+}

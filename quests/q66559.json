@@ -1,0 +1,219 @@
+{
+    "quest": {
+        "name": "U! Ow! That Stings",
+        "location": "Southern Thanalan",
+        "id": 66559,
+        "patch": 2.0,
+        "sort": 470,
+        "eventIcon": 71221,
+        "issuer": 1004917,
+        "target": 1004917,
+        "involved": [
+            1006606,
+            1006607,
+            1006608
+        ],
+        "genre": 93,
+        "journal": [
+            "U'odh Nunh has received ill tidings.",
+            "Three U tribeswomen have been ambushed and taken captive by the Amalj'aa. U'odh Nunh tasks you with delivering ointment to the fallen, that they might be granted the dignity of fighting for their own lives.",
+            "You have eased the wounds of the captive U tribeswomen. Return and inform U'odh Nunh of your success.",
+            "His tribe whole once more, U'odh Nunh is overjoyed, and declares you a true friend to the U."
+        ],
+        "objectives": [
+            "Use the battle ointment on the U tribeswomen.",
+            "Report to U'odh Nunh."
+        ],
+        "dialogue": [
+            {
+                "name": "UODHNUN",
+                "text": "Outsider... I told you to─hm? You would help the U? You outsiders puzzle me...but I would be fool to refuse your aid."
+            },
+            {
+                "name": "UODHNUN",
+                "text": "I am told that some of my tribeswomen have been ambushed and captured by the lizardmen. If the rumors are true, they bear grave wounds."
+            },
+            {
+                "name": "UODHNUN",
+                "text": "The U are no strangers to death─but to die without a fair fight? That is no way for an U to die."
+            },
+            {
+                "name": "UODHNUN",
+                "text": "I ask you not to <span class=\"emphasis\">rescue</span> them─if they are truly U, their pride will not allow it. Ease their wounds with this salve, and they will take care of themselves."
+            },
+            {
+                "name": "UZOKUA",
+                "text": "Watch yourself, strangerrr... Wounded or not, my claws are still sharp."
+            },
+            {
+                "name": "UZOKUA",
+                "text": "I know not why you help me, but I thank you."
+            },
+            {
+                "name": "UZOKUB",
+                "text": "Grrrrrr... The pain...!"
+            },
+            {
+                "name": "UZOKUB",
+                "text": "Thank you, stranger. By your kindness, I live to fight another day."
+            },
+            {
+                "name": "UZOKUC",
+                "text": "Gah! I'd die sooner than admit defeat to the lizardmen!"
+            },
+            {
+                "name": "UZOKUC",
+                "text": "Thank you, frrriend. I'll not forget this debt."
+            },
+            {
+                "name": "UODHNUN",
+                "text": "The missing three have returned, and return with lizardman heads. You are a true friend to the U, outsider."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3183,
+                    "one": 1
+                },
+                {
+                    "id": 3191,
+                    "one": 1
+                },
+                {
+                    "id": 27677,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 13160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 47,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66557
+            ]
+        },
+        "next": [
+            66560
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1004917",
+            "obj": {
+                "i": 1004917,
+                "n": "U'odh Nunh",
+                "l": 45,
+                "q": 12
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006606",
+            "obj": {
+                "i": 1006606,
+                "n": "Bloodied Huntress",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006607",
+            "obj": {
+                "i": 1006607,
+                "n": "Breathless Huntress",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006608",
+            "obj": {
+                "i": 1006608,
+                "n": "Bruised Huntress",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3183",
+            "obj": {
+                "i": 3183,
+                "n": "Tortoiseshell Scale Mail",
+                "l": 46,
+                "c": 43084,
+                "t": 35,
+                "p": 8016
+            }
+        },
+        {
+            "type": "item",
+            "id": "3191",
+            "obj": {
+                "i": 3191,
+                "n": "Raptorskin Harness",
+                "l": 47,
+                "c": 43081,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "27677",
+            "obj": {
+                "i": 27677,
+                "n": "Altered Woolen Cowl",
+                "l": 47,
+                "c": 43906,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66557",
+            "obj": {
+                "i": 66557,
+                "n": "What's It to U",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 470
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66560",
+            "obj": {
+                "i": 66560,
+                "n": "True U",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 470
+            }
+        }
+    ]
+}

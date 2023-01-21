@@ -1,0 +1,111 @@
+{
+    "quest": {
+        "name": "As You Wish",
+        "location": "Eastern La Noscea",
+        "id": 66392,
+        "patch": 2.0,
+        "sort": 180,
+        "eventIcon": 71201,
+        "issuer": 1006266,
+        "target": 1006341,
+        "genre": 1,
+        "journal": [
+            "Wheiskaet truly intends to tell you how you may face Titan this time.",
+            "In order to face Titan, Wheiskaet bids you travel to Bronze Lake in upper La Noscea, where you must meet with a man named Riol. As Riol's knowledge is a closely guarded secret, he will not even emerge to meet you until you have given the correct signal. Whistle loudly at the three locations marked on your map.",
+            "Your whistling carries for malms across Bronze Lake, and you have no reason to believe Riol did not hear it. Go to the designated meeting point and speak with Riol if he is present.",
+            "Before beginning his explanation, Riol asks for your undivided attention, as he does not wish to repeat himself. When you are ready to listen carefully, ask him to proceed."
+        ],
+        "objectives": [
+            "Whistle loudly at the designated locations.",
+            "Speak with Riol."
+        ],
+        "dialogue": [
+            {
+                "name": "WHEISKAET",
+                "text": "You must be eager to face Titan. As promised, we will show you the way."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Travel to Bronze Lake in upper La Noscea. There you will meet with Riol, another man who once served with the Company."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "To ensure that this knowledge does not fall into the wrong hands, he will remain in hiding until you have given the correct signal."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Give me your map. You must whistle loudly at the three locations I mark. Only then will he appear to meet you at this fourth location. I realize this may seem excessive now, but you will see that it is more than reasonable once you comprehend the risks inherent in our method."
+            },
+            {
+                "name": "RIOL",
+                "text": "Greetin's, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">mate</span></span>. Might you be the one the cap'n said would come callin'?"
+            },
+            {
+                "name": "RIOL",
+                "text": "Aye, I thought so. Pay attention, now, 'cause I ain't explainin' meself twice."
+            }
+        ],
+        "reward": {
+            "gil": 1377,
+            "xp": 16380
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 33,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66391
+            ]
+        },
+        "next": [
+            66393
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006266",
+            "obj": {
+                "i": 1006266,
+                "n": "Wheiskaet",
+                "l": 32,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006341",
+            "obj": {
+                "i": 1006341,
+                "n": "Riol",
+                "l": 34,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66391",
+            "obj": {
+                "i": 66391,
+                "n": "In the Company of Heroes",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 179
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66393",
+            "obj": {
+                "i": 66393,
+                "n": "Lord of Crags",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 181
+            }
+        }
+    ]
+}

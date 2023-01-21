@@ -1,0 +1,98 @@
+{
+    "quest": {
+        "name": "An Eft for Effort",
+        "location": "Central Shroud",
+        "id": 65732,
+        "patch": 2.0,
+        "sort": 21,
+        "eventIcon": 71201,
+        "target": 1000421,
+        "genre": 0,
+        "journal": [
+            "Galfrid, chief instructor at the Bannock, wishes you to assist with the training of new recruits.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Galfrid at the Bannock.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You have slain the black efts. Report to Galfrid at the Bannock.",
+            "After witnessing your display of skill, the recruits resume their training with renewed enthusiasm. Continue to hone your abilities, lest the deeds of the Bannock's soldiers one day outshine your own."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Galfrid at the Bannock.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "GALFRID",
+                "text": "A word, if I may? There is a difficult matter with which I could use your assistance."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Allow me to explain. The nearby river is home to a colony of black efts whom I sent a party of recruits to slay. Yet scarcely a bell after I had done so, the youngsters returned─hysterical yet noticeably unbloodied─and loudly bemoaned their misfortune at ever having been sent to contend with such “hells-born horrors.”"
+            },
+            {
+                "name": "GALFRID",
+                "text": "Pitiful. My great-grandmama could dispatch an eft with her walking stick and a harsh word. That such a task should cow a whole party of able-bodied men and women is beyond belief. I would have you show these quivering milksops how it's done: make your way to the river and put down four of the creatures."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. You performed admirably."
+            },
+            {
+                "name": "GALFRID",
+                "text": "I had my recruits watching from the banks as you dispatched the efts. It appears your skill in battle has inspired them."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Either that or they have no wish to be upstaged by an adventurer─it matters little which. What <span class=\"emphasis\">does</span> matter is that they have resumed their training with renewed zeal, and that I have you to thank for it. I am in your debt."
+            }
+        ],
+        "reward": {
+            "xp": 1950
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65981
+            ]
+        },
+        "next": [
+            65664
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000421",
+            "obj": {
+                "i": 1000421,
+                "n": "Galfrid",
+                "l": 54,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65981",
+            "obj": {
+                "i": 65981,
+                "n": "Chasing Shadows",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 16
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65664",
+            "obj": {
+                "i": 65664,
+                "n": "Eggs over Queasy",
+                "g": 0,
+                "l": "Central Shroud",
+                "s": 24
+            }
+        }
+    ]
+}

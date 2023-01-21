@@ -1,0 +1,201 @@
+{
+    "quest": {
+        "name": "Trouble on the Road",
+        "location": "North Shroud",
+        "id": 66329,
+        "patch": 2.0,
+        "sort": 280,
+        "eventIcon": 71221,
+        "issuer": 1002804,
+        "target": 1002804,
+        "involved": [
+            1006249
+        ],
+        "genre": 92,
+        "journal": [
+            "Aeluuin is concerned for the well-being of one of his customers.",
+            "A young woman who has reserved a room at the Bobbing Cork has yet to arrive, and Aeluuin fears the worst. Seek out the woman and see to her safety.",
+            "You have dispatched the fiend that was threatening the young adventurer. Speak with her and calm her nerves.",
+            "The young adventurer offers her thanks; she was so taken with the scenery that she failed to notice the fiend's presence. Return to the Bobbing Cork and assure Aeluuin that his customer is safe.",
+            "Aeluuin is relieved for your tidings. What with fearsome rumors circulating of late, he feels ever more responsible for his customers' safety. He will prepare a warm bed and hot meal for the girl, that she might forget her ordeal."
+        ],
+        "objectives": [
+            "Save the well-equipped adventurer.",
+            "Speak with the well-equipped adventurer.",
+            "Report to Aeluuin."
+        ],
+        "dialogue": [
+            {
+                "name": "AELUUIN",
+                "text": "Just look at the time! Whatever is keeping her? ...My apologies, friend. You've caught me in a fretful humour. A young girl has reserved a room with me tonight, yet she's nowhere to be found."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "There're ill rumors about these parts of late─try as I might, I can't help but fear the worst. Might you be so kind as to go check if she's well?"
+            },
+            {
+                "name": "AELUUIN",
+                "text": "//: save girl from monster"
+            },
+            {
+                "name": "ADVENTURE",
+                "text": "Beautiful sights to be seen in these parts, yes? It's a shame that the dangers are too great to truly enjoy them..."
+            },
+            {
+                "name": "ADVENTURE",
+                "text": "Thank you, friend! Why, I thought I was done for!"
+            },
+            {
+                "name": "ADVENTURE",
+                "text": "One moment, I was standing here enjoying the scenery while my chocobo enjoyed a much-deserved nap, and the next..."
+            },
+            {
+                "name": "ADVENTURE",
+                "text": "It sends shivers down my spine just to recall it. Anyroad, please thank the innkeep for his concern, and tell him I will be on my way as soon as my bird awakes."
+            },
+            {
+                "name": "ADVENTURE",
+                "text": "Please thank the innkeep for his concern, and tell him I will be on my way as soon as my bird awakes...though he is a rather heavy sleeper, I fear."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "The girl's safe? Thank you, friend─those are the best tidings I've received all day. And here I'd feared the worst..."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "Why, if she'd ended up in the clutches of that masked... But I mustn't think such ill thoughts. Now, if you'll excuse me, I'd best get back to work─something tells me the girl'll be needing a warm bed and a hot meal more than ever."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4115,
+                    "one": 1
+                },
+                {
+                    "id": 4109,
+                    "one": 1
+                },
+                {
+                    "id": 4113,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 6290
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66328
+            ]
+        },
+        "next": [
+            66332
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002804",
+            "obj": {
+                "i": 1002804,
+                "n": "Aeluuin",
+                "l": 57,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006249",
+            "obj": {
+                "i": 1006249,
+                "n": "Well-equipped Adventurer",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4115",
+            "obj": {
+                "i": 4115,
+                "n": "Sphene Bracelet",
+                "l": 28,
+                "c": 55612,
+                "t": 42,
+                "p": 2544
+            }
+        },
+        {
+            "type": "item",
+            "id": "4109",
+            "obj": {
+                "i": 4109,
+                "n": "Sunstone Bracelet",
+                "l": 28,
+                "c": 55609,
+                "t": 42,
+                "p": 2544
+            }
+        },
+        {
+            "type": "item",
+            "id": "4113",
+            "obj": {
+                "i": 4113,
+                "n": "Malachite Bracelet",
+                "l": 28,
+                "c": 55611,
+                "t": 42,
+                "p": 2544
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66328",
+            "obj": {
+                "i": 66328,
+                "n": "Cleaning House",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66332",
+            "obj": {
+                "i": 66332,
+                "n": "Meals for Miners",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        }
+    ]
+}

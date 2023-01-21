@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Whack-a-Mole",
+        "location": "Lower La Noscea",
+        "id": 66018,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1002659,
+        "target": 1002659,
+        "genre": 91,
+        "journal": [
+            "Arenlona has some moles she would like removed.",
+            "The clever hedgemoles appear to be particularly fond of the ogre pumpkins Arenlona has cultivated. Visit the pumpkin patch and whack the moles.",
+            "You have purged the patch of the pumpkin pinchers. Return to Arenlona with the glad tidings.",
+            "Arenlona is constantly devising new cultivation methods to keep up with ever-evolving harvest woes, but having an adventurer around, even temporarily, should enable her to make significant strides."
+        ],
+        "objectives": [
+            "Visit the pumpkin patch and slay clever hedgemoles.",
+            "Report to Arenlona."
+        ],
+        "dialogue": [
+            {
+                "name": "ARENLONA",
+                "text": "If a lifetime of meticulous research into the advancement of the agricultural arts has taught me anything, it is that the fruits of knowledge are incapable of preserving themselves. Without an adventurer's brawn to protect them, I fear all my work will come to naught."
+            },
+            {
+                "name": "ARENLONA",
+                "text": "Take, for example, the splendid ogre pumpkin crop I was able to cultivate. Years of hypothesizing and testing at last made tangible, only to be snatched away by those subterranean sorners, the clever hedgemoles."
+            },
+            {
+                "name": "ARENLONA",
+                "text": "I've already engineered the pumpkins to resist fire, drought, frost, weeds, insects, and festive rituals; I just need someone to kill the moles."
+            },
+            {
+                "name": "ARENLONA",
+                "text": "Well, that was so easy, it makes me wonder why I've spent my life formulating complex solutions to problems rather than merely going around killing things."
+            },
+            {
+                "name": "ARENLONA",
+                "text": "Nevertheless, I'm afraid it's too late to alter my methods now. I'll continue to focus on the complex solutions, and have <span class=\"emphasis\">you</span> stick around to kill things."
+            },
+            {
+                "name": "ARENLONA",
+                "text": "What hubris! What arrogance to believe that I, one woman alone, could overcome the unfathomably vast and profound mysteries of nature... But with you here, I'm sure we can do it."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 141,
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66019
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002659",
+            "obj": {
+                "i": 1002659,
+                "n": "Arenlona",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66019",
+            "obj": {
+                "i": 66019,
+                "n": "Beetle Juice",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 80
+            }
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "quest": {
+        "name": "When Hunting Goes Wrong",
+        "location": "The Dravanian Forelands",
+        "id": 67811,
+        "patch": 3.2,
+        "sort": 21,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 7,
+        "eventIcon": 71222,
+        "issuer": 1016803,
+        "target": 1016803,
+        "involved": [
+            1016864,
+            1016865,
+            1016866
+        ],
+        "genre": 47,
+        "journal": [
+            "The Vath keeneye has need of a capable fleshling.<br>※The difficulty of this quest will be synced to your current level.",
+            "A band of treasure hunters hoping to strike it rich have come from Idyllshire. Though they initially requested an escort, caution gave way to avarice, and they decided to depart unaided. The Vath keeneye fears for their safety, and so he asks you make for Anyx Trine to ensure they have not come to harm.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You find two of the treasure hunters none the worse for wear, but you recall the Vath keeneye spoke of four in total. Continue your search of Anyx Trine for the remaining hunters.",
+            "You find two more hunters visibly shaken. They claim to have been chased by dragons ever since arriving in Anyx Trine. No sooner do they finish speaking than a pair of hippocerfs appear, ready to attack. Thankfully you are there to dispatch them with relative ease. With the beasts slain, check that the hunters remain uninjured.",
+            "The Lalafellin hunter and his companion are as yet unharmed, and intend to leave before encountering more dragons. In addition to thanking you, he asks that you send his best regards to the Vath. Return to Loth ast Vath to inform the keeneye of their well-being as well as pass along their gratitude.",
+            "The Vath keeneye is glad to hear the hunters are safe, but still fails to understand why they seek treasures that have long since become unusable. It would seem the Vath still have much to learn of fleshlings."
+        ],
+        "objectives": [
+            "Speak with the treasure hunters.",
+            "Search for the remaining hunters.",
+            "Speak with the hapless hunter.",
+            "Report to the Vath keeneye."
+        ],
+        "dialogue": [
+            {
+                "name": "SEARCHER",
+                "text": "Ah, great hunter. I could not have asked for a more qualified fleshling. A group of hunters came from Idyllshire not long ago, and have need of your skills."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "They seek treasure in the ruins of Anyx Trine. The land surrounding the tower has many artifacts. Very old, very ancient. &lt;click&gt; &lt;click&gt; The hunters requested an escort, but they were too hasty. Yes, much too hasty."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "They have gone ahead to Anyx Trine. We fear they may be in danger. A fleshling of your caliber should have no problem finding them. There should be four hunters. Please, go and make sure they are all safe."
+            },
+            {
+                "name": "TREASUREHUNTERA02275",
+                "text": "I take it you're that escort we were askin' for from them overgrown antlings. I was hopin' for a bit of action to be honest, but there's nary a dragon to be found. &lt;sigh&gt; And sadly no treasure. Sure hope the others are havin' better luck."
+            },
+            {
+                "name": "TREASUREHUNTERA02275",
+                "text": "Thought I heard someone shoutin' a few minutes ago. Maybe they found somethin'."
+            },
+            {
+                "name": "TREASUREHUNTERB02275",
+                "text": "I've struck it rich! Wait till the others see this. If you're the escort from Loth ast Vath, I'm afraid you've wasted your time coming. Haven't had a spot of trouble all day."
+            },
+            {
+                "name": "TREASUREHUNTERB02275",
+                "text": "Did you hear that just now? It sounded like a scream."
+            },
+            {
+                "name": "TREASUREHUNTERC02275",
+                "text": "Ahhh! Wait, you're that escort aren't you? Thank the Twelve! I told the others we should've waited. “It'll be fine,” they said. “What's the worst that could happen?” they said. I'll tell you what─dragons, and lots of 'em!"
+            },
+            {
+                "name": "TREASUREHUNTERC02275",
+                "text": "They've been chasin' us all day. When we get out of here, I swear I'll─ Ahhh! What's that!?"
+            },
+            {
+                "name": "TREASUREHUNTERC02275",
+                "text": "Are they gone? Phew. Thanks for comin' when you did. You're a lot tougher than the Vath made you out to be. The others are probably still lookin' for treasure, but between you and me, I'd rather find a way out of here."
+            },
+            {
+                "name": "TREASUREHUNTERC02275",
+                "text": "No need to wait on us. You head on back to the guild and give them my thanks. We don't plan on stickin' around here much longer."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Welcome back, great hunter. Did they find what they are looking for? &lt;click&gt; &lt;click&gt; We still do not understand why they consider such things to be treasure. It is all much too old. Anything they find will have stopped working a long time ago."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Risking their lives for long-forgotten junk. Fleshlings are such an odd sort. Yes, very odd. Perhaps someday we too will come to understand the use for old, derelict things."
+            }
+        ],
+        "reward": {
+            "gil": 489,
+            "reputation": 70,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21079
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 5,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016803",
+            "obj": {
+                "i": 1016803,
+                "n": "Vath Keeneye",
+                "l": 2000,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016864",
+            "obj": {
+                "i": 1016864,
+                "n": "Woeful Treasure Hunter",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016865",
+            "obj": {
+                "i": 1016865,
+                "n": "Fortuitous Treasure Hunter",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016866",
+            "obj": {
+                "i": 1016866,
+                "n": "Hapless Treasure Hunter",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21079",
+            "obj": {
+                "i": 21079,
+                "n": "Black Copper Gil",
+                "l": 1,
+                "c": 65056,
+                "t": 100
+            }
+        }
+    ]
+}

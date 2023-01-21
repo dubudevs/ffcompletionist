@@ -1,0 +1,104 @@
+{
+    "quest": {
+        "name": "Out of Whole Cloth",
+        "location": "Eastern Thanalan",
+        "id": 66416,
+        "patch": 2.0,
+        "sort": 350,
+        "eventIcon": 71221,
+        "issuer": 1006365,
+        "target": 1006365,
+        "involved": [
+            1006366
+        ],
+        "genre": 93,
+        "journal": [
+            "Dedeju needs your help to mend a humble linen vestment.",
+            "Dedeju, a weaver working from out of the Church of Saint Adama Landama, has been given the task of mending a vestment for Father Iliud. Alas, there is more wear on the vestment than Dedeju has cloth. Sharp as a needle and sure as a backstitch, she orders you to Black Brush Station in central Thanalan to pick up well-worn linen from a trusted merchant.",
+            "The merchant gives you the linen as well as a brief foray into the curious art of mending. Deliver the cloth to Dedeju and see what else you can learn. ",
+            "Dedeju takes the cloth with words of thanks. As her clever fingers rapidly reweave the vestment, she mentions that she once repaired a charred garment thought to belong to lichkeeper Marques..."
+        ],
+        "objectives": [
+            "Collect a square of tattered linen from a scrupulous shopkeep at Black Brush Station.",
+            "Give the linen to Dedeju."
+        ],
+        "dialogue": [
+            {
+                "name": "DEDEJU",
+                "text": "Pssst! You that wonder-workin' adventurer? You can work some for me today. See, the Father asked me to mend this vestment, but look, both the weft and the weave's gone there and there. I'll need more cloth than I have."
+            },
+            {
+                "name": "DEDEJU",
+                "text": "There's a merchant at Black Brush Station right now, he'll give you what I need. Hurry on, off to central Thanalan you go!"
+            },
+            {
+                "name": "ENPC",
+                "text": "Came from Dedeju, did ye? I was wonderin' where she'd gone to. Stopped by her shop the other day─was goin' to offer her a cup of tea. She missed a nice one, an amber tip from Coerthas."
+            },
+            {
+                "name": "ENPC",
+                "text": "Her usual, I'm assumin'? The tattered linen, yes <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. Now, don't you go misapprehendin'. It's nice and soft, so she can pulls out the threads and reweaves what she's mendin'. Here ye go."
+            },
+            {
+                "name": "DEDEJU",
+                "text": "There you are! Did you get what I need?"
+            },
+            {
+                "name": "DEDEJU",
+                "text": "Much appreciate it, adventurer! Now we'll see how nimble these fingers are. The Father needs this right soon, he said. Going out on some priestly business..."
+            },
+            {
+                "name": "DEDEJU",
+                "text": "This is a piece o' piss compared to the last order, though, excuse the salty talk! 'Twas big as a house and burnt as a slattern's supper. Father Iliud brought it, but it looked to be for that lichkeeper fellow."
+            }
+        ],
+        "reward": {
+            "gil": 1518,
+            "xp": 9020
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66053
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006365",
+            "obj": {
+                "i": 1006365,
+                "n": "Dedeju",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006366",
+            "obj": {
+                "i": 1006366,
+                "n": "Scrupulous Shopkeep",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66053",
+            "obj": {
+                "i": 66053,
+                "n": "All Good Things",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 182
+            }
+        }
+    ]
+}

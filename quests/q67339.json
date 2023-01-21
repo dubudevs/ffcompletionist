@@ -1,0 +1,93 @@
+{
+    "quest": {
+        "name": "No Smoking Allowed",
+        "location": "The Dravanian Forelands",
+        "id": 67339,
+        "patch": 3.0,
+        "sort": 5318,
+        "eventIcon": 71221,
+        "issuer": 1011938,
+        "target": 1011938,
+        "genre": 98,
+        "journal": [
+            "Gullinkambi is wrinkling her nose at something.",
+            "Gullinkambi has an exceptionally acute sense of smell, and she can no longer bear the stench of Gnath. They have devices placed outside the tower pouring strange fumes into the air. She implores you to disable them and end her suffering.",
+            "You have disabled the Gnathic devices and the fumes are dissipating. Return to Gullinkambi and tell her the devices are no more.",
+            "You return to Gullinkambi, who can now breathe easier for lack of the Gnath's fumes. She thanks you for your work as she nestles closer to her eggs."
+        ],
+        "objectives": [
+            "Disable the Gnathic devices.",
+            "Report to Gullinkambi."
+        ],
+        "dialogue": [
+            {
+                "name": "GULLINKAMBI",
+                "text": "The putrid stench of Gnath lingers in the air."
+            },
+            {
+                "name": "GULLINKAMBI",
+                "text": "Stop the fumes that pour from their primitive playthings. I sense three in total not far from here. You must stop <span class=\"emphasis\">all of them</span>."
+            },
+            {
+                "name": "GULLINKAMBI",
+                "text": "Fumes of the Gnath are insufferable. You must shut off their crude gas dispensers. I sense three nearby."
+            },
+            {
+                "name": "GULLINKAMBI",
+                "text": "The scent of Gnath... It fades. This is not the last of their impudence. Of this I am sure. But for now, I can protect my eggs in peace."
+            }
+        ],
+        "reward": {
+            "gil": 508,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67150
+            ]
+        },
+        "next": [
+            67345
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011938",
+            "obj": {
+                "i": 1011938,
+                "n": "Gullinkambi",
+                "l": 2000,
+                "q": 8
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67150",
+            "obj": {
+                "i": 67150,
+                "n": "A Gnathic Deity",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67345",
+            "obj": {
+                "i": 67345,
+                "n": "Like Gnaths to a Flame",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5319
+            }
+        }
+    ]
+}

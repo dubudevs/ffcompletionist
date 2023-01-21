@@ -1,0 +1,155 @@
+{
+    "quest": {
+        "name": "The Last Remnants",
+        "location": "Limsa Lominsa",
+        "id": 66634,
+        "patch": 2.0,
+        "sort": 2,
+        "icon": 100107,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006757,
+        "target": 1006757,
+        "genre": 156,
+        "journal": [
+            "Alka Zolka wishes to share with you his most recent discoveries.",
+            "Ever the dedicated academic, Alka Zolka has deciphered a significant portion of the Nymian treatise, much of which pertains to scholars. He notes that the Soul of the Scholar should have imparted to you a far more diverse repertoire of spells, and concludes that the cause may be your faerie's fifteen-hundred-year slumber. Surmising that exposure to familiar sights may kindle lost memories, he suggests that you visit the ruins of ancient Nym in outer La Noscea.",
+            "The faerie reacts to a number of locations, seemingly straining to hear inaudible whispers. Perhaps taking in a view of the distant ruins from the western cliff will prove more effective.",
+            "Your time spent together in the ruins of Nym seems to have affected the faerie. Return to Limsa Lominsa and share your findings with Alka Zolka.",
+            "Based on the reactions of your faerie, Alka Zolka concludes that each is a distinct individual with her own thoughts, feelings, and memories─an exciting discovery, to be sure, but not the sort Alka Zolka set out to make. Determined not to let your accomplishments overshadow his, he redoubles his efforts to unearth new stratagems.<br><br>※The next scholar quest will be available from Alka Zolka upon reaching level 40."
+        ],
+        "objectives": [
+            "Explore the Floating City of Nym.",
+            "Observe the distant Nymian ruins.",
+            "Speak with Alka Zolka."
+        ],
+        "dialogue": [
+            {
+                "name": "ALKAZOLKA",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. I was hoping you might come along. Deciphering the treatise has proven more difficult than I anticipated, but I have nevertheless made progress."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "It contains a wealth of military knowledge, much of which details the role of scholars in Nymian units."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "Apparently, a single scholar could provide effective support for an entire party of marauders!"
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "They would employ their magicks to heal the wounds and enhance the abilities of their allies. Moreover, they often served in leadership roles, as they were highly trained tacticians."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "But how swiftly the remembrance of all things is buried in the gulf of eternity..."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "The treatise indicates that Nymian scholars wielded a far more diverse repertoire of spells than you currently possess. Precisely why you lack these spells, I cannot say."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "However, the fault may lie with your faerie. One could surmise that the knowledge contained within the Soul of the Scholar is essentially hers. Therefore, if she cannot <span class=\"emphasis\">remember</span> the ancient magicks, it would suggest that..."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "Hm. A thought occurs to me. If it is indeed the case that the faerie, having been sealed for fifteen hundred years, has yet to fully regain her senses, mayhap visiting a familiar location would hasten the process."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "And I can think of no more familiar place than the city of Nym─rather, what remains of it in outer La Noscea..."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "Why not journey to the Floating City of Nym? Something there might rekindle the memories of your faerie─assuming her memories are incomplete, that is."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "Though...does she possess memories, like you and I? Until recently, I had no idea faeries even existed. It may be ages before I gain an understanding of these otherworldly entities..."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. I gather the experiment met with success?"
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "Then this strongly suggests that each faerie is a distinct individual with her own thoughts, feelings, and memories..."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "Well, I must redouble my efforts to translate the remaining text! At this rate, your discoveries threaten to overshadow mine."
+            },
+            {
+                "name": "ALKAZOLKA",
+                "text": "Not to bemoan your accomplishments, but I have yet to decipher any equally amazing stratagems. Soon enough, though, soon enough!"
+            }
+        ],
+        "reward": {
+            "action": 186,
+            "xp": 18040
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 29
+                }
+            ],
+            "quests": [
+                66633
+            ]
+        },
+        "next": [
+            66635
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006757",
+            "obj": {
+                "i": 1006757,
+                "n": "Alka Zolka",
+                "l": 28,
+                "q": 11
+            }
+        },
+        {
+            "type": "action",
+            "id": "186",
+            "obj": {
+                "i": 186,
+                "n": "Succor",
+                "c": 2802,
+                "j": 28,
+                "t": 2,
+                "l": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66633",
+            "obj": {
+                "i": 66633,
+                "n": "Forgotten but Not Gone",
+                "g": 156,
+                "l": "Limsa Lominsa",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66635",
+            "obj": {
+                "i": 66635,
+                "n": "The Consequences of Anger",
+                "g": 156,
+                "l": "Limsa Lominsa",
+                "s": 3,
+                "f": 1
+            }
+        }
+    ]
+}

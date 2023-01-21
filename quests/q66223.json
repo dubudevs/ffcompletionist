@@ -1,0 +1,177 @@
+{
+    "quest": {
+        "name": "Leves of Horizon",
+        "location": "Ul'dah",
+        "id": 66223,
+        "patch": 2.0,
+        "sort": 100,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1001794,
+        "target": 1001796,
+        "genre": 93,
+        "journal": [
+            "Eustace is responsible for assigning guildleves at the Quicksand, and is offering to give you an introduction to the world of levequests.",
+            "Guildleves are the means by which the Adventurers' Guild organizes and assigns the various requests made by the citizenry. To accept your first such task, make your way to Horizon and speak with Totonowa.",
+            "In order to gauge your ability to handle the various guildleves he has to offer, Totonowa requires that you carry out a preliminary task.",
+            "You have successfully completed the trial guildleve. Report to Totonowa at Horizon.",
+            "Totonowa is now confident that you are capable of handling any of the trials and tribulations you might encounter at Horizon. Prove your worth as an adventurer, and continue to undertake the guildleves he has to offer."
+        ],
+        "objectives": [
+            "Speak with Totonowa at Horizon.",
+            "Complete Totonowa's trial guildleve.",
+            "Report to Totonowa."
+        ],
+        "dialogue": [
+            {
+                "name": "EUSTACE",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. Momodi said you might come. I take it you wish to undertake one of the many guildleves available here at the Adventurers' Guild?"
+            },
+            {
+                "name": "EUSTACE",
+                "text": "Guildleves are the means by which we document requests for assistance from the citizenry, prior to assigning them to adventurers possessed of the necessary skills."
+            },
+            {
+                "name": "EUSTACE",
+                "text": "From “battlecraft leves” that require the extermination of monsters, to “tradecraft leves” that ask for the creation of goods, the tasks we term “levequests” are many and varied in their nature."
+            },
+            {
+                "name": "EUSTACE",
+                "text": "Should your interest be piqued, I suggest you make your way to Horizon and speak with Totonowa. He will be happy to set your feet on the path to completing your first levequest."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "A fine <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">day</span></span> to you, adventurer! My name is Totonowa, and I am in charge of assigning local levequests here at Horizon."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "You are come at the behest of Eustace, are you? Excellent! Allow me to set you to your first task."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "It shall be a simple one, mind you. Before I can permit you to undertake official duties, it is essential that you prove yourself of sound body and mind."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "Take a moment to review the task outlined in this guildleve. Do you believe it within your capabilities?"
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "Marvelous. A word of warning: when near death, peistes are wont to flee to their kin. Slay the beast quickly, lest you become a meal for its mates."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Open your journal under Duty in the main menu, and begin the selected levequest by pressing the “Initiate” button."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "When a softskin peiste feels overmatched, it will flee the battle. If it reaches a certain distance, then another softskin peiste will appear. The levequest objective can be more easily achieved by slaying the fleeing creature before it is joined by more of its kind."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "But of course you've triumphed! Here is your well-earned reward!"
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "Given your stellar performance, I see no reason to deny you our official leves."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "An industrious individual like yourself could earn a great deal of coin here in Horizon!"
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "Should you seek a different sort of challenge, you might also consider joining a guildhest."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "If you wish to know more, pray speak with Battlewarden Lost Rabbit. I will inform her of your success against the peiste so that there are no doubts as to your abilities."
+            },
+            {
+                "name": "EUSTACE",
+                "text": "If you mean to undertake a guildleve, then make your way to Horizon and speak with Totonowa."
+            },
+            {
+                "name": "EUSTACE",
+                "text": "I see you wasted no time in taking my suggestion! Be sure to attend to Totonowa's instructions in carrying out your levequest."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "Not having second thoughts now, are we?"
+            },
+            {
+                "name": "EUSTACE",
+                "text": "Ah, so you have already completed Totonowa's trial. I imagine he is eager to hear of your success."
+            },
+            {
+                "name": "TOTONOWA",
+                "text": "How fare you? Levequests can be quite taxing at times, but I am certain you are equal to the task."
+            }
+        ],
+        "reward": {
+            "gil": 215,
+            "xp": 1710
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                65856
+            ]
+        },
+        "next": [
+            65594
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001794",
+            "obj": {
+                "i": 1001794,
+                "n": "Eustace",
+                "l": 40,
+                "q": 1,
+                "t": "Levemete"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001796",
+            "obj": {
+                "i": 1001796,
+                "n": "Totonowa",
+                "l": 42,
+                "q": 2,
+                "t": "Levemete"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65856",
+            "obj": {
+                "i": 65856,
+                "n": "Way Down in the Hole",
+                "g": 1,
+                "l": "Central Thanalan",
+                "s": 39
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65594",
+            "obj": {
+                "i": 65594,
+                "n": "Simply the Hest",
+                "g": 93,
+                "l": "Western Thanalan",
+                "s": 100,
+                "f": 1
+            }
+        }
+    ]
+}

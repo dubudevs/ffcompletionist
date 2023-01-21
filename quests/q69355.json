@@ -1,0 +1,106 @@
+{
+    "quest": {
+        "name": "La-hee",
+        "location": "The Rak'tika Greatwood",
+        "id": 69355,
+        "patch": 5.2,
+        "sort": 114,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 13,
+        "eventIcon": 71222,
+        "issuer": 1032643,
+        "target": 1032643,
+        "genre": 59,
+        "journal": [
+            "Qhoterl Pasol would have you utter the word of power.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "With the chat mode in <span class=\"highlight\">Say</span>, enter “la-hee” to call to the dormant Ronkan doll at the Morning Stars.",
+            "Report to Qhoterl Pasol."
+        ],
+        "dialogue": [
+            {
+                "name": "QHOTERLPASOL",
+                "text": "The Morning Stars are protected by all sorts of Ronkan-built guardians, living statues that keep intruders at bay."
+            },
+            {
+                "name": "QHOTERLPASOL",
+                "text": "Since we're also striving to preserve their legacy, I think it's only fair to have them defend us while we explore the caverns! If you were to say “la-hee” to one of the dolls that lie dormant, it would surely heed your call and spring to our aid!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Ronkan doll rests in silence."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With the chat mode in <span class=\"highlight\">Say</span>, use your keyboard or the software keyboard to enter “la-hee” to wake up the sleeping doll."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The doll has awoken!"
+            },
+            {
+                "name": "QHOTERLPASOL",
+                "text": "It's a miracle! The guardian has arrived! In fact, it clambered down into the caverns just before you got here, and is no doubt shooing off whatever might threaten our workers."
+            },
+            {
+                "name": "QHOTERLPASOL",
+                "text": "Best of all, now that it's awake, it will continue patrolling without rest or need to be fed. Perhaps we can even get it to assist in the excavation itself..."
+            },
+            {
+                "name": "QHOTERLPASOL",
+                "text": "The ancient word of power you spoke, “la-hee,” actually means “wake up” in the Ronkan tongue, but was also used as a greeting."
+            },
+            {
+                "name": "QHOTERLPASOL",
+                "text": "It is said that those favored by the gods can even hear the voice of the ancients, carried on the wind as they travel through the Greatwood. Perhaps you have had such an experience yourself?"
+            },
+            {
+                "name": "SAYTODO",
+                "text": "la-hee"
+            }
+        ],
+        "reward": {
+            "gil": 606,
+            "reputation": 60,
+            "items": [
+                {
+                    "id": 28187
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 32
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1032643",
+            "obj": {
+                "i": 1032643,
+                "n": "Qhoterl Pasol",
+                "l": 2957,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "28187",
+            "obj": {
+                "i": 28187,
+                "n": "Qitari Compliment",
+                "l": 1,
+                "c": 65077,
+                "t": 100
+            }
+        }
+    ]
+}

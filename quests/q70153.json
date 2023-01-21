@@ -1,0 +1,126 @@
+{
+    "quest": {
+        "name": "I'll Fish It Myself",
+        "location": "Ultima Thule",
+        "id": 70153,
+        "patch": 6.25,
+        "sort": 111,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 16,
+        "eventIcon": 71222,
+        "issuer": 1043417,
+        "target": 1043417,
+        "genre": 31,
+        "journal": [
+            "The Last Dregs is looking to resolve a fishy situation.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "Deliver the requested materials to the all-purpose service unit.",
+            "Report to Stigma-4."
+        ],
+        "objectives": [
+            "<span class=\"alternative-container\"><span class=\"alternative\">Mine [Error] from the Elysian seas.</span><span class=\"alternative\">Deliver [Error] to the all-purpose service unit.</span><span class=\"alternative\">Gather [Error] from the Elysian seas.</span><span class=\"alternative\">Catch [Error] from the Elysian seas.</span></span>",
+            "Report to Stigma-4."
+        ],
+        "dialogue": [
+            {
+                "name": "STIGMA4",
+                "text": "The café is currently experiencing difficulties regarding fish-based foodstuffs. Methods of acquisition remain suboptimal and capable personnel shortages persist. To this end, staff has initiated a cultivation protocol to secure piscatory supply lines."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Testing of various feeds for aquaculture are presently underway. Your assistance is required to seek out additional materials."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "When you are prepared, please provide bryophyte samples from the Elysian seas to the all-purpose service unit."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "When you are prepared, please provide seaweed samples from the Elysian seas to the all-purpose service unit."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "When you are prepared, please provide stickleback samples from the Elysian seas to the all-purpose service unit. Purchase of gold salmon roe from unit<br>N-0598 is strongly advised."
+            },
+            {
+                "name": "OMICRON04617",
+                "text": "Scanning inventory... &lt;whirr&gt; No aquaculture feed samples detected. Awaiting delivery of acceptable samples."
+            },
+            {
+                "name": "OMICRON04617",
+                "text": "Scanning inventory... &lt;whirr&gt; Potential aquaculture feed samples detected. Please insert samples to continue."
+            },
+            {
+                "name": "OMICRON04617",
+                "text": "Scanning samples... Nutritional levels acceptable. Please report to Stigma-4 for compensation."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Report from the all-purpose service unit received. Your contributions are greatly appreciated."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Extrapolating outcomes based on success of cultivation protocol... Should the café become reliably and adequately stocked with fish-based foodstuffs, Grebuloffs are predicted to experience the highest growth in satisfaction levels."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Aquaculture testing will resume shortly. Please stand by and await further instructions."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "id": 37854
+                },
+                {
+                    "id": 6141
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 32
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1043417",
+            "obj": {
+                "i": 1043417,
+                "n": "Stigma-4",
+                "l": 3712,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "37854",
+            "obj": {
+                "i": 37854,
+                "n": "Omicron Omnitoken",
+                "l": 1,
+                "c": "t/65095",
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "6141",
+            "obj": {
+                "i": 6141,
+                "n": "Cordial",
+                "l": 25,
+                "c": 20622,
+                "t": 44
+            }
+        }
+    ]
+}

@@ -1,0 +1,545 @@
+{
+    "quest": {
+        "name": "The Past Is a Story We Never Tell",
+        "location": "Limsa Lominsa",
+        "id": 67110,
+        "patch": 2.45,
+        "sort": 15,
+        "icon": 100341,
+        "eventIcon": 71221,
+        "issuer": 1009153,
+        "target": 1009760,
+        "involved": [
+            1009754,
+            1009755,
+            1009756,
+            1009757,
+            1009758,
+            1009759,
+            1010337
+        ],
+        "genre": 77,
+        "journal": [
+            "Letters are the most eloquent in what they do not say, and the tale behind this wordless missive could fill many a parchment scroll.",
+            "The deputy postmoogle has a task for you. Deliver a letter to Mauh Lihzeh, a traveling merchant who can be found on Sweetbloom Pier in the East Shroud.",
+            "You give the letter to Mauh Lihzeh and receive a tale in return. Mauh's long-missing sister Urha can perhaps be found in the South Shroud, if you would go to the marked spots and keep your eyes open.",
+            "Your search for Urha Lihzeh is abruptly interrupted by an attack from the Coeurlclaw poachers, a gang much feared and loathed in the Black Shroud. Lest they return in force, move on to the next spot marked on the map and keep watch.",
+            "With her rough-hewn beauty and quick temper, Urha Lihzeh cuts a very different figure from her younger sister. Present her with the letter lest she dispatch you with the same brutality she showed the Wood Wailer.",
+            "Urha Lihzeh's demeanor changes the instant she learns you come from her sister. Suddenly fearful yet full of longing, she asks you to meet her in Urth's Gift.",
+            "Urha's tale is one lived out in every zone of chaos, every realm where the granaries are locked against those in need. Now a hardened lawbreaker and a part of the cultish Coeurlclaw gang, Urha still longs to see her only living family, if you would take her words to Mauh Lihzeh on Sweetbloom Pier.",
+            "Mauh confides in you that she is determined to persuade her sister to leave a life of crime. Now that Urha has asked Mauh to meet her, Mauh believes she can bring her home from the Upper Paths─with your help.",
+            "The reunion is a bittersweet one, so full of secrets and sorrow is the past. And it promises to soon turn bloody, for Urha's gang is onto her secret meeting. Cut the poachers down in their hiding spot, while the sisters escape.",
+            "Thanks to you, these poachers will hunt Urha and Mauh no more. You have a rendezvous to keep with the sisters, and some difficult persuading to do. Make your way to the Lower Paths, where the sisters await.",
+            "You did not have far to go before running into Urha and Mauh at a Wood Wailer checkpoint...and into the poachers' self-styled king, who plays on Urha's fears to reclaim her as his chattel. Urha is a hardened killer with much to answer for, yet witnessing the Wailers' treatment of the two Miqo'te leaves a bad taste in your mouth. But this is not your concern─Mauh's safety is.",
+            "In Mauh Lihzeh's anger and resolve, you see the shades of another young woman bent on saving her family─and trading away her own future for it. If Mauh Lihzeh is to hunt the Coeurlclaw King as she swears, she will need all the help she can get. Henceforth, any Coeurlclaw poacher you see is fit to be put down."
+        ],
+        "objectives": [
+            "Deliver the letter to Mauh Lihzeh.",
+            "Lie in wait at the designated spots in the South Shroud.",
+            "Lie in wait at the designated spot.",
+            "Deliver the letter to Urha Lihzeh.",
+            "Speak with Urha Lihzeh.",
+            "Deliver the letter to Mauh Lihzeh.",
+            "Speak with Mauh Lihzeh.",
+            "Examine the hiding spot and slay the poachers.",
+            "Speak with Mauh Lihzeh.",
+            "Speak with Mauh Lihzeh again."
+        ],
+        "dialogue": [
+            {
+                "name": "LETTERMOOGLE",
+                "text": "My trusty comrade, I have an interesting delivery for you! A regular missive for an irregular addressee─a traveling merchant, kupo!"
+            },
+            {
+                "name": "LETTERMOOGLE",
+                "text": "This Mauh Lihzeh ranges alone through the realm. I used to take the letters to her mother, but I hear she is quite ill again."
+            },
+            {
+                "name": "LETTERMOOGLE",
+                "text": "This time of the year, Mauh Lihzeh likely plies her trade on Sweetbloom Pier in the East Shroud. Best check there first, kupo!"
+            },
+            {
+                "name": "LETTERMOOGLE",
+                "text": "Mauh Lihzeh likely plies her trade on Sweetbloom Pier in the East Shroud. Best check there first, kupo!"
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Hail, adventurer! Some melting mushrooms for you today, put you in the mind to play? Or honey still in the comb, to still the thoughts of home? ...Hrrrm? A letter for me!"
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "...Gil. &lt;scoff&gt; Nothing but cold gil. Damn you, Urha.<br>...Lest you think me ungrateful, adventurer, keep in mind that this is from my sister. My <span class=\"emphasis\">sister</span>. And still she thinks it meet to send nary a word."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Urha ran off after Mother's second illness. She was ailing and I was but a child, yet Urha left us to fend for ourselves─or so I thought then. Two moons later, she began sending gil. But never a word, not once."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Mother ails no more. I was by her side. Urha's gil bought her tea of silvervine, and mine a soft, clean bed and a fine troop of mourning women."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "I am alone now, and grown─no longer a bewildered child that waits in hope. I must find Urha, and I know I cannot ask the Wailers. Menphina has sent you to me."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "She was last seen in the South Shroud. Go to these spots I've marked on the map. If you find her, give her this letter."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Her name is Urha Lihzeh, or was at any rate. This collar I wear is a match for her own. She still has it, I am sure. We Keepers of the Moon are...sentimental."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "She was last seen in the South Shroud. Go to the spots I've marked on the map. If you find her, give her this letter."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Her name is Urha Lihzeh. This collar I wear is a match for her own. She still has it, I am sure."
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "You hear a savage hiss!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "What're you doing on our turf?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Hisss! <span class=\"emphasis\">Our</span> hunting ground, and we don't share!"
+            },
+            {
+                "name": "KIKOKUTAI01574",
+                "text": "(-Desperate Lancer-)Please! I've a fam─"
+            },
+            {
+                "name": "COEURLCLAW",
+                "text": "(-Sharp-eyed Keeper-)Die wailing, little lancer. We recognize no laws─neither of men nor of elementals. What we want, we take. <span class=\"emphasis\">That</span> is freedom. That is our way."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "(-Feral Keeper-)Who goes there!?"
+            },
+            {
+                "name": "COEURLCLAW",
+                "text": "(-Sharp-eyed Keeper-)Probably another Wailer that wants a dance, my lady Touch-Me-Not. Let <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> join <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> friend─the family man."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "(-Feral Keeper-)Don't want to play, eh? Then you should've stayed in the barracks!"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A1",
+                "text": "Say “Stop this, Urha!”"
+            },
+            {
+                "name": "A1",
+                "text": "Say “Mauh would not want this!”"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "(-Feral Keeper-)H-How do you know my name!?"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "(-Feral Keeper-)Y-You know my sister!?"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "No bloody Wailer'd carry a letter from my baby sister. Give it here and don't get no fresh ideas."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Come on, give over the letter from Mauh."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "It's...it's really her. No other soul would know about... But I'll be missed if I stay any longer! Meet me at Urth's Gift─I got things I need to say."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "There you are. Have to sneak around a bit, 'case that wasn't clear. The king's law says we've no family outside the forest. But I guess that's almost true for me anyway, if Ma's gone."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "What do you think a young girl had to do, huh? To feed a bedridden ma and a sister barely out of swaddlin' clothes? Bad things, adventurer. Bad for me─then bad for them. I was beautiful. Then I was brutal. Like a beast."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "A Wailer caught me at my...trade. Pink-cheeked little miss! All she saw was a thieving strumpet to drag before the Hearers. So...I took the roses from her cheeks. Made them bloom on her fine green doublet."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "'Twas worth it, for Ma never knew what I was. But I couldn't go home that day, nor never since. I hid in the forests, near starved. A city girl don't know how to hunt. And then...then <span class=\"emphasis\">he</span> found me─the king."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "I'd killed a Wood Wailer and that was a ticket into the Coeurlclaw poachers, you see. And my beauty pleases His Highness. A man is a man, in alleys or glades, eh?"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Mauh says she knows what I've done. That she loves me still and wants us to be a family again. But the Coeurlclaws allow no family outside the gang─and I'm wanted by the law."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "But...to go home again. I've done right by Ma, and if I need have no secrets from Mauh... My heart's fit to break! Here, give her this letter if you're her friend."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Adventurer! Did you find her? ...A letter? She sends word!?"
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Urha...Urha wants to see me! How long have I dreamed of this... Adventurer, is it true that...that she is one of the Coeurlclaws?"
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "I feared it was so. That man, the one who calls himself the <span class=\"emphasis\">king</span> of the Coeurlclaws. King Poach, growing fat on stolen game, stolen family..."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "The men of the Keepers of the Moon live a wanderer's life, for they are at their best in small doses. Women and children keep the hearth, ply various trades, and accept game and visits from the menfolk."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "But King Poach denies women this gods-given rule over matters of family. He forces women to live with him, forbids them to see their sisters, mothers, aunts. Most unnaturally, they lie with him and him alone!"
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "He calls this abomination of a family the Coeurlclaws, and thumbs his nose at the elementals' will. He goads his poachers to slay a Wailer, to bind them to the gang..."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "So terrible are their crimes that all Keepers of the Moon feel the suspicion and fear cast their way."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "I have known for some time that Mother and I lived on ill-gotten gil. But Mother is gone, and I have no need of coin earned in blood and malice. What I do need is my sister─the only family left to me."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "It is <span class=\"emphasis\">my</span> turn to save my sister now. She says she will meet me on the Upper Paths. Come with me and help me persuade her to leave the Coeurlclaws."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Mauh... Is that really you? Oh, how you've grown... You look just like Ma... I'm so sorry you had to go through that alone."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "You could have come home to us, Rha. Ma would've understood... Everything you did, you did for us, I know it. It doesn't matter what happened─we have each other..."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "I couldn't have Ma know. I became a thief and a killer, just so I didn't have to be <span class=\"emphasis\">that</span>... What a world, huh? But it's all right now."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Yes, it is, Rha! I can take care of you now. I've no debts thanks to you, and even have a little put by. We'll travel together─go where no one knows the past."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "All you have to do is come with me right now. That's all! Be free of the past and live again. I'll take care of everything else!"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "I... Hush! Adventurer, we're being watched. Thicket over there. We Coeurlclaws don't forgive divided loyalties."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Mauh, I've got to get you out of here. Adventurer, they don't leave this clearing, you understand me? We'll make for eastern Thanalan. Come find us after."
+            },
+            {
+                "name": "BALLOON",
+                "text": "Betrayer! Clawbreaker! Get her!"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Wood Wailer checkpoint! Sir, we are in something of a hurry. If you'd let us by..."
+            },
+            {
+                "name": "KIKOKUTAI01574",
+                "text": "Keepers of the Moon, eh? If it were up to me, I'd hang every one of you, let the Twelve sort out the 'Claws from the rest. Now, stand with your feet apart..."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Adventurer! Wh-What now?"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Stopped 'em cold, eh? But now here we are... I'm trusting you to take care of my sister."
+            },
+            {
+                "name": "KIKOKUTAI01574",
+                "text": "(-Elezen Wailer-)You there! I name you as one of the Coeurlclaws─Balsam Rose, also known as Blood Rose, also known as the Thornless, also known as Lady Touch-Me-Not─"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "No! I'm not those things, I swear it! I just wanted to see my sister, I just need to go home!"
+            },
+            {
+                "name": "KIKOKUTAI01574",
+                "text": "(-Elezen Wailer-)Just like a Keeper. Come quietly or this'll go worse for you. We're gentlemen here, compared to some of the lads you could've met. A pretty thing like you, I could─"
+            },
+            {
+                "name": "KIKOKUTAI01574",
+                "text": "(-Elezen Wailer-)Oho, you're one of the King's Claws all right! What's the matter, better hanged than─"
+            },
+            {
+                "name": "KIKOKUTAI01574",
+                "text": "(-Hyuran Wailer-)I-I-I'm killed!"
+            },
+            {
+                "name": "KIKOKUTAI01574",
+                "text": "(-Elezen Wailer-)N-Noph..."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Your Highness!?"
+            },
+            {
+                "name": "COEURLCLAW",
+                "text": "Wood scum, thought you'd have <span class=\"emphasis\">my</span> woman? Defile my thornless rose? Her place is with me and no other. Come, my love."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "My sweet king, does this mean...you'll take me back? You'll keep me safe? I couldn't stand it again─I can't, please, I can't..."
+            },
+            {
+                "name": "COEURLCLAW",
+                "text": "Of course I'll take you back, Urha. Nobody will ever misuse you again─if you accept my protection. You are a flower, and flowers must be rooted in one place. Come."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "No, Rha! Look what he's taken─you don't even have a name anymore, not your own and not the one Ma gave us! Come home, Urha Lihzeh, come home to <span class=\"emphasis\">me</span>!"
+            },
+            {
+                "name": "COEURLCLAW",
+                "text": "Careful, adventurer. Little sister there has a pert face. I could cut it off before you say “Gods have mercy”!"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Baby sister, you see how it is. If I went with you, I'd blight your life sure as seven hells. I've done bad things for so long, I've got nothing good to give."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "You <span class=\"emphasis\">are</span> good, Rha. Loving and brave, to keep sneaking us the money when... I didn't know you had more than Wailers to fear. Please, there must be a way."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "My place is with him, Mauh. He's the only one who can keep me safe from worse things. Going home─it was just a dream. As long as I'm with the king, nobody will touch me again."
+            },
+            {
+                "name": "COEURLCLAW",
+                "text": "See? She has the right of it, young one. We're free spirits here, not that either of you'd understand. Go back to your ledgers and duties. You have my leave."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Adventurer, you'll guide her out of these parts? Mauh...you're the only good thing I ever had a hand in. Just remember that. Good-bye, baby sister."
+            },
+            {
+                "name": "MAUHLIHZEH",
+                "text": "Urha! URHA!!!"
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Menphina be good, does she think he loves her? How can she─no, I cannot judge her. That look in her eyes when the Wailer mocked her..."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "All those women in the Coeurlclaw gang, the king's harem! Do they all seek shelter from worse things? A roof of bones, walls of blood..."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Ma used to say we can't see the moon while the sun is in the sky. So it might be with King Poach, I think. If he were taken, Urha will see that there are other lives, better loves."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "I must believe that, if I'm to save my sister. And I need skill in arms... Wailer or poacher, I'll not stand helpless again while a man talks of how I shall suffer for his pleasure."
+            },
+            {
+                "name": "URHALIHZEH",
+                "text": "Keep killing poachers, adventurer. I will put the King of the Coeurlclaws in chains and free Urha from hers. I swear it on my mother's grave and on my sister's broken heart, and ask the elementals to bless this pledge..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With your successful delivery, your reputation as a letter carrier has grown!"
+            }
+        ],
+        "reward": {
+            "gil": 2413,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 9330,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 9331,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 9334,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 9335,
+                    "one": 1
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009153",
+            "obj": {
+                "i": 1009153,
+                "n": "Deputy Postmoogle",
+                "l": 29,
+                "q": 24
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009760",
+            "obj": {
+                "i": 1009760,
+                "n": "Mauh Lihzeh",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009754",
+            "obj": {
+                "i": 1009754,
+                "n": "Mauh Lihzeh",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009755",
+            "obj": {
+                "i": 1009755,
+                "n": "Urha Lihzeh",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009756",
+            "obj": {
+                "i": 1009756,
+                "n": "Urha Lihzeh",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009757",
+            "obj": {
+                "i": 1009757,
+                "n": "Urha Lihzeh",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009758",
+            "obj": {
+                "i": 1009758,
+                "n": "Mauh Lihzeh",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009759",
+            "obj": {
+                "i": 1009759,
+                "n": "Urha Lihzeh",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010337",
+            "obj": {
+                "i": 1010337,
+                "n": "Wood Wailer",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "9330",
+            "obj": {
+                "i": 9330,
+                "n": "Triple Cream Coffee",
+                "l": 110,
+                "c": 24407,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "9331",
+            "obj": {
+                "i": 9331,
+                "n": "Bacon Bread",
+                "l": 110,
+                "c": 24012,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "9334",
+            "obj": {
+                "i": 9334,
+                "n": "Haddock Dip",
+                "l": 90,
+                "c": 24258,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "9335",
+            "obj": {
+                "i": 9335,
+                "n": "Bacon Broth",
+                "l": 110,
+                "c": 24103,
+                "t": 46
+            }
+        }
+    ]
+}

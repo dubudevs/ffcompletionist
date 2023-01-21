@@ -1,0 +1,121 @@
+{
+    "quest": {
+        "name": "Laying the Foundation",
+        "location": "The Waking Sands",
+        "id": 66716,
+        "patch": 2.1,
+        "sort": 6,
+        "eventIcon": 71201,
+        "target": 1006530,
+        "genre": 0,
+        "journal": [
+            "Minfilia has a mind to dispatch you to Revenant's Toll.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Minfilia at the Waking Sands.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "Slafborn is pleased that you were the Scion chosen to represent the order in Revenant's Toll, and waggishly declares that he intends to impose the work of a dozen men upon you. Though he subsequently claims to be jesting, his wry expression leads you to suspect that your time in Mor Dhona will not be spent in idleness..."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Minfilia at the Waking Sands.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "MINFILIA",
+                "text": "Do you ever wonder how he does it? Alphinaud, I mean. It was almost predictable that he should appear with an emissary of the Adventurers' Guild mere moments after I had expressed the need to forge ties between our organizations. Truly, his sense of timing rivals even your own..."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Setting such mysteries aside for the present─I have two tasks for you."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "First, I would like you to deliver these documents to Slafborn. They concern our forthcoming move. Second─and this is the more onerous task─I would have you place yourself at his disposal, in accordance with the agreement between ourselves and the Adventurers' Guild. Represent us well, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "SLAFBORN",
+                "text": "I was told to expect a Scion, but I didn't expect it to be you. It has been far too long, <span class=\"highlight\">Forename</span>. You have something for me, yes?"
+            },
+            {
+                "name": "SLAFBORN",
+                "text": "Let's see, now... Yes, everything appears to be in order."
+            },
+            {
+                "name": "SLAFBORN",
+                "text": "You'll be staying with us for a while, yes? Excellent. Would that we had a dozen more like you. Since we don't, though, we'll just give you the work of a dozen men. Heh! I jest, I jest... Well, you'll see soon enough."
+            }
+        ],
+        "reward": {
+            "xp": 4800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                66715
+            ]
+        },
+        "next": [
+            66717,
+            66718,
+            66719
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006530",
+            "obj": {
+                "i": 1006530,
+                "n": "Slafborn",
+                "l": 67,
+                "q": 24
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66715",
+            "obj": {
+                "i": 66715,
+                "n": "The Resolute",
+                "g": 0,
+                "l": "The Waking Sands",
+                "s": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66717",
+            "obj": {
+                "i": 66717,
+                "n": "Better Late than Sever",
+                "g": 0,
+                "l": "Mor Dhona",
+                "s": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66718",
+            "obj": {
+                "i": 66718,
+                "n": "Rock-solid Protection",
+                "g": 0,
+                "l": "Mor Dhona",
+                "s": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66719",
+            "obj": {
+                "i": 66719,
+                "n": "Crate Go Kaboom",
+                "g": 0,
+                "l": "Mor Dhona",
+                "s": 8
+            }
+        }
+    ]
+}

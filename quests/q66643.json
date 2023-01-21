@@ -1,0 +1,213 @@
+{
+    "quest": {
+        "name": "Way of the Fisher",
+        "location": "Limsa Lominsa",
+        "id": 66643,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100101,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000859,
+        "target": 1000857,
+        "genre": 146,
+        "journal": [
+            "N'nmulika would have you reaffirm your desire to join the Fishermen's Guild.",
+            "N'nmulika has informed you that all would-be guild members must first meet with the approval of Sisipu, the acting guildmaster. Seek her out and see what she has to say.",
+            "Sisipu cheerfully grants you entry into the ranks of the Fishermen's Guild, and offers to fill you in on the fundamentals of fishing. Take hold of your fishing rod and speak with Sisipu once more."
+        ],
+        "objectives": [
+            "Speak with Sisipu."
+        ],
+        "dialogue": [
+            {
+                "name": "NNMULIKA",
+                "text": "I'd hate to hear you'd had a change of heart. You haven't, have you?"
+            },
+            {
+                "name": "NNMULIKA",
+                "text": "I understand─the intense intoxication derived from spending hours staring out into the open seas isn't instantly apparent to all."
+            },
+            {
+                "name": "NNMULIKA",
+                "text": "Well, you can go chasing waterfalls, but when you're ready to stick to the rivers and the lakes that you're used to, you know where to find us."
+            },
+            {
+                "name": "NNMULIKA",
+                "text": "Spoken truly like a true bespoke fisher<span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>! Well, then, it's time you met the guildmaster!"
+            },
+            {
+                "name": "NNMULIKA",
+                "text": "But unfortuitously, unfortunately, and somewhat ironically, our nefarious netmaster is out fishing at the moment. This moment and every moment, that is."
+            },
+            {
+                "name": "NNMULIKA",
+                "text": "So Sisipu tends to tend to tasks that require tending to."
+            },
+            {
+                "name": "NNMULIKA",
+                "text": "Such as deciding whether you'll sink or swim with our guild."
+            },
+            {
+                "name": "NNMULIKA",
+                "text": "Sisipu's presiding over those pools, whenever you decidedly decide to say hello. She might seem somewhat standoffish, but she's only keeping an eye out for sharks. Be yourself and you have nothing to worry about!"
+            },
+            {
+                "name": "SISIPU",
+                "text": "Yes, yes, save your breath. I heard every word between you and N'nmulika, so I know she told you my role here."
+            },
+            {
+                "name": "SISIPU",
+                "text": "As she said, Wawalago's <span class=\"emphasis\">supposed</span> to be guildmaster, but apparently he has bigger fish to fry, so all his work falls to me."
+            },
+            {
+                "name": "SISIPU",
+                "text": "That includes making sure our new <span class=\"emphasis\">fish</span> aren't shellfish idiots or potential anemones."
+            },
+            {
+                "name": "SISIPU",
+                "text": "...You've passed the first test by not laughing at that awful joke. Now you only need the right answer to this question: are you prepared to fish like you've never fished before?"
+            },
+            {
+                "name": "Q1",
+                "text": "Are you prepared to fish like you've never fished before?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "SISIPU",
+                "text": "Well! That might be an honest answer, but it's certainly not the right one. Come back when the answer is yes."
+            },
+            {
+                "name": "SISIPU",
+                "text": "Well! You're smarter than the majority of bottom-dwellers that find their way here. Welcome to the guild!"
+            },
+            {
+                "name": "SISIPU",
+                "text": "Now, this wouldn't be much of a guild if we sent you out to sea with only a pole and a prayer, so I suppose I can spare you a few pearls of wisdom."
+            },
+            {
+                "name": "SISIPU",
+                "text": "Nevertheless, you're still going to need that pole and prayer, so I can at least provide you with the former. Here you go. One out of two isn't bad. I'll even throw in these lugworms, since you're not like to get far without bait."
+            },
+            {
+                "name": "SISIPU",
+                "text": "The rods we bestow upon our new fish are priceless objects, which is to say they don't cost anything. Once you know what you're doing, you'll probably want a proper one."
+            },
+            {
+                "name": "SISIPU",
+                "text": "But in the meantime, let's see if you can figure out how to hold your pole. Ready the one I gave you and your lessons can begin."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2571
+                },
+                {
+                    "num": 99,
+                    "id": 2585
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                66670
+            ]
+        },
+        "next": [
+            66644,
+            68458
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000859",
+            "obj": {
+                "i": 1000859,
+                "n": "N'nmulika",
+                "l": 29,
+                "q": 2,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000857",
+            "obj": {
+                "i": 1000857,
+                "n": "Sisipu",
+                "l": 29,
+                "q": 22
+            }
+        },
+        {
+            "type": "item",
+            "id": "2571",
+            "obj": {
+                "i": 2571,
+                "n": "Weathered Fishing Rod",
+                "l": 1,
+                "c": 38203,
+                "t": 32,
+                "p": 74
+            }
+        },
+        {
+            "type": "item",
+            "id": "2585",
+            "obj": {
+                "i": 2585,
+                "n": "Lugworm",
+                "l": 1,
+                "c": 27004,
+                "t": 33,
+                "p": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66670",
+            "obj": {
+                "i": 66670,
+                "n": "So You Want to Be a Fisher",
+                "g": 0,
+                "l": "Limsa Lominsa Lower Decks",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66644",
+            "obj": {
+                "i": 66644,
+                "n": "My First Fishing Rod",
+                "g": 146,
+                "l": "Limsa Lominsa",
+                "s": 11,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68458",
+            "obj": {
+                "i": 68458,
+                "n": "A New Fishing Ex-spear-ience",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 104,
+                "f": 1
+            }
+        }
+    ]
+}

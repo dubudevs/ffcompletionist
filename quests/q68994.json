@@ -1,0 +1,161 @@
+{
+    "quest": {
+        "name": "In Father's Footsteps",
+        "location": "Lakeland",
+        "id": 68994,
+        "patch": 5.0,
+        "sort": 4050,
+        "icon": 100856,
+        "eventIcon": 71221,
+        "issuer": 1030711,
+        "target": 1030713,
+        "genre": 113,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Callea wears an expression of grave concern.",
+            "Callea shares with you the incident that has been weighing on her mind. It would seem that while you were making arrangements for her lodgings at the Crystarium, a young soldier was carried to the infirmary in dire condition, suffering from a most virulent poison inflicted upon him by a roving beast. Though the girl was able to find a recipe for an antidote in her father's records, she will require a sample of the selfsame poison in order to prepare the medicine. Moved by her resolve and decisiveness, you resolve to accompany the girl to the woods west of the forest and help her procure the venom she needs.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "You arrive in the forest, where Callea once again thanks you for your aid. She provides you with a phial to be used in collecting the sample of venom, as well as a word of warning: the medicine must be mixed while the venom is still fresh, meaning that if you tarry too long, you will have to procure a sample anew. Keeping this in mind, you scour the area in search of one of the ghastly creatures known as violet triffids.",
+            "You were able to procure a suitable sample of venom from a violet triffid. Deliver it to Callea with all speed, that she might mix the antidote while the poison is still fresh.",
+            "You safely and swiftly deliver the venom to Callea, who proclaims it perfect for preparing the antidote that will cure the poor soldier. Watch over and see that she is safe as she performs the task."
+        ],
+        "objectives": [
+            "Speak with Callea in the Forest of the Lost Shepherd.",
+            "Obtain poisonous sap from a violet triffid.",
+            "Deliver the poisonous sap to Callea."
+        ],
+        "dialogue": [
+            {
+                "name": "NIELDEN",
+                "text": "I fear the news isn't good, friend. Ye'd best hear it from Callea herself."
+            },
+            {
+                "name": "CALLEA",
+                "text": "My apologies, <span class=\"highlight\">Forename</span>. I fear we have a bit of a situation on our hands. While you were away kindly making arrangements for me at the Crystarium, a young man was rushed here with the most horrific symptoms..."
+            },
+            {
+                "name": "NIELDEN",
+                "text": "Aye, one of the new recruits here at Fort Jobb. A nasty fiend got him─one o' those damn tree men─an' got him bad. As his brothers-in-arms tell it, he was lucky to survive. Sadly, he won't be survivin' much longer in his current state."
+            },
+            {
+                "name": "NIELDEN",
+                "text": "See, the beast that nicked him had some nasty venom in its claws. The way the poor boy's convulsin', it's probably spreadin' through his body even as we speak. He's restin' in bed for now, but if we don't do somethin' soon..."
+            },
+            {
+                "name": "CALLEA",
+                "text": "Searching through Father's belongings, I found a book containing recipes for a wide variety of antidotes. The instructions seem clear enough─I am quite confident I could mix one up provided I had the proper ingredients."
+            },
+            {
+                "name": "CALLEA",
+                "text": "Unfortunately, that's easier said than done. The most vital ingredient is a swab of the original poison with which the man was stricken. And furthermore, the medicine must be mixed immediately after obtaining the sample, while the venom is still fresh..."
+            },
+            {
+                "name": "CALLEA",
+                "text": "We know precisely which type of beast did it, and they are more than plentiful in these parts. We would not have to travel far to procure the poison, provided we had someone with the strength to fell the fiend..."
+            },
+            {
+                "name": "CALLEA",
+                "text": "The soldiers here have been so kind to my father and me... I simply cannot let them down in their time of need! Oh, <span class=\"highlight\">Forename</span>, I beg of you...will you help me!?"
+            },
+            {
+                "name": "NIELDEN",
+                "text": "Ye can count on ol' Nielden too, my girl! I'm no slouch in battle after all, or have ye forgotten?"
+            },
+            {
+                "name": "CALLEA",
+                "text": "Thank you, Uncle Nielden...but no. You must stay here with our patient. Make sure that he has water to drink, and tell him that I will return shortly with the antidote."
+            },
+            {
+                "name": "NIELDEN",
+                "text": "...Aye, I understand. Watch yerself out there, Callea."
+            },
+            {
+                "name": "CALLEA",
+                "text": "All right, <span class=\"highlight\">Forename</span>, we've no time to lose! The creatures we seek lurk in the woodlands just west of the fort. I will meet you there!"
+            },
+            {
+                "name": "CALLEA",
+                "text": "Here we are, <span class=\"highlight\">Forename</span>. Do you see those ghastly living trees? These are the fiends that poisoned that poor soldier. Here is a phial you may use to collect the sample."
+            },
+            {
+                "name": "CALLEA",
+                "text": "Father's records made it clear that the venom is quick to break down. If too much time passes, I will have to ask you to collect a fresh sample."
+            },
+            {
+                "name": "CALLEA",
+                "text": "Also, be warned: these beasts are not likely to part with their poison willingly. Like as not, you will have to weaken them somewhat before they allow you to get close enough to do the deed. Be safe, <span class=\"highlight\">Forename</span>! I will stand by here and prepare the rest of the ingredients."
+            },
+            {
+                "name": "CALLEA",
+                "text": "Have you procured the sample yet? You must hurry! A young man's life depends on it!"
+            },
+            {
+                "name": "CALLEA",
+                "text": "<span class=\"highlight\">Forename</span>! Is that what I think it is?"
+            },
+            {
+                "name": "CALLEA",
+                "text": "Perfect! Yes, I do believe this is exactly what I need to mix up the antidote!"
+            }
+        ],
+        "reward": {
+            "gil": 715
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68993
+            ]
+        },
+        "next": [
+            68995
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1030711",
+            "obj": {
+                "i": 1030711,
+                "n": "Callea",
+                "l": 2953,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1030713",
+            "obj": {
+                "i": 1030713,
+                "n": "Callea",
+                "l": 2953,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68993",
+            "obj": {
+                "i": 68993,
+                "n": "Carrying On",
+                "g": 113,
+                "l": "Lakeland",
+                "s": 4040
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68995",
+            "obj": {
+                "i": 68995,
+                "n": "Her True Calling",
+                "g": 113,
+                "l": "Lakeland",
+                "s": 4060
+            }
+        }
+    ]
+}

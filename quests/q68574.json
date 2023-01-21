@@ -1,0 +1,738 @@
+{
+    "quest": {
+        "name": "Chance of Gales",
+        "location": "The Fringes",
+        "id": 68574,
+        "patch": 4.2,
+        "sort": 3,
+        "icon": 100749,
+        "beast": 10,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1024771,
+        "target": 1024911,
+        "involved": [
+            1020871,
+            1021587,
+            1021591,
+            1024779,
+            1024903,
+            1024904,
+            1024905,
+            1024906,
+            1024907,
+            1024908,
+            1024909,
+            1024910,
+            1024912,
+            1024914,
+            1024952,
+            1025326
+        ],
+        "genre": 52,
+        "journal": [
+            "Alpa needs your help with the latest additions to Castellum Velodyna.<br>※The difficulty of this quest will be synced to your current level.",
+            "The area around the castellum is home to many dangerous creatures. To give travelers somewhere to stay at night, J'olhmyn had proposed converting unused storerooms into lodgings. She suggests speaking with someone who has actually slept in one of the newly prepared rooms to find out if anything needs to be improved.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "Although the merchant is grateful to have had somewhere to stay, he did not enjoy a good night's sleep. Bedding from Vira Nilya had been provided, but he did not know what to do with it and slept on the floor instead. When Alpa demonstrates the correct method of using the bedding by curling into a coil, it becomes clear that she has no knowledge whatsoever of the needs of their two-legged guests. While J'olhmyn accepts responsibility for Alpa's lack of preparedness, she admits to being far from an expert on inns herself. She recommends looking around Ala Ghiri for those with experience in the field of accommodation to work as an advisor.",
+            "Upon arriving in Ala Ghiri, it soon becomes clear that the residents are busy restoring their village since its liberation from imperial rule. Although no one there has the time to go to Castellum Velodyna and act as advisor, you learn of a man called Gales who once worked as an innkeeper in Goodblade before it was razed. Alpa is carrying out her own inquiries and would be glad to hear this promising information.",
+            "Alpa is pleased by the news of there being a candidate for the role of advisor. She and J'olhmyn proceed to Goodblade, where Gales is said to be wandering aimlessly.",
+            "Gales has hit upon hard times since the fall of Goodblade. He seems convinced that he is no longer of use to anyone, but Alpa persuades him to aid in her cause. Despite being hesitant at first, he accepts the offer and travels with her to the castellum.",
+            "Upon seeing the shoddy state of the castellum's sleeping quarters, Gales unexpectedly flies into a rage. Unperturbed by this sudden outburst, Alpa is filled with renewed enthusiasm and vows to do her utmost to carry out Gales's orders. His first instructions are to gather raw materials for building beds and a chocobo stable, which can be found in the wreckage of a nearby imperial base, according to J'olhmyn. She advises you to ride a marid and use its powerful forelegs to smash the scrap metal into pieces small enough to carry. Luckily, Dakshina the Gatekeepers' resident marid trainer has one ready and waiting.",
+            "Climbing atop the marid, you head for what remains of Castellum Corvi. The enormous beast should make short work of crushing the scrap left strewn about the area.",
+            "Now that you and the marid have finished your work, the Gatekeepers can carry the raw materials back to Castellum Velodyna. Gales and the others eagerly await your return.",
+            "Thanks to Gales's cooperation, the castellum's guest rooms and chocobo stable are finally complete. His tutelage has given Alpa a deeper understanding of the travelers and their needs, while Gales realizes that he still has much to learn about the Ananta. Having overcome numerous hurdles, Alpa moves ever closer to bringing her plans for Velodyna to fruition."
+        ],
+        "objectives": [
+            "Speak with the Gridanian merchant.",
+            "Search for potential advisors in Ala Ghiri.",
+            "Report to Alpa.",
+            "Speak with Gales in Goodblade.",
+            "Speak with Gales in Castellum Velodyna.",
+            "Speak with Dakshina.",
+            "Use the marid's Trample ability on the warmachina wreckage in Castellum Corvi.",
+            "Speak with Gales in Castellum Velodyna."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "In order to undertake this quest, you must first complete the main scenario quest “The First of Many.”"
+            },
+            {
+                "name": "ALPA",
+                "text": "Good to sssee you, <span class=\"highlight\">Forename</span>! You know, I'd say our work is progresssing quite nicely. There's still time left, but even if Mother were to arrive tomorrow, I think she'd be impresssed!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Isn't it a bit early to be saying that?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "The work needs to be finished before she comes back. We'd have a hard time convincing your mother with the place as it is now."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Of course, the castellum is no longer under threat of demolition, and the griffin statues are very nice. But it's still more or less the same as when we arrived."
+            },
+            {
+                "name": "ALPA",
+                "text": "What about the old ssstorerooms we converted into overnight lodgings?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Yes, I was just getting to that. As you doubtless know from personal experience, <span class=\"highlight\">Forename</span>, this whole area is crawling with dangerous creatures, many of which are more active at night."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Adventurers and soldiers can hold their own against them, but merchants and returning refugees are easy targets. We'll be seeing a lot more of them now that the Garleans have withdrawn."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "That's why I suggested that we put down some beds in the old storerooms. I haven't actually had a look yet, but I'm sure Alpa took care of it. There are probably a few things that need improving, though."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "If we ask someone who's actually spent the night here, we can get their opinion."
+            },
+            {
+                "name": "ALPA",
+                "text": "That visitor from Gridania who ssslept here should still be about. Why don't we ssstart with him?"
+            },
+            {
+                "name": "MERCHANT03038",
+                "text": "Can I help you?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Having stayed overnight in our lodgings, would you say you ssslept well?"
+            },
+            {
+                "name": "MERCHANT03038",
+                "text": "I wasn't expecting to find anywhere to stay and I was full glad to be offered shelter. Otherwise, I'd have been traveling in the dark with only the beasts breathing down my neck to keep me warm!"
+            },
+            {
+                "name": "MERCHANT03038",
+                "text": "Having said that, I think it's a bit soon to be calling them “lodgings.” I would've appreciated something to lie on besides the floor."
+            },
+            {
+                "name": "ALPA",
+                "text": "The floor? I heard that travelers preferred to sssleep in proper beds so I had some brought over from Vira Nilya."
+            },
+            {
+                "name": "MERCHANT03038",
+                "text": "A bed? I didn't see anything like that."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Alpa? You did give them something to sleep on, didn't you?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Of course I did! Maybe it would be quicker if I just showed you. Wait here."
+            },
+            {
+                "name": "ALPA",
+                "text": "You had one of these in your room, didn't you?"
+            },
+            {
+                "name": "MERCHANT03038",
+                "text": "I did. Do you mean to say I'm supposed to sleep on <span class=\"emphasis\">that</span>?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Allow me to demonstrate."
+            },
+            {
+                "name": "ALPA",
+                "text": "That's it! Put it down over here!"
+            },
+            {
+                "name": "BORDERGUARDCORPS03038",
+                "text": "Yes, Captain!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Sssee?"
+            },
+            {
+                "name": "ALPA",
+                "text": "This is how we Ananta go to sssleep─ We just coil up like this and we're perfectly comfortable."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "You scaly-pated imbecile! Do you think we can “just coil up” like that? Get up, would you?"
+            },
+            {
+                "name": "ALPA",
+                "text": "&lt;sigh&gt; Fine..."
+            },
+            {
+                "name": "BORDERGUARDCORPS03038",
+                "text": "We'll help you, Captain Alpa!"
+            },
+            {
+                "name": "MERCHANT03038",
+                "text": "And on that note, I bid you all farewell."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "It's partly my fault, I suppose. I should've made sure that Alpa knew what a guest room actually <span class=\"emphasis\">is</span> first."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "To be honest, it's been a while since I stayed in a decent inn myself, so I'm probably not in any position to give proper advice. Any thoughts?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "We could head to a village with one and ask around?"
+            },
+            {
+                "name": "A1",
+                "text": "Nothing builds character like a cold, hard floor, I say."
+            },
+            {
+                "name": "ALPA",
+                "text": "I doubt our guestsss will be in the mood for any character-building after a long journey. Any other ideas?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Come to think of it, there are several inns for travelers in Ala Ghiri."
+            },
+            {
+                "name": "ALPA",
+                "text": "Good idea. We might find sssomeone who can come here to tell us what this place is misssing."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Let's head to the inns in Ala Ghiri."
+            },
+            {
+                "name": "ALPA",
+                "text": "I think I sssaw that merchant a few moments ago. He can't have gone far."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "You think we should ask him? No, not a good idea. Merchants tend to be a bit wary of us military types."
+            },
+            {
+                "name": "WEIDHERI",
+                "text": "Advice on accommodation? Sorry, I'm needed here for the time being. Might be worth asking around though."
+            },
+            {
+                "name": "JNAIROH",
+                "text": "You want me to go all the way to Castellum Velodyna? I'd love to help, but I've got my hands full here as it is."
+            },
+            {
+                "name": "GERBOD",
+                "text": "Lodgings, you say? You ought to try askin' people who used to work in Goodblade. 'Course, it's naught more than rubble now, so the old residents are lookin' to apply their trades elsewhere."
+            },
+            {
+                "name": "GERBOD",
+                "text": "A bloke called Gales used to run an inn there and he took pride in his work. You should find him still mopin' around there."
+            },
+            {
+                "name": "ALPA",
+                "text": "How goes the sssearch? I'm not having much luck."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "It turns out that everyone's busy trying to get Ala Ghiri back on its feet. They might have some useful information, though. Let's keep trying."
+            },
+            {
+                "name": "ALPA",
+                "text": "They can't <span class=\"emphasis\">all</span> be busy, can they?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Did you find anyone?"
+            },
+            {
+                "name": "ALPA",
+                "text": "A man named Gales? And he was an innkeeper? Perfect! Let's go and look for him!"
+            },
+            {
+                "name": "WEIDHERI",
+                "text": "Actually, I could use a hand here if you're free!"
+            },
+            {
+                "name": "JNAIROH",
+                "text": "Sorry I couldn't be more helpful."
+            },
+            {
+                "name": "GERBOD",
+                "text": "If you're heading over to Goodblade, watch your backs. There's all sorts of horrible things lurkin' about."
+            },
+            {
+                "name": "GALES",
+                "text": "What brings you to Goodblade? Or rather, what's left of it..."
+            },
+            {
+                "name": "GALES",
+                "text": "Oh, I see. You say my advice may prove beneficial? It's very kind of you to ask, but I should warn you─failure seems to follow me everywhere I go..."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "He's a ray of sunshine, isn't he?"
+            },
+            {
+                "name": "GALES",
+                "text": "Since the fall of Goodblade, I've tried working elsewhere. It never seems to last long because everyone takes such a disliking to me. I can't say I blame them. I'm no good to anyone."
+            },
+            {
+                "name": "ALPA",
+                "text": "But we heard you were a first-rate innkeeper! You should put that experience to good use by helping usss!"
+            },
+            {
+                "name": "GALES",
+                "text": "&lt;sigh&gt; If you say so. I'm just worried that I'll go all the way to the castellum only for you to change your minds and turn me away. It would be just my luck..."
+            },
+            {
+                "name": "ALPA",
+                "text": "We wouldn't do that. We need you! Let's head for the cassstellum. I'll explain more on the way."
+            },
+            {
+                "name": "ALPA",
+                "text": "Is that Gales?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Hopefully he'll be just what we're looking for!"
+            },
+            {
+                "name": "GALES",
+                "text": "Oi! You scrawny little turd! Are these supposed to be guest rooms!? It's an insult!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Is sssomething amiss, Gales?"
+            },
+            {
+                "name": "GALES",
+                "text": "You're bloody right something's amiss! Why would anyone torture themselves by sleeping in this shitehole? That bed's not fit for a chocobo! And that's another thing─ Where are the chocobos meant to stay?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "So this is why he has trouble keeping a job..."
+            },
+            {
+                "name": "ALPA",
+                "text": "All right, Gales, I hear you loud and clear! I'll do whatever it takes to turn this place around!"
+            },
+            {
+                "name": "GALES",
+                "text": "You know bugger all about how to treat guests, but you've got the right attitude! Let's get to work!"
+            },
+            {
+                "name": "GALES",
+                "text": "Like I was saying, there's nothing for chocobos at all, so we'll start with that. We need a stable and troughs for food and water. Oi! You over there! Is there any wood or metal we can use?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Not really, no. I know a few places we might be able to get some, though."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I'll arrange to have some timber collected. <span class=\"highlight\">Forename</span>, there should be some piles of scrap metal over at Castellum Corvi."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Don't worry─I'm not expecting you to lug it back here by yourself. The other Gatekeepers can take care of that. I just need you to prepare it for transport."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "We should have a marid crush it underfoot to break it into smaller pieces. If you speak with Dakshina, she should be able to get one ready. She's just outside the gate."
+            },
+            {
+                "name": "ALPA",
+                "text": "Gales is looking things over as we ssspeak. I was about to ask his opinion, but he seems a bit...different from before."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "It's hard to picture anyone being satisfied with Alpa's lodgings, never mind a professional."
+            },
+            {
+                "name": "DAKSHINA",
+                "text": "We Ananta have lived alongssside marids for generations. Do not fear. Their enormousss size belies their gentle nature."
+            },
+            {
+                "name": "DAKSHINA",
+                "text": "You wish to ride the marid? For what purpossse?"
+            },
+            {
+                "name": "DAKSHINA",
+                "text": "I sssee...crushing a few sssteel plates should pose no difficulty for a marid. They are even ssstronger than they look."
+            },
+            {
+                "name": "DAKSHINA",
+                "text": "Should you be ssseparated from the marid, it will return to me of its own volition. Once the work is complete, you may disssmount as you please."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Even a tamed marid can be dangerous if startled, so don't make any sudden moves or loud noises!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Once we're finished, you'll hardly recognize the place!"
+            },
+            {
+                "name": "GALES",
+                "text": "Now I'm really fired up!"
+            },
+            {
+                "name": "GUARDSOLDIER03038",
+                "text": "What strength! I wouldn't want to get on a marid's bad side, that's for sure."
+            },
+            {
+                "name": "GUARDSOLDIERTTWO03038",
+                "text": "We'll carry the scrap back to Castellum Velodyna. You can go ahead and wait with Gales and the others."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This scrap metal must be broken into smaller pieces before it can be carried away. Ride the marid and use its Trample ability to prepare the raw materials for transport."
+            },
+            {
+                "name": "DAKSHINA",
+                "text": "Do you wish to ride the marid again?"
+            },
+            {
+                "name": "GUARDSOLDIER03038",
+                "text": "J'olhmyn's explained the situation. We'll stay out of your way, so go ahead!"
+            },
+            {
+                "name": "GUARDSOLDIERTWO03038",
+                "text": "You get started. We'll deal with the scrap once you're done!"
+            },
+            {
+                "name": "GALES",
+                "text": "You're back! Where's the scrap?"
+            },
+            {
+                "name": "GALES",
+                "text": "It'll be here soon? I can't wait! I'll make the best chocobo stables you've ever bloody seen!"
+            },
+            {
+                "name": "GALES",
+                "text": "But first, I'll get Alpa to make some beds! And if she buggers it up, I'll have her guts for garters!"
+            },
+            {
+                "name": "GALES",
+                "text": "So, what do you think? Not bad, eh?"
+            },
+            {
+                "name": "ALPA",
+                "text": "I made all the sheets myself too! Weaving is another ssspecialty of the Ananta, you know. Compared to the headdresses and clothing we usually make, this was sssimple!"
+            },
+            {
+                "name": "ALPA",
+                "text": "To be honest, there's no point having a ssskill if you don't know what to do with it. That's why I'm glad Gales is here. I'd be lossst without his advice!"
+            },
+            {
+                "name": "GALES",
+                "text": "But I'm equally clueless when it comes to the Ananta! I've lived in Gyr Abania my whole life and I know next to nothing about them!"
+            },
+            {
+                "name": "GALES",
+                "text": "We may have our differences, but we share a common tongue. We can learn a lot from each other."
+            },
+            {
+                "name": "ALPA",
+                "text": "Yesss, I think so too."
+            },
+            {
+                "name": "ALPA",
+                "text": "You've really made a difference here, <span class=\"highlight\">Forename</span>. I'm sure I'll need your help when more people start passing through our gates."
+            },
+            {
+                "name": "ALPA",
+                "text": "That reminds me─ I should try out one of the new beds!"
+            },
+            {
+                "name": "GALES",
+                "text": "When I first met Alpa and heard she was captain of the Velodyna Gatekeepers, I didn't know what to expect. It was worth the journey though."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "(I'm glad he's calmed down a bit...)"
+            },
+            {
+                "name": "ALPA",
+                "text": "Ah! I guess it's not as sturdy as it looks..."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "&lt;sigh&gt; I just hope her mother doesn't show up now..."
+            },
+            {
+                "name": "GALES",
+                "text": "After what happened to Goodblade, I thought I was finished. Alpa asking me to come here could be the fresh start I've been looking for."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Guest rooms have been added to Castellum Velodyna."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Respected</span> reputation with the Vira."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "New Vira tribal daily quests are now available from Eshana at Castellum Velodyna."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you will be able to undertake three additional quests from Eshana as a reputation bonus. This bonus is available until the daily reset time for tribal quests."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These additional quests will become available after accepting all current daily quests from Eshana. Please be advised that you cannot undertake these quests if you have no remaining allowances."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You now have access to a wider selection of wares from Madhura."
+            },
+            {
+                "name": "ALPA",
+                "text": "I think you'll be pleasantly sssurprised!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Hopefully the wood I brought was up to snuff."
+            },
+            {
+                "name": "GUARDSOLDIER03038",
+                "text": "I always knew marids were strong but I've never seen anything like that before!"
+            },
+            {
+                "name": "GUARDSOLDIERTWO03038",
+                "text": "Let us handle this. I think Gales and the others could use your help."
+            }
+        ],
+        "reward": {
+            "gil": 1585
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68573
+            ]
+        },
+        "next": [
+            68575
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024771",
+            "obj": {
+                "i": 1024771,
+                "n": "Alpa",
+                "l": 2406,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024911",
+            "obj": {
+                "i": 1024911,
+                "n": "Gales",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020871",
+            "obj": {
+                "i": 1020871,
+                "n": "Weidheri",
+                "l": 2407,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021587",
+            "obj": {
+                "i": 1021587,
+                "n": "J'nairoh",
+                "l": 2407,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021591",
+            "obj": {
+                "i": 1021591,
+                "n": "Gerbod",
+                "l": 2407,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024779",
+            "obj": {
+                "i": 1024779,
+                "n": "J'olhmyn",
+                "l": 2406,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024903",
+            "obj": {
+                "i": 1024903,
+                "n": "Gridanian Merchant",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024904",
+            "obj": {
+                "i": 1024904,
+                "n": "Alpa",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024905",
+            "obj": {
+                "i": 1024905,
+                "n": "J'olhmyn",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024906",
+            "obj": {
+                "i": 1024906,
+                "n": "Alpa",
+                "l": 2407,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024907",
+            "obj": {
+                "i": 1024907,
+                "n": "J'olhmyn",
+                "l": 2407,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024908",
+            "obj": {
+                "i": 1024908,
+                "n": "Gales",
+                "l": 2407,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024909",
+            "obj": {
+                "i": 1024909,
+                "n": "Alpa",
+                "l": 2407,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024910",
+            "obj": {
+                "i": 1024910,
+                "n": "J'olhmyn",
+                "l": 2407,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024912",
+            "obj": {
+                "i": 1024912,
+                "n": "Dakshina",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024914",
+            "obj": {
+                "i": 1024914,
+                "n": "Forthright Gatekeeper",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024952",
+            "obj": {
+                "i": 1024952,
+                "n": "Alpa",
+                "l": 2406,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025326",
+            "obj": {
+                "i": 1025326,
+                "n": "Eager Gatekeeper",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68573",
+            "obj": {
+                "i": 68573,
+                "n": "Griffins Rampant",
+                "g": 52,
+                "l": "The Fringes",
+                "s": 2,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68575",
+            "obj": {
+                "i": 68575,
+                "n": "It Can Be Cruel Sometimes",
+                "g": 52,
+                "l": "The Fringes",
+                "s": 4,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,556 @@
+{
+    "quest": {
+        "name": "It's Probably a Trap",
+        "location": "Kugane",
+        "id": 68010,
+        "patch": 4.0,
+        "sort": 290,
+        "icon": 100646,
+        "eventIcon": 71201,
+        "issuer": 1020472,
+        "target": 1020476,
+        "involved": [
+            1019972,
+            1020464,
+            1020465,
+            1020466,
+            1020467,
+            1020468,
+            1020473,
+            1020474,
+            1020475,
+            1020477,
+            1020478,
+            1020479,
+            1020480
+        ],
+        "genre": 6,
+        "journal": [
+            "Lyse is about ready to give up.",
+            "Your search for passage across the Ruby Sea, as well as information regarding the whereabouts of Yugiri and Gosetsu, has come to a standstill. When presented with Alphinaud's masterful sketch, the few who do not refuse to answer your questions outright will tell you only that they turned the Roegadyn samurai away. Defeated, Lyse is poised to return to the Ruby Bazaar, before remembering a final name on the list provided by Hancock: Gyodo, a Namazu said to frequent the Shiokaze Hostelry.",
+            "The short and supercilious Gyodo claims not only to have met with your Doman friends, but to have helped them secure passage on a ship to Othard. He is more than willing to do the same for you, provided you can pay an exorbitant and undisclosed price. Though eager to proceed, Lyse says she needs time to consult with the others, and Gyodo duly agrees. He warns you to hurry, however, as all must be arranged by nightfall.",
+            "Back at the Ruby Bazaar, your all-too-promising lead is greeted with skepticism, for Gyodo and his ilk enjoy a less-than-stellar reputation. Your comrades quickly conclude that the Namazu is attempting to lure you into a trap...and that for lack of a better plan, you may as well spring it.",
+            "The plan is simple: you will accompany Alisaie and Lyse to the Tasogare Bridge, where you will meet with Gyodo as agreed, while Alphinaud observes from a distance. Should anything untoward happen, you will return to the Ruby Bazaar with all haste, making every effort to avoid an altercation with the Sekiseigumi.",
+            "Gyodo's sudden but inevitable betrayal comes as no surprise, but the enthusiasm with which Lyse boots him into the air does. Though you have little to fear from the ambushers themselves, the city full of samurai drawn by the sounds of your struggle could present a problem...",
+            "Perhaps suspecting you of being the agents of foreign powers, the Sekiseigumi dispatch several patrols to the Ijin District, preventing you from reaching the safety of the Ruby Bazaar. All seems lost until a mysterious Kojin appears and bids you hide while he directs your pursuers to another part of the city. Your path now clear, you return to Hancock, and at last learn the identity of your savior: Soroban, a Kojin of the Blue. The jovial beastman duly confesses that he did not aid you wholly out of the kindness of his heart. A merchant by trade, he seeks to broker an agreement with Hancock, who is more than happy to do so. All the while, the unconscious Gyodo that Lyse carried on her shoulder to the Ruby Bazaar twitches...but you will have your answers from him soon enough.",
+            "Though plainly still annoyed by the whole affair, Lyse seems satisfied that she managed to bring Gyodo back alive. That said, it may be prudent not to leave her alone with the Namazu, lest she be tempted to find out how much further she can kick him..."
+        ],
+        "objectives": [
+            "Speak with Gyodo.",
+            "Speak with Alphinaud at the Ruby Bazaar.",
+            "Speak with Alisaie.",
+            "Wait with Alisaie and Lyse on the Tasogare Bridge.",
+            "Speak with Lyse."
+        ],
+        "dialogue": [
+            {
+                "name": "LYSE",
+                "text": "Well, I suppose we might as well head back to─ Wait! I've just remembered!"
+            },
+            {
+                "name": "LYSE",
+                "text": "There was someone on my list I forgot to visit: Gyodo."
+            },
+            {
+                "name": "LYSE",
+                "text": "He's a “Namazu” fisherman─whatever that means─and a regular here. Maybe we'll find him if we look around?"
+            },
+            {
+                "name": "LYSE",
+                "text": "(When I asked Kotokaze what “Namazu” meant, she said it was Hingan for catfish. And there I was thinking she'd said “fish<span class=\"emphasis\">er</span>man”!)"
+            },
+            {
+                "name": "GYODO",
+                "text": "...What, what? Why do you stare? You have business with me?"
+            },
+            {
+                "name": "LYSE",
+                "text": "By the Twelve, a talking fish!"
+            },
+            {
+                "name": "GYODO",
+                "text": "Yes, yes, a talking fish. How very observant of you, ijin. &lt;sigh&gt; You find me in good spirits, so your rudeness I will ignore this once─but only if you address me again in the proper manner."
+            },
+            {
+                "name": "LYSE",
+                "text": "Sorry, I've never met a─ Let's start again. You're Gyodo, right? My name is Lyse, and this is <span class=\"highlight\">Forename</span>. We're looking for some friends of ours..."
+            },
+            {
+                "name": "GYODO",
+                "text": "I see, I see... Both these ones I know well. I helped them secure passage across the Ruby Sea."
+            },
+            {
+                "name": "LYSE",
+                "text": "Really? That's wonderful! Could you do the same for us?"
+            },
+            {
+                "name": "GYODO",
+                "text": "Yes, yes, this would not be a problem. For you, I could charter a ship this very day."
+            },
+            {
+                "name": "GYODO",
+                "text": "But the journey is fraught with much peril! The fare will not be cheap. Are you sure you can afford to pay?"
+            },
+            {
+                "name": "LYSE",
+                "text": "I didn't think to bring any money...but surely Tataru will let us take whatever we need from the Scions' coffers, right?"
+            },
+            {
+                "name": "LYSE",
+                "text": "We wouldn't be the only passengers, though... Could we take a moment to talk it over with our friends?"
+            },
+            {
+                "name": "GYODO",
+                "text": "Yes, yes, but hurry! Your ship must depart under cover of darkness. We shall meet again at sunset on the Tasogare Bridge. Do not forget your fare! Bring many gil, yes!?"
+            },
+            {
+                "name": "LYSE",
+                "text": "It's about time our luck changed! Alphinaud and the others will be thrilled!"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Welcome back. We ourselves returned but a moment ago."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "I hope my information was of value?"
+            },
+            {
+                "name": "TATARU",
+                "text": "You wouldn't <span class=\"emphasis\">believe</span> some of the things you can find down at the markets! We're spoiled for choice here!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We spoke with a number of merchants and captains at the southern piers."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Several recognized Gosetsu and confirmed that he had been searching for a vessel to deliver him to Othard. None, however, made any mention of Lady Yugiri..."
+            },
+            {
+                "name": "LYSE",
+                "text": "Yes, it was the same story for us─and then you'll never believe what happened...!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "...So this Gyodo claims to have aided both Gosetsu and Yugiri? How fortuitous."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Not the word I would have chosen, Master Alphinaud."
+            },
+            {
+                "name": "TATARU",
+                "text": "Stupid's what I'd call it! How can you agree to his price without making any attempt to haggle? Or even confirming what it was in the first place!?"
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Yes...that <span class=\"emphasis\">too</span> was a misstep on their part, but it is not what troubles me most. Gyodo and his brethren are not renowned for their generosity of spirit. Rather, they are disdained as scheming moneylenders, ever eager to turn a profit from others' misfortune."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Everyone else we questioned stated that Gosetsu was alone. Only Gyodo claims to have met both him and Yugiri..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I suppose it's just possible that Gosetsu made inquiries by himself, and only called upon Yugiri once he had found a willing captain...?"
+            },
+            {
+                "name": "HANCOCK",
+                "text": "...But it is equally possible─if not more likely─that you are being deceived. Do not forget that there are parties present in Kugane with agendas which may run contrary to your own."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "The viceroy was once a spy herself, as I recall. I should be surprised if she did not have countless agents here in her employ─all eager to prove themselves to their new master. And what better way to do so than by delivering her the heads of foreign insurgents?"
+            },
+            {
+                "name": "LYSE",
+                "text": "Fine. You may be right about him. But if Gyodo's working for the Empire, who's to say he didn't try the same trick on Yugiri and Gosetsu? I mean, if he <span class=\"emphasis\">did</span>, he might know where they are. And if he <span class=\"emphasis\">succeeded</span>, they might be in trouble!"
+            },
+            {
+                "name": "LYSE",
+                "text": "Anyway, if he holds up his end of the bargain, we'll have nothing to worry about, will we? But if he tries to betray us, I vote we take him prisoner and punch him till he tells us the truth."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "So, if it's a trap, we'll spring it and deal with the consequences. Hmm...I like the way you think."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "&lt;sigh&gt; Very well... We should prepare for the worst. Tataru will remain here, and I shall follow the three of you at a discreet distance."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Once more, I must caution you to avoid physical altercations at all costs─even should imperial agents attempt to engage you. The Sekiseigumi will not hesitate to clap you in irons...or cut you down."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "If anything untoward should happen, you are to return here at once. Is that clear?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Rest assured, I will not be far behind, <span class=\"highlight\">Forename</span>. While I am no shinobi, I can keep to the shadows when necessary."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "The Sekiseigumi are not to be trifled with. Rare is the week that I do not hear at least one tale of an ijin being arrested under dubious pretext. Fortunately, a wealthy and well-connected ally can help resolve such matters with the minimum of fuss."
+            },
+            {
+                "name": "LYSE",
+                "text": "And there I was thinking Gyodo was just being nice. I tell you now, if Hancock's right about all of this, that fish is getting filleted."
+            },
+            {
+                "name": "TATARU",
+                "text": "I had a feeling we might find ourselves in a situation like this, so I made sure to stock up on some “special supplies” that I thought might prove useful. Alisaie has them, in case you're wondering."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "To review: Lyse, <span class=\"highlight\">Forename</span>, and I will meet with Gyodo as planned."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Alphinaud will keep watch from a distance, ready to provide support in the likely event that Gyodo attempts to betray us to the imperials or whomever else."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Should that happen, you and Lyse will subdue him, and together we will make our escape."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "As our actions will surely draw the attention of the Sekiseigumi, we will evade them with Alphinaud's assistance and return here with our prisoner. Does that meet with everyone's approval?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Of course, these precautions will be for naught if Gyodo does not play us for fools...but we shall see. To the bridge!"
+            },
+            {
+                "name": "LYSE",
+                "text": "...It's a trap, isn't it. We may as well stop kidding ourselves."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Our would-be ally is nowhere to be seen... Make ready, <span class=\"highlight\">Forename</span>. Something smells...fishy..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "All things considered, that went rather well. Thanks to Soroban, that is."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Though we Kojin are of the sea, we often come ashore to sell our wares and peruse your markets. It is my hope that an arrangement with the East Aldenard Trading Company will help us to more quickly obtain the treasures that we seek."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "You are doubtless wondering why our objectively <span class=\"emphasis\">green</span>-hued friend here refers to himself as a Kojin of the Blue. The answer is quite fascinating, really. The Kojin language has many similarities with ancient Hingan, you see, and in ancient Hingan, the word for green, “ao,” can mean green and or blue─though I do the word a disservice by even attempting to translate it, so steeped in meaning as it is. Why they elected to keep on calling themselves the “blue” in modern times is anyone's guess─I for one would have much preferred “Kojin of the Ao”─but one theory posits that they prefer the sound of the word “blue” when spoken. Another is that they are physically incapable of distinguishing between the two, which would have interesting implications in their everyday lives..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "There's no denying that they were imperials. They were wearing the same uniforms as the ones outside the consulate."
+            },
+            {
+                "name": "LYSE",
+                "text": "I'm still annoyed he tried to deceive us, but at least we were prepared for it."
+            },
+            {
+                "name": "LYSE",
+                "text": "Even so, next time we should probably try to avoid running around Kugane in the middle of the night with half the city guard snapping at our heels..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "As expected, the Sekiseigumi have caught our scent. Since fighting them is out of the question, we'll have to wind our way back to the Ruby Bazaar, evading their patrols as we go."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "If they find you, use these smoke bombs to make your escape!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Use the <span class=\"highlight\">smoke bombs</span> to evade the patrols. Be warned that attacking the Sekiseigumi will result in failure."
+            }
+        ],
+        "reward": {
+            "gil": 2070,
+            "items": [
+                {
+                    "id": 18051,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18057,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18063,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18075,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5673,
+                    "one": 1
+                }
+            ],
+            "xp": 175500
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 61,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68009
+            ]
+        },
+        "next": [
+            68011
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1020472",
+            "obj": {
+                "i": 1020472,
+                "n": "Lyse",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020476",
+            "obj": {
+                "i": 1020476,
+                "n": "Lyse",
+                "l": 2404,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019972",
+            "obj": {
+                "i": 1019972,
+                "n": "Lyse",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020464",
+            "obj": {
+                "i": 1020464,
+                "n": "Hancock",
+                "l": 2927,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020465",
+            "obj": {
+                "i": 1020465,
+                "n": "Alphinaud",
+                "l": 2927,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020466",
+            "obj": {
+                "i": 1020466,
+                "n": "Tataru",
+                "l": 2927,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020467",
+            "obj": {
+                "i": 1020467,
+                "n": "Lyse",
+                "l": 2927,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020468",
+            "obj": {
+                "i": 1020468,
+                "n": "Alisaie",
+                "l": 2927,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020473",
+            "obj": {
+                "i": 1020473,
+                "n": "Gyodo",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020474",
+            "obj": {
+                "i": 1020474,
+                "n": "Lyse",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020475",
+            "obj": {
+                "i": 1020475,
+                "n": "Alisaie",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020477",
+            "obj": {
+                "i": 1020477,
+                "n": "Alphinaud",
+                "l": 2404,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020478",
+            "obj": {
+                "i": 1020478,
+                "n": "Alisaie",
+                "l": 2404,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020479",
+            "obj": {
+                "i": 1020479,
+                "n": "Soroban",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020480",
+            "obj": {
+                "i": 1020480,
+                "n": "Hancock",
+                "l": 2404,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "18051",
+            "obj": {
+                "i": 18051,
+                "n": "High Steel Armguards of Fending",
+                "l": 255,
+                "c": 48674,
+                "t": 37,
+                "p": 19994
+            }
+        },
+        {
+            "type": "item",
+            "id": "18057",
+            "obj": {
+                "i": 18057,
+                "n": "High Steel Armguards of Maiming",
+                "l": 255,
+                "c": 48675,
+                "t": 37,
+                "p": 19994
+            }
+        },
+        {
+            "type": "item",
+            "id": "18063",
+            "obj": {
+                "i": 18063,
+                "n": "Bloodhempen Armguards of Striking",
+                "l": 255,
+                "c": 44588,
+                "t": 37,
+                "p": 19994
+            }
+        },
+        {
+            "type": "item",
+            "id": "18075",
+            "obj": {
+                "i": 18075,
+                "n": "Bloodhempen Armguards of Scouting",
+                "l": 255,
+                "c": 44589,
+                "t": 37,
+                "p": 19994
+            }
+        },
+        {
+            "type": "item",
+            "id": "5673",
+            "obj": {
+                "i": 5673,
+                "n": "Savage Aim Materia V",
+                "l": 160,
+                "c": 20258,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68009",
+            "obj": {
+                "i": 68009,
+                "n": "A Good Samurai Is Hard to Find",
+                "g": 6,
+                "l": "Kugane",
+                "s": 280
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68011",
+            "obj": {
+                "i": 68011,
+                "n": "Making the Catfish Sing",
+                "g": 6,
+                "l": "Kugane",
+                "s": 300
+            }
+        }
+    ]
+}

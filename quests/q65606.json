@@ -1,0 +1,635 @@
+{
+    "quest": {
+        "name": "To Catch a Poacher",
+        "location": "Gridania",
+        "id": 65606,
+        "patch": 2.0,
+        "sort": 200,
+        "icon": 100048,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000200,
+        "target": 1000200,
+        "involved": [
+            1000590,
+            1000731,
+            1000732
+        ],
+        "genre": 131,
+        "journal": [
+            "Guildmaster Luciane wants you to go to Buscarron's Druthers.",
+            "The Archers' Guild has received a petition from a man named Buscarron, who runs a tavern in the South Shroud. Take yourself to Buscarron's Druthers and speak with the proprietor.",
+            "Buscarron asks you to investigate a gang of poachers who he believes are led by the infamous Pawah Mujuuk. Search the forest for any clues to their whereabouts.",
+            "You discover several suspicious objects in the forest northwest of Buscarron's Druthers. Return to the tavern and share your findings with Leih and Silvairre.",
+            "Silvairre suspects that the bottles were taken from Buscarron's famous cache of home-brewed mead, thought lost in the fall of his former guard post. Investigate Buscarron's Scar for signs of recent activity.",
+            "At Buscarron's Scar, you are ambushed by Pawah Mujuuk and her gang of poachers. A skirmish ensues, during which you successfully repel the enemy. Bear word of this to Buscarron, who awaits you back at the Druthers.",
+            "Clearly nettled by the thought of the poachers helping themselves to his prized mead, Buscarron takes great pleasure in the tale of their comeuppance. With the situation under control, you can now return to the Archers' Guild and report all that transpired to Luciane.",
+            "At the Archers' Guild, Luciane praises you for your outstanding service at Buscarron's Scar. She then thanks you for helping Leih and Silvairre to cooperate, and bids you continue working for the benefit of the guild. Your efforts thus validated, you resume your training with heretofore unseen fervor.<br><br>※The next archer quest will be available from Luciane upon reaching level 25."
+        ],
+        "objectives": [
+            "Speak with Buscarron.",
+            "Search for clues.",
+            "Consult with Leih and Silvairre.",
+            "Investigate Buscarron's Scar.",
+            "Report to Buscarron.",
+            "Report to Luciane.",
+            "Defeat the poachers!"
+        ],
+        "dialogue": [
+            {
+                "name": "LUCIANE",
+                "text": "You come at a good time, <span class=\"highlight\">Forename</span>. I have a task for you."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "A petition has arrived from the proprietor of Buscarron's Druthers, out in the South Shroud."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "The petitioner, Buscarron himself, has requested our assistance in dealing with a gang of poachers. I would have the three of you meet with him and investigate his claims."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "The <span class=\"emphasis\">three</span> of us? You mean, <span class=\"highlight\">Forename</span>, myself, and...?"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "It would be better if I went alone, Luciane. The Miqo'te and...the other one will only encumber me."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "No, Silvairre, you will go as three. Also, it is past time you recognized <span class=\"highlight\">Forename</span> as a fellow archer."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "I will not. I have held my tongue on the matter of <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> continued presence here, but I will bend no further."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "Who in the seven hells do you think you are─Bowlord Lewin!? In case you've forgotten, you aren't even a Quiverman anymore!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "That may be, but I have shed blood defending our borders─unlike you, savage."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "\"Savage“!? You know <span class=\"emphasis\">nothing</span> about me, you bigoted son of a─"
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Enough!"
+            },
+            {
+                "name": "LUCIANE",
+                "text": "But one more word and you shall have cause to regret your petulance. The three of you <span class=\"emphasis\">will</span> go to Buscarron's Druthers in the South Shroud. Now, out of my sight!"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Ah, you lot must be from the Archers' Guild. Welcome, friends."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Now, as your guildmaster will have said, I put in a request for some keen-eyed archers to help me track down a gang of poachers that've been plaguing these parts."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "If I may─it is not uncommon to find poachers in this region. While regrettable, neither the Gods' Quiver nor the Wood Wailers deem them worthy of attention. Why, then, did you imagine them worthy of ours?"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "'Cause these ain't no common poachers. They're Pawah Mujuuk's gang."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "..."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "They say she and hers are always moving, staying one step ahead. But I reckon she's hiding out here somewhere."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Thing is, I can't just send my people out searching. I made a pact with the Redbelly bandits, see─we stay out of their territory, and they don't make no trouble at the Druthers."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "That being so, if I summoned the massed ranks of the Wailers and the Quivermen, all seven hells would swiftly break loose...assuming they thought the matter <span class=\"emphasis\">worthy of their attention</span>, of course. Needless to say, that's not an option. As luck would have it, though, I've got three keen-eyed archers to take care of things instead─and all without raising no alarms."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "...We understand. You may leave the matter to us."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Leih, <span class=\"highlight\">Forename</span>─split up and scour the area for any sign of the poachers."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Should you discover anything, return here and wait. We will reconvene to compare our findings ere long. Go."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "An iron leg trap and a poacher's arrow... These are both evidence of illegal activity, but nothing that will help us find Pawah."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "And these mead bottles are but old refuse, from before the Druthers was even built. They have no connection to the gang."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "...What do you know of this Pawah woman, Silvairre?"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "I know that she is the most infamous poacher ever to walk the Twelveswood."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "A born leader, deadly with the bow, she formed her own gang of Miqo'te hunters."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "She was apprehended once, and would have been brought to justice...had she not tricked a foolish young sentry into releasing her, before vanishing without a trace."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "...Is that so?"
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "In any case, we've scoured the area and found nothing. How do we know that this Pawah was ever even here?"
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "I say we inform the Gods' Quiver and the Wood Wailers, taking care not to implicate Buscarron, and leave the rest to them. This doesn't concern the Archers' Guild."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "It concerns <span class=\"emphasis\">Gridania</span>, Leih! Pawah Mujuuk is a savage and utterly amoral poacher whose actions, however indirectly, threaten the city's well-being."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "But what would a vagrant like you know of duty to one's homeland? No more than <span class=\"emphasis\"><span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span></span>, I suspect."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "How dare you! And you, <span class=\"highlight\">Forename</span>─say something!"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Now is not the time for this!"
+            },
+            {
+                "name": "A1",
+                "text": "..."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "You see? Even <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> knows it to be true. <span class=\"alternative-container\"><span class=\"alternative\">Her</span><span class=\"alternative\">His</span></span> silence speaks volumes."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "Damn it, <span class=\"highlight\">Forename</span>─say something!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Hmph. Very well. We will return to the matter at hand. Mayhap we should take a second look at the clues we have gathered."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "Look all you want. Though the trap and the arrow we found suggest poaching, there is nothing remotely unusual about them."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "What do <span class=\"emphasis\">you</span> think we should examine, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you examine?"
+            },
+            {
+                "name": "A2",
+                "text": "The poacher's arrow."
+            },
+            {
+                "name": "A2",
+                "text": "The iron leg trap."
+            },
+            {
+                "name": "A2",
+                "text": "The empty mead bottles."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "We know that this is a poacher's arrow. Beyond that, it tells us nothing."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "This trap is a common tool used for hunting beasts."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Such devices do not distinguish between friend and foe, and have been the cause of much tragedy for both man and chocobo. Gridanian hunters would never stoop so low."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Poachers, meanwhile, are wont to litter the forest floor with these accursed things. That said, I see nothing here that will lead us to Pawah."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Why are you still carrying that rubbish? I told you, those bottles predate the Druthers. They have no connection with this matter."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "...But if these bottles are so old, why do they retain the scent of mead? They must surely have been opened recently."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Wait. Before the Calamity, Buscarron once served as a sentry. Yet even then, he sometimes spoke of owning his own tavern...and it was an open secret that he was brewing his own private stock. If some survived..."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Of course! Buscarron's Scar─his old lookout post!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "It may not be Pawah Mujuuk, but we must investigate at once!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Any signs?"
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "Look─the ground is covered in Miqo'te footprints."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "These tracks are fresh─<span class=\"emphasis\">very</span> fresh. I'll wager the bandits were alerted to our coming and fled...else they're hiding near─"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Take cover!"
+            },
+            {
+                "name": "PAWAHMUJUUK",
+                "text": "...Eh? An' there I was thinkin' we'd caught usselves some o' them meddlin' bloody masqueraders..."
+            },
+            {
+                "name": "PAWAHMUJUUK",
+                "text": "Not that I'm complainin'─hidin' yer face's downright bloody <span class=\"emphasis\">rude</span> when ye ain't been introduced."
+            },
+            {
+                "name": "PAWAHMUJUUK",
+                "text": "Speakin' of ill manners, don't ye know it ain't decent to barge yer way into a lady's bedchamber without knockin'!?"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "...You would lecture us on manners? Truly, I have heard it all."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "They have us outnumbered. We had best split up."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "The leader's mine! I'll try to isolate her from her litter!"
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "Silvairre, <span class=\"highlight\">Forename</span>─the rest I leave to you two."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "As you will."
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Was that the last of them?"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Have you seen Aliapoh?"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "With me, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "PAWAHMUJUUK",
+                "text": "Tsk-tsk. That was a piss-poor showin', sister."
+            },
+            {
+                "name": "PAWAHMUJUUK",
+                "text": "An' ye call yerself a Keeper? A hunter with no fangs ain't nothin' but <span class=\"emphasis\">prey</span>."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "No!"
+            },
+            {
+                "name": "PAWAHMUJUUK",
+                "text": "Awww, bugger. Looks like playtime's over."
+            },
+            {
+                "name": "PAWAHMUJUUK",
+                "text": "Be seein' ye, sister!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "So it was Pawah Mujuuk after all. Buscarron must be informed."
+            },
+            {
+                "name": "LEIHALIAPOH",
+                "text": "Pawah Mujuuk... I...I was no match for her..."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Seven hells! They were at my old post? And they drank my old mead!?"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "That stings most of all... Well, 'tis past time the proper authorities were informed. I'll send messengers to the Wood Wailers and Gods' Quiver."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "The Redbelly bandits won't like it one bit, but I'll see they're told exactly who the military is after. I only hope it'll be enough..."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "'Course, Pawah Mujuuk's no fool. Now she knows she's been spotted, she'll break camp and be long gone by the time the next bell sounds. And the trail won't stay fresh long, neither..."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Anyway, you've done me a great kindness, friends. Tell Luciane I appreciate the help."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. Silvairre tells me that you encountered Pawah Mujuuk."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "No Gridanian could fail to recognize that name, so oft has it been spoken, and with such bitterness."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "I fear we lack the strength to face her ourselves. This is a matter for the Gods' Quiver and Wood Wailers."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "That you confronted her and survived is a testament to your growing mastery of our art. Ah, and I was surprised to note that Leih and Silvairre were not at loggerheads upon their return. I presume we owe this unnatural state of affairs to your calming influence?"
+            },
+            {
+                "name": "LUCIANE",
+                "text": "...No? Modest to the last. Truly, your every deed bespeaks a clarity of vision far beyond your years."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "I implore you to share that perspective with your peers and help them to grow into better, wiser archers."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "As you go forth and temper your skills in battle, know that we always look forward to your return."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "INSTANCE",
+                "text": "Duty calls. Do you wish to proceed with<br>“To Catch a Poacher”?"
+            },
+            {
+                "name": "INSTANCE",
+                "text": "Yes"
+            },
+            {
+                "name": "INSTANCE",
+                "text": "No"
+            },
+            {
+                "name": "UNNOWN",
+                "text": "For Pawah! Get the bastards!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Focus on my target, <span class=\"highlight\">Forename</span>! We can take them down faster if we work together!"
+            },
+            {
+                "name": "UNNOWN",
+                "text": "Don't let them get away!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "We cannot allow that conjurer to draw this out!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Remember your techniques! Finish her quickly while she is weak!"
+            },
+            {
+                "name": "UNNOWN",
+                "text": "Bloody hells! Why won't you two die!?"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Stay on your toes, <span class=\"highlight\">Forename</span>! This lot is quicker than the rest!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Watch their movements and dodge their attacks!"
+            },
+            {
+                "name": "SILVAIRRE",
+                "text": "Ugh... Hmph..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 1899
+                },
+                {
+                    "id": 3043,
+                    "one": 1
+                },
+                {
+                    "id": 2708,
+                    "one": 1
+                },
+                {
+                    "id": 3559,
+                    "one": 1
+                },
+                {
+                    "id": 3791,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4060
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 6
+                }
+            ],
+            "quests": [
+                65604
+            ]
+        },
+        "next": [
+            65607
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000200",
+            "obj": {
+                "i": 1000200,
+                "n": "Luciane",
+                "l": 52,
+                "q": 13,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000590",
+            "obj": {
+                "i": 1000590,
+                "n": "Buscarron",
+                "l": 56,
+                "q": 14,
+                "t": "Alehouse Proprietor"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000731",
+            "obj": {
+                "i": 1000731,
+                "n": "Silvairre",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000732",
+            "obj": {
+                "i": 1000732,
+                "n": "Leih Aliapoh",
+                "l": 56,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "1899",
+            "obj": {
+                "i": 1899,
+                "n": "Elm Velocity Bow",
+                "l": 21,
+                "c": 32209,
+                "t": 4,
+                "p": 1514
+            }
+        },
+        {
+            "type": "item",
+            "id": "3043",
+            "obj": {
+                "i": 3043,
+                "n": "Goatskin Jacket",
+                "l": 20,
+                "c": 43030,
+                "t": 35,
+                "p": 877
+            }
+        },
+        {
+            "type": "item",
+            "id": "2708",
+            "obj": {
+                "i": 2708,
+                "n": "Iron Sallet",
+                "l": 20,
+                "c": 40022,
+                "t": 34,
+                "p": 708
+            }
+        },
+        {
+            "type": "item",
+            "id": "3559",
+            "obj": {
+                "i": 3559,
+                "n": "Goatskin Armguards",
+                "l": 20,
+                "c": 48324,
+                "t": 37,
+                "p": 630
+            }
+        },
+        {
+            "type": "item",
+            "id": "3791",
+            "obj": {
+                "i": 3791,
+                "n": "Goatskin Leg Guards",
+                "l": 20,
+                "c": 46321,
+                "t": 38,
+                "p": 720
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65604",
+            "obj": {
+                "i": 65604,
+                "n": "Violators Will Be Shot",
+                "g": 131,
+                "l": "Gridania",
+                "s": 150,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65607",
+            "obj": {
+                "i": 65607,
+                "n": "Homecoming",
+                "g": 131,
+                "l": "Gridania",
+                "s": 250,
+                "f": 1
+            }
+        }
+    ]
+}

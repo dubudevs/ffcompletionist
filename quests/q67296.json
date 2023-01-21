@@ -1,0 +1,103 @@
+{
+    "quest": {
+        "name": "Baby Steps",
+        "location": "Coerthas Western Highlands",
+        "id": 67296,
+        "patch": 3.0,
+        "sort": 5104,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1011907,
+        "target": 1011907,
+        "genre": 94,
+        "journal": [
+            "Jantellot wants you to experience firsthand what life at the Convictory is like.",
+            "Jantellot wants you to know what life is like at the Convictory, and suggests a bit of hunting as an example. Though the Convictors slay dragons, Jantellot recommends a warm-up before confronting the Dravanian Horde itself. He suggests hunting rheums instead. Locate and slay three rheums.",
+            "You venture out into the highlands and slay the rheums as instructed. Return to Jantellot at the Convictory and let him know that you are ready for something a bit more draconic.",
+            "Jantellot congratulates you on your kills. It seems that the rheums were no match for you. But dragons are another thing altogether. He suggests you speak with him again some time if you want to try your hand at the real thing."
+        ],
+        "objectives": [
+            "Slay rheums.",
+            "Report to Jantellot."
+        ],
+        "dialogue": [
+            {
+                "name": "JANTELLOT",
+                "text": "I remember you─how could I forget? You're the <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span> who was in the Azure Dragoon's company! Since you are here anyway, perhaps you might like to try your hand at a spot of hunting before you depart? See for yourself what life is like for us Convictors."
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "The Dravanian Horde is stronger than you might expect. Unless you've been at it for years─like I have─I think it prudent to start with something simple and then work your way up to dragons. I suggest rheums. Slay three of those, then come back here. Consider it a warm-up!"
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "The Horde has claimed more than a few overconfident young soldiers. Best to start with something a little safer: kill three rheums and then come back to me."
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "Slain those rheums already, have you? How did you find them? Did they put up much of a fight?"
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "Good work, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>! Clearly the Azure Dragoon doesn't travel with mere amateurs. It sounds like those rheums barely put up enough of a fight to be considered a proper warm-up!"
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "You clearly know what you're doing. If you want to try your hand at hunting down some dragons, speak with me again some time."
+            }
+        ],
+        "reward": {
+            "gil": 496,
+            "aetherCurrent": 1,
+            "xp": 25200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67142
+            ]
+        },
+        "next": [
+            67297
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011907",
+            "obj": {
+                "i": 1011907,
+                "n": "Jantellot",
+                "l": 2200,
+                "q": 12
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67142",
+            "obj": {
+                "i": 67142,
+                "n": "Sounding Out the Amphitheatre",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 27
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67297",
+            "obj": {
+                "i": 67297,
+                "n": "Baby Strides",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5106
+            }
+        }
+    ]
+}

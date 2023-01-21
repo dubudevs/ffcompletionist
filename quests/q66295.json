@@ -1,0 +1,204 @@
+{
+    "quest": {
+        "name": "Prickly Patients",
+        "location": "Southern Thanalan",
+        "id": 66295,
+        "patch": 2.0,
+        "sort": 250,
+        "eventIcon": 71221,
+        "issuer": 1006211,
+        "target": 1006211,
+        "involved": [
+            1006212,
+            1006213,
+            1006214,
+            1006216
+        ],
+        "genre": 93,
+        "journal": [
+            "Hihira wonders if there might be another remedy the refugees might accept.",
+            "Hihira suspects that suffering Ala Mhigans have refused her treatment due to the medicine's Ul'dahn origins. Seek out the old man Alfan on Hihira's behalf and see if there is no other remedy the villagers might accept.",
+            "Alfan confirms Hihira's suspicions─that his neighbors are distrustful of Ul'dahn alchemical concoctions─and shares the recipe for a traditional Ala Mhigan remedy. Head without the encampment and slay five sabotenders, collecting their succulent fruit as you go.",
+            "You have obtained five sabotender fruits. Deliver them to Hihira.",
+            "With the sabotender fruits you procured, Hihira has brewed a pot of the traditional Ala Mhigan remedy. Deliver it to the suffering residents.",
+            "The three sick Ala Mhigans, albeit with some reluctance, have partaken of Hihira's remedy. Report your success to Hihira.",
+            "While encouraged by the Ala Mhigans' willingness to put prejudice aside and accept her medicine, Hihira is aware that true understanding and acceptance will not be so easily won."
+        ],
+        "objectives": [
+            "Speak with Alfan.",
+            "Slay sabotenders and obtain their fruits.",
+            "Deliver the sabotender fruits to Hihira.",
+            "Deliver the cactus tea to the suffering refugees.",
+            "Report to Hihira."
+        ],
+        "dialogue": [
+            {
+                "name": "HIHIRA",
+                "text": "After giving the matter some thought, it has struck me that perhaps it is not <span class=\"emphasis\">me</span> that the refugees so distrust, but rather the medicine itself."
+            },
+            {
+                "name": "HIHIRA",
+                "text": "The Ala Mhigans are wary of outsiders, this is true. Yet I suspect it is the thought of ingesting an alchemical concoction of Ul'dahn make that frightens them most of all."
+            },
+            {
+                "name": "HIHIRA",
+                "text": "A naive girl's wishful thinking, perhaps, but it is the only hope I have. There is a kindly old refugee by the name of Alfan─the only one thus far to accept my treatment. Might you speak with him and ask if there is any truth to my theory?"
+            },
+            {
+                "name": "ALFAN",
+                "text": "Hail there, young one. What brings one as hale and hearty as yerself to this godsforsaken place?"
+            },
+            {
+                "name": "ALFAN",
+                "text": "Ah, Hihira. In me years, I've seen many an outsider come and go, but none quite like that girl."
+            },
+            {
+                "name": "ALFAN",
+                "text": "I don't begrudge me countrymen their judgments, o' course─gods know they've seen Ul'dah at its worst. But it's clear even to me clouded ol' eyes that the girl means well, and I can't bring meself to scorn her good intentions."
+            },
+            {
+                "name": "ALFAN",
+                "text": "But forgive me, you were askin' about medicine, were ye not? We Ala Mhigans aren't much fer alchemy, but we've got our fair share o' remedies passed down through the years. Steep the fruit of a sabotender in hot water, fer instance, and ye get a tea that'll soothe the worst o' fevers."
+            },
+            {
+                "name": "ALFAN",
+                "text": "Call it an old man's hunch, but I've a feelin' that even the most stubborn o' me countrymen would gladly down a cup o' cactus tea, even if it were the Ul'dahn lass who did the brewin'."
+            },
+            {
+                "name": "DUMMYTODO",
+                "text": "//kill five sabotenders, get fruit"
+            },
+            {
+                "name": "HIHIRA",
+                "text": "A traditional Ala Mhigan remedy made from steeping the fruit of a sabotender in hot water? Why, I had no idea! I owe Alfan my gratitude."
+            },
+            {
+                "name": "HIHIRA",
+                "text": "One, two, three cups of cactus tea! Oh, I do hope I've not overbrewed this... Please, friend, deliver the tea to the suffering refugees."
+            },
+            {
+                "name": "BEROLD",
+                "text": "&lt;wheeze&gt; Me throat... It─you again? I told ye, I'd sooner drink..."
+            },
+            {
+                "name": "BEROLD",
+                "text": "Is that cactus tea I smell? Well, stop dawdlin' and hand it over! Can't ye see I'm...&lt;cough&gt;...sufferin' here?"
+            },
+            {
+                "name": "OTELIN",
+                "text": "Hurgh... You tell the Ul'dahn wench that I'll have...&lt;wheeze&gt;...none of her foul alchemy."
+            },
+            {
+                "name": "OTELIN",
+                "text": "Cactus tea...? And just like my dear mum used to...&lt;cough&gt;...brew it. I don't know where you came by this, but you're a godssend."
+            },
+            {
+                "name": "ARCAVIUS",
+                "text": "Urgh... I'll go to the grave before I'm gulled by Ul'dahn quackery."
+            },
+            {
+                "name": "ARCAVIUS",
+                "text": "Old Alfan's recipe, no doubt. I'll drink it, but if the Ul'dahn girl thinks a cup of tea can heal years of suffering, she'd best think again."
+            },
+            {
+                "name": "HIHIRA",
+                "text": "They truly drank it? Oh, how I have waited for this day! Even I am not so foolish as to think that I have earned the trust of all the refugees, but on the long road to peace and understanding, even the smallest step matters."
+            }
+        ],
+        "reward": {
+            "gil": 1232,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5765
+                }
+            ],
+            "xp": 4760
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 25,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66294
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006211",
+            "obj": {
+                "i": 1006211,
+                "n": "Hihira",
+                "l": 45,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006212",
+            "obj": {
+                "i": 1006212,
+                "n": "Berold",
+                "l": 45,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006213",
+            "obj": {
+                "i": 1006213,
+                "n": "Otelin",
+                "l": 45,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006214",
+            "obj": {
+                "i": 1006214,
+                "n": "Arcavius",
+                "l": 45,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006216",
+            "obj": {
+                "i": 1006216,
+                "n": "Alfan",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5765",
+            "obj": {
+                "i": 5765,
+                "n": "Honey Yellow Dye",
+                "l": 30,
+                "c": 22806,
+                "t": 55
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66294",
+            "obj": {
+                "i": 66294,
+                "n": "Bad Blood",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 250
+            }
+        }
+    ]
+}

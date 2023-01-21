@@ -1,0 +1,127 @@
+{
+    "quest": {
+        "name": "The Time Is Ripe",
+        "location": "Middle La Noscea",
+        "id": 66008,
+        "patch": 2.0,
+        "sort": 60,
+        "eventIcon": 71221,
+        "issuer": 1002628,
+        "target": 1002628,
+        "genre": 91,
+        "journal": [
+            "Bhirdraeg's La Noscean oranges are ripe and ready for picking. ",
+            "Bhirdraeg has asked you to pick his ripe La Noscean oranges. The irascible pirates under him would rather pick fights than fruits, leaving the labor to you.",
+            "You have picked an adequate number of oranges. Bring them back to Bhirdraeg.",
+            "The pirates' antics have sown seeds of discontent among the local growers, and the Admiral appears to be entangled in the weeds."
+        ],
+        "objectives": [
+            "Harvest the La Noscean oranges.",
+            "Deliver the oranges to Bhirdraeg."
+        ],
+        "dialogue": [
+            {
+                "name": "BHIRDRAEG",
+                "text": "Bah, I can't even rely on those rotten pirates to pick these ripe oranges."
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "Yet if I leave them a day longer, they're like to fall from the boughs."
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "Mayhap you can grab a few for me. You're not afraid of a pesky hornet or two, are you?"
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "Look at those luscious oranges brimming with nectar! They could drop any second!"
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "Ah, ripe to perfection! How sweet it is!"
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "If that lackadaisical lot of retired pirates comes down with scurvy, it'd serve them right!"
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "It just goes to show you can't teach an old sea dog new tricks. You'd think the Admiral would know that!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "A maddening buzzing fills your ears!"
+            }
+        ],
+        "reward": {
+            "gil": 135,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 4745
+                }
+            ],
+            "xp": 975
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65998
+            ]
+        },
+        "next": [
+            66009
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002628",
+            "obj": {
+                "i": 1002628,
+                "n": "Bhirdraeg",
+                "l": 30,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4745",
+            "obj": {
+                "i": 4745,
+                "n": "Orange Juice",
+                "l": 6,
+                "c": 24401,
+                "t": 46,
+                "p": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65998",
+            "obj": {
+                "i": 65998,
+                "n": "On to Summerford",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 13
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66009",
+            "obj": {
+                "i": 66009,
+                "n": "Orange Crush",
+                "g": 91,
+                "l": "Middle La Noscea",
+                "s": 70
+            }
+        }
+    ]
+}

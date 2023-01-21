@@ -1,0 +1,177 @@
+{
+    "quest": {
+        "name": "Moogle on the Wall",
+        "location": "The Churning Mists",
+        "id": 67830,
+        "patch": 3.3,
+        "sort": 13,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 8,
+        "eventIcon": 71222,
+        "issuer": 1017171,
+        "target": 1017171,
+        "involved": [
+            1017364
+        ],
+        "genre": 49,
+        "usedItems": [
+            15755,
+            15729
+        ],
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Mogek is in need of a master crafter's touch.",
+            "The Mogmenders are planning to restore the walls surrounding Bahrr Lehs. Unfortunately, they lack the supplies to do so, leaving the moogles no choice but to scavenge for serviceable material. Mogek asks that you meet with these scavengers at the Landlord Colony and see if they have found anything worth using.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "You come across one of the moogles tasked by Mogek and he seems overwhelmed by the volume of rubble to be sifted and sorted. In the hopes of speeding things along, he asks you to help him search for potential crafting material.",
+            "Your efforts in searching through rubble have rewarded you with three prime pieces of salvageable material. Take back what you have found for appraisal.",
+            "The rummaging moogle is pleased with your find. Combined with materials found prior to your arrival, he supplies you with the ingredients to synthesize supplies for repairing the wall. Once completed, return to Bahrr Lehs with the items.<br><br>※In the event you lose the materials or the synthesis ends in failure, you may try again by speaking with the rummaging moogle.",
+            "Mogek is pleasantly surprised by the set of newly crafted supplies you offer to him. With these in hand, he plans to waste no time in setting the Mogmenders to work."
+        ],
+        "objectives": [
+            "Speak with the rummaging moogle.",
+            "Search the rubble heaps in the Landlord Colony for salvageable material.",
+            "Show the salvageable material to the rummaging moogle.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize wall repair supplies.</span><span class=\"alternative\">Deliver the wall repair supplies to Mogek the Marvelous.</span></span>"
+        ],
+        "dialogue": [
+            {
+                "name": "MOGEK",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! Just the <span class=\"alternative-container\"><span class=\"alternative\">craftswoman</span><span class=\"alternative\">craftsman</span></span> I was looking for, kupo! We're gathering materials for the restoration of the walls surrounding the plaza grounds, and your help would be most appreciated."
+            },
+            {
+                "name": "MOGEK",
+                "text": "I dispatched a few able-bodied moogles to the Landlord Colony in search of salvageable goods, and I want to be sure what they find can be put to good use. I'd like you to check on their progress and bring back anything they've found so far."
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "I don't even know where to begin, kupo! Would you help me find some choice materials for the Mogmenders?"
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "We should be able to cover more ground if we split up. You head west, and I'll stay here and see what I can find. Between the two of us, something is bound to impress Mogek."
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "I know there's lots of rubble to sift through, but try not to take too long, kupo."
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "Welcome back! So, what did you find?"
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "I was only expecting scraps, kupo! Where did you find this?"
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "We can make scrapers to get rid of moss on the walls with this. Ahem. I mean <span class=\"emphasis\">you</span> can make scrapers, kupo."
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "We can make tools to polish the walls with this. Ahem. I mean <span class=\"emphasis\">you</span> can make tools, kupo."
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "We can make reagents for restoring the walls with this. Ahem. I mean <span class=\"emphasis\">you</span> can make reagents, kupo."
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "Far be it from me to deny a <span class=\"alternative-container\"><span class=\"alternative\">craftswoman</span><span class=\"alternative\">craftsman</span></span> the chance to show off <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> skills. Now then, when you've finished, take the supplies back to Mogek. I'm going to stay here and see if there's anything else worth taking."
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "Still crafting, are we? You need but say the word if you're running short on materials. When you've finished, Mogek will be more than happy to take what you have, kupo."
+            },
+            {
+                "name": "YOUNGMOOGLE02294",
+                "text": "You certainly have a knack for this, kupo! Mogek will be most pleased. Hurry back and show him your wonderful work."
+            },
+            {
+                "name": "MOGEK",
+                "text": "There you are! Did they find anything suitable for our work on the walls?"
+            },
+            {
+                "name": "MOGEK",
+                "text": "Oh my! This is more than suitable. With this, the walls will gleam as they haven't in a thousand years, kupo! I'll have the Mogmenders get to work right away."
+            }
+        ],
+        "reward": {
+            "gil": 600,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 20,
+                    "id": 12
+                },
+                {
+                    "num": 3,
+                    "id": 21080
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 33
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1017171",
+            "obj": {
+                "i": 1017171,
+                "n": "Mogek The Marvelous",
+                "l": 2002,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017364",
+            "obj": {
+                "i": 1017364,
+                "n": "Rummaging Moogle",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "21080",
+            "obj": {
+                "i": 21080,
+                "n": "Carved Kupo Nut",
+                "l": 1,
+                "c": 65057,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "15755",
+            "obj": {
+                "i": 15755,
+                "n": "Wall Repair Supplies Materials",
+                "l": 55,
+                "c": 25919,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "15729",
+            "obj": {
+                "i": 15729,
+                "n": "Wall Repair Supplies",
+                "l": 55,
+                "c": 21005,
+                "t": 63
+            }
+        }
+    ]
+}

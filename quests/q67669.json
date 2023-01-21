@@ -1,0 +1,933 @@
+{
+    "quest": {
+        "name": "And Then There Were Some",
+        "location": "The Gold Saucer",
+        "id": 67669,
+        "patch": 3.25,
+        "sort": 106,
+        "repeatable": 1,
+        "icon": 100538,
+        "eventIcon": 71222,
+        "issuer": 1016998,
+        "target": 1016998,
+        "involved": [
+            1011024,
+            1011079
+        ],
+        "genre": 200,
+        "journal": [
+            "Ollier seeks a volunteer for a golden opportunity.<br>※This quest is available for a limited time only.",
+            "You step into Wonder Square to be greeted by a Gold Saucer attendant named Ollier, who offers you the rare chance to experience a number of forthcoming attractions ahead of their release to the public. Never one to pass up such an alluring opportunity, you agree to Ollier's proposition, but before he can explain further a shrill cry sounds from the Manderville Lounge. The attendant rushes off to lend his aid, and urges you to accompany him.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "A chilling sight greets your arrival at the Manderville Lounge: an Elezen lying prostrate on the floor, surrounded by shocked onlookers. Z'napha, a Gold Saucer server, explains that the man was suddenly overcome in a violent fit, from which it seems he will not recover. Roland appears, drawn by the distressed scream, and demands an explanation. After Ollier apprises Roland of the situation, he shocks everyone present by concluding that Goncquard, the victim, was likely poisoned. Roland urges a swift call to action, and appoints both you and Ollier as interim inspectors, offering his full support. Ollier wastes no time and immediately deduces the three most likely suspects─Z'napha, Lyell, and Flaurie─suggesting that you start your inquiry by questioning them.",
+            "Unsurprisingly, each of the suspects denies any involvement in or knowledge of the poisoning. With your options exhausted, perhaps it would be best to consult with Ollier as to what your next step should be.",
+            "Ollier is unperturbed at your initial difficulties, and urges you to begin searching the Gold Saucer. He is certain that somewhere lies evidence the criminal has overlooked, or that one of the many people in the Gold Saucer saw something that can aid your inquiry. Scour every room and question every guest, and speak with Ollier once you have determined who poisoned Goncquard in the Manderville Lounge.",
+            "After an impressive show of deductive reasoning, you unveil the identity of Goncquard's murderer, bringing this dramatic incident to a close. The conclusion comes as a surprise to some, but all involved are happy to put this tragedy behind them. Now that the mystery is solved, speak with Ollier to see if there is anything else he requires.",
+            "Ollier is relieved that your work is over, and asks you to follow him to Wonder Square, where Roland awaits to congratulate you personally.",
+            "Your success is celebrated by all and sundry, and Roland promises a grand reward for your efforts. However, the web of intrigue surrounding this murder is intricate, and even the cleverest inspector can overlook small details at first glance. Should you wish to retrace the tragedy at the Manderville Lounge and consult the evidence once more, speak with Ollier to relive the case."
+        ],
+        "objectives": [
+            "Follow Ollier.",
+            "Question Z'napha.",
+            "Question Lyell.",
+            "Question Flaurie.",
+            "Speak with Ollier.",
+            "Search the Gold Saucer for clues, and speak with Ollier to discuss them.",
+            "Speak with Ollier.",
+            "Speak with Ollier at Wonder Square."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "This quest contains branching sections, and during certain portions you will receive no guidance from the journal or duty list. You will need to read the text carefully and decipher the clues to determine your next course of action."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, the conclusion of the quest will differ depending on the choices you make. However, the rewards will remain the same."
+            },
+            {
+                "name": "OLLIER",
+                "text": "We hope you are enjoying your time at the Gold Saucer, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. I am Ollier, and these are my fellow attendants. Forgive my presumption, but you appear to be one that craves amusement, and we have an opportunity that is sure to sate your appetite."
+            },
+            {
+                "name": "OLLIER",
+                "text": "You see, we are devising a number of new attractions which promise to entice even more patrons to our establishment, and we would offer <span class=\"emphasis\">you</span> the chance to partake in these delights before anyone else in Eorzea."
+            },
+            {
+                "name": "OLLIER",
+                "text": "We only ask in return that you provide an earnest judgment of our offerings, so we might use that to refine the final product. A fair trade, I believe. So, do we have an agreement, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>?"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Splendid! Lord Manderville shall know of your contributions! Now, if you would just follow─"
+            },
+            {
+                "name": "FLAURIE",
+                "text": "(-???-)AAAAAAHHH!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "A scream!? It came from above─ Quickly, we must help!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Was this man a victim of foul play, or did his meal simply disagree with him?"
+            },
+            {
+                "name": "LYELL",
+                "text": "He's... Is he...?"
+            },
+            {
+                "name": "ZNAPHA",
+                "text": "It all happened so suddenly. One moment they were sharing laughs over drinks, and the next..."
+            },
+            {
+                "name": "FLAURIE",
+                "text": "Darling! Please get up! Please!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Mistress Flaurie!? What...what happened!?"
+            },
+            {
+                "name": "FLAURIE",
+                "text": "No... He can't be... Please, no..."
+            },
+            {
+                "name": "ZNAPHA",
+                "text": "It happened in a flash, it did! They were enjoying their meal together, happy as ever, when without warning Master Goncquard keels over as if a chocobo just bucked him in the belly! Now, I'm no chirurgeon, but I don't reckon he'll be getting back up..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "You─ You don't mean!?"
+            },
+            {
+                "name": "OLLIER",
+                "text": "He's...dead!?"
+            },
+            {
+                "name": "ROLAND",
+                "text": "Ollier! What is the meaning of this!? You know we do not abide drunkards dozing on the floor! I demand an explanation!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Master Roland!? Why, yes, of course. We have only just arrived, but it appears Goncquard collapsed suddenly during his meal. Given his current state, I can't imagine overindulgence was the cause..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "No, such a sudden passing points to something more sinister. Master Roland, I believe this was no natural death. I believe Goncquard was poisoned!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "<span class=\"emphasis\">Poisoned</span>!? By the Twelve, a murderer is in our midst! We must act swiftly─ I want the perpetrator in shackles!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "Ah, and who better to assist us than <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>! Lord Manderville has no shortage of praise for your heroism─and your deftness at deduction! What say you, friend? Will you aid us in bringing a criminal to justice?"
+            },
+            {
+                "name": "ROLAND",
+                "text": "And it would seem you already have a capable aide! The profession of adventurer demands <span class=\"emphasis\">some</span> aptitude at deduction, certainly. What was your name, friend? Well then, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, what say you? Will you aid us in bringing a criminal to justice?"
+            },
+            {
+                "name": "ROLAND",
+                "text": "Excellent! Ollier, you have my leave to put your current duties on hold. I grant both of you the title of interim inspector, and you shall have my full support in your inquiry."
+            },
+            {
+                "name": "OLLIER",
+                "text": "We shall not disappoint. Now, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, let us step back and take stock of the situation. Assuming Goncquard was poisoned, I gather there are only three people who had the opportunity─if not the motive─to do so discreetly."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Z'napha, who served Goncquard his food..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Lyell, who prepared his libations..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "And lastly─while I shudder to entertain such a possibility─we must also consider Goncquard's wife suspect, as I can only assume she was close to him throughout the meal."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Considering the gravity of the crime, we must avoid making any hasty accusations before we have a clear understanding of what transpired here. To that end, our first course of action should be to question each of the suspects. <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I entrust that task to you."
+            },
+            {
+                "name": "ROLAND",
+                "text": "And for my part, I shall summon the Brass Blades forthwith. I trust the culprit will be unmasked and ready to be apprehended upon my return."
+            },
+            {
+                "name": "OLLIER",
+                "text": "I know as little of the situation as you do, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. Our suspects, however, may be able to shed some light on what transpired here."
+            },
+            {
+                "name": "LYELL",
+                "text": "You...you suspect <span class=\"emphasis\">me</span> of poisoning Master Goncquard!? Preposterous! I would never commit such an atrocious act, let alone against one of my most loyal customers! I won't stand for such baseless accusations!"
+            },
+            {
+                "name": "ZNAPHA",
+                "text": "You can't think I'm a murderer! You can't! I just carry the food and drink, is all... I don't even touch it!"
+            },
+            {
+                "name": "FLAURIE",
+                "text": "My husband's body is still warm, and you accuse <span class=\"emphasis\">me</span> of his murder!? I... &lt;sniff&gt; I have no words... &lt;sob&gt;"
+            },
+            {
+                "name": "LYELL",
+                "text": "I would never risk my reputation, my livelihood, by committing such a brazen crime. You're wasting both of our times by keeping me here."
+            },
+            {
+                "name": "ZNAPHA",
+                "text": "Master Goncquard didn't have an enemy in the world far as I know... He was always so kind to the servers, always paid us extra..."
+            },
+            {
+                "name": "FLAURIE",
+                "text": "&lt;sob&gt; ...I have nothing more to say to you. &lt;sniff&gt; ...Please, afford me time to grieve..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Hmmm... I must admit, that wasn't as helpful as I had hoped, and I fear pressing our suspects further would only earn us their ire. We need not lose heart, however, as there are other avenues available to us."
+            },
+            {
+                "name": "OLLIER",
+                "text": "No crime is perfect, and even the most meticulous criminal leaves behind some trace of evidence. I am confident that if we search every corner of the Gold Saucer, and question every person within, the answer to this mystery will come together in due time."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Of course, our suspects cannot be left alone. I shall remain here, and ask that you make a thorough search of the Gold Saucer. If you uncover aught you wish to discuss, return here and I will lend what aid I can."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Scattered throughout the Gold Saucer are clues that will aid you in uncovering the identity of Goncquard's killer. Obtain them by speaking to the denizens of the Gold Saucer and investigating any suspicious items."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may speak with Ollier to discuss what you have uncovered. Let no scrap of evidence escape you, and piece together the puzzle of Goncquard's fate!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "A piece of crumpled parchment lies conspicuously on the floor. Upon closer inspection, you see a message written in a precise hand.<br>“To the King,<br>You know what must needs be done. Succeed, and you shall be rewarded handsomely.<br>From,<br>The Rook”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Tucked away next to the pillar is a small phial, drained of its contents. However, a sweet scent still lingers within."
+            },
+            {
+                "name": "NORTHERNSTORM",
+                "text": "Goncquard loved his drink, 'specially when his wife weren't with him. Had a bit o' trouble keepin' his hands off the servers while in his cups, though, an' havin' Z'napha around just made it worse. Girl didn't seem to mind, though I suppose the extra coin he paid didn't hurt. I imagine his wife would've given him an earful if she ever found out."
+            },
+            {
+                "name": "KOKOMUI",
+                "text": "I saw Goncquard around the Cactpot Board often enough to call him a comrade-in-arms against chance. Luck seemed to always favor him, though, filling his coinpurse while leaving mine lighter by the day. Well, I suppose everyone's fortune reverses in time, eh?"
+            },
+            {
+                "name": "JOURCEL",
+                "text": "He was poisoned!? By the gods, Goncquard and his wife were in such high spirits when I passed by the Manderville Lounge earlier. To see them laughing cheerily at the antics of that Senor Sabotender, I would have never imagined such a tragic turn of events..."
+            },
+            {
+                "name": "ABBELINA",
+                "text": "Master Goncquard came here most days. Sometimes alone, sometimes with Mistress Flaurie... &lt;sigh&gt; They seemed like such a happy pair. 'Tis heartbreaking that we'll not see them walking cheerfully through the Saucer any longer."
+            },
+            {
+                "name": "HITCHCOCK",
+                "text": "Aye, I saw the whole sorry affair from a nearby table. Nearly choked on my own food at the sight, I did. But I acted quickly─ I knew at once that foul play was afoot, so I stole away with the glass from which Goncquard took his last fateful sip..."
+            },
+            {
+                "name": "HITCHCOCK",
+                "text": "Now, now, I was only acting in your best interests. What if this was lost, or worse? I'm familiar enough with mysteries to know an inspector must always think one step ahead of <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> quarry. Here, take the glass─ I have an inkling you might need it."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The glass is empty, but a faint, sweet odor still remains."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The plate Z'napha served Goncquard. The pungent odor of bitter spirits is almost overpowering."
+            },
+            {
+                "name": "VELEDA",
+                "text": "If you ask me, Lyell's the last person I'd suspect of murder. Someone so serious wouldn't be so rash. Can't say the same for Z'napha, though. Not that I think she has it in her to kill someone, of course; she just hasn't been at the Saucer long enough for me to get to know her."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Thankfully, the crumpled figure before you is not another victim, but merely a discarded Senor Sabotender costume. A sickly-sweet fragrance hangs in the air, and the scene makes you uneasy, as if you have caught a glimpse of something no one was meant to see."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You inquire about the late Goncquard and the circumstances surrounding his demise."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Remember this information well, for it may prove crucial to your inquiry."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Your search has yielded all the pieces of the puzzle. It is now up to you to put them together."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Ah, you are returned! Have you uncovered anything that might help us bring this dreadful affair to a close?"
+            },
+            {
+                "name": "OLLIER",
+                "text": "You have returned at last! Your inquiry has uncovered ample clues, and now it is up to us to make sense of them. Unless you already have, of course! Elsewise, I would be happy to mull over the evidence with you."
+            },
+            {
+                "name": "Q1",
+                "text": "Do you know who poisoned Goncquard?"
+            },
+            {
+                "name": "A1",
+                "text": "The killer is among us, and I know who it is!"
+            },
+            {
+                "name": "A1",
+                "text": "I'd like to discuss the evidence I've gathered so far."
+            },
+            {
+                "name": "A1",
+                "text": "Nothing."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The conclusion of this quest will differ depending on the choices you make in the following sequence. However, the rewards will remain the same. "
+            },
+            {
+                "name": "Q1",
+                "text": "Are you ready to explain your reasoning?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes."
+            },
+            {
+                "name": "A1",
+                "text": "No."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Such confidence! Nevertheless, this is a grievous crime with a grievous punishment, so the burden is on us, the inspectors, to explain our reasoning before making accusations. And so, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I would ask that you walk us through how you came to your conclusion."
+            },
+            {
+                "name": "OLLIER",
+                "text": "I understand. This is not a matter to be taken lightly. Very well, speak to me again once you are confident in your conclusion."
+            },
+            {
+                "name": "OLLIER",
+                "text": "A prudent choice. Considering the magnitude of the crime, we must pore over every piece of evidence before making accusations. So, what shall we discuss? "
+            },
+            {
+                "name": "OLLIER",
+                "text": "Hmmm... Perhaps it would be best if we had something to discuss first. I am certain our murderer overlooked something, and I am certain that with diligence you shall find it. Return to me once you've gathered any evidence that could be of use."
+            },
+            {
+                "name": "Q1",
+                "text": "Which piece of evidence would you like to discuss?"
+            },
+            {
+                "name": "A1",
+                "text": "The scrap of parchment."
+            },
+            {
+                "name": "A1",
+                "text": "The empty phial."
+            },
+            {
+                "name": "A1",
+                "text": "Northern Storm's statement."
+            },
+            {
+                "name": "A1",
+                "text": "Kokomui's statement."
+            },
+            {
+                "name": "A1",
+                "text": "Jourcel's statement."
+            },
+            {
+                "name": "A1",
+                "text": "Abbelina's statement."
+            },
+            {
+                "name": "A1",
+                "text": "Hitchcock's statement and Goncquard's glass."
+            },
+            {
+                "name": "A1",
+                "text": "The plate Z'napha served Goncquard."
+            },
+            {
+                "name": "A1",
+                "text": "Veleda's statement."
+            },
+            {
+                "name": "A1",
+                "text": "The discarded Senor Sabotender costume."
+            },
+            {
+                "name": "A1",
+                "text": "Nothing."
+            },
+            {
+                "name": "OLLIER",
+                "text": "A crumpled scrap of parchment, upon which the following words were writ.<br>“To the King,<br>You know what must needs be done. Succeed, and you shall be rewarded handsomely.<br>From,<br>The Rook”<br>Hmmm... Ominous titles, for an ominous letter. Who could these two characters be?"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Ah yes, an empty phial found discarded on the staircase. You say you could detect a sweet aroma from within it, yes? Hmmm... What could it have possibly contained?"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Ah, Northern Storm, the Roegadyn eying these proceedings so intently. His gaze makes me slightly uneasy, but he did shed some light on Goncquard's time alone at the Gold Saucer."
+            },
+            {
+                "name": "OLLIER",
+                "text": "It would seem our victim had a habit of imbibing─particularly when his wife was absent─which led to wandering hands and a loose tongue, especially when Z'napha was around. I cannot help but wonder what Mistress Flaurie thought of all this, or if she even knew..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "That Lalafell seems to have taken a keen interest in how this affair will play out. Nonetheless, he provided us with valuable insight into our victim's favored pastime."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Kokomui and Goncquard shared the love of the Cactpot Board, though fortune often favored the latter, leaving him with an excess of MGP. In a place like the Gold Saucer, it is plain how such luck could incite envy, or worse..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Jourcel happened to pass by the Manderville Lounge just before Goncquard was killed. He was among the last few to see our victim alive and well."
+            },
+            {
+                "name": "OLLIER",
+                "text": "He spied one of our very own Senor Sabotenders entertaining the couple with its whimsical poses. Not an unusual sight in the Gold Saucer, to be sure, but I'm certain not many expect it to be followed by tragedy."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Abbelina has long been greeting the Saucer's patrons, and as such is privy to their comings and goings. Goncquard was no exception."
+            },
+            {
+                "name": "OLLIER",
+                "text": "He would often be accompanied by Flaurie, as one would expect. But more surprising, however, is the revelation that he would sometimes come on his own. One cannot help but wonder what activities our poor Goncquard indulged in when his wife was not present."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Hitchcock's story itself did not give us much of value, but speaking to him proved worthwhile nonetheless."
+            },
+            {
+                "name": "OLLIER",
+                "text": "He was dining next to the ill-fated couple when tragedy struck, and whether it be by foresight─as he claims─or some morbid impulse, he snatched up the glass from which Goncquard took his last sip. "
+            },
+            {
+                "name": "OLLIER",
+                "text": "Of course, it would have been preferable to find the evidence undisturbed, but I suppose we should be grateful to come into possession of it at all. "
+            },
+            {
+                "name": "OLLIER",
+                "text": "&lt;sniff&gt; ...Hmmm, I detect a sweet aroma. It seems so familiar, but for the life of me I cannot recall why."
+            },
+            {
+                "name": "OLLIER",
+                "text": "The plate Z'napha served the couple was rank with the bitter smell of strong spirits. Perhaps Goncquard was particular to such libations? Still, even our strongest drink would not cause so sudden a death as his."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Veleda spends her days behind the Cactpot Board counter, and is well acquainted with most of the Gold Saucer's staff."
+            },
+            {
+                "name": "OLLIER",
+                "text": "She seemed certain of Lyell's innocence, but admitted to knowing too little about Z'napha to speak on her character. Hmmm... I appreciate her honesty. It would be a shame if an uninformed judgment led us to accusing the wrong person."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Ah, the secret of the Saucer's sabotenders comes out at last. Who could be so careless as to leave the costume out in the open? Nonetheless, it may prove to be a vital piece of this puzzle. The sweet odor you say hung in the air is most unusual. If we could but ascertain its origin..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Very well, then we should start by answering the most elementary question: <span class=\"emphasis\">how</span> was Goncquard poisoned?"
+            },
+            {
+                "name": "Q2",
+                "text": "How was the victim poisoned?"
+            },
+            {
+                "name": "A2",
+                "text": "The poison was mixed in his drink!"
+            },
+            {
+                "name": "A2",
+                "text": "The poison was hidden in his food!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Hmmm... So it was the drink that killed him. Of course, of course, an astute judgment. But why not the food? How can you be certain Goncquard's beverage was poisoned?"
+            },
+            {
+                "name": "Q3",
+                "text": "What compelled the criminal to poison Goncquard's drink?"
+            },
+            {
+                "name": "A3",
+                "text": "Because that's how <span class=\"emphasis\">I'd</span> poison someone!"
+            },
+            {
+                "name": "A3",
+                "text": "Everyone knows poison dissolves more readily in liquid."
+            },
+            {
+                "name": "A3",
+                "text": "You only need smell his glass. The sickly-sweet scent is unmistakable: it's poison!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Ah, the food! Truth be told, I had arrived at the same conclusion myself. The savory aromas and rich flavors would mask the poison's scent and taste alike. How clever..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "True... It would be a trifling matter to slip a few fatal drops into Goncquard's drink, and once mixed properly he would be none the wiser."
+            },
+            {
+                "name": "OLLIER",
+                "text": "That odor, of course! So sweet as to be unnatural, and not befitting Goncquard's tastes besides. There is no doubt─I am all but certain the drink was poisoned. Now we must ascertain when."
+            },
+            {
+                "name": "OLLIER",
+                "text": "There were numerous opportunities for our suspect to administer the fatal concoction. <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, pray tell us when you think this occurred."
+            },
+            {
+                "name": "Q4",
+                "text": "When was the poison administered?"
+            },
+            {
+                "name": "A4",
+                "text": "While his food and drink were being prepared."
+            },
+            {
+                "name": "A4",
+                "text": "While his food and drink were being served."
+            },
+            {
+                "name": "A4",
+                "text": "While the food and drink were already on the table."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Such brazenness! The killer could have peered straight into Goncquard's eyes! It was no simple task─ Several people were there and claim to have seen nothing. How could our perpetrator possibly have accomplished such a feat?"
+            },
+            {
+                "name": "Q5",
+                "text": "How was the poison hidden?"
+            },
+            {
+                "name": "A5",
+                "text": "On second thought, perhaps the poisoning occurred during preparation."
+            },
+            {
+                "name": "A5",
+                "text": "Perhaps I was wrong. The poisoning likely occurred while his meal was being served."
+            },
+            {
+                "name": "A5",
+                "text": "The poison was contained in a small, sealed phial!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Brilliant! Why, I am all but certain who the killer is now."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Perhaps you are right. Remember, there is no shame in reconsidering your deductions. We must take great care not to accuse the innocent."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Yes, the phial! Small enough to hide on one's self, and the murderer would only need a moment to apply the poison. Hmmm... Our criminal was meticulous indeed. But not meticulous enough, it would seem!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Well, I believe this mystery is all but solved. <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I would give you the honor of revealing the identity of our culprit. I wait with bated breath."
+            },
+            {
+                "name": "Q6",
+                "text": "Who poisoned Goncquard?"
+            },
+            {
+                "name": "A6",
+                "text": "It was Senor Sabotender!"
+            },
+            {
+                "name": "A6",
+                "text": "It was Z'napha!"
+            },
+            {
+                "name": "A6",
+                "text": "It was Lyell!"
+            },
+            {
+                "name": "A6",
+                "text": "It was Mistress Flaurie!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Senor Sabotender!? I must say, this is quite the unexpected development! Pray forgive my doubt, but I must ask: <span class=\"emphasis\">why</span>?"
+            },
+            {
+                "name": "Q7",
+                "text": "Why would Senor Sabotender commit murder?"
+            },
+            {
+                "name": "A7",
+                "text": "Trust me, an adventurer knows these things."
+            },
+            {
+                "name": "A7",
+                "text": "Ah, but if I were to tell you now, it would ruin the suspense."
+            },
+            {
+                "name": "A7",
+                "text": "Because inside the sabotender was the true killer: Kokomui!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "You─ This is no time to be coy! Now, I will ask again. Pray take yourself seriously this time!"
+            },
+            {
+                "name": "LYELL",
+                "text": "Nonsense! Goncquard was a loyal customer! Why would I want him dead!? Tell me, if you're so sure!"
+            },
+            {
+                "name": "Q8",
+                "text": "Why did Lyell commit murder?"
+            },
+            {
+                "name": "A8",
+                "text": "It was the only way you could put a stop to his drunken behavior!"
+            },
+            {
+                "name": "A8",
+                "text": "With Goncquard gone, Flaurie would finally have eyes for you!"
+            },
+            {
+                "name": "A8",
+                "text": "You were deep in debt to Goncquard, so you paid him back with murder!"
+            },
+            {
+                "name": "ZNAPHA",
+                "text": "<span class=\"emphasis\">Me</span>!? I have no reason to wish Master Goncquard harm! Why would I poison him!?"
+            },
+            {
+                "name": "Q9",
+                "text": "Why did Z'napha commit murder?"
+            },
+            {
+                "name": "A9",
+                "text": "You couldn't have Goncquard to yourself, so you made sure no one could!"
+            },
+            {
+                "name": "A9",
+                "text": "You grew tired of his constant advances, and silenced him forever!"
+            },
+            {
+                "name": "A9",
+                "text": "Seeing Goncquard happy with his wife made you mad with envy, so you took that happiness away from them!"
+            },
+            {
+                "name": "FLAURIE",
+                "text": "You accuse me of killing my own husband!? Why, the very thought is sickening! What gives you cause to make such a bold claim!?"
+            },
+            {
+                "name": "Q10",
+                "text": "Why did Flaurie commit murder?"
+            },
+            {
+                "name": "A10",
+                "text": "You thought to make your husband's riches your own!"
+            },
+            {
+                "name": "A10",
+                "text": "This was your punishment to Goncquard for his infidelities!"
+            },
+            {
+                "name": "A10",
+                "text": "Your husband's wandering eyes filled you with jealousy, so you shut them for good!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Kokomui!? In the Senor Sabotender!?"
+            },
+            {
+                "name": "KOKOMUI",
+                "text": "So that's the way your mind works, is it? Let's accuse the nearest Lalafell of murder, on account of he's the size of a sabotender? You'll need to do better than that! Why in the hells would <span class=\"emphasis\">I</span> kill Goncquard? I barely knew the man!"
+            },
+            {
+                "name": "Q11",
+                "text": "Why would Kokomui commit murder?"
+            },
+            {
+                "name": "A11",
+                "text": "Your gambling habit got the best of you, and you ran out of coin to support it."
+            },
+            {
+                "name": "A11",
+                "text": "You were envious of Goncquard's luck, and couldn't stand to see him win even once more!"
+            },
+            {
+                "name": "A11",
+                "text": "You were enamored with Mistress Flaurie, and Goncquard stood in the way of your heart's desire!"
+            },
+            {
+                "name": "KOKOMUI",
+                "text": "Well, you've got me there! It's true my coinpurse doesn't jingle much these days. But tell me, <span class=\"emphasis\">Inspector</span>, how would murder improve my situation, eh? A man can't very well earn coin when he's in shackles!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "I must admit, Kokomui has a fair point. Poverty is hardly a sufficient motive... Ah, but something tells me you have already considered this. Pray enlighten us, that we might finally reach the truth of this matter."
+            },
+            {
+                "name": "Q12",
+                "text": "Is there more to your accusation?"
+            },
+            {
+                "name": "A12",
+                "text": "Kokomui was after Goncquard's Cactpot winnings!"
+            },
+            {
+                "name": "A12",
+                "text": "Kokomui was promised a reward. From Roland!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "What an unexpected conclusion! I shudder to think one capable of such a pitiless act was so close to us all along. Nonetheless, we are in your debt, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. The Gold Saucer is safer for your efforts."
+            },
+            {
+                "name": "ROLAND",
+                "text": "(-???-)Fools! No justice will be served today, my inept inspectors!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Thank the Twelve we caught the true culprit. It would have hung heavy over our heads had we accused an innocent of such a grievous crime. I thank you for helping us avoid further tragedy, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. "
+            },
+            {
+                "name": "ROLAND",
+                "text": "(-???-)Fools! No justice will be served today, my inept inspectors!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "(-???-)As expected, the truth is laid bare by <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>'s keen intellect! Excellent work, my friend, excellent work!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "Your deductions were impeccable! Indeed it was a Senor Sabotender who stealthily slipped an alchemical concoction into Goncquard's drink, and indeed it was Kokomui inside the costume. All for a reward from yours truly!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "I suppose you found the parchment then? From the Rook to the King─or in other words, from R to K! Most clever, was it not? You have answered all the questions most skillfully. All, except, for a very simple one: <span class=\"emphasis\">why</span>?"
+            },
+            {
+                "name": "ROLAND",
+                "text": "Mayhap you recall Ollier's offer to preview our forthcoming attractions? ...Yes, now you understand! I hope you enjoyed unraveling this mystery as much as we enjoyed weaving it. And look there─it appears our friend Goncquard has risen from the dead."
+            },
+            {
+                "name": "GONCQUARD",
+                "text": "&lt;yawn&gt; ...By the gods, I've not had such a peaceful slumber in ages! Roland, you simply must teach me the recipe for that potion!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "Now, now, my dear Goncquard, this solution is much too strong for that. The phial contained only enough to ensure you would not awaken earlier than intended. And then, perhaps, a bit more. Forgive me, but it would have been an embarrassment had your eyes opened during the dramatic climax!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "A climax carried by Kokomui's masterful performance! Such passion! As promised, you can expect a generous recompense for your artful rendition."
+            },
+            {
+                "name": "ROLAND",
+                "text": "And so, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I do hope you were entertained by the Gold Saucer's new attraction: “Murder at the Manderville Lounge.” I admit there are some performances that could stand to be more believable, but I know with time we shall improve."
+            },
+            {
+                "name": "ROLAND",
+                "text": "As a whole, however, I believe accolades are in order! A round of applause to all involved, and to <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>'s ingenuity!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "At last, our work is done. Quite expertly, I might add. However, there is one last matter Master Roland wishes to discuss with you. Pray meet us in front of El Coloso as soon as circumstances allow."
+            },
+            {
+                "name": "OLLIER",
+                "text": "I know not what justice awaits the guilty party, only that it will be harsh and swift. We can rest assured in the knowledge that this crime will not go unpunished."
+            },
+            {
+                "name": "OLLIER",
+                "text": "What's that? Ah, yes, the new attractions. Given what just transpired, you must forgive me for insisting you wait. Pray return another day, after this tragedy is behind us, and we shall gladly oblige you."
+            },
+            {
+                "name": "ROLAND",
+                "text": "The Brass Blades have escorted the killer from the Gold Saucer, and they will answer for their misdeeds. Well done, Ollier. And you, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>."
+            },
+            {
+                "name": "OLLIER",
+                "text": "It was a pleasure to serve, Master Roland. However, it would be amiss of me to not give most of the credit to <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, whose masterful deductions led to the conclusion of the investigation."
+            },
+            {
+                "name": "ROLAND",
+                "text": "Ah, yes, quite masterful! But indeed, even the master can benefit from retracing his work with a more critical eye. Who is to say there was not some subtlety that escaped your attention? If only there was a way you could relive the mystery, to ensure that justice is served, and served properly! ...Ah, pray forgive my rambling. Of course, you shall be rewarded for your efforts, if you would but remain here for an attendant to prepare it."
+            },
+            {
+                "name": "ROLAND",
+                "text": "I shall take my leave. Ollier, I trust that you can resume your duties? Oh, and pray oblige any requests our interim inspector may have, should <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> wish to...reprise <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> role."
+            },
+            {
+                "name": "ROLAND",
+                "text": "And you, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, may you enjoy all that the Gold Saucer has to offer. You certainly deserve it."
+            },
+            {
+                "name": "OLLIER",
+                "text": "I sincerely hope you did not take our deception personally, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>."
+            },
+            {
+                "name": "ROLAND",
+                "text": "Ah, it was all in good fun! I only hope the puzzle proved challenging enough to keep you entertained throughout."
+            },
+            {
+                "name": "GODBERT",
+                "text": "(-???-)Ho ho ho! I fear we may have to concoct even more devious riddles!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Tell it true, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Were you confounded by the mystery's subtlety and nuance? Or was solving it merely child's play to you?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Very good, very good! Once inspiration struck, we labored day and night to create a web of deception and intrigue so thick not even my dear son would be able to untangle it. It would seem, however, that there is more work to be done─more flaws to be hammered out."
+            },
+            {
+                "name": "ROLAND",
+                "text": "Of course, Lord Manderville! <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, we are at your disposal should you wish for us to reprise our roles. Who knows, you may even see a performance you missed this time around."
+            },
+            {
+                "name": "ROLAND",
+                "text": "Ollier, I trust you will accommodate <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>'s requests. We must hone our craft until it becomes second nature."
+            },
+            {
+                "name": "ROLAND",
+                "text": "In the meantime, my attendants shall prepare a reward for your aid today. And with that, I shall take my leave. Farewell!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "I shall take my leave as well. Pray enjoy the delights of the Gold Saucer to your heart's content!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "And so the tale of Goncquard's murder comes to a close. Ah, but I sense a desire to do it all over again. Perhaps you wonder if it could have turned out differently? Or perhaps you would like to take a closer look at the evidence? If so, simply ask and we can return to the Manderville Lounge once more!"
+            },
+            {
+                "name": "Q13",
+                "text": "Retrace the mystery?"
+            },
+            {
+                "name": "A13",
+                "text": "Yes, I may have missed something."
+            },
+            {
+                "name": "A13",
+                "text": "No, I've seen everything I need to."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Very well! Pay close attention, for even the smallest detail may prove to be the piece that illuminates the truth."
+            },
+            {
+                "name": "OLLIER",
+                "text": "So, shall we begin? Let us return to the moment of Goncquard's fateful supper..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Very well, I understand now is not the time. However, if you would ever wish to relive the intrigue of Goncquard's murder, you only need ask and we shall gladly oblige."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 10085
+                },
+                {
+                    "num": 10,
+                    "id": 14958
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            67671
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016998",
+            "obj": {
+                "i": 1016998,
+                "n": "Ollier",
+                "l": 1484,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011024",
+            "obj": {
+                "i": 1011024,
+                "n": "Abbelina",
+                "l": 1484,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011079",
+            "obj": {
+                "i": 1011079,
+                "n": "Veleda",
+                "l": 1484,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10085",
+            "obj": {
+                "i": 10085,
+                "n": "Gold Saucer Ticket",
+                "l": 1,
+                "c": 26173,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "14958",
+            "obj": {
+                "i": 14958,
+                "n": "Golden Sparkler",
+                "l": 1,
+                "c": 22645,
+                "t": 85
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67671",
+            "obj": {
+                "i": 67671,
+                "n": "An Inspector's Gadget",
+                "g": 200,
+                "l": "The Gold Saucer",
+                "s": 107
+            }
+        }
+    ]
+}

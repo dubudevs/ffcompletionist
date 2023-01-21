@@ -1,0 +1,96 @@
+{
+    "quest": {
+        "name": "Nipped in the Bud",
+        "location": "The Dravanian Forelands",
+        "id": 67344,
+        "patch": 3.0,
+        "sort": 5311,
+        "eventIcon": 71221,
+        "issuer": 1011929,
+        "target": 1011929,
+        "genre": 98,
+        "journal": [
+            "The Vath fleetfoot stares at the ground, a look of concern clear upon his face.",
+            "Vath scouts have told the Vath fleetfoot that the Gnath are gathering supplies in the Smoldering Wastes, creating a staging area from which to attack Loth ast Vath. In an attempt to forestall these attacks, he provisions you with a flint stone, asking you to find the supplies and destroy them.",
+            "You find the war equipment and set it ablaze. Report to the fleetfoot with news of your success.",
+            "Your destruction of the Gnath hive's war equipment brings a sense of relief to the fleetfoot. It will take the Gnath some time to recover, allowing the Vath a chance to strengthen their defenses."
+        ],
+        "objectives": [
+            "Use the flint stone to burn the Gnathic supplies.",
+            "Report to the Vath fleetfoot."
+        ],
+        "dialogue": [
+            {
+                "name": "IDATEN",
+                "text": "We recently heard back from one of our scouts. The Gnath are gathering supplies in the Smoldering Wastes, intending to launch incursions against us from there. This creates a hazardous situation for us. We need your help, hunter."
+            },
+            {
+                "name": "IDATEN",
+                "text": "Take this flint stone and locate their supply wagons, somewhere between here and the Gnath hive. Set them alight. Reduce their supplies to ashes. This is no easy task, but you have proven yourself capable."
+            },
+            {
+                "name": "IDATEN",
+                "text": "Find the Gnath supply wagons in the Smoldering Wastes and burn them to ashes."
+            },
+            {
+                "name": "IDATEN",
+                "text": "You do not disappoint, hunter. We are glad to see that you have returned unharmed."
+            },
+            {
+                "name": "IDATEN",
+                "text": "We cannot thank you enough. With this staging point destroyed, we should be safe from attacks for some time. We should use this opportunity to strengthen our defenses."
+            }
+        ],
+        "reward": {
+            "gil": 538,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67151,
+                67343
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011929",
+            "obj": {
+                "i": 1011929,
+                "n": "Vath Fleetfoot",
+                "l": 2000,
+                "q": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67151",
+            "obj": {
+                "i": 67151,
+                "n": "Breaking into Hives",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 36
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67343",
+            "obj": {
+                "i": 67343,
+                "n": "Something Worth Protecting",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5310
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "quest": {
+        "name": "To You from Failing Hands We Throw",
+        "location": "Eastern La Noscea",
+        "id": 66374,
+        "patch": 2.0,
+        "sort": 320,
+        "eventIcon": 71221,
+        "issuer": 1006270,
+        "target": 1006270,
+        "involved": [
+            1006266
+        ],
+        "genre": 91,
+        "journal": [
+            "Fyrilsunn looks less than bright-eyed and bushy-tailed today. Something is definitely amiss.",
+            "Fyrilsunn has told you that he has recently misplaced something of great value to him─three medals engraved with the image of a lion. Help out the distraught Roegadyn by searching for the medals around where he last saw them. He has suggested you begin by standing /lookout at the top of Gullperch Tower.",
+            "The view provided by the tower has revealed three shining points of light along the ground below. Investigate each area to see if you can locate the medals.",
+            "You have found the lost medals. Return them to Fyrilsunn in Costa del Sol.",
+            "It turns out that the medals are Fyrilsunn's only remaining material connection to friends lost in a previous war. While he is grateful to have them back, the mementos also seem to make him wary of inevitable future conflicts."
+        ],
+        "objectives": [
+            "Stand /lookout at the top of Gullperch Tower.",
+            "Locate the lion medals.",
+            "Return the lion medals to Fyrilsunn."
+        ],
+        "dialogue": [
+            {
+                "name": "FYRILSUNN",
+                "text": "Listen, I need your help with a personal matter. I've mislaid something, and it's something very important to me: medals with lions on them."
+            },
+            {
+                "name": "FYRILSUNN",
+                "text": "As much as I'd like to go myself, my place is here. We can't afford to take our eyes off the kobolds now. But those three medals are the most precious things I own. Please, any help you can give would be appreciated."
+            },
+            {
+                "name": "FYRILSUNN",
+                "text": "You might start your search around Gullperch Tower. If I had to wager, I'd say it was there that I dropped 'em while chasing off some of our kobold friends. If you climb to the top and give a good <span class=\"highlight\">lookout</span>, you might spot 'em."
+            },
+            {
+                "name": "FYRILSUNN",
+                "text": "Well? Did you...did you find my medals?"
+            },
+            {
+                "name": "FYRILSUNN",
+                "text": "&lt;gasp&gt; You did! The Navigator has been kind to me this day...<br>Every one of us got such a medal when we joined the Company of Heroes. And if you ever fell, your best friend would take yours."
+            },
+            {
+                "name": "FYRILSUNN",
+                "text": "Three friends there were, and only me left. And I can smell another war coming, only this time, nothing is new and all the fear is old. Sometimes, I think I've lived far too long."
+            }
+        ],
+        "reward": {
+            "gil": 1351,
+            "xp": 7995
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66371
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006270",
+            "obj": {
+                "i": 1006270,
+                "n": "Fyrilsunn",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006266",
+            "obj": {
+                "i": 1006266,
+                "n": "Wheiskaet",
+                "l": 32,
+                "q": 20
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66371",
+            "obj": {
+                "i": 66371,
+                "n": "Unrefined Methods",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 320
+            }
+        }
+    ]
+}

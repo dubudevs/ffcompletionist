@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Fringe Benefits",
+        "location": "Central Thanalan",
+        "id": 66109,
+        "patch": 2.0,
+        "sort": 120,
+        "eventIcon": 71221,
+        "issuer": 1001484,
+        "target": 1001484,
+        "genre": 93,
+        "journal": [
+            "Amalberga needs your help to end the machinations of vile bandits.",
+            "Amalberga has learned that the bandits occupying the Quiveron Manse have obtained a quantity of Nashachite, which they are trading for gil and arms. Steal the raw Nashachite and deliver it to Amalberga.",
+            "You have robbed the robbers blind. Return to Lost Hope and deliver the Nashachite to Amalberga. ",
+            "Amalberga's eyes light up upon receiving the precious gemstones. She assures you they will be put to good use..."
+        ],
+        "objectives": [
+            "Steal the raw Nashachite.",
+            "Deliver the Nashachite to Amalberga."
+        ],
+        "dialogue": [
+            {
+                "name": "AMALBERGA",
+                "text": "Thank the gods you're here, adventurer! You must help us!"
+            },
+            {
+                "name": "AMALBERGA",
+                "text": "The other day, I spied bandits from the Quiveron Manse selling gemstones to smugglers. And not just any stones─<span class=\"emphasis\">raw Nashachite</span>!"
+            },
+            {
+                "name": "AMALBERGA",
+                "text": "With that kind of wealth, they could purchase finer arms than the Sultansworn! After that, they'd surely seek revenge on the people of Lost Hope for defying them in the past. They'd slaughter Leofric and anyone else who fought back, and then they'd have their way with me and the other women!"
+            },
+            {
+                "name": "AMALBERGA",
+                "text": "&lt;sniffle&gt; &lt;sob&gt; Spare us this horrible fate, adventurer, I beg of you! &lt;sob&gt; Steal the Nashachite from the Quiveron Manse and bring it to me!"
+            },
+            {
+                "name": "AMALBERGA",
+                "text": "It was so unbearable, having to watch from the shadows while the bandits sold those precious gemstones..."
+            },
+            {
+                "name": "AMALBERGA",
+                "text": "The Nashachite! Excellent work, adventurer. You've dealt the bandits a crippling blow!"
+            },
+            {
+                "name": "AMALBERGA",
+                "text": "And <span class=\"emphasis\">finally</span>, after being consigned to this shantytown for moons, a chance to─"
+            },
+            {
+                "name": "AMALBERGA",
+                "text": "Ahem, a chance to improve the plight of the people, of course! Yes, yes, improve <span class=\"emphasis\">their</span> plight. I shall put the Nashachite to good use, worry not."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 27635,
+                    "one": 1
+                },
+                {
+                    "id": 2668,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 2625
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65866
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001484",
+            "obj": {
+                "i": 1001484,
+                "n": "Amalberga",
+                "l": 43,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "27635",
+            "obj": {
+                "i": 27635,
+                "n": "Altered Cotton Bandana",
+                "l": 12,
+                "c": 41540,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "2668",
+            "obj": {
+                "i": 2668,
+                "n": "Brass Spectacles",
+                "l": 13,
+                "c": 40879,
+                "t": 34,
+                "p": 355
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65866",
+            "obj": {
+                "i": 65866,
+                "n": "Last Letter to Lost Hope",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 56
+            }
+        }
+    ]
+}

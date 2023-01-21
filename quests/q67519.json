@@ -1,0 +1,100 @@
+{
+    "quest": {
+        "name": "Chimerical Abominations",
+        "location": "Azys Lla",
+        "id": 67519,
+        "patch": 3.0,
+        "sort": 5905,
+        "eventIcon": 71221,
+        "issuer": 1012289,
+        "target": 1012289,
+        "genre": 102,
+        "journal": [
+            "The Allagan research node is silently awaiting user interaction.",
+            "You learn that a number of rapidly reproducing, monstrous chimeras have escaped from an Allagan research facility. The research node explains that they pose a severe threat to the local environment and must be immediately terminated. Slay two Allagan chimeras.",
+            "You have slain the horrifying abominations. Inform the research node that the immediate risk to the environment has been ameliorated.",
+            "The research node acknowledges your work and confirms that the threat to the environment has been mitigated. You learn that all attempts at creating composite life-forms have resulted in dangerous and psychologically unstable creatures, but it does not seem that the Allagan research node has any intention of putting limitations on its research."
+        ],
+        "objectives": [
+            "Slay Allagan chimeras.",
+            "Report to the research node."
+        ],
+        "dialogue": [
+            {
+                "name": "RESEARCHSYSTEM",
+                "text": "&lt;blip&gt; &lt;blip&gt; Transmission received from composite life-form research facility... &lt;buzzzzzz&gt; ...Congratulations. You have been selected to assist in a research experiment."
+            },
+            {
+                "name": "RESEARCHSYSTEM",
+                "text": "Sensors indicate escape by subjects in test chamber 167-B─accelerated chimera breeding program. Subjects present an extreme risk to the surrounding environment. Recommend immediate termination of associated Allagan chimeras."
+            },
+            {
+                "name": "RESEARCHSYSTEM",
+                "text": "To minimize irreparable damage to the local environment, please immediately terminate two Allagan chimeras."
+            },
+            {
+                "name": "RESEARCHSYSTEM",
+                "text": "&lt;blip&gt; &lt;blip&gt; Extermination of chimeras confirmed. Thank you for your service to the Allagan research program. Your satisfactory performance has been noted."
+            },
+            {
+                "name": "RESEARCHSYSTEM",
+                "text": "Please be assured that, while all composite life-forms attempts to date have invariably been psychologically unstable and...&lt;buzzzzzz&gt;...research program will not waver in its pursuit of the noble goal of... &lt;buzzzzzz&gt;"
+            }
+        ],
+        "reward": {
+            "gil": 705,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 21800
+                }
+            ],
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67201
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012289",
+            "obj": {
+                "i": 1012289,
+                "n": "Research Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "21800",
+            "obj": {
+                "i": 21800,
+                "n": "Glamour Prism",
+                "l": 35,
+                "c": 26235,
+                "t": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67201",
+            "obj": {
+                "i": 67201,
+                "n": "In Node We Trust",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 90
+            }
+        }
+    ]
+}

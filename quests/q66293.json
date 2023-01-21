@@ -1,0 +1,182 @@
+{
+    "quest": {
+        "name": "On to Little Ala Mhigo",
+        "location": "Eastern Thanalan",
+        "id": 66293,
+        "patch": 2.0,
+        "sort": 137,
+        "icon": 100120,
+        "eventIcon": 71201,
+        "issuer": 1006196,
+        "target": 1006215,
+        "involved": [
+            1006211
+        ],
+        "genre": 1,
+        "journal": [
+            "Hihibaru has a suggestion to help you with your investigation.",
+            "In light of your run-in with an Ala Mhigan bandit, Hihibaru recommends that you next take your investigation to Little Ala Mhigo. His daughter, a lass named Hihira, has taken up residence there, and should be able to lend you a hand.",
+            "Hihira has no knowledge of Lahabrea. She recommends you speak with a man named Gundobald, the leader of the refugee settlement.",
+            "As forewarned, you receive a cold welcome from Gundobald. It seems that some effort will be required on your part if the residents of Little Ala Mhigo are to warm to you."
+        ],
+        "objectives": [
+            "Speak with Hihira at Little Ala Mhigo.",
+            "Speak with Gundobald."
+        ],
+        "dialogue": [
+            {
+                "name": "HIHIBARU",
+                "text": "The Ala Mhigan bandit you had a run-in with is somehow connected to your masked man of mystery."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "So, it stands to reason that if you want to pick up the trail again, you should head toward Little Ala Mhigo, over in southern Thanalan."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "Just so you know what to expect, the settlement is the favored destination for those refugees who couldn't...well, <span class=\"emphasis\">adapt</span> to life in Ul'dah."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "The hearts of the denizens are said to be as barren as the wasteland they live in. And for all intents and purposes, it's a lawless place. Be prepared for a not-so-warm welcome."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "Now, I'm not certain how much a help she will be, but it just so happens I have a daughter who has, er...<span class=\"emphasis\">relocated</span> to Little Ala Mhigo. Her name is Hihira, and it shouldn't hurt to seek her out first."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "And while you have her attention...I'd be obliged if you could send my love. Not a day goes by that I don't think of her."
+            },
+            {
+                "name": "HIHIBARU",
+                "text": "I suppose this is it, then! I had hoped that you would linger here a while─cull some fiends, spend some coin, what have you─but something tells me you're destined for greater things. Wherever it is you end up, I wish you the best!"
+            },
+            {
+                "name": "HIHIRA",
+                "text": "...Hm? Why, yes, Hihibaru's my father... He said <span class=\"emphasis\">what</span>?<br>&lt;sigh&gt; I wish I could be a better daughter to him. It's just that─ Oh, I'm sorry... I shouldn't bother you with family matters. But I am grateful to you for delivering the message. Now then, what brings you here?"
+            },
+            {
+                "name": "HIHIRA",
+                "text": "A masked man? I'm afraid the description doesn't ring any bells, but one of the others here may have seen something. I would recommend you first speak with Gundobald, the leader of the settlement. I must warn you, though, he isn't exactly...accommodating to outsiders."
+            },
+            {
+                "name": "GUNDOBALD",
+                "text": "Who are you? State your business, and be quick about it."
+            },
+            {
+                "name": "GUNDOBALD",
+                "text": "Looking for a masked villain, you say? And why should we help you, pray?"
+            },
+            {
+                "name": "GUNDOBALD",
+                "text": "We struggle enough without having to answer the whim of every outsider."
+            },
+            {
+                "name": "GUNDOBALD",
+                "text": "You are not welcome here. Begone."
+            }
+        ],
+        "reward": {
+            "gil": 1516,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5744
+                }
+            ],
+            "xp": 9520
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 25,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66292
+            ]
+        },
+        "next": [
+            66294,
+            66297
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006196",
+            "obj": {
+                "i": 1006196,
+                "n": "Hihibaru",
+                "l": 44,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006215",
+            "obj": {
+                "i": 1006215,
+                "n": "Gundobald",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006211",
+            "obj": {
+                "i": 1006211,
+                "n": "Hihira",
+                "l": 45,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "5744",
+            "obj": {
+                "i": 5744,
+                "n": "Sunset Orange Dye",
+                "l": 30,
+                "c": 22809,
+                "t": 55
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66292",
+            "obj": {
+                "i": 66292,
+                "n": "Where There Is Smoke",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 136
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66294",
+            "obj": {
+                "i": 66294,
+                "n": "Bad Blood",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 250
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66297",
+            "obj": {
+                "i": 66297,
+                "n": "Tea for Three",
+                "g": 1,
+                "l": "Southern Thanalan",
+                "s": 138
+            }
+        }
+    ]
+}

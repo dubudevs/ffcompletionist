@@ -1,0 +1,210 @@
+{
+    "quest": {
+        "name": "My Little Chocobo (Twin Adder)",
+        "location": "Gridania",
+        "id": 66236,
+        "patch": 2.0,
+        "sort": 200,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000168,
+        "target": 1000136,
+        "involved": [
+            1006001
+        ],
+        "genre": 92,
+        "usedItems": [
+            6018
+        ],
+        "journal": [
+            "Vorsaile believes it past time you were issued a personal chocobo.",
+            "To obtain your personal chocobo, you must present Cingur with a Serpent Chocobo Issuance. This document can be obtained by exchanging company seals with the serpent quartermaster. Here's hoping you have been setting aside your seals...",
+            "Cingur brings you your bird, and it is love at first sight. Name your new companion, and make it official.",
+            "After much deliberation, you decide on a name worthy of the noblest steed. Inform Cingur to complete the last of the formalities.",
+            "And so begins the adventures of <span class=\"highlight\">Forename Surname</span> and <span class=\"highlight\">Companion</span>. May their friendship last for eternity!"
+        ],
+        "objectives": [
+            "Present a Serpent Chocobo Issuance to Cingur.",
+            "Name your chocobo.",
+            "Speak with Cingur."
+        ],
+        "dialogue": [
+            {
+                "name": "Vorsaile",
+                "text": "Ah, [GC Rank][GC Rank][GC Rank] <span class=\"highlight\">Surname</span>. I understand you have been working tirelessly in Gridania's name. You are truly an example to your fellow Serpents."
+            },
+            {
+                "name": "Vorsaile",
+                "text": "But tell me, have you ever felt as though you couldn't get to your destination quickly enough? That perhaps you could do with a swifter pair of legs?"
+            },
+            {
+                "name": "Vorsaile",
+                "text": "If so, you might consider getting a personal chocobo. You have yet to be issued your own bird, am I correct? Given your considerable talents, you should be able to obtain one in no time at all. Let me tell you how to go about it."
+            },
+            {
+                "name": "Vorsaile",
+                "text": "First, you must obtain a Serpent Chocobo Issuance by exchanging company seals with the quartermaster. Once you have this deed, present it to our man Cingur, and he will furnish you with a suitable bird."
+            },
+            {
+                "name": "Vorsaile",
+                "text": "To be issued a personal chocobo, you must first obtain a Serpent Chocobo Issuance by exchanging company seals with the quartermaster. Once you have this deed, present it to our man Cingur, and he will furnish you with a suitable bird."
+            },
+            {
+                "name": "Cingur",
+                "text": "Want a bird issued, you say? Then I'll need to see your Serpent Chocobo Issuance."
+            },
+            {
+                "name": "Cingur",
+                "text": "Yes, everything appears to be in order."
+            },
+            {
+                "name": "Cingur",
+                "text": "A moment please. I'll be right back with your chocobo."
+            },
+            {
+                "name": "Cingur",
+                "text": "And here he is! The fellow has been in high spirits the past few bells. He must have sensed that his master was coming!"
+            },
+            {
+                "name": "Cingur",
+                "text": "Now then, to make it official, you'll want to give your noble steed a name."
+            },
+            {
+                "name": "Cingur",
+                "text": "Want a bird issued, you say? Then I'll need to see your Serpent Chocobo Issuance. You can get one from the serpent quartermaster, over at the Adders' Nest."
+            },
+            {
+                "name": "Cingur",
+                "text": "Of course, you will need to exchange Serpent Seals for it. You can earn these by completing tasks for the Order of the Twin Adder, Gridania's Grand Company."
+            },
+            {
+                "name": "CHOCOBO",
+                "text": "Kweh!"
+            },
+            {
+                "name": "Cingur",
+                "text": "Now then, to make it official, you'll want to give your noble steed a name."
+            },
+            {
+                "name": "Cingur",
+                "text": "Heh heh! I daresay he likes his name!"
+            },
+            {
+                "name": "Cingur",
+                "text": "Here is your very own chocobo whistle. Simply blow into it, and your feathered friend will come bounding to your side."
+            },
+            {
+                "name": "Cingur",
+                "text": "But do forgive him if he doesn't respond when summoned in crowded city areas or monster-infested lairs. Chocobos are stout-hearted creatures, but they have their limits."
+            },
+            {
+                "name": "Cingur",
+                "text": "And lastly, I present you with your chocobo rider's license, as is required by law."
+            },
+            {
+                "name": "Cingur",
+                "text": "And that concludes all the formalities! I wish you and your chocobo long years of fulfilling companionship!"
+            },
+            {
+                "name": "CHOCOBO",
+                "text": "Name Your Chocobo"
+            },
+            {
+                "name": "CHOCOBO",
+                "text": "Name"
+            },
+            {
+                "name": "CHOCOBO",
+                "text": "Names must be between 2 and 20 alphabetic characters."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 6001
+                }
+            ],
+            "xp": 4060
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 1
+                }
+            ],
+            "gc": 2
+        },
+        "next": [
+            66698
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000168",
+            "obj": {
+                "i": 1000168,
+                "n": "Vorsaile Heuloix",
+                "l": 52,
+                "q": 23,
+                "t": "Serpent Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000136",
+            "obj": {
+                "i": 1000136,
+                "n": "Cingur",
+                "l": 52,
+                "q": 1,
+                "t": "Chocobokeep"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006001",
+            "obj": {
+                "i": 1006001,
+                "n": "Chocobo",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "6001",
+            "obj": {
+                "i": 6001,
+                "n": "Chocobo Whistle",
+                "l": 1,
+                "c": 26012,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "6018",
+            "obj": {
+                "i": 6018,
+                "n": "Serpent Chocobo Issuance",
+                "l": 1,
+                "c": 26191,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66698",
+            "obj": {
+                "i": 66698,
+                "n": "My Feisty Little Chocobo",
+                "g": 92,
+                "l": "South Shroud",
+                "s": 300,
+                "f": 1
+            }
+        }
+    ]
+}

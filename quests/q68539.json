@@ -1,0 +1,603 @@
+{
+    "quest": {
+        "name": "Dramatis Personae",
+        "location": "Kugane",
+        "id": 68539,
+        "patch": 4.1,
+        "sort": 10,
+        "icon": 100743,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1018994,
+        "target": 1024142,
+        "involved": [
+            1024140,
+            1024141,
+            1024143,
+            1024144,
+            1024154,
+            1024155,
+            1024157,
+            1024160,
+            1024161
+        ],
+        "genre": 21,
+        "journal": [
+            "Keiten knows of someone seeking your acquaintance.",
+            "Lina Mewrilah and a young maid by the name of Alma seek not only your acquaintance, but your aid, as well. Follow the pair to the airship landing to learn more.",
+            "It appears that Alma will only speak from the safety of her airship, currently berthed in the skies above Kugane. Approach Lina Mewrilah when you are ready to board the shuttle.",
+            "Lina informs you that the theater barge belongs to the Majestic Imperial Theater Company, of which Alma is a member. Speak with the young girl in the tiring room.<br><br>※Future visits to the <span class=\"emphasis\">Prima Vista</span> can be made by speaking with the shuttle pilot stationed at the airship landing.",
+            "You learn that the Majestic Imperial Theater Company was forced to flee the Empire after its founder and principal, Jenomis cen Lexentale, refused to cease his criticism of the government. There is, however, more to the story...and if you wish to hear it, you will need to proceed to the bridge.",
+            "Jenomis apparently believed that the Zodiac Brave Story─a legend known to all Garleans─was more than a mere bedtime tale, and set off to the Royal City of Rabanastre in the recently annexed kingdom of Dalmasca hoping to prove his theory. Contact with the principal, however, was lost soon after his departure, and he has not been heard from since. Speak with Jenomis's son Ramza on the bridge to find out your role in proceedings.",
+            "Ramza is planning an expedition to locate and rescue his father, and your assistance has been grudgingly accepted. Speak with the youth again when you are ready to depart for Dalmasca."
+        ],
+        "objectives": [
+            "Speak with Lina Mewrilah.",
+            "Speak with Alma in the tiring room.",
+            "Speak with Ramza on the bridge."
+        ],
+        "dialogue": [
+            {
+                "name": "KEITEN",
+                "text": "Welcome, <span class=\"alternative-container\"><span class=\"alternative\">milady</span><span class=\"alternative\">milord</span></span>. There is a young maiden here who would speak with you."
+            },
+            {
+                "name": "KEITEN",
+                "text": "Miss! The adventurer has arrived!"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "And here <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> is! The liberator of both Doma and Ala Mhigo in the flesh! I am Lina Mewrilah, correspondent for <span class=\"emphasis\">The Raven</span>. You may recognize me from my exposé on the secret lives of the Homunculi."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Is there...a problem?"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Mujih? That would be my sister. People mistake us all the time. Same profession, you see, and we do bear a passing resemblance. When last I heard, she was still assigned to the Botanists' Guild in Gridania, poor thing."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "But enough small talk. It's not for nothing that I've been standing here since yesterday morning on the off chance you'd pass by."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "No, I'm here because─ Actually, it's best you heard it from Alma. I am but an observer."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Alma, come! I've found <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>!"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "(-Alma-)Is this the adventurer of whom you spoke?"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Indeed it is."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "(-Alma-)Please! I beg of you! Find my father! You are his only hope!"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "It's all right, Alma..."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "We are attracting unwanted attention. Might I suggest a change of venue?"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "We will await you before the <span class=\"emphasis\">Prima Vista</span>. The theater barge has a berth at the airship landing."
+            },
+            {
+                "name": "KEITEN",
+                "text": "I have never been one to meddle in the affairs of my clients...but if I were, I would say that you would be a fool not to follow those two back to their airship. Call it...a feeling."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "&lt;sob&gt;"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "As I said before, I think it better we continue this conversation in the privacy of the young lady's barge. It's not that I don't trust anyone here...it's simply that I don't trust anyone here."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Gate guard Minegumo has been instructed to look out for you. In future, speak with him when you wish to gain admission to the docks."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "..."
+            },
+            {
+                "name": "AIRSHIPGUIDE03003",
+                "text": "You should speak with Lady Lina."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Thank you for coming, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "You're probably wondering why I've summoned you to an airship...and a Garlean one at that. Allow me to explain on the shuttle."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Welcome to the <span class=\"emphasis\">Prima Vista</span>, the most luxurious theater barge in all the land!"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "The <span class=\"emphasis\">Prima Vista</span> serves as both stage and home to the Majestic Imperial Theater Company."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "You can keep that dirk in your drawers. No one here is a member of the imperial army, nor are there any spies within the troupe...at least, no <span class=\"emphasis\">known</span> spies..."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Ask anyone and they will readily attest: the Majestic Imperial Theater Company are the finest practitioners of the dramatic arts to be found anywhere on the Three Great Continents...and beyond!"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "They have admirers throughout the Empire and its territories─and even boast a sizable following in Gridania, hence my assignment to their story."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "It is a little-known fact, outside Garlemald at least, that the late emperor was a devoted patron of the arts who supported various theater troupes to the tune of much coin."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Indeed, Solus was so enamored of the Majestic players that he ordered the construction of this very airship, that the troupe might perform in every corner of the Empire."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "When his grandson took the throne, however, everything changed."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Now, all theater troupes domestic and foreign must submit their works for approval by the central imperial board of censors. If a play is deemed vulgar or inflammatory, it is banned and the troupe denied their writs of transit. The worst offenders? Well, they are never heard from again."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "This policy has effectively left playwrights with one of two options: compromise their creative integrity to curry favor with His Radiance, or put down their quills altogether."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "The principal of the Majestic, however, chose a third option: to express his disapproval for the new emperor's policies obliquely, in ostensibly unpolitical works."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "(-Alma bas Lexentale-)Pray forgive me for my earlier outburst. I am Alma bas Lexentale, daughter of Principal Jenomis cen Lexentale."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "(-Alma bas Lexentale-)Mayhap you have heard of my father's latest play, <span class=\"emphasis\">The Zodiac Brave Story</span>? On the surface, it is an innocent retelling of a well-known Garlean faerie tale─hardly worthy of the censors' attention. But beneath, it is something quite different. A fact the censors failed to spot when they approved the manuscript for public performance."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "(-Alma bas Lexentale-)The play quickly became a huge success. The commonfolk loved its fantastical story, while the learned classes appreciated its true message."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "By the time the imperial board of censors realized their mistake, it was too late. No longer in a position to prohibit the performance outright without admitting fault, they took aim at the company's purse strings instead."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Before long, noble patrons began to withdraw their support, fearing to be associated with the troupe. And by the end, even the learned felt compelled to feign ignorance. By bleeding the Majestic of their funding, the censors robbed them of their voice."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "And...none of this has made it any clearer as to why you're here. Right."
+            },
+            {
+                "name": "CID",
+                "text": "Allow me, Lina."
+            },
+            {
+                "name": "CID",
+                "text": "I've known Jenomis since we were students at the Magitek Academy. When I heard his daughter was in Kugane looking to enlist the aid of an adventurer, I felt compelled to give her your name. Sorry for not announcing myself sooner, old friend."
+            },
+            {
+                "name": "CID",
+                "text": "Jenomis and I were from different worlds, but that only served to fuel our friendship. Many were the nights we would prattle on into the wee small hours─warm flagons of peated ale numbing our minds to the other's naive ideologies. Yet, no matter where our conversation began, it would invariably end with him telling me how he was going to change the Empire from the inside out. The troupe was to be his path into the people's hearts."
+            },
+            {
+                "name": "CID",
+                "text": "Even after the Empire forced him from his home, Jenomis never gave up hope that his work might change the world."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "(-Jenomis cen Lexentale-)Art will ever strain against artificial bounds and borders! Man-made walls and misguided wars! It is in such times of uncertainty that we must needs embrace our calling and take to the skies so others might do the same!"
+            },
+            {
+                "name": "CID",
+                "text": "What I am trying to say─rather poorly, I concede─is that not all Garleans are hewn from the same stone."
+            },
+            {
+                "name": "CID",
+                "text": "Just as there are those who pledge their lives to the Empire, and would never think to question the authority of its leaders, there are those like Alma's father and myself whose love for their country does not blind them to its flaws."
+            },
+            {
+                "name": "CID",
+                "text": "Still...try selling that sack of sun flour to an Ala Mhigan or a Doman who has watched his family consumed in the flames of a magitek reaper."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "How many Eorzean adventurers do you think would leap at the opportunity to help an imperial search for her missing father...and in Garlean territory, no less?"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "But you─you are different. You have seen enough to know that the line between good and evil is not defined by race, color, or creed. So, what say you?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "I could never turn my back on a damsel in distress."
+            },
+            {
+                "name": "A1",
+                "text": "I would make a poor adventurer were I to shy from adventure."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "(-Alma bas Lexentale-)Oh, thank you. Thank you so much!"
+            },
+            {
+                "name": "CID",
+                "text": "Indeed."
+            },
+            {
+                "name": "CID",
+                "text": "Now that you understand the nature of the task, perhaps Alma could provide some insight as to where we might begin our search."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "(-Alma bas Lexentale-)Shortly before my father disappeared, he began work on his next play─a successor to <span class=\"emphasis\">The Zodiac Brave Story</span>."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "(-Alma bas Lexentale-)Ah, but I am getting ahead of myself. Please, follow me..."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "...through adventure and hardship, young Delita, a boy of common blood, becomes a hero, culminating in the birth of the mythical kingdom of Ivalice."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "But that is where the story ends. There are no records of anything that follows. Was Principal Jenomis simply going to invent something?"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "My father believed that he had discovered evidence of a second hero. One whose efforts went largely unnoticed, but without whom Delita would never have risen to the throne. His was the next tale he wanted to tell─the <span class=\"emphasis\">true</span> Zodiac Brave Story."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "A <span class=\"emphasis\">second</span> hero?"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "According to my father's studies, this young man was one of Delita's closest friends and confidants─that is, until the untimely passing of Delita's sister forced the two to part ways."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Yet, the unnamed hero continued to provide aid to his friend by thwarting the machinations of those who would scheme against Delita, thus paving the way for the pauper's rise to regent."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "You must forgive me, but I've never heard anyone make such claims. How exactly did your father come by this information?"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "That...is a long story..."
+            },
+            {
+                "name": "CID",
+                "text": "One which begins and ends with Jenomis becoming lost in the very legend he sought to lay bare."
+            },
+            {
+                "name": "CID",
+                "text": "Even as far back as our Academy days, Ivalice had Jenomis firmly in its grasp. He flatly refused to believe the story was just a faerie tale."
+            },
+            {
+                "name": "CID",
+                "text": "And so, when he was finally driven out of Garlemald, it was only natural that he should choose this of all places as his refuge─was it not, Alma?"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "That is correct, Master Garlond. It has long been my father's belief that the ruins of ancient Ivalice lie beyond Nagxia, buried beneath the sands of the Dalmasca Desert."
+            },
+            {
+                "name": "CID",
+                "text": "Poor Dalmasca... The kingdom prospered in relative isolation for countless generations...until the Empire came calling."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "When not touring, my father would organize expeditions into the Dalmasca Desert to search for proof of Ivalice's existence. Sometimes he would bring back strange artifacts, ancient tomes...and crystals. Crystals unlike any others."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "My father called them <span class=\"emphasis\">auracite</span> and claimed they were vital to proving his theories. This is one such crystal."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "By the Twelve... It's magnificent!"
+            },
+            {
+                "name": "CID",
+                "text": "Ivalician legend tells of crystals bequeathed by the gods unto those who would be kings. It is during his quest to gather auracite that young Delita rises to prominence."
+            },
+            {
+                "name": "CID",
+                "text": "I must have heard the tale a thousand times from my nursemaid. But that is all it ever was─a tale."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "My father would often tell us how the auracite “spoke” to him. At the time, we assumed he was speaking figuratively─that the stones' beauty roused his muse."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "But then he began to act strangely..."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "How so?"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Following our arrival here in Hingashi, my father spent most of his time cloistered in his chambers, poring over his past research. And though he was alone, we could oft hear him in conversation."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "It was not uncommon for my father to recite the lines as he wrote them, but it soon became clear that this was something else."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "It was as if he was talking to my mother─my mother who passed several winters gone."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Might this not have been out of mere loneliness? Or perhaps the strain of your flight from Garlemald?"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Possibly... But that would not explain the voices which answered him."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "(-???-)Alma! Who are these people? I told you I did not require any help finding Father, especially from outsiders."
+            },
+            {
+                "name": "CID",
+                "text": "So good of you to join us, Ramza. Allow me to introduce─"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Enough, Master Cid!"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "We may be shunned by the Empire, but we are still Garleans, and we still have our pride...unlike some, it seems. We require neither the aid nor the pity of foreign rabble."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Have you forgotten where you are, Brother? It is we who are the “foreign rabble.” This land and its customs are all but unknown to us. We would be fools to conduct our search without a proven guide."
+            },
+            {
+                "name": "CID",
+                "text": "Your sister is right, Ramza. As for my good friend here, your mistrust is ill-placed. I will personally vouch for <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> character. In all the time I have known <span class=\"alternative-container\"><span class=\"alternative\">her, she</span><span class=\"alternative\">him, he</span></span> has never once let anything as insignificant as race or creed color <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> judgment. You are lucky to have <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "But we would have <span class=\"emphasis\">you</span>, Master Garlond! Why do you refuse us!?"
+            },
+            {
+                "name": "CID",
+                "text": "You know why. Until this affair with Omega is resolved, my hands are tied. It pains me to refuse you and your sister, but it pains me far more to leave Jenomis to his fate... I am sorry."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "You need not apologize. I let my emotions get the better of me... After what happened in Rabanastre, it may be time to admit we're out of our depth."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "My brother's last expedition met with tragedy in the ruins of the capital city. He barely escaped with his life."
+            },
+            {
+                "name": "CID",
+                "text": "The Empire turned Rabanastre into a death trap. You were a fool to set foot there without a proper escort."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "I realize that now, Master Garlond, but at the time, I saw an opportunity to rescue our father, and I took it."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Whatever led you to believe your father was in Dalmasca's capital?"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "My father's fascination with Ivalician legend began with a trip to the antediluvian city, long before the war. Call it a premonition, but something tells me that is where he has returned. Now you must excuse me. I need some time to think."
+            },
+            {
+                "name": "CID",
+                "text": "Then, Alma, I shall leave you and your brother in <span class=\"highlight\">Forename</span>'s capable hands. <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span> has ever repaid my trust with interest. You would do well to grant <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> yours."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Thank you, Master Garlond. We will not forget this kindness."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Cid didn't bid <span class=\"emphasis\">me</span> farewell! This is going in my write-up!"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Oh, how I miss my father..."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Master Garlond seems to think highly of you...so I will withhold judgment until after Dalmasca."
+            }
+        ],
+        "reward": {
+            "gil": 1200,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68089
+            ]
+        },
+        "next": [
+            68540
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1018994",
+            "obj": {
+                "i": 1018994,
+                "n": "Keiten",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024142",
+            "obj": {
+                "i": 1024142,
+                "n": "Ramza Bas Lexentale",
+                "l": 2371,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024140",
+            "obj": {
+                "i": 1024140,
+                "n": "Lina Mewrilah",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024141",
+            "obj": {
+                "i": 1024141,
+                "n": "Alma",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024143",
+            "obj": {
+                "i": 1024143,
+                "n": "Lina Mewrilah",
+                "l": 2371,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024144",
+            "obj": {
+                "i": 1024144,
+                "n": "Alma Bas Lexentale",
+                "l": 2371,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024154",
+            "obj": {
+                "i": 1024154,
+                "n": "Alma",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024155",
+            "obj": {
+                "i": 1024155,
+                "n": "Lina Mewrilah",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024157",
+            "obj": {
+                "i": 1024157,
+                "n": "Shuttle Pilot",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024160",
+            "obj": {
+                "i": 1024160,
+                "n": "Alma",
+                "l": 2370,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024161",
+            "obj": {
+                "i": 1024161,
+                "n": "Lina Mewrilah",
+                "l": 2370,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68089",
+            "obj": {
+                "i": 68089,
+                "n": "Stormblood",
+                "g": 6,
+                "l": "The Lochs",
+                "s": 1130
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68540",
+            "obj": {
+                "i": 68540,
+                "n": "A City Fallen",
+                "g": 21,
+                "l": "Kugane",
+                "s": 20,
+                "f": 1
+            }
+        }
+    ]
+}

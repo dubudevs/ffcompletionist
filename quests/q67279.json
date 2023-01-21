@@ -1,0 +1,111 @@
+{
+    "quest": {
+        "name": "An Unwanted Delivery",
+        "location": "Ishgard",
+        "id": 67279,
+        "patch": 3.0,
+        "sort": 5008,
+        "eventIcon": 71221,
+        "issuer": 1012217,
+        "target": 1011952,
+        "genre": 96,
+        "journal": [
+            "Torsefers looks sick with worry.",
+            "Lord Emmanellain has tasked Torsefers with delivering a letter to Lady Laniaitte at the Rosehouse in the Sea of Clouds. Fearing that something may go wrong─and thereby incurring the wrath of Lord Emmanellain─Torsefers asks you to deliver it in his stead.",
+            "You deliver the letter to Lady Laniaitte, and the overpowering fragrance of roses tells her immediately who sent it. As she tells it, she and Lord Emmanellain have known one another since childhood. Though he is a man grown, his behavior can still be childish at times."
+        ],
+        "objectives": [
+            "Deliver the rose-scented letter to Lady Laniaitte at the Rosehouse."
+        ],
+        "dialogue": [
+            {
+                "name": "TORSEFERS",
+                "text": "I look worried? Nonsense. Why would I have anything to be worried about?<br>&lt;sigh&gt; Okay... I suppose there is no harm in telling you."
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "Lord Emmanellain requests I deliver a missive to Lady Laniaitte at the Rosehouse. I remember him specifically mentioning that failure would <span class=\"emphasis\">not</span> be tolerated. It is a simple task, yet the thought of something going awry has my stomach in knots."
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "I am loath to thrust my duties upon another, but... Would you be willing to deliver this missive?"
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "I cannot afford to take chances. Surely a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> of your talents can see the deed done without fail. Please, you are my only hope!"
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "When you arrive at the Rosehouse, take the missive directly to Lady Laniaitte. No detours. There can be no mistakes with this delivery."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. You're looking well, but what brings you here to Cloudtop? If there is aught you require, you need only ask."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "&lt;sniff&gt; Rose oil? Ugh, a letter from Lord Emmanellain. I'm terribly sorry about this. I never imagined he would attempt something so shameless."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "I'm afraid to say he's always been like this. House Haillenarte and House Fortemps have always maintained good relations, and as such, those close in years often spend time together from an early age."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "I spent much of my youth playing together with Lord Emmanellain, but now... I fear he still clings too tightly to memories of our youth. Though I admit it is sometimes to my benefit."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "Unfortunately, I cannot say the same for Torsefers. No doubt he asked you to come in his place. I can sympathize with his anxiety over upsetting Lord Emmanellain, but this is no way to treat a guest. Please accept this as a token of my apology. I realize it's not much, but it is all I can offer at present."
+            }
+        ],
+        "reward": {
+            "gil": 728,
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67134
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012217",
+            "obj": {
+                "i": 1012217,
+                "n": "Torsefers",
+                "l": 2301,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011952",
+            "obj": {
+                "i": 1011952,
+                "n": "Laniaitte",
+                "l": 2100,
+                "q": 19
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67134",
+            "obj": {
+                "i": 67134,
+                "n": "Disclosure",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 19
+            }
+        }
+    ]
+}

@@ -1,0 +1,464 @@
+{
+    "quest": {
+        "name": "The Hrunting Heist",
+        "location": "Ishgard",
+        "id": 68442,
+        "patch": 4.0,
+        "sort": 630,
+        "icon": 100675,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012251,
+        "target": 1012251,
+        "involved": [
+            1012252,
+            1012253,
+            1014577,
+            1022150,
+            1022151,
+            1022152,
+            1022153
+        ],
+        "genre": 158,
+        "journal": [
+            "Hilda has a favor to ask of you.",
+            "Hilda informs you that the watch has been tasked with standing guard at the Temple Knight's forthcoming investiture ceremony. She is to attend a meeting to discuss this duty, and admits that your presence may be needed to temper her less-than-civil impulses towards a certain highborn knight. Make your way to the Congregation of our Knights Most Heavenly, and speak with Ser Muscadain.",
+            "Your conference with Ser Muscadain is interrupted by alarming news. It would seem that Hrunting─the sacred blade used for the investiture ceremony─has been stolen from the Temple Knights' treasury. Hilda offers the services of the watch to recover the sword, and the beleaguered Ser Muscadain grudgingly accepts. Begin the investigation by speaking to the treasury guard captain at the Hoplon.",
+            "Upon meeting with the guard captain, he hands you the remnants of a bullet found wedged into one of the treasury door's destroyed locks. Hilda wonders at the firearm used, and her comment triggers an outburst from a nearby noblewoman. According to the noblewoman's frantic ramblings, a firearm-wielding bandit has recently begun terrorizing the western highlands. While Hilda heads out to confirm this rumor, she asks that you visit the Skysteel Manufactory and see what Stephanivien can make of the deformed bullet.",
+            "Stephanivien examines the compressed scrap of metal, but is unable to identify its origin. Make your way into the western highlands, and look for Hilda in the vicinity of Hemlock.",
+            "You locate Hilda just in time to help her fend off a pack of vicious beasts. She may be interested to see the leather collar you discovered on the neck of one of the curs...",
+            "Hilda examines the collar, and mentions that the area appears to show other signs of habitation aside from the guard beasts. Perhaps the noble woman's tale held some truth after all... Return to Ishgard and rejoin Hilda back in the Brume.",
+            "You relay Stephanivien's apologies for failing to identify the bullet, and Hilda resigns herself to searching Hemlock once more for hints on the mystery bandit. Could this terror of the western highlands be the same thief who broke into the Temple Knights' treasury? The watch leader bids you return in due time and resume the hunt for Hrunting's thief.<br><br>※The next machinist quest will be available from Hilda upon reaching level 65."
+        ],
+        "objectives": [
+            "Speak with Muscadain.",
+            "Speak with the guard captain at the Hoplon.",
+            "Show the deformed bullet to Stephanivien at the Skysteel Manufactory.",
+            "Search for Hilda near Hemlock.",
+            "Show the leather collar to Hilda.",
+            "Speak with Hilda in the Brume."
+        ],
+        "dialogue": [
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Leave the basic trainin' to me. They'll be practicin' drills in their dreams by the time I'm done with 'em."
+            },
+            {
+                "name": "HILDA",
+                "text": "Come to see how we're doin', then?"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Aye, well, there ain't much to test yet. Things are comin' along, but progress is bloody slow─not one o' these buggers 'as the flair for the irons what ye or Joye showed."
+            },
+            {
+                "name": "HILDA",
+                "text": "Hah! We'd best let them get back to it, then. I've a different favor to ask of you, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "HILDA",
+                "text": "The watch has been tasked with its first big job: standin' guard at the Temple Knight's investiture ceremony."
+            },
+            {
+                "name": "HILDA",
+                "text": "This ceremony's an important event, and settin' the watch to, well, watch over it, is a gesture what's meant to “embody the new spirit of harmony between highborn and lowborn.”"
+            },
+            {
+                "name": "HILDA",
+                "text": "Lucia didn't honey her words. She said that makin' a mess of this duty is like to harm our reputation beyond savin'. The Hounds'll be knocked down before they even take their first steps."
+            },
+            {
+                "name": "HILDA",
+                "text": "...But gettin' back to that favor. There's to be a meeting to discuss security concerns for the event, and I want you sittin' in on it."
+            },
+            {
+                "name": "HILDA",
+                "text": "You see, the representative for the Temple Knights is the kind of bloke what has me itchin' to shoot him in the teeth. Pompous bastard by the name of Muscadain. If you're there, I might just be able to keep my trigger finger under control."
+            },
+            {
+                "name": "HILDA",
+                "text": "Thanks, <span class=\"highlight\">Forename</span>, I appreciate the support. I'll see you at the Congregation, then."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "In their first trainin' session I 'ad 'em fightin' a beast out on the snow. They managed to put the thing down, but I could've sunk a bloody galleon with the amount of ammunition they used..."
+            },
+            {
+                "name": "SYMME",
+                "text": "When I'm practicing the instructor's drills, I feel like the Fury Herself is there, watching over my shoulder. Heh heh... It's the strangest thing..."
+            },
+            {
+                "name": "EUDESTAND",
+                "text": "I reckon it's a bit bloody unfair that Rostnsthal's standard for trainin' is based on a dragon slayin' hero and the machinist's best shot...<br>Don't tell him I said that, though."
+            },
+            {
+                "name": "HILDA",
+                "text": "The meeting's takin' place at the Temple Knights' offices. If you see me glarin' at Muscadain and reachin' for my firearm, do your best to stop me, eh?"
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "You... I was not inform─"
+            },
+            {
+                "name": "HILDA",
+                "text": "<span class=\"highlight\">Forename</span>'s here as my advisor. I trust <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> advice a damn sight more than that of a certain empty-helmed, stiff-backed blue blood."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "Hmph. I will not dispute <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> place at this meeting. In fact, I would be far less inclined to entrust this duty to a certain foul-mouthed, disrespectful commoner were she <span class=\"emphasis\">not</span> accompanied by such an advisor."
+            },
+            {
+                "name": "TEMPLEKIGHTMESSENGER02906",
+                "text": "My apologies for the interruption, Ser Muscadain! I bear urgent news..."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "Speak, then."
+            },
+            {
+                "name": "TEMPLEKIGHTMESSENGER02906",
+                "text": "Ser! A thief has breached the Vault and stolen the sacred blade Hrunting!"
+            },
+            {
+                "name": "HILDA",
+                "text": "Hrunting's the sword what's used to dub new knights, or so they tell me. But that place is crawlin' with guards... Hard to imagine how someone even managed to get in there, let alone filch anything."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "It is unthinkable! The treasury door is secured with seven different locks. Sentries stand vigilant night and day. None could approach without notice!"
+            },
+            {
+                "name": "TEMPLEKIGHTMESSENGER02906",
+                "text": "The sentries claim they were struck senseless...<br>They later awoke to find the door to the treasury hanging open, but of all the valuables secreted within only the blade was missing."
+            },
+            {
+                "name": "TEMPLEKIGHTMESSENGER02906",
+                "text": "By all accounts, the entire incident took place over the span of a few short minutes. This burglar obviously had a plan and was very precise in its execution."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "...And you say that only Hrunting was taken? The loss of such a prominent symbol right before the ceremony bodes ill for Ser Aymeric's reputation. The lord commander cannot afford to have his authority eroded at this delicate stage, lest Ishgard once more fall prey to infighting and insurrection."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "We must reclaim the blade ere its disappearance becomes common knowledge. Bah, I have not the time nor the knights to spare for this..."
+            },
+            {
+                "name": "HILDA",
+                "text": "Well, my Hounds might be able to help you there. They're the best the watch has to offer, and I reckon they can keep their gobs shut."
+            },
+            {
+                "name": "HILDA",
+                "text": "Your ceremony's our time to shine, so we've a vested interest in seein' it go forward as planned. And there's no harm in gettin' on Ser Aymeric's good side, neither. What say we look into it?"
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "Hmph. Do as you wish. With <span class=\"highlight\">Forename</span>'s assistance, mayhap even your mob of commoners will see some modicum of success. Now, if you will excuse me."
+            },
+            {
+                "name": "HILDA",
+                "text": "Prickly bastard. You'd think he'd show a bit more bloody gratitude."
+            },
+            {
+                "name": "HILDA",
+                "text": "Anyways, enough of that─we've a sword to find."
+            },
+            {
+                "name": "HILDA",
+                "text": "We can begin by askin' some questions, I reckon. Get our own idea of what happened. Ready to put on your inquisitor robes?"
+            },
+            {
+                "name": "HILDA",
+                "text": "Good, then I've the perfect bloke for us to talk to. I know a knight what took part in that raid on the Vault a while back, and he just so happens to be captain of the treasury guard. Let's head to the Hoplon and see if our man's about."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Recoverin' stolen booty, eh? That ought to give our crew some good practice for the duties what lie ahead. Once they've learned to bloody shoot straight."
+            },
+            {
+                "name": "SYMME",
+                "text": "“Where was you on the night of the theft?”...is what I would've asked if I was going with you. But Rostnsthal says I'm to stay behind and practice my drills for the now... &lt;sigh&gt;"
+            },
+            {
+                "name": "EUDESTAND",
+                "text": "Seems we're still “too green” to come along. You and Hilda take care while you're out askin' questions..."
+            },
+            {
+                "name": "HILDA",
+                "text": "I explained the situation to Rostnsthal, and he reckoned we should investigate with just the two of us for the moment. Probably for the best."
+            },
+            {
+                "name": "TEMPLEKIGHTGUARD02906",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Forename</span> and Mistress Hilda. Ser Muscadain told me to expect you."
+            },
+            {
+                "name": "HILDA",
+                "text": "Huh, and I thought he'd no time to spare. So does this mean you're to help or hinder us?"
+            },
+            {
+                "name": "TEMPLEKIGHTGUARD02906",
+                "text": "Why, to help you, of course! Here. Material evidence from the scene."
+            },
+            {
+                "name": "TEMPLEKIGHTGUARD02906",
+                "text": "All seven locks on the treasury door were destroyed, and this scrap of metal was found lodged in one of the keyholes."
+            },
+            {
+                "name": "HILDA",
+                "text": "Hmmm. The impact's crushed it all out of shape, but that looks like a bullet to me. Our culprit's wieldin' some sort of firearm."
+            },
+            {
+                "name": "MELISIE",
+                "text": "(-???-)A firearm, did you say!?"
+            },
+            {
+                "name": "MELISIE",
+                "text": "(-Thickly Painted Noblewoman-)Has there been yet <span class=\"emphasis\">another</span> crime committed with one of those horrible inventions? By the gods, I can scarcely sleep at night for worry! I suspect this is all the fault of Ser Aymeric's precious “revolution.”"
+            },
+            {
+                "name": "HILDA",
+                "text": "Who might you be, miss? And what did you mean by “another” crime?"
+            },
+            {
+                "name": "MELISIE",
+                "text": "(-Thickly Painted Noblewoman-)Why, the tales I've heard at high tea this past week would curl your toes! They say a musket-wielding brigand now terrorizes the western highlands! Just when the threat of those dragon-loving heretics has finally ended, a new nightmare rises to take their place."
+            },
+            {
+                "name": "MELISIE",
+                "text": "(-Thickly Painted Noblewoman-)And lest you think this some noble lady's fancy, even the traders come to supply the Crozier speak of shots echoing in the air near Hemlock. Dreadful. Simply dreadful."
+            },
+            {
+                "name": "MELISIE",
+                "text": "(-Thickly Painted Noblewoman-)I understand that our knights must honor their oath to aid foreign nations, but must it come at the cost of keeping order in Ishgard? Look at me, I've become positively flushed! I must retire to my chambers..."
+            },
+            {
+                "name": "HILDA",
+                "text": "Was she hard of hearin' or summat? That slathered harpy didn't so much as glance in my direction..."
+            },
+            {
+                "name": "TEMPLEKIGHTGUARD02906",
+                "text": "An unfortunate habit of the more “traditional” highborn, I'm afraid. Such stubborn examples aside, however, your actions have taught many of our nobles the wisdom of heeding the common citizenry."
+            },
+            {
+                "name": "HILDA",
+                "text": "Aye, I've not been ignored like that in a while...<br>Well, thank you for the bullet, ser knight. Good day to you."
+            },
+            {
+                "name": "HILDA",
+                "text": "As much as I'd like to ignore Her Ladyship's babblin', it might be worth lookin' into the rumor of this bandit up near Hemlock."
+            },
+            {
+                "name": "HILDA",
+                "text": "Considerin' the timin' and how the treasury was robbed, it's just too much of a coincidence. We've a couple of leads to follow, eh?"
+            },
+            {
+                "name": "HILDA",
+                "text": "Why don't you take the bullet to Stephanivien, and see if he can tell us where it came from."
+            },
+            {
+                "name": "HILDA",
+                "text": "Meanwhile, I'll head out to Hemlock and look for anyone what's armed with a carbine or summat similar. Come join me once you're done with the bullet─might be as I'll need your help with the search."
+            },
+            {
+                "name": "HILDA",
+                "text": "Take that bullet to the manufactory and learn what you can. I'll be waitin' for you out near Hemlock."
+            },
+            {
+                "name": "STEPHANIVIEN",
+                "text": "<span class=\"highlight\">Forename</span>, how fares the training of our indomitable watch? ...Hm? You have something for me?"
+            },
+            {
+                "name": "STEPHANIVIEN",
+                "text": "Yes... This is certainly the remnant of a bullet fired from close range, but more than that I cannot tell you."
+            },
+            {
+                "name": "STEPHANIVIEN",
+                "text": "It may have been made right here in the manufactory, but honestly, there is little difference between our ammunition and the bullets forged in Limsa Lominsa. I am sorry─the deformation makes it impossible to identify an origin with any degree of accuracy."
+            },
+            {
+                "name": "HILDA",
+                "text": "Done with that bullet already, are you? Let's finish up scoutin' Hemlock first, then I'll hear what Stephanivien had to say."
+            },
+            {
+                "name": "STEPHANIVIEN",
+                "text": "As I said, the condition of the bullet confounds my attempts to identify its origin, but my prospectometer chirps ever so faintly..."
+            },
+            {
+                "name": "HILDA",
+                "text": "My thanks. Was payin' too much attention to the ground when them beasts came at me. I managed to put down one or two, but─ What's that you've got there?"
+            },
+            {
+                "name": "HILDA",
+                "text": "...A leather collar. Hmph. Those curs must've been set to guard the place, though they seemed wild enough to me."
+            },
+            {
+                "name": "HILDA",
+                "text": "I found signs that someone was here, <span class=\"highlight\">Forename</span>─could be that Her Ladyship's brigand is more than empty parlor talk. Let's get back to the Brume before we compare notes though, eh? It's bloody freezin' out here..."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Some bandit with a firearm, eh? I bloody wonder..."
+            },
+            {
+                "name": "SYMME",
+                "text": "The instructor taught us what we should be looking for during investigations, but it all sounds so complicated. Aye, maybe it <span class=\"emphasis\">was</span> a bit early for us to be out there yet..."
+            },
+            {
+                "name": "EUDESTAND",
+                "text": "I reckon Symme'd have a good nose for investigations if he'd ever bother to engage that brain of his. Guess he'll be doin' the sniffin' and I'll be doin' the thinkin'."
+            },
+            {
+                "name": "HILDA",
+                "text": "Right, so what've we got? Did that bullet have a tale to tell?"
+            },
+            {
+                "name": "HILDA",
+                "text": "...Ah, that's too bad. I thought maybe we could learn where it came from, at least."
+            },
+            {
+                "name": "HILDA",
+                "text": "Seems that leaves us chasin' after this mystery bandit. Maybe I'll head out to Hemlock again, and have another poke around..."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "I'll stick it out 'ere an' keep drillin' the troops, then. Ye'll be the first to know when they're ready for inspection."
+            },
+            {
+                "name": "HILDA",
+                "text": "We'll make you proud, don't you worry about that! And don't stay away for too long─we've a thief to catch!"
+            },
+            {
+                "name": "TEMPLEKIGHTMESSENGER02906",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "TEMPLEKIGHTGUARD02906",
+                "text": "（★未使用／削除予定★）"
+            }
+        ],
+        "reward": {
+            "gil": 1263,
+            "xp": 191700
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 63,
+                    "id": 96
+                }
+            ],
+            "quests": [
+                68441
+            ]
+        },
+        "next": [
+            68443
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012251",
+            "obj": {
+                "i": 1012251,
+                "n": "Hilda",
+                "l": 2300,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012252",
+            "obj": {
+                "i": 1012252,
+                "n": "Symme",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012253",
+            "obj": {
+                "i": 1012253,
+                "n": "Eudestand",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014577",
+            "obj": {
+                "i": 1014577,
+                "n": "Stephanivien",
+                "l": 2300,
+                "q": 21
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022150",
+            "obj": {
+                "i": 1022150,
+                "n": "Rostnsthal",
+                "l": 2300,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022151",
+            "obj": {
+                "i": 1022151,
+                "n": "Muscadain",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022152",
+            "obj": {
+                "i": 1022152,
+                "n": "Temple Knight Patrol",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022153",
+            "obj": {
+                "i": 1022153,
+                "n": "Hilda",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68441",
+            "obj": {
+                "i": 68441,
+                "n": "The Machinists' Choice",
+                "g": 158,
+                "l": "Ishgard",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68443",
+            "obj": {
+                "i": 68443,
+                "n": "Release the Hounds",
+                "g": 158,
+                "l": "Ishgard",
+                "s": 650,
+                "f": 1
+            }
+        }
+    ]
+}

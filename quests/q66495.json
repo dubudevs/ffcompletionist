@@ -1,0 +1,186 @@
+{
+    "quest": {
+        "name": "A Promising Prospect",
+        "location": "Eastern Thanalan",
+        "id": 66495,
+        "patch": 2.0,
+        "sort": 216,
+        "eventIcon": 71201,
+        "issuer": 1006493,
+        "target": 1006497,
+        "genre": 1,
+        "journal": [
+            "Professor Lamberteint knows where you might find the crystal you seek.",
+            "Betraying no signs of remorse for his previous oversight, Professor Lamberteint tells you of another location where corrupted crystals might be found. Another pupil of his, Ceana, claims to have discovered a promising site in western La Noscea on the Isles of Umbra. Journey to Aleport and search for the scholar.",
+            "Ceana, like Hahasako, claims to be the greatest pupil of the good professor. Like the Lalafell before her, the accuracy of this bold claim remains to be seen."
+        ],
+        "objectives": [
+            "Speak with Ceana in Aleport."
+        ],
+        "dialogue": [
+            {
+                "name": "LAMBERTEINT",
+                "text": "Corrupted crystals of sufficient size and strength are not all that common, I fear. Fortunately, one of my other students, Ceana, claims to have discovered another promising site in eastern La Noscea."
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "Wait, that's not correct. Eastern La Noscea was where she was nearly killed when wandering too close to an imperial castrum. Hah hah, now <span class=\"emphasis\">that</span> made for an amusing anecdote!"
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "It was <span class=\"emphasis\">western</span> La Noscea─Pharos Sirius, on the Isles of Umbra, to be precise."
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "I can't recall her exact reasoning─something to do with one of Dalamud's Talons or some such nonsense. What I can say for certain is that she is still in Aleport, attempting to gain access to the isles."
+            },
+            {
+                "name": "LAMBERTEINT",
+                "text": "Why not travel there and see if Ceana's inquiries bear fruit? If you can look past the crass and violent ways of the local pirates, you might find your time there to be quite pleasurable. Oh, and do not forget to take your makeshift warded pot, lest she think you unprepared for the task."
+            },
+            {
+                "name": "CEANA",
+                "text": "Eh? Corrupted crystals!? <span class=\"alternative-container\"><span class=\"alternative\">Madam</span><span class=\"alternative\">Sir</span></span>, I've no interest in being the butt of your jokes, so if you've no other reason for addressing me, kindly leave me be."
+            },
+            {
+                "name": "CEANA",
+                "text": "Well, I'll be damned, Professor Lamberteint <span class=\"emphasis\">did</span> send you! Beg your pardon, it seems we got off on the wrong foot."
+            },
+            {
+                "name": "CEANA",
+                "text": "I'm Ceana─greatest of the professor's pupils, which is doubtless why he bid you seek me out. Indeed, I am an accomplished scholar with an extensive background in─"
+            },
+            {
+                "name": "CEANA",
+                "text": "&lt;yawn&gt; Oh <span class=\"emphasis\">gods</span>, just listen to me prattle on and on. I must have given this introduction a dozen times by now..."
+            }
+        ],
+        "reward": {
+            "gil": 1575,
+            "items": [
+                {
+                    "id": 3411,
+                    "one": 1
+                },
+                {
+                    "id": 27676,
+                    "one": 1
+                },
+                {
+                    "id": 3408,
+                    "one": 1
+                },
+                {
+                    "num": 6,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 23000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 41,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66492
+            ]
+        },
+        "next": [
+            66496
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006493",
+            "obj": {
+                "i": 1006493,
+                "n": "Lamberteint",
+                "l": 44,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006497",
+            "obj": {
+                "i": 1006497,
+                "n": "Ceana",
+                "l": 33,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "3411",
+            "obj": {
+                "i": 3411,
+                "n": "Padded Linen Trousers",
+                "l": 40,
+                "c": 45184,
+                "t": 36,
+                "p": 4050
+            }
+        },
+        {
+            "type": "item",
+            "id": "27676",
+            "obj": {
+                "i": 27676,
+                "n": "Altered Woolen Chausses",
+                "l": 41,
+                "c": 45060,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "3408",
+            "obj": {
+                "i": 3408,
+                "n": "Woolen Sarouel",
+                "l": 40,
+                "c": 45180,
+                "t": 36,
+                "p": 3240
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66492",
+            "obj": {
+                "i": 66492,
+                "n": "With the Utmost Care",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 215
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66496",
+            "obj": {
+                "i": 66496,
+                "n": "It's Probably Not Pirates",
+                "g": 1,
+                "l": "Western La Noscea",
+                "s": 217
+            }
+        }
+    ]
+}

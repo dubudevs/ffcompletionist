@@ -1,0 +1,107 @@
+{
+    "quest": {
+        "name": "An Augury of Innocence",
+        "location": "Coerthas Central Highlands",
+        "id": 66470,
+        "patch": 2.0,
+        "sort": 390,
+        "eventIcon": 71221,
+        "issuer": 1006458,
+        "target": 1006459,
+        "genre": 94,
+        "journal": [
+            "When a chance to see a real-life heretic presents itself, how could an adventurer resist? Visit with Boyle and see what rattles his cage today.",
+            "The heretic Boyle demands a sacrifice to offer to the dragons. This stretches even the very elastic definition of an adventurer's trade, but the imprisoned madman excites your pity. Ferdillaix may know if something can be done.",
+            "While unmoved by the broken, raving man in his dungeons, Ferdillaix gives you a dead rat solely to have some peace and quiet. A mangy dungeon rat is no fatted calf, but give it to Boyle anyway, for heretics cannot be choosers.",
+            "Boyle croons ecstatically over the dead rat, and begins some sort of a mumbled ritual chant. The less you linger near these doomed men, the better for your health. Make your report to Ferdillaix, and make haste.",
+            "Ferdillaix grouses about the din caused by Boyle. It does seem inconvenient that in exposing a man's heresy, the inquisitors also make him loud and more than a little mad. However, no good can come of humoring unbelievers or criticizing the inquisitors..."
+        ],
+        "objectives": [
+            "Speak with Ferdillaix.",
+            "Give Boyle the dead rat.",
+            "Report to Ferdillaix."
+        ],
+        "dialogue": [
+            {
+                "name": "BOYLE",
+                "text": "Muahahaha! Do you see? Do you see the great dragons? Dravanius mundi has risen! Bend the knee, bend the knee, <span class=\"alternative-container\"><span class=\"alternative\">bondswoman</span><span class=\"alternative\">bondsman</span></span>, before our righteous conquerors!"
+            },
+            {
+                "name": "BOYLE",
+                "text": "<span class=\"emphasis\">They</span> sent you, I know. A slave or a servant, a slave or a servant, those are the choices, so many voices...shhh. I must make an offering. Quickly, <span class=\"alternative-container\"><span class=\"alternative\">bondswoman</span><span class=\"alternative\">bondsman</span></span>, tell the slave Ferdillaix to send a fatted calf."
+            },
+            {
+                "name": "FERDILLAIX",
+                "text": "Boyle wants another sacrifice, eh? That crazy unbelieving son of a trull, he won't shut up when he gets in this state. Makes these dungeons a living hell, believe you me."
+            },
+            {
+                "name": "FERDILLAIX",
+                "text": "Here, just give him this dead rat. That'll keep him quiet for a bit. He does these...rituals, you know. Fair turns the stomach, but anything for a little peace."
+            },
+            {
+                "name": "BOYLE",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Bondswoman</span><span class=\"alternative\">Bondsman</span></span>! I see the thrall Ferdillaix has prepared for us the fatted calf. The dragon-lords will be most pleased!"
+            },
+            {
+                "name": "BOYLE",
+                "text": "Beautiful! Hm? “Innocent”? Shhh, my moo-cow, don't tell them you're innocent, it's <span class=\"emphasis\">worse</span> that way... O dravanius mundi! Accept this offering and let me be reborn in flames..."
+            },
+            {
+                "name": "BOYLE",
+                "text": "...Pine pitch, pig's fat, dry brush, rock oil─don't forget hair, hair burns─but a little bronze rattle that he loved so well, that only melts. Muahaha, that only <span class=\"emphasis\">melts</span>."
+            },
+            {
+                "name": "FERDILLAIX",
+                "text": "Finally, some peace! I tell you, some of these unbelievers <span class=\"emphasis\">seem</span> normal enough at first, but they show their true face after the inquisitors get to work on them. Best not consort with them that's in the dungeons, eh?"
+            }
+        ],
+        "reward": {
+            "gil": 1624,
+            "xp": 10800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 39,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66460
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006458",
+            "obj": {
+                "i": 1006458,
+                "n": "Boyle",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006459",
+            "obj": {
+                "i": 1006459,
+                "n": "Ferdillaix",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66460",
+            "obj": {
+                "i": 66460,
+                "n": "Ye of Little Faith",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 202
+            }
+        }
+    ]
+}

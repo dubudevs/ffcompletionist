@@ -1,0 +1,461 @@
+{
+    "quest": {
+        "name": "Spearheading Initiatives",
+        "location": "Ishgard",
+        "id": 67555,
+        "patch": 3.0,
+        "sort": 501,
+        "icon": 100442,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1014944,
+        "involved": [
+            1006377,
+            1012222,
+            1014957,
+            1014960,
+            1014961,
+            1014962
+        ],
+        "genre": 159,
+        "journal": [
+            "Leveva appears anxious. It might be in your best interest not to keep her waiting any longer.",
+            "Leveva believes you are ready to open the sixth and final heaven's gate. Tell Jannequinard that you will be departing soon.",
+            "Jannequinard, in a rare display of enthusiasm, has decided to accompany you to Camp Dragonhead. Journey to the Ishgardian camp and join Leveva and Quimperain who have already set forth.",
+            "When Leveva is accused of attacking the astrologian that the three of you recently rescued in Rathefrost, she freely surrenders herself to the Temple Knights for questioning. However, it is soon discovered that the knights are actually impostors tasked with delivering Leveva to a waiting Sharlayan thaumaturge who means to escort her back to the Old World. Wasting no time, you, Quimperain, and─amazingly─Jannequinard join forces to defeat Leveva's abductors, and subsequently find a missive on the body of the Sharlayan mage. Speak with Leveva to discuss your next course of action.",
+            "You have unlocked the gate to the heaven of ice and attuned with the Spear. Speak with Jannequinard and see what he makes of the missive.",
+            "The missive turns out to be orders for the attack you suffered, signed by none other than Forlemort. Jannequinard suggests you confront the chief astrologian at the Observatorium's astroscope.",
+            "Forlemort agrees that in exchange for your silence regarding the missive, he will no longer interfere in Leveva and Jannequinard's efforts at spreading the word of Sharlayan astrology in Ishgard. For now, you are free to take your first steps as a fully attuned astrologian."
+        ],
+        "objectives": [
+            "Speak with Jannequinard.",
+            "Speak with Leveva at Camp Dragonhead.",
+            "Speak with Leveva.",
+            "Take the missive to Jannequinard.",
+            "Wait for Forlemort at the Observatorium's astroscope.",
+            "Follow the false Temple Knights.",
+            "Slay the straying false Temple Knights without attracting attention.",
+            "Slay the Sharlayan assailants.",
+            "Gather the missive."
+        ],
+        "dialogue": [
+            {
+                "name": "JANNEQUINARD",
+                "text": "Have you spoken yet with Lady Leveva? She said she would await your arrival on the second floor, but she is not one easily contained, and I fear it will not be long before she is pining to be back out in the field with Quimperain fending off the blows of mysterious bandits."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "I believe you are ready to attune with the final constellation. The location of the next lesson is actually not far. I assume your travels have taken you to Camp Dragonhead? Excellent."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "I, as always, will go ahead to make my final readings. If each of our previous outings are any indication, the bandits which harry us will most certainly jump at this opportunity, so I would have Quimperain scout the area ahead of time, and report any suspicious activity to the knights garrisoned at the camp. Let someone else bloody their hands for a change, I say. Feel free to tell Jannequinard of our plans, though I do not doubt he already has some of his own."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Lady Leveva has already departed? Well, then she must have leaped from the window, for I did not see her use the front door. I daresay that means we will be traveling alone. Hm? Of course I will be attending! Why wouldn't I be?"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Camp Dragonhead is but a few malms south and east of the Gates of Judgement. The journey should take no time whatsoever. As for bandits, we need not worry about an assault. The camp is occupied by a full garrison of knights who patrol the surrounding hills day and night. They will not allow a flake of snow to fall on Lady Leveva's head...let alone a thirty-ponze war hammer."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "<span class=\"highlight\">Forename</span>...and Jannequinard? Well then... It, ah, appears giving my constellation map to that astrologian in Rathefrost was unwise, as my readings for the location of the sixth heaven have proven slightly off. However, a second calculation has shown that we are close. The optimal location lies just to the north of here in a derelict tower known as the Steel Vigil."
+            },
+            {
+                "name": "KNIGHT02019",
+                "text": "You. You've the look of the learned about you. Might I ask if you've seen this star map before? It was on the person of an astrologian who came to us seeking help after being attacked."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "That is my map─the one I gifted the astrologian in Rathefrost. Do you mean to tell me she was set upon again!?"
+            },
+            {
+                "name": "KNIGHT02019",
+                "text": "<span class=\"emphasis\">Your</span> map? Well, then I am going to have to ask you to accompany me for questioning. The astrologian claims she wrested this chart from one of her assailants before escaping their grasp."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Lady Leveva! Why would you assault the selfsame woman you risked your life saving!?"
+            },
+            {
+                "name": "QUIMPERAIN",
+                "text": "Because she did not, milord! Why would you even think something so foolish? This must be some sort of misunderstanding. I was present at the assault. We saved the young maid of which you speak from a party of bandits and Lady Leveva gave her own constellation map to replace the one damaged by her assailants. My <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">lord</span></span> <span class=\"highlight\">Forename</span> here was also witness to these proceedings."
+            },
+            {
+                "name": "KNIGHT02019",
+                "text": "Well, we have our own witnesses who say otherwise. So until we can have a trial and an adjudicator who can pass his judgment, this Leveva will have to come in for questioning, for she herself has admitted the map is hers."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "It is all right. I have naught to hide, and arguing here will not bring us any closer to the truth. If anything, I wish to confront this woman who would bring false accusations against those who saved her life."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Very well, then. Take me where you will. I shall answer all of your questions, and you will soon learn who is spouting falsehoods. My friends, you need not worry overmuch, for I shall be in the company of Temple Knights where no harm might befall me. I will return once I have proven my innocence."
+            },
+            {
+                "name": "QUIMPERAIN",
+                "text": "No harm, quotha! That “knight” was the selfsame astrologian whom we saved in Mor Dhona. The astrologian who now claims <span class=\"emphasis\">we</span> attacked <span class=\"emphasis\">her</span>!"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Are you saying the astrologian was a Temple Knight!?"
+            },
+            {
+                "name": "QUIMPERAIN",
+                "text": "No! Listen...<span class=\"emphasis\">milord</span>! I'm saying the astrologian is no more an astrologian than she is a knight. I'm saying we have been played! We've fallen victim to a ruse that has landed Lady Leveva in the hands of those who have been attempting to kill her since she set foot in Eorzea!"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Then... You are saying she <span class=\"emphasis\">won't</span> be safe in the presence of those Temple Knights."
+            },
+            {
+                "name": "QUIMPERAIN",
+                "text": "That's...grrr... Those <span class=\"emphasis\">weren't</span> Temple Knights, <span class=\"emphasis\">milord</span>. However, they were wearing the colors of Our Knights Most Heavenly, and if we were to assault them this near the heavily garrisoned Camp Dragonhead, we would be stuck full of arrows before anyone asked us why we even drew our blades. No, we must shadow Lady Leveva's captors and wait for an opportunity to take her back."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "How exciting! Can I take point? No? Of course not."
+            },
+            {
+                "name": "QIB",
+                "text": "Yes, ahem! I say we keep our distance until an opportunity to rescue Lady Leveva presents itself!"
+            },
+            {
+                "name": "QIB",
+                "text": "(And <span class=\"emphasis\">I</span> say, that is what <span class=\"emphasis\">I</span> have been saying all along! Now, might I ask that you keep your voice down, milord? Or it will not matter how concealed we remain.)"
+            },
+            {
+                "name": "QIB",
+                "text": "(Our impostor astrologian has left the company to see to those ogres. Let us take her unawares!)"
+            },
+            {
+                "name": "QIB",
+                "text": "(Very good. <span class=\"highlight\">Forename</span>, you may follow.)"
+            },
+            {
+                "name": "QIB",
+                "text": "(It is as I thought. This woman is the same one we assisted in Mor Dhona, and I do not believe she was working alone. We must continue our pursuit.)"
+            },
+            {
+                "name": "QIB",
+                "text": "(It is fortunate for us that they are on foot. If they were to make it to, say, an airship, we would have no means of keeping u─ Ah, is that an airship I hear?)"
+            },
+            {
+                "name": "QIB",
+                "text": "I want Leveva and I want her alive! Kill the rest and leave their corpses to the wolves."
+            },
+            {
+                "name": "QIB",
+                "text": "I'm not going back to Sharlayan. Quimperain!"
+            },
+            {
+                "name": "QIB",
+                "text": "As you command, milady!"
+            },
+            {
+                "name": "QIB",
+                "text": "The situation is dire, <span class=\"highlight\">Forename</span>! We cannot let them take Lady Leveva!"
+            },
+            {
+                "name": "QIB",
+                "text": "I've done all I can... Seems it was not enough..."
+            },
+            {
+                "name": "QIB",
+                "text": "I am sorry, Father..."
+            },
+            {
+                "name": "QIB",
+                "text": "<span class=\"highlight\">Forename</span>! They will not kill me...but they will kill you. You mustn't give up!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Just as I expected. These fools have led me straight to the answers I've sought since my arrival in this backwoods realm. And if I am not mistaken, my trusted companions should be arriving right...about..."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Now!<br>I'll be taking this!"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "The moment you lift off in that airship, the whole land will know you are not true Temple Knights and you will be made to answer for your crimes!"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "(-Old World Thaumaturge-)Once we're in the air, it will not matter what anyone knows, you fool! We will not be returning once we have slain you and your friends!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "No one shall stand in the way of my fate. Especially not some dogsbody of the Forum!"
+            },
+            {
+                "name": "QUIMPERAIN",
+                "text": "Please, <span class=\"alternative-container\"><span class=\"alternative\">milady</span><span class=\"alternative\">milord</span></span>. Allow me a moment to gather myself."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "I do not think Lady Leveva would mind us taking a peek inside that missive, would she? No, you are right. Like enough she would."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Bandits disguised as astrologians disguised as Temple Knights working for evil Sharlayans... I hope the rest of you know what is going on because I am utterly bewildered."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Of course I knew the Temple Knights were false. I recognized the astrologian we saved almost immediately, and I find it insulting that they believed I would not. I also knew that they would lead me to the true perpetrators if I played along, fully aware that you loyal three would follow."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "And I am pleased that you also <span class=\"emphasis\">knew</span> that we would somehow crawl our way out of that little tussle with our lives, because I was uncertain for most of the journey."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Well, I was certain <span class=\"highlight\">Forename</span> would make it, for the stars have already told me <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> would unlock the sixth gate here at the Steel Vigil─the very location we ended up at, despite our unexpected ordeal. Your fate, Jannequinard... Well, I never bothered reading it, for I thought that you would skip this lesson like you have every other one!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "<span class=\"highlight\">Forename</span>. Gaze upon the night sky and open your soul to the final constellation─the Spear!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "The Spear is the gate to the sixth heaven, where the Fury resides in a palace of ice carved by Her own spear─ice formed of moonbeams collected by the Lover, Menphina."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "The Spear fills us not only with the power to overcome our enemies, but also the compassion that is necessary to grant those same enemies mercy."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "And now that power is yours, to see directed to those whose fates require it."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "It is done. You have attuned yourself to the six lower heavens. And now that you know their strength, the true journey begins."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Like I've said from the beginning. The stars, the heavens, the arcana─they know our fates, but they are fickle with their information. It is up to us to prise it from their hearts and use it in a manner that might benefit all mankind."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "You have my congratulations, <span class=\"highlight\">Forename</span>. What has taken me more than fifteen summers to accomplish, you have done...and more in a matter of moons. But our time together has taught me that, despite what we may believe they are, we all have our roles, and each role is just as important as the other. Without taking both Quimperain and you under my wing, you would have never saved Leveva from her assailants...meaning, in a way, I saved Lady Leveva. Not that I am one to take <span class=\"emphasis\">all</span> the credit for such heroism."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Nor shall I take credit for this missive that never would have been discovered were it not for me taking you and Quimperain under my wi─ Ah, that cold stare. It befits this godsforsaken place. Point taken. Let us break the seal and see what we... Why... This handwriting... I have seen it many a time before. It is mine uncle's. But that would mean..."
+            },
+            {
+                "name": "QUIMPERAIN",
+                "text": "It would mean the highest ranking astrologian in all Ishgard has been attempting to assassinate us! If the Tribunal were to hear of this, he would be hanged!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "And a hanging will only earn us another ill-tempered Orthodox astrologian unwilling to open his eyes to the benefits of our discipline. No. We can use this missive to our advantage. As long as this remains in our hands, so too does the chief astrologian."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Are you saying we use the missive to blackmail Forlemort!?"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "I am <span class=\"emphasis\">saying</span> we merely grant the chief astrologian his life in exchange for a little assistance in furthering our just and noble cause. No more, no less."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "I see... You are quite the devilet, my dear. Very well. I will summon mine uncle to the astroscope. There we can present him with our offer."
+            },
+            {
+                "name": "FORLEMORT",
+                "text": "Jannequinard's lackey? But how are you still─ I mean, I haven't the time for idle chatter. Can you not see I am a busy man?"
+            },
+            {
+                "name": "FORLEMORT",
+                "text": "Why must you insist on pestering me, Jannequinard? I gave you your letter, now leave me be!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Ah, but that would not be the only letter you have written lately, would it?"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Perhaps you recall a certain letter to the Forum?"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "A letter carried by a party of less-than-savory characters who attempted to kidnap Lady Leveva and deliver her to Sharlayans, not to mention kill me, my manservant, and my good friend <span class=\"highlight\">Forename</span> here─who you may have forgotten is currently an honored guest of House Fortemps."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "A letter drawn up and signed by none other than you, Nuncle."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Oh, but do not presume to misunderstand us. We wish neither your disgrace nor your death. At least not at our hands."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "In fact, we wish very little from you. Naught, you might say─in the sense that you are to never again use your influence to hamper our efforts at spreading Sharlayan astrology here in Ishgard. Involve yourself no more in the affairs of me or my guests, and your secret remains safe. I will even forgive you for trying to have me murdered. If, that is, you give me your word."
+            },
+            {
+                "name": "FORLEMORT",
+                "text": "It is not as if you've left me with much choice. You have my word, but know that silencing me will not make your nonsense any more accepted in the Vault. There are others who will see you fall. Others who care little whether or not I speak my piece."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "We are fully aware of the peaks we have left to scale."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "However, we shall not let that discourage us. I have been shown a path that I altogether plan on walking, and the stars shall guide my way."
+            },
+            {
+                "name": "FORLEMORT",
+                "text": "The stars foretell many things, my dear. And not even the best readers can see them all. Do not forget this."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "So we have silenced him...but to hear him tell it, <span class=\"emphasis\">he</span> was the least of our worries."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "（★未使用／削除予定★）"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 20654
+                }
+            ],
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 99
+                }
+            ],
+            "quests": [
+                67554
+            ]
+        },
+        "next": [
+            67556
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1014944",
+            "obj": {
+                "i": 1014944,
+                "n": "Leveva",
+                "l": 2301,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006377",
+            "obj": {
+                "i": 1006377,
+                "n": "Forlemort",
+                "l": 63,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012222",
+            "obj": {
+                "i": 1012222,
+                "n": "Jannequinard",
+                "l": 2301,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014957",
+            "obj": {
+                "i": 1014957,
+                "n": "Leveva",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014960",
+            "obj": {
+                "i": 1014960,
+                "n": "Leveva",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014961",
+            "obj": {
+                "i": 1014961,
+                "n": "Jannequinard",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014962",
+            "obj": {
+                "i": 1014962,
+                "n": "Quimperain",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "20654",
+            "obj": {
+                "i": 20654,
+                "n": "Astrologian's Attire Coffer (IL 90)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67554",
+            "obj": {
+                "i": 67554,
+                "n": "Loved by the Sun",
+                "g": 159,
+                "l": "Ishgard",
+                "s": 500,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67556",
+            "obj": {
+                "i": 67556,
+                "n": "Sharlayan Ascending",
+                "g": 159,
+                "l": "Coerthas Central Highlands",
+                "s": 502,
+                "f": 1
+            }
+        }
+    ]
+}

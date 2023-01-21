@@ -1,0 +1,148 @@
+{
+    "quest": {
+        "name": "Gastornis Groove",
+        "location": "The Sea of Clouds",
+        "id": 67730,
+        "patch": 3.1,
+        "sort": 52,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016093,
+        "genre": 45,
+        "journal": [
+            "Muna Vanu is pulling at his feathers, fretting over something.<br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu is working on a gift to present to the Zundu in recognition of their kindness in accepting the Gundu. However, what he currently has to show for his efforts is decidedly plain. He asks that you procure something bright and colorful with which to decorate it. Luna Vanu may be able to help in this regard.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "Luna Vanu suggests gastornis feathers─lustrous and iridescent, they can even be gathered without engaging in the hazardous business of slaying the gastornis themselves. Search Cloudtop for the nests of these beasts and recover three of their feathers. ",
+            "You gather three gastornis feathers as requested, their opalescent hue shimmering as they flutter in the breeze. Return these marvelous specimens to Luna Vanu.",
+            "The Gundu merchant opines on the beauty of the feathers when you deliver them to him. They will no doubt be a superb addition to the gift Muna Vanu plans to present to the Zundu."
+        ],
+        "objectives": [
+            "Speak with Luna Vanu.",
+            "Gather downy gastornis feathers from gastornis nests.",
+            "Deliver the feathers to Luna Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "Perhaps if Muna Vanu plucks off own feathers, then─ Oh! <span class=\"highlight\">Forename</span>! Your arrival is as unexpected─and welcome─as refreshing summer shower!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Gundu wish to honor kind Zundu with gift of appreciation. But we have no materials to decorate gift worthy of such charitable tribe."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "But netherling can help! <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span> and trader Luna Vanu can gather materials so Muna Vanu can make gift that honors tribe."
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "Muna Vanu thinks to use own feathers for decorations!? Muna Vanu's feathers are dull and tattered─might just as well use thatch! "
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "We need soft, fluffy feathers, with colors brilliant and iridescent as rainbow after midday summer shower. Hmmm... Feathers of gastornis are most ideal."
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "If netherling travels to Cloudtop and gathers three gastornis feathers, Luna Vanu is very grateful! Beasts need not be slain─feathers can be found in nests of gastornis."
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "Feathers of gastornis are most brilliant and lustrous. Find them at Cloudtop."
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "Does netherling gather gastornis feathers?"
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "Netherling returns! Does <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> have beautiful gastornis feathers?"
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "Luna Vanu is right to rely on <span class=\"highlight\">Forename</span>. Feathers of Muna Vanu are hard and dull, like long-dead tree. But <span class=\"emphasis\">these</span> feathers are soft and colorful, like sprightly young sapling, resplendent with fresh blossoms!"
+            },
+            {
+                "name": "LUNAVANU",
+                "text": "These feathers let us make mask more beautiful than field, lush and rampant with wildflowers. I make beautiful gift to show true appreciation for Zundu!"
+            }
+        ],
+        "reward": {
+            "gil": 681,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 5,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016093",
+            "obj": {
+                "i": 1016093,
+                "n": "Luna Vanu",
+                "l": 2100,
+                "s": 2,
+                "q": 8,
+                "t": "Whitebone Exchange",
+                "r": 1,
+                "a": 2240,
+                "c": [
+                    7.04,
+                    14.28
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

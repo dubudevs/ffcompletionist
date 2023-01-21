@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Helm Me You Love Me",
+        "location": "Outer La Noscea",
+        "id": 66401,
+        "patch": 2.0,
+        "sort": 340,
+        "eventIcon": 71221,
+        "issuer": 1006325,
+        "target": 1006324,
+        "genre": 91,
+        "journal": [
+            "Some minds are sieves and some are steel traps, and Commander Bloeidin has the latter sort. His remembrance of things past begins a mission of vengeance.",
+            "Commander Bloeidin recounts to you the tale of how one Private Blaugybal was injured one rainy night in a kobold ambush. Racked with guilt over failing to protect his men, the commander now seeks revenge against a hated foe, the kobold priest of the 129th Order that arranged the deed. Use smoldering coal to set off three of the priest's bombs and lure him out of hiding.",
+            "You have set off all the bombs. Lurk at the specified spot and slay the priest when he appears.",
+            "After besting the cunning kobold priest, a strange impulse seizes you and you take his helm as a trophy. Show it to Commander Bloeidin.",
+            "Commander Bloeidin hears your report, and marks you as a friend of the Red Swallows. He bids you take the helm to Camp Bronze Lake to place in the hands of Blaugybal, who yet remains an invalid.",
+            "You give the dead kobold's helm to Blaugybal, who supplies the final piece of the story for that night. Much moved by his fellow Red Swallows' love for him, he renews his devotion to his brothers and sisters."
+        ],
+        "objectives": [
+            "Detonate kobold bombs with smoldering coal.",
+            "Lurk at the specified spot and defeat the kobold priest.",
+            "Show the kobold priest's helm to Bloeidin.",
+            "Give the kobold priest's helm to Blaugybal at Camp Bronze Lake."
+        ],
+        "dialogue": [
+            {
+                "name": "BLOEIDIN",
+                "text": "I've been racking my brain over those scouts you slew, and now I remember where I last saw 'em. They belong to that cursed priest."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "The priest's the leader of the kobolds' 129th Order─the only lot to ever make it past our sentries and into this camp."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "This camp's supposed to be like a ship. You might get a broadside, but you'll see it coming. You're s'posed to be safe here, but it wasn't safe that night and one of mine almost died. A young Swallow new-made, easy pickings for the moles."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "They slipped in on a rainy night, and when it was over, we found Blaugybal. He'd been lying out in the rain, and there were rills the color of roses running off of him. I hadn't kept him safe in his own camp, see, so the sawbones had to save him. I've amends to make─the priest's got to die."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "If the priest is here, that means there're kobold bombs nearby. When the 129th retreats, they go in fire and thunder─that's their way."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "You go to the bombs and set them off yourself. He'll come scampering to see what's amiss. Take him then."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "You may not be one of mine, but you're a red one, steel to soul. I can count on you. Take this smoldering coal─use it on the bombs."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Since that night, I'll not misprize the priest's guile. Already the whole camp's on alert, rearing to avenge Blaugybal. If this is one of the kobolds' tricks and they're thinking of ambushing us here, they won't live long enough for regrets."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Well? Tell me good news, did you rid us of that priest?"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "His helm...ripped from that cunning head of his! You've done me a great service, adventurer. Will you do another, for the Red Swallows?"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Take the helm to Private Blaugybal at Camp Bronze Lake. Tell him the priest is dead. Pup that he is, having a trophy will mean much to him."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "An adventurer or not, you're one of us now. Times aren't just changing, <span class=\"highlight\">Forename</span>, they're turning like a mutinied ship. Who knows, could be that being a friend of the Red Swallows proves a mighty useful thing."
+            },
+            {
+                "name": "BLAUGYBAL",
+                "text": "I know your face... Ah, the adventurer who delivered my pleas, but to no avail. You come from Overlook? Is all well there?"
+            },
+            {
+                "name": "BLAUGYBAL",
+                "text": "The priest is dead? The Swallows...I thought perhaps...perhaps they thought my wounds just deserts and left me to my shame. He did not tell you? I had the east watch that night. 'Twas me that failed, and near died in the failing."
+            },
+            {
+                "name": "BLAUGYBAL",
+                "text": "Look, see these cuts inside the helm, one from each of the Red Swallows. These are the same marks we make in the woods, so that no comrade may be lost...<br>Aye, thank you for bringing this. I am the most fortunate man in the world."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 1580,
+            "xp": 8385
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 34,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66400
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006325",
+            "obj": {
+                "i": 1006325,
+                "n": "Bloeidin",
+                "l": 350,
+                "q": 15,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006324",
+            "obj": {
+                "i": 1006324,
+                "n": "Blaugybal",
+                "l": 34,
+                "q": 2,
+                "t": "Storm Private"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66400",
+            "obj": {
+                "i": 66400,
+                "n": "Looking for Trouble",
+                "g": 91,
+                "l": "Outer La Noscea",
+                "s": 340
+            }
+        }
+    ]
+}

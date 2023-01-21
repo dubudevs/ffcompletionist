@@ -1,0 +1,535 @@
+{
+    "quest": {
+        "name": "A Confluence of Style",
+        "location": "Kugane",
+        "id": 68134,
+        "patch": 4.0,
+        "sort": 700,
+        "icon": 100687,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1021369,
+        "target": 1001000,
+        "involved": [
+            1019052,
+            1019053,
+            1021370,
+            1021375,
+            1021376
+        ],
+        "genre": 138,
+        "usedItems": [
+            17899,
+            17900
+        ],
+        "journal": [
+            "Blanstyr wishes to share his progress with you.",
+            "Blanstyr seems pleased with his improvement since his previous failure. Even as Master Fugetsu inquires as to your own progress, however, your conversation is interrupted by the entrance of a bustling Gyosei who is soon to depart for distant lands. Seizing the opportunity, Blanstyr offers to forge the samurai a set of armor by way of an apology for his past behavior. Meet your fellow artisan outside Kokajiya, and discuss what might make a suitable gift.",
+            "Blanstyr decides that Gyosei's armor will be a blend of Eorzean and Hingan styles, and bids you forge the largest piece: a Lominsan hara-ate. Speak with Unryu and procure the necessary materials.",
+            "Unryu hands over the supplies you need. Deliver your finished work to Blanstyr when the hara-ate is complete.<br><br>※In the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Unryu.",
+            "You hand your completed hara-ate to Blanstyr, and he puts it together with the rest of the armor. Head inside Kokajiya, and stand with Blanstyr as he presents the set to Gyosei.",
+            "Gyosei eagerly accepts the armor from Blanstyr. He returns a moment later in full battle gear, clearly moved by the gift's fine quality and personal touches. The samurai then hurriedly departs for his new appointment in high spirits, much to the satisfaction of the assembled armorers. Blanstyr, too, makes to depart, feeling that he has finally achieved what he set out to learn, but is stopped by Master Fugetsu. Fascinated by the possibilities of Lominsan plate techniques, it seems Kokajiya's head armorer would now become the apprentice. Blanstyr elects to stay in Kugane, and sends you back to Limsa Lominsa to explain this development to H'naanza.",
+            "H'naanza listens to your report with reluctant approval. She explains that while Blanstyr's absence will be felt in the short term, the creative stimulation his new methods will bring upon his return will be of great benefit to the guild. The forgemaster seems envious of the success of your journey, and vows to make her own study of Far Eastern armorsmithing techniques."
+        ],
+        "objectives": [
+            "Speak with Blanstyr.",
+            "Speak with Unryu.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize a Lominsan hara-ate <img class=\"hq-icon small\" src=\"images/item/hq.png\"></span><span class=\"alternative\">Deliver the Lominsan hara-ate <img class=\"hq-icon small\" src=\"images/item/hq.png\"> to Blanstyr</span></span>.",
+            "Speak with Blanstyr.",
+            "Report to H'naanza at the Armorers' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "BLANSTYR",
+                "text": "<span class=\"highlight\">Forename</span>! Since me little failure, I've gone back to learnin' all I can from Master Fugetsu. It's been full sail ahead for days now!"
+            },
+            {
+                "name": "FUGETSU",
+                "text": "Yes, Blanstyr is an extraordinarily fast learner. At this rate, I shall run out of things to teach him!"
+            },
+            {
+                "name": "FUGETSU",
+                "text": "And what of your training, apprentice? You are enjoying your stay in the land of Hingashi?"
+            },
+            {
+                "name": "FUGETSU",
+                "text": "I am glad. To be a stranger in a strange land can be trying at times."
+            },
+            {
+                "name": "GYOSEI",
+                "text": "Pray forgive my intrusion! It is I, Gyosei. I thought to extend my gratitude once more for your finely crafted somen ere I make my departure!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Master Gyosei! What's this about a departure?"
+            },
+            {
+                "name": "GYOSEI",
+                "text": "Ah, Blanstyr! I trust you are keeping well!"
+            },
+            {
+                "name": "GYOSEI",
+                "text": "I had some small success at the gozen-jiai, and pledged my katana to a lord. As fortune may have it, I am to leave Kugane this very day!"
+            },
+            {
+                "name": "GYOSEI",
+                "text": "It would seem that the good folk of my new master's domain are plagued by bandits and thieves. And it is to aid in the uprooting of such undesirables that my blade was bound into service."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "I see, an' that's...that's a good thing, right?"
+            },
+            {
+                "name": "GYOSEI",
+                "text": "It certainly is!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "...Hmmm. Could ye spare some time afore ye leave, then? It was at the expense o' yer commission that I made a breakthrough with me armorsmithin'."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "An' I'd like to forge ye a set of armor by way of an apology. Me professional pride demands it."
+            },
+            {
+                "name": "GYOSEI",
+                "text": "An offer so noble it brings tears to my eyes! It is with great reluctance, then, that I must decline. The hour of my departure draws near, and I cannot delay."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Ah, well that's a bloody shame..."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "You have my hammer!"
+            },
+            {
+                "name": "A1",
+                "text": "..."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Ye'll help me, then!? Aye, with yer aid, I reckon we could bang out a full suit faster'n ye could say “Byregot's beard!”"
+            },
+            {
+                "name": "FUGETSU",
+                "text": "Oho! Your heart is as pure as the metals you forge, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "<span class=\"highlight\">Forename</span>, I don't reckon I can do this alone. But with yer help, I'm sure we could bang out a full suit afore Master Gyosei's ship is due to sail. What say ye?"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Right, then! We'd best get to work!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Would you be willin' to wait a bit, Master Gyosei? I promise we'll have everythin' ready in time for ye to make yer ship."
+            },
+            {
+                "name": "GYOSEI",
+                "text": "You have convinced me! I shall trust in your talents, and abide here a while."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "<span class=\"highlight\">Forename</span>, I've got meself an idea...<br>But let's talk about it outside, eh?"
+            },
+            {
+                "name": "GYOSEI",
+                "text": "I shall linger as long as I dare!"
+            },
+            {
+                "name": "FUGETSU",
+                "text": "It was kind of you to offer Blanstyr your assistance. He is fortunate to have such a compassionate colleague!"
+            },
+            {
+                "name": "UNRYU",
+                "text": "Crafting an entire set of armor in such a short span of time will be quite a feat. Let me know if there is aught I can do to aid you!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "I've been thinkin' on the type of armor we ought to forge for our samurai mate."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Now, Hingan armor is flexible an' pretty an' all, but it's hard to look past the protection provided by Lominsan plate..."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "It seems Master Gyosei'll be headin' into battle against bandits an' the like, which sounds none too safe to me."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "So I reckon we give him a suit o' the kind only we could craft─one o' Hingan style what befits a samurai, but with a few Eorzean touches thrown in for good measure!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "I want ye to forge the chest piece─a Lominsan hara-ate, if ye get me meanin'. An' while yer workin' on that, I'll put together the rest. Ye know, the helm an' the gauntlets an' such."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Aye, it'll need to be a grand kabuto...summat what represents Gyosei's nature as well as his purpose."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Unryu an' his well-stocked shelves should be able to provide ye with supplies for the hara-ate."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "We're on a tight schedule here, <span class=\"highlight\">Forename</span>, so ye'd best get to hammerin' right away."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "I need to make a quick trip to look into a couple things, then I'll get to work meself. Meet me back here when yer done!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "UNRYU",
+                "text": "Is there something I can do for you, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "UNRYU",
+                "text": "Hmmm. Interesting. Let me just see what I have..."
+            },
+            {
+                "name": "UNRYU",
+                "text": "Here we go. This should be enough for the raw materials."
+            },
+            {
+                "name": "UNRYU",
+                "text": "Should you have a little accident with the pliers, I'll be glad to give you another armful of supplies. You're to meet with Blanstyr when the piece is finished, yes?"
+            },
+            {
+                "name": "UNRYU",
+                "text": "Were the materials I gave you insufficient? You'd best not keep Blanstyr waiting!"
+            },
+            {
+                "name": "UNRYU",
+                "text": "That is certainly a fascinating piece... Oh, but there's no time! Quickly, outside with you!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "I've done me research right an' proper this time, <span class=\"highlight\">Forename</span>! Is yer work finished, then?"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Oho! Ye've outdone yerself! Let me bundle it together with me other bits an' pieces, an' we can present the whole set to Master Gyosei."
+            },
+            {
+                "name": "UNRYU",
+                "text": "I cannot wait to see Master Gyosei's reaction to your work!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "It's all ready for ye to try on, sir. I hope it meets with yer approval..."
+            },
+            {
+                "name": "GYOSEI",
+                "text": "I do not know what artisan's sorcery you employed to craft this so swiftly, but I am beyond pleased with the result!"
+            },
+            {
+                "name": "GYOSEI",
+                "text": "And you even expended the effort to learn my family's crest! This kabuto is an astonishing recreation of our forward-facing rabbit!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Heh heh, I'm glad ye like it. I asked around, an' they told me the rabbit's one o' them sacred animals what brings prosperity an' long life. Seemed the perfect choice."
+            },
+            {
+                "name": "FUGETSU",
+                "text": "The rabbit is also called upon in battle to guard against mishap, as well as grant a swift victory. A “kawari kabuto” is more than a lucky charm, however: it serves to announce the presence of an individual warrior."
+            },
+            {
+                "name": "FUGETSU",
+                "text": "When a renowned samurai takes to the field wearing his distinctive helm, his foes mark his arrival and despair."
+            },
+            {
+                "name": "FUGETSU",
+                "text": "But for the samurai's allies, such a kabuto signals the appearance of a staunch companion, and can inspire the weary to rally against desperate odds."
+            },
+            {
+                "name": "FUGETSU",
+                "text": "This helm you have crafted captures the very essence of the kawari kabuto's purpose."
+            },
+            {
+                "name": "FUGETSU",
+                "text": "But I must admit to some confusion as to the absence of traditional scales on the chest armor. What manner of plate is this...?"
+            },
+            {
+                "name": "FUGETSU",
+                "text": "Ah, I see: though the design is Hingan, the metal itself has been forged with Lominsan techniques. A very modern confluence of styles!"
+            },
+            {
+                "name": "GYOSEI",
+                "text": "Ah! Would that I could stay and heap you with greater praise and gratitude, but I have already tarried overlong. Pray forgive my ill manners..."
+            },
+            {
+                "name": "GYOSEI",
+                "text": "I shall repay this boon by defending good folk from the predations of villainous men! My katana shall sing as I spring across the battlefield with the swiftness of the rabbit! Farewell, good masters!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Well, that's that, then. I learned what I came to learn, an' I reckon it's time I packed up an' headed home."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Thank ye, Master Fugetsu, ye've been a fine teacher!"
+            },
+            {
+                "name": "FUGETSU",
+                "text": "Ah, could I mayhap ask a favor of you before you leave?"
+            },
+            {
+                "name": "FUGETSU",
+                "text": "I would be most grateful if you could teach me the technique used in shaping the plates of Master Gyosei's armor. I sense great potential for future innovations..."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "It's all right, <span class=\"highlight\">Forename</span>─I won't keep ye here any longer. I know yer an adventurer as well as an armorer, an' yer likely gettin' itchy feet by now."
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "I'll stay behind an' instruct Master Fugetsu meself. After all, what better way to repay him for all them Hingan tricks he taught me!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "Ah, but do ye think ye could explain the situation to H'naanza for me? She'll take it better comin' from her favorite artisan, anyroad!"
+            },
+            {
+                "name": "BLANSTYR",
+                "text": "I'd appreciate it if ye could explain things to the forgemaster. She frets like a mother hen, ye know, even if she don't like to show it."
+            },
+            {
+                "name": "FUGETSU",
+                "text": "With the right designs, the possibilities for that plate technique are endless! I have toiled hard to master my craft, but it is somehow comforting to know that there still so much to learn..."
+            },
+            {
+                "name": "UNRYU",
+                "text": "I witnessed everything from my spot by the shelves here─Master Gyosei certainly seemed pleased before he had to hop out the door. Those rabbit ears will haunt my dreams..."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>! I received an almost illegible missive from Blanstyr saying you had both been accepted as apprentices, but not a whisper from him since. What's happened to the old aurochs?"
+            },
+            {
+                "name": "HNAANZA",
+                "text": "...Well, I can't say as I'm surprised. The guild will have to do without his veteran skills for a while longer, but an even exchange of techniques is only right and proper."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "By the time he returns, Blanstyr will have mastered new methods for blending Hingan and Eorzean styles."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "That knowledge will benefit not only him, but also stir the hearts of our armorers. Stagnation is as good as death for an artisan, after all."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "We had a much-needed influx of innovation when we began trading with the kobolds, and now we'll find new ideas through this relationship with the Far East."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "I'm sorry to have sent you into the midst of one of Blanstyr's storms yet again, <span class=\"highlight\">Forename</span>, but I'd wager you've reaped the rewards when it comes to your craft."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "The journey was well worth it, then.<br>Well, I'd best start studying works by this Far Eastern forgemaster if I'm to keep ahead of you and Blanstyr!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In fusing the methods of Far Eastern and Eorzean techniques, you have learned, “Stroke of Genius”!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 5703
+                },
+                {
+                    "id": 5708
+                },
+                {
+                    "id": 5713
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 11
+                }
+            ],
+            "quests": [
+                68133
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1021369",
+            "obj": {
+                "i": 1021369,
+                "n": "Blanstyr",
+                "l": 2404,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001000",
+            "obj": {
+                "i": 1001000,
+                "n": "H'naanza",
+                "l": 28,
+                "q": 28,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019052",
+            "obj": {
+                "i": 1019052,
+                "n": "Fugetsu",
+                "l": 2404,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019053",
+            "obj": {
+                "i": 1019053,
+                "n": "Unryu",
+                "l": 2404,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021370",
+            "obj": {
+                "i": 1021370,
+                "n": "Sunny Stallkeeper",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021375",
+            "obj": {
+                "i": 1021375,
+                "n": "Gyosei",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021376",
+            "obj": {
+                "i": 1021376,
+                "n": "Blanstyr",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5703",
+            "obj": {
+                "i": 5703,
+                "n": "Craftsman's Competence Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 11,
+                    "attr": "Craftsmanship",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5708",
+            "obj": {
+                "i": 5708,
+                "n": "Craftsman's Cunning Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "CP",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5713",
+            "obj": {
+                "i": 5713,
+                "n": "Craftsman's Command Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 7,
+                    "attr": "Control",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "17899",
+            "obj": {
+                "i": 17899,
+                "n": "Hara-ate Materials",
+                "l": 290,
+                "c": 20804,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "17900",
+            "obj": {
+                "i": 17900,
+                "n": "Lominsan Hara-ate",
+                "l": 290,
+                "c": 26108,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68133",
+            "obj": {
+                "i": 68133,
+                "n": "Head-to-head Contest",
+                "g": 138,
+                "l": "Kugane",
+                "s": 680,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "quest": {
+        "name": "A Pound of Cure",
+        "location": "Middle La Noscea",
+        "id": 66010,
+        "patch": 2.0,
+        "sort": 80,
+        "eventIcon": 71221,
+        "issuer": 1002634,
+        "target": 1002632,
+        "involved": [
+            1002626
+        ],
+        "genre": 91,
+        "usedItems": [
+            4552
+        ],
+        "journal": [
+            "Hi-potions are in short supply at Tiller's Rest, and Khanmhar hopes to remedy that.",
+            "The retired pirates are restless, and the frequent fighting has depleted the farm's reserves of medicine. Wydaloef at Tiller's Rest would be thankful for a hi-potion to replenish his fast-dwindling stores.",
+            "You can take the pirate out of the raging sea, but you cannot take the raging sea out of the pirate. One can only hope the buccaneers will someday find peace on earth."
+        ],
+        "objectives": [
+            "Deliver a hi-potion to Wydaloef at Tiller's Rest."
+        ],
+        "dialogue": [
+            {
+                "name": "KHANMHAR",
+                "text": "If you're headed to Tiller's Rest, I've a favor to ask of you."
+            },
+            {
+                "name": "KHANMHAR",
+                "text": "The pirates have been away from sea for too long, and their broken hearts turn to bloodshed for solace. A full supply of medicine lasts barely a week."
+            },
+            {
+                "name": "KHANMHAR",
+                "text": "If you could buy a hi-potion and take it up to Wydaloef, you may well save some lives."
+            },
+            {
+                "name": "WYDALOEF",
+                "text": "I'm plumb out of potions. Any sorry sufferer knockin' on my door may as well be knockin' on Thal's. All's I can offer 'em is a prayer."
+            },
+            {
+                "name": "WYDALOEF",
+                "text": "Were I a gods-fearin' man, I'd say you were heaven-sent. After the dust settles from the next pirate brawl, some sorry soul will owe you his lousy life."
+            },
+            {
+                "name": "WYDALOEF",
+                "text": "I pity the poor fish out of water. At first, I thought the fights were just to kill time, but now I believe some truly have a death wish."
+            },
+            {
+                "name": "WYDALOEF",
+                "text": "There's naught that can be done about that. We can't make 'em want to live, all's we can do is hope they learn to love the land."
+            }
+        ],
+        "reward": {
+            "gil": 128,
+            "xp": 637
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 5,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66002
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002634",
+            "obj": {
+                "i": 1002634,
+                "n": "Khanmhar",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002632",
+            "obj": {
+                "i": 1002632,
+                "n": "Wydaloef",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002626",
+            "obj": {
+                "i": 1002626,
+                "n": "Staelwyrn",
+                "l": 30,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66002",
+            "obj": {
+                "i": 66002,
+                "n": "Double Dealing",
+                "g": 1,
+                "l": "Middle La Noscea",
+                "s": 25
+            }
+        }
+    ]
+}

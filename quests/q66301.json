@@ -1,0 +1,160 @@
+{
+    "quest": {
+        "name": "Killing Him Softly",
+        "location": "South Shroud",
+        "id": 66301,
+        "patch": 2.0,
+        "sort": 141,
+        "icon": 100121,
+        "eventIcon": 71201,
+        "issuer": 1000332,
+        "target": 1000332,
+        "involved": [
+            1000327,
+            1006219
+        ],
+        "genre": 1,
+        "journal": [
+            "Meffrid needs help tending a wounded brother.",
+            "One of Meffrid's men requires urgent treatment for a wound, but the residents of the hamlet refuse to lift a finger. You must prevail upon Albreda to convince them to aid him.",
+            "Although her compatriot's life is in danger, Albreda cannot bring herself to disregard the will of the elementals. Instead, she bids you consult the hamlet's resident Hearer, a woman named Charline.",
+            "Despite your earnest pleas, Charline does not relent; the will of the elementals is absolute, and there will be no succor for the Ala Mhigans. You sorely dread having to return to Meffrid with the unhappy tidings.",
+            "Meffrid is understandably displeased with the verdict, and uses some choice words to express his opinion of the elementals. Is there no other way to aid him and his people?"
+        ],
+        "objectives": [
+            "Speak with Albreda.",
+            "Speak with Charline.",
+            "Report to Meffrid."
+        ],
+        "dialogue": [
+            {
+                "name": "MEFFRID",
+                "text": "Aye, I'm Meffrid, a proud man of the Ala Mhigan Resistance."
+            },
+            {
+                "name": "MEFFRID",
+                "text": "What business do you have with me, adventurer?"
+            },
+            {
+                "name": "NPCA",
+                "text": "(-Resistance Soldier-)C-Captain! It's...it's Gallien, sir! His wound's gone an' festered, an' he's burnin' up! I don't think he's got much time!"
+            },
+            {
+                "name": "MEFFRID",
+                "text": "Godsdammit! I asked the villagers for aid─got on my knees and <span class=\"emphasis\">begged</span>─but they refused to lift a finger! If Gallien dies, his blood is on their hands!"
+            },
+            {
+                "name": "MEFFRID",
+                "text": "These Quarrymill cravens would turn a blind eye to our plight, but they might listen to Albreda. I fear my anger will prevent me from rightly convincing anyone at the moment. I realize we scarce know each other, but this is a matter of life and death. Please, adventurer, go to her and try!"
+            },
+            {
+                "name": "ALBREDA",
+                "text": "One of Meffrid's in bad shape, you say? I'm...I'm sorry, but there's naught I can do."
+            },
+            {
+                "name": "ALBREDA",
+                "text": "I want to help, truly I do─they're my countrymen, after all─but that'd mean going against the elementals' will."
+            },
+            {
+                "name": "ALBREDA",
+                "text": "I've been at Quarrymill long enough to know how right <span class=\"emphasis\">terrible</span> the beings can be. I couldn't forgive myself if everyone gets banished because of me."
+            },
+            {
+                "name": "ALBREDA",
+                "text": "If there's anyone who can help you, it'd be Charline, the hamlet's resident Hearer. If you take the matter to her, might be as she'll listen...though I wouldn't get my hopes up."
+            },
+            {
+                "name": "CHARLINE",
+                "text": "You wish to aid the Ala Mhigans? You are possessed of a kind heart, adventurer, but I'm afraid I have not the authority to grant you your wish."
+            },
+            {
+                "name": "CHARLINE",
+                "text": "This authority belongs only to the elementals, eternal guardians of the Twelveswood. All outsiders, be they babes at the breast or men grown, are judged of a night whether they may have a place beneath the boughs."
+            },
+            {
+                "name": "CHARLINE",
+                "text": "Alas, the Ala Mhigans' petition has been denied. Harsh though it may seem, they do not have leave to receive of the wood's bounty. Ever has it been since time immemorial, and ever shall it be."
+            },
+            {
+                "name": "MEFFRID",
+                "text": "That's how it's to be, then!? The bloody Hearer might as well kill Gallien herself!"
+            },
+            {
+                "name": "MEFFRID",
+                "text": "Spit on the elementals and spit on their bloody will! I cannot wait until the Resistance is free of this place!"
+            }
+        ],
+        "reward": {
+            "gil": 1516,
+            "xp": 10150
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 26,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66299
+            ]
+        },
+        "next": [
+            66310
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000332",
+            "obj": {
+                "i": 1000332,
+                "n": "Meffrid",
+                "l": 56,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000327",
+            "obj": {
+                "i": 1000327,
+                "n": "Charline",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006219",
+            "obj": {
+                "i": 1006219,
+                "n": "Albreda",
+                "l": 56,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66299",
+            "obj": {
+                "i": 66299,
+                "n": "Meeting with the Resistance",
+                "g": 1,
+                "l": "The Waking Sands",
+                "s": 140
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66310",
+            "obj": {
+                "i": 66310,
+                "n": "Helping Horn",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 142
+            }
+        }
+    ]
+}

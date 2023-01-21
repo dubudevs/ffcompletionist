@@ -1,0 +1,81 @@
+{
+    "quest": {
+        "name": "Waiting to Inhale",
+        "location": "The Churning Mists",
+        "id": 67371,
+        "patch": 3.0,
+        "sort": 5413,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1013434,
+        "target": 1013434,
+        "genre": 100,
+        "journal": [
+            "The moogle on the watchtower is cradling her rumbling tummy.",
+            "It is almost time for a change in shift, and this poor moogle's replacement is nowhere to be found. Slay four tulihands to secure a safe path and ensure the moogle on the watchtower does not starve.",
+            "You have slain the tulihands, and now the shift replacement should be able to report to duty safely. Deliver the good news to the hungry moogle.",
+            "The on duty moogle hurries home after hearing your report, eager to get her hands on some kupo nuts."
+        ],
+        "objectives": [
+            "Slay tulihands.",
+            "Report to the moogle on lookout duty."
+        ],
+        "dialogue": [
+            {
+                "name": "MONITORINGMOG01835",
+                "text": "Whatever can be taking her so long, kupo? My replacement should've been here already, but I don't see her anywhere. I'm so hungry... I wager she went home on account of those troublesome tulihands that're flapping about. "
+            },
+            {
+                "name": "MONITORINGMOG01835",
+                "text": "If you slay four of them that should secure a safe path, giving my replacement no excuse. Please, my stomach begs you, kupo!"
+            },
+            {
+                "name": "MONITORINGMOG01835",
+                "text": "I can't go on, I need some kupo nuts... Adventurer, please slay the tulihands for me!"
+            },
+            {
+                "name": "MONITORINGMOG01835",
+                "text": "Thank you! Now that the tulihands are out of the way, it's only a matter of time before my replacement gets here! I'm about to pass out from hunger, so I think I'll go ahead. What could go wrong, kupo?"
+            }
+        ],
+        "reward": {
+            "gil": 485,
+            "aetherCurrent": 1,
+            "xp": 31200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 54,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67163
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013434",
+            "obj": {
+                "i": 1013434,
+                "n": "Moon-eyed Moogle",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67163",
+            "obj": {
+                "i": 67163,
+                "n": "Heart of Ice",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 48
+            }
+        }
+    ]
+}

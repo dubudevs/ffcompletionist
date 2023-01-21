@@ -1,0 +1,581 @@
+{
+    "quest": {
+        "name": "Wisdom of the Night",
+        "location": "The Rak'tika Greatwood",
+        "id": 69331,
+        "patch": 5.2,
+        "sort": 2,
+        "icon": 100968,
+        "beast": 13,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1032659,
+        "target": 1032659,
+        "genre": 58,
+        "journal": [
+            "Chaqurl Qhotl's eyes eagerly dart about the caves of Hopl's Stopple.<br>※The difficulty of this quest will be synced to your current level.",
+            "Thanks in no small part to your aid in gathering resources for the excavation effort, Qitarl Natl and his Stewards are at last prepared to delve deeper into the tunnels of Hopl's Stopple. Alas, there is one small complication: the presence of an arcane ward preventing access to the inner chambers that is passable only by servants of Ox'Dalan, protector of the underworld. As all present ponder a suitable course of action, the Great Serpent of Ronka lets forth a great scree, no doubt seeking to impart wisdom to your band. Sadly, no one present is able to comprehend the meaning of the divine protector's words, leaving you no choice but to accompany Chaqurl Qhotl to Slitherbough to seek the aid of the one man who can.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You find Quinfort, who does not hesitate to interpret the words of the great serpent in his typically grandiose, pontificating, and highly dubious fashion. Valan gives cursory consideration to the Keeper of Whispers's wisdom before offering up a more practical solution to the problem at hand: to construct a talisman enchanted with the incantations that keep Slitherbough safe from the selfsame beasts that would make the Qitari explorers their next meal.",
+            "You deliver the requested supplies to Valan, who deftly fashions a talisman according to Quinfort's instructions. Now able to probe the depths of Hopl's Stopple without fear of being devoured by creatures of the darkness, the Stewards' excavation team begins their dig, but will they succeed in finding the stone tablets they seek? Chaqurl Qhotl can scarce contain his anticipation to learn what secrets might be unearthed.",
+            "The Qitari rejoice as their excavation effort succeeds in exhuming the first Qitari stela: one of many great stone tablets on which is writ the sum total of the knowledge and history of their ancient race. The stone, however, has been weathered over the ages, obscuring key passages necessary to comprehend the writings in full. At the exhortation of the great serpent, the Qitari resolve to restore the tablets to the best of their ability. However, the missing text leaves many passages open for interpretation, and Qitarl Natl and his son Chaqurl Qhotl have differing views about the intended message. Seeking the wisdom of an impartial arbitrator, they turn to you..."
+        ],
+        "objectives": [
+            "Speak with Quinfort at Slitherbough.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Mine [Error] at Mjrl's Regret</span><span class=\"alternative\">Deliver [Error] to Valan</span><span class=\"alternative\">Gather [Error] at Mjrl's Regret</span><span class=\"alternative\">Catch [Error] at Mjrl's Tears</span></span>.",
+            "Speak with Chaqurl Qhotl."
+        ],
+        "dialogue": [
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">sir</span><span class=\"alternative\">madam</span></span>! It was <span class=\"alternative-container\"><span class=\"alternative\">sir</span><span class=\"alternative\">madam</span></span>, wasn't it? Mother tells me you've been working your tail off around the Stopple! Is that why I can't see your tail, perhaps?"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Anyhow! Thanks to you, Father says that we're ready to begin the ex-<span class=\"emphasis\">vacation</span>! Isn't this all so exciting?"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Chaqurl. We must remember to remain calm and composed. These caves are vast, their tunnels burrowing deep into the bowels of the land. Slow, steady, and <span class=\"emphasis\">circumspect</span> is the order of the day."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "As we speak, a preliminary exploration team is surveying the tunnels to determine where we might best begin the excavation. We will await their findings before deciding on the best way to move forward."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Understood, Father! I promise to be <span class=\"emphasis\">sir</span>-sumspect. Does that mean we can begin digging already?"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Towarl Manol! What news from the depths?"
+            },
+            {
+                "name": "TWARLMANOL",
+                "text": "Digmaster Qitarl. I fear we encountered something rather...unexpected. I fear that we may not be able to commence the excavation effort as quickly as we had hoped..."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "We can't start digging? But why? What did you find down there?"
+            },
+            {
+                "name": "TWARLMANOL",
+                "text": "No sooner had we stepped through the entrance, our whiskers twitching in anticipation of the wonders that awaited, than did we see them─nasty creatures swarming in every nook and cranny of the caves!"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "...A most troubling development indeed. We Qitari are scribes, not warriors. Indeed, it was the presence of fearsome fiends─and worse─blocking our way through the Ravel that kept us trapped for a hundred years. Are we doomed to suffer a similar fate here?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "I did defeat the Lightwarden, you know."
+            },
+            {
+                "name": "A1",
+                "text": "I can do more than just gather things."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "The ally of Ronka and bringer of the night would fell these terrible beasts for us? I would like little more than to take advantage of your kindness, but...I fear there is a rub."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "A rub?"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "...A rub. In our preliminary explorations of the Stopple, we have discovered that another ward seals off the tunnels below. A ward not unlike the one that barred the entrance, but with one notable─and unfortunate─difference."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "It is a ward impassable to all but the servants of Dalan─namely, the Qitari. No, I fear we will have to find our own way to dispatch the beasts that have burrowed their way up from the depths..."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "But without Sirmadam <span class=\"highlight\">Forename</span>'s aid, we'll be chewed up the moment we step in there─tails and whiskers and all!"
+            },
+            {
+                "name": "BOUSHITSUCHINOKO",
+                "text": "Scree!"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "The great serpent...it speaks!"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Indeed...and yet, it does not move. Till now, we have had only to follow where it goes. This time, it appears we must fully grasp the import of his message. A message which, sadly, is beyond my comprehension. If only there were someone who─but, of course! The son of Dwatl!"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "The son of... You mean, that tall fellow who likes to wave his arms in the air when he talks!?"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "The very same. Ahem...<span class=\"highlight\">Forename</span>. It appears we will require your assistance once more. Might you be so kind as to see my boy safely to Slitherbough, that he might summon this Quinfort for us?"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Would you kindly, <span class=\"highlight\">Forename</span>? Father and I would appreciate it ever so muchly and more! Now come along, great serpent!"
+            },
+            {
+                "name": "VALAN",
+                "text": "The Qitari boy told me you came seeking Quinfort's counsel. Are you sure you're feeling quite okay, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Slitherbough is full of tunnels, too! If Father wasn't waiting for us back at the Stopple, I'd love to go digging and delving here, too!"
+            },
+            {
+                "name": "BOUSHITSUCHINOKO",
+                "text": "Scree!"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "What's this you say!? Fell beasts prowl the tunnels at every turn? No doubt they are remnants of the shadows that wander the forests come to life! Demons, come to suck dry the currents of aether that give the Greatwood life, reducing our home to a withered husk!"
+            },
+            {
+                "name": "VALAN",
+                "text": "They <span class=\"emphasis\">could</span> be that. Or they could simply be nasty little brutes that crawled their way up from between the rocks. You know, like the ones around here."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Valan, my good sirmadam! You know of these creatures, too?"
+            },
+            {
+                "name": "VALAN",
+                "text": "I do. Mother tells me that when our ancestors first came to Slitherbough, they were set upon by a swarm of ravenous creatures that crawled up from below. Fortunately, one of the elder priests managed to utter an incantation that drove them away."
+            },
+            {
+                "name": "VALAN",
+                "text": "If you look closely at the walls around us, you can see glyphs carved in them. The same protective magic that saved our forefathers then has been worked into the very walls around us. In a sense, the settlement of Slitherbough itself serves as a ward against the dangers that lurk beneath us."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Just so, Valan! And it is precisely wards and incantations of this sort that I have made the focus of my studies of late!"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "I remain ever impressed with your knowledge, my good sirmadams. Might it be too much to ask if you could teach this incantation to the great serpent, that he might protect us in our expedition below?"
+            },
+            {
+                "name": "BOUSHITSUCHINOKO",
+                "text": "Scree...?"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Wh-What...what blasphemy do you speak, child!? Do you think <span class=\"emphasis\">me</span>, a humble servant of the wood, so brazen as to believe he could enlighten the divine protector itself!?"
+            },
+            {
+                "name": "VALAN",
+                "text": "&lt;sigh&gt; Look...this isn't exactly my area of expertise, but it strikes me that there might be a simpler way to approach this."
+            },
+            {
+                "name": "VALAN",
+                "text": "Why don't we simply fashion a talisman or two for them? You know, like the ones we've always used to keep danger at bay. I can craft a simple object to serve as the vessel, then Quinfort can mutter a few words and enchant it as he sees fit."
+            },
+            {
+                "name": "VALAN",
+                "text": "Tradition dictates that the talisman be fashioned from materials indelibly connected to the bearer's home. Those of us who live in Slitherbough usually gather what we need from the Citia Swamps, but for our Qitari friends, we'll have to look further east."
+            },
+            {
+                "name": "VALAN",
+                "text": "<span class=\"highlight\">Forename</span>...your knowledge of rocks and stones just might serve us well here. Why don't you head over to Mjrl's Regret and see if you can't find us a serpent's-eye? It's a rare gem that we often carry about to ward off danger."
+            },
+            {
+                "name": "VALAN",
+                "text": "<span class=\"highlight\">Forename</span>...your knowledge of trees and shrubs just might serve us well here. Why don't you head over to Mjrl's Regret and see if you can't find us a spectral cocoon. It's a casing of spun silk that we often carry about to ward off danger."
+            },
+            {
+                "name": "VALAN",
+                "text": "<span class=\"highlight\">Forename</span>...your angling aptitude just might serve us well here. Why don't you head over to Mjrl's Tears and see if you can't fish us up a shimmershell. It's a sea-dwelling creature whose husk we often carry about to ward off danger."
+            },
+            {
+                "name": "VALAN",
+                "text": "If you're in need of appetizing bait, I figure a fruit worm should suffice. Speaking of fruit worms, doesn't the way they wriggle and squirm remind you of─on second thought, never mind."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "And I shall immediately begin weaving an incantation especially tailored to protect our good friends from the sort of terrifying creatures that infest the caves and tunnels they seek to explore! Muahahaha! A foolproof plan if ever there was one!"
+            },
+            {
+                "name": "VALAN",
+                "text": "Chaqurl, you can stay here with me in Slitherbough and help me collect the other materials I need. It'll be the perfect opportunity to introduce you to my fellow Blessed."
+            },
+            {
+                "name": "VALAN",
+                "text": "Once we have everything we need, let's meet up again at Hopl's Stopple. I want to test the effectiveness of the talisman for myself before we leave Chaqurl and his friends on their own."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "I can scarce wait to put my prodigious talents to use for the sake of our Qitari friends!"
+            },
+            {
+                "name": "VALAN",
+                "text": "Oh, there you are! Were you able to find something suitable for making our talisman?"
+            },
+            {
+                "name": "VALAN",
+                "text": "Why, yes. This should serve us quite well. Just give me a moment or two─I'll round up the materials Chaqurl and I gathered from the village and whip up something in no time."
+            },
+            {
+                "name": "VALAN",
+                "text": "Just add a feather here, here, and here, then thread through this length of rope, and...yes, this should do it!"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "It's...it's beautiful! And this will let us begin the ex-<span class=\"emphasis\">vacation</span> in safety, you say?"
+            },
+            {
+                "name": "VALAN",
+                "text": "Not so fast. The talisman needs to be enchanted before it's of any use. As it is now, it's little more than a fancy little ornament."
+            },
+            {
+                "name": "VALAN",
+                "text": "Well, Quinfort? This is the moment you've been waiting for, isn't it?"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Muahahaha! Say no more! Stand back and bear witness as Quinfort, descendant of Dwatl, weaves an incantation the likes of which your eyes have never seen!"
+            },
+            {
+                "name": "VALAN",
+                "text": "Why do I have a bad feeling about this...?"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Worry not, dear Valan! In truth, at first I was uncertain which of the many prayers I have memorized would serve us best. A traditional chant of the Night's Blessed? But wait...the Qitari are an ancient race, so perhaps this calls for an incantation from ancient Ronka?"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Long did I ponder─choose poorly, after all, and it could mean death and destruction for our friends, if not the forest itself! Fortunately, it was then that the great serpent came to me in a vision, enlightening me as to the precise words that will deliver us to salvation: words which have long been writ in the <span class=\"emphasis\">Gospel of Quinfort</span>!"
+            },
+            {
+                "name": "VALAN",
+                "text": "You're going to enchant this talisman with ramblings from your dream diary? Now I <span class=\"emphasis\">really</span> have a bad feeling about this..."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Do not be silly, Valan. The great serpent speaks through me, and I am but a vessel for his divine wisdom. Hark, it is precisely as it says in chapter fifty-two, verse five..."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "“The goddess's claws stained cerulean, she did await the arrival of the stewards. The coming of the darkness marked a new dawn; a proud people returned to the wood where the egg once fell from high above...”"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "“O, Great Serpent of Ronka, gifted to us by the heavens! Hear the plea of the great sage's scion, and guide the children of Ronka safely to their ancestral home!”"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "O, Great Serpent! Do tell me, were my prayers heard?"
+            },
+            {
+                "name": "BOUSHITSUCHINOKO",
+                "text": "Scree-eee!"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Why, I've never heard an in-<span class=\"emphasis\">tank</span>-ation so inspiring! Your powers truly are something else, Master Quinfort!"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Oho! You are wise beyond your years, my young Qitari friend. My knowledge is vast, my powers indeed prodigious, and it is more than an honor to wield them in service of your esteemed people!"
+            },
+            {
+                "name": "VALAN",
+                "text": "Though he's prone to bouts of madness from time to time, Quinfort <span class=\"emphasis\">is</span> an accomplished priest. The talisman should serve you well."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Splendid. Our excavation effort has already been delayed for far longer than we can afford."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Well, Chaqurl? This is the moment of truth. There is no telling what dangers lurk beneath us. Are you quite certain you wish to accompany me to the tunnels below?"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "But of course, Father! Why else would I have come to this place with you? Together, we will unearth the secrets of our <span class=\"emphasis\">far</span>-forethers, and reclaim our history!"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Very well. It is clear you do not take the task lightly. Perhaps you are coming of age after all. And with that, I believe it's time we started digging."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Let the ex-<span class=\"emphasis\">vacation</span> begin!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Some time later..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Qitarl Natl and Chaqurl Qhotl have safely returned from their preliminary investigation of the tunnels."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Yet <span class=\"emphasis\">more</span> manifestations of the great serpent! Whatever have we done to deserve such a blessing!?"
+            },
+            {
+                "name": "VALAN",
+                "text": "Well, Chaqurl? Were you able to find any of the tablets you were searching for?"
+            },
+            {
+                "name": "HELMETTSUCHINOKO",
+                "text": "Scree! Scree!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The great serpent wriggles about and lets out a clear, clarion call. It would seem that it wishes to aid the Qitari in their effort to reclaim their history."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "What is this!? Another incarnation of the great serpent made manifest before us!? Whatever could be the meaning of this!? I must know at once!"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "...Ahem. If you could settle down for just a moment, Master Quinfort, I will explain in detail all I witnessed down below."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Father and I found a stone! It was big and square and covered with all sorts of writings, just like in the legends!"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "As my boy says, we did indeed find the stelae. Or at least...one piece of them."
+            },
+            {
+                "name": "VALAN",
+                "text": "What remains...?"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "According to Qitari legend, the stelae comprised four perfectly square stones, stacked to form a massive pillar. Which is to say, what we have found is but one part of the larger whole..."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "And if that were not unfortunate enough, even the single stela we found has been badly weathered through the years. In many places, the engravings are all but indecipherable."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "That is not all we found. Lying beside the shattered stone were several sad piles of bones─no doubt the remains of our once-proud forefathers who carried the stelae down below. I shudder to think of their last moments, torn apart by sin eaters as they hid away our legacy for safekeeping."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "Father and I thought to carry the stone to the surface, but in that moment, something jumped out and stood in our path!"
+            },
+            {
+                "name": "HELMETTSUCHINOKO",
+                "text": "Scree!"
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Are mine eyes to be believed!? The behatted serpent that first accompanied our Qitari friends remains on the surface, which means...we are graced by yet another incarnation of the divine protector!"
+            },
+            {
+                "name": "VALAN",
+                "text": "A <span class=\"emphasis\">third</span> manifestation of the great serpent? Just how many of them are there, anyway?"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "At the very least, this is the only one we encountered on our expedition. And yet, if it traveled here from somewhere to guide us in our efforts, it would not be unreasonable to assume that there are others where this one came from."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "In truth, it appeared and spoke to us just as we stood before the shattered stone. I cannot help but believe it was conveying to us a message, just as its brethren guided us to these ancient tunnels."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Chaqurl and I pondered the matter, and we believe that we understand. The great serpent bids us to unearth what remains of the scattered and weathered stelae, and piece together our people's history anew with our own hands and minds."
+            },
+            {
+                "name": "VALAN",
+                "text": "I see. If the stones truly have been scattered and weathered by time, that's the best you could hope to do."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Yet surely you must have been able to make out something from what remained of the stone! What chronicles of eld were writ there!?"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "...Ahem. What we were able to make of the markings could be described thus: a mighty Ronso wearing a crown─no doubt meant to represent the first emperor of Ronka, stood tall with a blade raised high over his head."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Before him, cowered a Qitari─one of our forefathers, no doubt. The carving would seem to depict the momentous occasion that was the first encounter between our people and the empire."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "And the implications could not be more clear. Doubtless our ancestors, ill-suited for battle, were conquered and subjugated by the might of Ronka, under whose yoke they would find new purpose as the stewards of history."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "A most fascinating interpretation, Father. But if I might be so bold, I saw the drawings quite differently."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "I do not believe the Ronkan emperor would be so cruel as to threaten the poor, weak Qitari. No, I believe that he found us vulnerable and at the mercy of the fearsome beasts of the forest. He slew the beasts by his own hand, and befriended our ancestors, giving us new purpose as his subjects."
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "Your optimism is admirable, my boy, but I fear that such a bright and cheery interpretation of events is unlikely at best. History is full of harsh truths from which we must not avert our eyes."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "But tales are still sung of the first emperor's might and majesty to this day, are they not? I simply cannot fathom that he would be so cruel as to enslave our people!"
+            },
+            {
+                "name": "VALAN",
+                "text": "If you ask me, both theories seem reasonable. But if you intend to keep a record of history to pass down to posterity, you're going to have to choose one."
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Two conflicting theories of the past─one to be etched in stone and sung until the end of time, and the other, destined to be consigned to the dust of the deep, dank caverns below! Truly, this is a turning point in the grand tapestry that is the history of the Qitari...!"
+            },
+            {
+                "name": "VALAN",
+                "text": "Yes, yes. At any rate, I believe we've done all we can here. "
+            },
+            {
+                "name": "QUINFORT",
+                "text": "Valan! I say, Valan─have you no interest in witnessing this momentous occasion in history!?"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "I would not think of insisting that my interpretation is the only valid one. And yet, I cannot simply toss it aside in favor of my son's rose-colored view of the past."
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "How poso-<span class=\"emphasis\">lute</span>-ly, absi-<span class=\"emphasis\">tive</span>-ly vexing!"
+            },
+            {
+                "name": "BOUSHITSUCHINOKO",
+                "text": "S-Screeeeeeeee!"
+            },
+            {
+                "name": "CHAQURLQHOTL",
+                "text": "The great serpent...it speaks again!"
+            },
+            {
+                "name": "QITARLNATL",
+                "text": "It does, and this time its message could not be more clear. It believes that <span class=\"highlight\">Forename</span>, the ally of Ronka, should be the one to weigh the options at hand and decide which version of history shall be inscribed upon the stone."
+            },
+            {
+                "name": "BOUSHITSUCHINOKO",
+                "text": "Scree!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Qitari father and son have arrived at conflicting interpretations of the events depicted on the stela. At the bidding of the Great Serpent of Ronka, it has fallen to you to determine which version of history will be recorded."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Trusted</span> reputation with the Stewards."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Borrowing the wisdom of the Night's Blessed, the Qitari have set up warding talismans around Hopl's Stopple. Free from the danger of wandering beasts, the excavation effort should proceed smoothly from here."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, yet another serpent clad in curious armor has arrived at the Qitari camp."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In order to continue the Qitari quests, speak with either Qitarl Natl or Chaqurl Qhotl, and choose the interpretation of history that you find most convincing."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Your choice will affect not only the restoration of the stela, but history as it will be told for years to come. Once you make your choice, you will be unable to go back, so choose carefully."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "New Qitari tribal daily quests are now available from Qhoterl Pasol at Hopl's Stopple."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you will be able to undertake three additional quests from Qhoterl Pasol as a reputation bonus. This bonus is available until the daily reset time for tribal quests."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These additional quests will become available after accepting all current daily quests from Qhoterl Pasol. Please be advised that you cannot undertake these quests if you have no remaining allowances."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you now have access to a wider selection of wares from Yuqurl Manl."
+            }
+        ],
+        "reward": {
+            "gil": 898
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 32
+                }
+            ],
+            "quests": [
+                69330
+            ]
+        },
+        "next": [
+            69336,
+            69337
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1032659",
+            "obj": {
+                "i": 1032659,
+                "n": "Chaqurl Qhotl",
+                "l": 2957,
+                "q": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69330",
+            "obj": {
+                "i": 69330,
+                "n": "The Stewards of Note",
+                "g": 58,
+                "l": "The Rak'tika Greatwood",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69336",
+            "obj": {
+                "i": 69336,
+                "n": "The First Stela: Of Ronkan Might",
+                "g": 58,
+                "l": "The Rak'tika Greatwood",
+                "s": 3,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69337",
+            "obj": {
+                "i": 69337,
+                "n": "The First Stela: Of Ronkan Benevolence",
+                "g": 58,
+                "l": "The Rak'tika Greatwood",
+                "s": 4,
+                "f": 1
+            }
+        }
+    ]
+}

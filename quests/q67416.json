@@ -1,0 +1,234 @@
+{
+    "quest": {
+        "name": "Thar Be Dragons",
+        "location": "The Churning Mists",
+        "id": 67416,
+        "patch": 3.0,
+        "sort": 5610,
+        "icon": 100479,
+        "eventIcon": 71221,
+        "issuer": 1013567,
+        "target": 1013560,
+        "involved": [
+            1013561,
+            1013568
+        ],
+        "genre": 100,
+        "journal": [
+            "Maenne's wounds seem to have healed somewhat.",
+            "Maenne informs you that she was attacked suddenly while investigating the lower layer of the Rookery by a type of dragon she has never seen before. She worries that leaving the beast be will only result in more injured dragoons, and bids you slay it before any more come to harm. She also asks that you bring something from that battle that might help identify the true nature of such a dragon. Make your way to the lower layer of the Rookery and slay the dragon if you find it.",
+            "You encounter the enormous dragon and slay it after a violent struggle, recovering a piece of ancient and rusty armor from its corpse. Give the armor to Maenne to see if she can glean any knowledge from it.",
+            "After examining the piece of armor you present to her, Maenne declares that it was forged in Ishgard, and most likely dates back to hundreds of years ago. It seems the dragon you slew was once a heretic, his monstrous form resulting from overindulging in dragon blood. Maenne cannot understand the heretic's motivations, and wonders why anyone would choose to be transformed in such a way."
+        ],
+        "objectives": [
+            "Search for and slay the Rookery master, and retrieve a part of it.",
+            "Bring the rusted besagew to Maenne."
+        ],
+        "dialogue": [
+            {
+                "name": "AIRPORTINVESTIGATOR01871",
+                "text": "Maenne said she had never seen such a dragon before... If only I had been there, mayhap she would not have come to harm..."
+            },
+            {
+                "name": "MAENNE",
+                "text": "<span class=\"highlight\">Forename</span>, the potion is doing its work, and before long I'll be fully recovered. I was investigating the lower layer of the Rookery, when a hulking shadow blotted my vision..."
+            },
+            {
+                "name": "MAENNE",
+                "text": "I managed to fight the beast off and escape, but I fear it still stalks this place. 'Twould be a grievous error to let it live─more dragoons could come to harm. I would ask you to slay the beast for us."
+            },
+            {
+                "name": "MAENNE",
+                "text": "Once the deed is done, bring something from the beast... Anything that would aid in identifying the true nature of the dragon."
+            },
+            {
+                "name": "MAENNE",
+                "text": "I would try and ascertain the true nature of the dragon that attacked me. Pray bring me something that could help me do so."
+            },
+            {
+                "name": "MAENNE",
+                "text": "I cannot in good conscience let our dragoons scout the area while that beast still lives. Were you able to track it down?"
+            },
+            {
+                "name": "MAENNE",
+                "text": "You pulled <span class=\"emphasis\">this</span> from the beast's corpse? Hmmm...this armor dates back to before any of us were born, but there can be no mistake─it was forged in Ishgard!"
+            },
+            {
+                "name": "MAENNE",
+                "text": "This must mean that dragon was once a heretic, and drank of the dragon blood until he..."
+            },
+            {
+                "name": "MAENNE",
+                "text": "The gilding on the armor indicates it's hundreds of years old... What would drive a man to choose to become...<span class=\"emphasis\">that</span>? To a heretic, does such a transformation indicate transcendence?"
+            },
+            {
+                "name": "MAENNE",
+                "text": "Mayhap 'tis not for me to understand the mind of a heretic. Nevertheless, we owe you our thanks for ridding us of that abomination."
+            }
+        ],
+        "reward": {
+            "gil": 496,
+            "items": [
+                {
+                    "id": 10813,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10897,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10939,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67420
+            ]
+        },
+        "next": [
+            67407
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013567",
+            "obj": {
+                "i": 1013567,
+                "n": "Maenne",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013560",
+            "obj": {
+                "i": 1013560,
+                "n": "Maenne",
+                "l": 2002,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013561",
+            "obj": {
+                "i": 1013561,
+                "n": "Scouting Party Dragoon",
+                "l": 2002,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013568",
+            "obj": {
+                "i": 1013568,
+                "n": "Scouting Party Dragoon",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10813",
+            "obj": {
+                "i": 10813,
+                "n": "Dragonskin Gloves of Aiming",
+                "l": 139,
+                "c": 44374,
+                "t": 37,
+                "p": 15411
+            }
+        },
+        {
+            "type": "item",
+            "id": "10897",
+            "obj": {
+                "i": 10897,
+                "n": "Dragonskin Gloves of Healing",
+                "l": 139,
+                "c": 44375,
+                "t": 37,
+                "p": 15411
+            }
+        },
+        {
+            "type": "item",
+            "id": "10939",
+            "obj": {
+                "i": 10939,
+                "n": "Dragonskin Gloves of Casting",
+                "l": 139,
+                "c": 44376,
+                "t": 37,
+                "p": 15411
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67420",
+            "obj": {
+                "i": 67420,
+                "n": "A Meter Too Far",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5609
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67407",
+            "obj": {
+                "i": 67407,
+                "n": "Laying the First Brick",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5611
+            }
+        }
+    ]
+}

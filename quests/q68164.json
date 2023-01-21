@@ -1,0 +1,487 @@
+{
+    "quest": {
+        "name": "Off the Record",
+        "location": "Gridania",
+        "id": 68164,
+        "patch": 4.0,
+        "sort": 680,
+        "icon": 100677,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006756,
+        "target": 1006756,
+        "involved": [
+            1001304,
+            1006725,
+            1014017,
+            1022779,
+            1022780,
+            1022782,
+            1022783,
+            1022784,
+            1023459,
+            1023894
+        ],
+        "genre": 155,
+        "journal": [
+            "Y'mhitra seems to be having trouble making headway with her research.",
+            "Y'mhitra has been unable to find significant mention of Sari in the usual histories, and decides to call on the assistance of her colleague, Rammbroes. Accompany Y'mhitra to Mor Dhona, and speak with the Roegadyn scholar at Saint Coinach's Find.",
+            "Rammbroes considers your situation, and suggests you borrow the unread tomestones from Rowena's considerable stock. Head into Revenant's Toll, and deliver Rammbroes's letter into the merchant's hands.",
+            "In exchange for summaries of their contents, Rowena has agreed to lend you a hefty pile of tomestone transcripts. Join Y'mhitra outside and begin sifting through the foreboding volumes.",
+            "Y'mhitra discovers a passage of interest almost immediately, but realizes that further assistance will be needed to search through the mountain of material. She resolves to enlist Captain Wolf's squad of summoners, and Rammbroes offers the use of his tent. Return to Saint Coinach's Find and speak with Y'mhitra once more.",
+            "With the aid of the summoner squad you learn the history leading to Sari's death, and construct a theory to explain the master summoner's simulacrum on Seal Rock. The acolytes head back to the island to search for further clues, and you return to Gridania with Y'mhitra to await their results.",
+            "With the investigation on Seal Rock providing little in the way of new information, you prepare to make an expedition to the research facility on Azys Lla. Judging by Principia's explanation of the seal and the goading nature of the present-day Sari's parting words, it seems that your arrival will not be unexpected...<br><br>※The next summoner quest will be available from Y'mhitra upon reaching level 70."
+        ],
+        "objectives": [
+            "Speak with Rammbroes at Saint Coinach's Find.",
+            "Deliver Rammbroes's letter to Rowena in Revenant's Toll.",
+            "Speak with Y'mhitra in Revenant's Toll.",
+            "Speak with Y'mhitra at Saint Coinach's Find.",
+            "Speak with Y'mhitra in Gridania."
+        ],
+        "dialogue": [
+            {
+                "name": "PRINCIPIA",
+                "text": "What misfortune that such an incident should occur on the cusp of your final challenge..."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "I searched through the usual histories, but found scant mention of Sari. 'Tis as Prin has said: records of his existence have all but been expunged."
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "And since my own knowledge is limited to the day I was stored away, we must rely on those lost Allagan records that escaped the purge."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "My colleague, Rammbroes, may be able to help us there. Hardly a day goes past when his team does not lift some forgotten treasure from the ruins in Mor Dhona. Shall we pay him a visit?"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Ah, hello, <span class=\"highlight\">Forename</span>. I've just been explaining our dilemma to Rammbroes here."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Come, we should visit Rammbroes at Saint Coinach's Find. He's sure to have something that survived the purge of Sari's history."
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "I would tell you the story of spending several thousand years locked in a dark room, but I fear I slept through most of it..."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "Y'mhitra has informed me of your search, and I shall be certain to contact you should our discoveries include any mention of this “Sari.” There may, however, be a swifter way to acquire the information you seek."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "I know of a certain merchant who collects undeciphered tomestones with even greater zeal than the Sons of Saint Coinach."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Ah... You speak of Rowena."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "Aye. We have formed something of a symbiotic relationship with her consortium. In return for financing our excavations, we provide Rowena with a selection of our finds. I'm sure you would find her amenable to a request for assistance."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "After all, you would merely need to borrow her tomestones for a time, yes? Here, I've penned a letter with my personal reassurances that her stock will be returned none the worse for wear."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "Take that letter to Rowena and ask to borrow her tomestones. I'm sure you will have no trouble coming to a mutually beneficial agreement."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "You have Rammbroes's letter, yes? I'll let you do the haggling..."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "<span class=\"highlight\">Forename</span>? Were you not on your way to Revenant's Toll?<br> ...Yes, yes, I will be there, don't you worry."
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "This merchant you go to see, she deals in Allagan records? How strange to think of history as currency..."
+            },
+            {
+                "name": "ROWENA",
+                "text": "Aye, what can I do for you?"
+            },
+            {
+                "name": "ROWENA",
+                "text": "...So you've the backin' of old Rammbroes, eh? Well, I suppose it wouldn't hurt to lend you some o' my tomestones."
+            },
+            {
+                "name": "ROWENA",
+                "text": "In fact, I'll do you one better and let you borrow the transcripts─courtesy o' the scribes at the Ironworks. As books, they're a damn sight heavier, but you don't need fancy machines when it's all penned down in ink and parchment."
+            },
+            {
+                "name": "ROWENA",
+                "text": "Give me a summary of the contents when you're finished, and I'll consider that as payment. Collectors'll part with more coin if they know what they're gettin', and my time's too precious to waste on readin' ancient history!"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Consider it a deal, Rowena, and thank you. Well, <span class=\"highlight\">Forename</span>, shall we get to work?"
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "Rowena lent you the transcripts? Well, I hope she also lent you a cart to carry them. Both mediums have their inconveniences, I suppose..."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Fancy that. I've barely begun skimming the very first volume, and there are already some promising passages. Let us wake Prin, and share our findings, shall we?"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Ah, Rammbroes. Have you come to check on our progress?"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "This charming tome is Principia, a sentient familiar of ancient Allag."
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "A pleasure to meet you, Master Rammbroes. Pray call me “Prin,” if you prefer."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "Thank you, Prin. And might I say what a privilege it is to meet such a rare and clever construct."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Clever? Well, yes, apparently Prin was written that way. In fact, we were just hoping to hear an opinion on a new snippet of information I've uncovered."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "'Twas an order listed in a record of imperial military communications, commanding that “the fruits of the master summoner's research be seized.” It appears that the army had more than a passing interest in Sari's experiments."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "Hmmm. And what exactly was the purpose of this research?"
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "Master Sari toiled to wed summoning magicks with aetherochemical technology. For example, he experimented with replacing grimoires with mechanical mediums, and sought to manifest egi of greater authenticity by utilizing high-speed computations."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "...Simply put, he turned to machines to enhance traditional summoning methods. Is that the gist of it?"
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "Correct. But Master Sari was never one to abuse the success of his experiments, no matter how they magnified his power. He would not place his trust in machines─their inherently complex nature was too prone to error, he said."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "The dates on these communications indicate a time in the latter half of Sari's life. Is it possible something could have occurred between crafting you and the execution of this order that may have greatly altered the summoner's outlook?"
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "There was, of course, the violent wave of anti-summoner sentiment that swept through Allag. It claimed the lives of many of Master Sari's disciples. Following their deaths, he began spending much of his time cloistered within his laboratory..."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "Such an incident could certainly be responsible for changing a man. And Principia, you were unaware of subsequent events once you fell into slumber, yes?"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "From what we've learned so far, 'tis safe to say that the foe we encountered is related to Sari's research in some way."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "And there are likely more clues buried in these records. I shall speak with Captain Wolf, and ask to borrow the sharp minds of his summoner squad─'tis a rather intimidating pile to tackle on our own."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "Well, seeing as you have the transcripts, there is no need to travel far. You are welcome to make use of my tent and the reference materials on Allag found therein."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "That would be an enormous help, thank you! Let's haul these books to the dig site, shall we?"
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "I have been checking in on Y'mhitra, and it seems she and the summoners are making good headway into those records."
+            },
+            {
+                "name": "CRISPIN",
+                "text": "Some people dislike this manner of task, but I never tire of dredging through pages that transport one to the past!"
+            },
+            {
+                "name": "DENISE",
+                "text": "These Allagan records are like to make my skull burst! Opening portals to other worlds, forging new moons...and it's not even fiction!"
+            },
+            {
+                "name": "JAJASAMULALASAMU",
+                "text": "I've been ignorin' aught that ain't to do with the military. 'Tis more efficient to have a narrow focus, I reckon."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "We should make our way to Saint Coinach's Find. 'Twouldn't do to leave Rowena's transcripts unattended!"
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "I did not count the days as I slept, but it truly has been millennia, hasn't it? In this age, the Master Sari I knew exists only in my memories..."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Our summoner colleagues arrived with a swiftness after I relayed to them our request. 'Tis well to see them recovered from their injuries!"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "With everyone pitching in, we stand a good chance of finding something useful..."
+            },
+            {
+                "name": "JAJASAMULALASAMU",
+                "text": "Ah, here's the bugger I was lookin' for! This's a record of when the military finally caught up with Sari. It says here the summoner was found dead─killed by someone else, it seems."
+            },
+            {
+                "name": "CRISPIN",
+                "text": "Then we have proof of the original Sari's demise in the Third Astral Era. Now there remains the question of who─or what─attacked us in this age..."
+            },
+            {
+                "name": "DENISE",
+                "text": "My coin is on one of those “clone” creations! ...Is there aught more to the story, Lieutenant?"
+            },
+            {
+                "name": "JAJASAMULALASAMU",
+                "text": "Aye, it goes on to describe how the imperial army took over Sari's research, laudin' his experiments as “exceptionally dangerous, but ripe with potential applications.”"
+            },
+            {
+                "name": "JAJASAMULALASAMU",
+                "text": "They shifted operations to an artificial island soon after an' began practical testin'. ...One cataclysmic accident later, though, an' that was the end o' that."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "This artificial island must be a reference to Seal Rock─the very site of our encounter with the present-day Sari."
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "During the battle, my creator's simulacrum exhibited the ability to summon multiple egi simultaneously, as well as manifest highly authentic facsimiles of flesh-and-blood entities."
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "The basis for every one of these unorthodox techniques can be traced back to Master Sari's research into machine-enhanced summoning."
+            },
+            {
+                "name": "CRISPIN",
+                "text": "I'd say we have enough evidence to support a working theory, then. Namely that the Allagan military was using a clone of the deceased Sari to perform hazardous experiments─tests which explored the feasibility of aetherochemically bolstered summoning magicks."
+            },
+            {
+                "name": "DENISE",
+                "text": "And when we landed on Seal Rock, we must have somehow awoken the remnants of those experiments!"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Mayhap we have solved the mystery of who the attacker was, but now I would know the place to where he fled. What refuge exists for such a being?"
+            },
+            {
+                "name": "JAJASAMULALASAMU",
+                "text": "From what I can gather, the results o' Sari's work were bundled off to some secret laboratory called the “Aetherochemical Research Facility.”"
+            },
+            {
+                "name": "DENISE",
+                "text": "You know of this place, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>? Is it far?"
+            },
+            {
+                "name": "CRISPIN",
+                "text": "Azys Lla!? If that's where they were keeping Sari's research, then it's possible the clone may have headed there."
+            },
+            {
+                "name": "DENISE",
+                "text": "Our squad will fly back to Seal Rock and make further investigations. The relics of the past may hold some hint we haven't yet considered."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "An excellent idea, thank you. We shall return to Gridania for the time being."
+            },
+            {
+                "name": "RAMMBROES",
+                "text": "You found what you were looking for, then? Very good. 'Twould seem that many hands made light work. Speaking of which, do not concern yourself with the transcripts─I shall arrange for them to be returned to Rowena with summaries attached."
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "This simulacrum of Master Sari has sought to obstruct my creator's will, and I shall offer it no quarter. You deserve to learn the wisdom within my pages!"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "I've received an update from Captain Wolf regarding their investigations on Seal Rock. 'Twould seem that certain of the Allagan relics have shown signs of recent activation!"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "The mechanisms were too heavily damaged to offer more in the way of useful information, however. I fear we must brave this Azys Lla facility and search for Sari ourselves. ...Is that what he was hoping for when he said “I will be waiting”?"
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "It is possible. I did not think the detail important at the time, but the lock engaged by Master Sari's simulacrum was not of the strictest tier."
+            },
+            {
+                "name": "PRINCIPIA",
+                "text": "Rather, the seal is one which fades upon the sealer's demise."
+            },
+            {
+                "name": "YMHITRA",
+                "text": "Then he was goading us into finding and defeating him? Another challenge...or is it simply a trap?"
+            },
+            {
+                "name": "YMHITRA",
+                "text": "I am not fond of rushing into the unknown. Gird yourself for the worst, <span class=\"highlight\">Forename</span>, and I will learn the present circumstances of the research facility."
+            }
+        ],
+        "reward": {
+            "gil": 1429,
+            "xp": 232200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 68,
+                    "id": 28
+                }
+            ],
+            "quests": [
+                68163
+            ]
+        },
+        "next": [
+            68165
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006756",
+            "obj": {
+                "i": 1006756,
+                "n": "Y'mhitra",
+                "l": 53,
+                "q": 22
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001304",
+            "obj": {
+                "i": 1001304,
+                "n": "Rowena",
+                "l": 67,
+                "q": 25
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006725",
+            "obj": {
+                "i": 1006725,
+                "n": "Rammbroes",
+                "l": 67,
+                "q": 14
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014017",
+            "obj": {
+                "i": 1014017,
+                "n": "Y'mhitra",
+                "l": 67,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022779",
+            "obj": {
+                "i": 1022779,
+                "n": "Y'mhitra",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022780",
+            "obj": {
+                "i": 1022780,
+                "n": "Y'mhitra",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022782",
+            "obj": {
+                "i": 1022782,
+                "n": "Crispin",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022783",
+            "obj": {
+                "i": 1022783,
+                "n": "Denise",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022784",
+            "obj": {
+                "i": 1022784,
+                "n": "Jajasamu",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023459",
+            "obj": {
+                "i": 1023459,
+                "n": "Principia",
+                "l": 53,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023894",
+            "obj": {
+                "i": 1023894,
+                "n": "Y'mhitra",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68163",
+            "obj": {
+                "i": 68163,
+                "n": "An Egi-stential Crisis",
+                "g": 155,
+                "l": "Gridania",
+                "s": 650,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68165",
+            "obj": {
+                "i": 68165,
+                "n": "An Art for the Living",
+                "g": 155,
+                "l": "Gridania",
+                "s": 700,
+                "f": 1
+            }
+        }
+    ]
+}

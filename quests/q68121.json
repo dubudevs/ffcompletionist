@@ -1,0 +1,468 @@
+{
+    "quest": {
+        "name": "Nightkin",
+        "location": "Idyllshire",
+        "id": 68121,
+        "patch": 4.0,
+        "sort": 650,
+        "icon": 100683,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1021779,
+        "target": 1021779,
+        "involved": [
+            1012133,
+            1021783,
+            1022926,
+            1023072
+        ],
+        "genre": 161,
+        "journal": [
+            "X'rhun has a particular book he wishes to track down.",
+            "X'rhun has recalled a particular book that Lambard would read with uncommon intensity, and wonders if it might contain a clue to Arya's condition. Remembering little of the rare tome aside from its macabre contents, your mentor bids you take Arya, and make an inquiry with Idyllshire's foremost treasure hunter, Midnight Dew.",
+            "You describe the heretic's memoirs to Midnight Dew, and she is put in mind of a rare book spotted by a colleague in the depths of the Great Gubal Library. Return to Rowena's Center for Cultural Promotion, and tell X'rhun of the <span class=\"emphasis\">Nightkin</span>.",
+            "Upon hearing the book's title, X'rhun seems confident that the <span class=\"emphasis\">Nightkin</span> is indeed the work you seek. Journey through the wilds of the Dravanian hinterlands to the Great Gubal Library, and prepare to guide your mentor through its now-darkened halls.",
+            "You have fought your way through to Rhapsodies Quadrangle, and obtained the elusive <span class=\"emphasis\">Nightkin</span> memoirs. Speak to X'rhun outside the library, and allow him to more fully peruse its contents.",
+            "After confirming the book's authenticity, X'rhun hints that the information contained within will be of great interest to Arya. Return to Idyllshire, and join your colleagues inside Rowena's establishment.",
+            "X'rhun shares with you the tale of the <span class=\"emphasis\">Nightkin</span> and its author. From its pages, he has gleaned that Lambard and Arya are both descendants of a Mhachi sorcerer─an archmagus who forged a dark pact with the voidsent Lilith, and took her blood inside his own body. According to the story, the first Calowise then entrapped the fiendish queen upon the physical plane to preserve the potency of her gift. Thus do you come to the conclusion that the path to lifting the curse of Arya's affliction lies in releasing Lilith's soul to the void. X'rhun means to follow the clues in the memoirs to uncover the voidsent's prison, but first insists that you rest and prepare for the adventure which lies ahead!<br><br>※The next red mage quest will be available from X'rhun Tia upon reaching level 68."
+        ],
+        "objectives": [
+            "Speak with Midnight Dew.",
+            "Speak with X'rhun Tia.",
+            "Speak with X'rhun Tia at the Great Gubal Library.",
+            "Give the <span class=\"emphasis\">Nightkin</span> to X'rhun Tia.",
+            "Speak with X'rhun Tia at Rowena's Center for Cultural Promotion.",
+            "Enter Rhapsodies Quadrangle.",
+            "Obtain the <span class=\"emphasis\">Nightkin</span>.",
+            "Obstruct the summoning!"
+        ],
+        "dialogue": [
+            {
+                "name": "ARYA",
+                "text": "I'm still not allowed to practice spellcasting, but at least I'm feeling back to normal. I'll be helping X'rhun search through as many scrolls and tomes as I can!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Greetings, <span class=\"highlight\">Forename</span>. Arya and I have begun wading through a sea of ancient text, but we've yet to fish out any promising cures for her condition."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I did, however, recall something which may help narrow down our search. Long ago, Lambard had one particular book which he would read with uncommon intensity."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I've forgotten the title now, but I do remember that inside were scrawled the memoirs of a deranged killer who was executed as a heretic in Ishgard. This criminal is said to have committed a number of ritualistic murders, all carried out with a most peculiar form of thaumaturgy."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I merely thought it a vulgar choice of reading material at the time, but now I wonder if that “peculiar form of thaumaturgy” was what kept Lambard glued to its pages."
+            },
+            {
+                "name": "ARYA",
+                "text": "It sounds positively awful... And yet it might just give us the clues we've been missing. I'll see if I can't track those memoirs down!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Hmmm, I understand it's quite a rare volume. And when it comes to hunting down elusive treasures, it may be worth consulting a professional treasure hunter."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "<span class=\"highlight\">Forename</span>, are you acquainted with Midnight Dew? Why don't you take Arya and pay her a visit?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I will try my hand at a different route. It's a long shot, but Rowena is known to stock a truly eclectic range of wares..."
+            },
+            {
+                "name": "ARYA",
+                "text": "Is this the “Midnight Dew” X'rhun asked us to meet?"
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "Ah, it's you. Somethin' you need? ...A heretic's memoirs for the young lady here? Bit of an odd request, but who am I to judge?"
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "...Oh, so you're workin' with X'rhun Tia, then! Thought you wanted it for some sort of tasteless personal collection! Hmmm, let me think now... Ishgardian heretic. Ritualistic killings. ...Oh, hells, it couldn't be!"
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "One of my fellow salvagers was just tellin' tales of a treasure he'd spied in the Great Gubal Library─a rare book called <span class=\"emphasis\">Nightkin</span>. Claims he glimpsed the title as he was running for his life through Rhapsodies Quadrangle."
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "'Tis a sought-after tome for collectors of the macabre, said to be written by an Ishgardian murderer who believed himself some manner of demon. Half a diary, half a grimoire, and chock-full of bloody lunacy..."
+            },
+            {
+                "name": "ARYA",
+                "text": "Well, it certainly fits the description! We should head back to Rowena's and share the news with X'rhun."
+            },
+            {
+                "name": "ARYA",
+                "text": "Thank you for your help, Midnight!"
+            },
+            {
+                "name": "ARYA",
+                "text": "X'rhun's back. He'll want to know what we learned from Midnight Dew."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...Yes, <span class=\"emphasis\">Nightkin</span>─that was the title!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Written by a killer who thought himself born of fiends...<br>Such a belief would certainly brand him a crazed heretic in Ishgard, but I suspect the truth is he was much like Lambard─a mage who delved too deeply in forbidden arts."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "And you say the book was seen in the Great Gubal Library? I've not entered that place since the Sharlayans departed this land. What of you, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Like the back of your hand, eh? Well then, I vote for you to be our guide!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...Hm, I hadn't known the library's guardians had turned hostile. I am sorry, Arya, but you will have to remain behind. No sense putting you in a situation where you might be forced to fling spells."
+            },
+            {
+                "name": "ARYA",
+                "text": "Oh, I would've liked to have seen those fabled shelves... But you're right, of course."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Come, <span class=\"highlight\">Forename</span>. Let us hurry through the hinterlands ere some intrepid scavenger makes away with our prize!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I wonder what secrets those memoirs hold─I imagine it will be like peering into the mind of a madman..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Right, let's not dawdle once we're inside. We make straight for Rhapsodies Quadrangle, and leave as soon as we've acquired the tome."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "From what I remember, the book Lambard would read was of a fair thickness, and bound in leather covers. Hopefully it will not be too difficult to find!"
+            },
+            {
+                "name": "QIB",
+                "text": "'Tis more lair than library now...<br>Lead the way, my friend."
+            },
+            {
+                "name": "QIB",
+                "text": "I understand the desire to protect one's collection, but these guardians seem a touch...overzealous."
+            },
+            {
+                "name": "QIB",
+                "text": "The quadrangle is up ahead! Just a little further now!"
+            },
+            {
+                "name": "QIB",
+                "text": "Here we are! Now to find that book..."
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">The Dutiful Knight</span>-)<span class=\"emphasis\">In the Year 960 of the Sixth Astral Era, a murder did occur wherein a member of the clergy was struck down by a knight of common birth.</span>"
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">The Dutiful Knight</span>-)<span class=\"emphasis\">The knight, whose name was Tryphaniel, whet his blade in the priest's blood after witnessing the unspeakable abuse of an orphan waif under the pretense of an “exorcism.” May his conviction in the face of corrupted faith be praised!</span>"
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">Sketches of Divinity</span>-)(The pages contain incredibly detailed pictures of female deities in various stages of undress. No male divinities appear to be included in this collection...)"
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">The Arcana Killer</span>-)<span class=\"emphasis\">During the Thorne Dynasty, a series of unsolved killings shook the very foundations of Ul'dah. The murderer was so named for the practice of leaving a card from the deck of arcana by the bloody bodies of the slain.</span>"
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">The Arcana Killer</span>-)<span class=\"emphasis\">Officials publicly suggested that the murderer selected targets based upon divination. As several key figures of a faction that opposed the royal house were prominent amongst the victims, however, it was whispered that the seemingly random slaughter was merely a cover for political assassinations.</span>"
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">An Angel in Darkness</span>-)(The ink has faded to the point of illegibility...)"
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">Diary of a Goldsmith</span>-)<span class=\"emphasis\">Today I visited the Twelveswood. Lady Amandine of the Dartancours, a regular patron of mine, bid me call upon her household.</span>"
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">Diary of a Goldsmith</span>-)<span class=\"emphasis\">I set off with confidence, my latest masterpiece in hand, but it was within the walls of Haukke Manor that I beheld the true pinnacle of perfection...</span>"
+            },
+            {
+                "name": "QIB",
+                "text": "No, not that one.<br>The tome we seek is titled the <span class=\"emphasis\">Nightkin</span>."
+            },
+            {
+                "name": "QIB",
+                "text": "Not this one, either. Try another.<br>You needn't read every page, my friend!"
+            },
+            {
+                "name": "QIB",
+                "text": "Bah, we've roused a guardian!<br>Let us dispatch this nuisance!"
+            },
+            {
+                "name": "QIB",
+                "text": "It calls forth more of its ilk!<br>Step in the circles to break the summons!"
+            },
+            {
+                "name": "QIB",
+                "text": "We almost have it!<br>End its sorry tale, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "QIB",
+                "text": "The bookish behemoth is fallen!<br>...And it appears a prize was hid within its belly."
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">Nightkin</span>-)<span class=\"emphasis\">I am the descendant of demons; a scion of tainted blood. It is for my brethren born into darkness─for the Nightkin─that I pen these words.</span>"
+            },
+            {
+                "name": "QIB",
+                "text": "(-<span class=\"emphasis\">Nightkin</span>-)<span class=\"emphasis\">The holy men will insist my teachings are madness─the ravings of a deranged killer. But you shall learn that all I scribe henceforth is eldritch truth, and their faith the twisted lie...</span>"
+            },
+            {
+                "name": "QIB",
+                "text": "Yes, we've found it! There can be no mistake!"
+            },
+            {
+                "name": "QIB",
+                "text": "We needn't tarry in this place.<br>I've breathed my fill of moldy parchment..."
+            },
+            {
+                "name": "QIB",
+                "text": "I'd hoped to die amongst a pile of books...but not like this..."
+            },
+            {
+                "name": "ARYA",
+                "text": "The book was there, then! Just as Midnight said it would be!<br>...Oh, but where is X'rhun? You didn't leave him at the library, did you?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You did well in there, <span class=\"highlight\">Forename</span>! I've never known acquiring a book from a library to be such a strenuous endeavor. ...May I see the tome?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Yes, the author does certainly seem convinced of his demonic heritage. I can see how the clergy of the time would have passed these writings off as a heretic's delusion, but the spellcraft contained within is aught but incoherent rambling."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Within his memoirs, this mage has provided specific instructions on the workings of forbidden sorcery. Little wonder that Lambard spent so much of his time studying the tome's secrets!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "But there is more. Much more. Let us return to Idyllshire─Arya needs to hear this."
+            },
+            {
+                "name": "ARYA",
+                "text": "Welcome back! X'rhun's had his head buried in that book since he returned..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I've just finished slogging through the last pages of the <span class=\"emphasis\">Nightkin</span>. There were truths I discovered which made it difficult to continue, but amongst a mounting sense of horror...I found hope."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Thus I bid you listen until the end of my tale. I shall begin with the author himself..."
+            },
+            {
+                "name": "ARYA",
+                "text": "...And so this man who wrote the <span class=\"emphasis\">Nightkin</span> was not merely some disturbed killer, but a mage who had mastered the arts of the ancients."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Exactly so. A century ago in Ishgard, this monster in mortal guise devoured all manner of forgotten texts, teaching himself everything from red magic to Mhachi summoning rituals."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The secret to his seemingly inexhaustible power lies in his bloodline: he was directly descended from a Mhachi archmagus who had ingested the lifeblood of the voidsent queen Lilith!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "In fact, it was with this very archmagus that the vile practice of infusing oneself with voidsent blood first began. I believe I told you how the red mages later outlawed these rituals, but the damage had already been done..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...Lilith's insidious energies had been passed on to the archmagus's heirs. This clan of aether-drinking spellcasters became known as those who were born into darkness─the Nightkin."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The revelation which truly shook me however was yet to come. I discovered that Lambard is─was─a scion of the Nightkin clan. And, quite likely, so are you, Arya."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The book's author was of the Calowise family─a surname shared by Lambard."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "With no small amount of trepidation, I determined to look once more into your family records...and learned that the Calowise name was also prevalent on your mother's side. This can be no coincidence."
+            },
+            {
+                "name": "ARYA",
+                "text": "...Are you saying that voidsent blood runs in my veins?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "It explains your preternaturally strong affinity for black magicks. When I remember that Lambard was of a similar arcane disposition, the connection is even more obvious."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "He had no need to ingest fiendish blood─he simply awoke the corruption which had always lurked within him. The rituals for doing so were clearly described in the pages of the <span class=\"emphasis\">Nightkin</span>."
+            },
+            {
+                "name": "ARYA",
+                "text": "Were these rituals performed upon me, too...?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Again, it is doubtful considering their complex requirements. My theory is that your latent talents were stirred into wakefulness quite by accident, through your induction into the ranks of the red."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I wonder, however, why the same awakening that took years for Lambard occurred so swiftly in you..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "An innate affinity, mayhap? Whatever the case, that this unstable condition was triggered by your desire for control certainly explains Lambard's parting barb about the “injustice” of your fate."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...But all is not lost! There is a way to undo the curse of your lineage!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The first Calowise drew Lilith into our physical world by providing a mortal host for her soul to possess."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "He stood unflinching before the fiendish queen he had summoned, and forged with her a bargain of blood and darkness. Once the archmagus had partaken of her essence, however, he entrapped her inside a heavily glyphed box. Her material form thus captured, Lilith was unable to return to her shadowy realm."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "It was written that her imprisonment on this plane of existence was a necessary act, lest the potency of her blood begin to wane. Do you understand what this means, Arya?"
+            },
+            {
+                "name": "ARYA",
+                "text": "...I think so. The corruption inside me will last only as long as the voidsent queen remains in our world."
+            },
+            {
+                "name": "ARYA",
+                "text": "Oh, I see...<br>We need to find that box and banish Lilith back into the void!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Exactly right! Defeat the voidsent and the curse upon your blood is lifted!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Of course, a creature of Lilith's stature would ordinarily present a near-insurmountable challenge. We are fortunate, then, that the summoner bound her essence to a feeble vessel to prevent her from manifesting her full power. Even we few should stand a chance against this lesser incarnation!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Now, it appears the author succeeded in tracking down Lilith's prison. And though the book makes no mention of the event, it is entirely possible that the box passed into his possession."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Our surest bet will be to follow in his footsteps. Rest and prepare, my friends─we have an exciting adventure ahead of us!"
+            }
+        ],
+        "reward": {
+            "gil": 2026,
+            "xp": 207900
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 65,
+                    "id": 112
+                }
+            ],
+            "quests": [
+                68120
+            ]
+        },
+        "next": [
+            68122
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1021779",
+            "obj": {
+                "i": 1021779,
+                "n": "X'rhun Tia",
+                "l": 2082,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012133",
+            "obj": {
+                "i": 1012133,
+                "n": "Midnight Dew",
+                "l": 2082,
+                "q": 12
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021783",
+            "obj": {
+                "i": 1021783,
+                "n": "X'rhun Tia",
+                "l": 2001,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022926",
+            "obj": {
+                "i": 1022926,
+                "n": "Arya",
+                "l": 2082,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023072",
+            "obj": {
+                "i": 1023072,
+                "n": "Arya",
+                "l": 2082,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68120",
+            "obj": {
+                "i": 68120,
+                "n": "Traced in Blood",
+                "g": 161,
+                "l": "Idyllshire",
+                "s": 630,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68122",
+            "obj": {
+                "i": 68122,
+                "n": "Child of Lilith",
+                "g": 161,
+                "l": "Idyllshire",
+                "s": 680,
+                "f": 1
+            }
+        }
+    ]
+}

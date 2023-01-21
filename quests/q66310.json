@@ -1,0 +1,229 @@
+{
+    "quest": {
+        "name": "Helping Horn",
+        "location": "South Shroud",
+        "id": 66310,
+        "patch": 2.0,
+        "sort": 142,
+        "eventIcon": 71201,
+        "issuer": 1000332,
+        "target": 1006680,
+        "involved": [
+            1000590
+        ],
+        "genre": 1,
+        "journal": [
+            "Meffrid needs your help to save a wounded comrade.",
+            "Desperate to save his comrade's life, Meffrid has a mind to try an old Ala Mhigan remedy. Procure four long antelope horns and deliver them to him.",
+            "You have obtained four long antelope horns. Make haste back to Quarrymill and present them to Meffrid.",
+            "Meffrid does not have the means to prepare the horns. He bids you take them to Buscarron's Druthers in order to have the proprietor, Buscarron, make the medicine in his stead.",
+            "Buscarron has kindly provided you with medicine from his own stores. Hasten back to Quarrymill, and deliver the pot of herbal ointment to Faramund.",
+            "Thanks to your aid, Gallien now has a much improved chance of survival. Slowly but surely, you are winning the trust of Meffrid and his brothers in the Ala Mhigan Resistance."
+        ],
+        "objectives": [
+            "Slay antelope stags for their horns.",
+            "Deliver the long antelope horns to Meffrid.",
+            "Deliver antelope horns to Buscarron.",
+            "Deliver the herbal ointment to Faramund."
+        ],
+        "dialogue": [
+            {
+                "name": "MEFFRID",
+                "text": "I led my men to Quarrymill hoping to find refuge─instead we've found indifference. The cold-blooded bastards here want us out, and I can't oblige them soon enough. The problem is, some of mine aren't fit to travel─hells, Gallien can't even <span class=\"emphasis\">stand</span>!"
+            },
+            {
+                "name": "MEFFRID",
+                "text": "As you well know, the people of this accursed hamlet won't help us. So, I've no choice but to turn to you, adventurer."
+            },
+            {
+                "name": "MEFFRID",
+                "text": "In my homeland, long antelope horn is a traditional remedy with poison-purging properties. If you could bring me, say, four horns, I'd forever be in your debt."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Dammy: You get four antelope horns!"
+            },
+            {
+                "name": "MEFFRID",
+                "text": "Ah, you're back! Tell me you've got four horns with you!"
+            },
+            {
+                "name": "MEFFRID",
+                "text": "You're a godssend, adventurer! Praise Rhalgr there's at least <span class=\"emphasis\">one</span> <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> in this place who gives a damn. Now we just need to find a way to prepare them..."
+            },
+            {
+                "name": "MEFFRID",
+                "text": "You wouldn't happen to know a man named Buscarron, would you? Some comrades of mine told me about him once. They said he never turns away folk in need, no matter where they're from."
+            },
+            {
+                "name": "MEFFRID",
+                "text": "Seeing as he runs a tavern, he's like to have the tools to make the medicine. I'd be grateful if you could take the horns over to him to have them ground down. When that's done, bring the powder back, and give it to Faramund here. Godsspeed."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Ah, <span class=\"highlight\">Forename</span>, ever a sight for sore eyes! How fares the adventuring? Rolling in the coin like there's no tomorrow, no doubt!<br>...Hm? You've got something to show me?"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Well, these look like good old antelope horns. Need them ground down to make a medicine, you say?"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Here's a better idea: I'll give you some of the stuff I have in my stores. Aye, I'm no stranger to the remedy. An Ala Mhigan friend once used it to treat my festering wound, years and years ago. Safe to say he saved my life."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "What's that? This is <span class=\"emphasis\">for</span> an Ala Mhigan soldier in Quarrymill? Heh, so it comes full circle... Well, I hope it helps the poor sod as needs it. Oh, and don't worry your little head off about payment─I still owe you a deal more than you owe me, I reckon."
+            },
+            {
+                "name": "FARAMUND",
+                "text": "It is well to see you returned. Have you the medicine for our brother?"
+            },
+            {
+                "name": "FARAMUND",
+                "text": "Gods bless you, adventurer! I'll see that Gallien receives treatment at once!"
+            },
+            {
+                "name": "FARAMUND",
+                "text": "Hopefully, this will allow the captain to rest easier. It has been a terrible burden on him, trying to keep every man alive. You've done us a great kindness, friend."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3579,
+                    "one": 1
+                },
+                {
+                    "id": 3581,
+                    "one": 1
+                },
+                {
+                    "id": 3576,
+                    "one": 1
+                },
+                {
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 11520
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 27,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66301
+            ]
+        },
+        "next": [
+            66311
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000332",
+            "obj": {
+                "i": 1000332,
+                "n": "Meffrid",
+                "l": 56,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006680",
+            "obj": {
+                "i": 1006680,
+                "n": "Faramund",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000590",
+            "obj": {
+                "i": 1000590,
+                "n": "Buscarron",
+                "l": 56,
+                "q": 14,
+                "t": "Alehouse Proprietor"
+            }
+        },
+        {
+            "type": "item",
+            "id": "3579",
+            "obj": {
+                "i": 3579,
+                "n": "Heavy Iron Gauntlets",
+                "l": 25,
+                "c": 48368,
+                "t": 37,
+                "p": 1795
+            }
+        },
+        {
+            "type": "item",
+            "id": "3581",
+            "obj": {
+                "i": 3581,
+                "n": "Goatskin Ringbands",
+                "l": 26,
+                "c": 48240,
+                "t": 37,
+                "p": 1158
+            }
+        },
+        {
+            "type": "item",
+            "id": "3576",
+            "obj": {
+                "i": 3576,
+                "n": "Fingerless Goatskin Gloves",
+                "l": 25,
+                "c": 44062,
+                "t": 37,
+                "p": 1282
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66301",
+            "obj": {
+                "i": 66301,
+                "n": "Killing Him Softly",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 141
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66311",
+            "obj": {
+                "i": 66311,
+                "n": "He Ain't Heavy",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 143
+            }
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "quest": {
+        "name": "Masher for a Day",
+        "location": "South Shroud",
+        "id": 66309,
+        "patch": 2.0,
+        "sort": 260,
+        "eventIcon": 71221,
+        "issuer": 1000340,
+        "target": 1006238,
+        "involved": [
+            1000341
+        ],
+        "genre": 92,
+        "journal": [
+            "Erimmont of the Mun–Tuy Cellars would put you to work as an apprentice masher.",
+            "In order to obtain a bottle of Mun–Tuy sauce without delay, you have agreed to help Erimmont apply the finishing touches to the latest batch. To start, you have been instructed to obtain the following three secret spices from the cellar's stores: a perilla leaf, an onze of Shroud pepper, and a dried dragon pepper.",
+            "You have obtained the perilla leaf, Shroud pepper, and dried dragon pepper as bade. Add them to the gyle-fat to ensure Erimmont's Mun–Tuy sauce is given its distinctive flavor.",
+            "The secret seasonings have been added, and the fermentation process complete. Speak with Geoffrey and obtain a bottle of Mun–Tuy sauce.",
+            "After quite an ordeal, you have obtained a bottle of Mun–Tuy sauce. Deliver it to Aedoc before she is devoured alive by her own men.",
+            "Aedoc is overjoyed to be restocked with Mun–Tuy sauce. Despite its unusual aroma, it remains an indispensable ingredient in many a beloved Gridanian dish."
+        ],
+        "objectives": [
+            "Retrieve a perilla leaf.",
+            "Retrieve an onze of Shroud pepper.",
+            "Retrieve a dried dragon pepper.",
+            "Add the secret spices to the gyle-fat.",
+            "Speak with Geoffrey.",
+            "Deliver the Mun–Tuy sauce to Aedoc."
+        ],
+        "dialogue": [
+            {
+                "name": "ERIMMONT",
+                "text": "Where's your Mun–Tuy sauce, you say? Look, friend, Gridania wasn't built in a day."
+            },
+            {
+                "name": "ERIMMONT",
+                "text": "I'll tell you what, though─if you're so eager, how's about you help me put the finishing touches on my latest batch? You just might learn a thing or two in the process."
+            },
+            {
+                "name": "ERIMMONT",
+                "text": "Here on these shelves, I keep my stock of secret spices. What gives my Mun–Tuy sauce its distinctive punch, you ask? A perilla leaf, a dried dragon pepper, and an onze of Shroud pepper. Just toss all three in the gyle-fat, and Geoffrey will take care of the rest. When the sauce is done, you're free to take a bottle to Aedoc─not that that's like to put an end to her whinin'."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "//: fetch and deliver ingredients"
+            },
+            {
+                "name": "NPC1",
+                "text": "Oh, hullo there. Apprenticing at the cellars for the day? Very well, then. One perilla leaf, one dried dragon pepper, and an onze of Shroud pepper, and... Mmm-mmm! Erimmont's done it again! As thanks for your help, this bottle is on the house."
+            },
+            {
+                "name": "AEDOC",
+                "text": "You're back! Oh, do tell me you've brought my Mun–Tuy sauce! I swear to you, I just overheard a Wood Wailer talking about tossing <span class=\"emphasis\">me</span> into the cauldron!"
+            },
+            {
+                "name": "AEDOC",
+                "text": "Ah, the distinctive, mouthwatering aroma of Mun–Tuy beans─topped off with Erimmont's special blend of secret spices, no doubt! He has done it again! Thank you, friend─I daresay you've prevented a mutiny today!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5740
+                },
+                {
+                    "num": 3,
+                    "id": 4644,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4732,
+                    "one": 1
+                }
+            ],
+            "xp": 5075
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 26,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66308
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000340",
+            "obj": {
+                "i": 1000340,
+                "n": "Erimmont",
+                "l": 56,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006238",
+            "obj": {
+                "i": 1006238,
+                "n": "Aedoc",
+                "l": 56,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000341",
+            "obj": {
+                "i": 1000341,
+                "n": "Geoffrey",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5740",
+            "obj": {
+                "i": 5740,
+                "n": "Wine Red Dye",
+                "l": 30,
+                "c": 22805,
+                "t": 55
+            }
+        },
+        {
+            "type": "item",
+            "id": "4644",
+            "obj": {
+                "i": 4644,
+                "n": "Aldgoat Steak",
+                "l": 27,
+                "c": 24360,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4732",
+            "obj": {
+                "i": 4732,
+                "n": "Crumpet",
+                "l": 28,
+                "c": 24053,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66308",
+            "obj": {
+                "i": 66308,
+                "n": "The Marvelous Mun-Tuy Bean",
+                "g": 92,
+                "l": "South Shroud",
+                "s": 260
+            }
+        }
+    ]
+}

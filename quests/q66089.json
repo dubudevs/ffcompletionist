@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "My First Hora",
+        "location": "Ul'dah",
+        "id": 66089,
+        "patch": 2.0,
+        "sort": 12,
+        "icon": 100059,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1003817,
+        "target": 1003817,
+        "genre": 128,
+        "journal": [
+            "Hamon wishes to teach you your first lesson.",
+            "Having approved of the pair of hora hanging by your hips, Guildmaster Hamon instructs you to go forth and slay three shrews, three hornets, and three marmots.",
+            "You have succeeded in slaying the specified creatures. Report back to Hamon at the Pugilists' Guild.",
+            "Hamon is pleased with your showing against Thanalan's vermin population, and bids you apply yourself to your training.<br><br>※The next pugilist quest will be available from Hamon upon reaching level 5."
+        ],
+        "objectives": [
+            "Slay star marmots as a pugilist.",
+            "Slay huge hornets as a pugilist.",
+            "Slay snapping shrews as a pugilist.",
+            "Report to Hamon at the Pugilists' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "HAMON",
+                "text": "Looking every bit a pugilist, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">son</span></span>! Now the learning can commence!"
+            },
+            {
+                "name": "HAMON",
+                "text": "For your first lesson, I want you to test your fledgling skills against the vermin of Thanalan. Get out there and put down three marmots, three hornets, and three shrews. Return here when the deed is done. "
+            },
+            {
+                "name": "HAMON",
+                "text": "Now, this goes without saying, but I expect you to fight using the hora I just gave you. It counts for naught if you skewer the beasties with a spear or fry them with a spell, say."
+            },
+            {
+                "name": "HAMON",
+                "text": "Ah, you're back, and none the worse for the exertion. Youthful vigor's a truly blessed thing!"
+            },
+            {
+                "name": "HAMON",
+                "text": "If you want to become strong, you mustn't neglect your training. Indeed, a pugilist is only as good as the number of strikes he's dealt."
+            },
+            {
+                "name": "HAMON",
+                "text": "So get out there, <span class=\"highlight\">Forename</span>, and let your fists fly. When the time is ripe, I'll teach you something new."
+            },
+            {
+                "name": "HAMON",
+                "text": "There's no limit to the potential of youth. I look forward to seeing you come into your own! Hah hah hah!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next pugilist quest will be available from Hamon upon reaching level 5."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "xp": 100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 3
+                }
+            ],
+            "quests": [
+                66068
+            ]
+        },
+        "next": [
+            66090,
+            66234
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003817",
+            "obj": {
+                "i": 1003817,
+                "n": "Hamon",
+                "l": 40,
+                "q": 11,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66068",
+            "obj": {
+                "i": 66068,
+                "n": "Way of the Pugilist",
+                "g": 128,
+                "l": "Ul'dah",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66090",
+            "obj": {
+                "i": 66090,
+                "n": "Harder than Rock",
+                "g": 128,
+                "l": "Ul'dah",
+                "s": 50,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66234",
+            "obj": {
+                "i": 66234,
+                "n": "Burning Up the Quarter Malm",
+                "g": 128,
+                "l": "Ul'dah",
+                "s": 100,
+                "f": 1
+            }
+        }
+    ]
+}

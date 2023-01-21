@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "No, Not the Boo Box",
+        "location": "The Ruby Sea",
+        "id": 68528,
+        "patch": 4.1,
+        "sort": 20,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "genre": 51,
+        "journal": [
+            "Strange coffers have been washing up on the southern shore of Shoal Rock.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Investigate the Eorzean coffers and collect the treasure.",
+            "Deliver the coins to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "One of our members has found three coffers washed ashore on Shoal Rock. They appeared to be of Eorzean make, but more he could not glean, for they were tightly sealed by some mechanism unknown to us."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "We have some experience in opening locked chests, but not those made in western lands. I daresay you would be able to puzzle it out, however. Would you care to look into the matter?"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Any luck with those coffers?"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "You found these? Let me see... Old western currency, and minted from precious metals besides. Thank you for bringing these to me!"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "What? Coffers that spring to life, snapping viciously? Could they be evil spirits, lying in wait for hapless treasure seekers? Or tsukomogami run amok, perhaps? This is indeed cause for concern."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "In any event, full glad am I to see you uninjured. Though danger was not on my mind when I asked your aid, I was right to turn to a hardy adventurer such as you."
+            }
+        ],
+        "reward": {
+            "gil": 550,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 5,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

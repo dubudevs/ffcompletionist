@@ -1,0 +1,212 @@
+{
+    "quest": {
+        "name": "Glory Days",
+        "location": "Limsa Lominsa",
+        "id": 65658,
+        "patch": 2.0,
+        "sort": 40,
+        "eventIcon": 71221,
+        "issuer": 1003601,
+        "target": 1000972,
+        "involved": [
+            1000856,
+            1001000,
+            1001024
+        ],
+        "genre": 91,
+        "journal": [
+            "S'dhodjbi needs your help to prepare a treat for Baderon.",
+            "S'dhodjbi wants to present several aurelia umbrellas to Baderon as a gesture of appreciation for all his hard work. Speak with Klindrael for more information about where to find the creatures.",
+            "Though repulsed by the thought of eating aureliae, Klindrael directs you to the river past the Tempest Gate and to the east. Slay the creatures and obtain four of their umbrellas.",
+            "You remove four slimy umbrellas from the carcasses of the foul beasts. Present them to Baderon on behalf of S'dhodjbi.",
+            "It seems S'dhodjbi misinterpreted her employer's drunken ramblings, as Baderon states that aurelia umbrellas are the most vile, disgusting food he has ever tasted. Even so, the former sellsword cannot help but laugh as he reflects on his glory days."
+        ],
+        "objectives": [
+            "Speak with Klindrael.",
+            "Slay aureliae.",
+            "Deliver the aurelia umbrellas to Baderon."
+        ],
+        "dialogue": [
+            {
+                "name": "SDHODJBI",
+                "text": "These days, poor Baderon's so busy looking after others, he hasn't been able to look after himself. He deserves something for his efforts."
+            },
+            {
+                "name": "SDHODJBI",
+                "text": "Whenever he's in his cups and starts speaking of the old days, he never fails to mention aureliae. Seems he and his mates used to eat the creatures on occasion."
+            },
+            {
+                "name": "SDHODJBI",
+                "text": "It's obvious he still has fond memories of that life, so I'm thinking a few aurelia umbrellas might be something he'd appreciate. Could you help me by procuring four of them?"
+            },
+            {
+                "name": "SDHODJBI",
+                "text": "If you're willing to help, speak with Klindrael, by the Aftcastle. She knows where various wild beasts congregate."
+            },
+            {
+                "name": "KLINDRAEL",
+                "text": "Baderon actually <span class=\"emphasis\">likes</span> aurelia umbrellas!? Gods, I'd never even considered <span class=\"emphasis\">trying</span> to eat one of those foul things!"
+            },
+            {
+                "name": "KLINDRAEL",
+                "text": "Nevertheless, if it's aureliae you seek, you ought to find plenty by the river just past the Tempest Gate and to the east."
+            },
+            {
+                "name": "BADERON",
+                "text": "S'dhodjbi said an adventurer might be droppin' by to deliver somethin' special. That you, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>?"
+            },
+            {
+                "name": "BADERON",
+                "text": "Ah, 'ells, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>, ye didn't 'ave to go to all this trouble!"
+            },
+            {
+                "name": "BADERON",
+                "text": "Ahahaha! This <span class=\"emphasis\">godsdamned</span> smell! I've 'ated aurelia umbrellas since I was a sellsword. 'Tis only the nastiest shite I ever put in me mouth!"
+            },
+            {
+                "name": "BADERON",
+                "text": "We tried sprinklin' it with salt and cookin' it o'er a campfire, but 'twas still little better than chewin' on driftwood. Try it fer yerself, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>─ye'll see what I mean!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 11,
+                    "id": 2
+                },
+                {
+                    "id": 2999,
+                    "one": 1
+                },
+                {
+                    "id": 3010,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 455
+        },
+        "reqs": {
+            "questsType": "any",
+            "quests": [
+                65644,
+                65645
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003601",
+            "obj": {
+                "i": 1003601,
+                "n": "S'dhodjbi",
+                "l": 28,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000972",
+            "obj": {
+                "i": 1000972,
+                "n": "Baderon",
+                "l": 28,
+                "q": 26,
+                "t": "Drowning Wench Proprietor"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000856",
+            "obj": {
+                "i": 1000856,
+                "n": "Wawalago",
+                "l": 29,
+                "q": 14,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001000",
+            "obj": {
+                "i": 1001000,
+                "n": "H'naanza",
+                "l": 28,
+                "q": 28,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001024",
+            "obj": {
+                "i": 1001024,
+                "n": "Klindrael",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "2999",
+            "obj": {
+                "i": 2999,
+                "n": "Hempen Tabard",
+                "l": 5,
+                "c": 43042,
+                "t": 35,
+                "p": 140
+            }
+        },
+        {
+            "type": "item",
+            "id": "3010",
+            "obj": {
+                "i": 3010,
+                "n": "Hempen Halfrobe",
+                "l": 5,
+                "c": 42150,
+                "t": 35,
+                "p": 140
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65644",
+            "obj": {
+                "i": 65644,
+                "n": "Close to Home",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65645",
+            "obj": {
+                "i": 65645,
+                "n": "Close to Home",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 7
+            }
+        }
+    ]
+}

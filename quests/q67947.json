@@ -1,0 +1,680 @@
+{
+    "quest": {
+        "name": "Come Rain or Shrine",
+        "location": "Ishgard",
+        "id": 67947,
+        "patch": 4.0,
+        "sort": 650,
+        "icon": 100680,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012222,
+        "target": 1021262,
+        "involved": [
+            1021191,
+            1021255,
+            1021256,
+            1021257,
+            1021258,
+            1021259,
+            1021260,
+            1021261,
+            1021263
+        ],
+        "genre": 159,
+        "journal": [
+            "Jannequinard appears ill. Could it be he is recovering from another long evening at the Forgotten Knight, or is something else disturbing the viscount?",
+            "According to Jannequinard, Lady Leveva has abandoned her preparations for the astrology symposium to lament the return of Kyokuho to his homeland of Hingashi. He has asked if you cannot help locate her in the Pillars and talk some sense into the young woman.",
+            "A simple search of the Pillars reunites you with Lady Leveva who, after a winded conversation, bids you safe travels to Kugane where she expects you to overcome some unforeseen disaster to obtain an undetermined amount of knowledge. And hope. Copious amounts of hope.",
+            "Several kind residents (and some less-than-kind ones) have given you a good idea as to where you might find a good view of the heavens─Tasogare Bridge overlooking the piers.",
+            "Kyokuho believes that with your astrological expertise, he may be able to mend the weakened bonds maintaining the geomantic barrier that protects the city from attack from supernatural wildlife. He has bid you meet him at the Short Pier's westerly shrine.",
+            "Despite a few paranormal hiccups in the form of Kinko's restless minions along the way, you and Kyokuho succeed in mending all four of the weakened barrier bonds.",
+            "The mending, unfortunately, appears to be temporary, and it is only a matter of time before the golden guardian of the forest is back for another attempt at vengeance. If a more permanent solution is to be found, Kyokuho will require your continued support. Visit him and his master back on Kogane Dori.",
+            "Before you can help Kyokuho lay the geomantic bonds anew, you will need to further strengthen your attunement to the heavens. In other words, train, train, and possibly train some more.<br><br>※The next astrologian quest will be available from Kyokuho upon reaching level 68."
+        ],
+        "objectives": [
+            "Find Leveva in the Pillars.",
+            "Travel to Kugane and locate a place suitable for stargazing.",
+            "Survey the Tasogare Bridge.",
+            "Speak with Kyokuho at the westerly shrine.",
+            "Speak with Kyokuho.",
+            "Test the barrier's strength at the westerly shrine.",
+            "Test the barrier's strength at the southerly shrine.",
+            "Test the barrier's strength at the easterly shrine.",
+            "Test the barrier's strength at the northerly shrine.",
+            "Use <span class=\"highlight\">Aspected Benefic</span> on the weakened bond."
+        ],
+        "dialogue": [
+            {
+                "name": "JANNEQUINARD",
+                "text": "While your visit fills my heart with joy, <span class=\"highlight\">Forename</span>, I cannot bring myself to smile knowing that the Lady Leveva is troubled so."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Though she should be spending these final days before the symposium placing the final touches on her address to the Vault, she instead spends her time wandering about the Pillars in a daze, mumbling to herself about earth, wind, and water."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "I fear that Kyokuho's departure has left a gap in Lady Leveva's heart that she knows not how to fill."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "I have tried at length to set her mind at ease, but one need not be a reader of stars to guess how well that ended. Perhaps if you spoke with her, she would finally listen to reason."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Lady Leveva could be anywhere in the Pillars. Perhaps it would be best if we searched for her separately. I shall inform you via linkpearl if I happen across her first."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "<span class=\"highlight\">Forename</span>? To what do I owe the honor? No, let me guess─our good friend Jannequinard asked you to talk some sense into poor addle-pated Leveva."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "And oh, goody. Today I have the privilege of being lectured by <span class=\"emphasis\">both</span> of you."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Why Lady Leveva...and <span class=\"highlight\">Forename</span>! Imagine finding you two out here this fair <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">day</span></span>!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Enough with the theatrics, Janne. I know your play here; and as I have told you time and again, I have not forgotten my duty to the Athenaeum or my obligations to the symposium. I simply need...time to think. <span class=\"emphasis\">Alone</span>."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "To which I keep replying, why think alone when you have one of the greatest minds in the realm at your disposal? And <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "&lt;sigh&gt; The greatest minds, eh?"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Then riddle me this: why are the results of my reading from that day both <span class=\"highlight\">Forename</span> and Kyokuho arrived still weighing on my mind? Why does it feel as if I am missing...or rather misinterpreting some devilishly important detail?"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Peace comes, friends are made, dangerous paths are trodden, knowledge is gained. Did that not already occur? Kyokuho and <span class=\"highlight\">Forename</span> both arrive as the Dragonsong War ends, <span class=\"highlight\">Forename</span> saves Kyokuho from death at the Steel Vigil, and knowledge of geomancy is shared with the Athenaeum."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Yes, but what if the coming destruction told by the inverted Spire was not the incident at the citadel, but something else? Something far more grave?"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "...Then that would mean the prophecy's “fruit of knowledge and hope” was not Kyokuho's stories of his art...but something different. Something we will only see by continuing on this perilous path?"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "But is it truly the path that is disastrous, or our decision to pursue it?"
+            },
+            {
+                "name": "Q1",
+                "text": "What is your interpretation of the cards, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "A1",
+                "text": "At the end of the path of disaster is hope."
+            },
+            {
+                "name": "A1",
+                "text": "To seek hope would be disastrous."
+            },
+            {
+                "name": "A1",
+                "text": "A big promotion is just around the corner?"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Exactly what I was thinking. Only through the avoidance of some unforeseen peril will hope...and knowledge be acquired."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "An interesting...if not fairly liberal interpretation of the cards...as well as the basic rules of grammar and syntax. No, the sixth card clearly states that hope is a resulting factor of the misfortune described in the fourth and fifth cards."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "I know you are merely trying to ease my mind with humor, but this isn't the time for jests. If we are to understand where our fates lie, we must try and comprehend the signs we are given...and I believe those signs point to the pursuit of hope in the face of disaster."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "And I believe the disaster in question has something to do with Kyokuho's return home, if not the return itself."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "It could also mean that our friend is in danger."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "I see where you are going with this, and while I loved our red-robed ruckus-rouser as much as anyone (excepting Fleuraie perhaps), a journey at this time would mean the cancellation of our symposium, and with that, any chance of the Holy See ever taking us seriously."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "And now you can see why <span class=\"emphasis\">I've been up here day and night biting my nails to the quick</span>!"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "&lt;sigh&gt; I apologize. A lack of sleep can work ill on one's humours. But...I think your intervention here today may have provided me a solution to our predicament."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "A solution that I am now kicking myself for not having come to earlier. A solution I myself proposed not days ago when deciding how I might attend Kyokuho's opening of the sixth heaven! <span class=\"highlight\">Forename</span> will travel to Hingashi!"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "The reading did only mention “friends old” and “friends new.” I recall nothing in there about silver-haired astrologians from Sharlayan. But how do you propose <span class=\"highlight\">Forename</span> find our charge? The Far East is a big place. Perhaps we could write a letter?"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Yes, and address it “To: Kyokuho. Hingashi.” No, you dullard. We have something far better! We have the stars, and our undying faith that they will guide us to that which we seek!"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Or, <span class=\"highlight\">Forename</span> could start <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> search in Kugane, the port city from which Kyokuho claimed he came, focusing on locations which serve as exceptional venues for stargazing─a pastime our friend warmed to during his stay with us."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "<span class=\"emphasis\">Or</span> <span class=\"highlight\">Forename</span> could─ No, wait. That is actually a decent proposal. <span class=\"highlight\">Forename</span>, you have your quest! May the stars guide you true! Oh, and I will expect reports. Many reports! Janne, let us return to the prepar─ &lt;yawn&gt; Alright, maybe after a few bells rest first..."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Thank you, <span class=\"highlight\">Forename</span>, for helping me convince Lady Leveva to return. However, if your journey does not bear fruit, I fear we may find ourselves back in the same boat as before. Not a real boat, mind you. A proverbial one. You, on the other hand, will be on a real boat...and then a proverbial one. Ahem."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "I am free once again to focus on the task at hand. Janne can be an annoying, pretentious, stubborn, pompous, muttonheaded lout...but I respect and cherish his desire to see my father's legacy preserved."
+            },
+            {
+                "name": "UDOKU",
+                "text": "If it is the stars you seek, then you need only look up!"
+            },
+            {
+                "name": "UDOKU",
+                "text": "Hahahaha! But if it is a <span class=\"emphasis\">fool</span> you seek─one who calls himself a master of wind and water when in fact he is nothing more than a cheat, a liar, and a disgrace to our noble profession─then perhaps you might find the rat where all rats hide: near the piers."
+            },
+            {
+                "name": "UDOKU",
+                "text": "You'd be wise to not allow that one your ear. He is liable to fill it with tales of woe and ruin in an attempt to cozen you out of your hard-earned coin─coin that would be better spent on the talents of a true geomancer."
+            },
+            {
+                "name": "FUUSUIO",
+                "text": "Any respectable merchant knows that without the sage counsel of a geomancer, their business is like to fail. But said counsel does not come cheap. If it is ours you seek, we can provide you with a reading in...three moons time. That is, unless you pay the expedition fee."
+            },
+            {
+                "name": "FUUSUIJYO",
+                "text": "Most all those who work in shipping or in trade will keep a geomancer on retainer whom they call upon before making any significant business decision. They say that behind every wealthy man flows both wind and water."
+            },
+            {
+                "name": "CHOUNIN02411A",
+                "text": "When I wish to walk under the stars, I go with my promised to the Tasogare Bridge spanning yon pier. The melting of crimson into indigo is a sight you will not soon forget."
+            },
+            {
+                "name": "CHOUNIN02411A",
+                "text": "When I wish to walk under the stars, I go with my promised to the Tasogare Bridge spanning yon pier. The melting of crimson into indigo is a sight you will not soon forget."
+            },
+            {
+                "name": "CHOUNIN02411B",
+                "text": "Kugane is packed like a warehouse with multistoried hostels and teahouses, so the cobbles will ne'er afford a man a decent view of the skies. No, if you want to see the heavens in all their glory, you must needs make your way up. Take this bridge behind me. There, atop that mighty span, the stars await."
+            },
+            {
+                "name": "CHOUNIN02411B",
+                "text": "She faces directly west of Kugane Castle, out towards the Ruby Tide and Othard beyond. It is said her location was determined by a great geomancer who told the first bugyo placing it there would ensure the city's prosperity for generations to come."
+            },
+            {
+                "name": "CHOUNIN02411B",
+                "text": "Kugane is packed like a warehouse with multistoried hostels and teahouses, so the cobbles will ne'er afford a man a decent view of the skies. No, if you want to see the heavens in all their glory, you must needs make your way up. Take this bridge behind me. There, atop that mighty span, the stars await."
+            },
+            {
+                "name": "CHOUNIN02411B",
+                "text": "She faces directly west of Kugane Castle, out towards the Ruby Tide and Othard beyond. It is said her location was determined by a great geomancer who told the first bugyo placing it there would ensure the city's prosperity for generations to come."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "(-???-)I see someone has taken my spot. I may just have to slit <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> throat and toss <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> body to the tide."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Hah hah hah! I'm pulling your arm, <span class=\"highlight\">Forename</span>...or was it ear? You Westerners have such odd sayings. What brings you so far from home?"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "A path fraught with disaster? Misfortune? Impending <span class=\"emphasis\">doom</span>? Hah hah hah!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Ahem. Yes, well, the situation may not be as encouraging as my jovial demeanor suggests."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "It all began several decades ago when the bakufu decided they were opening the port to foreign trade vessels. To accommodate the influx of ships, a section of ancient coastline forest was cleared."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "However doing so angered the entity who had guarded the wood for countless generations─a golden fox named Kinko."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "A great battle ensued, but claws and fangs were no match for cold steel. Kinko was slain and the new port completed."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "The fox's spirit, however, remained, spoiling our milk, withering our crops, causing storms that dashed ship after ship against our rocky cliffs. In desperation, the bakufu turned to the land's most powerful geomancer─my great-grandfather, Kazan."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Kazan used the power of the sea, the skies, and the land to soothe the spirit long enough that he could erect an invisible barrier that not only protected the city, but ensured that it would prosper."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "At once, the fortunes of Kugane's citizenry turned. My great-grandfather was hailed as a hero, and geomancy as the savior of our nation. Within a matter of moons, the streets were lined with the stalls and tents of would-be seers, the people practically throwing coin at them for their advice and blessings."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "These pretenders, these <span class=\"emphasis\">charlatans</span>, were not interested in the sacred rites passed down to my great-grandfather from his great-grandfather and his great-grandfather before him. They were not interested in maintaining the barrier that preserved Kugane's luster, and drove back the powers that would see it fall. No, they were more interested in lining their pockets. And now..."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Now the bonds that hold the barrier in place are about to break, and there is none left with the knowledge to mend them! The knowledge that died with the passing of my grandfather..."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "And so I set out to convince the geomancers of Kugane that only united would we discover the means to save our fair city. That only united would we stave off the darkness and bring lasting prosperity to one and all. That only united would my great-grandfather's legacy live on."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Alas, I failed. Branded a deceiver by those very men and women who had grown fat on deceit. Unable to mend the bonds myself, nor rouse my peers to action, I stood on this very bridge and thought on an answer...and then I saw it in the setting sun. My answer lay in the West."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "And so I packed my bags and headed to Eorzea, in search of something, <span class=\"emphasis\">anything</span> that might help me save Kugane. I believed that something astrology, but before I could be certain, I was summoned home. This, you already know."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Since then, I have been coming here every night, hoping the stars might provide me with another revelation. But they remain silent... <span class=\"highlight\">Forename</span>, the heavens speak through you. Tell me, what do they say?"
+            },
+            {
+                "name": "Q2",
+                "text": "What do the heavens say?"
+            },
+            {
+                "name": "A2",
+                "text": "Use geomancy to mend the barrier."
+            },
+            {
+                "name": "A2",
+                "text": "Use astrology to restore the barrier."
+            },
+            {
+                "name": "A2",
+                "text": "Solve your own problems."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "I admit it was a long story, but did you not hear a single thing that I even said? If I could <span class=\"emphasis\">mend</span> the barrier <span class=\"emphasis\">myself</span>, I wouldn't have traveled halfway across the world in the first place!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Wait... But I <span class=\"emphasis\">did</span> travel halfway across the world, and I <span class=\"emphasis\">didn't</span> come home empty-handed. If I learned one thing while in Ishgard, it was that western astrology is in many ways a complement to geomancy. Used together, they might just work!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "That's... That's brilliant! I don't know why I didn't think of it. If there was one thing that I learned while in Ishgard, it was that western astrology is in many ways a complement to geomancy. Used together, they might just work!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Hah hah. Spare me your western─"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Your western...? Western? Western! Wait! If there was one thing that I learned while in Ishgard, it was that western astrology is in many ways a complement to eastern geomancy. Used together, they might just work!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "After all, you need only use your Aspected Benefic and you can mend any injury, is that not so?"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "...No, really─I'm genuinely asking. The lesson explaining the finer details of the stars' power and how to harness it was conveniently scheduled for the day <span class=\"emphasis\">after</span> I returned home. But you... You know it all! Tell me you can help repair the barrier!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Hah hah! I did it, Great-grandfather! I found a way to make things right!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Well, then. We have no time to lose. My great-grandfather created his barrier by anchoring the energies of wind, water, and earth to four shrines located at the north, east, south, and west ends of the city. It is there the bonds must be repaired. We shall begin with the nearby westerly shrine on the Short Pier."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "This is one of the shrines of which I spoke. It may not look like much, but if it were to be destroyed, the entire city would be overrun with large-testicled raccoon dogs and flying rainbow cats...or possibly just angry spirits."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "My plan is simple─if I am correct, <span class=\"highlight\">Aspected Benefic</span> will intertwine with the barrier's geomantic energies, mending it as easily as it does flesh. We shall wait until nightfall to perform the rite, for the last thing we need is a drunken ronin breaking your concentration."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Quickly! Check the shrine and tell me its condition!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "It is worse than I thought. The speed with which the bonds deteriorate increases with each passing day. At this rate, they will not survive through the next new moon."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "The magicks intertwine! Like two halves of a whole!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "To the next shrine! We will find it deep in Rakusui Gardens to the south of here."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "You know what to do. Attune with the shrine to determine the extent of the bond's damage."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Servants of the fox? Our mending of the first westerly bond must have alerted her to our presence!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Focus is required to complete the seal, and my heart will not rest easy until these restless spirits are sent back to the land."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Now, <span class=\"highlight\">Forename</span>, before more are summoned!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "That wasn't so bad!<br>Now step aside. I shall complete the ritual."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "That's half! At this rate, the barrier will be at full strength before sunrise! Onward, to Kugane Castle!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "It appears I spoke too soon... Kinko knows what we do, and is sending her minions out in force to stay our hands."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Try and not stray too far from my side, if not for your safety...for mine!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "There's no end to them! I knew that Kugane had a bloody history, but to think this many of the dead still linger..."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Alright, <span class=\"highlight\">Forename</span>. Let us put this shrine behind us. I fear every moment we tarry, the stronger Kinko's gaze upon us grows."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Be my eyes, friend. I must now concentrate on the anchor."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "There is but one shrine remaining─the northerly. As you know...or do not, the north is where all ill fortune gathers. I expect the most resistance there. Prepare yourself."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Away! Away foul denizen of the dark...<br>It doesn't hurt to try, does it? L-Look out!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "We cannot breathe easy until your magicks are cast and I have completed the rite. Hurry!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Deep breath, Kyokuho. You can do this..."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "I, ah, <span class=\"emphasis\">we</span> did it! We repaired my great-grandfather's barrier and thwarted the golden fox!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Aaargh! Was this failure...foretold in the stars...as well?"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "A fine display! Fine, indeed. Though, if it were I, I might have used Gravity instead of Malefic when the foul creature had─ Ah, right. I'll just be staying that tongue of mine again."
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "(-???-)Kyokuho! I was told there were spirits in the streets!"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "And you arrive just as they are vanquished! How fortunate! Yes, Master Murakumo. The bonds are mended, made whole with western magicks...and a little shoulder grease, or was it knuckle grease? <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "Western magicks? Then this ijin <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">lord</span></span> is─"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "None other! And wait until you see the reinforced bonds. The energies twist together with ours like sun and moon, like darkness and light. They are as one, Master! "
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "Then I was right to summon you home. Pardon my intrusion, traveler. I am Murakumo. Second pupil of the great Kazan, and instructor to young Kyokuho."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "But with Kugane safe...I can now return to Ishgard to complete my training as an astrologian. Huzzah!"
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "Absolutely not. While you have mended the weakened bonds for now, their ephemerality remains. Unless you expect your friend here to remain in Kugane for the remainder of <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> life, we will need to find a more permanent solution. In other words, the bonds must be laid anew."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "But you know as well as I, the secret to laying those bonds died with my grandfather!"
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "Not a day goes by that I do not suffer the burden of my ineptitude. Had I shown promise in the art as your grandfather did, perhaps Kazan would have entrusted me with the knowledge as well."
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "But he did not, and now they are both gone. We can lament that which we cannot change, or we can put aside our past failures and seek the path which leads us forward."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "My master is right. Perhaps there is something in my grandfather's tomes, or perhaps I may still find a way to win over the other geomancers to our cause. There is always hope, is there not?"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "If anything, you've given us time to search for an answer, and for that I am grateful. The city would be, as well, if they knew you had saved them from an army of angry wraiths looking to devour their souls and defecate their bones straight to the darkest of hells!"
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "In his haste to find a difficult answer, he looks past the simple one right before his eyes."
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "It may take Kyokuho time to realize it, but <span class=\"emphasis\">you</span> are the hope which we seek. In time, you will come to see it, as well."
+            },
+            {
+                "name": "MURAKUMO",
+                "text": "Though it was but a single generation past, the people of Kugane have already forgotten that the prosperity they experience is not the result of some serpent-tongued swindlers, but of the humble efforts of true geomancers like Kyokuho's great-grandfather."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "So, I guess this is farewell... Unless, that is, you're staying?"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "You're staying!? <span class=\"alternative-container\"><span class=\"alternative\">She's</span><span class=\"alternative\">He's</span></span> staying! Master, <span class=\"alternative-container\"><span class=\"alternative\">she's</span><span class=\"alternative\">he's</span></span> staying! What changed your mind?"
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "No, don't tell me. Knowing that you will be here with me and Master Murakumo is enough. I was beginning to worry what I would do the next time the city was invaded by Kinko's minions. The master can barely make his way out of the privy each morning, let alone battle blood-lusting specters."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Now that you mention it, this all reminds me of that reading Lady Leveva conducted the morning I arrived at the Observatory. Something about friendly paths lined with dangerous fruit bushes winding their way to hope."
+            },
+            {
+                "name": "KYOKUHO",
+                "text": "Could the stars truly have predicted all this? If so...I'm impressed! I will need to think more on the issue. Until then, might I suggest you continue the refinement of your art here in scenic Hingashi? You will find our beasts just as formidable as yours in the West, if not doubly so!"
+            }
+        ],
+        "reward": {
+            "gil": 2994,
+            "xp": 207900
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 65,
+                    "id": 99
+                }
+            ],
+            "quests": [
+                67946
+            ]
+        },
+        "next": [
+            67948
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012222",
+            "obj": {
+                "i": 1012222,
+                "n": "Jannequinard",
+                "l": 2301,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021262",
+            "obj": {
+                "i": 1021262,
+                "n": "Kyokuho",
+                "l": 2404,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021191",
+            "obj": {
+                "i": 1021191,
+                "n": "Leveva",
+                "l": 2301,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021255",
+            "obj": {
+                "i": 1021255,
+                "n": "Leveva",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021256",
+            "obj": {
+                "i": 1021256,
+                "n": "Udoku",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021257",
+            "obj": {
+                "i": 1021257,
+                "n": "Complacent Consort",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021258",
+            "obj": {
+                "i": 1021258,
+                "n": "Cunning Consort",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021259",
+            "obj": {
+                "i": 1021259,
+                "n": "Wizened Elder",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021260",
+            "obj": {
+                "i": 1021260,
+                "n": "Alluring Lady",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021261",
+            "obj": {
+                "i": 1021261,
+                "n": "Kyokuho",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021263",
+            "obj": {
+                "i": 1021263,
+                "n": "Murakumo",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67946",
+            "obj": {
+                "i": 67946,
+                "n": "Ride Like the Wind",
+                "g": 159,
+                "l": "Ishgard",
+                "s": 630,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67948",
+            "obj": {
+                "i": 67948,
+                "n": "Behind Door Number Two",
+                "g": 159,
+                "l": "Kugane",
+                "s": 680,
+                "f": 1
+            }
+        }
+    ]
+}

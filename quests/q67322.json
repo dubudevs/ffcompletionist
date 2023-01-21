@@ -1,0 +1,121 @@
+{
+    "quest": {
+        "name": "To Each His Own",
+        "location": "The Dravanian Forelands",
+        "id": 67322,
+        "patch": 3.0,
+        "sort": 5217,
+        "eventIcon": 71221,
+        "issuer": 1011930,
+        "target": 1011930,
+        "genre": 98,
+        "journal": [
+            "Cibleroit is eyeing you hungrily.",
+            "Cibleroit has a hunger for nanka eggs, and you must help him sate it. Harvest five eggs from a ninki nanka in the nearby river and bring them to him.",
+            "You have gathered the sticky, slimy nankaspawn. Get it off your hands as quickly as possible by delivering it to Cibleroit. ",
+            "Cibleroit is delighted to receive the eggs. The Hungerer, however, thinks they are disgusting. Unlike the Gnath of the Onemind, differences of opinion─and all they entail─seem to be a unique characteristic of the Nonmind."
+        ],
+        "objectives": [
+            "Slay a ninki nanka and obtain its eggs.",
+            "Deliver the eggs to Cibleroit."
+        ],
+        "dialogue": [
+            {
+                "name": "CIBLEROIT",
+                "text": "Generous hunter, we would like to ask something of you. It is not difficult work."
+            },
+            {
+                "name": "CIBLEROIT",
+                "text": "We need nanka eggs. Five delicious nanka eggs. &lt;click&gt; &lt;click&gt; Slay a ninki nanka and harvest its delicious eggs for us."
+            },
+            {
+                "name": "CIBLEROIT",
+                "text": "Do you have the eggs? Five succulent nanka eggs?"
+            },
+            {
+                "name": "UMASOU",
+                "text": "We wonder, will you never tire of nanka eggs, Cibleroit?"
+            },
+            {
+                "name": "CIBLEROIT",
+                "text": "Do you have the nanka eggs? &lt;click&gt; &lt;click&gt; Tasty, juicy nanka eggs... &lt;click&gt; &lt;click&gt; &lt;click&gt;"
+            },
+            {
+                "name": "CIBLEROIT",
+                "text": "&lt;click&gt; &lt;click&gt; Yesss. Thank you for these eggs. The texture is irresistible. We could eat a thousand of them...but five will do for now."
+            },
+            {
+                "name": "UMASOU",
+                "text": "We cannot understand your liking for nanka eggs. They are disgusting. &lt;click&gt; &lt;click&gt; You have bad taste."
+            },
+            {
+                "name": "CIBLEROIT",
+                "text": "We cannot understand your dislike for nanka eggs. But this is what it means to be of the Nonmind."
+            }
+        ],
+        "reward": {
+            "gil": 560,
+            "xp": 26400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 52,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67149
+            ]
+        },
+        "next": [
+            67324,
+            67325
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011930",
+            "obj": {
+                "i": 1011930,
+                "n": "Cibleroit",
+                "l": 2000,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67149",
+            "obj": {
+                "i": 67149,
+                "n": "The Nonmind",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 34
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67324",
+            "obj": {
+                "i": 67324,
+                "n": "Freedom of Choice",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5219
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67325",
+            "obj": {
+                "i": 67325,
+                "n": "Aggressive Pruning",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5220
+            }
+        }
+    ]
+}

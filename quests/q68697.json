@@ -1,0 +1,624 @@
+{
+    "quest": {
+        "name": "The Ananta Maid's Tail",
+        "location": "Kugane",
+        "id": 68697,
+        "patch": 4.56,
+        "sort": 1,
+        "icon": 100836,
+        "eventIcon": 71221,
+        "issuer": 1026380,
+        "target": 1026389,
+        "genre": 64,
+        "journal": [
+            "Hancock's apprentice is peering about in earnest.",
+            "Spotting an apprentice merchant on the lookout, you inquire as to what he is seeking─only to find out that it is, in fact, you. Sent by Hancock only with the vague instruction to locate you and tell you of his wish to meet, the apprentice asks if you might attend to his master at the harbor. Though at this point you should perhaps know better than to consign yourself to catering to unspecified whims, you nevertheless agree.",
+            "Hancock tells you of a visiting delegation from the Ala Mhigan Resistance soon to arrive at the port of Kugane, and requests that you be there to greet them, known to the group as you are. When the ship arrives, who should disembark but two members of the Resistance with whom you are well acquainted indeed: Alpa and J'olhmyn. With an eagerness that suggests that this may have been his plan all along, Hancock leaps at the chance to pass off the obligation to escort the pair around the city to you. With little recourse, you acquiesce to Alpa's request to visit Kugane Castle posthaste.",
+            "Though the Sekiseigumi member guarding the castle gate nearly gets off on the wrong footlike appendage with Alpa by making the rather questionable assumption that anyone with a scaly tail is a mermaid, he quickly ameliorates the situation by providing a detailed explanation of the castle's defenses. As it concludes, Hancock reappears to announce that Alpa and J'olhmyn's lodgings are now ready, and recommend that they take some time to relax at the hot springs. Just as keen on soothing baths as they are on spiked ramparts, the two women decide to do so immediately.",
+            "You find Alpa gazing at the inn, nearly as impressed with its facade as she was with that of Kugane Castle. She has grown increasingly impatient waiting for J'olhmyn, however, and suggests going to have a look around the Bokaisen Hot Springs while you wait for the Miqo'te to reappear.",
+            "At the hot springs, J'olhmyn at last joins you in the water, and you enjoy a rare moment of relaxation─until the sinister mercenary Nhaza'a Jaab appears, remarking on Alpa's passing resemblance to the mermaids of legend. Taking advantage of the steamy environs, he snatches her out of the water and makes his escape.",
+            "A frustrated J'olhmyn declares that the most expedient means of tracking down Nhaza'a Jaab and retrieving Alpa will be to look for witnesses. Having now seen multiple citizens of Kugane react to Alpa as if she were a mythical creature, you find no reason to disagree with this assessment.",
+            "Though the potential witness you consult has only a passing familiarity with Miqo'te, he nevertheless appears to be in possession of the information you seek. He directs you to the Short Pier, where he swears to have seen a man with peculiar characteristics as well as ears of the appropriate sort.",
+            "You arrive at the pier to find not Nhaza'a Jaab, but M'zhet Tia. Based on his position, he could likely use help in more ways than one, but waking him seems like a good place to start.",
+            "Your cautious prodding having failed to wake M'zhet, J'olhmyn suggests more robust─and violent─measures. After plucking a few Mark XLII grenades from his pockets and handing them to you, she moves off to enjoy the show from a safe distance.",
+            "Now most assuredly awake, M'zhet is shocked to find a scantily clad J'olhmyn before his eyes. Fortunately, once he manages to focus long enough to come around to the point of his tale of seafaring and faring ill, he presents you with a concrete clue as to Alpa's whereabouts. It would seem that he witnessed her and Nhaza'a Jaab boarding a small boat and heading out onto the waves, so to sea you must go."
+        ],
+        "objectives": [
+            "Wait for Hancock at Pier #2.",
+            "Speak with Alpa at Kugane Castle.",
+            "Speak with Alpa at the Bokairo Inn.",
+            "Speak with Alpa once again.",
+            "Speak with J'olhmyn.",
+            "Search for witnesses.",
+            "Speak with J'olhmyn at the Short Pier.",
+            "Attempt to aid M'zhet Tia.",
+            "Throw a Mark XLII grenade at M'zhet Tia."
+        ],
+        "dialogue": [
+            {
+                "name": "APPRENTICE03161",
+                "text": "Ah, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>! Hancock sent me to look for you─I'm glad to have found you so close by."
+            },
+            {
+                "name": "APPRENTICE03161",
+                "text": "He said he needs to meet with you, but wasn't clear on the details. I suppose he'd rather explain it to you in person."
+            },
+            {
+                "name": "APPRENTICE03161",
+                "text": "Would you mind taking a moment to speak with him? He's over at the harbor."
+            },
+            {
+                "name": "APPRENTICE03161",
+                "text": "Thank you! Just make your way to Pier #2, if you please. I'll let Hancock know he can find you there."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "<span class=\"highlight\">Forename</span>, my friend! Good to see you again."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Thank you for coming to meet me─though I confess that I knew you would. You are such an agreeable sort, always ready to help your friends and close acquaintances..."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "There's no need for such facial exertion─my request is a straightforward one."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "As it happens, I've been asked to escort a few members of the Ala Mhigan Resistance on a tour of Kugane. It seems they are interested in seeing the fortifications that have allowed Hingashi to survive as an isolationist nation for so long."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "I've never met them, and it occurred to me that the presence of someone such as yourself, who has an established rapport with the Resistance, might smoothen our introduction. What say you?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Right you are, my bosom companion!"
+            },
+            {
+                "name": "A1",
+                "text": "If I just have to stand there, fine."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Good to hear! Particularly as they'll be here any moment."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "By my estimation, they should be disembarking just about now."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Aha, and right I am."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Esteemed members of the Resistance, welcome to Kugane! Allow me to introduce myself. I am Hancock of the East Aldenard Trading Company, and I will be your guide to this fair city."
+            },
+            {
+                "name": "ALPA",
+                "text": "I appreciate your coming to meet usss! I'm Alpa, captain of the Velodyna Gatekeepers."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "And I'm J'olhmyn, Alpa's second-in-command. Pleasure to meet you."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Is that you, <span class=\"highlight\">Forename</span>? Fancy meeting you here, of all places!"
+            },
+            {
+                "name": "ALPA",
+                "text": "What a pleasant sssurprise! Are you here to show us around?"
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Now that is an excellent proposal, Miss Alpa! I'm certain the two of you would feel more at ease seeing the city with someone you know. Don't you agree, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "HANCOCK",
+                "text": "In that case, I shall leave the role of guide to you. Meanwhile, I can secure accommodations for our guests."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I get the feeling that you didn't have much choice there... Sorry about all this. "
+            },
+            {
+                "name": "ALPA",
+                "text": "If it's alright, I'd like to visit the castle first. I'm eager to see its fortifications!"
+            },
+            {
+                "name": "HANCOCK",
+                "text": "If you would be so kind as to wait at the pier, I shall join you anon."
+            },
+            {
+                "name": "ALPA",
+                "text": "It'sss beautiful..."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "It does look nice, but I can't imagine it's much use as a fortress. Too decorative."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "What unusual attire! I can see you are not native to Kugane. May I ask where you hail from?"
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "By the kami, that tail is real? Are you a mermaid!?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Don't be absssurd! I'm no <span class=\"emphasis\">mermaid</span>, I'm an Ananta."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "There are many like Alpa in Ala Mhigo, our homeland. There's no need to be alarmed."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "Ah, so you are of a Western race, then. Pardon me─I jumped to conclusions. It can be somewhat dull guarding the gate here─particularly as only an utter fool would try to break in─so I sometimes let my imagination get the best of me."
+            },
+            {
+                "name": "ALPA",
+                "text": "It's alright─no offense taken. But if you have a moment, would you mind telling us more about this castle? I'm curious as to how a single guard at the gate is sufficient to keep it sssecure."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "Of course. I'm no expert, but I will gladly teach you what I know. Consider it an apology for my rudeness."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "The central keep that towers above us is of a complex and strategic make, incorporating myriad defensive elements."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "As you can see, the most prominent part of the facade features regular openings from which to unleash a veritable hail of arrows or musket rounds. We call these <span class=\"emphasis\">sama</span>, and they make it nigh on impossible for an enemy to approach from the front."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "Similarly, those unlucky souls who attempt to scale the walls are like to be met by tumbling boulders or boiling oil released by those manning the many brattices."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "Should one somehow manage to infiltrate the castle proper, he will find it a trial to get out again, for the pathways inside are like a maze by design."
+            },
+            {
+                "name": "ALPA",
+                "text": "To think sssomething could be so elegant in both form and function! I'm impressed."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "All that said, the castle <span class=\"emphasis\">has</span> been taken before."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "Not too long ago, an unscrupulous sort named Kageyama and his underlings managed to sneak in during one of the bugyo's galas, taking advantage of the stream of people entering the castle."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "Which mainly goes to show that all of the clever defenses in the world mean nothing if you fail to check who's coming through the front door."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "That said, I don't believe in relying on fortifications overmuch. Get complacent enough and your enemy will walk right in through the front door. Which is why I'm here, incidentally."
+            },
+            {
+                "name": "ALPA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "ALPA",
+                "text": "A most inssstructive tale. Thank you!"
+            },
+            {
+                "name": "HANCOCK",
+                "text": "I had a feeling that I would find you here."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "Your accommodations are ready. Since your journey was a long one, I recommend that you stop for a soak in Kugane's famed hot springs before you continue your sightseeing. I can personally vouch for their efficacy in soothing body and soul."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "In that case, how could we refuse?"
+            },
+            {
+                "name": "HANCOCK",
+                "text": "That's settled, then! Just make your way to the Bokairo Inn at your leisure. I must return to the Ruby Bazaar, but I've ensured that you will find everything in order."
+            },
+            {
+                "name": "ALPA",
+                "text": "My first Hingan hot springs! I hope you'll join us, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "She really is like a faerie tale mermaid come to life. The other bathers are in for a surprise..."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Impressive! Visually speaking, anyhow."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "I leave our guests in your capable hands!"
+            },
+            {
+                "name": "ALPA",
+                "text": "This inn is spectacular─I've never seen anything like it. And to think that we can just go right in!"
+            },
+            {
+                "name": "ALPA",
+                "text": "I wish I could show it to Gales...though it might be safer not to."
+            },
+            {
+                "name": "ALPA",
+                "text": "Anyway, J'olhmyn went inside to change ages ago, but it doesn't seem like she's coming out any time soon. She does wear an awful lot of armor..."
+            },
+            {
+                "name": "ALPA",
+                "text": "Why don't we have a look around while we wait for her? There's no harm in that, right?"
+            },
+            {
+                "name": "HOKUSHIN",
+                "text": "Come to think of it, it's possible that our tales of mermaids were based on sightings of Ananta to begin with."
+            },
+            {
+                "name": "HANCOCK",
+                "text": "I leave our guests in your capable hands!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Seeing it has only made me want to get in more..."
+            },
+            {
+                "name": "ALPA",
+                "text": "J'olhmyn won't mind if we meet her in the water, right? Right. So let's go─unless you need some time to change into your bathing suit as well? I hear it's customary to wear one, at least in Kugane."
+            },
+            {
+                "name": "Q3",
+                "text": "Enter the hot springs in your current garb?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "Q2",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "A2",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "A2",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "ALPA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "ALPA",
+                "text": "Thisss feels wonderful! I'm so glad we came to Hingashi."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "It is nice to properly relax once in a while."
+            },
+            {
+                "name": "CUSTOMERA03161",
+                "text": "Look there! Is that a mermaid?"
+            },
+            {
+                "name": "CUSTOMERB03161",
+                "text": "That tail, those scales... Unmistakably a mermaid! I can't believe they've been real this whole time! And right here in our hot springs!"
+            },
+            {
+                "name": "ALPA",
+                "text": "This is ridiculousss─I'm clearly no fish."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Haha! I suppose people who've never seen an Ananta just don't know what else to make of you."
+            },
+            {
+                "name": "CUSTOMERA03161",
+                "text": "Well, I never! Mermaids in the bath!"
+            },
+            {
+                "name": "NHAZAAJAAB",
+                "text": "(-Menacing Miqo'te-)Did someone say “mermaid”?"
+            },
+            {
+                "name": "NHAZAAJAAB",
+                "text": "Did someone say “mermaid”?"
+            },
+            {
+                "name": "NHAZAAJAAB",
+                "text": "(-Menacing Miqo'te-)What's this, a Seeker? And one with most...unfortunate features, at that."
+            },
+            {
+                "name": "NHAZAAJAAB",
+                "text": "What's this, a Seeker? And one with most...unfortunate features, at that."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Not as unfortunate as your manners. And I would say something about the creepy mask, but I reckon the face beneath is even worse."
+            },
+            {
+                "name": "NHAZAAJAAB",
+                "text": "Now, am I meant to believe that you don't recognize me, Nhaza'a Jaab? You certainly have the look of an Eorzean, but perhaps my legacy has not yet reached whatever drab little corner of the realm you call home."
+            },
+            {
+                "name": "NHAZAAJAAB",
+                "text": "Hmm, yes, on closer inspection I can see that our Far Eastern friends simply mistook serpent for fish. Not that it matters for my purposes, of course. I can hardly believe that I came upon a convincing substitute so soon..."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "That's enough of your leering!"
+            },
+            {
+                "name": "ALPA",
+                "text": "What are you doing!? Get your hands off of me!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Alpa!?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I swear, you masked maniac, if you've done something to Alpa..."
+            },
+            {
+                "name": "NHAZAAJAAB",
+                "text": "It's funny... I thought only to make a bit of coin on my travels through this foreign land, but it seems the beastmen and I are simply meant to be."
+            },
+            {
+                "name": "NHAZAAJAAB",
+                "text": "In any case, I'll be helping myself to this one. I welcome a challenge, so feel free to hunt me down...if you can. Hah...hah...bwahahahahahahahahaha!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Hells take that Nhaza'a! And what is he, anyway? I can't believe he managed to snatch Alpa right out from under us!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "No, now's not the time. Our first priority needs to be tracking them down. Thankfully, if the locals' reactions so far are anything to go by, I'm sure they stood out. We can start by asking around."
+            },
+            {
+                "name": "TOWNSPEOPLE03161",
+                "text": "A...“Miqo'te,” ma'am? I'm afraid I don't quite know what you mean."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Oh, right. I'm talking about someone with ears like mine. Male. A bit odd in the...facial area. He might've been behaving strangely, too. Does that ring a bell?"
+            },
+            {
+                "name": "TOWNSPEOPLE03161",
+                "text": "Ah, so you folks are called “Miqo'te”! I've seen quite a few of you around Kugane of late. And there was a man fitting that description over by the Short Pier, when I passed by not too long ago."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I guess we're headed seaside then. Thanks for your help!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Did you see a Miqo'te pass through? It's important!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "This is...not what I was expecting, in a variety of ways."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Now that we've found him, I suppose we ought to make sure that he doesn't die. We're going to need him to wake up first, though. I don't know─maybe poke him in the face?"
+            },
+            {
+                "name": "TOWNSPEOPLE03161",
+                "text": "“Miqo'te.” What a charming name for a people! And they do have the <span class=\"emphasis\">nicest</span> ears."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Miqo'te before you is slumbering vigorously. Though he seems to be in a bad way, he is unmistakably alive and will probably survive without your intervention."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "...And you're <span class=\"emphasis\">sure</span> he's not already dead?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "In that case, we'll have to get creative. And I have just the thing! Well, he does, anyhow."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Just as I thought─he never leaves home without his Mark XLII grenades. I assume he took the time to remove some of the powder after his...prior experiences, so they should be safe enough. Lob one in his general direction, would you?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I'll stand back a bit. Just in case."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Feel free to do whatever it takes to wake him up. Nothing like a robust jab to the eyes to get the blood pumping, that's what I always say."
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "AaaaaaAAARGH!"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "I believe I at last truly grasp the meaning of the phrase “a rude awakening.” Which is to say, ow."
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "Make no mistake, I am delighted to see you, <span class=\"highlight\">Forename</span>─but I would appreciate it if you would put a little more thought into your method of greeting next time. I was having such a nice dream, too..."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I can't say I expected quite that large of an explosion. I thought for sure you'd remember to take the powder out <span class=\"emphasis\">this</span> time."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "But why are you here, anyway?"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "Gah! J'olhmyn!"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "Your attire is rather less...<span class=\"emphasis\">present</span> than usual!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Ah. Now that you mention it, I did forget to put my uniform back on, didn't I?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "More importantly, though, we have a serious problem on our hands!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "M'zhet? Are you listening to me?"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "Yes, I'm listening! And definitely making a normal amount of eye contact!"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "But never mind that─Alpa's been kidnapped! I saw her being carried away by a man with the most peculiar mask..."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "You saw him?"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "Uh...yes? Yes. As it happens, I stowed away on your ship to get here. And that went perfectly smoothly, thank you very much, until you two disembarked and ran off, leaving me without a clue where to go."
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "As I was wandering about aimlessly, as one does, I saw the masked man with Alpa in tow. I called out to them, and he hit me! Without so much as a warning!"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "Before I fully lost consciousness, however, I witnessed something vital─he and Alpa boarding a small boat."
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "I'm positive they were headed out to sea."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Then there's not a moment to waste! We'll board a ship at once. You too, M'zhet."
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "Of course─I would never abandon Alpa in her time of need! In fact, I shall begin scanning the seas in search of any passing vessel that can carry us away right this moment. Feel free to, say, put on a coat while I do!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I encourage you to pelt him with those bombs as hard as you can. We don't have time to be gentle─Alpa's trail is getting colder by the moment."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Ouch!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "It looks like M'zhet did remember to take some powder out─not that you knew that when you decided to test it on me! You could have blasted my suit clean off!"
+            }
+        ],
+        "reward": {
+            "gil": 1372
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                68514,
+                68577
+            ]
+        },
+        "next": [
+            68698
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1026380",
+            "obj": {
+                "i": 1026380,
+                "n": "East Aldenard Trading Company Assistant",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1026389",
+            "obj": {
+                "i": 1026389,
+                "n": "M'zhet Tia",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68514",
+            "obj": {
+                "i": 68514,
+                "n": "True-blue",
+                "g": 50,
+                "l": "The Ruby Sea",
+                "s": 6,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68577",
+            "obj": {
+                "i": 68577,
+                "n": "Celebratory Smorgasbord",
+                "g": 52,
+                "l": "The Fringes",
+                "s": 6,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68698",
+            "obj": {
+                "i": 68698,
+                "n": "Ruby Seas under Ruby Skies",
+                "g": 64,
+                "l": "Kugane",
+                "s": 2
+            }
+        }
+    ]
+}

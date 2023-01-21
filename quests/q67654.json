@@ -1,0 +1,170 @@
+{
+    "quest": {
+        "name": "A Striking Opportunity",
+        "location": "Idyllshire",
+        "id": 67654,
+        "patch": 3.2,
+        "sort": 6000,
+        "icon": 100545,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1017083,
+        "target": 1015599,
+        "genre": 101,
+        "journal": [
+            "Your reputation precedes you, if the wide-eyed look the stranger is favoring you with is any indication.",
+            "While passing through Idyllshire you find yourself accosted by a boisterous stranger, who marks you as a notorious adventurer prone to picking fights with gods. Though he claims to admire your “work,” he observes that, because you do not undertake such trials by yourself, it must be difficult to tell if you are pulling your weight. He too has such worries, which is why he has been training in Stone, Sky, Sea─a new training ground of some repute, of which a goodly adventurer outside Idyllshire can tell you more.",
+            "Although he stumbles more than a few times in his explanation, the guide tells you that the new training ground, which was opened by the Adventurers' Guild, offers a variety of striking dummies which are tailored to the strength of certain legendary beings. By defeating these dummies in the allotted time, you can determine whether or not you have the potential to go toe-to-toe with said beings─that is, if you can survive their onslaught, for unlike their real-life counterparts, the dummies do not hit back..."
+        ],
+        "objectives": [
+            "Speak with the goodly adventurer outside Idyllshire."
+        ],
+        "dialogue": [
+            {
+                "name": "ADVENTURER02118",
+                "text": "Cor, I know you! You're one o' them half-mad 'venturers what roams about pickin' fights with gods and every bugger else! Well met, well met. Love your work!"
+            },
+            {
+                "name": "ADVENTURER02118",
+                "text": "Ah, but you're just one o' them pack o' right crazed killers, am I right? Hells, for all I know, might be they're the ones what do the work while you share in the credit!"
+            },
+            {
+                "name": "ADVENTURER02118",
+                "text": "Now, now, killer─don't take it personally or nothin', but I've seen it before. When it's all blood and shite and explosions, it can be hard to tell if you're pullin' your weight. That's why I've been trainin' up in Stone, Sky, Sea."
+            },
+            {
+                "name": "ADVENTURER02118",
+                "text": "Don't let the daft name fool you. It's a proper trainin' ground, where fightin' folk like me and you can go to refine our killin' prowess. If you've never been, go and look for the goodly fella out past the Backbridge. He'll tell you the rest. You won't regret it!"
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "You there─good <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>! You look like you enjoy bathing in the blood of your enemies. Have you perchance heard about Stone, Sky, Sea?"
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "You see, as part of an initiative to reduce the number of disputes the Adventurers' Guild has been forced to arbitrate between members who accuse their comrades of not contributing sufficiently to─ Ahem. Let me try again."
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "“<span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span> who fights with strength of stone unyielding, breathes deep of boundless sky and embraces serenity of rolling sea, against <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> none can stand.”"
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "...Sorry, that's what the Doman fellow told me to say. I don't quite understand it myself, but he seemed to think it was all very clever."
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "Right, so, in essence, we've got these ridiculous contraptions that you attack in whatever manner you deem fit. Each is supposedly tailored to the strength of some legendary beast or being some madman decided to challenge once upon a time."
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "Speaking of which, I believe one should be dropping in right about...now!"
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "Apparently, the first time they dropped one of those was an accident. The trainees loved it so much they started doing it all the time, though."
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "...Right, so! Each is tailored to the strength of a legendary fiend, the idea being that if you can defeat the dummy, you can defeat the fiend. In principle, that is. Dummies don't hit back, after all."
+            },
+            {
+                "name": "ONETIMEGUIDE",
+                "text": "But who gives a fig about any of that, eh!? I nearly forgot the best part: it's free!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You now have access to Stone, Sky, Sea. This training ground can be accessed by speaking with the goodly adventurer outside Idyllshire."
+            }
+        ],
+        "reward": {
+            "gil": 518,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67205
+            ]
+        },
+        "next": [
+            68476,
+            69137,
+            69709
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1017083",
+            "obj": {
+                "i": 1017083,
+                "n": "Boisterous Bruiser",
+                "l": 2082,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015599",
+            "obj": {
+                "i": 1015599,
+                "n": "Goodly Adventurer",
+                "l": 2001,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67205",
+            "obj": {
+                "i": 67205,
+                "n": "Heavensward",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 94
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68476",
+            "obj": {
+                "i": 68476,
+                "n": "Another Striking Opportunity",
+                "g": 103,
+                "l": "Rhalgr's Reach",
+                "s": 10030,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69137",
+            "obj": {
+                "i": 69137,
+                "n": "Yet Another Striking Opportunity",
+                "g": 112,
+                "l": "Eulmore",
+                "s": 20040,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69709",
+            "obj": {
+                "i": 69709,
+                "n": "A Place to Train",
+                "g": 122,
+                "l": "Radz-at-Han",
+                "s": 2201,
+                "f": 1
+            }
+        }
+    ]
+}

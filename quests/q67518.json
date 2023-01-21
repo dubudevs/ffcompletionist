@@ -1,0 +1,84 @@
+{
+    "quest": {
+        "name": "Excessive Force",
+        "location": "Azys Lla",
+        "id": 67518,
+        "patch": 3.0,
+        "sort": 5904,
+        "eventIcon": 71221,
+        "issuer": 1012148,
+        "target": 1012148,
+        "genre": 102,
+        "journal": [
+            "The Allagan suppression node is attempting to initialize a system test.",
+            "The Allagan suppression node needs to confirm the effectiveness of its citizen compliance assurance subsystem. Put the subsystem through its paces by attempting to destroy three clockwork engineers and three clockwork paladins.",
+            "The test has been completed. Return to the suppression node to confirm the results.",
+            "The suppression node seems to view your survival as a failure of the subsystem and recommends an upgrade of the infrastructure."
+        ],
+        "objectives": [
+            "Slay clockwork paladins.",
+            "Slay clockwork engineers.",
+            "Report to the suppression node."
+        ],
+        "dialogue": [
+            {
+                "name": "REPRESSSYSTEM",
+                "text": "Initializing system test. &lt;beep&gt; &lt;beep&gt; Test subject not found. Aborting...  Initializing system test. &lt;beep&gt; &lt;beep&gt; Test subject not found. Aborting... Initializing system test."
+            },
+            {
+                "name": "REPRESSSYSTEM",
+                "text": "Congratulations on being selected for system testing. Please verify the effectiveness of the citizen compliance assurance subsystem by approaching clockwork engineers and clockwork paladins and demonstrating non-compliant behavior.<br>Please verify...&lt;buzzzzzz&gt;...assurance subsystem by approaching clockwork... &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "REPRESSSYSTEM",
+                "text": "&lt;buzzzzzz&gt; ...non-compliant behavior. Please verify the effectiveness of the citizen compliance assurance subsystem by approaching clockwork engineers and clockwork paladins and demonstrating non-compliant behavior. Please verify... &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "REPRESSSYSTEM",
+                "text": "Thank you for participating in the citizen compliance assurance subsystem testing program.<br>Test subjects neutralized... <span class=\"emphasis\">ZERO</span>.<br>Subsystem performance... <span class=\"emphasis\">UNSATISFACTORY</span>."
+            },
+            {
+                "name": "REPRESSSYSTEM",
+                "text": "Upgrade of suppression infrastructure is recommended to ensure optimal citizen conformance."
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67200
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012148",
+            "obj": {
+                "i": 1012148,
+                "n": "Suppression Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67200",
+            "obj": {
+                "i": 67200,
+                "n": "Systematic Exploration",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 89
+            }
+        }
+    ]
+}

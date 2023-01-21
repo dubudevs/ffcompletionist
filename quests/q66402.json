@@ -1,0 +1,160 @@
+{
+    "quest": {
+        "name": "The Monster of Bronze Lake",
+        "location": "Upper La Noscea",
+        "id": 66402,
+        "patch": 2.0,
+        "sort": 340,
+        "eventIcon": 71221,
+        "issuer": 1006332,
+        "target": 1006332,
+        "involved": [
+            1006339
+        ],
+        "genre": 91,
+        "journal": [
+            "Rukusa Farusa is a man much tried.",
+            "Rukusa Farusa confides that a tourist has taken up residence in his infirmary. The man in question, a wealthy goldsmith, requires salamander oil for his hurts. Draw four vials' worth from salamanders nearby.",
+            "After some deft work, you have four vials' worth of salamander oil. Show it to the goldsmith.",
+            "The work is more hands-on than you were led to expect. Pour the salamander oil on Godbert, and remember that generosity is a virtue.",
+            "Fortunately, you still have plenty of salamander oil. Unfortunately, there is still plenty more of Godbert in need of oiling. Keep pouring it onto the weary goldsmith.",
+            "You may as well finish what you started. Knead the oil into Godbert's weary flesh. This too is a virtue, though one less well defined.",
+            "Your work is far from over. Keep working those knots out of Godbert's tense muscles.",
+            "Godbert has reached a heightened state of bliss thanks to your expert ministrations. Report your success to Rukusa Farusa.",
+            "Rukusa Farusa tells that the Ul'dahn artisan is under a misapprehension. Or perhaps, it is the nature of those both wealthy and seeking to believe as they like."
+        ],
+        "objectives": [
+            "Slay salamanders and obtain salamander oil.",
+            "Show the salamander oil to Godbert.",
+            "Use the salamander oil on Godbert.",
+            "Use the salamander oil on Godbert again.",
+            "Massage the oil into Godbert's weary flesh.",
+            "Continue massaging Godbert's tense muscles.",
+            "Report to Rukusa Farusa."
+        ],
+        "dialogue": [
+            {
+                "name": "RUKUSAFARUSA",
+                "text": "As you know from your prior visits, we treat the wounded from the front with all our arts, and with the healing waters of the hot springs. We serve soldiers, but for some unaccountable reason, we have a...a <span class=\"emphasis\">goldsmith</span> here at the present."
+            },
+            {
+                "name": "RUKUSAFARUSA",
+                "text": "He simply showed up, and we could hardly turn him away. And now he is asking for salamander oil, but we cannot spare any."
+            },
+            {
+                "name": "RUKUSAFARUSA",
+                "text": "I find the entire situation awkward in the extreme. Will you extract four vials' worth of oil from the salamanders roaming nearby and give them to the goldsmith?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Most kind, you are most kind to bring me the oil of salamander!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "I had a need of a large horn and made the grievous error of visiting a great buffalo with a handsaw. He liked it not and I sustained a most horrific scratch."
+            },
+            {
+                "name": "GODBERT",
+                "text": "It smarted so, and the ache!<br>...Oh no, I was not thrown, I am not so green as that! No, when the beast shook its head, I stepped backwards, slipped, and fell. Then I fell again later, strolling back to the dogcart."
+            },
+            {
+                "name": "GODBERT",
+                "text": "No need to be shy, you are an adventurer and I am a goldsmith! The body is simply an instrument, in occasional need of oiling! Oil, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>, oil, I say!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Come! My body awaits your ministrations."
+            },
+            {
+                "name": "GODBERT",
+                "text": "The relief! Again, I say!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ahhh, I can feel soothing fingers working into every knot─that is your cue, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>, soothing fingers now, please!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "By the Twelve, that feels good. Now quickly, with the rubbing!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ah, the healing tingle!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Zzz... Ah, pardon me. Your skill was so great that I was quite transported. Truly, no Ul'dahn attendant could have done better. Sublime!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "I shall now have a brief drowse, then soak in the springs until sundown. After that, a humble meal with white wine from my own stock, and perhaps peaches..."
+            },
+            {
+                "name": "RUKUSAFARUSA",
+                "text": "Thank you for your service, adventurer. It seems he believes Bronze Lake to be some sort of a retreat for the rich. He paid a very handsome fee for his stay thus far and profusely complimented us on our...asceticism."
+            }
+        ],
+        "reward": {
+            "gil": 1760,
+            "xp": 8385
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 34,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66393
+            ]
+        },
+        "next": [
+            66404
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006332",
+            "obj": {
+                "i": 1006332,
+                "n": "Rukusa Farusa",
+                "l": 34,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006339",
+            "obj": {
+                "i": 1006339,
+                "n": "Godbert",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66393",
+            "obj": {
+                "i": 66393,
+                "n": "Lord of Crags",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 181
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66404",
+            "obj": {
+                "i": 66404,
+                "n": "The Adventure of the Fainting Goldsmith",
+                "g": 91,
+                "l": "Upper La Noscea",
+                "s": 340
+            }
+        }
+    ]
+}

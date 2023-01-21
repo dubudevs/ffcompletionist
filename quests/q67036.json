@@ -1,0 +1,174 @@
+{
+    "quest": {
+        "name": "Right-wing Aeronautics",
+        "location": "North Shroud",
+        "id": 67036,
+        "patch": 2.35,
+        "sort": 43,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 5,
+        "eventIcon": 71222,
+        "issuer": 1009214,
+        "target": 1009214,
+        "involved": [
+            1009218
+        ],
+        "genre": 43,
+        "usedItems": [
+            8068,
+            8107
+        ],
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Tazel Meyean the Lettered has a mind to test his latest brainchild.<br>※The crafting portion of this quest is recommended for Disciples of the Hand level 10 and above, and the battle portion for Disciples of War or Magic level 47 and above.",
+            "Tazel Meyean has asked you to craft for him a high-quality starboard wing control component, that he might test the revolutionary mechanism he has conceived. The requisite materials can be obtained from treasure pots found within the Ixali logging grounds.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "You have obtained several sets of starboard wing control component materials. Present them to Hildeyerd at the Bobbing Cork in order to gain access to the crafting facility under her care.",
+            "Hildeyerd has prepared the crafting facility for your use. With the materials you have obtained, synthesize a high-quality starboard wing control component, and deliver it to Tazel Meyean at Ehcatl.<br><br>※In the event that the status <span class=\"highlight\">Facility Access: Detailing</span> wears off or the synthesis ends in failure, you may try again by speaking with Hildeyerd.",
+            "You have delivered the starboard wing control component to Tazel Meyean, who squawks in sheer delight. The Ixal is most impressed by your ability to craft precisely to specification, and will doubtless request your services again as he conceives exciting new ideas."
+        ],
+        "objectives": [
+            "Obtain starboard wing control component materials from treasure pots in the Ixali logging grounds.",
+            "Present the starboard wing control component materials to Hildeyerd at Fallgourd Float.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize a starboard wing control component <img class=\"hq-icon small\" src=\"images/item/hq.png\"></span><span class=\"alternative\">Deliver the starboard wing control component <img class=\"hq-icon small\" src=\"images/item/hq.png\"> to Tazel Meyean the Lettered</span></span>."
+        ],
+        "dialogue": [
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Squawk! Conceived new control mechanism for starboard wing, I have. Test my design, I would. To proceed, component of highest quality, I need."
+            },
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Set of precision cogs, it is. Prepare it for me, you must."
+            },
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Heavy-duty grease, it is. Prepare it for me, you must."
+            },
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Set of heavy-duty joint parts, it is. Prepare it for me, you must."
+            },
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Materials for crafting? Hoarded by Ixal of logging grounds. Inside treasure pots, they are kept. Take from no less than three, you must."
+            },
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Attempt to stop you, screechy ones will. Knock them around, you can...but if you die, come for your bones, I won't. When materials, you have, use crafting facility at Fallgourd to make component, you can."
+            },
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Squawk! Conceived new control mechanism for starboard wing, I have. Test my design, I would. To proceed, component of highest quality, I need. Make it, you shall."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Hello again, adventurer! Come to avail yourself of our fine facility, I take it? Let's have a look at the materials you've brought."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Ooh, yet another curious collection of odds and ends, and a goodly amount besides. So that they don't get in your way while you work, I'll hold on to any excess materials until you need them. The crafting space is ready for your use. You may begin whenever you like."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Remember, I'm holding on to the excess materials. If the synthesis doesn't go well and you have need of them, you need but ask me."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Finished crafting, have you? Well, don't keep the client waiting─run along and deliver your handiwork! Now, I doubt that you'd be so clumsy as to misplace your precious creations, but on the off chance that you do, know that I still have the excess materials in my keeping."
+            },
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Alive and well, featherless one returns. Crafted component of my desire, you have, yes? Quickly show Tazel, you must!"
+            },
+            {
+                "name": "TAZELMEYEAN",
+                "text": "Squawk! Precisely to specification, it is! Test my design, now I can! My thanks, you have!"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "You now have access to the crafting facility."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Normal-quality items crafted in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them."
+            }
+        ],
+        "reward": {
+            "gil": 583,
+            "reputation": 35,
+            "items": [
+                {
+                    "num": 25,
+                    "id": 4
+                },
+                {
+                    "id": 21072
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 33
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009214",
+            "obj": {
+                "i": 1009214,
+                "n": "Tazel Meyean The Lettered",
+                "l": 57,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009218",
+            "obj": {
+                "i": 1009218,
+                "n": "Hildeyerd",
+                "l": 57,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "8068",
+            "obj": {
+                "i": 8068,
+                "n": "Starboard Wing Control Component Materials",
+                "l": 1,
+                "c": 25919,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "8107",
+            "obj": {
+                "i": 8107,
+                "n": "Starboard Wing Control Component",
+                "l": 1,
+                "c": 23001,
+                "t": 63
+            }
+        }
+    ]
+}

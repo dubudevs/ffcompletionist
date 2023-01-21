@@ -1,0 +1,96 @@
+{
+    "quest": {
+        "name": "Where Dragons Lie",
+        "location": "The Dravanian Forelands",
+        "id": 67349,
+        "patch": 3.0,
+        "sort": 5317,
+        "eventIcon": 71221,
+        "issuer": 1011937,
+        "target": 1011937,
+        "genre": 98,
+        "journal": [
+            "Ess Khas seems greatly perturbed by something.",
+            "The dragons' chosen place of interment, Mourn, is infested with beasts unfit to walk its hallowed halls. Of the tyrannosaurs, vinegaroons, and syrictae now running rampant in Mourn, Ess Khas asks that you slay five of any beast you see to help reduce their numbers.",
+            "You slay the beasts running amok in the cave. Return to Anyx Trine and speak with Ess Khas.",
+            "You speak with Ess Khas, whose heart swells to hear the halls of Mourn will know peace, if only for a short time. He tells you that lesser dragons are gathering for the war, drawing beasts of various sorts to the cave. Only a truly despicable beast could defile such a place, and he thanks you for doing your part to purge the cave of its intruders."
+        ],
+        "objectives": [
+            "Slay enemies in Mourn.",
+            "Report to Ess Khas."
+        ],
+        "dialogue": [
+            {
+                "name": "ESSKHAS",
+                "text": "Mourn, the final resting place for dragons, is befouled by vermin. They must be removed."
+            },
+            {
+                "name": "ESSKHAS",
+                "text": "Tyrannosaurs, vinegaroons, syrictae, it matters not. Slay five of the beasts and cull their numbers."
+            },
+            {
+                "name": "ESSKHAS",
+                "text": "The vermin sullying Mourn must be expunged. Slay five of the beasts, I care not which."
+            },
+            {
+                "name": "ESSKHAS",
+                "text": "Thank you for your work. The vermin have begun to rally, they would answer the calls to war."
+            },
+            {
+                "name": "ESSKHAS",
+                "text": "But Mourn is a place of resting. They cannot be allowed to besmirch those hallowed halls."
+            }
+        ],
+        "reward": {
+            "gil": 567,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67152,
+                67348
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011937",
+            "obj": {
+                "i": 1011937,
+                "n": "Ess Khas",
+                "l": 2000,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67152",
+            "obj": {
+                "i": 67152,
+                "n": "Lord of the Hive",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 37
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67348",
+            "obj": {
+                "i": 67348,
+                "n": "Back in the Game",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5316
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "quest": {
+        "name": "Out of Place",
+        "location": "The Rak'tika Greatwood",
+        "id": 68988,
+        "patch": 5.0,
+        "sort": 4190,
+        "eventIcon": 71221,
+        "issuer": 1031191,
+        "target": 1031191,
+        "genre": 117,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>This well-meaning mentor would ask for your help with unfinished business."
+        ],
+        "objectives": [
+            "Survey the designated areas and slay the anemone should it appear.",
+            "Deliver the anemone corpse to the well-meaning mentor."
+        ],
+        "dialogue": [
+            {
+                "name": "MENTOR03452",
+                "text": "Your travels have led you back to Slitherbough, I see. Your timing is fortuitous. Preparations for the anemone hunt are complete. If you are of a mind to join me, your aid would be most appreciated."
+            },
+            {
+                "name": "MENTOR03452",
+                "text": "It was last seen in the southwestern region of Cleric. The hunt will prove difficult, however, as that is where the Children chose to build their spiders' nest."
+            },
+            {
+                "name": "MENTOR03452",
+                "text": "Tread lightly, and do not hesitate to strike it down on sight. I only ask that you retrieve its corpse should you find it first."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You see no sign of the anemone. Perhaps you should search elsewhere."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You find the corpse of an animal, but there are no signs of a struggle. Perhaps it was killed with poison..."
+            },
+            {
+                "name": "MENTOR03452",
+                "text": "You are returned. I hope you had better luck than I."
+            },
+            {
+                "name": "MENTOR03452",
+                "text": "The anemone. You found it..."
+            },
+            {
+                "name": "MENTOR03452",
+                "text": "&lt;sigh&gt; Would that there was another way, but the threat it posed to the Greatwood could not be ignored."
+            },
+            {
+                "name": "MENTOR03452",
+                "text": "Mark my words: this <span class=\"emphasis\">will not</span> happen again."
+            }
+        ],
+        "reward": {
+            "gil": 706
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68984
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1031191",
+            "obj": {
+                "i": 1031191,
+                "n": "Well-meaning Mentor",
+                "l": 2957,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68984",
+            "obj": {
+                "i": 68984,
+                "n": "Paved with Good Intentions",
+                "g": 117,
+                "l": "The Rak'tika Greatwood",
+                "s": 4180
+            }
+        }
+    ]
+}

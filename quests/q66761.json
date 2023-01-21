@@ -1,0 +1,121 @@
+{
+    "quest": {
+        "name": "Luring Lacovie",
+        "location": "Southern Thanalan",
+        "id": 66761,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005550,
+        "target": 1005550,
+        "genre": 35,
+        "journal": [
+            "Fibubb Gah seeks your aid in preserving the Amalj'aa holy land.",
+            "You have accepted the duty of removing a dire threat to the sacred lands of Zanr'ak. Slaughter bronze tortoises until Lacovie appears, then slay the ever-spawning matriarch herself.",
+            "You have defeated the ground-shaking Lacovie. Return to the Ring of Ash and report to Fibubb Gah.",
+            "You have delivered news of your success to Fibubb Gah. Though pleased with your deeds, the Brotherhood soldier warns that the emergence of a new matriarch is only a matter of time."
+        ],
+        "objectives": [
+            "Slay three bronze tortoises, then defeat Lacovie when she appears.",
+            "Report to Fibubb Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "FIBUBBGAH",
+                "text": "For we Amalj'aa, Zanr'ak is more than merely dust and rock─it is sacred ground. The preservation of this holy land is our duty and our privilege."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "One of the greatest threats to its delicate balance are the voracious bronze tortoises. These insatiable creatures wander as their appetite leads them, feeding without surcease. Slaughtering them brings little respite, for they multiply at a seemingly unnatural pace."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "No, honored ally, I would have you dispatch their matriarch─the mighty Lacovie. It is she that spawns her shell-backed children in such uncontrollable numbers."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "To draw out the mother, however, you must first endanger her offspring. Slay the lesser tortoises, and the matriarch will soon appear. With her crushing weight and snapping jaws, you will find Lacovie a worthy adversary."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "Slay the bronze tortoises that ravage Zanr'ak, and Lacovie will come seeking vengeance. May glory and honor guide your arm."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "With the death of Lacovie, you have slain a great threat to our holy land. It should be many years before another tortoise attains her size and claims the matriarch's name."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "But we must not grow complacent. The sky-fires that seared the realm have shaken the foundations of all that we knew to be true..."
+            },
+            {
+                "name": "TORTOISE",
+                "text": "Lacovie has come to avenge her offspring!"
+            },
+            {
+                "name": "POP",
+                "text": "The ground trembles violently!"
+            }
+        ],
+        "reward": {
+            "gil": 480,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 8970
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 43,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005550",
+            "obj": {
+                "i": 1005550,
+                "n": "Fibubb Gah",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

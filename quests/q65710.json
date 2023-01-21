@@ -1,0 +1,89 @@
+{
+    "quest": {
+        "name": "No Quarter Given",
+        "location": "North Shroud",
+        "id": 65710,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1000612,
+        "target": 1000612,
+        "genre": 92,
+        "journal": [
+            "Guithrit wishes to enlist the services of an adventurer in the fight against the Ixal.",
+            "The Wood Wailer Guithrit reveals that Ixali scouts have made an incursion into Gridanian territory. He bids you slay two Ixali dulltalons, two Ixali lostwings, and two Ixali slowbeaks, before the birdmen can advance far enough to pose a threat to civilians.",
+            "You exact bloody vengeance on the Ixali scouts. Guithrit will want to hear of your success.",
+            "While your actions have helped contain the Ixal menace for the time being, it will not be long before they return to threaten the people of Gridania. It seems that Guithrit and his superiors will use the brief respite you have bought them to find a more permanent solution."
+        ],
+        "objectives": [
+            "Slay Ixali dulltalons.",
+            "Slay Ixali lostwings.",
+            "Slay Ixali slowbeaks.",
+            "Report to Guithrit outside E–Tatt's Spire."
+        ],
+        "dialogue": [
+            {
+                "name": "GUITHRIT",
+                "text": "Ah, <span class=\"highlight\">Forename</span>─just the <span class=\"alternative-container\"><span class=\"alternative\">person</span><span class=\"alternative\">fellow</span></span>! Your efforts on behalf of Treespeak Stables mark you out as a genuine talent. If you have confidence in your battlecraft, mayhap you would agree to help us in our fight against the Ixal."
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "According to reports, Ixali scouts have been sighted by the river, due west of here. Though that area is uninhabited, it borders Treespeak Stables and Blessed Bud."
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "We mean to drive them off before they can threaten our people. If several of their scouting parties were to be summarily dispatched, it might give their leaders cause to doubt the wisdom of their plan."
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "Slay two Ixali dulltalons, two Ixali lostwings, and two Ixali slowbeaks. Show them the price they must pay for setting foot in our territory."
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "It was bloody work, but it had to be done. Your service to Gridania will not be forgotten."
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "Thanks to you, we now have time to plot our next move. We could muster our forces and take the battle to the birdmen, or consolidate our defenses before they return. I must needs consult with the commander."
+            }
+        ],
+        "reward": {
+            "gil": 156,
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65707
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000612",
+            "obj": {
+                "i": 1000612,
+                "n": "Guithrit",
+                "l": 57,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65707",
+            "obj": {
+                "i": 65707,
+                "n": "The Valued Vilekin",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 60
+            }
+        }
+    ]
+}

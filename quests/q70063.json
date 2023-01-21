@@ -1,0 +1,717 @@
+{
+    "quest": {
+        "name": "Bountiful Ruins",
+        "location": "Revenant's Toll",
+        "id": 70063,
+        "patch": 6.1,
+        "sort": 620,
+        "icon": 101180,
+        "eventIcon": 71201,
+        "issuer": 1039570,
+        "target": 1039578,
+        "genre": 12,
+        "journal": [
+            "Tataru has some advice to share with you.",
+            "Speaking from her considerable personal experience as an information broker, Tataru cautions you that rumors do not simply fall into one's lap. Taverns and markets are the ideal places to visit first, and as such, she suggests you begin your new adventures at Mehryde's Meyhane─the finest drinking establishment in Radz–at–Han.",
+            "You arrive at Mehryde's Meyhane and explain your situation to Mihleel, who directs you to one of their regulars, Professor Jalheen. The professor is apparently well known for holding forth on a variety of historical subjects─including the Bounty's undersea vault─and should gladly share this information in exchange for one of the meyhane's fine beverages.",
+            "After enthusiastically accepting your offer of a spirituous brew, Jalheen launches into the legend of Alzadaal III. It is said that this famous satrap not only forged an alliance with a dragon, but also returned from a journey to another world with fabulous riches in his possession. The most widely known and enduring tale, however, concerns Alzadaal's Legacy, a treasure vault he constructed deep beneath the waves, the entrance to which is supposedly hidden on an island in the middle of the Bounty. Jalheen indicates that more information regarding this isle and how it may be reached can be obtained from his friend, Azahma.",
+            "You locate Azahma, who recounts the tale of his missing friend and the information he purchased from a merchant in the bazaar. Seeking to follow up on this lead, you head to the markets, only to witness Estinien buying a treasure map from the very peddler you were told about. Such a coincidence can only be fate─though the authenticity of the map in question is far less certain, given the elaborate performance by what was clearly the peddler's young accomplice. In any event, you tell Estinien of your interest in the undersea vault, and he invites you to join him on an expedition to recover the legendary riches of Alzadaal's Legacy.",
+            "Estinien considers how best to find a ship fit for the open seas. The mention of fishermen brings Matsya to mind, and you set off to find the young Arkasodara in Akyaali.",
+            "Barely have you explained the situation before an eager Matsya promises to secure and stock a seaworthy vessel for your expedition. He leaves to make arrangements, after which Estinien takes the opportunity to confront the furtive figure who has been trailing you since you left the city: Mehrahd, the ragged waif from the bazaar. The boy apologizes for his part in the merchant's charade, and begs you to reconsider your venture. He is adamant that only death awaits you at the island you seek, and that you will surely fail to return like so many others before you. Seeking to assuage Mehrahd's fears, you agree to recruit another companion to your cause─the irrepressible G'raha Tia."
+        ],
+        "objectives": [
+            "Speak with Mihleel at Mehryde's Meyhane.",
+            "Speak with Jalheen.",
+            "Speak with Azahma.",
+            "Speak with Estinien.",
+            "Speak with Matsya in Akyaali."
+        ],
+        "dialogue": [
+            {
+                "name": "TATARU",
+                "text": "As the, uh, “former” receptionist and sometimes intelligence gatherer of the Scions, allow me to offer you a word of advice..."
+            },
+            {
+                "name": "TATARU",
+                "text": "Do not expect juicy rumors to simply fall into your lap!"
+            },
+            {
+                "name": "TATARU",
+                "text": "Adventurers rely on gossip, and the best places to pick up information are taverns and markets."
+            },
+            {
+                "name": "TATARU",
+                "text": "At present, you only have a broad destination in mind. When you arrive in Thavnair, I suggest you explore your options at Mehryde's Meyhane─the finest drinking establishment in Radz–at–Han!"
+            },
+            {
+                "name": "TATARU",
+                "text": "Charm the employees, and they'll not only point you in the direction of the local tale-tellers, but also share with you the tricks for loosening their tongues!"
+            },
+            {
+                "name": "TATARU",
+                "text": "Now, I really must be getting back to running my boutique. Enjoy the journey, <span class=\"highlight\">Forename</span>, and may fair fortune find you!"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "There is nothing so perfect in this life as a full glass and an empty schedule. Now, what to order...?"
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Welcome to Mehryde's Meyhane."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Oh, hello, I did not recognize you at first! Are you here alone? Let me find you a table..."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "...Ruins beneath the Bounty?"
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Would you be speaking of the sunken treasure vault? We have one regular─a historian, in fact─who could tell you all about it..."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Ah, there he is! Professor Jalheen! I thought I saw him come in."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Although a somewhat private sort, the professor is quick to befriend those who share his fondness for the meyhane's unique beverages."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Offer him any drink from our selection, and he should happily share everything he knows about the vault you seek...and a few other odd bits besides!"
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Whatever you buy for him is on the house, by the way. If Mehryde found out I took coin from Thavnair's savior, she would have me scrubbing pots for a week."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Keep your purse strings tied, friend! We will cover whatever you purchase for the professor or yourself."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Yes...?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The following event cannot be skipped. You may wish to cancel any pending Duty Finder registrations."
+            },
+            {
+                "name": "Q9",
+                "text": "Begin speaking with Jalheen?"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "And what may I do for you, my Eorzean friend?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "I want to ask you about the sunken vault in the Bounty."
+            },
+            {
+                "name": "A1",
+                "text": "Oh, just a friendly chat. How about a drink?"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "...And where did you hear of such a thing? Eh, I suppose I could tell you about it...except the tale is rather long and my throat is so very dry."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Here we are─one of Mehryde's finest. Enjoy!"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ah, lovely. Bottoms up!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Jalheen empties the cup in a single pull..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Well, I certainly wouldn't say no to a drink freely offered."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "That was very kind of you, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>, but I know when I'm being softened up. What is it that you want from me?"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Oho, chasing down that old tale, are you? It does seem to appeal to the adventurous at heart."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Now, where to begin... Might I assume you've heard of Alzadaal? He was khan of the Auri tribe which sailed to Thavnair from the mainland, and a key figure in the history of Radz–at–Han."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "His decision to aid the Arkasodara is what ultimately won them the war against the Gajasura, thus allowing our predecessors to lay the foundation for this thriving city-state."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "The truly fascinating stories, however, concern his grandson, Alzadaal III, who was known for his deeds as satrap in Radz–at–Han's earlier days."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Some attest that this man traveled to another world entirely, and returned with glittering riches. Others that he brokered an alliance with a certain wyrm of the first brood..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Then there is the tale of the sunken vault─the one you seem most curious about. According to this legend, Alzadaal III claimed a small island somewhere in the middle of the Bounty. There he built a structure reaching clear to the bottom of the sea─a deep and secret storehouse─and locked all his worldly wealth within."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "In the centuries since, whenever a natural disaster or hardship befell Radz–at–Han, folk would remember that tale of hidden treasure. Hearty souls would set out to claim their fortune...but precious few ever made it home."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Would you like to hear more? &lt;cough&gt; Apologies, I have a slight tickle in─ Oh, my cup appears to be empty..."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Mihleel, another round for the professor!"
+            },
+            {
+                "name": "A2",
+                "text": "That wasn't enough?"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ah, I see we've reached an understanding! You're a sharp one, adventurer!"
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Another for the professor!"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ohohoho! Today was a splendid day to visit the meyhane!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Jalheen gulps down his newest drink with gusto..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "I've had but one meager drink, my friend. Surely my learned wisdom is worth a little more than that, yes?"
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "Mihleel, another round for the professor!"
+            },
+            {
+                "name": "A3",
+                "text": "Why don't you tell me something of yourself?"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ah, I see we've reached an understanding! You're a sharp one, adventurer!"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "I am a far less fascinating subject of conversation, you may be assured..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "&lt;sigh&gt; If you must know...these days I style myself a professor of history, but in my younger years I worked as an alchemist at the High Crucible."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "I was blessed with meaningful work, a loving companion, and all was right with the world. Until it wasn't."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ah, but this is too fine <span class=\"alternative-container\"><span class=\"alternative\">an evening</span><span class=\"alternative\">a morning</span><span class=\"alternative\">a day</span></span> for such maudlin talk. Please, let's have another drink and talk about something else."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Where were we...? Ah─hic!─yes. Those who <span class=\"emphasis\">did</span> return from seeking the treasure vault refused─I mean, flatly refused─to speak of what they saw."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Did this discourage others? Nay! Quite the opposite! Such accounts only served to feed the legend, and the golden lure grew stronger than ever before."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "That reminds me of something Azahma was saying─Azahma's a fellow connoisseur of spirituous potables, yes, yes, he is."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Anyway, he was saying that one of <span class=\"emphasis\">his</span> acquaint─hic!─acquaintances went after the treasure himself. Hasn't been seen since he set sail, I hear, but he did have...ah. No, I can say no more."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "You seem a generous sort─what kind of man would I be to encourage what is clearly a foolhardy quest? If my words sent you to your death, I could never live with myself."
+            },
+            {
+                "name": "Q4",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A4",
+                "text": "I am no stranger to peril."
+            },
+            {
+                "name": "A4",
+                "text": "I think I've heard enough."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Is that so? Perhaps it's your turn to tell a tale, then. What manner of dangers have you faced?"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "...The very edge of existence!? From anyone else, I'd struggle to believe it, but I recognize you now. You're the─hic!─hero of the Final Days!"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "A drink... I need another drink to settle my nerves... Mihleel! More of the same, if you please!"
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "As you wish... But this one is on your coin, Professor."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Jalheen drains yet another cup dry..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Is that─hic!─so? Well, I suppose any adventurer worth <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> salt can go and find the place <span class=\"alternative-container\"><span class=\"alternative\">herself</span><span class=\"alternative\">himself</span></span>, eh!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have learned a few hints as to the nature of the undersea vault, but you cannot help but wonder if a longer conversation may have revealed further details..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Anyway, you being who you are...I shuppose it wouldn't hurt to share a little more. Thish friend of Azahma's, he was deshperate to buy a treasure map...one which showed the way to the entranshe of...of the vault. Sheems he could only get it from shome merchant, what'sh-his-name..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Bah, I forget. Let'sh drink a toasht to you, my new besht friend! ...Mihleel! More drinksh!"
+            },
+            {
+                "name": "Q5",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A5",
+                "text": "Say nothing."
+            },
+            {
+                "name": "A5",
+                "text": "Signal for water instead."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Be right with you!"
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Your drink, sir."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ah, marveloush, I am <span class=\"emphasis\">parched</span>!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Jalheen throws back yet another cup..."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "Your drink, sir."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ah, marveloush, I am <span class=\"emphasis\">parched</span>!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Jalheen gulps down the cup of water..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Pffft! That...that was water! Did you tell her to bring me water!?"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Shtill, that'sh...that'sh probably for the besht. Very kind of you, really. My head will shertainly thank you in the morning..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Weren't we talkin' about Azahma..? You─hic─wanna know where Azahma is? Around thish time, he's ordinr...odarin...<span class=\"emphasis\">often</span> at the...at the usual plashe..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have learned some useful information regarding the undersea vault. If Jalheen were more coherent, however, he may have had more details to share..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ugh, I sheem to have overindulged... I am put in mind of the words of Mashter Jalzahn, “Be wary how much of the drink you shwallow, lesht it shwallow you.”"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Forgive me─I will shubject you to no more of these unsheemly─ahem─unseemly antics. If you want to speak with Azahma, well, as I said, we share a taste for the meyhane's fine spirits. He probably came in as we were talking."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "I wish you fortune in...finding your fortune."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You appear to have learned all that Jalheen has to share regarding the undersea vault. To find out more, you will need to locate a man by the name of Azahma."
+            },
+            {
+                "name": "MIHLEEL",
+                "text": "The professor was able to help you, I hope?"
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Ugh, I think...I think I had one too many..."
+            },
+            {
+                "name": "JALHEEN",
+                "text": "Perhaps I should find myself a new pastime..."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "Yes, I am Azahma. And who might you be?"
+            },
+            {
+                "name": "AZAHMA",
+                "text": "...All true, I'm afraid. My friend took a ship out in search of Alzadaal's Legacy, and I've been watching for his sails ever since."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "I tried to dissuade him, of course, but he refused to listen. All he could talk about was finding that vault."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "And that look in his eyes... I knew it wasn't common gold or jewels he lusted after. He was hunting Alzadaal III's “otherworldly” hoard, and his ambition would not be denied."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "I see it in you, too─that appetite for the mysterious and the unknown."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "But I'll not attempt to turn you from your path. I know too well the futility of that endeavor."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "So I will tell you what my friend told me─how he convinced a merchant in the bazaar to give him the rough location of the vault's entrance."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "It seems this merchant─one Zasshal, I believe─is selling a map which shows the exact route, but my friend's purse was too light for its exorbitant price."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "With what meager wealth he had, he instead paid to learn that there are ruins on a small island somewhere in the Bounty. And within those ruins hides the path to the vault deep below."
+            },
+            {
+                "name": "AZAHMA",
+                "text": "If you truly intend on seeking Alzadaal's treasure, I suggest you put your affairs in order. I wish things were different, but I do not believe my friend is ever coming home..."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "You will recall I spoke of visiting Thavnair at Vrtra's request?"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Well, he finally invited me to a feast...and made his proposal once I was too full of Hannish delights to refuse. He wishes me to train the Radiant Host in lancework..."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "...But that is a tale for another time. What we need now is a merchant or a trawler with a ship fit for the open seas."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Matsya is a fisherman by trade, yes? We should head to Akyaali and see if he can help us."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I am hoping to hire a ship, of course, rather than buy one. My funds would not stretch quite <span class=\"emphasis\">that</span> far."
+            },
+            {
+                "name": "MATSYA",
+                "text": "My friends, what brings you to our humble village?"
+            },
+            {
+                "name": "MATSYA",
+                "text": "...So you need a seaworthy vessel to seek these ruins?"
+            },
+            {
+                "name": "MATSYA",
+                "text": "Considering it was your deeds which allowed us to return to fishing, I should think everyone would be glad for a chance to repay the favor!"
+            },
+            {
+                "name": "MATSYA",
+                "text": "Wait here, and I will have a boat stocked and ready for you in no time at all!"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Have you noticed our little shadow? He's been following us since we left the city."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "We see you there, boy. Show yourself."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Ah, it <span class=\"emphasis\">is</span> you..."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Do you know how far out of our way we walked so that you'd not cross paths with some wild beast?"
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)I'm sorry, sir, but aren't you the heroes who saved Thavnair? You are. I know you are..."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)And I've gone and cheated you! I work with Zasshal, you see─the map merchant. It's my job to play the pleading orphan, and convince the crowd his wares are worth the price he asks."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)I'm ashamed of what I've done, and beg for your forgiveness. If not for you, my sister and I would never have... Well, we'd be..."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Enough. I knew your game, and I paid the price willingly. A fortunate purchase as it turns out, for my friend here was seeking those very ruins."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)You are kind to overlook the wrong I have done you..."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)But there is more you need to know."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)The map you bought is very real, as is the island it shows. I overheard Zasshal selling the information to another customer."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)He told that man where he needed to search, about the ruins, about the vault...about everything. Then the man sailed out to find his fortune, never to return."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)You cannot go alone to that place! You should have more friends with you─maybe even a whole army!"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I do not doubt the ruins hold danger, but I assure you, between the two of us there is little we cannot overcome."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)Please! I cannot bear the thought of...of..."
+            },
+            {
+                "name": "Q6",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A6",
+                "text": "We could invite our comrades."
+            },
+            {
+                "name": "A6",
+                "text": "We might need a hand moving the treasure..."
+            },
+            {
+                "name": "A6",
+                "text": "Now you've gone and made him cry."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "...That we could. And assuming we do find this treasure hoard, it may prove wise to have more hands along for the carrying."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "...Assuming we find any. Still, it may prove wise to bring some companions along all the same."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I did not─ That was not my intention."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Oh, very well. Assuming we do find this treasure hoard, it may prove wise to have more hands along for the carrying."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Any ideas on whom to approach? The Scions have scattered far and wide since our last gathering..."
+            },
+            {
+                "name": "Q7",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A7",
+                "text": "Thancred and Urianger."
+            },
+            {
+                "name": "A7",
+                "text": "Alphinaud and Alisaie."
+            },
+            {
+                "name": "A7",
+                "text": "G'raha Tia and Krile."
+            },
+            {
+                "name": "A7",
+                "text": "Y'shtola."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Thancred and Urianger, eh?"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Those two would answer our call, certainly. But they left the Rising Stones with a definite task in mind, and I am loath to interrupt their self-appointed mission."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Little Lord Alphinaud and his sister? Were they not bound for Garlemald? They have far more important matters to attend to than delving for trinkets."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Aye, Krile may have her hands full rebuilding the Students, but if you reach out to G'raha, he would surely leap at the invitation."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Y'shtola...?"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Her magicks would be a welcome addition, aye, but I am loath to interrupt her research. Mayhap we could ask a less...prickly companion."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Will that set your mind at ease?"
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "(-Ragged Waif-)Y-Yes, if that man is as strong as you. ...Is he though? Strong, I mean?"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "What is your name, boy?"
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "Mehrahd, sir."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Well, Mehrahd, your life is yours to live as you will. But I suggest you find a more honest trade if you truly wish to keep your sister safe."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "I'm not proud of what I do!"
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "But what choice do I have? We need to eat, and everyone's too busy rebuilding their own lives to bother with two grubby orphans..."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Wait, boy."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I didn't take this roundabout road just to see you end up in some creature's belly. Let me walk you back to the city gates."
+            },
+            {
+                "name": "MEHRAHD",
+                "text": "Thank you, sir."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Call me Estinien."
+            }
+        ],
+        "reward": {
+            "gil": 1217
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 90,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                70062
+            ]
+        },
+        "next": [
+            70064
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1039570",
+            "obj": {
+                "i": 1039570,
+                "n": "Tataru",
+                "l": 67,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1039578",
+            "obj": {
+                "i": 1039578,
+                "n": "Matsya",
+                "l": 3709,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70062",
+            "obj": {
+                "i": 70062,
+                "n": "Newfound Adventure",
+                "g": 12,
+                "l": "The Rising Stones",
+                "s": 619
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70064",
+            "obj": {
+                "i": 70064,
+                "n": "Friends for the Road",
+                "g": 12,
+                "l": "Thavnair",
+                "s": 621
+            }
+        }
+    ]
+}

@@ -1,0 +1,688 @@
+{
+    "quest": {
+        "name": "Heavensward",
+        "location": "Azys Lla",
+        "id": 67205,
+        "patch": 3.0,
+        "sort": 94,
+        "icon": 100432,
+        "eventIcon": 71201,
+        "issuer": 1012848,
+        "target": 1012857,
+        "involved": [
+            1011192,
+            1011935,
+            1012138,
+            1012180,
+            1012251,
+            1012337,
+            1012383,
+            1012384,
+            1012385,
+            1012850,
+            1012858,
+            1013167,
+            1013604
+        ],
+        "genre": 3,
+        "journal": [
+            "The guidance node has been awaiting your arrival at the Flagship with customary patience.",
+            "According to the guidance node, you are but a few steps away from your destination. However, it would seem that intruders have been detected ahead. Follow the node towards the heart of the isle, and be ready to defend yourself.",
+            "You have eliminated the imperial troops and secured the area. Speak with the guidance node to be granted entry to the Aetherochemical Research Facility.",
+            "Having opened the way to the Aetherochemical Research Facility, the guidance node bids you farewell and deactivates for what might very well be another five millennia. After casting a final glance at Gilly's motionless form, you turn your mind to the challenges of the present. Somewhere within, the archbishop and his knights await. Ready yourself for the worst and continue your pursuit.<br><br>※Challenge the Aetherochemical Research Facility with other players via the Duty Finder, or with a party of NPCs via Duty Support. Both systems are accessible from the main menu as well as the dungeon's entrance point.",
+            "While fighting your way through the Aetherochemical Research Facility, you find yourself face-to-face with Lahabrea and Igeyorhm. In a bid to eliminate you, the Ascians attack as one, but with Hydaelyn's blessing restored, you are more than a match for them.",
+            "Realizing the battle is lost, Igeyorhm attempts to flee, but before she can make good her escape, you destroy her with a blade of Light forged from the Eye's remaining aether. Alas, you are left without the means to strike down Lahabrea. Just when it seems certain that the Ascian will slip through your grasp, the archbishop and his knights arrive, bearing the body of Haldrath...and the Eye's long-lost twin. Having summoned the soul of the legendary King Thordan into himself, the archbishop conjures a divine blade using the power of the second Eye, and summarily executes Lahabrea. Judgment passed, the self-proclaimed god-king duly turns to leave, but not before issuing you a challenge. Answer it, and put an end to his madness once and for all.<br><br>※The Singularity Reactor can be accessed via the Duty Finder.",
+            "At the end of a titanic struggle, you triumph over Thordan and his knights, bringing to an end their deranged dream of founding a new world order.",
+            "Still breathless from your exertions, you look up to see Estinien, who sullenly collects the Eye and its twin. Alas, in so doing, the dragoon falls prey to Nidhogg's lingering influence and is claimed as a vessel for the great wyrm's rage. No sooner has he departed than the facility begins to collapse around you, prompting Midgardsormr to appear once again, and bear you away to safety.<br><br>Still reeling from what you have seen, you rejoin your comrades aboard the <span class=\"emphasis\">Excelsior</span>, and are borne back to Ishgard and a hero's welcome. At the airship landing, Midgardsormr addresses Aymeric, and the two speak candidly of the future, their meeting marking the start of the journey towards peace between man and dragon.<br><br>Some days later, the Holy See makes its long-awaited return to the Eorzean Alliance in an uplifting ceremony attended by the leaders of all four city–states. A fitting reward for your efforts, no doubt, but one that you wish Haurchefant, Ysayle, and Estinien could have seen... Speak with Alphinaud at Fortemps Manor and hear his thoughts on this momentous occasion.",
+            "Alphinaud is elated that his dream of a unified Eorzea has finally been realized. Though upheaval will invariably accompany the coming changes, he is confident that, with effort, peace and prosperity will follow. Together with your fellow Scions, do your part to see that it is so."
+        ],
+        "objectives": [
+            "Speak with the guidance node and defeat any enemies that appear.",
+            "Speak with the guidance node.",
+            "Enter the Aetherochemical Research Facility.",
+            "Confront Thordan VII in the Singularity Reactor.",
+            "Speak with Alphinaud at Fortemps Manor."
+        ],
+        "dialogue": [
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "&lt;blip&gt; Welcome to the Flagship, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Forename</span>. You are almost at your destination."
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "&lt;blip&gt; &lt;bloop&gt; WARNING! Intruders detected in the vicinity. Please eliminate them if you wish to proceed."
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "&lt;blip&gt; &lt;bloop&gt; WARNING! Intruders approaching."
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "&lt;blip&gt; Area secured. Lifting access restriction to the Aetherochemical Research Facility..."
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "Restriction lifted. You may enter the facility at your leisure. Ending guidance."
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "&lt;blip&gt; Unknown energy source detected within the Aetherochemical Research Facility. Please exercise caution."
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "I am pleased to have been of service to you, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Forename</span>. Please send my regards to Master Wedge."
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "Deactivating... &lt;bloop&gt;"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The guidance node has ceased to function."
+            },
+            {
+                "name": "EVENTAREA",
+                "text": "Proceed to Central Azys Lla?"
+            },
+            {
+                "name": "EVENTAREA",
+                "text": "Yes"
+            },
+            {
+                "name": "EVENTAREA",
+                "text": "No"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "After long years of estrangement, Ishgard rejoins her sister nations in the Alliance. Words cannot well express my joy."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "None of this would have been possible without you, my friend."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Change is coming to Eorzea. Though it will inevitably bring with it a measure of upheaval, with hard work, peace and prosperity are sure to follow."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "And yet, even as we look forward to the coming of a new age, we must needs be wary of old threats."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The lords of Garlemald have not relinquished their claim upon Eorzea, and we shall be forced to contend with them again ere long. And then there is the matter of our comrade Estinien, claimed body and soul by Nidhogg... If there is a way to rescue him, we must find it."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Suffice it to say, the path ahead holds no shortage of challenges, but together, we shall overcome them."
+            },
+            {
+                "name": "TATARUL",
+                "text": "If the Eorzean Alliance can be restored to its former glory, so can the Scions of the Seventh Dawn! Let's find our lost friends and begin anew!"
+            },
+            {
+                "name": "BUTLER01580",
+                "text": "When first I bade you welcome before the Arc of the Worthy, little did I imagine that you would go on to steer the very course of our nation. I am proud to have borne witness to history in the making."
+            },
+            {
+                "name": "LUCIA",
+                "text": "You are a true hero, my friend. The minstrels shall sing of your deeds for generations to come."
+            },
+            {
+                "name": "LUCIA",
+                "text": "The road to reform will be long and trying, but Ser Aymeric will not rest until he reaches its end. And I shall walk with him every step of the way."
+            },
+            {
+                "name": "HILDA",
+                "text": "You know, seein' you flyin' in on dragonback helped put things in perspective. I mean, if man and dragon can put aside their differences, how hard can it be for the rest of us?"
+            },
+            {
+                "name": "HILDA",
+                "text": "To be sure, our lives won't change overnight, and it'll take effort to bridge the gulf between highborn and lowborn, but I'm confident it'll all work out in the end."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "Ishgard's return to the Eorzean Alliance has breathed new life into the Jeweled Crozier. The announcement had scarce been made when the merchants began eyeing opportunities in foreign markets."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Shame Mistress Tataru had to move on. We've grown rather accustomed to having her around."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I confess, I found the ceremony unexpectedly stirring... Each of us must play our part in building a brighter future for Ishgard─we who profess to rule most of all."
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "There you are, old <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>! We must go to the tavern together, and soon! My friends all demand to be introduced to the Warrior of Light, and they refuse to take no for an answer!"
+            },
+            {
+                "name": "HONOROIT",
+                "text": "Pray pay no heed to Lord Emmanellain, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. I am certain you have far more pressing demands on your time. And for his part, my lord has <span class=\"emphasis\">lessons</span> to attend..."
+            },
+            {
+                "name": "HONOROIT",
+                "text": "He has resumed training in the blade, you see, and has shown admirable dedication...for the most part. I believe he has a mind to take up Lord Haurchefant's mantle─but if he is to succeed in this, he will need all the help he can get, and as few <span class=\"emphasis\">distractions</span> as possible."
+            },
+            {
+                "name": "VIDOFNIR",
+                "text": "Thou art welcome here, friend of Ysayle. I have heard all that hath come to pass."
+            },
+            {
+                "name": "VIDOFNIR",
+                "text": "Ysayle was as a brood-sister to me, and her death no less tragic for man's fleeting life. I shall miss her..."
+            },
+            {
+                "name": "MATOYA",
+                "text": "I don't care much for politics. Too much talk and not enough action."
+            },
+            {
+                "name": "MATOYA",
+                "text": "If I were you, I'd forget about all that racket and have some time to myself. Even you must see you've earned it."
+            },
+            {
+                "name": "EDMONT",
+                "text": "During the ceremony, I felt Haurchefant's presence. He was watching us from on high, with pride in his eyes and that customary smile on his lips..."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Allow me to thank you, <span class=\"highlight\">Forename</span>─not as the lord commander of the Temple Knights, but as a humble citizen of Ishgard."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Though you came to us an outsider, you risked all to bring us this chance for change. And we will not squander it, I swear to you. We will rise above the ashes of our dark past and rebuild our nation upon a foundation of truth and equality."
+            },
+            {
+                "name": "LUCIA",
+                "text": "You are a true hero, my friend. The minstrels shall sing of your deeds for generations to come."
+            },
+            {
+                "name": "HILDA",
+                "text": "Seein' you flyin' in on dragonback helped put things in perspective. If man and dragon can be friends, how hard can it be for us to get along with each other?"
+            },
+            {
+                "name": "HILDA",
+                "text": "To be sure, it'll take time and effort to bridge the gulf between highborn and lowborn, but I'm confident it'll all work out in the end."
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "You are the talk of the Holy See, my friend! And by association, I like to think that I am too!"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Though Haurchefant is gone, his spirit lives on within us all."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "For my part, I shall strive to be a knight worthy of the name. Pray watch over me, brother!"
+            }
+        ],
+        "reward": {
+            "gil": 10000,
+            "xp": 16740,
+            "instance": 20035
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67204
+            ]
+        },
+        "next": [
+            67626,
+            67648,
+            67649,
+            67650,
+            67651,
+            67652,
+            67654,
+            67688,
+            67692,
+            67737,
+            67738,
+            67739,
+            67740,
+            67747,
+            67752,
+            67762,
+            67784,
+            67818,
+            67922,
+            67938
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012848",
+            "obj": {
+                "i": 1012848,
+                "n": "Guidance Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012857",
+            "obj": {
+                "i": 1012857,
+                "n": "Alphinaud",
+                "l": 2320,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011192",
+            "obj": {
+                "i": 1011192,
+                "n": "Gibrillont",
+                "l": 2300,
+                "q": 10,
+                "t": "Forgotten Knight Proprietor"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011935",
+            "obj": {
+                "i": 1011935,
+                "n": "Vidofnir",
+                "l": 2000,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012138",
+            "obj": {
+                "i": 1012138,
+                "n": "Matoya",
+                "l": 2036,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012180",
+            "obj": {
+                "i": 1012180,
+                "n": "Elaisse",
+                "l": 2301,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012251",
+            "obj": {
+                "i": 1012251,
+                "n": "Hilda",
+                "l": 2300,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012337",
+            "obj": {
+                "i": 1012337,
+                "n": "House Fortemps Manservant",
+                "l": 2320,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012383",
+            "obj": {
+                "i": 1012383,
+                "n": "Artoirel",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012384",
+            "obj": {
+                "i": 1012384,
+                "n": "Emmanellain",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012385",
+            "obj": {
+                "i": 1012385,
+                "n": "Honoroit",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012850",
+            "obj": {
+                "i": 1012850,
+                "n": "Guidance Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012858",
+            "obj": {
+                "i": 1012858,
+                "n": "Tataru",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013167",
+            "obj": {
+                "i": 1013167,
+                "n": "Lucia",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013604",
+            "obj": {
+                "i": 1013604,
+                "n": "Guidance Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "instance",
+            "id": "38",
+            "obj": {
+                "i": 38,
+                "n": "The Aetherochemical Research Facility",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 60,
+                "max_lvl": 60,
+                "min_ilvl": 142,
+                "max_ilvl": 180
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20035",
+            "obj": {
+                "i": 20035,
+                "n": "The Singularity Reactor",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 60,
+                "max_lvl": 60,
+                "min_ilvl": 142
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67204",
+            "obj": {
+                "i": 67204,
+                "n": "Fetters of Lament",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 93
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67626",
+            "obj": {
+                "i": 67626,
+                "n": "Disarmed",
+                "g": 16,
+                "l": "Idyllshire",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67648",
+            "obj": {
+                "i": 67648,
+                "n": "Reap What You Sow",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 16001,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67649",
+            "obj": {
+                "i": 67649,
+                "n": "Do It for Gilly",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 16002,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67650",
+            "obj": {
+                "i": 67650,
+                "n": "Gods of Eld",
+                "g": 17,
+                "l": "Ishgard",
+                "s": 16001,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67651",
+            "obj": {
+                "i": 67651,
+                "n": "The Diabolical Bismarck",
+                "g": 17,
+                "l": "The Rising Stones",
+                "s": 16101,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67652",
+            "obj": {
+                "i": 67652,
+                "n": "Thok Around the Clock",
+                "g": 17,
+                "l": "The Rising Stones",
+                "s": 16102,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67654",
+            "obj": {
+                "i": 67654,
+                "n": "A Striking Opportunity",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 6000,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67688",
+            "obj": {
+                "i": 67688,
+                "n": "Contradicting Convictions",
+                "g": 78,
+                "l": "Ishgard",
+                "s": 10
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67692",
+            "obj": {
+                "i": 67692,
+                "n": "An Uncertain Future",
+                "g": 4,
+                "l": "Fortemps Manor",
+                "s": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67737",
+            "obj": {
+                "i": 67737,
+                "n": "Things Are Getting Sirius",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 600,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67738",
+            "obj": {
+                "i": 67738,
+                "n": "An Overgrown Ambition",
+                "g": 99,
+                "l": "The Dravanian Hinterlands",
+                "s": 6010,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67739",
+            "obj": {
+                "i": 67739,
+                "n": "Thordan's Reign",
+                "g": 95,
+                "l": "Mor Dhona",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67740",
+            "obj": {
+                "i": 67740,
+                "n": "Sky Pirates",
+                "g": 18,
+                "l": "Ishgard",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67747",
+            "obj": {
+                "i": 67747,
+                "n": "An Unexpected Proposal",
+                "g": 74,
+                "l": "Idyllshire",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67752",
+            "obj": {
+                "i": 67752,
+                "n": "The New Frontier",
+                "g": 0,
+                "l": "???",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67762",
+            "obj": {
+                "i": 67762,
+                "n": "A Gentleman Falls, Rather than Flies",
+                "g": 69,
+                "l": "Ishgard",
+                "s": 30,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67784",
+            "obj": {
+                "i": 67784,
+                "n": "Storming the Hull",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 610,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67818",
+            "obj": {
+                "i": 67818,
+                "n": "One More Night in Amdapor",
+                "g": 92,
+                "l": "Gridania",
+                "s": 500,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67922",
+            "obj": {
+                "i": 67922,
+                "n": "Let Me Gubal That for You",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 6050,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67938",
+            "obj": {
+                "i": 67938,
+                "n": "The Fires of Sohm Al",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 6200,
+                "f": 1
+            }
+        }
+    ]
+}

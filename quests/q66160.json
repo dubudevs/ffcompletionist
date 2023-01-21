@@ -1,0 +1,134 @@
+{
+    "quest": {
+        "name": "A Dying Wish",
+        "location": "Eastern Thanalan",
+        "id": 66160,
+        "patch": 2.0,
+        "sort": 170,
+        "eventIcon": 71221,
+        "issuer": 1003931,
+        "target": 1003931,
+        "involved": [
+            1004575
+        ],
+        "genre": 93,
+        "journal": [
+            "Tutusi of Camp Drybone needs someone to fetch some myotragus sirloins.",
+            "Tutusi and Zozoru wish to give a grievously wounded man a feast of myotragus steaks for what may prove to be his last meal. Slay myotragus nannies and obtain the sirloins needed to fulfill their wish.",
+            "You have obtained five myotragus sirloins. Deliver them to Sister Zozoru at the inn in Camp Drybone.",
+            "Regretfully, the man who wished for the steak feast succumbed to his wounds. Report back to Tutusi with the bad news.",
+            "Tutusi urges you not to let the unfulfilled wish of the dying man bother you. There is always work to be done in the business of death, and the merchants of Camp Drybone do not allow themselves the luxury of grief."
+        ],
+        "objectives": [
+            "Obtain sirloins from myotragus nannies.",
+            "Deliver the myotragus sirloins to Sister Zozoru.",
+            "Report to Tutusi."
+        ],
+        "dialogue": [
+            {
+                "name": "TUTUSI",
+                "text": "Are you come to grieve, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>? Have you lost someone dear?<br>...Ah, I see, simply another fair adventurer come to our outpost."
+            },
+            {
+                "name": "TUTUSI",
+                "text": "Well, in that case, I've an adventure for you. What say you make for the plains to the east and carve me up five cuts of sirloin from some myotragus nannies?"
+            },
+            {
+                "name": "TUTUSI",
+                "text": "We're tending a wounded man at the inn who is close to death. We would like nothing more than to give him a feast of nice, juicy myotragus sirloins for what might well be his last meal."
+            },
+            {
+                "name": "TUTUSI",
+                "text": "Once you have the sirloins, take them directly to Sister Zozoru at the inn."
+            },
+            {
+                "name": "ZOZORU",
+                "text": "Please, lower your voice. What business brings you?"
+            },
+            {
+                "name": "ZOZORU",
+                "text": "Myotragus sirloins? I take it Tutusi has sent you. Thank you for your efforts, my friend..."
+            },
+            {
+                "name": "ZOZORU",
+                "text": "...But I fear you are too late. The man for whom these steaks were meant succumbed to his wounds just moments ago."
+            },
+            {
+                "name": "ZOZORU",
+                "text": "Pray do not despair. He feasts with Thal now. And Thal has seen the good in you this day."
+            },
+            {
+                "name": "TUTUSI",
+                "text": "Dead, is he? &lt;sigh&gt; You did a good thing, friend. No use fretting over the order in which things pass. What matters is that they do pass─and nothing that passes goes unseen by the gods."
+            },
+            {
+                "name": "TUTUSI",
+                "text": "There is a graveyard just near Drybone. A lot of folk bring their dead and dying this far. Many just dump them here to spare themselves the trouble and cost of a burial."
+            },
+            {
+                "name": "TUTUSI",
+                "text": "This poor soul, at least, had family that rushed to his side. Count him lucky for that. 'Twas just his time to heed Thal's call. Best to let it go and move on. There's business what needs doing. Plots, graves, embalming, tombstones. Nothing in life is free─not even death."
+            }
+        ],
+        "reward": {
+            "gil": 257,
+            "xp": 3640
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 17,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66166,
+            66173
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003931",
+            "obj": {
+                "i": 1003931,
+                "n": "Tutusi",
+                "l": 44,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004575",
+            "obj": {
+                "i": 1004575,
+                "n": "Zozoru",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66166",
+            "obj": {
+                "i": 66166,
+                "n": "The Circle of Life",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 170
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66173",
+            "obj": {
+                "i": 66173,
+                "n": "Green Thumb",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 170
+            }
+        }
+    ]
+}

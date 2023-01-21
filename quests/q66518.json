@@ -1,0 +1,132 @@
+{
+    "quest": {
+        "name": "Monumental Hopes",
+        "location": "Coerthas Central Highlands",
+        "id": 66518,
+        "patch": 2.0,
+        "sort": 231,
+        "eventIcon": 71201,
+        "issuer": 1006520,
+        "target": 1006520,
+        "involved": [
+            1006521
+        ],
+        "genre": 1,
+        "journal": [
+            "Wedge is gravely concerned for his missing companion.",
+            "Wedge has implored you to search for Biggs, who is still alone in the cold with the enemy on his trail. Perhaps one of the Ishgardians stationed at Monument Tower has seen something. Begin by asking Abelie.",
+            "While Abelie has not seen Biggs, she suggests that he might have taken refuge within the Fury's Gaze, south of Monument Tower. For want of a better lead, make your way there and investigate.",
+            "Your search of the Fury's Gaze yields nothing but a confrontation with vengeful ghosts. Report back to Wedge, who awaits you in Monument Tower.",
+            "Wedge sinks in disappointment upon hearing your report, but the Lalafell is no less determined to find his companion."
+        ],
+        "objectives": [
+            "Speak with Abelie.",
+            "Go to the Fury's Gaze and investigate.",
+            "Report to Wedge."
+        ],
+        "dialogue": [
+            {
+                "name": "WEDGE",
+                "text": "I'm fine now, thanks to you, but I can't bear to think that Biggs is still all alone in the cold, with Garleans on his heels."
+            },
+            {
+                "name": "WEDGE",
+                "text": "He lured the enemy away for my sake, and now he's suffering for it. I hate to have to rely on you again, <span class=\"highlight\">Forename</span>, but do you think you could search for Biggs?"
+            },
+            {
+                "name": "WEDGE",
+                "text": "I haven't the slightest notion where he might be at the moment, but maybe─just maybe─the people here have seen something."
+            },
+            {
+                "name": "ABELIE",
+                "text": "A Roegadyn gentleman dressed in the same manner as your companion? I'm sorry, but he did not come by here. Hmmm, let me think a moment..."
+            },
+            {
+                "name": "ABELIE",
+                "text": "I would not raise your hopes unduly, but there is a cave situated a short distance to the south. We call it the Fury's Gaze, and it may be worth the while to investigate."
+            },
+            {
+                "name": "ABELIE",
+                "text": "I make this suggestion only because your friend seems like a selfless sort. Rather than drawing the enemy to this tower, mayhap he elected to pass us by."
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: Examine spot at the Fury's Gaze, ghosts pop."
+            },
+            {
+                "name": "WEDGE",
+                "text": "<span class=\"highlight\">Forename</span>! Were you able to learn anything!?"
+            },
+            {
+                "name": "WEDGE",
+                "text": "...Not in this area? Well, that stands to reason, I suppose, seeing as he was trying to lure the Garleans <span class=\"emphasis\">away</span> from me. But where within this vast sea of snow and ice could he be?"
+            },
+            {
+                "name": "POP",
+                "text": "You feel a chill run down your spine!"
+            }
+        ],
+        "reward": {
+            "gil": 1646,
+            "xp": 24380
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66517
+            ]
+        },
+        "next": [
+            66519
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006520",
+            "obj": {
+                "i": 1006520,
+                "n": "Wedge",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006521",
+            "obj": {
+                "i": 1006521,
+                "n": "Abelie",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66517",
+            "obj": {
+                "i": 66517,
+                "n": "Footprints in the Snow",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 230
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66519",
+            "obj": {
+                "i": 66519,
+                "n": "Notorious Biggs",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 232
+            }
+        }
+    ]
+}

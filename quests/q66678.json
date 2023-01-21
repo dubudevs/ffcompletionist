@@ -1,0 +1,166 @@
+{
+    "quest": {
+        "name": "Keep Your Day Job",
+        "location": "Western La Noscea",
+        "id": 66678,
+        "patch": 2.0,
+        "sort": 150,
+        "eventIcon": 71221,
+        "issuer": 1003359,
+        "target": 1003359,
+        "genre": 91,
+        "journal": [
+            "Private S'nairoh needs your help in the defense of Aleport.",
+            "There is a first time for everything, and alas for S'nairoh, her first taste of war comes when she has naught but a passing adventurer to serve as her shield. You are charged with slaying five puk hatchlings while she arms the cannon.",
+            "The hapless puks lie vanquished upon the ground, dead only hours after leaving the nest. It seems there are novices on either side of the ramparts today, for you found the victory all too easy. Report to S'nairoh.",
+            "The critters prove not to have been a threat to Aleport. Spilling innocent blood─albeit beastly blood─is becoming something of an occupational hazard for you."
+        ],
+        "objectives": [
+            "Slay puk hatchlings.",
+            "Report to Private S'nairoh."
+        ],
+        "dialogue": [
+            {
+                "name": "SNAIROH",
+                "text": "Hark, enemy in the sky! P-Pull yourself together, private! Y-You've been trained for this─even if the only action you've ever seen has been street fights, tavern brawls, and fisticuffs over who cheated at checkers..."
+            },
+            {
+                "name": "SNAIROH",
+                "text": "First things first, I must ready the cannon. Now, to walk myself through the steps. Um...right! “Make certain you are with succor, for arming a cannon is no swift matter.”"
+            },
+            {
+                "name": "SNAIROH",
+                "text": "So far, so good! I'll just get C'mell and...C'mell? That girl! Always nowhere to be found when she's needed. Fine, Sarge always said to improvise!"
+            },
+            {
+                "name": "SNAIROH",
+                "text": "You over there! Adventurer, Limsa Lominsa has need of your service! Slow down the enemy while I arm the cannon. I'll be ready ere the fifth carcass is cold, I promise you!"
+            },
+            {
+                "name": "SNAIROH",
+                "text": "Ready to fire! I keep my promises, adventurer─and <span class=\"emphasis\">you</span> keep your skills well honed, I see! A moment, I just received a dispatch..."
+            },
+            {
+                "name": "SNAIROH",
+                "text": "What? They <span class=\"emphasis\">weren't</span> attacking Aleport? Well, that's...! What, we're not important enough?<br>They were just babies? Well, you'd have to be duller than a box of hair to fly at a cannon position, times being what they are!"
+            },
+            {
+                "name": "SNAIROH",
+                "text": "I suppose all's well that ends well. But...I must admit I was looking forward to putting my training to <span class=\"emphasis\">real</span> use. I didn't join the Maelstrom to break up brawls, you know. And now I shall have to clean the cannon. &lt;sigh&gt;"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2673,
+                    "one": 1
+                },
+                {
+                    "id": 2669,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 3360
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "questsType": "any",
+            "quests": [
+                66210,
+                66209
+            ]
+        },
+        "next": [
+            66679
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003359",
+            "obj": {
+                "i": 1003359,
+                "n": "S'nairoh",
+                "l": 33,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "2673",
+            "obj": {
+                "i": 2673,
+                "n": "Bronze Celata",
+                "l": 15,
+                "c": 40001,
+                "t": 34,
+                "p": 661
+            }
+        },
+        {
+            "type": "item",
+            "id": "2669",
+            "obj": {
+                "i": 2669,
+                "n": "Hard Leather Eyepatch",
+                "l": 14,
+                "c": 40891,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66210",
+            "obj": {
+                "i": 66210,
+                "n": "Call of the Sea",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 90
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66209",
+            "obj": {
+                "i": 66209,
+                "n": "Call of the Sea",
+                "g": 1,
+                "l": "Gridania",
+                "s": 89
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66679",
+            "obj": {
+                "i": 66679,
+                "n": "Mountains out of Molehills",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 150
+            }
+        }
+    ]
+}

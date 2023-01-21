@@ -1,0 +1,957 @@
+{
+    "quest": {
+        "name": "The Far Edge of Fate",
+        "location": "Gridania",
+        "id": 67895,
+        "patch": 3.56,
+        "sort": 19,
+        "icon": 100618,
+        "eventIcon": 71201,
+        "issuer": 1018048,
+        "target": 1018331,
+        "involved": [
+            1000460,
+            1003027,
+            1012813,
+            1013178,
+            1013179,
+            1018017,
+            1018046,
+            1018054,
+            1018055,
+            1018056,
+            1018323,
+            1018324,
+            1018325,
+            1018326,
+            1018327,
+            1018328,
+            1018329,
+            1018330,
+            1018332,
+            1018430
+        ],
+        "genre": 5,
+        "journal": [
+            "Alphinaud has the look of a man with much to say.",
+            "Alphinaud informs you that the Alliance council will shortly be convening again and urges you to make haste to the Lotus Stand. Announce yourself to the silent conjurer, then approach the Elder Seedseer.",
+            "Having thanked you for your efforts in Carteneau, the gathered heads of state proceed to explain the events following Omega's launch. After what was by all accounts a furious aerial battle, both it and the primal appear to have crashed down in Gyr Abania, and the Alliance now intends to exploit the resulting confusion by moving to secure Baelsar's Wall. Ask Alphinaud for his thoughts on these developments, and discuss your next step.",
+            "Though mindful of your recent exertions, Alphinaud suggests that you rendezvous with your fellow Scions in the East Shroud. Look for Y'shtola at Amarissaix's Spire.",
+            "You meet Krile and Y'shtola at the foot of the tower, and they relate their own account of the titanic battle in the skies over Gyr Abania. Terrifying though the spectacle must have been, a part of you cannot help wishing you had been present to see it... But even as you picture the scene, Alphinaud's inquiry about Yda's well-being draws you back to the present, and you proceed to the observation platform to find the grieving pugilist staring at the spot where the cocoon of light once hung. Yda turns at your arrival, and after appearing to come to a decision, shares the tale of her great deception, revealing at last that she is not Yda at all, but the fallen Archon's younger sister, Lyse. With her pledge to liberate Ala Mhigo still echoing in your mind, you prepare to follow Alphinaud back to the Rising Stones and the waiting Alisaie.",
+            "Upon your return, you learn that Alisaie has already been apprised of Lyse's startling secret, yet it is not this but the future which occupies her thoughts. Conscious that the Scions will inevitably be drawn into the brewing conflict in Gyr Abania, she bids you gather your strength for the coming storm...<br><br>※The next main scenario quest will be available from Alphinaud once you have met the following requirements:<br>※ FINAL FANTASY XIV: Stormblood must be registered to your service account.<br>※ You must have completed the main scenario quest “The Far Edge of Fate.”"
+        ],
+        "objectives": [
+            "Speak with Kan–E–Senna at the Lotus Stand.",
+            "Speak with Alphinaud.",
+            "Speak with Y'shtola at Amarissaix's Spire.",
+            "Speak with Alisaie at the Rising Stones."
+        ],
+        "dialogue": [
+            {
+                "name": "ALISAIE",
+                "text": "I am always glad to see you, <span class=\"highlight\">Forename</span>, but wasn't your presence required in Gridania?"
+            },
+            {
+                "name": "TATARU",
+                "text": "<span class=\"highlight\">Forename</span>! You're back! I <span class=\"emphasis\">knew</span> those blood pearl charms were worth the effort! Maybe I should make some more!?"
+            },
+            {
+                "name": "YUGIRI",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GOSETSU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "NERO",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "YDA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "CID",
+                "text": "Alphinaud looks like he has news for us. I almost dread to ask..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Words can ill express how glad I am to see you all unharmed. When Omega came hurtling towards the cocoon, everything dissolved into chaos..."
+            },
+            {
+                "name": "YDA",
+                "text": "I have to see it... I have to see it with my own eyes!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Yda, wait! We must first─<br>&lt;sigh&gt; The Elder Seedseer is expecting us..."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Worry not, Alphinaud─Gosetsu and I will watch over her. You may safely attend your meeting."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "My thanks, Yugiri."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The council reconvened a short while ago. Let us make haste for the Lotus Stand. All there are eager to hear your testimony."
+            },
+            {
+                "name": "SILENTCONJURER",
+                "text": "The Elder Seedseer awaits you within."
+            },
+            {
+                "name": "Q1",
+                "text": "Proceed to the Lotus Stand?"
+            },
+            {
+                "name": "A1",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "A1",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "'Twould seem Garlond's little friend was as good as his word."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Had I not instructed you to throw Nidhogg's accursed eyes into the abyss, all of this might have been avoided. I thought them beyond reach..."
+            },
+            {
+                "name": "MERLWYB",
+                "text": "Another Calamity averted, eh? How many times now have you and yours hauled us back from the brink?"
+            },
+            {
+                "name": "KANESENNA",
+                "text": "My friends, full eagerly have we awaited your return. Few indeed could have discharged the duty entrusted to you, and most humbly do we thank you for seeing it done."
+            },
+            {
+                "name": "CID",
+                "text": "You are too kind, Elder Seedseer. As I recall, we as good as demanded the right to try. But tell me: how did the battle unfold?"
+            },
+            {
+                "name": "CID",
+                "text": "We succeeded in waking Omega, aye, but we lost contact with the weapon shortly after it launched. From our position in the control room, we were blind to all that followed..."
+            },
+            {
+                "name": "MERLWYB",
+                "text": "...What words could do justice to such a scene? None of my choosing, that much is certain. But I can give you the facts: the cocoon hatched even as Omega arrived, and from its midst rose a great dragon. The pair duly set about each other in the skies over Gyr Abania."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "The primal's might defied belief─it seemed the very heavens would be rent asunder by the force of its blows. And it wielded such magicks as I have never seen...and hope never to see again."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "The battle raged on with no end in sight, until both combatants were engulfed in a blinding flash of light. When the radiance faded, I saw the pair fall motionless from the sky, coming to rest somewhere on Ala Mhigan soil. I will not speak for the rest, but to my eye it seemed that each had landed a fatal blow upon the other..."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "While most among us could think only of Bahamut when looking upon the primal's form, the Domans were heard to whisper the name “Shinryu.” It would appear that the being resembles a creature of Far Eastern legend, and we have found it convenient to refer to it as such."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "This Shinryu's fate─and indeed, that of Omega─is yet unknown. We have, alas, no eyes on the Gyr Abanian side of the border."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Aye. Which is why we have sent our main force, under the command of Marshal Tarupin, to capture the Wall."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "With the imperials in disarray, we have the perfect opportunity to secure Gridania's border, and assess the aftermath of the impact. I myself will join the marshal and his men when the council is adjourned."
+            },
+            {
+                "name": "CID",
+                "text": "Well, that explains a few things. I'll wager that “flash of light” coincided with our loss of contact..."
+            },
+            {
+                "name": "CID",
+                "text": "Lest you wonder, we quickly reengaged Omega's stasis systems, so even if it <span class=\"emphasis\">has</span> fallen into the Empire's lap, it will be of no use to them─save perhaps as a statue."
+            },
+            {
+                "name": "NERO",
+                "text": "Correct. Without <span class=\"emphasis\">me</span> to guide their efforts, it would take them decades to decipher Omega's core functions, if they managed it at all."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "Such reassurances do much to calm our fears─yet the relic's fate is but one of several concerns."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Indeed. I humbly submit that the time has come for us to make contact with the Resistance representatives in Gyr Abania. Though Ilberd has forced our hand, it would seem only logical to seek an alliance, given the inevitability of imperial retaliation. And by working in concert, it is not impossible that Ala Mhigo might finally be wrested from Garlemald's grasp."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "I go to oversee operations at Baelsar's Wall. You have done your part─leave us to handle the initial imperial reprisal and rest while you may."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "This operation to take the Wall will be Ishgard's first military action under Alliance banners. Though I have no appetite for bloodshed, a part of me is glad of the chance to begin reparations for our past inaction."
+            },
+            {
+                "name": "MERLWYB",
+                "text": "When the primal emerged, I was for an instant transported back to Carteneau...to the moment the black wyrm made an eighth hell of the battlefield. Gladly would I live out the rest of my days without seeing such a sight again."
+            },
+            {
+                "name": "CID",
+                "text": "If, as seems likely, we put Omega into stasis after─what did they call it? Ah, yes─after “Shinryu” was defeated, we should have little to fear from either one of them."
+            },
+            {
+                "name": "NERO",
+                "text": "I should very much like to see this “Shinryu” creature for myself."
+            },
+            {
+                "name": "Q2",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "A2",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "A2",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "KANESENNA",
+                "text": "Pray accept my humblest and most earnest thanks once again, Warrior of Light. Had Shinryu been suffered to roam free, the Twelveswood would surely have been laid waste."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You must be exhausted. I would ordinarily suggest that we retire directly to the Rising Stones...but I wonder if we might first make a small detour?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Y'shtola and the others have gathered at Amarissaix's Spire, and I imagine that you, too, would be interested to see what has become of the Wall now the cocoon is gone."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "It is decided then. Lead on."
+            },
+            {
+                "name": "GOSETSU",
+                "text": "Only the curs of Garlemald would sully such beauty with that black iron monstrosity. Those animals respect nothing and no one!"
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Yda is there, atop the spire. She has done naught but gaze silently at the Wall for some time now..."
+            },
+            {
+                "name": "YDA",
+                "text": "......"
+            },
+            {
+                "name": "KRILE",
+                "text": "Oh, thank the Twelve. After witnessing Omega's single-minded onslaught, I had visions of you being trapped between it and its target. Hardly the most rational concern, I concede, but if you had seen what I saw..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "No trace of the cocoon remains. 'Tis as if it never existed."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "It was brave of Lyse to remove her mask after so long..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Though she has scarce begun to come to terms with Papalymo's loss, that one act made plain her determination to move forward."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "And should she ever falter, we shall be there to support her on this road she has resolved to walk."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Let us return to the Rising Stones. We have quite a story to tell Tataru and my sister..."
+            },
+            {
+                "name": "LYSE",
+                "text": "I'm going to stay here until the Alliance calls on us. That way, I'll be close by if anything happens."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I will stay with her a while longer..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You should have <span class=\"emphasis\">seen</span> the look on Tataru's face when I recounted Lyse's─ Ah. I realize in retrospect that I should perhaps have waited for you to return... I, uh...also told Alisaie. Apologies."
+            },
+            {
+                "name": "TATARU",
+                "text": "Did you know about Yd─I mean, “Lyse”? I had no idea! We only met after the Calamity, and her sister must already have been... Well, you know."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "He may have mentioned, but Alphinaud has apprised me of all that came to pass in Gridania. Your only task now is to rest. This is the calm before the storm."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Lyse has chosen her path, and as her friends, we must do what we can to support that choice. We are fated to join the conflict in any case. Once the Alliance has taken the Wall and opened the way to Gyr Abania, we will have little choice but to fight."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Which is not to say the cause is unworthy. After all, ignoring the plight of those whom one might conceivably save is not wisdom but <span class=\"emphasis\">indolence</span>, correct? I for one look forward to joining hands with the Ala Mhigans, and striking a blow against the tyranny of the Empire─as, I rather suspect, do you!"
+            },
+            {
+                "name": "PIPIN",
+                "text": "Quick march! The imperials will soon come to their senses, and we must be ready to face their retribution!"
+            },
+            {
+                "name": "PIPIN",
+                "text": "It is almost time, Father."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Aye, almost. Stand firm, Pipin."
+            },
+            {
+                "name": "PIPIN",
+                "text": "I learned to brace myself against the charge of the Bull of Ala Mhigo. No foe will dislodge me!"
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Very well, Ilberd...<br>I will take our homeland back..."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "...for the both of us."
+            },
+            {
+                "name": "IMPERIALOFFICER",
+                "text": "My lord Viceroy─our scouts have confirmed the preliminary reports. Baelsar's Wall has fallen to the Eorzean Alliance."
+            },
+            {
+                "name": "IMPERIALOFFICER",
+                "text": "The hunt for Omega and the unknown eikon continues, though both yet elude us. My lord...their battle caused <span class=\"emphasis\">considerable</span> damage across the region... Should we perchance divert some of our forces from the search to undertake necessary reconstruction work?"
+            },
+            {
+                "name": "IMPERIALOFFICER",
+                "text": "I─ Forgive me, my lord! I did not intend─ <span class=\"emphasis\">Your will be done</span>!"
+            },
+            {
+                "name": "ZENOS",
+                "text": "(-Viceroy-)\"Unknown“? My spies tell me the Domans call it ”Shinryu,“ and that it proved a match for Omega.<br>Yes...the coming days promise to be most interesting.<br><span class=\"emphasis\">Most</span> interesting."
+            }
+        ],
+        "reward": {
+            "gil": 10000,
+            "xp": 16740
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67894
+            ]
+        },
+        "next": [
+            67945,
+            67950,
+            67962,
+            67967,
+            67972,
+            67977,
+            67982,
+            68090,
+            68102,
+            68107,
+            68119,
+            68124,
+            68129,
+            68130,
+            68135,
+            68140,
+            68145,
+            68156,
+            68161,
+            68426,
+            68431,
+            68436,
+            68441,
+            68446,
+            68451,
+            68457,
+            68459,
+            68484
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1018048",
+            "obj": {
+                "i": 1018048,
+                "n": "Alphinaud",
+                "l": 52,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018331",
+            "obj": {
+                "i": 1018331,
+                "n": "Alisaie",
+                "l": 481,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000460",
+            "obj": {
+                "i": 1000460,
+                "n": "Silent Conjurer",
+                "l": 53,
+                "q": 14
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003027",
+            "obj": {
+                "i": 1003027,
+                "n": "Kan-E-Senna",
+                "l": 347,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012813",
+            "obj": {
+                "i": 1012813,
+                "n": "Krile",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013178",
+            "obj": {
+                "i": 1013178,
+                "n": "Alisaie",
+                "l": 481,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013179",
+            "obj": {
+                "i": 1013179,
+                "n": "Tataru",
+                "l": 481,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018017",
+            "obj": {
+                "i": 1018017,
+                "n": "Alphinaud",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018046",
+            "obj": {
+                "i": 1018046,
+                "n": "Cid",
+                "l": 52,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018054",
+            "obj": {
+                "i": 1018054,
+                "n": "Raubahn",
+                "l": 347,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018055",
+            "obj": {
+                "i": 1018055,
+                "n": "Merlwyb",
+                "l": 347,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018056",
+            "obj": {
+                "i": 1018056,
+                "n": "Aymeric",
+                "l": 347,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018323",
+            "obj": {
+                "i": 1018323,
+                "n": "Cid",
+                "l": 347,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018324",
+            "obj": {
+                "i": 1018324,
+                "n": "Nero Tol Scaeva",
+                "l": 347,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018325",
+            "obj": {
+                "i": 1018325,
+                "n": "Gosetsu",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018326",
+            "obj": {
+                "i": 1018326,
+                "n": "Yugiri",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018327",
+            "obj": {
+                "i": 1018327,
+                "n": "Lyse",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018328",
+            "obj": {
+                "i": 1018328,
+                "n": "Yda",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018329",
+            "obj": {
+                "i": 1018329,
+                "n": "Y'shtola",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018330",
+            "obj": {
+                "i": 1018330,
+                "n": "Alphinaud",
+                "l": 481,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018332",
+            "obj": {
+                "i": 1018332,
+                "n": "Tataru",
+                "l": 481,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018430",
+            "obj": {
+                "i": 1018430,
+                "n": "Alphinaud",
+                "l": 347,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67894",
+            "obj": {
+                "i": 67894,
+                "n": "Fly Free, My Pretty",
+                "g": 5,
+                "l": "The Rising Stones",
+                "s": 18
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67945",
+            "obj": {
+                "i": 67945,
+                "n": "East Meets West",
+                "g": 159,
+                "l": "Ishgard",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67950",
+            "obj": {
+                "i": 67950,
+                "n": "Unease in East End",
+                "g": 153,
+                "l": "South Shroud",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67962",
+            "obj": {
+                "i": 67962,
+                "n": "A Fistful of Resolve",
+                "g": 148,
+                "l": "Ul'dah",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67967",
+            "obj": {
+                "i": 67967,
+                "n": "When East Meets West",
+                "g": 141,
+                "l": "Ul'dah",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67972",
+            "obj": {
+                "i": 67972,
+                "n": "Not Quite Dead Yet",
+                "g": 142,
+                "l": "Ul'dah",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67977",
+            "obj": {
+                "i": 67977,
+                "n": "Uncharted Territory",
+                "g": 136,
+                "l": "Gridania",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67982",
+            "obj": {
+                "i": 67982,
+                "n": "Beyond the Great Wall",
+                "g": 6,
+                "l": "The Rising Stones",
+                "s": 10
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68090",
+            "obj": {
+                "i": 68090,
+                "n": "Gift of the Gob",
+                "g": 144,
+                "l": "Ul'dah",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68102",
+            "obj": {
+                "i": 68102,
+                "n": "A Dignified Visitor",
+                "g": 160,
+                "l": "Ul'dah",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68107",
+            "obj": {
+                "i": 68107,
+                "n": "Tournament of the Century",
+                "g": 147,
+                "l": "Ul'dah",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68119",
+            "obj": {
+                "i": 68119,
+                "n": "The Color of Her Hair",
+                "g": 161,
+                "l": "Mor Dhona",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68124",
+            "obj": {
+                "i": 68124,
+                "n": "Shades of Shatotto",
+                "g": 154,
+                "l": "Ul'dah",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68129",
+            "obj": {
+                "i": 68129,
+                "n": "A Missive from the Far East",
+                "g": 137,
+                "l": "Limsa Lominsa",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68130",
+            "obj": {
+                "i": 68130,
+                "n": "Original Blanstyr",
+                "g": 138,
+                "l": "Limsa Lominsa",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68135",
+            "obj": {
+                "i": 68135,
+                "n": "A Royal Request",
+                "g": 139,
+                "l": "Ul'dah",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68140",
+            "obj": {
+                "i": 68140,
+                "n": "Flavors of the Far East",
+                "g": 143,
+                "l": "Limsa Lominsa",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68145",
+            "obj": {
+                "i": 68145,
+                "n": "A Taxing Request",
+                "g": 140,
+                "l": "Gridania",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68156",
+            "obj": {
+                "i": 68156,
+                "n": "Never Meet Your Heroes",
+                "g": 145,
+                "l": "Gridania",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68161",
+            "obj": {
+                "i": 68161,
+                "n": "A Book with Bite",
+                "g": 155,
+                "l": "Gridania",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68426",
+            "obj": {
+                "i": 68426,
+                "n": "Three's a Company",
+                "g": 151,
+                "l": "South Shroud",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68431",
+            "obj": {
+                "i": 68431,
+                "n": "Whither Wawalago Wanders",
+                "g": 146,
+                "l": "Limsa Lominsa",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68436",
+            "obj": {
+                "i": 68436,
+                "n": "Curious Gorge Meets His Match",
+                "g": 149,
+                "l": "Eastern La Noscea",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68441",
+            "obj": {
+                "i": 68441,
+                "n": "The Machinists' Choice",
+                "g": 158,
+                "l": "Ishgard",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68446",
+            "obj": {
+                "i": 68446,
+                "n": "Friends through Eternity",
+                "g": 150,
+                "l": "Coerthas Central Highlands",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68451",
+            "obj": {
+                "i": 68451,
+                "n": "In Memories We Walked",
+                "g": 157,
+                "l": "Ishgard",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68457",
+            "obj": {
+                "i": 68457,
+                "n": "Leves of Kugane",
+                "g": 0,
+                "l": "Kugane",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68459",
+            "obj": {
+                "i": 68459,
+                "n": "The Vanishing Act",
+                "g": 156,
+                "l": "Limsa Lominsa",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68484",
+            "obj": {
+                "i": 68484,
+                "n": "Search for the Stolen Scroll",
+                "g": 152,
+                "l": "Eastern La Noscea",
+                "s": 601,
+                "f": 1
+            }
+        }
+    ]
+}

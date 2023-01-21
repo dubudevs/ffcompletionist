@@ -1,0 +1,79 @@
+{
+    "quest": {
+        "name": "Threads Unraveled",
+        "location": "East Shroud",
+        "id": 66259,
+        "patch": 2.0,
+        "sort": 210,
+        "eventIcon": 71221,
+        "issuer": 1000563,
+        "target": 1000563,
+        "genre": 92,
+        "journal": [
+            "Ameexia of Little Solace is again in need of an adventurer's aid.",
+            "Ameexia has lost her precious thread and is unable to do her weaving. Travel to the Bramble Patch and retrieve the three missing spindles.",
+            "You have successfully recovered Ameexia's lost spindles of cloud silk. Return them to their owner.",
+            "At long last able to return to her weaving, Ameexia expresses her profuse gratitude for your aid."
+        ],
+        "objectives": [
+            "Search for spindles of thread.",
+            "Deliver the cloud silk to Ameexia at Little Solace."
+        ],
+        "dialogue": [
+            {
+                "name": "AMMEXIA",
+                "text": "Helpful one has returned! This one is troubled. When this one ran away from nasty tusked ones, this one dropped three spindles of thread!"
+            },
+            {
+                "name": "AMMEXIA",
+                "text": "This one searched brambly place over and over, but nothing was found! Oh, woe is this one! Helpful one will help, yes?"
+            },
+            {
+                "name": "AMMEXIA",
+                "text": "Without thread, this one cannot weave! Whatever is this one to do?"
+            },
+            {
+                "name": "AMMEXIA",
+                "text": "This one's thread! This one can weave again! Helpful one is so kind. This one thanks helpful one from bottom of this one's heart!"
+            }
+        ],
+        "reward": {
+            "gil": 1109,
+            "xp": 4200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 21,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66258
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000563",
+            "obj": {
+                "i": 1000563,
+                "n": "Ameexia",
+                "l": 55,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66258",
+            "obj": {
+                "i": 66258,
+                "n": "A Porcine Plight",
+                "g": 92,
+                "l": "East Shroud",
+                "s": 210
+            }
+        }
+    ]
+}

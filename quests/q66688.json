@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "I Hereby Relieve You",
+        "location": "Western La Noscea",
+        "id": 66688,
+        "patch": 2.0,
+        "sort": 160,
+        "eventIcon": 71221,
+        "issuer": 1006614,
+        "target": 1007638,
+        "genre": 91,
+        "journal": [
+            "When the commander of Skull Valley herself wants a word with a humble adventurer before <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> takes to the road, all indications are that something unusual is afoot.",
+            "Commander Falkbryda is a happy woman, for Maelstrom Command has relieved her men of investigating the Sastasha Seagrot. Of course, what she learned this morn, you knew some time ago for the replacement is none other than yourself. You must now find Sergeant Catguistl near the cave and relieve him.",
+            "Your conversation with Catguistl has left you if not apprehensive, then certainly contemplative of entering the Seagrot."
+        ],
+        "objectives": [
+            "Speak with Sergeant Catguistl."
+        ],
+        "dialogue": [
+            {
+                "name": "FALKBRYDA",
+                "text": "I hear you're leaving us, <span class=\"highlight\">Forename</span>─news travels fast in an encampment. Mayhap you can assist us one last time on your journey out. I have a dispatch here from Maelstrom Command─from Commodore Reyner of the Yellowjackets."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "We have been investigating the Sastasha Seagrot on their orders, but it seems they have taken on an adventurer─“of excellent repute and pleasing manner,” the commodore writes─to complete the work."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "Now, if you...yes?<br>Ha! This is <span class=\"emphasis\">you</span> he speaks of? Of course! Well, Camp Skull Valley would be glad to add to the burnish of your repute. You have carried out your commissions admirably well."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "Commodore Reyner and many others in command are of the same mind as I, that we have spread our forces too thin with these tasks. I am all too happy to withdraw our men from the caves, truth be told."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "Chief Sergeant Catguistl is the ranking officer at the Sastasha Seagrot. Locate him and tell him that his mission is complete, and he is ordered to report back to Skull Valley."
+            },
+            {
+                "name": "CATGUISTL",
+                "text": "Halt, adventurer! Do you mean to enter the Sastasha Seagrot? I would advise against it. You'll likely perish in its labyrinthine depth. Trust me─were it not for sheer strength of will, I'd not be standing here."
+            },
+            {
+                "name": "CATGUISTL",
+                "text": "What am I doing out here, you ask? This is a comely spot for strategizing, I find. Far better than the labyrinthine depth of the cave, friend. In there, none shall hear you scream─particularly since everybody else has been reassigned."
+            },
+            {
+                "name": "CATGUISTL",
+                "text": "Me, as well, you say? Back to Camp Skull Valley, and away from the labyrinthine depth of that hellhole? Most excellent. I have my principles and would willingly have sacrificed my life for the mission, but I am not grieved to cede that prospect to you─and bid this grot good day!"
+            },
+            {
+                "name": "CATGUISTL",
+                "text": "My place is at a fort or on the battlefield, not crawling around a dank cave with coils of rope and sheaves of paper, fearing I shall never see daylight again. I warn you friend, there is much danger in those depths. It is─what is the word─<span class=\"emphasis\">labyrinthine</span>, I tell you."
+            }
+        ],
+        "reward": {
+            "gil": 207,
+            "xp": 3500
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 16,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66687
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006614",
+            "obj": {
+                "i": 1006614,
+                "n": "Falkbryda",
+                "l": 33,
+                "q": 14,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007638",
+            "obj": {
+                "i": 1007638,
+                "n": "Catguistl",
+                "l": 33,
+                "q": 1,
+                "t": "Storm Sergeant"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66687",
+            "obj": {
+                "i": 66687,
+                "n": "Scythe Extra Large",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 160
+            }
+        }
+    ]
+}

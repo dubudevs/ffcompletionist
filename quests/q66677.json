@@ -1,0 +1,110 @@
+{
+    "quest": {
+        "name": "Morbid Motivation",
+        "location": "Mor Dhona",
+        "id": 66677,
+        "patch": 2.28,
+        "sort": 500,
+        "interval": "daily",
+        "repeatable": 1,
+        "unlocksFunction": 1,
+        "eventIcon": 71342,
+        "issuer": 1006981,
+        "target": 1006981,
+        "genre": 95,
+        "journal": [
+            "Brangwine wants to confirm your interest in one of her mysterious maps.",
+            "Brangwine is willing to give you a mysterious map in exchange for essentially robbing the dead. Though you cannot help but be suspicious as to her motivation, you must do as bid if you would be king of your kitchen. The personal effects of your slain peers are likely to be found where the deadliest creatures in the land prowl.<br><br>※The key item can be obtained by clearing a dungeon via Duty Roulette: Level 50/60/70/80 Dungeons.",
+            "You have acquired a sack bearing the personal effects of some hapless adventurer. Return to Revenant's Toll and present it to Brangwine.",
+            "You hand over the sack of adventurer's effects to Brangwine, and for your troubles receive a mysterious map. Now you, too, can be king of your kitchen...if indeed that is your heart's desire.<br><br>※This repeatable quest can be undertaken once daily. Upon completing the quest, it will become available again the following day at [Reset]<span class=\"alternative-container\"><span class=\"alternative\"><span class=\"alternative-container\"><span class=\"alternative\">1</span><span class=\"alternative\">2</span><span class=\"alternative\">3</span><span class=\"alternative\">4</span><span class=\"alternative\">5</span><span class=\"alternative\">6</span><span class=\"alternative\">7</span><span class=\"alternative\">8</span><span class=\"alternative\">9</span><span class=\"alternative\">10</span><span class=\"alternative\">11</span><span class=\"alternative\">12</span></span></span><span class=\"alternative\">12</span></span> <span class=\"alternative-container\"><span class=\"alternative\">p.m.</span><span class=\"alternative\">a.m.</span></span> (Earth time)."
+        ],
+        "objectives": [
+            "Obtain a sack of adventurer's effects by clearing a dungeon via Duty Roulette: Level 50/60/70/80 Dungeons.",
+            "Deliver the sack of adventurer's effects to Brangwine."
+        ],
+        "dialogue": [
+            {
+                "name": "BRANGWINE",
+                "text": "So you are keen on my little proposition? Wonderful! I look forward to rummaging through the personal effects of your slain peers!"
+            },
+            {
+                "name": "BRANGWINE",
+                "text": "As I mentioned earlier, these are like to turn up where the deadliest creatures prowl. I promise to have your mysterious map waiting for you upon your return. Then you, too, can luxuriate in a spotless kitchen! "
+            },
+            {
+                "name": "BRANGWINE",
+                "text": "The personal effects of slain adventurers are like to turn up where the deadliest creatures prowl. I promise to have your mysterious map waiting for you upon your return. Then you, too, can enjoy a spotless kitchen!"
+            },
+            {
+                "name": "BRANGWINE",
+                "text": "Ah, you've returned, young one. And with good tidings, I hope?"
+            },
+            {
+                "name": "BRANGWINE",
+                "text": "...Oh my, this is a goodly haul! And you found it all in this sack, you say? Well, that's very considerate of our dearly departed, isn't it? At any rate, with the contents, I should be able to─"
+            },
+            {
+                "name": "BRANGWINE",
+                "text": "Oh, deary me, I almost let my little secret slip! Let it suffice to say that I am satisfied with our trade!"
+            },
+            {
+                "name": "BRANGWINE",
+                "text": "My thanks, young one. You truly are dependable. Would that I had a <span class=\"alternative-container\"><span class=\"alternative\">daughter</span><span class=\"alternative\">son</span></span> like you in place of my own hopeless specimen. If you have need of any more mysterious maps, you know what to bring me."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 7884
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66676
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006981",
+            "obj": {
+                "i": 1006981,
+                "n": "Brangwine",
+                "l": 67,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "7884",
+            "obj": {
+                "i": 7884,
+                "n": "Mysterious Map",
+                "l": 110,
+                "c": 25933,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66676",
+            "obj": {
+                "i": 66676,
+                "n": "One Man's Trash",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 500,
+                "f": 1
+            }
+        }
+    ]
+}

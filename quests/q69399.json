@@ -1,0 +1,173 @@
+{
+    "quest": {
+        "name": "Terror at Fallgourd",
+        "location": "The Waking Sands",
+        "id": 69399,
+        "patch": 5.3,
+        "sort": 149,
+        "icon": 100125,
+        "eventIcon": 71201,
+        "issuer": 1006688,
+        "target": 1006240,
+        "genre": 1,
+        "journal": [
+            "Minfilia has another lead for you to pursue.",
+            "According to Minfilia, there has been another potential sighting of Lahabrea in the North Shroud. Speak with the sylph Noraxia for the details.",
+            "Noraxia tells you that a miner named Medrod witnessed an unsavory masked character in the wood. Take yourself to Fallgourd Float in the North Shroud, and learn all you can from him.",
+            "You find Medrod at Fallgourd Float, but the man is too perturbed to speak of his experience. For want of a better idea, try to /soothe the man.",
+            "Medrod finally settles down and recounts his bloodcurdling experience seeing the masked man, who he swears is death incarnate. As Minfilia mentioned, it appears that this individual is indeed connected to the recent spate of mysterious deaths."
+        ],
+        "objectives": [
+            "Speak with Noraxia.",
+            "Speak with Medrod at Fallgourd Float.",
+            "Try to /soothe Medrod."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "While you were tending to business in Thanalan, some new information arrived courtesy of our friends the sylphs."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "An individual fitting Lahabrea's description has been sighted in the North Shroud. This sighting comes in the wake of a series of mysterious deaths in the selfsame area. My instincts tell me that our man is involved."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "I would have you continue your investigation where you left off. Twelve willing, we will pick up Lahabrea's trail once more."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Noraxia can furnish you with the details. Pray speak with her, and take it from there. As always, be careful out there, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "NORAXIA",
+                "text": "Walking one is to investigate sinister one? Then heed well this one's words."
+            },
+            {
+                "name": "NORAXIA",
+                "text": "This one is friends with a walking one in the Ashcrown Consortium. According to friendly one, a digging one named Medrod had an encounter with a scary masked one. This masked one is most certainly sinister one!"
+            },
+            {
+                "name": "NORAXIA",
+                "text": "Walking one should go and speak with digging one Medrod. Digging one is to be found at Fallgourd Float in the North Shroud."
+            },
+            {
+                "name": "MEDROD",
+                "text": "P-Please leave me be... I'm not long for this world..."
+            },
+            {
+                "name": "MEDROD",
+                "text": "I...I looked death in the face... 'Tis only a matter of time before he comes for me, just like he came for that poor woman..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Medrod is clearly traumatized. Perhaps if you were to <span class=\"highlight\">soothe</span> him, he might remain calm for long enough to hold a conversation."
+            },
+            {
+                "name": "MEDROD",
+                "text": "&lt;sob&gt; Mummyyy! I'm sorry I wasn't a better son! I'm sorry I didn't eat my greens and do my chores! Waaaaaah!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Medrod is clearly traumatized. Perhaps if you were to <span class=\"highlight\">soothe</span> him, he might remain calm for long enough to hold a conversation."
+            },
+            {
+                "name": "MEDROD",
+                "text": "...Y-You're right. It's not as bad as it seems. I saw something terrible, that's true, but that hardly means I'm going to suffer the same fate. Thanks to you, I can think straight again. I believe I can even recount what I saw without losing it."
+            },
+            {
+                "name": "MEDROD",
+                "text": "It was just another ordinary day. I was headed back to the Float when I noticed a suspicious character in the distance─a masked man garbed head to toe in black. He had a hideous fiend in tow, a winged creature that was all eyeball and jagged teeth. Taken by curiosity, I crept as near as I dared..."
+            },
+            {
+                "name": "MEDROD",
+                "text": "...To see the corpse of a woman! One glimpse was enough to tell me that she'd died a gruesome death!"
+            },
+            {
+                "name": "MEDROD",
+                "text": "In that instant, I knew right away that the masked man was a minion of Thal, come to claim her soul for His realm."
+            },
+            {
+                "name": "MEDROD",
+                "text": "What!? You're investigating this same masked man!?"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "If that's the case, we'll help you in whatever way we can!"
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "Aye, anything to ensure that we won't have to suffer Medrod's hysteria ever again."
+            },
+            {
+                "name": "MEDROD",
+                "text": "All right, teamwork! That's what I wanted to─wait, I haven't been <span class=\"emphasis\">that</span> bad, have I...? At any rate, I'm all for helping this adventurer. It's the least I can do to repay <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> for comforting me!"
+            }
+        ],
+        "reward": {
+            "gil": 1289
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 27,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66319
+            ]
+        },
+        "next": [
+            69400
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006688",
+            "obj": {
+                "i": 1006688,
+                "n": "Minfilia",
+                "l": 356,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006240",
+            "obj": {
+                "i": 1006240,
+                "n": "Medrod",
+                "l": 57,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66319",
+            "obj": {
+                "i": 66319,
+                "n": "Back to Square One",
+                "g": 1,
+                "l": "Southern Thanalan",
+                "s": 148
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69400",
+            "obj": {
+                "i": 69400,
+                "n": "Ziz Is So Ridiculous",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 150
+            }
+        }
+    ]
+}

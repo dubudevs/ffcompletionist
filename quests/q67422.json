@@ -1,0 +1,127 @@
+{
+    "quest": {
+        "name": "A Den of Evil",
+        "location": "Coerthas Western Highlands",
+        "id": 67422,
+        "patch": 3.0,
+        "sort": 5602,
+        "eventIcon": 71221,
+        "issuer": 1011231,
+        "target": 1011231,
+        "involved": [
+            1013552
+        ],
+        "genre": 94,
+        "journal": [
+            "Redwald needs your help with an investigation.",
+            "Redwald has requested your help in part of Falcon's Nest's ongoing investigations into the heretics' actions. He asks you to travel to the ruins of Hemlock. The knight stationed there will advise you what to do from there.",
+            "There have been reports that there are heretics hiding within the ruins supposedly with a mind to establish a base of operations. There should be four heretics there. Find them and eliminate them.",
+            "You have found and killed all four heretics reported as taking refuge within Hemlock. Report back to Redwald that this insidious threat has been dealt with.",
+            "Redwald thanks you for your work, but goes on to explain that not all heretics truly believe in the Dravanian Horde's doctrine. Many are simply criminals who have nowhere else to run. Of course, their lack of conviction does not make them any less traitorous in the eyes of Ishgardian law."
+        ],
+        "objectives": [
+            "Speak with the knight at Hemlock.",
+            "Slay heretics.",
+            "Report to Redwald."
+        ],
+        "dialogue": [
+            {
+                "name": "REDWALD",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I have a request to make, if I may. My men and I keep a keen and constant eye on the heretics, and there is one investigation we are working on that we would like your help with."
+            },
+            {
+                "name": "REDWALD",
+                "text": "North of here lie the ruins of Hemlock. I have a man stationed at the gates there. Speak with him for further details."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Travel to the ruins of Hemlock. I have stationed a man at the gates who can provide you with further information."
+            },
+            {
+                "name": "MONITORINGSOLDIER01886",
+                "text": "So you are the <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> Ser Redwald sent? Very good. We have received word that there are a number of heretics hiding in the ruins here. We suspect they are planning to establish a base of operations."
+            },
+            {
+                "name": "MONITORINGSOLDIER01886",
+                "text": "Obviously, we cannot let that happen. We need you to infiltrate the ruins and confirm if the heretics are indeed hiding there. If they are, eliminate them. There should be four of them. Good luck."
+            },
+            {
+                "name": "MONITORINGSOLDIER01886",
+                "text": "There should be four heretics hiding in the ruins. Find them and eliminate them. I shall stay here and block their escape."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Thank you, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. It seems you completed your mission without incident. Unfortunately, with each passing day, the heretics recruit more poor pawns to their contemptible cause."
+            },
+            {
+                "name": "REDWALD",
+                "text": "There are many forms of heretic. While some are men of true conviction, devoted to the Dravanian Horde, others are simply criminals who banded together and decided they have no choice─no place in Ishgard."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Whatever their reasons may be, I cannot condone their actions... Though there is no denying that life in Ishgard can be hard."
+            }
+        ],
+        "reward": {
+            "gil": 750,
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67409
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011231",
+            "obj": {
+                "i": 1011231,
+                "n": "Redwald",
+                "l": 2200,
+                "q": 17
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013552",
+            "obj": {
+                "i": 1013552,
+                "n": "House Durendaire Knight",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67409",
+            "obj": {
+                "i": 67409,
+                "n": "Enlisted",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5602
+            }
+        }
+    ]
+}

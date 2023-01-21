@@ -1,0 +1,728 @@
+{
+    "quest": {
+        "name": "Schism between Sisters",
+        "location": "The Fringes",
+        "id": 68576,
+        "patch": 4.2,
+        "sort": 5,
+        "icon": 100751,
+        "beast": 10,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1024771,
+        "target": 1024952,
+        "involved": [
+            1024779,
+            1024924,
+            1024925,
+            1024929,
+            1024932,
+            1024934,
+            1024935,
+            1024936,
+            1025086,
+            1025087
+        ],
+        "genre": 52,
+        "journal": [
+            "The shadow of death hangs over Virdjala.<br>※The difficulty of this quest will be synced to your current level.",
+            "A merchant suddenly bursts into the castellum claiming that fighting has broken out between groups of Ananta in Virdjala. Upon hearing this unsettling news, Alpa's immediate concern is that her mother would be angry that Ananta should be allowed to cause trouble so close to Velodyna. Showing no signs of hesitation, she and J'olhmyn race off in the direction of the valley, heedless of the dangers they may face.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You discover the corpses of Qalyana tribeswomen, yet no sign of their attackers. After quickly assessing the situation, Alpa gives the command to search for any survivors that may still be in the area.",
+            "A wounded Qalyana who escaped the bloodshed reveals that an internal conflict has erupted in her tribe. Several of her people oppose worshipping the primal Sri Lakshmi and have split from the rest of the Qalyana. Unwilling to accept this, those in the thrall of the false goddess have marked the insurrectionists for death. Hoping to locate the remaining survivors before it is too late, you continue the search.",
+            "You find the other separatists just as their pursuers appear. There is no choice but to stand and fight.",
+            "With a little timely assistance, you are able to repel the Qalyana fanatics. After the battle, the Vira broodmother Sarisha arrives and offers the refugees asylum in Vira Nilya. However, they are determined to express their gratitude for Alpa's courageous rescue by joining the Gatekeepers. She gladly welcomes her newfound allies and leads them to Velodyna.",
+            "J'olhmyn expresses concerns that accepting the Qalyana refugees carries the risk of spies infiltrating the Resistance. However, Alpa believes that the Qalyana would have little to gain from such an act of espionage and that any treachery can be dealt with as needed. While J'olhmyn is able to accept Alpa's argument, she remains cautious of the new recruits. Shortly after, Sarisha arrives to look over the castellum and reminds Alpa of the consequences should it fail to meet her standards. Although Alpa is extremely anxious to hear her mother's evaluation, she has no choice but to wait patiently, but is finally able to breathe a sigh of relief when the fortress passes the inspection. Not only was Alpa's work on the castellum beyond all expectations, but her bravery and even-handed diplomacy left a deep impression on the broodmother, who gives her blessing to continue working with the Gatekeepers."
+        ],
+        "objectives": [
+            "Rendezvous with Alpa in Virdjala.",
+            "Search for Qalyana survivors.",
+            "Search for Qalyana refugees.",
+            "Continue the search for Qalyana refugees.",
+            "Speak with Alpa.",
+            "Defeat the Qalyana pursuers while protecting your allies!",
+            "Defeat Vanisha the One Truth!"
+        ],
+        "dialogue": [
+            {
+                "name": "ALPA",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Good evening</span><span class=\"alternative\">Good morrow</span><span class=\"alternative\">Good day</span></span>, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "ALPA",
+                "text": "I don't know how to thank you for all your help. The castellum has become everything I'd hoped for! Travelers and Resistance members alike have been sssinging its praises!"
+            },
+            {
+                "name": "ALPA",
+                "text": "As long as nothing untoward happens, I'm confident that it'll pass mussster with Mother."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "That reminds me. How's your mother's molting coming along?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Eshana informs me that the upper layer of skin is beginning to ssseparate. There's not much time left."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Well, we're set to pass the inspection with flying colors, so there's nothing to fear! Unless some unforeseen catastrophe occurs..."
+            },
+            {
+                "name": "MERCHANT03040",
+                "text": "Captain Alpa! It's a catastrophe!"
+            },
+            {
+                "name": "ALPA",
+                "text": "What do you mean?"
+            },
+            {
+                "name": "MERCHANT03040",
+                "text": "Ananta... &lt;pant&gt; They're fighting among themselves, over in Virdjala! It looked like they were out for blood, so I ran for my life!"
+            },
+            {
+                "name": "ALPA",
+                "text": "What!?"
+            },
+            {
+                "name": "ALPA",
+                "text": "J'olhmyn! If you'd kept your mouth shut, this would never have happened!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I suppose I was tempting fate a bit, but you can't blame me for it!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Why does this have to happen now? If Mother finds out that Ananta are causing trouble near Castellum Velodyna, she'll hold me responsssible! J'olhmyn, <span class=\"highlight\">Forename</span>─follow me!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Battlemaids of the Qalyana! If any of you are still alive, sssay something!"
+            },
+            {
+                "name": "ALPA",
+                "text": "By Sri Lakshmi, it's a masssacre... There's no time to waste. We should search for survivors. <span class=\"highlight\">Forename</span>, try the southern part of the valley. J'olhmyn, come with me."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "What in Rhalgr's name happened here?"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Are you here to kill me? No, it would ssseem not..."
+            },
+            {
+                "name": "ALPA",
+                "text": "A sssurvivor! What happened here?"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "There has been a ssschism within the Qalyana. I and those of like mind no longer wish to devote ourselves to the false Sri Lakshmi."
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "We believe the Qalyana should work with the Vira for the future of Gyr Abania, instead of sssequestering ourselves away from the world. Many of usss voiced our opposition, but the dreamers heard not our pleas."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "And when you tried to break from the tribe, they hunted you down?"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Yesss, ssstrider. Most of us were ssslain. Those who sssurvived the ambush are being pursued as we ssspeak."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "What do you make of this, Captain?"
+            },
+            {
+                "name": "ALPA",
+                "text": "This is troubling indeed... There are so few routes through the valleys that anyone passing is bound to be caught up in the fighting. Those killers won't think twice about cutting down anyone who ssstands between them and their prey."
+            },
+            {
+                "name": "ALPA",
+                "text": "I can't allow this ssslaughter to continue! The Qalyana and we Vira have our differences, but they are still our sisters!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Then it's up to us to beat some sense into those dreamers."
+            },
+            {
+                "name": "ALPA",
+                "text": "No. This is an Ananta affair, and I cannot involve the Gatekeepers. I'll deal with it myself."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Alpa! Have you forgotten why we're here in the first place?"
+            },
+            {
+                "name": "ALPA",
+                "text": "What are you talking about!?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Think, Alpa, think!"
+            },
+            {
+                "name": "A1",
+                "text": "Why do you think J'olhmyn and I are here?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Stop being obtuse and sssay what you mean, or get out of my way!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "We're here because a merchant begged the Gatekeepers for help. You yourself said the dreamers won't think twice about cutting down innocents. This is <span class=\"emphasis\">our</span> problem!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "It's the Gatekeepers' duty to keep the peace. If that means intervening in tribal disputes, then so be it! Isn't that right, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "ALPA",
+                "text": "...You're right. We'll sssettle this together."
+            },
+            {
+                "name": "ALPA",
+                "text": "The dreamers are ssstill out there looking for you. Go to Castellum Velodyna and tell the Gatekeepers that Alpa sssent you. No harm will come to you."
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Youngling of the Vira, you have my gratitude."
+            },
+            {
+                "name": "ALPA",
+                "text": "J'olhmyn, <span class=\"highlight\">Forename</span>! The other sssurvivors need our help. Let's move!"
+            },
+            {
+                "name": "KARYANADESERTERS03040",
+                "text": "The pursssuers have tracked us down, but we have no ssstrength left to fight. Thisss is the end..."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "It's not over yet. We're here to help!"
+            },
+            {
+                "name": "ALPA",
+                "text": "That'sss right! You're under the protection of the Velodyna Gatekeepers now!"
+            },
+            {
+                "name": "ALPA",
+                "text": "It's time to show them what we're made of!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Why must the dreamers go to such lengthsss?"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I'm glad we got here in time, but it looks like we've still got work to do!"
+            },
+            {
+                "name": "ALPA",
+                "text": "To think they'd appear in such numbers... They're relentlesss!"
+            },
+            {
+                "name": "KARYANAENEMY03040",
+                "text": "(-Raging Qalyana-)Who dares interfere!? Aaah!"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "There you are, <span class=\"highlight\">Forename</span>! Thought you'd steal all the glory for yourself, eh? You're not the only hero around here!"
+            },
+            {
+                "name": "TAHLAMOLKOH",
+                "text": "Although I only came to admire the griffin statues, I shan't stand by while my friends are in danger! It's time for Tahla Molkoh, the Invisible Adder, to bare her fangs!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "\"Invisible Adder“? Is that because the others ignore you?"
+            },
+            {
+                "name": "ALPA",
+                "text": "M'zhet! Tahla! I've never been so happy to see you two!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Hear me, dreamers of the Qalyana! Your crimes are beyond redemption, beyond forgivenesss! It's time for you to pay!"
+            },
+            {
+                "name": "SARISHA",
+                "text": "Alpa! We were on our way to inssspect your facilities when we heard the cries of battle. I might have guessed the Qalyana were involved, but I never expected to find you here!"
+            },
+            {
+                "name": "SARISHA",
+                "text": "What is the meaning of thisss?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Mother, lisssten to me! These Qalyana are not our enemies!"
+            },
+            {
+                "name": "SARISHA",
+                "text": "<span class=\"highlight\">Forename</span>, what is she talking about?"
+            },
+            {
+                "name": "SARISHA",
+                "text": "If these Qalyana do indeed reject the false Sri Lakshmi, I would hear it from them."
+            },
+            {
+                "name": "SARISHA",
+                "text": "Tell us the truth of thisss day."
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Our own sssisters turned against us because we dared to seek another way. Were it not for the intervention of your daughter and her comrades, we would have been ssslaughtered. But while none of us are gravely injured, our sssorrow is beyond words..."
+            },
+            {
+                "name": "SARISHA",
+                "text": "...Sisters, you are welcome to stay with us in Vira Nilya for as long as you need. You will have food and shelter and time to think on your futures."
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "That you would show your sworn enemies such kindness..."
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "However, it is with profound regret that we must refuse your most graciousss offer. Our minds were made up before your arrival."
+            },
+            {
+                "name": "SARISHA",
+                "text": "Pray tell, what will you do?"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Alpa, brave and benevolent daughter of the Vira! Please, allow usss to join the Velodyna Gatekeepers!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Join us? But why?"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "We were raised to fear the ssstriders─told they could not be trusssted. And so we turned away from the world and placed our hopes in a false god."
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "But when you and your comrades came to our rescue, we saw the error of our ways. We need not─nay, <span class=\"emphasis\">cannot</span> live apart."
+            },
+            {
+                "name": "ALPA",
+                "text": "That's what my work with the Gatekeepers has taught me. There are many peoples that call Gyr Abania home. I just want to make it a sssafer place."
+            },
+            {
+                "name": "ALPA",
+                "text": "Of course, we all have our own opinions and beliefs, but our goals are the sssame, and that's what matters. We'd be happy to have you!"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Then we will commit ourssselves to your cause."
+            },
+            {
+                "name": "SARISHA",
+                "text": "It ssseems you have grown a great deal, Alpa."
+            },
+            {
+                "name": "ALPA",
+                "text": "Are you sure? I'm ssstill about the same length as before."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I don't think it was supposed to be taken literally..."
+            },
+            {
+                "name": "SARISHA",
+                "text": "Ha ha ha! She is still rather ssslow on the uptake, I see. It is jussst one of her many quirks, as I am sure you have noticed."
+            },
+            {
+                "name": "SARISHA",
+                "text": "I must return to the village and share these recent developments with the brood. In the meantime, you should await my arrival at Velodyna. I still intend to look over the castellum."
+            },
+            {
+                "name": "ALPA",
+                "text": "Underssstood, Mother!"
+            },
+            {
+                "name": "ALPA",
+                "text": "I should report everything to my sssuperiors and request permission to accept the new Qalyana recruits."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Alpa, are you sure about this? This could all be a ploy to infiltrate the Resistance."
+            },
+            {
+                "name": "ALPA",
+                "text": "If it is, it's a needlessly contrived one. Besssides, we're not about to hand them the keys to the place. We'll train them like any other recruits, and if they betray our trussst, we'll deal with it then and there."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Fair enough. All the same, I'll keep a close eye on them."
+            },
+            {
+                "name": "ALPA",
+                "text": "I know you will."
+            },
+            {
+                "name": "ALPA",
+                "text": "Anyway, it looks like Mother's arrived for the inspection. This is the moment I've been dreading..."
+            },
+            {
+                "name": "SARISHA",
+                "text": "The time has come to sssee the fruitsss of your labor."
+            },
+            {
+                "name": "SARISHA",
+                "text": "I take it everything is in order."
+            },
+            {
+                "name": "SARISHA",
+                "text": "If I find your efforts to be insufficient, you are coming ssstraight back to Vira Nilya. Is that clear?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Cryssstal clear!"
+            },
+            {
+                "name": "SARISHA",
+                "text": "I will be looking over every ilm of this place. Nothing will essscape my notice."
+            },
+            {
+                "name": "SARISHA",
+                "text": "My inssspection is complete. There is no denying that you have made...significant changes."
+            },
+            {
+                "name": "SARISHA",
+                "text": "Of course, this place is no stranger to change. The stone bridge once built by Ala Mhigans was plated in blackened sssteel by the Garleans, becoming a sssymbol of oppression. Now, it is the turn of the Ananta to leave our mark."
+            },
+            {
+                "name": "SARISHA",
+                "text": "For better or worse, it ssstands as a tessstament to the history of Gyr Abania. Now, representatives of the various peoples of this land have united as the Velodyna Gatekeepers and transssformed this stronghold. It bodes well for the future."
+            },
+            {
+                "name": "ALPA",
+                "text": "Ssso, does that mean...?"
+            },
+            {
+                "name": "SARISHA",
+                "text": "Even before my arrival, you had already demonssstrated the qualities required of a leader. You fought to defend members of the Qalyana and have established a bond of trust with them─an achievement that many considered impossible."
+            },
+            {
+                "name": "SARISHA",
+                "text": "You have learned much and grown to become a leader worthy of the highest praise and ressspect. As broodmother, as <span class=\"emphasis\">your</span> mother, this makes me proud indeed."
+            },
+            {
+                "name": "ALPA",
+                "text": "I don't know what to sssay..."
+            },
+            {
+                "name": "SARISHA",
+                "text": "Thisss concludes my visit. I hope you will all continue to sssupport Alpa in her endeavors. Until we meet again."
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "She's not the only one that feels that way. You've come a long way, Alpa. It looks like you won't be needing me as your mentor anymore!"
+            },
+            {
+                "name": "ALPA",
+                "text": "Now, now, J'olhmyn! You're not getting off that easily! I still need a sssecond-in-command, don't I? This place may have passed Mother's test but our work is far from over."
+            },
+            {
+                "name": "ALPA",
+                "text": "As soon as we get permission for the Qalyana recruitsss to join, we'll need a garrison for them. We should start the preparations right away!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "I really had my hands full trying to keep Alpa safe. I'm just glad it's over."
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "Did you see me? I think I'm starting to get used to this fighting lark!"
+            },
+            {
+                "name": "TAHLAMOLKOH",
+                "text": "I never get tired of looking at Alpa's griffin statues. They're so majestic, so dynamic!"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Alpa fought to sssave us and offered asssylum here at Castellum Velodyna. We would give our lives for her."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Permission to accept the Qalyana refugees has been granted and a new Ananta garrison has been built at Castellum Velodyna."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Sworn</span> reputation with the Vira."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you will receive an experience point bonus upon completion of the Vira tribal daily quests."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You now have access to a wider selection of wares from Madhura."
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "A Vira?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Don't be alarmed! We're not your enemies!"
+            },
+            {
+                "name": "KARYANAENEMY03040",
+                "text": "These traitors are in league with the Vira! Ssslay them all! "
+            },
+            {
+                "name": "KARYANAENEMY03040",
+                "text": "Curssse these interlopers!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "We'll deal with you murderers!"
+            },
+            {
+                "name": "ALPA",
+                "text": "We are sssisters! Why must we fight?"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Any wounded must fall back! We will hold off their asssault!"
+            },
+            {
+                "name": "KARYANAENEMY03040",
+                "text": "We have tarried long enough. Thisss ends now!"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "We cannot repel sssuch an onslaught..."
+            },
+            {
+                "name": "ALPA",
+                "text": "Get back! Leave this to the Gatekeepers!"
+            },
+            {
+                "name": "KARYANASOLDIER03040",
+                "text": "Why would you go ssso far to protect usss?"
+            },
+            {
+                "name": "ALPA",
+                "text": "Don't worry about that now! Jussst get out of here!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Some of them are going for Alpa! I'll draw their attention away from her. You finish them off!"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "M'zhet Tia, son of M'aht Nunh has entered the fray! Who wants to taste my steel?"
+            },
+            {
+                "name": "KARYANAENEMY",
+                "text": "This one has ssspirit! But know this─only death awaits those who defy us!"
+            },
+            {
+                "name": "TAHLAMOLKOH",
+                "text": "I'll handle these smaller ones! Griffin's Bane, the leader is all yours!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "At least you know your limits, Tahla! I'll go with <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "ALPA",
+                "text": "She must be their commander. Watch out─she's not like the others!"
+            },
+            {
+                "name": "KARYANAENEMY",
+                "text": "Sssisters... Grant me your strength!"
+            },
+            {
+                "name": "TAHLAMOLKOH",
+                "text": "She's gathering aether! We have to stop her before it's too late!"
+            },
+            {
+                "name": "KARYANAENEMY",
+                "text": "Death to the heathens!"
+            },
+            {
+                "name": "JOLHMYN",
+                "text": "Not this again!"
+            },
+            {
+                "name": "MZHETTIA",
+                "text": "For mere underlings, they certainly put up a fight!"
+            }
+        ],
+        "reward": {
+            "gil": 2045
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68575
+            ]
+        },
+        "next": [
+            68577
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024771",
+            "obj": {
+                "i": 1024771,
+                "n": "Alpa",
+                "l": 2406,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024952",
+            "obj": {
+                "i": 1024952,
+                "n": "Alpa",
+                "l": 2406,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024779",
+            "obj": {
+                "i": 1024779,
+                "n": "J'olhmyn",
+                "l": 2406,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024924",
+            "obj": {
+                "i": 1024924,
+                "n": "Alpa",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024925",
+            "obj": {
+                "i": 1024925,
+                "n": "J'olhmyn",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024929",
+            "obj": {
+                "i": 1024929,
+                "n": "Qalyana Battlemaid",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024932",
+            "obj": {
+                "i": 1024932,
+                "n": "Qalyana Survivor",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024934",
+            "obj": {
+                "i": 1024934,
+                "n": "Qalyana Separatist",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024935",
+            "obj": {
+                "i": 1024935,
+                "n": "Alpa",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024936",
+            "obj": {
+                "i": 1024936,
+                "n": "J'olhmyn",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025086",
+            "obj": {
+                "i": 1025086,
+                "n": "M'zhet Tia",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025087",
+            "obj": {
+                "i": 1025087,
+                "n": "Tahla Molkoh",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68575",
+            "obj": {
+                "i": 68575,
+                "n": "It Can Be Cruel Sometimes",
+                "g": 52,
+                "l": "The Fringes",
+                "s": 4,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68577",
+            "obj": {
+                "i": 68577,
+                "n": "Celebratory Smorgasbord",
+                "g": 52,
+                "l": "The Fringes",
+                "s": 6,
+                "f": 1
+            }
+        }
+    ]
+}

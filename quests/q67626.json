@@ -1,0 +1,654 @@
+{
+    "quest": {
+        "name": "Disarmed",
+        "location": "Idyllshire",
+        "id": 67626,
+        "patch": 3.01,
+        "sort": 1,
+        "icon": 112095,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012097,
+        "target": 1014407,
+        "involved": [
+            1013714,
+            1014402,
+            1014403,
+            1014404,
+            1014406,
+            1014408,
+            1014409
+        ],
+        "genre": 16,
+        "journal": [
+            "Slowfix looks more agitated than you have ever seen him.",
+            "A panicked Slowfix informs you of the presence of a new primal─a colossus of steam and steel that has risen from the waters of the Thaliak. Soon after, Y'shtola arrives bearing still more sobering news: though the machine was active for but a moment, her measurements indicate that it is drawing aether from the hinterlands at a rate that will render the entire area lifeless within the space of a few moons. While she seeks Matoya's counsel on how the metal giant might be denied access to this aether, she bids you keep watch over it alongside Cid. Seek him out at Bigwest Shortstop.",
+            "Cid tells you that the Illuminati─the secretive fraternity of goblin scholars─were responsible for summoning the primal. Given the mechanical nature of the giant, he believes your best hope lies in seeking out and destroying whatever passes for its engine. Whilst Cid questions Brayflox about the Illuminati, he bids you join Biggs in the Makers' Quarter and aid him in finding a way inside the colossus.",
+            "It would seem that Biggs and Wedge have discovered a hatch in the colossus's hand which is not protected by the barrier. Unfortunately, it is locked by some unknown mechanism. All is not lost, however, as Wedge has intercepted a coded Illuminati communication on his linkpearl, and believes that deciphering the strange message may hold the key to entering the giant. Redbrix, the goblin watchman, tells you Roundrox may have the type of crystal the Illuminati use to encode their communications. Make your way to Bigwest Shortstop, and sprinkle 3G7-001B on Roundrox's pile of treasure to find out for sure.",
+            "You sprinkle the 3G7-001B over the pile of trinkets, and notice something glimmering near the top. Hopefully, Roundrox won't mind you borrowing it...",
+            "Somewhat predictably, Roundrox <span class=\"emphasis\">does</span> mind you taking her things without permission, and demands that you explain yourself. It would seem that you chose her most prized possession, and she allows you to take it only after you swear to return it. Deliver it─and Roundrox's warning─to Wedge.",
+            "Using Roundrox's glowstone and an Ironworks decoder, Wedge reveals that the Illuminati are sending out...gibberish. Luck appears to be on your side, however, as a treasure hunter by the name of Mide appears soon after, and offers you her aid. Thanks to her, Biggs succeeds in opening the hatch just as Cid arrives. Though he was able to glean little of use from Brayflox concerning the primal or the Illuminati, he speculates that the metal giant is akin to an exceedingly large mammet─meaning that you need only locate and destroy its core to end the threat it poses. Gird your loins for whatever awaits you within the colossal machine, and set about exploring its interior.<br><br>※The Fist of the Father can be accessed via the Duty Finder.",
+            "You have successfully explored the colossus's hand. Make your way back outside.",
+            "As you make your way out of the hand of the colossus with Mide and Roundrox, you find your path blocked by a host of goblins. At their head stands Quickthinx Allthoughts, Grand Master of the Illuminati. He informs Mide that the thing she seeks lies elsewhere, prompting a laughing machinist at his side to mention something called the “Alexander Initiative.” Before Quickthinx can censure his loose-lipped underling, Mide opens fire, causing the bombs on the goblins' backs to detonate, and enabling you to make your escape. Now safely out of harm's way, speak with Biggs at Bigwest Shortstop, and tell him of all that has occurred.",
+            "Biggs is intrigued by this Alexander Initiative, and wonders aloud if the primal itself is named Alexander. Whether it be so or no, one thing is clear: much of the machine remains to be explored."
+        ],
+        "objectives": [
+            "Speak with Backrix at Bigwest Shortstop.",
+            "Speak with Biggs in the Makers' Quarter.",
+            "Use the pinch of 3G7-001B on Roundrox's junk pile at Bigwest Shortstop.",
+            "Retrieve the glowing stone.",
+            "Deliver the glowstone to Wedge in the Makers' Quarter.",
+            "Enter the Fist of the Father.",
+            "Report to Biggs."
+        ],
+        "dialogue": [
+            {
+                "name": "SLOWFIX",
+                "text": "Pssshkoh... Is uplander seeing it? Giant of iron, rising from river?"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Y'shtola and Cid leave to learn more, but are not back yet! Great is plight of gobbieflock! Giant is too big, can squash Idyllshire flat! Where are uplanders!?"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "(-Y'shtola-)Calm yourself, Slowfix."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. 'Tis well you are here, for our need is dire."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "A colossus of steam and steel has risen from the Thaliak."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Yet it is no mere forgotten contrivance of Sharlayan. The resultant aetheric disturbance confirms that it is a primal, and that it was summoned amidst the ruins left for the river to reclaim."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "For a mercy, it stopped dead no sooner than it had broken the water's surface. But so long as it remains in our realm, it may spring to life again at any moment."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Yes, yes, but what does uplander find near Idyllshire? Is wilderness still heavy with aether?"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Nay, the aether grows perilously thin, and more swiftly than I could have imagined."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "The primal is bleeding the land dry. Should it be suffered to continue, this entire region will become a barren waste in a matter of moons."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "N-No! Gobbieflock has only just found home after long wanderings! Idyllshire will not fall─Slowfix will not allow it!"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "And nor will we. I have already spoken with Alphinaud, and he concurs that we Scions of the Seventh Dawn must do all in our power to eliminate the threat. Yet given its size, I deem it wise to attack from two fronts."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Our first and most obvious recourse is to keep our foe in check with blade and magic, much as we have done with other such adversaries. Second, I propose that we attempt to cut off the flow of aether which sustains it, mayhap by physically separating the primal from the land."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "If we are to be rid of the colossus, I think the latter course more promising, and mean to enlist Master Matoya's aid in pursuing it. Yet such things take time."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Thus, I have asked Master Garlond to remain here and keep watch over our foe. Given its apparently mechanical nature, his expertise should prove invaluable to you."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "“To you,” I say, for I would leave the fate of Idyllshire in your hands. Should the primal chance to stir ere my return, you are to join Cid in repelling it. An unenviable task, but one for which you are singularly qualified."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Rest assured, I do not mean to linger with Master Matoya any longer than necessary. The moment we find a solution, I shall make haste to rejoin you here. Well then, let us be about our duties. I will leave you to discuss strategies with Cid."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Pssshkoh... Backrix is keeper of knowings for Idyllshire, can say where Cid has gone. Uplander should start with Backrix."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Pssshkoh... Backrix stays at Bigwest Shortstop, keeps eyes on doings of Illuminati."
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pssshkoh... Shiny junk and sparkly rocks,♪<br>Bittybobs and whirlycogs.♪"
+            },
+            {
+                "name": "BACKRIX",
+                "text": "Backrix is keeper of knowings and data! What does uplander wish to learn about? Ah, uplander comes in search of Cid, yes?"
+            },
+            {
+                "name": "CID",
+                "text": "My thanks for sharing your knowings, Backrix. These Illuminati are indeed most hostile."
+            },
+            {
+                "name": "CID",
+                "text": "Ah, <span class=\"highlight\">Forename</span> old friend! You haven't seen Y'shtola, have you?"
+            },
+            {
+                "name": "CID",
+                "text": "...Drained of all aether in a matter of mere <span class=\"emphasis\">moons</span>? Seven hells! How much power does that thing need? <span class=\"emphasis\">Too much</span>, plainly. Well, it sounds as if we have an urgent dismantling job on our hands."
+            },
+            {
+                "name": "CID",
+                "text": "From what Backrix has been telling me, the Illuminati are the most likely culprits. They have the knowledge to summon a primal, and the requisite shortsightedness not to think better of it."
+            },
+            {
+                "name": "CID",
+                "text": "“Fanatical” captures their philosophy nicely, I think─their goal being nothing less than sole ownership of all the world's technology. Needless to say, they're more than willing to kill anyone who stands between them and what they want."
+            },
+            {
+                "name": "CID",
+                "text": "Quite how they managed to coax a primal into the hulk of a Sharlayan defense mechanism I don't know, but it looks like they've made themselves a tidy little fortress inside the colossus."
+            },
+            {
+                "name": "CID",
+                "text": "We'll need to contend with them if we're to disable the thing. As for the task itself, simply destroying whatever serves as its engine should do the trick─assuming it is in fact mechanical. ...But before all that, we'll need to find a way in─through yet <span class=\"emphasis\">another</span> bloody barrier."
+            },
+            {
+                "name": "BACKRIX",
+                "text": "Pssshkoh... Barrier is not new, rose up three years ago after ground made shiveryshakes. Ruin was freed from riverbed then. Roundrox was there, saw with own two eyes."
+            },
+            {
+                "name": "CID",
+                "text": "Roundrox? Sorry, who is...?"
+            },
+            {
+                "name": "BACKRIX",
+                "text": "Daughter of Slowfix. Roundrox loves junk more than all other gobbies, was collecting then, and is playing now. Look."
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pssshkoh... Shiny junk and sparkly rocks,♪<br>Bittybobs and whirlycogs.♪"
+            },
+            {
+                "name": "CID",
+                "text": "I'm sorry for interrupting, Roundrox, but I need to ask you a question. When the ground shook three years ago, did something come bobbing up to the river's surface?"
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "“Bobbing”? Nothing <span class=\"emphasis\">bobbed</span>, silly uplander. Ground made shiveryshakes when giant of whirlycogs <span class=\"emphasis\">stood</span>. And then magic walls came up too!"
+            },
+            {
+                "name": "CID",
+                "text": "So it wasn't the tremor that freed the colossus─it was the colossus which caused the tremor. And you are absolutely <span class=\"emphasis\">certain</span> you saw it rise from the waters, young one?"
+            },
+            {
+                "name": "CID",
+                "text": "Seven hells─I think someone tried and failed to summon it three years ago. But was it the Illuminati, or...?"
+            },
+            {
+                "name": "PSEUDOBRAYFLOX",
+                "text": "Pshhh... Shkohhh...<br>Brayflox comes to trade tongueflaps, uplander."
+            },
+            {
+                "name": "CID",
+                "text": "Ah, just the goblin! Slowfix tells me you're his resident expert on the Illuminati. Pardon me a moment while I consult with my fellow uplander."
+            },
+            {
+                "name": "CID",
+                "text": "<span class=\"highlight\">Forename</span>─if I may make a suggestion, I'll speak with Brayflox, and learn what I can of our opponents."
+            },
+            {
+                "name": "CID",
+                "text": "In the meantime, could you investigate the colossus itself? Biggs and Wedge are near where its hand landed on the shore of the Thaliak. Join them, and see if you can't find a way inside the machine. Oh, and good luck with that barrier!"
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pssshkoh... Here is treasure trove of Roundrox! But shhh─is secret from big gobbies!"
+            },
+            {
+                "name": "BACKRIX",
+                "text": "Pssshkoh... Backrix makes record of uplanders' lipflaps. Cid says...go to Biggs near river shore."
+            },
+            {
+                "name": "WEDGE",
+                "text": "“Di dah, di dah di di...<br>Di, dah di di dah...”<br>What in the blazes...?"
+            },
+            {
+                "name": "BIGGS",
+                "text": "<span class=\"highlight\">Forename</span>! Come to see the colossus, eh? The chief has us looking for a way in. 'Course, there's a bleedin' barrier around the thing─aye, <span class=\"emphasis\">another</span> one..."
+            },
+            {
+                "name": "BIGGS",
+                "text": "Luckily for us, when the big feller came down, its hand clamped onto the shore here, punching a hole in its defenses, and leaving that round portal there unprotected."
+            },
+            {
+                "name": "BIGGS",
+                "text": "Only trouble is, it's locked and doesn't seem to have a key. For want of a better idea, Wedge is listening in to Illuminati linkpearl communications, in hopes they'll mention the trick to opening it."
+            },
+            {
+                "name": "WEDGE",
+                "text": "“Di dah, di dah di di...” Hrm. There's only one signal coming from inside the giant, and it's always the same pattern."
+            },
+            {
+                "name": "WEDGE",
+                "text": "I'm certain it's a code─the Illuminati always use coded messages. From what I hear, they've developed a special kind of crystal specifically for transmuting linkpearl waveforms."
+            },
+            {
+                "name": "WEDGE",
+                "text": "If we could get our hands on one, the chief's decoding machine here should theoretically be able to use it to untangle the meaning. Quite where we'd find such a crystal is another matter..."
+            },
+            {
+                "name": "REDBRIX",
+                "text": "Pshkohhh... Does uplander know Roundrox? She makes great collection of junk and things. Maybe is keeping crystal at Shortstop?"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Wouldn't that be a stroke of luck!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "And it just so happens I've been working on a means of identifying the crystal in question! Here, <span class=\"highlight\">Forename</span>─take this 3G7-001B!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Sprinkle that powder over this so-called collection, and look for anything that glimmers. It should contain the material we need. You may have to borrow one of Roundrox's treasures, but I'm sure she won't mind if you tell her it's for a good cause."
+            },
+            {
+                "name": "WEDGE",
+                "text": "I designed 3G7-001B precisely for a moment like this! I do hope it works!<br>...Ah! I almost neglected to mention: if you sprinkle it on something and it starts to smoke─run away. I-I don't expect it will, though! Just, uh...keep that in mind, all right?"
+            },
+            {
+                "name": "BIGGS",
+                "text": "If you don't find anything, we could always try blowing the hatch open. That armor looks pretty thick, though..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Amongst the jumble of bits and bobs, you spy a faintly glimmering stone."
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pssshkoh... Wh-What is uplander doing!? Sneakytaker! Treasure belongs to <span class=\"emphasis\">Roundrox</span>!"
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Uplander needs it? For giant of whirlycogs? But...but glowstone is most favoritest treasure of Roundrox... Mmm... All right. But uplander must <span class=\"emphasis\">promise</span> to bring it back, or Roundrox is getting <span class=\"emphasis\">very</span> angry."
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pssshkoh... Be careful with glowstone of Roundrox!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! No burns, I see! ...Hm? Oh, no reason. Tell me, did the 3G7-001B reveal anything?"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Thank you! And you have my word that I'll give this back to Roundrox when I've finished with it. Now, let's take a listen to what the Illuminati are <span class=\"emphasis\">really</span> saying."
+            },
+            {
+                "name": "WEDGE",
+                "text": "Goodness, all that infernal beeping is gone! Now it's a message, clear as day! Let's see..."
+            },
+            {
+                "name": "WEDGE",
+                "text": "“Today's schedule for Gordias. Registration at seventh bell. Stop. Louse the coeurl cubs at third bell. Stop. Rest and recuperation at second bell. Repeat. Today's schedule for Gordias...”"
+            },
+            {
+                "name": "WEDGE",
+                "text": "<span class=\"emphasis\">Coeurl lousing</span>!? B-But I'm <span class=\"emphasis\">sure</span> that was the only message! This has to be some sort of jest!"
+            },
+            {
+                "name": "BIGGS",
+                "text": "Don't be daft, Wedge. It's just another code. You need the proper crystal <span class=\"emphasis\">and</span> the proper knowledge to understand it. &lt;sigh&gt; Bleedin' Illuminati... Should've known it wouldn't be so easy."
+            },
+            {
+                "name": "MIDE",
+                "text": "(-???-)Quite the conundrum you have there..."
+            },
+            {
+                "name": "MIDE",
+                "text": "(-???-)But it's your lucky day. I'll crack the code─assuming we can come to a little arrangement."
+            },
+            {
+                "name": "MIDE",
+                "text": "I'm a treasure hunter by trade, and there's a certain something I want inside the giant. I help you get inside, you help me get out with it. A fair deal, no? The name's Mide, by the way."
+            },
+            {
+                "name": "WEDGE",
+                "text": "Uh...charmed, I'm sure. You <span class=\"emphasis\">are</span> aware that the interior is almost certainly swarming with Illuminati, yes?"
+            },
+            {
+                "name": "MIDE",
+                "text": "Why do you think I came to you? There's strength in numbers, friend. Best we join forces, eh?"
+            },
+            {
+                "name": "MIDE",
+                "text": "Now, the words you intercepted are largely gibberish. But paired with the numbers─well, you'll see. “Seven, stop, three, stop, two,” wasn't it?"
+            },
+            {
+                "name": "MIDE",
+                "text": "You, the big one─see the pipes atop the hatch? There ought to be a valve up there, with a handwheel. Imagine it's a clock, and try turning it right to seven, left to three, and then back to two."
+            },
+            {
+                "name": "WEDGE",
+                "text": "Ahahaha! We did it, we did it!"
+            },
+            {
+                "name": "CID",
+                "text": "...So the Illuminati have been announcing the way to enter the colossus all along? Strange. Well done for cracking the code, anyway."
+            },
+            {
+                "name": "CID",
+                "text": "I had less success, sadly. I'm afraid Brayflox knows little more than we do about the Illuminati's plan or the primal."
+            },
+            {
+                "name": "CID",
+                "text": "Come, come, things aren't as bad as all that. We've found a way inside the machine; we'll just have to learn about it as we go."
+            },
+            {
+                "name": "CID",
+                "text": "It's only a massive mammet, after all. Stopping it should be as simple as destroying its core. If we send in a suitably intrepid team of surveyors, I don't see why we can't trace the machine's power back to the source via the struts and piping."
+            },
+            {
+                "name": "CID",
+                "text": "And I know just the <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> to lead the party. What say you, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "MIDE",
+                "text": "And what of me, pray tell? I opened the way for this grand expedition of yours─surely that's earned me a place in your little band to hunt for my treasure."
+            },
+            {
+                "name": "CID",
+                "text": "You did as you promised, and you may do as you will now─but only so long as your treasure hunt doesn't endanger the mission."
+            },
+            {
+                "name": "CID",
+                "text": "I'd join you if I could, but there's something I need to see to first. I'll leave Biggs and Wedge here in case of emergencies. Good luck, my friend!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You now have access to the Fist of the Father. Gordias can be accessed via the entrance in the Makers' Quarter."
+            },
+            {
+                "name": "MIDE",
+                "text": "You needn't worry unduly about me. Once I have what I'm searching for, I'll leave─simple as that."
+            },
+            {
+                "name": "BIGGS",
+                "text": "If there's anything we can do to help, you need but ask."
+            },
+            {
+                "name": "WEDGE",
+                "text": "I'll keep checking Illuminati communications. If there's any change, you'll be the first to know!"
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pshkohhh... Uplanders find way into giant of whirlycogs? Oooh, Roundrox finds new treasures aplenty in the─ Er...uh... Nothing!"
+            },
+            {
+                "name": "MIDE",
+                "text": "Expertly done, adventurer."
+            },
+            {
+                "name": "MIDE",
+                "text": "Hm? Well, what have we here?"
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pshkohhh... Eheheh... Sorry. Roundrox could not stay away. So many new treasures here!"
+            },
+            {
+                "name": "MIDE",
+                "text": "Treasures? Oh, you mean the odd bits and bobs. Well, little one, these machina are yours to take. And some of them are rather beautiful, I must admit."
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "&lt;gasp&gt; Uplander can tell pretty machines from ugly!? Just like Roundrox!"
+            },
+            {
+                "name": "MIDE",
+                "text": "Heh... No harm in adding one more to our company, is there? I'll keep an eye on her."
+            },
+            {
+                "name": "MIDE",
+                "text": "Damn it. I was so sure..."
+            },
+            {
+                "name": "QUICKTHINXALLTHOUGHTS",
+                "text": "(-???-)Pshhhkohhh... Uplanders are unwise to come. But most of all is treasure hunter─what she seeks is not here, not in all of Gordias."
+            },
+            {
+                "name": "MIDE",
+                "text": "As I live and breathe─Quickthinx Allthoughts, master of the Illuminati."
+            },
+            {
+                "name": "ILLUMINATIELITEGUARD2090",
+                "text": "Pshhh... Shkohhh...<br>Gobbies are backstrapped with boomdust! Uplander shoots, everybody kabooms!"
+            },
+            {
+                "name": "ILLUMINATIELITEGUARD2090",
+                "text": "Uplander ear-catches tongueflaps of master? <span class=\"emphasis\">Enigma Codex</span> for plansmaking is gone! Illuminati are already undertaking Alexander Initiative!"
+            },
+            {
+                "name": "QUICKTHINXALLTHOUGHTS",
+                "text": "Pshhhkohhh... FOOLISH GOBBIE! Secrets are kept <span class=\"emphasis\">silent</span>. Tongueflaps <span class=\"emphasis\">never</span> traded with outsiders. Has Quickthinx not ordered so, <span class=\"emphasis\">many times</span>?"
+            },
+            {
+                "name": "ILLUMINATIELITEGUARD2090",
+                "text": "M-Master, forgive noisemaking of emptyhead! Gobbie did not think! Please, gobbie will take any punishment─just not worst one!"
+            },
+            {
+                "name": "MIDE",
+                "text": "Now!"
+            },
+            {
+                "name": "ILLUMINATIELITEGUARD02090",
+                "text": "Pshhh... Shkohhh...<br>Wh-What? Uplander is shooting gobbies!?"
+            },
+            {
+                "name": "ILLUMINATIELITEGUARDB02090",
+                "text": "And boomdust does not harm uplanders!<br>Blood! Uplander blood for fallen gobbiekin!"
+            },
+            {
+                "name": "MIDE",
+                "text": "I think now would be a good time to leave."
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pshkohhh... Uplander, what is <span class=\"emphasis\">Enigma Codex</span>? Treasure?"
+            },
+            {
+                "name": "MIDE",
+                "text": "Yes, young one─<span class=\"emphasis\">my</span> treasure."
+            },
+            {
+                "name": "MIDE",
+                "text": "Roundrox has been showing me her treasures─and they're aptly named. Only a fool would call them junk. Just because something has been discarded, it doesn't mean it can't be beautiful."
+            },
+            {
+                "name": "MIDE",
+                "text": "She also said that Quickthinx has a face like a machina─cold and calculating. I can only assume she means his mask."
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pshkohhh... Mide is amazing! She can tell pretty junk from ugly almost as well as Roundrox!"
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "This whirlycog Roundrox finds seventy-two yalms north and west. And this one, this one is twenty-four yalms south and east of Arkhitekton!"
+            },
+            {
+                "name": "ROUNDROX",
+                "text": "Pshkohhh... Shiny junk and sparkly rocks,♪<br>Bittybobs and whirlycogs.♪"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>! I'm working with Backrix to intercept Illuminati communications."
+            },
+            {
+                "name": "WEDGE",
+                "text": "He's got a wonderful memory for details, and a great mind for codes! I must say, the goblins' grasp of technology is something to behold. I'm impressed!"
+            },
+            {
+                "name": "BIGGS",
+                "text": "Bleedin' hells! Face-to-face with the head of the Illuminati, eh? Sounds like you had quite an adventure! And this “Alexander Initiative” has got me wondering... Do you reckon it might be the giant's name?"
+            },
+            {
+                "name": "BIGGS",
+                "text": "No sign of the core though, eh? Well, we'll just have to look further in. I'll let the chief know, anyway."
+            },
+            {
+                "name": "BIGGS",
+                "text": "He'll be happy to hear Mide and Roundrox are safe, too. Those two haven't stopped talking about machines since they got back. I can't say I've ever thought of junk as pretty, but each to their own."
+            }
+        ],
+        "reward": {
+            "gil": 5000,
+            "xp": 0,
+            "instance": 30021
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67205
+            ]
+        },
+        "next": [
+            67627
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012097",
+            "obj": {
+                "i": 1012097,
+                "n": "Slowfix",
+                "l": 2082,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014407",
+            "obj": {
+                "i": 1014407,
+                "n": "Biggs",
+                "l": 2001,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013714",
+            "obj": {
+                "i": 1013714,
+                "n": "Backrix",
+                "l": 2001,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014402",
+            "obj": {
+                "i": 1014402,
+                "n": "Roundrox",
+                "l": 2001,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014403",
+            "obj": {
+                "i": 1014403,
+                "n": "Biggs",
+                "l": 2001,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014404",
+            "obj": {
+                "i": 1014404,
+                "n": "Wedge",
+                "l": 2001,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014406",
+            "obj": {
+                "i": 1014406,
+                "n": "Mide",
+                "l": 2001,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014408",
+            "obj": {
+                "i": 1014408,
+                "n": "Wedge",
+                "l": 2001,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014409",
+            "obj": {
+                "i": 1014409,
+                "n": "Mide",
+                "l": 2001,
+                "q": 7
+            }
+        },
+        {
+            "type": "instance",
+            "id": "30021",
+            "obj": {
+                "i": 30021,
+                "n": "Alexander - The Fist of the Father",
+                "c": 61802,
+                "t": "Raids",
+                "min_lvl": 60,
+                "max_lvl": 60,
+                "min_ilvl": 170
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67205",
+            "obj": {
+                "i": 67205,
+                "n": "Heavensward",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 94
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67627",
+            "obj": {
+                "i": 67627,
+                "n": "Steel and Steam",
+                "g": 16,
+                "l": "The Dravanian Hinterlands",
+                "s": 2,
+                "f": 1
+            }
+        }
+    ]
+}

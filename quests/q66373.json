@@ -1,0 +1,182 @@
+{
+    "quest": {
+        "name": "Pests in the Pillars",
+        "location": "Eastern La Noscea",
+        "id": 66373,
+        "patch": 2.0,
+        "sort": 320,
+        "eventIcon": 71221,
+        "issuer": 1006271,
+        "target": 1006271,
+        "genre": 91,
+        "journal": [
+            "The maidservant P'ebaloh has another task for your capable hands.",
+            "P'ebaloh has told you that uragnites are making their homes on the pillars below. Use the steel spatulas to dislodge them for summary extermination.",
+            "You have triumphed over every murderous mollusk. Report to P'ebaloh.",
+            "P'ebaloh bemoans the fact that though she was once a member of the Company of Heroes, even the simple task you have performed is now beyond her. The wounds she suffered from a battle with a primal were more than skin-deep, causing her to trade in her sword for a salver."
+        ],
+        "objectives": [
+            "Use steel spatulas on sturdy pillars and slay uragnites.",
+            "Report to P'ebaloh."
+        ],
+        "dialogue": [
+            {
+                "name": "PEBALOH",
+                "text": "I have a more deserving adversary for you this time, adventurer. There are uragnites making their homes on the pillars below. And judging by how deeply rooted they've become, I'd say they've been there for quite a while."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "That said, these steel spatulas should serve to both dislodge the mollusks and preserve our posts at the same time. I would be obliged if you would check out the area and eradicate the little devils."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "You will be amply compensated, of course. Thank you kindly."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "Ah, the pillars look sparkling. Thank you, <span class=\"alternative-container\"><span class=\"alternative\">milady</span><span class=\"alternative\">milord</span></span>. 'Twas only a bit of housekeeping, I suppose, but even that is beyond me."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "I once served in the Company of Heroes, if you can believe it. But a battle with a primal left me grievously wounded and heartsore. I have since kept to more mundane tasks, as I've lost the appetite for bloodshed."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "This life has been good to me. Too many soldiers fight to defend that which they will never know─the joy of learning, the pleasure of ease, the tumult of beauty─but I have known them. Yet, in my dreams of smoke and steel, I still hear my captain calling, “To me, to me...”"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4552,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4556,
+                    "one": 1
+                },
+                {
+                    "id": 5715,
+                    "one": 1
+                },
+                {
+                    "id": 5720,
+                    "one": 1
+                }
+            ],
+            "xp": 7995
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66372
+            ]
+        },
+        "next": [
+            66389
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006271",
+            "obj": {
+                "i": 1006271,
+                "n": "P'ebaloh",
+                "l": 32,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "item",
+            "id": "4556",
+            "obj": {
+                "i": 4556,
+                "n": "Hi-Ether",
+                "l": 35,
+                "c": 20622,
+                "t": 44,
+                "p": 432
+            }
+        },
+        {
+            "type": "item",
+            "id": "5715",
+            "obj": {
+                "i": 5715,
+                "n": "Quickarm Materia II",
+                "l": 30,
+                "c": 20226,
+                "t": 58,
+                "materia": {
+                    "tier": 1,
+                    "value": 2,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5720",
+            "obj": {
+                "i": 5720,
+                "n": "Quicktongue Materia II",
+                "l": 30,
+                "c": 20226,
+                "t": 58,
+                "materia": {
+                    "tier": 1,
+                    "value": 2,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66372",
+            "obj": {
+                "i": 66372,
+                "n": "Buffaloed All the Way",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 320
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66389",
+            "obj": {
+                "i": 66389,
+                "n": "The Stench of Danger",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 330
+            }
+        }
+    ]
+}

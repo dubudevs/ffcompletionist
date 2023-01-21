@@ -1,0 +1,92 @@
+{
+    "quest": {
+        "name": "Microbrewing",
+        "location": "Upper La Noscea",
+        "id": 66270,
+        "patch": 2.0,
+        "sort": 125,
+        "eventIcon": 71201,
+        "target": 1006193,
+        "genre": 0,
+        "journal": [
+            "Teteroon has places for you to go and thingies for you to get.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Teteroon at Memeroon's Trading Post.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You have procured the required ingredients. Take them back to Teteroon.",
+            "Teteroon has set about brewing his Qiqirn firewater from the ingredients you have provided. But good firewater takes time. Speak to him again later to learn how his concoction turns out."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Teteroon at Memeroon's Trading Post.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "TETEROON",
+                "text": "Good Buscaroon help Teteroon. Teteroon dead without good Buscaroon. Must give thankies. Many, many thankies. Teteroon make Qiqirn firewater for Buscaroon! Buscaroon love firewater!"
+            },
+            {
+                "name": "TETEROON",
+                "text": "You help Teteroon make firewater? Need thingies to make. Need many, many thingies."
+            },
+            {
+                "name": "TETEROON",
+                "text": "Need good water. Good water from Fool Falls. And need coeurl whiskers. Need five good coeurl whiskers."
+            },
+            {
+                "name": "DUMMY",
+                "text": "（愚か者の滝の指定地点に空のタルを使用し滝の水を入手）"
+            },
+            {
+                "name": "DUMMY",
+                "text": "（クアールを討伐して「クアールの髭」を入手×５）"
+            },
+            {
+                "name": "TETEROON",
+                "text": "Teteroon make firewater for Buscaroon. You bring thingies Teteroon need?"
+            },
+            {
+                "name": "TETEROON",
+                "text": "You brought all thingies! Teteroon make firewater now. Make good firewater for good Buscaroon."
+            },
+            {
+                "name": "TETEROON",
+                "text": "Teteroon start making firewater now. Good firewater take time. More time, more good. You come back later."
+            }
+        ],
+        "reward": {
+            "xp": 8960
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 23,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66269
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006193",
+            "obj": {
+                "i": 1006193,
+                "n": "Teteroon",
+                "l": 34,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66269",
+            "obj": {
+                "i": 66269,
+                "n": "Never Forget",
+                "g": 0,
+                "l": "South Shroud",
+                "s": 124
+            }
+        }
+    ]
+}

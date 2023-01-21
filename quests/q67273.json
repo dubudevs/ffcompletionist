@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "An Attractive Charm",
+        "location": "Coerthas Western Highlands",
+        "id": 67273,
+        "patch": 3.0,
+        "sort": 5004,
+        "eventIcon": 71221,
+        "issuer": 1013344,
+        "target": 1013344,
+        "genre": 94,
+        "journal": [
+            "The hot-tempered knight is trying to catch his breath.",
+            "A knight was attacked by a large swarm of frost grenades. He escaped unharmed, but they tore apart his magic talisman and escaped with the pieces! Slay these thieving critters and recover the three pieces of the magic talisman.",
+            "You successfully recover the pieces of the talisman. Return them to the knight at Gorgagne Mills.",
+            "The knight is relieved that you were able to recover all the pieces of his talisman. He tells you how his family made it for him from an ice crystal. Realizing that the freezing Coerthan snowdrifts are hardly the ideal place to carry ice crystals on one's person, he decides to leave the talisman in the barracks next time he goes on duty."
+        ],
+        "objectives": [
+            "Slay frost grenades and obtain talisman fragments.",
+            "Deliver the fragments to the knight."
+        ],
+        "dialogue": [
+            {
+                "name": "SOLDIER01737",
+                "text": "Gods be cursed! Mere moments ago I was mobbed by a huge swarm of frost grenades. I made away with my life, but dropped my magic talisman in the confusion. It was a gift from my family, but the instant those monsters saw it, they lost all interest in me─they tore the thing apart and fled with the pieces!"
+            },
+            {
+                "name": "SOLDIER01737",
+                "text": "That talisman carries a lot of sentimental value for me. I have to get it back, but I can't leave my post. Hmmm...you strike me as quite the capable sort. Be a good <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span> and recover it for me, would you?"
+            },
+            {
+                "name": "SOLDIER01737",
+                "text": "It looked like the talisman was broken into three separate pieces. I didn't see which of the beasts nabbed the pieces, mind you. I was more concerned with escaping before they regained their interest in me. But please, slay the frost grenades and recover my talisman for me!"
+            },
+            {
+                "name": "SOLDIER01737",
+                "text": "Please recover my talisman. It was torn into three pieces and taken by frost grenades."
+            },
+            {
+                "name": "SOLDIER01737",
+                "text": "Have you the pieces of my magic talisman?"
+            },
+            {
+                "name": "SOLDIER01737",
+                "text": "Oh, you found them! Words cannot fully express my gratitude. My family made the talisman from an ice crystal. It was meant to protect me, but to be honest, there's more than enough cold around here without me carrying this thing. Still, it carries no small amount of sentimental value for me."
+            },
+            {
+                "name": "SOLDIER01737",
+                "text": "I wonder what made the frost grenades swarm over it so. Did they plan to <span class=\"emphasis\">eat</span> it? For something that's supposed to protect me, this talisman is doing a dreadful job."
+            },
+            {
+                "name": "SOLDIER01737",
+                "text": "Whatever the reason, I'd much prefer not getting attacked again. I'll be sure to put this somewhere safe in the barracks rather than carrying it on my person. Thank you again for recovering it for me."
+            }
+        ],
+        "reward": {
+            "gil": 433,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 15
+                },
+                {
+                    "num": 50,
+                    "id": 9
+                },
+                {
+                    "num": 100,
+                    "id": 3
+                }
+            ],
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67124
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013344",
+            "obj": {
+                "i": 1013344,
+                "n": "Hot-tempered Knight",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67124",
+            "obj": {
+                "i": 67124,
+                "n": "At the End of Our Hope",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 9
+            }
+        }
+    ]
+}

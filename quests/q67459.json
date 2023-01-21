@@ -1,0 +1,208 @@
+{
+    "quest": {
+        "name": "Pest Control",
+        "location": "The Dravanian Forelands",
+        "id": 67459,
+        "patch": 3.0,
+        "sort": 5703,
+        "icon": 100472,
+        "eventIcon": 71221,
+        "issuer": 1014502,
+        "target": 1014502,
+        "involved": [
+            1011924
+        ],
+        "genre": 98,
+        "journal": [
+            "Hervoix is loath to start his new assignments.",
+            "Hervoix has been worrying over the list of tasks given to him by O'bhen Tia, unsure of which one to procrastinate on doing first. Eventually he decides to take care of the beasts that have been stalking the forest to the east. Or rather, he decides to have <span class=\"emphasis\">you</span> take care of them. Head to the eastern camp and speak with Guenaret for any information regarding your targets' whereabouts.",
+            "After speaking to Guenaret about the oversized arachnids, you learn that O'bhen Tia himself demanded that Guenaret wait until someone was sent to settle the problem. Although <span class=\"emphasis\">you</span> were not actually the one meant to do the job, Guenaret seems eager to be rid of the menace. Go north and search for any signs of the beasts, which are said to resemble giant spiders.  ",
+            "The monsters will no longer pose a danger to the forest's chocobos or hunters. Report your success to Hervoix at Tailfeather to receive your reward, hopefully this time in a timely manner.",
+            "You relay the story of your errand to Hervoix, and he seems to be slighted by the fact that O'bhen Tia would dare entrust him with such dangerous work. With his chief's intentions still a mystery, he gives you your reward and begrudgingly returns to his list of tasks."
+        ],
+        "objectives": [
+            "Speak with Guenaret.",
+            "Slay the monsters near the Hissing Cobbles.",
+            "Report to Hervoix."
+        ],
+        "dialogue": [
+            {
+                "name": "HERVOIX",
+                "text": "I suppose I should at least <span class=\"emphasis\">look</span> at the chief's requests... Which job should I do..."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "“Some unseemly beasts have been sighted near the camp to the east. Slay them before any chocobos, or chocobo hunters, come to harm.”"
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Godsdammit, he means to make me slaughter <span class=\"emphasis\">more</span> mindless brutes? How're we supposed to make a living if we're not out hunting? Say...this type of job might befit a certain adventurer I know..."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "How does a jaunt into the forest for some monster killing sound? Of course, more gil awaits you upon completion."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Splendid! As you likely already know, a hunter's camp lies to the east of here. Ask Guenaret for any information about the beasts terrorizing the chocobos. "
+            },
+            {
+                "name": "HERVOIX",
+                "text": "The camp is just to the east of here. Ask Guenaret what he knows of these alleged beasts."
+            },
+            {
+                "name": "GUENARET",
+                "text": "You're here lookin' for those maddenin' beasts too? Ain't never seen a thing like them in these woods. Seems they're lurkin' about to the north of here."
+            },
+            {
+                "name": "GUENARET",
+                "text": "I had a mind to take care of them myself, but O'bhen Tia was awful insistent that I stay put, said he'd be sendin' someone over to do it. I reckon that's you? Well, as long as it gets done one way or the other, I suppose I've no right to complain."
+            },
+            {
+                "name": "GUENARET",
+                "text": "Ain't never seen the likes of those beasts in this forest before. Head north if you're planning on lookin' for them."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Ah, you're back quicker than I expected. Now, tell me all about your exciting hunt!"
+            },
+            {
+                "name": "HERVOIX",
+                "text": "D-Diremites, you say!? Thank heavens for you, adventurer, as I have a terrible phobia of anything with more than four legs. But, if what Guenaret said was true..."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Why would the chief put such dangerous work on <span class=\"emphasis\">my</span> shoulders? I could've been injured, or worse..."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Hmmm, I suppose it's best not to dwell on such matters for now. Once again, you have proven your excellence at killing. Your reward is well deserved!"
+            }
+        ],
+        "reward": {
+            "gil": 633,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 8160,
+                    "one": 1
+                },
+                {
+                    "num": 15,
+                    "id": 8161,
+                    "one": 1
+                },
+                {
+                    "num": 15,
+                    "id": 8162,
+                    "one": 1
+                }
+            ],
+            "xp": 38400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 57,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67189,
+                67458
+            ]
+        },
+        "next": [
+            67462
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1014502",
+            "obj": {
+                "i": 1014502,
+                "n": "Hervoix",
+                "l": 2000,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011924",
+            "obj": {
+                "i": 1011924,
+                "n": "Guenaret",
+                "l": 2000,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "8160",
+            "obj": {
+                "i": 8160,
+                "n": "Valfruit",
+                "l": 45,
+                "c": 25310,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "8161",
+            "obj": {
+                "i": 8161,
+                "n": "O'Ghomoro Berries",
+                "l": 45,
+                "c": 25309,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "8162",
+            "obj": {
+                "i": 8162,
+                "n": "Cieldalaes Pineapple",
+                "l": 45,
+                "c": 25303,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67189",
+            "obj": {
+                "i": 67189,
+                "n": "Tataru's Surprise",
+                "g": 3,
+                "l": "Gridania",
+                "s": 78
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67458",
+            "obj": {
+                "i": 67458,
+                "n": "Getting a Legtrap Up",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5702
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67462",
+            "obj": {
+                "i": 67462,
+                "n": "A Hunter's True Nature",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5706
+            }
+        }
+    ]
+}

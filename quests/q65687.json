@@ -1,0 +1,142 @@
+{
+    "quest": {
+        "name": "Gil for Gold",
+        "location": "Ul'dah",
+        "id": 65687,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1001288,
+        "target": 1001289,
+        "genre": 93,
+        "journal": [
+            "Didilata needs help to repay a long overdue debt.",
+            "In order to repay his debt, Didilata is willing to sell his deceased mother's wedding ring, despite its tremendous sentimental value. Take the ring to Arrzaneth Ossuary and have Mamane appraise it.",
+            "Mamane coolly declares the ring a fake, and proceeds to demand a fee for her appraisal services. However, she is willing to waive the fee this one time, and even “dispose” of the ring free of charge─which absolves you of your debt to the Ossuary, but does nothing for Didilata."
+        ],
+        "objectives": [
+            "Take the ring to Mamane for appraisal."
+        ],
+        "dialogue": [
+            {
+                "name": "DIDILATA",
+                "text": "Look, I haven't g-g-got the gil on hand, but I do have this ring!"
+            },
+            {
+                "name": "DIDILATA",
+                "text": "Ain't m-m-much to look at, but it'll surely fetch a high price. Was me dear departed mum's wedding ring, g-g-gods rest her soul. But she'll understand!"
+            },
+            {
+                "name": "DIDILATA",
+                "text": "Show it to Mamane, over at the Ossuary, and you'll g-g-get your coin!"
+            },
+            {
+                "name": "MAMANE",
+                "text": "Greetings, adventurer. What brings you to Arrzaneth Ossuary?"
+            },
+            {
+                "name": "MAMANE",
+                "text": "You wish to sell this heirloom on behalf of a Didilata? Very well. It is most unfortunate when such drastic measures must be taken..."
+            },
+            {
+                "name": "MAMANE",
+                "text": "...and doubly so when the item in question is a <span class=\"emphasis\">fake</span>. And such a gaudy, poorly wrought one! Also, you <span class=\"emphasis\">do</span> know that our appraisals are not free? Normally, this fee is subtracted from the agreed value."
+            },
+            {
+                "name": "MAMANE",
+                "text": "Alas, considering the negligible value of this ring, I'm afraid you would still owe us. However, since this is a rather unusual circumstance, we shall waive the fee this once. No need to concern yourself with the bauble─I will personally see to its disposal."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4551,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 50
+        },
+        "reqs": {
+            "quests": [
+                65686
+            ]
+        },
+        "next": [
+            65689
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001288",
+            "obj": {
+                "i": 1001288,
+                "n": "Didilata",
+                "l": 40,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001289",
+            "obj": {
+                "i": 1001289,
+                "n": "Mamane",
+                "l": 40,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65686",
+            "obj": {
+                "i": 65686,
+                "n": "Motivational Speaking",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 10
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65689",
+            "obj": {
+                "i": 65689,
+                "n": "Unholy Matrimony",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 10
+            }
+        }
+    ]
+}

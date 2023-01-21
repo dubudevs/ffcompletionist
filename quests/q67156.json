@@ -1,0 +1,221 @@
+{
+    "quest": {
+        "name": "Moghan's Trial",
+        "location": "The Churning Mists",
+        "id": 67156,
+        "patch": 3.0,
+        "sort": 41,
+        "eventIcon": 71201,
+        "issuer": 1012078,
+        "target": 1012078,
+        "genre": 3,
+        "journal": [
+            "Moghan would test your trustworthiness with a trial.",
+            "You speak with Moghan, one of the three trial-givers named by Moglin, and the moogle alchemist bids you gather a special ingredient for his potions. Search the vicinity of Eil Tohm and collect three sprigs of cloudsbreath.",
+            "You have plucked three sprigs of the delicate white flower. Return to Moghome, and deliver them to the waiting Moghan.",
+            "You hand over the sprigs of cloudsbreath to an appreciative Moghan. The alchemist claims that the flower is the main ingredient in a tonic that restores bounce to even the floppiest pom."
+        ],
+        "objectives": [
+            "Obtain sprigs of cloudsbreath.",
+            "Deliver the sprigs of cloudsbreath to Moghan."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGHAN",
+                "text": "Hello! Yes, I am Moghan─the foremost alchemist in Moghome, if you must know!"
+            },
+            {
+                "name": "MOGHAN",
+                "text": "If your tummy's gloopy or your wings're droopy, I've a potion to fix that!"
+            },
+            {
+                "name": "MOGHAN",
+                "text": "Or, I would if I didn't keep running out of ingredients. Luckily, you're here to do my chore─ Er, trial! Yes! Go forth, mighty adventurer, and mightily pluck three sprigs of cloudsbreath for me!"
+            },
+            {
+                "name": "MOGHAN",
+                "text": "You'll find it blooming near the entrance to Eil Tohm. It's not the safest of places, so don't let yourself be too distracted by the pretty flowers, kupo!"
+            },
+            {
+                "name": "MOGHAN",
+                "text": "Pick three sprigs of cloudsbreath─that is your trial. Simple enough, kupo?"
+            },
+            {
+                "name": "MOGHAN",
+                "text": "Just pay attention to the denizens near Eil Tohm. They're not exactly, um, friendly!"
+            },
+            {
+                "name": "MOGHAN",
+                "text": "Did you have any trouble finding cloudsbreath? I do need it quite urgently, you know..."
+            },
+            {
+                "name": "MOGHAN",
+                "text": "Oh, yes, these are perfect, kupo! Now I have the main ingredient for my pom tonic."
+            },
+            {
+                "name": "MOGHAN",
+                "text": "...Speaking of which, how are <span class=\"emphasis\">you</span> feeling, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>? Should you ever feel your pom losing its bounce, then I'm your moogle, kupo!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have completed the Trials of Trustworthiness. Return to Chieftain Moglin and await his judgment."
+            }
+        ],
+        "reward": {
+            "gil": 485,
+            "items": [
+                {
+                    "id": 10606,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10594,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10618,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10666,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 62400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 54,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67155
+            ]
+        },
+        "next": [
+            67159,
+            67355
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012078",
+            "obj": {
+                "i": 1012078,
+                "n": "Moghan",
+                "l": 2002,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "10606",
+            "obj": {
+                "i": 10606,
+                "n": "Titanium Lance",
+                "l": 133,
+                "c": 31890,
+                "t": 5,
+                "p": 30332
+            }
+        },
+        {
+            "type": "item",
+            "id": "10594",
+            "obj": {
+                "i": 10594,
+                "n": "Titanium Jamadhars",
+                "l": 133,
+                "c": 31088,
+                "t": 1,
+                "p": 26119
+            }
+        },
+        {
+            "type": "item",
+            "id": "10618",
+            "obj": {
+                "i": 10618,
+                "n": "Titanium Pugiones",
+                "l": 133,
+                "c": 33878,
+                "t": 84,
+                "p": 17693
+            }
+        },
+        {
+            "type": "item",
+            "id": "10666",
+            "obj": {
+                "i": 10666,
+                "n": "Titanium Kite Shield",
+                "l": 133,
+                "c": 30111,
+                "t": 11,
+                "p": 31596
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67155",
+            "obj": {
+                "i": 67155,
+                "n": "Mountaintop Diplomacy",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 40
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67159",
+            "obj": {
+                "i": 67159,
+                "n": "Moglin's Judgment",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 44
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67355",
+            "obj": {
+                "i": 67355,
+                "n": "The Bathing Bully",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5401,
+                "f": 1
+            }
+        }
+    ]
+}

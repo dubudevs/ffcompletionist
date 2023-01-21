@@ -1,0 +1,232 @@
+{
+    "quest": {
+        "name": "Brain Buster",
+        "location": "Outer La Noscea",
+        "id": 66879,
+        "patch": 2.2,
+        "sort": 26,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 3,
+        "eventIcon": 71222,
+        "issuer": 1005929,
+        "target": 1005929,
+        "involved": [
+            1005960,
+            1008781,
+            1008782,
+            1008783,
+            1008784,
+            1008785,
+            1008786
+        ],
+        "genre": 39,
+        "journal": [
+            "789th Order Craftsman Bo Gu isn't the sharpest tool in the shed, a situation he hopes to rectify.",
+            "Intimidated by the assemblage of alchemical geniuses working for Zo Ga at the 13th Order workshop, Bo Gu would level the intellectual playing field the only way one of his limited mental faculties can fathom─by sending an adventurer like yourself to infiltrate the workshop and bash their brains in. Seek entrance to the workshop from the ever-sympathetic Ga Zi, and hurl assorted epithets at the learned kobolds to spur them to attack and thus justify the subsequent slaughter.",
+            "Some of the greatest geniuses in kobold history are no more. Console yourself with the thought that they were probably up to no good anyway, and return to the 789th Order Dig to deliver news of your triumph to Bo Gu.",
+            "Feeling a good deal more intelligent than he did a short while ago, Bo Gu applauds your efforts to dumb down the 13th. Judging from the self-satisfied grin on his face, you have little doubt that he will be calling upon you again to carry out his next brilliant idea..."
+        ],
+        "objectives": [
+            "Speak with, then slay 13th Order alchemists and scholars in the 13th Order workshop.",
+            "Report to 789th Order Craftsman Bo Gu."
+        ],
+        "dialogue": [
+            {
+                "name": "BOGU",
+                "text": "Bo Gu cannot stand the 13th, no. Always using big words, hiding in their workshop making booms and bangs, bangs and burns that make big trouble for Bo Gu."
+            },
+            {
+                "name": "BOGU",
+                "text": "The only smart one around here is Ba Go. And Ba Go does not care for us─no, no. Ba Go cares only for his beauties, and for Ba Go."
+            },
+            {
+                "name": "BOGU",
+                "text": "Bo Gu would show the 13th that their wits mean nothing. No, no, wits will not stop you from getting sliced─chopped, diced, sliced─by an overdweller. Yes, an overdweller like you..."
+            },
+            {
+                "name": "BOGU",
+                "text": "But Bo Gu does not believe in senseless violence─no, no. So you will break into the workshop, yes? Call them fathead and four-eyes, yes, and other nasty names. They get angry, <span class=\"emphasis\">then</span> you kill them."
+            },
+            {
+                "name": "BOGU",
+                "text": "Ga Zi will let you into the workshop, yes, yes. Ga Zi is of the 13th, but cares little for his puffed-up peers. Yes this, Bo Gu knows."
+            },
+            {
+                "name": "BOGU",
+                "text": "Bo Gu would show the 13th that their wits mean nothing. No, no, wits will not stop you from getting sliced─chopped, diced, sliced─by an overdweller."
+            },
+            {
+                "name": "BOGU",
+                "text": "You will break into the workshop, yes? Call them fathead and four-eyes, yes, and other nasty names. Then they get angry, <span class=\"emphasis\">then</span> you kill them."
+            },
+            {
+                "name": "KOBOLD",
+                "text": "Intruder will bleed─spurt, gush, bleed!"
+            },
+            {
+                "name": "KOBOLD",
+                "text": "Our secrets are not for overdweller eyes!<br>Overdweller must die─yes, yes, die!"
+            },
+            {
+                "name": "KOBOLD",
+                "text": "No, no! Zo Ga d-didn't tell me I'd have to fight!"
+            },
+            {
+                "name": "BOGU",
+                "text": "Oh, thank you, adventurer! That will teach Zo Ga a lesson─a message, a moral, a lesson. Yes, no matter how smart you might be, there is always someone smarter than you."
+            },
+            {
+                "name": "BOGU",
+                "text": "We make a good team, yes─you and me, me and you. With Bo Gu's brains and your brawn, there is nothing─no, no, nothing─we cannot do!"
+            },
+            {
+                "name": "SCENE00009",
+                "text": "Enter the 13th Order workshop?"
+            },
+            {
+                "name": "SCENE00009",
+                "text": "Yes"
+            },
+            {
+                "name": "SCENE00009",
+                "text": "No"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "The kobold lunges at you!"
+            },
+            {
+                "name": "GAJI",
+                "text": "Bulgebrains in the workshop make fun of Ga Zi, say he talk funny─strange, odd, funny, that sort of thing. Yunz want to slap some sense into them, Ga Zi won't get in yunz's way, nuh-uh, nuh-uh."
+            }
+        ],
+        "reward": {
+            "gil": 540,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9142
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005929",
+            "obj": {
+                "i": 1005929,
+                "n": "789th Order Craftsman Bo Gu",
+                "l": 350,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005960",
+            "obj": {
+                "i": 1005960,
+                "n": "13th Order Alchemist Ga Zi",
+                "l": 350,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008781",
+            "obj": {
+                "i": 1008781,
+                "n": "13th Order Alchemist",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008782",
+            "obj": {
+                "i": 1008782,
+                "n": "13th Order Scholar",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008783",
+            "obj": {
+                "i": 1008783,
+                "n": "13th Order Alchemist",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008784",
+            "obj": {
+                "i": 1008784,
+                "n": "13th Order Scholar",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008785",
+            "obj": {
+                "i": 1008785,
+                "n": "13th Order Alchemist",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008786",
+            "obj": {
+                "i": 1008786,
+                "n": "13th Order Scholar",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

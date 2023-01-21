@@ -1,0 +1,202 @@
+{
+    "quest": {
+        "name": "Chocobo's Last Stand",
+        "location": "The Dravanian Forelands",
+        "id": 67334,
+        "patch": 3.0,
+        "sort": 5302,
+        "eventIcon": 71221,
+        "issuer": 1011916,
+        "target": 1011916,
+        "involved": [
+            1013400,
+            1013401,
+            1013402,
+            1013403,
+            1013404
+        ],
+        "genre": 98,
+        "journal": [
+            "Marcechamp is preparing for the most dangerous game.",
+            "Marcechamp has asked you to aid in the hunt for a wild chocobo that has been terrorizing the forest around Tailfeather. Follow his tracker and investigate the broken trap near the Whilom River for clues of the bird's whereabouts.",
+            "You arrive on scene to find Marcechamp's tracker on her knees, apparently having been attacked by the chocobo standing over her. As you approach, the chocobo runs off in the direction of the Hundred Throes. Give chase, and be ready for a fight should it come to that.",
+            "The chocobo attacks you when you approach, and you are forced to slay it after a fierce fight. Check on the wounded tracker to see how she is faring.",
+            "Since you were the one to put the mighty chocobo to its rest, the tracker thinks it best that you should be the one to inform Marcechamp of the final battle. Head back to Tailfeather and make your report.",
+            "You have informed Marcechamp of the battle that transpired near the Hundred Throes. He informs you that because chocobos are highly intelligent animals, they must be put down if they get it in their minds to attack people, as it is the chocobo's primary purpose to serve, not harm."
+        ],
+        "objectives": [
+            "Speak with the seasoned tracker.",
+            "Pursue the wild draught chocobo and slay it if it attacks.",
+            "Speak with the seasoned tracker.",
+            "Report to Marcechamp."
+        ],
+        "dialogue": [
+            {
+                "name": "CHASERA01797",
+                "text": "Talk to the chief for the details of the hunt."
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "It seems that wild chocobo has it out for us hunters. An' when one of their kind gets somethin' like that in its head, ain't no way it'll ever be fit for ridin'. The only choice we have now is to put the bird down, rare as it might be."
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "This job'll require all the hands I've got, an' you've proven to be a stout ally to us hunters. I want you to go along with my best trackers an' find out where this monstrous chocobo lays its roost."
+            },
+            {
+                "name": "CHASERA01797",
+                "text": "The whereabouts of that chocobo won't be a mystery for long. Let's see... A broken trap was discovered in the vicinity of the Whilom River. That'd be a good place to start our search."
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "Trackin' down an' takin' care of this chocobo won't be as easy as some o' the other tasks I've asked you to do, but I know you're the adventurer for the job. Go with my best tracker an' finish this."
+            },
+            {
+                "name": "HUGECHOCOBOA01798",
+                "text": "Kweeeh!"
+            },
+            {
+                "name": "HUGECHOCOBOA01798",
+                "text": "Kweh! Kweeeh!"
+            },
+            {
+                "name": "CHASERB01798",
+                "text": "That was close, but I'll be all right. Don't let the bird get away... Follow it!"
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "What? You <span class=\"emphasis\">found</span> the bloody thing!? What are you doin' talkin' to me, then!? Get after it!"
+            },
+            {
+                "name": "CHASERB01798",
+                "text": "Godsdamn, that smarts. After the chocobo before it gets away!"
+            },
+            {
+                "name": "HUGECHOCOBOA01798",
+                "text": "Kweh! Kweh! Kweh kweeeh!"
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "There ain't time to screw about─I'll get ready for the attack as soon as I can!"
+            },
+            {
+                "name": "CHASERC01798",
+                "text": "Ain't never seen such fight in a chocobo before... But it's all over now, I s'pose. Don't worry about me, I can manage my way back to camp in a bit. Could you go ahead an' tell the chief, though?"
+            },
+            {
+                "name": "CHASERC01798",
+                "text": "I ain't never seen a bird fight so fierce. The chief'll be waitin' for the good news─go let him know he won't have to worry about this beast any longer."
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "...What!? You've gone an' done the deed already!? Well, I'm disappointed I missed the fight, but I'm glad to see you an' my men're still in one piece."
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "Chocobos're smarter than they look, so if they start attackin' people like you an' me, then we got no choice but to put 'em down. It don't give me any pleasure, but it's gotta be done."
+            }
+        ],
+        "reward": {
+            "gil": 597,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67150,
+                67333
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011916",
+            "obj": {
+                "i": 1011916,
+                "n": "Marcechamp",
+                "l": 2000,
+                "q": 14
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013400",
+            "obj": {
+                "i": 1013400,
+                "n": "Seasoned Tracker",
+                "l": 2000,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013401",
+            "obj": {
+                "i": 1013401,
+                "n": "Seasoned Tracker",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013402",
+            "obj": {
+                "i": 1013402,
+                "n": "Seasoned Tracker",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013403",
+            "obj": {
+                "i": 1013403,
+                "n": "Wild Draught Chocobo",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013404",
+            "obj": {
+                "i": 1013404,
+                "n": "Wild Draught Chocobo",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67150",
+            "obj": {
+                "i": 67150,
+                "n": "A Gnathic Deity",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67333",
+            "obj": {
+                "i": 67333,
+                "n": "The Hunter Becomes the Kweh",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5301,
+                "f": 1
+            }
+        }
+    ]
+}

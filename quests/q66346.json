@@ -1,0 +1,194 @@
+{
+    "quest": {
+        "name": "Hungry Hungry Goobbues",
+        "location": "Lower La Noscea",
+        "id": 66346,
+        "patch": 2.0,
+        "sort": 158,
+        "eventIcon": 71201,
+        "issuer": 1006264,
+        "target": 1006264,
+        "genre": 1,
+        "journal": [
+            "Trachtoum appears to be ignoring you.",
+            "Trachtoum is concerned that you lack the strength to face a primal in battle. If you wish to prove yourself to him, you must head west of the Grey Fleet, search for any goobbues in the area, and slay them if they approach.",
+            "Although Trachtoum's instructions nearly lead you into the gaping maw of a goobbue, you dispatch the giant beast with little difficulty. Return to Trachtoum and tell him of your accomplishments.",
+            "Your deeds serve to shock the veteran marauder, but they are not enough to earn his confidence. It seems you have much and more left to do..."
+        ],
+        "objectives": [
+            "Search for goobbues west of the Grey Fleet.",
+            "Speak with Trachtoum."
+        ],
+        "dialogue": [
+            {
+                "name": "TRACHTOUM",
+                "text": "...What? Ye still askin' about how we beat Tidus? I dunno, 'venturer...it was a pretty risky strategy, the kind only a veteran of ten score battles could rely upon."
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "I want to teach ye, I truly do! But unless ye prove ye have what it takes to face that fat bastard, I can't in good conscience tell you a damn thing!"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "At the very least, ye'd need to be capable of slayin', say, a goobbue..."
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Come to think of it, that ain't a bad idea. Them creatures have a taste for the flour milled here, so ye ought to have no trouble findin' one in the vicinity."
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "'Course, I ain't askin' ye to cut one down quick as a skilled axeman like meself!"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Anyroad, why don't ye try headin' due west an' standin' lookout 'case a goobbue comes callin'? Slay it, an' I might consider tellin' ye more about ol' Tidus."
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Eh? You again? Then that goobbue that was harassin' the millers is dead?"
+            },
+            {
+                "name": "TRACHTOUM",
+                "text": "Didn't think ye had it in ye, 'venturer. Still, you took forever an' a day to get the job done. I'm still not sure if I should tell you our secrets..."
+            },
+            {
+                "name": "POP",
+                "text": "You feel the ground tremble beneath your feet..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5801
+                },
+                {
+                    "id": 2755,
+                    "one": 1
+                },
+                {
+                    "id": 2735,
+                    "one": 1
+                },
+                {
+                    "id": 2753,
+                    "one": 1
+                },
+                {
+                    "num": 4,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 14820
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 30,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66345
+            ]
+        },
+        "next": [
+            66347
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006264",
+            "obj": {
+                "i": 1006264,
+                "n": "Trachtoum",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "5801",
+            "obj": {
+                "i": 5801,
+                "n": "Royal Blue Dye",
+                "l": 30,
+                "c": 22804,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "item",
+            "id": "2755",
+            "obj": {
+                "i": 2755,
+                "n": "Steel Celata",
+                "l": 30,
+                "c": 40003,
+                "t": 34,
+                "p": 3532
+            }
+        },
+        {
+            "type": "item",
+            "id": "2735",
+            "obj": {
+                "i": 2735,
+                "n": "Silver Circlet (Garnet)",
+                "l": 28,
+                "c": 40588,
+                "t": 34,
+                "p": 2226
+            }
+        },
+        {
+            "type": "item",
+            "id": "2753",
+            "obj": {
+                "i": 2753,
+                "n": "Steel Sallet",
+                "l": 30,
+                "c": 40035,
+                "t": 34,
+                "p": 2523
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66345",
+            "obj": {
+                "i": 66345,
+                "n": "Tales from the Tidus Slayer",
+                "g": 1,
+                "l": "Lower La Noscea",
+                "s": 157
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66347",
+            "obj": {
+                "i": 66347,
+                "n": "The Lominsan Way",
+                "g": 1,
+                "l": "Lower La Noscea",
+                "s": 159
+            }
+        }
+    ]
+}

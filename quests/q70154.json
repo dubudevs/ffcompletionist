@@ -1,0 +1,130 @@
+{
+    "quest": {
+        "name": "Sold Out",
+        "location": "Ultima Thule",
+        "id": 70154,
+        "patch": 6.25,
+        "sort": 112,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 16,
+        "eventIcon": 71222,
+        "issuer": 1043417,
+        "target": 1043417,
+        "genre": 31,
+        "journal": [
+            "Stigma-4 has received a distress signal from the Last Dregs café.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "Deliver the requested supplies to the food processing unit.",
+            "Report to Stigma-4."
+        ],
+        "objectives": [
+            "<span class=\"alternative-container\"><span class=\"alternative\">Mine [Error] from the Elysian seas</span><span class=\"alternative\">Deliver [Error] to the food processing unit</span><span class=\"alternative\">Gather [Error] from the Elysian seas</span><span class=\"alternative\">Catch [Error] from the Elysian seas</span></span>.",
+            "Report to Stigma-4."
+        ],
+        "dialogue": [
+            {
+                "name": "STIGMA4",
+                "text": "State of emergency declared at the Last Dregs. Highly irregular behavior by exhausted Karellian farmers has resulted in the ordering and consumption of all available fish at the café."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Should the Grebuloffs return from their duties and discover there is no fish to eat, their discontent could result in catastrophic shifts in the surrounding dynamis."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Summarizing mission for clarity: you must replenish the café's supply of fish before calamity befalls Ultima Thule."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Procure rock salt from the waters of Elysion and take it to the food processing unit at the Last Dregs."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Procure kelp from the waters of Elysion and take it to the food processing unit at the Last Dregs."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Procure saltwater fish from the waters of Elysion and take it to the food processing unit at the Last Dregs. Use of gold salmon roe is strongly advised. All proceeds go to Omicron enhancement initiatives."
+            },
+            {
+                "name": "OMICRON04618",
+                "text": "Provision supplier identified: <span class=\"highlight\">Forename Surname</span>. Scanning inventory...<br>Requested foodstuffs not found. Initiating panicking sequence... &lt;whirr&gt; Hurry! <span class=\"emphasis\">Hurry</span>!"
+            },
+            {
+                "name": "OMICRON04618",
+                "text": "Provision supplier identified: <span class=\"highlight\">Forename Surname</span>. Scanning inventory...<br>Requested foodstuffs detected. Please deposit foodstuffs for emergency meal preparation protocols."
+            },
+            {
+                "name": "OMICRON04618",
+                "text": "Processing... Delivery complete. Thank you for your service. Please report to Stigma-4 for compensation."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Your timely delivery of goods has been noted and is appreciated. The Grebuloffs appeared satisfied to find sufficient fare when they arrived at the café."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Previous data overwhelmingly indicated that Karellians subsist on a diet of vegetables, whereas the Grebuloffs require only fish. However, it is clear now that all future projections must account for the fickle nature of organic life-forms."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Potential exemption: carrot-fixated café owner. The anomaly of the fuzzy one aside, a reassessment of logic employed during menu selection is in order."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "id": 37854
+                },
+                {
+                    "id": 6141
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 32
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1043417",
+            "obj": {
+                "i": 1043417,
+                "n": "Stigma-4",
+                "l": 3712,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "37854",
+            "obj": {
+                "i": 37854,
+                "n": "Omicron Omnitoken",
+                "l": 1,
+                "c": "t/65095",
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "6141",
+            "obj": {
+                "i": 6141,
+                "n": "Cordial",
+                "l": 25,
+                "c": 20622,
+                "t": 44
+            }
+        }
+    ]
+}

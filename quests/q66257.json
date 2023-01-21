@@ -1,0 +1,127 @@
+{
+    "quest": {
+        "name": "Buzz Kill",
+        "location": "East Shroud",
+        "id": 66257,
+        "patch": 2.0,
+        "sort": 210,
+        "eventIcon": 71221,
+        "issuer": 1006190,
+        "target": 1006190,
+        "genre": 92,
+        "journal": [
+            "Laxio the sylph needs help to put down djiggas.",
+            "Laxio explains that his people are being preyed upon by buzzing djiggas whenever they venture outside Little Solace to bathe in sunlight. He has instructed a pair of sylphs to act as bait to lure the ravenous parasites into the open, and asks that you put the vilekin down.",
+            "You have exterminated the djiggas. Report back to Laxio at Little Solace.",
+            "Back at Little Solace, you learn that sylphs need sunlight in order to survive. Thanks to your help, they can now get their required dose without becoming djigga fodder."
+        ],
+        "objectives": [
+            "Defeat buzzing djiggas at the specified location.",
+            "Report to Laxio at Little Solace."
+        ],
+        "dialogue": [
+            {
+                "name": "LAXIO",
+                "text": "These ones need help! Please help these ones!"
+            },
+            {
+                "name": "LAXIO",
+                "text": "Vile ones called buzzing djiggas think these ones are food. Attack these ones! Attack whenever these ones go into the forest to bathe in sunlight!"
+            },
+            {
+                "name": "LAXIO",
+                "text": "Some of these ones have gone into the forest─into the forest to lure out vile ones. This one wants walking one to wait for vile ones─wait nearby and slay vile ones that come."
+            },
+            {
+                "name": "LAXIO",
+                "text": "Wait and kill"
+            },
+            {
+                "name": "LAXIO",
+                "text": "These ones must bathe in sunlight to survive. Without sunlight, these ones will fall ill─fall ill and shrivel away to no ones!"
+            },
+            {
+                "name": "LAXIO",
+                "text": "Thanks to walking one, these ones can safely bathe in sunlight again! Praise be to walking one!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 1285,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4643,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4746,
+                    "one": 1
+                }
+            ],
+            "xp": 4200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 21,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66256
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006190",
+            "obj": {
+                "i": 1006190,
+                "n": "Laxio",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4643",
+            "obj": {
+                "i": 4643,
+                "n": "Antelope Steak",
+                "l": 20,
+                "c": 24360,
+                "t": 46,
+                "p": 49
+            }
+        },
+        {
+            "type": "item",
+            "id": "4746",
+            "obj": {
+                "i": 4746,
+                "n": "Grape Juice",
+                "l": 20,
+                "c": 24403,
+                "t": 46,
+                "p": 31
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66256",
+            "obj": {
+                "i": 66256,
+                "n": "Sylph Says",
+                "g": 92,
+                "l": "East Shroud",
+                "s": 210
+            }
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "quest": {
+        "name": "In the Shadow of the Moon",
+        "location": "Western La Noscea",
+        "id": 66934,
+        "patch": 2.2,
+        "sort": 26,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005939,
+        "target": 1005939,
+        "involved": [
+            1005946
+        ],
+        "genre": 41,
+        "journal": [
+            "The tales from the sea are ever writ in salt and blood, and on a sleepy little island in Galadion Bay, the plot grows suddenly thicker.",
+            "According to Houu, Serpent Reavers have laid claim to Moonshade Isle, and harass Novv's Clutch at the Coral Tridents' behest. It falls to you to hunt down four Moonshade deckhands and steersmen, but first, you must get to the island. The seabeast tamer Pahh has the best elbst in town─or in Novv's Nursery, at least.",
+            "Dead pirates lay no claims, and the four Serpent Reavers are thoroughly deceased. You never did much like snakes. Return to the nursery and inform Houu of the outcome of your little jaunt.",
+            "Houu is contemplative as he receives word of the island's liberation. Was this bloodshed strictly necessary? Or was it something to swim away from? You always have a choice, and Sahagin or shorewalker, what you choose is who you are."
+        ],
+        "objectives": [
+            "Find and dispatch Serpent Reavers on Moonshade Isle.",
+            "Report to Houu."
+        ],
+        "dialogue": [
+            {
+                "name": "HOUU",
+                "text": "Pshhh... You know of Moonshade Isle, yeshhh? It is one of the favored fishing grounds of my people, including we of Novv's Clutch."
+            },
+            {
+                "name": "HOUU",
+                "text": "Shhhadly, the Coral Tridents know this as well. They shhhend the Shhherpent Reavers to the gentle isle to shhhcatter the fish and bedevil the fishers."
+            },
+            {
+                "name": "HOUU",
+                "text": "The Reavers shhhkulk on the island, for they mean to shhheize it for themselves. Our shhhpawnbrothers go hungry as long as these foul pirates are unchallenged. Will you dispatch the Reavers and unchain Moonshade Isle?"
+            },
+            {
+                "name": "HOUU",
+                "text": "You will need an elbst to reach the isle. Shhhpeak with the shhheabeast tamer Pahh and all shhhall be well. Pshhh..."
+            },
+            {
+                "name": "HOUU",
+                "text": "Speak to Pahh the shhheabeast tamer. You must take an elbst to Moonshade Isle and cast out the Shhherpent Reavers. Pshhh..."
+            },
+            {
+                "name": "TAMER01376",
+                "text": "Moonshade Isle? Very myssstical place... It has a very ssspecial energy. One of my elbssst will take you, shhhorewalker."
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to Moonshade Isle?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "HOUU",
+                "text": "Pshhh... You have done well for our shhhpawnbrothers. Shhhleek they will grow, with no pirates to keep them from the waves. The shhhorewalker pirates are hateful to my eyes... I rejoice in their demise."
+            },
+            {
+                "name": "HOUU",
+                "text": "The clutchfather counsels us to fight only when we cannot shhhwim away. But what of times like this? If we shhhwam away, our brothers would be left to starve, unschooled in the ways of the fisher. The way is as unclear as a shhhea much churned..."
+            },
+            {
+                "name": "BALLOON",
+                "text": "The fish ain't bitin' today! Or tomorrow!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "This here's our island now, ye swivin' landlubber!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Lord Leviathan's due, all this─the isle, the fish, your stinkin' head!"
+            }
+        ],
+        "reward": {
+            "gil": 660,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9693
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005939",
+            "obj": {
+                "i": 1005939,
+                "n": "Houu",
+                "l": 33,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

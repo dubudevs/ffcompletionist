@@ -1,0 +1,93 @@
+{
+    "quest": {
+        "name": "Unwanted Attention",
+        "location": "The Churning Mists",
+        "id": 67391,
+        "patch": 3.0,
+        "sort": 5523,
+        "eventIcon": 71221,
+        "issuer": 1013535,
+        "target": 1013535,
+        "genre": 100,
+        "journal": [
+            "This malingering moogle looks all tuckered out.",
+            "This troubled moogle has been beset upon by a mob of inquisitive dragonets. Slay four of them to give the moogle some breathing room.",
+            "You have slain the dragonets, ensuring they will no longer nip at the moogle's heels. Report your deed to the malingering moogle.",
+            "The malingering moogle is relieved that he can finally take a break from running. As much as he likes the attention, wild animals should not be taken lightly, especially in large numbers."
+        ],
+        "objectives": [
+            "Slay dragonets.",
+            "Report to the malingering moogle."
+        ],
+        "dialogue": [
+            {
+                "name": "GUIDEMOG01855",
+                "text": "I can't go on much longer, kupo... I've been flapping my wings off all day, trying to escape these irritating dragonets. They seem to be fascinated by moogles, and won't stop following me around!"
+            },
+            {
+                "name": "GUIDEMOG01855",
+                "text": "Their numbers just keep growing─there's no choice now but to thin the crowd a bit. If you were to give the dragon pups a bit of a thrashing, that'd teach them not to harass a poor moogle, kupo!"
+            },
+            {
+                "name": "GUIDEMOG01855",
+                "text": "I won't be able to outfly them much longer. Scare them off for me!"
+            },
+            {
+                "name": "GUIDEMOG01855",
+                "text": "Finally the pests bother me no longer! Maybe next time the dragonets won't be so bold. As cute as moogles are─and we <span class=\"emphasis\">are</span> cute─that doesn't give wild animals the right to just mob around us like a piece of meat, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 460,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67171
+            ]
+        },
+        "next": [
+            67392
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013535",
+            "obj": {
+                "i": 1013535,
+                "n": "Malingering Moogle",
+                "l": 2002,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67392",
+            "obj": {
+                "i": 67392,
+                "n": "Walking on Eggshells",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5524
+            }
+        }
+    ]
+}

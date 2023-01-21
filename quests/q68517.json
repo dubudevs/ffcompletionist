@@ -1,0 +1,167 @@
+{
+    "quest": {
+        "name": "You Have the Rite",
+        "location": "The Ruby Sea",
+        "id": 68517,
+        "patch": 4.1,
+        "sort": 9,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "involved": [
+            1019180,
+            1024294
+        ],
+        "genre": 51,
+        "journal": [
+            "Zukin would have you undertake an important rite.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Obtain Sui–no–Mamizu from the placid priestess in Sui–no–Sato.",
+            "Sprinkle the Sui-no-Mamizu near the consecrated shell.",
+            "/pray to the consecrated shell.",
+            "Report to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "It is time, <span class=\"highlight\">Forename</span>. As one of the Divine Circle, you must undertake the rite of purification, that you might deepen your bond with the kami of the hunt."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "To this end, you will require a special kind of holy water called Sui–no–Mamizu. This can be had from a priestess of Sui–no–Sato."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Once you have the water, return hither to Tamamizu and present yourself before the consecrated shell yonder. There you must sprinkle the water and offer a prayer to the kami."
+            },
+            {
+                "name": "SUIWOMAN02981",
+                "text": "Ah, you must be the <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> of whom the Kojin spoke. I have your water. Take it, and may you find favor with the kami."
+            },
+            {
+                "name": "UROKUZU",
+                "text": "Come to undertake the rite, have you? Go ahead and sprinkle the Sui-no-Mamizu, then say a prayer to the kami."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You are purified from head to toe. Now you may <span class=\"highlight\">pray</span> to the consecrated shell."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This does not appear to be the right spot. Try sprinkling the water again near the consecrated shell."
+            },
+            {
+                "name": "SUIWOMAN02981",
+                "text": "You have the water. Shouldn't you be heading back to Tamamizu?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This appears to be the right spot to sprinkle the Sui-no-Mamizu."
+            },
+            {
+                "name": "UROKUZU",
+                "text": "Good, good. 'Tis important to give thanks. The kami will surely smile upon your treasure-hunting endeavors."
+            },
+            {
+                "name": "UROKUZU",
+                "text": "Though you are not Kojin, you respect our ways as your own. Full glad am I to know a shell-less one such as you."
+            },
+            {
+                "name": "UROKUZU",
+                "text": "Purifying yourself is but half of the rite. Now you must pray to the kami."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "The rite is complete? That is well. As you know, we Kojin seek out treasure that we might strengthen our bond with the kami."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "And by the rite, we entreat he who abides in the shell to facilitate this bond. By honoring him, we may seek with greater success, thereby honoring all."
+            },
+            {
+                "name": "UROKUZU",
+                "text": "Though you are not Kojin, you respect our ways as your own. Full glad am I to know a shell-less one such as you."
+            }
+        ],
+        "reward": {
+            "gil": 680,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019180",
+            "obj": {
+                "i": 1019180,
+                "n": "Urokuzu",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024294",
+            "obj": {
+                "i": 1024294,
+                "n": "Placid Priestess",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

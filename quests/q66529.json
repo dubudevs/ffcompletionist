@@ -1,0 +1,104 @@
+{
+    "quest": {
+        "name": "Straight Outta Abalathia",
+        "location": "Mor Dhona",
+        "id": 66529,
+        "patch": 2.0,
+        "sort": 450,
+        "eventIcon": 71221,
+        "issuer": 1006549,
+        "target": 1006549,
+        "involved": [
+            1007637
+        ],
+        "genre": 95,
+        "journal": [
+            "Wandering Breeze fears that an expedition from the Sons of Saint Coinach is about to become gigas fodder.",
+            "According to Wandering Breeze, gigas have been harassing one of the Sons' expedition teams. Knowing gigas, it is unlikely they will content themselves with mere provocation for long. Head south and speak with the harried researcher.",
+            "As expected, a gigas appears and launches an attack, expecting unarmed, low-fat snacks─and is instead fed a meal of metal. The researchers live to study another day, something Wandering Breeze would be relieved to know.",
+            "You speak with Wandering Breeze, who appears to have quite the information network. Not only has he already been apprised of your heroics, he knows how these gigas came to be in these parts. A useful man, this Wandering Breeze... "
+        ],
+        "objectives": [
+            "Speak with the harried researcher.",
+            "Report to Wandering Breeze."
+        ],
+        "dialogue": [
+            {
+                "name": "WANDERINGBREEZE",
+                "text": "I have here a message from an expedition to the south─they are troubled by gigas, and fear an attack must soon come. Head south forthwith, if you would help us."
+            },
+            {
+                "name": "NPCA",
+                "text": "An adventurer! You come from the main camp? We feared the message would not reach you in time. The harassment by the gigas grows daily and─aaawk!"
+            },
+            {
+                "name": "NPCA",
+                "text": "NOOO! If you must eat me, kill me first!"
+            },
+            {
+                "name": "NPCA",
+                "text": "Phew, that was a close call. Thank Azeyma you were about. Well, I'd better return to my work. History never waits!"
+            },
+            {
+                "name": "WANDERINGBREEZE",
+                "text": "Your reputation precedes you, <span class=\"highlight\">Forename</span>. Slew a gigas, I hear. The rest should keep their distance for now."
+            },
+            {
+                "name": "WANDERINGBREEZE",
+                "text": "The gigas were a part of a tribe from Abalathia's Spine, uprooted by the Calamity. We seek knowledge under the ground. They seek a new home upon that ground. A fray cannot be avoided..."
+            },
+            {
+                "name": "POP",
+                "text": "Something massive this way trundles!"
+            }
+        ],
+        "reward": {
+            "gil": 1782,
+            "xp": 12420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 45,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66531
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006549",
+            "obj": {
+                "i": 1006549,
+                "n": "Wandering Breeze",
+                "l": 67,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007637",
+            "obj": {
+                "i": 1007637,
+                "n": "Harried Researcher",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66531",
+            "obj": {
+                "i": 66531,
+                "n": "Holier than Thou",
+                "g": 95,
+                "l": "Mor Dhona",
+                "s": 450
+            }
+        }
+    ]
+}

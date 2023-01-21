@@ -1,0 +1,155 @@
+{
+    "quest": {
+        "name": "The Final Flight of the Enterprise",
+        "location": "Coerthas Central Highlands",
+        "id": 69404,
+        "patch": 5.3,
+        "sort": 201,
+        "eventIcon": 71201,
+        "issuer": 1006384,
+        "target": 1006435,
+        "genre": 1,
+        "journal": [
+            "Lord Haurchefant would like to introduce you to his witness.",
+            "Lord Haurchefant has bid you speak with the witness he discovered. The man in question should be waiting outside.",
+            "The cataloger states that he saw the <span class=\"emphasis\">Enterprise</span> land near the Stone Vigil several days before the Calamity, which means that it was almost certainly seized by the garrison which occupied it at the time. Report your findings to Lord Haurchefant and see what advice he proffers.",
+            "Lord Haurchefant explains that the Stone Vigil is currently held by Dravanian forces, and that all access to the ruined outpost is restricted by House Durendaire. To help you obtain permission to enter the Stone Vigil, he writes for you a letter of introduction to Lord Drillemont of Whitebrim Front. However, he suspects that his endorsement alone will not suffice, and he advises you to ask Lord Francel to write a letter for you as well.",
+            "Lord Francel is happy to oblige your request. Before you depart, he reminds you that the cravens who attempted to destroy House Haillenarte have yet to be revealed, and that they may target you in the future in retaliation for your interference. Duly warned, proceed to Whitebrim Front and present your letters to the sentry at the gates.",
+            "The surly sentry's demeanor quickly changes when he recognizes the seals on the letters you bear. Nevertheless, he seems reluctant to simply wave you inside..."
+        ],
+        "objectives": [
+            "Speak with the witness.",
+            "Speak with Haurchefant.",
+            "Speak with Francel.",
+            "Deliver the letter to Brunadier."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "The man with knowledge of the <span class=\"emphasis\">Enterprise</span> awaits you outside. I pray his information proves useful to you."
+            },
+            {
+                "name": "NPC",
+                "text": "How quickly the commoners' opinions change. They say Lord Francel is innocent now, but just a few days prior..."
+            },
+            {
+                "name": "NPC",
+                "text": "Anyway, you were inquiring as to the whereabouts of an airship last seen in Coerthas several days before the Calamity, yes? Well, it so happens that I was monitoring the night sky at the Observatorium during that period. I recall that a small vessel came from the direction of Gridania and landed near the Stone Vigil, in the far northwest."
+            },
+            {
+                "name": "NPC",
+                "text": "The garrison almost certainly seized the vessel and brought it within their walls. If so, then you would need an army of knights to have any hope of securing it."
+            },
+            {
+                "name": "NPC",
+                "text": "Though Lord Haurchefant is, from all indications, quite fond of you, so mayhap he can lend you a few? In any case, I have done my part. I shall pray for your success, friend."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Oh, so you've at last located the <span class=\"emphasis\">Enterprise</span>! I believe congratulations are in order."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "The Stone Vigil? Ah...perhaps I spoke too soon. The outpost has been held by the dragons for years, and all access is restricted by decree of House Durendaire."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "I will write a letter to Lord Drillemont of Whitebrim Front and request that he grant you permission to enter. That said, I fear my influence alone will not suffice, so I suggest that you request Lord Francel do the same."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Now that your business in Camp Dragonhead is concluded, I suspect we may not meet again for some time."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "I wish you well in your journeys, <span class=\"highlight\">Forename</span>. May Halone guide you."
+            },
+            {
+                "name": "FRANCEL",
+                "text": "Wonderful to see you again, <span class=\"highlight\">Forename</span>! If there is anything I can do to repay you, name it."
+            },
+            {
+                "name": "FRANCEL",
+                "text": "...So the airship you seek is likely inside the Stone Vigil. It shames me to say that it too was once an outpost held by House Haillenarte. In the chaos that followed the Calamity, the Dravanian Horde caught us unawares. The fiends have held the outpost ever since."
+            },
+            {
+                "name": "FRANCEL",
+                "text": "As we lack the strength of arms to retake the Stone Vigil, House Durendaire instead has been charged with the duty. Given that, I doubt that my words will carry much weight with Lord Drillemont. Nevertheless, I will write you your letter."
+            },
+            {
+                "name": "FRANCEL",
+                "text": "Before you depart, a word of caution: the cravens who attempted to destroy House Haillenarte have yet to be unmasked. Though their plans were foiled, they doubtless still harbor great hatred towards us─and towards <span class=\"emphasis\">you</span> now as well."
+            },
+            {
+                "name": "BRUNADIER",
+                "text": "You desire an audience with Lord Drillemont, do you? Hah! I desire a night in a warm bed with my wife, but wishing won't make it so."
+            },
+            {
+                "name": "BRUNADIER",
+                "text": "What do we have here? Letters from Lords Haurchefant and Francel, is it? A likely─<br>...Oh, you're serious. Hmmm...what to do, what to do..."
+            }
+        ],
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 38,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66448
+            ]
+        },
+        "next": [
+            66460
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006384",
+            "obj": {
+                "i": 1006384,
+                "n": "Haurchefant",
+                "l": 63,
+                "q": 16
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006435",
+            "obj": {
+                "i": 1006435,
+                "n": "Brunadier",
+                "l": 63,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66448",
+            "obj": {
+                "i": 66448,
+                "n": "In the Eyes of Gods and Men",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 200
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66460",
+            "obj": {
+                "i": 66460,
+                "n": "Ye of Little Faith",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 202
+            }
+        }
+    ]
+}

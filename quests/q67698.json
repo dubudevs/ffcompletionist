@@ -1,0 +1,774 @@
+{
+    "quest": {
+        "name": "Against the Dying of the Light",
+        "location": "Ishgard",
+        "id": 67698,
+        "patch": 3.1,
+        "sort": 7,
+        "eventIcon": 71201,
+        "issuer": 1016008,
+        "target": 1016008,
+        "involved": [
+            1012163,
+            1012384,
+            1012385,
+            1013167,
+            1016009,
+            1016010,
+            1016011,
+            1016012,
+            1016015,
+            1016018,
+            1016020,
+            1016025,
+            1016026,
+            1016027,
+            1016028,
+            1016029,
+            1016030,
+            1016031,
+            1016032,
+            1016033,
+            1016057,
+            1016058,
+            1016059
+        ],
+        "genre": 4,
+        "journal": [
+            "Lucia would begin the hunt for the arsonists without delay.",
+            "In order to cover more ground, you and your comrades will divide into two parties and investigate the fires separately. Alphinaud, Y'shtola, and Tataru will focus their efforts on Foundation and the Brume, while you, Thancred, and Hilda will begin by questioning the residents of the Pillars─starting with one Lord Emmanellain de Fortemps, who is a notorious gossip.",
+            "Alas, Lord Emmanellain has little to offer beyond charming repartee, and the observation that the Hoplon has been inundated with refugees on their way to receive food and shelter in the Vault─an initiative of Ser Aymeric's, apparently. No closer to identifying the arsonists, Thancred and Hilda resolve to inspect the locations where the fires were set while you question the refugees on the off chance that one knows something of value.",
+            "Yet again, your efforts avail you little, for while one child thinks she may have caught a glimpse of a suspicious man, she cannot describe him in any detail. Rendezvous with Thancred and Hilda and share your findings, if such they may be called.",
+            "Although Thancred has nothing conclusive to add, he does observe that the fires set near Saint Reymanaud's Cathedral and the Tribunal suffered surprisingly minor damage when compared to other less venerated structures. Mayhap Alphinaud's party can contribute more to the investigation.",
+            "It would seem that the efforts of your comrades in Foundation have been rather more fruitful, as they have detained a suspect seen loitering near several homes before they were set alight, and more recently near their smoldering remains. Unconvinced by his protestations of innocence, Thancred tricks the man into confessing by claiming his highborn master betrayed his trust. Return to the Congregation of Our Knights Most Heavenly and share your findings with Lucia.",
+            "Having returned to the Congregation, you breathlessly share the findings of your investigation. Though the arsonist withdrew his cooperation scant moments after providing it, Lucia is confident that she will soon have answers. Your conversation is then interrupted by Lord Artoirel, who has come on his father's behalf to deliver a special salve for Ser Aymeric. As Alphinaud watches him leave, he observes that the young nobleman is not in the best of spirits. To this, Lucia responds that given the rumors circulating about his father and the untimely passing of his half-brother, it would be strange if he were otherwise. Truly, none can deny that House Fortemps has known much tragedy of late..."
+        ],
+        "objectives": [
+            "Speak with Emmanellain at the Jeweled Crozier.",
+            "Question the Ishgardians in the Hoplon.",
+            "Rendezvous with Thancred.",
+            "Rendezvous with Alphinaud in the Brume.",
+            "Report to Lucia."
+        ],
+        "dialogue": [
+            {
+                "name": "YSHTOLA",
+                "text": "The archbishop may have fallen, but the legacy of his predecessors endures."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Just as Ser Aymeric risked his life to bring about lasting change, so too will others wager all to preserve what they hold dear."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Louisoix once told me that man is all too willing to let his future be bound by his past. And time after time have I witnessed how depressingly right he was."
+            },
+            {
+                "name": "HILDA",
+                "text": "Even if we had the same resources to combat the fires as them up in the Pillars, we'd still be fightin' a losin' battle. You've seen the Brume─all them narrow streets with wooden houses crammed together. It's <span class=\"emphasis\">kindlin'</span> is what it is."
+            },
+            {
+                "name": "LUCIA",
+                "text": "The flames are spreading. We must needs begin our investigation immediately."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Witnesses must be found; suspects must be identified."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Have you been able to determine the precise locations where the fires were set? Mayhap there is a pattern."
+            },
+            {
+                "name": "LUCIA",
+                "text": "If there is, we have yet to discern it. Fires have been reported throughout the city, in both the Pillars and Foundation."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Indeed, given the size of the area affected, I think it best to divide our forces. Master Alphinaud and Mistress Y'shtola─I would have you take charge of the investigation in Foundation."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "As you wish. Mayhap Tataru can be of assistance as well."
+            },
+            {
+                "name": "HILDA",
+                "text": "Meanin' <span class=\"highlight\">Forename</span> and me get the Pillars. Oh, they'll like me up there. Only question is, will the grizzled old rogue strikin' a pose over there be joinin' us?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Thancred, of the Scions of the Seventh Dawn. And may I say what a pleasure it is to meet you too, my lady."
+            },
+            {
+                "name": "HILDA",
+                "text": "I'll bet. The name's Hilda. A Scion, eh? And there I was thinkin' I'd found a fellow ruffian amongst all these illustrious personages."
+            },
+            {
+                "name": "LUCIA",
+                "text": "I will remain here to coordinate the fire-quenching effort. If you learn aught of value, pray inform me immediately. That is all."
+            },
+            {
+                "name": "THANCRED",
+                "text": "While we <span class=\"emphasis\">could</span> begin by sifting through charred rubble and questioning random passersby, in my experience, every town has at least one individual who can be counted on to know things he or she should not."
+            },
+            {
+                "name": "HILDA",
+                "text": "Oh, aye...the infamous Lord Emmanellain de Fortemps, lover of women and wine─though neither care for him that much. They say he could gossip for Ishgard."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Just the sort of fellow I had in mind. Capital suggestion, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "HILDA",
+                "text": "He'll be at the Crozier most like, makin' an effort to be seen. So let's go and see him."
+            },
+            {
+                "name": "THANCRED",
+                "text": "...Grizzled I will accept, but <span class=\"emphasis\">old</span>? &lt;sigh&gt;"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Someone once said that a gentleman is rather than does. And in Lord Emmanellain I sense we have living proof."
+            },
+            {
+                "name": "HILDA",
+                "text": "Well, go on then. Talk to the daft sod."
+            },
+            {
+                "name": "HONOROIT",
+                "text": "(Ah, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. I fear Lord Emmanellain has once more strayed from the path.)"
+            },
+            {
+                "name": "HONOROIT",
+                "text": "(As has so often been the case, his renewed enthusiasm for martial training gave way to frustration and disinterest at the first sign of difficulty...)"
+            },
+            {
+                "name": "BEAUTY02162",
+                "text": "I cannot well abandon my parents! But milord will not accept all three of us into his service. What am I to do?"
+            },
+            {
+                "name": "MAELIE",
+                "text": "What did we do to deserve this?"
+            },
+            {
+                "name": "ISHGARDIANPRIEST02162",
+                "text": "Have faith, my brothers and sisters, have faith! Halone has not forsaken you! We have not forsaken you!"
+            },
+            {
+                "name": "LUCIA",
+                "text": "I have faith that Ser Aymeric will soon return to assume command. And when he does, I would welcome him with a gift─our arsonists, bound and begging for mercy."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Prior to the fire, do you perchance recall anyone unfamiliar loitering in the vicinity?"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Wooden dwellings built end-to-end and one atop another, each home to a family... How many were abed when the fires were set...?"
+            },
+            {
+                "name": "TATARU",
+                "text": "You didn't expect me to stand idly by when there was work to be done, did you?"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Well, well, if it isn't <span class=\"highlight\">Forename</span>, dearest of all my friends! You're looking rather glum. Something the matter, old <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>?"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Ah, yes, the arsons. Dreadful business, that─and awfully curious, wouldn't you say? There doesn't seem to be any rhyme or reason to it at all. Naturally, we've doubled the guard outside the manor, along with most of the other houses. Can't have the old pile going up in flames, after all!"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Oh, in case you were wondering why the Hoplon is awash with refugees, the lower levels of the Vault have been opened to those unfortunate souls who have lost their homes. Ser Aymeric's orders, from what I hear. Remarkable man─not even a knife in the ribs can keep him from his duties!"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Actually, old <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>...if you were thinking of questioning the refugees, I should be more than happy to accompany you to the Hoplon. While you conduct your inquiries, I could offer words of comfort to the distressed and despondent young maidens...?"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "Wait a moment...I know what that is. You're giving me one of your looks, aren't you? You do me an injustice, old <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>! I will have you know, my heart yearns for but one rose─prickly though she may be!"
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "...I sense you remain unconvinced. Very well, if it will help to prove the purity of my intentions, I shall gracefully rescind my offer. Now run along and catch those arsonists!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "That was...not entirely what I had hoped for. Whose idea was it to come here again?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Never mind. For our next step, I suggest we divide our efforts. While you question the refugees in the Hoplon, <span class=\"highlight\">Forename</span>, I shall investigate the locations where the fires were set. Would you be so good as to join me, Hilda?"
+            },
+            {
+                "name": "HILDA",
+                "text": "You know what, I reckon I would. Can't have you roamin' about in an unfamiliar city by your lonesome, can we? You'd only get robbed blind and left shiverin' in your smallclothes."
+            },
+            {
+                "name": "EMMANELLAIN",
+                "text": "I shall detain you no longer, old <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>. Good luck with your investigation!"
+            },
+            {
+                "name": "HONOROIT",
+                "text": "My lord is a gentleman of unassailable principles. To assail them, after all, one would first need to locate them."
+            },
+            {
+                "name": "BEAUTY02162",
+                "text": "Ours was one of the first homes to be claimed, but I didn't see how the fire began."
+            },
+            {
+                "name": "BEAUTY02162",
+                "text": "It was only when I heard our neighbors shouting that I looked outside and saw the flames. We barely escaped with the clothes on our backs. Were it not for the church's generosity, I don't know what we'd do."
+            },
+            {
+                "name": "BEAUTY02162",
+                "text": "Say what you will about the archbishop, but I'll not hear a word spoken against the clergy."
+            },
+            {
+                "name": "MAELIE",
+                "text": "There was a man with a satchel. I saw him kneelin' outside the window, and then there was smoke everywhere, and it was so hot, and I couldn't breathe..."
+            },
+            {
+                "name": "MAELIE",
+                "text": "I don't remember how I made it out. I s'pose I must have climbed... Maybe my arm is gettin' better after all?"
+            },
+            {
+                "name": "MAELIE",
+                "text": "Why did he do it? What did we ever do to him?"
+            },
+            {
+                "name": "ISHGARDIANPRIEST02162",
+                "text": "Come, my brothers and sisters! There is food and shelter enough for all in the basilica!"
+            },
+            {
+                "name": "REFUGEE02162",
+                "text": "Halone's blessings be upon you, Father."
+            },
+            {
+                "name": "REFUGEE02162",
+                "text": "I confess, we were not sure if we should come. There are so many unbelievable tales these days─about the archbishop, and Ser Aymeric, and the Dravanians..."
+            },
+            {
+                "name": "ISHGARDIANPRIEST02162",
+                "text": "Trust in your heart, brother, and pay no heed to the lies of lesser men. They seek only to lead you astray."
+            },
+            {
+                "name": "ISHGARDIANPRIEST02162",
+                "text": "Do you require succor as well, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>?"
+            },
+            {
+                "name": "ISHGARDIANPRIEST02162",
+                "text": "So the Temple Knights have begun their investigation at last! Good. This madness has gone on far too long."
+            },
+            {
+                "name": "ISHGARDIANPRIEST02162",
+                "text": "Would that I could do something to aid you in your search, but I have a duty to these poor souls. Farewell, and may the Fury guide your steps."
+            },
+            {
+                "name": "HILDA",
+                "text": "Finished, then?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Ah, there you are. Anything to share?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Hmph. We will require more than the muddled testimony of a traumatized girl if we are to identify the culprits..."
+            },
+            {
+                "name": "THANCRED",
+                "text": "While you were questioning the refugees, we inspected the scenes of several of the fires, including one near Saint Reymanaud's Cathedral and another near the Tribunal. For a mercy, neither structure suffered significant damage."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Some might say they were spared by the grace of the Fury. Others might question how such ruthlessly efficient arsonists contrived to fail so miserably on the two occasions when their target was a bastion of Ishgardian orthodoxy."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Nothing conclusive, of course, but it does give one cause to wonder. Alphinaud will doubtless have an opinion."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Good. Now that you are here, we can proceed with the interrogation."
+            },
+            {
+                "name": "TATARU",
+                "text": "You should've seen the way Alphinaud tackled him!"
+            },
+            {
+                "name": "PYROMANIAC02162",
+                "text": "..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Silence will avail you naught, sir."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! I was just about to summon you. As you can see, we have detained a suspect."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "We found this man loitering near the remains of one of the stricken buildings. According to eyewitnesses, he was also present before the fires broke out."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "We wished to have words; he did not. So we insisted."
+            },
+            {
+                "name": "PYROMANIAC02162",
+                "text": "Let me go, damn it! You've got the wrong man!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "&lt;sniff&gt; &lt;sniff&gt; My, but you reek of oil. And are those <span class=\"emphasis\">burns</span> on your hands? An occupational hazard, I suppose. But tell me─does arson pay well?"
+            },
+            {
+                "name": "PYROMANIAC02162",
+                "text": "I-I'm a victim, you imbecile! Look at me!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Aye, that you are─after a fashion. You should know that your pious patron has already spun us a <span class=\"emphasis\">delightful</span> yarn about how his pet mongrel slipped the leash and set about burning half the city to the ground. Not very noble of him, I grant you─but then these highborn types rarely do show loyalty to their pets."
+            },
+            {
+                "name": "THANCRED",
+                "text": "...In fact, he called you rabid and begged us to put you down."
+            },
+            {
+                "name": "PYROMANIAC02162",
+                "text": "Th-That's bollocks! He's the one what told me to keep goin'!"
+            },
+            {
+                "name": "PYROMANIAC02162",
+                "text": "...Even a sinner such as me could find salvation in the Fury's work, he said. I'd left it behind─tried to, with all my heart! Said my prayers every day, like a good man. But he came to me! <span class=\"emphasis\">He came to me</span>!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "And there you have it. Hilda, would you be so kind as to escort our friend here to the Congregation?"
+            },
+            {
+                "name": "HILDA",
+                "text": "Aye. So long as you don't mind if he's limpin' when he gets there."
+            },
+            {
+                "name": "TATARU",
+                "text": "That was incredible, Thancred! But how did you know he would confess?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Well, I have seen his like before. A troubled soul, manipulated by men of power and wielded as a weapon..."
+            },
+            {
+                "name": "THANCRED",
+                "text": "I could not be certain, of course. But given the stakes, I thought it worth the risk."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "And if our captive had called your bluff?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Must we entertain hypotheticals? The world as it is is vexing enough."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "<span class=\"emphasis\">Thank you</span>, Thancred. Whether by luck or judgment, we have at last confirmed that these arsons were orchestrated by a person or persons of influence. I think it best that we now return to the Congregation and discuss how best to proceed."
+            },
+            {
+                "name": "TATARU",
+                "text": "Thank the Twelve you've returned to us! But what happened to your old outfit?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Ah, yes, about that..."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "The Temple Knights are interrogating the arsonist as we speak. Gods willing, we shall have more information ere long."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "If we could but determine the motive behind these fires..."
+            },
+            {
+                "name": "HILDA",
+                "text": "Bit of a gambler, ain't he? Fine by me, so long as his luck don't run out."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "Apologies, <span class=\"highlight\">Forename</span>, but the interrogation is ongoing."
+            },
+            {
+                "name": "LUCIA",
+                "text": "On behalf of the Holy See of Ishgard, I thank you all."
+            },
+            {
+                "name": "LUCIA",
+                "text": "The man you apprehended is being interrogated as we speak. Though he fell silent upon realizing that we had not turned his master, he will soon tell us what he knows, one way or another."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Pardon the intrusion, First Commander..."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Ah, Lord Artoirel. Are you come to see your father? He is attending Ser Aymeric in his chambers at present."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "I am. He bid me bring this salve."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Then do not let me detain you. And thank you for your kindness, my lord."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "In times of trouble, every man must do his part. Would that I could do more."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "...My lord Artoirel did not seem to be in the best of spirits."
+            },
+            {
+                "name": "LUCIA",
+                "text": "'Tis little wonder, Master Alphinaud. His father is widely slandered, and his half-brother not yet cold in the grave."
+            }
+        ],
+        "reward": {
+            "gil": 713,
+            "items": [
+                {
+                    "id": 20608,
+                    "one": 1
+                },
+                {
+                    "id": 20609,
+                    "one": 1
+                },
+                {
+                    "num": 7,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 16740
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67697
+            ]
+        },
+        "next": [
+            67699
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016008",
+            "obj": {
+                "i": 1016008,
+                "n": "Lucia",
+                "l": 2300,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012163",
+            "obj": {
+                "i": 1012163,
+                "n": "Handeloup",
+                "l": 2300,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012384",
+            "obj": {
+                "i": 1012384,
+                "n": "Emmanellain",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012385",
+            "obj": {
+                "i": 1012385,
+                "n": "Honoroit",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013167",
+            "obj": {
+                "i": 1013167,
+                "n": "Lucia",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016009",
+            "obj": {
+                "i": 1016009,
+                "n": "Hilda",
+                "l": 2300,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016010",
+            "obj": {
+                "i": 1016010,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016011",
+            "obj": {
+                "i": 1016011,
+                "n": "Y'shtola",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016012",
+            "obj": {
+                "i": 1016012,
+                "n": "Thancred",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016015",
+            "obj": {
+                "i": 1016015,
+                "n": "Unruffled Refugee",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016018",
+            "obj": {
+                "i": 1016018,
+                "n": "Maelie",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016020",
+            "obj": {
+                "i": 1016020,
+                "n": "Vault Priest",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016025",
+            "obj": {
+                "i": 1016025,
+                "n": "Hilda",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016026",
+            "obj": {
+                "i": 1016026,
+                "n": "Thancred",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016027",
+            "obj": {
+                "i": 1016027,
+                "n": "Hilda",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016028",
+            "obj": {
+                "i": 1016028,
+                "n": "Thancred",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016029",
+            "obj": {
+                "i": 1016029,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016030",
+            "obj": {
+                "i": 1016030,
+                "n": "Tataru",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016031",
+            "obj": {
+                "i": 1016031,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016032",
+            "obj": {
+                "i": 1016032,
+                "n": "Tataru",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016033",
+            "obj": {
+                "i": 1016033,
+                "n": "Captive",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016057",
+            "obj": {
+                "i": 1016057,
+                "n": "Y'shtola",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016058",
+            "obj": {
+                "i": 1016058,
+                "n": "Y'shtola",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016059",
+            "obj": {
+                "i": 1016059,
+                "n": "Thancred",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "20608",
+            "obj": {
+                "i": 20608,
+                "n": "Primal Accessories of Fending Coffer (IL 240)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "20609",
+            "obj": {
+                "i": 20609,
+                "n": "Primal Accessories of Slaying Coffer (IL 240)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67697",
+            "obj": {
+                "i": 67697,
+                "n": "Dreams of the Lost",
+                "g": 4,
+                "l": "The Dravanian Forelands",
+                "s": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67699",
+            "obj": {
+                "i": 67699,
+                "n": "As Goes Light, So Goes Darkness",
+                "g": 4,
+                "l": "Ishgard",
+                "s": 8
+            }
+        }
+    ]
+}

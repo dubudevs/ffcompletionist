@@ -1,0 +1,267 @@
+{
+    "quest": {
+        "name": "Call of the Sea",
+        "location": "Ul'dah",
+        "id": 66210,
+        "patch": 2.0,
+        "sort": 90,
+        "eventIcon": 71201,
+        "issuer": 1001821,
+        "target": 1000972,
+        "genre": 1,
+        "journal": [
+            "Bartholomew has information that may be of interest to you.",
+            "Baderon, the proprietor of the Drowning Wench in Limsa Lominsa, has need of a capable adventurer. Speak with him if you would know more.",
+            "Baderon warns you that the job will entail considerable danger. If you are resolved to undertake it, speak to the man again to be briefed."
+        ],
+        "objectives": [
+            "Speak with Baderon at the Drowning Wench in Limsa Lominsa."
+        ],
+        "dialogue": [
+            {
+                "name": "FLAME",
+                "text": "Ah, <span class=\"alternative-container\"><span class=\"alternative\">my lady</span><span class=\"alternative\">my lord</span></span> envoy. I trust your stay in the sultanate has been pleasant. Now, if you do not mind my asking, do you perchance have plans to visit Limsa Lominsa in the near future? If so, I have information that may be of interest to you."
+            },
+            {
+                "name": "FLAME",
+                "text": "I once accompanied the Flame General on an official visit to the seaside city–state, during which time I became acquainted with Baderon, the proprietor of the Drowning Wench. Well, the man sent word just now that he has a job for a capable adventurer."
+            },
+            {
+                "name": "FLAME",
+                "text": "I can think of none with better credentials than you. Baderon would doubtless be pleased were you to offer him your services."
+            },
+            {
+                "name": "FLAME",
+                "text": "Baderon has need of a capable adventurer, and I can think of none with better credentials than you. If you are not otherwise occupied, perhaps you might consider offering him your services."
+            },
+            {
+                "name": "BADERON",
+                "text": "Welcome to the Drownin' Wench! Sit wherever ye like, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">mate</span></span>. I'll be with ye in a─"
+            },
+            {
+                "name": "BADERON",
+                "text": "Well, well, if it ain't the one an' only <span class=\"highlight\">Forename Surname</span>!"
+            },
+            {
+                "name": "BADERON",
+                "text": "I was told a <span class=\"emphasis\">distinguished</span> 'venturer might be reportin' fer duty. Fancy that 'venturer bein' you, eh!?"
+            },
+            {
+                "name": "BADERON",
+                "text": "Hm? Aye, I'm Baderon, all right. Who's askin'?"
+            },
+            {
+                "name": "BADERON",
+                "text": "Ah, 'eard as I've got a job fer a capable 'venturer, ye say? Well, yer bloody right!"
+            },
+            {
+                "name": "BADERON",
+                "text": "Just so yer fairly warned, though, this ain't no job fer the faint of 'eart. Things're liable to get downright bleedin' 'airy. But if ye think yer still interested, let me know, an' I'll fill ye in on the details."
+            }
+        ],
+        "reward": {
+            "gil": 286,
+            "items": [
+                {
+                    "id": 3026,
+                    "one": 1
+                },
+                {
+                    "id": 3022,
+                    "one": 1
+                },
+                {
+                    "id": 3024,
+                    "one": 1
+                },
+                {
+                    "num": 4,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 6720
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 14,
+                    "id": 130
+                }
+            ],
+            "questsType": "any",
+            "quests": [
+                66043,
+                66082
+            ]
+        },
+        "next": [
+            65781,
+            66211,
+            66678,
+            66681,
+            66746,
+            66967
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001821",
+            "obj": {
+                "i": 1001821,
+                "n": "Bartholomew",
+                "l": 41,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000972",
+            "obj": {
+                "i": 1000972,
+                "n": "Baderon",
+                "l": 28,
+                "q": 26,
+                "t": "Drowning Wench Proprietor"
+            }
+        },
+        {
+            "type": "item",
+            "id": "3026",
+            "obj": {
+                "i": 3026,
+                "n": "Bronze Cuirass",
+                "l": 15,
+                "c": 48001,
+                "t": 35,
+                "p": 819
+            }
+        },
+        {
+            "type": "item",
+            "id": "3022",
+            "obj": {
+                "i": 3022,
+                "n": "Cotton Shirt",
+                "l": 14,
+                "c": 42105,
+                "t": 35,
+                "p": 424
+            }
+        },
+        {
+            "type": "item",
+            "id": "3024",
+            "obj": {
+                "i": 3024,
+                "n": "Cotton Cowl",
+                "l": 15,
+                "c": 43610,
+                "t": 35,
+                "p": 663
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66043",
+            "obj": {
+                "i": 66043,
+                "n": "The Gridanian Envoy",
+                "g": 1,
+                "l": "Gridania",
+                "s": 86
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66082",
+            "obj": {
+                "i": 66082,
+                "n": "The Lominsan Envoy",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 87
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65781",
+            "obj": {
+                "i": 65781,
+                "n": "It's Probably Pirates",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 91
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66211",
+            "obj": {
+                "i": 66211,
+                "n": "It's Probably Pirates",
+                "g": 0,
+                "l": "Limsa Lominsa",
+                "s": 91
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66678",
+            "obj": {
+                "i": 66678,
+                "n": "Keep Your Day Job",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 150
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66681",
+            "obj": {
+                "i": 66681,
+                "n": "On a Wing and a Prayer",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 150
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66746",
+            "obj": {
+                "i": 66746,
+                "n": "Beauty Is Only Scalp Deep",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 150,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66967",
+            "obj": {
+                "i": 66967,
+                "n": "Rising to the Challenge",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 150,
+                "f": 1
+            }
+        }
+    ]
+}

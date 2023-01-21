@@ -1,0 +1,122 @@
+{
+    "quest": {
+        "name": "Mona Lisa Smile",
+        "location": "Eastern La Noscea",
+        "id": 66380,
+        "patch": 2.0,
+        "sort": 330,
+        "eventIcon": 71221,
+        "issuer": 1006307,
+        "target": 1006307,
+        "involved": [
+            1006310
+        ],
+        "genre": 91,
+        "journal": [
+            "Etgar seems to be in a state of some excitement this fine <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">day</span></span>.",
+            "Etgar has told you that Master Byrglaent has hired a miniaturist for the creation of a new wine label. Go and meet the artist at the Raincatcher Gully docks to inform him that the master vintner awaits his arrival.",
+            "You have spoken with the renowned Ul'dahn artist and directed him to Wineport. Return to Etgar to ensure that the miniaturist arrived safely.",
+            "Etgar is over the moon at the arrival of the artist, and is thrilled at the prospect of seeing Master Byrglaent's beatific image captured by the painter. The master vintner is clearly a man of great charisma."
+        ],
+        "objectives": [
+            "Speak with the Ul'dahn artist.",
+            "Report to Etgar."
+        ],
+        "dialogue": [
+            {
+                "name": "ETGAR",
+                "text": "The étiquettes─pardon me, wine labels to laymen such as yourself─used by our winery always bear the noble countenance of Master Byrglaent himself."
+            },
+            {
+                "name": "ETGAR",
+                "text": "As such, our esteemed vintian has invited a famed Ul'dahn miniaturist─oh, very well known, probably the most famous miniaturist in all the land─to fashion a label truly worthy of a classic vintage. And he is due to arrive today."
+            },
+            {
+                "name": "ETGAR",
+                "text": "I beg you, won't you go down to the Raincatcher Gully docks and meet him? I fear he will be quite mobbed by admirers, and I'd not have him molested, at least until the portrait is done!"
+            },
+            {
+                "name": "NPCA",
+                "text": "Yes, I'm the miniaturist. Pardon me if I do not give you my name─I travel incognito, such is my fame. Ah, Master Byrglaent awaits? I will fly to him forthwith!"
+            },
+            {
+                "name": "NPCA",
+                "text": "We have much to discuss, the master and I. Our artistic differences are many and sundry, yet...yet I cannot resist returning for another étiquette. He is a model in a thousand, that one."
+            },
+            {
+                "name": "NPCA",
+                "text": "What painter would not wish to sojourn in the sunshine, where wine flows as freely as conversation with a brilliant patron?"
+            },
+            {
+                "name": "ETGAR",
+                "text": "Our expert in étiquettes has just been by! Simply marvelous! I shall order the chilled white taken to his quarters at once."
+            },
+            {
+                "name": "ETGAR",
+                "text": "Ah, how sweet it is to have the miniaturist here again! It has been full five years, for the Calamity stripped our vines. Our first bottling in half a decade, and oh, to see the master's beatific visage captured again!"
+            }
+        ],
+        "reward": {
+            "gil": 1461,
+            "xp": 8190
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66377
+            ]
+        },
+        "next": [
+            66385
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006307",
+            "obj": {
+                "i": 1006307,
+                "n": "Etgar",
+                "l": 32,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006310",
+            "obj": {
+                "i": 1006310,
+                "n": "Ul'dahn Artist",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66377",
+            "obj": {
+                "i": 66377,
+                "n": "Raptor 'round Your Little Finger",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 320
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66385",
+            "obj": {
+                "i": 66385,
+                "n": "Anise, Chocolate, and a Hint of Toad",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 330
+            }
+        }
+    ]
+}

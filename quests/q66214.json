@@ -1,0 +1,119 @@
+{
+    "quest": {
+        "name": "Call of the Desert",
+        "location": "Gridania",
+        "id": 66214,
+        "patch": 2.0,
+        "sort": 94,
+        "eventIcon": 71201,
+        "issuer": 1000100,
+        "target": 1001353,
+        "genre": 1,
+        "journal": [
+            "Miounne has information on a new task.",
+            "According to Miounne, the Adventurers' Guild in Ul'dah is recruiting people for an as-yet-undisclosed task. You can learn more by speaking to Momodi, the proprietress of the Quicksand.",
+            "You have expressed your interest in the task to Momodi. Let her know when you are ready to hear the details."
+        ],
+        "objectives": [
+            "Speak with Momodi at the Quicksand in Ul'dah."
+        ],
+        "dialogue": [
+            {
+                "name": "MIOUNNE",
+                "text": "So, you're not averse to taking a little trip? Wonderful!"
+            },
+            {
+                "name": "MIOUNNE",
+                "text": "As I mentioned earlier, the request comes to us from the Adventurers' Guild in Ul'dah. Once you arrive, seek out Momodi, the proprietress of the Quicksand. Think of her as the sultanate's version of myself."
+            },
+            {
+                "name": "MIOUNNE",
+                "text": "Chances are she'll send you into the midst of danger, but I have every confidence that you will pull through unscathed. Now, off you go, <span class=\"highlight\">Forename</span>, and good luck!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Welcome to the Quicksand, friend. I'm a tad busy right now, if you wouldn't mind showin' yourself to─"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Oh, it's you, <span class=\"highlight\">Forename</span>! And there I was, spoutin' the same tired line!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Judgin' by your determined expression, I take it you ain't here for ale. Are you called <span class=\"highlight\">Forename Surname</span>, by any chance?"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Miounne sent word that you'd be reportin' for duty. She also made a point of callin' you the adventurer of the moment. That ain't no small praise, comin' from her."
+            },
+            {
+                "name": "MOMODI",
+                "text": "But you didn't come all the way here to listen to my prattle. Doubtless you're eager to get started, so let's talk business, shall we?"
+            }
+        ],
+        "reward": {
+            "gil": 197,
+            "xp": 7000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 16,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66213
+            ]
+        },
+        "next": [
+            66196
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000100",
+            "obj": {
+                "i": 1000100,
+                "n": "Mother Miounne",
+                "l": 52,
+                "q": 21,
+                "t": "Carline Canopy Proprietress"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001353",
+            "obj": {
+                "i": 1001353,
+                "n": "Momodi",
+                "l": 40,
+                "q": 27,
+                "t": "Quicksand Proprietress"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66213",
+            "obj": {
+                "i": 66213,
+                "n": "Fire in the Gloom",
+                "g": 1,
+                "l": "Gridania",
+                "s": 93
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66196",
+            "obj": {
+                "i": 66196,
+                "n": "Into a Copper Hell",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 95
+            }
+        }
+    ]
+}

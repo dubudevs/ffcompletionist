@@ -1,0 +1,125 @@
+{
+    "quest": {
+        "name": "With a Little Elbow Grease",
+        "location": "Eastern Thanalan",
+        "id": 66407,
+        "patch": 2.0,
+        "sort": 183,
+        "eventIcon": 71201,
+        "target": 1006672,
+        "genre": 0,
+        "usedItems": [
+            2394
+        ],
+        "journal": [
+            "Eaduuard appears to be toying with a defective device of some sort.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to either Marques or Eluned at the Church of Saint Adama Landama, depending on your progress.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "Marques identifies the oven as an alchemist's alembic, and states that while he can modify it for Eaduuard's purposes, he requires a bronze ornamental hammer, which can be purchased from the merchants at Camp Drybone.",
+            "According to Marques, the makeshift oven should take no longer than a day to prepare─a truly amazing feat of engineering. Just how the refugee acquired such advanced skills is a mystery to all, including the man himself..."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and accept it again to restart.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "EADUUARD",
+                "text": "Aw, just my luck! I scavenged this here oven, thinkin' I could use it to make myself hot meals, but it looks to be in a bad way. Lots of dents, a few holes even..."
+            },
+            {
+                "name": "EADUUARD",
+                "text": "Hey, you're pretty well traveled, ain't ye? Ever seen one of these before─or better yet, know how to fix it? No? Bah..."
+            },
+            {
+                "name": "EADUUARD",
+                "text": "Wait, I know who we ought to ask. Mind showin' this oven to Marques for me? He repaired a clockwork toy I found once, so maybe he can do somethin' with it."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "...Is there something I can do for you?"
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "This...this is an alchemist's alembic. You say the boy wishes to use it for cooking?"
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "I suppose it would be possible, were I to make some modifications...but I would need a bronze ornamental hammer to do so. Can you bring me one, <span class=\"highlight\">Forename</span>? You need only go so far as Camp Drybone to find a merchant who sells tools."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "I can convert the alembic into a makeshift oven, but only once you have brought me that hammer."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "Thank you, <span class=\"highlight\">Forename</span>. It shan't take more than a day, I believe."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "It's strange...I know I must have learned these skills long ago, but I haven't the foggiest when and where that was..."
+            }
+        ],
+        "reward": {
+            "xp": 18040
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66053
+            ]
+        },
+        "next": [
+            66417
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006672",
+            "obj": {
+                "i": 1006672,
+                "n": "Marques",
+                "l": 44,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "2394",
+            "obj": {
+                "i": 2394,
+                "n": "Bronze Ornamental Hammer",
+                "l": 14,
+                "c": 35304,
+                "t": 18,
+                "p": 511
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66053",
+            "obj": {
+                "i": 66053,
+                "n": "All Good Things",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 182
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66417",
+            "obj": {
+                "i": 66417,
+                "n": "A Tall Drink of Aqua del Sol",
+                "g": 0,
+                "l": "Eastern Thanalan",
+                "s": 185
+            }
+        }
+    ]
+}

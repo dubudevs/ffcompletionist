@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Feat of Clay",
+        "location": "The Dravanian Forelands",
+        "id": 67327,
+        "patch": 3.0,
+        "sort": 5222,
+        "eventIcon": 71221,
+        "issuer": 1011931,
+        "target": 1011931,
+        "genre": 98,
+        "journal": [
+            "The voracious Vath is examining the Vath nests.",
+            "The voracious Vath explains to you that, while the Vath are self-sufficient with regard to food, they are unable to gather the materials necessary to build and maintain their nests. He asks you to retrieve Dravanian clay from the hive at Loth ast Gnath.",
+            "You collect the clay from the Gnath hive. Return it to the voracious Vath at Loth ast Vath.",
+            "The voracious Vath thanks you for the construction materials. You learn that Gnath nests are made by combining this clay─extracted from deep beneath the Smoldering Wastes─with Gnath saliva."
+        ],
+        "objectives": [
+            "Obtain Dravanian clay.",
+            "Deliver the clay to the voracious Vath."
+        ],
+        "dialogue": [
+            {
+                "name": "NANKAEATER",
+                "text": "Greetings hunter. Does the hunt go well? There is much delicious meat nearby. There is much delicious fruit nearby. We rarely want for food."
+            },
+            {
+                "name": "NANKAEATER",
+                "text": "What we want for is shelter. Building materials are one thing we cannot hunt. We have no materials. We cannot repair our homes. We cannot build new structures."
+            },
+            {
+                "name": "NANKAEATER",
+                "text": "Please fetch us some Dravanian clay. We need Dravanian clay to repair our homes. There is much Dravanian clay at the Gnath hive. Fetch some there. Two boxes' worth will be enough."
+            },
+            {
+                "name": "NANKAEATER",
+                "text": "We have recently treated with the dragons for their clay. But the path for us to take has not been decided yet. There is still much clay at the Gnath hive. Fetch two boxes' worth."
+            },
+            {
+                "name": "NANKAEATER",
+                "text": "Our buildings cannot wait. They are worn by the elements. We need more Dravanian clay. Fetch it from the Gnath."
+            },
+            {
+                "name": "NANKAEATER",
+                "text": "Do you have the Dravanian clay?"
+            },
+            {
+                "name": "NANKAEATER",
+                "text": "Thank you, hunter. This will be enough."
+            },
+            {
+                "name": "NANKAEATER",
+                "text": "Dravanian clay is a special kind of dirt. Dirt from deep beneath the Smoldering Wastes. The Gnath combine it with their saliva to make a thick, sticky substance. It is perfect for constructing nests."
+            }
+        ],
+        "reward": {
+            "gil": 531,
+            "xp": 26400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 52,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67149
+            ]
+        },
+        "next": [
+            67329
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011931",
+            "obj": {
+                "i": 1011931,
+                "n": "Voracious Vath",
+                "l": 2000,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67149",
+            "obj": {
+                "i": 67149,
+                "n": "The Nonmind",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 34
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67329",
+            "obj": {
+                "i": 67329,
+                "n": "Yellow Stones",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5304
+            }
+        }
+    ]
+}

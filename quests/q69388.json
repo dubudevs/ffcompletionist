@@ -1,0 +1,206 @@
+{
+    "quest": {
+        "name": "Prudence at This Junction",
+        "location": "Central Thanalan",
+        "id": 69388,
+        "patch": 5.3,
+        "sort": 30,
+        "eventIcon": 71201,
+        "issuer": 1001541,
+        "target": 1001447,
+        "genre": 1,
+        "journal": [
+            "Roger hears all sorts of information in his line of work, some of which may be useful to you.",
+            "Roger has an inkling that you are made for greater feats than delivering pumpkins. He suggests that you speak with Warin of the Stone Torches, who is in need of assistance of some description.",
+            "Warin, professional sellsword extraordinaire, is recruiting willing and able adventurers to assist in defending Amajina & Sons Mineral Concern's property. However, he is unwilling to employ those who are ill prepared for this potentially dangerous task, and insists on taking a closer look at your equipment before you begin. Equip your head, body, hands, legs, and feet with gear of item level 5 or above and present yourself to him for inspection.",
+            "A single piece of equipment can be the difference between life and death. Now satisfied that you are suitably outfitted, Warin is ready to assign you a task."
+        ],
+        "objectives": [
+            "Speak with Warin.",
+            "Present yourself to Warin for inspection."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "ROGER",
+                "text": "Word is, Black Brush Station's sorely undermanned. The Stone Torches there can't get a moment's peace."
+            },
+            {
+                "name": "ROGER",
+                "text": "Bloke by the name o' Warin is hopin' to bolster their numbers for a short-term assignment or two. If you fancy puttin' a few extra gil in yer pocket, you could do a lot worse."
+            },
+            {
+                "name": "WARIN",
+                "text": "Looking for work, perchance? If so, you couldn't have come at a better time."
+            },
+            {
+                "name": "WARIN",
+                "text": "We Stone Torches are sellswords hired by Amajina & Sons Mineral Concern to protect its interests. Our primary duty here is to keep the tracks clear of pests, and it is for this purpose that we require your aid."
+            },
+            {
+                "name": "WARIN",
+                "text": "I should point out, however, that it can be messy work, and liable to get messier still if you're ill prepared."
+            },
+            {
+                "name": "WARIN",
+                "text": "A single piece of gear can mean the difference between life and death. I'll not have it on my conscience that I sent an ill-equipped adventurer to an untimely demise."
+            },
+            {
+                "name": "WARIN",
+                "text": "See to it that your arms and armor are in order. When you are ready, present yourself to me again."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Equip your head, body, hands, legs, and feet with gear of item level 5 or above before returning to speak with Warin."
+            },
+            {
+                "name": "WARIN",
+                "text": "So you are ready for inspection?"
+            },
+            {
+                "name": "WARIN",
+                "text": "By the gods, <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>! However in the seven hells did you survive the antlings equipped as poorly as you are? I cannot in good conscience send you to face savage beasts until your gear is in order."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Equip your head, body, hands, legs, and feet with gear of item level 5 or above before returning to speak with Warin."
+            },
+            {
+                "name": "WARIN",
+                "text": "Good. Everything appears in order."
+            },
+            {
+                "name": "WARIN",
+                "text": "Yet know that naught is guaranteed in this world. Fate is a fickle mistress, after all. At any rate, capable adventurers like you are few and far between, and I would not have you throw your life away."
+            },
+            {
+                "name": "WARIN",
+                "text": "I have had to bury too many comrades who brushed aside cracks in their hauberks and dints in their helms. No matter what you face, do not disregard the importance of gear."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3008,
+                    "one": 1
+                },
+                {
+                    "id": 3000,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65839
+            ]
+        },
+        "next": [
+            65843,
+            65924
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001541",
+            "obj": {
+                "i": 1001541,
+                "n": "Roger",
+                "l": 43,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001447",
+            "obj": {
+                "i": 1001447,
+                "n": "Warin",
+                "l": 43,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "3008",
+            "obj": {
+                "i": 3008,
+                "n": "Hempen Acton",
+                "l": 8,
+                "c": 43012,
+                "t": 35,
+                "p": 273
+            }
+        },
+        {
+            "type": "item",
+            "id": "3000",
+            "obj": {
+                "i": 3000,
+                "n": "Hempen Cowl",
+                "l": 8,
+                "c": 43601,
+                "t": 35,
+                "p": 309
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65839",
+            "obj": {
+                "i": 65839,
+                "n": "Step Nine",
+                "g": 1,
+                "l": "Central Thanalan",
+                "s": 23
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65843",
+            "obj": {
+                "i": 65843,
+                "n": "Out of House and Home",
+                "g": 1,
+                "l": "Central Thanalan",
+                "s": 37
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65924",
+            "obj": {
+                "i": 65924,
+                "n": "Bloodied and Bowed",
+                "g": 93,
+                "l": "Central Thanalan",
+                "s": 80
+            }
+        }
+    ]
+}

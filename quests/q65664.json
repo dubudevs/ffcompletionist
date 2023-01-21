@@ -1,0 +1,96 @@
+{
+    "quest": {
+        "name": "Eggs over Queasy",
+        "location": "Central Shroud",
+        "id": 65664,
+        "patch": 2.0,
+        "sort": 24,
+        "eventIcon": 71201,
+        "target": 1000449,
+        "genre": 0,
+        "journal": [
+            "Galfrid, chief instructor at the Bannock, wishes you to collect chigoe egg sacs.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Galfrid at the Bannock.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You have collected eight chigoe egg sacs. Deliver them to Monranguin at Gilbert's Spire.",
+            "Chigoes are known carriers of the Creeping Death─a terrifying illness that almost invariably proved fatal to its Hyuran victims. Though a cure is now available, Gridanian researchers periodically check the chigoes for signs of the disease in order to prevent further outbreaks."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Galfrid at the Bannock.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "GALFRID",
+                "text": "<span class=\"highlight\">Forename</span>, injuries to several of my men have left me shorthanded, and I require a capable sort to complete their unfinished duty."
+            },
+            {
+                "name": "GALFRID",
+                "text": "The task is simple: put down as many of the local chigoe population as necessary to acquire eight of their egg sacs."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Having done so, you are to deliver them to Monranguin at Gilbert's Spire. He will answer any queries you might have. Now, I have other business to attend to."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "Ah, you must be the adventurer standing in for our injured companions. Terribly unfortunate business, that."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "It seems, however, that you had little trouble gathering the egg sacs in their stead. Excellent work. I shall have them sent over to the Trappers' League immediately."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "Lest you wonder, these egg sacs are not destined for the dinner table! Members of the Twin Adder and the Wood Wailers are assisting the league by collecting the samples they need to check for signs of sickness."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "The chigoe, you see, is one of the few creatures capable of transmitting the disease known as the Creeping Death. Until relatively recently, any Hyur who contracted this ghastly illness would almost invariably perish."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "Indeed, a single outbreak once claimed the lives of a third of the Hyuran population here in Gridania. That was a long time ago, of course. With the medicines available to us now, the Creeping Death is not the killer it once was."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "Even so, it is best to halt any new outbreaks before they occur. Thus we gather chigoe eggs on a regular basis in order to assist the Trappers' League with their ongoing research. Your timely assistance is most appreciated."
+            }
+        ],
+        "reward": {
+            "xp": 2240
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65732
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000449",
+            "obj": {
+                "i": 1000449,
+                "n": "Monranguin",
+                "l": 54,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65732",
+            "obj": {
+                "i": 65732,
+                "n": "An Eft for Effort",
+                "g": 0,
+                "l": "Central Shroud",
+                "s": 21
+            }
+        }
+    ]
+}

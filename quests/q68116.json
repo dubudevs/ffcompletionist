@@ -1,0 +1,706 @@
+{
+    "quest": {
+        "name": "A Vermilion Vendetta",
+        "location": "Western La Noscea",
+        "id": 68116,
+        "patch": 4.0,
+        "sort": 560,
+        "icon": 100681,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1021462,
+        "target": 1021473,
+        "involved": [
+            1021442,
+            1021443,
+            1021461,
+            1021466,
+            1021467,
+            1021468,
+            1021469,
+            1021470,
+            1021471,
+            1021472
+        ],
+        "genre": 161,
+        "journal": [
+            "X'rhun Tia has a proposal to help cure Arya's memory loss.",
+            "While X'rhun is off investigating Arya's origins with the Yellowjackets, he asks that you attempt to jolt the girl's memory. Talk to Arya, and convince her to join you for a walk outside.",
+            "Arya has awoken refreshed from her sleep but still bereft of memories. She seems agreeable to the idea of a walk, and mentions a desire to see the view from the top of the port's wall. Join Arya at the battlements.",
+            "Your attempts to restore Arya's memory lead her to remember an unpleasant event which befell her and her uncle. Return to the inn, and share this revelation with X'rhun.",
+            "Arya is able to recall the death of her uncle, but her other memories remain hidden behind an impenetrable fog. When X'rhun ponders the destination of the cabal's ship, however, Arya suddenly remembers the assassins speaking of a rendezvous with their mysterious master. Prepare for a confrontation, and join X'rhun and Arya on the Isles of Umbra.<br><br>※The Isles of Umbra can be reached once you accept (or have completed) the main scenario quest “The Reluctant Researcher.”",
+            "You arrive on the Isles of Umbra, and X'rhun confirms the presence of the tight-lipped assassins. Dead men and mute mages hamper your search, and you have yet to discover the cabal's master. Speak with X'rhun Tia at the Ship's Graveyard.",
+            "After several battles with the cabal's relentless underlings, you eventually encounter the puppeteer himself: a man named Lambard. It would seem that the villain is acquainted with X'rhun, but Arya's unexpected intervention cuts short what promised to be a violent reunion. Return to Aleport, and listen to X'rhun's tale.",
+            "X'rhun tells of the founding of the Crimson Duelists, and of how their efforts to overthrow a tyrant were dashed by Lambard's betrayal. X'rhun now means to exact vengeance upon the traitor who murdered his companions, but does not expect you to join him in what has become a personal vendetta. Approach the waiting Duelist, and convey your intention to see this journey through to the end.",
+            "X'rhun gladly accepts you as a comrade-in-arms, but is surprised to hear Arya express her own desire to help vanquish the cabal's master. Persuaded by her courage and conviction, however, he chooses to welcome the determined young woman into the ranks of the red mages. Together, the three of you must now prepare to face the treacherous Lambard.<br><br>※The next red mage quest will be available from X'rhun Tia upon reaching level 58."
+        ],
+        "objectives": [
+            "Speak with Arya.",
+            "Rendezvous with X'rhun Tia.",
+            "Rendezvous with X'rhun Tia on the Isles of Umbra.",
+            "Speak with X'rhun Tia.",
+            "Rendezvous with X'rhun Tia in Aleport.",
+            "Speak with X'rhun Tia.",
+            "Find the cabal's camp!",
+            "Defeat the undead!"
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "Arya is sleeping peacefully..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I have spoken with Arya, but it seems her memory has yet to return. The incense used must have been potent indeed to create such a lasting fog..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "If she cannot recover naturally, then we must rely on some familiar sight or event to jolt her senses back to normalcy. Might I ask that you take her out somewhere to test my theory? She seems far more comfortable around you, after all!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "At the very least, I would know from whence she hails. I shall call once more upon my acquaintance in the Yellowjackets─surely she has family who are searching for her."
+            },
+            {
+                "name": "ARYA",
+                "text": "<span class=\"highlight\">Forename</span>! Thank you again for letting me out of that crate!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I had such a lovely sleep. That awful tiredness has left me, but I still can't seem to remember anything..."
+            },
+            {
+                "name": "ARYA",
+                "text": "...Outside? Well, yes, I suppose a fresh breeze might help to blow away the cobwebs."
+            },
+            {
+                "name": "ARYA",
+                "text": "I think I'd like to see the view from the battlements. Will you join me up there, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "ARYA",
+                "text": "Look! Isn't it beautiful!? I've never seen anything...so..."
+            },
+            {
+                "name": "ARYA",
+                "text": "...Is this truly the first time I'm seeing this view? I try to remember, but my mind is a blank page. I can be sure of nothing..."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "We will make you new memories."
+            },
+            {
+                "name": "A1",
+                "text": "I forget such things myself."
+            },
+            {
+                "name": "ARYA",
+                "text": "...Make new memories?"
+            },
+            {
+                "name": "ARYA",
+                "text": "Oh, I hadn't thought of it like that! It's almost a gift of sorts, isn't it? Being able to enjoy things afresh!"
+            },
+            {
+                "name": "ARYA",
+                "text": "<span class=\"highlight\">Forename</span>, have you lost your memory as well!? Or...no... You just mean you're forgetful, don't you?"
+            },
+            {
+                "name": "ARYA",
+                "text": "I appreciate you trying to make me feel better, I honestly do. I'd much rather laugh than brood over what I've lost..."
+            },
+            {
+                "name": "ARYA",
+                "text": "I think I'll stay up here a while longer, just to be sure I'll remember it tomorrow...<br>Oh, do you see that ship! How do they keep such massive things afloat?"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Fond of ships, are you?"
+            },
+            {
+                "name": "A2",
+                "text": "Fond of high places, are you?"
+            },
+            {
+                "name": "ARYA",
+                "text": "I... Why, yes, I am! I think I might always have been. What an insightful question!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I remember when I was a child, I would always beg my uncle to...<br>Oh! I remember! I had an uncle..."
+            },
+            {
+                "name": "ARYA",
+                "text": "High places? No, not especially so. Why, do you think I enjoy looking down on others!?"
+            },
+            {
+                "name": "ARYA",
+                "text": "I do enjoy watching the ships, though. I remember when I was a child, I would always beg my uncle to...<br>Oh! I remember! I had an uncle..."
+            },
+            {
+                "name": "ARYA",
+                "text": "He was my only family. He...he tried to protect me, but─"
+            },
+            {
+                "name": "ARYA",
+                "text": "...Forgive me. The exact events are still a jumble, but the memory was not a pleasant one."
+            },
+            {
+                "name": "ARYA",
+                "text": "That day, it's...it's all coming back in a rush. Do you think we might return to the inn? I need a moment or two."
+            },
+            {
+                "name": "ARYA",
+                "text": "X'rhun is back from his errand, it seems. If you would listen, I'll tell you what I've remembered so far..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The Yellowjackets were able to dig up a report on Arya from their records, and I hurried back to share the news. But seeing as her memory of the incident has returned, I'd rather hear the tale from the source, as it were."
+            },
+            {
+                "name": "ARYA",
+                "text": "From what I can recall, I'd always lived with my uncle. He was a kind, gentle man, who would often tell me stories of my parents. I was young when they died...too young to remember them, I think."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...The report mentioned that you were citizens of Limsa Lominsa. Do you remember where you were when the attack came?"
+            },
+            {
+                "name": "ARYA",
+                "text": "Yes, we were on the road to...somewhere. The ambushers appeared as if from thin air, and my uncle stepped forward to shield me. They killed him."
+            },
+            {
+                "name": "ARYA",
+                "text": "What happened after that is a blur, but my memory of that moment is crystal clear."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...Thank you, Arya. You needn't force yourself to remember the rest. For now, we must concern ourselves with your future."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "'Twould not be charitable to send you back to town alone─especially not with significant parts of your memory still missing."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Yet we cannot ask you to accompany us either. Our journey leads us on a path to confront the very cabal whose malevolent embrace you have but recently escaped."
+            },
+            {
+                "name": "ARYA",
+                "text": "I would go with you, even so!"
+            },
+            {
+                "name": "ARYA",
+                "text": "You saved my life, and helped me accept the loss of my past. If there's a chance my memories could return and lead you to these villains, then I would stay at your side!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...How can I refuse such passion? It seems we've adopted a new companion, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The greatest challenge facing us now, however, is deciding on our next destination. The merchantman is fled, and we know not whither it is bound..."
+            },
+            {
+                "name": "ARYA",
+                "text": "...Isles of Umbra."
+            },
+            {
+                "name": "ARYA",
+                "text": "I remember. They were the only words I heard them speak before I blacked out. “Isles of Umbra. The master calls...”"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "These puppets do not─nay, cannot─speak idly."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Ready yourself, <span class=\"highlight\">Forename</span>! We cross to the Isles of Umbra, and confront this “master” of theirs. You as well, Arya! We fight together!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Isles of Umbra can be reached once you accept (or have completed) the main scenario quest “The Reluctant Researcher.”"
+            },
+            {
+                "name": "ARYA",
+                "text": "X'rhun lent me a weapon to protect myself, but...need we fight these ghostly lights?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The Maelstrom soldiers tell of a steady stream of tight-lipped arrivals─it would seem the master gathers all the marionettes to the isles. I armed Arya with what I had, but..."
+            },
+            {
+                "name": "ARYA",
+                "text": "...I-I c-can f-fight!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Fight? You can barely talk, lass! I thought her afraid of the mages who took her, but nay, 'tis the thought of ghosts and ghouls which have her all atremble."
+            },
+            {
+                "name": "ARYA",
+                "text": "C-Can you blame me!? The very ground here feels haunted...as if angry spirits might b-burst forth at any moment..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Like that shadowy thing behind you?"
+            },
+            {
+                "name": "ARYA",
+                "text": "Wh-Whaaah!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "There's naught there, lass. Now can we get a move on? Or would you rather head back to Aleport?"
+            },
+            {
+                "name": "ARYA",
+                "text": "I'm c-coming with you!"
+            },
+            {
+                "name": "QIB",
+                "text": "We know the cabal has gathered here─we need only find them!"
+            },
+            {
+                "name": "QIB",
+                "text": "We've no business with the dead! Come along!"
+            },
+            {
+                "name": "QIB",
+                "text": "The fallen are restless this day...<br>Someone has riled them against us."
+            },
+            {
+                "name": "QIB",
+                "text": "We've found them!"
+            },
+            {
+                "name": "QIB",
+                "text": "They seek to delay us. Why are they holding back?"
+            },
+            {
+                "name": "QIB",
+                "text": "Arise, revenant of the underworld! Feed upon my essence, and devour their souls!"
+            },
+            {
+                "name": "QIB",
+                "text": "Another sacrificial ritual! Stay back, Arya, this foe is beyond you!"
+            },
+            {
+                "name": "QIB",
+                "text": "It is strongest against a lone enemy! We must face it side by side, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "QIB",
+                "text": "It draws power from its minions. I will occupy the shadow─you destroy the lesser spirits!"
+            },
+            {
+                "name": "QIB",
+                "text": "That's the way! Now we finish this!"
+            },
+            {
+                "name": "QIB",
+                "text": "And so my tale ends..."
+            },
+            {
+                "name": "ARYA",
+                "text": "You and X'rhun fight so well together! I wish I had been able to help..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The hand that controls these assassins cannot be far. Let's split up and search, shall we? Yell if you run into trouble!"
+            },
+            {
+                "name": "LAMBARD",
+                "text": "(-???-)...Delectable."
+            },
+            {
+                "name": "LAMBARD",
+                "text": "(-???-)Your mortal frame brims with vital energies. An irresistible feast..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "<span class=\"highlight\">Forename</span>! Are you unharmed?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...Lambard!?"
+            },
+            {
+                "name": "LAMBARD",
+                "text": "A pleasure to see you, X'rhun. My, how the years have etched themselves upon your brow."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "This smirking bastard is Lambard. We were allies once..."
+            },
+            {
+                "name": "LAMBARD",
+                "text": "Ah, yes, the valiant Crimson Duelists. Such fond memories. I relished their slaughter."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The Duelists live on through me, traitor."
+            },
+            {
+                "name": "LAMBARD",
+                "text": "Not for long, my old friend..."
+            },
+            {
+                "name": "LAMBARD",
+                "text": "You shall soon share their fate!"
+            },
+            {
+                "name": "ARYA",
+                "text": "<span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "LAMBARD",
+                "text": "Crude interruptions. This is not how I wish to savor your defeat..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Lambard! Gods damn you..."
+            },
+            {
+                "name": "ARYA",
+                "text": "...You knew that man?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Yes, yes, we'll speak of it later. First, I would know where you learned to cast spells like that!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I... I don't remember anyone teaching me. It just sort of happened."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Just “sort of happened”!? I expected you to club things with that old scepter, not fling balls of fire. Incredible..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...So, Arya, does this mean you've overcome your fear of the undead?"
+            },
+            {
+                "name": "ARYA",
+                "text": "What are y─ Aaah!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Well, my friends, shall we return to Aleport? Now that we've unmasked the cabal's master, I can tell you this much: he is not a man we wish to confront unprepared."
+            },
+            {
+                "name": "ARYA",
+                "text": "X'rhun wishes to tell us about the cabal's master. I'm almost afraid to hear what he has to say..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "As was apparent through our unpleasant exchange, I have a history with this master of the assassins. His name is Lambard."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Twenty years ago, he and I were part of the group who founded the Crimson Duelists. We studied the faded teachings passed through generations of Gyr Abanians, and revived the art of red magic as a weapon against tyranny."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...But one day Lambard simply snapped. He murdered my unsuspecting comrades, and vanished into the shadows. I returned from scouting alone to discover the aftermath of a massacre..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "It was later that I learned his treachery had been paid for with imperial coin, but never could I find what became of the man himself. After twenty years of fruitless searching, I thought him dead."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "This has now become a matter of vengeance. I mean to pursue Lambard and exact a price for his betrayal, but I will not ask you to join me in this vendetta."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Worry not, <span class=\"highlight\">Forename</span>. Your grasp of red magic will allow you to grow without the need for a teacher."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "As for you, Arya, I will arrange a suitable sanctuary. I'll not turn you out to fend for yourself!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I shall treasure the time we spent together, my friends. May our paths cross again!"
+            },
+            {
+                "name": "ARYA",
+                "text": "Should we let him just go off alone like that? I don't know about you, but I feel my part in this is not over..."
+            },
+            {
+                "name": "ARYA",
+                "text": "What should we do, <span class=\"highlight\">Forename</span>...?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Yes, <span class=\"highlight\">Forename</span>? Was there something else?"
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "I will go with you."
+            },
+            {
+                "name": "A3",
+                "text": "There is more for me to learn."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "This is not your battle, my friend. I will deal with Lambard alone, or die in the attempt."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You... &lt;sigh&gt;<br>I can see I am wasting my breath. You have that determined look that so impressed me the first time we met."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "There always is, but you are far enough along the path to continue without me. Surely you understand that?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You... &lt;sigh&gt;<br>You are determined to improve yourself, I see. 'Tis obvious why Alisaie spoke so highly of you."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You... &lt;sigh&gt;<br>You are determined to improve yourself, I see. 'Tis the reason you have become the fine mage that you are now."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Very well. We stand together, then!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You are more comrade to me now than student, <span class=\"highlight\">Forename</span>, and I welcome your sword at my side!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I'm coming, too!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I want to help save others from this monster, just as you saved me. I want...I want you to teach me red magic!"
+            },
+            {
+                "name": "ARYA",
+                "text": "As things stand, I'm just a burden to you. If I'm to do more than be carried along in your wake, I need my own way to make a difference!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Hmmm. You certainly do have an aptitude for the arcane. Lambard appears to target such youths for “recruitment” into his puppet cabal."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "But <span class=\"highlight\">Forename</span> rescued you from that mindless fate, and now you would don the red to fight in our crusade..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "There's a sense of rightness to it, isn't there?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Stand with us, then, Arya. Join the ranks of the red mages."
+            },
+            {
+                "name": "ARYA",
+                "text": "<span class=\"highlight\">Forename</span>, X'rhun..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You look splendid. But it's more than clothes which make the woman!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Help me train her as I trained you, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "ARYA",
+                "text": "I'll pay close attention, I promise!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Oh, and Arya? There'll be no more hiding behind <span class=\"highlight\">Forename</span>, is that clear?"
+            },
+            {
+                "name": "ARYA",
+                "text": "I... I'll try to be brave!"
+            }
+        ],
+        "reward": {
+            "gil": 1985,
+            "xp": 72000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 112
+                }
+            ],
+            "quests": [
+                68115
+            ]
+        },
+        "next": [
+            68117
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1021462",
+            "obj": {
+                "i": 1021462,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021473",
+            "obj": {
+                "i": 1021473,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021442",
+            "obj": {
+                "i": 1021442,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021443",
+            "obj": {
+                "i": 1021443,
+                "n": "Arya",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021461",
+            "obj": {
+                "i": 1021461,
+                "n": "Arya",
+                "l": 33,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021466",
+            "obj": {
+                "i": 1021466,
+                "n": "Arya",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021467",
+            "obj": {
+                "i": 1021467,
+                "n": "Arya",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021468",
+            "obj": {
+                "i": 1021468,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021469",
+            "obj": {
+                "i": 1021469,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021470",
+            "obj": {
+                "i": 1021470,
+                "n": "Arya",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021471",
+            "obj": {
+                "i": 1021471,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021472",
+            "obj": {
+                "i": 1021472,
+                "n": "Arya",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68115",
+            "obj": {
+                "i": 68115,
+                "n": "Tracking the Cabal",
+                "g": 161,
+                "l": "Western Thanalan",
+                "s": 540,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68117",
+            "obj": {
+                "i": 68117,
+                "n": "On Lambard's Trail",
+                "g": 161,
+                "l": "Western La Noscea",
+                "s": 580,
+                "f": 1
+            }
+        }
+    ]
+}

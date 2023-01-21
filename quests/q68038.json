@@ -1,0 +1,295 @@
+{
+    "quest": {
+        "name": "An Impossible Dream",
+        "location": "The Azim Steppe",
+        "id": 68038,
+        "patch": 4.0,
+        "sort": 600,
+        "icon": 100653,
+        "eventIcon": 71201,
+        "issuer": 1020281,
+        "target": 1020543,
+        "involved": [
+            1020279,
+            1020534,
+            1020535,
+            1020536,
+            1020537,
+            1020538
+        ],
+        "genre": 6,
+        "journal": [
+            "Cirina knows where you might find Lord Hien.",
+            "Your search for the missing heir of Doma on the Azim Steppe has led you to Cirina, a young woman of the Mol tribe. Long ago, guided by a vision received by her grandmother, she ventured into the southern mountains and there found Hien, near death. Cirina brought the Doman lord to her village, where they nursed him back to health, and there he has remained ever since, until such time as he can repay his debt to them. He often accompanies her to Reunion, though he has a habit of frequenting a spot atop the cliff to the east of the marketplace...",
+            "At long last you come face–to–face with the young heir to Doma's throne, who greets you as a friend. Yet even after you tell him of Doma's rekindled spirits, he states that he cannot go home─not until he has won the ceremonial battle known as the Naadam and thereby earned the right to bid the Xaela follow him to Doma. A daunting task, by any measure, but likely a necessary one, given the Liberation Front's depleted forces. Reluctantly, Yugiri departs to deliver the news to your comrades in the south, leaving you, Lyse, and Gosetsu to assist Lord Hien in his bold endeavor.",
+            "Being a man who puts great store by honor and respect, Hien thanks you once more for your many deeds in service to Doma. But he recognizes that you are also a practical <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>, disinclined to listen to long speeches and flowery words, and would gladly tell you more of his plan to win the Naadam."
+        ],
+        "objectives": [
+            "Search for Hien.",
+            "Speak with Hien."
+        ],
+        "dialogue": [
+            {
+                "name": "LYSE",
+                "text": "I like a good fight as much as anyone, but we should probably find Hien and head back to Doma as soon as we can."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "The people have spoken, and Lord Hien will heed their words. He must."
+            },
+            {
+                "name": "GOSETSU",
+                "text": "If she knows where Lord Hien is, then what are you waiting for? Ask her!"
+            },
+            {
+                "name": "CIRINA",
+                "text": "Long ago, my grandmother, having received a vision from the gods, bade me go forth into the southern mountains. It was there that I found Hien, near death from many wounds."
+            },
+            {
+                "name": "CIRINA",
+                "text": "I brought him to our village, and there we nursed him back to health. Afterwards, he chose to remain, that he might repay us for our kindness."
+            },
+            {
+                "name": "CIRINA",
+                "text": "Domans set much store by honor and shame, so at first I did not question it..."
+            },
+            {
+                "name": "CIRINA",
+                "text": "Excuse me. If I could see your map for a moment... Here─he has grown fond of this place. It affords him a view of the markets and the Steppe."
+            },
+            {
+                "name": "CIRINA",
+                "text": "I would accompany you, but I must return to our village to prepare my grandmother's meal. Thank you again for your assistance!"
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Our long-awaited reunion is at hand! Come, my friends─let us go and greet our lord and master!"
+            },
+            {
+                "name": "LYSE",
+                "text": "He's a lot more...straightforward than I expected? And he's certainly not short on confidence."
+            },
+            {
+                "name": "LYSE",
+                "text": "But maybe that's the kind of leader Doma needs if they're going to beat these odds. And hey─we've come this far, haven't we? Who's to say we can't go even further?"
+            },
+            {
+                "name": "GOSETSU",
+                "text": "Has he truly recovered from his wounds, I wonder? I believe a match may be in order..."
+            },
+            {
+                "name": "HIEN",
+                "text": "<span class=\"highlight\">Forename Surname</span>, was it? Once again, allow me to thank you for your many deeds in service to Doma."
+            },
+            {
+                "name": "HIEN",
+                "text": "For twenty-five years did my father rule in name only. My rule─if one would deign to call it that─has been naught in comparison."
+            },
+            {
+                "name": "HIEN",
+                "text": "That changes now. We have a purpose and a plan, and after we take to the battlefield together, we will have victory as well."
+            },
+            {
+                "name": "HIEN",
+                "text": "But you are a practical <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>. I can tell. Disinclined to trust in words when actions speak truer. I can relate..."
+            }
+        ],
+        "reward": {
+            "gil": 683,
+            "items": [
+                {
+                    "id": 18383,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18395,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18401,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5668,
+                    "one": 1
+                }
+            ],
+            "xp": 207900
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 65,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68037
+            ]
+        },
+        "next": [
+            68039
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1020281",
+            "obj": {
+                "i": 1020281,
+                "n": "Cirina",
+                "l": 2411,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020543",
+            "obj": {
+                "i": 1020543,
+                "n": "Hien",
+                "l": 2411,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020279",
+            "obj": {
+                "i": 1020279,
+                "n": "Hien",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020534",
+            "obj": {
+                "i": 1020534,
+                "n": "Lyse",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020535",
+            "obj": {
+                "i": 1020535,
+                "n": "Gosetsu",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020536",
+            "obj": {
+                "i": 1020536,
+                "n": "Yugiri",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020537",
+            "obj": {
+                "i": 1020537,
+                "n": "Lyse",
+                "l": 2411,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020538",
+            "obj": {
+                "i": 1020538,
+                "n": "Gosetsu",
+                "l": 2411,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "18383",
+            "obj": {
+                "i": 18383,
+                "n": "Tigerskin Thighboots of Aiming",
+                "l": 273,
+                "c": 46789,
+                "t": 38,
+                "p": 21403
+            }
+        },
+        {
+            "type": "item",
+            "id": "18395",
+            "obj": {
+                "i": 18395,
+                "n": "Tigerskin Jackboots of Healing",
+                "l": 273,
+                "c": 46787,
+                "t": 38,
+                "p": 21403
+            }
+        },
+        {
+            "type": "item",
+            "id": "18401",
+            "obj": {
+                "i": 18401,
+                "n": "Tigerskin Jackboots of Casting",
+                "l": 273,
+                "c": 46786,
+                "t": 38,
+                "p": 21403
+            }
+        },
+        {
+            "type": "item",
+            "id": "5668",
+            "obj": {
+                "i": 5668,
+                "n": "Heavens' Eye Materia V",
+                "l": 160,
+                "c": 20258,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68037",
+            "obj": {
+                "i": 68037,
+                "n": "A Season for War",
+                "g": 6,
+                "l": "The Azim Steppe",
+                "s": 590
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68039",
+            "obj": {
+                "i": 68039,
+                "n": "Stars in the Dark",
+                "g": 6,
+                "l": "The Azim Steppe",
+                "s": 610
+            }
+        }
+    ]
+}

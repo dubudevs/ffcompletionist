@@ -1,0 +1,599 @@
+{
+    "quest": {
+        "name": "The Value of Silence",
+        "location": "The Ruby Sea",
+        "id": 68511,
+        "patch": 4.1,
+        "sort": 3,
+        "icon": 100730,
+        "beast": 9,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1024215,
+        "target": 1024215,
+        "involved": [
+            1024248,
+            1024249,
+            1024250,
+            1024251,
+            1024252,
+            1024253,
+            1024256,
+            1024257,
+            1024258,
+            1024259,
+            1024543
+        ],
+        "genre": 50,
+        "journal": [
+            "The look in Kabuto's eyes suggests he recently received good news.<br>※The difficulty of this quest will be synced to your current level.",
+            "There is treasure in the Azim Steppe, and Kabuto is able to relay the news to you with surprising clarity. Because the Kojin are unfamiliar with the Steppe, Tsukumo asks that you accompany them on this expedition. No sooner do you consent than they make for Reunion.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "When you arrive at Reunion, Kabuto and Tsukumo are eager to begin their search. They suggest splitting up to speak with as many of the settlement's inhabitants as possible.",
+            "You hear various rumors of a bow which grants its user strength beyond belief, its owner being a young boy of the Qestir tribe named Uchikin. Perhaps Kabuto has additional information to share.",
+            "Kabuto tells you of his awkward and otherwise fruitless conversation with the Qestir tribe. Though they had no words of insight to offer, Kabuto believes the Qestir's mannerisms suggested they go and see the bow for themselves. Tsukumo suggests you split up once more to search for the young boy and his bow.",
+            "You find a young Qestiri boy who you believe to be Uchikin, but his bow is nowhere to be found. His sullen expression suggests it was stolen. Realizing you have come to help he says nary a word, but points southeast. You head in that direction expecting to find his bow, and likely trouble as well.",
+            "It does not take long for you to find Uchikin's bow, and the two Red Kojin who stole it. A quick thrashing as only you could give sends them running. Uchikin will be quite pleased to have his bow returned to him.",
+            "Uchikin is silent, but his look of relief upon being reunited with his bow speaks volumes. It soon becomes clear that bow has no supernatural powers nor is Uchikin a naturally gifted marksman. In truth, his talent is born from the incredible time and dedication he poured into honing his skills. Kabuto and Tsukumo have no interest in asking for something he considers so precious and are ready to depart when Uchikin's father hands them an envelope. Enclosed within is a document granting the Blue Kojin leave to barter and trade in Reunion. There are, however, still finer details of the agreement that must be discussed. Tsukumo and Kabuto follow Uchikin's father back to Reunion and ask you to meet with them back in Tamamizu.",
+            "All things considered, talks with the Qestir went smoothly. The future of trade for the Blue Kojin seems bright, but Kabuto is concerned he relies far too heavily on your strength. It seems Kabuto still has much to learn of what it means to lead."
+        ],
+        "objectives": [
+            "Speak with Kabuto in Reunion.",
+            "Speak with the people of Reunion.",
+            "Speak with Kabuto.",
+            "Search for Uchikin.",
+            "Search for Uchikin's stolen bow.",
+            "Deliver the stolen bow to Uchikin.",
+            "Speak with Kabuto in Tamamizu."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "In order to undertake this quest, you must first complete the main scenario quest “Here There Be Xaela.”"
+            },
+            {
+                "name": "KABUTO",
+                "text": "<span class=\"highlight\">Forename</span>. Your timing is fortuitous as always."
+            },
+            {
+                "name": "KABUTO",
+                "text": "We recently received word of an artifact in the Azim Steppe worthy of the vault. As I am unfamiliar with lands beyond the Ruby Sea, I would ask you accompany me."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Well said, Kabuto. I knew you had it in you.<br>Your assistance would be greatly appreciated, <span class=\"highlight\">Forename</span>. Being such a well-traveled adventurer, I suspect you would be much better suited to guide us."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Excellent! Then we will meet you in Reunion."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "There you are. A beautiful place, is it not? Would that the winds were not so strong. I feel as though I could be whisked away at any moment."
+            },
+            {
+                "name": "PERSONA02975",
+                "text": "A hardened warrior, I see. There's no need to deny it─the stench of blood and battle is unmistakable."
+            },
+            {
+                "name": "PERSONB02975",
+                "text": "Hmmm. You've the look of a warrior. Yes, one who might know an able-bodied man or two worthy of the Buduga. Perhaps you could introduce me?"
+            },
+            {
+                "name": "PERSONC02975",
+                "text": "Admiring my bow, are you? You will find no better in all the Steppe. A lesser weapon would bring shame to the Oronir."
+            },
+            {
+                "name": "KABUTO",
+                "text": "There are Au Ra everywhere. It calls to mind Sui–no–Sato."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I was concerned you would only retreat further into your shell being so far away from home, but I am glad to be mistaken. At any rate, we must not waste any more time."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I will accompany Kabuto and see what we can learn here in Reunion. You should have a look about as well and see if you can learn aught of this treasure."
+            },
+            {
+                "name": "PERSONA02975",
+                "text": "A great treasure? Do you mean the bow belonging to that Qestiri boy? I've heard he can pierce the very heavens with it."
+            },
+            {
+                "name": "PERSONA02975",
+                "text": "I only know that the bow belongs to a boy of the Qestir tribe. Would that I had such a weapon."
+            },
+            {
+                "name": "PERSONB02975",
+                "text": "Yes, I've heard of the young Qestiri boy and his bow. Uchikin is his name."
+            },
+            {
+                "name": "PERSONB02975",
+                "text": "Though I love a good rumor, I suggest you speak with him yourself to learn the truth."
+            },
+            {
+                "name": "PERSONB02975",
+                "text": "If you would know the truth of Uchikin and his bow, it would be best to see it for yourself."
+            },
+            {
+                "name": "PERSONC02975",
+                "text": "A boy with a bow that can pierce the heavens? Hmph. I've heard the rumors, but who would believe such nonsense. I guarantee you his bow pales in comparison to mine."
+            },
+            {
+                "name": "PERSONC02975",
+                "text": "The rumors are just that─rumors. His bow is likely plainer than the horns on my head."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "You missed a rather amusing conversation. I never imagined meeting anyone who speaks less than Kabuto."
+            },
+            {
+                "name": "KABUTO",
+                "text": "<span class=\"highlight\">Forename</span>. How did you fare? I spoke with the Au Ra of the Qestir tribe. Well, I tried to. I was met only with silence."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "A pity you were not there. Kabuto speaking with a man of fewer words than himself is something that must be seen to be believed."
+            },
+            {
+                "name": "KABUTO",
+                "text": "How is it they can govern Reunion yet never speak?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "They gained the trust of their brethren through actions, not words."
+            },
+            {
+                "name": "A1",
+                "text": "They have an august presence that commands respect."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Indeed. Words mean nothing without action to prove their worth."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Indeed. I doubt such authority is earned with empty words."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Though I know not how, their silence spoke volumes. It said that we should judge this treasure with our own eyes."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "That would certainly be the fastest way to ascertain the truth of the stories that brought us here. Speaking of stories, were you able to learn anything from the residents of Reunion, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "A boy of the Qestir tribe. I see. Persuading him to relinquish a weapon of such value seems unlikely, but at the very least we should seek him out."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "We are like to find him faster if we split up. <span class=\"highlight\">Forename</span>, would you try searching south of Reunion? Kabuto and I will go north."
+            },
+            {
+                "name": "UCHIKIN",
+                "text": "..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Uchikin seems awfully dejected."
+            },
+            {
+                "name": "UCHIKIN",
+                "text": "..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Uchikin stifles his tears as he points southeast. Bereft of his bow, you surmise it was stolen. The culprit likely made off in the direction Uchikin is pointing."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Don't worry. I'll retrieve your bow."
+            },
+            {
+                "name": "A2",
+                "text": "Wait here."
+            },
+            {
+                "name": "UCHIKIN",
+                "text": "..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Uchikin seems immensely grateful for your aid. You should leave now before the thief gets away."
+            },
+            {
+                "name": "UCHIKIN",
+                "text": "..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Uchikin points to the southeast. You should leave now, lest the thief get away."
+            },
+            {
+                "name": "BALLOON",
+                "text": "We were followed!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "The treasure is ours!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "You will pay for your meddling!"
+            },
+            {
+                "name": "KABUTO",
+                "text": "That bow. Is that what I think it is?"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "We failed to find the bow, but did manage to track down Uchikin's father. I can only hope your search was more fruitful."
+            },
+            {
+                "name": "UCHIKINPAPA",
+                "text": "..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Uchikin's father seems glad to see you have retrieved his son's bow."
+            },
+            {
+                "name": "UCHIKIN",
+                "text": "..."
+            },
+            {
+                "name": "UCHIKIN",
+                "text": "..."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "They both seem quite pleased to have the bow returned."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Where did you find it? We were just preparing to search the area with Uchikin's father."
+            },
+            {
+                "name": "KABUTO",
+                "text": "The Red Kojin!? I didn't expect them to come this far in search of treasure."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Come now, Kabuto. If we were able to learn of this great treasure, it stands to reason they might come to know of it as well."
+            },
+            {
+                "name": "KABUTO",
+                "text": "That said, this bow doesn't appear to be particularly unique, though it does seem easy for a child to wield."
+            },
+            {
+                "name": "UCHIKIN",
+                "text": "..."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "So that is the way of it. The bow is for Uchikin's training."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Then it was not the bow but Uchikin's natural prowess that spurred the rumors?"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I suspect Uchikin was not all that talented when he began practicing."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Take a closer look at the bow. Its size is perfect for him, and the draw weight seems to be such that he can handle it with ease. Moreover, it appears to be far from new, meaning Uchikin has put a great deal of care into maintaining it."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I think it was crafted by his father as a gift. And because Uchikin enjoyed the bow so much, he labored tirelessly to master it. It is indeed a treasure─in Uchikin's eyes."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Well, there you have it. And who are we to ask him to part with something so precious? No, I believe there is nothing left for us here."
+            },
+            {
+                "name": "UCHIKINPAPA",
+                "text": "..."
+            },
+            {
+                "name": "KABUTO",
+                "text": "What is this?"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I think he means to grant us leave to barter in Reunion."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "You would welcome trade with the Blue Kojin?"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Thank you, sir. Thank you! Trade here in the Azim Steppe will prove more valuable than any single treasure."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Again we have gained a new ally thanks to you."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Your resourcefulness never ceases to amaze. Isn't that RiGht...KaBu..."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Tsukumo!?"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "...Hm? Where was I? Ah yes, your resourcefulness. There is much we have to learn from you, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Why do you all stare at me so? Is something the matter?"
+            },
+            {
+                "name": "KABUTO",
+                "text": "You suddenly stopped moving, as if devoid of life."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Nonsense. You must be imagining things. I assure you I am perfectly fine."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Uchikin's father wants us to follow him. No doubt there are still details of our new trade agreement that must be decided upon."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Kabuto and I can handle matters from here. Once we have finished our business in Reunion, we will meet you back in Tamamizu."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I told Kabuto there is nothing to worry about but he refuses to listen. Perhaps you can make him listen to reason."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Talks with the Qestir went well. While returning home, however, Tsukumo began acting strangely again."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "For the last time, Kabuto, I am fine. I was merely tired from the long journey."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "But enough about me. We should be celebrating a job well done. Trade with Reunion will open up new opportunities for the Blue Kojin, and the Qestir have taught us a lesson on the importance of one's actions. I hope it is one you took to heart, Kabuto."
+            },
+            {
+                "name": "KABUTO",
+                "text": "I have. It was inspiring to see how they could manage all of Reunion yet never speak."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Yet I still find myself relying on <span class=\"highlight\">Forename</span> more than I should."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "What happened to the confident Kojin I saw in the Azim Steppe? This is no way for the leader of the Divine Circle to behave. Is that not so, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "The others are counting on you, Kabuto."
+            },
+            {
+                "name": "A3",
+                "text": "I have faith in you, Kabuto."
+            },
+            {
+                "name": "KABUTO",
+                "text": "..."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "My apologies, <span class=\"highlight\">Forename</span>, but it seems we will have need of your assistance a while longer."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Qestir of the Azim Steppe have invited the Blue Kojin to barter in Reunion, and offered a contribution to the treasure vault."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Respected</span> reputation with the Kojin."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "New Kojin tribal daily quests are now available from Zukin at Tamamizu."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you will be able to undertake three additional quests from Zukin as a reputation bonus. This bonus is available until the daily reset time for tribal quests."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These additional quests will become available after accepting all current daily quests from Zukin. Please be advised that you cannot undertake these quests if you have no remaining allowances."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You now have access to a wider selection of wares from Shikitahe."
+            }
+        ],
+        "reward": {
+            "gil": 1415
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68510
+            ]
+        },
+        "next": [
+            68512
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024215",
+            "obj": {
+                "i": 1024215,
+                "n": "Kabuto",
+                "l": 2409,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024248",
+            "obj": {
+                "i": 1024248,
+                "n": "Kabuto",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024249",
+            "obj": {
+                "i": 1024249,
+                "n": "Tsukumo",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024250",
+            "obj": {
+                "i": 1024250,
+                "n": "Daunting Dotharl",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024251",
+            "obj": {
+                "i": 1024251,
+                "n": "Bold Buduga",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024252",
+            "obj": {
+                "i": 1024252,
+                "n": "Arrogant Oronir",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024253",
+            "obj": {
+                "i": 1024253,
+                "n": "Uchikin",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024256",
+            "obj": {
+                "i": 1024256,
+                "n": "Uchikin",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024257",
+            "obj": {
+                "i": 1024257,
+                "n": "Kabuto",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024258",
+            "obj": {
+                "i": 1024258,
+                "n": "Uchikin's Father",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024259",
+            "obj": {
+                "i": 1024259,
+                "n": "Tsukumo",
+                "l": 2411,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024543",
+            "obj": {
+                "i": 1024543,
+                "n": "Tsukumo",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68510",
+            "obj": {
+                "i": 68510,
+                "n": "Under Wraps",
+                "g": 50,
+                "l": "The Ruby Sea",
+                "s": 2,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68512",
+            "obj": {
+                "i": 68512,
+                "n": "Misdelivered",
+                "g": 50,
+                "l": "The Ruby Sea",
+                "s": 4,
+                "f": 1
+            }
+        }
+    ]
+}

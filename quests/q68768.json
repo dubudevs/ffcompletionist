@@ -1,0 +1,501 @@
+{
+    "quest": {
+        "name": "The Notes of Bond Restoring",
+        "location": "The Crystarium",
+        "id": 68768,
+        "patch": 5.0,
+        "sort": 230,
+        "icon": 100846,
+        "eventIcon": 71221,
+        "issuer": 1027234,
+        "target": 1027234,
+        "genre": 168,
+        "usedItems": [
+            27246,
+            27247
+        ],
+        "journal": [
+            "Thiuna appears to be under the weather.",
+            "In dejected tones, Thiuna explains that while she has finished restoring the lute and it looks exactly as it should, the sound is all wrong. Even as she racks her brain for a solution, Noddy clamors for your attention, but it appears to be experiencing another error...",
+            "A firm whack sets Noddy aright, and it proceeds to reveal to you the details of Harig's ill-fated final journey. Apparently, the artisan traveled to Kholusia in order to trade with the Ondo for the material needed to make a replacement soundboard. By a stroke of fortuity, Thiuna recently acquired the very same material from an Ondo merchant, and believing that it holds the key to the lute's sound, she bids you use it to craft a modification component.<br><br>※In the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with the recording node.",
+            "You hand the component to Thiuna, who sets to work modifying the instrument. The component indeed proves to be the solution, and the lute looks and sings as it did once more. All that remains, then, is to show it to Owell. Needing no invitation as usual, Noddy sets out to arrange the meeting, and bids you come to the Wandering Stairs.",
+            "At the Wandering Stairs, Owell grudgingly approves of Thiuna's work on the lute, but his mind is unchanged on its lack of a practical purpose. However, as the customers of Cherished Memories gather to hear its music and he in turn hears their tales, he comes to accept the importance of restoration in a world starved of hope. To Thiuna's shock, Owell then confesses that he was the one who broke the lute, the thought that his beloved master died in vain giving rise to his hatred for restoration. With all thus laid bare, Thiuna and Owell finally reconcile after long years of estrangement, the rift between them mended alongside Harig's lute.",
+            "Though she felt that she knew it all along, it brings Thiuna great joy to finally admit to herself that Owell is family. With matters thus concluded, she bids you join her back at the workshop.",
+            "Back at Cherished Memories, Thiuna thanks you profusely for all the help you afforded her. Looking up to you as her inspiration, she promises to continue honing her skills and doing her part to make Norvrandt a better place. Last but not least, she declares that she will play the lute at the tavern whenever she can, that its soothing music might bring comfort to the citizens of the Crystarium, as it once did in her late master's hands."
+        ],
+        "objectives": [
+            "Inspect the recording node.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize a lute modification component <img class=\"hq-icon small\" src=\"images/item/hq.png\"></span><span class=\"alternative\">Deliver the lute modification component <img class=\"hq-icon small\" src=\"images/item/hq.png\"> to Thiuna</span></span>.",
+            "Speak with Thiuna."
+        ],
+        "dialogue": [
+            {
+                "name": "THIUNA",
+                "text": "Oh, it's you, <span class=\"highlight\">Forename</span>... If you wanted to ask about the lute, I'm afraid I don't have good news to share."
+            },
+            {
+                "name": "THIUNA",
+                "text": "I've finished the restoration, and the instrument looks exactly like it should."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Knowing that the slightest warp in the panel can affect timbre, I went to great pains to ensure that the shape is perfect. But in spite of this, the sound is all wrong."
+            },
+            {
+                "name": "THIUNA",
+                "text": "It's not because we Viis have superior hearing, either. No, the difference will be apparent to any who've heard the lute─and definitely to Owell. I can only assume it's due to the material, but I don't know what else we can use..."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;buzzz&gt; &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "THIUNA",
+                "text": "&lt;sigh&gt; What did I do wrong?"
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;buzzz&gt; Hit me, <span class=\"highlight\">Forename</span>. Hit me."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Preoccupied with her thoughts, Thiuna does not seem to notice that the node has encountered an error."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A1",
+                "text": "Give it a firm whack."
+            },
+            {
+                "name": "A1",
+                "text": "Give it a gentle stroke."
+            },
+            {
+                "name": "A1",
+                "text": "Push the mystery button."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; &lt;bloop&gt; Node restart complete. &lt;buzz&gt; Thank you, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;beep&gt; That was...not unpleasant, but... &lt;buzz&gt; A firm... I require a..."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;beep&gt; Applying updates. Do not turn off your node. This may take a while..."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "The answer lies in Harig's final destination. He went to Kholusia to procure material for the soundboard."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Wh-What? Kholusia, you say?"
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "Affirmative. There, he intended to trade with the Ondo for the material, which is found on the sea floor."
+            },
+            {
+                "name": "THIUNA",
+                "text": "A material from the sea... If it's what I believe it is, I may actually have some in my stores. I purchased it from an Ondo merchant thinking it might be useful."
+            },
+            {
+                "name": "THIUNA",
+                "text": "It didn't occur to me before, but it might just work. Could you please analyze it, Noddy? See if it's suitable for restoring the lute?"
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; Analyzing material... &lt;buzz&gt; Mmm-hmmm, its composition closely resembles that which was originally used for the soundboard."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Wonderful! It's almost too fortuitous to be true, but I'll accept whatever help we can get!"
+            },
+            {
+                "name": "THIUNA",
+                "text": "<span class=\"highlight\">Forename</span>─I'm sorry to burden you yet again, but could you fashion a modification component using this material? We'll succeed this time, I know it!"
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; I have more materials should you require them."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; Analyzing component... &lt;buzz&gt; Mmm-hmmm, masterfully shaped and structurally sound. This will serve admirably."
+            },
+            {
+                "name": "THIUNA",
+                "text": "I'm sorry to burden you yet again, but I can't do this without your help. Please fashion for me the component."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Oh, this looks promising! Yes, very promising indeed! I'll put it to use at once!"
+            },
+            {
+                "name": "THIUNA",
+                "text": "It's finally done... Master Harig's lute, precisely as it once was..."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; Analyzing lute... &lt;buzz&gt; Mmm-hmmm, it is identical in both appearance and sound, with a margin of error of one percent. In other words, excellent work."
+            },
+            {
+                "name": "THIUNA",
+                "text": "I don't know how to thank you, <span class=\"highlight\">Forename</span>. I couldn't have restored the lute without your help. You're the finest artisan I know, and I count myself blessed to have had the privilege of handling your handiwork and growing from it."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Now, I realize that when we first met, I said something to the effect of not asking you to teach me. But if you might indulge me one question, is there a tenet that you adhere to? Principles that guide you?"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Pay due respect to your materials and the life whence they come."
+            },
+            {
+                "name": "A2",
+                "text": "Understand your customers and genuinely wish for their happiness."
+            },
+            {
+                "name": "A2",
+                "text": "Know the material, be the material, and love the material."
+            },
+            {
+                "name": "THIUNA",
+                "text": "I see... We must remember it isn't just leather, or wood, or fabric that we work with...but life. I promise never to be wasteful, and to always have gratitude."
+            },
+            {
+                "name": "THIUNA",
+                "text": "I see... If we don't understand our customers, how can we best serve their interests? And in genuinely wishing for their happiness, we derive the greatest motivation of all."
+            },
+            {
+                "name": "THIUNA",
+                "text": "I see... To reach the pinnacle of your craft, you must know your materials like you know yourself. And in treating them with love and care, we can draw out their full potential."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Thank you, <span class=\"highlight\">Forename</span>. I'll carry these words with me in all that I do."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Now then, it's time to present the lute to Owell. Ideally, I'd like to meet him where Master often performed. The question is, will he come when asked? He was none too willing last time..."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; Command received. Determining Owell's location based on previous movements. &lt;bloop&gt; Instruction to Thiuna and <span class=\"highlight\">Forename</span>: proceed to the Wandering Stairs."
+            },
+            {
+                "name": "THIUNA",
+                "text": "What? Now, wait just a─!"
+            },
+            {
+                "name": "THIUNA",
+                "text": "&lt;sigh&gt; No time like the present, I suppose..."
+            },
+            {
+                "name": "THIUNA",
+                "text": "As before, <span class=\"highlight\">Forename</span>, I'd appreciate it if you could be there too. Come, let's get this over and done with!"
+            },
+            {
+                "name": "THIUNA",
+                "text": "No sign of Owell yet. I swear, the wait is the worst part..."
+            },
+            {
+                "name": "OWELL",
+                "text": "Do something about this rustball! It gave me a bloody lightning shock!"
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; It was a minimal release of energy intended to encourage Owell's attendance."
+            },
+            {
+                "name": "THIUNA",
+                "text": "I-I'm so sorry! It's just...there's something I wanted to show you."
+            },
+            {
+                "name": "OWELL",
+                "text": "Master Harig's lute... You fixed it?"
+            },
+            {
+                "name": "THIUNA",
+                "text": "Not by myself. I had help from everyone at Cherished Memories. From <span class=\"highlight\">Forename</span> and Noddy."
+            },
+            {
+                "name": "OWELL",
+                "text": "This...is fine work. Not even the slightest warp, and the ornamentation is immaculate. You've done well to restore this thing."
+            },
+            {
+                "name": "OWELL",
+                "text": "But so what? Will it feed the people? Shield them from the cold? I didn't think so. If there's nothing else, I'm returning to work."
+            },
+            {
+                "name": "THALTALL",
+                "text": "I thought I heard a nostalgic sound. What should it turn out to be but Master Harig's lute!"
+            },
+            {
+                "name": "THALTALL",
+                "text": "When my brother and I lost our parents, the music comforted us, lifted us up from the depths of sorrow."
+            },
+            {
+                "name": "SZENGWONBAI",
+                "text": "After a hard day's work, there was nothing better than listening to these soothing notes while trading tales with my kin. It helped us to face another day with a smile."
+            },
+            {
+                "name": "ROSINE",
+                "text": "Ahhh, I remember the day I met my husband in this tavern. 'Twas Harig's music that drew us here, and we might never have known each other otherwise and had our beautiful daughter."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Master Harig knew, Owell. He knew how this lute could touch people's hearts."
+            },
+            {
+                "name": "THIUNA",
+                "text": "And he felt it worth restoring in spite of the risk to obtain the material."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Although Master is gone, his lute may still bring hope to those who live in despair, and bind together those who are left behind."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; Indeed, my former master, the archmagus Noah, imbued the lute with a prayer of hope when she created it. &lt;buzz&gt; Glory be to Allag. Long may she endure."
+            },
+            {
+                "name": "THIUNA",
+                "text": "The person who made this lute was your master!? What an amazing coincidence!"
+            },
+            {
+                "name": "OWELL",
+                "text": "&lt;sigh&gt; All right, Thiuna. I understand now what it is you seek to do. And I accept that it's for the good of the people."
+            },
+            {
+                "name": "OWELL",
+                "text": "I...I have a confession to make. The person who broke the lute? It was me..."
+            },
+            {
+                "name": "OWELL",
+                "text": "I remember watching transfixed as Master Harig worked on it. The way he took the battered old thing and made it gleam again... It was simply magical. But when I picked it up to take a closer look, it...it slipped from my hands."
+            },
+            {
+                "name": "OWELL",
+                "text": "I braced myself for Master Harig's fury, but he wasn't angry in the slightest. “There's no need to cry,” he said with a smile. “What is broken can be fixed.” Then he set out and never returned."
+            },
+            {
+                "name": "OWELL",
+                "text": "Though I was but a boy then, I knew full well that the lute served no practical purpose. It wasn't essential to our survival. The thought that Master died in vain ate away at me. I hated myself for breaking the lute...and I hated the very idea of restoration."
+            },
+            {
+                "name": "THIUNA",
+                "text": "So that's the way of it..."
+            },
+            {
+                "name": "OWELL",
+                "text": "But you've opened my eyes. Master's work was important, I understand now. Though we might have food to fill our bellies and a roof over our heads, what's it all worth if we don't have hope for the morrow?"
+            },
+            {
+                "name": "OWELL",
+                "text": "You have my gratitude, <span class=\"highlight\">Forename</span>. Thanks to you, I've come to realize the importance of the bonds we share."
+            },
+            {
+                "name": "THIUNA",
+                "text": "The lute has brought many people together. Perhaps one day it'll bless us orphans with families of our own too."
+            },
+            {
+                "name": "ROSINE",
+                "text": "Well, young ones, it seems to me the two of you already have family─each other."
+            },
+            {
+                "name": "ROSINE",
+                "text": "Owell may have fooled you, Thiuna, but he doesn't fool me. 'Twas out of concern for your safety that he opposed your venture. That is the very definition of brotherly love."
+            },
+            {
+                "name": "OWELL",
+                "text": "...I'm going back to work. But Thiuna? If you ever need help with anything, be it a component you can't make yourself, you come straight to me. I won't have you die trying to do everything on your own."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; Updating profile for Owell. &lt;bloop&gt; Registering Thiuna as family."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Family... I suppose deep down I knew it was true, but to actually say the word... It's a little embarrassing...but not unpleasant."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Come, my friend, let's return to the workshop. I'd like to thank you properly."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; Thank you for your cooperation, <span class=\"highlight\">Forename</span>. &lt;buzz&gt; You may come and hit me again at any time."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Thanks to you, our workshop can continue doing its good work. I'm truly glad to have met you."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Tell me, <span class=\"highlight\">Forename</span>... Do you think Master Harig heard my playing as well?"
+            },
+            {
+                "name": "THIUNA",
+                "text": "I like to think so too. And I like to think that he was happy to see Owell and I mend the rift between us. I'll do all I can to nurture our bond. And if something should cause it to break again..."
+            },
+            {
+                "name": "RECORDSYSTEM",
+                "text": "&lt;blip&gt; Then we hit it! Hit it hard!"
+            },
+            {
+                "name": "THIUNA",
+                "text": "Now, now, that only works for you, Noddy!"
+            },
+            {
+                "name": "THIUNA",
+                "text": "I'll continue honing my skills, ever aspiring to reach your heights. And whatever the future has in store for Norvrandt, I'll continue doing my part to make it a better place─by keeping the people's cherished memories alive."
+            },
+            {
+                "name": "THIUNA",
+                "text": "And whenever I can, I'll go and play the lute at the tavern. As it did in Master Harig's hands, its music can bring some comfort to the people once more."
+            },
+            {
+                "name": "THIUNA",
+                "text": "Forgive me, <span class=\"highlight\">Forename</span>─I know you're a busy <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>, so I won't keep you any longer. But promise to pay me a visit from time to time, all right? You'll find me right here, doing what I love doing best."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Thiuna could not be happier with your efforts. She now considers you a <span class=\"highlight\">Restorer of Bonds</span>!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "There may be other folk in the Crystalline Mean who could use the assistance of a talented artisan. Ask around, and see who is in need of your skills."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have completed all the deliveries currently available. When you have a spare moment, it seems Katliss would like to have a word with you."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Return to visit the Crystalline Mean once you have completed the main scenario quest “Shadowbringers.”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have completed all the deliveries currently available. When you have a spare moment, it seems Katliss would like to have a word with you."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Visit her at the main reception counter in the Crystalline Mean."
+            }
+        ],
+        "reward": {
+            "gil": 1215,
+            "items": [
+                {
+                    "num": 2,
+                    "id": 26737
+                },
+                {
+                    "num": 2,
+                    "id": 26735
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 152
+                }
+            ],
+            "quests": [
+                68767
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1027234",
+            "obj": {
+                "i": 1027234,
+                "n": "Thiuna",
+                "l": 2951,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "26737",
+            "obj": {
+                "i": 26737,
+                "n": "Craftsman's Command Materia VIII",
+                "l": 430,
+                "c": 20276,
+                "t": 58,
+                "materia": {
+                    "tier": 7,
+                    "value": 13,
+                    "attr": "Control",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "26735",
+            "obj": {
+                "i": 26735,
+                "n": "Craftsman's Competence Materia VIII",
+                "l": 430,
+                "c": 20276,
+                "t": 58,
+                "materia": {
+                    "tier": 7,
+                    "value": 21,
+                    "attr": "Craftsmanship",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "27246",
+            "obj": {
+                "i": 27246,
+                "n": "Lute Modification Component Materials",
+                "l": 430,
+                "c": 25990,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "27247",
+            "obj": {
+                "i": 27247,
+                "n": "Lute Modification Component",
+                "l": 430,
+                "c": 26523,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68767",
+            "obj": {
+                "i": 68767,
+                "n": "For Sentimental Reasons",
+                "g": 168,
+                "l": "The Crystarium",
+                "s": 220
+            }
+        }
+    ]
+}

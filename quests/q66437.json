@@ -1,0 +1,110 @@
+{
+    "quest": {
+        "name": "Sebastian vs. the Ogre",
+        "location": "Coerthas Central Highlands",
+        "id": 66437,
+        "patch": 2.0,
+        "sort": 380,
+        "eventIcon": 71221,
+        "issuer": 1006401,
+        "target": 1006401,
+        "involved": [
+            1007571
+        ],
+        "genre": 94,
+        "journal": [
+            "Not all knights are indifferent to the plight of the commonfolk, and Ser Yaelle, one such earthbound warrior, wants a word with you.",
+            "Ser Yaelle, she of the cool and speculative gaze, appears to enjoy the trust of the commonfolk; at their behest, she bids you slay a muttonmaw ogre. The bait is her very own karakul, Sebastian. But first, he must be captured with a length of brambleweed rope.",
+            "Take the bound karakul to Providence Point and leave him at the decoy point.",
+            "With the bait set, all that remains is for the trap to be sprung. Hide yourself away and wait for the unwitting prey. Be ready to strike as soon as the ogre appears, or Sebastian will pay the price.",
+            "The ogre is dead, and the poor karakul is safe, though trembling and wide-eyed. Unbind him that he may return to his mistress.",
+            "You have unbound the bound Sebastian, and he seems grateful to be free...and alive. Make your way back to Camp Dragonhead to speak with Ser Yaelle.",
+            "Unlikely though it may seem, Sebastian has beaten you back to Ser Yaelle, as she informs you that she just finished brushing the brave karakul. The ogre will devour no more of the commonfolk's flock, and Ser Yaelle is well pleased."
+        ],
+        "objectives": [
+            "Capture Sebastian with brambleweed rope.",
+            "Tether Sebastian to the decoy spot.",
+            "Lurk out of sight and slay the muttonmaw ogre.",
+            "Let Sebastian loose.",
+            "Report to Yaelle."
+        ],
+        "dialogue": [
+            {
+                "name": "YAELLE",
+                "text": "Adventurer, I hear you like a good hunt! The commonfolk tell me they have lost a good many of their animals to an ogre. Their petitions have come to naught and so they come to me, and I in turn come to you."
+            },
+            {
+                "name": "YAELLE",
+                "text": "We must needs have a decoy for this hunt, but I would not ask the folk to risk more of their livelihood. Let us use my own beloved Sebastian to lure this ogre out into the open."
+            },
+            {
+                "name": "YAELLE",
+                "text": "Oh, he is my darling karakul─a wise knight keeps her own source of wool. Yes, Sebastian has clothed me since I came to this camp and will someday feed me, too, no doubt. But today, you will return him to me safe and sound."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You loose Sebastian from his bonds. Leave him be and he will make his own way back."
+            },
+            {
+                "name": "YAELLE",
+                "text": "Ah, there you are, and let us toast to a job well done! I've just finished brushing Sebastian. He will get some squash with his hay tonight."
+            },
+            {
+                "name": "YAELLE",
+                "text": "Corentiaux spoke highly of you and he is right, I think. There is much to be said of a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> who is sworn not to a master but to <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> work. With adventurers, one need only speak the end and they devise their own means."
+            },
+            {
+                "name": "POP",
+                "text": "A slavering roar fills your ears!"
+            }
+        ],
+        "reward": {
+            "gil": 1478,
+            "xp": 10105
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 38,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66426
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006401",
+            "obj": {
+                "i": 1006401,
+                "n": "Yaelle",
+                "l": 63,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007571",
+            "obj": {
+                "i": 1007571,
+                "n": "Sebastian",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66426",
+            "obj": {
+                "i": 66426,
+                "n": "The Rose and the Unicorn",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 195
+            }
+        }
+    ]
+}

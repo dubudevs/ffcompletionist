@@ -1,0 +1,104 @@
+{
+    "quest": {
+        "name": "Motivational Speaking",
+        "location": "Ul'dah",
+        "id": 65686,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1001287,
+        "target": 1001288,
+        "genre": 93,
+        "journal": [
+            "Gelther does not like the way you are looking at him, but will let it pass if you deliver a message for him.",
+            "A somewhat enraged Gelther has demanded that you deliver a rather colorful ultimatum to Didilata, who has failed to repay his debt. Find Didilata and impress upon him the gravity of the situation.",
+            "Without hesitation, the Lalafell pledges to repay the money owed. Given his frantic stuttering, you have little reason to doubt his sincerity."
+        ],
+        "objectives": [
+            "Threaten Didilata."
+        ],
+        "dialogue": [
+            {
+                "name": "GELTHER",
+                "text": "Hey, you! I saw you lookin' at me. You got somethin' to say? Huh!?"
+            },
+            {
+                "name": "GELTHER",
+                "text": "No? Well, <span class=\"emphasis\">I</span> do! You know Didilata? Short, broke, never pays what he owes? Yeah, that bleedin' whoreson! Tell him to pay up, or I swear by the Twelve I'll beat him so hard it'll feel like the second comin' of Dalamud!"
+            },
+            {
+                "name": "GELTHER",
+                "text": "If I see that little shite's face, I'll end up poundin' him into a bloody pulp, like as not. So you go and tell him!"
+            },
+            {
+                "name": "DIDILATA",
+                "text": "Oh, g-g-gods be good─Gelther's g-g-goon!"
+            },
+            {
+                "name": "DIDILATA",
+                "text": "A-Alright, alright! I'll give back every gil I owe! I swear it!<br>B-But no more beatings, I b-b-beg you!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 5,
+                    "id": 2
+                },
+                {
+                    "num": 2,
+                    "id": 4551
+                }
+            ],
+            "xp": 50
+        },
+        "next": [
+            65687
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001287",
+            "obj": {
+                "i": 1001287,
+                "n": "Gelther",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001288",
+            "obj": {
+                "i": 1001288,
+                "n": "Didilata",
+                "l": 40,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65687",
+            "obj": {
+                "i": 65687,
+                "n": "Gil for Gold",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 10
+            }
+        }
+    ]
+}

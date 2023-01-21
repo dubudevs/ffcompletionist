@@ -1,0 +1,421 @@
+{
+    "quest": {
+        "name": "Tracking the Cabal",
+        "location": "Western Thanalan",
+        "id": 68115,
+        "patch": 4.0,
+        "sort": 540,
+        "icon": 100681,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1021457,
+        "target": 1021462,
+        "involved": [
+            1021458,
+            1021459,
+            1021460,
+            1021461,
+            1021463,
+            1021464,
+            1021465
+        ],
+        "genre": 161,
+        "journal": [
+            "X'rhun awaits word of the merchantman's destination.",
+            "X'rhun receives news from a distant contact that the ship to which the surviving assassin was ferried has been spotted weighing anchor in western La Noscea. Make your way to Aleport and rendezvous with the Crimson Duelist.",
+            "Unsure of the significance of the merchantman, X'rhun proposes a circuit of the port to gossip with the locals. Speak with the people of Aleport, and uncover what information you can regarding the unknown vessel.",
+            "You have questioned several locals and formed an impression of the ship and its crew. Report your findings to X'rhun.",
+            "After hearing that your discoveries largely match his own, X'rhun seems convinced that the merchantman serves the assassins as a floating base. Despite rumors that the ship's trading route brings it into contact with imperial vessels, however, a lack of evidence has discouraged authorities from conducting a full investigation. Examine the cargo belonging to the merchantman, and search for proof of the crew's unlawful deeds.",
+            "In addition to the discovery of a trove of imperial supplies, your eventful investigation of the ship's cargo has also left you in possession of a large key. Seek out X'rhun Tia, and share what you have found.",
+            "X'rhun examines the key, and wonders if it might open the one box he was unable to open. Try the key on the locked crate whilst X'rhun presents the incriminating evidence to the authorities.",
+            "You open the crate to find a befuddled young woman. She appears to suffer from memory loss, and hesitantly identifies herself as “Arya.” Seeking to conceal her escape from the merchantman's crew, X'rhun suggests finding lodgings at the nearby inn.",
+            "Exhausted by her ordeal, Arya has collapsed into a deep sleep. X'rhun ushers you outside that you might discuss the fate of the assassins and their ship.",
+            "X'rhun reports that the Yellowjackets acted immediately upon confirming his evidence, but by the time their soldiers arrived at the docks the merchantman was already fleeing to open water. Although not the perfect outcome, you have freed Arya from the clutches of the cabal and a fate as a mindless puppet. You wonder what tales she might have to tell once the fog clouding her memory has lifted...<br><br>※The next red mage quest will be available from X'rhun Tia upon reaching level 56."
+        ],
+        "objectives": [
+            "Join X'rhun Tia in Aleport.",
+            "Gather information about the merchantman.",
+            "Speak with X'rhun Tia.",
+            "Examine the mystery cargo and defeat any foes that appear.",
+            "Show the bulky key to X'rhun Tia.",
+            "Use the bulky key on the locked crate.",
+            "Speak with X'rhun Tia."
+        ],
+        "dialogue": [
+            {
+                "name": "XRHUNTIA",
+                "text": "I've asked some friends of mine in the Scions of the Seventh Dawn to keep an eye out for that ship. We should know if the assassins seek to enter any of the major ports..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I've asked some friends of mine to keep an eye out for that ship. We should know if the assassins seek to enter any of the major ports..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Ah, my La Noscean contact!<br>Aye, this is X'rhun. ...And they are still there? Excellent, thank you!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "It seems the assassins' merchantman has been spotted sailing into Aleport. Come, we've no time to lose!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "My apologies for dragging you halfway across the realm, but I did promise you a journey! Now, as for the merchantman, I'm told it's anchored a short distance offshore."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "We need to know more about the connection between this ship and our foe. They may have simply paid for passage, but there is something about that vessel... I say we wander the port and see what gossip there is to be had!"
+            },
+            {
+                "name": "TRADER02579",
+                "text": "Hm? Nay, me <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>, I've not much to tell ye about that ship."
+            },
+            {
+                "name": "TRADER02579",
+                "text": "They say she's a tradin' vessel what brings goods from Radz–at–Han, but her crew's a sullen lot. Askin' a friendly question about what they was haulin' got me naught but blank stares an' silence..."
+            },
+            {
+                "name": "SAILOR02579",
+                "text": "The merchantman what just sailed in? I don't know buggery about it, not even the bleedin' name! All I know is her crew's about as lively as a cabin full o' corpses. It ain't natural..."
+            },
+            {
+                "name": "SAILOR02579",
+                "text": "There's a rumor goin' round that the Yellowjackets've taken an interest in their dealin's, so I'd rather keep me distance, anyroad. Aye, I'm finished answerin' yer questions, now off with ye!"
+            },
+            {
+                "name": "PIRATE02579",
+                "text": "That ship's naught but trouble, ye mark me words! I've mates what swear they've seen her pullin' alongside imperial vessels!"
+            },
+            {
+                "name": "PIRATE02579",
+                "text": "Only the gods know what's hidin' in that hold o' hers. Could be weapons. Could be prisoners. Just the bleedin' sight o' her makes me whiskers twitch..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Were you able to learn aught of interest? ...Strange crew? Mystery cargo? Ship's name unknown? Aye, I heard much the same."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I'm beginning to think that our assassins use the vessel as a floating base. With no permanent camp on land, it would certainly be easier to avoid the attention of local forces, not to mention curious adventurers."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I also spoke with an acquaintance in the Yellowjackets, and he confirmed the ship's official status as a trader to and from Radz–at–Han...even if rumors of her dealings with Garlean agents in open water are rife."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "As long as the merchantman appears to trade within the law, however, officials are reluctant to force their way on board and cause an incident. They've yet to uncover enough evidence, it seems..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Well, if a solid reason to investigate is lacking, then mayhap we should help them find one, eh?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Let's have ourselves a look in some of their crates on the docks. Just a little innocent curiosity is all!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I've been peeking in the cargo here, but there's one box secured with a lock. Smashing crates open may be taking things a bit too far, I'm afraid..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The crate contains a ceruleum tank of imperial design..."
+            },
+            {
+                "name": "POP",
+                "text": "You are under attack!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "How did your investigations fare? I've found a veritable bounty of military supplies: ceruleum tanks, imperial rations, imperial insignias on everything!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The authorities will be most interested to hear of this, I'll wager.<br>...What's that you have there?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Well, well. Dropped by one of the ship's crewmembers, you say? And I just so happened to have found a most inconveniently locked box."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I shall go and relay our findings to the Yellowjackets. I'm sure you'll think of some use for that key of yours!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You hear a faint groan coming from inside the box..."
+            },
+            {
+                "name": "ARYA",
+                "text": "(-???-)What─ Where am I...?"
+            },
+            {
+                "name": "ARYA",
+                "text": "(-???-)Was I sleeping? ...In a box? What an odd thing for me to do..."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Don't you remember anything?"
+            },
+            {
+                "name": "A1",
+                "text": "Does a girl have a name?"
+            },
+            {
+                "name": "ARYA",
+                "text": "(-???-)Of course, I─ ...Oh. Perhaps not."
+            },
+            {
+                "name": "ARYA",
+                "text": "No, wait, I remember something! Arya! My name is Arya...I think. Is it?"
+            },
+            {
+                "name": "ARYA",
+                "text": "Arya..."
+            },
+            {
+                "name": "ARYA",
+                "text": "Yes, that's it. That's my name. ...Or is it?"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "...It could be."
+            },
+            {
+                "name": "A2",
+                "text": "It's a lovely name."
+            },
+            {
+                "name": "ARYA",
+                "text": "Well, I guess it will have to do for now. And what do I call you...?"
+            },
+            {
+                "name": "ARYA",
+                "text": "...Do you think so? Then I suppose it will do for now. And what does a girl call you?"
+            },
+            {
+                "name": "ARYA",
+                "text": "<span class=\"highlight\">Forename</span>. I'll try to remember that. Thank you for letting me out!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "What happened here? Is aught amiss?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...This lass was <span class=\"emphasis\">inside</span> the box? I might suspect a stowaway, but it was more likely she was kidnapped."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The people who took you may be lurking nearby. We should probably put some distance─"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Come now, you needn't fear me so. <span class=\"highlight\">Forename</span>, please, say something reassuring, would you?"
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "He's as gentle as a kitten."
+            },
+            {
+                "name": "A3",
+                "text": "He's a powerful mage!"
+            },
+            {
+                "name": "ARYA",
+                "text": "...He is? If you say so, <span class=\"highlight\">Forename</span>, then I suppose it must be true..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Well, you seem to have made a new friend. Let's see about arranging some lodgings for now, and we can discuss where to go from here."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You've gone and frightened her even more now! Never mind. Let's see about arranging some lodgings for now, and we can discuss where to go from here."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Arya appears to be sleeping soundly..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The poor girl was asleep within moments. This entire ordeal must have left her exhausted..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "As for the results of our efforts with the cargo, I suggest we continue this conversation outside."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I presented our findings to the Yellowjackets, and the evidence was indeed sufficiently damning to spark a full-scale investigation."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "...Regretfully, it appears the assassins caught wind of the coming storm─a squad of soldiers was dispatched to the docks only to witness the merchantman sailing away with all hands on board. Not quite the outcome we'd hoped for, but at the very least they'll no longer find a warm welcome in Eorzea's ports!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The other issue we face now is what to do with young Arya. Her breath carries a faint aroma that may account for her memory loss..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I suspect she was subjected to a certain incense which, when inhaled, can cloud a person's mind. The next step was likely to brand her with one of those vile sigils, and effect the permanent destruction of her free will."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "It was fortunate that you released her when you did! Arya remains muddled, but her condition should improve with time..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "And once her memories have returned, we can learn exactly who she is and─just as importantly, perhaps─the circumstances which led to her capture."
+            }
+        ],
+        "reward": {
+            "gil": 1304,
+            "xp": 62400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 54,
+                    "id": 112
+                }
+            ],
+            "quests": [
+                68114
+            ]
+        },
+        "next": [
+            68116
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1021457",
+            "obj": {
+                "i": 1021457,
+                "n": "X'rhun Tia",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021462",
+            "obj": {
+                "i": 1021462,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021458",
+            "obj": {
+                "i": 1021458,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021459",
+            "obj": {
+                "i": 1021459,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021460",
+            "obj": {
+                "i": 1021460,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021461",
+            "obj": {
+                "i": 1021461,
+                "n": "Arya",
+                "l": 33,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021463",
+            "obj": {
+                "i": 1021463,
+                "n": "Modest Merchant",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021464",
+            "obj": {
+                "i": 1021464,
+                "n": "Dallying Deckhand",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021465",
+            "obj": {
+                "i": 1021465,
+                "n": "Nervous Navigator",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68114",
+            "obj": {
+                "i": 68114,
+                "n": "A Rewarding Struggle",
+                "g": 161,
+                "l": "Eastern Thanalan",
+                "s": 520,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68116",
+            "obj": {
+                "i": 68116,
+                "n": "A Vermilion Vendetta",
+                "g": 161,
+                "l": "Western La Noscea",
+                "s": 560,
+                "f": 1
+            }
+        }
+    ]
+}

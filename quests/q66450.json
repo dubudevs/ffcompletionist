@@ -1,0 +1,188 @@
+{
+    "quest": {
+        "name": "Second Lives",
+        "location": "Coerthas Central Highlands",
+        "id": 66450,
+        "patch": 2.0,
+        "sort": 380,
+        "eventIcon": 71221,
+        "issuer": 1006430,
+        "target": 1006430,
+        "involved": [
+            1006431
+        ],
+        "genre": 94,
+        "journal": [
+            "Only Ishgard would have an actual valley of death, conveniently located nearby. A lady nobly born seeks an adventurer to walk in its shadow.",
+            "Juline desires whatever remains of the rosary her beloved wore when he perished at the hands of the inquisitors. Plumb the grim depth of Witchdrop to the east, and find the crystal beads.",
+            "After a long search and an unsettling encounter, you have found three of the four beads. Keep the whereabouts of the fourth to yourself, for closed lips are a virtue in Ishgard, and deliver the beads to Juline.",
+            "Seemingly at peace in the calm waters between knowing and unknowing, Juline speaks of her lost love with a quiet grace that shames the sound and fury of the inquisition. How fragile life is in Ishgard, that a single accusation can end it all..."
+        ],
+        "objectives": [
+            "Go to Witchdrop and search the gorge floor.",
+            "Give the crystal beads to Juline."
+        ],
+        "dialogue": [
+            {
+                "name": "JULINE",
+                "text": "Know you a gorge called Witchdrop? Sharp as claws and hard as steel. It is where those suspected of heresy are judged by the inquisition."
+            },
+            {
+                "name": "JULINE",
+                "text": "The guilty would fly to escape death, using the power granted them by the Dravanians─and the temple archers would put an arrow through their black hearts."
+            },
+            {
+                "name": "JULINE",
+                "text": "The innocent would break upon the gorge floor, their purity proven. Their souls would ascend to Halone's halls and there await their loved ones."
+            },
+            {
+                "name": "JULINE",
+                "text": "The one I loved was judged at Witchdrop..."
+            },
+            {
+                "name": "JULINE",
+                "text": "He went to his death with a rosary upon him. I carved the crystals myself...I had only made four before he was taken. I think that mayhap the beads lie forgotten on the floor of that gorge."
+            },
+            {
+                "name": "JULINE",
+                "text": "They say you have keen eyes, closed lips, and a kind heart. Will you find the rosary for my heart's succor? I do not expect all four beads, but please, good adventurer, as many as you can."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You find a crystal bead from the rosary!"
+            },
+            {
+                "name": "MATIGNIANT",
+                "text": "Lost your way? If it's the other side of the gorge you seek, go through this cavern. Walk along the cliff wall if you wish to climb out."
+            },
+            {
+                "name": "MATIGNIANT",
+                "text": "Curious how life and death can hang on a small thing─like a glancing light that catches the eye. The secret to long life, stranger, is to keep your eyes open."
+            },
+            {
+                "name": "MATIGNIANT",
+                "text": "What is it that you have there?<br>...Crystal beads, is it? Hm. I found one down here myself not so long ago. But just the one."
+            },
+            {
+                "name": "MATIGNIANT",
+                "text": "And this one will stay with me, stranger. It is my only link to another life, you see─a proof of that life. She would understand. After all, why are <span class=\"emphasis\">you</span> here?"
+            },
+            {
+                "name": "JULINE",
+                "text": "Adventurer! Did you find what my heart seeks?"
+            },
+            {
+                "name": "JULINE",
+                "text": "There they are. How strange to see them again after all that has passed. Thank you for finding so many... I thought mayhap that there would be one missing. Matigniant has it, I believe, and so this rosary binds us together."
+            },
+            {
+                "name": "JULINE",
+                "text": "Was he an unbeliever? His faith was not the conflagration that other men set to the house of their heart, yet...I do not know, and never shall."
+            },
+            {
+                "name": "JULINE",
+                "text": "I sought to mislay all memory of him, but he was my great friend as well as my betrothed. A lady of Ishgard does not deny a friend, even if the ways of the world would have us deny our own fathers and husbands. And so I shall never forget Matigniant."
+            },
+            {
+                "name": "POP",
+                "text": "You hear a creak of bones!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3142,
+                    "one": 1
+                },
+                {
+                    "id": 3138,
+                    "one": 1
+                },
+                {
+                    "id": 27673,
+                    "one": 1
+                },
+                {
+                    "num": 8,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 10105
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 38,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006430",
+            "obj": {
+                "i": 1006430,
+                "n": "Juline",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006431",
+            "obj": {
+                "i": 1006431,
+                "n": "Matigniant",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3142",
+            "obj": {
+                "i": 3142,
+                "n": "Horn Scale Mail",
+                "l": 38,
+                "c": 43083,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "3138",
+            "obj": {
+                "i": 3138,
+                "n": "Boarskin Harness",
+                "l": 37,
+                "c": 43079,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "27673",
+            "obj": {
+                "i": 27673,
+                "n": "Altered Linen Cowl",
+                "l": 37,
+                "c": 43889,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

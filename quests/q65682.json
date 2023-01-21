@@ -1,0 +1,857 @@
+{
+    "quest": {
+        "name": "Grinners in the Mist",
+        "location": "Limsa Lominsa",
+        "id": 65682,
+        "patch": 2.4,
+        "sort": 200,
+        "icon": 100344,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1009943,
+        "target": 1009943,
+        "involved": [
+            1010198,
+            1010237,
+            1010238,
+            1010240,
+            1010241,
+            1010242,
+            1010243,
+            1010249,
+            1010541
+        ],
+        "genre": 132,
+        "journal": [
+            "Jacke appears eager to hunt down the Maelstrom's stolen treasures.",
+            "Jacke has accepted the challenge put to him by Captain Milala, and sent his rogues out to gather information on the daring theft. As Perimu sheds some light on the nature of the three treasures, however, V'kebbe suddenly appears with urgent news─it would seem that the Yellowjackets have uncovered some of the Maelstrom's stolen goods during a routine checkpoint inspection. Wishing to confirm the veracity of her tale, the guildmaster sends you and Underfoot to investigate the commotion in middle La Noscea. Head out to the La Thagran Checkpoint and rendezvous with Perimu Haurimu.",
+            "Perimu confirms that a peddler has indeed been apprehended for carrying merchandise stolen from the Maelstrom transport. Use your Hide ability to approach the Yellowjackets inspecting the cargo, and listen in on their progress.",
+            "You have learned that the seized cargo contained nothing of real value. Report to Perimu Haurimu near the La Thagran Checkpoint.",
+            "Perimu is relieved to hear that the treasures have yet to be found, but seems confused by the smuggler's intent. Find the black marketeer at Tiller's Rest, and uncover the truth behind the peddler's reasons for not avoiding the checkpoint.",
+            "You find Underfoot's underworld acquaintance and are forced to subdue his Qiqirn bodyguards. Approach the black marketeer at Tiller's Rest once more.",
+            "After questioning the shadowy deal broker, you realize that the hapless peddler was almost certainly intended to be caught. Much to Perimu's surprise, you also learn that the perpetrators of the raid─the Grinning Curs─have concealed themselves within the dreaded mists of the Doxy's Pull. Hurry back to the Rogues' Guild and report your discoveries to Jacke.",
+            "Upon hearing the revelations you uncovered at Tiller's Rest, Jacke immediately organizes an expedition into the Doxy's Pull. Travel to the Moraby Drydocks in lower La Noscea and join V'kebbe and the guildmaster in the hunt for the Grinning Curs.",
+            "You have defeated the Grinning Curs aboard their own ship, and reclaimed the extraordinary blue diamond known as the Cerulean Star. Speak with Jacke back at the Moraby Drydocks.",
+            "Though his musings for a suitable punishment are interrupted by the arrival of Captain Milala, Jacke is nevertheless content to release the Grinning Curs into Yellowjacket custody. Return to the Rogues' Guild and speak with Jacke concerning the future of what has apparently become a far more complicated job...",
+            "According to the Grinning Cur captain, the remaining treasures are to be found in the hands of a mysterious group called the “Executioners.” Though not entirely certain of this new enemy's identity, Jacke appears sufficiently concerned to reiterate his desire to see you master your rogue skills. Continue with your training until your abilities have improved to the guildmaster's satisfaction.<br><br>※The next rogue quest will be available from Jacke upon reaching level 25."
+        ],
+        "objectives": [
+            "Speak with Perimu Haurimu near the La Thagran Checkpoint.",
+            "Use Hide to gather information at the La Thagran Checkpoint.",
+            "Report to Perimu Haurimu.",
+            "Find the black marketeer at Tiller's Rest.",
+            "Speak with the black marketeer.",
+            "Speak with Jacke at the Rogues' Guild.",
+            "Meet Jacke at the Moraby Drydocks and pursue the Grinning Curs.",
+            "Speak with Jacke at the Moraby Drydocks.",
+            "Speak with Jacke at the Rogues' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "JACKE",
+                "text": "Been practicin' yer dance steps, <span class=\"highlight\">Forename</span>? 'Cause we're about ready to run rings 'round Captain Milala an' her swads."
+            },
+            {
+                "name": "JACKE",
+                "text": "The Yellowjackets've been pressin' their investigations into the treasures what was cloyed from that Maelstrom tub, but, as ye know, we've got our own network o' coves what don't miss naught o' the goin's-on about town."
+            },
+            {
+                "name": "JACKE",
+                "text": "As for the sharp end o' the job, it'll be you, me, Underfoot, an' the Stray. Let's get down to business, eh?"
+            },
+            {
+                "name": "JACKE",
+                "text": "V'kebbe's late to the feast, so I'll just make sure we're all on the same page for the now. When ye get down to it, we have two goals for this job: bite back them three treasures, an' mill the coves what cloyed 'em in the first place."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ye can be sure that that Yellowjacket shrew'll be doin' her damndest to beat us to the marks─an' seein' as the fate o' the guild is at stake we'd best not drag our dew beaters on this one."
+            },
+            {
+                "name": "JACKE",
+                "text": "I say we grabble them baubles afore she's even lifted anchor, an' give her a proper reason to rage against us rogues!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Ye seem awful keen on this contest all of a sudden, Jacke."
+            },
+            {
+                "name": "JACKE",
+                "text": "Aye, well, here's the thing... I sent me a grievance to the thalassocracy regardin' the shrew's challenge, but them paper-shufflers don't care a whit as long as one of us gets the job done."
+            },
+            {
+                "name": "JACKE",
+                "text": "So I figured I'd sail <span class=\"emphasis\">with</span> the wind, rather than against it. Besides, we wouldn't want to shirk our duties an' force poor Captain Milala to blunder about in the scary darkmans, now, would we?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "...How very gentlemanly of ye."
+            },
+            {
+                "name": "JACKE",
+                "text": "Well, them's the cards what we've been dealt, ain't they? Now stow yer quips an' let's hear what ye've learned about them bloody treasures already!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Aye, the treasures... Accordin' to the manifest o' that Maelstrom vessel, we're lookin' to bite back the “Cerulean Star,” the “Silver Sorrows,” an' somethin' called the “Black Sarcophagus.”"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Aside from the fancy names, I was able to whiddle a few more details. The “Cerulean Star,” for starters, is a big ol' blue diamond what shines like...well, like a star, I s'pose."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Then we've got the “Silver Sorrows”─a pair of earrings what once graced the wattles of a sultana of Ul'dah. There's a tale there, but one what don't concern us at present."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Lastly, this “Black Sarcophagus” thing... I'm afraid that that one remained a mystery no matter how much I poked an' prodded."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "...In any case, all three o' these trinkets was recorded as spoils from official privateerin' raids."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Now, as ye know, a pirate'll usually sell his plunder through a reliable fence. Sometimes, though, holdin' an auction is the only way to off-load goods what is too extravagant or just too bleedin' rare for the average cull to deal in."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Our three wondrous treasures fell into the “auction only” category. When the biddin' began in Aleport, the thalassocracy weighed in with its ample purse, made some unmatchable offers, then organized a tub for the merchandise to be shipped back to Limsa..."
+            },
+            {
+                "name": "JACKE",
+                "text": "An' that's when our marks swooped in an' picked their transport clean..."
+            },
+            {
+                "name": "JACKE",
+                "text": "I had a few whids with them Maelstrom sailors as survived the attack, an' they pointed the finger at the Grinnin' Curs."
+            },
+            {
+                "name": "JACKE",
+                "text": "Problem is, not one cull's seen hide nor hair o' the Curs─not to mention their bloody ship─since the raid."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "&lt;huff&gt; Sorry I'm late, Jacke... &lt;puff&gt; ...But ye'll want to hear this!"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Some o' the cargo what was cloyed from that transport was just found durin' a routine inspection at the La Thagran Checkpoint!"
+            },
+            {
+                "name": "JACKE",
+                "text": "La Thagran!? ...Have the Curs made landfall, then?"
+            },
+            {
+                "name": "JACKE",
+                "text": "An' what o' the treasures? Any mention o' them?"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Naught that I've heard. But the 'Jackets ain't done shakin' out all the boxes yet."
+            },
+            {
+                "name": "JACKE",
+                "text": "Then we'd better get eyes out there, quick-like. <span class=\"highlight\">Forename</span>, Underfoot, yer fresh for a run, ain't ye?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Come on, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">colt</span></span>, I'll race ye out to the checkpoint."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Ye've never heard o' the Grinnin' Curs? They're a pack o' rabid buccaneers what used to belong to the Salthounds."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Back in the day, the Salthounds had the crew to fill more'n a few ships... Aye, there was no other pirate gang what could match 'em when it came to sheer numbers."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "But when the Admiral came to power an' passed her famous law, most of the 'Hounds chose a life on land... An' those what spat on the law became the Curs. Simple as that."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "I won our race! Ye owe me a pint, <span class=\"highlight\">Forename</span>! ...Japes aside, though, it looks like V'kebbe was right about the cargo."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "From what I've been able to catch from them swads at the gate, it seems a peddler was boned for carryin' goods what was known to be aboard that transport."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "They carted the poor sod away in chains, but the cargo itself is still here. ...I saw a pair o' 'Jackets carryin' boxes up that wooden ramp."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "We <span class=\"emphasis\">need</span> to know what's in them crates. I get the feelin' they won't open their gans for the askin', though─not while this fool's challenge is goin' on. Do ye think ye could skulk over there an' see if they've found them treasures yet?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "A couple o' Yellowjackets are riflin' through the cargo up that ramp there. Sneak in as close as ye dare, an' whiddle what's become of them baubles."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Yellowjackets are discussing the contents of the crates..."
+            },
+            {
+                "name": "YELLOWJACKETMAN00146",
+                "text": "This's all junk. No diamond, no earrings, an' no bloody Black Sarcophagus. Looks like we'll have to lean hard on that skinny peddler if we're to find them treasures."
+            },
+            {
+                "name": "YELLOWJACKETWOMAN00146",
+                "text": "The sergeant says the merchant's still pleading ignorance. Claims he was hired to carry the goods through the checkpoint and naught else."
+            },
+            {
+                "name": "YELLOWJACKETMAN00146",
+                "text": "What a pile o' pugil shite! I'm guessin' the pirates've split the cargo an' are tryin' their luck at every checkpoint. Captain Milala's already given orders to double the guard and inspect every cart an' wagon what comes through."
+            },
+            {
+                "name": "YELLOWJACKETMAN00146",
+                "text": "That's far enough! We can't be havin' any unauthorized persons interferin' with our official investigations. Now move along!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Yellowjacket soldiers appear to be on high alert. Move some distance away, then approach them again while cloaked by your Hide ability."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Two Yellowjacket soldiers are inspecting the seized cargo. Approach them while cloaked by your Hide ability and attempt to listen in on their progress."
+            },
+            {
+                "name": "YELLOWJACKETMAN00146",
+                "text": "We can't be havin' any unauthorized persons interferin' with our official investigations. Now move along!"
+            },
+            {
+                "name": "YELLOWJACKETWOMAN00146",
+                "text": "Curious about what's in the boxes, are you? Well, why don't you go be curious from way over there and let us do our jobs."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Hmmm, so they've found naught o' value, eh? Bene. Thought we'd lost the contest afore we'd even properly started."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "But be that as it may, somethin' don't add up here... Why would ye order a cull to carry the goods <span class=\"emphasis\">through</span> the checkpoint? No smuggler is <span class=\"emphasis\">that</span> daft, surely!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "An' even if by some miracle o' the gods ye squirmed through La Thagran without raisin' a fuss, why would ye risk takin' merchandise back to the city what ye cloyed it from?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "No, there's a bigger picture here, an' we need to take a step back to see it..."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Assumin' the Curs hired this peddler to do their dirty work, there'll be someone in the shadows as brokered the deal. An' I just happen to know a cove what makes it his business to oversee these kinds o' shady arrangements."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "The thing is, this black marketeer bloke changes his haunts dependin' on how the breeze blows. Quite literally, in fact. I seem to recall the Navigator's Veil bein' shifted by a westerly this mornin', so that'd put him..."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "...Ah, at Tiller's Rest. Nice an' close. Why don't we go ask him a few questions afore we head back to the guild?"
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "I pride myself on my memory for faces, but yours is unknown to me. Are you an earnest customer...or an inquisitive annoyance? I must be sure of your intentions."
+            },
+            {
+                "name": "BALLOON",
+                "text": "Masterful master cannot<br>abide foolish fools!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Annoying flea should flee!"
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "Gyahahaha! &lt;wheeze&gt; The dance is old, but the name is new! Put away your daggers, rogue."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "I have peddled my wares to your kind since the Upright Thieves stalked the night. Speak! What would you have of this humble merchant?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Still tormentin' the colts, eh, granddad? We've come for information on a smugglin' job."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "There was this peddler what was caught at the La Thagran Checkpoint movin' merchandise for the Grinnin' Curs. Pleaded innocence even when he had the screws put to him. Ye wouldn't know aught about that deal, would ye?"
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "Every last sordid detail. Not a single grain of stolen sand passes through the shadows without my knowledge!"
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "...But such prickly wisdom lodges tightly in one's throat. What have you brought to ease the pain of its passage?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Spare me the theatrics, granddad. Here's yer usual purse."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "The sum is paid! The deal is made! May my answers sate your fickle hunger."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "Your hapless peddler was indeed innocent. He was but a beast of burden employed by associates of the Grinning Curs, and likely knew naught of his freight's tainted nature."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "...A pawn, if you will; a convenient decoy. There are those amongst my acquaintances who specialize in providing such services."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Aye, that's what I thought─the Curs <span class=\"emphasis\">wanted</span> that cull to get caught. An' now the 'Jackets have had a taste, they'll waste their time yafflin' every shite-pie what comes through their checkpoints."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Meanwhile, the real treasures are hidden away in the darkmans, along with the Grinnin' Curs."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "...Not the “darkmans,” master rogue. The mist."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "Aside from the traveling merchant, the Curs' associates have spent coin on another piece for this little game..."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "...A navigator. One who is practiced in piloting a vessel through the Doxy's Pull."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "The Doxy's...!? The gods only know how many ships've sailed into that fog soup an' never come out again... An' <span class=\"emphasis\">that's</span> where ye say the Curs have gone to ground!?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Now there's a trick what took some bollocks. Once their hunted tub was sittin' dimber in the mist, though, it would've been easy to have these “associates” o' theirs ferry the junk goods to La Noscea."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Then the canny coves just needed to wait for the peddler to get boned, an' draw the glazes o' the Yellowjackets inland. We need to strike now... As soon as they learn the coast is clear, they'll flee for open waters!"
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "A fair appraisal of events. Now that you know the location of your marks, however, it will not be so difficult to track them down."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "The Doxy's Pull was once an impenetrable shroud, but ever since the Calamity the mists are far less...constant."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "Narrow your search to the heaviest banks, and you will soon uncover those who wish to remain unseen."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "But now, a warning: the mists conceal other dangers besides the dogs you seek. A careless step may land you upon the chopping block."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "The “chopping block”!? Ye can't mean..."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "...Seems I've found meself another lead to look into. You hurry on back to Jacke an' tell him what we've learned so far."
+            },
+            {
+                "name": "BLACKMERCHANT00146",
+                "text": "I hope we might do business again, young rogue. Pray be mindful not to─ahem─lose your head in the course of your duty. Gyahahaha..."
+            },
+            {
+                "name": "JACKE",
+                "text": "About time, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Ye was gone so long I almost sent the Stray after ye. What happened to Underfoot?"
+            },
+            {
+                "name": "JACKE",
+                "text": "...So our marks an' their bitten baubles are snug inside the Doxy's Pull, eh?"
+            },
+            {
+                "name": "JACKE",
+                "text": "I'll not discount the old man's warnin', but we may not have a benar chance to crash the Curs an' grabble them treasures. We board their ship right now─you, me, an' V'kebbe."
+            },
+            {
+                "name": "JACKE",
+                "text": "...I s'pose we'll be needin' ourselves a tub for the voyage. I'll have whids with Swarsynt, an' see what the Drydocks can spare us by way of a ship an' a reliable crew. Get yer kit together an' meet us there."
+            },
+            {
+                "name": "JACKE",
+                "text": "The Doxy's Pull ain't no place to rush into, but we've little choice. We'll set sail from the Drydocks as soon as we're all ready to go."
+            },
+            {
+                "name": "JACKE",
+                "text": "All right, <span class=\"highlight\">Forename</span>? I've pulled in some favors, an' there's a crew what'll get us close enough to scamper aboard the Curs' vessel."
+            },
+            {
+                "name": "JACKE",
+                "text": "It'll be cramped up on that deck─if we try to mill the whole lot at once, we'll soon find ourselves up against the rails. So we go in quick an' quiet, an' try to knock 'em off a few at a time."
+            },
+            {
+                "name": "JACKE",
+                "text": "Well, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">colt</span></span>? Are ye eager to test yer sea legs?"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Jacke, I found me one o' them treasures! Unless there's another fist-sized blue diamond on board, it's gotta be the Cerulean Star."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "As for them other two baubles... I've tossed the cabins an' been through the hold ilm by ilm, but there's naught else here."
+            },
+            {
+                "name": "JACKE",
+                "text": "Well, we'll just have to ask all sweet-like, won't we? Spit it out, Cur: where're ye keepin' the rest o' yer treasures?"
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "Hah! Ye think I'd spill me guts for the likes o' you, rogue?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Maybe ye wouldn't, at that. ...But what about this partner yer workin' with?"
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "'Ow'd ye─? We don't need no partner!"
+            },
+            {
+                "name": "JACKE",
+                "text": "So, yer tellin' me this was all yer own idea? Ye woke up one day an' decided ye'd attack a <span class=\"emphasis\">Maelstrom</span> transport right off the coast of Aleport, then disappear into the lovin' embrace o' the Doxy's Pull?"
+            },
+            {
+                "name": "JACKE",
+                "text": "...Not exactly yer style, is it?"
+            },
+            {
+                "name": "JACKE",
+                "text": "The Grinnin' Curs are too bleedin' famous for bein' the crew what turned their snouts up at privateerin' in favor o' keepin' to the old ways."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ye've only escaped the Yellowjackets' grip this long by crawlin' on yer bellies an' snatchin' scraps what fell from the table. Ye ain't the type to sink yer teeth into a navy-owned vessel, no matter the prize."
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "...Aye, well, maybe there ain't no profit in bein' cautious no more."
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "The age o' pirates is swift comin' to an end. Merlwyb won't be stopped─not by a piddlin' little crew like mine."
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "That's why we've thrown our lot in with the Executioners."
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "That blue rock was just our share o' the loot─the “scraps from the table,” like ye said. If ye want them other trinkets, then ye'll 'ave to take it up with our new mates."
+            },
+            {
+                "name": "JACKE",
+                "text": "...One job at a time, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. First, we need to get these stinkin' coves an' their tub back to the docks."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "The job just got proper thorny... But at least we've grabbled one o' them damn treasures."
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "Piss on you for takin' our ship! Should've set 'er on fire while I still 'ad the chance..."
+            },
+            {
+                "name": "JACKE",
+                "text": "There's still work to be done here, <span class=\"highlight\">Forename</span>. We've yet to decide what to do with these bleedin' Curs..."
+            },
+            {
+                "name": "JACKE",
+                "text": "Puttin' aside the issue o' who gave the orders, there's no doubt that these was the coves as raided that Maelstrom ship. Now for a punishment what fits the crime..."
+            },
+            {
+                "name": "MILALA",
+                "text": "I was informed that a certain well-known pirate ship was spotted weighing anchor at the Moraby Drydocks. ...I assume that this was your work?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Aye, ye missed all the excitement, Captain. But never ye mind: the Cerulean Star is back an' bob in our sneaky little fambles."
+            },
+            {
+                "name": "MILALA",
+                "text": "...Hmph!"
+            },
+            {
+                "name": "MILALA",
+                "text": "And these must be the Grinning Curs..."
+            },
+            {
+                "name": "MILALA",
+                "text": "Degenerate fiends! How dare you ply your filthy trade in Lominsan waters! How many innocent sailors were massacred that you might sate your vile avarice!?"
+            },
+            {
+                "name": "MILALA",
+                "text": "Every one of your kind ought to be lined up and shot! A musket ball is the only answer for this rampant display of lawlessness!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Wait, wait, wait, do ye mean to just execute 'em here on the bloody docks!? At least take the buggers into custody first."
+            },
+            {
+                "name": "JACKE",
+                "text": "Handin' 'em over to ye for <span class=\"emphasis\">lawful</span> punishment'll satisfy the demands of the code just as well. We've already got the answers to our questions, so feel free to take 'em away."
+            },
+            {
+                "name": "MILALA",
+                "text": "Do not presume to give me orders, rogue! You only managed to capture these villains and their ill-gotten treasure by employing unsavory and unconscionable means. Why, you're naught more than pirates yourselves!"
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "These bastards ain't worth a true pirate's spit!"
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "The Upright Thieves was formed to protect us from ourselves! Now they're just 'untin' dogs for the Admiral!"
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "Merlwyb yanks the leash, an' another buccaneer disappears. You rogues are traitors to yer own kind! If it hadn't been for you..."
+            },
+            {
+                "name": "JACKE",
+                "text": "Aye? Go on, then. Blame me an' me coves for yer own failures."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ye knew what ye was about when ye defied the code; ye <span class=\"emphasis\">knew</span> that we'd be after ye. ...We're done here."
+            },
+            {
+                "name": "MILALA",
+                "text": "There are still two treasures left, rogue! And I mean to claim them both."
+            },
+            {
+                "name": "JACKE",
+                "text": "I'd reconsider this contest of yers, Captain. Turns out this fish we're tryin' to hook is a shark...an' it might just swallow ye whole."
+            },
+            {
+                "name": "MILALA",
+                "text": "What shark is he speaking of? And how could any pirate challenge the might of the Yellowjackets?"
+            },
+            {
+                "name": "MILALA",
+                "text": "No, he seeks but to unnerve me. I'll wring the truth from these Grinning Curs, and we'll see who triumphs over whom!"
+            },
+            {
+                "name": "PIRATE00146",
+                "text": "Ye think this is over!? The pirates'll 'ave their day again!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Bene work on that ship, <span class=\"highlight\">Forename</span>. First blood is ours!"
+            },
+            {
+                "name": "JACKE",
+                "text": "How'd ye take to fightin' a-sea? There are few as can drop an opponent as quick as a rogue, but mind ye don't exhaust yerself just flailin' yer blades at the tougher coves."
+            },
+            {
+                "name": "JACKE",
+                "text": "An' that goes double for when ye've mates on yer flanks. If ye notice yerself startin' to flag, there's naught wrong with pullin' back from time to time an' staggerin' yer attacks with each other to keep the pressure on."
+            },
+            {
+                "name": "JACKE",
+                "text": "...I've said it afore, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">colt</span></span>, but I'll need ye sharp enough to carve steel for what's to come. I'm afraid this'll be more of a challenge than even what that little shrew was bargainin' for."
+            },
+            {
+                "name": "JACKE",
+                "text": "That's assumin' the Curs wasn't lyin' about the Executioners...and the Executioners are who I bloody think they are. 'Twixt you and me, though, I'm hopin' the name is just some laughable coincidence..."
+            },
+            {
+                "name": "QIB",
+                "text": "Defeat the Grinning Curs!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Right, no one's seen us so far.<br>Let's get to work."
+            },
+            {
+                "name": "JACKE",
+                "text": "I'll sink me stabbers in the captain.<br>Those two back there are yers."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ugh... I knew it was a long shot..."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Follow me, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Me daggers...never felt so heavy..."
+            },
+            {
+                "name": "PIRATE",
+                "text": "R-Rogues!? All the bloody way out 'ere!?"
+            },
+            {
+                "name": "PIRATEBOSS",
+                "text": "I don't know 'ow ye found us...<br>But they'll never find what's left o' you!"
+            },
+            {
+                "name": "PIRATEBOSS",
+                "text": "Slippery bastards!<br>Let's see just 'ow quick ye are!"
+            },
+            {
+                "name": "PIRATEBOSS",
+                "text": "Open the cage!<br>Let the Growler off 'is chain!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 8662
+                },
+                {
+                    "id": 3043,
+                    "one": 1
+                },
+                {
+                    "id": 2710,
+                    "one": 1
+                },
+                {
+                    "id": 3559,
+                    "one": 1
+                },
+                {
+                    "id": 3791,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4060
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 91
+                }
+            ],
+            "quests": [
+                65681
+            ]
+        },
+        "next": [
+            65684
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009943",
+            "obj": {
+                "i": 1009943,
+                "n": "Jacke",
+                "l": 1427,
+                "q": 15,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010198",
+            "obj": {
+                "i": 1010198,
+                "n": "V'kebbe",
+                "l": 1427,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010237",
+            "obj": {
+                "i": 1010237,
+                "n": "Jacke",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010238",
+            "obj": {
+                "i": 1010238,
+                "n": "Perimu Haurimu",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010240",
+            "obj": {
+                "i": 1010240,
+                "n": "Yellowjacket",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010241",
+            "obj": {
+                "i": 1010241,
+                "n": "Yellowjacket",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010242",
+            "obj": {
+                "i": 1010242,
+                "n": "Black Marketeer",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010243",
+            "obj": {
+                "i": 1010243,
+                "n": "Grinning Cur Cap'n",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010249",
+            "obj": {
+                "i": 1010249,
+                "n": "Milala",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010541",
+            "obj": {
+                "i": 1010541,
+                "n": "V'kebbe",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "8662",
+            "obj": {
+                "i": 8662,
+                "n": "Iron Daggers",
+                "l": 20,
+                "c": 33808,
+                "t": 84,
+                "p": 756
+            }
+        },
+        {
+            "type": "item",
+            "id": "3043",
+            "obj": {
+                "i": 3043,
+                "n": "Goatskin Jacket",
+                "l": 20,
+                "c": 43030,
+                "t": 35,
+                "p": 877
+            }
+        },
+        {
+            "type": "item",
+            "id": "2710",
+            "obj": {
+                "i": 2710,
+                "n": "Goatskin Eyepatch",
+                "l": 20,
+                "c": 40891,
+                "t": 34,
+                "p": 708
+            }
+        },
+        {
+            "type": "item",
+            "id": "3559",
+            "obj": {
+                "i": 3559,
+                "n": "Goatskin Armguards",
+                "l": 20,
+                "c": 48324,
+                "t": 37,
+                "p": 630
+            }
+        },
+        {
+            "type": "item",
+            "id": "3791",
+            "obj": {
+                "i": 3791,
+                "n": "Goatskin Leg Guards",
+                "l": 20,
+                "c": 46321,
+                "t": 38,
+                "p": 720
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65681",
+            "obj": {
+                "i": 65681,
+                "n": "Slave to the Code",
+                "g": 132,
+                "l": "Western La Noscea",
+                "s": 151,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65684",
+            "obj": {
+                "i": 65684,
+                "n": "Sweet Sorrows",
+                "g": 132,
+                "l": "Limsa Lominsa",
+                "s": 250,
+                "f": 1
+            }
+        }
+    ]
+}

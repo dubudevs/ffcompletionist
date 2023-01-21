@@ -1,0 +1,112 @@
+{
+    "quest": {
+        "name": "A Porcine Plight",
+        "location": "East Shroud",
+        "id": 66258,
+        "patch": 2.0,
+        "sort": 210,
+        "eventIcon": 71221,
+        "issuer": 1000563,
+        "target": 1000563,
+        "genre": 92,
+        "journal": [
+            "Ameexia the sylph would beseech an adventurer's assistance.",
+            "Ameexia is afraid to go out in the forest for fear of being attacked by boars. Search suspicious thickets for the fell swine, and put them down to set her mind at ease.",
+            "Your boar-slaying mission was a success. Report back to Ameexia.",
+            "Thanks to your efforts, Ameexia can frolic in the forest to her heart's delight once more."
+        ],
+        "objectives": [
+            "Search the thicket and slay the wild boars.",
+            "Search the thicket and slay the tusked hog.",
+            "Report to Ameexia."
+        ],
+        "dialogue": [
+            {
+                "name": "AMMEXIA",
+                "text": "Oh, walking one, please listen! This one was frolicking in the forest─as this one likes to do─when nasty tusked ones came huffing and puffing and charging! This one was so frightened!"
+            },
+            {
+                "name": "AMMEXIA",
+                "text": "This one is too scared to go back to the forest. Walking one can make tusked ones go away, yes? This one would dance for joy! Tusked ones hide in bushes. Walking one should be careful!"
+            },
+            {
+                "name": "AMMEXIA",
+                "text": "Walking one has made tusked ones go away? This one can play in the forest again? This one thanks walking one! This one is forever and ever walking one's friend!"
+            },
+            {
+                "name": "POP",
+                "text": "The air is pierced by earsplitting squeals!"
+            }
+        ],
+        "reward": {
+            "gil": 226,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5734
+                }
+            ],
+            "xp": 4200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 21,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                69393
+            ]
+        },
+        "next": [
+            66259
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000563",
+            "obj": {
+                "i": 1000563,
+                "n": "Ameexia",
+                "l": 55,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "5734",
+            "obj": {
+                "i": 5734,
+                "n": "Soot Black Dye",
+                "l": 30,
+                "c": 22807,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69393",
+            "obj": {
+                "i": 69393,
+                "n": "Dance Dance Diplomacy",
+                "g": 1,
+                "l": "East Shroud",
+                "s": 118
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66259",
+            "obj": {
+                "i": 66259,
+                "n": "Threads Unraveled",
+                "g": 92,
+                "l": "East Shroud",
+                "s": 210
+            }
+        }
+    ]
+}

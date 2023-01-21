@@ -1,0 +1,189 @@
+{
+    "quest": {
+        "name": "Boar Wars",
+        "location": "East Shroud",
+        "id": 66820,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005563,
+        "target": 1005563,
+        "genre": 37,
+        "usedItems": [
+            7003
+        ],
+        "journal": [
+            "Moxia looks at you pleadingly, a tear welling in her eye.",
+            "A great boar by the name of Kafre, once a beloved pet of the sylphs, has gone mad and now runs wild in the Sylphlands, goring all in sight with its fearsome tusks. Distraught at what has become of her erstwhile friend, Moxia makes the difficult but necessary decision of asking you to put the beast down. Participate in the FATE “What a Boar” in the western reaches of the Sylphlands and return to Moxia with proof that the deed is done.",
+            "Moxia is greatly heartened to see the tusk and learn that Kafre was not slain, but merely driven away. Moved at your kindness and courage, she offers her profuse gratitude, while hoping against hope that the great boar might return to Little Solace one day a gentler beast."
+        ],
+        "objectives": [
+            "Participate in the FATE “What a Boar” and deliver proof of your deed to Moxia."
+        ],
+        "dialogue": [
+            {
+                "name": "MOXIA",
+                "text": "&lt;sniffle&gt; ...Oh, trusted one. Please forgive this one. This one has a difficult favor to ask of trusted one."
+            },
+            {
+                "name": "MOXIA",
+                "text": "For many years, these ones kept a great tusked one named Kafre as a pet. Kafre is strongest of tusked ones, gives these ones great joy at tusk-fighting festivals."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Alas! Kafre has escaped these ones' care, and now charges madly across Sylphlands, turning fearsome tusks on all in one's path. Is this touched ones' doing, or did Kafre tire of these ones' company? This one cannot say."
+            },
+            {
+                "name": "MOXIA",
+                "text": "This one does not want to harm tusked one, but Kafre...&lt;sniffle&gt;...must be stopped. Will trusted one perform sad deed?"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Ah, trusted one. Tell this one, is Kafre...&lt;sob&gt;...no more?"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Trusted one broke off a tusk and Kafre ran away squealing? These ones' tusked friend still lives? Oh, this one could not have hoped for happier tidings!"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Is it too much to hope that Kafre will return to these ones someday as a gentle one? This one can but dream."
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21075
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5672,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005563",
+            "obj": {
+                "i": 1005563,
+                "n": "Moxia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21075",
+            "obj": {
+                "i": 21075,
+                "n": "Sylphic Goldleaf",
+                "l": 1,
+                "c": 65051,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5672",
+            "obj": {
+                "i": 5672,
+                "n": "Savage Aim Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "7003",
+            "obj": {
+                "i": 7003,
+                "n": "Kafre's Tusk",
+                "l": 1,
+                "c": 22303,
+                "t": 61
+            }
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "quest": {
+        "name": "Standard Procedure",
+        "location": "Western La Noscea",
+        "id": 66916,
+        "patch": 2.2,
+        "sort": 10,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005938,
+        "target": 1005938,
+        "genre": 41,
+        "journal": [
+            "Fyuu wishes to counteract the aggressive actions of the Coral Tridents.",
+            "Fyuu is concerned that the battle standards erected by the Coral Tridents will unduly provoke the soldiers manning the tidegates. Take the flint stones given to you by the spawnling to the Sahagin Landbase, and burn these symbols of war and violence.",
+            "You have set the Coral Tridents' battle standards aflame. Return to Fyuu at Novv's Nursery and report your success.",
+            "Fyuu is certain that your small act of vandalism has struck a subtle blow for Novv's campaign for peace. Though his clutch prefers to take the diplomatic route whenever possible, the young Sahagin believes a more direct approach is the only option for dealing with his fanatical kin."
+        ],
+        "objectives": [
+            "Burn the Sahagin battle standards found in front of the tidegates.",
+            "Report to Fyuu."
+        ],
+        "dialogue": [
+            {
+                "name": "FYUU",
+                "text": "Pshhh... The Coral Tridentsss have erected battle ssstandards mere paces from the tidegatesss. It ssseems dangerousss to me to let them ssso provoke the sssoldiers who man the walls."
+            },
+            {
+                "name": "FYUU",
+                "text": "I know the clutchfather counsssels dissscussion over dessstruction, but─unlike my ssspawnbrother Pyuu─I do not think the Tridentsss would ressspond well to a polite requessst."
+            },
+            {
+                "name": "FYUU",
+                "text": "I believe a sssmall act of vandalism is in order. Take these flint ssstones, and ssstrike sssparks onto their war banners. They shhhould burn nicely."
+            },
+            {
+                "name": "FYUU",
+                "text": "Take the flint ssstones I gave you, and burn those battle ssstandards! The Tridents' ssstance towards reasoned dissscourse is well known─if we cannot turn them from their path with words, then we must ssseek to counteract their hossstility!"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "FYUU",
+                "text": "Well done, shhhorewalker! A sssimple act, to be shhhure, but you have ssstruck a sssubtle blow for our cause."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh. My clutchmates think me hot-headed, and Clutchfather Novv often ssscolds me for my temper..."
+            },
+            {
+                "name": "FYUU",
+                "text": "But the direct approach is the <span class=\"emphasis\">only</span> approach when it comes to the Coral Tridentsss. And do not forget: all we do, we do to prevent a greater conflict with your finless peoples."
+            }
+        ],
+        "reward": {
+            "gil": 540,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9142
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005938",
+            "obj": {
+                "i": 1005938,
+                "n": "Fyuu",
+                "l": 33,
+                "q": 11
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

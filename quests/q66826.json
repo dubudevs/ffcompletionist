@@ -1,0 +1,190 @@
+{
+    "quest": {
+        "name": "Man's Best Fiend",
+        "location": "Western La Noscea",
+        "id": 66826,
+        "patch": 2.1,
+        "sort": 150,
+        "eventIcon": 71221,
+        "issuer": 1005394,
+        "target": 1005394,
+        "involved": [
+            1005392,
+            1005395
+        ],
+        "genre": 91,
+        "journal": [
+            "Skribyld is ready to set his plans into motion.",
+            "Skribyld believes R'kontai may be concealing more jackals for future black market sales. He has requested you speak with her to confirm his suspicions.",
+            "R'kontai reveals that, although there are no longer jackals in her care, she has a wolf pup in her keeping. Fearing that the pirates will come and take him away, the remorseful merchant begs you to retrieve him. Find the wolf pup and give him a succulent bone to win his trust.",
+            "The starved pup hungrily hunkers down on the bone, but still seems wary of you. Attempt to /soothe the frightened pup by rubbing his belly.",
+            "You have earned the pup's trust, and he now seems willing to go with you. Make your way back to Skribyld and show him what you found.",
+            "Skribyld is thrilled to hear that the pup is in good health and safe from the hands of the pirates. Seeing as the pup has grown so fond of you, Skribyld believes it best that he remains in your care."
+        ],
+        "objectives": [
+            "Speak with R'kontai.",
+            "Give the succulent bone to the starved pup.",
+            "/soothe the starved pup.",
+            "Report to Skribyld."
+        ],
+        "dialogue": [
+            {
+                "name": "SKRIBYLD",
+                "text": "R'kontai has admitted to breeding jackals for pirates, but I fear she may be concealing more to be smuggled elsewhere."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "I bid you speak with her once more to prove my suspicions true. If she wishes to play the role of victim, perhaps this time she will be more forthcoming with information. Tell her that although we cannot grant her impunity, her cooperation will ensure a lighter sentencing."
+            },
+            {
+                "name": "RKONTAI",
+                "text": "The Yellowjackets want to know if I'm hidin' more jackals?<br>&lt;sigh&gt; Fine, I'll come clean if it means preservin' me liberty."
+            },
+            {
+                "name": "RKONTAI",
+                "text": "All the jackals are long gone, but there's a wolf pup I was lookin' after not too far from here. Jackals are easy to come by in Aleport, but wolves? Ye can be sure folk will pay good money for 'em."
+            },
+            {
+                "name": "RKONTAI",
+                "text": "With the Yellowjackets breathin' down me neck of late, though, I haven't had time to care for him. The poor thing's probably too weak from hunger to move."
+            },
+            {
+                "name": "RKONTAI",
+                "text": "I'll tell ye where I hid him, but if ye want to take him, best move now. What with the coeurls runnin' wild, killin' the pirates' jackals an' all, it won't be long before they start snoopin' about for more animals to train."
+            },
+            {
+                "name": "RKONTAI",
+                "text": "I have to warn ye, though, he may be a pup, but he'll likely make a meal of anyone what gets close to him. Try winnin' over his stomach with this here succulent bone. If that ain't enough, try rubbin' his belly to <span class=\"highlight\">soothe</span> him. Ye can bet he'll be followin' you everywhere."
+            },
+            {
+                "name": "RKONTAI",
+                "text": "I left the critter in Quarterstone─hurry before the pirates find him!"
+            },
+            {
+                "name": "RKONTAI",
+                "text": "Hurry to Quarterstone before it's too late. Just remember to give him the bone an' rub his belly."
+            },
+            {
+                "name": "WOLF",
+                "text": "Grrrrrr..."
+            },
+            {
+                "name": "WOLF",
+                "text": "Yip, yip, yip!"
+            },
+            {
+                "name": "WOLF",
+                "text": "Grrr..."
+            },
+            {
+                "name": "WOLF",
+                "text": "&lt;sniff&gt; &lt;sniff&gt;"
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "I heard from R'kontai you went looking for the starved pup in Quarterstone. Did you have any luck?"
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "Ah, so this is the pup R'kontai has been hiding. Well done."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "She was here not long ago, as a matter of fact. It seems she is willing to cooperate with the authorities and help set things right."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "But that's not all, friend."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "While you were searching for this pup, a group of pirates related to the investigation was taken into custody."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "We couldn't have done it without your help. The ringleader has yet to be found, but perhaps now Aleport can enjoy a moment of respite."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "All that remains is what to do with this pup. He seems to have taken a liking to you. Hmmm...perhaps it would be best if you looked after him."
+            },
+            {
+                "name": "SKRIBYLD",
+                "text": "There's simply no room for him at headquarters, and letting him wander about on his own is out of the question. I realize how sudden this is, but please give him a good home."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 6196
+                }
+            ],
+            "xp": 2520
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66825
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005394",
+            "obj": {
+                "i": 1005394,
+                "n": "Skribyld",
+                "l": 33,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005392",
+            "obj": {
+                "i": 1005392,
+                "n": "R'kontai",
+                "l": 33,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005395",
+            "obj": {
+                "i": 1005395,
+                "n": "Starved Pup",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "6196",
+            "obj": {
+                "i": 6196,
+                "n": "Wolf Pup",
+                "l": 1,
+                "c": 59450,
+                "t": 81
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66825",
+            "obj": {
+                "i": 66825,
+                "n": "Like Cats and Dogs",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 150
+            }
+        }
+    ]
+}

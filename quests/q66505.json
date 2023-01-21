@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Adventurer for Hire",
+        "location": "Gridania",
+        "id": 66505,
+        "patch": 2.0,
+        "sort": 430,
+        "eventIcon": 71221,
+        "issuer": 1006711,
+        "target": 1000617,
+        "genre": 92,
+        "journal": [
+            "Selaine needs a seasoned adventurer to go with her perfume.",
+            "Selaine has a short but discerning shopping list, and apparently, you are on it. Take yourself and an atomizer of sweetrose perfume to Jeulerand, so she can cross you off her roll of errands.",
+            "Jeulerand takes delivery of the perfume, and regards you with inexplicable delight. Let us hope that his definition of a good adventurer is not too far off the beaten path."
+        ],
+        "objectives": [
+            "Deliver the perfume to Jeulerand at Little Solace."
+        ],
+        "dialogue": [
+            {
+                "name": "SELAINE",
+                "text": "A fellow greenthumb asked me to pick up two things in Gridania: sweetrose perfume and a good adventurer."
+            },
+            {
+                "name": "SELAINE",
+                "text": "I've the perfume. Though it took some doing, we botanists do tend to be miserly with our sweetroses─and as for the adventurer... Hello, <span class=\"alternative-container\"><span class=\"alternative\">lovely</span><span class=\"alternative\">handsome</span></span>!"
+            },
+            {
+                "name": "SELAINE",
+                "text": "Well, that completes this shopping list! Adventurer, would you mind taking this perfume and yourself to Jeulerand at Little Solace?"
+            },
+            {
+                "name": "JEULERAND",
+                "text": "Hello there. You're...? Oh, you're an adventurer! Say, you don't happen to have some sweetrose perfume, do you?"
+            },
+            {
+                "name": "JEULERAND",
+                "text": "Selaine's a good one, all right! Both the perfume <span class=\"emphasis\">and</span> the adventurer. She knows how to get things done, that woman!"
+            }
+        ],
+        "reward": {
+            "gil": 1624,
+            "xp": 11960
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 43,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66506
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006711",
+            "obj": {
+                "i": 1006711,
+                "n": "Selaine",
+                "l": 53,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000617",
+            "obj": {
+                "i": 1000617,
+                "n": "Jeulerand",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66506",
+            "obj": {
+                "i": 66506,
+                "n": "Some Seedy Business",
+                "g": 92,
+                "l": "East Shroud",
+                "s": 430
+            }
+        }
+    ]
+}

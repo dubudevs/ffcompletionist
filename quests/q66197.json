@@ -1,0 +1,126 @@
+{
+    "quest": {
+        "name": "The Rats in the Wharf",
+        "location": "Limsa Lominsa",
+        "id": 66197,
+        "patch": 2.0,
+        "sort": 30,
+        "eventIcon": 71221,
+        "issuer": 1001000,
+        "target": 1000972,
+        "genre": 91,
+        "journal": [
+            "H'naanza has a simple yet profitable task for an interested adventurer.",
+            "Baderon is offering a bounty to any adventurer willing to cull wharf rats. Venture outside the Tempest Gate and slay five of the pests.",
+            "You mercilessly slaughter five of the disease-infested rats. Report to Baderon at the Drowning Wench and claim your reward.",
+            "An anonymous benefactor was behind the bounty, claiming that the constant scurrying of rats was driving him insane. Yet despite your efforts, Baderon suspects that the strange man will forever be tormented by the furry creatures."
+        ],
+        "objectives": [
+            "Slay wharf rats.",
+            "Report to Baderon."
+        ],
+        "dialogue": [
+            {
+                "name": "HNAANZA",
+                "text": "Hmmm? Are you in need of some trifling task to pass the time? Then I have just the job for you."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "Baderon is offering a reward to any adventurer who slays at least five wharf rats."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "There's no shortage of the pests lurking outside the Tempest Gate, so you should hurry and take advantage of this opportunity."
+            },
+            {
+                "name": "BADERON",
+                "text": "Ah, so ye slew a few rats! Good on ye, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>!"
+            },
+            {
+                "name": "BADERON",
+                "text": "This bloke comes through the other day and plops this 'uge sack the size of a bleedin' goobbue on the counter, sayin' any man what slays rats can 'ave somethin' from within."
+            },
+            {
+                "name": "BADERON",
+                "text": "When I inquires as to why, all 'e says is the damn <span class=\"emphasis\">noise</span> they make when scurryin' about is drivin' 'im insane. Ye ask me, though, 'e was already a bit touched. Somethin' tells me the poor lad'll never find peace."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2653,
+                    "one": 1
+                },
+                {
+                    "id": 2655,
+                    "one": 1
+                },
+                {
+                    "num": 4,
+                    "id": 5823,
+                    "one": 1
+                }
+            ],
+            "xp": 420
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001000",
+            "obj": {
+                "i": 1001000,
+                "n": "H'naanza",
+                "l": 28,
+                "q": 28,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000972",
+            "obj": {
+                "i": 1000972,
+                "n": "Baderon",
+                "l": 28,
+                "q": 26,
+                "t": "Drowning Wench Proprietor"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2653",
+            "obj": {
+                "i": 2653,
+                "n": "Leather Eyepatch",
+                "l": 5,
+                "c": 40914,
+                "t": 34,
+                "p": 141
+            }
+        },
+        {
+            "type": "item",
+            "id": "2655",
+            "obj": {
+                "i": 2655,
+                "n": "Hempen Hat",
+                "l": 5,
+                "c": 41015,
+                "t": 34,
+                "p": 113
+            }
+        },
+        {
+            "type": "item",
+            "id": "5823",
+            "obj": {
+                "i": 5823,
+                "n": "Allagan Tin Piece",
+                "l": 5,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

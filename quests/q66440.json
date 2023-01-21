@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "The Forest for the Trees",
+        "location": "Coerthas Central Highlands",
+        "id": 66440,
+        "patch": 2.0,
+        "sort": 370,
+        "eventIcon": 71221,
+        "issuer": 1006403,
+        "target": 1006403,
+        "genre": 94,
+        "journal": [
+            "Belmont affects a sellsword's cynicism, but the Gods' Quiver in him dies hard. So urgently does he seek a scout that he will hire one himself.",
+            "A veteran of many skirmishes with the Ixal, Belmont suspects that there is more to the beastmen's presence in this part of the world than meets the eye. He bids you use your stealth and cunning to search their lair to the east.",
+            "After a review of the Ixal's housekeeping and a battle to the death, you discover nothing more unusual than a pile of yew logs. Still, they grew not from these woods, and the birdmen hardly kept them as pets. Return to the camp and give one of the logs to Belmont.",
+            "According to Belmont, the yew you brought back is found only in the Twelveswood and is much favored by the Ixal, who plant the tree to create living fortifications. Belmont believes that this is evidence that the Ixal are settling in Coerthas, seizing on the distraction afforded by Ishgard's many troubles."
+        ],
+        "objectives": [
+            "Search the Ixali lair for clues.",
+            "Deliver the black yew log to Belmont."
+        ],
+        "dialogue": [
+            {
+                "name": "BELMONT",
+                "text": "I hail from Gridania, <span class=\"alternative-container\"><span class=\"alternative\"><span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span> from the sea</span><span class=\"alternative\">same as you</span><span class=\"alternative\">desert <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span></span></span>. Fighting Ixal is what we do there, but I sure didn't expect to see them in these mountains."
+            },
+            {
+                "name": "BELMONT",
+                "text": "I know those shite-birds, and they're up to something. It's nothing I can go to my employer with... It's just a feeling. But whenever I got this feeling in the Twelveswood and nothing got done, something bad bit us on the arse."
+            },
+            {
+                "name": "BELMONT",
+                "text": "I've not had a moment to spare and the feeling grows stronger. It ill becomes a sellsword to part with his own gil in this manner, but will you enter the Ixali lair to the east and see if there are any clues to be found?"
+            },
+            {
+                "name": "BELMONT",
+                "text": "What news, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>? What is it that you carry?"
+            },
+            {
+                "name": "BELMONT",
+                "text": "This is black yew from the North Shroud, unknown in Coerthas. The Ixal make of it living blinds and walls. But the yew being slow to grow, why would they bother to cut it down and convey it west? Unless..."
+            },
+            {
+                "name": "BELMONT",
+                "text": "The Ixal mean to stay here─this is the beginning of a settlement. While the Ishgardians busy themselves with dragons, the birdmen are stealing this patch of Coerthas from right under their noses."
+            },
+            {
+                "name": "BELMONT",
+                "text": "I tell you, unless the Holy See acts now, the Ixal will rapidly gain a foothold in this area. That means more war. And though that means more work for the likes of me, I have enough as is."
+            },
+            {
+                "name": "POP",
+                "text": "A rush of wings announces the Ixal! "
+            }
+        ],
+        "reward": {
+            "gil": 1571,
+            "xp": 9660
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 37,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66439
+            ]
+        },
+        "next": [
+            66441
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006403",
+            "obj": {
+                "i": 1006403,
+                "n": "Belmont",
+                "l": 63,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66439",
+            "obj": {
+                "i": 66439,
+                "n": "Too Many Enemies",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 370
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66441",
+            "obj": {
+                "i": 66441,
+                "n": "Stand and Quiver",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 370
+            }
+        }
+    ]
+}

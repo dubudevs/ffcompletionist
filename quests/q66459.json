@@ -1,0 +1,95 @@
+{
+    "quest": {
+        "name": "A Tale of Three Cities",
+        "location": "Ul'dah",
+        "id": 66459,
+        "patch": 2.0,
+        "sort": 380,
+        "eventIcon": 71221,
+        "issuer": 1001679,
+        "target": 1006436,
+        "genre": 93,
+        "journal": [
+            "A middleman is the pepper of commerce─useless alone, excellent in moderation, pernicious in excess. Whichever one Syntgoht happens to be, he has a task that may interest you.",
+            "With Amajina & Sons now aware of the coblyns in their closet, Syntgoht will finally be able to fulfill his orders. His relief is palpable and his penitence potent. Start the last leg of your journey and deliver the cherry brandewine to Edwyn.",
+            "The convoluted tale of ceruleum shortage is well received by Edwyn, especially when you pass on the cherry brandewine along with Syntgoht's apology. Words are wind, but a costly bottle of nectar sets a great deal to rights."
+        ],
+        "objectives": [
+            "Deliver the cherry brandewine to Edwyn."
+        ],
+        "dialogue": [
+            {
+                "name": "SYNTGOHT",
+                "text": "Thanks to you, I'll be able to make my ceruleum shipment to Coerthas. That's a load off my mind. A middleman has naught but his name, you know."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "Headed back to Camp Dragonhead, I assume? Tell Edwyn to start laying out his vats, for that's how soon he'll have his ceruleum."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "He won't take my word for it, though, since Papawazu's made a liar of me by tarrying while coblyns drank my shipment. Take this to Edwyn as a token of my apology, and don't you sample any!"
+            },
+            {
+                "name": "EDWYN",
+                "text": "Back, are you? Took your time, too. Hope that means something good for my ceruleum!"
+            },
+            {
+                "name": "EDWYN",
+                "text": "Well now, that <span class=\"emphasis\">is</span> good news! And what's this, a gift from that tightfisted Syntgoht─and a handsome one it is! I'll have to forgive the wretch, the Fury smite me if I lie."
+            },
+            {
+                "name": "EDWYN",
+                "text": "Quite a tangled skein you unwound there, and well loosed too. Thank you for your trouble, and just you see: those ballistas will save your hide someday!"
+            }
+        ],
+        "reward": {
+            "gil": 1500,
+            "xp": 10105
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 38,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66458
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001679",
+            "obj": {
+                "i": 1001679,
+                "n": "Syntgoht",
+                "l": 41,
+                "q": 12
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006436",
+            "obj": {
+                "i": 1006436,
+                "n": "Edwyn",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66458",
+            "obj": {
+                "i": 66458,
+                "n": "The Ceruleum Must Flow",
+                "g": 93,
+                "l": "Northern Thanalan",
+                "s": 380
+            }
+        }
+    ]
+}

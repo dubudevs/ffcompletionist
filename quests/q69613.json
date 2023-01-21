@@ -1,0 +1,506 @@
+{
+    "quest": {
+        "name": "Thicker than Blood",
+        "location": "Ul'dah",
+        "id": 69613,
+        "patch": 6.0,
+        "sort": 780,
+        "icon": 101096,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1036629,
+        "target": 1036631,
+        "genre": 165,
+        "journal": [
+            "Drusilla seems relieved to see you walk through her door unscathed.",
+            "While pleased to see you safe, Drusilla informs you that members of the family throughout Thanalan have reported disturbing sightings. That, along with a blunted dagger delivered to Lemures headquarters as a threat, has put everyone on edge. She suggests investigating the claims, both to gather potentially useful information and to escape from her quarters for a spell. You are to speak with family at Black Brush Station, from where one of the reports originated.",
+            "Though the first of the Lemures you approach has witnessed nothing unusual of late, he speaks at length and shares the story of his exile from Garlemald. He also tells you of a young woman who claims to have seen frightening images in the sands, and instructs you to visit Lost Hope if you wish to hear her delusions.",
+            "The woman is much more level-headed than you were led to believe, but still shaken by her recent experiences. After you introduce yourself as a friend of Drusilla, she regales you with the tale of how she and her beloved fled Garlemald, displaying an eagerness to divulge personal details that appears oddly common amongst the Lemures. She then informs you that it was not her, but her beloved who spied the dread figure in the desert, and begs you to ask him for further details─and, if you are able, bring an end to the vile menace.",
+            "You interrupt a slender man engaged in the sacred act of poetic creation. Whether it is because the verses he recites are divine or dreadful is unclear, but regardless, a voidsent reveals itself as the final rhyme is released unto the desert wind. The poet is helpless before the otherworldly beast, leaving the butchery in your hands.",
+            "You dispatch the threat, which refrains from giving its opinion on the poet's latest masterpiece. The flustered artist appears unharmed and regards you in stunned awe. Perhaps the sound of your voice will awaken him from his stupor─or failing that, a powerful nod.",
+            "The man thanks you profusely before reporting that it was during a similar excursion into the desert that he saw the man with pale skin and blood red eyes. The enigmatic figure returned his gaze with unnerving silence and an ominous grin before vanishing. While it is uncertain if this was Orcus or not, the poet recognizes that the desert is no place for feats of lyricism, and returns to the uncritical arms of his beloved, marking the end of your duty there.",
+            "Drusilla listens to your story with concern and praises you for slaying the voidsent before anyone came to harm. She then asks for your thoughts on the disparate members of the Lemures before speaking of how all fled their homeland of Garlemald. She goes on to recount her own experiences at length, telling the story of her grandfather Rullus's failed assassination of Solus zos Galvus, and his subsequent pursuit of power that led to his possession by Orcus and her flight to Eorzea. While the memories are plainly not easy for her to recall, her willingness to share is proof that she has come to think of you as a member of her found family. Tired from the day's work, she bids you return to headquarters. <br><br>※You may re-enter Lemures headquarters by speaking with the loyal Lemure in Pearl Lane.",
+            "Although Orcus did not show himself during your investigations into the family's claims, Drusilla seems certain that he will act soon─and that she will be his chosen target. No sooner does she share this intuition than Orcus appears, scythe poised to remove her head from her shoulders. Though titillated by the hatred and fear he sees smoldering within you, he yearns to see his meal grow even more flavorful, and to that end declares that he will torture Drusilla at his leisure, all the while waiting for your soul to attain its full delicious potential. With those parting words, Orcus returns to the shadows whence he came, leaving you and Hermin alone in Drusilla's chambers. The gobsmacked girl looks as if she could use some comforting words, or perhaps an outlet for her rising anger.",
+            "After Hermin's rage subsides, your next course of action becomes clear: rescue Drusilla from Orcus's clutches at all costs. His whereabouts are as uncertain as ever, but Hermin plans on pooling the resources of the family to make a concerted effort to ascertain them. In the meantime, you must keep your skills sharp, for only a reaper can cut Orcus down.<br><br>※The next reaper quest will be available from Hermin upon reaching level 80."
+        ],
+        "objectives": [
+            "Speak with the loyal Lemure at Black Brush Station.",
+            "Speak with the elegant woman.",
+            "Speak with the lithe dandy.",
+            "Defeat the bloodsupped voidsent.",
+            "Speak with the lithe dandy.",
+            "Speak with Drusilla in Stonesthrow.",
+            "Enter Lemures headquarters.",
+            "Speak with Hermin."
+        ],
+        "dialogue": [
+            {
+                "name": "HERMIN",
+                "text": "If the boss says you're family, then you're family. Let's put that bastard in the dirt, eh? For Arnegis."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Glad to see Orcus hasn't sunk his teeth into you yet, <span class=\"highlight\">Forename</span>. Don't go thinkin' he's given up on tryin', though."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "He's out there, savorin' you from a distance. Can't resist checkin' in on his prize, just as he can't resist seekin' out morsels to tide him over till his feast. The reports we've received of a man pale as death skulking about the sands is proof of that."
+            },
+            {
+                "name": "HERMIN",
+                "text": "And then there's the matter of this blunted dagger. We don't know who sent it, but we do know what it means."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "It's a warnin' commonly used by the less savory elements in Ul'dah. A warnin' that the next will be delivered sharp and straight to our bellies."
+            },
+            {
+                "name": "HERMIN",
+                "text": "More fool them. They've no notion of what we've faced and lived, thinking we'd soil our smallclothes over empty threats."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Let's hope it's nothin' more than that, lass, seein' as we need to follow up on those reports sooner than later. Anyone fancy a bit of fresh air? If we catch a whiff of Orcus's foul stench, all the better..."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "<span class=\"highlight\">Forename</span>, I want you to ask around near Black Brush Station, and I'll head to Stonesthrow. When you're done, meet me there and we'll share what we've dug up."
+            },
+            {
+                "name": "HERMIN",
+                "text": "Not every member of the family has the means or the inclination to live in the jewel of the desert. Some settle for something with a little less luster."
+            },
+            {
+                "name": "LEMURESMEMBERA",
+                "text": "I recognize that self-assured stride. The mark of a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> ready to take on the world and then some. You must be the Eorzean reaper the boss sent word about."
+            },
+            {
+                "name": "LEMURESMEMBERA",
+                "text": "I'm almost disappointed to tell you nothing is amiss. The soldier in me would've loved to see a reaper in action. I once fought in the imperial army, though you wouldn't think it to look at me now."
+            },
+            {
+                "name": "LEMURESMEMBERA",
+                "text": "I served proudly under Lord Valens in my youth, until the day he ordered us to use commonfolk as fodder in some pointless skirmish. I refused, and was sentenced to death for my candor. Needless to say, I didn't keep that appointment."
+            },
+            {
+                "name": "LEMURESMEMBERA",
+                "text": "Compared to that evil, toothless threats and ghosts are no bother. But the less jaded are more excitable─one lass in particular has been jumping at shadows."
+            },
+            {
+                "name": "LEMURESMEMBERA",
+                "text": "She claims to have seen all manner of terrors, but I suspect she'd be startled by her own reflection. Still, if you want to lend an ear to her delusions, you can find her in Lost Hope."
+            },
+            {
+                "name": "LEMURESMEMBERA",
+                "text": "Things are quiet in these parts, save for that lass telling anyone who'll listen about the things she's seen in the dark. Find her in Lost Hope if you're in the mood for a bone-chilling yarn."
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "Aaah! Oh...hello. Who are you?"
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "Oh! Did Drusilla receive my missive? She's sent someone to rid us of this terrible evil waiting in the wings?"
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "Truly, she cares for us as if we really were her flesh and blood─which is more than I can say about my own. Not once have I longed to return to the life of comfort I left behind in Garlemald, and I have Drusilla to thank for that."
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "She isn't the reason I left home in the first place, of course. Had I not met my beloved, I would likely still be feasting on lemoncakes in ignorance."
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "In ignorance of love, of freedom. I found the former in Garlemald, and the latter in Eorzea, as our new life blossomed into something beautiful."
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "Not every day has been easy. Not even most days. But Drusilla's watchful eye has kept us safe, and our freedom is worth any measure of hardship."
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "Such terrible fear gripped my heart when my beloved told me of the pale man he spied on the sands. But now that the family has come to help, I can breathe a sigh of relief."
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "I'm sure you wish to know precisely where to find that horrid creature, but I cannot help half so well as my beloved might. Seek him in the southeast, and pray put an end to this nightmare!"
+            },
+            {
+                "name": "LEMURESMEMBERB",
+                "text": "The mere thought of that pallid skin sets my heart racing in terror. Seek out my beloved so we may finally put paid to this menace. He should be just southeast of here, seeking inspiration for his latest masterpiece."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Through deviled mists the hunter doth now tread,<br>Tracking the scent of quarry others dread,<br>In darkest night cry for a keeper,<br>Lo, by your side <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> walks, the reaper."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Ah, apologies for the effusive display, friend. I'm a poet, you see, and cannot resist putting into words the flood of emotions that accompany such a striking figure as yours."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Ack! A... A...m-m-m..."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Monster!!!"
+            },
+            {
+                "name": "ORCUSBEHAVER",
+                "text": "Graaaaaagh!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The bloodlust emanating from this voidsent is potent and powerful..."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Thank you, thank you, thank you! My savior, my godssend!"
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Would that I could have aided you, but alas, a poet's pen is of little use in battle."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Unless, of course, that battle involves not swords and scythes, but words! Just ask the sire of my beloved, who is even now licking the wounds dealt by the invective verse I composed after he had the gall to forbid our union!"
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "A masterwork of scathing metaphor and subtle remonstration! Alas, for all their pretensions, nobles are anything but subtle in their rage. We were forced to flee, to abandon our homes with only our love for sustenance."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Nevertheless, I've regretted not a single moment of our life in exile. In Eorzea we found an unexpected treasure: freedom. Freedom of mind and freedom of heart."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Ah, but I digress. Surely you did not seek me out simply to save my life and leave with a nod and a smile. Did you wish to commission a poem?"
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "The pale man? Aye, I encountered him whilst wandering these arid wastes in search of inspiration. I felt the gaze of some terrible presence upon my back, and when I turned to meet it, he was standing there, grinning like a butcher in a bullpen."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "He wore robes much too thick for these scorched sands, and his skin looked as if it had never been kissed by the blazing sun. Worst of all, his eyes were as two bottomless pools of blood. I feared my end had come, but then he vanished as quickly as he had appeared."
+            },
+            {
+                "name": "LEMURESMEMBERC",
+                "text": "Perhaps I've been reckless. Recent incidents make it clear that the cost of inspiration is higher than I'm willing to pay. I shall return to my beloved, for both my safety and hers. Thank you again, my savior."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "There you are. And?"
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Another one of his accursed minions. Well, I suppose we can take comfort in the fact that none of the family came to harm, yourself included. Well done."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Speaking of which, what do you think of this family you've been thrust into? Speak freely─I haven't lived this long by takin' offense at opinions I don't want to hear."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "I'm surprised you've all survived this long."
+            },
+            {
+                "name": "A1",
+                "text": "Seems like any other family to me."
+            },
+            {
+                "name": "A1",
+                "text": "Doesn't matter what I think, does it?"
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Takes more than brute strength for folks to survive. None of them were fit for life under the Empire's boot, and that's good enough for me."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Hah! Seen some odd families then, I reckon. I'd like to think we're one of a kind, though. A collection of castoffs unfit to live under the Empire's boot. Yours truly included."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "If you say so. I reckon you don't hate us, and that's good enough for me. End of the day, we're just a ragtag band of outcasts unfit to live under the Empire's boot. Yours truly included."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Much as some enlightened types might tell you otherwise, people like to have a say in the life they lead. That's what separates us from those bugs over there."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Born queens, workers, drones. Bred into roles ingrained so deeply they wouldn't know how to live otherwise. For the glory and prosperity of the hive."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "But we've got it in us to be different. Might be born into farmin', soldierin', or politickin', but we can choose to walk a different path whenever the fancy should strike."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "'Tain't in our nature to accept our lot without question. No, we have to believe in somethin'. Put our faith in it. Only then will we deign to march in step."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "And indeed, faith of a “savage” stripe is one way to get us dancin' to the same tune. Others might be compelled through faith in logic or law. Intangible, invisible...yet cause enough for killin' and conquerin' if it suits the queen."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "“The invaders have sullied our birthright for eight centuries─no longer! We march for Locus Amoenus!” With a few righteous words, His Radiance Solus zos Galvus whipped the hive into a frenzy."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Once that fire is burnin', the passion of the masses can't soon be quelled. What was once a wish for home became a holy mission to spread enlightenment. Enlightenment which would not suffer such beliefs as the beastmen held."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Countless scores rendered up their lives on the altar of empire, until an entire continent was united under a single magitek fist."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "For those who still dreamed the dream of unity, a deed worthy of song. Yet some awoke to see it for the tyranny it was. My grandfather Rullus included."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "The talents of the reapers are passed down through bloodlines. Rullus was the best of us─the most accomplished and feared in the order's long history."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "The duty of the reapers─our role in the hive, if you will─was to deliver our countrymen from corrupt and power-hungry tyrants. When Garlemald found religion in conquest, its appetite grew to be insatiable."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "My grandfather pondered this conundrum for many sleepless nights, and came to a decision: he would relieve Solus zos Galvus of his life."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Twenty years ago, he slipped into the deepest chambers of the imperial palace, silent as a shadow, until he could hear the Emperor's beatin' heart..."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Yet when Rullus returned to me, Solus was alive and well. My grandfather, on the other hand, had a skittishness to his step, and his black hair had turned a pale white."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "He said naught of his encounter with the Emperor, save that the most powerful man in Garlemald was no man at all."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Shamed in his defeat, my grandfather sought greater power. Bit by bit, he gave more of himself over to the voidsent behind his avatar."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Orcus struck when Rullus was weakest, takin' his flesh and soul in one fell swoop. When he was finished, not a mote of my grandfather remained in that body. There was only Orcus."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "The fiend flew into a rapturous frenzy, and my family were his first victims. I remember the chill of his teeth sinkin' into my flesh, gnawin' until they reached my very essence."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "How am I standin' here before you, then? Oh, Orcus gorged on a soul that night. But it wasn't mine─not exactly. It was my avatar that filled his belly. Seems that was all he could stomach."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Some might consider that a lucky twist of fate, but I had little time to ponder my fortune. Fled soon as I was able─His Radiance never looked kindly on those trying to end his life, or their families."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "I wandered about for years until I settled here and started seekin' out others like me. Others who had awoken from the Empire's dream."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "\"Lemures“ is what we call the spirits of the dead in the Garlean tongue. A fittin' moniker if there ever was one. Wakin' up from a long sleep ain't unlike climbing out of the grave. I can attest to that."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Son of a bleedin'─ Remind me not to give such long-winded speeches when the sand is blowin' in my face. I'm headin' back for some ale. See you at headquarters."
+            },
+            {
+                "name": "HERMIN",
+                "text": "Welcome back, Boss. How was the family? "
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Shaken, but unharmed aside from some tussled hair and mangled verse. Orcus left one of his minions behind as a gift, but <span class=\"highlight\">Forename</span> made quick work of it."
+            },
+            {
+                "name": "HERMIN",
+                "text": "I always said <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> was a keeper. You have an eye for the fierce of heart."
+            },
+            {
+                "name": "HERMIN",
+                "text": "I wager <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> could slay Orcus all on <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> own. Not that we'd let <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> take all the glory."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "'Course we wouldn't. We'll all be there when Orcus tries to take his prize. I don't think we'll be waitin' long, either."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "Orcus said he'd strike when <span class=\"highlight\">Forename</span> was ripe with fear and hatred and despair. Seasonings he's loath to forego."
+            },
+            {
+                "name": "DRUSILLA",
+                "text": "I've an inkling how he might try to draw out those emotions. And finish off a half-eaten meal besides..."
+            },
+            {
+                "name": "ORCUS",
+                "text": "Right you are, Drusilla!"
+            },
+            {
+                "name": "ORCUS",
+                "text": "How many nights did you mourn your lost avatar? The wellspring of your power. I must say, it was quite the dish!"
+            },
+            {
+                "name": "ORCUS",
+                "text": "Ah, I think not. Move so much as a finger, and her head will hit the floor."
+            },
+            {
+                "name": "ORCUS",
+                "text": "Oooh, that's it, <span class=\"highlight\">Forename</span>. That fire. I want to see it burn. I want to see it rage. I want to see the hatred seep into the depths of your soul!"
+            },
+            {
+                "name": "ORCUS",
+                "text": "Shall I make this Drusilla's final breath? Or this one? It is so very hard to choose!"
+            },
+            {
+                "name": "ORCUS",
+                "text": "I was right not to give in to my baser instincts. To allow the thought of your taste to simmer in my mind as you and Drusilla formed a bond, a...kinship, even?"
+            },
+            {
+                "name": "ORCUS",
+                "text": "Born from an understanding of her inconsequential ideals, that you may better appreciate the bitter loss!"
+            },
+            {
+                "name": "ORCUS",
+                "text": "Hmm... But perhaps I should wait a while longer. To let the flavor of your hatred mature and the tang of your malice ripen."
+            },
+            {
+                "name": "ORCUS",
+                "text": "I can make use of Drusilla yet. Revel in her screams, exult in her misery. Ahh, how splendid it will be!"
+            },
+            {
+                "name": "ORCUS",
+                "text": "All the while, my prize piglet growing fat with loathing and succulent with terror."
+            },
+            {
+                "name": "ORCUS",
+                "text": "Patience rewards the dutiful gourmand, after all. When your tantalizing flavor has fully matured, I shall return. And I shall reap my harvest!"
+            },
+            {
+                "name": "HERMIN",
+                "text": "Godsdamned voidsent bastard! Soulless piece of shite!"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "We need to think, Hermin!"
+            },
+            {
+                "name": "A2",
+                "text": "Swive that sodding demon spawn!"
+            },
+            {
+                "name": "A2",
+                "text": "Orcus is going to pay for this!"
+            },
+            {
+                "name": "HERMIN",
+                "text": "I know, I know... Now's not the time to lose my temper. Deep breaths, cool heads..."
+            },
+            {
+                "name": "HERMIN",
+                "text": "Aye...aye, that's the spirit!"
+            },
+            {
+                "name": "HERMIN",
+                "text": "Right. We need a plan. First things first: find out where Orcus is hiding. The rest of the family should be able to help with that."
+            },
+            {
+                "name": "HERMIN",
+                "text": "In the meantime, you need to prepare. I know you're good, <span class=\"highlight\">Forename</span>, but we can't leave the boss's life to chance. Sharpen your skills and your scythe, then sharpen them once more."
+            },
+            {
+                "name": "HERMIN",
+                "text": "The boss can do naught against Orcus without her avatar. That means you'll have to do the heavy lifting."
+            },
+            {
+                "name": "HERMIN",
+                "text": "Of course, I'll do what I can to afford you an advantage. You can count on that. For Drusilla!"
+            }
+        ],
+        "reward": {
+            "gil": 1860
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 78,
+                    "id": 180
+                }
+            ],
+            "quests": [
+                69612
+            ]
+        },
+        "next": [
+            69614
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1036629",
+            "obj": {
+                "i": 1036629,
+                "n": "Drusilla",
+                "l": 4022,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1036631",
+            "obj": {
+                "i": 1036631,
+                "n": "Hermin",
+                "l": 4022,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69612",
+            "obj": {
+                "i": 69612,
+                "n": "Dark Days",
+                "g": 165,
+                "l": "Ul'dah",
+                "s": 750,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69614",
+            "obj": {
+                "i": 69614,
+                "n": "The Killing Art",
+                "g": 165,
+                "l": "Ul'dah",
+                "s": 800,
+                "f": 1
+            }
+        }
+    ]
+}

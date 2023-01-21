@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Vanaspati's Blessing",
+        "location": "Thavnair",
+        "id": 70103,
+        "patch": 6.15,
+        "sort": 117,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 15,
+        "eventIcon": 71222,
+        "issuer": 1042301,
+        "target": 1042301,
+        "genre": 33,
+        "journal": [
+            "Maru is looking to distribute delicacies.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Obtain freshwater weeds.",
+            "Deliver the freshwater weeds to Maru."
+        ],
+        "dialogue": [
+            {
+                "name": "MARU",
+                "text": "<span class=\"highlight\">Forename</span>... Have you ever gazed into a hippo's big, dark eyes and known in your heart there ain't nothin' cuter in this whole wide world? I sure have..."
+            },
+            {
+                "name": "MARU",
+                "text": "Makes me wanna give 'em all their favorite treats─fruit, veggies, alfalfa..."
+            },
+            {
+                "name": "MARU",
+                "text": "An' freshwater weeds! Those are so popular among our 'pots, I can never seem to pick enough..."
+            },
+            {
+                "name": "MARU",
+                "text": "I feel a freshwater feast comin' on, so could you wrangle us some weeds? You can find 'em sproutin' from the banks of Ksiroda, just east of Yedlihmad. Three bundles would make me─and our sweet hippos─forever grateful!"
+            },
+            {
+                "name": "MARU",
+                "text": "Find those freshwater weeds?"
+            },
+            {
+                "name": "MARU",
+                "text": "And we feast tonight! We used to save these for special occasions since they only grow in southern Thavnair, but I guess movin' down here has its perks."
+            },
+            {
+                "name": "MARU",
+                "text": "Still─the waters of Ksiroda flow from Vanaspati, you know? So in a way, it's like our old home is still takin' care of us. ...That's what I like to think, anyway."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 44
+                },
+                {
+                    "id": 36657
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 5,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042301",
+            "obj": {
+                "i": 1042301,
+                "n": "Maru",
+                "l": 3709,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "44",
+            "obj": {
+                "i": 44,
+                "n": "Allagan Tomestone of Causality",
+                "l": 1,
+                "c": "t/65094",
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "36657",
+            "obj": {
+                "i": 36657,
+                "n": "Arkasodara Pana",
+                "l": 1,
+                "c": "t/65091",
+                "t": 100
+            }
+        }
+    ]
+}

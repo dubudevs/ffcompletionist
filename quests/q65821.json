@@ -1,0 +1,173 @@
+{
+    "quest": {
+        "name": "Way of the Gladiator",
+        "location": "Ul'dah",
+        "id": 65821,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100054,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1002277,
+        "target": 1001739,
+        "genre": 127,
+        "journal": [
+            "Lulutsu wishes you to reaffirm your desire to join the Gladiators' Guild.",
+            "Lulutsu has bid you speak with First Sword Mylla, whose approval you must obtain if you wish to join the guild.",
+            "Satisfied that you have the strength to live by the sword, the guildmaster furnishes you with a weathered weapon. Equip the blade and speak to her once more to begin your training."
+        ],
+        "objectives": [
+            "Speak with First Sword Mylla."
+        ],
+        "dialogue": [
+            {
+                "name": "LULUTSU",
+                "text": "What will it be? Will you rise above the masses and inscribe your name in legend, or will you resign yourself to mediocrity and die in obscurity?"
+            },
+            {
+                "name": "LULUTSU",
+                "text": "Oh, so it's to be death in obscurity..."
+            },
+            {
+                "name": "LULUTSU",
+                "text": "Well, should you come to your senses, you may speak with me at any time to proceed with the enrollment process."
+            },
+            {
+                "name": "LULUTSU",
+                "text": "A decision you shan't regret. One moment─make way for <span class=\"highlight\">Forename Surname</span>! Fresh meat coming through!"
+            },
+            {
+                "name": "LULUTSU",
+                "text": "Now then, before your enrollment can be considered complete, you must present yourself to First Sword Mylla. Seek her out and obtain her approval."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Aye, I heard Lulutsu. So you're <span class=\"highlight\">Forename Surname</span>. 'Tis a good, strong name."
+            },
+            {
+                "name": "MYLLA",
+                "text": "On behalf of the Gladiators' Guild, allow me to welcome you. I am Mylla, guildmaster here."
+            },
+            {
+                "name": "MYLLA",
+                "text": "So you wish to study our arts. I presume you have your reasons for choosing the sword over all other weapons. Perhaps you think it easiest to learn."
+            },
+            {
+                "name": "MYLLA",
+                "text": "A sword is a simple weapon. But to wield a blade well is anything but simple."
+            },
+            {
+                "name": "MYLLA",
+                "text": "For every Coliseum champion to emerge from our ranks, there have been countless disappointments who failed to achieve greatness."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Bear that in mind before you answer me, <span class=\"highlight\">Forename</span>, for I do not ask this question lightly: have you the strength to live by the sword and─if it be your fate─die by it?"
+            },
+            {
+                "name": "Q2",
+                "text": "Have you the strength to live by the sword?"
+            },
+            {
+                "name": "A2",
+                "text": "Yes"
+            },
+            {
+                "name": "A2",
+                "text": "No"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Then perhaps your path lies elsewhere. Should it lead you back to us someday, we can discuss your future once more."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Then welcome, gladiator, to your new home!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Take this sword. There are many like it, but this one is yours now."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Consider it a gift if you like. Now wear it on your hip as I do, and show me you are ready to begin your training!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 1601
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65713
+            ]
+        },
+        "next": [
+            65822
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002277",
+            "obj": {
+                "i": 1002277,
+                "n": "Lulutsu",
+                "l": 41,
+                "q": 6,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001739",
+            "obj": {
+                "i": 1001739,
+                "n": "Mylla",
+                "l": 41,
+                "q": 16,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "1601",
+            "obj": {
+                "i": 1601,
+                "n": "Weathered Shortsword",
+                "l": 1,
+                "c": 30405,
+                "t": 2,
+                "p": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65713",
+            "obj": {
+                "i": 65713,
+                "n": "So You Want to Be a Gladiator",
+                "g": 0,
+                "l": "Ul'dah - Steps of Thal",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65822",
+            "obj": {
+                "i": 65822,
+                "n": "My First Gladius",
+                "g": 127,
+                "l": "Ul'dah",
+                "s": 12,
+                "f": 1
+            }
+        }
+    ]
+}

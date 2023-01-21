@@ -1,0 +1,120 @@
+{
+    "quest": {
+        "name": "Slim Pickings",
+        "location": "South Shroud",
+        "id": 66546,
+        "patch": 2.0,
+        "sort": 460,
+        "eventIcon": 71221,
+        "issuer": 1006586,
+        "target": 1006586,
+        "genre": 92,
+        "journal": [
+            "Isarmoix's hunting efforts have proven less than fruitful of late.",
+            "You have agreed to procure meat on behalf of the hapless hunter Isarmoix. Slay five wild hogs and return with the most succulent slices of boarflesh you can muster.",
+            "Your hunt was a fruitful one. Deliver the slices of meat to Isarmoix.",
+            "Thanks to your efforts, Isarmoix's wife and children will feast on the choicest cuts of meat tonight. Isarmoix himself may not be the most skilled of hunters, but his devotion to his family cannot be denied."
+        ],
+        "objectives": [
+            "Slay wild hogs and obtain their meat.",
+            "Deliver boar meat to Isarmoix."
+        ],
+        "dialogue": [
+            {
+                "name": "ISARMOIX",
+                "text": "Another day on the hunt, and naught but antelope meat to show for it. Personally, I don't mind the stuff─as stringy and gristly as it may be─but just once I'd like to treat my dear wife and children to a real feast."
+            },
+            {
+                "name": "ISARMOIX",
+                "text": "The wild hogs in these parts look to have some good flesh on them, but I fear those tusks would tear a humble hunter like myself to pieces. Would you be so kind as to bag five of them in my stead?"
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: go boar hunting"
+            },
+            {
+                "name": "ISARMOIX",
+                "text": "How fare you on the hunt, adventurer?"
+            },
+            {
+                "name": "ISARMOIX",
+                "text": "Just look at these succulent slices of boarflesh! Why, my mouth waters just looking at them! One slice for my wife, four for my children─yes, this will do splendidly."
+            },
+            {
+                "name": "ISARMOIX",
+                "text": "Where's my slice, you say? Ah, antelope meat is good enough for me. Perhaps one day, when I'm skilled enough to fell a wild boar on my own, I'll allow myself to indulge..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3886,
+                    "one": 1
+                },
+                {
+                    "id": 27647,
+                    "one": 1
+                },
+                {
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 12925
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006586",
+            "obj": {
+                "i": 1006586,
+                "n": "Isarmoix",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3886",
+            "obj": {
+                "i": 3886,
+                "n": "Tortoiseshell Scale Greaves",
+                "l": 46,
+                "c": 46881,
+                "t": 38,
+                "p": 6577
+            }
+        },
+        {
+            "type": "item",
+            "id": "27647",
+            "obj": {
+                "i": 27647,
+                "n": "Raptorskin Moccasins",
+                "l": 46,
+                "c": 49070,
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

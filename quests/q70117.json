@@ -1,0 +1,815 @@
+{
+    "quest": {
+        "name": "Misguided Few",
+        "location": "Garlemald",
+        "id": 70117,
+        "patch": 6.1,
+        "sort": 3,
+        "icon": 101176,
+        "eventIcon": 71221,
+        "issuer": 1042746,
+        "target": 1042759,
+        "genre": 189,
+        "journal": [
+            "Though visibly relieved the Garleans are safe, the hardness in Fourchenault's eyes suggests your work is far from over.",
+            "Fourchenault is now convinced the blasphemy you seek is Nerva. Knowing these monstrosities often mimic the behavior of their originators, he seeks to know more about Nerva, that he might better understand the threat you face. To that end, he bids you accompany him to speak with captives of the IIIrd Legion held in custody at Camp Broken Glass. ",
+            "After conferring with the camp's intelligence officer, they believe it best you speak with Vergilia, legatus of the IIIrd Legion. She tells you of Nerva's last whereabouts, but before you have time to ponder her words, Kan-E-Senna arrives. She is all but certain the barrier protecting the Tower of Babil is fueled by ambient aether being drawn towards the tower. To be certain, she intends to examine the area's aetheric currents with her own eyes, and invites you to accompany her.",
+            "Kan-E-Senna casts out her senses, and after a few moments, her suspicions are confirmed─the area's ambient aether is indeed being drawn toward the tower. Her assessment of the situation is soon interrupted, however, by the appearance of Nero. Being in a magnanimous mood, he tells you what he learned in the Tower of Babil─namely, that Varis's heart is being used to gather aether to power the shield protecting the tower. Vergilia, having vague recollections of her time enthralled to Anima, believes she knows where to find it. Knowing where to begin your search, Lorens suggests splitting into two groups─a small unit to breach the facility holding Varis's heart, and another together with your main force to breach the Tower of Babil once its defenses are down.<br><br>No sooner does Lorens take his leave with Yugiri, Fordola, and Vergilia than Fourchenault receives an emergency message via linkpearl. A number of refugees have left Camp Broken Glass, heading in the direction of the Tower of Babil.",
+            "Together with Fourchenault, you begin your search of Regio Urbanissima, but can find neither hide nor hair of them. He suggests searching elsewhere.<br><br>※You must be accompanied by Fourchenault to complete this task. Speak with him again should you become separated.",
+            "Try as you might, you fail to find any trace of the wayward refugees. But Fourchenault is not deterred, insisting you continue the search.",
+            "While surveying the area, you hear a scream in the distance. You run toward the cry without a moment's hesitation.",
+            "You find the refugees at last, but they are being attacked by beasts descended from the tower. Weapon drawn, you plunge headlong into battle.",
+            "The refugees are none the worse for wear, but learning that Nerva has been transformed into a monster understandably dampened their spirits. Fourchenault reminds them there are yet ways for them to overcome their dire circumstances, even going so far as to invite them to join his survey team on the moon. They balk at the proposition, but much to your surprise, Nero proves the catalyst to kindle their interest. Thus inspired to pursue this new endeavor, they return to the camp, leaving you to prepare for your confrontation with the blasphemy Nerva."
+        ],
+        "objectives": [
+            "Speak with the intelligence officer.",
+            "Speak with Kan-E-Senna.",
+            "Speak with Fourchenault and have him accompany you.",
+            "Survey the designated location while Fourchenault is accompanying you.",
+            "Search for the despondent refugee.",
+            "Aid the despondent refugee."
+        ],
+        "dialogue": [
+            {
+                "name": "FOURCHENAULT",
+                "text": "With the Garleans' hearts at ease, the likelihood of others turning has greatly diminished. That said, it is no cause for us to grow complacent."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "We must needs find a way to overcome the blasphemy's protective warding."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "If I understand correctly, a blasphemy's behavior is oftentimes influenced by the memories and emotions of their originator. In which case, it would be prudent to learn more of the man who birthed this monstrosity."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "How fortuitous, then, that a number of soldiers from the IIIrd Legion are in our custody."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "For a mercy, their tempering was not so severe as to be beyond our ability to heal them. They are presently being treated at Camp Broken Glass."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Perhaps the camp's intelligence officer can tell us who among them knows aught of Nerva's whereabouts. "
+            },
+            {
+                "name": "SOLDIER04120",
+                "text": "I see..."
+            },
+            {
+                "name": "SOLDIER04120",
+                "text": "Perhaps it'd be best if you speak with Vergilia, legatus of the IIIrd Legion. "
+            },
+            {
+                "name": "SOLDIER04120",
+                "text": "She's still on the mend, but the chirurgeons aren't like to oppose a brief conversation. If you would wait here a moment."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "Eorzea's champion, I presume. And one of <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> cohorts..."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "What business have you with me?"
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Ilsabard is faced with imminent crisis, and we believe the knowledge you bear may be key in stopping it."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Thus do we believe the blasphemy to be Nerva. His whereabouts in the wake of Garlemald's fall, or lack thereof, give credence to our theory."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "Lord Nerva...?"
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "From what we have pieced together thus far, you were one of the last to see him alive. Please, will you not share with us what you know?"
+            },
+            {
+                "name": "VERGILIA",
+                "text": "...Very well. Though I suspect what meager knowledge I possess shall avail you naught."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "I last spoke with Lord Nerva shortly after the warring with the Ist Legion began."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "Cloistered within the lower levels of the Senaculum Imperialis, he spent the better part of the day listening attentively to the radio. He seemed hopeful, or perhaps desperate, for news that the tide might turn in our favor."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "The next day, I left for the front line. It was there I heard a terrible noise, which I assume came from the Tower of Babil. Then darkness took me, and I remember naught after that."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "I was told the radios protected those close to them from the effects of the tower. In which case, Lord Nerva would have remained unaffected."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "But he has ever been devoted to Garlemald. “For glory, everlasting,” he would say."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "To watch the Empire he loved so dearly crumble... I can think of no one who would be more stricken by the sight."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "It would seem we were right to assume what became of Nerva."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "And it does not surprise me the beast would choose to make its nest within the Tower of Babil."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "It stands atop the remains of the imperial palace, and the throne he revered so highly."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "But the Empire is no more, and Lord Nerva, apparently, is no longer the man he once was... He deserves to be laid to rest. Together with his dreams of glory."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "We will fell the beast. You have my word."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "..."
+            },
+            {
+                "name": "LORENS",
+                "text": "Apologies for the interruption. Kan-E-Senna has arrived, and we're ready to depart."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "'Tis good to see you, <span class=\"highlight\">Forename</span>. Master Fourchenault."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "I have spoken with Lorens of the ward protecting the blasphemy, and I am quite confident some manner of aether-based magic bars our path."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "If I may be so bold, Elder Seedseer, we reached the same conclusion initially, but that simply is not possible."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "These creatures borne of the Final Days are devoid of aether. As such, they would be unable to produce such a barrier in a manner to which we are accustomed. Do you suppose it possible they manipulated dynamis to achieve a similar effect?"
+            },
+            {
+                "name": "KANESENNA",
+                "text": "I too thought to dismiss the notion of a barrier fueled by aether. That is, until I stepped foot here in Garlemald. Even now I can sense streams of aether flowing toward the tower."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "Its purpose was, after all, to harvest reserves of energy sufficient to reach the moon."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "Even if one was incapable of manipulating aether directly, it stands to reason control of the tower would alleviate such a need."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "'Tis merely conjecture, of course. I cannot say for certain until I have examined the currents with mine own eyes. Might I ask you to accompany us?"
+            },
+            {
+                "name": "VERGILIA",
+                "text": "I would join you as well, if I may. My injuries would keep me from being of use in battle, but my knowledge of the land should serve just as well as my blade."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "I would not be opposed to your company. But it is not my decision to make."
+            },
+            {
+                "name": "SOLDIER04120",
+                "text": "She may go, so long as she remains under watch by you and the others."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "Very good. Might I suggest we begin with Regio Urbanissima? I sensed the greatest confluence of aether in that vicinity."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "It would seem I underestimated the resourcefulness of our adversary."
+            },
+            {
+                "name": "LORENS",
+                "text": "I'm sure it's just my imagination, but I can't help but feel we're bein' watched again..."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "I will never understand how anyone could grow accustomed to such cold climes."
+            },
+            {
+                "name": "FORDOLA",
+                "text": "I heard word that Aldynn should be arriving before long. I can already picture him knocking his knees, muttering under his breath about the cold."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "Part of me does not wish to believe this blasphemy is Lord Nerva. That I failed to protect him. And yet..."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "As I thought. The aether stream here flows toward the tower, as do all others in this region, no doubt."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "This convergence first began when the Telophoroi erected spires in all corners of Eorzea to fuel the Tower of Babil."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "But once destroyed, this divergence of aether should have ceased."
+            },
+            {
+                "name": "LORENS",
+                "text": "All right, whoever you are. If ye've business with us, quit yer skulkin' about in the shadows and speak yer piece. Was you there in the tower, wasn't it?"
+            },
+            {
+                "name": "NERO",
+                "text": "My, my, you're sharper than you look."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "I recognize you. Nero, yes? Why are you following us?"
+            },
+            {
+                "name": "NERO",
+                "text": "Who said I'm following you. Being a native of Garlemald, does it not stand to reason I might be inclined to come and see what has become of my home?"
+            },
+            {
+                "name": "YUGIRI",
+                "text": "I know not what you're scheming, but we've no time to entertain your games. Perhaps Master Garlond would make better company for you."
+            },
+            {
+                "name": "NERO",
+                "text": "Spare me. I am a man of great ambition and greater intellect, far beyond the scope of anything Garlond could hope to achieve. He still keeps his head in the clouds, while I would set my sights to the stars beyond."
+            },
+            {
+                "name": "LORENS",
+                "text": "Which is why you snuck into the tower. But like us, you couldn't get past the blasphemy to reach the transporter."
+            },
+            {
+                "name": "NERO",
+                "text": "Yes, well... I was very much hoping you would dispense with that little obstacle."
+            },
+            {
+                "name": "NERO",
+                "text": "And having caught wind of your plans, curiosity compelled me to see if you were truly up to the task."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "Do you have reason to believe we are not? Or, perhaps, does the great genius Nero mean to dispense with the blasphemy himself?"
+            },
+            {
+                "name": "NERO",
+                "text": "Far be it from me to steal your glory having come all this way. But, as I am feeling generous, I will tell you what I learned during my time in the Tower of Babil."
+            },
+            {
+                "name": "NERO",
+                "text": "I was able to access its systems, you see, and discovered one of those dreadful spires still appears to be active."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "Impossible. They all vanished when Anima was destroyed..."
+            },
+            {
+                "name": "NERO",
+                "text": "Yes, and I've heard of your escapades reclaiming the remains of the Emperor. But obviously you failed to reclaim his <span class=\"emphasis\">entire</span> body. As it stands, a piece remains powering a tower at Fabrica."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "Ah, yes. The manufacturing district, just north of the erstwhile imperial palace."
+            },
+            {
+                "name": "NERO",
+                "text": "A rather impressive feat, considering how these lands are so utterly devoid of aether. Barely enough to sustain life, let alone the spire."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "But if one were to use Varis's remains to forcibly create a confluence of sorts..."
+            },
+            {
+                "name": "NERO",
+                "text": "Precisely. And from what I gleaned of the tower's systems, his heart serves as its core."
+            },
+            {
+                "name": "NERO",
+                "text": "Coursing not with blood but your precious aether, and now Nerva has amassed a surfeit to shore up his defenses."
+            },
+            {
+                "name": "NERO",
+                "text": "How fortuitous he should find so perfect an impetus for his design, stolen from better minds than his own. How very like him..."
+            },
+            {
+                "name": "NERO",
+                "text": "Oh, did I say that aloud? You'll forgive me if I fail to show concern for your ire."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "...If what you say is true, these lands could never hope to recover from such a paucity of life energies..."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "We must hurry and find Varis's heart, to both spare the land this wanton harvesting, and deny the blasphemy the source of its protection."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Are we to presume you have any intention of aiding us?"
+            },
+            {
+                "name": "NERO",
+                "text": "As I said, I've no intention of stealing your glory. Though I fear victory may soon slip through your fingers if you do not act quickly."
+            },
+            {
+                "name": "NERO",
+                "text": "The Tower of Babil was designed specifically for Anima to serve as its core. Nerva forcing himself upon the system has caused it to grow increasingly unstable."
+            },
+            {
+                "name": "NERO",
+                "text": "If my calculations are correct─and they always are─it will not be long before his presence triggers a system meltdown. The resulting explosion will destroy whatever tenuous streams of aether breathe life into the lands of Garlemald."
+            },
+            {
+                "name": "NERO",
+                "text": "But more importantly, we will lose our only means of reaching the moon, the heavens forever denied my genius."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "How so very unfortunate... In any event, 'twould seem time is of the essence."
+            },
+            {
+                "name": "FORDOLA",
+                "text": "That's all well and good, but even if we know which district to search, finding the heart'll be like looking for a needle in a bloody haystack."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "Actually... I may know where we can start."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "It's all rather hazy, but I still have vague recollections of my time serving Anima when I was enthralled."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "We were commanded to erect some manner of facility tucked away in a corner of Fabrica."
+            },
+            {
+                "name": "VERGILIA",
+                "text": "I remember not what it was for, but it's as good a place as any to begin our search."
+            },
+            {
+                "name": "NERO",
+                "text": "Certainly sounds promising. But surely this facility will be heavily guarded."
+            },
+            {
+                "name": "LORENS",
+                "text": "Then maybe it'd be for the best to divide our forces. If it's just the four of us, shouldn't prove too difficult to sneak inside and find the heart."
+            },
+            {
+                "name": "LORENS",
+                "text": "Meanwhile, our main force can stand ready to storm the Tower o' Babil when the barrier gives out."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Leave it to us!"
+            },
+            {
+                "name": "A1",
+                "text": "Be safe."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "This is Leveilleur."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "What!? ...Very well. We shall return at once."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "A number of Garleans have left camp for the Tower of Babil. "
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "They have somehow misunderstood the threat of the tower, and convinced themselves that Nerva has taken refuge there. Still clinging to their ill-placed patriotism, no doubt."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "They could not have gone far. If we act quickly, perhaps they can be found before they come to harm."
+            },
+            {
+                "name": "NERO",
+                "text": "A wise man would not waste his time on a few wayward refugees. I thought you Sharlayan scholars knew better."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "To ignore the plight of those one might conceivably save is not wisdom, sir."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "If it is all the same to you, <span class=\"highlight\">Forename</span>, I would join you."
+            },
+            {
+                "name": "KANESENNA",
+                "text": "I will return to camp and begin preparations for our assault on the tower."
+            },
+            {
+                "name": "NERO",
+                "text": "&lt;sigh&gt; And I suppose I should go as well."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Though I am unarmed, I promise not to be a burden."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "That said, it would behoove us to avoid any undue confrontations if possible."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Now, then. Let us be off."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Fourchenault is now accompanying you. Keep him at your side in order to proceed with quest objectives."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You can leave Fourchenault behind by entering a different area, or by speaking with him and selecting the option to part ways."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "If you wish to have Fourchenault accompany you again, return and speak with him at the original location."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Hmmm. No trace of them here. Let us keep searching."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A2",
+                "text": "Speak with Fourchenault."
+            },
+            {
+                "name": "A2",
+                "text": "Part ways."
+            },
+            {
+                "name": "A2",
+                "text": "Nothing."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "We've no time to lose. If they should reach the tower, there's no telling what may happen to them."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Are you sure you wish to part ways with Fourchenault?"
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "I will not begrudge what other business demands your attention, but I beg you be brief. I will await your return at Regio Urbanissima."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "You are returned. Good. Let us hurry and resume our search."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You must be accompanied by Fourchenault and have him at your side in order to proceed with quest objectives."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Fourchenault has yet to arrive. Be sure he is at your side before attempting to continue."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Oh, <span class=\"highlight\">Forename</span>. If you're here, that can only mean the situation at the Tower of Babil is worse than we feared."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Alisaie and I are tending to the people here as best we can. For a mercy, there have been no signs of anyone succumbing to the lingering effects of the Final Days."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You needn't worry about us, Father. Matters here are well in hand."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "That is well. We will not keep you away from your work any longer, then."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I don't know about you, but I've seen enough suffering and despair to last a lifetime. Needless to say, we'll do all we can to keep anyone else from turning."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "I can think of no one better to care for them than you, Alisaie. But please do be careful."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "And you, Father. By the sounds of it, you'll have your hands more than full out there."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "(-???-)Help! Someone, please!"
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Did you hear that? It came from over there!"
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "A monster, it... It came from the tower."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "I will see to him. You go on ahead."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "They are understandably shaken, but otherwise appear to be unharmed."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "You... You're the ones who came to speak with us before."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "We heard Lord Nerva had returned, and was assembling his forces in the tower, but... "
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "No... Not Lord Nerva, too."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "Then there really is nothing left for us."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "I'll not deny your situation is dire, but you are not without a path forward. I believe you've the passion and conviction needed to rebuild Garlemald, if you so chose. Or, failing that, you could begin life anew in Sharlayan."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "Rebuild Garlemald? No, there is no point in entertaining so lofty a dream. And we would sooner die than suffer life under the rule of another. "
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "You would sooner seek death than sanctuary...? Your resolve is admirable, but sorely misplaced."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "If you would not see Garlemald rise from the snow and ashes here in Ilsabard, might you consider venturing unto a new frontier?"
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "A new frontier? And where, exactly, is this land ripe for exploration?"
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "There. On the moon."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "It is our goal to create a repository of man's knowledge there, free from the jurisdiction of any nation."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "As I understand, the magitek and technological advancements of Garlemald were without peer. Your expertise would be indispensable in the endeavor. Should you be willing, of course. "
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "You really expect us to go and live on the bloody <span class=\"emphasis\">moon</span>? Is such a thing even possible?"
+            },
+            {
+                "name": "NERO",
+                "text": "(-Nero tol Scaeva-)Have you a better alternative?"
+            },
+            {
+                "name": "NERO",
+                "text": "Lest you forget, Garlemald did not rise to grandeur from complacency in the present or rumination in the past. We live for the future. It is in our blood."
+            },
+            {
+                "name": "NERO",
+                "text": "Life is not without its hardships, of course. Even I have met with the occasional stumbling block. But even should I stumble, my eyes are forever fixed skyward, seeking ever greater heights."
+            },
+            {
+                "name": "NERO",
+                "text": "The Empire may be lost, but I still possess a great deal of knowledge gained from it, and a desire to seek more. The very notion of exploring the moon is an unprecedented prospect, and that you would balk at the proposition boggles the mind."
+            },
+            {
+                "name": "NERO",
+                "text": "Consider this─you have heard that beasts of the Final Days were born of those hapless souls that had given up on everything, yes? If that is indeed the case, can you tell me why you still stand before me?"
+            },
+            {
+                "name": "NERO",
+                "text": "Because deep down you believe your life is yet worth living. Deep down, you long to reach for the unreachable."
+            },
+            {
+                "name": "NERO",
+                "text": "...Or, perhaps you don't. If you should choose to lay down and die here in the snow, that's none of my concern."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "Reach for the unreachable...? That sounds like something I would've said back at the academy."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "All right, we'll go. I suppose it's better than dying here in the snow, as you so grimly put it."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Then we must first dispense with the blasphemy that commands the tower."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "It's hard to believe Lord Nerva, of all people, could be turned into one of those monsters... Please, you must stop him. Put his soul to rest."
+            },
+            {
+                "name": "YOUNGRETURNEE",
+                "text": "Thank you, and...sorry for causing all this trouble."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Thank you for the rousing call to action, but... I thought you had no interest in meddling in our affairs."
+            },
+            {
+                "name": "NERO",
+                "text": "Lest you misunderstand, I abhor the idea of my countrymen blindly following nobles they know next to nothing about."
+            },
+            {
+                "name": "NERO",
+                "text": "Besides, it would be a most piteous sight for not a single Garlean to be among those venturing to the moon."
+            },
+            {
+                "name": "NERO",
+                "text": "Who else am I to prevail upon to learn of new findings up there."
+            }
+        ],
+        "reward": {
+            "gil": 1260,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 33930,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 33934,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 33941,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 33942,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 90,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                70116
+            ]
+        },
+        "next": [
+            70118
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042746",
+            "obj": {
+                "i": 1042746,
+                "n": "Fourchenault",
+                "l": 3710,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1042759",
+            "obj": {
+                "i": 1042759,
+                "n": "Despondent Refugee",
+                "l": 3710,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "33930",
+            "obj": {
+                "i": 33930,
+                "n": "Piety Materia X",
+                "l": 560,
+                "c": 20286,
+                "t": 58,
+                "materia": {
+                    "tier": 9,
+                    "value": 36,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "33934",
+            "obj": {
+                "i": 33934,
+                "n": "Battledance Materia X",
+                "l": 560,
+                "c": 20286,
+                "t": 58,
+                "materia": {
+                    "tier": 9,
+                    "value": 36,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "33941",
+            "obj": {
+                "i": 33941,
+                "n": "Quickarm Materia X",
+                "l": 560,
+                "c": 20287,
+                "t": 58,
+                "materia": {
+                    "tier": 9,
+                    "value": 36,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "33942",
+            "obj": {
+                "i": 33942,
+                "n": "Quicktongue Materia X",
+                "l": 560,
+                "c": 20287,
+                "t": 58,
+                "materia": {
+                    "tier": 9,
+                    "value": 36,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70116",
+            "obj": {
+                "i": 70116,
+                "n": "Frozen Hope",
+                "g": 189,
+                "l": "Garlemald",
+                "s": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70118",
+            "obj": {
+                "i": 70118,
+                "n": "Forlorn Glory",
+                "g": 189,
+                "l": "Garlemald",
+                "s": 4
+            }
+        }
+    ]
+}

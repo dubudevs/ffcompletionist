@@ -1,0 +1,199 @@
+{
+    "quest": {
+        "name": "Clearing the Air",
+        "location": "East Shroud",
+        "id": 66818,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005563,
+        "target": 1005563,
+        "genre": 37,
+        "journal": [
+            "Moxia laments what has become of the once-pristine forest.",
+            "Driven mad by their fear of outsiders, the touched sylphs fail to realize that their misguided efforts to protect the forest are instead slowly destroying it. Moxia sends you to the heart of the Sylphlands to plant moongrass, that its ethereal aroma might serve to purify the tainted forest air. First, see to any hostile sylphs in the vicinity so that your planting efforts will not be interrupted.",
+            "You have slain a pair of touched sylphs that sought to thwart your efforts. Now plant the moongrass in a location where the forest breezes will carry its fragrant aroma throughout the Sylphlands.",
+            "Though the moongrass has only just been planted, you can already feel the air around you begin to clear. Return to Little Solace and inform Moxia that the forest breathes easier now.",
+            "Moxia extols your bravery, and expresses hope that one day her misguided kin will see the light. You have proven yourself a staunch ally to Little Solace once more."
+        ],
+        "objectives": [
+            "Slay hostile sylphs in the Sylphlands.",
+            "Plant the moongrass at the specified location.",
+            "Report to Moxia."
+        ],
+        "dialogue": [
+            {
+                "name": "MOXIA",
+                "text": "Once, touched ones were kind like these ones. Now, fear of walking ones and steel ones has clouded touched ones' eyes."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Touched ones plant stink-clouds to keep intruder ones out of the forest. Stink rots the forest, and warps the hearts of the trees, four-legged ones, and even touched ones themselves."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Touched ones are killing the forest, but touched ones do not see."
+            },
+            {
+                "name": "MOXIA",
+                "text": "This one once planted fresh-blooms to heal the forest, but touched ones have grown too strong, and too many."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Brave one will do what this one cannot, yes? Plant fresh-blooms where the breeze will carry clean, sweet air throughout Sylphlands?"
+            },
+            {
+                "name": "MOXIA",
+                "text": "But be wary! Touched ones like to chop down fresh-blooms, so brave one must chop up touched ones before doing the planting. Tee hee!"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Brave one will plant fresh-blooms and bring clean, sweet air to Sylphlands, yes? But be wary! Touched ones like to chop down fresh-blooms, so brave one must chop up touched ones before doing the planting. Tee hee!"
+            },
+            {
+                "name": "WARUIKO",
+                "text": "Gah, intruder one! Intruder one will die!"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Welcome back, brave one. &lt;sigh&gt; Touched ones are sad ones, does brave one not think? So long have touched ones lived in darkness and stink that light and sweet-blooms become scary to those ones."
+            },
+            {
+                "name": "MOXIA",
+                "text": "It will not be easy to bring those ones back home, but this one must not give up. It is these ones' good fortune to have a trusted friend."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21075
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005563",
+            "obj": {
+                "i": 1005563,
+                "n": "Moxia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21075",
+            "obj": {
+                "i": 21075,
+                "n": "Sylphic Goldleaf",
+                "l": 1,
+                "c": 65051,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

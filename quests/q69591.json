@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "A Token of Thanks",
+        "location": "The Gold Saucer",
+        "id": 69591,
+        "patch": 5.5,
+        "sort": 199,
+        "icon": 101064,
+        "eventIcon": 71221,
+        "issuer": 1036164,
+        "target": 1011040,
+        "genre": 200,
+        "journal": [
+            "The Gold Saucer attendant is determined to see that you are duly rewarded for your efforts on his colleagues' behalf.<br>※This quest is available for a limited time only.",
+            "The stern-faced attendant thanks you for your investigative efforts, which he learned all about from Ollier. He bids that you speak with Grege, his colleague who mans the entrance, to collect the gift that has been prepared for you by the Saucer staff.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "Expressing his admiration for your sleuthing skills, the attendant Grege presents you with your hard-earned reward. You take it in hand and stride out into the Saucer's halls, taking pride in the knowledge that justice has been served this day."
+        ],
+        "objectives": [
+            "Speak with Grege."
+        ],
+        "dialogue": [
+            {
+                "name": "GSSTAFF04055",
+                "text": "Ollier has informed me that you most graciously lent to us your aid in the investigation. On behalf of all the staff here at the Manderville Gold Saucer, I thank you."
+            },
+            {
+                "name": "GSSTAFF04055",
+                "text": "We have prepared for you a token of our gratitude. Pray accept it from my colleague Grege over at Entrance Square."
+            },
+            {
+                "name": "GSSTAFF04055",
+                "text": "Have you claimed your reward from Grege yet? It simply would not do if your efforts on our behalf were to go unrewarded."
+            },
+            {
+                "name": "GREGE",
+                "text": "Let me guess...you're here to claim your reward. See? I'm a master sleuth just like you! But I jest─I heard it all from Ollier. At any rate, here's our token of thanks for your effort. May it serve you well next time you find yourself faced with a perplexing case!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 33703
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                69590
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1036164",
+            "obj": {
+                "i": 1036164,
+                "n": "Stern Saucer Attendant",
+                "l": 1484,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011040",
+            "obj": {
+                "i": 1011040,
+                "n": "Grege",
+                "l": 1484,
+                "s": 1,
+                "q": 2,
+                "t": "Tap Keeper",
+                "a": 1492,
+                "c": [
+                    5.04,
+                    6.51
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "33703",
+            "obj": {
+                "i": 33703,
+                "n": "Ballroom Etiquette - Displaying Displeasure",
+                "l": 1,
+                "c": 26435,
+                "t": 85
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69590",
+            "obj": {
+                "i": 69590,
+                "n": "The Great Horn Heist",
+                "g": 200,
+                "l": "Ul'dah",
+                "s": 198
+            }
+        }
+    ]
+}

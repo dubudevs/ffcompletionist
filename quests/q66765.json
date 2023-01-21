@@ -1,0 +1,139 @@
+{
+    "quest": {
+        "name": "Ravage the Ravagers",
+        "location": "Southern Thanalan",
+        "id": 66765,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005550,
+        "target": 1005550,
+        "genre": 35,
+        "journal": [
+            "Fibubb Gah laments the endless madness of his misguided kin.",
+            "Fibubb Gah regards the creation of every new tempered slave as a slight against the honor of all true Amalj'aa. He bids you hunt for Flamefang ravagers in the north of Zanr'ak, and liberate the keys they hold.",
+            "You have slain the ravagers and obtained their keys. Locate the cages they open, and free the Miqo'te prisoners to flee into the desert.",
+            "You have unlocked the cages and freed the captive rangers. Suspicious and fearful, the U tribe Miqo'te waste no time in putting Zanr'ak behind them. Return to the Ring of Ash and report to Fibubb Gah.",
+            "Fibubb Gah's wrath at the actions of his fanatic kin seems greatly assuaged by the success of your mission. He bids you remain at the Ring of Ash, and promises enrichment in return for the glory you win for the Brotherhood."
+        ],
+        "objectives": [
+            "Slay Flamefang ravagers in the north of Zanr'ak for their cage keys.",
+            "Use the cage keys to open the sturdy cages.",
+            "Report to Fibubb Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "FIBUBBGAH",
+                "text": "The madness of our Zahar'ak kin knows no bounds. Seeking to swell the numbers of tempered, they prey upon the rangers of Forgotten Springs with ever greater frequency."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "They bring shame upon the Amalj'aa with every new servant bound to Ifrit's will! We are honor-bound to rescue these unfortunate Miqo'te before the ritual of tempering is begun."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "The hated Flamefangs will pay in blood for these transgressions. I bid you make swift passage into Zanr'ak, and unleash righteous wrath upon their ranks!"
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "Seek out the ones known as ravagers─these soldiers hold the keys you will need to free the captives from their cages. Go now, and put an end to this insanity!"
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "The ravagers possess the keys you will need to open the cages. Go swiftly now, before the Miqo'te captives are brought before the demented god of the Flamefangs!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Freed Ranger-)You...you're letting me go?"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Freed Ranger-)I'm free!? Stand aside, adventurer, the sands are calling me!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Freed Ranger-)Oh, praise the Twelve! I'd thought this the end!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Freed Ranger-)They'll never shackle me again. I would sooner die..."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "The Miqo'te are captive no longer? Truly, you safeguard our honor with your every deed. It is well that the fates saw fit to send us such an accomplished warrior."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "With every victory, we come closer to restoring the heritage that was lost. Stay with us, honored ally, and you will be repaid for the glory you win in our name."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "POP",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 480,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 8970
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 43,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005550",
+            "obj": {
+                "i": 1005550,
+                "n": "Fibubb Gah",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

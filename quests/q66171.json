@@ -1,0 +1,101 @@
+{
+    "quest": {
+        "name": "Purging the Earth",
+        "location": "Eastern Thanalan",
+        "id": 66171,
+        "patch": 2.0,
+        "sort": 190,
+        "eventIcon": 71221,
+        "issuer": 1003940,
+        "target": 1004531,
+        "genre": 93,
+        "journal": [
+            "Lululo of the Golden Bazaar once more seeks an adventurer to kill the beasts that vex her.",
+            "An attack by a group of earth sprites has resulted in the shipment of Lululo's mining tools being delayed. Slay three earth sprites in the area to clear the road for safe passage.",
+            "You have slain the earth sprites. Travel to Camp Drybone and tell the merchant Reremaki that the road is safe for delivery of the mining tools.",
+            "Reremaki assures you that he will be taking the tools to the Golden Bazaar as soon as he and his chocobo are able."
+        ],
+        "objectives": [
+            "Slay earth sprites.",
+            "Speak with Reremaki."
+        ],
+        "dialogue": [
+            {
+                "name": "LULULO",
+                "text": "It seems the Twelve are intent on plaguing me all my days─before with imps and now with earth sprites."
+            },
+            {
+                "name": "LULULO",
+                "text": "I ordered a haul of digging tools from a merchant to the north. He was headed down from the Black Shroud when the earth sprites overtook him. Luckily, he was able to escape to Camp Drybone with his life."
+            },
+            {
+                "name": "LULULO",
+                "text": "I need you to make that road safe, friend. Put down three of these earth sprites to keep the others at bay and ease the minds of any traveling merchants."
+            },
+            {
+                "name": "LULULO",
+                "text": "Once the deed is done, find the merchant Reremaki at Camp Drybone and tell him to bring his haul the rest of the way here."
+            },
+            {
+                "name": "REREMAKI",
+                "text": "You fought off the sprites? Gods bless you for that, stranger! Lululo will have her tools."
+            },
+            {
+                "name": "REREMAKI",
+                "text": "I fled here out of fear for my life, but...I've come to regret that. Have you taken a look about? There are bodies littering the ground. <span class=\"emphasis\">Dead</span> bodies!"
+            },
+            {
+                "name": "REREMAKI",
+                "text": "I've no desire to stay here any longer than I must. Once I see to it my bird's fit for travel, I'll be making for the Golden Bazaar."
+            }
+        ],
+        "reward": {
+            "gil": 210,
+            "xp": 3920
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 19,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66169
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003940",
+            "obj": {
+                "i": 1003940,
+                "n": "Lululo",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004531",
+            "obj": {
+                "i": 1004531,
+                "n": "Reremaki",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66169",
+            "obj": {
+                "i": 66169,
+                "n": "Impish Implications",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 190
+            }
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "quest": {
+        "name": "I Burn for You",
+        "location": "Gridania",
+        "id": 66701,
+        "patch": 2.1,
+        "sort": 7,
+        "icon": 100169,
+        "eventIcon": 71221,
+        "issuer": 1005480,
+        "target": 1005480,
+        "genre": 203,
+        "usedItems": [
+            6108
+        ],
+        "journal": [
+            "As the festivities of All Saints' Wake continue, the Impresario has another task for you.<br>※This quest is available for a limited time only.",
+            "Duly impressed with your efforts on his troupe's behalf, the Impresario would seek your aid with another All Saints' Wake tradition─the lighting of the traditional warding lanterns. Donning your costume, first speak to the shifty thespian and obtain a bomb digit for the task.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "The performer entrusts you with some still-smoldering bomb digits that should serve as makeshift torches. Remaining in costume, scour the town for any warding lanterns that have gone dim and restore them to light.",
+            "You have succeeded in rekindling the flames of the warding lanterns. Inform the Impresario that the deed is done.",
+            "The Impresario congratulates you on your efforts, and invites you to remain in town to enjoy the remaining festivities. The tone of his words suggests that the culminating act is yet to come..."
+        ],
+        "objectives": [
+            "While in costume, speak with the shifty thespian.",
+            "While in costume, use the bomb digits to light warding lanterns in New Gridania.",
+            "While in costume, use the bomb digits to light warding lanterns in Old Gridania.",
+            "While in costume, speak with the Impresario."
+        ],
+        "dialogue": [
+            {
+                "name": "IMPHEAD",
+                "text": "The night grows ever deeper; the streets teem with spooks and shades. Yes, everything is proceeding precisely according to plan... Hm?"
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "Ah, you return. I am proud to say that the traditional observance of All Saints' Wake has made a rousing return to Eorzea, thanks in no small part to your efforts. Why, I daresay there might be a place for you in our troupe someday."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "But the night is still young, and there is work yet to be done. You have, no doubt, observed the warding lanterns about the streets─those that bear a striking resemblance to the mask I wear. This mask, in turn, was crafted in the likeness of the Great Gourd, the patron spirit of All Saints' Wake, who descends upon the realm but once a year..."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "In any event, the lighting of these lanterns is yet another All Saints' Wake tradition, intended to keep evil spirits at bay. The chill autumn winds blow strong, however, and I fear that many a flame has been quenched. Were the streets to be plunged in darkness, who knows what terrors might descend upon the city? Heh heh heh..."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "I have entrusted to one of my men over there a supply of bomb digits. If you would be so kind, adventurer, procure some and set the dimmed lanterns aflame once more."
+            },
+            {
+                "name": "IMPA",
+                "text": "Come to help us light lanterns, have you? Heh heh...your kindness is most appreciated. Here, these severed bomb digits should suffice for the task."
+            },
+            {
+                "name": "IMPA",
+                "text": "A word of warning before you depart: you'd be wise to stay in costume. After all, the specters lurking in the shadows aren't like to take kindly to an adventurer's meddlings."
+            },
+            {
+                "name": "IMPA",
+                "text": "I'd be wary of walking around like that if I were you, friend. The spirits of the dead walk the streets tonight, and they bear little fondness for the living..."
+            },
+            {
+                "name": "IMPA",
+                "text": "(-Disembodied Voice-)<span class=\"emphasis\">This one...still draws breath. Return to your bed, living one...lest you ne'er wake to see the dawn.</span>"
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "It is good to see you safe and sound, friend. I feared you might have been spirited away by the Great Gourd. Heh heh heh..."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "My troupers tell me that the warding lamps burn brightly once more. The citizens of Gridania have you to thank for keeping the demons of the night at bay."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "Yes, this has truly been an All Saints' Wake for the ages. But <span class=\"alternative-container\"><span class=\"alternative\">there are still bells before the dawn</span><span class=\"alternative\">night will fall anew</span></span>, and the most terrifying delights are yet to be seen. Do stay a while and enjoy the festivities, friend. Heh heh heh..."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "What's the matter, friend? Have you misplaced your costume? I fear I cannot allow you to participate in the festivities unless you are dressed for the part."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4681
+                }
+            ],
+            "xp": 3360
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66700
+            ]
+        },
+        "next": [
+            66702
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005480",
+            "obj": {
+                "i": 1005480,
+                "n": "Impresario",
+                "l": 53,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "4681",
+            "obj": {
+                "i": 4681,
+                "n": "Jack-o'-lantern",
+                "l": 10,
+                "c": 24153,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "6108",
+            "obj": {
+                "i": 6108,
+                "n": "The Wailing Spirit",
+                "l": 1,
+                "c": 43578,
+                "t": 35,
+                "p": 98
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66700",
+            "obj": {
+                "i": 66700,
+                "n": "Show Me the Candy",
+                "g": 203,
+                "l": "Gridania",
+                "s": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66702",
+            "obj": {
+                "i": 66702,
+                "n": "Monstrous Mummery",
+                "g": 203,
+                "l": "Gridania",
+                "s": 8
+            }
+        }
+    ]
+}

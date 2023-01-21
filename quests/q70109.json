@@ -1,0 +1,113 @@
+{
+    "quest": {
+        "name": "Gathering Moss",
+        "location": "Thavnair",
+        "id": 70109,
+        "patch": 6.15,
+        "sort": 123,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 15,
+        "eventIcon": 71222,
+        "issuer": 1042301,
+        "target": 1042301,
+        "genre": 33,
+        "journal": [
+            "Maru awaits you with an appraising look.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Obtain clumps of sticky moss at the Font of Maya.",
+            "Deliver the baskets of sticky moss to Maru."
+        ],
+        "dialogue": [
+            {
+                "name": "MARU",
+                "text": "I've been lookin' for you, <span class=\"highlight\">Forename</span>. I'm in need of a strong swimmer, and you look like you could keep up with a hippo in the water."
+            },
+            {
+                "name": "MARU",
+                "text": "A friend of mine just came back from Yedlihmad, bearin' a request from Kancana herself..."
+            },
+            {
+                "name": "MARU",
+                "text": "The Font of Maya is in sore need of a deep cleanin', and we─which means <span class=\"emphasis\">you</span>─gotta help. Kancana wants the moss gatherin' along the stone walls cleared away."
+            },
+            {
+                "name": "MARU",
+                "text": "An' as you know, I don't like to see anythin' go to waste, so I'm thinkin' I might find a use for the moss. Take these baskets with you and bring back whatever you find growin' under the water's surface."
+            },
+            {
+                "name": "MARU",
+                "text": "You're lookin' as dry as a hippo bakin' under the sun. Did you manage to gather the moss?"
+            },
+            {
+                "name": "MARU",
+                "text": "Ah, good─I was worried you'd take one look at them waters and think better of your choices. I'll let Kancana know that the temple should be lookin' a bit more pristine."
+            },
+            {
+                "name": "MARU",
+                "text": "As luck would have it, hippos go mad for this moss. An' it don't hurt that it provides them with all the nutrients a growin' 'pot needs! Well, how about a bite?"
+            },
+            {
+                "name": "MARU",
+                "text": "Hahaha! I'm just kiddin'. I know you've got much more refined tastes─maybe you can indulge 'em with this bit of coin? I even know a service that offers fast, fresh grub, delivered right to you..."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 44
+                },
+                {
+                    "id": 36657
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042301",
+            "obj": {
+                "i": 1042301,
+                "n": "Maru",
+                "l": 3709,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "44",
+            "obj": {
+                "i": 44,
+                "n": "Allagan Tomestone of Causality",
+                "l": 1,
+                "c": "t/65094",
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "36657",
+            "obj": {
+                "i": 36657,
+                "n": "Arkasodara Pana",
+                "l": 1,
+                "c": "t/65091",
+                "t": 100
+            }
+        }
+    ]
+}

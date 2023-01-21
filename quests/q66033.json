@@ -1,0 +1,154 @@
+{
+    "quest": {
+        "name": "But I Hardly Noah",
+        "location": "Mor Dhona",
+        "id": 66033,
+        "patch": 2.5,
+        "sort": 9,
+        "icon": 100380,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "target": 1011655,
+        "genre": 15,
+        "journal": [
+            "Syele looks as though she has lost someone.",
+            "It has transpired that Koh Rabntah, a member of the Sons of Saint Coinach, has gone missing. She was last seen carrying a strange orb from the Crystal Tower, and Syele surmises her friend left to seek something in Revenant's Toll. Make your way there in search of the wayward researcher.",
+            "You find Koh Rabntah standing about, only to discover she is not herself. The fascinating orb the researcher stumbled upon contained the soul of Noah, archmagus of Allag. Unable to resist the chance to walk again in the world, Noah then possessed Koh Rabntah. In so doing, she learns of NOAH, the group that bears her name, and now wishes to see what the organization has accomplished. With a promise to inform Syele of Koh's safety, Noah bids you show her your exploits within the Crystal Tower─in exchange for a token of her knowledge. Speak with her again should her offer intrigue you."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon it.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "SYELE",
+                "text": "Adventurer, may I ask a favor of you?"
+            },
+            {
+                "name": "SYELE",
+                "text": "I am sorry to trouble you so soon after your trials in the Crystal Tower, but my colleague Koh Rabntah has gone missing."
+            },
+            {
+                "name": "SYELE",
+                "text": "She discovered the oddest orb deep within the tower, and said she was returning here to analyze it. No one has seen her since─though she is too timid a girl to have run off with her find."
+            },
+            {
+                "name": "SYELE",
+                "text": "She probably just left to gather artifacts or materials in Revenant's Toll for her studies. But all the same, could you go and look for her there? I cannot shake the feeling something has befallen her..."
+            },
+            {
+                "name": "SYELE",
+                "text": "Have you found Koh yet? I suspect she has simply gone to Revenant's Toll in search of artifacts. Pray bid her return if you see her there."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "...Is there something I can help you with?"
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "You seek Koh Rabntah? Well, you have found the right body, but she is not at home...so to speak."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "This lovely girl you see before you <span class=\"emphasis\">is</span> known as “Koh.” But another's soul dwells within her at present─mine, to be precise."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "You are speaking with none other than Noah, archmagus of Allag! My scholarly works are legend, my treatises of the cosmos priceless, and my very name known throughout the world!"
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "...Or 'twas so once. My soul has whiled away the millennia within an orb. Koh awoke me from my slumber, and... Well, how could I pass up a chance to walk the world again? So I allowed my spirit to flow into her body, and here we are."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "...Hm. Forgive me, but you do not seem overly bewildered by this. Would I be wrong to assume you belong to the scholarly fellowship that carries my name?"
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "As I thought. Koh revealed this “NOAH” when I entered her mind. Oh, but do be at ease─I bear you no ill will for using my name."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "I am, however, intrigued. What discoveries has this organization made? Has it made any findings of note to begin with?"
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "You act in my name, and so are as disciples to me. I will give you my blessing <span class=\"emphasis\">after</span> you have proven your intellectual worth. Such is my wont. So, are you deserving?"
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "You have dedicated yourself to creating a brighter future, eh? Then we may be alike in spirit. When I lived, I had a thirst for knowledge, and dedicated myself to understanding the world. 'Twas how I became an archmagus."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "Hmmm... You may yet become a disciple of mine. I would learn more of your journey into the Crystal Tower. If I can see your dedication amongst your exploits, I will be happy to give you a token of my immense wisdom."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "Pray do not expect <span class=\"emphasis\">too</span> much, though: there are limits to what I can do in this body."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "...Whose owner you were seeking, of course. Well, I will make sure that Koh's friend learns of what has happened─some version, at least. And worry not: this body is in safe hands."
+            },
+            {
+                "name": "KOHRABNTAH",
+                "text": "And I believe that is the shape of it. If my offer has tantalized you and you wish to prove yourself in my eyes, you certainly know where to find me."
+            }
+        ],
+        "reward": {
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66031
+            ]
+        },
+        "next": [
+            66034
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011655",
+            "obj": {
+                "i": 1011655,
+                "n": "Koh Rabntah",
+                "l": 67,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66031",
+            "obj": {
+                "i": 66031,
+                "n": "The Light of Hope",
+                "g": 15,
+                "l": "Mor Dhona",
+                "s": 8,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66034",
+            "obj": {
+                "i": 66034,
+                "n": "The Gift of the Archmagus",
+                "g": 15,
+                "l": "Mor Dhona",
+                "s": 10,
+                "r": 1,
+                "f": 1
+            }
+        }
+    ]
+}

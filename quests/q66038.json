@@ -1,0 +1,789 @@
+{
+    "quest": {
+        "name": "Her Last Vow",
+        "location": "Ul'dah",
+        "id": 66038,
+        "patch": 2.5,
+        "sort": 21,
+        "icon": 100357,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1011707,
+        "target": 1011723,
+        "involved": [
+            1007574,
+            1011705,
+            1011714,
+            1011716,
+            1011717,
+            1011719,
+            1011720,
+            1011721,
+            1011722,
+            1011726,
+            1011727,
+            1011826,
+            1011857,
+            1011859,
+            1011860,
+            1011861
+        ],
+        "genre": 68,
+        "journal": [
+            "Julyan would send you on your way.",
+            "Assuring you that she will look after Hildibrand in your absence, Julyan urges you to hurry to the Sil'dih excavation site, where Ellie intends to obtain the lost supply of zombie powder and exact her ultimate revenge against Ul'dah. Hasten to the scene, and rendezvous with Phillice upon your arrival.",
+            "Phillice and the others have located the fugitive Ellie, who stubbornly refuses to engage in conversation with her pursuers. Fearing the worst were an attempt to be made to apprehend her quarry by force, Phillice urges you to call out to your friend, and see if she might still be made to listen to reason. Step forward to where she might hear you, and, with the chat mode in <span class=\"highlight\">Say</span>, call out “Ellie!” to attract her attention.",
+            "Ellie responds to you, but refuses to stand down, insisting that her quest for justice against those who wronged her homeland is more important than her and Cecy's very lives. A pack of zombies that she summons to attack are dispatched by Godbert and Gilgamesh, yet the undead legions keep coming. Just when you appear hopelessly outnumbered, a blinding light from on high heralds the arrival of none other than Inspector Hildibrand, with considerably more color in his cheeks than when last you saw him. Illogical as it may seem, it would appear that his own time spent in the company of the undead allowed him to develop an immunity to the Traders' Spurn. With the zombies now at the side of their erstwhile overlord, Ellie surrenders, bringing the case of the many-faced thief to an unexpected but satisfying end. Your work is not done, however, as the ever-enterprising Gilgamesh has taken advantage of the confusion to take into hand the Treaty-Blade, insisting that he will not relinquish the relic except to one who defeats him and his companion Enkidu at Amdapor Keep. Make for the South Shroud, and rendezvous with Hildibrand, whose legs have likely carried him to your destination well in advance.",
+            "You arrive before Amdapor Keep to find Hildibrand in a familiar position. Assuring you that he will be along as soon as he completes his subterranean investigation, the inspector urges you to commence the battle against your rivals in hopes of reclaiming the Treaty-Blade.<br><br>※The Battle in the Big Keep can be accessed via the Duty Finder.",
+            "You have emerged victorious over Gilgamesh and his primal companion, Enkidu. Leave the keep and return to the South Shroud.",
+            "You emerge from the keep to observe that a certain inspector has finally extricated himself from the forest floor. Inform Hildibrand that the battle has been won, and the location of the Treaty-Blade gleaned.",
+            "Phillice and the others arrive at the scene, rejoicing at the news that the primal menace has been quelled, as Ellie and Cecy share the story of one last unsolved mystery: an incantation of Belah'dian legend whose great power can only be summoned forth by a Warrior of Light with the Treaty-Blade in hand. The conversation is interrupted by Hildibrand, who has successfully recovered that selfsame relic. The inspector, by mere coincidence, speaks something resembling the final words of the incantation, and─against all common sense─the Treaty-Blade responds, casting forth a brilliant beam of light that propels both blade and unsuspecting passenger into the heavens. A smile comes to Ellie's face, her dream of seeing the legendary power of her ancestors with her own eyes finally realized. Inspector Briardien is pleased to be rid of his incompetent rival, yet strangely moved by his inimitable gentlemanliness. Nashu and Julyan run off in search of the beloved inspector and son, as Godbert muses on the true calling of a Manderville man. Meanwhile, high above Eorzea, Hildibrand hurtles off to destinations unknown, as his keenly honed inspector's sense calls him to his next case. One can only hope that he will survive his inevitable landing with his memory intact...<br><br>※The next Hildibrand quest will be available from Nashu Mhakaracca in Ishgard once you have completed the main scenario quest “Heavensward.”"
+        ],
+        "objectives": [
+            "Speak with Phillice at the Sil'dih excavation site.",
+            "With the chat mode in <span class=\"highlight\">Say</span>, enter “Ellie!” to call out to your erstwhile companion.",
+            "Speak with Hildibrand near Amdapor Keep.",
+            "Confront Gilgamesh in the Battle in the Big Keep.",
+            "Speak with Hildibrand."
+        ],
+        "dialogue": [
+            {
+                "name": "JULYAN",
+                "text": "What are ye doin' dillydallyin' around here? Let me jog yer memory: there's a moon-sick maid diggin' around at the Sil'dih excavation site with her mind set on turnin' Ul'dah into the land o' the walkin' dead!"
+            },
+            {
+                "name": "JULYAN",
+                "text": "Yer concern for Hildy is most touchin', but don't ye worry. Mommy dearest isn't goin' to let her beloved son kick the bucket that easily."
+            },
+            {
+                "name": "JULYAN",
+                "text": "What are ye doin' dillydallyin' around here? Let me jog yer memory: there's a moon-sick maid diggin' around at the Sil'dih excavation site with her mind set on turnin' Ul'dah into the land o' the walkin' dead!"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "We've managed to track down Miss Ellie just up ahead, where your friends watch over her as we speak. Yet no matter how many times we try to reach out to her, she refuses to so much as answer."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "Needless to say, we considered physically incapacitating her. But that crate she's sitting on isn't just a makeshift chair; it's filled to the brim with the Traders' Spurn. One misstep, and the consequences could be dire indeed."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "You are our only hope, <span class=\"highlight\">Forename</span>. Even in her single-minded rage, surely the time you spent together must still count for something!"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "You need not put yourself in undue danger. I only ask that you step forth to where your voice may be heard and call out your friend's name."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "I beg of you, <span class=\"highlight\">Forename</span>! Surely if anyone can convince the woman to abandon her madness, it is you!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With the chat mode in <span class=\"highlight\">Say</span>, use your keyboard or the software keyboard to call out “Ellie!” and convince your erstwhile friend and companion to listen to reason."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "I beg of you, <span class=\"highlight\">Forename</span>! If anyone can convince Ellie to abandon this madness, it is you. Pray step forth to where your voice may be heard and call out her name!"
+            },
+            {
+                "name": "SAYTODO",
+                "text": "Ellie!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "It beggars belief that I could have been so blind..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Miss Ellie... &lt;sniff&gt; And I thought we were friends..."
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "Oho! To think this girl and her sister were behind the crimes all along! I daresay this realm is awash with capable adversaries!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "You'd do well not to anger the lass, friend. She's sitting atop an ample supply of that zombie powder, and I suspect she's not afraid to use it."
+            },
+            {
+                "name": "ELLIE",
+                "text": "...<span class=\"highlight\">Forename</span>. I suggest you leave this place while you still can. I bear you no grudge, but should you so much as think of interfering, I'll not hesitate to turn you into a zombie too."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "So it was you, after all. Consider me...<span class=\"emphasis\">disappointed</span>."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Your sister Cecy is already in custody. Surrender now and I will see that no harm befalls her."
+            },
+            {
+                "name": "ELLIE",
+                "text": "How little you understand us, Inspector... Then again, how could one born into a life of power and privilege ever hope to understand?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Cecy and I have no family, no friends, no fortune...nothing. Two sisters against the world, with only our quest for justice to give us meaning. Long ago, we made a vow─should the worst happen, our mission takes priority over all. Yes, over our own wretched lives..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Do you see now? Anything I might have once had to lose, I lost long ago. Now stand down, or suffer the same fate as the Ul'dahn dogs you would defend!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Ellie, stop this madness!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "...I'm sorry, Inspector."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "There's too many of them!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "All in a day's work for a Manderville man. And now...it's hammer time."
+            },
+            {
+                "name": "ELLIE",
+                "text": "You only delay the inevitable. I have an entire legion of the undead at my beck and call. Face it, it's only with Inspector Hildibrand's ridiculously good fortune that you even made it this far. And he's as good as six fulms under!"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "Be forewarned, girl! Know that I speak from experience when I say: underestimate Hildy, and you do so at your own peril!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "I'm afraid you underestimate <span class=\"emphasis\">me</span> as well. No mere splash of holy water can stave off the effects of the Traders' Spurn. I fear the good inspector's luck has finally run out."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Thal's balls, is there no end to them!? I'm not liking our chances...Greg, was it?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "It's a shame to lose you, <span class=\"highlight\">Forename</span>. Warrior of Light that you are, you might yet have served one last purpose for us..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Go forth, my zombie minions!"
+            },
+            {
+                "name": "HUMPHREY",
+                "text": "“When darkness falls, and hope fades to despair, four warriors born of Light shall descend, in the righteous glare...” Bugger me with a broadsword, are my eyes to be believed!?"
+            },
+            {
+                "name": "HUMPHREY",
+                "text": "That pose... No, these are not four <span class=\"emphasis\">Warriors</span> of Light that I see..."
+            },
+            {
+                "name": "HUMPHREY",
+                "text": "They are four <span class=\"emphasis\">Gentlemen</span> of Light!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Just so, my good man! Hildibrand, agent of enquiry, inspector extraordinaire, has made his triumphant return! ...Did you miss me?"
+            },
+            {
+                "name": "ELEAZAR",
+                "text": "Aye, we meet again, girl! Tell me you've got my snurble tonic, or I'll fashion myself a wig from yer lovely locks after I've ripped them clean from yer bloody head!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Oh, hullo there, Mister Eleazar! Cor, you're looking absolutely resplendent today!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "I-Impossible! The holy water <span class=\"emphasis\">couldn't</span> have cured him!"
+            },
+            {
+                "name": "ZOMBIEA00493",
+                "text": "...It didn't. Fortunately, our overlord spent quite some time building up an immunity to zombie powder!"
+            },
+            {
+                "name": "ZOMBIEB00493",
+                "text": "When we heard that Master Zombibrand was at risk of joining the <span class=\"emphasis\">actual</span> dead, we knew we had to take action."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "An...immunity...to...? &lt;sigh&gt; I'm just going to pretend that makes any kind of sense."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "The game is up, Miss Ellie. Pray abandon this madness. Besides, plots of mass murder hardly suit a lady like yourself."
+            },
+            {
+                "name": "ELLIE",
+                "text": "It's over... It's all...over. Inspector Briardien. You said there was something you would tell me when all was through. I imagine you have no words for me now..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Ellie...your powers of deduction are wanting. You said that you had lost everything and everyone you had to lose, did you not? As for me, I have found something─someone─with whom I intend never to part."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "I care not if it takes years, even decades. When you emerge from your gaol cell a free woman...I will be there. What say you?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "...Miss Ellie. While the crimes perpetrated by you and your sister are unpardonable, you are far from the only ones guilty. On behalf of the Syndicate, I offer my apologies for the false aspersions cast upon your ancestors."
+            },
+            {
+                "name": "GODBERT",
+                "text": "You said that the nation of Ul'dah was built on lies. Seeing what I have seen today, I cannot deny your words. It will not be an easy task to rewrite─nay, restore─history, but know this: I will do everything in my power to bring the truth to the fore."
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "...Ahem! Are we not forgetting someone here? And by <span class=\"emphasis\">someone</span>, I mean <span class=\"emphasis\">me</span>!"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "If you're quite done playing cloak and dagger, I require <span class=\"highlight\">Forename</span>'s presence for a matter of far greater importance. Aye, the time of our too-long-delayed confrontation is nigh!"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "Why the long face, friend? Ah, but mayhap <span class=\"emphasis\">this</span> will have you singing a happier tune!?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Could it be!? The Treaty-Blade─and the true one, at that!"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "None other! And I have not the slightest intention of parting with it, save to the one who would defeat me in single combat! Ah, but I misspeak─it will not be <span class=\"emphasis\">single</span> combat this time..."
+            },
+            {
+                "name": "ENKIDU",
+                "text": "Is that my cue...old friend?"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "Thal be merciful! What is that abomination!? Some new breed of voidsent?"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "Abomination!? I'll thank you to address my companion with courtesy, girl! Ah, but 'twas the most curious thing: there I was, hauling a crateful of crystals for Hildy's mother, and thinking how much better things would be if my dear friend Enkidu were here...<br>Then came a flash from the heavens, and the next thing I knew...there she was!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "By the gods, it makes perfect sense! Doubtless the crystals heard Greg's heartfelt plea, summoning forth his friend─nay, no mere friend, but rather the <span class=\"emphasis\">primal</span> Enkidu!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...And the world has now completely and utterly ceased to be bound by the laws of logic."
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "<span class=\"highlight\">Forename</span>! You may have bested me in the past, but facing the two of us together will not prove so easy a task. And yet, I trust you will not shirk from the challenge. Aye, Enkidu and I shall await you at Amdapor Keep!"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "'Tis a ways from here, but what better venue for our climactic confrontation? If you would claim the Treaty-Blade, then claim it from me as a warrior. To the skies, Enkidu... To the <span class=\"emphasis\">skies</span>!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Two against one? That's not very gentlemanly of you, Greg! Come, <span class=\"highlight\">Forename</span>─to Amdapor!"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "This is a grave development, indeed. To think that one man could summon a primal on his own! I must send word to the Scions at once..."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "Oh, but of course! I had near forgotten we had a Warrior of Light in our very midst! Please, <span class=\"highlight\">Forename</span>! You are our only hope to slay the primal and reclaim the blade!"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "After four hundred years, this might very well spell the end for the Arbiters of Truth."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "Whether or not to replace the fallen is a decision for my superiors to make. In either event, I have decided to renounce my position. I thought they were but white lies, but I have seen firsthand the suffering they can cause..."
+            },
+            {
+                "name": "CECY",
+                "text": "(-Cecy-)Ellie... Forgive me..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "I'm sorry for deceiving you, <span class=\"highlight\">Forename</span>. For what it's worth, it wasn't personal."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "And with that, my work here is done. You were by far the least incompetent associate I encountered in my travels. For preserving some shred of my sanity, you have my thanks."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "That said, my time in this land was not a total loss. My experiences here have taught me an important lesson: that this world and the fools who populate it rarely─if ever─abide by the principles of logic. This should serve me well in my future cases."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "And most importantly of all, I leave here with a vow that has given my life new meaning. ...Ahem, but this is no time for sentiment."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Look at the inspector go! I'm right behind you, Inspector!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ho ho ho! I knew that if anything could bring Hildy back from the undead, it would be my dear wife's hand-mixed holy water! That's the world-class culinarian I married!"
+            },
+            {
+                "name": "JULYAN",
+                "text": "All's well that ends well, eh, <span class=\"highlight\">Forename</span>? Hildy's undead acquaintances were kind enough to make an appearance at my request. Who'd have thought zombies could be such gentlemen? I reckon it must be my son's good influence!"
+            },
+            {
+                "name": "HUMPHREY",
+                "text": "The Gentlemen of Light! Cor, they were every bit as radiant as I pegged them to be! One day...one day I'll be a hero myself, just you watch!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Ahem! Is that you, <span class=\"highlight\">Forename</span>? Pray forgive me─I was right on Greg's trail when I encountered a subterranean curiosity that demanded my immediate attention."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "I will be concluding my investigation forthwith, but in the meantime, might I trouble you to entertain Greg and his primal friend in my stead?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Together we will reclaim the Treaty-Blade from that knave, <span class=\"highlight\">Forename</span>! Yes, ah, just go on ahead─I'll be along directly."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Together we will reclaim the Treaty-Blade from that knave, <span class=\"highlight\">Forename</span>! Yes, ah, just go on ahead─I'll be along directly."
+            },
+            {
+                "name": "MAXINNE",
+                "text": "A giant of a man dressed in red rushed into the keep at great speed, leaving me powerless to stop him. You don't suppose he was one of the cultists!?"
+            },
+            {
+                "name": "MAXINNE",
+                "text": "Are you quite all right, friend? I heard a most ghastly sound from within. That aside, is that muscular fellow an acquaintance of yours? He seemed quite concerned for your well-being."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "What ho, <span class=\"highlight\">Forename</span>! Have you seen Greg and his oversized avian companion!? Lead me to them at once, and we shall deliver the coup de grâce together!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "The battle has already been won? That is triumphant news, indeed! Clearly, the lessons you have learned from me have not been for naught. And what's this, you say? The Treaty–Blade lies hidden somewhere in the nearby wood?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Worry not, my ever-loyal associate, for no buried treasure will escape the keen eye of Hildibrand, agent of enquiry and inspector extraordinaire! Now, which way was the forest again...?"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "<span class=\"highlight\">Forename</span>! What news of the primal and the Treaty–Blade!?"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "Remarkable! I knew the Warrior of Light would emerge triumphant! Let us hope that Inspector Hildibrand enjoys similar success in finding the blade..."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Such design! Such craftsmanship! At once bold and powerful, yet sensitive and refined. I believe I've found the inspiration for my next masterpiece!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "...Of course they're beautiful. They were the greatest treasures of lost Sil'dih. To think that they were locked away in the vaults of those that destroyed our homeland and dragged our ancestors' names through the mud..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "And just how did you come to know of these long-lost relics?"
+            },
+            {
+                "name": "CECY",
+                "text": "There was an ancient scroll passed down in our family, left to us by our dear grandmother. It spoke of the four Warriors of Light, their four relics, and an incantation of untold power. If we could have wielded this magic of legend, Ellie and I might still have had the last laugh."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Alas, speaking the words had no effect. Only a Warrior of Light can wield the power, or so the legend goes. Ah, what I wouldn't have given to see it─the ultimate achievement of the greatest mages this realm has ever known..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "And just what sort of incantation is this?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "“The Ring casts open the doors of justice,<br>The Wiseman whispers a verdict true.<br>Azeyma's virtue shines down from the Heavens...”"
+            },
+            {
+                "name": "ELLIE",
+                "text": "...To complete the incantation, the Warrior of Light would then hold forth the Treaty–Blade and speak, “Blade in hand, I swear unto you.” The legends differ as to what happens next, but all speak of a great holy radiance shining down from the heavens..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Over here, friends! Hildibrand, agent of enquiry, inspector extraordinaire, returns with tidings most triumphant!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Behold! Safe in my hands, none other than the Treaty–Blade. And the <span class=\"emphasis\">real</span> one, this time, I swear unto you!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Yes, yes...just like that. “I swear unto you,” then..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "My word! Whatever is this odd tingling sensation?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "R-Ridiculous! Hildibrand isn't a Warrior of Light! He's just some fool who thought he could stop the lesser moon with his own bare hands!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "It would seem the Treaty-Blade is just as confused as the rest of us."
+            },
+            {
+                "name": "CECY",
+                "text": "No... The light... Someone stop it! I won't stand to see the legendary power of our forefathers wielded by this muscle-bound buffoon!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Skyward hoooooooooooooooooo!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Well. I daresay that proved to be a most useful incantation, indeed."
+            },
+            {
+                "name": "ELLIE",
+                "text": "<span class=\"emphasis\">And so the light of justice that shone from the Treaty–Blade banished the shadow, returning peace to the land.</span>"
+            },
+            {
+                "name": "ELLIE",
+                "text": "...So the legend ended. I must say, I never expected it to be quite literally a beam of light. I suppose it wouldn't have been much use to us, after all."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Inspector! Oh, Inspector! Wait for meeeeeeeeeeeeeee!"
+            },
+            {
+                "name": "JULYAN",
+                "text": "Thal's balls, Hildy! First ye almost die at yer poor mother's feet, and now ye fly off to gods know where without even givin' her a kiss good-bye!?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ho ho ho! It appears that a case of wanderlust has once again struck Hildibrand─as it has many a Manderville man before him. Godsspeed, my boy! When the day comes that you tire of mystery solving, your dear old man will be here to pass on to you the family art."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "So in the end, the Sil'dihn incantation of legend was wielded not by a <span class=\"emphasis\">Warrior</span> of Light, but a <span class=\"emphasis\">Gentleman</span> of Light...?"
+            },
+            {
+                "name": "CECY",
+                "text": "Well, the Treaty–Blade <span class=\"emphasis\">is</span> some six centuries old, after all. Perhaps it's not quite as sharp as it used to be..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "The magic that brought peace and happiness to the people of Belah'dia. It was...every bit as beautiful as I imagined. To think I would see it with my own eyes─it's nothing short of a dream come true."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Hmph. He bumbles and stumbles through yet another case, and still he manages to make a girl's dream come true."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "A gentleman to the end...the bloody bastard."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "What's this!? A glint in the corner of my eye? A curious scent, wafting in on the winds from a far-flung land!? Do I smell...a case!?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Worry not for me, my friends! For wherever the wronged want for succor, I, Hildibrand, shall be there! Till we meet again!"
+            }
+        ],
+        "reward": {
+            "gil": 5000,
+            "emote": "Most Gentlemanly",
+            "items": [
+                {
+                    "id": 10073
+                },
+                {
+                    "id": 10143
+                },
+                {
+                    "id": 10144
+                }
+            ],
+            "xp": 0,
+            "instance": 20030
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66029
+            ]
+        },
+        "next": [
+            67762
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011707",
+            "obj": {
+                "i": 1011707,
+                "n": "Julyan",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011723",
+            "obj": {
+                "i": 1011723,
+                "n": "Hildibrand",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007574",
+            "obj": {
+                "i": 1007574,
+                "n": "Maxinne",
+                "l": 56,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011705",
+            "obj": {
+                "i": 1011705,
+                "n": "Phillice",
+                "l": 41,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011714",
+            "obj": {
+                "i": 1011714,
+                "n": "Phillice",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011716",
+            "obj": {
+                "i": 1011716,
+                "n": "Nashu Mhakaracca",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011717",
+            "obj": {
+                "i": 1011717,
+                "n": "Briardien",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011719",
+            "obj": {
+                "i": 1011719,
+                "n": "Phillice",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011720",
+            "obj": {
+                "i": 1011720,
+                "n": "Cecy",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011721",
+            "obj": {
+                "i": 1011721,
+                "n": "Ellie",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011722",
+            "obj": {
+                "i": 1011722,
+                "n": "Hildibrand",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011726",
+            "obj": {
+                "i": 1011726,
+                "n": "Briardien",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011727",
+            "obj": {
+                "i": 1011727,
+                "n": "Nashu Mhakaracca",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011826",
+            "obj": {
+                "i": 1011826,
+                "n": "Godbert",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011857",
+            "obj": {
+                "i": 1011857,
+                "n": "Gilgamesh",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011859",
+            "obj": {
+                "i": 1011859,
+                "n": "Julyan",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011860",
+            "obj": {
+                "i": 1011860,
+                "n": "Humphrey",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011861",
+            "obj": {
+                "i": 1011861,
+                "n": "Godbert",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "10073",
+            "obj": {
+                "i": 10073,
+                "n": "Wind-up Gentleman",
+                "l": 1,
+                "c": 59515,
+                "t": 81
+            }
+        },
+        {
+            "type": "item",
+            "id": "10143",
+            "obj": {
+                "i": 10143,
+                "n": "Manderville Coatee",
+                "l": 1,
+                "c": 42416,
+                "t": 35,
+                "p": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "10144",
+            "obj": {
+                "i": 10144,
+                "n": "Manderville Bottoms",
+                "l": 1,
+                "c": 45534,
+                "t": 36,
+                "p": 100
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20030",
+            "obj": {
+                "i": 20030,
+                "n": "Battle in the Big Keep",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 50,
+                "max_lvl": 50,
+                "min_ilvl": 90
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66029",
+            "obj": {
+                "i": 66029,
+                "n": "Truths Untold",
+                "g": 68,
+                "l": "Ul'dah",
+                "s": 20,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67762",
+            "obj": {
+                "i": 67762,
+                "n": "A Gentleman Falls, Rather than Flies",
+                "g": 69,
+                "l": "Ishgard",
+                "s": 30,
+                "f": 1
+            }
+        }
+    ]
+}

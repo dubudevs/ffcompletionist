@@ -1,0 +1,394 @@
+{
+    "quest": {
+        "name": "Golems Begone",
+        "location": "Idyllshire",
+        "id": 67192,
+        "patch": 3.0,
+        "sort": 81,
+        "eventIcon": 71201,
+        "issuer": 1012097,
+        "target": 1012097,
+        "involved": [
+            1012409,
+            1012410,
+            1012411,
+            1012412,
+            1012413,
+            1014413
+        ],
+        "genre": 3,
+        "journal": [
+            "Slowfix wants you to eliminate the golems that prowl Idyllshire.",
+            "Golem sentinels left by the Sharlayans are hampering Slowfix's plans for expanding Idyllshire, and the goblin asks that you eliminate them. As a native of Sharlayan, Y'shtola may know an easy way to deal with the creatures.",
+            "Y'shtola shares with you the coded command required to unmake the golems. With the chat mode in <span class=\"highlight\">Say</span>, use your keyboard or the software keyboard to inform each golem that you want to play a game called “Noughts and Crosses.”",
+            "You have unmade all the golems in your assigned area. Return to Slowfix with the good tidings.",
+            "You report the completion of your task to Slowfix. The goblin is pleased to hear that the golems will no longer impede the expansion effort."
+        ],
+        "objectives": [
+            "Speak with Y'shtola.",
+            "With the chat mode in <span class=\"highlight\">Say</span>, enter “Noughts and Crosses” to unmake golems.",
+            "Report to Slowfix."
+        ],
+        "dialogue": [
+            {
+                "name": "SLOWFIX",
+                "text": "Pshkohhh... So uplanders agree to help? Good! Here is what Slowfix wants uplanders to do."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Many golems prowl Idyllshire, get in the way of expansion plans. Slowfix wants uplanders to eliminate golems."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Uplanders are Sharlayan, yes? Sharlayans should know best way to deal with creatures."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Slowfix wants uplanders to eliminate golems. Uplanders are Sharlayan, yes? Sharlayans should know best way to deal with creatures."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "From the goblins' perspective, such a well-appointed city is certainly an attractive proposition."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I suppose it's only to be expected that others would come and occupy Sharlayan. Nonetheless, it feels akin to having strangers take over your home in your absence."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Sentinel golems? I daresay Y'shtola will know how to deal with them."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "So we are to eliminate the golems. That should be a simple enough affair."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "The automata were employed as sentinels, and by design can be unmade with a coded command. At the time of the exodus, it was “Noughts and Crosses,” and I see no reason why it should not still work."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Let us divide the task between the three of us, the quicker to be finished with it."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With the chat mode in <span class=\"highlight\">Say</span>, use your keyboard or the software keyboard to enter the coded command “Noughts and Crosses” to unmake a golem."
+            },
+            {
+                "name": "SAYTODO",
+                "text": "Noughts and Crosses"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Use the coded command “Noughts and Crosses” to unmake the golems. If all goes well, we can accomplish the task without recourse to violence."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I shall see to the golems beyond this point. The area yonder, I leave in your capable hands."
+            },
+            {
+                "name": "GOLEM01656",
+                "text": "&lt;rumble&gt; &lt;rumble&gt;"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With the chat mode in <span class=\"highlight\">Say</span>, use your keyboard or the software keyboard to enter the password “Noughts and Crosses” to unmake a golem."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With a shudder, the golem crumbles to pieces."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Golems are no more? Wonderful!"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Now we can resume work to expand settlement!"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I'm pleased to report that my golems obediently crumbled at my command."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Of all the luck, one of my golems was not receptive to the password, and tried to pummel me bloody. Thankfully, I managed to dance clear of its fists and strike it down."
+            }
+        ],
+        "reward": {
+            "gil": 507,
+            "items": [
+                {
+                    "id": 10608,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10596,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10620,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10668,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                }
+            ],
+            "xp": 81600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 58,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67191
+            ]
+        },
+        "next": [
+            67193,
+            67470,
+            67474,
+            67475,
+            67476,
+            67477,
+            67479
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012097",
+            "obj": {
+                "i": 1012097,
+                "n": "Slowfix",
+                "l": 2082,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012409",
+            "obj": {
+                "i": 1012409,
+                "n": "Alphinaud",
+                "l": 2082,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012410",
+            "obj": {
+                "i": 1012410,
+                "n": "Y'shtola",
+                "l": 2082,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012411",
+            "obj": {
+                "i": 1012411,
+                "n": "Alphinaud",
+                "l": 2082,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012412",
+            "obj": {
+                "i": 1012412,
+                "n": "Y'shtola",
+                "l": 2082,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012413",
+            "obj": {
+                "i": 1012413,
+                "n": "Abandoned Golem",
+                "l": 2082,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014413",
+            "obj": {
+                "i": 1014413,
+                "n": "Abandoned Golem",
+                "l": 2082,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "10608",
+            "obj": {
+                "i": 10608,
+                "n": "Adamantite Spear",
+                "l": 145,
+                "c": 31895,
+                "t": 5,
+                "p": 33073
+            }
+        },
+        {
+            "type": "item",
+            "id": "10596",
+            "obj": {
+                "i": 10596,
+                "n": "Adamantite Jamadhars",
+                "l": 145,
+                "c": 31089,
+                "t": 1,
+                "p": 28480
+            }
+        },
+        {
+            "type": "item",
+            "id": "10620",
+            "obj": {
+                "i": 10620,
+                "n": "Adamantite Knives",
+                "l": 145,
+                "c": 33872,
+                "t": 84,
+                "p": 19293
+            }
+        },
+        {
+            "type": "item",
+            "id": "10668",
+            "obj": {
+                "i": 10668,
+                "n": "Adamantite Scutum",
+                "l": 145,
+                "c": 30112,
+                "t": 11,
+                "p": 34452
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67191",
+            "obj": {
+                "i": 67191,
+                "n": "A Great New Nation",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 80
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67193",
+            "obj": {
+                "i": 67193,
+                "n": "An Illuminati Incident",
+                "g": 3,
+                "l": "Idyllshire",
+                "s": 82
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67470",
+            "obj": {
+                "i": 67470,
+                "n": "Feltsmox's Reel Problems",
+                "g": 99,
+                "l": "The Dravanian Hinterlands",
+                "s": 5804
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67474",
+            "obj": {
+                "i": 67474,
+                "n": "Cry Havoc",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 5803
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67475",
+            "obj": {
+                "i": 67475,
+                "n": "Sacking the Foe",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 5804
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67476",
+            "obj": {
+                "i": 67476,
+                "n": "Can You Hear Me Now",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 5805
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67477",
+            "obj": {
+                "i": 67477,
+                "n": "A New Leaf",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 5806
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67479",
+            "obj": {
+                "i": 67479,
+                "n": "Feltsmox Switches Bait",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 5807
+            }
+        }
+    ]
+}

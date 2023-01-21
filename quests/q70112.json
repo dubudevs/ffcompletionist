@@ -1,0 +1,139 @@
+{
+    "quest": {
+        "name": "Like a Crate to Water",
+        "location": "Thavnair",
+        "id": 70112,
+        "patch": 6.15,
+        "sort": 126,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 15,
+        "eventIcon": 71222,
+        "issuer": 1042301,
+        "target": 1042301,
+        "genre": 33,
+        "journal": [
+            "Maru is in need of a pair of legs swift both on land and off.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Speak with the troubled Rider.",
+            "Gather the waterlogged crates.",
+            "Deliver the crates to the troubled Rider.",
+            "Report to Maru."
+        ],
+        "dialogue": [
+            {
+                "name": "MARU",
+                "text": "Ah, there you are─an' just when I'd given up hope of findin' you. I've received word of a delivery gone awry near the Great Work, and was dreadin' havin' to go myself..."
+            },
+            {
+                "name": "MARU",
+                "text": "This task requires some skill in swimmin', you see, and while I can manage to stay afloat, we Arkasodara ain't much known for our grace in the water. I resigned myself to a few lost crates, but now my prospects are lookin' brighter."
+            },
+            {
+                "name": "MARU",
+                "text": "What do you say? If you don't mind a dip in the waters nearby, head to the Great Work and speak to the Rider there. I reckon he shouldn't be hard to find."
+            },
+            {
+                "name": "DELIVERER04576",
+                "text": "Oh divinities, oh no... Oh! Did Maru send you? Please tell me Maru sent you. My crates went flyin' into the water, and the current's gonna drag 'em clear away before long..."
+            },
+            {
+                "name": "DELIVERER04576",
+                "text": "I managed to pick up a few that've washed up ashore, but there's three out there that I ain't reachin' unless I up and turn into a hippo myself. If you could haul those back here, we'll be right as rain."
+            },
+            {
+                "name": "DELIVERER04576",
+                "text": "I was sure I'd have to either drown or be struck down by Trna's “disappointed” face...but now that you're here, I can breathe easy. That is, so long as you catch those crates before they're swept away..."
+            },
+            {
+                "name": "DELIVERER04576",
+                "text": "Did you find the goods? Those waves are so rough, I hope nothin's damaged..."
+            },
+            {
+                "name": "DELIVERER04576",
+                "text": "Oh, thank you, thank you! The delivery was going smoothly as any other till somethin' spooked my hippo─poor dear toppled the cart right over in their excitement."
+            },
+            {
+                "name": "DELIVERER04576",
+                "text": "I was lucky enough not to catch a hoof to the trunk, so I grabbed what I could, but the rest went tumblin' into the waters. I shudder to think what would've happened if I had to brave the sea myself..."
+            },
+            {
+                "name": "DELIVERER04576",
+                "text": "Sweet Sisters, I can feel the clammy hands of death clawin' at my lungs just thinkin' about it! I reckon a bit of slow an' steady crate stackin' would do me good just about now, so why don't you go ahead an' tell Maru I won't be long?"
+            },
+            {
+                "name": "DELIVERER04576",
+                "text": "Truth be told, the ocean an' I never really got along. Thanks to you, it can stay that way! I'll make sure the shipment is all in place─you go ahead an' tell Maru I'll be completin' my delivery soon."
+            },
+            {
+                "name": "MARU",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. Was the situation as dire as the Rider made it out to be?"
+            },
+            {
+                "name": "MARU",
+                "text": "I see... Looks like we're in your debt once again. I can't help but wonder what got into that hippo, though... This all happened 'round about the Great Work, you say?"
+            },
+            {
+                "name": "MARU",
+                "text": "Might've been some particularly fragrant concoction brewed by one of the alchemists... Or maybe it was somethin' else entirely. Either way, we'd do well to find out the cause before this happens again..."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 44
+                },
+                {
+                    "id": 36657
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042301",
+            "obj": {
+                "i": 1042301,
+                "n": "Maru",
+                "l": 3709,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "44",
+            "obj": {
+                "i": 44,
+                "n": "Allagan Tomestone of Causality",
+                "l": 1,
+                "c": "t/65094",
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "36657",
+            "obj": {
+                "i": 36657,
+                "n": "Arkasodara Pana",
+                "l": 1,
+                "c": "t/65091",
+                "t": 100
+            }
+        }
+    ]
+}

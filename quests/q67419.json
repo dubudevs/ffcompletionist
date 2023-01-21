@@ -1,0 +1,140 @@
+{
+    "quest": {
+        "name": "An Unwelcome Surprise",
+        "location": "The Churning Mists",
+        "id": 67419,
+        "patch": 3.0,
+        "sort": 5608,
+        "icon": 100479,
+        "eventIcon": 71221,
+        "issuer": 1013566,
+        "target": 1013570,
+        "genre": 100,
+        "journal": [
+            "This dragoon is concerned about the scouting party at the battlefield to the north.",
+            "The dragoon must wait at his station until the aetheric measurements are complete, so he asks you to check up on the scouting party sent north, who may be experiencing the same troubles as he is. Go north and speak to the scouting party dragoon to see if she is in need of an adventurer's strength.",
+            "Although the dragoon was able to complete her aetheric measurements, she was attacked and her expedition report was stolen by one of the vicious diresaurs that wander the area. She is not entirely sure which of the brutes stole the report, so kill them until the kleptomaniac dragon gives it up.",
+            "The first diresaur you slay fails to yield the report. Keep your weapon drawn and kill more dragons until the report presents itself.",
+            "After practicing your combat moves on several more diresaurs, you finally find the errant report. Return it to the distressed dragoon so her work will not have gone to waste.",
+            "You return the report to the troubled dragoon, and she is elated that she will be able to finish it at last. It is unclear what the dragon would have done with the information in the report, but surely it would have had dire consequences."
+        ],
+        "objectives": [
+            "Speak with the northern scouting party dragoon.",
+            "Obtain the expedition report from the diresaurs.",
+            "Deliver the report to the dragoon."
+        ],
+        "dialogue": [
+            {
+                "name": "SOUTHINVESTIGATOR01879",
+                "text": "I must wait until the aetherometers are done with their measurements. Do you think you could check on the scouting party at the other battlefield?"
+            },
+            {
+                "name": "SOUTHINVESTIGATOR01879",
+                "text": "They have been dispatched to the north, and no doubt they are facing the same troubles I have been. Pray help them if they require it."
+            },
+            {
+                "name": "SOUTHINVESTIGATOR01879",
+                "text": "The other scouts are at the ruins to the north. Pray lend your aid should they need it. "
+            },
+            {
+                "name": "NORTHINVESTIGATOR01883",
+                "text": "Ah! It's the adventurer! You've come just in time─I'm in dire need of help!"
+            },
+            {
+                "name": "NORTHINVESTIGATOR01883",
+                "text": "I finished setting up my aetherometers, but on the way back to my post a diresaur attacked and stole my scouting report!"
+            },
+            {
+                "name": "NORTHINVESTIGATOR01883",
+                "text": "I'm not sure which one made off with the report, but I don't think it could've gone far. I'll do what I can to help you find it."
+            },
+            {
+                "name": "NORTHINVESTIGATOR01883",
+                "text": "It was the diresaurs that hulk about that stole the expedition report, so keep killing them till you find it. I'll lend what aid I can, as well."
+            },
+            {
+                "name": "NORTHINVESTIGATOR01883",
+                "text": "So, were you able to find the report?"
+            },
+            {
+                "name": "NORTHINVESTIGATOR01883",
+                "text": "Ah, this is it! I was in the middle of writing it when the dragon attacked and laid its grubby paws on it. I can't thank you enough for your help today."
+            }
+        ],
+        "reward": {
+            "gil": 496,
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67415
+            ]
+        },
+        "next": [
+            67420
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013566",
+            "obj": {
+                "i": 1013566,
+                "n": "Southern Scouting Party Dragoon",
+                "l": 2002,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013570",
+            "obj": {
+                "i": 1013570,
+                "n": "Northern Scouting Party Dragoon",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67415",
+            "obj": {
+                "i": 67415,
+                "n": "These Things Take Time",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5607
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67420",
+            "obj": {
+                "i": 67420,
+                "n": "A Meter Too Far",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5609
+            }
+        }
+    ]
+}

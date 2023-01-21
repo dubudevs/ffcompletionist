@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "My First Gladius",
+        "location": "Ul'dah",
+        "id": 65822,
+        "patch": 2.0,
+        "sort": 12,
+        "icon": 100054,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1001739,
+        "target": 1001739,
+        "genre": 127,
+        "journal": [
+            "First Sword Mylla wishes to gauge your aptitude for the sword.",
+            "The guildmaster has instructed you to slay marmots, hornets, and shrews outside the gates of Ul'dah. With sword in hand, venture forth and do battle with the beasts.",
+            "You have slain the creatures as instructed and become more familiar with your new weapon. Return to the Gladiators' Guild and speak with Mylla.",
+            "Mylla states that to master the sword, you must remember and reflect upon your experiences in battle. Taking her words to heart, you resolve to seek out and test yourself against new foes.<br><br>※The next gladiator quest will be available from Mylla upon reaching level 5."
+        ],
+        "objectives": [
+            "Slay star marmots as a gladiator.",
+            "Slay huge hornets as a gladiator.",
+            "Slay snapping shrews as a gladiator.",
+            "Report to Mylla."
+        ],
+        "dialogue": [
+            {
+                "name": "MYLLA",
+                "text": "Heh, amazing what a difference a sword can make. Your expression, your posture...you're already brimming with confidence."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Let's see if that confidence is warranted, shall we?"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Just outside the gates of Ul'dah, you'll find plenty of marmots, hornets, and shrews. Slay three of each and return here when finished."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Oh, and use your sword, <span class=\"highlight\">Forename</span>. I'm a gladiator, and I aim to train you as one. Now, go."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. I take it you've dispatched the beasts, and with ease."
+            },
+            {
+                "name": "MYLLA",
+                "text": "With every swing and thrust, you gain valuable experience. You must remember and reflect on each one if you are to recognize and eliminate the deficiencies in your technique."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Your training under me shall continue once the haft sits so snugly in your hand that you cannot imagine holding aught else. Until then, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next gladiator quest will be available from Mylla upon reaching level 5."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "xp": 100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 2
+                }
+            ],
+            "quests": [
+                65821
+            ]
+        },
+        "next": [
+            65792,
+            65824
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001739",
+            "obj": {
+                "i": 1001739,
+                "n": "Mylla",
+                "l": 41,
+                "q": 16,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65821",
+            "obj": {
+                "i": 65821,
+                "n": "Way of the Gladiator",
+                "g": 127,
+                "l": "Ul'dah",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65792",
+            "obj": {
+                "i": 65792,
+                "n": "Kicking the Hornet's Nest",
+                "g": 127,
+                "l": "Ul'dah",
+                "s": 50,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65824",
+            "obj": {
+                "i": 65824,
+                "n": "Ul'dah's Most Wanted",
+                "g": 127,
+                "l": "Ul'dah",
+                "s": 100,
+                "f": 1
+            }
+        }
+    ]
+}

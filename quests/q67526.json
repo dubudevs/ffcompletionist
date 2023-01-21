@@ -1,0 +1,84 @@
+{
+    "quest": {
+        "name": "Inadequate Safety Measures",
+        "location": "Azys Lla",
+        "id": 67526,
+        "patch": 3.0,
+        "sort": 5912,
+        "eventIcon": 71221,
+        "issuer": 1012296,
+        "target": 1012296,
+        "genre": 102,
+        "journal": [
+            "The Allagan restrainment node is gently glowing and spinning.",
+            "The Allagan restrainment node informs you that several Dravanian test subjects have escaped from their restraints and now roam the area unchecked. The system asks you to kill three Meracydian dragons and three Meracydian falaks to mitigate the risk these dangerous creatures pose.",
+            "You slay the beasts as instructed by the restrainment node. Report to the system with notice of the completion of your mission.",
+            "The restrainment node thanks you for your hard work and identifies the cause of the containment breach as a weakening of the dragons' restraints over time. It lodges a report recommending that the research facility use more durable equipment that can last more than just a few thousand years without becoming ineffective."
+        ],
+        "objectives": [
+            "Slay Meracydian dragons.",
+            "Slay Meracydian falaks.",
+            "Report to the restrainment node."
+        ],
+        "dialogue": [
+            {
+                "name": "RESTRAINTSYSTEM",
+                "text": "&lt;buzzzzzz&gt; Warning. Warning. Several Dravanian test subjects have breached their restraints and now inhabit the immediate vicinity. These subjects are extremely dangerous and present a real threat to the safety of personnel and equipment."
+            },
+            {
+                "name": "RESTRAINTSYSTEM",
+                "text": "Loyal warriors of the Allagan Empire, please ensure the safety of all staff and citizens by neutralizing this threat. Each soldier is to eliminate three Meracydian falaks and three Meracydian dragons."
+            },
+            {
+                "name": "RESTRAINTSYSTEM",
+                "text": "Please ensure the safety of all staff and citizens by eliminating three Meracydian falaks and three Meracydian dragons."
+            },
+            {
+                "name": "RESTRAINTSYSTEM",
+                "text": "Verifying mission status. &lt;blip&gt; &lt;blip&gt; Kills confirmed. &lt;blip&gt; &lt;blip&gt; Mission complete. The Empire thanks you, soldier."
+            },
+            {
+                "name": "RESTRAINTSYSTEM",
+                "text": "Escape of Dravanian subjects traced to structural failure of restraints. Tests indicate that restraints grew weakened after only five thousand years of use. Now lodging report suggesting research department use more durable equipment with longer operational lifespan."
+            }
+        ],
+        "reward": {
+            "gil": 737,
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67203
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012296",
+            "obj": {
+                "i": 1012296,
+                "n": "Restrainment Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67203",
+            "obj": {
+                "i": 67203,
+                "n": "Close Encounters of the VIth Kind",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 92
+            }
+        }
+    ]
+}

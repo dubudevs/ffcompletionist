@@ -1,0 +1,148 @@
+{
+    "quest": {
+        "name": "Administrative Difficulties",
+        "location": "Idyllshire",
+        "id": 67478,
+        "patch": 3.0,
+        "sort": 5814,
+        "icon": 100482,
+        "eventIcon": 71221,
+        "issuer": 1012097,
+        "target": 1014332,
+        "involved": [
+            1012133
+        ],
+        "genre": 101,
+        "journal": [
+            "Slowfix is concerned about the state of Idyllshire.",
+            "Slowfix is worried by the increasing number of organizational and administrative problems surfacing in Idyllshire. He needs the advice of a goblin with more of a head for these sorts of things─Dripwix. Unfortunately, Dripwix is nowhere to be seen. Slowfix asks you to track down Dripwix for him. Start by asking Midnight Dew. She should know where he is.",
+            "Midnight Dew tells you that Dripwix should be headed towards the Arkhitekton, in the Dravanian hinterlands. Hopefully you will be able to find him before the Illuminati do.",
+            "You find Dripwix just as a group of Illuminati goblins descend upon him. Save him by slaying his assailants.",
+            "Dripwix thanks you for saving him from the Illuminati's attack."
+        ],
+        "objectives": [
+            "Speak with Midnight Dew.",
+            "Search for Dripwix near the Arkhitekton.",
+            "Aid Dripwix."
+        ],
+        "dialogue": [
+            {
+                "name": "SLOWFIX",
+                "text": "Pshhh... Shkohhh...<br>Idyllshire's problems grow more and more. Is very unorganized! Slowfix become very unrelaxed!"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Slowfix needs advice. To fix these problems, need to talk with sharpbrain gobbie. Slowfix needs to talk with Dripwix. Dripwix can help!"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "But Slowfix cannot find him! Please help, uplander. Please find Dripwix. Perhaps Midnight Dew knows where he is."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Please find Dripwix! Maybe Midnight Dew knows where he is!"
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "You're lookin' for Dripwix? Last I saw he was headin' towards the Arkhitekton. I hope he hasn't gone and got himself caught by the Illuminati..."
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "Still lookin' for Dripwix? Did you take a look near the Arkhitekton?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Reinforcements!? Kill them!"
+            },
+            {
+                "name": "DRIPWIX",
+                "text": "Pshhh... Shkohhh...<br>You─you saved Dripwix? You are very widehearted uplander!"
+            }
+        ],
+        "reward": {
+            "gil": 475,
+            "xp": 40800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 58,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67193,
+                67471
+            ]
+        },
+        "next": [
+            67480
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012097",
+            "obj": {
+                "i": 1012097,
+                "n": "Slowfix",
+                "l": 2082,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014332",
+            "obj": {
+                "i": 1014332,
+                "n": "Dripwix",
+                "l": 2001,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012133",
+            "obj": {
+                "i": 1012133,
+                "n": "Midnight Dew",
+                "l": 2082,
+                "q": 12
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67193",
+            "obj": {
+                "i": 67193,
+                "n": "An Illuminati Incident",
+                "g": 3,
+                "l": "Idyllshire",
+                "s": 82
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67471",
+            "obj": {
+                "i": 67471,
+                "n": "The Pick of the Bunch",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 5813
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67480",
+            "obj": {
+                "i": 67480,
+                "n": "The Missing Logbook",
+                "g": 99,
+                "l": "The Dravanian Hinterlands",
+                "s": 5812
+            }
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "quest": {
+        "name": "The Right Price",
+        "location": "Limsa Lominsa",
+        "id": 65650,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1001217,
+        "target": 1003272,
+        "involved": [
+            1001203,
+            1001208,
+            1003254
+        ],
+        "genre": 91,
+        "journal": [
+            "Swozblaet, the master merchant of Hawkers' Alley, wants you to look into current market prices.",
+            "Swozblaet has bid you pose as a customer and glance over the wares being sold by Iron Thunder, Kyokyoroon, and Syneyhil. Strike up a conversation with the three merchants, and surreptitiously record the prices of their goods.",
+            "You have completed your survey of market prices. Deliver the price list to Baensyng on West Hawkers' Alley.",
+            "You have delivered your report to Baensyng. According to the prices you recorded, the markets seem free of any shady dealings for another day."
+        ],
+        "objectives": [
+            "Speak with Iron Thunder.",
+            "Speak with Kyokyoroon.",
+            "Speak with Syneyhil.",
+            "Deliver the price list to Baensyng."
+        ],
+        "dialogue": [
+            {
+                "name": "SWOZBLAET",
+                "text": "You, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>─adventurer. I have work for you. I would have you pose as a customer and survey the market's current prices."
+            },
+            {
+                "name": "SWOZBLAET",
+                "text": "Surely I did not see you balk at so simple a task? All you need do is strike up a conversation with the shop owners, and glance over their wares."
+            },
+            {
+                "name": "SWOZBLAET",
+                "text": "There are three merchants that interest me: Iron Thunder, Kyokyoroon, and Syneyhil."
+            },
+            {
+                "name": "SWOZBLAET",
+                "text": "Write down all you see on this price list, and hand it to Baensyng on West Hawkers' Alley. He shall reward you for your service."
+            },
+            {
+                "name": "IRONTHUNDER",
+                "text": "Well met, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>! Cast your peepers over these beauties! Not a spot of rust to be found! Every piece fresh from the forges of Naldiq & Vymelli's!"
+            },
+            {
+                "name": "KYOKYOROON",
+                "text": "Kyokyoroon welcomes well-come customer! Kyokyoroon loves his lovely trade! Kyokyoroon's goods are goodly made!"
+            },
+            {
+                "name": "SYNEYHIL",
+                "text": "A fine <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">day</span></span> to you, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. What can I interest you in t─ Why, you seem interested in most everything, don't you? Is this another one of those investigations!? Well, I have nothing to hide!"
+            },
+            {
+                "name": "BAENSYNG",
+                "text": "Yer the one what made a list for Swozblaet? Let's 'ave it, then."
+            },
+            {
+                "name": "BAENSYNG",
+                "text": "Mmm, nothin' wrong with the markets, far as I can tell."
+            },
+            {
+                "name": "BAENSYNG",
+                "text": "Ye ofttimes get pirates sellin' stolen goods at cutthroat prices, an' that drives the numbers down right across 'Awkers' Alley. Thanks to these reports, though, we can tell at a glance when shady dealin's are takin' place. Good work, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 10,
+                    "id": 5
+                }
+            ],
+            "xp": 50
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001217",
+            "obj": {
+                "i": 1001217,
+                "n": "Swozblaet",
+                "l": 29,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003272",
+            "obj": {
+                "i": 1003272,
+                "n": "Baensyng",
+                "l": 29,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001203",
+            "obj": {
+                "i": 1001203,
+                "n": "Iron Thunder",
+                "l": 29,
+                "s": 15,
+                "q": 1,
+                "t": "Battlecraft Supplier",
+                "a": 744,
+                "c": [
+                    8.11,
+                    11.67
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001208",
+            "obj": {
+                "i": 1001208,
+                "n": "Kyokyoroon",
+                "l": 29,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003254",
+            "obj": {
+                "i": 1003254,
+                "n": "Syneyhil",
+                "l": 29,
+                "s": 11,
+                "q": 1,
+                "t": "Fieldcraft Supplier",
+                "a": 745,
+                "c": [
+                    6.31,
+                    11.99
+                ]
+            }
+        }
+    ]
+}

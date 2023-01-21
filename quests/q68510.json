@@ -1,0 +1,721 @@
+{
+    "quest": {
+        "name": "Under Wraps",
+        "location": "The Ruby Sea",
+        "id": 68510,
+        "patch": 4.1,
+        "sort": 2,
+        "icon": 100729,
+        "beast": 9,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1024215,
+        "target": 1024215,
+        "involved": [
+            1024231,
+            1024232,
+            1024233,
+            1024234,
+            1024235,
+            1024236,
+            1024237,
+            1024238,
+            1024239,
+            1024244,
+            1024343,
+            1024421,
+            1024543
+        ],
+        "genre": 50,
+        "journal": [
+            "Kabuto is ready to depart.<br>※The difficulty of this quest will be synced to your current level.",
+            "Kabuto approaches you in hushed tones about his first expedition. When he fails to state anything beyond the obvious─that they will soon be departing─Tsukumo takes it upon himself to better inform you of their plan. As he tells it, they recently received word of a promising addition to the vault somewhere near Namai in Yanxia. With no other leads, Tsukumo skips away with Kabuto in tow.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You speak with a villager in Namai who tells you of a Namazu sneaking about the Glittering Basin with what people assume to be treasure. Though Tsukumo believes your time would be better spent learning more about the Namazu, Kabuto insists on commencing a search for this elusive figure so as not to waste any more of your time. Tsukumo is equal parts surprised and impressed by this sudden assertiveness and eventually concedes. Your next course of action is decided, and so you make for the Glittering Basin.",
+            "You find Kabuto overlooking the basin from an ideal vantage point. As he checks the north, you begin a survey of the south when a curious shape comes into view. No sooner do you realize the figure is a Namazu than it darts back out of sight.",
+            "Along the shoreline you discover not only the Namazu, but the treasure it carefully guards: a vase. Before you can approach, however, the Namazu is confronted by a band of Red Kojin. Tsukumo and Kabuto waste no time in rushing down to save both the Namazu and its treasure. ",
+            "By the time you arrive, the vase is already in the clutches of the Red Kojin. When Kabuto refuses to back down, they choose to flee rather than fight. Kabuto gives chase, but he will likely need your help when he catches up with them.",
+            "You find Kabuto to the north, three Red Kojin fallen at his feet. Despite Hirumaki making off with the vase, Gyokei is oddly relieved. As he explains it, the vase was cursed to bring misfortune to its owner, and he was hard-pressed to find a way to break the curse or dispose of it. Gyokei readily agrees to become a trading partner with the Blue Kojin, and offers a chime from his storehouse as a token of good faith. Kabuto and Tsukumo then return to Tamamizu for a well-earned rest.",
+            "Thanks to your efforts, the vault of Tamamizu has gained a treasure and the Blue Kojin a trading partner. While Kabuto thinks little of the part he has played thus far, Tsukumo has every confidence that he will lead his band of treasure seekers to ever greater riches."
+        ],
+        "objectives": [
+            "Speak with Kabuto at Namai.",
+            "Search for the nervous Namazu.",
+            "Follow Kabuto.",
+            "Speak with Kabuto in Tamamizu."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "In order to undertake this quest, you must first complete the main scenario quest “A Silence in Three Parts.”"
+            },
+            {
+                "name": "KABUTO",
+                "text": "Good. You are here. We are preparing to embark on a search for treasure."
+            },
+            {
+                "name": "KABUTO",
+                "text": "&lt;cough&gt; Would you...erm..."
+            },
+            {
+                "name": "KABUTO",
+                "text": "..."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I was certain he would follow through, but alas. He wishes to invite you on our expedition, but perhaps we should begin by explaining where we are going, and why."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Shikitahe's pirate associates in Yanxia have informed him of a treasure that may prove suitable for our vault."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "If what we have been told is true, the owner of said treasure can be found somewhere near Namai. Our mission is to befriend this individual and see if there is aught we can do to trade for this oddity, whatever it may be. Now, let us be off!"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "There you are. While waiting for you to arrive we took it upon ourselves to question the villagers. This gentleman was about to tell us more about the treasure we seek."
+            },
+            {
+                "name": "VILLAGERS02974",
+                "text": "This Kojin here tells me you are here looking for artifacts of great worth. Forgive me if I misunderstand, but what could be more valuable than a talking doll?"
+            },
+            {
+                "name": "KABUTO",
+                "text": "This villager claims to have knowledge of what we seek."
+            },
+            {
+                "name": "VILLAGERS02974",
+                "text": "I can only tell you what I have heard. Whether or not there is truth to it, you must decide for yourselves."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "If I may ask, what exactly <span class=\"emphasis\">is</span> this treasure?"
+            },
+            {
+                "name": "VILLAGERS02974",
+                "text": "Gahhh! Ahem. Forgive me. I had forgotten it can speak. I do not mean to question your decision to come here, but I sincerely doubt any treasure you find will compare to this doll."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "That may well be true, but our aim is to create a collection. To that end we came here following the rumors of a treasure here in Namai."
+            },
+            {
+                "name": "VILLAGERS02974",
+                "text": "No doubt a burdensome quest if every piece must be a curiosity such as you. Sadly, I cannot say what this treasure is. Only that its owner is of the Namazu."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "How can you be certain what they possess is of any worth?"
+            },
+            {
+                "name": "VILLAGERS02974",
+                "text": "He has been seen carrying something about the Glittering Basin with the greatest of care─but only briefly. Upon realizing he is not alone, he leaves with all haste."
+            },
+            {
+                "name": "VILLAGERS02974",
+                "text": "He speaks with no one, and so we are left to wonder what it is he guards so dearly. If you mean to approach him, it will not be easy."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "How are we to strike a deal with such a seemingly skittish character?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "We must find something the Namazu is willing to trade for."
+            },
+            {
+                "name": "A1",
+                "text": "We must find a way to trap the Namazu."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "That he might stay and consider an exchange instead of running away... Yes, an excellent idea."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Hmmm. I suppose that may work. A way to hold him still long enough to explain we mean no harm."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Then let us begin our search."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Not so fast, my friend. Even if he were to appear before us here and now, we have naught with which to barter. Our time would be better spent learning about this Namazu."
+            },
+            {
+                "name": "KABUTO",
+                "text": "We have already inconvenienced <span class=\"highlight\">Forename</span> greatly. We must not keep <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> away from <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> other duties."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Sympathy for a comrade? Well, I suppose it would be prudent to know where the Namazu can be found when we are ready to bargain. Very well. Let us find an ideal location to better survey the area."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Kabuto is surveying to the north. Would you take a look to the south and tell us if you see anything?"
+            },
+            {
+                "name": "KABUTO",
+                "text": "Still no sign of the Namazu."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Search your surroundings for the Namazu. You may move the camera as well as zoom in and out. Target the Namazu and inspect him with <span class=\"alternative-container\"><span class=\"alternative\"><span class=\"highlight\"></span></span><span class=\"alternative\">[???] / [???]</span></span>."
+            },
+            {
+                "name": "KABUTO",
+                "text": "You've found him? Well done, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "But where is he headed? We must find a better vantage point."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "That Namazu is definitely up to something. But what?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Search your surroundings once more for the Namazu. You may move the camera as well as zoom in and out. Target the Namazu and inspect him by pressing <span class=\"alternative-container\"><span class=\"alternative\"><span class=\"highlight\"></span></span><span class=\"alternative\">[???] / [???]</span></span>."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "He seems to be...digging?"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "This must be where he buried the treasure! At last we can see what it is he guards so dearly."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Ah, so it is a vase we are after."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "The only question remaining now is why must he act in secret? The answer may be our key to approaching him."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "The Red Kojin!? So we are not the only ones come in search of treasure."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Quickly, Kabuto, tuck me away and get down there. We have to stop them!"
+            },
+            {
+                "name": "GYOKEI",
+                "text": "<span class=\"emphasis\">More</span> bandits!? Oh, what a horrible, horrible day!"
+            },
+            {
+                "name": "KABUTO",
+                "text": "Stay back!"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "The Namazu is safe, but they've taken the vase! We have to get it back."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "(-Nervous Namazu-)Please, please, just leave me alone."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "No need to fear, friend. We are here to help."
+            },
+            {
+                "name": "HIRUMAKI",
+                "text": "(-Cruel Kojin-)You hear that? The bungling Blue and his wet nurse want to help."
+            },
+            {
+                "name": "SYAGI",
+                "text": "(-Colossal Kojin-)No need to worry your pretty little shell. We've only come to retrieve what is by rights ours, and he was more than willing to give it to us."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "(-Nervous Namazu-)<span class=\"emphasis\">Give</span> it to you!? You're a liar, and I still have the lumps to prove it!"
+            },
+            {
+                "name": "GYOKEI",
+                "text": "(-Nervous Namazu-)You're here to help, yes, yes? Then you can start by teaching those brutes a lesson."
+            },
+            {
+                "name": "HIRUMAKI",
+                "text": "(-Cruel Kojin-)This treasure belongs in the vault, you know this to be true. Now stand down."
+            },
+            {
+                "name": "KABUTO",
+                "text": "...No. Give back the vase."
+            },
+            {
+                "name": "HIRUMAKI",
+                "text": "(-Cruel Kojin-)Ho, how curious! Before he spoke as a whining child, but now he speaks as a would-be warrior?"
+            },
+            {
+                "name": "HIRUMAKI",
+                "text": "(-Cruel Kojin-)Lay down your sword and surrender. If you do, we may consider allowing you to work as one of our mercenaries."
+            },
+            {
+                "name": "KABUTO",
+                "text": "I...I would rather die than serve you Red brutes!"
+            },
+            {
+                "name": "SYAGI",
+                "text": "(-Colossal Kojin-)Watch your tongue! You stand in the presence of General Hirumaki of the Red!"
+            },
+            {
+                "name": "HIRUMAKI",
+                "text": "Now, now, Shaugi. Let's not be rash with this would-be warrior. Given the right incentive, I'm sure he and his brothers could be convinced to join us."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Never. Not for all the treasure in the world!"
+            },
+            {
+                "name": "HIRUMAKI",
+                "text": "Ugh. Again with your whining. Perhaps the Blue are not worth having as mercenaries after all."
+            },
+            {
+                "name": "HIRUMAKI",
+                "text": "Though I could be convinced. Mark my words: when next we meet, I will have you on your knees begging to join us."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Those fiends! Do they think we will let them simply walk away?"
+            },
+            {
+                "name": "GYOKEI",
+                "text": "(-Nervous Namazu-)That doll! It─it talks!"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Yes, well, though your Kojin savior here is indeed brave, he is not the best with words. I step in on occasion to speak on his behalf."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "But enough of that. Kabuto, you must follow them! <span class=\"highlight\">Forename</span> and I will be right behind you."
+            },
+            {
+                "name": "HIRUMAKI",
+                "text": "A doll that speaks? Interesting."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Thank you for saving me. Would that we had met on better terms. My name is Gyokei."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "<span class=\"highlight\">Forename</span>, go and assist Kabuto. I will be along shortly with our new friend here."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I fear Harumaki may be too much for Kabuto on his own. Go quickly and help him."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "No need to worry. Your doll is safe with me. Yes, yes, very safe."
+            },
+            {
+                "name": "KABUTO",
+                "text": "He had reinforcements lying in wait. I managed to fend them off, but he got away."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "&lt;pant&gt; &lt;pant&gt; ...There you are!"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "What of the vase? Were you able to take it back from them?"
+            },
+            {
+                "name": "KABUTO",
+                "text": "...My apologies, Tsukumo."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "No need to concern yourself. No, no. I'm actually glad to be rid of it."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "As Gyokei tells it, there is a rather unpleasant story behind that vase."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Indeed there is. It was not until after I came into possession of it that I learned of the misfortune that befell each of its previous owners."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "When the birds first began to follow me, I thought nothing of it─but then their droppings came. Every day, a torrent, a maelstrom of dung from the heavens! I grew suspicious, and soon after I learned the vase had been cursed by its maker."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "I made every effort, took every opportunity to get rid of it, but whether I dropped it into the ocean or abandoned it on a mountainside, it always found its way back to me. As did the storms..."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Eventually I learned of a way the curse may be broken. It involves a small ritual which must be performed while alone. Otherwise the misfortune would spread, and we mustn't have that. No, no."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "But if the Red Kojin want it they can have it!"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I see. Truly the world is full of strange treasures. In any case, I suspect the curse will soon come to an end."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "They will be taking the vase to the Kojin's treasure vault on the Isle of Zekki. Once enshrined within, it will be purified by the myriad kami inside. The vase will haunt you no longer."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Oh, thank goodness. I must repay you for your kindness. Come, come. If there is anything you would ask of me, name it."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Any thoughts, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Let Kabuto decide."
+            },
+            {
+                "name": "A2",
+                "text": "I only ask for your friendship on behalf of the Kojin."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "How modest of you. Well, go on Kabuto. The decision is yours."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Well, the Blue Kojin are seeking allies, and...erm..."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "What a noble gesture, putting the needs of the Kojin before yourself."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "But of course! You are mostly merchants and traders, yes, yes? That suits my plans perfectly. I was looking for partners with whom to do business."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Forgive me for interrupting, but I could not help but notice you have quite the charm."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "What!? I-I'm flattered, truly. But I don't think it would work between a Namazu and─"
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "It is old, but it has an exquisite shine. Yes, that is indeed a marvelous chime that dangles about your neck."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Oh, my chime? Of course, of course! What else could you have meant."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Ahem. You have a good eye, Tsukumo. These chimes are the pride and joy of the Namazu. Why, I've worn this one about my neck since my first nameday."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "With a brilliant shine matched only by that of your kind-hearted soul, no doubt."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Please, stop, before you make me blush. Tell you what. As a show of good faith between soon-to-be partners in trade, how would you like one of these chimes?"
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Not mine, of course, but I'm certain I can find one for you."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "That would be wonderful."
+            },
+            {
+                "name": "GYOKEI",
+                "text": "Then I'm off to check my storehouse. When I find one, I will send it to Tamamizu posthaste."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "That went rather well, would you not agree? With Gyokei safe and a splendid chime promised to our vault, I believe our work here is done. Let us return to Tamamizu for a well-earned respite."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Despite our success, Kabuto seems surprisingly downcast. He won't speak to me, but perhaps you can break his silence."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Ah, you are returned."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Bunchin was overjoyed to hear of our new trade partner in Gyokei. It would seem we are off to a spectacular start."
+            },
+            {
+                "name": "KABUTO",
+                "text": "Thank you for your help."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "I would say you more than helped, my friend. We would still be in Yanxia if not for your sharp eyes. In contrast, what would you say of Kabuto's performance this day?"
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "He brought honor to the Blue Kojin."
+            },
+            {
+                "name": "A3",
+                "text": "..."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "Indeed he has. Though Hirumaki escaped, Gyokei's life was spared and soon our treasure vault will benefit from his generosity."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "You seem displeased. I will concede he did fail to apprehend Hirumaki, but he saved Gyokei's life, and we have gained a new trading partner. Surely that is commendable, no?"
+            },
+            {
+                "name": "KABUTO",
+                "text": "I have much to learn. The difference in strength between <span class=\"highlight\">Forename</span> and me is still too great."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "To acknowledge your limitations is the first step in overcoming them. Others may think you proud, but I can see there is more to you than that."
+            },
+            {
+                "name": "TSUKUMO",
+                "text": "You care deeply for the well-being of your people, though you have had few opportunities to demonstrate this. You have great potential, Kabuto, and I believe you may yet make a fine leader."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Gyokei is now a trading partner with the Blue Kojin, and has pledged a contribution to the treasure vault."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Trusted</span> reputation with the Kojin."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "New Kojin tribal daily quests are now available from Zukin at Tamamizu."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you will be able to undertake three additional quests from Zukin as a reputation bonus. This bonus is available until the daily reset time for tribal quests."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These additional quests will become available after accepting all current daily quests from Zukin. Please be advised that you cannot undertake these quests if you have no remaining allowances."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You now have access to a wider selection of wares from Shikitahe."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In order to undertake the next tribal main quest, you must first complete the main scenario quest “Here There Be Xaela.”"
+            }
+        ],
+        "reward": {
+            "gil": 1516
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68509
+            ]
+        },
+        "next": [
+            68511
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024215",
+            "obj": {
+                "i": 1024215,
+                "n": "Kabuto",
+                "l": 2409,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024231",
+            "obj": {
+                "i": 1024231,
+                "n": "Kabuto",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024232",
+            "obj": {
+                "i": 1024232,
+                "n": "Tsukumo",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024233",
+            "obj": {
+                "i": 1024233,
+                "n": "Reluctant Resident",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024234",
+            "obj": {
+                "i": 1024234,
+                "n": "Kabuto",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024235",
+            "obj": {
+                "i": 1024235,
+                "n": "Tsukumo",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024236",
+            "obj": {
+                "i": 1024236,
+                "n": "Kabuto",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024237",
+            "obj": {
+                "i": 1024237,
+                "n": "Tsukumo",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024238",
+            "obj": {
+                "i": 1024238,
+                "n": "Kabuto",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024239",
+            "obj": {
+                "i": 1024239,
+                "n": "Nervous Namazu",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024244",
+            "obj": {
+                "i": 1024244,
+                "n": "Kabuto",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024343",
+            "obj": {
+                "i": 1024343,
+                "n": "Gyokei",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024421",
+            "obj": {
+                "i": 1024421,
+                "n": "Tsukumo",
+                "l": 2410,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024543",
+            "obj": {
+                "i": 1024543,
+                "n": "Tsukumo",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68509",
+            "obj": {
+                "i": 68509,
+                "n": "Heaven-sent",
+                "g": 50,
+                "l": "The Ruby Sea",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68511",
+            "obj": {
+                "i": 68511,
+                "n": "The Value of Silence",
+                "g": 50,
+                "l": "The Ruby Sea",
+                "s": 3,
+                "f": 1
+            }
+        }
+    ]
+}

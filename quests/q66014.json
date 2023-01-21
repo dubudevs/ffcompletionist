@@ -1,0 +1,246 @@
+{
+    "quest": {
+        "name": "Kobolds and Indigents",
+        "location": "Lower La Noscea",
+        "id": 66014,
+        "patch": 2.0,
+        "sort": 90,
+        "eventIcon": 71221,
+        "issuer": 1002591,
+        "target": 1002571,
+        "involved": [
+            1002678
+        ],
+        "genre": 91,
+        "journal": [
+            "Skarnmhar of the Red Rooster Stead seeks an adventurer who can serve up some justice.",
+            "A stagecoach has been waylaid en route to the Stead. The plucky coachman, a fellow by the name of Wahoy Mahoy, has followed the culprits back to Blind Iron Mines in hopes of salvaging his cargo. Seek him out and offer him your help.",
+            "The kobolds that ransacked Wahoy's coach are hiding out in the mines. Clean up the kobolds and take back the cargo.",
+            "You have defeated the kobolds and reclaimed Wahoy Mahoy's cargo─bundles of raiments. Deliver the good tidings to the coachman.",
+            "An overjoyed Wahoy Mahoy is rearing to render the raiments to Skarnmhar. He asks that you complete the delivery in his stead while he repairs the stagecoach.",
+            "Skarnmhar takes the news of kobold activity with a furrowed brow. It might be best to bring this matter to Anaoc's attention.",
+            "The kobolds have been making steady inroads into Red Rooster Stead turf and show no signs of slowing down. It is only a matter of time before push comes to shove."
+        ],
+        "objectives": [
+            "Speak with Wahoy Mahoy.",
+            "Slay the kobolds and recover the bundles of raiments.",
+            "Speak with Wahoy Mahoy.",
+            "Deliver the bundles of raiments to Skarnmhar.",
+            "Report to Anaoc."
+        ],
+        "dialogue": [
+            {
+                "name": "SKARNMHAR",
+                "text": "I keep watch over the gates here at the Stead, but my watch extends only so far."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "The stagecoach that was supposed to pull in today never made it past Blind Iron Mines. Word arrived not long ago that it was waylaid by someone─or <span class=\"emphasis\">something</span>."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "The coachman is a plucky fellow. If I know Wahoy Mahoy, he'll be poking around the mines, plotting to salvage his consignment. But ultimately, he is just one man. It would put my mind at ease if you could go to his aid."
+            },
+            {
+                "name": "WAHOYMAHOY",
+                "text": "You mus' be the help that Skarnmhar's sent. I thought you'd never get here!"
+            },
+            {
+                "name": "WAHOYMAHOY",
+                "text": "The kobolds stuck me up an' skedaddled with the garments, but don't you worry none. I'm fixin' to get 'em back so's we can get 'em back."
+            },
+            {
+                "name": "WAHOYMAHOY",
+                "text": "All you gotta do is mosey on up close to that stagecoach they hit an' peek in, an' you bet yer bottom gil those kobolds'll come a-callin'."
+            },
+            {
+                "name": "WAHOYMAHOY",
+                "text": "An' once them critters come out, THWACK! You pop 'em in the jaw an' snag the loot! It's foolproof!"
+            },
+            {
+                "name": "WAHOYMAHOY",
+                "text": "Confounded kobolds! Make like you're rummaging through that stagecoach, an' when the li'l devils show 'emselves, you show 'em what's what, an' get back our stuff!"
+            },
+            {
+                "name": "WAHOYMAHOY",
+                "text": "You done good, partner! Rounded up enough to bring back to the Stead, I reckon."
+            },
+            {
+                "name": "WAHOYMAHOY",
+                "text": "I'll tend to the rest o' this here mess. You go on ahead an' make sure ol' Skarnmhar gets the goods."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "Good to see you return to us unharmed."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "And with three full bags, no less. I am grateful, but I fear this is hardly the last we'll hear of the kobolds."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "They have been growing more restless in recent moons, and this trend is like to continue."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "Anaoc must be apprised of this incident. War is at our doorstep."
+            },
+            {
+                "name": "WAHOYMAHOY",
+                "text": "Thanks to you, those kobolds won't be pussyfootin' 'round the mines no more. All that's left is for me to repair my coach."
+            },
+            {
+                "name": "ANAOC",
+                "text": "So the kobolds are at it again..."
+            },
+            {
+                "name": "ANAOC",
+                "text": "Not content with their own territory, the creatures have been pouring forth from their subterranean dwellings to wreak havoc on Lominsan land. But we won't stand for it─our livelihoods are at stake."
+            },
+            {
+                "name": "ANAOC",
+                "text": "Alas, with neither side willing to give any ground, I fear there may be no peaceful resolution."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 206,
+            "items": [
+                {
+                    "id": 3014
+                },
+                {
+                    "id": 4305,
+                    "one": 1
+                },
+                {
+                    "id": 4306,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 1620
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66013
+            ]
+        },
+        "next": [
+            66015
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002591",
+            "obj": {
+                "i": 1002591,
+                "n": "Skarnmhar",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002571",
+            "obj": {
+                "i": 1002571,
+                "n": "Anaoc",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002678",
+            "obj": {
+                "i": 1002678,
+                "n": "Wahoy Mahoy",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3014",
+            "obj": {
+                "i": 3014,
+                "n": "Amateur's Kurta",
+                "l": 9,
+                "c": 42233,
+                "t": 35,
+                "p": 246
+            }
+        },
+        {
+            "type": "item",
+            "id": "4305",
+            "obj": {
+                "i": 4305,
+                "n": "Copper Gorget",
+                "l": 8,
+                "c": 54801,
+                "t": 40,
+                "p": 176
+            }
+        },
+        {
+            "type": "item",
+            "id": "4306",
+            "obj": {
+                "i": 4306,
+                "n": "Bone Necklace",
+                "l": 8,
+                "c": 54830,
+                "t": 40,
+                "p": 156
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66013",
+            "obj": {
+                "i": 66013,
+                "n": "Flour Power",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 80
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66015",
+            "obj": {
+                "i": 66015,
+                "n": "Bait and Swat",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 90
+            }
+        }
+    ]
+}

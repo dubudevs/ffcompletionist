@@ -1,0 +1,88 @@
+{
+    "quest": {
+        "name": "Honor the Fallen",
+        "location": "Outer La Noscea",
+        "id": 66554,
+        "patch": 2.0,
+        "sort": 470,
+        "eventIcon": 71221,
+        "issuer": 1006594,
+        "target": 1006594,
+        "genre": 91,
+        "journal": [
+            "F'majha wears a sorrowful expression on her face.",
+            "F'majha grieves for the loss of her Red Swallow comrades who did not return from their mission. Go to the battlefield and retrieve the marks from their bodies, that F'majha might pay them some small tribute.",
+            "You have retrieved the marks from the bodies of the fallen Swallows. Return them to F'majha.",
+            "F'majha's tears flow freely as she takes the mementos of her fallen comrades into hand. Drying her eyes, she vows to fight so that their sacrifice will not be in vain."
+        ],
+        "objectives": [
+            "Retrieve marks from the fallen.",
+            "Deliver marks to F'majha."
+        ],
+        "dialogue": [
+            {
+                "name": "FMAJHA",
+                "text": "Aye...we'd faced danger countless times together, ever since our piratin' days. That was until our last mission, when the five of us set out together, and only I returned..."
+            },
+            {
+                "name": "FMAJHA",
+                "text": "I'm not fool enough to hold out hope that me comrades still live, but not havin' so much as a scrap o' thread t' remember them by─it pains me like a saber in the gut. Might ye go to the battlefield and bring back a memento of me fallen brothers?"
+            },
+            {
+                "name": "FMAJHA",
+                "text": "//: retrieve marks from fallen comrades"
+            },
+            {
+                "name": "FMAJHA",
+                "text": "Returned, have ye? Did ye find aught of me fallen comrades?"
+            },
+            {
+                "name": "FMAJHA",
+                "text": "&lt;sniffle&gt; &lt;sob&gt; I... I know it wouldn't 'ave made no difference, but I just wish I could've been with them at the end."
+            },
+            {
+                "name": "FMAJHA",
+                "text": "...But any tears I shed be little more than drops in the ocean. Aye, I must take up their fight and see that their sacrifice wasn't in vain."
+            }
+        ],
+        "reward": {
+            "gil": 1716,
+            "xp": 13160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 47,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66551
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006594",
+            "obj": {
+                "i": 1006594,
+                "n": "F'majha",
+                "l": 350,
+                "q": 1,
+                "t": "Storm Private"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66551",
+            "obj": {
+                "i": 66551,
+                "n": "A Kobold Initiative",
+                "g": 93,
+                "l": "The Waking Sands",
+                "s": 470
+            }
+        }
+    ]
+}

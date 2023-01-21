@@ -1,0 +1,180 @@
+{
+    "quest": {
+        "name": "Passing Muster",
+        "location": "Central Shroud",
+        "id": 65737,
+        "patch": 2.0,
+        "sort": 15,
+        "eventIcon": 71201,
+        "issuer": 1000421,
+        "target": 1000421,
+        "genre": 1,
+        "journal": [
+            "Galfrid, chief instructor at the Bannock, wishes to inspect your equipment and thereby gauge your readiness for future missions.",
+            "To be eligible for tasks from Galfrid, you must first assemble a respectable set of equipment. Equip your head, body, hands, legs, and feet with gear of item level 5 or above and present yourself to the chief instructor for inspection.",
+            "Galfrid has determined that your equipment passes muster. You are now eligible to undertake missions from the chief instructor."
+        ],
+        "objectives": [
+            "Present yourself to Galfrid for inspection."
+        ],
+        "dialogue": [
+            {
+                "name": "GALFRID",
+                "text": "I see you are eager to lend a hand, <span class=\"highlight\">Forename</span>. That is well. But I cannot in good conscience send you into the forest until I have established that your equipment is equal to the task."
+            },
+            {
+                "name": "GALFRID",
+                "text": "It bears repeating that, in the five years since the dawn of the Seventh Umbral Era, many of the Twelveswood's creatures have transformed into vicious, bloodthirsty monsters. Venturing into the forest without the proper gear is tantamount to suicide."
+            },
+            {
+                "name": "GALFRID",
+                "text": "I suggest you take some time to evaluate your equipment. Once you deem your armor to be of sufficient quality, present yourself to me for inspection."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Equip your head, body, hands, legs, and feet with gear of item level 5 or above before returning to speak with Galfrid."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Ready for inspection are we? Right, then! Eyes forward! Back straight!"
+            },
+            {
+                "name": "GALFRID",
+                "text": "Hmmm... Yes, I think you pass muster."
+            },
+            {
+                "name": "GALFRID",
+                "text": "You would be surprised at how many young, promising soldiers get themselves killed by rushing off into the woods without first donning a decent set of armor."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Your equipment, however, should provide the required degree of protection. Consider yourself ready for duty, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "GALFRID",
+                "text": "&lt;sigh&gt; You may as well be strolling around in your nameday suit. Come back when you've acquired some sturdier gear."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Equip your head, body, hands, legs, and feet with gear of item level 5 or above before returning to speak with Galfrid."
+            }
+        ],
+        "reward": {
+            "gil": 128,
+            "items": [
+                {
+                    "id": 1820,
+                    "one": 1
+                },
+                {
+                    "id": 1891,
+                    "one": 1
+                },
+                {
+                    "id": 1958,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65564
+            ]
+        },
+        "next": [
+            65981
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000421",
+            "obj": {
+                "i": 1000421,
+                "n": "Galfrid",
+                "l": 54,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "1820",
+            "obj": {
+                "i": 1820,
+                "n": "Bone Harpoon",
+                "l": 5,
+                "c": 31810,
+                "t": 5,
+                "p": 212
+            }
+        },
+        {
+            "type": "item",
+            "id": "1891",
+            "obj": {
+                "i": 1891,
+                "n": "Maple Shortbow",
+                "l": 5,
+                "c": 32201,
+                "t": 4,
+                "p": 212
+            }
+        },
+        {
+            "type": "item",
+            "id": "1958",
+            "obj": {
+                "i": 1958,
+                "n": "Maple Wand",
+                "l": 5,
+                "c": 32401,
+                "t": 8,
+                "p": 154
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65564",
+            "obj": {
+                "i": 65564,
+                "n": "To the Bannock",
+                "g": 1,
+                "l": "Gridania",
+                "s": 12
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65981",
+            "obj": {
+                "i": 65981,
+                "n": "Chasing Shadows",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 16
+            }
+        }
+    ]
+}

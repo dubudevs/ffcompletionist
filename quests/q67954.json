@@ -1,0 +1,653 @@
+{
+    "quest": {
+        "name": "What She Always Wanted",
+        "location": "The Fringes",
+        "id": 67954,
+        "patch": 4.0,
+        "sort": 700,
+        "icon": 100679,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1019132,
+        "target": 1019588,
+        "involved": [
+            1018759,
+            1019122,
+            1019123,
+            1019126,
+            1019127,
+            1019130,
+            1019589,
+            1019590
+        ],
+        "genre": 153,
+        "journal": [
+            "Sylphie appears to be overwhelmed.",
+            "Sylphie reports that Gatty's training is proceeding as planned, but Sanche's health is in steady decline. Aid the overwhelmed acolyte by picking up the herbal remedy from the independent sutler at Castrum Oriens.",
+            "You have secured the potent medicine from the merchant. Travel through the forest and rejoin Sylphie at Fletcher's Cabin.",
+            "You return to the cabin to find Sylphie on the verge of panic. /soothe the frantic acolyte and learn what has driven her to such a state.",
+            "Following your efforts to calm her, Sylphie tells you of how she returned from drawing water to find that both the Padjal and her mother had vanished. The acolyte then recalls how Sanche expressed a desire to visit a cave known as the Comet's Tail one last time, and sends you there to search for the missing pair...",
+            "You find Gatty and her mother inside the cave, and dispatch the voidsent poised to prey upon the Padjal. Sanche appears to have suffered another of her turns, and Gatty is clearly on the verge of panic. Administer the herbal remedy to the prone woman, and wait for it to take effect.",
+            "Despite your best efforts, Sanche at last succumbs to the ravages of her illness. Gatty is unable to accept her mother's fate, and the ensuing tempest of aether attracts the attention of an insidious greater voidsent. The fiend, seeking to feed on the outpouring of energy, manipulates the child into losing complete control of her aura. You engage the voidsent in battle without hesitation, whilst E–Sumi–Yan and Sylphie attempt to bolster Gatty's waning spirit. Gatty eventually regains control of her aether, and you succeed in casting the winged horror back into the void. Approach the grieving Padjal, and offer her what comfort you may.",
+            "Though devastated by the loss of her mother, Gatty realizes that her newfound control now allows her to leave her isolation in the forest. Hoping to make her mother proud, she vows to study hard, and live a life of happiness as Sanche would have wanted. With Sylphie and E–Sumi–Yan there to guide her, you sense that Gatty has a wonderful future awaiting her at Stillglade Fane.<br><br>※The next white mage quest will be available from Raya–O–Senna once you have met the following requirements:<br>※ FINAL FANTASY XIV: Shadowbringers must be registered to your service account.<br>※ You must have completed the main scenario quest “Shadowbringers.”<br>※ You must have completed the role quest “The Soul of Temperance.”"
+        ],
+        "objectives": [
+            "Obtain the herbal remedy from the independent sutler at Castrum Oriens.",
+            "Return to Sylphie.",
+            "/soothe Sylphie.",
+            "Find Sanche and Gatty.",
+            "Administer the herbal remedy to Sanche.",
+            "Speak with Gatty.",
+            "Defeat Camazotz!",
+            "Gatty's life force",
+            "Heal Sylphie!",
+            "Defeat Camazotz!"
+        ],
+        "dialogue": [
+            {
+                "name": "GATTY",
+                "text": "I've been studying as much as I can, but Mama's still not getting better. Maybe...maybe if I work even harder!"
+            },
+            {
+                "name": "SANCHE",
+                "text": "Ah, <span class=\"highlight\">Forename</span>...<br>Each day has become a struggle to rise from bed. I cannot hunt, I can barely─ Promise me you'll care for Gatty."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Come to look in on us, have you, <span class=\"highlight\">Forename</span>? Brother E–Sumi will also soon be here to gauge Gatty's progress."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Her studies have actually been going rather well─it's Sanche I'm worried about. Please don't say anything to Gatty yet, but I fear her mother may be near her time..."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "I've suspended lessons for the moment, and had the two of them spend every waking moment together. Treating Sanche has left me too exhausted to teach in any case."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "As for her medicine, another batch should have arrived at the castrum by now. I need to draw the spring water I use to dilute the dose, so would you mind picking up the delivery from the sutler for me? We'll meet back here."
+            },
+            {
+                "name": "GATTY",
+                "text": "Mama... Why won't you open your eyes...?"
+            },
+            {
+                "name": "SANCHE",
+                "text": "..."
+            },
+            {
+                "name": "SUPPORTER02418",
+                "text": "You've come on young Sylphie's behalf, have you? I've got her delivery right here─rushed it through on the back of our swiftest chocobo."
+            },
+            {
+                "name": "SUPPORTER02418",
+                "text": "Seems her patient's in a bad way, eh? Well, I'll say my own prayers to the Matron and hope the medicine does the trick."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Sanche!? Gatty!? Please, no more hiding now...<br>Oh, where could they have gone!?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Sylphie seems to be in a panic. Do your best to <span class=\"highlight\">soothe</span> her."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "This isn't funny! Please! Please, come out..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Sylphie seems to be in a panic. Do your best to <span class=\"highlight\">soothe</span> her."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "<span class=\"highlight\">Forename</span>! I... Thank you. If ever I needed your calming presence, it's now."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "I came back with the spring water to find Gatty's hat upon the floor and the two of them vanished. Sanche could barely move! Where in Hydaelyn could they have gone!?"
+            },
+            {
+                "name": "Q1",
+                "text": "Where could they have gone?"
+            },
+            {
+                "name": "A1",
+                "text": "They've run away again."
+            },
+            {
+                "name": "A1",
+                "text": "They can't have gone far."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Run away? But from what? Gatty was doing wonderfully with her training─there hasn't been another voidsent attack since the river."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "You're right. Gatty's been doing wonderfully with her training, so there's no reason for them to run away."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "...Ah, I think I might have it! I've heard Sanche talking about a cave called the “Comet's Tail,” and how she wanted to visit it again before...before it was too late."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "I said we'd head straight there when she was well enough, but she may have convinced Gatty to help her sneak out."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Brother E–Sumi is likely on his way. I'll go and intercept him while you head to the cave. If you find them there, make sure Sanche takes her medicine!"
+            },
+            {
+                "name": "GATTY",
+                "text": "Mama! You have to get up..."
+            },
+            {
+                "name": "SANCHE",
+                "text": "&lt;groan&gt;"
+            },
+            {
+                "name": "GATTY",
+                "text": "Mama, don't leave me... Please, you have to help her!"
+            },
+            {
+                "name": "SANCHE",
+                "text": "&lt;groan&gt;"
+            },
+            {
+                "name": "GATTY",
+                "text": "Mama... Mama, please... Don't leave me alone..."
+            },
+            {
+                "name": "SANCHE",
+                "text": "&lt;groan&gt; Ugh..."
+            },
+            {
+                "name": "GATTY",
+                "text": "Why isn't the medicine working!? Mama? Mama! Open your eyes!"
+            },
+            {
+                "name": "GATTY",
+                "text": "I can't... I'm losing control..."
+            },
+            {
+                "name": "GATTY",
+                "text": "No, I must own my fear."
+            },
+            {
+                "name": "GATTY",
+                "text": "Feel the ground beneath my feet; the flow of wind and water!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Nicely done, Gatty. You have made remarkable progress since last we met."
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "<span class=\"highlight\">Forename</span>, Sylphie, you have instructed her well."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Don't worry! We'll look after your mama!"
+            },
+            {
+                "name": "SANCHE",
+                "text": "It's so beautiful...<br>Thank you for bringing me here...one last time."
+            },
+            {
+                "name": "GATTY",
+                "text": "Don't say that, Mama! I'll learn conjury, and once you're better we can come here every day!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "<span class=\"highlight\">Forename</span>... It is thanks to your and Sylphie's efforts that Sanche has held on this long."
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "And yet, there are limits to the healing arts. Each life comes to an end, and even a conjurer cannot undo that which fate has ordained."
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Take heart, however, in knowing that your care and attention is what has allowed these irreplaceable moments between mother and daughter..."
+            },
+            {
+                "name": "SANCHE",
+                "text": "My precious girl...<br>You have filled my days with love..."
+            },
+            {
+                "name": "SANCHE",
+                "text": "But I was selfish...and that selfishness has brought you pain. For that, I am truly sorry..."
+            },
+            {
+                "name": "GATTY",
+                "text": "Mama!"
+            },
+            {
+                "name": "SANCHE",
+                "text": "My love... My light... I pray you find such happiness as I have known..."
+            },
+            {
+                "name": "SANCHE",
+                "text": "Thank you...all of you. Watch over her..."
+            },
+            {
+                "name": "GATTY",
+                "text": "No... No. NO!!!"
+            },
+            {
+                "name": "GATTY",
+                "text": "This can't be happening... I promised Mama..."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "（★未使用／削除★）"
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Oh no..."
+            },
+            {
+                "name": "BOSSWHM700",
+                "text": "(-Sinister Voice-)Mmm... So very close. Heed my words, then..."
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "How long has this fiend lurked within Sanche, awaiting this very moment...?"
+            },
+            {
+                "name": "BOSSWHM700",
+                "text": "(-Sinister Voice-)Terrible child. Dragging around your sick mother. You have killed her! Accept the evil you have done, and atone with your very life!"
+            },
+            {
+                "name": "GATTY",
+                "text": "But, I didn't... I killed her...?"
+            },
+            {
+                "name": "BOSSWHM700",
+                "text": "（★未使用／削除★）"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "（★未使用／削除★）"
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Ignore it, Gatty!"
+            },
+            {
+                "name": "GATTY",
+                "text": "But I did bring Mama here...<br>It was me. <span class=\"emphasis\">I</span> killed her..."
+            },
+            {
+                "name": "GATTY",
+                "text": "Aaah!!!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "The voidsent has sunk its hooks into Gatty's spirit. We must destroy it ere her life force is drained away!"
+            },
+            {
+                "name": "BOSSWHM700",
+                "text": "Revile what you have become, murderer! Surrender your life to me!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "We will help Gatty resist this trance, but the voidsent must be slain!"
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Remember the elements, Gatty! Let wind and water calm your mind!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Do not give in to despair!<br>It is what the voidsent wants!"
+            },
+            {
+                "name": "BOSSWHM700",
+                "text": "All who stand with you will die! Revel in the depth of your atrocity!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Sylphie!?"
+            },
+            {
+                "name": "GATTY",
+                "text": "No, not you, too...<br>This is all my fault!"
+            },
+            {
+                "name": "GATTY",
+                "text": "Aaaaaah!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "No! She's losing too much aether!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "I will try to staunch the flow.<br><span class=\"highlight\">Forename</span>, slay the voidsent!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "The candle of life burns down for us all.<br>You cannot punish yourself..."
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Gatty, remember what your mother wanted for you!"
+            },
+            {
+                "name": "GATTY",
+                "text": "What Mama wanted...?"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Yes, think back on her words!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Say them, Gatty! Hear yourself say them!"
+            },
+            {
+                "name": "GATTY",
+                "text": "“I pray you find such happiness...”"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Well done, <span class=\"highlight\">Forename</span>!<br>I will rouse Sylphie─pray focus your art upon her."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Thank you, Guildmaster.<br><span class=\"highlight\">Forename</span>...I need your healing touch..."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "We won't let you go, Gatty!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Draw on our strength! Remember your mother's love!"
+            },
+            {
+                "name": "GATTY",
+                "text": "I... I'm in control now. Thank you..."
+            },
+            {
+                "name": "GATTY",
+                "text": "Mama, I know what you wanted for me...<br>And I think I've found it..."
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "You've done well, Gatty.<br>Now, let us banish this foul creature from our midst!"
+            },
+            {
+                "name": "GATTY",
+                "text": "Foolish girl! Your right to love is forfeit! You belong to me!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "（★未使用／削除★）"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Was this foe beyond us...?"
+            },
+            {
+                "name": "GATTY",
+                "text": "I never should've... I'm sorry..."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "This can't be...<br>I gave all I had..."
+            },
+            {
+                "name": "BOSSWHM700",
+                "text": "Your feeble magicks are...ah...AAAHHH!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "With the voidsent vanquished, Gatty has been freed of its debilitating influence. We need not fear her losing control again."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "Gatty is a fighter, but I think she needs a strong shoulder right now..."
+            },
+            {
+                "name": "GATTY",
+                "text": "When Mama died, it was as if I'd fallen into a deep, dark hole. My mind was full of screaming...and then I heard your voices from somewhere far away, calling me back."
+            },
+            {
+                "name": "GATTY",
+                "text": "I heard Mama's voice, too. That's when I knew that she would always be at my side..."
+            },
+            {
+                "name": "GATTY",
+                "text": "I'll do my best to make her proud of me!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "With the strength you've shown, there is already much of which to be proud. Your aether is tranquil. Calm."
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "I see no need to enforce further training at the guild...though its doors are open to you, nonetheless. Will you return with us to Gridania?"
+            },
+            {
+                "name": "GATTY",
+                "text": "...I'd always thought Mama wanted to live alone with me, away from other people. So I tried to forget about wanting friends, or traveling to other places."
+            },
+            {
+                "name": "GATTY",
+                "text": "But now, I think what she really wanted was to let me find my own way. And thanks to Sylphie's lessons, there's no need to hide in the forest anymore."
+            },
+            {
+                "name": "GATTY",
+                "text": "I will go to Gridania. I want to study more conjury, and learn to fight fiends as well as <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "GATTY",
+                "text": "And I still have so much to learn from Sylphie."
+            },
+            {
+                "name": "SYLPHIE",
+                "text": "We'll keep studying together, I promise. Although we both have far to go before we're a match for <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "Well, well, Sylphie. Making promises to <span class=\"emphasis\">study</span>? 'Twould seem that mentoring Gatty has proven beneficial to you both."
+            },
+            {
+                "name": "ESUMIYAN",
+                "text": "'Tis time we were on our way. We shall hold a memorial for Sanche, then see about settling you into your new life at Stillglade Fane."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This concludes the white mage quests for FINAL FANTASY XIV: Stormblood. In order to undertake the next series of quests, you must first meet the following requirements:"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "※ FINAL FANTASY XIV: Shadowbringers must be registered to your service account.<br>※ You must have completed the main scenario quest “Shadowbringers.”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "※ You must have completed the role quest “The Soul of Temperance.”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Once you have done so, the next white mage quest will be available from Raya–O–Senna."
+            }
+        ],
+        "reward": {
+            "gil": 2500,
+            "action": 7433,
+            "items": [
+                {
+                    "id": 20279
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 25
+                }
+            ],
+            "quests": [
+                67953
+            ]
+        },
+        "next": [
+            68751
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1019132",
+            "obj": {
+                "i": 1019132,
+                "n": "Sylphie",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019588",
+            "obj": {
+                "i": 1019588,
+                "n": "Gatty",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018759",
+            "obj": {
+                "i": 1018759,
+                "n": "Independent Sutler",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019122",
+            "obj": {
+                "i": 1019122,
+                "n": "Gatty",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019123",
+            "obj": {
+                "i": 1019123,
+                "n": "Sanche",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019126",
+            "obj": {
+                "i": 1019126,
+                "n": "Gatty",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019127",
+            "obj": {
+                "i": 1019127,
+                "n": "Sanche",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019130",
+            "obj": {
+                "i": 1019130,
+                "n": "Sylphie",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019589",
+            "obj": {
+                "i": 1019589,
+                "n": "Sylphie",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019590",
+            "obj": {
+                "i": 1019590,
+                "n": "E-Sumi-Yan",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "action",
+            "id": "7433",
+            "obj": {
+                "i": 7433,
+                "n": "Plenary Indulgence",
+                "c": 2639,
+                "j": 24,
+                "t": 4,
+                "l": 70
+            }
+        },
+        {
+            "type": "item",
+            "id": "20279",
+            "obj": {
+                "i": 20279,
+                "n": "Seventh Heaven Attire Coffer (IL 290)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67953",
+            "obj": {
+                "i": 67953,
+                "n": "The Problem with Padjals",
+                "g": 153,
+                "l": "The Fringes",
+                "s": 680,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68751",
+            "obj": {
+                "i": 68751,
+                "n": "Whence the Healing Springs",
+                "g": 153,
+                "l": "South Shroud",
+                "s": 800
+            }
+        }
+    ]
+}

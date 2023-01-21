@@ -1,0 +1,589 @@
+{
+    "quest": {
+        "name": "Our Aching Souls",
+        "location": "Radz-at-Han",
+        "id": 69662,
+        "patch": 6.0,
+        "sort": 501,
+        "icon": 101094,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1039101,
+        "target": 1037016,
+        "genre": 188,
+        "journal": [
+            "The Ishgardian delegate seeks a battle mage with courage unwavering.",
+            "The Ishgardian delegate informs you that a dread blasphemy resembling a dragon has appeared in Ishgard, spreading panic throughout the nation. Seeking to vanquish the threat without delay, the authorities have begun assembling a hunting party. Though they have no shortage of valorous knights, the Ishgardians believe that their mission would benefit for the presence of a battle mage who can stand unflinching in the face of their fell quarry─and who should fit that description better than you? Having agreed to lend your strength, you promptly depart for the Holy See.",
+            "Arriving in snow-swept Ishgard, you are warmly welcomed by both Artoirel and Aymeric, who brief you on the situation with the blasphemy. Dubbed Profane Fafnir, the beast was apparently born from a young man seen stumbling through the Hoplon in a state of distress. Though the creature soon fled, it has since been seen in the skies above Ishgard on a regular basis, and the mere sight of it has caused others to turn as well. While the identity of the first victim is unknown, it has been determined that all who were subsequently transformed were people of fervent faith, such as priests and inquisitors. In order to better understand the situation, Artoirel has arranged a meeting with the sole member of the clergy who witnessed the blasphemy's birth but did not turn. Thus do you make your way to Saint Reymanaud's Cathedral, where the man, a deacon named Clem, awaits.",
+            "You speak with Clem, who recounts the terrifying moment the blasphemy appeared, and confirms that his brethren who were present were all overcome with despair and transformed. As the deacon recounts his tale, Bishop Vartinoix, presently the highest authority in the Ishgardian Orthodox Church, appears and thanks you for your efforts to rid Ishgard of this scourge. After he has taken his leave, Clem turns to you with a request─a request which his tone suggests may be somewhat urgent...",
+            "In the wake of the transformations, a group of clergymen fled the city in fear. Believing that it is more dangerous out in the wilderness, Clem entreats your aid in searching for them in the western highlands, that they may be persuaded to return to Ishgard. While Artoirel and Aymeric tend to Hemlock, you are tasked with escorting the deacon to Gorgagne Mills.",
+            "You succeed in finding the clergymen at Gorgagne Mills. However, in the course of lamenting their poor treatment at the hands of the populace in the wake of the war's end, an inquisitor succumbs to his despair and transforms into a beast. To prevent it from harming others, Aymeric bids you go after the creature and do what must be done.",
+            "You find the turned inquisitor and lay him to rest. Your task accomplished, you hurry back to rejoin your companions at Gorgagne Mills.",
+            "Aymeric informs you that the remaining clergymen have agreed to return to the Holy See. Once they have been safely escorted back, he bids everyone reconvene at the Congregation of Our Knights Most Heavenly to lay plans. For your purposes, you have the use of the strategy room, which you may enter by speaking with the Temple Knight guard stationed without.",
+            "Arriving at the Congregation, you announce yourself to the guard, who shows you through to join your companions.<br><br>※In the event that you leave the strategy room, you may re-enter by speaking with the Temple Knight guard at the Congregation of Our Knights Most Heavenly.",
+            "Recent revelations strongly suggest that people of faith are most susceptible to turning due to the challenges they have faced since Ishgard's false history was brought to light. However, further investigation will be required if you are to draw a definite conclusion, and Aymeric bids you take a moment's rest while he and Artoirel make provisions for your next move.<br><br>※The next role quest will be available from Artoirel upon reaching level 86 in any magical ranged DPS class."
+        ],
+        "objectives": [
+            "Speak with Artoirel in Ishgard.",
+            "Speak with Clem at Saint Reymanaud's Cathedral.",
+            "Speak with Clem again.",
+            "Search for clergymen in the vicinity of Gorgagne Mills.",
+            "Find and defeat the turned inquisitor.",
+            "Speak with Aymeric.",
+            "Speak with the Temple Knight guard at the Congregation of Our Knights Most Heavenly.",
+            "Speak with Artoirel in the strategy room."
+        ],
+        "dialogue": [
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "Ah, my <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">lord</span></span> <span class=\"highlight\">Forename</span>! I have awaited your coming!"
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "The phenomenon wherein men turn into monsters... It pains to say that Ishgard has not been spared."
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "A dread blasphemy has appeared in the Holy See, and to compound the people's horror, the beast resembles a dragon. 'Tis imperative that it be vanquished without delay, and to that end we have begun assembling a hunting party."
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "Given that fear and despair may turn our allies against us, we are being stringent in whom we choose for this duty."
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "Yet while we have confidence in the quality of our knights, the mission would greatly benefit for the presence of a battle mage─one who can stand unflinching in the face of our fell quarry."
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "We would be hard-pressed to find an individual who fits that description better than you. Will you not lend us your strength and skill?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "You can count on me."
+            },
+            {
+                "name": "A1",
+                "text": "Oh, very well..."
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "We are in your debt! Just a moment while I relay the glad tidings to command."
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "'Tis settled. Upon arriving in Ishgard, please take yourself to the aetheryte plaza. Lord Artoirel will be there to receive you. May the Fury speed your way!"
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "Allow me to thank you once more for agreeing to aid us in our efforts to vanquish the blasphemy."
+            },
+            {
+                "name": "ISHGARDRESIDENTOFFICER",
+                "text": "Lest you forget, upon arriving in Ishgard, please take yourself to the aetheryte plaza. Lord Artoirel will be there to receive you."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "<span class=\"highlight\">Forename</span>, I have been expecting you! Words cannot well express how heartening it is to have you fighting beside us."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "(-Aymeric-)Allow me to echo that sentiment."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Greetings, my friend. Lest you wonder, Lord Artoirel and I are leading the effort to deal with the blasphemy. With your capable self in the fold, I have no doubt that we shall succeed."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Without further ado, I shall brief you on the situation. 'Twas a handful of days after the first beasts appeared in Radz-at-Han..."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "An Elezen man was observed at the Hoplon in the Pillars, walking with an unsteady gait."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "All of a sudden, he buckled over as if in pain. And before anyone knew what was happening, he had transformed into a terrible, draconic beast."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "At the mere sight of this, many who chanced to be present also turned, and regrettably the Temple Knights were forced to put them down."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "The blasphemy itself, however, took wing and fled."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Profane Fafnir, we have chosen to call it, after the dragon-man of Ishgardian myth."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Since that day, the beast has oft been sighted in the skies above Ishgard. It does not attack; only circles menacingly for a time ere disappearing again."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Alas, these brief visitations are enough to cause more people to turn, and for fear and panic to spread further."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "As part of our investigation, we have sought to identify the man who became the blasphemy, but thus far we have learned naught."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "We have, however, identified a common thread between those who subsequently turned: all were people of fervent faith. People such as priests and inquisitors."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "To be deleted."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "When the truth of our nation's history was laid bare, the legitimacy of the church was called into question."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Many Ishgardians struggled to reconcile the revelations with their beliefs, and none more so than the pious. Such men and women, we posit, would be more susceptible to despair─and therefore the transformation."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "We must find a way to stop it. Ishgard has only just emerged from a thousand-year war, and we cannot suffer another great tragedy, much less so soon."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "In order to attain a better understanding of the situation, we intend to speak with a member of the clergy."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "The sole individual who survived witnessing the blasphemy's birth without being turned."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Clem is his name, and he is a deacon at Saint Reymanaud's Cathedral. Come, let us seek him out there at once."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Not so very long ago, few would have imagined Ishgardian knights marching beyond the bounds of their own dominion."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "But we have ventured to the heart of Garlemald and fought for no less than the fate of the world itself. Our nation has changed, and continues to do so."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "To be deleted."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "To be deleted."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "To be deleted."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "To be deleted."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Here he is─Deacon Clem. Let us see what he can tell us."
+            },
+            {
+                "name": "CLEM",
+                "text": "Lord Aymeric, Lord Artoirel...and the savior of Ishgard besides! You do me great honor."
+            },
+            {
+                "name": "CLEM",
+                "text": "I am Clem, and I serve as a deacon here at Saint Reymanaud's Cathedral."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "I understand you were among those at the Hoplon when the incident occurred. We give thanks to the Fury for your merciful preservation."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "We now seek to prevent the blasphemy from wreaking further havoc, and would appreciate any details you can provide."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Loath though we are to make you recall unpleasant memories, will you not recount to us what you witnessed that day?"
+            },
+            {
+                "name": "CLEM",
+                "text": "Very well."
+            },
+            {
+                "name": "CLEM",
+                "text": "We are presently relocating the Vault's libraries to the cathedral, in case you were unaware. We had finished delivering a batch of tomes, and were on our way to bring over another."
+            },
+            {
+                "name": "CLEM",
+                "text": "As we approached the Hoplon, we noticed a young man walking unsteadily. No sooner had he come to an abrupt halt than he transformed into a draconic beast."
+            },
+            {
+                "name": "CLEM",
+                "text": "The fiend fixed us with a menacing glare, and it was all we could do to find our wits and flee."
+            },
+            {
+                "name": "CLEM",
+                "text": "But to my compounding horror, my brethren who were with me began turning into monstrosities as well. One after another..."
+            },
+            {
+                "name": "VARTINOIX",
+                "text": "(-???-)Praise the Fury that you, at least, were spared, Deacon Clem. I cannot imagine how frightening the experience must have been."
+            },
+            {
+                "name": "CLEM",
+                "text": "Bishop Vartinoix!"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "To be deleted."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "To be deleted."
+            },
+            {
+                "name": "VARTINOIX",
+                "text": "Forgive me if I interrupt. I was informed that our stalwart protectors were present, and wished to express my gratitude."
+            },
+            {
+                "name": "VARTINOIX",
+                "text": "From the bottom of my heart, I thank you for your service. I pray that we shall soon be free of this scourge."
+            },
+            {
+                "name": "VARTINOIX",
+                "text": "Indeed, if there is aught we might do to aid your efforts, you need but say it."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "You are most kind, Your Grace."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "That was Bishop Vartinoix, the head of Saint Reymanaud's and a member of the Synod."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "With the seat of the archbishop vacant, he is, in effect, the highest authority in the Ishgardian Orthodox Church."
+            },
+            {
+                "name": "CLEM",
+                "text": "This is so. Yet in spite of his elevated station, he remains as kind and humble a man as any I have ever known."
+            },
+            {
+                "name": "CLEM",
+                "text": "Like His Grace, I would do all that I can to help shepherd our people through this uncertain time."
+            },
+            {
+                "name": "CLEM",
+                "text": "To that end, there is a request I would make of you...if you can spare a moment to consider it."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Of course. If it is within our power, we should be glad to offer you aid."
+            },
+            {
+                "name": "CLEM",
+                "text": "Thank you!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "The deacon was no less terrified by the blasphemy than his peers, yet he alone did not turn. By what grace was he spared?"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "What manner of request could this be? His tone bespeaks urgency..."
+            },
+            {
+                "name": "CLEM",
+                "text": "In the wake of the transformations, a group of clergymen fled the city in fear."
+            },
+            {
+                "name": "CLEM",
+                "text": "Yet though they sought refuge in the wilderness, they put themselves at the mercy of the elements and fell fiends both. Given that the cause of the transformation is not clear, I think theirs was a decidedly unwise decision."
+            },
+            {
+                "name": "CLEM",
+                "text": "I wish to set out and find them, but I am not trained in the ways of war. As such, I require those who are to accompany me in the search."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "So that is the way of it. Suffice it to say we will help. Do you know whither your fellows may have headed?"
+            },
+            {
+                "name": "CLEM",
+                "text": "The western highlands, I believe. Between Gorgagne Mills and Hemlock, there is no shortage of abandoned dwellings in the area."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Very well. Time being of the essence, I propose we split up and scour separate areas."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "<span class=\"highlight\">Forename</span>─if you could escort the good deacon to Gorgagne Mills, Lord Artoirel and I will tend to Hemlock."
+            },
+            {
+                "name": "CLEM",
+                "text": "That you should choose to abide in such harsh conditions..."
+            },
+            {
+                "name": "INQUISITOR04126",
+                "text": "Y-You!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Ah, I see you found them."
+            },
+            {
+                "name": "CLEM",
+                "text": "Yes, and none the worse for the wear, thank the Fury."
+            },
+            {
+                "name": "CLEM",
+                "text": "My friends. Forgive us if we have given cause for alarm. We come out of concern for your well-being."
+            },
+            {
+                "name": "CLEM",
+                "text": "Though we understand why you quit the city, we fear you may have placed yourselves at greater risk by coming here."
+            },
+            {
+                "name": "CLEM",
+                "text": "His Grace Bishop Vartinoix, too, worries for your health and prays for your swift return. So please, will you not allow us to escort you to the Holy See? I assure you, you will be much safer there than in this wretched place."
+            },
+            {
+                "name": "INQUISITOR04126",
+                "text": "Servants of the Fury will <span class=\"emphasis\">never</span> be safe in the city, don't you see!?"
+            },
+            {
+                "name": "INQUISITOR04126",
+                "text": "This is <span class=\"emphasis\">your</span> fault! You and your accursed “revolution”! The people disdain us─mock us behind our backs and spit in our faces!"
+            },
+            {
+                "name": "INQUISITOR04126",
+                "text": "And now someone is conspiring to transform us into monstrosities! Enemies of the church, I'll wager─emboldened by <span class=\"emphasis\">your</span> deeds! So no, I will <span class=\"emphasis\">not</span> go back to Ishgard! I'd sooner freeze to death than suffer your pity!"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "What!?"
+            },
+            {
+                "name": "INQUISITOR04126",
+                "text": "All I have ever done was in service to Her! I am a <span class=\"emphasis\">good</span> man! I...I do not... She cannot forsake me..."
+            },
+            {
+                "name": "ISHGARDIAN04126",
+                "text": "(-Frightened Nun-)Ahhhhhh! H-Halone preserve!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "<span class=\"highlight\">Forename</span>, we cannot allow him to harm any others!"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Give chase and do what you must. We will remain here and keep the others calm."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Deacon Clem, please do what you can to reassure them."
+            },
+            {
+                "name": "CLEM",
+                "text": "Y-Yes, of course..."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Do not worry about us─see to the beast. It cannot have gotten far."
+            },
+            {
+                "name": "CLEM",
+                "text": "All shall be well, my friends. Come, join me in prayer."
+            },
+            {
+                "name": "BALLOON",
+                "text": "The will of the archbishop...is absolute..."
+            },
+            {
+                "name": "BALLOON",
+                "text": "The wicked...shall be punished..."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "What of the beast?"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Is it done, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "AYMERIC",
+                "text": "My thanks. What happened is most regrettable, but we must be grateful that no one else came to harm."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "While you were gone, the deacon was able to convince the others to return to the city."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Let us escort them back at once, and then reconvene at the Congregation to consider our next course of action."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "For our purposes, we have the use of the strategy room. Announce yourself to the guard without, and he will show you in."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Here we shall discuss our plans to deal with the blasphemy. Whensoever you wish to enter, you need but say so to the guard."
+            },
+            {
+                "name": "CASTERGATEKEEPER",
+                "text": "Lords Aymeric and Artoirel await you within the strategy room. Will you be joining them now?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Proceed to the strategy room?"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Lest you wonder, we have taken the clergymen to Saint Reymanaud's to rest and recover."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "If truth be told, the thought that they may still succumb to despair and turn remains at the forefront of my mind..."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Yet the risk would be greater still were we to keep them at arm's length and deny them the comfort of the church."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Indeed. From the words he spoke, that inquisitor yearned for the days of old."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "He and others like him can scarcely be blamed."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Since the truth of the nation's founding and the archbishop's machinations were made public knowledge, the church has been in turmoil."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Though we have made great strides in separating religion and state, there has been far less progress in the reformation of the church."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "For our faith has been everything to us─our purpose and our comfort. 'Tis not an easy thing to reconcile one's beliefs with the betrayal of our spiritual leaders."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Thus torn between their hearts and minds, many Ishgardians feel lost. And none more so than members of the clergy, whose faith was once unshakable."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Little wonder, then, that the most dedicated and devout are like to turn."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "So it seems, but further investigation is needed ere we draw a definite conclusion."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "With the war's end, Ishgard has set out on a new path. The choices we make now shall determine our course for the future."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Come what may, we dare not squander the chance we have fought so hard to attain."
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Once the returned clergymen have sufficiently calmed down, I shall have the deacon speak with them, that we might gain insight into their individual plights."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Good. Meanwhile, I shall take the opportunity to brief my men on recent developments."
+            },
+            {
+                "name": "AYMERIC",
+                "text": "Pray take a moment's rest, my friend─you have earned it. When you are ready to continue our work, you may seek us out here."
+            },
+            {
+                "name": "CASTERGATEKEEPER",
+                "text": "Heading to the strategy room? I should be glad to show you in."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Proceed to the strategy room?"
+            }
+        ],
+        "reward": {
+            "gil": 1000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 85,
+                    "id": 190
+                }
+            ],
+            "quests": [
+                69954
+            ]
+        },
+        "next": [
+            69663
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1039101",
+            "obj": {
+                "i": 1039101,
+                "n": "Ishgardian Delegate",
+                "l": 3707,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1037016",
+            "obj": {
+                "i": 1037016,
+                "n": "Artoirel",
+                "l": 4023,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69954",
+            "obj": {
+                "i": 69954,
+                "n": "At World's End",
+                "g": 11,
+                "l": "Radz-at-Han",
+                "s": 572
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69663",
+            "obj": {
+                "i": 69663,
+                "n": "No Forgiveness, No Deliverance",
+                "g": 188,
+                "l": "Ishgard",
+                "s": 511,
+                "f": 1
+            }
+        }
+    ]
+}

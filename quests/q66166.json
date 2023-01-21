@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "The Circle of Life",
+        "location": "Eastern Thanalan",
+        "id": 66166,
+        "patch": 2.0,
+        "sort": 170,
+        "eventIcon": 71221,
+        "issuer": 1003931,
+        "target": 1003931,
+        "genre": 93,
+        "journal": [
+            "Tutusi of Camp Drybone has a deed for a daring adventurer.",
+            "Tutusi would like you to gather three sprigs of Althyk lavender from the gigantic goobbue carcass lying east of Camp Drybone.",
+            "You have gathered the three sprigs of Althyk lavender. Deliver them to Tutusi at Camp Drybone.",
+            "Althyk lavender is prized as an offering at funerals held at the Church of Saint Adama Landama. Apparently, the dead can appreciate the difference between a rare flower and a common one."
+        ],
+        "objectives": [
+            "Gather sprigs of Althyk lavender.",
+            "Deliver the Althyk lavender to Tutusi."
+        ],
+        "dialogue": [
+            {
+                "name": "TUTUSI",
+                "text": "Back for more, are you? Good. Now, riddle me this─in a camp such as ours, so close to a graveyard, what do you think sells faster than we can stock? Aye, <span class=\"emphasis\">flowers</span>!"
+            },
+            {
+                "name": "TUTUSI",
+                "text": "To the east of here lie the remains of an enormous goobbue, and so many plants sprout around it that you would think you'd found the Black Shroud in the middle of Thanalan."
+            },
+            {
+                "name": "TUTUSI",
+                "text": "Some say the goobbue came down from the mountains at the time of the Calamity, and carried with him the seeds that became all those plants. But then, all I'm really after is three sprigs of Althyk lavender. Seems simple enough, right?"
+            },
+            {
+                "name": "TUTUSI",
+                "text": "Well, <span class=\"highlight\">Forename</span>? Have you found my pretty posies?"
+            },
+            {
+                "name": "TUTUSI",
+                "text": "Ah, gorgeous! Well done, well done. I know not what's in that rotting goobbue carcass, but it makes for the loveliest damn flowers I've ever laid eyes on."
+            },
+            {
+                "name": "TUTUSI",
+                "text": "When it comes to offerings, they say the rarer the flower, the happier the dead. And Althyk lavender is nothing if not rare."
+            },
+            {
+                "name": "TUTUSI",
+                "text": "I'll be saving these to turn a pretty profit when the next burial is held at the lichyard!"
+            }
+        ],
+        "reward": {
+            "gil": 235,
+            "xp": 3640
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 17,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66160
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003931",
+            "obj": {
+                "i": 1003931,
+                "n": "Tutusi",
+                "l": 44,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66160",
+            "obj": {
+                "i": 66160,
+                "n": "A Dying Wish",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 170
+            }
+        }
+    ]
+}

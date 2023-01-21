@@ -1,0 +1,130 @@
+{
+    "quest": {
+        "name": "Three for Three",
+        "location": "Coerthas Central Highlands",
+        "id": 66425,
+        "patch": 2.0,
+        "sort": 194,
+        "icon": 100137,
+        "eventIcon": 71201,
+        "issuer": 1006380,
+        "target": 1006380,
+        "genre": 1,
+        "journal": [
+            "Lord Portelaine requires that you perform a third task on behalf of House Durendaire.",
+            "As a condition of providing you with three formal introductions to the other three High Houses, Lord Portelaine has asked you to investigate the scene of a recent robbery west of the Observatorium. Search for and recover any parcels that you find, but make sure that you are prepared to defend yourself if the perpetrators are still present.",
+            "Your search yields three parcels which likely belong to the porter who was ambushed. Present them to Lord Portelaine in exchange for your introductions.",
+            "Much to your dismay, your arrangement with Lord Portelaine is brushed aside when the Ishgardian discovers a draconian rosary in a chest belonging to Lord Francel of House Haillenarte. As this could be considered proof of heresy, Lord Portelaine advises you against associating with any man of House Haillenarte. As the lord talks of informing the inquisitors, the knight standing behind him locks eyes with you, in an obvious attempt to catch your attention. Perhaps you should take a moment to speak with the grizzled knight."
+        ],
+        "objectives": [
+            "Recover the stolen wares.",
+            "Report to Portelaine."
+        ],
+        "dialogue": [
+            {
+                "name": "PORTELAINE",
+                "text": "Now, now, I understand you are very eager to find your missing airship. Worry not, for this task should take a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> of your skills but a moment to complete."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Not long ago, a porter bound for Skyfire Locks was ambushed on the road due west of here. Though he escaped with his life, he would very much like his wares as well. On the off chance any portion of his shipment remains, I would have you travel to the scene of the robbery and bring back what you find."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Lest you intend to perform only a cursory search, bear in mind that recovering the stolen merchandise will endear you to House Haillenarte, further improving the chances that they indulge your request for aid."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Have you good tidings to share? Or better yet, stolen merchandise to show?"
+            },
+            {
+                "name": "NPC",
+                "text": "Gods bless ye, friend! It's all here, every last─ah, but wait. That chest over there looks like it might've been pillaged."
+            },
+            {
+                "name": "NPC",
+                "text": "Bloody hells, that's the personal property of Lord Francel, too..."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Are you certain? Clearly an attempt was made to open it, but the lock appears to have held. Nevertheless, if you wish to verify the contents against your shipping manifest, be my guest."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Fury take me, a draconian rosary! In the possession of Lord Francel!?"
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Yet...perhaps this is not so difficult to fathom. House Haillenarte is whispered to be infested with heretics..."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Thank you for bringing this matter to my attention, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. I shall inform the inquisitors immediately. Under these circumstances, I must strongly advise against associating with House Haillenarte. "
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Your other introductions will need to be postponed, as well. It is the duty of every Ishgardian to root out and destroy heretics─all else must wait until this matter is resolved."
+            },
+            {
+                "name": "POP",
+                "text": "You are being watched..."
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 1826,
+            "xp": 18900
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 36,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66423
+            ]
+        },
+        "next": [
+            66426
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006380",
+            "obj": {
+                "i": 1006380,
+                "n": "Portelaine",
+                "l": 63,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66423",
+            "obj": {
+                "i": 66423,
+                "n": "Men of Honor",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 193
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66426",
+            "obj": {
+                "i": 66426,
+                "n": "The Rose and the Unicorn",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 195
+            }
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "quest": {
+        "name": "Now You See Me",
+        "location": "East Shroud",
+        "id": 66798,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005561,
+        "target": 1005561,
+        "involved": [
+            1008329
+        ],
+        "genre": 37,
+        "journal": [
+            "Tonaxia suspects that the touched ones are once again up to no good.",
+            "Tonaxia has spotted sylphs performing a sinister ritual, and fears for the consequences if they are allowed to continue. Seek out the mysterious sylph in Larkscall and learn how you might put a stop to their foul sorcery.",
+            "The mysterious sylph works her magic to render you transparent. Seek out the area where the ritual is being performed and steal the evil sylphs' artifacts.<br><br>※You must complete the task before the enchantment expires. The fragrant blooms you encounter on your path will extend the duration of the spell.",
+            "You have successfully stolen away with the touched sylphs' artifacts, preventing them from continuing with their foul hexcraft. Deliver the baubles to Tonaxia and inform her that the deed is done.",
+            "Upon receiving the ritual artifacts, Tonaxia expresses her relief that the touched ones' rituals will continue no more. Your efforts on behalf of Little Solace continue to earn you the trust of its denizens."
+        ],
+        "objectives": [
+            "Speak with the mysterious sylph in Larkscall.",
+            "While transparent, retrieve the ritual artifacts.",
+            "Deliver the ritual artifacts to Tonaxia."
+        ],
+        "dialogue": [
+            {
+                "name": "TONAXIA",
+                "text": "This one is frightened! This one saw touched ones dancing strange dances and singing scary songs."
+            },
+            {
+                "name": "TONAXIA",
+                "text": "This one knows not what scary ones are up to, but knows it is no good. Walking one must stop those ones!"
+            },
+            {
+                "name": "TONAXIA",
+                "text": "These ones will help. Mysterious one knows mysterious magicks that will keep walking one safe. Walking one should talk to mysterious one."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Walking one will stop scary ones from working scary magicks, yes?"
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Walking one must steal touched ones' scentpowders and sparklebeads."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "This one will make walking one see-through one, keep walking one safe."
+            },
+            {
+                "name": "TONAXIA",
+                "text": "Walking one must steal scentpowders and sparklebeads from Larkscall, stop touched ones from working nasty magicks. Walking one should speak to mysterious one before setting off, become one that touched ones cannot see."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "A sylphic incantation is about to render you transparent. Hurry and steal the touched sylphs' hex baubles before the magic is lifted."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "The incantation will expire in thirty-five seconds. If you become visible, you will be unable to complete your task. Return to the mysterious sylph and have the spell cast anew."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "The fragrant blooms you encounter on the way will extend the duration of the incantation. Seek them out if the spell's power begins to wane."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Sweet-smelling flowers make magic stronger. Walking one should remember!"
+            },
+            {
+                "name": "RECOVER",
+                "text": "A fragrant mist envelops you!"
+            },
+            {
+                "name": "NOTRECOVER",
+                "text": "It is not safe to perform this action while visible. Return to the mysterious sylph to have the incantation cast anew."
+            },
+            {
+                "name": "GUARD",
+                "text": "(-Wary Sylph-)Sneaky ones abound, but no one will get by this one!"
+            },
+            {
+                "name": "GUARD",
+                "text": "(-Wary Sylph-)Scentpowders and sparklebeads are...gone!? Uh-oh, this one is in trouble..."
+            },
+            {
+                "name": "TONAXIA",
+                "text": "Walking one returns! Did walking one steal scentpowders and sparklebeads from touched ones?"
+            },
+            {
+                "name": "TONAXIA",
+                "text": "No more magic for touched ones, tee hee! This one wishes one could see the look on touched ones' faces. Walking one is friend to these ones once more."
+            }
+        ],
+        "reward": {
+            "gil": 420,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 8797
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 42,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005561",
+            "obj": {
+                "i": 1005561,
+                "n": "Tonaxia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008329",
+            "obj": {
+                "i": 1008329,
+                "n": "Mysterious Sylph",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

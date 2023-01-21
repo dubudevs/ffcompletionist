@@ -1,0 +1,812 @@
+{
+    "quest": {
+        "name": "The Business of Betrothal",
+        "location": "Western Thanalan",
+        "id": 66974,
+        "patch": 2.3,
+        "sort": 9,
+        "icon": 100273,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1008757,
+        "involved": [
+            1009305,
+            1009306,
+            1009307,
+            1009308,
+            1009310,
+            1009311,
+            1009315,
+            1009317,
+            1009321,
+            1009323,
+            1009324,
+            1009327
+        ],
+        "genre": 68,
+        "journal": [
+            "Ellie has put her skills as a reporter to good use.",
+            "Inspector's Log:<br>I have arrived in Costa del Sol. Somewhere in the realm, the masked fiend I pursue sets a leering eye on a poor, defenseless young maiden─a case that cries out for a gentleman inspector, if ever there were one. Employing my own stupendous powers of disguise, I have concealed myself among a group of Brass Blades, hoping to ascertain the identity of the “lapis maiden” mentioned by the thief. Thus far, I have gleaned little save for war stories and tales of drinking prowess, but I am certain it is only a matter of time before the answer is within my grasp!<br>　　　　　　　　　　　　*　*　*<br>Employing her finely honed reporter's senses, Ellie has tracked down the identity of the lapis maiden─the daughter of a prominent Ul'dahn trader by the name of Arabella whose beauty has been the talk of the town, despite no one having actually seen her in the flesh. She further explains that the maiden has recently been betrothed to the son of a Lominsan trading mogul, and is to make a rare public appearance at a banquet to be held in the couple's honor. Surmising that the thief is likely to strike, Ellie declares her intention to travel to Costa del Sol and speak with the bride's father, Guguremu, and invites you to come along.",
+            "Your questioning of Guguremu was going nowhere fast, when it was interrupted by a familiar face─Consulting Inspector Briardien, who confidently declares his intention to capture the thief and see the lapis maiden delivered from harm. To Briardien's chagrin, he was not the first sleuth to arrive at the scene. After venting his frustrations on Hildibrand─agent of enquiry, inspector extraordinaire─by slapping him silly with a steaming fish, the consulting inspector summarily sends his self–styled rival to canvass the area while enlisting your help in following up on what he believes to be a more promising line of inquiry. Rendezvous with Briardien on the outskirts of Costa del Sol and see what he has in mind.",
+            "If Inspector Briardien's deductions are correct, then the phantom thief has already infiltrated the banquet by assuming the identity of one of the Brass Blades of the Gerbera, hired by Master Guguremu to serve as bodyguards at the banquet. He further explains that he was informed by Brass Blades stationed in and around Costa del Sol that one of their men has gone missing. Search the area around Bloodshore for the missing Blade, that you might glean from him some information as to how the thief intends to strike.",
+            "You have tracked down the missing Brass Blade, hands tied and stripped to his skivvies behind a hill on the sands of Bloodshore. Relieved to be free, the man explains that his orders called for him to guard Morgant, Yalto Nolto, and Lewenhart. This information leads Inspector Briardien to surmise that the phantom thief has now assumed the identity of one of these three men. While Briardien leads the wounded man back to safety, he asks you to return to Costa del Sol to see that Hildibrand is not stirring up any unneeded trouble.",
+            "No sooner have you spoken the names of Briardien's three suspects than does Hildibrand boldly announce his intentions to apprehend the thief himself. Needless to say, nothing could possibly go wrong with this. To begin your own line of questioning, speak with Morgant, father of the groom–to–be.",
+            "Your conversation with Morgant, his son Vannes, and Guguremu revealed nothing warranting much suspicion─with the possible exception of Hildibrand himself, whose vaunted Manderville art of parley succeeded only in arousing Guguremu's ire. Hildibrand, insisting that somehow everything is going according to his grand plan, confidently strides off to question Yalto Nolto and Lewenhart.",
+            "Neither Yalto Nolto nor Lewenhart did or said much to give cause for suspicion. Never one to lose heart, Hildibrand goes off to investigate the supply of emergency foodstuffs of which Lewenhart spoke, hoping to find some contradiction that might give him reason to suspect the servant's words.",
+            "Upon finding dangerous explosives concealed amidst crates and coconuts, Hildibrand raises his voice in triumph, believing the culprit's cover blown. However, his confidence is quickly shattered by the cheerful voice of his own assistant, who innocently claims credit for the bombs. Despite being back to square one with no clues to follow, there is no time for self–pity, for Inspector Briardien is quickly approaching the scene. Fearing the consequences if the inspector were to discover the explosives, let alone the fact that Nashu─and by extension, the rest of you─was responsible for them, Ellie suggests that Hildibrand and Nashu make a discreet retreat while you and she move to head Briardien off at the pass."
+        ],
+        "objectives": [
+            "Speak with Guguremu at Costa del Sol.",
+            "Speak with Briardien.",
+            "Track down the missing Brass Blade.",
+            "Speak with Hildibrand.",
+            "Speak with Morgant.",
+            "Speak with Yalto Nolto.",
+            "Inspect the supplies."
+        ],
+        "dialogue": [
+            {
+                "name": "ELLIE",
+                "text": "Ah, there you are! I've been doing some investigating of my own since we last parted. I believe I've found our “lapis maiden.”"
+            },
+            {
+                "name": "ELLIE",
+                "text": "The girl's name is Arabella, daughter of one Master Guguremu, a prominent member of the East Aldenard Trading Company. Her eyes and hair a most exceptional shade of blue, her beauty is the talk of the sultanate."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Her <span class=\"emphasis\">purported</span> beauty, I should say. You see, none have actually seen the girl in the flesh. Apparently her father is the overprotective sort. Some say that the maiden has never set foot outside the family's well-guarded estate."
+            },
+            {
+                "name": "ELLIE",
+                "text": "But all this is about to change. Rumor has it that the girl is to be wed. And not just to anyone, mind you─to the heir to the Brugaire Consortium."
+            },
+            {
+                "name": "ELLIE",
+                "text": "The formal announcement is set to be made at a commemorative feast, to be jointly hosted by the two family businesses. The venue is Costa del Sol, where preparations are going on as we speak."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Word on the street is that the bride-to-be will be making a rare public appearance. It is here that the thief intends to strike─I couldn't be more certain of it!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Piqued your interest, have I? My sources tell me that the bride's father is already in Costa del Sol overseeing the preparations. This is one scoop I'm not going to miss, and you're welcome to come along!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "This is Master Guguremu of the East Aldenard Trading Company, and father of the bride. Let's see what he can tell us."
+            },
+            {
+                "name": "GUGUREMU",
+                "text": "You're not one of my associates! This banquet is for invited guests only. If you have no business here, be on your way at once!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Beg pardon, good sir. My name is Ellie, reporter for the <span class=\"emphasis\">Mythril Eye</span>. If I might have just a moment of─"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Ah, yes, that two-gil sensationalist rag. I read your tiresome screed about the self-styled “phantom thief” and his letter of challenge. If you have come to tell me my daughter is in danger, I can assure you that your concern is entirely unwarranted."
+            },
+            {
+                "name": "ELLIE",
+                "text": "I have not kept my Arabella safe to this day to see her whisked away from me by some fly-by-night rogue. I have spared no expense in securing the best protection that money can buy."
+            },
+            {
+                "name": "GUGUREMU",
+                "text": "...The Brass Blades of the Gerbera, an elite unit of the most lethal swordsmen in the sultanate. They say one of them once caused a man's heart to burst just by looking at him askance. The moment they set eyes on the would-be thief will be his last."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...If the thief is obliging enough to allow himself to be <span class=\"emphasis\">seen</span>. Or do those goggles serve some purpose other than making the wearer look utterly ridiculous?"
+            },
+            {
+                "name": "GUGUREMU",
+                "text": "Consulting Inspector Briardien...your reputation precedes you. And what, pray tell, would you propose? I have promised some of the wealthiest men in the realm that my daughter will be attending the festivities. To renege on my word would have dire implications for the family trade."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "My proposal is a simple one: entrust the investigation to me. The thief will be in shackles before the banquet commences, and it will cost you not a whit of your precious gil."
+            },
+            {
+                "name": "GUGUREMU",
+                "text": "...Very well. Let us see if your reputation is deserved. But consider yourself warned: greater fortunes than <span class=\"emphasis\">you</span> will ever know hinge upon this banquet. I will not tolerate any disturbances."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Such touching concern for his coinpurse. If only he could muster the same for his daughter."
+            },
+            {
+                "name": "ELLIE",
+                "text": "But do tell, Inspector. After he slipped under our noses the last time, what makes you so confident that you can catch our thief this time around?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Our man may boast a thousand faces, but he has but a single <span class=\"emphasis\">modus operandi</span>, and it is painfully obvious. A letter of challenge. A precious treasure whisked away from its rightful owner in the broad light of day."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "This tells me that our thief is an attention seeker with supreme confidence in his abilities. Doubtless he means to target the maiden using the same methods he used to abscond with the Treaty-Blade."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Even now, the fiend is in our midst, having assumed the identity of someone who will be in close proximity to Miss Arabella at the feast. I have already narrowed the field."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Arabella's betrothed, Vannes, would be an obvious target for our thief. So, too, would be his father, Morgant."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Yalto Nolto and his wife, Sainana, the guests of honor, will give a toast to the couple's happiness. Both will be standing close to the stage where the bride-to-be is set to appear."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Needless to say, we cannot rule out Guguremu himself. Finally, we have Lewenhart, a steward of Guguremu's estate and Miss Arabella's personal attendant."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "All the key players save for the lapis maiden herself have assembled in Costa del Sol. Doubtless the phantom thief lurks among them, his face concealed, gathering information and planning his course of attack."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "We will begin our questioning of the suspects immediately. Should you encounter any suspicious individuals, you are to report back to me at...once..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Hildibrand Manderville! I could smell the stench of idiocy and incompetence from a malm away!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "The pleasure is all mine, <span class=\"emphasis\">contriving</span> Inspector Briardien! Forgive me for not revealing myself sooner. I was simply conducting a bit of preliminary undercover investigative work."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Yet to see through my ingenious disguise with such ease! Yes, I daresay your powers of observation rival even my own! Fear not, friends! I, Hildibrand, agent of enquiry, inspector extraordinaire, have arrived to defend the maiden's honor as only a Manderville man can!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "He does realize there's still a fish on his head...doesn't he?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Good inspector, I realize we have not seen eye to monocle in the past. But a fair maiden's virtue─mayhap her very <span class=\"emphasis\">life</span>─is at stake! From one gentleman to another, let us put aside our differences. Yes, I would welcome your assistance in this case!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "<span class=\"emphasis\">Me</span>, assist <span class=\"emphasis\">you</span>? Aren't you a funny man."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Oh, it makes no matter. My plan is so flawless that not even your bungling can interfere this time. If <span class=\"emphasis\">you</span> wish to assist <span class=\"emphasis\">me</span>, you may do so by keeping watch over the suspects."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "In the meantime, I have a promising lead to investigate. I shall return before the banquet begins. While I know this may be asking much, do try not to do anything too stupid in my absence, will you?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "I would speak with you, but not here. I will be waiting for you outside Costa del Sol. Come quickly, for we do not have the luxury of time."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "It is not by fate's whimsy that we have been reunited here today, friend! You were destined to be by my side as I apprehend the fiend and defend the fair maiden's virtue!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Inspector Briardien seems to have taken a liking to you. You should be proud. As you can see by his treatment of someone we know, the man doesn't suffer fools lightly."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "You've come. Excellent. With that buffoon suitably distracted, we can get to more important matters. But before we proceed, what might I call you?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "An unremarkable name, but it will suffice. Now answer me this, <span class=\"highlight\">Forename</span>. You were there when the phantom thief, in the guise of Lady Durilda, stole off with the Treaty-Blade. Was there anything about our foe's disguise that struck you as particularly noteworthy?"
+            },
+            {
+                "name": "Q1",
+                "text": "What struck you about the phantom thief's disguise?"
+            },
+            {
+                "name": "A1",
+                "text": "The identical appearance."
+            },
+            {
+                "name": "A1",
+                "text": "The perfect mannerisms."
+            },
+            {
+                "name": "A1",
+                "text": "That is for me to know."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "The obvious answer... And yet all too many─a certain self-styled gentleman comes to mind─could not recognize a clue if it hit them upside the face."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Your observation is astute. A thorough inspection of the mask left behind at the scene revealed a tiny prism sewn into the fabric. It is this stone that allows him to change appearances at will."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Clearly, our man is no ordinary thief. Magicks far outside the grasp of the commonfolk are at his disposal. This, in itself, gives us insight into his identity, and his ways."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...And yet, this is not what caught my eye. No, from movements to mannerisms, to that utterly obnoxious personality, the thief did not merely <span class=\"emphasis\">look</span> like Lady Durilda, he <span class=\"emphasis\">was</span> her. Such a feat could not be accomplished by magical trickery alone."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Intriguing. Where most would point out the sheer physical perfection of the disguise, you turn an eye within..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "A thorough inspection of the mask left behind at the scene revealed a tiny prism sewn into the fabric. It is this stone that allows him to change appearances at will. And yet, like you, this was of secondary concern to me."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "From movements to mannerisms, to that utterly obnoxious personality, the thief did not merely <span class=\"emphasis\">look</span> like Lady Durilda, he <span class=\"emphasis\">was</span> her. Such a feat could not be accomplished by magical trickery alone."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "You keep your observations to yourself─that, or you have none of import. Either way, I can respect a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> who would listen instead of speak."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "There are two aspects of the phantom thief's costume that drew my interest. First, the utter perfection of the physical disguise."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "A thorough inspection of the mask left behind at the scene revealed a tiny prism sewn into the fabric. It is this stone that allows him to change appearances at will. This, however, was of secondary concern to me."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "From movements to mannerisms, to that utterly obnoxious personality, the thief did not merely <span class=\"emphasis\">look</span> like Lady Durilda, he <span class=\"emphasis\">was</span> her. Such a feat could not be accomplished by magical trickery alone."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "We are dealing with a clever and thorough criminal. Not content to rely on his ample powers of disguise, he studies his targets closely before assuming their identities. He emulates them utterly and completely, that not even their closest friends or family could detect that aught is amiss..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "All the key players arrived at Costa del Sol three days ago, when preparations for the banquet began. This would afford our thief more than enough time to study his would-be target."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "And yet, some disguises are more challenging than others. Put yourself in the mind of our phantom, <span class=\"highlight\">Forename</span>. If you were the thief, whose identity would you <span class=\"emphasis\">first</span> assume?"
+            },
+            {
+                "name": "Q2",
+                "text": "The thief's first assumed identity?"
+            },
+            {
+                "name": "A2",
+                "text": "A Brass Blade."
+            },
+            {
+                "name": "A2",
+                "text": "One of the guests."
+            },
+            {
+                "name": "A2",
+                "text": "I will not say."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Precisely. Clearly you are far less useless than the bumbling inspector whose company you keep."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Would he? The guests are well acquainted with each other─one misstep and the thief's cover would be blown. No, there is a more logical first target, one that would afford him the opportunity to gather the knowledge he needs, and at less risk. Yes, one of the Brass Blades of the Gerbera."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "I had hoped you would prove more insightful. And yet it matters not, for the answer is self-evident. Our thief's first target? One of the Brass Blades of the Gerbera."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Strong in number, few of words. Able to come and go as they please. A fearsome reputation to scare away any who would draw near enough to realize something was amiss. An ideal entry into Costa del Sol for our man."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Deducing as much, I made a point to question Brass Blades in the area. Little to my surprise, I learned that there was one man who had not been seen at his favorite alehouse for three days past."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Our thief has not made a habit of wanton murder. Doubtless the poor man is lying naked in a ditch not far from here."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "In addition to general security duties, each of the Blades has been assigned to serve as bodyguard for one or more of the guests. If the man can tell us of his assigned charge, like as not, his answer will reveal the current identity of our thief."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Our thief would not have had the time to carry the unconscious man far. I will canvass the immediate area. You begin your search on the outskirts of Costa del Sol."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Like as not, the missing Brass Blade is lying naked in a ditch somewhere. Begin your search in the vicinity of Costa del Sol. With our thief pressed for time, it is not likely he would have carried the poor man far."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Excellent. You are one of the less incompetent assistants I have worked with."
+            },
+            {
+                "name": "DOUJINDAN01438",
+                "text": "Th-Thank the gods! Please, free me from these chains before the snippers eat me alive!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...There. Now, tell me all that you can remember about what happened to you. And try to be brief."
+            },
+            {
+                "name": "DOUJINDAN01438",
+                "text": "W-We'd just arrived in Costa del Sol. Had a briefin' of sorts. Master Guguremu gave us each our orders─who we'd be lookin' after and the like. Had a mind to tour the area, get my bearin's. Next thing I knew, I felt a <span class=\"emphasis\">thwack</span> on the back o' my head. When I came to, here I was, stripped to my skivvies─"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Much to the chagrin of those of us who have to look at you. You say you received orders from Master Guguremu. Who was to be your charge?"
+            },
+            {
+                "name": "DOUJINDAN01438",
+                "text": "My memory's hazy, but...ah! One was Morgant, father o' the groom. The other was a Lalafellin gent from Limsa..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Yalto Nolto. Now try your best to remember. Were there any other guests with whom you were ordered to interact?"
+            },
+            {
+                "name": "DOUJINDAN01438",
+                "text": "Come to think of it, yes. There was also the steward, Lewenhart. I was to review with him the schedule of events, discuss the protection o' key supplies─that sort o' thing."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Morgant, Yalto Nolto, and Lewenhart. Thank you. For an incompetent fool, your testimony has proved astonishingly enlightening."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "I shall see this man back to the city and into the possession of some new clothes, after which I shall return to Costa del Sol to continue the investigation."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Go on ahead of me and, for the love of the gods, just make sure that imbecile doesn't cause too much trouble in my absence."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Ah, there you are, friend! And not a moment too soon, for I was about to commence my investigation in earnest! Tell me, did your and Inspector Briardien's avenue of inquiry bear fruit?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Morgant, Yalto Nolto, and the steward Lewenhart, you say? This does not surprise me. Yes, I had considered them all exceptionally suspicious from the start."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "With the lapis maiden in danger, we cannot afford a moment's delay! I, Hildibrand, shall have our thief in shackles before the inspector returns!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Fear not, friend. The inspector shall be none the wiser! Hah hah! If he had hoped to nab the fiend for himself, he should not have simplified the task for me so!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Ah! There is one of our suspects standing suspiciously under that canopy over there. Just you wait, fiend! I shall rip the mask from your face and reveal you for the rogue that you are!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "The lucky father of the groom–to–be, or the fiend who would sully the maiden's virtue? In a matter of moments, all shall be revealed!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Stand back, friend! The man we pursue is a criminal mastermind. The merest slip of the tongue could put our case─nay, our very <span class=\"emphasis\">lives</span>─in danger!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "But have no fear. Miss Ellie! Ready your quill, that you might record my every word as I employ the time–honored art of parley─handed down from Manderville men of ages past─to reveal our foe."
+            },
+            {
+                "name": "ELLIE",
+                "text": "I can think of few topics that would interest my readers <span class=\"emphasis\">less</span> than your blatherings. Just catch the thief so I can have my story, would you?"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Don't worry, Inspector! I brought my quill and journal, too. Your adoring fans won't miss a word!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Capital! This is why you are my favorite assistant, Nashu. Now behold as I ensnare our prey with a web of words leading to his inevitable demise!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">day</span></span>, Master Guguremu! And a fine <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">day</span></span> it must be─for you most of all! Allow me to offer my most heartfelt congratulations on your betrothal to the enchanting Miss Arabella!"
+            },
+            {
+                "name": "GUGUREMU",
+                "text": "What is this nonsense!? Arabella is my <span class=\"emphasis\">daughter</span>, you─ Just who in the seven hells <span class=\"emphasis\">are</span> you, anyway!? Guards! Guards!!!"
+            },
+            {
+                "name": "MORGANT",
+                "text": "Ahahaha! Now 'old yer chocobos, Guguremu. I recognize the lad. This is Hildibrand, agent of enquiry an' inspector extraordinaire. Come to save the lovely lass from the clutches o' the phantom thief, 'ave ye? I reckon we owe the man our gratitude. Aye, Vannes?"
+            },
+            {
+                "name": "VANNES",
+                "text": "The phantom thief? Balderdash and rot, if you ask me. That said, my betrothed must be quite the beauty, indeed, to have such rumors told about her. Perhaps she's worthy of me, after all. Haha!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "He exudes an unusual degree of confidence for such an effete, fashion–challenged youth. Most suspicious!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "...He's a damn sight easier on the eyes than you."
+            },
+            {
+                "name": "MORGANT",
+                "text": "Ahaha! That's me Vannes, ever calm in the face o' danger. Truly 'is father's son."
+            },
+            {
+                "name": "GUGUREMU",
+                "text": "A worthy heir to the Brugaire Consortium, and a worthy match for my daughter, I must say. Yes, I foresee many years of prosperity for our families─or <span class=\"emphasis\">family</span>, I should say! Ho ho!"
+            },
+            {
+                "name": "GUGUREMU",
+                "text": "Which reminds me, Master Vannes. Arabella asked me to convey her gratitude to you for the golden clasp you sent some months ago. It has not left her neck since the day."
+            },
+            {
+                "name": "VANNES",
+                "text": "Oh, that little trinket? 'Twas nothing. Tell your daughter the greatest treasures in the realm will be hers once we are wed. Ahaha!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "The time–honored Manderville art of parley!? We'd be sleeping with the fishes now had Morgant not spoke up on your behalf! That said, nothing about the interactions between the three struck me as particularly unnatural."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Hah hah hah! Let us not rush to conclusions, Miss Ellie. A gentleman fancies a more methodical approach. Yes, everything is proceeding according to my master plan!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Whoops! I was supposed to be taking this down, wasn't I? “Everything is proceeding according to my master plan...”"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "I sought only to earn the trust of the families before confronting Yalto Nolto and Lewenhart, who have aroused my suspicion from the start. Come, we have a thief to apprehend!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Yalto Nolto and Lewenhart... One of the two wears a mask, but which? With a few words, all will be revealed!"
+            },
+            {
+                "name": "YALTONOLTO",
+                "text": "Mm? I've not seen yer faces 'round here. With the East Aldenard Trading Company, are ye?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Wh-Why, yes, good sir, very much with them! Some might even say we <span class=\"emphasis\">are</span> the East Aldenard Trading Company! Hah hah hah!"
+            },
+            {
+                "name": "YALTONOLTO",
+                "text": "Oho! Pleasure to meet ye. Do tell─is the lapis maiden as lovely as they say? Sainana here's no slouch herself, but like me she's gettin' on in years. Er, no offense intended, my dear."
+            },
+            {
+                "name": "YALTONOLTO",
+                "text": "Oh, but where are me manners? Yalto Nolto o' the Brugaire Consortium, and this is me wife, Sainana. I look forward to many profitable dealin's with you and yours in the moons and years to come."
+            },
+            {
+                "name": "YALTONOLTO",
+                "text": "Aye, I daresay this weddin'─an' the joinin' together of our family businesses─couldn't be happenin' at a better time. What with all manner o' fell beasts and beastmen takin' aim at our wares..."
+            },
+            {
+                "name": "YALTONOLTO",
+                "text": "Why, just the other day, a shipment of imported foodstuffs was waylaid by the Mandragoras. Nasty buggers, the lot o' them. If I were twenty years younger, I'd dice them up meself and make a salad out o'─"
+            },
+            {
+                "name": "YALTONOLTO",
+                "text": "Mm? Ye <span class=\"emphasis\">have</span> heard o' the Mandragoras, haven't ye?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "B-But of course! I once spent a year honing body and mind with the Fist of Rhalgr. My fellow monks and I would chant several hundred mantra-whatsits a day!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "...And your food stores were occasionally raided by the ruthless band of rogue vegetables known as the <span class=\"emphasis\">Mandragoras</span>, yes?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Would it kill you to read the <span class=\"emphasis\">Mythril Eye</span> and educate yourself from time to time?"
+            },
+            {
+                "name": "LEWENHART",
+                "text": "A fearsome lot, they are. Rumor has it that they'll not rest until every fruit or vegetable harvested for consumption has been freed from captivity. Why, they struck at the larder here just days ago. Our supplies were decimated."
+            },
+            {
+                "name": "LEWENHART",
+                "text": "Fear not, milady. I was able to arrange for an emergency shipment to replace the stolen produce. It arrived safely some time ago."
+            },
+            {
+                "name": "YALTONOLTO",
+                "text": "Settle down, Sainana. Forgive me wife─she's always sayin' how meat is bad for her figure. And with that, I'd best go prepare me speech. Carry on, lads!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Criminy! None of those three were suspicious in the least! But we must not give up hope, lest he of many faces have the last laugh!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Where there is a will, a gentleman shall find a way! Come, Nashu! We must move quickly, or the lapis maiden shall not be the only one to come to harm!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "You speak so fast, Inspector! The sign of a quick mind, I'm sure! Now, where was I? “Give up hope”...“he of many faces will laugh last”...“the lapis maiden shall not be the only one to come to harm”..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "I'm not sure that captures the inspector's intended meaning..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "But this is no time for us to be standing around! Inspector Briardien will be back any moment now, and he's not the type to suffer excuses."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Quite so, Miss Ellie! Fortunately, I have a plan. Let us investigate the foodstuffs of which Master Lewenhart spoke. Should we find any contradictions in his testimony, we can consider the man a prime suspect!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Inspector Briardien will be back before long. Come, Nashu! This is no time to delay!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Look at this! Now there's water...now there isn't! Now there's water..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "These crates must contain the foodstuffs of which Master Lewenhart spoke. At a glance, they do not appear particularly suspicious, but our investigation must not be deterred!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Some of those coconuts don't look like coconuts..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Crates of assorted foodstuffs and a veritable host of luscious–looking coconuts. It appears that our man Lewenhart spoke...true...?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Y-Ye gads!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Are those <span class=\"emphasis\">explosives</span> I spy concealed amongst these coconuts!? Perhaps I spoke in haste! It would appear that we have found our phantom thief, after all!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Oh, those are mine, Inspector! I was looking for a place to set them down, you see, and those coconuts were looking awfully lonely..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Nashu! Far be it from me to cast doubt on your choice of hobbies, but what in the name of the Twelve would possess you to bring your creations to an investigation!?"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Well, they were so helpful in jogging your memory that one time, and I just thought... Er, does this mean you won't be needing this piece of driftwood, either?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Your enthusiasm is always admirable, Nashu, but in this event, I fear it somewhat misdirected. Now, set the driftwood down over there and concentrate on taking your notes like the astute assistant you are."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "I say, we are most fortunate that <span class=\"emphasis\">confounding</span> Inspector Briardien is otherwise occupied at the moment. Were he to chance upon this scene, he would veritably explode in rage!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Now, let us dispose of these things before an errant ember sends us all to a fiery demise."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "“Confounding Inspector Briardien”...“explode”...“a fiery demise”... Got it!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Are you sure about that...?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "...Uh-oh. Don't look now, but someone has returned at the absolute worst possible time."
+            },
+            {
+                "name": "ELLIE",
+                "text": "You two were supposed to be keeping an eye on the suspects and staying out of trouble, yes? The inspector will have a fit if he sees you here."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "B-But, Miss Ellie! Should Inspector Briardien come upon these explosives, the consequences will be even more dire!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "<span class=\"highlight\">Forename</span> and I will see that the inspector keeps a wide berth of this beach. You two just get out of here, and be quick about it!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Quick thinking, Miss Ellie! Come, Nashu─we shall return for your creations once Inspector Briardien has been led safely from the scene. Investigation calls us, and we must heed its cry!"
+            }
+        ],
+        "reward": {
+            "gil": 855,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66854
+            ]
+        },
+        "next": [
+            66975
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1008757",
+            "obj": {
+                "i": 1008757,
+                "n": "Ellie",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009305",
+            "obj": {
+                "i": 1009305,
+                "n": "Guguremu",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009306",
+            "obj": {
+                "i": 1009306,
+                "n": "Ellie",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009307",
+            "obj": {
+                "i": 1009307,
+                "n": "Briardien",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009308",
+            "obj": {
+                "i": 1009308,
+                "n": "Hildibrand",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009310",
+            "obj": {
+                "i": 1009310,
+                "n": "Brass Blade Of The Gerbera",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009311",
+            "obj": {
+                "i": 1009311,
+                "n": "Morgant",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009315",
+            "obj": {
+                "i": 1009315,
+                "n": "Hildibrand",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009317",
+            "obj": {
+                "i": 1009317,
+                "n": "Yalto Nolto",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009321",
+            "obj": {
+                "i": 1009321,
+                "n": "Hildibrand",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009323",
+            "obj": {
+                "i": 1009323,
+                "n": "Hildibrand",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009324",
+            "obj": {
+                "i": 1009324,
+                "n": "Nashu Mhakaracca",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009327",
+            "obj": {
+                "i": 1009327,
+                "n": "Ellie",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66854",
+            "obj": {
+                "i": 66854,
+                "n": "The Three Collectors",
+                "g": 68,
+                "l": "Western Thanalan",
+                "s": 8,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66975",
+            "obj": {
+                "i": 66975,
+                "n": "A Burst of Inspiration",
+                "g": 68,
+                "l": "Eastern La Noscea",
+                "s": 10,
+                "f": 1
+            }
+        }
+    ]
+}

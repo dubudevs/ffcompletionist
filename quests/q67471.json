@@ -1,0 +1,247 @@
+{
+    "quest": {
+        "name": "The Pick of the Bunch",
+        "location": "Idyllshire",
+        "id": 67471,
+        "patch": 3.0,
+        "sort": 5813,
+        "icon": 100482,
+        "eventIcon": 71221,
+        "issuer": 1012097,
+        "target": 1012097,
+        "involved": [
+            1012132,
+            1014323
+        ],
+        "genre": 101,
+        "journal": [
+            "Slowfix needs your help in solving a problem.",
+            "Idyllshire is to be a new, free nation─a utopia for goblins and any who wish to join them. But founding a nation is not without monetary costs. Slowfix explains that, since taxing the citizens of their hard-earned gil would fly in the face of all that this fledgling nation stands for, funds are raised through rental of vital tools and equipment. Unfortunately, a goblin has borrowed a pickaxe and left Idyllshire without returning it. Find this ungracious goblin and retrieve the pickaxe.",
+            "You find the goblin, but she is under attack by tarantula hawks! Slay these beasts and rescue the defenseless goblin such that you may ascertain the whereabouts of the missing pickaxe.",
+            "The beleaguered goblin thanks you before explaining that she forgot about the rental pickaxe she borrowed before leaving on her journey. While she can't return to Idyllshire herself to return the pickaxe, she entrusts it to you, requesting that you return it to its rightful owner in her stead. Go back to Idyllshire and give the pickaxe back to Drydox.",
+            "Drydox is ecstatic that you have found the pickaxe─she had given it up for lost. Report to Slowfix that the missing rental equipment is now accounted for.",
+            "Slowfix is glad to see the missing equipment returned. He pays you what he considers to be a fair market price for your work."
+        ],
+        "objectives": [
+            "Search for the ungracious goblin.",
+            "Rescue the ungracious goblin.",
+            "Deliver the pickaxe to Drydox.",
+            "Report to Slowfix."
+        ],
+        "dialogue": [
+            {
+                "name": "SLOWFIX",
+                "text": "Pshhh... Shkohhh...<br>In this place we gobbies are founding nation. Free nation for free people!"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Founding nation takes much jinglyshine. But this is <span class=\"emphasis\">free</span> nation! We cannot take jinglyshine from noble, hardworking gobbies!"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "So Slowfix thought: We have tools; gobbies need tools. We can rent tools to fund nation!"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Plan is sound, but we already have problem. One gobbie borrowed pickaxe and does not give it back!"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "This ungracious gobbie has left! And took borrowthing with her. Uplander, please find this gobbie and find out what happened."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Gobbie with borrowthing was traveling towards Makers' Quarter. Please find her!"
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Gobbie was traveling towards Makers' Quarter, but did not return borrowthing. Please find her!"
+            },
+            {
+                "name": "GOBLIN01935",
+                "text": "Pshhh... Shkohhh...<br>Thank you, uplander! Your actions are appreciated! But what brings you here?"
+            },
+            {
+                "name": "GOBLIN01935",
+                "text": "Oh! Pickaxe! I forgot to return pickaxe!"
+            },
+            {
+                "name": "GOBLIN01935",
+                "text": "I am leaving on journey now─cannot return to Idyllshire. Please take borrowthing and return to Drydox. Thank you."
+            },
+            {
+                "name": "GOBLIN01935",
+                "text": "Sorry, I must leave on journey now. Please return borrowthing to Drydox. Thank you."
+            },
+            {
+                "name": "DRYDOX",
+                "text": "Pshhh... Shkohhh...<br>What brings uplander to Drydox?"
+            },
+            {
+                "name": "DRYDOX",
+                "text": "Pshhh... Shkohhh...<br>This pickaxe! Drydox thought it stolen! Thank you for recovering it."
+            },
+            {
+                "name": "DRYDOX",
+                "text": "Pshhh... Shkohhh...<br>Drydox thought pickaxe stolen. Thank you for recovering it."
+            },
+            {
+                "name": "SLOWFIX",
+                "text": "Pshhh... Shkohhh...<br>Taken borrowthing─you found it!? You have Slowfix's greatest gratitude."
+            }
+        ],
+        "reward": {
+            "gil": 575,
+            "items": [
+                {
+                    "id": 10828,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10912,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10954,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 40800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 58,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67193
+            ]
+        },
+        "next": [
+            67473,
+            67478
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012097",
+            "obj": {
+                "i": 1012097,
+                "n": "Slowfix",
+                "l": 2082,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012132",
+            "obj": {
+                "i": 1012132,
+                "n": "Drydox",
+                "l": 2082,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014323",
+            "obj": {
+                "i": 1014323,
+                "n": "Ungracious Goblin",
+                "l": 2001,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "10828",
+            "obj": {
+                "i": 10828,
+                "n": "Chimerical Felt Hose of Aiming",
+                "l": 145,
+                "c": 45672,
+                "t": 36,
+                "p": 13780
+            }
+        },
+        {
+            "type": "item",
+            "id": "10912",
+            "obj": {
+                "i": 10912,
+                "n": "Chimerical Felt Chausses of Healing",
+                "l": 145,
+                "c": 45673,
+                "t": 36,
+                "p": 13780
+            }
+        },
+        {
+            "type": "item",
+            "id": "10954",
+            "obj": {
+                "i": 10954,
+                "n": "Chimerical Felt Breeches of Casting",
+                "l": 145,
+                "c": 45674,
+                "t": 36,
+                "p": 13780
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67193",
+            "obj": {
+                "i": 67193,
+                "n": "An Illuminati Incident",
+                "g": 3,
+                "l": "Idyllshire",
+                "s": 82
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67473",
+            "obj": {
+                "i": 67473,
+                "n": "Uncoordinated Defense",
+                "g": 99,
+                "l": "The Dravanian Hinterlands",
+                "s": 5811
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67478",
+            "obj": {
+                "i": 67478,
+                "n": "Administrative Difficulties",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 5814
+            }
+        }
+    ]
+}

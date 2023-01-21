@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "Seedy Business",
+        "location": "The Churning Mists",
+        "id": 67395,
+        "patch": 3.0,
+        "sort": 5521,
+        "eventIcon": 71221,
+        "issuer": 1013546,
+        "target": 1013546,
+        "genre": 100,
+        "journal": [
+            "This green-fingered moogle is fluttering flusteredly.",
+            "New plants have sprouted to the northwest of Ohl Tahn, but this moogle cannot get close enough to pick them for fear of the aggressive monsters stalking the area. Pick three of the seedlings so the moogle can plant them in a safer place.",
+            "You have gathered the seedlings. Deliver them to the concerned moogle.",
+            "The moogle flutters in delight when you hand him the seedlings, and plans to plant them in an area devoid of monsters, completing the first step in his dream to eventually grow his own garden."
+        ],
+        "objectives": [
+            "Pick whistleberry seedlings.",
+            "Deliver the whistleberry seedlings to the meticulous moogle."
+        ],
+        "dialogue": [
+            {
+                "name": "BOTANISTAIRPORTMOG01859",
+                "text": "It's such a terrible waste, kupo! New plants have sprouted to the northwest, but the area is home to all kinds of mean monsters just looking to make a snack out of a moogle. If no one harvests them soon, they're like to wilt away into nothing."
+            },
+            {
+                "name": "BOTANISTAIRPORTMOG01859",
+                "text": "Could you go and pick them for me? About three should do. It'd be a shame to let them just waste away."
+            },
+            {
+                "name": "BOTANISTAIRPORTMOG01859",
+                "text": "The plants need to be harvested before they wilt away. If only I had three seedlings..."
+            },
+            {
+                "name": "BOTANISTAIRPORTMOG01859",
+                "text": "I'm worried the seedlings may have already started shriveling up for lack of proper care. Did you manage to pick some for me, kupo?"
+            },
+            {
+                "name": "BOTANISTAIRPORTMOG01859",
+                "text": "Ah, yes! These are exactly the seedlings I was looking for! I'll plant these in a safer place, and maybe one day I might have a whole garden of my own!"
+            }
+        ],
+        "reward": {
+            "gil": 460,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67171
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013546",
+            "obj": {
+                "i": 1013546,
+                "n": "Meticulous Moogle",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        }
+    ]
+}

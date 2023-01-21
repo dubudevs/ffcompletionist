@@ -1,0 +1,128 @@
+{
+    "quest": {
+        "name": "Unicorn Power",
+        "location": "Gridania",
+        "id": 65730,
+        "patch": 2.0,
+        "sort": 300,
+        "eventIcon": 71221,
+        "issuer": 1000705,
+        "target": 1000705,
+        "involved": [
+            1008174
+        ],
+        "genre": 92,
+        "journal": [
+            "Braya has need of a benevolent adventurer to tend a wounded beast.",
+            "An unusual beast has appeared near Fallgourd Float in the North Shroud, and witnesses report that it is wounded. Braya bids you find the creature and tend its wounds.",
+            "You have tended the mare's wounds. Return to the Conjurers' Guild and report your success to Braya.",
+            "It appears the creature you healed is a unicorn. Braya is impressed that you were able to win the trust of so wary a beast, and suggests that there is a deeper connection between the two of you."
+        ],
+        "objectives": [
+            "Use Cure to heal the injured beast at Alder Springs.",
+            "Report to Braya."
+        ],
+        "dialogue": [
+            {
+                "name": "BRAYA",
+                "text": "Your deeds of late have earned you the respect of all at Stillglade Fane. People say you are a breath of fresh air within these still caverns. Truly, you are an inspiration to us all."
+            },
+            {
+                "name": "BRAYA",
+                "text": "...Having plied you with praise, I would make a request of you. An unusual creature has appeared near Fallgourd Float in the North Shroud. Witnesses report that it is badly wounded."
+            },
+            {
+                "name": "BRAYA",
+                "text": "While it hasn't proven itself a danger to the locals, a wounded beast is unpredictable at the best of times. Please find it and provide it with such succor as you are able."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The creature appears to be in great pain."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The creature seems grateful to you."
+            },
+            {
+                "name": "BRAYA",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. Were you able to find the creature? And what did it look like, if I might ask?"
+            },
+            {
+                "name": "BRAYA",
+                "text": "...Four-legged and tall, with a pristine white coat...and a single horn protruding from its brow! There is no mistake─that was a unicorn you healed."
+            },
+            {
+                "name": "BRAYA",
+                "text": "Unicorns are rare and majestic beasts native to the inner region of Coerthas. They are extremely shy, and are wont to avoid all contact with man. The notion that you were able to gain its trust is most thrilling."
+            },
+            {
+                "name": "BRAYA",
+                "text": "I've seen enough wild creatures to know that its behavior toward you means more than simple gratitude. Nay, the unicorn must have sensed kinship in you. Should you doubt my words, <span class=\"highlight\">Forename</span>, pray take this whistle and prepare yourself. A truly uplifting experience awaits!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 6269
+                }
+            ],
+            "xp": 7410
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 30,
+                    "id": 7
+                }
+            ],
+            "quests": [
+                65977
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000705",
+            "obj": {
+                "i": 1000705,
+                "n": "Braya",
+                "l": 53,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008174",
+            "obj": {
+                "i": 1008174,
+                "n": "Injured Mare",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "6269",
+            "obj": {
+                "i": 6269,
+                "n": "Unicorn Whistle",
+                "l": 1,
+                "c": 26039,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65977",
+            "obj": {
+                "i": 65977,
+                "n": "In Nature's Embrace",
+                "g": 133,
+                "l": "Gridania",
+                "s": 300,
+                "f": 1
+            }
+        }
+    ]
+}

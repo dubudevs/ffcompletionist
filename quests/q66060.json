@@ -1,0 +1,971 @@
+{
+    "quest": {
+        "name": "The Ultimate Weapon",
+        "location": "Northern Thanalan",
+        "id": 66060,
+        "patch": 2.0,
+        "sort": 249,
+        "icon": 112017,
+        "eventIcon": 71201,
+        "target": 1006692,
+        "involved": [
+            1006647,
+            1006668
+        ],
+        "genre": 0,
+        "journal": [
+            "Raubahn has some parting words for you ahead of the final phase of Operation Archon.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Raubahn at Raubahn's Push.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You are ready to depart for the Praetorium, the stage upon which the fate of the realm shall soon be decided. Fight your way into the depths of the structure, in search of the Ultima Weapon, and when you find the Allagan relic...send a piece of it to each of the seven hells.<br><br>※The Praetorium can be accessed via the Duty Finder.",
+            "With Gaius van Baelsar slain, and the Ultima Weapon destroyed, it would seem that Eorzea may finally look forward to an era of peace. Yet even as the people of the three city–states gather to celebrate their deliverance, a deafening roar reverberates throughout every corner of the realm...<br>A dread primal has awakened.",
+            "What fearsome primal is this that has been roused? Perhaps Minfilia will be able to shed some light on the mystery.",
+            "In troubled tones, Minfilia reveals to you that shortly after the roar was heard around the land, an aetheric disturbance was observed, bearing a disquieting similarity to a phenomenon recorded five years ago. It would seem that your struggles are far from over. Steel your resolve anew, and set forth to shine the Crystal's light upon the realm."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Raubahn at Raubahn's Push.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "RAUBAHN",
+                "text": "For the final phase of the operation, my Flames will storm Castrum Meridianum and suppress what is left of the imperial garrison. If all goes well, this will allow you to reach the Praetorium unopposed─fit and ready for your encounter with the Ultima Weapon."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Yours is the most dangerous mission of all, but the best must bear the heaviest burden, and you're the best we have. There's not another soul in this realm that could see this deed done, and Merlwyb and Kan–E are of the same mind as me."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Though all hangs on your success, you must not let our plight make you desperate. Victory belongs to the bold, not the reckless. Bards are wont to sing of heroes who valued their life at naught next to honor, love, and liberty, but I tell you now: that which men value at naught, they sell cheap. Risk no more than you must, you hear me?"
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Now, best you were off─we have work to do, the both of us. See that your preparations are in order, then report to Cid. He awaits you with the <span class=\"emphasis\">Enterprise</span> at the Ceruleum Processing Plant. May Rhalgr grant you strength."
+            },
+            {
+                "name": "CID",
+                "text": "The <span class=\"emphasis\">Enterprise</span> is at your disposal. When you're ready to head for the Praetorium, you need only say the word."
+            },
+            {
+                "name": "CID",
+                "text": "If we succeed in destroying the Ultima Weapon, it will deal a crippling blow to the Empire's hopes of conquest. After that, the XIVth Legion would not dare to move against us─barring the discovery of further Allagan doomsday devices, that is..."
+            },
+            {
+                "name": "CID",
+                "text": "Let's be on our way, <span class=\"highlight\">Forename</span>! Gaius and his plaything await!"
+            },
+            {
+                "name": "CID",
+                "text": "The <span class=\"emphasis\">Enterprise</span> is at your disposal. When you're ready to head for the Praetorium, you need only say the word."
+            },
+            {
+                "name": "CID",
+                "text": "So here we are..."
+            },
+            {
+                "name": "CID",
+                "text": "The Ultima Weapon will almost certainly be housed in the depths of the complex."
+            },
+            {
+                "name": "CID",
+                "text": "You know, the sort of place a Warrior of Light would boldly go with no thought for personal safety. Oh, if <span class=\"emphasis\">only</span> one were with us!"
+            },
+            {
+                "name": "CID",
+                "text": "This is it, my friend!"
+            },
+            {
+                "name": "CID",
+                "text": "Gaius!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Ah, Cid, my boy... You are late."
+            },
+            {
+                "name": "GAIUS",
+                "text": "There is something I always meant to tell you, yet the time never seemed right. It concerns your father."
+            },
+            {
+                "name": "CID",
+                "text": "...What of him?"
+            },
+            {
+                "name": "GAIUS",
+                "text": "In the winter of his years, Midas came to abhor his part in Meteor. He told me that he wanted nothing more than to wash his hands of the whole sordid business."
+            },
+            {
+                "name": "CID",
+                "text": "But he did <span class=\"emphasis\">not</span> wash his hands of it. He helmed the project until the day it killed him!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Come now, Cid...you must know that he did not have the luxury of choice. By the time he realized his error, it was too late. Meteor had him completely in its thrall."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Shortly before his...transformation, mayhap sensing that something was amiss, your father confided to me all the regrets of his life. Most of them concerned <span class=\"emphasis\">you</span>."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Early on in your career, he realized that while you had a talent for devising armaments, it would never fulfill you. Long before you knew your own mind, he saw that you would be far happier using your knowledge for peaceful purposes, and the thought touched him. He was a changed man for it, though he could not let it show."
+            },
+            {
+                "name": "CID",
+                "text": "You ripped open walls in this place just so you could say this to me!? What is it you want, Gaius!?"
+            },
+            {
+                "name": "GAIUS",
+                "text": "I want you at my side, Cid. Take up your father's mantle, and become the Empire's lead engineer. It is your destiny."
+            },
+            {
+                "name": "CID",
+                "text": "My father had a change of heart─you said so yourself! Besides, I have long known my destiny, and I assure you, it lies <span class=\"emphasis\">not</span> with the Empire!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "A pity.<br>And what of you, adventurer? Will you not consider making common cause with me?"
+            },
+            {
+                "name": "GAIUS",
+                "text": "With your powers joined to mine, we might do much for this realm. Together, we could bring order to Eorzea, and usher in a lasting peace."
+            },
+            {
+                "name": "GAIUS",
+                "text": "No? And I can expect no better answer than this? So be it. It was your strength that made me proffer my hand in friendship, and it is your strength that makes me proffer now my blade. Save as an ally, you are too dangerous to be let to remain."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Run, Cid. Or stay. It makes no matter. You cannot escape the past."
+            },
+            {
+                "name": "CID",
+                "text": "Gaius, wait! ...Damn it!"
+            },
+            {
+                "name": "CID",
+                "text": "Knowing Gaius, he is headed for the Ultima Weapon. If we find him, so too will we find our quarry."
+            },
+            {
+                "name": "CID",
+                "text": "With these instruments, we can monitor every nook and cranny in the castrum."
+            },
+            {
+                "name": "CID",
+                "text": "I think it's time we divided our forces. Pray go on and give chase. I'll track your movements from here and guide you through the complex."
+            },
+            {
+                "name": "CID",
+                "text": "We'll stay in contact via linkpearl. Be careful, all right?"
+            },
+            {
+                "name": "CID",
+                "text": "Ah, there she is!"
+            },
+            {
+                "name": "CID",
+                "text": "I trust you recognize our old friend. “Maggie,” was it? They must have shipped her here from Centri."
+            },
+            {
+                "name": "CID",
+                "text": "Considering all she's been through, it's a wonder she's still operational. Tough old girl!"
+            },
+            {
+                "name": "CID",
+                "text": "Now that you're suitably armed, you can blast open that bulkhead. The external walkway will take you back there."
+            },
+            {
+                "name": "CID",
+                "text": "Follow it till you come upon a way down to the lower level."
+            },
+            {
+                "name": "CID",
+                "text": "That bulkhead is composed of a special alloy. <span class=\"emphasis\">Extremely</span> tough. Ordinary fire won't leave a mark, I'm afraid."
+            },
+            {
+                "name": "CID",
+                "text": "You'll need to divert all power to the magitek cannon, as I did at Castrum Meridianum."
+            },
+            {
+                "name": "CID",
+                "text": "The armor's core is like to expire from the strain, but there's no help for it if we want to press on."
+            },
+            {
+                "name": "CID",
+                "text": "Now, listen well. Press...&lt;buzzzzzz&gt;...the control...&lt;fizzzzzz&gt;...engage ancillary...then fire away. Don't mind the warning lights."
+            },
+            {
+                "name": "CID",
+                "text": "You're a natural at this! All right, the way's clear, but it's just you and your own two feet now, so be careful."
+            },
+            {
+                "name": "NERO",
+                "text": "You have been leaving a fine mess in your wake, adventurer."
+            },
+            {
+                "name": "CID",
+                "text": "Is someone there!?"
+            },
+            {
+                "name": "NERO",
+                "text": "Garlond, old friend. How it warms the heart to hear your voice again after all these years."
+            },
+            {
+                "name": "CID",
+                "text": "...Nero? Is that you!?"
+            },
+            {
+                "name": "NERO",
+                "text": "You sound well. It would seem this savage land agrees with you."
+            },
+            {
+                "name": "CID",
+                "text": "The highest ranking tribunus of the XIVth... It was <span class=\"emphasis\">you</span> all this time?"
+            },
+            {
+                "name": "NERO",
+                "text": "Tell me, Garlond. How long do you intend to keep all the glory for yourself?"
+            },
+            {
+                "name": "CID",
+                "text": "Uh...what? You've lost me."
+            },
+            {
+                "name": "NERO",
+                "text": "Don't play the fool with me. Ever since the Academy, I have been condemned to live in your shadow."
+            },
+            {
+                "name": "NERO",
+                "text": "By all objective measure, <span class=\"emphasis\">I</span> was the more talented of the two of us, yet that fact counted for naught beside your privileged birth. <span class=\"emphasis\">You</span> were admired as the young prodigy simply because your father was the great Midas nan Garlond!"
+            },
+            {
+                "name": "NERO",
+                "text": "When you defected, I felt sure my star would finally rise..."
+            },
+            {
+                "name": "NERO",
+                "text": "But by disappearing, you acquired the status of a legend─your reputed genius gaining credence merely by dint of your absence! Instead of cursing you for a traitor, the people actually came to think of you more <span class=\"emphasis\">fondly</span>! To this day, you are <span class=\"emphasis\">still</span> the young prodigy of magitek!"
+            },
+            {
+                "name": "NERO",
+                "text": "I, meanwhile, have ever been made to feel second-rate─I who have continued to serve <span class=\"emphasis\">our</span> nation faithfully. Whenever I fail to excel─why, it is only to be expected! Yet when I exceed all reasonable expectations, people proclaim that I walk in the footsteps of the great Cid nan <span class=\"emphasis\">bloody</span> Garlond!"
+            },
+            {
+                "name": "CID",
+                "text": "Nero, I...I don't know what to say."
+            },
+            {
+                "name": "NERO",
+                "text": "It matters not a whit what I achieve. Your existence has rendered mine worthless. Even Lord van Baelsar saw fit to offer <span class=\"emphasis\">you</span> a place at his side─and this in spite of your betrayal! Did he extend any such offer to me─the man who has remained loyal to him for all these years? Why, no. He did not."
+            },
+            {
+                "name": "NERO",
+                "text": "Long have I endured this injustice...but no more."
+            },
+            {
+                "name": "NERO",
+                "text": "Lord van Baelsar is in the midst of activating the fully powered Ultima Weapon."
+            },
+            {
+                "name": "NERO",
+                "text": "It is my magnum opus─the creation that will win me the recognition I am due. I will not let anyone interfere."
+            },
+            {
+                "name": "CID",
+                "text": "Nero! What are you─!?"
+            },
+            {
+                "name": "NERO",
+                "text": "Ever since I first set foot in this benighted land, I have watched you─every move you have made, every step you have taken."
+            },
+            {
+                "name": "NERO",
+                "text": "You have felled eikons, a feat made possible by the Echo, a peculiar power which shields you from their corrupting influence."
+            },
+            {
+                "name": "NERO",
+                "text": "It is of little wonder that my lord has taken an interest in you."
+            },
+            {
+                "name": "NERO",
+                "text": "As have I, if truth be told. It is my desire to harness your power for use in the Ultima Weapon."
+            },
+            {
+                "name": "NERO",
+                "text": "Should I succeed, Lord van Baelsar will surely take notice! Beside this, Garlond's achievements will be as child's play!"
+            },
+            {
+                "name": "NERO",
+                "text": "Come, adventurer, and yield to me the secrets of your power!"
+            },
+            {
+                "name": "NERO",
+                "text": "This changes...nothing..."
+            },
+            {
+                "name": "NERO",
+                "text": "I am the greatest engineer...the Empire has ever seen! By my hands...the field of magitek...shall reach its zenith!"
+            },
+            {
+                "name": "NERO",
+                "text": "Ahahahaha! The Ultima Weapon is activated, and it brims with the power of eikons! Nothing can withstand its might!"
+            },
+            {
+                "name": "CID",
+                "text": "Are you all right!?"
+            },
+            {
+                "name": "CID",
+                "text": "What of Nero!? ...Fled!? Damn it!"
+            },
+            {
+                "name": "CID",
+                "text": "In the instant prior to the blackout, the instruments detected a massive power surge from the deepest chamber."
+            },
+            {
+                "name": "CID",
+                "text": "Gaius is certain to be there! We have no time to waste!"
+            },
+            {
+                "name": "CID",
+                "text": "Word arrived from the Alliance a short while ago. It seems the Order of the Twin Adder has completed its blockade of Castrum Centri."
+            },
+            {
+                "name": "CID",
+                "text": "What hands they can spare are hastening this way even as we speak, and likewise for the Maelstrom. All that's left is to destroy the Ultima Weapon!"
+            },
+            {
+                "name": "CID",
+                "text": "...I should warn you: the chamber which houses the target appears to be saturated with aetheric energies. There's bound to be heavy interference."
+            },
+            {
+                "name": "CID",
+                "text": "But even if we lose contact, you must go on. Just don't do anything I wouldn't do, all right?"
+            },
+            {
+                "name": "CID",
+                "text": "Look for the lift's control panel─it'll be somewhere nearby."
+            },
+            {
+                "name": "CID",
+                "text": "Take the lift down, and you should find yourself in the chamber of the Ultima Weapon."
+            },
+            {
+                "name": "CID",
+                "text": "Keep your eyes peeled─Gaius could be waiting for you down there."
+            },
+            {
+                "name": "CID",
+                "text": "Oh, and don't even <span class=\"emphasis\">think</span> about dying. You're too bloody useful!"
+            },
+            {
+                "name": "CID",
+                "text": "The interference is getting worse. I don't think the connection will last much─"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Tell me...for whom do you fight?"
+            },
+            {
+                "name": "Q3",
+                "text": "For whom do you fight?"
+            },
+            {
+                "name": "A3",
+                "text": "Myself."
+            },
+            {
+                "name": "A3",
+                "text": "My friends."
+            },
+            {
+                "name": "A3",
+                "text": "For Eorzea."
+            },
+            {
+                "name": "A3",
+                "text": "..."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Hmph! Do you believe in Eorzea?"
+            },
+            {
+                "name": "Q4",
+                "text": "Do you believe in Eorzea?"
+            },
+            {
+                "name": "A4",
+                "text": "Yes."
+            },
+            {
+                "name": "A4",
+                "text": "No."
+            },
+            {
+                "name": "A4",
+                "text": "What the─? I don't even..."
+            },
+            {
+                "name": "A4",
+                "text": "..."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Eorzea's unity is forged of falsehoods. Its city–states are built on deceit. And its faith is an instrument of deception."
+            },
+            {
+                "name": "GAIUS",
+                "text": "It is naught but a cobweb of lies. To believe in Eorzea is to believe in nothing."
+            },
+            {
+                "name": "GAIUS",
+                "text": "In Eorzea, the beast tribes often summon gods to fight in their stead─though your comrades only rarely respond in kind. Which is strange, is it not?"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Are the “Twelve” otherwise engaged? I was given to understand they were your protectors. If you truly believe them your guardians, why do you not repeat the trick that served you so well at Carteneau, and call them down?"
+            },
+            {
+                "name": "GAIUS",
+                "text": "They <span class=\"emphasis\">will</span> answer─so long as you lavish them with crystals and gorge them on aether."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Your gods are no different from those of the beasts─eikons every one. Accept but this, and you will see how Eorzea's faith is bleeding the land dry."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Nor is this unknown to your masters. Which prompts the question: why do they cling to these false deities? What drives even men of learning─even the great Louisoix─to grovel at their feet?"
+            },
+            {
+                "name": "GAIUS",
+                "text": "The answer? Your masters lack the strength to do otherwise!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "For the world of man to mean anything, man must own the world."
+            },
+            {
+                "name": "GAIUS",
+                "text": "To this end, he hath fought ever to raise himself through conflict─to grow rich through conquest."
+            },
+            {
+                "name": "GAIUS",
+                "text": "And when the dust of battle settles, it is ever the strong who dictate the fate of the weak."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Knowing this, but a single path is open to the impotent ruler─that of false worship. A path which leads to enervation and death."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Only a man of power can rightly steer the course of civilization. And in this land of creeping mendacity, that one truth will prove its salvation."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Come, champion of Eorzea, face me! Your defeat shall serve as proof of my readiness to rule!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "It is only right that I should take your realm. For none among you has the power to stop me!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "I had not thought to be so hard-pressed."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Your strength is...most impressive. Such power befits a ruler!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Yet you lack the resolve to put it to proper use. A waste."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Allow me, then, hero, to do that which you will not!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Bear witness to the true power of the Ultima Weapon!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "But the Ultima Weapon is all-powerful! Why does my enemy still stand!?"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Can <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> strength truly be so great?"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "It is the blessing of Light that confounds you."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Lahabrea."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Your foe acts under the protection of the Crystal <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> bears."
+            },
+            {
+                "name": "GAIUS",
+                "text": "So, this is what empowers <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Beyond mortal limits."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "If you are to prevail, the hammer of Darkness must needs be brought to bear upon the shield of Light."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "And so it shall, for the Ultima Weapon is host to a power of which you are as yet ignorant."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Speak plainly, Ascian."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "The Heart of Sabik. It is the Weapon's core─an enigma whose surface even the vaunted scholars of ancient Allag failed to scratch."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "The magic within has lain dormant for eons."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Of what magic do you speak?"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "A spell without parallel. Ultima."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "I sought the life force of the primals for no other reason but to quicken the core. For the true power of the Ultima Weapon lies within its now-beating Heart!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Lahabrea... What have you done?"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "No more than was necessary...for my god to be reborn."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Damn you, Ascian!"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "The hour is at hand! Behold but a sliver of my god's power!"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "And from the deepest pit of the seven hells to the very pinnacle of the heavens, the world shall tremble! Unleash Ultima!"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Ahahahahahaha!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Such devastation... This was <span class=\"emphasis\">not</span> my intention..."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Oh, Hydaelyn...it seems the task of keeping Your champion alive has exhausted what strength You had left."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Van Baelsar... Your enemy's shield is broken."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "The rest I leave to you."
+            },
+            {
+                "name": "GAIUS",
+                "text": "We will speak later, Ascian."
+            },
+            {
+                "name": "GAIUS",
+                "text": "But first, I must deal with you. The question of who is mightier remains!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Come, adventurer! Let us find the answer together!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "No... No, no, NO! Uh!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "Heed me... The subjects of a weak ruler must needs look to a higher power for providence...and their dependence comes at a cost to the realm."
+            },
+            {
+                "name": "GAIUS",
+                "text": "The misguided elevate the frail... And the frail lead the people astray."
+            },
+            {
+                "name": "GAIUS",
+                "text": "Unless a man of power wrests control...the cycle will never be broken."
+            },
+            {
+                "name": "GAIUS",
+                "text": "You... You of all people must see the truth in this. You who have the strength to rule..."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Pathetic."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "You boasted of unrivaled power. You were entrusted with the ultimate weapon. The <span class=\"emphasis\">ultimate magic</span>!"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "And still you failed. So much for the glory of man."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "The growing imbalance afflicting the planet must be redressed."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "If it is permitted to worsen, the very laws of existence─both aetheric and physical─will be warped beyond all recognition."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Know you the root of this corruption? Hydaelyn!"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Like a parasite, She must be burned out if the planet is to recover."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "And naught but the return of the one true god will ensure Her complete excision."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Yet to pave the way for the master's return, a chaotic confluence of untold proportions must needs be brought about. And that will necessitate the presence of the primals."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Needless to say, both you and your Scion accomplices can not be suffered to interfere in this endeavor."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "You will not leave this place alive."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "It is past time your flame was extinguished...“Bringer of Light.”"
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "If thou wouldst pierce the shadows...make thee a blade of Light."
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "What!?"
+            },
+            {
+                "name": "WARRIORSOFLIGHT",
+                "text": "Yaaarrrgh!"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "The Light...it binds them... They are too many!"
+            },
+            {
+                "name": "LAHABREAEORZEA",
+                "text": "Aaaaaaaaarrrgh!!!"
+            },
+            {
+                "name": "GAIUS",
+                "text": "And so my conquest ends, Cid."
+            },
+            {
+                "name": "GAIUS",
+                "text": "In smoke and ashes..."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Hear... Feel... Think..."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Warrior of Light. Beloved <span class=\"alternative-container\"><span class=\"alternative\">daughter</span><span class=\"alternative\">son</span></span>."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "The Darkness hath fled before the unclosed brilliance of thy spirit."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Yet it lingereth still beyond the sight of men, in forgotten corners of the world."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "In the depths of the abyss yet resideth the Dark One, watchful ever."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Till this evil be cast out, never shall the world know aught but a passing peace."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Yet for the present, a gentle light shineth o'er the realm of Eorzea."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "With thee at its heart."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "From sparkling mote shall it swell to glorious sun, and all the world shall bask in its warmth."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Blessings and joy be upon thee."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Go forth, my child, and be as a beacon of hope for Eorzea and the lands beyond, through all the days of thy life."
+            },
+            {
+                "name": "A00910",
+                "text": "My lady! All Twin Adder units have fallen back to the outer perimeter!"
+            },
+            {
+                "name": "A00920",
+                "text": "The Flames have completed their withdrawal, General!"
+            },
+            {
+                "name": "A00930",
+                "text": "Admiral! All hands accounted for!"
+            },
+            {
+                "name": "A00940",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span>'s still in there..."
+            },
+            {
+                "name": "A00950",
+                "text": "Cid! Has there been no word?"
+            },
+            {
+                "name": "A00960",
+                "text": "Nothing. Nothing at all."
+            },
+            {
+                "name": "A00970",
+                "text": "Damnation!"
+            },
+            {
+                "name": "A00980",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span>'s going to make it! I know <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> is!"
+            },
+            {
+                "name": "A00990",
+                "text": "Yda is right. We must have faith."
+            },
+            {
+                "name": "A01000",
+                "text": "Cid! Can they not be evacuated aboard the <span class=\"emphasis\">Enterprise</span>?"
+            },
+            {
+                "name": "A01010",
+                "text": "That adventurer and the Scions are as the Warriors of Light reborn."
+            },
+            {
+                "name": "A01020",
+                "text": "We cannot abandon them to their fate! Not again!"
+            },
+            {
+                "name": "A01030",
+                "text": "I wholeheartedly agree! But flying into the midst of <span class=\"emphasis\">that</span> would only add to the fireworks!"
+            },
+            {
+                "name": "A01040",
+                "text": "There must be something we can do!"
+            },
+            {
+                "name": "A01050",
+                "text": "Please, Mother Hydaelyn. Please light <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> way through the darkness..."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Look into the Light, my child. If thou wouldst see thy companions returned safe to thee, reach out to them now."
+            },
+            {
+                "name": "A01070",
+                "text": "It's <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>. I feel <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> presence!"
+            },
+            {
+                "name": "A01080",
+                "text": "Can it be─? Is it really <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>!?"
+            },
+            {
+                "name": "A01090",
+                "text": "I knew it! I knew it all along!"
+            },
+            {
+                "name": "A01100",
+                "text": "Who speaks...? The Crystal! She calls to us!"
+            },
+            {
+                "name": "A01110",
+                "text": "I hear Her! The voice of Hydaelyn Herself..."
+            },
+            {
+                "name": "A01120",
+                "text": "She speaks of...<br>Strike me down! No wonder <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> seemed familiar! <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span>'s one of the Warriors of Light!"
+            },
+            {
+                "name": "A01130",
+                "text": "What are you smirking at, Cid!? You <span class=\"emphasis\">knew</span>, didn't you!?"
+            },
+            {
+                "name": "A01140",
+                "text": "Oh, you mean our adventurer friend? Did I forget to mention <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> was one of the Warriors of Light?"
+            },
+            {
+                "name": "A01150",
+                "text": "Saved Eorzea, you know. Twice."
+            },
+            {
+                "name": "A01160",
+                "text": "The shroud is lifted. They remember you..."
+            },
+            {
+                "name": "A01170",
+                "text": "There!"
+            },
+            {
+                "name": "A01180",
+                "text": "Oh!"
+            },
+            {
+                "name": "A01190",
+                "text": "Yay!"
+            },
+            {
+                "name": "A01200",
+                "text": "Our Warrior of Light!"
+            },
+            {
+                "name": "A01210",
+                "text": "Yes! The hero returns!"
+            },
+            {
+                "name": "A01220",
+                "text": "Look! Thancred is with <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>!"
+            },
+            {
+                "name": "A01230",
+                "text": "Thank the Twelve!"
+            },
+            {
+                "name": "A01240",
+                "text": "Thank Hydaelyn..."
+            },
+            {
+                "name": "A01250",
+                "text": "Welcome home."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "The Archons have conducted a preliminary investigation into the origin of the roar that rang out during the celebration. Their findings strongly suggest that a new primal has appeared."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "The roar generated a distinctive wave pattern in the aether, a pattern observed only once before in history─five years ago, to be precise. I should like to think it mere coincidence, yet we cannot discount that possibility... Well, I trust I need say no more."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "At great sacrifice, we have delivered Eorzea from the threat posed by the Empire and the primals, and thereby secured peace. We cannot well allow the realm to be plunged into chaos once more."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "You have given your all for our cause, risking life and limb on I know not how many occasions, yet our struggle continues, and we need you now no less than before."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Please continue to stand with us, and together we shall safeguard the future of the realm─of this very star!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You can now fly while mounted in La Noscea, Thanalan, the Black Shroud, Coerthas central highlands, and Mor Dhona."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To take flight, simply jump while mounted."
+            }
+        ],
+        "reward": {
+            "xp": 4800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                69409
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006692",
+            "obj": {
+                "i": 1006692,
+                "n": "Minfilia",
+                "l": 356,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006647",
+            "obj": {
+                "i": 1006647,
+                "n": "Raubahn",
+                "l": 46,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006668",
+            "obj": {
+                "i": 1006668,
+                "n": "Cid",
+                "l": 46,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69409",
+            "obj": {
+                "i": 69409,
+                "n": "Rock the Castrum",
+                "g": 1,
+                "l": "Northern Thanalan",
+                "s": 248
+            }
+        }
+    ]
+}

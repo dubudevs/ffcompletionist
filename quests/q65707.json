@@ -1,0 +1,134 @@
+{
+    "quest": {
+        "name": "The Valued Vilekin",
+        "location": "North Shroud",
+        "id": 65707,
+        "patch": 2.0,
+        "sort": 60,
+        "eventIcon": 71221,
+        "issuer": 1000629,
+        "target": 1000612,
+        "involved": [
+            1000621
+        ],
+        "genre": 92,
+        "journal": [
+            "Bodwine is seeking an adventurer to make a delivery.",
+            "Bodwine asks you to gather aphids from the tangled undergrowth near Blessed Bud. He warns you that ladybugs are rather fond of the tiny vilekin, and may not take kindly to your presence.",
+            "You defeat the bloodthirsty ladybug in an epic struggle that shan't soon be forgotten. Gather your hard-earned aphids and be on your way.",
+            "You gather the aphids without further incident. Deliver them to Guithrit outside E–Tatt's Spire.",
+            "Grateful for the delivery, Guithrit explains the surprising importance of aphid oil to the Wood Wailers. Thanks to your aid, they can once again focus on protecting Gridania from her enemies."
+        ],
+        "objectives": [
+            "Search for aphids in the tangled undergrowth.",
+            "Gather aphids from the tangled undergrowth.",
+            "Deliver the aphids to Guithrit."
+        ],
+        "dialogue": [
+            {
+                "name": "BODWINE",
+                "text": "We haven't forgotten how ye helped us out with them mitelin's. Speakin' o' which, if ye've got a bit o' time to spare, could I trouble ye to gather some aphids?"
+            },
+            {
+                "name": "BODWINE",
+                "text": "Ye can find 'em livin' in the tangled undergrowth near Blessed Bud. But don't be surprised if yer presence attracts a starvin' ladybug or two. They're rather fond o' the wee vilekin, ye see."
+            },
+            {
+                "name": "BODWINE",
+                "text": "When ye've gathered the aphids, deliver 'em to Captain Guithrit over at E–Tatt's Spire. And tell him Treespeak Stables sends its regards."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "What's that? You have something for me?"
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "Ah, aphids from Bodwine! This is indeed a blessing."
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "What use have we for aphids, you ask? Why, their oil, of course! There is naught better for maintaining our weapons."
+            },
+            {
+                "name": "GUITHRIT",
+                "text": "Were it not for your timely delivery, I would have been forced to send a sentry to replenish our dwindling supplies. I'll have to thank Bodwine personally. And thanks to you as well, friend."
+            }
+        ],
+        "reward": {
+            "gil": 147,
+            "xp": 975
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 3,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65706
+            ]
+        },
+        "next": [
+            65710
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000629",
+            "obj": {
+                "i": 1000629,
+                "n": "Bodwine",
+                "l": 57,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000612",
+            "obj": {
+                "i": 1000612,
+                "n": "Guithrit",
+                "l": 57,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000621",
+            "obj": {
+                "i": 1000621,
+                "n": "Simond",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65706",
+            "obj": {
+                "i": 65706,
+                "n": "Jumping at Shadows",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 50
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65710",
+            "obj": {
+                "i": 65710,
+                "n": "No Quarter Given",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 70
+            }
+        }
+    ]
+}

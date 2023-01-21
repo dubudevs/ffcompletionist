@@ -1,0 +1,217 @@
+{
+    "quest": {
+        "name": "A Hearer Is Often Late",
+        "location": "Central Shroud",
+        "id": 65920,
+        "patch": 2.0,
+        "sort": 63,
+        "eventIcon": 71201,
+        "issuer": 1000491,
+        "target": 1000503,
+        "involved": [
+            1002932
+        ],
+        "genre": 1,
+        "journal": [
+            "Lothaire, a guard at Galvanth's Spire, wants you to visit the Hedgetree.",
+            "Lothaire has asked that you remind Hearer Leonnie that she has booked passage on a vessel at the Mirror Planks. Head to the Hedgetree to the southwest and speak with the conjurer.",
+            "Hearer Leonnie must remain at the Hedgetree to commune with the elementals. Inform Armelle at the Mirror Planks of the delay to the conjurer's plans.",
+            "You convey Hearer Leonnie's message to Armelle, who resigns herself to booking the conjurer passage on a later vessel. The only issue remaining is to decide <span class=\"emphasis\">how much</span> later..."
+        ],
+        "objectives": [
+            "Speak with Leonnie.",
+            "Speak with Armelle at the Mirror Planks."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "I have another task for you, adventurer. I need you to head to the Hedgetree to the southwest of here and speak with Hearer Leonnie."
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "After tending to the Hedgetree, the Hearer was scheduled to board a boat from the Mirror Planks... Well, the vessel's departure time has come and gone, but there is still no sign of her."
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "Knowing how absorbed the Hearer becomes in her work, I am not unduly concerned. Armelle, however, was responsible for organizing Leonnie's transportation and is likely wondering if her wayward passenger is ever going to arrive. Perhaps a gentle reminder is in order?"
+            },
+            {
+                "name": "LEONNIE",
+                "text": "Yes, what troubles you, my de─? Ah. Yes. The boat. I had quite forgotten."
+            },
+            {
+                "name": "LEONNIE",
+                "text": "Hm? Oh, my task with the Hedgetree is well and finished, but the elementals murmur of a malevolent presence in the vicinity of the Tam–Tara Deepcroft."
+            },
+            {
+                "name": "LEONNIE",
+                "text": "I must abide a while longer, that I might better divine the source of the elementals' distress. Please inform Armelle that I shall be late in arriving."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "You bear a message from Hearer Leonnie? An evil presence in the Deepcroft? That does sound grave, indeed."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "I shall organize a vessel for a later time, then. Perhaps a bell from now? Two? Better make it three, just to be safe. Thank you for your trouble."
+            },
+            {
+                "name": "LEONNIE",
+                "text": "I must linger here a while longer. Please head to the Mirror Planks and convey my apologies to Armelle."
+            }
+        ],
+        "reward": {
+            "gil": 200,
+            "items": [
+                {
+                    "id": 1823,
+                    "one": 1
+                },
+                {
+                    "id": 1894,
+                    "one": 1
+                },
+                {
+                    "id": 1960,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 6160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65917
+            ]
+        },
+        "next": [
+            65695,
+            65923
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000491",
+            "obj": {
+                "i": 1000491,
+                "n": "Lothaire",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000503",
+            "obj": {
+                "i": 1000503,
+                "n": "Armelle",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002932",
+            "obj": {
+                "i": 1002932,
+                "n": "Leonnie",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "1823",
+            "obj": {
+                "i": 1823,
+                "n": "Feathered Harpoon",
+                "l": 12,
+                "c": 31811,
+                "t": 5,
+                "p": 528
+            }
+        },
+        {
+            "type": "item",
+            "id": "1894",
+            "obj": {
+                "i": 1894,
+                "n": "Wrapped Maple Longbow",
+                "l": 13,
+                "c": 32207,
+                "t": 4,
+                "p": 644
+            }
+        },
+        {
+            "type": "item",
+            "id": "1960",
+            "obj": {
+                "i": 1960,
+                "n": "Budding Maple Wand",
+                "l": 11,
+                "c": 32403,
+                "t": 8,
+                "p": 344
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65917",
+            "obj": {
+                "i": 65917,
+                "n": "Migrant Marauders",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 57
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65695",
+            "obj": {
+                "i": 65695,
+                "n": "Lights Out",
+                "g": 0,
+                "l": "Central Shroud",
+                "s": 64
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65923",
+            "obj": {
+                "i": 65923,
+                "n": "Salvaging the Scene",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 65
+            }
+        }
+    ]
+}

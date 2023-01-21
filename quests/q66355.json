@@ -1,0 +1,116 @@
+{
+    "quest": {
+        "name": "Trial by Turtle",
+        "location": "South Shroud",
+        "id": 66355,
+        "patch": 2.0,
+        "sort": 164,
+        "eventIcon": 71201,
+        "target": 1004917,
+        "genre": 0,
+        "journal": [
+            "Landenel is wondering why you are still here.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Landenel at Camp Tranquil.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "As Landenel suspected, you were immediately attacked by the mother adamantoise when you touched the egg. It was a mighty struggle, but in the end you survived. You may now claim your prize.",
+            "The adamantoise egg is now yours. Return to Camp Tranquil and present it to Landenel.",
+            "Landenel is impressed by your reckless bravery. After taking the egg on behalf of Wheiskaet, he bids you journey to Forgotten Springs in southern Thanalan and speak with a man named U'odh Nunh, who will help you obtain the second ingredient.",
+            "Contrary to what Landenel said, U'odh Nunh has no intention of aiding you in your quest. It seems the old Miqo'te will require some convincing..."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Landenel at Camp Tranquil.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "LANDENEL",
+                "text": "Well, what are you waiting for? There's a perfectly good adamantoise egg in a nest to the east of here, just ripe for the taking."
+            },
+            {
+                "name": "LANDENEL",
+                "text": "Not that I expect you to live long enough to claim it! The mother never strays far from the child, and you will surely be attacked the moment you lay hands upon the egg."
+            },
+            {
+                "name": "LANDENEL",
+                "text": "...There will be other heroes, <span class=\"highlight\">Forename</span>. <span class=\"emphasis\">You</span> do not need to challenge Titan. Abandon your quest, or your corpse will rot in this swamp."
+            },
+            {
+                "name": "LANDENEL",
+                "text": "I thought you might have the good sense to leave this place. By your continued presence, I take it you intend to persevere to the bitter end?"
+            },
+            {
+                "name": "LANDENEL",
+                "text": "Ahahaha! Such bravery, such recklessness! That will serve you well against Titan."
+            },
+            {
+                "name": "LANDENEL",
+                "text": "Leave the egg with me─I'll see that it gets to the captain. You should make haste to southern Thanalan."
+            },
+            {
+                "name": "LANDENEL",
+                "text": "In Forgotten Springs, you will find a man named U'odh Nunh. He will be your next guide. Safe travels, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "UODHNUN",
+                "text": "State your business, adventurerrr.<br>&lt;snort&gt; Hah hah hah! So this is the one Wheiskaet sends me."
+            },
+            {
+                "name": "UODHNUN",
+                "text": "I haven't the foggiest what he sees in you─and until I do, you will rrreceive no aid from me."
+            },
+            {
+                "name": "POP",
+                "text": "You feel the ground tremble beneath your feet..."
+            }
+        ],
+        "reward": {
+            "xp": 14820
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 30,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66352
+            ]
+        },
+        "next": [
+            66356
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1004917",
+            "obj": {
+                "i": 1004917,
+                "n": "U'odh Nunh",
+                "l": 45,
+                "q": 12
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66352",
+            "obj": {
+                "i": 66352,
+                "n": "Changing of the Guard",
+                "g": 0,
+                "l": "South Shroud",
+                "s": 163
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66356",
+            "obj": {
+                "i": 66356,
+                "n": "The Drake Exception",
+                "g": 0,
+                "l": "Southern Thanalan",
+                "s": 165
+            }
+        }
+    ]
+}

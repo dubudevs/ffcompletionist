@@ -1,0 +1,165 @@
+{
+    "quest": {
+        "name": "Only You Can Prevent Forest Ire",
+        "location": "South Shroud",
+        "id": 66616,
+        "patch": 2.0,
+        "sort": 2,
+        "icon": 100110,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006751,
+        "target": 1006751,
+        "genre": 153,
+        "journal": [
+            "Raya–O–Senna would teach you to commune with the elementals.",
+            "The process of pacifying ireful trees involves communing with the elementals that dwell within, such that a state of harmony might be restored. As the next stage of your training as a white mage, Raya–O–Senna would have you pacify a small tree in the northwest area of Sorrel Haven.",
+            "You have attuned yourself with the elementals and soothed the tree's anger. Inform Raya–O–Senna of your success.",
+            "According to Raya–O–Senna, the unrest that has come to the Twelveswood is a manifestation of the elementals' fury. Soothing their anger and restoring harmony to the forest is the duty of the white mage─a duty she feels transcends race or nation. She would ask that you continue to hone your skills while she thinks of a way to persuade her brother, A–Ruhn–Senna, that you are the right <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> for the job.<br><br>※The next white mage quest will be available from Raya–O–Senna upon reaching level 40."
+        ],
+        "objectives": [
+            "Quell the anger of a tree in Sorrel Haven.",
+            "Report to Raya–O–Senna."
+        ],
+        "dialogue": [
+            {
+                "name": "RAYAOSENNA",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. Looking ever more the white mage, I see. And yet, I fear you are as ready to perform the Quieting as a chocobo chick is to carry a Wood Wailer clad in full plate."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "But take heart, for we all must begin somewhere. Today, I would teach you the art of communing with the elementals. This is, by any measure, the very foundation of our art, the means by which we preserve harmony between the forest and our people."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "Not far from Sorrel Haven you shall find a tree─a mere sapling in the shadow of the Guardian Tree, but one that has likewise been consumed by anger and fear."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "I would ask you to placate this tree. The process is quite simple: stand before the tree and raise your hands. Commune with the elementals that reside within, and attune yourself to them, until your feelings are in absolute harmony."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "Be forewarned, however: an angry elemental can be as stubborn as my dear brother. Do not be surprised if you find your honest plea rebuffed, and foul creatures sent to drive you from the forest."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "No matter what happens, you must remain calm. Dispatch the creatures, settle your heart, and speak to the tree once more. If your heart is true, your voice will reach the elemental ere long."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "Remember this, <span class=\"highlight\">Forename</span>: under no circumstances must you allow your anger and fear to overcome you. As practitioners of white magic─the magic of succor and solace─such emotions are anathema to our very existence."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "A short while ago, I sensed a great anger abate. The forest is quieter, more welcoming now. It would seem you have passed your first test, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "The trees are the elementals, the elementals are the trees─the lush verdure of the wood is inseparable from the spirits that dwell within it. But you do not need to hear this from me. Doubtless you felt it for yourself, when you healed that tree."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "Above all else, the elementals prize harmony. When they sense a threat to harmony, they summon forth all the powers at their disposal to expulse it."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "For so long have we lived in peace with the elementals. Why, now, do they turn against us? I can offer no answers, only theories. But one thing is certain─we must quell the great one's fury, and do it soon, lest Gridania bear the full brunt of the forest's wrath."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "To soothe the forest's wounds, and restore harmony─that is our duty as mages of the white, and it is a responsibility that transcends race or nation."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "I sensed your success in soothing the ailing tree, and am more certain of this than ever. Sadly, many cannot see past established practice and tradition─my dear brother among them."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "One would hope for a bit more open-mindedness given his youth, but alas, his pride as a Padjal will not permit it."
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "For my part, I am not entirely unsympathetic to his concerns. And yet, the task before us is too great. We must bring him around to see reason...but how?"
+            },
+            {
+                "name": "RAYAOSENNA",
+                "text": "Forgive me, <span class=\"highlight\">Forename</span>. I would be alone with my thoughts for a while. Worry not─I will find a way to deal with A–Ruhn."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "action": 137,
+            "xp": 18040
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 25
+                }
+            ],
+            "quests": [
+                66615
+            ]
+        },
+        "next": [
+            66617
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006751",
+            "obj": {
+                "i": 1006751,
+                "n": "Raya-O-Senna",
+                "l": 56,
+                "q": 16
+            }
+        },
+        {
+            "type": "action",
+            "id": "137",
+            "obj": {
+                "i": 137,
+                "n": "Regen",
+                "c": 2628,
+                "j": 24,
+                "t": 2,
+                "l": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66615",
+            "obj": {
+                "i": 66615,
+                "n": "Seer Folly",
+                "g": 153,
+                "l": "Gridania",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66617",
+            "obj": {
+                "i": 66617,
+                "n": "O Brother, Where Art Thou",
+                "g": 153,
+                "l": "South Shroud",
+                "s": 3,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "quest": {
+        "name": "Farmer of Fortune",
+        "location": "Western La Noscea",
+        "id": 65940,
+        "patch": 2.0,
+        "sort": 52,
+        "eventIcon": 71201,
+        "target": 1003244,
+        "genre": 0,
+        "journal": [
+            "Lyulf, a struggling farmer in Swiftperch, wants you to search for his deceased father's buried fortune.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Fraeloef in Swiftperch.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You have recovered the casket of riches. Return to Swiftperch, and deliver the treasure to the waiting Lyulf.",
+            "The casket you uncovered proves to hold nothing more than a handful of wheat seeds. Lyulf is momentarily disappointed until he recalls a comment his father once made concerning the success of his family's crops. With seeds that thrive even in the most barren soil, the farmer hopes to soon see the day when the desolate fields of Swiftperch are transformed into a golden sea of swaying wheat."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Fraeloef in Swiftperch.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "LYULF",
+                "text": "The Calamity was a most horrendous event. It took from me my father, destroyed our home, and scorched our fields. It crushed my hopes and dreams."
+            },
+            {
+                "name": "LYULF",
+                "text": "All that I have left of my dear old dad is his notebook. He scrawled down a fair bit of nonsense in that ratty, dog-eared tome, but as I was leafing through the pages one day, I found a passage entitled “For the Future.” It described the location where my father had buried his “earthly wealth,” in an area that was once a bustling neighborhood."
+            },
+            {
+                "name": "LYULF",
+                "text": "I was not aware our family possessed much in the way of treasures. Could the crafty rapscallion have squirreled away a bulging bag of gil or precious stones? Just think of the contribution I might make to Swiftperch's revival with such a fortune at my disposal!"
+            },
+            {
+                "name": "LYULF",
+                "text": "The catch? Ah, yes, the catch. The area is crawling with bandits and wild jackals. I need someone─that is, I need <span class=\"emphasis\">you</span>─to search among the derelict houses in the Flock and dig up the casket my father buried."
+            },
+            {
+                "name": "TALK",
+                "text": "You find nothing of interest."
+            },
+            {
+                "name": "LYULF",
+                "text": "My father was a frugal man, thus I expect the casket to hold quite a substantial bounty."
+            },
+            {
+                "name": "LYULF",
+                "text": "This...this is my father's entire earthly wealth!? Why, there is naught here but a fistful of wheat seeds. What in Eorzea could have possessed him to so carefully conceal such a mundane─"
+            },
+            {
+                "name": "LYULF",
+                "text": "Ah! I remember now! He once told me that our family's wheat was as a stubborn weed. It was one of the few crops that could take root in the barren soils of western La Noscea!"
+            },
+            {
+                "name": "LYULF",
+                "text": "With these seeds, our lifeless fields could once again sprout golden stalks! Thank you, oh, thank you! You have truly given this settlement the chance to build a new future."
+            }
+        ],
+        "reward": {
+            "xp": 4200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65938
+            ]
+        },
+        "next": [
+            65941
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003244",
+            "obj": {
+                "i": 1003244,
+                "n": "Lyulf",
+                "l": 33,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65938",
+            "obj": {
+                "i": 65938,
+                "n": "Thanks a Million",
+                "g": 1,
+                "l": "Middle La Noscea",
+                "s": 51
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65941",
+            "obj": {
+                "i": 65941,
+                "n": "Need to Breed",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 120
+            }
+        }
+    ]
+}

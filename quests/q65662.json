@@ -1,0 +1,694 @@
+{
+    "quest": {
+        "name": "Stray into the Shadows",
+        "location": "Limsa Lominsa",
+        "id": 65662,
+        "patch": 2.4,
+        "sort": 100,
+        "icon": 100344,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1009943,
+        "target": 1009943,
+        "involved": [
+            1010198,
+            1010211,
+            1010212,
+            1010213
+        ],
+        "genre": 132,
+        "journal": [
+            "Jacke has another assignment for you.",
+            "Jacke has tasked you with reclaiming a shipment of stolen firearms. The pirates responsible for the theft have been apprehended, but it seems the muskets had already been fenced. Speak with V'kebbe, and discuss how the job should be approached.",
+            "V'kebbe suggests you check in with one of rogues' spies to see what information can be had regarding the fenced firearms. Speak with the woman posing as a fishmonger at the Hyaline.",
+            "The “fishmonger” informs you that the pillaged muskets were purchased by a south seas organization known as the Traders of Edge. Speak with V'kebbe at the Hyaline and relay your discoveries.",
+            "After you tell V'kebbe what the spy knew of the Traders of Edge merchant, she decides that further information gathering is required. Visit the Bismarck, the ferry docks, and East Hawkers' Alley, and use your Hide ability to surreptitiously listen in on any potentially useful mutterings.",
+            "You have gathered information from your assigned locations. Rendezvous with V'kebbe in front of the Rogues' Guild and share what you have learned.",
+            "Based on the information you have gathered, V'kebbe deduces that the shady merchant means to depart by ship in the very near future. The Stray proposes her plan: wait for the trader to stack his goods on the pier, then sneak past the hired blades and steal back the Yellowjackets' firearms. Speak with V'kebbe once more when you are ready to begin the operation.",
+            "You have successfully reclaimed the stolen muskets and returned them to the Yellowjackets. Report to V'kebbe in front of the Rogues' Guild.",
+            "Jacke joins you outside the Rogues' Guild, and praises you for a job well done. While he is informing V'kebbe of the unfortunate conclusion to the missing sandwich saga, however, his deception is inadvertently revealed by the arrival of an oblivious Perimu Haurimu. V'kebbe then responds as she would to any violation of the code. Head inside the guild and see what has become of its supper-stealing guildmaster.",
+            "Suffering from several nasty rope burns but otherwise none the worse for wear, Jacke appears sincerely contrite for his act of sandwich larceny. He explains that being strung up is one of the least of the punishments a person might suffer at the hands of the rogues. Return to disciplining your body and mind that you might properly dispense justice to those that defy the code.<br><br>※The next rogue quest will be available from Jacke upon reaching level 15."
+        ],
+        "objectives": [
+            "Speak with V'kebbe.",
+            "Speak with the fishmonger girl at the Hyaline.",
+            "Speak with V'kebbe.",
+            "Use Hide to gather information at the Bismarck.",
+            "Use Hide to gather information at the ferry docks.",
+            "Use Hide to gather information in East Hawkers' Alley.",
+            "Speak with V'kebbe in front of the Rogues' Guild.",
+            "Speak with V'kebbe and retrieve the firearms.",
+            "Speak with V'kebbe in front of the Rogues' Guild.",
+            "Speak with Jacke."
+        ],
+        "dialogue": [
+            {
+                "name": "JACKE",
+                "text": "A fine <span class=\"alternative-container\"><span class=\"alternative\">evenin'</span><span class=\"alternative\">mornin'</span><span class=\"alternative\">day</span></span> to ye, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "JACKE",
+                "text": "An' a fine <span class=\"alternative-container\"><span class=\"alternative\">evenin'</span><span class=\"alternative\">mornin'</span><span class=\"alternative\">day</span></span> it is for a spot o' work, wouldn't ye agree?"
+            },
+            {
+                "name": "JACKE",
+                "text": "This time 'round, it seems some eager buccaneers scampered aboard a local merchantman an' made off with a shipment o' muskets."
+            },
+            {
+                "name": "JACKE",
+                "text": "Now, seein' as it ain't lawful to cloy from a Lominsan vessel to begin with, the Yellowjackets fell upon them daft coves afore their boots was even dry."
+            },
+            {
+                "name": "JACKE",
+                "text": "Aye, they caught the pirates right there on the docks, but the stolen boomsticks was nowhere to be found─fenced in a longboat deal, I'm thinkin'."
+            },
+            {
+                "name": "JACKE",
+                "text": "That's when our guild was officially contracted to retrieve the goods. ...Which weren't really needful, since the code would have had us on the job, anyway. “Ye don't bite the purses o' yer fellow Lominsans,” an' all that."
+            },
+            {
+                "name": "JACKE",
+                "text": "So, this's yer assignment, me natty <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>: find out where them weapons went, an' bite that shipment back."
+            },
+            {
+                "name": "JACKE",
+                "text": "Seein' as the cutters as hit that merchantman are already rottin' in irons, ye needn't rush in with yer stabbers a-stabbin'. I want this job handled quick an' quiet, an' I've the perfect partner to show ye how it's done."
+            },
+            {
+                "name": "JACKE",
+                "text": "This here's V'kebbe the Stray. Ain't no other rogue what can match her in the arts o' skulkin'."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "...A pleasure."
+            },
+            {
+                "name": "JACKE",
+                "text": "...There some problem, V'kebbe? Ye seem a bit out o' sorts."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I'm bloody starvin'. I had one o' them finger sandwiches set aside─ye know, those egg-filled tasties they make at the Bismarck─but when I got back from me work, it was bloody gone..."
+            },
+            {
+                "name": "JACKE",
+                "text": "(Uh-oh. That was V'kebbe's? I'd thought it was Underfoot's...)"
+            },
+            {
+                "name": "JACKE",
+                "text": "&lt;cough&gt; Ahem! Well, ye just head out on the job, an' I'll see if I can't turn up that missin' sandwich by the time ye return!"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "...All right, Jacke."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ah, one more little detail ye should know: them muskets was meant for the Yellowjackets' armory, so once all is bob, ye can hand the goods to one o' their culls directly."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "We can start whenever yer ready, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I've had a colleague keepin' a wattle out for aught that might help us, so I suggest ye have a few whids with her first."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Ye'll find her at the Hyaline, posin' as a fishmonger."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "That lass down there─the one stinkin' o' fish an' ocean. Go over an' ask her what the catch o' the day is."
+            },
+            {
+                "name": "THIEF00126",
+                "text": "'Ello there, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. We've carp an' trout, lobster an' shrimp...but I 'ear tell ye've been lookin' for a special breed o' fish─the long, shiny kind what's bark'll put a bloke on 'is arse."
+            },
+            {
+                "name": "THIEF00126",
+                "text": "We don't sell that kind 'ere, but ye might try them foreign merchants─what was they called again?─ah, the “Traders of Edge.” They 'ail from the south sea isles, an' are known for dealin' in all types o' nasty spitters an' cutters."
+            },
+            {
+                "name": "THIEF00126",
+                "text": "I should warn ye: these folk ain't ones for questionin' the source o' their merchandise. In fact, they seem more'n 'appy to pay for goods what came from “belowdecks,” so to speak."
+            },
+            {
+                "name": "THIEF00126",
+                "text": "But if yer still keen to get yer 'ands on those rare fish, then ye'd best 'urry─the Edge merchant what's visitin' Limsa is lookin' to load up an' leave the city afore long."
+            },
+            {
+                "name": "THIEF00126",
+                "text": "Just 'ow 'e means to transport 'is goods remains a mystery, though. What with all the 'ired blades 'e's got nursin' 'is operation, it makes it 'ard for a girl to get close enough to eyeball the competition, it does!"
+            },
+            {
+                "name": "THIEF00126",
+                "text": "I'll be sure to keep an eye peeled on yer behalf, but it might be as ye can learn a little more from the folk 'round town..."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "...Traders of Edge, eh? Well, if one o' their merchant's been stayin' in the city, then someone'll know somethin' to point us in the right direction."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "The trick is to listen without bein' seen. Ye'd be surprised at how culls'll cackle when they think no one else is about."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "We'll focus on places what see plenty o' traffic. Ye can have the Bismarck, the ferry docks, and East Hawkers' Alley."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I'll try me luck at a few other spots, then meet ye in front o' the guild when I'm done. Remember: keep hidden, keep quiet, an' keep yer wattles open."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Diving Dove is grumbling in discontent..."
+            },
+            {
+                "name": "DIVINGDOVE",
+                "text": "Ugh! The sneer on that customer's face! Does he think I can command the skillet to cook more swiftly just to meet his pressing departure schedule?"
+            },
+            {
+                "name": "DIVINGDOVE",
+                "text": "I don't know how things are done in the south seas, but here in Limsa Lominsa folk <span class=\"emphasis\">appreciate</span> that fine cuisine cannot be rushed!"
+            },
+            {
+                "name": "DIVINGDOVE",
+                "text": "...Come now, Dove, you must not speak ill of the patrons. Now, what was next on my list? Ah, another finger sandwich for the Dutiful Sisters. Someone there must be rather fond of eggs..."
+            },
+            {
+                "name": "DIVINGDOVE",
+                "text": "Ugh, simply infuriati─"
+            },
+            {
+                "name": "DIVINGDOVE",
+                "text": "Yes, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>? Pray place your order with one of the servers and we'll prepare your meal with all due alacrity."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Diving Dove appears distressed over some matter. Move some distance away, then approach her again while cloaked by your Hide ability and attempt to eavesdrop on her grumbling."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Diving Dove appears distressed over some matter. Approach her while cloaked by your Hide ability and attempt to eavesdrop on her grumbling."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Rerenasu is mumbling anxiously to himself..."
+            },
+            {
+                "name": "RERENASU",
+                "text": "Curse my sense of duty... Would that I had stayed at the Wench for that extra pint instead of returning early."
+            },
+            {
+                "name": "RERENASU",
+                "text": "I didn't ask to see anyone being bribed! And certainly not my relief pilot! I wonder what that merchant was about? Smuggling? Most likely..."
+            },
+            {
+                "name": "RERENASU",
+                "text": "Should I report this to the Yellowjackets? ...But what if I'm being watched? I could end up facedown in the harbor..."
+            },
+            {
+                "name": "RERENASU",
+                "text": "What to do, what to do..."
+            },
+            {
+                "name": "RERENASU",
+                "text": "Oh! G-Greetings, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>! Do you seek passage to Aleport? Or Costa del Sol, perhaps?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Rerenasu appears distraught. Move some distance away, then approach him again while cloaked by your Hide ability and attempt to eavesdrop on his mumbling."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Rerenasu appears distraught. Approach him while cloaked by your Hide ability and attempt to eavesdrop on his mumbling."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Gerulf is hawking his wares to a customer..."
+            },
+            {
+                "name": "GERULF",
+                "text": "You have quite an eye for quality, sir! We've a splendid range of produce from every corner of Eorzea, but one simply cannot visit Limsa Lominsa without sampling some of the local specialties!"
+            },
+            {
+                "name": "GERULF",
+                "text": "Would you care for some freshly squeezed La Noscean orange juice? Or perhaps our famed salt cod is more to your taste...?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Gerulf continues to espouse the virtues of his merchandise, but his impassioned urgings appear to have little relevance to your assignment."
+            },
+            {
+                "name": "GERULF",
+                "text": "An excellent choice! Might I also direct your gaze to these items on the bottom─"
+            },
+            {
+                "name": "GERULF",
+                "text": "Ah! Another customer! Welcome, welcome! Did you see aught you like? Pray stay and browse to your heart's content!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Gerulf is speaking in a low but lively tone to a nearby customer. Move some distance away, then approach him again while cloaked by your Hide ability and attempt to eavesdrop on his exhortations."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Gerulf is speaking in a low but lively tone to a nearby customer. Approach him while cloaked by your Hide ability and attempt to eavesdrop on his exhortations."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. I hope yer skulkin' went well."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Ye might be an angel o' death with the daggers, <span class=\"alternative-container\"><span class=\"alternative\">dove</span><span class=\"alternative\">colt</span></span>, but any rogue what shuns the shadows is headed for an early grave. A sneaky <span class=\"alternative-container\"><span class=\"alternative\">mort</span><span class=\"alternative\">cove</span></span> can nose about without riskin' a scrap, or slip <span class=\"alternative-container\"><span class=\"alternative\">herself</span><span class=\"alternative\">himself</span></span> into the best position to ambush a mark."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Once they've seen ye, though, yer rum fun is done. Hidin' is part concealment an' part distraction, an' ye won't be disappearin' on a cove what already knows yer there."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "All right, I'm done prattlin'. What'd ye manage to learn about our musket-buyin' merchant friend?"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Slippin' coin to a ferry pilot, was he? An' by what ye heard from that chef at the Bismarck, this trader means to hop the twig, an' soon."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "That matches with me own findin's: he's vacated his rooms at the inn an' paid his dues in full."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Bein' a merchant, we can be sure that he won't be leavin' without his merchandise. So, here's the plan: we wait for him to stack his goods on the pier, then you ghost in an' grabble them firearms."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I'm hopin' we can get the job done quiet an' under cover of darkmans, but it never hurts to be prepared for the worst. Sounds like he's got a small army o' sellswords on the payroll..."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I'll send word to the Yellowjackets, an' have 'em post a cull near Hawkers' Alley. That way ye won't have far to bolt once ye've bitten the goods."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "The mark should be along any moment, <span class=\"highlight\">Forename</span>. Have ye got yer skulkin' boots on?"
+            },
+            {
+                "name": "EDGETRADERS00126",
+                "text": "You! You are not supposed to be here! I thought I ordered my hirelings to keep this jetty clear!"
+            },
+            {
+                "name": "EDGETRADERS00126",
+                "text": "Hm? ...One...two...three... ...There's one missing."
+            },
+            {
+                "name": "EDGETRADERS00126",
+                "text": "My crate of muskets! It's gone!"
+            },
+            {
+                "name": "EDGETRADERS00126",
+                "text": "Thief! <span class=\"emphasis\">Stop</span> <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>, you useless sluggards! What am I paying you for!?"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "That turned hairy, didn't it, <span class=\"alternative-container\"><span class=\"alternative\">dove</span><span class=\"alternative\">colt</span></span>?"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Once ye reached the Yellowjacket, though, the merchant called off his blades. Wise enough to cut his losses, I'll give him that."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I'd say we're all done here. Let's head inside an' tell Jacke the bene news."
+            },
+            {
+                "name": "JACKE",
+                "text": "I heard the sounds o' fightin' comin' from outside, an' now I've whiddled the cause of it. ...I thought we were aimin' for “subtle” on this job."
+            },
+            {
+                "name": "JACKE",
+                "text": "That many swads, was there? But ye got the Yellowjackets what they wanted, so all's well that ends well, eh?"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Yer on yer way to becomin' a first-class rogue, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Aye, the job didn't unfold exactly as planned, but do ye see the value o' keepin' out o' sight? Skulkin' might seem slow, but it can save ye time─an' a fair amount o' bleedin'─in the long run."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ah, speakin' of unexpected developments... I've a bit o' bad news for ye, V'kebbe."
+            },
+            {
+                "name": "JACKE",
+                "text": "I searched high an' low, but it seems some unprincipled cove has yaffled yer sandwich. There were naught but crumbs to be found."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "No... My sandwich... It was a Bismarck special..."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Do ye know how much I was lookin' forward to that meal!? Me belly's about ready to cave in on itself!"
+            },
+            {
+                "name": "JACKE",
+                "text": "'Tis a tragedy o' the highest order, love. An' ye know I can't bear to see me rogues in such distress..."
+            },
+            {
+                "name": "JACKE",
+                "text": "So, I gave Underfoot a special assignment─he should be back any moment now..."
+            },
+            {
+                "name": "JACKE",
+                "text": "...with a freshly made Bismarck special finger sandwich!"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Ye did that for me!? Yer not japin' with me, are ye, Jacke!?"
+            },
+            {
+                "name": "JACKE",
+                "text": "This ain't no japin' matter. 'Tis a guildmaster's responsibility to see that all his coves an' morts are at their best for the job."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Ah, Jacke, there ye are! I've got that sandwich ye ordered!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "An' didn't the chef give me a wattle-ful when I said we was in a hurry! Maybe next time ye could think twice afore ye yaffle a fellow rogue's sup─"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "...Oh, bollocks."
+            },
+            {
+                "name": "JACKE",
+                "text": "..."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "...Jacke. Did you eat my supper?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Now, now, lass, let's not be hasty. There's a fresh new sandwich right here for ye. No harm done, eh?"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Ye've cloyed somethin' what belonged to me, Jacke. An' I can't ignore the code..."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ahahaha, aye, the code! We mustn't ignore the code! ...Yer havin' a laugh, aren't ye, lass? ...Lass?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Aaargh!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "...That might be the swiftest string-up I've ever seen."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "A punishment to fit the crime. Take a good long look, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "The code exists to preserve peace in Limsa─to keep the alleys from runnin' red with blood. This city's me home, an' I'll draw daggers on <span class=\"emphasis\">any</span> cove fool enough to threaten that peace."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "A pointed lesson. Let's head inside, eh? Yer sandwich'll get cold."
+            },
+            {
+                "name": "JACKE",
+                "text": "(-Jacke-)Hey! Do ye mean to leave me here all night!? At least ye gave me a grand view o' the harbor! ...Gods' piss, these ropes are tight!"
+            },
+            {
+                "name": "MILALA",
+                "text": "(-Yellowjacket Soldier-)And now we find ourselves indebted to the Rogues' Guild. The <span class=\"emphasis\">Rogues'</span> Guild."
+            },
+            {
+                "name": "MILALA",
+                "text": "(-Yellowjacket Soldier-)Hmph, the impropriety of it all. Would that I could see <span class=\"emphasis\">them</span> occupying a cell next to those thieving pirates..."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ow... Them ropes'll leave chafe marks for a bleedin' week. I may've wriggled meself free, but that's the last time I let me belly do the thinkin'..."
+            },
+            {
+                "name": "JACKE",
+                "text": "An' just think: V'kebbe strung me up over an egg sandwich. Those coves what well an' truly stomp on the code get it far worse. Keep up yer trainin', <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>, an' ye'll soon be handin' out rogue justice yerself."
+            },
+            {
+                "name": "QIB",
+                "text": "Use the Hide ability to retrieve the stolen firearms."
+            },
+            {
+                "name": "QIB",
+                "text": "Deliver the firearms to the Yellowjacket near Hawkers' Alley."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I've spotted the mark at the end of the pier.<br>Sneak over there an' lighten his load."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "We've no place to run...<br>Time to get yer stabbers out!"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Slink past any other swads in yer way,<br>an' get them goods to the Yellowjackets."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I'll lead these culls a merry chase.<br>Meet me in front o' the guild once all is bob!"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Bollocks.<br>This ain't how the job was meant to end..."
+            },
+            {
+                "name": "MERCHANT",
+                "text": "Thieves! Scoundrels!<br>A bonus to the one who brings me their hides!"
+            },
+            {
+                "name": "YEL",
+                "text": "Aye, these are our stolen muskets.<br>The quartermaster will be pleased."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 8660
+                },
+                {
+                    "id": 3016,
+                    "one": 1
+                },
+                {
+                    "id": 2662,
+                    "one": 1
+                },
+                {
+                    "id": 3539,
+                    "one": 1
+                },
+                {
+                    "id": 3770,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 1710
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 91
+                }
+            ],
+            "quests": [
+                65646
+            ]
+        },
+        "next": [
+            65680
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009943",
+            "obj": {
+                "i": 1009943,
+                "n": "Jacke",
+                "l": 1427,
+                "q": 15,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010198",
+            "obj": {
+                "i": 1010198,
+                "n": "V'kebbe",
+                "l": 1427,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010211",
+            "obj": {
+                "i": 1010211,
+                "n": "V'kebbe",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010212",
+            "obj": {
+                "i": 1010212,
+                "n": "Fishmonger",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010213",
+            "obj": {
+                "i": 1010213,
+                "n": "V'kebbe",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "8660",
+            "obj": {
+                "i": 8660,
+                "n": "Bronze Baselards",
+                "l": 10,
+                "c": 33804,
+                "t": 84,
+                "p": 302
+            }
+        },
+        {
+            "type": "item",
+            "id": "3016",
+            "obj": {
+                "i": 3016,
+                "n": "Leather Jacket",
+                "l": 10,
+                "c": 43026,
+                "t": 35,
+                "p": 351
+            }
+        },
+        {
+            "type": "item",
+            "id": "2662",
+            "obj": {
+                "i": 2662,
+                "n": "Bronze Sallet",
+                "l": 10,
+                "c": 40020,
+                "t": 34,
+                "p": 283
+            }
+        },
+        {
+            "type": "item",
+            "id": "3539",
+            "obj": {
+                "i": 3539,
+                "n": "Hempen Bracers",
+                "l": 11,
+                "c": 44042,
+                "t": 37,
+                "p": 280
+            }
+        },
+        {
+            "type": "item",
+            "id": "3770",
+            "obj": {
+                "i": 3770,
+                "n": "Leather Jackboots",
+                "l": 10,
+                "c": 46816,
+                "t": 38,
+                "p": 288
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65646",
+            "obj": {
+                "i": 65646,
+                "n": "A Dainty Dilemma",
+                "g": 132,
+                "l": "Limsa Lominsa",
+                "s": 50,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65680",
+            "obj": {
+                "i": 65680,
+                "n": "Stifled Screams",
+                "g": 132,
+                "l": "Limsa Lominsa",
+                "s": 150,
+                "f": 1
+            }
+        }
+    ]
+}

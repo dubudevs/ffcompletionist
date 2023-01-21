@@ -1,0 +1,96 @@
+{
+    "quest": {
+        "name": "Wyvern Let Die",
+        "location": "The Churning Mists",
+        "id": 67379,
+        "patch": 3.0,
+        "sort": 5509,
+        "eventIcon": 71221,
+        "issuer": 1012089,
+        "target": 1012089,
+        "involved": [
+            1012090
+        ],
+        "genre": 100,
+        "journal": [
+            "Mogeuge's pom-pom is all aquiver.",
+            "Mogeuge tells you how the elder wyverns have been amassing their forces below his lookout spot in preparation for an all-out attack. His nerves frayed by the constant vigilance required of his position, he begs your assistance to delay the wyverns' plans. Drop down to the Four Arms and slay four elder wyverns, buying Mogeuge some time to rest his weary mind.",
+            "You slay the requisite number of elder wyverns, thereby postponing their attack. Return to the top of the Asah ruins and report your success to Mogeuge.",
+            "Mogeuge is relieved to hear that you have thinned the elder wyverns' ranks. The moogle has been in constant fear of the dragons ever since Nidhogg's roar drove them into a frenzy. However, your kind assistance has bought the fraught moogle a few hours of rest and relaxation."
+        ],
+        "objectives": [
+            "Defeat elder wyverns.",
+            "Report to Mogeuge."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGEUGE",
+                "text": "Elder wyverns here, elder wyverns there...elder wyverns everywhere! I know they're planning something, but what? I've been watching them for days, just waiting for the moment that they launch their attack. I'm so tired, kupo..."
+            },
+            {
+                "name": "MOGEUGE",
+                "text": "Could I ask a really big favor of you, adventurer? Get rid of them for me! It doesn't have to be all of them, kupo─just four or so. That would make them think twice about doing whatever it is they're doing...or at least delay them long enough for me to get some rest, kupo."
+            },
+            {
+                "name": "MOGEUGE",
+                "text": "Please, adventurer! It isn't good for my nerves, just floating here, waiting for the wyverns to attack! If you could get rid of four of them for me, I could finally relax a little, kupo... Maybe have a bit of a nap..."
+            },
+            {
+                "name": "MOGEUGE",
+                "text": "Thank you, kupo! Now that you've reduced their numbers, those wyverns won't be attacking any time soon! I can finally relax...for an hour or two, anyway."
+            },
+            {
+                "name": "MOGEUGE",
+                "text": "It's all that dread wyrm's fault─ever since he roared, the dragons have flown into a wild rage, attacking anything they set their eyes on. They're so scary, kupo..."
+            }
+        ],
+        "reward": {
+            "gil": 521,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67171
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012089",
+            "obj": {
+                "i": 1012089,
+                "n": "Mogeuge",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012090",
+            "obj": {
+                "i": 1012090,
+                "n": "Mognell",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        }
+    ]
+}

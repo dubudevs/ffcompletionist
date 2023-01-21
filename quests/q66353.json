@@ -1,0 +1,152 @@
+{
+    "quest": {
+        "name": "We'll Always Have Ul'dah",
+        "location": "South Shroud",
+        "id": 66353,
+        "patch": 2.0,
+        "sort": 300,
+        "eventIcon": 71221,
+        "issuer": 1006283,
+        "target": 1006283,
+        "involved": [
+            1006284
+        ],
+        "genre": 92,
+        "journal": [
+            "Detoh Moshroca needs a favor of an adventurer. The goodwill of a maid so proficient with polearms is surely worth having.",
+            "Inspired by Captain Landenel's tales of intrigue from about the realm, Detoh Moshroca seeks Ul'dahn goods to expand her own worldly knowledge. To find something for her, speak with the Ul'dahn trader plying his wares in the Lower Paths.",
+            "Upon locating the Ul'dahn trader on the Lower Paths, you find less vending of goods taking place and more defending against infernal birds of prey. You rescue the Lalafell from a dire fate, and receive a set of Ul'dahn incense as a token of thanks. Take the precious aromatics to Wood Wailer Detoh Moshroca.",
+            "The set of Ul'dahn incense is now in the hands of the intrepid Wailer maid, who received them with much thanks and exclamations of delight. This could be the beginning of a beautiful friendship. Or not."
+        ],
+        "objectives": [
+            "Speak with the Ul'dahn trader.",
+            "Deliver the Ul'dahn incense to Detoh Moshroca."
+        ],
+        "dialogue": [
+            {
+                "name": "DETOHMOSHROCA",
+                "text": "I heard Captain Landenel regaling you with the many tales of his youth. Much has he seen and known, having journeyed throughout Eorzea with naught but his wits."
+            },
+            {
+                "name": "DETOHMOSHROCA",
+                "text": "I am a child of the Twelveswood, a Wailer through and through. Never have I cast a shadow that was not forged by a sun that perches atop the great elm at dawn."
+            },
+            {
+                "name": "DETOHMOSHROCA",
+                "text": "Yet travel I would, if only in mind. They say that...they say an Ul'dahn trader is nearby, to the south. Will you find for me a thing from that city strange and great? I have duties or else I would go. You'll not find me ungrateful."
+            },
+            {
+                "name": "MERCHANT",
+                "text": "Now that, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sire</span></span>, is what I call a close call! Good for nothing, that guard of mine. I swear these new sellswords are more of sell<span class=\"emphasis\">scabbards</span>. Here, pray take this for your trouble, the more precious of my wares─Ul'dahn incense!"
+            },
+            {
+                "name": "MERCHANT",
+                "text": "&lt;sigh&gt; A close call, this was. Another moment and I would have been carrion for their feast."
+            },
+            {
+                "name": "DETOHMOSHROCA",
+                "text": "Did you...did you find something? Ah! I hope to the Twelve that it transports me, as the captain's tales do!"
+            },
+            {
+                "name": "DETOHMOSHROCA",
+                "text": "The scent! My head swims... I see markets and the Coliseum, languorous evening strolls past roses with the heat of the sun still on them."
+            },
+            {
+                "name": "DETOHMOSHROCA",
+                "text": "What smells! They inflame my imagination, and possibly my sinuses! Thank you, adventurer, you have more than earned this."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 1615,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4552,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 7410
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 30,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66350
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006283",
+            "obj": {
+                "i": 1006283,
+                "n": "Detoh Moshroca",
+                "l": 56,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006284",
+            "obj": {
+                "i": 1006284,
+                "n": "Ul'dahn Trader",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66350",
+            "obj": {
+                "i": 66350,
+                "n": "A Modest Proposal",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 161
+            }
+        }
+    ]
+}

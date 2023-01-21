@@ -1,0 +1,154 @@
+{
+    "quest": {
+        "name": "The Cannon-do Spirit",
+        "location": "Lower La Noscea",
+        "id": 67077,
+        "patch": 2.3,
+        "sort": 49,
+        "repeatable": 1,
+        "icon": 100282,
+        "eventIcon": 71222,
+        "issuer": 1009249,
+        "target": 1009249,
+        "genre": 201,
+        "journal": [
+            "Moonfire Faire chaperone Mayaru Moyaru is on alert for your call, for not many adventurers have the Cannon–do Spirit.<br>※This quest is available for a limited time only.",
+            "Mayaru Moyaru is quite the demon whisperer; confined within the event venue are womandragoras and sabotenders both. Use any of the 18-ponze cannons at your disposal to batter the former twice and the latter once.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "All targets are moving targets when there are cannons and crowds involved. Despite the difficulties, you have triumphed. Mayaru Moyaru will be relieved to hear how well and precisely you comported yourself.",
+            "Mayaru Moyaru is delighted that this family-friendly event concluded without any bystander injuries. How wonderful it is to see the smiles of the children, and watch them run after the cannonballs. Some actions cannot be undone, but you may always return to the Cannon–do Spirit."
+        ],
+        "objectives": [
+            "Hit a womandragora twice with a 18-ponze cannon.",
+            "Hit a sabotender fugitivo once with a 18-ponze cannon.",
+            "Report to Mayaru Moyaru."
+        ],
+        "dialogue": [
+            {
+                "name": "MAYARUMOYARU",
+                "text": "Lovely! I do believe you understand the spirit of <span class=\"emphasis\">restraint</span> and precision that is so important in professional adventurers. Now blast that 18–ponze cannon! You must hit the womandragoras twice and any one sabotender fugitivo once."
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "Very fleet of foot, those sabotenders. Aim well─stray cannonballs are <span class=\"emphasis\">not</span> appropriate for family events! And don't be shy─you can try the event as many times as you like. Do tell me when you've succeeded, however."
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "You don't know how to use Cannonfire? I can teach you, if you like!"
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "Are you schooled in the use of the 18–ponze cannon? Do not be concerned! You'll be blasting like an old hand in a moment. "
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Inspect the 18–ponze cannon in the event location, and a special action Cannonfire will appear in your <span class=\"highlight\">pet hotbar</span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Use Cannonfire on a desired spot in order to hit a womandragora and a sabotender fugitivo."
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "Well done! The chirurgeons are quite bereft─they've naught to do! And the children in the audience loved it! They say they wish to join us. I do hope that's not a cannonball they're trying to─oh dear..."
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "It's always one thing after another in this line of work. Chaperoning an event, I mean. Regular adventuring is quite tame in comparison."
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "Why, I've had to tend to everything myself. Stronger leadership certainly wouldn't have been amiss, but we simply couldn't agree on whom to elect the chief chaperone. Haermaga was the only one we could agree on─we agreed that he was <span class=\"emphasis\">not</span> the first choice for any of us!"
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "Still, it hasn't been all bad having to steer our own events. And attendance has been excellent, for both participants and audience members!"
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "You, for one, have been exemplary! I shouldn't think we've ever had a better live-fire cannon exhibition. Very happy I am to present you with this reward! If you'd like to do it again, you know where to find me."
+            },
+            {
+                "name": "MAYARUMOYARU",
+                "text": "Yes, exemplary. You do bring in a crowd, but even better, you leave them without a scratch! Come with your family, depart with your family. Such a good message to send to the commonfolk about our guild!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have participated in all three Moonfire Faire events."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Return to the Aftcastle in Limsa Lominsa to receive a special reward from Haermaga."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 10,
+                    "id": 5902
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                67074
+            ]
+        },
+        "next": [
+            67079
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009249",
+            "obj": {
+                "i": 1009249,
+                "n": "Mayaru Moyaru",
+                "l": 31,
+                "q": 2,
+                "t": "Moonfire Faire Chaperone"
+            }
+        },
+        {
+            "type": "item",
+            "id": "5902",
+            "obj": {
+                "i": 5902,
+                "n": "Bombard Bloom",
+                "l": 1,
+                "c": 22647,
+                "t": 85,
+                "p": 8
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67074",
+            "obj": {
+                "i": 67074,
+                "n": "Blast It! Moonfire Faire",
+                "g": 201,
+                "l": "Limsa Lominsa",
+                "s": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67079",
+            "obj": {
+                "i": 67079,
+                "n": "Remember Me This Moonfire Faire",
+                "g": 201,
+                "l": "Limsa Lominsa",
+                "s": 51
+            }
+        }
+    ]
+}

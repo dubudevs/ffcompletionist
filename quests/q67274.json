@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "The Way of the Dodo",
+        "location": "The Sea of Clouds",
+        "id": 67274,
+        "patch": 3.0,
+        "sort": 5001,
+        "eventIcon": 71221,
+        "issuer": 1012056,
+        "target": 1012056,
+        "genre": 97,
+        "journal": [
+            "Caribault is taking stock of the pumpkin patch, but with an odd sense of dejection.",
+            "You speak with Caribault, asking what work there is to be done about Camp Cloudtop. He tells you all about the trouble being caused by wild gastornis, which have destroyed the camp's crops on a number of occasions. In the hopes of thinning their numbers, he asks that you slay three of the feathered fiends in his stead. And not wanting to waste the opportunity, he also asks you to retrieve the meat from the gastornis you fell.",
+            "You have dispatched the gastornis and obtained three chunks of their meat. Report back to Caribault with your bounty.",
+            "Caribault is relieved to hear of your success in culling the gastornis population. The gastornis meat, he tells you, will be a much-needed reprieve from the dreary salt-cured meats the men about camp are accustomed to. The merits of your work are twofold: a safer harvest and more appetizing provisions for the men of Camp Cloudtop."
+        ],
+        "objectives": [
+            "Slay gastornis and obtain their meat.",
+            "Deliver the gastornis thighs to Caribault."
+        ],
+        "dialogue": [
+            {
+                "name": "CARIBAULT",
+                "text": "Hm? Looking for work, are you? Then you've come to the right place. The name's Caribault, and I have the honor of serving Lady Laniaitte. When I'm free of duty, I try to make myself useful by helping out with the farmwork, as I am now."
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "Of late, we've been having a problem with wild gastornis. You might recognize them as the colorful dodo creatures you've seen about the place. Try as we might to keep them away, they always manage to get at our crops before we can harvest them."
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "It would mean much to the camp if you could dispatch some of them. Three should be sufficient, I think. Also, if it's not too much trouble, would you mind bringing back some of the meat from the beasts you fell? No sense in letting perfectly good poultry go to waste."
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "Slaying three gastornis should be more than enough. Oh, and do be sure to bring back their meat."
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "You've taken care of the gastornis? Splendid! Were you able to procure the meat as well?"
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "My thanks, friend! My men will be glad for this bounty of fresh meat!"
+            },
+            {
+                "name": "CARIBAULT",
+                "text": "Salted meats are perfectly fine in moderation, but we often long for foods with a bit more flavor. And thanks to you, we have struck two birds with one stone─our men have fresh meat for the fire, and we've earned a respite from the gastornis."
+            }
+        ],
+        "reward": {
+            "gil": 517,
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67116
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012056",
+            "obj": {
+                "i": 1012056,
+                "n": "Caribault",
+                "l": 2100,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67116",
+            "obj": {
+                "i": 67116,
+                "n": "Coming to Ishgard",
+                "g": 3,
+                "l": "Intercessory",
+                "s": 1
+            }
+        }
+    ]
+}

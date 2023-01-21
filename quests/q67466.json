@@ -1,0 +1,87 @@
+{
+    "quest": {
+        "name": "The Best Defense",
+        "location": "The Dravanian Forelands",
+        "id": 67466,
+        "patch": 3.0,
+        "sort": 5708,
+        "eventIcon": 71221,
+        "issuer": 1011929,
+        "target": 1011929,
+        "genre": 98,
+        "journal": [
+            "The Vath fleetfoot is looking at you expectantly.",
+            "The Vath fleetfoot is worried by news of an impending Gnath assault on Loth ast Vath. The Vath are ill prepared to deal with a direct, all-out offensive from the much larger Gnath hive. Their only option is a preemptive assault, weakening the enemy before it can finish mobilizing.",
+            "You slay the Gnath as instructed, hopefully stymieing their plans of an attack on the Vath. Report back to the Vath fleetfoot with news of the completion of your mission.",
+            "The fleetfoot congratulates you on a successful mission. He goes on to explain how he had knowledge of the planned attack: While the Vath of the Nonmind cannot hear the thoughts of the Gnath Onemind, this is not due to a complete severing of the mental connection; the link is merely massively weakened. Some Vath can, from time to time, perceive the Onemind's thoughts. It does not seem that the Gnath are aware of this vestigial connection or the knowledge it provides the Vath with."
+        ],
+        "objectives": [
+            "Slay Gnath.",
+            "Report to the Vath fleetfoot."
+        ],
+        "dialogue": [
+            {
+                "name": "IDATEN",
+                "text": "We bear dire news. We have been informed that the Gnath plan to launch a devastating attack on Loth ast Vath. They are currently mobilizing their forces."
+            },
+            {
+                "name": "IDATEN",
+                "text": "We cannot withstand a direct assault. Generous hunter, we must ask you to perform a preemptive strike upon the Gnath. Please slay four of them. Weaken their forces and bring a stop to their attack before it can begin."
+            },
+            {
+                "name": "IDATEN",
+                "text": "Generous hunter. Please slay four Gnath. We would not be able to survive a direct assault from the Gnath hive."
+            },
+            {
+                "name": "IDATEN",
+                "text": "That went just as well as we could have hoped. Your preemptive assault has put them on the defensive. We thank you."
+            },
+            {
+                "name": "IDATEN",
+                "text": "The Gnath all hear each other's thoughts, while we who live here─the Vath─do not. But that is not to say that we <span class=\"emphasis\">never</span> hear the thoughts of others. The link to the Onemind is not severed completely."
+            },
+            {
+                "name": "IDATEN",
+                "text": "Some of us, sometimes, can descry the thoughts of the Onemind. We suspect they are unaware that we are occasionally privy to their plans."
+            }
+        ],
+        "reward": {
+            "gil": 470,
+            "xp": 38400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 57,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67189
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011929",
+            "obj": {
+                "i": 1011929,
+                "n": "Vath Fleetfoot",
+                "l": 2000,
+                "q": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67189",
+            "obj": {
+                "i": 67189,
+                "n": "Tataru's Surprise",
+                "g": 3,
+                "l": "Gridania",
+                "s": 78
+            }
+        }
+    ]
+}

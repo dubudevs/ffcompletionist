@@ -1,0 +1,756 @@
+{
+    "quest": {
+        "name": "Her Children, One and All",
+        "location": "Labyrinthos",
+        "id": 69985,
+        "patch": 6.0,
+        "sort": 603,
+        "icon": 100045,
+        "eventIcon": 71201,
+        "issuer": 1040478,
+        "target": 1038588,
+        "genre": 11,
+        "journal": [
+            "Fourchenault is ready to lead you to Hydaelyn at last.",
+            "Satisfied with your level of preparedness, Fourchenault makes for the center of Thaumazein and invites you to follow. Given his lingering trepidation, however, you cannot help but wonder what as-yet-untold dangers await...",
+            "At Thaumazein's heart, Fourchenault explains that the bright blue and seemingly bottomless well of aether beneath you is the aetherial sea, and that the nearby shaft connects to the “Aitiascope,” a massive device by which the Forum peers into its depths to seek dialogue with Hydaelyn. Unfortunately, they have found little success since the Calamity weakened Her power, so you will be required to dive deeper than the Sharlayans ever dared if you would seek Her out. There, Fourchenault warns, drift memories strong enough to have escaped purgation by the cleansing tides, which may attempt to bar your path in death as they did in life...<br><br>※To enlist your companion NPCs for this duty, speak with them near the entrance or access Duty Support via the main menu. Use the Duty Finder if you wish to complete the instance alongside fellow players.",
+            "With a little help from old friends, you fight your way past the vestiges of once-conquered foes to meet a soul but recently cast into the abyss, clinging to the world of the living even as he curses its hollowness. His parlor tricks are of no moment with the erstwhile Lady Iceheart shielding you once more, yet you struggle to destroy him once and for all. Instead, it is the vengeful spirit of Asahi who brings an end to the man that was once Hermes, many times Fandaniel, but Amon at the last, leaving the path to Hydaelyn open before you.",
+            "At the Mothercrystal, Hydaelyn welcomes you warmly, and gives the answer you sought─Meteion and the despair over which she presides can still be overcome. She cautions, however, that to do so will require tremendous power, and that a failed attempt means an end to your star and all life upon it. Thus does She challenge you to take up arms against Her, the very god of Light whose voice has echoed in your heart for so long, and prove your worth.<br><br>※To enlist your companion NPCs for this duty, speak with them near the entrance or access Duty Support via the main menu.<br>※Use the Duty Finder if you wish to complete the instance alongside fellow players.",
+            "With trust in your allies and resolve in your heart, you bring your hard-won might to bear against the avatar of divine Light. Her talents are many, Her refulgence blinding, but though it is a trial in every sense of the word, you and your comrades triumph.",
+            "In testing your power, Hydaelyn has exhausted the last of Her own. But all was by design, for Her plans from time immemorial were a means to this end, in which man proclaims himself ready to dictate his own future. In parting, She bequeaths you three gifts─the crystal that shall guide you to Meteion, the Mothercrystal's aether to see you there, and Her own power to give form to the formless, secured in Azem's own crystal. The last of these, She cautions, is not to be relied on overmuch, for only within yourself will you find deliverance.",
+            "With Hydaelyn's words still ringing in your ears, you return to report what you have learned to Fourchenault, Krile, and Livingway. Fourchenault assures his children that Sharlayan's starship is yours to do with as you will, while Livingway eagerly collects Meteion's crystal that the Loporrits may chart your course, encouraging you to take a well-earned rest in the meantime.",
+            "You have no difficulty drifting off upon falling into bed at the Baldesion Annex, yet your peaceful slumber is interrupted by the strangest dream of a familiar voice in one-sided conversation. Is this merely an echo brought to mind by your extended exposure to the aetherial sea, or something more?"
+        ],
+        "objectives": [
+            "Speak with Fourchenault.",
+            "Enter the Aitiascope.",
+            "Clear the Aitiascope.",
+            "Confront Hydaelyn at the Mothercrystal.",
+            "Speak with Fourchenault.",
+            "Speak with Ojika Tsunjika."
+        ],
+        "dialogue": [
+            {
+                "name": "ALPHINAUD",
+                "text": "To think how many generations labored for this end...and that we aim higher still."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We must spare no preparation─and that means speaking with Hydaelyn, no matter the cost."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I can well imagine the zeal with which they're working on the aetherburner, and all I can say is that I'm glad we have something to do other than get in their way."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Once it's ready, we'll see to it that the ship is put to good use!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "I doubt this is what Erenville meant when he said that there remains much we do not know, but I still can't believe everything that was hidden underneath the city this entire time."
+            },
+            {
+                "name": "URIANGER",
+                "text": "'Twould seem enchantments most advanced have been woven into the ship's very bones. Wilfsunn and Bloewyda were doubtless called upon for their expertise in teleportation magicks..."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "We must learn of Hydaelyn's greater plan. We can only hope that She also knows the current location of Meteion..."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "...And we can do neither if we do not focus on whatever trial awaits us within."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "It was the Allagans who first combined the mechanical and aetherial sciences into a revolutionary discipline."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Given that this ship is nothing short of a technological marvel in that precise vein, Allagan salvage should suit it well."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "You feel it too, don't you? The ship is impressive, but it pales in comparison to the vast primordial power beneath our feet..."
+            },
+            {
+                "name": "KRILE",
+                "text": "If meeting Hydaelyn proves difficult even for the Forum, then perhaps I─"
+            },
+            {
+                "name": "KRILE",
+                "text": "Oh, 'tis an unformed idea at this phase, I'm afraid. I will duly inform you if anything comes of it."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "We make for the lift at the center of this chamber. Come."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "This doesn't strike me as particularly dangerous, unless one is afraid of lifts."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "With the ship in the way, I didn't even notice this was here!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "They must employ a full cohort of engineers just to maintain the lifts..."
+            },
+            {
+                "name": "URIANGER",
+                "text": "As a means of communing with the heart of the star, 'tis disappointingly mechanical in design..."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "The aether here is more brilliant than I have ever seen."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "...Am I the only one feeling terribly nervous? Surely not."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I doubt there's anything worth worrying over. Not for Hydaelyn's champion, at any rate."
+            },
+            {
+                "name": "KRILE",
+                "text": "I should hope that Master Fourchenault has more to share ere sending anyone stumbling into the aetherial sea."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "As you all know, alongside our physical world exists an aetherial plane─what we refer to as the “aetherial sea.”"
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "At the heart of the star, the physical and aetherial are one and the same. Thus, the deeper we go, the easier it becomes to pass between said planes."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "We utilized this principle in constructing the Antitower, and once more here in Thaumazein."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "No sooner did the Forum decide that an exodus from the star would be necessary than it began work on this facility."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Our work culminated in a device that allowed us to peer deeper into the aetherial sea than ever before, in search of Hydaelyn's ever-fainter echoes..."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "The Aitiascope."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "And you communicate with Her through this device?"
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "For a time, yes, but since the Seventh Umbral Calamity, it has been rare to hear even a whisper."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "If you wish to reach Her, you must journey closer to the center of the star than we have ever dared, beyond the Aitiascope."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Even so, I make no guarantee that you will find Her. Nor of your safety─not so deep in the aetherial sea."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We understand. But if we are to deliver this world, we have no choice but to try."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "...I know. I only wish we could do more than observe your progress from afar."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "The Aitiascope's ocular lens, by which we may peer into the aetherial sea without placing ourselves at hazard, lies above us. Through it, we can watch and guide you."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "In those swirling depths, there are pockets of aether so dense and turbulent that they can unravel one's soul. If we determine that you are at risk of coming into contact with such a pocket, we will recall you with teleportation magicks."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "To that end, it would be best if one familiar with the composition of your souls remained here to assist in assessing said risk. Otherwise, there is an increased probability that we will extract you too early...or too late."
+            },
+            {
+                "name": "KRILE",
+                "text": "Please, allow me."
+            },
+            {
+                "name": "KRILE",
+                "text": "I have thought upon this much, and...in truth, I do not believe that I am fit to join you in the trials ahead."
+            },
+            {
+                "name": "KRILE",
+                "text": "The events at the Tower of Babil drained me, yes, but even before that, your capabilities far outstripped my own."
+            },
+            {
+                "name": "KRILE",
+                "text": "This is no time to have a weak link in our vanguard. No matter how much she may wish it were otherwise."
+            },
+            {
+                "name": "KRILE",
+                "text": "...If I assist in the manner that Master Fourchenault has laid out, however, I may still be of use."
+            },
+            {
+                "name": "KRILE",
+                "text": "Will you trust in me to do so?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I can think of none I'd trust more! Compared to all that effort you put into keeping us alive while our souls were in the First, preventing us from dissolving into aether on a single expedition ought to pose no challenge at all."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "And even if we did, I expect you would hunt us down and restore us to health somehow."
+            },
+            {
+                "name": "KRILE",
+                "text": "You flatter me! But rest assured that I will be keeping a close eye on all of you."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "There is one more thing..."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Those in ages past referred to the aetherial sea as the “Underworld,” our final resting place."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "In its embrace is memory washed away, leaving only the purity of one's soul...or so we believe."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Yet what of these memories? Few think to ask what becomes of them, cast adrift on aetherial tides."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Some theorize that they linger for some time─those associated with strong sentiment, in particular."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "In those depths, memories of the departed may even coalesce around you, for hatred or for love."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Thus do I caution you to be wary─but also to have faith. Remember those who did gladly extend a hand to you, that they may lift you up once more."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A1",
+                "text": "Small talk."
+            },
+            {
+                "name": "A1",
+                "text": "Form a party and enter the Aitiascope."
+            },
+            {
+                "name": "A1",
+                "text": "Nothing."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We have always tried to do the right thing...but we have not always been kind, nor merciful."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I should not be surprised if some few harbored resentment for us as they passed on..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We must face these truths, and meet them as they come."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Maybe our enemies <span class=\"emphasis\">are</span> down there. But if we've beaten them once, we can beat them again."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I'm more concerned about our meeting with Hydaelyn. We may find our truth, but what if..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "...No, I would rather not think on it. Let us move on."
+            },
+            {
+                "name": "THANCRED",
+                "text": "If some part of them remains in the aetherial sea, do you think..."
+            },
+            {
+                "name": "THANCRED",
+                "text": "...Forgive me. That's not why we're here. And no matter what happens, she'll always be with us─with Ryne, most of all."
+            },
+            {
+                "name": "THANCRED",
+                "text": "She'd tell us to live for the here and now. To do what must be done. And we will."
+            },
+            {
+                "name": "URIANGER",
+                "text": "If Hydaelyn be unwilling or unable to divulge Meteion's location, I shall see our comrades delivered to the moon, one and all."
+            },
+            {
+                "name": "URIANGER",
+                "text": "I pray, however, that this eventuality doth not come to pass."
+            },
+            {
+                "name": "URIANGER",
+                "text": "While even a sliver of hope remaineth, we must needs fight on."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I now understand why these facilities are so heavily guarded."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "If it fell into the wrong hands, the wisdom of Hydaelyn could be dangerous, 'tis true..."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "However, that danger is naught compared to what would result should the commonfolk en masse venture into the aetherial sea unprepared─which they most certainly would, if they thought it would allow them to speak to the dead!"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Once <span class=\"emphasis\">that</span> secret got out, no rational argument could dissuade people from wanting to see their loved ones, no matter how ephemeral the meeting."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "I cannot help but think of those who were transformed into beasts."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Their aether dissolved into nothingness, their souls forever lost..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Yet I daresay Fandaniel still wanders the aetherial sea. As do ancients who gave rise to Zodiark, setting in motion so many cataclysmic events..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "If there is a justice or morality at work that governs our fates, I do not know it. Nor do I think any man ever will."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I've seen more than enough death in my time. Friends, enemies...far too many to count."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Once, revenge was all I lived for. All that hate, all that anger...what good did it do?"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "None, that's what. Way I see it, there's no point living for the past. It's the present that needs protecting."
+            },
+            {
+                "name": "KRILE",
+                "text": "I hope to guide you via linkpearl while you're inside, but given the density of the aether, I'm not sure how long the connection will hold."
+            },
+            {
+                "name": "KRILE",
+                "text": "Even if you can't hear me, however, be assured that I am watching over you."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Once you are below, you should proceed through the Aitiascope to the central observatory."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "That is where the objective lens is located. We can manipulate it to direct an aetherial current deeper into the sea."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "Though I shall assist you in every way possible, this is your journey to make. When you are ready, I bid you step forth."
+            },
+            {
+                "name": "Q2",
+                "text": "Proceed to the Mothercrystal?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "During this quest and when using the Duty Support system, you have the opportunity to undertake this trial with a party of Scions. Some of these allies' roles will differ from those you are normally able to select."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Additionally, you may now enter the Aitiascope with a party of NPC avatars. To make use of this feature, open the <span class=\"highlight\">Trust</span> interface located under <span class=\"highlight\">Duty</span> in the main menu."
+            },
+            {
+                "name": "Q3",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A3",
+                "text": "Small talk."
+            },
+            {
+                "name": "A3",
+                "text": "Form a party and face Hydaelyn."
+            },
+            {
+                "name": "A3",
+                "text": "Nothing."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "If strength is the courage to confront your failings and accept that you are worthy of another chance..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "To rise from the ashes while the fire still burns...bloodied but unbowed..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Then my friends have made me strong."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Emet-Selch called us incomplete. “Pitiful creatures,” he said, and maybe we are."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Pain, grief, fear... They walk with us wherever we go."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "But we proved to him that we deserve to live, and we'll prove it to Hydaelyn, Meteion...to the universe itself, if we must!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Pain and despair...aye, we're old friends. I've lost count of the times I've cursed my own powerlessness."
+            },
+            {
+                "name": "THANCRED",
+                "text": "But it's the blessed moments in between that I choose to hold in my heart. Memories...and possibilities. I fight to keep those things alive."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Minfilia and Ryne─to say nothing of you lot, I know─would never settle for less."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Hmm... Methinks we possess a surfeit of healers."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Perhaps I shall call upon mine Amber Carbuncle in lieu of celestial blessings..."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Fear not─from unity and camaraderie doth my strength arise, not my choice of magicks."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Should we bring our singular talents to bear as one, even gods may fall."
+            },
+            {
+                "name": "URIANGER",
+                "text": "...Nevertheless, I prithee throw thyself not into peril, lest our curative resources be spent."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "From the ruins of a sundered paradise did She rise, to grant this star new life."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "As its will, long has She labored to guide Her children."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Make no mistake─this trial puts to proof Hydaelyn's own faith."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Never─in the past, present, or future─have I found only happiness. To live is to be ever beset by hardships great and small."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Yet it is in adversity we find the strength to strive for the next moment of peace, and the next, no matter what trials we face."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "By this strength have the will of gods been defied and the fortunes of men been forever changed. May it be so again this day."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "What─surprised to hear me and “love” mentioned in the same breath?"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I've not a heart of stone. Even in my darkest hour, there were people I cared for. Mentors, comrades... That mad woman who gave her life for us..."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Then you and Alphinaud threw my eyes off a bridge, and I've never known peace since."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "She has given us all She can."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We must share what we know with Father and the Loporrits at once, that it not go to waste."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I will keep Hydaelyn's words in my heart─as talisman and lodestone both."
+            },
+            {
+                "name": "THANCRED",
+                "text": "She and Hydaelyn were two of a kind, weren't they?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Full of love for the star and its people. Always holding to hope for our future..."
+            },
+            {
+                "name": "URIANGER",
+                "text": "'Tis fortunate that Fourchenault hath kept Livingway apprised of our progress. We require the Loporrits' aid more than ever."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Far be it from me to refute Hydaelyn's own words... Yet even if Her actions were neither kind nor just, we can yet give them a nobler meaning."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "We can make Her faith the salvation of mankind."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "If dynamis is ruled by emotion, perhaps prayer has more tangible results than I suspected─albeit ones that are not always obvious to us."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "In which case, we may hope that Hydaelyn's wishes continue to move the hearts of men as they set forth time and time again."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "A bit small for a welcoming party, but I've never been one for crowds."
+            },
+            {
+                "name": "KRILE",
+                "text": "Thank goodness! I never would have forgiven myself had any of you come to harm."
+            },
+            {
+                "name": "LIVINGWAY",
+                "text": "<span class=\"highlight\">Forename</span>! Did you meet Hydaelyn? Pray tell─how is She?"
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "I am glad to see you well. Though we could roughly place your souls, deep as you went, we could neither see nor hear you..."
+            },
+            {
+                "name": "KRILE",
+                "text": "The fluctuations in your aether near the end gave me quite a fright! What in the world happened?"
+            },
+            {
+                "name": "LIVINGWAY",
+                "text": "You mean to say Hydaelyn is...is..."
+            },
+            {
+                "name": "LIVINGWAY",
+                "text": "No, there's no time to feel our feelings! We must carry out Hydaelyn's will without delay."
+            },
+            {
+                "name": "LIVINGWAY",
+                "text": "We'll find Meteion if it's the last thing we do!"
+            },
+            {
+                "name": "LIVINGWAY",
+                "text": "...If you wouldn't mind handing over the crystal, that is. The fancy navigatory one."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "To the edge of the universe, where congregates the despair of countless stars... You are determined to see this through?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We are. Should words fail us, we will fight...to the bitter end."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I know that it pains you to accept this. Would that I need ask nothing more of you..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Yet we have only two means to travel the great expanse─the moon, and Sharlayan's ark. I am all too aware that without both of them, there will be no exodus...but I nevertheless beg you to honor the agreement we made."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "The Forum's decision will be honored. You have earned the right to use the ship as you see fit, and I could not rescind it even if I wanted to."
+            },
+            {
+                "name": "FOURCHENAULT",
+                "text": "As it happens, I do not, and would do all within my power to aid your cause."
+            },
+            {
+                "name": "LIVINGWAY",
+                "text": "With that settled, might I suggest you rest a while?"
+            },
+            {
+                "name": "LIVINGWAY",
+                "text": "Proving oneself to Hydaelyn is never easy...and despite our unparalleled genius, we'll need a day to make the necessary calculations. You may as well take advantage of it!"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "You can chart a course through the sea of stars in a single day!? Ye gods..."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Shall we head above ground for some fresh air, then? And perhaps a nap..."
+            },
+            {
+                "name": "OJIKATSUNJIKA",
+                "text": "Aha! I've been expecting you."
+            },
+            {
+                "name": "OJIKATSUNJIKA",
+                "text": "I heard about your foray into the aetherial sea. The Students have ventured far and wide, but never quite so deep as that!"
+            },
+            {
+                "name": "OJIKATSUNJIKA",
+                "text": "Are you experiencing any aftereffects from your prolonged exposure? Nausea? Dizziness? Hauntings? Hmm..."
+            },
+            {
+                "name": "OJIKATSUNJIKA",
+                "text": "Well, have a pleasant sleep! And if you do experience any unusual phenomena, please let me know. I shall add it to our records!"
+            },
+            {
+                "name": "Q4",
+                "text": "Retire to your chamber?"
+            }
+        ],
+        "reward": {
+            "gil": 4000,
+            "instance": 20077
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 89,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69984
+            ]
+        },
+        "next": [
+            69870,
+            69871,
+            69872,
+            69986
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1040478",
+            "obj": {
+                "i": 1040478,
+                "n": "Fourchenault",
+                "l": 3708,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1038588",
+            "obj": {
+                "i": 1038588,
+                "n": "Ojika Tsunjika",
+                "l": 3706,
+                "q": 5
+            }
+        },
+        {
+            "type": "instance",
+            "id": "81",
+            "obj": {
+                "i": 81,
+                "n": "The Aitiascope",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 89,
+                "max_lvl": 90,
+                "min_ilvl": 520,
+                "max_ilvl": 550
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20077",
+            "obj": {
+                "i": 20077,
+                "n": "The Mothercrystal",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 89,
+                "max_lvl": 90,
+                "max_ilvl": 550
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69984",
+            "obj": {
+                "i": 69984,
+                "n": "Bonds of Adamant(ite)",
+                "g": 11,
+                "l": "Labyrinthos",
+                "s": 602
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69870",
+            "obj": {
+                "i": 69870,
+                "n": "Cooler than Being Cool",
+                "g": 121,
+                "l": "Labyrinthos",
+                "s": 8301
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69871",
+            "obj": {
+                "i": 69871,
+                "n": "For the Record",
+                "g": 121,
+                "l": "Labyrinthos",
+                "s": 8302
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69872",
+            "obj": {
+                "i": 69872,
+                "n": "Harbinger of Breath",
+                "g": 121,
+                "l": "Labyrinthos",
+                "s": 8303
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69986",
+            "obj": {
+                "i": 69986,
+                "n": "A Bold Decision",
+                "g": 11,
+                "l": "Old Sharlayan",
+                "s": 604
+            }
+        }
+    ]
+}

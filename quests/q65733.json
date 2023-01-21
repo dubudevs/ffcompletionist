@@ -1,0 +1,138 @@
+{
+    "quest": {
+        "name": "Splitting Shells",
+        "location": "Central Shroud",
+        "id": 65733,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1000432,
+        "target": 1000411,
+        "genre": 92,
+        "journal": [
+            "Maurelin, a Serpent at the Bannock, is seeking a volunteer to gather materials used in the training of recruits.",
+            "Collect four shells from the giant, insect-like bog yarzons that dwell in the river to the south of the Bannock.",
+            "You have collected the bog yarzon shells. Deliver them to Mariustel at the Bannock.",
+            "Mariustel intends to use the shells you have brought him in the next round of training drills. Once the recruits have learned how best to dispatch a bog yarzon, maintaining a secure perimeter around the camp will seem a far less daunting task."
+        ],
+        "objectives": [
+            "Slay bog yarzons and obtain their shells.",
+            "Deliver the bog yarzon shells to Mariustel at the Bannock."
+        ],
+        "dialogue": [
+            {
+                "name": "MAURELIN",
+                "text": "Ho there, adventurer. If it is work you seek, then look no further."
+            },
+            {
+                "name": "MAURELIN",
+                "text": "Instructor Mariustel needs a volunteer to bring him some bog yarzon shells for the recruits to practice on."
+            },
+            {
+                "name": "MAURELIN",
+                "text": "You'll find yarzons in the river south of here. Once you've pried the carapaces from four of the creatures, take them to the instructor."
+            },
+            {
+                "name": "MARIUSTEL",
+                "text": "Have you come to train?"
+            },
+            {
+                "name": "MARIUSTEL",
+                "text": "Hm? Not a new recruit? Then wh─ Ah, the yarzon shells I ordered Maurelin to requisition! I see he's learned to delegate authority if nothing else."
+            },
+            {
+                "name": "MARIUSTEL",
+                "text": "Now that I have these carapaces, I can set my recruits some specialized drills. They are already adept at hitting a target, of course, but they need practical knowledge of exactly <span class=\"emphasis\">where</span> a monster like the yarzon is most vulnerable."
+            },
+            {
+                "name": "MARIUSTEL",
+                "text": "Thanks to your efforts, I've no doubt they will fare rather better against the creatures when called upon. You should be proud of yourself─both they and the Bannock are safer for your help."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4657,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4658,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5823,
+                    "one": 1
+                }
+            ],
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000432",
+            "obj": {
+                "i": 1000432,
+                "n": "Maurelin",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000411",
+            "obj": {
+                "i": 1000411,
+                "n": "Mariustel",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4657",
+            "obj": {
+                "i": 4657,
+                "n": "Braised Pipira",
+                "l": 7,
+                "c": 24311,
+                "t": 46,
+                "p": 12
+            }
+        },
+        {
+            "type": "item",
+            "id": "4658",
+            "obj": {
+                "i": 4658,
+                "n": "Tree Toad Legs",
+                "l": 7,
+                "c": 24313,
+                "t": 46,
+                "p": 12
+            }
+        },
+        {
+            "type": "item",
+            "id": "5823",
+            "obj": {
+                "i": 5823,
+                "n": "Allagan Tin Piece",
+                "l": 5,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

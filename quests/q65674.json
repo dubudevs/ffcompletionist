@@ -1,0 +1,194 @@
+{
+    "quest": {
+        "name": "Way of the Carpenter",
+        "location": "Gridania",
+        "id": 65674,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100062,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000148,
+        "target": 1000153,
+        "genre": 136,
+        "journal": [
+            "Corgg wishes you to reaffirm your desire to join the Carpenters' Guild.",
+            "Corgg bids you speak with Timbermaster Beatin. Seek him in the workroom, through the doorway and up the steps.",
+            "Though Timbermaster Beatin is every bit as imposing as you were given to believe, he accepts your application to the guild and even furnishes you with a beginner's saw. Equip the tool and speak to him again."
+        ],
+        "objectives": [
+            "Speak with Timbermaster Beatin."
+        ],
+        "dialogue": [
+            {
+                "name": "CORGG",
+                "text": "Would you like to learn more about the enrollment process?"
+            },
+            {
+                "name": "CORGG",
+                "text": "It is no small decision to dedicate oneself wholly to carpentry."
+            },
+            {
+                "name": "CORGG",
+                "text": "You must follow your heart, wheresoever it may take you. Know that if it leads you here once more, we will welcome you with open arms."
+            },
+            {
+                "name": "CORGG",
+                "text": "Wonderful! ...I should mention at this point that Timbermaster Beatin assesses all would-be apprentices personally, so you will need to obtain his approval before you begin."
+            },
+            {
+                "name": "CORGG",
+                "text": "Timbermaster Beatin can be a harsh and unforgiving man, but if you love the craft and have the will to learn, you could ask for no better tutor. He is, quite simply, the finest carpenter in Gridania."
+            },
+            {
+                "name": "CORGG",
+                "text": "Of course, it will take you some time, and no small amount of effort, to comprehend the full extent of his teachings, but you may rest assured that he will not lead you astray."
+            },
+            {
+                "name": "CORGG",
+                "text": "That said...when you meet him, I would advise you to choose your words carefully and...um...resist the urge to run away."
+            },
+            {
+                "name": "BEATINE",
+                "text": "...Another green adventurer come to play with saws?"
+            },
+            {
+                "name": "BEATINE",
+                "text": "Well then, I suggest you first speak with the─"
+            },
+            {
+                "name": "BEATINE",
+                "text": "Oh, you've met with Corgg, have you? That is well, but know that the decision to initiate you into the guild rests with me."
+            },
+            {
+                "name": "BEATINE",
+                "text": "Tell me true, adventurer: have you a mind to devote yourself to the art of carpentry?"
+            },
+            {
+                "name": "Q1",
+                "text": "Devote yourself to carpentry?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "BEATINE",
+                "text": "Is that so? Then begone from my sight. Do not return unless you find the conviction you so sorely lack."
+            },
+            {
+                "name": "BEATINE",
+                "text": "The look on your face bespeaks determination...or mayhap trapped wind."
+            },
+            {
+                "name": "BEATINE",
+                "text": "Still...you look strong enough to hold a saw, and if your resolve is indeed genuine... I give you leave to remain─for the time being."
+            },
+            {
+                "name": "BEATINE",
+                "text": "However, you are useless to me in your current state. You are as a seedling─some potential, perhaps, but no more like to thrive than perish."
+            },
+            {
+                "name": "BEATINE",
+                "text": "Experience is what you require, <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>, and I shall give you the means to acquire it. Take this saw. It is old, yes, but sharp as needs be."
+            },
+            {
+                "name": "BEATINE",
+                "text": "Now, prove to me that you are not completely incompetent by taking up your new tool."
+            },
+            {
+                "name": "BEATINE",
+                "text": "Once you have done so, present yourself to me for inspection."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "items": [
+                {
+                    "num": 100,
+                    "id": 4
+                },
+                {
+                    "num": 50,
+                    "id": 3
+                },
+                {
+                    "id": 2314
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65720
+            ]
+        },
+        "next": [
+            65741
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000148",
+            "obj": {
+                "i": 1000148,
+                "n": "Corgg",
+                "l": 52,
+                "q": 4,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000153",
+            "obj": {
+                "i": 1000153,
+                "n": "Beatin",
+                "l": 52,
+                "q": 25,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2314",
+            "obj": {
+                "i": 2314,
+                "n": "Weathered Saw",
+                "l": 1,
+                "c": 35001,
+                "t": 12,
+                "p": 74
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65720",
+            "obj": {
+                "i": 65720,
+                "n": "So You Want to Be a Carpenter",
+                "g": 0,
+                "l": "New Gridania",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65741",
+            "obj": {
+                "i": 65741,
+                "n": "My First Saw",
+                "g": 136,
+                "l": "Gridania",
+                "s": 11,
+                "f": 1
+            }
+        }
+    ]
+}

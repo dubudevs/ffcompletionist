@@ -1,0 +1,108 @@
+{
+    "quest": {
+        "name": "Hard-boiled Hustle",
+        "location": "The Sea of Clouds",
+        "id": 67713,
+        "patch": 3.1,
+        "sort": 17,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016089,
+        "genre": 45,
+        "journal": [
+            "Muna Vanu has an eggciting mission for you.<br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu informs you that it is currently laying season for the anzu of Abalathia. Their eggs will make a wonderful supplement to the ever-dwindling stockpiles of food that the Gundu keep. Travel to the Nidifice, where these beasts make their nests, and collect three anzu eggs for him.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "The great and ferocious anzu are unable to stop you from making away with their eggs. Deliver them back to Muna Vanu.",
+            "Muna Vanu is glad to have the succulent eggs you gathered, but even happier that you braved the fearsome anzu for the sake of his people. Only the most fearless Gundu warriors brave these terrifying monsters. That you would do so too puts your allegiance to the Gundu beyond doubt."
+        ],
+        "objectives": [
+            "Gather anzu eggs from the Nidifice.",
+            "Deliver the eggs to Muna Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "<span class=\"highlight\">Forename</span>, Gundu food stores run dangerously low, but zephyr winds bring perfect opportunity. Anzu lay eggs on island netherlings call the Nidifice, ripe for the taking."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Please, gather three eggs for village's food stores. Be delicate like gentle breeze, however─Vanu cannot eat eggs if shells shatter to pieces!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. Does netherling bring anzu eggs?"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "To brave fearsome anzu and gather eggs so soon... <span class=\"highlight\">Forename</span> is truly courageous, like sapling standing strong against great storm."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Anzu eggs are so delicious, many Vanu eat them shells and all! But eggs netherling gifts us shall be pickled in vinegar, that they may last, and feed tribe well when stores grow low."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Only strongest Gundu warriors stand fearless against anzu. Your bravery is testament to your loyalty. Long will Gundu remember your aid."
+            }
+        ],
+        "reward": {
+            "gil": 737,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

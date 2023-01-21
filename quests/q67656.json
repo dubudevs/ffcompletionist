@@ -1,0 +1,136 @@
+{
+    "quest": {
+        "name": "Better Bill Hunting",
+        "location": "Ishgard",
+        "id": 67656,
+        "patch": 3.0,
+        "sort": 15601,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012226,
+        "involved": [
+            1012225
+        ],
+        "genre": 96,
+        "journal": [
+            "Eustacia thinks you are ready to hit new heights in your hunting career.",
+            "Eustacia is impressed by the fire in your eyes and the thew of your thighs, and suggests that you are more than ready to take on new challenges in the Clan Hunt. She bids you speak with Ardolain, keeper of the Clan Centurio records in the Forgotten Knight, and ask his permission to hunt more dangerous marks.",
+            "Ardolain assents to Eustacia's proposal, and permits you to take second-level bills from the Clan Hunt board. Return to the board to peruse the marks, and the rewards, available.",
+            "You examine the Clan Hunt board, and the level two bills posted thereon. For more information about the Clan Hunt, or to exchange Centurio Seals for exclusive items, speak with Ardolain in the Forgotten Knight. Otherwise, a whole new category of baneful beasts await their destruction at the hands of a freshly promoted hunts<span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>."
+        ],
+        "objectives": [
+            "Speak with Ardolain.",
+            "Examine the Clan Hunt board."
+        ],
+        "dialogue": [
+            {
+                "name": "EUSTACIA",
+                "text": "So, you're <span class=\"highlight\">Forename</span>, are you? I can see why that old rogue Aytienne signed you up. You've got the fire of a born hunter burning in your eyes!"
+            },
+            {
+                "name": "EUSTACIA",
+                "text": "I'll wager those level one marks don't offer much of a challenge to a burly <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span> like you. You'll be wanting to spice things up a little, am I right? Then what are you waiting for? Head down to Ardolain and tell him you're ready for more!"
+            },
+            {
+                "name": "EUSTACIA",
+                "text": "Ardolain's as chary as a chocobo chick when it comes to new recruits. How's a Clans<span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> to prove <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> can stand the heat if he won't let <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> throw <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>self into the fire? You get down there and tell him you're ready to feel the burn!"
+            },
+            {
+                "name": "ARDOLAIN",
+                "text": "Oho, so Eustacia reckons you're ready to move on to bigger and better things, does she? Tch! If that girl had her way, we'd be throwing babes in the river to sort out the swimmers from the sinkers. Still, she might be onto something this time..."
+            },
+            {
+                "name": "ARDOLAIN",
+                "text": "Alright, I'll give you a chance. But level two marks ain't nothing to be sniffed at, understand? Let your guard down even for an instant, and they'll hand your posterior to you on a platter. Take a look at the Clan Hunt board and you'll see what kind of beasts I'm talking about."
+            },
+            {
+                "name": "ARDOLAIN",
+                "text": "Don't go getting yourself killed now─those level two marks are a heck of a lot more dangerous than their level one brethren. If you're sure you're up to the challenge, go and have look at the bills on the Clan Hunt board...but on your own head be it!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Clan Hunt board is covered in bills showing the details of wanted monsters. If you think you have what it takes, try testing your mettle against a level 2 mark."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Level 2 Clan marks are now available!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You are now permitted to take bills for level 2 Clan marks from the Clan Hunt board."
+            }
+        ],
+        "reward": {
+            "gil": 465,
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67655
+            ]
+        },
+        "next": [
+            67657
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012226",
+            "obj": {
+                "i": 1012226,
+                "n": "Eustacia",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012225",
+            "obj": {
+                "i": 1012225,
+                "n": "Ardolain",
+                "l": 2300,
+                "s": 2,
+                "q": 4,
+                "t": "Clan Centurio Member",
+                "r": 1,
+                "a": 2310,
+                "c": [
+                    13.05,
+                    11.85
+                ]
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67655",
+            "obj": {
+                "i": 67655,
+                "n": "Let the Clan Hunt Begin",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 15301,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67657",
+            "obj": {
+                "i": 67657,
+                "n": "Top Marks",
+                "g": 101,
+                "l": "Idyllshire",
+                "s": 5901,
+                "f": 1
+            }
+        }
+    ]
+}

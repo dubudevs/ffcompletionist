@@ -1,0 +1,218 @@
+{
+    "quest": {
+        "name": "Why Does the Caged Bird Sing",
+        "location": "The Dravanian Forelands",
+        "id": 67309,
+        "patch": 3.0,
+        "sort": 5203,
+        "eventIcon": 71221,
+        "issuer": 1011924,
+        "target": 1011924,
+        "involved": [
+            1013362,
+            1013363
+        ],
+        "genre": 98,
+        "journal": [
+            "Guenaret needs help calming a distressed chocobo.",
+            "The chocobo just taken by Guenaret has been crying out incessantly, and he asks that you return to the site of the capture─specifically to look out for a chocobo nest.",
+            "Upon investigating the site, you find several chocobo eggs lying in an undisturbed nest. Return to Guenaret and report your findings.",
+            "After returning to Guenaret, he informs you that a rule among hunters forbids the capture of chocobos that are nursing eggs. The future mother will be released back to her nest, ensuring the chocobo population remains stable."
+        ],
+        "objectives": [
+            "Investigate the specified location.",
+            "Report to Guenaret."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "The chocobo whines pitifully..."
+            },
+            {
+                "name": "GUENARET",
+                "text": "By the Twelve, this chocobo just won't shut up. She's got no hurts as far as I can see, and a sick bird wouldn't make such a fuss. Which leaves just one possibility."
+            },
+            {
+                "name": "GUENARET",
+                "text": "I've a mind to go and verify my suspicion, but I'm not overly keen on leaving this bird while it's wailing away like this─could attract predators. Would you mind going?"
+            },
+            {
+                "name": "GUENARET",
+                "text": "Here, lend me your map─I'll mark the place we caught this bird. Chances are there's a nest nearby. If you find it, note what's inside and come back to tell me."
+            },
+            {
+                "name": "GUENARET",
+                "text": "We caught that chocobo at the place I marked on your map. I need you to look for a nest nearby and see what's in it."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The chocobo whines pitifully..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "There are eggs in the nest."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The chocobo is visibly distressed."
+            },
+            {
+                "name": "GUENARET",
+                "text": "Just as I thought, this one's 'bout to be a mother. There's no helping it, then. As fine a bird as she is, she's gotta go back to her nest."
+            },
+            {
+                "name": "GUENARET",
+                "text": "It's a rule of ours, you see: you can't catch a chocobo what's brooding. Don't matter that it's the finest specimen you've ever seen, or that you've been having a bad spell."
+            },
+            {
+                "name": "GUENARET",
+                "text": "Nay, whatever the circumstance, we've got to see beyond the present, elsewise we hunters won't have much of a future."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "There are eggs in the nest."
+            }
+        ],
+        "reward": {
+            "gil": 444,
+            "items": [
+                {
+                    "id": 10811,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10895,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10937,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 26400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 52,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67145,
+                67307
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011924",
+            "obj": {
+                "i": 1011924,
+                "n": "Guenaret",
+                "l": 2000,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013362",
+            "obj": {
+                "i": 1013362,
+                "n": "Captured Chocobo",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013363",
+            "obj": {
+                "i": 1013363,
+                "n": "Captured Chocobo",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "10811",
+            "obj": {
+                "i": 10811,
+                "n": "Wyvernskin Cuffs of Aiming",
+                "l": 125,
+                "c": 44369,
+                "t": 37,
+                "p": 13860
+            }
+        },
+        {
+            "type": "item",
+            "id": "10895",
+            "obj": {
+                "i": 10895,
+                "n": "Wyvernskin Gloves of Healing",
+                "l": 125,
+                "c": 44370,
+                "t": 37,
+                "p": 13860
+            }
+        },
+        {
+            "type": "item",
+            "id": "10937",
+            "obj": {
+                "i": 10937,
+                "n": "Wyvernskin Gloves of Casting",
+                "l": 125,
+                "c": 44371,
+                "t": 37,
+                "p": 13860
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67145",
+            "obj": {
+                "i": 67145,
+                "n": "Where the Chocobos Roam",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 30
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67307",
+            "obj": {
+                "i": 67307,
+                "n": "Some Bad News",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5201,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "quest": {
+        "name": "Way of the Alchemist",
+        "location": "Ul'dah",
+        "id": 66111,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100047,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1002281,
+        "target": 1002299,
+        "genre": 142,
+        "journal": [
+            "Deitrich wishes to reaffirm your desire to join the Alchemists' Guild.",
+            "For the final stage of your enrollment, you are to seek approval from the guildmaster. Approach Severian where he toils over his workbench within the Alchemists' Guild.",
+            "Severian has approved your initiation into the Alchemists' Guild. Equip the weathered alembic and speak with the guildmaster once more."
+        ],
+        "objectives": [
+            "Speak with Guildmaster Severian."
+        ],
+        "dialogue": [
+            {
+                "name": "DEITRICH",
+                "text": "Have you arrived at a decision? Are you ready to exult in the arts of alchemy and commit to the responsibilities that your enrollment entails?"
+            },
+            {
+                "name": "DEITRICH",
+                "text": "I understand: the thought of drowning in the bottomless seas of alchemical possibility must be quite intimidating. Take your time to mull it over."
+            },
+            {
+                "name": "DEITRICH",
+                "text": "Excellent. Then allow me to direct you to our guildmaster. Gaining his approval is the last test you must pass before becoming a full member of the guild."
+            },
+            {
+                "name": "DEITRICH",
+                "text": "You will find Guildmaster Severian tending to his experiments at his personal workbench."
+            },
+            {
+                "name": "DEITRICH",
+                "text": "I must warn you, he is a rather <span class=\"emphasis\">intense</span> individual. Pray choose your words with care."
+            },
+            {
+                "name": "SEVERIAN",
+                "text": "What!? What is it this time!? Ah, you must be the merchant's lackey, come to bring me my imp wings. Let's have them, then!"
+            },
+            {
+                "name": "SEVERIAN",
+                "text": "Hm? Not a lackey? An aspiring alchemist, did you say? Speak up, and pray that I heard you awry!"
+            },
+            {
+                "name": "Q1",
+                "text": "Are you an aspiring alchemist?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "SEVERIAN",
+                "text": "&lt;sniff&gt; That is well. I have not the time to attend to the fumbling of inept initiates. Now, I know not what ill-advised notion brought you to my desk, but I'll thank you not to interrupt my work again!"
+            },
+            {
+                "name": "SEVERIAN",
+                "text": "Did that babbling fool Deitrich send you to me? I specifically requested that I be disturbed for nothing less than the coming of a second Calamity!"
+            },
+            {
+                "name": "SEVERIAN",
+                "text": "Do I appear as a kindly mentor to you? My research demands my absolute and undivided attention! Now, begone, before I am forced to─"
+            },
+            {
+                "name": "SEVERIAN",
+                "text": "But wait. Hmmm, perhaps I can... Yes, yes, you may be the very <span class=\"emphasis\">assistant</span> I require."
+            },
+            {
+                "name": "SEVERIAN",
+                "text": "I have had a change of heart. Congratulations, I approve your application to the guild. It is with great pleasure that I welcome a fellow seeker of knowledge into the fold!"
+            },
+            {
+                "name": "SEVERIAN",
+                "text": "We can dispense with the interminable initiation ceremony, yes? Here is your first alembic. Try not to drop it, for there is much work to be done. Yes, much work!"
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "items": [
+                {
+                    "num": 100,
+                    "id": 7
+                },
+                {
+                    "num": 50,
+                    "id": 6
+                },
+                {
+                    "id": 2467
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65726
+            ]
+        },
+        "next": [
+            66113
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002281",
+            "obj": {
+                "i": 1002281,
+                "n": "Deitrich",
+                "l": 41,
+                "q": 4,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002299",
+            "obj": {
+                "i": 1002299,
+                "n": "Severian",
+                "l": 41,
+                "q": 23,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2467",
+            "obj": {
+                "i": 2467,
+                "n": "Weathered Alembic",
+                "l": 1,
+                "c": 35604,
+                "t": 24,
+                "p": 65
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65726",
+            "obj": {
+                "i": 65726,
+                "n": "So You Want to Be an Alchemist",
+                "g": 0,
+                "l": "Ul'dah - Steps of Thal",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66113",
+            "obj": {
+                "i": 66113,
+                "n": "My First Alembic",
+                "g": 142,
+                "l": "Ul'dah",
+                "s": 11,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "quest": {
+        "name": "Buzzing at Church",
+        "location": "Eastern Thanalan",
+        "id": 66162,
+        "patch": 2.0,
+        "sort": 180,
+        "eventIcon": 71221,
+        "issuer": 1003946,
+        "target": 1003946,
+        "genre": 93,
+        "journal": [
+            "Esmour needs an exterminator at the Church of Saint Adama Landama.",
+            "Corpses have drawn blowfly swarms to the vicinity of the church. Slay five of the swarms to keep them in check.",
+            "You have slain five blowfly swarms. Report back to Esmour at the church.",
+            "Esmour thanks you for having ensured the safety and well-being of the mourners who visit the church."
+        ],
+        "objectives": [
+            "Slay blowfly swarms.",
+            "Report to Esmour."
+        ],
+        "dialogue": [
+            {
+                "name": "ESMOUR",
+                "text": "You have troubled yourself to come all this way. I wonder if I might not trouble you a bit further."
+            },
+            {
+                "name": "ESMOUR",
+                "text": "As you well know, we keep a lichyard here. The scent of death's decay draws blowfly swarms, which are as unclean as they are unwelcome."
+            },
+            {
+                "name": "ESMOUR",
+                "text": "Slay five of these pestilent swarms, and the church will be in your debt."
+            },
+            {
+                "name": "ESMOUR",
+                "text": "Thank you, friend. If the swarms were to spread their pestilence at the church unchecked, before long we would need to mourn the mourning."
+            },
+            {
+                "name": "ESMOUR",
+                "text": "For the time being, at least, the grieving can pray in peace for their dead to cross over safely. Thal bless you."
+            }
+        ],
+        "reward": {
+            "gil": 220,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5729
+                }
+            ],
+            "xp": 3780
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 18,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66165
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003946",
+            "obj": {
+                "i": 1003946,
+                "n": "Esmour",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "5729",
+            "obj": {
+                "i": 5729,
+                "n": "Snow White Dye",
+                "l": 30,
+                "c": 22811,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66165",
+            "obj": {
+                "i": 66165,
+                "n": "Honoring the Dead",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 180
+            }
+        }
+    ]
+}

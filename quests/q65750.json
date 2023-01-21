@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "Killer Combinations",
+        "location": "Eastern La Noscea",
+        "id": 65750,
+        "patch": 2.4,
+        "sort": 3,
+        "icon": 100327,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1010140,
+        "target": 1010139,
+        "genre": 152,
+        "journal": [
+            "Tsubame appears quite pleased with your progress.",
+            "Tsubame is deeply impressed at the aptitude and affinity you have shown for the way of the shinobi, and she muses that your skills might one day rival her own. Now, the time has come to receive your next lesson. Enter the storehouse and speak with Oboro.",
+            "After proudly displaying his own mastery of a challenging technique─the common Eorzean bow─Oboro teaches you your second mudra. Known as <span class=\"emphasis\">Chi</span> in the Doman tongue, this gesture will allow you to call forth the power of the earth itself. When you are prepared to learn how to wield it in battle, speak with Oboro once more."
+        ],
+        "objectives": [
+            "Speak with Oboro."
+        ],
+        "dialogue": [
+            {
+                "name": "TSUBAME",
+                "text": "<span class=\"highlight\">Forename</span>! Why, I did not even hear your footsteps as you approached. You are becoming more and more the shinobi with each day."
+            },
+            {
+                "name": "TSUBAME",
+                "text": "Oboro has been awaiting your return. Please, enter."
+            },
+            {
+                "name": "OBORO",
+                "text": "Hand before the torso, bend at the hips... Presence of mind, presence of mind..."
+            },
+            {
+                "name": "TSUBAME",
+                "text": "The ease with which you have grasped the basics of our art is impressive, to say the least. Neglect not your training, and I can foresee the day when your skills rival my own."
+            },
+            {
+                "name": "OBORO",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. It is clear from the manner in which you carry yourself that you have been most diligent in your training."
+            },
+            {
+                "name": "OBORO",
+                "text": "But you are not the only one who has mastered the technique imparted to you. Behold my Eorzean bow, perfect in balance and form!"
+            },
+            {
+                "name": "OBORO",
+                "text": "...Ahem. Now, it is time for your next lesson. Watch carefully my hands, <span class=\"highlight\">Forename</span>. With this mudra, the shinobi can summon the energies of the earth─<span class=\"emphasis\">Chi</span>, in our tongue. Etch its form in your mind, and I shall show you how to employ it in battle."
+            }
+        ],
+        "reward": {
+            "action": 2261,
+            "xp": 9020
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 92
+                }
+            ],
+            "quests": [
+                65749
+            ]
+        },
+        "next": [
+            65751
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010140",
+            "obj": {
+                "i": 1010140,
+                "n": "Tsubame",
+                "l": 32,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010139",
+            "obj": {
+                "i": 1010139,
+                "n": "Oboro",
+                "l": 1428,
+                "q": 18
+            }
+        },
+        {
+            "type": "action",
+            "id": "2261",
+            "obj": {
+                "i": 2261,
+                "n": "Chi",
+                "c": 2902,
+                "j": 30,
+                "t": 4,
+                "l": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65749",
+            "obj": {
+                "i": 65749,
+                "n": "My First Mudra",
+                "g": 152,
+                "l": "Eastern La Noscea",
+                "s": 2,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65751",
+            "obj": {
+                "i": 65751,
+                "n": "Once Upon a Time in Doma",
+                "g": 152,
+                "l": "Eastern La Noscea",
+                "s": 4,
+                "f": 1
+            }
+        }
+    ]
+}

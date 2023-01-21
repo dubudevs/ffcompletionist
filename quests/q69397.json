@@ -1,0 +1,119 @@
+{
+    "quest": {
+        "name": "Microbrewing",
+        "location": "Upper La Noscea",
+        "id": 69397,
+        "patch": 5.3,
+        "sort": 125,
+        "eventIcon": 71201,
+        "issuer": 1006193,
+        "target": 1006193,
+        "genre": 1,
+        "journal": [
+            "Teteroon has places for you to go and thingies for you to get.",
+            "Teteroon has asked that you help him brew Qiqirn firewater. To do so, slay coeurl pups to obtain three coeurl pup whiskers.",
+            "You have procured the required ingredients. Take them back to Teteroon.",
+            "Teteroon has set about brewing his Qiqirn firewater from the ingredients you have provided. But good firewater takes time. Speak to him again later to learn how his concoction turns out."
+        ],
+        "objectives": [
+            "Slay coeurl pups and collect coeurl pup whiskers.",
+            "Deliver the coeurl pup whiskers to Teteroon."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "TETEROON",
+                "text": "Good Buscaroon help Teteroon. Teteroon dead without good Buscaroon. Must give thankies. Many, many thankies. Teteroon make Qiqirn firewater for Buscaroon! Buscaroon love firewater!"
+            },
+            {
+                "name": "TETEROON",
+                "text": "You help Teteroon make firewater? Need thingies to make. Need many, many thingies."
+            },
+            {
+                "name": "TETEROON",
+                "text": "Need coeurl pup whiskers. Need three good coeurl pup whiskers."
+            },
+            {
+                "name": "TETEROON",
+                "text": "Teteroon make firewater for Buscaroon. You bring thingies Teteroon need?"
+            },
+            {
+                "name": "TETEROON",
+                "text": "You brought all thingies! Teteroon make firewater now. Make good firewater for good Buscaroon."
+            },
+            {
+                "name": "TETEROON",
+                "text": "Teteroon start making firewater now. Good firewater take time. More time, more good. You come back later."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 31330
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 23,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                69396
+            ]
+        },
+        "next": [
+            66273
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006193",
+            "obj": {
+                "i": 1006193,
+                "n": "Teteroon",
+                "l": 34,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "31330",
+            "obj": {
+                "i": 31330,
+                "n": "Level 21 Weapon Coffer",
+                "l": 1,
+                "c": 26557,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69396",
+            "obj": {
+                "i": 69396,
+                "n": "Never Forget",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 124
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66273",
+            "obj": {
+                "i": 66273,
+                "n": "Like Fine Wine",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 126
+            }
+        }
+    ]
+}

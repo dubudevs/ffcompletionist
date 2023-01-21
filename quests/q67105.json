@@ -1,0 +1,168 @@
+{
+    "quest": {
+        "name": "Deliverance",
+        "location": "North Shroud",
+        "id": 67105,
+        "patch": 2.35,
+        "sort": 10,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 5,
+        "eventIcon": 71222,
+        "issuer": 1009201,
+        "target": 1009201,
+        "involved": [
+            1009200
+        ],
+        "genre": 43,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>The Ehcatl Nine manciple has a job fit for an adventurer (which most likely means fetching something).<br>※The crafting portion of this quest is recommended for Disciples of the Hand level 1 and above.",
+            "The manciple has asked that you fetch something for the Ehcatl Nine which appears to be in dire need of several somethings. Speak with the warehouse foreman to learn which somethings are in demand and then set about meeting your quota.<br><br>※Earn quota points by delivering requested items. A delivery quest is complete once you have earned all the points necessary to meet your quota. Current quota status can be viewed in the duty list.<br><br>※The list of currently requested items can be viewed by speaking with the Ehcatl Nine foreman, or by opening the <span class=\"highlight\">Timers</span> interface located under <span class=\"highlight\">Duty</span> in the main menu.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "You have met your Ehcatl Nine quota. Speak with the Ehcatl Nine manciple and regale him with tales of your procurement exploits.",
+            "The thoroughly regaled manciple has promised to impart the legendary tale of your deeds to Ehcatl Nine chieftain, Sezul Totoloc. And with that, it should not be long before you have earned the trust of the entire faction, for this day you have learned that the quickest way to an Ixal's heart is through his warehouse."
+        ],
+        "objectives": [
+            "Deliver items to the Ehcatl Nine foreman and earn quota points.",
+            "Speak with the Ehcatl Nine manciple."
+        ],
+        "dialogue": [
+            {
+                "name": "PROCUREMENTIXAL",
+                "text": "Squark! Our supplies, dwindling, they are! A featherless one, we seek. A featherless one to fill our houses of wares! Master Rozol demands swiftness, he does! Ever prudent, he is!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This quest differs from normal story quests in that to complete it, you must deliver a bevy of requested items."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Delivering requested items will earn you points which will bring you closer to meeting the specified quota. The quest is complete only when you have met that quota."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Ehcatl Nine require many different types of items to maintain their daily operations. You may choose which items to deliver based on your ability to procure them."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Further questions regarding delivery quests should be directed to the Ehcatl Nine manciple."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "A current list of items required by the faction can be viewed by speaking with the Ehcatl Nine foreman, or by selecting <span class=\"highlight\">Timers</span> located under <span class=\"highlight\">Duty</span> in the main menu."
+            },
+            {
+                "name": "PROCUREMENTIXAL",
+                "text": "Squark! Which items are dwindling, you ask!? Why, all, featherless neuker! But some more than others. Which some more than others? Know, this one does not! Know, the foreman does!"
+            },
+            {
+                "name": "WAREHOUSEIXAL",
+                "text": "Squawk! Squawk! Long is my list! Deep is our need!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Each item delivered will earn you points towards meeting your <span class=\"highlight\">quota</span>. Only when the quota is met will the quest be deemed complete."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Moreover, each individual delivery will earn you experience points for the class indicated to the left of the item name in the Ehcatl Nine Delivery Quest menu."
+            },
+            {
+                "name": "WAREHOUSEIXAL",
+                "text": "Squawk! Squawk! More do we need! More must you bring! Master Rozol eyes us, he does. Ever eyes us, he does!"
+            },
+            {
+                "name": "WAREHOUSEIXAL",
+                "text": "Squawk! Squaaawk! Met is your quota! Crates, they are full! Report to the manciple, you must. Hurry, you must!"
+            },
+            {
+                "name": "WAREHOUSEIXAL",
+                "text": "Squawk! Squawk! Squawk! Met is your quota! Through is your labor! Report to the manciple, you must. Linger, you mustn't!"
+            },
+            {
+                "name": "PROCUREMENTIXAL",
+                "text": "Squark! A featherless neuker, you came. A featherless friend, you left! Hear of your deeds, the chieftain shall! Squark!"
+            }
+        ],
+        "reward": {
+            "gil": 600,
+            "reputation": 70,
+            "items": [
+                {
+                    "num": 2,
+                    "id": 21072
+                },
+                {
+                    "id": 10124
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 33
+                }
+            ],
+            "quests": [
+                67023
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009201",
+            "obj": {
+                "i": 1009201,
+                "n": "Ehcatl Nine Manciple",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009200",
+            "obj": {
+                "i": 1009200,
+                "n": "Ehcatl Nine Foreman",
+                "l": 57,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "10124",
+            "obj": {
+                "i": 10124,
+                "n": "Moonstone",
+                "l": 90,
+                "c": 21273,
+                "t": 48
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67023",
+            "obj": {
+                "i": 67023,
+                "n": "Reaching for Cloud Nine",
+                "g": 42,
+                "l": "North Shroud",
+                "s": 2,
+                "f": 1
+            }
+        }
+    ]
+}

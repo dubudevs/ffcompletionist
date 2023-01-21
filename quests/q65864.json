@@ -1,0 +1,191 @@
+{
+    "quest": {
+        "name": "Supply and Demands",
+        "location": "Western Thanalan",
+        "id": 65864,
+        "patch": 2.0,
+        "sort": 46,
+        "eventIcon": 71201,
+        "issuer": 1002065,
+        "target": 1002061,
+        "involved": [
+            1002056
+        ],
+        "genre": 1,
+        "journal": [
+            "Dadanen would like you to deliver a message to Copperbell Mines.",
+            "Dadanen has yet to receive a delivery from Copperbell Mines, and his patience is wearing thin. Deliver his notice to Drunken Stag, the miner whom he hired to deliver his product.",
+            "Drunken Stag is powerless to act, as the mines have been closed due to an incident in the depths. However, he did mention losing a haul not far from here..."
+        ],
+        "objectives": [
+            "Deliver Dadanen's final notice to Drunken Stag."
+        ],
+        "dialogue": [
+            {
+                "name": "DADANEN",
+                "text": "It so happens that I've a situation that must be resolved posthaste─and I do mean <span class=\"emphasis\">posthaste</span>."
+            },
+            {
+                "name": "DADANEN",
+                "text": "I'm plumb out of premium product, and my latest order has yet to arrive! If I keep my customers waiting any longer, this could irrevocably damage my reputation!"
+            },
+            {
+                "name": "DADANEN",
+                "text": "What's worse, I paid my man in advance for his services. Despite his assurances that it would be a simple affair, I've heard nothing since he departed for Copperbell Mines days ago."
+            },
+            {
+                "name": "DADANEN",
+                "text": "Find Drunken Stag and give him this notice. I cannot afford any further delay."
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "What do you want? Hm? Dadanen's product?"
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "He can send all the notices he likes, but it won't change a thing."
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "The Concern has closed the mines due to some incident in the depths."
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "It's a godsdamned shame too─lost a decent haul just over yonder during all the chaos..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3770,
+                    "one": 1
+                },
+                {
+                    "id": 3769,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 3420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66159
+            ]
+        },
+        "next": [
+            66039,
+            66040
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002065",
+            "obj": {
+                "i": 1002065,
+                "n": "Dadanen",
+                "l": 42,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002061",
+            "obj": {
+                "i": 1002061,
+                "n": "Drunken Stag",
+                "l": 42,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002056",
+            "obj": {
+                "i": 1002056,
+                "n": "Zuzutyro",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "3770",
+            "obj": {
+                "i": 3770,
+                "n": "Leather Jackboots",
+                "l": 10,
+                "c": 46816,
+                "t": 38,
+                "p": 288
+            }
+        },
+        {
+            "type": "item",
+            "id": "3769",
+            "obj": {
+                "i": 3769,
+                "n": "Amateur's Duckbills",
+                "l": 10,
+                "c": 46109,
+                "t": 38,
+                "p": 230
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66159",
+            "obj": {
+                "i": 66159,
+                "n": "Takin' What They're Givin'",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 45
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66039",
+            "obj": {
+                "i": 66039,
+                "n": "Give It to Me Raw",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 47
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66040",
+            "obj": {
+                "i": 66040,
+                "n": "No Tool Gets Left Behind",
+                "g": 93,
+                "l": "Western Thanalan",
+                "s": 110
+            }
+        }
+    ]
+}

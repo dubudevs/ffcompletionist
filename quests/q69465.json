@@ -1,0 +1,107 @@
+{
+    "quest": {
+        "name": "Substitute Tester",
+        "location": "Lakeland",
+        "id": 69465,
+        "patch": 5.3,
+        "sort": 128,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 14,
+        "eventIcon": 71222,
+        "issuer": 1033712,
+        "target": 1033712,
+        "genre": 61,
+        "journal": [
+            "Regitt needs a tank commander for an extended trial.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Speak with Wamutt.",
+            "Pilot the Rolling Tankard to the Stay and fire its cannon at the target dummies.",
+            "Report to Regitt."
+        ],
+        "dialogue": [
+            {
+                "name": "REGITT",
+                "text": "I, ah, I know this is short notice and all, but...have you got time to help us with an extended trial?"
+            },
+            {
+                "name": "REGITT",
+                "text": "The bloke we trained to command the tank is, uh, “indisposed” at the moment, and no one else is willing or able to take the wheel. As it were."
+            },
+            {
+                "name": "REGITT",
+                "text": "Please, speak with Wamutt, and he'll brief you on the particulars. You're all we've got, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "WAMUTT",
+                "text": "You're our stand-in? Good, then we can get started!"
+            },
+            {
+                "name": "WAMUTT",
+                "text": "There's naught to it really: just drive up to the Stay, then blast all the targets with the cannon. Commence trial!"
+            },
+            {
+                "name": "WAMUTT",
+                "text": "You see, “commence trial” means “bloody go!” Try not to miss any of them dummies."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "A group of crude wooden dummies awaits obliteration... Speak to Wamutt at Watts's Anvil to pilot a Rolling Tankard, then command its main cannon to fire upon the targets."
+            },
+            {
+                "name": "REGITT",
+                "text": "The trial went well, then? Targets blown into sufficiently small chunks and all that? Good to hear!"
+            },
+            {
+                "name": "REGITT",
+                "text": "Our original pilot stumbled in after a few too many mugs, and I couldn't let him near a tank in that condition. There'll be no drinking and firing on my watch!"
+            },
+            {
+                "name": "REGITT",
+                "text": "Anyway, I'm happy to say we've kept to our testing schedule, and it's all thanks to you!"
+            }
+        ],
+        "reward": {
+            "gil": 679,
+            "reputation": 60,
+            "items": [
+                {
+                    "id": 28188
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 33
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1033712",
+            "obj": {
+                "i": 1033712,
+                "n": "Regitt",
+                "l": 2953,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "28188",
+            "obj": {
+                "i": 28188,
+                "n": "Hammered Frogment",
+                "l": 1,
+                "c": 65080,
+                "t": 100
+            }
+        }
+    ]
+}

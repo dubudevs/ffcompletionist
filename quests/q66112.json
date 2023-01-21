@@ -1,0 +1,223 @@
+{
+    "quest": {
+        "name": "Like Sire Like Fledgling",
+        "location": "Chocobo Square",
+        "id": 66112,
+        "patch": 2.51,
+        "sort": 141,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1011030,
+        "target": 1010472,
+        "involved": [
+            1010465
+        ],
+        "genre": 93,
+        "journal": [
+            "The chocobokeep cannot seem to decide if you are who she thinks you are.",
+            "After recognizing you as an accomplished jockey and trainer, a chocobokeep encourages you to consider arranging a covering for your veteran race chocobo. If all goes well, the offspring produced from the union would have the potential to become an even greater race chocobo─yet there is also risk involved, for you would need to retire an experienced chocobo first. Should you wish to learn more, speak with Katering at Moogle's Gift Mounts in the Central Shroud.",
+            "While Katering states that she can make arrangements for a covering at any time, she reminds you that any newborn fledglings would need to undergo basic training prior to entering their first race. Thus acquainted with the process, you now stand at a crossroads: will you rely upon an established veteran chocobo, or will you seek greater glory through its offspring?"
+        ],
+        "objectives": [
+            "Speak with Katering at Bentbranch Meadows."
+        ],
+        "dialogue": [
+            {
+                "name": "AUPHREY",
+                "text": "Wait...it's <span class=\"emphasis\">you</span>, isn't it? You're quite the jockey, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>─and quite the trainer as well, from all indications."
+            },
+            {
+                "name": "AUPHREY",
+                "text": "If you don't mind me asking, have you given any thought to arranging a covering?"
+            },
+            {
+                "name": "AUPHREY",
+                "text": "Surely you know of what I speak─a union between two race chocobos for the purpose of producing fledglings of a higher pedigree."
+            },
+            {
+                "name": "AUPHREY",
+                "text": "Simply put: if successful, these fledglings will have the potential to surpass their parents as race chocobos!"
+            },
+            {
+                "name": "AUPHREY",
+                "text": "That being said, as a matter of policy, only retired chocobos are permitted to engage in these unions..."
+            },
+            {
+                "name": "AUPHREY",
+                "text": "Aye, that's right. You must weigh the potential gains from a fledgling against the certain loss of a veteran bird."
+            },
+            {
+                "name": "AUPHREY",
+                "text": "The Gold Saucer is well aware that this decision entails tremendous risk, hence is why they provide breeding chocobos to help alleviate the burden."
+            },
+            {
+                "name": "AUPHREY",
+                "text": "In any case, if I have piqued your interest, pray speak with Katering of Moogle's Gift Mounts. She is responsible for making arrangements for race chocobo coverings."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Upon retiring a race chocobo of rank 40 or higher, you will receive a <span class=\"highlight\">retired chocobo registration form</span>. Two such forms are required for arranging a covering."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "If you do not have two suitable retired chocobos, you may use a <span class=\"highlight\">covering permission form</span> to requisition the services of breeding stock. However, please note that both sire and dam cannot be breeding stock."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Covering permission forms can be purchased from the tack & feed trader at the race counter."
+            },
+            {
+                "name": "AUPHREY",
+                "text": "'Twould be a shame if you let your race chocobo's talents go to waste, would it not? Why not have Katering arrange a covering so that a new generation can carry on your veteran's legacy?"
+            },
+            {
+                "name": "KATERING",
+                "text": "Hm? Coverings? Aye, if you've a mind for it, we can make arrangements. Do bear in mind that any offspring will need to undergo basic training before entering the races, though."
+            },
+            {
+                "name": "KATERING",
+                "text": "If an' when you decide to avail yourself of our services, just give the word. Or, if you have any questions, ask an' I'll be happy to answer."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You can now arrange chocobo coverings."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 10147,
+                    "one": 1
+                },
+                {
+                    "id": 10148,
+                    "one": 1
+                },
+                {
+                    "id": 10149,
+                    "one": 1
+                },
+                {
+                    "id": 10150,
+                    "one": 1
+                },
+                {
+                    "id": 10151,
+                    "one": 1
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66101
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011030",
+            "obj": {
+                "i": 1011030,
+                "n": "Chocobokeep",
+                "l": 1484,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010472",
+            "obj": {
+                "i": 1010472,
+                "n": "Katering",
+                "l": 54,
+                "q": 3,
+                "t": "Race Chocobo Breeder"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010465",
+            "obj": {
+                "i": 1010465,
+                "n": "Race Chocobo Trainer",
+                "l": 1484,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "10147",
+            "obj": {
+                "i": 10147,
+                "n": "Grade 2 Feed - Special Speed Blend",
+                "l": 70,
+                "c": 27562,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "10148",
+            "obj": {
+                "i": 10148,
+                "n": "Grade 2 Feed - Special Acceleration Blend",
+                "l": 70,
+                "c": 27559,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "10149",
+            "obj": {
+                "i": 10149,
+                "n": "Grade 2 Feed - Special Balance Blend",
+                "l": 70,
+                "c": 27561,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "10150",
+            "obj": {
+                "i": 10150,
+                "n": "Grade 2 Feed - Special Endurance Blend",
+                "l": 70,
+                "c": 27558,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "10151",
+            "obj": {
+                "i": 10151,
+                "n": "Grade 2 Feed - Special Stamina Blend",
+                "l": 70,
+                "c": 27560,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66101",
+            "obj": {
+                "i": 66101,
+                "n": "So You Think You Can Ride This Chocobo",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 151,
+                "f": 1
+            }
+        }
+    ]
+}

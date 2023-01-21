@@ -1,0 +1,464 @@
+{
+    "quest": {
+        "name": "Tide Goes in, Imperials Go Out",
+        "location": "The Ruby Sea",
+        "id": 68026,
+        "patch": 4.0,
+        "sort": 450,
+        "eventIcon": 71201,
+        "issuer": 1019988,
+        "target": 1019989,
+        "involved": [
+            1019947,
+            1019990,
+            1019991,
+            1019992,
+            1019993
+        ],
+        "genre": 6,
+        "journal": [
+            "Lyse is not sure what to make of Isari."
+        ],
+        "objectives": [
+            "Search for villagers in need of aid.",
+            "Speak with one of the Confederates.",
+            "Report to Alisaie."
+        ],
+        "dialogue": [
+            {
+                "name": "VILLAGERA02489",
+                "text": "Ugh... My back, my back..."
+            },
+            {
+                "name": "VILLAGERB02489",
+                "text": "Don't hurt me, please! I swear, I didn't do anything!"
+            },
+            {
+                "name": "PIRATE02481",
+                "text": "Heh heh. Saw the smoke, did you?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "They didn't follow you, did they? I gave you enough time to escape?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Good, good... And don't worry─I'll try not to make a habit out of it."
+            },
+            {
+                "name": "LYSE",
+                "text": "Something definitely happened here. I see several people who look like they might be injured. Let's give them a hand and find out what we missed."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Hm? Do <span class=\"emphasis\">I</span> need help? Oh, I'll be fine. It's nothing that won't heal. You should go after Lyse."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Ugh... What was it Thancred once said about battle scars and maidens? Naught worth repeating in polite company, I'm sure..."
+            },
+            {
+                "name": "LYSE",
+                "text": "I see. I'm glad Soroban reached you in time..."
+            },
+            {
+                "name": "PIRATE02490",
+                "text": "The captain scoffed at first, but Tansui convinced him to at least muster our forces..."
+            },
+            {
+                "name": "VILLAGERA02489",
+                "text": "Thank you, my child. When the fighting started, I tried to run and hide, but fell and could not regain my feet..."
+            },
+            {
+                "name": "VILLAGERA02489",
+                "text": "I thought for sure that we would all be slaughtered, but the pirates drove them off! I never thought I would see the day when the Confederacy came to our aid!"
+            },
+            {
+                "name": "VILLAGERA02489",
+                "text": "Thank you for your concern, but I shall be fine. There is no more need for running, after all!"
+            },
+            {
+                "name": "VILLAGERB02489",
+                "text": "Uwaaaaaah!<br>Oh, you're not an imperial. Is...is it over?"
+            },
+            {
+                "name": "VILLAGERB02489",
+                "text": "Kami be praised! I was certain she would have us all killed and burn Isari to the ground─or kill us after making us watch, or barricade us in our homes before putting them to the torch..."
+            },
+            {
+                "name": "VILLAGERB02489",
+                "text": "We had heard stories about the viceroy, but that was the first time any of us had seen her in the flesh...and I should be glad if I never see her again."
+            },
+            {
+                "name": "PIRATE02481",
+                "text": "I remember you! You're the one who saved me from the Doman catchers!"
+            },
+            {
+                "name": "PIRATE02481",
+                "text": "Thanks to you, we managed to rescue the fishermen and my kidnapped comrades─one of whom joined the Confederacy with me long ago. It would've broken my heart to have had to bury him..."
+            },
+            {
+                "name": "PIRATE02481",
+                "text": "Oh, and if you're looking for the captain, you'll find him in the tavern."
+            },
+            {
+                "name": "PIRATE02481",
+                "text": "You should've seen it! The captain was a bleedin' whirlwind of death!"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Back already? What have you learned?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "At the tavern, you say? In that case, we should find Lyse and speak with him together."
+            }
+        ],
+        "reward": {
+            "gil": 669,
+            "aetherCurrent": 1,
+            "items": [
+                {
+                    "id": 18226,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18238,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 18244,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5668,
+                    "one": 1
+                }
+            ],
+            "xp": 191700
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 63,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68025
+            ]
+        },
+        "next": [
+            68027,
+            68249,
+            68250,
+            68251,
+            68252,
+            68253,
+            68254,
+            68255,
+            68256,
+            68257,
+            68258,
+            68259,
+            68509,
+            68667
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1019988",
+            "obj": {
+                "i": 1019988,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019989",
+            "obj": {
+                "i": 1019989,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019947",
+            "obj": {
+                "i": 1019947,
+                "n": "Industrious Pirate",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019990",
+            "obj": {
+                "i": 1019990,
+                "n": "Stupefied Senior",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019991",
+            "obj": {
+                "i": 1019991,
+                "n": "Flustered Fisher",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019992",
+            "obj": {
+                "i": 1019992,
+                "n": "Industrious Pirate",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019993",
+            "obj": {
+                "i": 1019993,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "18226",
+            "obj": {
+                "i": 18226,
+                "n": "Ruby Cotton Sarouel",
+                "l": 265,
+                "c": 47326,
+                "t": 36,
+                "p": 34630
+            }
+        },
+        {
+            "type": "item",
+            "id": "18238",
+            "obj": {
+                "i": 18238,
+                "n": "Ruby Cotton Smalls",
+                "l": 265,
+                "c": 47324,
+                "t": 36,
+                "p": 34630
+            }
+        },
+        {
+            "type": "item",
+            "id": "18244",
+            "obj": {
+                "i": 18244,
+                "n": "Ruby Cotton Longkilt",
+                "l": 265,
+                "c": 47322,
+                "t": 36,
+                "p": 34630
+            }
+        },
+        {
+            "type": "item",
+            "id": "5668",
+            "obj": {
+                "i": 5668,
+                "n": "Heavens' Eye Materia V",
+                "l": 160,
+                "c": 20258,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68025",
+            "obj": {
+                "i": 68025,
+                "n": "The Lord of the Revel",
+                "g": 6,
+                "l": "The Ruby Sea",
+                "s": 440
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68027",
+            "obj": {
+                "i": 68027,
+                "n": "A Silence in Three Parts",
+                "g": 6,
+                "l": "The Ruby Sea",
+                "s": 460
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68249",
+            "obj": {
+                "i": 68249,
+                "n": "At the Mercy of Monsters",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3170
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68250",
+            "obj": {
+                "i": 68250,
+                "n": "A Dream to Remember",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3180
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68251",
+            "obj": {
+                "i": 68251,
+                "n": "Blessings of the Sea",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3190
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68252",
+            "obj": {
+                "i": 68252,
+                "n": "In Health and in Sickness",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3200
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68253",
+            "obj": {
+                "i": 68253,
+                "n": "Plunder on High",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3210
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68254",
+            "obj": {
+                "i": 68254,
+                "n": "Sink or Swim",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3220
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68255",
+            "obj": {
+                "i": 68255,
+                "n": "Thrice Cursed",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3230
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68256",
+            "obj": {
+                "i": 68256,
+                "n": "A Glimmer of Hope",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3240
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68257",
+            "obj": {
+                "i": 68257,
+                "n": "Rock Bottom",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3250
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68258",
+            "obj": {
+                "i": 68258,
+                "n": "Passing the Torch",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3260
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68259",
+            "obj": {
+                "i": 68259,
+                "n": "Up in Flames",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 3270
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68509",
+            "obj": {
+                "i": 68509,
+                "n": "Heaven-sent",
+                "g": 50,
+                "l": "The Ruby Sea",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68667",
+            "obj": {
+                "i": 68667,
+                "n": "Knocking on Heaven's Door",
+                "g": 87,
+                "l": "The Ruby Sea",
+                "s": 110,
+                "f": 1
+            }
+        }
+    ]
+}

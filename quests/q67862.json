@@ -1,0 +1,618 @@
+{
+    "quest": {
+        "name": "Piecing Together the Past",
+        "location": "The Churning Mists",
+        "id": 67862,
+        "patch": 3.3,
+        "sort": 7,
+        "icon": 100554,
+        "beast": 8,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1017320,
+        "target": 1017170,
+        "involved": [
+            1011935,
+            1017172,
+            1017173,
+            1017447,
+            1017448,
+            1017449,
+            1017450
+        ],
+        "genre": 48,
+        "usedItems": [
+            15750,
+            15724
+        ],
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Master Mogzin looks like he has something urgent to share with you.",
+            "It seems that Gullinbursti's reaction to the statue has weighed heavy on Mogzin's mind, and the moogle wishes to discuss the issue with you and the others. Gather around Tarresson to hear the master Mogmender's thoughts on the matter.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "To Mogzin, it is obvious that the ancient dragon was dissatisfied, and he is determined to find out the reason. You contemplate the possibilities, and realize that none of you know why Gullinbursti demanded the statue be rebuilt in the first place. Sensing that understanding his motives might provide understanding of his discontent, you decide to find out more about him. Ohl Deeh offers to ask the dragon Vedrfolnir what he knows, and you and Mogzin depart for Anyx Trine to ask Vidofnir the same.",
+            "The great white dragon reveals that Gullinbursti helped build the original Bahrr Lehs more than a thousand years past. She tells you that in the chaos following Ratatoskr's murder, the plaza was destroyed to sate the dragons' thirst for vengeance, and hints that the answer to your questions might be found in its ruins. Luckily, Mogzin remembers that piles of rubble still remain from when the Mogmenders cleared the plaza. Certain that something of use will be found among the stones, Mogzin returns to the Mogmender camp.",
+            "You arrive to find Tarresson and Ohl Deeh already sifting through the rubble─evidently the two ancient dragons shared very similar stories. The four of you prepare to dig into the debris together, in the hopes of finding the key to solving this mystery.",
+            "After rooting about in the rubble for some time, you find a pair of stone fragments with wind-worn lettering engraved upon them. However, it is impossible to make out any words with just the pieces in your possession. Perhaps it would be best to discuss your findings with the others.",
+            "Tarresson and Ohl Deeh have discovered fragments similar to yours, and Tarresson is able to arrange them in a way that makes sense. They spell out a declaration of friendship between the three original architects of Bahrr Lehs: Marinche de Faurechort, Moggon, and Gullinbursti. It then becomes clear that this was the missing piece, and its absence was what caused Gullinbursti's cool reception to the statue. Mogzin decides to begin restoring the tablet at once, and implores you and the others to lend what assistance you can.",
+            "The master Mogmender requests your aid for what might be the last time. While you are at work, Mogzin says that he will prepare one final trick. Although the idea is somewhat worrying, the best course of action for now is probably to focus on the task at hand.",
+            "Mogmul provides you with your supplies, and you suspect that perhaps he is not as plump as he was when work on Bahrr Lehs started. One can only imagine the feast he will throw in celebration of the statue's completion.<br><br>※In the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Mogmul Mogbelly.",
+            "You affix the tablet to the base of the fountain, and Mogzin reveals his “trick”: a statue of a moogle, which adorns the fountain alongside the figures of man and dragon. Once again, Gullinbursti descends upon Bahrr Lehs, and all present wait in trepidation for his judgment. To your relief, the dragon exclaims his approval, and gives you his thanks for your efforts. Before departing, Gullinbursti pledges to keep the skies of Bahrr Lehs safe. With their massive undertaking finally complete, everyone in the plaza is overcome with joy. The Mogmenders' first project has been completed at last, and for a short while they can finally rest, basking in the satisfaction of a job well done."
+        ],
+        "objectives": [
+            "Speak with Tarresson.",
+            "Speak with Vidofnir at Anyx Trine.",
+            "Speak with Mogzin at Bahrr Lehs.",
+            "Search the rubble heaps for anything of interest.",
+            "Show the mysterious fragments to Master Mogzin.",
+            "Speak with Master Mogzin.",
+            "Speak with Mogmul Mogbelly.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize tablet supplies <img class=\"hq-icon small\" src=\"images/item/hq.png\"></span><span class=\"alternative\">Show the tablet supplies <img class=\"hq-icon small\" src=\"images/item/hq.png\"> to Tarresson</span></span>."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGZIN",
+                "text": "<span class=\"highlight\">Forename</span>, I'm glad you're here, kupo. There's a matter I've been meaning to discuss with everyone since Gullinbursti's departure, and now is as good a time as any!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Oh, I'm a little nervous, but I won't be happy with myself if I don't bring it up now. Come on, let's get this over with."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "We are all gathered, it would seem. Now, my dear Mogzin, what was it you─ Oh, I see you have summoned Ohl Deeh as well! Very good, very good!"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "Mogzin, I was just admiring our craftsmanship. An accomplishment to be proud of, certainly! Now, what was it you wanted? Are we to help plan the celebration?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "The celebration, yes! Now that the statue is complete, there is naught to do but ensure the statue stays polished. It is time for a well-deserved rest! Do you not agree, my dear Mogzin?"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "No, no, not at all, kupo! With all due respect, Tarresson, our work is far from complete. I believe you know this already─you were there when Gullinbursti saw the statue!"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "I was there as well, Mogzin. Did Gullinbursti not grant us leave to remain in Bahrr Lehs? We could not have asked for more! Mogek and Mogmul have already begun preparations for a feast..."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "You need to look past his words, Ohl Deeh! Didn't you find his reaction strange? He seemed thoroughly unimpressed by our efforts. Something is amiss, I'm certain!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "We─no, <span class=\"emphasis\">I</span>─cannot be content to leave the statue in its current state. I'll not rest until it's perfect. Not only in Gullinbursti's eyes, but in mine as well!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Hahaha! Well said, my dear Mogzin, well said! I knew you would not be satisfied with mediocrity! Truly, your growth as a crafter has been naught short of astounding. You are truly an inspiration!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "I...I don't know what to say, kupo. Thank you!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "So that means you agree with me, yes? Then as we have many times before, let's work together to find out what's wrong! We've already come this far─just a little bit further and we can enjoy the satisfaction of seeing our work complete at last!"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "But how are we to know where the fault lies? The possibilities are endless!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Well, I believe we did well by casting dragon and man as the subjects. Hmmm, perhaps the composition of the figures was not to his liking?"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "If we had made such a fundamental error, I doubt he would suffer the statue to remain. No, it must be something else. Something we're not seeing..."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Let us take a different tack and ask ourselves <span class=\"emphasis\">why</span> Gullinbursti demanded the statue be built in the first place. Why was it so important to him?"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "I had wondered that myself. I know little of Gullinbursti besides the fact he is much older than Brother. He is quite reclusive, although I have been told he was not always that way."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Hmmm, and we only know him by his demands. Ohl Deeh, surely there are other dragons that are friendly with him. Perhaps they could offer insight into his motives!"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "Perhaps. It might serve us best to speak with the other ancient dragons."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Are there any you could introduce us to, Ohl Deeh?"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "Of course! There's Vedrfolnir, who I happen to count among my many friends! Perhaps we could also try visiting Vidofnir, though I am not certain she would grant us audience."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "<span class=\"emphasis\">You</span> are friends with Vidofnir!? Why, you're just full of surprises, kupo! Our next step is settled. <span class=\"highlight\">Forename</span>, allow me to accompany you to the surface and speak with Vidofnir. Master Tarresson, Ohl Deeh, visit Vedrfolnir and find out if he knows anything about Gullinbursti."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Let us meet back here to share our findings. Until then!"
+            },
+            {
+                "name": "VIDOFNIR",
+                "text": "Well met, warrior of warriors. What brings you and yours to Anyx Trine today?"
+            },
+            {
+                "name": "VIDOFNIR",
+                "text": "Gullinbursti... Yes, I know him. For many moons didst he labor to build the very plaza you now endeavor to repair."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Gullinbursti helped to build Bahrr Lehs!? Then why would he raze it to the ground?"
+            },
+            {
+                "name": "VIDOFNIR",
+                "text": "For brothers robbed of a mother's love. 'Twas bitter reminder and testament to man's ancient sin─of Ratatoskr's sacrifice upon the altar of mortal greed."
+            },
+            {
+                "name": "VIDOFNIR",
+                "text": "Old wounds are slow to heal, and mayhap his discontent is rooted in the past."
+            },
+            {
+                "name": "VIDOFNIR",
+                "text": "Look to the plaza's ruins if you would know more."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "But all that's left of the old Bahrr Lehs are the piles of─ Wait, that's it, kupo!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "<span class=\"highlight\">Forename</span>, we need to go back at once! There may be remains in the rubble we've cleared! Perhaps they will provide the clue we seek! Vidofnir, you have my sincerest thanks for your counsel!"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "You are returned! Have you come to help us sort through the rubble?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "We do our utmost to repurpose the stones we unearth, but some are not suitable, and so we pile them here. I suppose we should have taken a closer look..."
+            },
+            {
+                "name": "VIDOFNIR",
+                "text": "The warrior of warriors would serve as the crafter of crafters? How curious."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Here's where we keep the stones that are unfit for reuse, kupo. Ohl Deeh, Tarresson, are you looking for remnants of the old plaza too?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Indeed we are. Vedrfolnir only offered as much information as he deemed necessary─a quality that comes with age. It was clear, however, that the pieces of old Bahrr Lehs may hold the answer we seek."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "We had much the same experience. Well, there's nothing for it but to dig, dig, dig, kupo!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Surely somewhere within these heaps of rubble is a clue to Gullinbursti's past..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You dig through the heap of rubble, but find nothing that could be of use."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Any luck? I've found nothing but old rocks, kupo."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "What is this? This...this looks like the writing of the landlords, kupo! Alas, I can't read it. What does it say, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "How fares your search? Have you found aught that might be of use?"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Tarresson, look! <span class=\"highlight\">Forename</span> found these fragments engraved with what looks to be the script of the landlords."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Brilliant! Let me have a look. Ohl Deeh and I found several similar fragments, but for the life of me I cannot make out their meaning. Perhaps they are but small pieces of a larger whole."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Let us see... Like this? Or like this? Hmmm, the elements have not been kind to these stones─I can scarce tell if the letters are upside down or right-side up..."
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "Stop fooling around! What does it say? What does it say!?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Do not rush me, Ohl Deeh! I must focus! Here, I think I have it."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "“Unity and brotherhood, now and forevermore.<br>Marinche de Faurechort, Moggon, Gullinbursti”."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "A man, a moogle, and a dragon. Doubtless they were the architects of this place."
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "You mean more than a thousand years ago there lived a moogle crafter, just like Mogzin? It appears the plazas of past and present have more in common than we thought!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "So, it was this tablet which was truly important to Gullinbursti."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Indeed. To him, the statue was more than a monument to friendship and peace. It was a monument to <span class=\"emphasis\">his</span> friendships as well."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "And so we shall make it our duty to restore this tablet! Come on, it's time to put chisels to stone!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Faurechort... If my memory is not mistaken, then that name... Well, when we have finished, I believe some research will be in order."
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "I never took Gullinbursti for the sentimental sort. Anyway, I will try to convince him to return by the time you have finished. I look forward to seeing the reconstructed tablet!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "The Mogmenders' first commission will soon be complete! That is, if you would entertain one final request."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "The tablet requires a proper mounting, one which will hold fast against the harsh elements of the region. I would task you with making it!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "The tablet must shine brightly, that all who view the names engraved upon it might remember forever. I would task you with preparing materials for polishing!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "The letters must be darkened with ink, so they might withstand the corroding elements for many years to come. I would task you with making that ink!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "TEST"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Lastly, I would like to thank you for your support, not only on behalf of the Mogmenders, but all the Moghome moogles! If not for you and Tarresson, Bahrr Lehs would still be nothing but dust and rubble."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Once more we trust in your steady hand. I know you will impress!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Mogmul will give you any supplies you need. Once your masterpiece is finished, hand it to Tarresson and we can complete our work!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "What will I do, you ask? Let's just say I have one final trick to play. A parting trick, if you will. I'll be getting it ready while you do your crafting."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Ah, that look in your eyes! You can't wait to find out what it is, can you? Worry not─I assure you it will be my best one yet!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "I take it Mogzin has told you what needs crafting? And also of this so-called “trick” of his? By the Fury, what could he be planning?"
+            },
+            {
+                "name": "MOGMUL",
+                "text": "Mogzin's been by and told me to expect you, kupo! Take anything you want, anything! Once you've finished I can finally eat!"
+            },
+            {
+                "name": "MOGMUL",
+                "text": "You've run out of supplies? Fear not, the Mogmenders' storehouses are open to you. Please hurry though─I'm about to faint from hunger."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Have you completed Mogzin's request? &lt;sigh&gt; To think, this may be the last time I gaze upon your work. It has been an honor, my friend."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "I must say, the quality of your craftsmanship has always been reliable! Come, let us call the Mogmenders. At last, Gullinbursti will acknowledge the depth of our skill!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Preparations for our trick are complete, kupo! All we have left to do now is attach the tablet!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "(-Engraved Tablet-)<span class=\"emphasis\">Unity and brotherhood, now and forevermore.</span>"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "(-Engraved Tablet-)<span class=\"emphasis\">Mogzin, <span class=\"highlight\">Forename Surname</span><br>Tarresson de Dzemael, Ohl Deeh<br>Marinche de Faurechort, Moggon, Gullinbursti</span>"
+            },
+            {
+                "name": "COLORDRAGON",
+                "text": "Whei Ahf and Ohl Deeh were insistent I come. I pray it is worth my time."
+            },
+            {
+                "name": "COLORDRAGON",
+                "text": "Hah hah hah! Very good, very good!"
+            },
+            {
+                "name": "COLORDRAGON",
+                "text": "I remember the day we finished building. I remember Moggon's indignant protests. “Where is the moogle statue!? You make me so mad...kupo.” And so on. It would seem his wish is now fulfilled."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "I take it everything meets with your satisfaction? Even the moogle statue?"
+            },
+            {
+                "name": "COLORDRAGON",
+                "text": "It does. You have my blessings and my thanks. I shall keep the skies of Bahrr Lehs safe, to prove my words true."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Did you hear that, kupo!? Gullinbursti approves! Gullinbursti approves! Finally, through will, determination, and perseverance, the Mogmenders have completed their first major project!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Sworn</span> reputation with the Mogmenders."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You will receive an experience point bonus upon completion of the moogle tribal daily quests."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you now have access to a wider selection of wares from Mogmul Mogbelly."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have learned the emote <span class=\"highlight\">Moogle Dance</span>!"
+            }
+        ],
+        "reward": {
+            "gil": 1044,
+            "emote": "Moogle Dance",
+            "items": [
+                {
+                    "num": 2,
+                    "id": 5713,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5708,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5693,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 33
+                }
+            ],
+            "quests": [
+                67861
+            ]
+        },
+        "next": [
+            67863
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1017320",
+            "obj": {
+                "i": 1017320,
+                "n": "Master Mogzin",
+                "l": 2002,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017170",
+            "obj": {
+                "i": 1017170,
+                "n": "Tarresson",
+                "l": 2002,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011935",
+            "obj": {
+                "i": 1011935,
+                "n": "Vidofnir",
+                "l": 2000,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017172",
+            "obj": {
+                "i": 1017172,
+                "n": "Mogmul Mogbelly",
+                "l": 2002,
+                "s": 4,
+                "q": 4,
+                "t": "Craver of Kupo Nuts",
+                "r": 1,
+                "a": 2095,
+                "c": [
+                    15.99,
+                    28.55
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017173",
+            "obj": {
+                "i": 1017173,
+                "n": "Ohl Deeh",
+                "l": 2002,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017447",
+            "obj": {
+                "i": 1017447,
+                "n": "Master Mogzin",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017448",
+            "obj": {
+                "i": 1017448,
+                "n": "Master Mogzin",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017449",
+            "obj": {
+                "i": 1017449,
+                "n": "Tarresson",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017450",
+            "obj": {
+                "i": 1017450,
+                "n": "Ohl Deeh",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5713",
+            "obj": {
+                "i": 5713,
+                "n": "Craftsman's Command Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 7,
+                    "attr": "Control",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5708",
+            "obj": {
+                "i": 5708,
+                "n": "Craftsman's Cunning Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "CP",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5693",
+            "obj": {
+                "i": 5693,
+                "n": "Gatherer's Guile Materia V",
+                "l": 160,
+                "c": 20255,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 10,
+                    "attr": "Perception",
+                    "category": 2
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "15750",
+            "obj": {
+                "i": 15750,
+                "n": "Tablet Supplies Materials",
+                "l": 55,
+                "c": 26001,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "15724",
+            "obj": {
+                "i": 15724,
+                "n": "Tablet Supplies",
+                "l": 55,
+                "c": 21012,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67861",
+            "obj": {
+                "i": 67861,
+                "n": "A Monumental Task",
+                "g": 48,
+                "l": "The Churning Mists",
+                "s": 6,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67863",
+            "obj": {
+                "i": 67863,
+                "n": "The Zenith of Craftsmanship",
+                "g": 48,
+                "l": "The Churning Mists",
+                "s": 8,
+                "f": 1
+            }
+        }
+    ]
+}

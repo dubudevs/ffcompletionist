@@ -1,0 +1,114 @@
+{
+    "quest": {
+        "name": "The Perils of Pilgrimage",
+        "location": "Eastern Thanalan",
+        "id": 66290,
+        "patch": 2.0,
+        "sort": 250,
+        "eventIcon": 71221,
+        "issuer": 1006210,
+        "target": 1006210,
+        "genre": 93,
+        "journal": [
+            "Sister Kyokyozo of the Order of Nald'thal seeks an adventurer to slay creatures who are scaring away potential pilgrims to Thal's Respite.",
+            "Pilgrims to Thal's Respite have grown scarce of late, and the vicious axe beaks who run rampant on the roads leading in are to blame. Slay four of the fearsome fowl.",
+            "You have slain four axe beaks, that would-be pilgrims might enter the hallowed halls of Thal's Respite without fear for their safety. Inform Sister Kyokyozo of your deeds.",
+            "Sister Kyokyozo informs you that, thanks to your aid, she has already welcomed a traveling merchant and her family to the Respite. She looks forward to the many encounters with which the Traders will now bless her."
+        ],
+        "objectives": [
+            "Slay axe beaks.",
+            "Report to Kyokyozo."
+        ],
+        "dialogue": [
+            {
+                "name": "KYIKYOZO",
+                "text": "Adventurers, merchants, travelers─Thal's Respite is always open to those who seek a momentary reprieve from the hardships of the road."
+            },
+            {
+                "name": "KYIKYOZO",
+                "text": "In the past, we welcomed countless multitudes through these doors. Sadly, the growing presence of hostile beast tribes and savage creatures now deters many from making the pilgrimage. A shame, is it not?"
+            },
+            {
+                "name": "KYIKYOZO",
+                "text": "Perhaps you could come to our aid. The most fearsome of the local fauna is the axe beak. Were you to thin the flock─say, by four birds or so─I do believe these halls would be far more approachable."
+            },
+            {
+                "name": "DUMMYTODO",
+                "text": "//kill big chickens"
+            },
+            {
+                "name": "KYOKYOZO",
+                "text": "My adventuring friend, a traveling merchant and his family just walked through our doors not moments ago. Each encounter is a blessing─a blessing that would not have come to pass had those fearsome fowl continued to run rampant outside our halls. For this, I thank you."
+            }
+        ],
+        "reward": {
+            "gil": 1232,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5744
+                }
+            ],
+            "xp": 4760
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 24,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66286
+            ]
+        },
+        "next": [
+            66291
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006210",
+            "obj": {
+                "i": 1006210,
+                "n": "Kyokyozo",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "5744",
+            "obj": {
+                "i": 5744,
+                "n": "Sunset Orange Dye",
+                "l": 30,
+                "c": 22809,
+                "t": 55
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66286",
+            "obj": {
+                "i": 66286,
+                "n": "Buzz Off, Birds",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 240
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66291",
+            "obj": {
+                "i": 66291,
+                "n": "Friendlier Skies",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 250
+            }
+        }
+    ]
+}

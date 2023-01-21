@@ -1,0 +1,160 @@
+{
+    "quest": {
+        "name": "Save the Trees",
+        "location": "North Shroud",
+        "id": 66326,
+        "patch": 2.0,
+        "sort": 280,
+        "eventIcon": 71221,
+        "issuer": 1006248,
+        "target": 1006248,
+        "genre": 92,
+        "journal": [
+            "Oriane of Florentel's Spire is concerned for the trees.",
+            "Their resources needed to stave off Ixali raids, Oriane and her fellow Wood Wailers cannot attend to the baneful hares that are ravaging the flora of the Twelveswood. Pour flat ale on scarred trees to attract the pests, then slay them.",
+            "The bark-chewing, leaf-eating hares will feast on local flora no more. Report your success to Oriane.",
+            "Oriane thanks you for your efforts. She is resolved to protect the Twelveswood to honor the memory of Florentel, the legendary hero whose name the spire bears."
+        ],
+        "objectives": [
+            "Pour flat ale on the scarred trees and slay Shroud hares.",
+            "Report to Oriane."
+        ],
+        "dialogue": [
+            {
+                "name": "ORIANE",
+                "text": "As a Wood Wailer, it is my sworn duty to protect my nation from the Ixal. Yet as a Gridanian, it pains me to see the trees around me wither and die while we are off fighting battles."
+            },
+            {
+                "name": "ORIANE",
+                "text": "Shroud hares have grown destructive of late, gnawing away at trees and ripping shrubs from the ground. Yet we cannot very well tell the birdmen to stay their spears while we hunt oversized slugs, can we?"
+            },
+            {
+                "name": "ORIANE",
+                "text": "...And so I turn to you, adventurer. Pour this week-old ale over the scarred trees, and the culprits should be along in short order. You would bring the wood much succor if you could put them down."
+            },
+            {
+                "name": "BATTLE",
+                "text": "//: pop hares and kill them"
+            },
+            {
+                "name": "ORIANE",
+                "text": "Thank you, adventurer. I can battle the Ixal with a clear conscience now, knowing that those like you are friends to the forest."
+            },
+            {
+                "name": "ORIANE",
+                "text": "Florentel, whose name this spire bears, was one of the greatest heroes from the time of Gridania's founding. His martial exploits were exceeded only by his love for the forest."
+            },
+            {
+                "name": "ORIANE",
+                "text": "...And his love for Eugenia─the namesake of our sister spire. Ah...do such tales of yore not set your heart aflutter?"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4328,
+                    "one": 1
+                },
+                {
+                    "id": 4322,
+                    "one": 1
+                },
+                {
+                    "id": 4330,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 6290
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66327
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006248",
+            "obj": {
+                "i": 1006248,
+                "n": "Oriane",
+                "l": 57,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4328",
+            "obj": {
+                "i": 4328,
+                "n": "Fluorite Choker",
+                "l": 28,
+                "c": 54814,
+                "t": 40,
+                "p": 1817
+            }
+        },
+        {
+            "type": "item",
+            "id": "4322",
+            "obj": {
+                "i": 4322,
+                "n": "Danburite Choker",
+                "l": 28,
+                "c": 54813,
+                "t": 40,
+                "p": 1817
+            }
+        },
+        {
+            "type": "item",
+            "id": "4330",
+            "obj": {
+                "i": 4330,
+                "n": "Lapis Lazuli Choker",
+                "l": 28,
+                "c": 54810,
+                "t": 40,
+                "p": 1817
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66327",
+            "obj": {
+                "i": 66327,
+                "n": "Pumiceous Pursuits",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        }
+    ]
+}

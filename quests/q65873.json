@@ -1,0 +1,147 @@
+{
+    "quest": {
+        "name": "By the Toe",
+        "location": "Western Thanalan",
+        "id": 65873,
+        "patch": 2.0,
+        "sort": 100,
+        "eventIcon": 71221,
+        "issuer": 1002058,
+        "target": 1002064,
+        "genre": 93,
+        "journal": [
+            "Fufulupa requires your aid in apprehending a thief.",
+            "It appears that someone has been stealing supplies from the storehouse. Aid Fufulupa in his efforts to catch the criminal by setting up four iron leg traps at the specified locations.",
+            "You have finished arming the iron leg traps. Report to Fufulupa's fellow Brass Blade, Chechezan.",
+            "Chechezan is pleased to know his traps are being put to good use, but is horrified to discover where the dangerous mechanisms have been placed. The Brass Blade also appears more than a little exasperated with Fufulupa, whose efforts to help─while enthusiastic─tend to have disastrous results."
+        ],
+        "objectives": [
+            "Set the iron leg traps.",
+            "Report to Chechezan."
+        ],
+        "dialogue": [
+            {
+                "name": "FUFULUPA",
+                "text": "Most dire happenings are afoot! A most grave and treacherous trespass! Some unprincipled knave has been <span class=\"emphasis\">filching</span> supplies from the storeroom!"
+            },
+            {
+                "name": "FUFULUPA",
+                "text": "In order to apprehend this morally challenged rapscallion, I have procured four iron leg traps.<br>...To be completely honest, however, I'm not entirely certain how these things work. Would you be so kind as to set them for me?"
+            },
+            {
+                "name": "FUFULUPA",
+                "text": "Once you are done, please report to my fellow Brass Blade, Chechezan. He'll want to know that his traps are being put to proper use."
+            },
+            {
+                "name": "CHECHEZAN",
+                "text": "You've set those traps up for Fufulupa, have you? Excellent. Perhaps now we'll see who─<br>Thal's balls in a knapsack! Are those <span class=\"emphasis\">my</span> leg traps in front of the gate!?"
+            },
+            {
+                "name": "CHECHEZAN",
+                "text": "A trader's chocobo could step right into that and lose a foot! I better disarm those things before someone important is horrifically injured. Yes, I know you were just following orders. It's Fufulupa, you see..."
+            },
+            {
+                "name": "CHECHEZAN",
+                "text": "He certainly means well, but disaster follows the man like a behemoth chasing a butterfly."
+            },
+            {
+                "name": "TALK",
+                "text": "You arm the trap."
+            },
+            {
+                "name": "TALK",
+                "text": "You arm the trap."
+            },
+            {
+                "name": "TALK",
+                "text": "You arm the trap."
+            },
+            {
+                "name": "TALK",
+                "text": "You arm the trap."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4305,
+                    "one": 1
+                },
+                {
+                    "id": 4306,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 1710
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002058",
+            "obj": {
+                "i": 1002058,
+                "n": "Fufulupa",
+                "l": 42,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002064",
+            "obj": {
+                "i": 1002064,
+                "n": "Chechezan",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4305",
+            "obj": {
+                "i": 4305,
+                "n": "Copper Gorget",
+                "l": 8,
+                "c": 54801,
+                "t": 40,
+                "p": 176
+            }
+        },
+        {
+            "type": "item",
+            "id": "4306",
+            "obj": {
+                "i": 4306,
+                "n": "Bone Necklace",
+                "l": 8,
+                "c": 54830,
+                "t": 40,
+                "p": 156
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

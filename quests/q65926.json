@@ -1,0 +1,187 @@
+{
+    "quest": {
+        "name": "Catch Your Breath",
+        "location": "Ul'dah",
+        "id": 65926,
+        "patch": 2.0,
+        "sort": 40,
+        "eventIcon": 71221,
+        "issuer": 1001313,
+        "target": 1001992,
+        "involved": [
+            1001390
+        ],
+        "genre": 93,
+        "journal": [
+            "Botulf finds himself at a loss after realizing the package he carries is not his own.",
+            "Botulf is mistakenly in possession of the wrong package, and wishes for you to see it returned to Scorpion Crossing. Speak to the sentry Mimishu to find out how to get there.",
+            "Mimishu informs you that Scorpion Crossing can be found by heading west out of the Gate of the Sultana. Travel there and deliver the package to a man named Oswell.",
+            "Oswell was just searching for the package addressed to Horizon, and is grateful that you delivered it. However, it seems this is far from the only misplaced shipment these days..."
+        ],
+        "objectives": [
+            "Speak with Mimishu.",
+            "Deliver to Oswell the package to Horizon."
+        ],
+        "dialogue": [
+            {
+                "name": "BOTULF",
+                "text": "&lt;pant&gt; Pray let me...&lt;pant&gt;...catch my...&lt;pant&gt;...breath."
+            },
+            {
+                "name": "BOTULF",
+                "text": "&lt;pant&gt; I went all the way to Scorpion Crossing for a package, &lt;pant&gt; but only just now realized I've returned with the wrong one. &lt;pant&gt; The way back is so far..."
+            },
+            {
+                "name": "BOTULF",
+                "text": "&lt;pant&gt; I can't... I simply can't. &lt;pant&gt; Would you make the trip back in my stead? &lt;pant&gt; I'm sure some poor soul at Scorpion Crossing is missing this package."
+            },
+            {
+                "name": "BOTULF",
+                "text": "&lt;pant&gt; I haven't the breath left to tell you the way. &lt;pant&gt; Go and see... &lt;pant&gt; Mimishu."
+            },
+            {
+                "name": "MIMISHU",
+                "text": "Scorpion Crossing? The way couldn't be simpler. Pass through this gate and head west until you come upon it."
+            },
+            {
+                "name": "MIMISHU",
+                "text": "Delivering a package, are you? In that case, you'll want to speak to Oswell when you arrive."
+            },
+            {
+                "name": "OSWELL",
+                "text": "It's gone, I just know it. Gods, as if I hadn't enough problems already. You took the wrong package, Botulf, you bloody oaf!"
+            },
+            {
+                "name": "OSWELL",
+                "text": "The Horizon package! You're a Twelvesend!"
+            },
+            {
+                "name": "OSWELL",
+                "text": "You've spared me quite a headache, friend. Thank you."
+            },
+            {
+                "name": "OSWELL",
+                "text": "If only there weren't so many other misplaced shipments plaguing me these days..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2999,
+                    "one": 1
+                },
+                {
+                    "id": 3010,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 455
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "questsType": "any",
+            "quests": [
+                66104,
+                66105
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001313",
+            "obj": {
+                "i": 1001313,
+                "n": "Botulf",
+                "l": 40,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001992",
+            "obj": {
+                "i": 1001992,
+                "n": "Oswell",
+                "l": 42,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001390",
+            "obj": {
+                "i": 1001390,
+                "n": "Mimishu",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "2999",
+            "obj": {
+                "i": 2999,
+                "n": "Hempen Tabard",
+                "l": 5,
+                "c": 43042,
+                "t": 35,
+                "p": 140
+            }
+        },
+        {
+            "type": "item",
+            "id": "3010",
+            "obj": {
+                "i": 3010,
+                "n": "Hempen Halfrobe",
+                "l": 5,
+                "c": 42150,
+                "t": 35,
+                "p": 140
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66104",
+            "obj": {
+                "i": 66104,
+                "n": "Close to Home",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66105",
+            "obj": {
+                "i": 66105,
+                "n": "Close to Home",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 10
+            }
+        }
+    ]
+}

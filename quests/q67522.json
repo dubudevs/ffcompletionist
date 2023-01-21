@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "Defense Protocols",
+        "location": "Azys Lla",
+        "id": 67522,
+        "patch": 3.0,
+        "sort": 5908,
+        "eventIcon": 71221,
+        "issuer": 1012292,
+        "target": 1012292,
+        "genre": 102,
+        "journal": [
+            "The Allagan expulsion node appears panicked and agitated...for a floating cube.",
+            "The expulsion node has identified the nearby Garlean troops as an invading enemy force. It requests that each soldier in the defending Allagan army kill eight of the Garlean soldiers. This appears to include you!",
+            "Return to the expulsion node and inform it that you have slain your fair share of Garleans.",
+            "The expulsion node tells you about a previous insurrection attempt that occurred roughly five thousand years ago. It seems that the various automated systems here have been watching over Azys Lla for a very, very long time."
+        ],
+        "objectives": [
+            "Slay Garlean soldiers.",
+            "Report to the expulsion node."
+        ],
+        "dialogue": [
+            {
+                "name": "REMOVALSYSTEM",
+                "text": "&lt;beep&gt; &lt;beep&gt; Intruder alert! &lt;beep&gt; &lt;beep&gt; Intruder alert! Detecting multiple hostile entities! Judging by their weapons, equipment, and formation, there is an 85.4% likelihood that they will launch an attack on the consul."
+            },
+            {
+                "name": "REMOVALSYSTEM",
+                "text": "With our current military forces, each Allagan soldier must defeat at least 7.999...&lt;buzzzzzz&gt;...intruders to ensure victory. In the face of overwhelming...&lt;buzzzzzz&gt;...our beloved Allagan Empire... &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "REMOVALSYSTEM",
+                "text": "Please do your part to protect our beloved empire. Ensure you defeat at least 7.999...&lt;buzzzzzz&gt;...intruders before your inevitable... &lt;buzzzzzz&gt; The Empire thanks you for your noble sacrifice."
+            },
+            {
+                "name": "REMOVALSYSTEM",
+                "text": "&lt;blip&gt; &lt;blip&gt; Intruder's forces confirmed as terminated. The Allagan Empire thanks its brave soldiers for their noble sacrifice."
+            },
+            {
+                "name": "REMOVALSYSTEM",
+                "text": "This is the first recorded insurrection attempt in over five thousand years. Please wait while a report is compiled for presentation to the consul recommending a comprehensive review of our security measures."
+            }
+        ],
+        "reward": {
+            "gil": 737,
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67202
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012292",
+            "obj": {
+                "i": 1012292,
+                "n": "Expulsion Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67202",
+            "obj": {
+                "i": 67202,
+                "n": "Chimerical Maintenance",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 91
+            }
+        }
+    ]
+}

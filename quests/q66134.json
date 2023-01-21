@@ -1,0 +1,541 @@
+{
+    "quest": {
+        "name": "Slap an' Chop",
+        "location": "Upper La Noscea",
+        "id": 66134,
+        "patch": 3.0,
+        "sort": 580,
+        "icon": 100434,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1013279,
+        "target": 1013279,
+        "involved": [
+            1006266,
+            1006746,
+            1013303,
+            1013304,
+            1013305,
+            1013306,
+            1013307,
+            1013308,
+            1013309,
+            1013310,
+            1013311,
+            1013339,
+            1014284,
+            1014474,
+            1014662
+        ],
+        "genre": 149,
+        "journal": [
+            "Broken Mountain has something urgent to discuss with you.",
+            "Broken Mountain, impressed with your progress, gives word that the Maelstrom is once again in need of extra bodies to aid in another operation against the beast tribes. Wheiskaet and Curious Gorge have visited Camp Bronze Lake seeking volunteers, and have asked for you by name. Speak with Curious Gorge to hear what it is Limsa Lominsa requires.",
+            "Wheiskaet informs you that Maelstrom scouts have reported that kobolds of the 179th Order are tirelessly producing bombs in preparation for an all-out assault on Camp Bronze Lake. Maelstrom troops hope to intercept the bombs at Zelma's Run before they can do any damage, and Wheiskaet asks the aid of the two fiercest warriors he knows. Once again, Curious Gorge is afraid of his inner beast taking hold, especially in such a confined area, but Broken Mountain insists that this will be the ideal situation for Gorge to establish his dominance over the beast within. Curious Gorge asks to be alone and leaves, while Wheiskaet gives you the details of the Maelstrom operation. Speak with the despondent Curious Gorge once more before heading off to Zelma's Run and see if he can be convinced to join in on the fight.",
+            "You find Curious Gorge looking crestfallen in one of the camp's hot springs. He admits that his brother is right, and that the correct path is plain, but can't seem to shake his fear of being overcome by the inner beast. He comes up with a last, desperate strategy: you must /slap him with all the strength you can muster, hopefully driving the cowardice from him for good.",
+            "Your slap rouses Curious Gorge out of his slump, and he stands straight as if a warrior reborn. Determined to show the kobolds no quarter, he rushes to meet the storm captain at Zelma's Run. Follow him and rendezvous with the rest of the troops. Speak with the storm captain when you are ready to start the Maelstrom's next operation.",
+            "You arrive at the entrance to Zelma's Run to see the same storm captain from your operation against the Serpent Reavers along with two other Maelstrom troops and Curious Gorge, who is dressed proudly in his warrior's garb. You have been assigned to intercept the 179th Order kobolds on the east side of the valley. Ready your axe and speak with the Maelstrom troop at your assigned area, but be on the lookout for any signs of kobolds.",
+            "In his haste, the storm private assigned as your partner falls victim to a kobold ambush. When you run to his aid, the kobolds attempt to swarm you and the storm private, but your axe cuts them down one after the other. With the kobolds of the 179th Order slain or scattered, check on the storm private to see that his wounds are not severe.",
+            "The storm private's wounds are but light, and there are no remaining kobolds in sight. The defense of the eastern side of Zelma's Run is a success. Check with Curious Gorge to the west for news of their progress.",
+            "It seems Curious Gorge and the other Maelstrom troops had no trouble in intercepting and dispatching the kobolds on the western side of Zelma's Run. The storm captain gives particular credit to Curious Gorge's ferocity in battle, and promises to give high praise in his report to Maelstrom Command. After the others return home, Curious Gorge tells you he was finally able to fight with abandon without succumbing to his inner beast. Nevertheless, he still doubts his own ability to maintain control in a more pitched battle. Curious Gorge returns to Camp Bronze Lake to rest, and asks you to give word of your victory to Broken Mountain upon your return.",
+            "Broken Mountain is pleased that his brother was able to fight to his fullest, but disheartened by the news of his brother's continuing self-doubt. There is little time to consider the matter, however, as Wheiskaet brings news that Storm Marshal Slafyrsyn is seeking the aid of capable warriors to help defend Limsa Lominsa from the Sahagin menace. Broken Mountain suggests that if you were to succeed in this operation, it might lift the reputation of the warriors out of obscurity and into Eorzean history books. Continue your training in preparation for what promises to be the most critical test of your strength yet.<br><br>※The next warrior quest will be available from Broken Mountain upon reaching level 60."
+        ],
+        "objectives": [
+            "Speak with Curious Gorge.",
+            "Speak with Curious Gorge again.",
+            "Rouse Curious Gorge's courage with a /slap.",
+            "Speak with the storm captain at Zelma's Run.",
+            "Speak with the storm private and slay any kobolds that appear.",
+            "Rescue the storm private.",
+            "Speak with Curious Gorge.",
+            "Report to Broken Mountain at Camp Bronze Lake."
+        ],
+        "dialogue": [
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Ah, <span class=\"highlight\">Forename</span>, I can see the power in your stride, and feel the inner beast raging within you. You will need such strength, for your next trial is at hand."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Wheiskaet and my brother are here looking for more fighters to supplement the undermanned Maelstrom troops in a new operation, and they've asked for <span class=\"emphasis\">you</span> by name. Seek them out if you wish to raise your axe once more against the beast tribes."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "My wounds are healed, but I fear I may still be in need of training..."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "It seems the Maelstrom is in need of aid once again. Ask Wheiskaet and my brother for the details."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "I would ask you and Curious Gorge to aid the Maelstrom once again. Go to Camp Bronze Lake for more details."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "I need the aid of a couple good axes once again."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "<span class=\"highlight\">Forename</span>! Brother!"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "The Maelstrom is once again in need of support, is it not? Pray tell us what it is they require."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Very well, now that everyone is here. Scouts have reported increased activity among the kobolds. The 179th Order seems to be producing explosives day and night in preparation for an all-out assault. From all indications, they aim to attack this very camp."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "The Maelstrom's strategy is to intercept the bombs near Zelma's Run. Camp Bronze Lake is a haven for wounded soldiers, and its defense is one of our top priorities. If we had two legendary warriors by our side, our success would be all but assured."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Zelma's Run is barely wide enough for one cart to ride abreast... If I were to lose control, none would be able to escape the beast's wrath..."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "On the contrary, Brother, this battle will give you the chance to once again assert your dominance over the beast within."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "This is what you spoke of earlier, is it not? To tame the inner beast by devoting yourself to the defense of your allies..."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Brother, if my theory turns out to be true, then control is within your grasp. As long as <span class=\"highlight\">Forename</span> is at your back, there is naught to fear."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Will you run away again? You <span class=\"emphasis\">know</span> that the path you wish to walk, the path of the warrior, does not lie down that road."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Say no more... Please, leave me to my thoughts."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Well, we've not much time for hesitation. The storm captain awaits near Zelma's Run and will be departing shortly. <span class=\"highlight\">Forename</span>, if you decide to join the fight, pray tell Curious Gorge─if anyone can rouse him from his slump, it's you."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "My brother is right... It's <span class=\"emphasis\">me</span> who's holding us back..."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Please, <span class=\"highlight\">Forename</span>, as a fellow warrior, give my brother strength."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "The storm captain awaits at the entrance to Zelma's Run. Please, try once more to convince Curious Gorge before you depart."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "My apologies for causing worry, <span class=\"highlight\">Forename</span>. My brother is right...it's up to <span class=\"emphasis\">me</span> to walk the path of might. I know that, but still I cower before the beast within..."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "But a true warrior faces his fears, axe in hand, right!? Come on, <span class=\"highlight\">Forename</span>, remind me what it's like to scoff at my enemies' feeble blows! Awaken your inner beast and <span class=\"highlight\">slap</span> the fear right out of me!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Do it, <span class=\"highlight\">Forename</span>! I expect no less than a slap that would crumble mountains!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Godsdamn, what a blow! That's the stuff warriors are made of, <span class=\"highlight\">Forename</span>! Thank you... I'll dominate the beast within, and our axes will stand indomitable against those bloody kobolds!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Our enemies will feel the full force of my fury, and will not step one ilm into this camp! Come, <span class=\"highlight\">Forename</span>, we mustn't keep the storm captain waiting!"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "I have not seen my brother in such high spirits since the incident in Wineport. Whatever you said to him seems to have worked."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Fight well, and show those kobolds no quarter!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "<span class=\"highlight\">Forename</span>, one day I hope to fell a beast such as the one you battled at Abalathia's Spine. For that, my axe needs practice. The kobolds shall feel the full force of my fury at last! Hurry, we must report to the storm captain at Zelma's Run!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "The kobolds will scurry in fear before the wrath of the warrior! They won't dare to get within a malm of this camp again!"
+            },
+            {
+                "name": "SOLDIER00598CG",
+                "text": "With Curious Gorge by our side, victory is all but assured. I daresay the kobolds won't have the courage to face him again!"
+            },
+            {
+                "name": "SOLDIER00598PC",
+                "text": "<span class=\"highlight\">Forename</span>, it is an honor to fight with you again! Let's show those kobolds what for!"
+            },
+            {
+                "name": "CAPTAIN00596",
+                "text": "<span class=\"highlight\">Forename</span>, that both you and Curious Gorge will be aiding us brings me comfort. Camp Bronze Lake could not ask for a more stalwart defense."
+            },
+            {
+                "name": "CAPTAIN00596",
+                "text": "Our strategy is to intercept the kobolds at two separate locations in Zelma's Run. We'll split into two groups, with one warrior protecting each one."
+            },
+            {
+                "name": "SOLDIER00598PC",
+                "text": "<span class=\"highlight\">Forename</span>, we'll be dispatched to the eastern side. Nary a single kobold will make it through with your fury alongside us!"
+            },
+            {
+                "name": "SOLDIER00598CG",
+                "text": "Curious Gorge, we'll be in charge of the western side's defense. I've seen you crush kobolds under your axe before─today shall be no different!"
+            },
+            {
+                "name": "CAPTAIN00596",
+                "text": "Once the 179th Order have run home with their tails between their legs, we will rendezvous to the north. May your axes strike true! Dismissed!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "What in the seven hells are you doing <span class=\"emphasis\">here</span>!?"
+            },
+            {
+                "name": "SOLDIER00598CG",
+                "text": "With Curious Gorge here, there's no need for worry!"
+            },
+            {
+                "name": "CAPTAIN00596",
+                "text": "We've managed to beat them back, for now... <span class=\"highlight\">Forename</span>, support the troops to the east!"
+            },
+            {
+                "name": "SOLDIER00598PC",
+                "text": "Godsdammit... I walked right into their ambush..."
+            },
+            {
+                "name": "SOLDIER00598PC",
+                "text": "That was too bloody close... Good thing the kobolds didn't count on <span class=\"emphasis\">you</span> showing up. It looks like the eastern side is clear. Curious Gorge and the others may need our help─hurry, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "CAPTAIN00596",
+                "text": "I am glad you've returned to us hale and whole. The kobolds barely put up a fight."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "The kobolds won't dare to cross through Zelma's Run after today. Come, let us inform the others at Camp Bronze Lake."
+            },
+            {
+                "name": "SOLDIER00598CG",
+                "text": "Curious Gorge fought like a warrior possessed! I could feel his fury flowing through my axe, as well!"
+            },
+            {
+                "name": "SOLDIER00598PC",
+                "text": "If not for your timely arrival, who knows what the kobolds would have done with me? Once again, I owe you my life."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "There are no kobolds in sight of the camp, which means the operation must have been a success. Talk to my brother to see how he fared."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Was the operation a success? Check on Curious Gorge."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "<span class=\"highlight\">Forename</span>, my apologies, but it seems the kobolds couldn't wait for you. Camp Bronze Lake has naught to fear from the 179th Order anymore!"
+            },
+            {
+                "name": "SOLDIER00598CG",
+                "text": "Curious Gorge's axe was like a whirlwind, strewing the kobolds in every which direction! His courage carried us all through battle unharmed."
+            },
+            {
+                "name": "CAPTAIN00596",
+                "text": "Without these two warriors on our side, I have no doubt the kobolds would have overwhelmed us. I will be submitting a detailed report of your heroism to Wheiskaet and Maelstrom Command. You have all fought bravely today─let us return home for well-deserved rest!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "...<span class=\"highlight\">Forename</span>, I can scarce remember the last time I fought as I did today. I swung my axe with abandon, but I was free from the inner beast's grasp."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "It was just as my brother said. By pouring my strength into the defense of my allies, the beast within was tamed!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "...However, kobolds are hardly a true test of one's prowess. If the fight had been against a more worthy foe, or if the circumstances had been more dire..."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Although today's battle was heartening, it's too early to say I've subdued the beast. I'll return to Camp Bronze Lake to rest─<span class=\"highlight\">Forename</span>, let my brother know of our victory here."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "It's too early to say I'm in full control of my inner fury... The beast slumbers within me still, of that I'm certain."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Your victory is great news to us all. Broken Mountain is eager to hear of his brother's performance in the battle."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "The storm captain has already sent his report of your impressive feats. Broken Mountain will be eager to hear of his brother's heroism."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "It seems your victory was well earned. What of my brother? Was he able to fight without succumbing to his inner fury?"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Ah... So even with today's victory, he yet dreads the consequences were he to lose control. Still, it is only through the strength of his own will that he may dispel the fog of self-doubt."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Unfortunately, the beast tribes won't wait for Curious Gorge's epiphany. Storm Marshal Slafyrsyn has sent word that he requires a warrior's strength to aid in another Maelstrom defensive."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "As you already know, kobolds aren't the only nuisances we have to contend with."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "The Sahagin have taken advantage of the distraction caused by our focus on the kobolds to launch an offensive against the tidegates."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "With the bulk of Maelstrom forces tied up with the kobold threat, we can ill afford to send any men to defend the gate near Camp Skull Valley, leaving us wide open to the Sahagin threat."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "<span class=\"highlight\">Forename</span>, if the strength of a warrior were to see the people of Limsa Lominsa safely through this storm, then mayhap the glory of our ancestors would be restored, and all across Eorzea would know of us as guardians, instead of brutes."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "However, it saddens me to say we cannot depend on my brother to be ready to shoulder such a weight. <span class=\"highlight\">Forename</span>, when the time comes, you must needs be ready to take on the task alone."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "In the meantime, pray tell me of your battle at Zelma's Run. Recall the ferocity with which you fought, and lose yourself in the memories of your fight."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "As before, your inner beast is roused, and another technique of eld is at your disposal. Your progress is encouraging. Continue on this path, continue to challenge the limits of your mind and body, and victory in the battles to come is assured."
+            }
+        ],
+        "reward": {
+            "gil": 697,
+            "action": 3552,
+            "xp": 81600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 58,
+                    "id": 22
+                }
+            ],
+            "quests": [
+                67213
+            ]
+        },
+        "next": [
+            66137
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013279",
+            "obj": {
+                "i": 1013279,
+                "n": "Broken Mountain",
+                "l": 34,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006266",
+            "obj": {
+                "i": 1006266,
+                "n": "Wheiskaet",
+                "l": 32,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006746",
+            "obj": {
+                "i": 1006746,
+                "n": "Curious Gorge",
+                "l": 32,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013303",
+            "obj": {
+                "i": 1013303,
+                "n": "Curious Gorge",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013304",
+            "obj": {
+                "i": 1013304,
+                "n": "Storm Captain",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013305",
+            "obj": {
+                "i": 1013305,
+                "n": "Detachment Private",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013306",
+            "obj": {
+                "i": 1013306,
+                "n": "Storm Private",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013307",
+            "obj": {
+                "i": 1013307,
+                "n": "Curious Gorge",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013308",
+            "obj": {
+                "i": 1013308,
+                "n": "Storm Captain",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013309",
+            "obj": {
+                "i": 1013309,
+                "n": "Detachment Private",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013310",
+            "obj": {
+                "i": 1013310,
+                "n": "Storm Private",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013311",
+            "obj": {
+                "i": 1013311,
+                "n": "Wheiskaet",
+                "l": 34,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013339",
+            "obj": {
+                "i": 1013339,
+                "n": "Curious Gorge",
+                "l": 34,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014284",
+            "obj": {
+                "i": 1014284,
+                "n": "Curious Gorge",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014474",
+            "obj": {
+                "i": 1014474,
+                "n": "Wheiskaet",
+                "l": 34,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014662",
+            "obj": {
+                "i": 1014662,
+                "n": "Storm Private",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "action",
+            "id": "3552",
+            "obj": {
+                "i": 3552,
+                "n": "Equilibrium",
+                "c": 2560,
+                "j": 21,
+                "t": 4,
+                "l": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67213",
+            "obj": {
+                "i": 67213,
+                "n": "How to Train Your Warrior",
+                "g": 149,
+                "l": "Western La Noscea",
+                "s": 561,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66137",
+            "obj": {
+                "i": 66137,
+                "n": "And My Axe",
+                "g": 149,
+                "l": "Upper La Noscea",
+                "s": 600,
+                "f": 1
+            }
+        }
+    ]
+}

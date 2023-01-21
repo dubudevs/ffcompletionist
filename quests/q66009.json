@@ -1,0 +1,120 @@
+{
+    "quest": {
+        "name": "Orange Crush",
+        "location": "Middle La Noscea",
+        "id": 66009,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1002628,
+        "target": 1002628,
+        "genre": 91,
+        "journal": [
+            "Bhirdraeg seeks to restore equilibrium by having the local fauna culled.",
+            "Puks prey on the insects that pollinate La Noscean oranges, upsetting the balance of nature on Summerford Farms. Assist Bhirdraeg by culling five puk hatchlings.",
+            "You have carried out the culling as bade. Return to Bhirdraeg and inform him that the puks stop here.",
+            "With the bees back about their business, the La Noscean oranges will grow. Nevertheless, all will be for naught if the lazing pirates let the fruit rot on the boughs."
+        ],
+        "objectives": [
+            "Slay puk hatchlings.",
+            "Report to Bhirdraeg."
+        ],
+        "dialogue": [
+            {
+                "name": "BHIRDRAEG",
+                "text": "La Noscean orange nectar is sweet, but rest assured it's paid for in sweat."
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "We have to pollinate each orange by hand because of the blasted puks that prey on the nearby bees."
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "If we could only eradicate some five puk hatchlings, it would save us from having to do nature's work."
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "The buzz on the wind tells me you've done the deed."
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "The only pests plaguin' my orchard are those woeful whelps-out-of-water."
+            },
+            {
+                "name": "BHIRDRAEG",
+                "text": "If only you could rid me of the parasitic pirates as you did the pesky puks!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4551
+                },
+                {
+                    "num": 3,
+                    "id": 4555
+                }
+            ],
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66008
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002628",
+            "obj": {
+                "i": 1002628,
+                "n": "Bhirdraeg",
+                "l": 30,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66008",
+            "obj": {
+                "i": 66008,
+                "n": "The Time Is Ripe",
+                "g": 91,
+                "l": "Middle La Noscea",
+                "s": 60
+            }
+        }
+    ]
+}

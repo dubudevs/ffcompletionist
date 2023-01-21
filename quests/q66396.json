@@ -1,0 +1,188 @@
+{
+    "quest": {
+        "name": "Dead or Sumfin' Like It",
+        "location": "Outer La Noscea",
+        "id": 66396,
+        "patch": 2.0,
+        "sort": 340,
+        "eventIcon": 71221,
+        "issuer": 1006330,
+        "target": 1006330,
+        "genre": 91,
+        "journal": [
+            "Storm Private Augustine comes to you sore of neck and red of eye, having grown weary of scanning the sky.",
+            "The inarticulate Private Augustine objects to birds menacing the balloon that ferries supplies to the embattled Camp Overlook. Proceed to the west and dispatch five of the troublesome highland condors.",
+            "You have slain five birds. That will teach them to peck at things. Report to Augustine.",
+            "The private is pleased, though he is as marble-mouthed in his happiness as he was in his perturbation. The Maelstrom truly is a roiling of humanity."
+        ],
+        "objectives": [
+            "Slay highland condors.",
+            "Report to Augustine."
+        ],
+        "dialogue": [
+            {
+                "name": "AUGUSTINE",
+                "text": "Camp Overlook may's well be an island. The roads ain't worth plopping a supply train on 'less ye like to, dunno, feed kobolds or sumfin'. So anything that needs getting there, they goes by balloon."
+            },
+            {
+                "name": "AUGUSTINE",
+                "text": "The up and up's not what it's cut out to be, though. Got them condors what try and muck with the balloon. Sure would appreciate them being, dunno, dead or sumfin'."
+            },
+            {
+                "name": "AUGUSTINE",
+                "text": "You saw to them condors? Cor, that's a shiny piece of news! The balloon gets around, y'know, and that's important in a war. It goes one place then the next, like."
+            },
+            {
+                "name": "AUGUSTINE",
+                "text": "Wish I's a balloon. Tell the truth, some of them that's comrade to me scare the drawers off of me. Wild about fresh meat, they are, like to kill ye for it. Corsairs they used to be, I hear."
+            }
+        ],
+        "reward": {
+            "gil": 1580,
+            "items": [
+                {
+                    "id": 5670,
+                    "one": 1
+                },
+                {
+                    "id": 5665,
+                    "one": 1
+                },
+                {
+                    "id": 5675,
+                    "one": 1
+                },
+                {
+                    "id": 5680,
+                    "one": 1
+                },
+                {
+                    "id": 5630,
+                    "one": 1
+                }
+            ],
+            "xp": 8385
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 34,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66393
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006330",
+            "obj": {
+                "i": 1006330,
+                "n": "Augustine",
+                "l": 350,
+                "q": 1,
+                "t": "Storm Private"
+            }
+        },
+        {
+            "type": "item",
+            "id": "5670",
+            "obj": {
+                "i": 5670,
+                "n": "Savage Aim Materia II",
+                "l": 30,
+                "c": 20222,
+                "t": 58,
+                "materia": {
+                    "tier": 1,
+                    "value": 2,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5665",
+            "obj": {
+                "i": 5665,
+                "n": "Heavens' Eye Materia II",
+                "l": 30,
+                "c": 20222,
+                "t": 58,
+                "materia": {
+                    "tier": 1,
+                    "value": 2,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5675",
+            "obj": {
+                "i": 5675,
+                "n": "Savage Might Materia II",
+                "l": 30,
+                "c": 20222,
+                "t": 58,
+                "materia": {
+                    "tier": 1,
+                    "value": 2,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5680",
+            "obj": {
+                "i": 5680,
+                "n": "Battledance Materia II",
+                "l": 30,
+                "c": 20214,
+                "t": 58,
+                "materia": {
+                    "tier": 1,
+                    "value": 2,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5630",
+            "obj": {
+                "i": 5630,
+                "n": "Piety Materia II",
+                "l": 30,
+                "c": 20214,
+                "t": 58,
+                "materia": {
+                    "tier": 1,
+                    "value": 2,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66393",
+            "obj": {
+                "i": 66393,
+                "n": "Lord of Crags",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 181
+            }
+        }
+    ]
+}

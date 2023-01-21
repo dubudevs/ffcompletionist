@@ -1,0 +1,92 @@
+{
+    "quest": {
+        "name": "The Warden Works in Mysterious Ways",
+        "location": "Eastern Thanalan",
+        "id": 66413,
+        "patch": 2.0,
+        "sort": 187,
+        "eventIcon": 71201,
+        "target": 1003958,
+        "genre": 0,
+        "journal": [
+            "Sister Eluned has some difficult news to share with you.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Eluned at the Church of Saint Adama Landama.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "In remembrance of your fallen brothers and sisters, you kneel before the mark of the Warden. Return to Sister Eluned at the Church of Saint Adama Landama.",
+            "What will result from your pilgrimage can never truly be known. Nevertheless, Sister Eluned believes that the souls of the departed Scions will be comforted by your actions."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Eluned at the Church of Saint Adama Landama.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "ELUNED",
+                "text": "There is one thing I regret to inform you: though we wished to inter your comrades on church grounds, the number of fallen Scions far exceeded our estimates."
+            },
+            {
+                "name": "ELUNED",
+                "text": "After discussing the matter with Father Iliud, we have concluded that we have no choice but to bury the dead in the same plots as those who perished in the Calamity."
+            },
+            {
+                "name": "ELUNED",
+                "text": "Please forgive us. We do not wish to dishonor the memory of the fallen. But, as caretakers of the lichyard, these are the realities we must face."
+            },
+            {
+                "name": "ELUNED",
+                "text": "<span class=\"highlight\">Forename</span>... What befell your order was an unforgivable crime. If you would have these villains brought to justice, consider making a pilgrimage to the mark of the Warden."
+            },
+            {
+                "name": "ELUNED",
+                "text": "Though I do not follow the teachings of Azeyma, it is said that to offer prayers before Her mark is to invoke Her divine judgment. Regardless of your faith, mayhap it would be worth the effort."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "As you kneel before the mark of the Warden in a moment of quiet solitude, you breathe deep of the dry desert air. The roar of the rushing waters is punctuated by the faint chirping of vilekin and the shrill cries of a hawk. The gods, however, remain silent..."
+            },
+            {
+                "name": "ELUNED",
+                "text": "You have honored the dead with your pilgrimage, <span class=\"highlight\">Forename</span>. Even if Azeyma did not hear your prayers, I believe that they provided comfort to your fallen brethren."
+            },
+            {
+                "name": "ELUNED",
+                "text": "Remember that although the body is but a vessel that must one day be surrendered to the Lifestream, our souls shall endure, and the righteous shall find solace in Thal's realm."
+            }
+        ],
+        "reward": {
+            "xp": 18040
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66412
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003958",
+            "obj": {
+                "i": 1003958,
+                "n": "Eluned",
+                "l": 44,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66412",
+            "obj": {
+                "i": 66412,
+                "n": "Bringing out the Dead",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 186
+            }
+        }
+    ]
+}

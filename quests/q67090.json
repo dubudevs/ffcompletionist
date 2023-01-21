@@ -1,0 +1,594 @@
+{
+    "quest": {
+        "name": "The New King on the Block",
+        "location": "Kugane",
+        "id": 67090,
+        "patch": 4.36,
+        "sort": 120,
+        "icon": 100786,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1025721,
+        "target": 1025721,
+        "genre": 207,
+        "journal": [
+            "This hunter's unbridled enthusiasm can mean only one thing: the hunt is on!",
+            "Though you have never met him, this hearty hunter seems to know you quite well. So well, in fact, he considers you his rival. Perhaps that is why he chooses to share with you an unusual Clan Hunt bill he procured from their board. The strange scribblings describe a great wyvern by the name Rathalos. Though the bill makes no mention of its origins, the hearty hunter has discovered it was last seen somewhere at the Azim Steppe. He suggests you visit Reunion to learn more of your prey while he readies himself for the hunt.",
+            "Try as you might, you fail to find anyone who can attest to the existence of this great wyvern. On the word of a wayfaring hunter, however, you decide to consult the Qestir, masters of the Reunion markets, in hopes of learning more of your prey.",
+            "You speak with a merchant of the Qestir tribe, though his initial response is only an expression of grave concern. He then points southwest toward Yat Khaal. Perhaps there you will find some trace of the Rathalos.",
+            "While waiting for signs of the wyvern, you are confronted by a curious talking cat claiming to be a fledgling Felyne hunter. He too has come in search of the Rathalos, and no sooner does he speak its name than a colossal, crimson-scaled wyvern swoops down from the sky to claim a dzo for its next meal. At last, the hunt begins. The Felyne hunter wastes no time chasing after the Rathalos, heading northwest toward Bardam's Mettle.",
+            "You arrive at Bardam's Mettle to find the Felyne hunter is ready, not to fight, but support. Preferably from the safety of the entrance. That said, he does offer you several potions to ensure you are duly prepared. The battle before you will likely be fierce, and to that end the Felyne hunter suggests you seek reinforcements before jumping into the fray.",
+            "The Rathalos was truly a beast worthy of its title, but not even the king of the skies was a match for you and your comrades. The Felyne hunter is certain to be glad to hear of your success.",
+            "The Felyne hunter is in awe of your strength. Wishing to bear witness to your future feats of heroism and derring-do, he asks to join you as an adventuring companion. It was quite fortunate that you happened to glimpse his mark bill. He is surprised, however, to hear you saw it not on the Clan Hunt board, but from a hunter in Kugane. He asks if you might introduce him to the man who ultimately guided you to aid him.",
+            "You arrive in Kugane to find your supposed rival has just finished warming up and is ready to hunt. A pity you have already claimed his prize. You expect him to be disappointed, perhaps even cross with you, but instead he is pleased to see you proved yourself worthy of being his adversary. His smithy companion is more concerned with what, if anything, you recovered from the Rathalos. Hearing you carved a scale from its hide, he jumps at the opportunity to use it in his work, offering to fashion you armor if you can procure more. If you should take him up on his offer, the hunt for Rathalos has only begun."
+        ],
+        "objectives": [
+            "Gather information in Reunion at the Azim Steppe.",
+            "Speak with the concerned Qestiri merchant.",
+            "Lie in wait at the designated location.",
+            "Speak with the Felyne.",
+            "Confront the Rathalos in the Great Hunt.",
+            "Speak with the Felyne.",
+            "Speak with the hearty hunter in Kugane."
+        ],
+        "dialogue": [
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Well, well, if it isn't my old rival, <span class=\"highlight\">Forename Surname</span>!"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Come at last to learn from a <span class=\"emphasis\">true</span> hunter of elite marks, have you?"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Forgive me if I seem overly presumptuous. Being the renowned adventurer that you are, I've always considered you to be a rival of sorts. A little healthy competition goes a long way in keeping one's skills sharp, you know."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Forgive me if I seem overly presumptuous. Being the renowned hunter that you are, I've always considered you to be a rival of sorts. A little healthy competition goes a long way in keeping one's skills sharp, you know."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "Gahaha, aye! But a hunter ain't worth shite without a smithy to keep him armed and armored."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "You'll have to excuse him. He's never been one for social graces. But he's a damn fine hunter, and what he brings back to the forge keeps me in business."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Who has time for grace when game is afoot. Which reminds me, I have news of a quarry that may pique your interest."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "I recently came across a rather peculiar bill on the Clan Hunt board. Here, have a look."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The bill depicts a crimson wyvern unlike anything you have ever seen. Unfortunately, further reading of the bill reveals nothing of its origins."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Strange, isn't it? Not only is the drawing unabashedly crude, the bill itself lacks the formality expected of anything approved by the Centurio clan. Still, a bounty is a bounty. "
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Before setting out, though, I thought it wise to first confirm the details of the request, and therein lies the rub─the Clansmen weren't even aware this bill had been posted. Likely the escapades of some mischievous youth, they said."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "But if this beast truly <span class=\"emphasis\">is</span> out there somewhere, what manner of hunter would I be if I didn't go and find out?"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "And from what I've been told, you're never one to back down from a chance at adventure. So how about it? Will you take up the hunt?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Count me in!"
+            },
+            {
+                "name": "A1",
+                "text": "I have no time for rumors and hearsay."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Every bit the thrill seeker I marked you for. Glad to hear it."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Oh, come now, <span class=\"highlight\">Forename</span>. Where's that sense of adventure I've heard so much about? This could be the opportunity of a lifetime!"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "To make things a little more interesting, what do you say we make this a race, eh? To see who can slay it first."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "I'll even give you a hint to get you on your way. The beast we're after is a Rathalos─king of the skies they call it. From what I've gathered, it was last spotted somewhere around the Azim Steppe."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "You're like to learn more if you speak with the locals at Reunion. As for me, I still need to prepare before I can head out, so consider this a head start. Good luck, <span class=\"highlight\">Forename</span>, and may the best hunter win!"
+            },
+            {
+                "name": "ORONIRMAN01554",
+                "text": "A red wyvern by the name Rathalos? I'm sorry, but you must be mistaken. I've heard stories of a great wyvern that slumbers in the mountains to the north, but it was not red, and most certainly does not go by that name."
+            },
+            {
+                "name": "ORONIRMAN01554",
+                "text": "Not that it matters now. Rumor has it the beast was recently slain by a band of wyvern hunters. &lt;sigh&gt; If only we had found it first..."
+            },
+            {
+                "name": "ORONIRMAN01554",
+                "text": "But if this Rathalos you speak of truly exists, we may yet have another chance. Mark my words: this beast will fall by a blade of the Oronir!"
+            },
+            {
+                "name": "ORONIRMAN01554",
+                "text": "Still, if this Rathalos you speak of truly exists, slaying such a beast would bring great honor to my tribe. Mark my words: this beast will fall by a blade of the Oronir!"
+            },
+            {
+                "name": "ORONIRMAN01554",
+                "text": "You wait and see. Slaying this Rathalos will bring great glory to the Oronir."
+            },
+            {
+                "name": "URAWOMAN01554",
+                "text": "A red wyvern named Rathalos? ...Oh dear."
+            },
+            {
+                "name": "URAWOMAN01554",
+                "text": "Perhaps the story I heard was true, then. Of a young man from the Ura clan leading a flock of dzos down from the mountains."
+            },
+            {
+                "name": "URAWOMAN01554",
+                "text": "He was making his way to Reunion when a fierce wind began to blow. A terrible, howling gale which left him all but blinded. To his horror, he soon realized the deafening roar he heard was not of the wind's making."
+            },
+            {
+                "name": "URAWOMAN01554",
+                "text": "He claims it was that of a great wyvern, which descended from on high to claim several dzos from his flock, disappearing into the sky as quickly as it came."
+            },
+            {
+                "name": "URAWOMAN01554",
+                "text": "Needless to say he ran to Reunion with all haste, telling everyone of what had happened. But the man is a known liar and a swindler. Who would believe such a tale coming from him?"
+            },
+            {
+                "name": "URAWOMAN01554",
+                "text": "Thankfully I've not had the displeasure of seeing such a creature here. Oh, how I hope his story is yet another lie."
+            },
+            {
+                "name": "KHAWOMAN01554",
+                "text": "A gargantuan red wyvern? I'm sorry, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>, but I'm not overly familiar with the comings and goings of this place. I only visit on occasion to do a small bit of business."
+            },
+            {
+                "name": "KHAWOMAN01554",
+                "text": "Perhaps you should speak with the Qestir. Though <span class=\"emphasis\">speak</span> is perhaps not the right word, seeing as they do not. At any rate, you will find none more knowledgeable of the happenings in the Azim Steppe."
+            },
+            {
+                "name": "KHAWOMAN01554",
+                "text": "If anyone would know of this wyvern you seek, it would be the Qestir."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! Already on the hunt, are we? I suggest you move quickly. Once I've warmed up, the wyvern is as good as slain."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "You'd best head to Reunion if you haven't already and see what you can learn from the locals. I'll be along after a few more squats."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "Don't look so surprised. Even a smithy needs to stay in shape, you know."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "It's nice to see someone taking this barmy fool's stories seriously for once. Crazy as they seem, though, every now and again they turn out to be true."
+            },
+            {
+                "name": "QESTIRMERCHANT01554",
+                "text": "..."
+            },
+            {
+                "name": "QESTIRMERCHANT01554",
+                "text": "...!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Upon hearing of a red wyvern, the Qestiri merchant takes on a grave expression."
+            },
+            {
+                "name": "QESTIRMERCHANT01554",
+                "text": "..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Qestiri merchant points southwestward. Perhaps you will find some clue to the wyvern's whereabouts in that direction."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You arrive at the area the Qestiri merchant appeared to be indicating. All you can do now is lie in wait for your prey."
+            },
+            {
+                "name": "FELYNE",
+                "text": "(-???-)What's this? Oh, a hunter! And a furrrmidable-looking one at that!"
+            },
+            {
+                "name": "FELYNE",
+                "text": "(-Fashionable Feline-)Have you come to help, then? To hunt the meownster Rathalos?"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "After seeing the bounty I couldn't resist!"
+            },
+            {
+                "name": "A2",
+                "text": "A...talking cat?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "(-Fashionable Feline-)Thank you, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>, thank you! I knew I was right to post that bill."
+            },
+            {
+                "name": "FELYNE",
+                "text": "(-Fashionable Feline-)Oh, that's rich coming from you. Or have you not looked in a mirror lately?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "(-Fashionable Feline-)And what's wrong with a talking cat? Have you not seen the turtles and fish around these parts?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "I'm an apprentice Felyne hunter, and I've come to this place in search of meownsters. Rathalos to be precise."
+            },
+            {
+                "name": "FELYNE",
+                "text": "But even with nine lives I could never slay one on my own. That's why I posted that notice seeking help."
+            },
+            {
+                "name": "FELYNE",
+                "text": "There's a reason they're often referred to as king of the skies, after all."
+            },
+            {
+                "name": "FELYNE",
+                "text": "Some also call them fire wyverns, on account of their ability to breathe fire. I feel paw-ful just thinking about all the hunters burned to cinders in their wake."
+            },
+            {
+                "name": "FELYNE",
+                "text": "Yes, yes, and they roar exactly like that. Would you believe it's powerful enough to stun their prey?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "That was him! That was a Rathalos! Still willing to help, I hope?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "What a day, what a day. Both a meownster and a furrrocious hunter to slay it? I sure got the cream today!"
+            },
+            {
+                "name": "FELYNE",
+                "text": "Let's hurry. He seemed to be heading northwest, back into the meowntains."
+            },
+            {
+                "name": "FELYNE",
+                "text": "Oh, before I forget. I never did ask your name."
+            },
+            {
+                "name": "FELYNE",
+                "text": "Nice to meet you, <span class=\"highlight\">Forename</span>. Now, let's be off!"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! Already on the hunt I see. If you still mean to beat me, I suggest you move quickly. Once I've finished warming up that wyvern is as good as slain."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "Hahaha! Even a smithy needs to stay in shape, you know."
+            },
+            {
+                "name": "QESTIRMERCHANT01554",
+                "text": "..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Qestiri merchant points southwestward. Perhaps you will find some clue to the Rathalos's whereabouts in that direction."
+            },
+            {
+                "name": "FELYNE",
+                "text": "The Rathalos is somewhere along that path, I just know it!"
+            },
+            {
+                "name": "FELYNE",
+                "text": "But I'm afraid you'll have to go without me. As I am right meow, I fear I'd only slow you down."
+            },
+            {
+                "name": "FELYNE",
+                "text": "Before you go, though, I insist you take these with you."
+            },
+            {
+                "name": "FELYNE",
+                "text": "When cat-astrophe strikes, a hunter should never be without mega potions. I don't know if you normally keep medicine on hand to treat your wounds, but I guarantee you've never had anything quite like that."
+            },
+            {
+                "name": "FELYNE",
+                "text": "When you and your friends are ready, head on in. You...do have friends to help, right?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "Eight? I thought hunters usually fight in groups of four... Well, I suppose you know best."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "During the battle the Great Hunt, you will gain access to the duty action <span class=\"highlight\">Mega Potion</span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Be advised that, while it can be used to restore a large amount of HP, its usage is limited."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Upon clearing the duty, you can claim a special reward by examining the remains of the Rathalos. Be certain to do so before leaving the instance."
+            },
+            {
+                "name": "FELYNE",
+                "text": "If you find yourself in a pinch, don't forget to use that mega potion."
+            },
+            {
+                "name": "FELYNE",
+                "text": "I saw the whole thing. That was meow-gnificent!"
+            },
+            {
+                "name": "FELYNE",
+                "text": "You even managed to retrieve a scale from his remains. I'm impressed!"
+            },
+            {
+                "name": "FELYNE",
+                "text": "I realize this is sudden, but it would mean so much to me if I could join you on more adventures. Would you...would you accept me as your Palico?"
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "It would be my pleasure."
+            },
+            {
+                "name": "A3",
+                "text": "That depends. What's the reward for slaying the Rathalos?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "I promise to be the purrrfect companion. You won't regret this!"
+            },
+            {
+                "name": "FELYNE",
+                "text": "O-Oh, of course. You hunters are an astute lot, aren't you. Well, the thing is...I used the last of my funds to purchase those mega potions..."
+            },
+            {
+                "name": "FELYNE",
+                "text": "But I promise I'll make it up to you as the purrrfect Palico companion."
+            },
+            {
+                "name": "FELYNE",
+                "text": "And to think this is all because you saw my bill on the Hunt board."
+            },
+            {
+                "name": "FELYNE",
+                "text": "Hm? A hunter in Kugane showed it to you?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "Curious. Do you think we could go and pay them a visit? If not for this hunter, we never would have met."
+            },
+            {
+                "name": "FELYNE",
+                "text": "Then let's be off to Kugane!"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "That should do it. I'm warmed up and ready to go hunting!"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. I thought you'd already left. With my preparations complete, you'll need to work fast if you mean to beat me."
+            },
+            {
+                "name": "FELYNE",
+                "text": "You've only meow finished preparing?"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Wh-What is that!? Another monster in need of slaying?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "I'm no meownster, you brute. I'm <span class=\"highlight\">Forename</span>'s faithful and dependable Palico."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "A...Palico? Ahem, my apologies. If you're as dependable as you are adorable, I've no doubt <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> values your companionship."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "But let's return to the matter at hand, shall we? <span class=\"highlight\">Forename</span>, are you ready to set out on our hunt for the Rathalos?"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "You've already slain him!?"
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Hahaha! I'd expect nothing less from my rival. Indeed, you're every bit the hunter I imagined you'd be."
+            },
+            {
+                "name": "RIVALMOBHUNTER",
+                "text": "Hahaha! I'd expect nothing less from my rival. Indeed, you're every bit the adventurer I imagined you'd be."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "Suppose that's what we get for that extra set of squats."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "Tell me, friend. Were you able to recover anything from the body?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "As a matter of fact, <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> carved a scale off the Rathalos's hide!"
+            },
+            {
+                "name": "SMITHERY",
+                "text": "That's a mighty fine material for smithing. Mind if I have a look?"
+            },
+            {
+                "name": "SMITHERY",
+                "text": "Aye, this is a wyvern's scale alright. Light as a feather and tougher than steel. There's still a touch of heat to it, too."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "If you'd like, I'd be more than willing to fashion you some armor with it. I'll need more than a single scale, of course."
+            },
+            {
+                "name": "FELYNE",
+                "text": "You'll find no better mail than that forged with Rathalos scales. What do you say?"
+            },
+            {
+                "name": "FELYNE",
+                "text": "Oh, <span class=\"highlight\">Forename</span>. I can't thank you enough for your help in slaying that Rathalos."
+            },
+            {
+                "name": "FELYNE",
+                "text": "If you plan to go hunting again, don't hesitate to call. We'll show those meownsters what for!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You can now trade Rathalos scales to the smithy in exchange for various goods."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Rathalos scales can be obtained by defeating the Rathalos in the Great Hunt."
+            },
+            {
+                "name": "SMITHERY",
+                "text": "Nothing like a few hundred squats to limber up before smithing."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 22601
+                },
+                {
+                    "id": 22571
+                },
+                {
+                    "id": 22583
+                }
+            ],
+            "instance": 20053
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68089
+            ]
+        },
+        "next": [
+            67091
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1025721",
+            "obj": {
+                "i": 1025721,
+                "n": "Hearty Hunter",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "22601",
+            "obj": {
+                "i": 22601,
+                "n": "Palico",
+                "l": 1,
+                "c": 59692,
+                "t": 81
+            }
+        },
+        {
+            "type": "item",
+            "id": "22571",
+            "obj": {
+                "i": 22571,
+                "n": "Indoor BBQ Spit",
+                "l": 1,
+                "c": 53217,
+                "t": 78
+            }
+        },
+        {
+            "type": "item",
+            "id": "22583",
+            "obj": {
+                "i": 22583,
+                "n": "BBQ Spit",
+                "l": 1,
+                "c": 52262,
+                "t": 76
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20053",
+            "obj": {
+                "i": 20053,
+                "n": "The Great Hunt",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 70,
+                "max_lvl": 70,
+                "min_ilvl": 320
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68089",
+            "obj": {
+                "i": 68089,
+                "n": "Stormblood",
+                "g": 6,
+                "l": "The Lochs",
+                "s": 1130
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67091",
+            "obj": {
+                "i": 67091,
+                "n": "The Newer King on the Block",
+                "g": 207,
+                "l": "Kugane",
+                "s": 121,
+                "f": 1
+            }
+        }
+    ]
+}

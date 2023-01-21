@@ -1,0 +1,146 @@
+{
+    "quest": {
+        "name": "Simply the Hest",
+        "location": "Central Shroud",
+        "id": 65596,
+        "patch": 2.0,
+        "sort": 100,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000105,
+        "target": 1004741,
+        "genre": 92,
+        "journal": [
+            "Tierney believes you are ready to join a guildhest.",
+            "Guildhests are special operations organized by Adventurers' Guilds and overseen by battlewardens. To learn more about what guildhests entail, speak with Battlewarden Ribald.",
+            "Battlewarden Ribald explains that guildhests will test your ability to work with others to achieve a common goal. Unless you are content to conduct your adventures forever alone, it may be in your best interests to participate in these operations at least once."
+        ],
+        "objectives": [
+            "Speak with Battlewarden Ribald."
+        ],
+        "dialogue": [
+            {
+                "name": "TIERNEY",
+                "text": "Should you be interested in a challenge quite unlike your average levequest, you might consider joining a guildhest."
+            },
+            {
+                "name": "TIERNEY",
+                "text": "If you wish to know more, pray speak with Battlewarden Ribald outside yonder tent. I will inform him of your success against the anoles so that there are no doubts as to your abilities."
+            },
+            {
+                "name": "RIBALD",
+                "text": "I was told a stalwart adventurer would be along shortly. I take it that is you? Then permit me to tell you all about our current operations."
+            },
+            {
+                "name": "RIBALD",
+                "text": "Wait... Might this be your first time participating in a guildhest? I remember my first hest. It was the night of my twentieth nameday. My fellow guildmates invited me to join them in the slaying of a family of peistes who were stealing chocobo eggs from Bentbranch Meadows."
+            },
+            {
+                "name": "RIBALD",
+                "text": "The moment we arrived, one of the terrible beasts immediately turned to me and charged. The thing was thrice my size and had already maimed several chocobokeeps."
+            },
+            {
+                "name": "RIBALD",
+                "text": "There was no way I could win, so I simply froze and waited for the end. But that's when I remembered that I was not alone. My friends rallied around me, and together we defeated the peistes! That, my friend, is what a guildhest is truly about."
+            },
+            {
+                "name": "RIBALD",
+                "text": "What say you, friend? Care to experience a hest for yourself?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have unlocked the Duty Finder! This feature allows you to undertake multiplayer duties without having to form a party on your own."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To bring up the Duty Finder interface, select <span class=\"highlight\">Duty Finder</span> under <span class=\"highlight\">Duty</span> from the <span class=\"highlight\">main menu</span>."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4551,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 1710
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65756
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000105",
+            "obj": {
+                "i": 1000105,
+                "n": "Tierney",
+                "l": 54,
+                "q": 2,
+                "t": "Levemete"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004741",
+            "obj": {
+                "i": 1004741,
+                "n": "Ribald",
+                "l": 54,
+                "q": 1,
+                "t": "Battlewarden"
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65756",
+            "obj": {
+                "i": 65756,
+                "n": "Leves of Bentbranch",
+                "g": 92,
+                "l": "Gridania",
+                "s": 100,
+                "f": 1
+            }
+        }
+    ]
+}

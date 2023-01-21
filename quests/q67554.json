@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "Loved by the Sun",
+        "location": "Ishgard",
+        "id": 67554,
+        "patch": 3.0,
+        "sort": 500,
+        "icon": 100442,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012222,
+        "target": 1014944,
+        "genre": 159,
+        "journal": [
+            "Jannequinard is nigh ready to burst with excitement. Make the viscount wait any longer and there is certain to be a wardrobe malfunction.",
+            "Jannequinard believes you are ready to open the gate to the sixth heaven. This, however, is not his decision to make. Speak with Leveva on the second floor of the Athenaeum Astrologicum and find out what she believes.",
+            "It turns out Leveva also believes you are ready to open the sixth gate, but before proceeding any further, she instructs you on the concept of synastry and the benefits it may bring your allies in the field."
+        ],
+        "objectives": [
+            "Speak with Leveva on the second floor."
+        ],
+        "dialogue": [
+            {
+                "name": "JANNEQUINARD",
+                "text": "Lady Leveva tells me that you are nearly ready to open the sixth and final gate. Yes. I said final. We all know there are seven heavens, but opening the seventh is impossible...well, except upon death, of course. An attempt to attune to the pole star would be sheer madness and most certainly spell your doom. Ah, but look at me. Even now, attempting to tutor the great <span class=\"highlight\">Forename</span>, when it is obvious your talent far surpasses mine. Forgive me."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Lady Leveva has yet to depart for the location of the final gate. Doubtless she fears yet another bandit attack, but whatever the reason, she remains on the second floor and has asked that you visit her at your earliest convenience."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Lady Leveva is on the second floor only because she refuses to accept the room I have offered her at Durendaire Manor. It is not as if I would make any untoward attempts at sullying her honor. Having seen but half the summers as I, she is far too young for my tastes."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "You have come far since that fateful day our paths first crossed in the Black Shroud. And now, here we are, on the cusp of your attunement with the sixth heaven. Time truly waits for no <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>, does it?"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "Before we set forth on this task, I wish to teach you of a technique known as “synastry.”"
+            },
+            {
+                "name": "LEVEVA",
+                "text": "By temporarily enjoining your fate with that of a companion's, they will reap the stars' benefit as do you."
+            },
+            {
+                "name": "LEVEVA",
+                "text": "As a passable journeyman astrologian, you already wield sufficient control over aether. You need only focus it upon establishing a bond with your chosen ally to achieve synastry."
+            }
+        ],
+        "reward": {
+            "action": 3612,
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 99
+                }
+            ],
+            "quests": [
+                67553
+            ]
+        },
+        "next": [
+            67555
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012222",
+            "obj": {
+                "i": 1012222,
+                "n": "Jannequinard",
+                "l": 2301,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014944",
+            "obj": {
+                "i": 1014944,
+                "n": "Leveva",
+                "l": 2301,
+                "q": 4
+            }
+        },
+        {
+            "type": "action",
+            "id": "3612",
+            "obj": {
+                "i": 3612,
+                "n": "Synastry",
+                "c": 3139,
+                "j": 33,
+                "t": 4,
+                "l": 50
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67553",
+            "obj": {
+                "i": 67553,
+                "n": "Ewer Right",
+                "g": 159,
+                "l": "Ishgard",
+                "s": 450,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67555",
+            "obj": {
+                "i": 67555,
+                "n": "Spearheading Initiatives",
+                "g": 159,
+                "l": "Ishgard",
+                "s": 501,
+                "f": 1
+            }
+        }
+    ]
+}

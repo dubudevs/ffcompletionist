@@ -1,0 +1,171 @@
+{
+    "quest": {
+        "name": "Cleaning Out the Dead",
+        "location": "Coerthas Central Highlands",
+        "id": 66464,
+        "patch": 2.0,
+        "sort": 390,
+        "eventIcon": 71221,
+        "issuer": 1006452,
+        "target": 1006456,
+        "genre": 94,
+        "journal": [
+            "For some like the pushful Ser Oncenedl, an adventurer is naught but a scullion for a task most macabre.",
+            "With no small disdain, Ser Oncenedl bids you search the body of a heretic for personal items and deliver these to the Gates of Judgement. Apparently, some in the Holy See believe they will yield valuable information.",
+            "An adventurer once said that there are no dirty jobs, only dirty memories─and you sense that you may be testing this theory quite soon. Take the sack of effects to Ser Chaunollet at the Gates of Judgement.",
+            "Ser Chaunollet commends you for looting the dead, and appears hopeful that this sad detritus of an interrupted life will further the cause of Ishgard. You know not what to think, but the work is done and a wash awaits..."
+        ],
+        "objectives": [
+            "Check the body for personal items.",
+            "Deliver the sack of effects to Chaunollet."
+        ],
+        "dialogue": [
+            {
+                "name": "ONCENEDL",
+                "text": "O adventurer! I claim your time in the name of the Holy See. Search the body downstairs for personal effects and deliver the lot to the Gates of Judgement. He was a heretic in life; you need not be gentle."
+            },
+            {
+                "name": "ONCENEDL",
+                "text": "Usually we leave the carcass for the crows, but...as you well know, there has been some trouble of late and now we're told to rifle through these lousy pockets."
+            },
+            {
+                "name": "ONCENEDL",
+                "text": "Low work it is, and I leave you to it. You'll find naught but nits, I'll warrant."
+            },
+            {
+                "name": "CHAUNOLLET",
+                "text": "State your business!"
+            },
+            {
+                "name": "CHAUNOLLET",
+                "text": "Ah, the leavings of unbelievers, most excellent. You have served with honor. Let us hope there is to be found here a clue..."
+            },
+            {
+                "name": "CHAUNOLLET",
+                "text": "Long have I hated unbelievers, but no more, for they too serve the Fury─if not in life, then in death. What ruth has Halone to grant them such a chance!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3850,
+                    "one": 1
+                },
+                {
+                    "id": 3407,
+                    "one": 1
+                },
+                {
+                    "num": 8,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 10800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 39,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66460
+            ]
+        },
+        "next": [
+            66466,
+            66467
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006452",
+            "obj": {
+                "i": 1006452,
+                "n": "Oncenedl",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006456",
+            "obj": {
+                "i": 1006456,
+                "n": "Chaunollet",
+                "l": 63,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "3850",
+            "obj": {
+                "i": 3850,
+                "n": "Horn Scale Greaves",
+                "l": 38,
+                "c": 46884,
+                "t": 38,
+                "p": 4753
+            }
+        },
+        {
+            "type": "item",
+            "id": "3407",
+            "obj": {
+                "i": 3407,
+                "n": "Linen Gaskins",
+                "l": 39,
+                "c": 45358,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66460",
+            "obj": {
+                "i": 66460,
+                "n": "Ye of Little Faith",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 202
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66466",
+            "obj": {
+                "i": 66466,
+                "n": "The Pecking Order",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 390
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66467",
+            "obj": {
+                "i": 66467,
+                "n": "Rubble Rouser",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 390
+            }
+        }
+    ]
+}

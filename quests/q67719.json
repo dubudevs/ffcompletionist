@@ -1,0 +1,159 @@
+{
+    "quest": {
+        "name": "Fishing in Troubled Waters",
+        "location": "The Sea of Clouds",
+        "id": 67719,
+        "patch": 3.1,
+        "sort": 23,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016090,
+        "involved": [
+            1016223
+        ],
+        "genre": 45,
+        "journal": [
+            "Muna Vanu is watching Eenu Vanu miss one catch after another.<br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu comments that Eenu Vanu does not seem to be at his best as of late, and wishes you to inquire what is troubling the master of clouds.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "Eenu Vanu explains that his Zundu friend took his advice to try the fishing spots near Neverreap, but ignored his warning about going to the perilous area alone. As his friend has not returned since last sunrise, Eenu Vanu wants you to check the area to confirm his friend's well-being.",
+            "Focusing entirely on the large fish biting at his line, the Zundu cloudfisher brushes off Eenu Vanu's concern and fails to notice a handful of starved paissas approach the cliff, lured by the scent of the fish basket. You slay the beasts before they have a chance to pounce on the preoccupied cloudfisher. Speak to him again to tell him how close he came to losing his day's work.",
+            "The Zundu cloudfisher is surprised by the attack and grateful to you for fending the paissas off, but he still wants to have one more go at the one that got away. Relay to Eenu Vanu that his cloudfisher friend will return to the village shortly.",
+            "You return to Ok' Gundu Nakki to explain what happened to Eenu Vanu, who seems relieved to know his friend is all right and will return soon. As the fishing spot near Neverreap can be an unpredictable place, he vows to go with his friend next time to make sure they have safety in numbers. "
+        ],
+        "objectives": [
+            "Speak with Eenu Vanu.",
+            "Search for the Zundu cloudfisher.",
+            "Speak with the Zundu cloudfisher.",
+            "Report to Eenu Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "Muna Vanu notices Eenu Vanu does not seem himself. Even as fishing line twitches and jerks, he looks off into distance as if storm gathers on horizon. Netherling, please help solve Eenu Vanu's troubles before food stores run dry as summer desert."
+            },
+            {
+                "name": "EENUVANU",
+                "text": "Oh... Greetings, netherling. Eenu is somewhat troubled about fellow Zundu cloudfisher. Often we swap advice on fishing spots where zephyr winds blow strongest."
+            },
+            {
+                "name": "EENUVANU",
+                "text": "Eenu shares secret of fishing cliffs near sacred ground of Neverreap, and friend goes alone. But cliffs are home to ferocious beasts, and greedy Vundu cloudfishers swarm the area like midges to wisent dung."
+            },
+            {
+                "name": "EENUVANU",
+                "text": "Even though friend says he is not afraid of such things, Eenu worries about danger of fishing alone in Vundu territory, and has not heard from him since last sunrise. Would netherling check on his well-being?"
+            },
+            {
+                "name": "EENUVANU",
+                "text": "Eenu must stay and catch village's next meal, but netherling need not fear going alone─<span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> looks strong enough to scare away Vundu, beast, and fish!"
+            },
+            {
+                "name": "VANUFISHER02183",
+                "text": "Bah, even small gust of wind sends Eenu Vanu into fit of worry! Hush now, netherling. Zephyr winds bring fat cloudfish nibbling on my line!"
+            },
+            {
+                "name": "VANUFISHER02183",
+                "text": "Noisy netherling scares away big catch! ...Oh? Paissas try to steal my fish? If clumsy paissa startles me, I fall into cloud sea! Netherling deserves show of thanks for saving me from hungry paissas!"
+            },
+            {
+                "name": "VANUFISHER02183",
+                "text": "Fat cloudfish escapes from line, but soon zephyr winds bring him back to me. Tell Eenu that I linger a little longer, then return to swap stories over campfire."
+            },
+            {
+                "name": "EENUVANU",
+                "text": "Paissas sneak up behind him to steal fish!? Eenu thought Vundu cloudfishers more threatening, but he did not know even paissas can be dangerous."
+            },
+            {
+                "name": "EENUVANU",
+                "text": "Cloudfishers concentrate very hard on big catch, and sometimes forget surroundings. A surprise at wrong time can prove fatal, but death by ungainly paissa...thought mortifies Vanu worse than forgetting sundrop dance!"
+            },
+            {
+                "name": "EENUVANU",
+                "text": "He will return to village soon? Good. Next time, Eenu goes with friend so he is not alone at mercy of sneaky paissas. He thanks netherling for saving friend from terrible fate."
+            },
+            {
+                "name": "VANUFISHER02183",
+                "text": "Zephyr winds sure to bring fat cloudfish back to me. Tell Eenu Vanu I return to village soon to show him biggest catch of day!"
+            }
+        ],
+        "reward": {
+            "gil": 609,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016090",
+            "obj": {
+                "i": 1016090,
+                "n": "Eenu Vanu",
+                "l": 2100,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016223",
+            "obj": {
+                "i": 1016223,
+                "n": "Zundu Cloudfisher",
+                "l": 2100,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

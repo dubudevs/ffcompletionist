@@ -1,0 +1,111 @@
+{
+    "quest": {
+        "name": "Rock of Rancor",
+        "location": "North Shroud",
+        "id": 66323,
+        "patch": 2.0,
+        "sort": 151,
+        "eventIcon": 71201,
+        "issuer": 1006241,
+        "target": 1006241,
+        "genre": 1,
+        "journal": [
+            "Aideen has further knowledge of the mysterious deaths.",
+            "Aideen tells you that all the victims thus far have been comely maidens. Rumors have arisen that, in death, their rancor has gone into a rock to the southwest, causing it to flash and moan. Hopeful for a clue, Aideen bids you use a firesand stick to blow off pieces of the rock, and then bring back the fragments for her to examine.",
+            "You have used the firesand stick on the rock. Gather the lightning-aspected crystals that litter the area.",
+            "You have gathered all of the lightning-aspected crystals. Return to Fallgourd Float and present them to Aideen.",
+            "Aideen cannot hide her disappointment at your haul of lightning-aspected crystals. Unfortunately, your efforts did not serve to advance the investigation."
+        ],
+        "objectives": [
+            "Throw the firesand stick at the rock.",
+            "Gather the lightning-aspected crystals.",
+            "Deliver the lightning-aspected crystals to Aideen."
+        ],
+        "dialogue": [
+            {
+                "name": "AIDEEN",
+                "text": "There's something else I heard about the deaths. It appears <span class=\"emphasis\">all</span> the victims have been comely maidens. I'd better watch myself, eh!? Heh heh heh!"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "&lt;sigh&gt; Unseemly japes aside, there's a rumor been going around. There's some as whisper that, after each victim died, her rancor went into the great big rock southwest of here, causing it to flash and moan."
+            },
+            {
+                "name": "AIDEEN",
+                "text": "This bears investigating, I reckon. I'm going to give you a firesand stick to blow off a piece of that crag. The stick doesn't come with a fuse or anything, so you'll have to <span class=\"emphasis\">throw</span> the thing. Once you've torn the rock a new one, bring back some of the fragments, and I'll give them a gander."
+            },
+            {
+                "name": "DUMMY",
+                "text": "(Use firesand on quest object.)"
+            },
+            {
+                "name": "DUMMY",
+                "text": "(Pick up fragments.)"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "Most folk are too scared to go within a hundred yalms of the <span class=\"emphasis\">Rock of Rancor</span>─aye, it has a name. But what's a few vengeful spirits to a dauntless adventurer like you, eh?"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "...Huh? Why, these are just your garden-variety crystals! 'Tis a bit hard to tell beneath all the dirt and grime, but they're definitely lightning-aspected."
+            },
+            {
+                "name": "AIDEEN",
+                "text": "I almost hate to say it, but that explains the flashing and moaning. Nothing to do with the masked stranger. Looks like I've gone and wasted both your time <span class=\"emphasis\">and</span> a perfectly good firesand stick. Oh, well..."
+            }
+        ],
+        "reward": {
+            "gil": 1320,
+            "xp": 12580
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                69400
+            ]
+        },
+        "next": [
+            66335
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006241",
+            "obj": {
+                "i": 1006241,
+                "n": "Aideen",
+                "l": 57,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69400",
+            "obj": {
+                "i": 69400,
+                "n": "Ziz Is So Ridiculous",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 150
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66335",
+            "obj": {
+                "i": 66335,
+                "n": "Power of Deduction",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 153
+            }
+        }
+    ]
+}

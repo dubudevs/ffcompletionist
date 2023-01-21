@@ -1,0 +1,186 @@
+{
+    "quest": {
+        "name": "A Step in the Right Direction",
+        "location": "The Dravanian Forelands",
+        "id": 67460,
+        "patch": 3.0,
+        "sort": 5704,
+        "icon": 100472,
+        "eventIcon": 71221,
+        "issuer": 1014502,
+        "target": 1014502,
+        "involved": [
+            1013364
+        ],
+        "genre": 98,
+        "journal": [
+            "Hervoix is looking at his list of tasks in disgust.",
+            "Next on Hervoix's list of tasks is the removal of iron leg traps that have been set up around a camp to the north. He ignores the obvious connection between chocobo traps and hunting, and insists that this should not be among a hunter's duties. Eager to push his work onto the nearest adventurer in need of coin, Hervoix enlists your aid. Head to the northern chocobo camp and ask any nearby hunters if they know aught of the reported traps.",
+            "At the camp you come across a hunter who explains that O'bhen Tia forcefully stopped him from removing the traps. It seems the chief was insistent upon letting his “apprentice” disable the traps himself. He says the traps were likely set by a band of outlaw hunters, as such traps are liable to injure the most profitable part of a chocobo: its legs. Go east of the camp and search for the traps, and be on guard for any hostile hunters along the way.",
+            "You are attacked by one of the outlaw hunters while you attempt to disable the traps, but you manage to complete your task relatively unscathed. Report to Hervoix, who is surely eager to be able to check off another job from his rather short list.",
+            "Hervoix, apparently unaware of the inherent danger of his occupation, is absolutely shocked that O'bhen Tia would ask him to perform any task that entails a degree of risk. Skeptical of his chief's aims, Hervoix returns to consider the next job he─or <span class=\"emphasis\">someone</span> else─will undertake."
+        ],
+        "objectives": [
+            "Speak with the Tailfeather hunter.",
+            "Remove the iron leg traps.",
+            "Report to Hervoix."
+        ],
+        "dialogue": [
+            {
+                "name": "HERVOIX",
+                "text": "Let's see here... What other mundane tasks did O'bhen Tia have in mind?"
+            },
+            {
+                "name": "HERVOIX",
+                "text": "“Some unscrupulous hunters have set up iron leg traps near the camp to the north. Get rid of them before any chocobos fall victim to the traps.”"
+            },
+            {
+                "name": "HERVOIX",
+                "text": "He...he expects a <span class=\"emphasis\">hunter</span> to be doing a job like this? Especially when there are so many <span class=\"emphasis\">adventurers</span> around..."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Wait a minute, <span class=\"emphasis\">you're</span> the most famous adventurer in Tailfeather! This shouldn't be too difficult a task for you, and there's still some coin left for a reward. How about lending your aid again?"
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Marvelous! Well, as the note said, there's a camp north of here. Might be some hunters around that could offer you advice about these traps."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Seems the traps were set up near the northern camp. The other hunters probably know more, ask them if they know anything."
+            },
+            {
+                "name": "HUNTER01780",
+                "text": "Yer lookin' for the iron leg traps? As a matter o' fact I was just about to get rid o' them meself, but then O'bhen Tia comes along, saying somethin' 'bout how he'll send his apprentice to do it. I take it that's <span class=\"emphasis\">you</span>."
+            },
+            {
+                "name": "HUNTER01780",
+                "text": "He seemed bloody insistent on keepin' me from doin' me job. They would've been gone days ago if not for him buttin' his nose in me business."
+            },
+            {
+                "name": "HUNTER01780",
+                "text": "But I've had enough o' waitin'─if ye wanna go get rid o' the traps then yer welcome to. Ye see, without their legs a chocobo's not much use to anyone, which is why traps o' that sort're forbidden amongst the hunters o' Tailfeather."
+            },
+            {
+                "name": "HUNTER01780",
+                "text": "Most like the traps were set up by some rogue group of hunters. Ain't no use tryin' to impose our rules or regulations on those sorts..."
+            },
+            {
+                "name": "HUNTER01780",
+                "text": "Anyroad, I seen three traps set up 'round the area. Mind you, I've no doubt those bastards what set up the traps could be skulkin' nearby, so make sure to bring a weapon!"
+            },
+            {
+                "name": "HUNTER01780",
+                "text": "I seen three iron leg traps set up 'round the area. Keep your guard up, those degenerate hunters ain't bound to be far away."
+            },
+            {
+                "name": "BALOON",
+                "text": "Get yer hands off of our traps!"
+            },
+            {
+                "name": "HERVOIX",
+                "text": "Ah, so you're done with those troublesome traps? I never doubted you for a second!"
+            },
+            {
+                "name": "HERVOIX",
+                "text": "What!? A renegade hunter attacked you!? To think that O'bhen Tia wanted <span class=\"emphasis\">me</span> to do such hazardous work... I could've been..."
+            },
+            {
+                "name": "HERVOIX",
+                "text": "What would he do, what would this <span class=\"emphasis\">whole camp</span> do, if my beautiful face were to suffer injury!? My thanks for sparing us all such a terrible fate, adventurer!"
+            }
+        ],
+        "reward": {
+            "gil": 502,
+            "items": [
+                {
+                    "id": 8163
+                }
+            ],
+            "xp": 38400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 57,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67189,
+                67458
+            ]
+        },
+        "next": [
+            67462
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1014502",
+            "obj": {
+                "i": 1014502,
+                "n": "Hervoix",
+                "l": 2000,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013364",
+            "obj": {
+                "i": 1013364,
+                "n": "Tailfeather Hunter",
+                "l": 2000,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "8163",
+            "obj": {
+                "i": 8163,
+                "n": "Han Lemon",
+                "l": 45,
+                "c": 25305,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67189",
+            "obj": {
+                "i": 67189,
+                "n": "Tataru's Surprise",
+                "g": 3,
+                "l": "Gridania",
+                "s": 78
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67458",
+            "obj": {
+                "i": 67458,
+                "n": "Getting a Legtrap Up",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5702
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67462",
+            "obj": {
+                "i": 67462,
+                "n": "A Hunter's True Nature",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5706
+            }
+        }
+    ]
+}

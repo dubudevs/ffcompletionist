@@ -1,0 +1,670 @@
+{
+    "quest": {
+        "name": "To Make Amends",
+        "location": "Kholusia",
+        "id": 69534,
+        "patch": 5.4,
+        "sort": 500,
+        "icon": 101041,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1034052,
+        "target": 1032227,
+        "genre": 24,
+        "journal": [
+            "Konogg is still looking considerably worse for his sister's absence.",
+            "Konogg, still inconsolable following the disappearance of his sister Anogg, explains that little has changed in Komra since last you spoke. This indeed seems to be the case, as several of the same villagers who previously spoke out against the twins soon arrive to further express their disgruntlement. Among them is a man you have not seen before, who hastens to chastise Konogg for his culpability in the tragedy that led to his wife's severe injury. Your dwarven friend is visibly shaken, and dissolves into tears on the spot.",
+            "With some effort and a few gentle pats on the back, you succeed in raising Konogg's spirits somewhat. He is determined to find a way to help the man and his wife, but fears that he will have little luck determining what might improve their situation while the other villagers are so ill-disposed toward civil conversation with him. Naturally, you volunteer to make inquiries in his stead.",
+            "You speak with two of the dwarves you saw previously, rightly guessing that they would have some idea of what might be of comfort to the injured parties. The answer─perhaps predictably─is alcohol, with mead being the beverage of choice.",
+            "Konogg is happy enough to seize upon the idea of a gift of mead for lack of any better ones, though the two of you soon realize that, with the village's liquor stores having gone up in flames, you will need to travel to Stilltide to purchase it. His sense of duty guides Konogg to insist on making the journey himself─with you as a guide, of course.",
+            "You meet Konogg outside of Komra to explain the route you will be taking to Stilltide. Despite the unfortunate circumstances surrounding it─or perhaps because of them─he seems eager to make the trip.",
+            "Konogg halts at the top of the Ladder to take in the sights. If they do not provide the enlightenment he seeks, perhaps you can.",
+            "At Konogg's insistence, you regale him with the tale of how you and the people of Norvrandt restored the massive device to functionality. It is unclear whether he is more inspired or intimidated by this, but in any case, he presses on.",
+            "Fortunately, you have not provided Konogg with detailed information on the location of the Leaky Keel, so he cannot dash away the moment you alight from the Ladder. Once you confirm the direction of your destination; however, he is filled with vigor at the prospect of nearing his goal, and does just that.",
+            "You find Konogg mentally fortifying himself outside the Leaky Keel. Whether he is intimidated at the prospect of entering an establishment so far from his village or simply trying to remember how to make a polite request after so long bossing an indulgent adventurer around is anyone's guess. Fortunately, he has no cause to worry, as Theva is charmed by his earnestness and kindly brings him a bottle of her finest mead.",
+            "Mead in hand, Konogg takes the lead back to the village. Unable to know what kind of reception the gift will earn, you elect to take him up on his offer to join him as he delivers it.",
+            "Konogg attempts to deliver the mead along with heartfelt sentiments, but the injured woman's husband will have none of it. His hopes of helping in some small way thoroughly dashed, Konogg flees, more distressed than ever.",
+            "As you attempt to chase down Konogg, you come upon a discarded bottle of mead─and then the dig site chief, who tells you that he but moments ago saw Konogg fleeing toward the crater. He asks that you continue your pursuit with haste, as the dwarf is in no state to be wandering around such a dangerous location.",
+            "Though you travel a fair distance into the Puppets' Bunker, you see no sign of Konogg. He must have been running as fast as his tiny legs could carry him.",
+            "You proceed to the command room, but still have yet to find Konogg─a worrying state of affairs indeed.",
+            "Deep within the alien ship, you at last locate Konogg...communing with a mysterious orb. The Echo provides some insight into the situation, though perhaps not as much as one would like: Anogg was caught in a rockslide and tumbled to the bottom of a cliff, only for her─or something identical─to appear before Konogg when he happened upon the strange white orb you now see. This raises a variety of vital questions, but as Konogg's safety is paramount, you convince him to return to the village for the time being.",
+            "Konogg insists that he is fine, despite being quite clearly anything but. It appears unlikely that you will get much else out of him.",
+            "You report what you have seen to the dig site chief, who assures you─and himself─that Anogg is surely alive and well, and will like as not return soon enough. He asks that you keep mum on the subject of the orb until Konogg has had time to recover, that there be no further cause for panic among the villagers."
+        ],
+        "objectives": [
+            "/comfort Konogg.",
+            "Speak with villagers that are a likely source of gossip.",
+            "Speak with Konogg.",
+            "Speak with Konogg again.",
+            "Speak with Konogg yet again.",
+            "Speak with Konogg at Top Rung.",
+            "Speak with─you guessed it─Konogg.",
+            "Speak with Konogg in Stilltide. (This time, with feeling.)",
+            "Speak with Konogg in Komra.",
+            "Speak with Konogg once more.",
+            "Search for Konogg.",
+            "Search for Konogg in the crater.",
+            "Search for Konogg in the command room.",
+            "Search for Konogg.",
+            "Speak with Konogg.",
+            "Speak with the dig site chief."
+        ],
+        "dialogue": [
+            {
+                "name": "KONOGG",
+                "text": "Here to see me? I appreciate it, but..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "I'm afraid I don't have much to tell you. There's still no sign of Anogg, and the villagers are...well, you know how they are."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Can't blame them, really. 2P used us─she said as much─but we were the ones who allowed ourselves to be manipulated. I keep thinking about what we might have done differently..."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "It serves no one to dwell on what could have been."
+            },
+            {
+                "name": "A1",
+                "text": "You can't change what you've done, but you can change what you do now."
+            },
+            {
+                "name": "KONOGG",
+                "text": "You're right. I have to fix this, somehow. Or at least try."
+            },
+            {
+                "name": "VILLAGERC03954",
+                "text": "What are you lazing about here for, Konogg? Where's Anogg?"
+            },
+            {
+                "name": "VILLAGERA03954",
+                "text": "She's still up to no good, I bet! And run off before we could make her own up to it!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Don't be ridiculous! Anogg, she's..."
+            },
+            {
+                "name": "VILLAGERG03954",
+                "text": "She's what?"
+            },
+            {
+                "name": "VILLAGERG03954",
+                "text": "Go on. Explain to us where exactly Anogg is."
+            },
+            {
+                "name": "KONOGG",
+                "text": "I..."
+            },
+            {
+                "name": "VILLAGERG03954",
+                "text": "Because I'll tell you where <span class=\"emphasis\">my wife</span> is... She's at death's door because of the injuries she suffered in the attack!"
+            },
+            {
+                "name": "VILLAGERG03954",
+                "text": "Even <span class=\"emphasis\">if</span> she wakes, she may never make a full recovery..."
+            },
+            {
+                "name": "VILLAGERG03954",
+                "text": "So if you know what's good for you, you'll get out of this village before I do something we'll both regret."
+            },
+            {
+                "name": "KONOGG",
+                "text": "..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "&lt;sob&gt;"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Konogg seems in dire need of <span class=\"highlight\">comfort</span>."
+            },
+            {
+                "name": "KONOGG",
+                "text": "I...&lt;sniff&gt; I..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Konogg is openly weeping. Someone ought to <span class=\"highlight\">comfort</span> him."
+            },
+            {
+                "name": "KONOGG",
+                "text": "&lt;sniff&gt; ...Sorry. I really shouldn't be wallowing."
+            },
+            {
+                "name": "KONOGG",
+                "text": "I wish I could do something to help...for that man and his wife, especially."
+            },
+            {
+                "name": "KONOGG",
+                "text": "But I don't know either of them well, and I doubt anyone is willing to talk to me now..."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "I'll ask around for you."
+            },
+            {
+                "name": "A2",
+                "text": "I'll see what I can do. But you owe me─double if anyone punches me in the face."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Really? Thank you!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "With a bit of luck, they'll open up to you. If there's anything I can do to make things better, anything at all..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "In the meantime, I'll find another way to make myself useful. It's not as if there's a shortage of rubble that needs clearing around here."
+            },
+            {
+                "name": "KONOGG",
+                "text": "I'm sure I can be of <span class=\"emphasis\">some</span> use...somehow..."
+            },
+            {
+                "name": "VILLAGERB03954",
+                "text": "Look who it is. I hope you're not up to more mischief with Anogg and Konogg."
+            },
+            {
+                "name": "VILLAGERB03954",
+                "text": "A woman with severe injuries and an angry husband... Yes, I know who you mean."
+            },
+            {
+                "name": "VILLAGERB03954",
+                "text": "I doubt there's much to be done, but I won't stop you from trying. Those two have always been inseparable─I don't think I've ever seen them <span class=\"emphasis\">not</span> holding hands. Can't imagine how he's feeling, now that she's in such a state."
+            },
+            {
+                "name": "VILLAGERB03954",
+                "text": "You're friends with the poor dears, aren't you?"
+            },
+            {
+                "name": "VILLAGERD03954",
+                "text": "The very best of friends. And how I long for those days we drank away, without a care in the world! She always loved the mead...we all did..."
+            },
+            {
+                "name": "VILLAGERD03954",
+                "text": "&lt;sniff&gt; It was good mead..."
+            },
+            {
+                "name": "VILLAGERB03954",
+                "text": "...That it was. There, there."
+            },
+            {
+                "name": "VILLAGERB03954",
+                "text": "Perhaps someday we'll be able to go back to the way things used to be."
+            },
+            {
+                "name": "VILLAGERD03954",
+                "text": "No...I'll never have that kind of peace of mind again."
+            },
+            {
+                "name": "KONOGG",
+                "text": "They talked to you? And no one got violent?"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Mead? I suppose we <span class=\"emphasis\">are</span> dwarves, so maybe it's not such a terrible idea. &lt;sigh&gt; But as far as I know, none of our stores survived the attack."
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "Down the cliff we go, then."
+            },
+            {
+                "name": "A3",
+                "text": "We can buy more in Stilltide."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Oh! If there's some available for purchase, I'd happily spend the coin. Can you show me the way?"
+            },
+            {
+                "name": "Q4",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A4",
+                "text": "I could go myself."
+            },
+            {
+                "name": "A4",
+                "text": "It's too dangerous for you out there."
+            },
+            {
+                "name": "KONOGG",
+                "text": "No! No, I insist. I've accompanied you to much more dangerous places before, and I assure you I won't be a burden. And...I need to do this. "
+            },
+            {
+                "name": "KONOGG",
+                "text": "I still have a few things to tidy away before I leave, so I'll meet you at the bridge in a bit."
+            },
+            {
+                "name": "KONOGG",
+                "text": "There you are! Now, if you'll show me the way?"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Ah, the Ladder! I've never used it before. This will be an adventure!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "The view is different outside of the village. Maybe I can find the perspective I need."
+            },
+            {
+                "name": "KONOGG",
+                "text": "It's massive! How in the world did you get this moving?"
+            },
+            {
+                "name": "Q5",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A5",
+                "text": "With a great deal of help."
+            },
+            {
+                "name": "A5",
+                "text": "I don't quite understand it myself. Luckily, I have people for that."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Well, go on! Tell me all about it!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "I had no idea all of that happened in Eulmore! And the Talos...marvelous!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "I wish I had your ability to bring out the best in people. Maybe then Komra wouldn't be..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Never mind. I thank you for your enlightening tale. And now...we descend!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Far be it from me to complain after having insisted upon accompanying you, but...are we there yet?"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Eastward it is, then."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Deep breaths, Konogg. Just act natural. Confident. You can do this. ...Yaaah!"
+            },
+            {
+                "name": "THEVA",
+                "text": "<span class=\"highlight\">Forename</span>! Good to see you."
+            },
+            {
+                "name": "THEVA",
+                "text": "Who's your friend? He seems...eager."
+            },
+            {
+                "name": "KONOGG",
+                "text": "L-Lali-ho! I would like some mead! Please! Ma'am!"
+            },
+            {
+                "name": "THEVA",
+                "text": "Well, I can't say “no” to one who asks so nicely...and any friend of <span class=\"highlight\">Forename</span>'s is welcome here. I'll bring out our finest."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Did you see? I did it! Ah, it feels so good to be working toward a goal again..."
+            },
+            {
+                "name": "THEVA",
+                "text": "Here we are."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Thank you, ma'am! I think this should be sufficient payment..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Let's hurry back. As exhilarating as this adventure has been, I want to make a gift of the mead right away."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Would you like to come with me? When I deliver the mead, I mean."
+            },
+            {
+                "name": "Q6",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A6",
+                "text": "Someone has to look out for you."
+            },
+            {
+                "name": "A6",
+                "text": "Of course I will."
+            },
+            {
+                "name": "KONOGG",
+                "text": "I appreciate it. I admit that I'm a bit nervous... But this is my chance to help, if only in a small way, so I have to take it."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Excuse us! We, um...we wanted to offer our best wishes. And...my sincere apology, as well."
+            },
+            {
+                "name": "KONOGG",
+                "text": "I know it doesn't come close to making up for what you've been through, but I brought you this. I thought that maybe you could share it...later..."
+            },
+            {
+                "name": "VILLAGERG03954",
+                "text": "..."
+            },
+            {
+                "name": "VILLAGERG03954",
+                "text": "Go away. We don't want anything from you."
+            },
+            {
+                "name": "KONOGG",
+                "text": "...Oh."
+            },
+            {
+                "name": "VILLAGERG03954",
+                "text": "All I <span class=\"emphasis\">want</span> is for you to <span class=\"emphasis\">sod off</span> so that me and my wife never have to see you again!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "I'm sorry..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Konogg sounded to be in considerable distress. You had best follow him lest he come to harm."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The bottle of mead that Konogg had so earnestly wished would cheer the unfortunate couple now lies forlorn."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "(-???-)Lali-we've got another situation in our beards-ho!"
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "Konogg just ran right past me toward the crater. I don't know about you, but I'd really rather not have him there by himself─especially not when he's so upset. I could hear the sobs from yalms away..."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "What's that all about?"
+            },
+            {
+                "name": "Q7",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A7",
+                "text": "There's this injured woman..."
+            },
+            {
+                "name": "A7",
+                "text": "The villagers still blame him for all of it..."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "Hmm... It's a tragic state of affairs all around."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "The man you met─his wife was with child before her injury. Can't blame him for lashing out, given the circumstances."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "But that doesn't mean Konogg deserves to take the brunt of it all."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "I'd consider it a personal favor if you'd find him and tell him so. ...<span class=\"emphasis\">Another</span> personal favor, at any rate."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "He's not the most athletic dwarf I've ever met, so with any luck he won't have gotten far while we've been talking."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "I'll go and have a word with certain folks in the village. See if we can't repair some of the damage that's been done."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "I've never seen Konogg so worked up. I hope he's all right..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You find no sign of the dwarf you seek─a state of affairs that you are becoming all too familiar with."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You've still to see so much as a wisp of beard disappearing round the corner. Konogg must be further down."
+            },
+            {
+                "name": "KONOGG",
+                "text": "A-Anogg..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Anogg! Look over here!"
+            },
+            {
+                "name": "ANOGG",
+                "text": "Don't run off, Konogg! It's dangerous. Let your big sister take the lead."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Waugh!"
+            },
+            {
+                "name": "ANOGG",
+                "text": "Wicked white! Konogg, move!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "A-Anogg? Anogg! Are you down there? I'm coming!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Anogg! Answer me!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "No..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "A-Anogg...? Are you behind this...thing?"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Anogg, please! Say something!"
+            },
+            {
+                "name": "ANOGG",
+                "text": "(-White Orb-)○! ※×□＃◇×○!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Wh-What?"
+            },
+            {
+                "name": "ANOGG",
+                "text": "(-Dwarf Facsimile-)◇! ○※□×※▽○!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Anogg! It's you...isn't it?"
+            },
+            {
+                "name": "ANOGG",
+                "text": "(-Dwarf Facsimile-)Ko...nogg."
+            },
+            {
+                "name": "Q8",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A8",
+                "text": "That thing from the orb can't be Anogg. I'm sorry."
+            },
+            {
+                "name": "A8",
+                "text": "Konogg... I think Anogg may be..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "How do you know? How did you even know about back when she─"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Never mind. It doesn't matter. <span class=\"emphasis\">Anogg</span> is what matters. Anogg, she..."
+            },
+            {
+                "name": "Q9",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A9",
+                "text": "I know. But you can't stay here."
+            },
+            {
+                "name": "A9",
+                "text": "Let's go home and take some time to think, all right?"
+            },
+            {
+                "name": "KONOGG",
+                "text": "Fine..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Sorry... I'm fine. Everything's fine."
+            },
+            {
+                "name": "KONOGG",
+                "text": "I just...need to be by myself for a while."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "Tell me you found him."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "What's the matter?"
+            },
+            {
+                "name": "Q10",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A10",
+                "text": "I'm afraid something has happened to Anogg..."
+            },
+            {
+                "name": "A10",
+                "text": "I don't know what I saw, but..."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "...She fell from a cliff, you say? And then when she reappeared from this “orb” there wasn't a scratch on her?"
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "I admit that sounds bad. But I found those two in these very tunnels myself, years ago."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "They were a pair of troublemakers since the start, and they've always been a little strange, to be sure. They have good hearts, though─both of them."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "Anogg's too headstrong to let a little tumble keep her down. And I'm certain she'll be back with us before you know it."
+            },
+            {
+                "name": "DWARFMASTER03671",
+                "text": "As for the orb...I haven't the slightest idea, so don't you go prodding it. And keep it quiet for now. We may not be able to keep Konogg from dashing off again later, but we can preserve the peace for now. "
+            }
+        ],
+        "reward": {
+            "gil": 1500
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69490
+            ]
+        },
+        "next": [
+            69570
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1034052",
+            "obj": {
+                "i": 1034052,
+                "n": "Konogg",
+                "l": 2954,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1032227",
+            "obj": {
+                "i": 1032227,
+                "n": "Dig Site Chief",
+                "l": 2954,
+                "q": 15
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69490",
+            "obj": {
+                "i": 69490,
+                "n": "Crime and Punishment",
+                "g": 24,
+                "l": "Anogg's Lair",
+                "s": 420,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69570",
+            "obj": {
+                "i": 69570,
+                "n": "Konogg, Alone",
+                "g": 24,
+                "l": "Kholusia",
+                "s": 600,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "quest": {
+        "name": "More than a Flesh Wound",
+        "location": "Central Shroud",
+        "id": 65708,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1000430,
+        "target": 1000430,
+        "genre": 92,
+        "usedItems": [
+            4552
+        ],
+        "journal": [
+            "Arold needs an adventurer to supply him with a hi-potion.",
+            "Arold, a Wood Wailer stationed at Gilbert's Spire, was mercilessly mauled by a scurry of squirrels and is in a bad way. Unfortunately, he's run out of hi-potions and cannot leave his post to obtain more from the merchant at the Bannock. Help Arold by bringing him the medication he needs.",
+            "Thanks to your kindness, Arold should make a swift recovery. Though his wounds will heal, he vows to remain vigilant, lest the Twelveswood punish his unwariness again."
+        ],
+        "objectives": [
+            "Give a hi-potion to Arold."
+        ],
+        "dialogue": [
+            {
+                "name": "AROLD",
+                "text": "Oh gods, the pain...<br>I caught a scurry of squirrels gnawing on the fences earlier. I managed to drive them off, but not before they decided to gnaw on <span class=\"emphasis\">me</span> instead! And now I'm the bloody mess you see before you."
+            },
+            {
+                "name": "AROLD",
+                "text": "To make matters worse, I find myself without so much as a single hi-potion. I know, I know...foolhardy. I vaguely recall using my last one after some trifling scrape several moons past... The gods alone know why I didn't think to replace it there and then. You wouldn't happen to be carrying a spare flask?"
+            },
+            {
+                "name": "AROLD",
+                "text": "If you don't have any on hand, the merchant at the Bannock should have some in her stock. I can't leave my post, so if you could bring me a hi-potion, I'd be tremendously grateful."
+            },
+            {
+                "name": "AROLD",
+                "text": "Seven hells, did those accursed squirrels leave any part of me untouched?<br>Ah, you're back! Do you have that hi-potion for me?"
+            },
+            {
+                "name": "AROLD",
+                "text": "Thank the gods! I owe you one, my friend. Here, I want you to have this."
+            },
+            {
+                "name": "AROLD",
+                "text": "I had no idea squirrels could bite so <span class=\"emphasis\">hard</span>! I thought I had seen everything, but it seems there are still surprises to be found in the Twelveswood. We both would do well to remember that."
+            }
+        ],
+        "reward": {
+            "gil": 146,
+            "items": [
+                {
+                    "id": 4305,
+                    "one": 1
+                },
+                {
+                    "id": 4306,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                69390
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000430",
+            "obj": {
+                "i": 1000430,
+                "n": "Arold",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4305",
+            "obj": {
+                "i": 4305,
+                "n": "Copper Gorget",
+                "l": 8,
+                "c": 54801,
+                "t": 40,
+                "p": 176
+            }
+        },
+        {
+            "type": "item",
+            "id": "4306",
+            "obj": {
+                "i": 4306,
+                "n": "Bone Necklace",
+                "l": 8,
+                "c": 54830,
+                "t": 40,
+                "p": 156
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69390",
+            "obj": {
+                "i": 69390,
+                "n": "Eggs over Queasy",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 24
+            }
+        }
+    ]
+}

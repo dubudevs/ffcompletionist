@@ -1,0 +1,661 @@
+{
+    "quest": {
+        "name": "Sultana Dreaming",
+        "location": "Rhalgr's Reach",
+        "id": 68139,
+        "patch": 4.0,
+        "sort": 700,
+        "icon": 100688,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1021131,
+        "target": 1021158,
+        "involved": [
+            1001821,
+            1012528,
+            1021133,
+            1021134,
+            1021135,
+            1021136,
+            1021151,
+            1021152,
+            1021153,
+            1021159,
+            1021160,
+            1021161
+        ],
+        "genre": 139,
+        "usedItems": [
+            17907,
+            17908
+        ],
+        "journal": [
+            "Emeloth has a message for you from your apprentices.",
+            "Emeloth informs you that your apprentices wish to consult you regarding the orchestrion they intend to make for the sultana. Seek the three of them out by Chakra Falls to the north, their favored gathering spot for furtive undertakings.",
+            "The apprentices reveal that they have already begun work on the orchestrion in secret, and they would like you and Emeloth to inspect the components they have each crafted. Take the three items to your deputy and have her assess their quality.",
+            "You present the three orchestrion components to Emeloth, who is astounded by the level of quality the apprentices were able to produce. While she believes they are capable of handling the rest themselves, she can appreciate the sentimental value in entrusting the finishing touches to you. See to this task and present Emeloth with the completed orchestrion.<br><br>※In the event you lose the materials or the synthesis ends in failure, you may try again by speaking with Kanchana.",
+            "The orchestrion meets with Emeloth's resounding approval. The gift is ready; all that remains is the giving of it, and Emeloth promises to arrange an audience with Nanamo. Go to the palace entrance on the Royal Promenade at the appointed hour, and make yourself known to the sultansworn Bartholomew.",
+            "You present the orchestrion to Nanamo, who is beside herself with delight. For in its elegant yet compact form she sees not only the object of her desire, but also the promise of a brighter future for Ala Mhigo. The audience thus happily concluded, Emeloth bids the members of the Crown Gemworks gather at the Goldsmiths' Guild.",
+            "Marcel arrives with the news that the knowledge of your gift to the sultana has swiftly gone public, and orders for identical orchestrions have since flooded Eshtaime's Aesthetics. Serendipity confesses to having told Momodi, an act tantamount to telling the whole of Ul'dah, but Marcel takes these developments in his stride and extends a supply deal to the apprentices─now apprentices no more. So it is that your role in their tale comes to an end. Yet near or far, you shall ever be their schoolmaster, and for the betterment of your art, see to it that you continue to blaze new trails as a goldsmith."
+        ],
+        "objectives": [
+            "Speak with J'khebica.",
+            "Speak with Wido.",
+            "Speak with Hal.",
+            "Show the apprentices' work to Emeloth.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize a tribute orchestrion <img class=\"hq-icon small\" src=\"images/item/hq.png\"></span><span class=\"alternative\">Deliver the tribute orchestrion <img class=\"hq-icon small\" src=\"images/item/hq.png\"> to Emeloth</span></span>.",
+            "Deliver the gift-wrapped orchestrion to Bartholomew in Ul'dah.",
+            "Speak with Emeloth at the Goldsmiths' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "EMELOTH",
+                "text": "Oh, Schoolmaster. Our apprentices wished to consult you regarding the orchestrion they intend to make for the sultana."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "You will find them over by Chakra Falls, their favored place to convene when they have something to hide."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "And while you are there, could you please tell them they are needed at the workshop? As it happens, they have other tasks requiring their attention."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "Our apprentices wished to consult you regarding the orchestrion. You will find them over by Chakra Falls, their favored place to convene when they have something to hide."
+            },
+            {
+                "name": "KANCHANA",
+                "text": "Another gathering at the waterfall? I say, what inssspired idea do they have this time?"
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "Ah, Schoolmaster <span class=\"highlight\">Surname</span>! You'll never guess, but we've already begun working on the orchestrion and without Miss Emeloth's knowledge because we wanted to see how well we could do by ourselves!"
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "Like before, we've divided up the tasks between the three of us and I'm in charge of the cylinder."
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "Each of the parts are ready already and all that remains is to join them together. Oh, and also apply the finishing touches and affix the gemstones, but these two things we'd like to entrust to you seeing as the Gemworks wouldn't be...well, the Gemworks without you!"
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "But before we get ahead of ourselves, we'd appreciate it if you and Miss Emeloth could examine our work to make certain everything is up to scratch."
+            },
+            {
+                "name": "WIDO",
+                "text": "Chief, mind takin' a look at this for me? It's the case for the orchestrion."
+            },
+            {
+                "name": "WIDO",
+                "text": "Fittin' the wooden bits together was a deal harder'n I expected, but I kept at it till it all came together. Or leastwise I think it did, heh!"
+            },
+            {
+                "name": "WIDO",
+                "text": "Eh, Miss Emeloth's needs us back? Ahhh, bugger, we was s'posed to unload the supplies. Knew I forgot somethin'..."
+            },
+            {
+                "name": "HAL",
+                "text": "So, er, we've been workin' on the orchestrion in secret. The adornments're my task, an' I was hopin' you could tell me how good─or shite─a job I did."
+            },
+            {
+                "name": "HAL",
+                "text": "At first we was thinkin' to make the whole thing together ourselves, but then we got to thinkin' some more."
+            },
+            {
+                "name": "HAL",
+                "text": "You an' Your Grace go back a long way, right? Well, it seemed to us the tribute'd be all the more special if you was to handle the finishing touches, attach the gemstones an' all that."
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "We like to think we've all done a half-decent job, but that's for you and Miss Emeloth to decide...so could the two of you take a look and decide?"
+            },
+            {
+                "name": "WIDO",
+                "text": "Was my first time workin' with wood, but I managed to put the case together somehow. Sure is a whole lot more to goldsmithin' than just metal and stone."
+            },
+            {
+                "name": "HAL",
+                "text": "The idea's to get the thing workin' between us three, but have you do the finishin' touches. That's to say, fix Her Grace's gemstones to it. That'd please her best, we reckon."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "You've spoken with our apprentices? So, what manner of mischief has been keeping them up late at night?"
+            },
+            {
+                "name": "EMELOTH",
+                "text": "...They made all of these completely unaided!? If they want my honest opinion, it's good enough to assemble and present to the sultana!"
+            },
+            {
+                "name": "EMELOTH",
+                "text": "With this degree of polish, there's no reason why they couldn't handle the rest themselves. Yet I can appreciate the sentimental value in entrusting the finishing touches and the gemstones to you."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "As our apprentices say, the Gemworks wouldn't be what it is without you, and as the sultana's personal friend, your involvement would imbue the tribute with greater meaning."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "In addition to symbolizing Her Grace's faith in us, the gemstones represent the cherished memories of her mother. If any one of us here should have the honor of breathing new life into them, it is you."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "With that, I shall leave you to it. Remember, should you require additional supplies, you need but speak with Kanchana. I look forward to beholding the finished orchestrion in all its glory."
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "I can't wait to see how the orchestrion will look when you've worked your magic on it!"
+            },
+            {
+                "name": "WIDO",
+                "text": "We're proud o' what we've put together, an' we're glad it's you as does the finishin' touches."
+            },
+            {
+                "name": "HAL",
+                "text": "You'll fix the gemstones for us? Yesss, our orchestrion's gonna be perfect!"
+            },
+            {
+                "name": "KANCHANA",
+                "text": "If you require more partsss, you tell Kanchana, yesss?"
+            },
+            {
+                "name": "KANCHANA",
+                "text": "Well, well, sssuch a sssweet little orchestrion you have."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "Is...is it ready, Schoolmaster? The orchestrion? Gods, I believe I am getting butterflies in spite of myself..."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "Oh, my, this is magnificent... A more refined and elegant orchestrion I have never seen! Why, I can already see it gracing the sultana's chamber, its music imbuing her slumber with sweet dreams..."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "Such a grand tribute calls for a grand occasion in which to present it, and as the creators, suffice it to say you and the apprentices must be in attendance."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "I shall arrange for the Crown Gemworks to have an audience with Her Grace. Until that time, let all keep the nature of the tribute in confidence."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "The orchestrion, I shall leave in your safekeeping, <span class=\"highlight\">Forename</span>. At the appointed hour, pray take it to the palace entrance on the Royal Promenade."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "State your business to the sultansworn on duty, and he will show you in. I shall see you there."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "I shall arrange for the Crown Gemworks to have an audience with Her Grace."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "At the appointed hour, pray take the orchestrion to the palace entrance on the Royal Promenade."
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "We've already done the hard yalms, but the final few ilms waiting to see how Her Grace reacts is excruciating!"
+            },
+            {
+                "name": "WIDO",
+                "text": "We've poured everythin' into the orchestrion. The sultana'll like it, I know she will."
+            },
+            {
+                "name": "HAL",
+                "text": "Wido says it's proper to wear a snowman suit when meetin' the sultana. I'll have to look into borrowin' one."
+            },
+            {
+                "name": "KANCHANA",
+                "text": "Enjoy your audience with the sssultana. I am liable to create a ssscene in Ul'dah, so I won't be joining you."
+            },
+            {
+                "name": "BARTHOLOMEW",
+                "text": "Ah, <span class=\"highlight\">Forename</span> of the Crown Gemworks, we have been expecting you. You have the─ahem─article to be presented, I trust?"
+            },
+            {
+                "name": "BARTHOLOMEW",
+                "text": "Very good. Lest you wonder, your colleagues have already arrived. I shall take you to join them. Her Grace will receive you in her chambers."
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "Be at ease, my friends."
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "I am informed you are come with a gift?"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Yes, Your Grace. A humble token of gratitude from the apprentice goldsmiths for the generosity you have shown them."
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "&lt;gasp&gt; Do mine eyes deceive?"
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "D-Does it not please you, Your Grace...?"
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "How should it not please me? 'Tis the very thing I desired, yet was resigned never to find!"
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "And the jewels that adorn it─they are familiar to me, and comfortingly so. Could they be...?"
+            },
+            {
+                "name": "EMELOTH",
+                "text": "Indeed, Your Grace. We took the liberty of using jewels from your lady mother's crown."
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "Ahem. May I...try it?"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Naught would please us more, Your Grace!"
+            },
+            {
+                "name": "MARCEL",
+                "text": "'Twas a collaboration between the apprentices, who crafted and assembled the primary components, and their schoolmaster, <span class=\"highlight\">Surname</span>, who handled the finishing touches."
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "I gave the crown willingly, expecting naught in return, yet here it is returned to me and reborn in magnificent form."
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "I am grateful beyond words. Not only for this gift, but also what it represents: your coming into your own as goldsmiths, ready to contribute to the future of your homeland."
+            },
+            {
+                "name": "NANAMOULNAMO",
+                "text": "From the first I had every faith in you, <span class=\"highlight\">Forename</span>, but even so I dared not hope that this day would come so soon. From the bottom of my heart, I thank you."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "A happier audience we couldn't have expected. Now then, ere we return to Rhalgr's Reach, may I suggest we gather at the Goldsmiths' Guild?"
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "I'm so happy that Her Grace was happy and we have you to thank for making it happen, Schoolmaster!"
+            },
+            {
+                "name": "WIDO",
+                "text": "Whew, felt myself turnin' red as a beet back there. Ain't used to such high praise...but I reckon I could grow to like it!"
+            },
+            {
+                "name": "HAL",
+                "text": "Damn, but that was a near thing. Got fishy when Wido wouldn't put a snowman suit on, so I took mine off right afore the audience."
+            },
+            {
+                "name": "KANCHANA",
+                "text": "Hal departed for Ul'dah wearing a sssnowman sssuit. To each his own, I sssuppose?"
+            },
+            {
+                "name": "BARTHOLOMEW",
+                "text": "I see that the audience went well. Her Grace was positively beaming as she departed."
+            },
+            {
+                "name": "MARCEL",
+                "text": "<span class=\"highlight\">Surname</span>, you have outdone yourself yet again─you and your apprentices both. Seldom have I seen the sultana so jubilant."
+            },
+            {
+                "name": "MARCEL",
+                "text": "Now, as much as I should like to stand here and chat, the shop has burst into activity. I must return to my duties, but we will speak again soon, I am sure."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "You set out to repay the sultana, and you have succeeded in the grandest fashion. I am truly happy for you."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "Master Marcel beheld the orchestrion for the first time and was deeply impressed. He makes his way here even as we speak, doubtless with words of praise. Though if I may add, when he called he sounded uncharacteristically flustered..."
+            },
+            {
+                "name": "MARCEL",
+                "text": "We have a situation on our hands!"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Oh dear, what could this be about?"
+            },
+            {
+                "name": "MARCEL",
+                "text": "No sooner did I return to Eshtaime's than I was flooded with orders for the selfsame orchestrion that you presented to the sultana."
+            },
+            {
+                "name": "MARCEL",
+                "text": "It seems that word has gotten out of the Crown Gemworks' tribute for Her Grace. While Ul'dah is naught if not rife with rumors, that it happened with such speed beggars belief."
+            },
+            {
+                "name": "EMELOTH",
+                "text": "That's passing odd. No one else was in attendance save ourselves, and afterwards we came directly to the guild."
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Oh, I'm so sorry! It was me! On the way here, I bumped into Momodi and I might've let it slip..."
+            },
+            {
+                "name": "MARCEL",
+                "text": "I see... If Miss Momodi knows, then 'tis fair to say that so does everyone."
+            },
+            {
+                "name": "MARCEL",
+                "text": "Far be it Her Grace's intent to publicize her initiative, but neither did she expressly forbid us from speaking. You've done no ill, Miss Serendipity."
+            },
+            {
+                "name": "MARCEL",
+                "text": "On the contrary, you've done extremely well─from the perspective of commerce. The merchant in me is fairly giddy at the opportunities this presents."
+            },
+            {
+                "name": "MARCEL",
+                "text": "So, what say you all? Might Eshtaime's Aesthetics have the honor of carrying Gemworks orchestrions as an Ala Mhigan specialty?"
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "Are you serious!?"
+            },
+            {
+                "name": "WIDO",
+                "text": "Our handiwork, sold at a prestigious place like Eshtaime's!? Are we ready for this!?"
+            },
+            {
+                "name": "HAL",
+                "text": "D-Don't worry, Brother! We've got the schoolmaster at our backs, remember?"
+            },
+            {
+                "name": "EMELOTH",
+                "text": "I think not. Lest you forget, my apprentices, <span class=\"emphasis\">you</span> are the heart of this initiative, and relying upon the schoolmaster would take the shine off your tale."
+            },
+            {
+                "name": "MARCEL",
+                "text": "I concur with that assessment. Furthermore, for all intents and purposes, a product synonymous with Ala Mhigo has been born this day."
+            },
+            {
+                "name": "MARCEL",
+                "text": "In other words, <span class=\"highlight\">Surname</span> has fulfilled <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> role as stipulated by the sultana, and with distinction besides. It would not be meet to demand more of <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>."
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "We'll manage by ourselves somehow, I know we will, so you needn't worry."
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Yes, that's the spirit!"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Now, even though <span class=\"highlight\">Forename</span> won't always be on hand like before, I'm sure <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span>'ll visit Rhalgr's Reach whenever <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span>'s able, and you may rest assured that Emeloth won't be going anywhere any time soon."
+            },
+            {
+                "name": "JKHEBICA",
+                "text": "Near or far, you'll always be our schoolmaster, Schoolmaster <span class=\"highlight\">Surname</span>, and we'll always be waiting for you!"
+            },
+            {
+                "name": "MARCEL",
+                "text": "Miss Emeloth, if I might trouble you for a moment of your time, I should very much like to discuss the matter of supply. And ere we go our separate ways, allow me to say to you all what an honor and a privilege it has been to be a part of this tale. Suffice it to say I shall continue to watch the Crown Gemworks with great interest and ever pray for its success. Till next time, my friends."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In finishing a goldsmithing masterpiece worthy of song, you have learned “Stroke of Genius”!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 5703
+                },
+                {
+                    "id": 5708
+                },
+                {
+                    "id": 5713
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 12
+                }
+            ],
+            "quests": [
+                68138
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1021131",
+            "obj": {
+                "i": 1021131,
+                "n": "Emeloth",
+                "l": 2403,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021158",
+            "obj": {
+                "i": 1021158,
+                "n": "Emeloth",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001821",
+            "obj": {
+                "i": 1001821,
+                "n": "Bartholomew",
+                "l": 41,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012528",
+            "obj": {
+                "i": 1012528,
+                "n": "Marcel",
+                "l": 41,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021133",
+            "obj": {
+                "i": 1021133,
+                "n": "Wido",
+                "l": 2403,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021134",
+            "obj": {
+                "i": 1021134,
+                "n": "Hal",
+                "l": 2403,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021135",
+            "obj": {
+                "i": 1021135,
+                "n": "Kanchana",
+                "l": 2403,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021136",
+            "obj": {
+                "i": 1021136,
+                "n": "J'khebica",
+                "l": 2403,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021151",
+            "obj": {
+                "i": 1021151,
+                "n": "J'khebica",
+                "l": 2403,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021152",
+            "obj": {
+                "i": 1021152,
+                "n": "Wido",
+                "l": 2403,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021153",
+            "obj": {
+                "i": 1021153,
+                "n": "Hal",
+                "l": 2403,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021159",
+            "obj": {
+                "i": 1021159,
+                "n": "J'khebica",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021160",
+            "obj": {
+                "i": 1021160,
+                "n": "Wido",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021161",
+            "obj": {
+                "i": 1021161,
+                "n": "Hal",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5703",
+            "obj": {
+                "i": 5703,
+                "n": "Craftsman's Competence Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 11,
+                    "attr": "Craftsmanship",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5708",
+            "obj": {
+                "i": 5708,
+                "n": "Craftsman's Cunning Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "CP",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5713",
+            "obj": {
+                "i": 5713,
+                "n": "Craftsman's Command Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 7,
+                    "attr": "Control",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "17907",
+            "obj": {
+                "i": 17907,
+                "n": "Orchestrion Materials",
+                "l": 290,
+                "c": 21002,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "17908",
+            "obj": {
+                "i": 17908,
+                "n": "Tribute Orchestrion",
+                "l": 290,
+                "c": 26107,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68138",
+            "obj": {
+                "i": 68138,
+                "n": "The Perfect Tribute",
+                "g": 139,
+                "l": "Rhalgr's Reach",
+                "s": 680,
+                "f": 1
+            }
+        }
+    ]
+}

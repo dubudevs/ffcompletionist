@@ -1,0 +1,111 @@
+{
+    "quest": {
+        "name": "No Tool Gets Left Behind",
+        "location": "Western Thanalan",
+        "id": 66040,
+        "patch": 2.0,
+        "sort": 110,
+        "eventIcon": 71221,
+        "issuer": 1002062,
+        "target": 1002062,
+        "genre": 93,
+        "journal": [
+            "Torrid Whisper at Copperbell Mines has lost his mining tools.",
+            "In the chaos of escaping from the mines, Torrid Whisper left behind his sharpened pickaxe, old hammer, and heavy sledgehammer. Find the three tools and return them to their distraught owner.",
+            "You have gathered all three of the mining tools. Deliver them to Torrid Whisper at Copperbell Mines.",
+            "Reunited with his beloved tools, Torrid Whisper resolves to search for work elsewhere in Eorzea."
+        ],
+        "objectives": [
+            "Find the sharpened pickaxe.",
+            "Find the old hammer.",
+            "Find the heavy sledgehammer.",
+            "Return the mining tools to Torrid Whisper."
+        ],
+        "dialogue": [
+            {
+                "name": "SOLIDTRUNK",
+                "text": "Adventurer, please! A moment, if you would. Do you mean to go into the mines?"
+            },
+            {
+                "name": "SOLIDTRUNK",
+                "text": "I fled for my life when the coblyns came, and only now realized that I left my tools behind."
+            },
+            {
+                "name": "SOLIDTRUNK",
+                "text": "Please, you must retrieve them for me─my sharpened pickaxe, old hammer, and heavy sledgehammer. Without them, my life is as good as over!"
+            },
+            {
+                "name": "SOLIDTRUNK",
+                "text": "Please find my sharpened pickaxe, old hammer, and heavy sledgehammer. They mean more to me than life itself!"
+            },
+            {
+                "name": "SOLIDTRUNK",
+                "text": "Gods bless you, you found them! Oh, my beauties... I thought I'd lost you forever."
+            },
+            {
+                "name": "SOLIDTRUNK",
+                "text": "Mining's all I've ever done. It's all I know. With Copperbell what it is now, it's time to move on elsewhere, but without my tools... I just couldn't."
+            },
+            {
+                "name": "SOLIDTRUNK",
+                "text": "I can't thank you enough, friend. You've done more for me than you could ever know."
+            }
+        ],
+        "reward": {
+            "gil": 173,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 4555
+                }
+            ],
+            "xp": 2100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65864
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002062",
+            "obj": {
+                "i": 1002062,
+                "n": "Torrid Whisper",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65864",
+            "obj": {
+                "i": 65864,
+                "n": "Supply and Demands",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 46
+            }
+        }
+    ]
+}

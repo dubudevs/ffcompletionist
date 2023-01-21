@@ -1,0 +1,152 @@
+{
+    "quest": {
+        "name": "Cleaning House",
+        "location": "The Churning Mists",
+        "id": 67417,
+        "patch": 3.1,
+        "sort": 5605,
+        "icon": 100479,
+        "eventIcon": 71221,
+        "issuer": 1013560,
+        "target": 1013569,
+        "involved": [
+            1013561
+        ],
+        "genre": 100,
+        "journal": [
+            "Maenne needs someone to check on her scouts.",
+            "Maenne needs an extra hand to check up on the scouts dispatched to the northeast whilst she takes care of wounded dragoons in a different area of the Rookery. Head towards Easton Eyes and speak to the scouting party dragoon for news of their progress.",
+            "It seems that the blood dragons are making it difficult for the scouting party to make any progress at all. Slay three of them so the dragoons can continue their mission unscathed.",
+            "Thanks to your wealth of experience in the field of dragonslaying, you make quick work of the blood dragons. Report back to the scouting party dragoon to see if he made good on his promise to kill as many dragons as you.",
+            "The scouting dragoon is amazed that you made such quick work of the dragons, and is grateful that they are finally able to make a foothold in such dangerous territory."
+        ],
+        "objectives": [
+            "Speak with the northeastern scouting party dragoon.",
+            "Slay blood dragons.",
+            "Report to the northeastern scouting party dragoon."
+        ],
+        "dialogue": [
+            {
+                "name": "AIRPORTINVESTIGATOR01871",
+                "text": "Several scouts have gone ahead of the rest of us. I pray for their safety."
+            },
+            {
+                "name": "MAENNE",
+                "text": "<span class=\"highlight\">Forename</span>, we have need of your aid once again. A unit of scouts has been dispatched to the northeast, and I would have you bolster their strength."
+            },
+            {
+                "name": "MAENNE",
+                "text": "I was meant to go myself, but I've received a report that a dragoon from another scouting party was wounded. I will go and assist them."
+            },
+            {
+                "name": "MAENNE",
+                "text": "I apologize the burden must fall on you, but we have no other choice. Godsspeed, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "MAENNE",
+                "text": "Hurry to the northeast to support our scouts there. Godsspeed, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "REMAINSINVESTIGATOR01871",
+                "text": "Ah, the mighty <span class=\"highlight\">Forename</span> has come to our aid! Maenne had sent word that she would come herself, but to have the adventurer who slew Nidhogg come is an unexpected godssend."
+            },
+            {
+                "name": "REMAINSINVESTIGATOR01871",
+                "text": "We hope to use this area as a base for our scouting missions, but the blood dragons stalking about are making things a bit difficult. Mayhap you could help us by slaying, say, three of them? I'll try to keep up with you!"
+            },
+            {
+                "name": "REMAINSINVESTIGATOR01871",
+                "text": "We can't very well continue on with our mission if the blood dragons keep smashing our tools. If you take down three of them that should give us the room we require."
+            },
+            {
+                "name": "REMAINSINVESTIGATOR01871",
+                "text": "You made quick work of those dragons─I was only able to slay one myself! We should be able to begin scouting in earnest now, thanks to you."
+            }
+        ],
+        "reward": {
+            "gil": 527,
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67414
+            ]
+        },
+        "next": [
+            67418
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013560",
+            "obj": {
+                "i": 1013560,
+                "n": "Maenne",
+                "l": 2002,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013569",
+            "obj": {
+                "i": 1013569,
+                "n": "Northeastern Scouting Party Dragoon",
+                "l": 2002,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013561",
+            "obj": {
+                "i": 1013561,
+                "n": "Scouting Party Dragoon",
+                "l": 2002,
+                "q": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67414",
+            "obj": {
+                "i": 67414,
+                "n": "Bitter Is the Night",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5604
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67418",
+            "obj": {
+                "i": 67418,
+                "n": "Finders Keepers",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5606
+            }
+        }
+    ]
+}

@@ -1,0 +1,602 @@
+{
+    "quest": {
+        "name": "The Hero's Journey",
+        "location": "The Crystarium",
+        "id": 69522,
+        "patch": 5.4,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1030837,
+        "target": 1030644,
+        "genre": 79,
+        "journal": [
+            "Cyella is not finished with you yet.",
+            "Cyella speaks to you of Unukalhai, a fellow lost soul from the Thirteenth shard. Though he formerly served Elidibus, with the emissary gone, he will be wanting for purpose─a feeling Cyella knows all too well. Concerned for the boy's well-being, she asks that you offer him your support when next you meet in the Source.",
+            "You find Unukalhai in the Rising Stones. It seems he too remembers Cyella─who he knows as Cylva─fondly from their meeting after the fall of the Thirteenth, and is indeed at a loose end as she speculated. In light of both of these truths, he wonders if he mightn't seek her counsel as to what course he should pursue next. The two of you ask the opinion of Urianger, who confirms that this could theoretically be accomplished with the use of a spirit vessel, and agrees to perform the necessary magicks.",
+            "After only a short wait, Urianger presents you with Unukalhai's spirit vessel. He mentions that transferring the boy into the vessel posed little problem, as he─much like the Ascians with whom you have become so familiar─is a spirit without permanent corporeal form, but cautions you that this very state may pose a problem for Unukalhai at some point in the future.",
+            "After crossing to the First, you seek out Beq Lugg. Though they are a bit put out by your recklessness in bringing another soul across the rift, they confirm that they can draw Unukalhai from the vessel and reconstitute him. At your insistence, they also agree to meet you at the Wandering Stairs when the task is accomplished, that you might drop a hint to Cyella in the meantime.",
+            "You keep Cyella waiting in suspense for longer than intended before Beq Lugg and Unukalhai make their appearance. When the discussion turns to the history of the Thirteenth, he wonders aloud if it might not be possible to restore balance to that world in the same way you did for the First. Beq Lugg suggests that a thorough understanding of the state of affairs there is necessary to truly know one way or the other. For that, however, you will need to open a gate to the void.",
+            "Taynor, resident expert on hollows and the creation thereof, is thankfully not far away, and Unukalhai wastes no time in asking him if he can open a voidgate. Taynor is initially reticent, pointing out that he is unable to perform a spell of the necessary power without assistance, and that it took him and Nyelbert years of training before they were able to do any such thing─but Cyella suggests that Unukalhai use his talent to intuit via aether the memories and emotions that remain in Nyelbert's crystal. This enables him to understand much of what is required for the technique, as well as how badly Nyelbert wanted to save Taynor from his accidental exile. Moved by his friend's dedication, Taynor is inspired to join hands with Unukalhai and put the power to create hollows to good use at last."
+        ],
+        "objectives": [
+            "Speak with Unukalhai in the Rising Stones.",
+            "Find a decent spot to await Urianger's return.",
+            "Deliver Unukalhai's spirit vessel to Beq Lugg at the Cabinet of Curiosity.",
+            "Speak with Cyella.",
+            "Speak with Taynor."
+        ],
+        "dialogue": [
+            {
+                "name": "CYELLA",
+                "text": "Seeing the lot of you together like that─it reminds me of the old days. Ardbert and the rest, drinking and bickering and laughing... Drove each other half-mad at times, but there was never any question of who'd be there when times got tough."
+            },
+            {
+                "name": "CYELLA",
+                "text": "Can't help but wonder, can I? If I'd had companions like that back home, could it have been saved?"
+            },
+            {
+                "name": "CYELLA",
+                "text": "I'm not the only one who tried, though each of us stood alone. There was Unukalhai..."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "We've met. He was working with Elidibus at the time."
+            },
+            {
+                "name": "A1",
+                "text": "That nigh-unpronounceable name sounds familiar..."
+            },
+            {
+                "name": "CYELLA",
+                "text": "Yes... He, too, was one would-be savior of the Thirteenth, and was spared his fated demise by Ascian devices."
+            },
+            {
+                "name": "CYELLA",
+                "text": "Another would-be savior of the Thirteenth─a young man. He was plucked from the jaws of death by Elidibus, and last I knew, had gone to the Source to serve as his herald."
+            },
+            {
+                "name": "CYELLA",
+                "text": "We spoke once, after the destruction of our world. If the others could be saved, we thought, we yet had parts to play."
+            },
+            {
+                "name": "CYELLA",
+                "text": "What he's up to now that Elidibus is gone, though, I have no idea. Has he found himself a new role, as I have? Or does he feel as adrift as we were back then?"
+            },
+            {
+                "name": "CYELLA",
+                "text": "If you encounter him in the Source, I ask that you help him find a way forward─just as you have helped all of us here."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Well met, <span class=\"highlight\">Forename</span>. What brings you here today?"
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Urianger did apprise me of your travels in the First. And of what became of Elidibus, at long last..."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "But I was not aware that you were working with Cylva."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "I consider her a comrade of sorts, though our time together was short. Looking upon the twisted remains of the world you tried to save creates a bond that few can understand."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "At that time, we spoke of what we could hope to achieve with our newfound immortality...and of our regrets."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Though I then believed what had happened to be the natural result of my age and inexperience, I now think this was merely the least painful explanation I could offer myself."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Cylva is right─we ought to have sought each other out before it was too late."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "I would not make the same mistake again. With the Warring Triad gone, I am indeed in need of new purpose. But to seek it alone is folly."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "I should like to speak with Cylva─assuming such a thing is possible. As I mentioned, she understands how I feel more than any other."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "There may be a way..."
+            },
+            {
+                "name": "A2",
+                "text": "Of course. All I require is <span class=\"emphasis\">your soul</span>..."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "You speak of the spirit vessel, correct? The means by which the Scions returned to the Source."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "If I understand the principles at work correctly, then it was a near miracle that you succeeded in bringing them back without killing them."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "If Elidibus is to be believed, however, my current state makes me something of an exception in matters of life and death!"
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "In which case, there is naught to be lost from making the attempt. Please, say you'll help."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "We need an expert in spirit vessels."
+            },
+            {
+                "name": "A2",
+                "text": "I have absolutely no idea what I'm doing!"
+            },
+            {
+                "name": "URIANGER",
+                "text": "Pray forgive the delay. Thou didst seek my council?"
+            },
+            {
+                "name": "URIANGER",
+                "text": "Aye, the gifts granted young Unukalhai by Hydaelyn and the Ascians may prove a boon in easing the transition."
+            },
+            {
+                "name": "URIANGER",
+                "text": "However, I know not to what extent, nor what might befall thy spirit should it be lost betwixt worlds."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Nevertheless...I know that this is my path forward. Please, Urianger."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Very well. If thou believest that thou shalt find new purpose in the First, I will do all in my power to see thee safely there."
+            },
+            {
+                "name": "URIANGER",
+                "text": "We shall be but a few moments. Mayhap a worthy tome might keep thee occupied whilst I perform the necessary magicks?"
+            },
+            {
+                "name": "CYELLA",
+                "text": "Obviously the boy can't take up work in a tavern, but there must be some means to start him toward a new goal."
+            },
+            {
+                "name": "URIANGER",
+                "text": "'Tis done. Pray guard his vessel well."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Unukalhai is as I and the other Scions were on the First─a soul with form, yet no true body. Thus 'twas a simple matter to transfer him to the vessel using the selfsame process as before."
+            },
+            {
+                "name": "URIANGER",
+                "text": "To withdraw his essence once across the rift ought to prove similarly straightforward. However..."
+            },
+            {
+                "name": "URIANGER",
+                "text": "I fear that such an existence cannot sustain itself indefinitely. Look to the Ascians' example─their persistent use of flesh-and-blood vessels surely hath cause."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Be it danger akin to that which would have befallen us had we not returned to the Source, I know not─but the time may come when the boy requireth a fully corporeal form."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Should this come to pass, I trust that thou shalt come to his aid."
+            },
+            {
+                "name": "URIANGER",
+                "text": "For the moment, however, thou needst only convey the spirit vessel to Beq Lugg. Farewell...both of thee."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Back again, are you? I'm flattered that you've grown so fond of Norvrandt─or I would be, but you have that expression you lot always wear when you're about to ask me for something..."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "You did <span class=\"emphasis\">what</span>!?"
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "After all of the perils your friends faced, and the labors we undertook to return them to your world, you've brought another soul across the rift? Have you no common sense?"
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "Nope!"
+            },
+            {
+                "name": "A3",
+                "text": "It's fiiine. Just work your magic! Magicks. Whichever."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "...Clearly. Nevertheless, for my own peace of mind, I'll assume you have a compelling reason for this."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "There had better be a very compelling reason for all of this, whelp."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Removing spirit from vessel will be easy enough, I suppose."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "However, it requires a few moments without your breathing down my neck. Also, your friend is unlikely to materialize with clothes on, so I doubt they'll want an audience. You should wait here─perhaps take the opportunity for some self-reflection?"
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Oh, very well. At least I tried. We'll find you at the Wandering Stairs directly, then."
+            },
+            {
+                "name": "CYELLA",
+                "text": "You want me to speak with someone? Very well─you've done the same at my request often enough."
+            },
+            {
+                "name": "CYELLA",
+                "text": "How long are we meant to wait for this friend of yours? I do have work to do, you know."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Ah, here you are. Pardon the delay─it took some time to acquire robes of an appropriate size."
+            },
+            {
+                "name": "CYELLA",
+                "text": "Is this them?"
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Cylva!"
+            },
+            {
+                "name": "CYELLA",
+                "text": "Wh─ Unukalhai!?"
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Indeed, it is I. Trust me─I can hardly believe that I'm here myself!"
+            },
+            {
+                "name": "CYELLA",
+                "text": "I should think so! When I sent <span class=\"highlight\">Forename</span> to ask after you, it never occurred to me that you might be able to cross the rift without Ascian aid..."
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "No mysterious mask?"
+            },
+            {
+                "name": "A3",
+                "text": "Lost your taste for subterfuge, I see."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "My choices and my reasons are my own, now."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "If I am to have faith in them─in myself─I cannot hide who I am."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Speaking of which..."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Unukalhai was kind enough to fill me in─unlike <span class=\"emphasis\">some</span>─and I was interested to hear of an erstwhile hero of the Thirteenth serving libations at the Wandering Stairs. But that this hero should be <span class=\"emphasis\">you</span> surpasses the scope of even my considerable imaginings!"
+            },
+            {
+                "name": "CYELLA",
+                "text": "Was that you at Gruenes Licht? So long ago?"
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Not so long to me...or you, mayhap. Though I had thought I might at last put those days behind me."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "...But perhaps this is for the best. They're not all bad memories."
+            },
+            {
+                "name": "CYELLA",
+                "text": "They never are."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "I should very much like to hear <span class=\"emphasis\">your</span> story─should you be willing to share it."
+            },
+            {
+                "name": "CYELLA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "CYELLA",
+                "text": "Our world, like this one, had its share of would-be heroes, myself and Unukalhai among them. Unlike your Warriors of Light, however, each was unaware of─or unconcerned with─our fellows."
+            },
+            {
+                "name": "CYELLA",
+                "text": "But to fight alone is to fall alone, and the insidious aether of the auracite used to seal primals corrupted once-noble souls and turned them, one by one, to Darkness."
+            },
+            {
+                "name": "CYELLA",
+                "text": "Even those who resisted this fate could not escape its consequences─no surprise, perhaps, as we continued to struggle in solitude. We were spared by Ascian machinations...but only as our world met its death."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "...But what if that death could be undone? I was told that much of the First was consumed by Light, as our home was by Darkness, yet balance and life are being restored to even that scoured land they call “the Empty.”"
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "...But what if that death could be undone? I was told that much of the First was consumed by Light, as our home was by Darkness, yet the night has returned to this world."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "If such a thing is possible, then why not the reverse? Could we not bring Light back to the Thirteenth?"
+            },
+            {
+                "name": "CYELLA",
+                "text": "Even the Ascians considered the Thirteenth lost. Thus was it excluded from the Rejoining..."
+            },
+            {
+                "name": "CYELLA",
+                "text": "But what say you? You have a way of making miracles happen."
+            },
+            {
+                "name": "Q4",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A4",
+                "text": "Anything is possible."
+            },
+            {
+                "name": "A4",
+                "text": "The World of Darkness was not in a state I'd consider salvageable."
+            },
+            {
+                "name": "CYELLA",
+                "text": "That doesn't sound like an empty platitude, coming from you. It was the same with Ardbert..."
+            },
+            {
+                "name": "CYELLA",
+                "text": "You speak almost as though you've really seen it. Wait..."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Pardon the interruption, but might I suggest a closer examination of conditions on the Thirteenth before we form any conclusions?"
+            },
+            {
+                "name": "Q5",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A5",
+                "text": "How would we go about that safely?"
+            },
+            {
+                "name": "A5",
+                "text": "We could use the Crystal Tower to open a voidgate, couldn't we? Please?"
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Have you lost your head!? The Crystal Tower is <span class=\"emphasis\">not</span> a toy, and you are <span class=\"emphasis\">not</span> to use it to unleash great and terrible voidsent upon this world!"
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "According to the records, there was a group who worked out how to open small voidgates, through which to summon minor fell beasts and the like. Magicks of that nature should work, though I am unsure if any with knowledge of the original technique yet live..."
+            },
+            {
+                "name": "Q6",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A6",
+                "text": "That sounds familiar..."
+            },
+            {
+                "name": "A6",
+                "text": "There's one right over there."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "How fortunate! Let us inquire with this “Taynor” immediately."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Yes, you do that. In the meantime, I will ready a means for peering into the depths of the void without endangering ourselves. Use these to contact me when you're prepared to open the gate."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "We shall─at the very first opportunity, I promise!"
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "If you've no inclination to explain yourself further, begone with you."
+            },
+            {
+                "name": "TAYNOR",
+                "text": "It's always a pleasure, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "CERIGG",
+                "text": "Aye. But who's your friend? I don't believe we've met."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "We have not, as I'm not from this world. The situation is rather complicated, but I hope that you might be willing to assist me..."
+            },
+            {
+                "name": "TAYNOR",
+                "text": "Hmm. It is true that we had the means to open such portals."
+            },
+            {
+                "name": "TAYNOR",
+                "text": "We call them “hollows,” and it was through one of these that I was drawn into the rift..."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "So it is possible!"
+            },
+            {
+                "name": "TAYNOR",
+                "text": "Not with my power alone. I understand the greatness of your need, and were Nyelbert still at my side, I should be glad to make the attempt, but the technique required the combined force of our energies in resonance."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "If one person's magicks are insufficient, perhaps I could assist. From what I can sense, our aetherial reserves are roughly equivalent, and our physical similarities suggest that our energies are not incompatible..."
+            },
+            {
+                "name": "TAYNOR",
+                "text": "I fear you underestimate the difficulty of the task. Nyelbert and I were born for this, and even so, it took us years before our efforts were perfectly in step."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "I realize that it's a lot to ask considering that we've just met, but could we not at least attempt it?"
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Yours is the only such magic I've ever heard of, and if we might actually be able to save my home..."
+            },
+            {
+                "name": "CYELLA",
+                "text": "May I interject?"
+            },
+            {
+                "name": "CYELLA",
+                "text": "You will recall that the crystals in my possession preserve the memories of the former Warriors of Light, including Nyelbert's, in aetherial form."
+            },
+            {
+                "name": "CYELLA",
+                "text": "And Unukalhai here has a particular talent for interpreting the minds and motives of aetherial beings─the primals."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "If I could apply the same principles to interpret Nyelbert's crystal..."
+            },
+            {
+                "name": "CYELLA",
+                "text": "An experiment worth trying, at the least. I'll fetch it."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Speak to me, Nyelbert..."
+            },
+            {
+                "name": "CYELLA",
+                "text": "Do his memories of training with Taynor remain?"
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "They do... And such strong sentiment with them..."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Taynor... You should know that Nyelbert desired nothing so much as to rescue you, his dearest friend. He held so fiercely to his memories of the technique you mastered together because he hoped they might be your salvation."
+            },
+            {
+                "name": "TAYNOR",
+                "text": "Oh, Nyelbert. I..."
+            },
+            {
+                "name": "TAYNOR",
+                "text": "...I won't let them go to waste. I will do what I can to help see the Thirteenth restored."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Thank you."
+            },
+            {
+                "name": "CERIGG",
+                "text": "I won't pretend I understand the half of what's going on here. Just keep them from running headlong into anything too dangerous, will you?"
+            },
+            {
+                "name": "CERIGG",
+                "text": "Nothing to worry about so long as you're around, I'm sure."
+            },
+            {
+                "name": "CYELLA",
+                "text": "Wicked white! I nearly forgot─I've half a dozen orders to fill. You know where to find me when you've made progress with the gate."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "What a fascinating place to spend one's days. I should love to hear more about the patrons that have passed through."
+            },
+            {
+                "name": "CYELLA",
+                "text": "He really hasn't aged a day! Not that it should surprise me, of all people, but..."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "I do so enjoy a new project..."
+            }
+        ],
+        "reward": {
+            "gil": 3053
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 142
+                }
+            ]
+        },
+        "next": [
+            69523
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1030837",
+            "obj": {
+                "i": 1030837,
+                "n": "Cyella",
+                "l": 2951,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1030644",
+            "obj": {
+                "i": 1030644,
+                "n": "Taynor",
+                "l": 2951,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69523",
+            "obj": {
+                "i": 69523,
+                "n": "One Step Closer",
+                "g": 79,
+                "l": "The Crystarium",
+                "s": 20
+            }
+        }
+    ]
+}

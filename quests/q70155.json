@@ -1,0 +1,102 @@
+{
+    "quest": {
+        "name": "A Grebuloff Out of Water",
+        "location": "Ultima Thule",
+        "id": 70155,
+        "patch": 6.25,
+        "sort": 113,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 16,
+        "eventIcon": 71222,
+        "issuer": 1043417,
+        "target": 1043417,
+        "genre": 31,
+        "journal": [
+            "Stigma-4 would make an urgent request.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Place the parched Grebuloff in the humectant body bag.",
+            "Deliver the humectant body bag to Stigma-4."
+        ],
+        "dialogue": [
+            {
+                "name": "STIGMA4",
+                "text": "Requesting assistance for an urgent matter. A Grebuloff unit ventured off to another star in hopes of catching larger fish. Its transceiver has since stopped responding. Search and rescue must be initiated."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Standard water reserves are ill-suited for such a prolonged expedition. Subject is likely to suffer from advanced desiccation, resulting in loss of bodily functions."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Please locate the missing unit and place it in this humectant body bag. Moisture levels should remain stable until your return, at which point appropriate medical care may be administered."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Subject was last sighted near the Ea village. To ensure preservation of life, it is imperative that the Grebuloff be found quickly."
+            },
+            {
+                "name": "GREBULOFF04619",
+                "text": "W-Water... Water..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Grebuloff lies prone on the ground, seemingly dying of thirst. You ready the body bag..."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "Return confirmed. Please present the body bag for a preemptive medical scan."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "...Scan complete. Though hydration levels are severely depreciated, vital signs remain stable."
+            },
+            {
+                "name": "STIGMA4",
+                "text": "To prevent similar incidents from occurring in the future, all Grebuloffs will be required to carry additional water reserves when embarking on expeditions. Those that fail to comply will be viewed as hostile elements subject to immediate termination.<br>Thank you for your cooperation. Please rest well."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "id": 37854
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 32
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1043417",
+            "obj": {
+                "i": 1043417,
+                "n": "Stigma-4",
+                "l": 3712,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "37854",
+            "obj": {
+                "i": 37854,
+                "n": "Omicron Omnitoken",
+                "l": 1,
+                "c": "t/65095",
+                "t": 100
+            }
+        }
+    ]
+}

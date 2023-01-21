@@ -1,0 +1,193 @@
+{
+    "quest": {
+        "name": "Way of the Miner",
+        "location": "Ul'dah",
+        "id": 66133,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100058,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1002282,
+        "target": 1002298,
+        "genre": 144,
+        "journal": [
+            "Linette wishes you to reaffirm your desire to join the Miners' Guild.",
+            "You have been referred to Adalberta, the master of the Miners' Guild. Meet her at the bar.",
+            "Adalberta warmly welcomes you to the guild, and presents you with your very own─very <span class=\"emphasis\">old</span>─pickaxe. Take up the tool of your new trade, and speak with the guildmaster again to be issued your first task."
+        ],
+        "objectives": [
+            "Speak with Adalberta, the master of the Miners' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "LINETTE",
+                "text": "So, are you ready to join the Miners' Guild?"
+            },
+            {
+                "name": "LINETTE",
+                "text": "Oh. Are you quite certain? I felt sure that you were destined to make the next big find... I pictured you grinning next to a lump of gold the size of your head."
+            },
+            {
+                "name": "LINETTE",
+                "text": "'Tis truly a shame, but if you still have your doubts, there is no help for it. Should you be struck by a sudden desire to amass untold wealth, I shall be here to help."
+            },
+            {
+                "name": "LINETTE",
+                "text": "Music to my ears! Aye, the kind made when one's pickaxe strikes gold!"
+            },
+            {
+                "name": "LINETTE",
+                "text": "You must introduce yourself to Guildmaster Adalberta right away."
+            },
+            {
+                "name": "LINETTE",
+                "text": "Her approval is required if you are to be formally admitted to our ranks."
+            },
+            {
+                "name": "LINETTE",
+                "text": "In case you're unaware, Adalberta is perhaps the most accomplished of those miners who still swing a pickaxe."
+            },
+            {
+                "name": "LINETTE",
+                "text": "Her understanding of our trade is unsurpassed, and her flair for prospecting uncanny. Her brain, in short, is a veritable <span class=\"emphasis\">gold mine</span> of knowledge─much of it concerning the mining of gold.<br>...Ha ha! Jesting apart, you stand to learn a great deal from her."
+            },
+            {
+                "name": "LINETTE",
+                "text": "When you are ready, pray present yourself to Adalberta. You will find her down the steps yonder, over by the bar."
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "Well met, adventurer. Adalberta's my name, and I'm the master of this guild."
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "I take it you wish to become a miner. Well, our doors are open to all who aren't afraid to work hard and get dirty."
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "Thanks to recent advances in refining techniques, it's now possible to smelt even low-purity ores. I mention this because it's allowed us to reopen a number of mines which were long thought exhausted, prompting trade to flourish."
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "Truth be told, with business as it is at the moment, we can't take on enough new miners. And few folk make better miners than adventurers, you being a hardy lot."
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "What's more, you're well traveled, which serves to expand the guild's sphere of activity. Oh, but I'm not suggesting you join solely for <span class=\"emphasis\">our</span> benefit."
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "For your part, you'll acquire skills that will prove to your profit─a mutually beneficial arrangement, I trust you'll agree. So what say you? You will join us, yes?"
+            },
+            {
+                "name": "Q1",
+                "text": "Ready to work hard and get dirty?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A2",
+                "text": "No"
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "This is...unexpected. You have so much to gain and nothing to lose. Won't you reconsider?"
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "Then I bid you welcome to the Miners' Guild! May your toils never go unrewarded!"
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "Now then, here's a pickaxe to get you started. It's not the newest, but it should serve a novice well enough."
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "Go on and take it up─see how it feels in your hands."
+            },
+            {
+                "name": "ADALBERTA",
+                "text": "Speak to me again when you're ready, and I'll assign you a little task to help you get into the swing of things."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2519
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65728
+            ]
+        },
+        "next": [
+            66135
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002282",
+            "obj": {
+                "i": 1002282,
+                "n": "Linette",
+                "l": 41,
+                "q": 4,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002298",
+            "obj": {
+                "i": 1002298,
+                "n": "Adalberta",
+                "l": 41,
+                "q": 16,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2519",
+            "obj": {
+                "i": 2519,
+                "n": "Weathered Pickaxe",
+                "l": 1,
+                "c": 38003,
+                "t": 28,
+                "p": 71
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65728",
+            "obj": {
+                "i": 65728,
+                "n": "So You Want to Be a Miner",
+                "g": 0,
+                "l": "Ul'dah - Steps of Thal",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66135",
+            "obj": {
+                "i": 66135,
+                "n": "My First Pickaxe",
+                "g": 144,
+                "l": "Ul'dah",
+                "s": 11,
+                "f": 1
+            }
+        }
+    ]
+}

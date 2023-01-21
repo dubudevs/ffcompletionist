@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Recycling",
+        "location": "Azys Lla",
+        "id": 67525,
+        "patch": 3.0,
+        "sort": 5911,
+        "eventIcon": 71221,
+        "issuer": 1012295,
+        "target": 1012295,
+        "genre": 102,
+        "journal": [
+            "The Allagan assembly node is jittering impatiently.",
+            "The Allagan assembly node has run out of raw materials to continue its work. Due to the lack of resources, it has asked you to destroy three steel giants so that they may be recycled and the parts used in this system's manufacturing process.",
+            "You destroy the steel giants as required. Inform the assembly node that they are ready for reclamation.",
+            "The assembly node confirms your decommissioning of the steel giants but is unable to identify any parts suitable for salvage and soon returns to repeating the same statements it was announcing upon your approach."
+        ],
+        "objectives": [
+            "Slay Mark III magitek colossi.",
+            "Report to the assembly node."
+        ],
+        "dialogue": [
+            {
+                "name": "MANUFACTURINGSYSTEM",
+                "text": "&lt;beep&gt; &lt;beep&gt; Insufficient materials to continue manufacturing. Please provide additional materials.<br>&lt;beep&gt; &lt;beep&gt; Insufficient materials to continue manufacturing. Please provide additional materials."
+            },
+            {
+                "name": "MANUFACTURINGSYSTEM",
+                "text": "If raw materials are not available, they can be reclaimed from unneeded equipment. Please destroy three steel giants to allow reclamation of their constituent parts."
+            },
+            {
+                "name": "MANUFACTURINGSYSTEM",
+                "text": "Please destroy three steel giants to allow their constituent parts to be reclaimed so that manufacturing may continue."
+            },
+            {
+                "name": "MANUFACTURINGSYSTEM",
+                "text": "Confirming destruction of unneeded equipment... &lt;blip&gt; &lt;blip&gt; Confirmed.<br>Verifying integrity of salvageable parts... &lt;beep&gt; Unable to confirm quality of materials. Unable to continue manufacturing."
+            }
+        ],
+        "reward": {
+            "gil": 577,
+            "items": [
+                {
+                    "id": 12864
+                },
+                {
+                    "num": 3,
+                    "id": 9333,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 7574,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4720,
+                    "one": 1
+                }
+            ],
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67202
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012295",
+            "obj": {
+                "i": 1012295,
+                "n": "Assembly Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "12864",
+            "obj": {
+                "i": 12864,
+                "n": "Clam Chowder",
+                "l": 150,
+                "c": 24114,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "9333",
+            "obj": {
+                "i": 9333,
+                "n": "Shark Fin Soup",
+                "l": 90,
+                "c": 24115,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "7574",
+            "obj": {
+                "i": 7574,
+                "n": "Chilled Popoto Soup",
+                "l": 70,
+                "c": 24114,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4720",
+            "obj": {
+                "i": 4720,
+                "n": "Fish Soup",
+                "l": 43,
+                "c": 24105,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67202",
+            "obj": {
+                "i": 67202,
+                "n": "Chimerical Maintenance",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 91
+            }
+        }
+    ]
+}

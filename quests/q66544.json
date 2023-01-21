@@ -1,0 +1,193 @@
+{
+    "quest": {
+        "name": "Who Was That Man in Black",
+        "location": "Gridania",
+        "id": 66544,
+        "patch": 2.0,
+        "sort": 460,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1003061,
+        "target": 1003061,
+        "involved": [
+            1000122,
+            1000156,
+            1000195,
+            1000372,
+            1000423
+        ],
+        "genre": 92,
+        "journal": [
+            "Bowlord Lewin would have you ascertain the veracity of the ominous rumors circulating about Gridania of late.",
+            "Rumors of a ghostly presence in the Shroud have struck fear into the hearts of the Gridanian populace. Speak to the residents to see if there is any credible information to be had.",
+            "You have succeeded in gathering information from the townspeople. Convey what you have learned to Bowlord Lewin.",
+            "Bowlord Lewin is grateful for your efforts, but it would appear your findings have put him ill at ease. That which strikes fear into the heart of the Bowlord must be a grave threat indeed."
+        ],
+        "objectives": [
+            "Gather information from the residents of Gridania.",
+            "Report your findings to Lewin."
+        ],
+        "dialogue": [
+            {
+                "name": "LEWIN",
+                "text": "I shall proceed directly to the matter at hand. Though still unsubstantiated, ill rumors stir amongst the townspeople of late─rumors of a shadow-clad knight who rides in the Shroud."
+            },
+            {
+                "name": "LEWIN",
+                "text": "Under normal circumstances, I would pay such idle ghost stories little heed. This time, however, we have reason to suspect..."
+            },
+            {
+                "name": "LEWIN",
+                "text": "...But we have naught to gain by rushing to judgment. I would have you go to the streets, <span class=\"highlight\">Surname</span>. Speak with the people, and hear their words with your own ears."
+            },
+            {
+                "name": "CHANSTELOUP",
+                "text": "The ghost knight? Aye, I saw him. Clad from head to toe in armor that seemed forged from shadow itself, galloping through the Shroud atop his hells-born steed."
+            },
+            {
+                "name": "CHANSTELOUP",
+                "text": "Mark my words─the trees themselves were quivering in fear that night. I've not slept a wink since I returned."
+            },
+            {
+                "name": "TATASOSA",
+                "text": "Eeeyaaah! D-Don't sneak up on me like that, friend!"
+            },
+            {
+                "name": "TATASOSA",
+                "text": "Forgive me─ever since espying a glimpse of that ghastly horseman, my heart won't stop racing. I knew the elementals would punish us sooner or later for daring to disobey their will. This is surely a sign of sinister happenings to come."
+            },
+            {
+                "name": "HONORAINT",
+                "text": "Aye, saw him clear as day─or clear as night, ye might say─with me own two eyes. More fearsome than the rider was his ghastly steed─I know not where ye've traveled, but I can assure you ye've not seen more frightenin' a beast. One thing I can tell ye, friend─that was no specter or shadow. Nay, he was as solid as you or me."
+            },
+            {
+                "name": "AEDAN",
+                "text": "Yes, I saw the black knight─after which I promptly fled for my dear life. Should you end up in my position, you'd be wise to do the same."
+            },
+            {
+                "name": "AEDAN",
+                "text": "I have my pride, but I am not fool enough to cast my life away. Besides, one look was enough to know─this is a manifestation of pure evil. Were he to turn that massive sword against Gridania, all of our lances as one could not hope to stand in his way."
+            },
+            {
+                "name": "LEWIN",
+                "text": "A knight clad in shadow-forged armor. A mammoth sword and hells-born steed. It is clear now─our worst forebodings have proven most unfortunately prescient."
+            },
+            {
+                "name": "Q1",
+                "text": "Proceed to the Seat of the First Bow?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            }
+        ],
+        "reward": {
+            "gil": 1694,
+            "xp": 12925
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66543
+            ]
+        },
+        "next": [
+            66545
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003061",
+            "obj": {
+                "i": 1003061,
+                "n": "Lewin",
+                "l": 346,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000122",
+            "obj": {
+                "i": 1000122,
+                "n": "Honoraint",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000156",
+            "obj": {
+                "i": 1000156,
+                "n": "Aedan",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000195",
+            "obj": {
+                "i": 1000195,
+                "n": "Chansteloup",
+                "l": 52,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000372",
+            "obj": {
+                "i": 1000372,
+                "n": "Tatasosa",
+                "l": 52,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000423",
+            "obj": {
+                "i": 1000423,
+                "n": "Gods' Quiver Bow",
+                "l": 52,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66543",
+            "obj": {
+                "i": 66543,
+                "n": "Primal Fear",
+                "g": 93,
+                "l": "The Waking Sands",
+                "s": 460,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66545",
+            "obj": {
+                "i": 66545,
+                "n": "The Dark Divinity",
+                "g": 92,
+                "l": "Gridania",
+                "s": 460,
+                "f": 1
+            }
+        }
+    ]
+}

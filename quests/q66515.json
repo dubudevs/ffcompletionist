@@ -1,0 +1,116 @@
+{
+    "quest": {
+        "name": "Fort of Fear",
+        "location": "Coerthas Central Highlands",
+        "id": 66515,
+        "patch": 2.0,
+        "sort": 440,
+        "icon": 112013,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006382,
+        "target": 1006516,
+        "genre": 94,
+        "journal": [
+            "There are dark places that only an adventurer may illume, and Ser Carrilaut is about to point the way to one such pit of peril.",
+            "According to Ser Carrilaut, the unfinished keep of House Dzemael is much troubled by the continued presence of voidsent in the area. In readiness of your acquiescence, Ser Carrilaut has arranged for someone to meet you there. Speak with Ser Ophelie at the entrance to the Darkhold.",
+            "Ser Ophelie has eagerly granted you permission to explore Dzemael Darkhold. Take up the challenge, but remember the oath you swore on your first day as an adventurer.<br><br>※Dzemael Darkhold can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Speak with Ophelie at Dzemael Darkhold."
+        ],
+        "dialogue": [
+            {
+                "name": "CARRILAUT",
+                "text": "I have heard much of your doings, and I think you the <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> for this task."
+            },
+            {
+                "name": "CARRILAUT",
+                "text": "To the west is Dzemael Darkhold. 'Twas meant to serve as the new keep of Lord Dzemael, ever a friend to House Durendaire."
+            },
+            {
+                "name": "CARRILAUT",
+                "text": "But before the masons and carpenters could complete their work within the caves, hordes of voidsent appeared and drove them out. In the years since, the creatures have consolidated their presence."
+            },
+            {
+                "name": "CARRILAUT",
+                "text": "As such, we officially petition your assistance in reclaiming the Darkhold. All arrangements have been made; you need only give your assent. Speak with Ser Ophelie at the ingress if you are with us, and she will tell you what you need to know."
+            },
+            {
+                "name": "OPHELIE",
+                "text": "Welcome to Dzemael Darkhold, built to withstand all Dravanian ploys and plans! These were natural caves behind me until House Dzemael began to enlarge, connect, and fashion them into a stronghold."
+            },
+            {
+                "name": "OPHELIE",
+                "text": "Alas and alack, the voidsent struck, interrupting the work─alas! Then, in the confusion, Garleans infiltrated the keep─alack! All in all, 'twas a fine mess!"
+            },
+            {
+                "name": "OPHELIE",
+                "text": "The Garleans were eventually forced into retreat, of course, but the voidsent remain. And so the fortress goes uncompleted, a home for abominations! Woe, woe is us!"
+            },
+            {
+                "name": "OPHELIE",
+                "text": "Yet the war with the dragons rages, and we have no knights to spare for this noble mission! Even I am here strictly on a very long <span class=\"alternative-container\"><span class=\"alternative\">teatime</span><span class=\"alternative\">morning respite</span><span class=\"alternative\">lunch break</span></span> arranged by Ser Carrilaut!"
+            },
+            {
+                "name": "OPHELIE",
+                "text": "Please see to these abominations, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span> adventurer, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>! I have much prowess with the paperwork, should you require aid of that sort!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have unlocked the Duty Finder! This feature allows you to undertake multiplayer duties without having to form a party on your own."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To bring up the Duty Finder interface, select <span class=\"highlight\">Duty Finder</span> under <span class=\"highlight\">Duty</span> from the <span class=\"highlight\">main menu</span>."
+            }
+        ],
+        "reward": {
+            "gil": 1729,
+            "instance": 13,
+            "xp": 12190
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 41,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006382",
+            "obj": {
+                "i": 1006382,
+                "n": "Carrilaut",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006516",
+            "obj": {
+                "i": 1006516,
+                "n": "Ophelie",
+                "l": 63,
+                "q": 4
+            }
+        },
+        {
+            "type": "instance",
+            "id": "13",
+            "obj": {
+                "i": 13,
+                "n": "Dzemael Darkhold",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 44,
+                "max_lvl": 46
+            }
+        }
+    ]
+}

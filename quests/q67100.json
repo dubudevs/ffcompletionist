@@ -1,0 +1,131 @@
+{
+    "quest": {
+        "name": "Let the Hunt Begin (Maelstrom)",
+        "location": "Limsa Lominsa",
+        "id": 67100,
+        "patch": 2.3,
+        "sort": 500,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1003550,
+        "target": 1009552,
+        "genre": 190,
+        "journal": [
+            "Lieutenant Trachraet detects in you a certain whiff of brine and vinegar, a perfect cure for the realm's plague of villainy.",
+            "According to Lieutenant Trachraet, the Eorzean Alliance has instituted a bounty system referred to as the Hunt. For the piquant particulars of this most challenging venture, seek out the Hunt billmaster within Maelstrom Command.",
+            "The Hunt billmaster tells you what you need to know of the Hunt. Though all the talk of pudding and death is discomfiting, it is good to know someone you can turn to for information─or to spend your hard-earned Allied Seals. Do your part to preserve the peace, and you will be richly rewarded."
+        ],
+        "objectives": [
+            "Speak with the Hunt billmaster at Maelstrom Command."
+        ],
+        "dialogue": [
+            {
+                "name": "TRACHRAET",
+                "text": "I'll wager a salty swab such as yerself'd be keen to know what went on at the big parley. Upshot is, the Eorzean Alliance's called for the 'Unts!<br>...What's that? <span class=\"emphasis\">'Unts</span>, I said, like with 'arpoons an' narwhals."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "The 'Unt be a system what puts a bounty on them what flout the law. It don't matter whether they be men or beasts. If ye slay the troublemaker, ye get a reward."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "Aye, it's a nice bit o' cooperation. O' course, we still fight like squid and whales out in the 'interlands. If the Alliance thinks that people 'aven't noticed, the lot of 'em are drunk on seawater."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "But that's neither 'ere nor there for ye. Nay, 'tis the 'Unt we need ye for. Put down some marks, contribute to the peace─the commonfolk'll thank ye for it."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "If ye've got a mind to learn more, 'ead on into Maelstrom Command an' speak with the 'Unt billmaster. The bloke can tell ye all about the details."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "Aye, there's fair bounty to be 'ad in the 'Unt. If ye've got a mind to learn more, 'ead on into Maelstrom Command an' speak with the 'Unt billmaster."
+            },
+            {
+                "name": "MOBOFFICER",
+                "text": "Care to sign on to a hunt? Excellent, excellent. You appear suitably flinty-eyed and rough-knuckled. Bear with me as I cover the basics."
+            },
+            {
+                "name": "MOBOFFICER",
+                "text": "The Hunt board is your first step, quite so. These bills you see─each one represents a mark that can be hunted for bounty."
+            },
+            {
+                "name": "MOBOFFICER",
+                "text": "Your keen eyes will have noticed that there are not one but two kinds of bills: regular and elite. The latter is rather more challenging, and before you go after one of them, you may want to consult a hunter-scholar. These people are veterans of the Hunt who can recite the Raimdelle Codex by heart."
+            },
+            {
+                "name": "MOBOFFICER",
+                "text": "The rest is straightforward: slay the mark, complete the hunt. For each kill, you'll receive a sum in Allied Seals, which can be used to purchase exclusive wares."
+            },
+            {
+                "name": "MOBOFFICER",
+                "text": "I hope you won't hesitate to return. In addition to exchanging the seals for rewards, I am ever ready to explain the Hunt in greater detail."
+            },
+            {
+                "name": "MOBOFFICER",
+                "text": "The best of luck to you, adventurer, till sea swallows all. And take heart! I've heard it said that many go to the Hunt, and <span class=\"emphasis\">most</span> return alive!"
+            }
+        ],
+        "reward": {
+            "gil": 433,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "gc": 1,
+            "gcrank": 9
+        },
+        "next": [
+            67655
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003550",
+            "obj": {
+                "i": 1003550,
+                "n": "Trachraet",
+                "l": 28,
+                "q": 8,
+                "t": "Storm Lieutenant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009552",
+            "obj": {
+                "i": 1009552,
+                "n": "Hunt Billmaster",
+                "l": 28,
+                "s": 4,
+                "q": 2,
+                "r": 1,
+                "a": 1802,
+                "c": [
+                    13.17,
+                    12.46
+                ]
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67655",
+            "obj": {
+                "i": 67655,
+                "n": "Let the Clan Hunt Begin",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 15301,
+                "f": 1
+            }
+        }
+    ]
+}

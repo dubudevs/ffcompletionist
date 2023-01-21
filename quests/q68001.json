@@ -1,0 +1,272 @@
+{
+    "quest": {
+        "name": "Bereft of Hearth and Home",
+        "location": "Rhalgr's Reach",
+        "id": 68001,
+        "patch": 4.0,
+        "sort": 200,
+        "eventIcon": 71201,
+        "issuer": 1020420,
+        "target": 1020422,
+        "involved": [
+            1019486,
+            1020412,
+            1020414,
+            1020415,
+            1020416,
+            1020417,
+            1020419
+        ],
+        "genre": 6,
+        "journal": [
+            "Rhalgr's Reach is no longer safe, as Pipin well knows."
+        ],
+        "objectives": [
+            "Speak with Orella.",
+            "Search the infirmary for medical supplies.",
+            "Give the medical supplies to the Flame courier."
+        ],
+        "dialogue": [
+            {
+                "name": "CONRAD",
+                "text": "I'll recover. My injuries aren't serious─though that was clearly by choice and not happenstance. They meant to take me alive."
+            },
+            {
+                "name": "KRILE",
+                "text": "You're worried about Y'shtola, aren't you? &lt;sigh&gt; It's too early to make any kind of prognosis, but...she's alive. For now."
+            },
+            {
+                "name": "LYSE",
+                "text": "If it wasn't for her, it'd be me lying there...<br><span class=\"emphasis\">...I wish it was.</span>"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "..."
+            },
+            {
+                "name": "PIPIN",
+                "text": "Our defeat was no near thing. It was total─a humiliation. We were powerless to withstand our enemy's assault."
+            },
+            {
+                "name": "PIPIN",
+                "text": "But we cannot afford to dwell on our failure. As Alphinaud said, it is those who survived whom we must think of now."
+            },
+            {
+                "name": "PIPIN",
+                "text": "Rhalgr's Reach is no longer safe. The imperials may have withdrawn, but they could return at any time to finish what they began. We dare not remain here."
+            },
+            {
+                "name": "PIPIN",
+                "text": "Those who are not fit to make the journey to Castrum Oriens will need to be taken by chocobo carriage. Agreed?"
+            },
+            {
+                "name": "PIPIN",
+                "text": "Good. I shall oversee preparations for the carriages. In the meantime, I would have you scour the infirmary for any supplies that might prove useful during the journey."
+            },
+            {
+                "name": "ORELLA",
+                "text": "Forgive me, but it is imperative that I continue preparing medicines for the wounded. If you desire treatment, I must ask that you seek it elsewhere."
+            },
+            {
+                "name": "ORELLA",
+                "text": "Oh, I see... In that case, you are free to search the Barber and take that which you require. I would not have our people dying en route."
+            },
+            {
+                "name": "ORELLA",
+                "text": "I would assist you, but this process demands my undivided attention."
+            },
+            {
+                "name": "ORELLA",
+                "text": "Take whatever you require for your needs. I will replenish the stock after."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "We're to move the wounded to Castrum Oriens? Understood. I'll go and see if anyone requires assistance."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I will accompany Commander Kemp in one of the carriages."
+            },
+            {
+                "name": "CONRAD",
+                "text": "No, no, I'd hate to be a burden..."
+            },
+            {
+                "name": "KRILE",
+                "text": "We'll need to carry Y'shtola to the carriage. Could you give me a hand, Lyse?"
+            },
+            {
+                "name": "LYSE",
+                "text": "As if you need to ask!"
+            },
+            {
+                "name": "FLAMECOURIER",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">[GC Rank]</span><span class=\"alternative\"> <span class=\"highlight\">Surname</span></span><span class=\"alternative\">Miss</span><span class=\"alternative\">Sir</span></span>. Marshal Tarupin said you might have something for me?"
+            },
+            {
+                "name": "FLAMECOURIER",
+                "text": "Twelve be praised. This should put the drivers' hearts at ease. Tell the vice marshal we await his orders."
+            },
+            {
+                "name": "KRILE",
+                "text": "Y'shtola and the others are safely strapped in. Don't worry─I'll be by her side the entire time."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Thank you, Krile."
+            },
+            {
+                "name": "LYSE",
+                "text": "I'll walk alongside. They'll need protection in case the Garleans try anything."
+            },
+            {
+                "name": "LYSE",
+                "text": "Hang on. You're injured too, aren't you? Shouldn't you be in one of the carriages?"
+            },
+            {
+                "name": "CONRAD",
+                "text": "I'm not so frail that I can't make the trip on my own. Besides, there's still work to be done here. I'll see you at the Wall when it's finished."
+            },
+            {
+                "name": "PIPIN",
+                "text": "As you wish. Then let us set forth at once. We shall move as quickly as our comrades' health allows."
+            },
+            {
+                "name": "PIPIN",
+                "text": "To Castrum Oriens!"
+            }
+        ],
+        "reward": {
+            "gil": 589,
+            "xp": 175500
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 61,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68000
+            ]
+        },
+        "next": [
+            68002
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1020420",
+            "obj": {
+                "i": 1020420,
+                "n": "Pipin",
+                "l": 2403,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020422",
+            "obj": {
+                "i": 1020422,
+                "n": "Flame Courier",
+                "l": 2403,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019486",
+            "obj": {
+                "i": 1019486,
+                "n": "Orella",
+                "l": 2403,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020412",
+            "obj": {
+                "i": 1020412,
+                "n": "Alphinaud",
+                "l": 2403,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020414",
+            "obj": {
+                "i": 1020414,
+                "n": "Lyse",
+                "l": 2403,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020415",
+            "obj": {
+                "i": 1020415,
+                "n": "Y'shtola",
+                "l": 2403,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020416",
+            "obj": {
+                "i": 1020416,
+                "n": "Conrad",
+                "l": 2403,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020417",
+            "obj": {
+                "i": 1020417,
+                "n": "Krile",
+                "l": 2403,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020419",
+            "obj": {
+                "i": 1020419,
+                "n": "Alisaie",
+                "l": 2403,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68000",
+            "obj": {
+                "i": 68000,
+                "n": "The Fires Fade",
+                "g": 6,
+                "l": "Rhalgr's Reach",
+                "s": 190
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68002",
+            "obj": {
+                "i": 68002,
+                "n": "Divide and Conquer",
+                "g": 6,
+                "l": "Rhalgr's Reach",
+                "s": 210
+            }
+        }
+    ]
+}

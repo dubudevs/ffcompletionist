@@ -1,0 +1,620 @@
+{
+    "quest": {
+        "name": "Systematic Exploration",
+        "location": "Azys Lla",
+        "id": 67200,
+        "patch": 3.0,
+        "sort": 89,
+        "eventIcon": 71201,
+        "issuer": 1012792,
+        "target": 1014675,
+        "involved": [
+            1012789,
+            1012790,
+            1012791,
+            1012793,
+            1013264,
+            1013265,
+            1013266,
+            1013267,
+            1013268,
+            1015134,
+            1015135,
+            1015136,
+            1015137
+        ],
+        "genre": 3,
+        "journal": [
+            "Cid looks like a man with a plan.",
+            "Having established a base camp, Cid suggests that you find one of the terminals connected to the isle's operational heart. Search the area for an active terminal.",
+            "Your search has yielded nothing. Return to base camp and report to Cid.",
+            "As he ponders your report, Cid notices with a start that Wedge has wandered off without a word. Help him find his absent-minded colleague before trouble does.",
+            "You find Wedge, who in his turn has found a curious spherical...<span class=\"emphasis\">thing</span>, which turns out to be a “guidance node.” Ask Cid what he makes of this discovery.",
+            "With a little prompting, the node furnishes you with a destination: the Aetherochemical Research Facility, situated upon the Flagship. Though it is unclear what the archbishop seeks in the area marked “Triad Control,” you can be sure no good will come of it."
+        ],
+        "objectives": [
+            "Search for an active terminal.",
+            "Speak with Cid.",
+            "Search for Wedge.",
+            "Speak with Cid."
+        ],
+        "dialogue": [
+            {
+                "name": "CID",
+                "text": "First of all, in the interests of efficiency, I suggest we make this place our base camp. We can coordinate the search for the archbishop from here."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I have no objections. Now that we stand upon Azys Lla, I am struck by the vastness of the isle. We must needs be methodical if we are to find our quarry."
+            },
+            {
+                "name": "CID",
+                "text": "Good. Now, unless I'm mistaken, this used to be an airship landing, and a major one at that. From what I know of Allagan design, there should be a terminal nearby that's linked to the isle's operational heart."
+            },
+            {
+                "name": "CID",
+                "text": "If we can find such a terminal, we should be able to learn something of the archbishop's whereabouts. Let's split up and look for it."
+            },
+            {
+                "name": "CID",
+                "text": "This terminal has long since ceased to function. Search for another."
+            },
+            {
+                "name": "BIGGS",
+                "text": "It's still active─all of it..."
+            },
+            {
+                "name": "WEDGE",
+                "text": "Crikey... This place is like something out of my dreams..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Cid is right. We owe it to Ysayle to see the mission through."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I sense an ominous presence..."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Heavy though our hearts may be, we must forge on─in the name of those we have lost."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I daresay this landing could accommodate even a Ragnarok-class vessel... Remarkable."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "What ungodly vessels must the Allagans have built to warrant so vast a landing?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "To think that such a massive structure has been floating above our heads for all these millennia... It beggars belief..."
+            },
+            {
+                "name": "BIGGS",
+                "text": "The Empire borrowed most of its technology from Allagan relics. If we can find the terminal, I reckon we can operate it."
+            },
+            {
+                "name": "BIGGS",
+                "text": "This place is an engineer's playground. If I had the time, I'd be going over it with a bleedin' magnifying glass."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Machines are beyond my ken─I shall leave it to the others to find this “terminal.” Of more concern to me are the dragons that I sense nearby."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "This ominous presence... To whom does it belong?"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Alas, I have found naught of use."
+            },
+            {
+                "name": "CID",
+                "text": "...Nothing? Damn it. There's just this terminal, then, but it doesn't respond to anything I do. Any bright ideas, Wedge?"
+            },
+            {
+                "name": "CID",
+                "text": "...Wedge? He was here just a moment ago. Oh, don't tell me he's wandered off..."
+            },
+            {
+                "name": "CID",
+                "text": "I'm sorry, <span class=\"highlight\">Forename</span>, but could you help me search for him? Absent-minded as he is, I worry that he's strayed beyond the landing area, and made friends with the local sentinels."
+            },
+            {
+                "name": "CID",
+                "text": "I need you to help me search for Wedge. Absent-minded as he is, I worry that he's strayed beyond the landing area, and made friends with the local sentinels."
+            },
+            {
+                "name": "WEDGE",
+                "text": "Owww..."
+            },
+            {
+                "name": "CID",
+                "text": "Wedge! Are you all right!?"
+            },
+            {
+                "name": "WEDGE",
+                "text": "I-I'm fine, Chief. I just tripped, that's all."
+            },
+            {
+                "name": "CID",
+                "text": "Fool of a Lalafell! What were you thinking, coming here on your own!? Death by overwork is one thing─death by <span class=\"emphasis\">stupidity</span> quite another!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "I'm sorry, Chief... B-But I think I've found something!"
+            },
+            {
+                "name": "CID",
+                "text": "What is this? The wreck of a sentinel?"
+            },
+            {
+                "name": "WEDGE",
+                "text": "This is no wreck, Chief! She's still operational!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "See?"
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "&lt;blip&gt; Initiating...<br>Performing diagnostics...<br>&lt;blip&gt; Diagnostics complete.<br>To proceed, please agree to the terms and conditions of use."
+            },
+            {
+                "name": "Q1",
+                "text": "Do you agree?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes."
+            },
+            {
+                "name": "A1",
+                "text": "I...suppose?"
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "Thank you. To register as a user, please state your name."
+            },
+            {
+                "name": "WEDGE",
+                "text": "I'm Wedge, and that there is <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "&lt;blip&gt; User registration complete. Welcome to Azys Lla, Master Wedge and <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Forename</span>. I am Guidance Node G-LI."
+            },
+            {
+                "name": "CID",
+                "text": "Hm. This isn't quite what I had in mind, but it might just serve."
+            },
+            {
+                "name": "CID",
+                "text": "Wedge, bring the node this way, would you? There's something I'd like to try."
+            },
+            {
+                "name": "CID",
+                "text": "Node! I need a status report on the facility!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Gilly! You have to do what the chief says!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Yes, that's it! Good girl!"
+            },
+            {
+                "name": "CID",
+                "text": "Ah, here we are... Hmmm, not much of note. It appears someone recently reactivated “Helix,” which is this area."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Reactivated, you say?"
+            },
+            {
+                "name": "CID",
+                "text": "By the archbishop, I'd wager. I daresay he woke the place up when he used the Vanu's key."
+            },
+            {
+                "name": "CID",
+                "text": "Are there any other people in the facility? If so, where?"
+            },
+            {
+                "name": "CID",
+                "text": "Let's see here... On the “Flagship”─that's the central isle─I'm seeing positive readings within the Aetherochemical Research Facility and the Fractal Continuum..."
+            },
+            {
+                "name": "CID",
+                "text": "And what have we here? Intruders detected in the Gamma Quadrant, defense system engaged."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Our imperial friends, I suspect. I hope they enjoy the defense system. But what of the archbishop and his cronies?"
+            },
+            {
+                "name": "CID",
+                "text": "Hmmm, what might offer an indication? ...Ah! How about this: which area is currently consuming the most energy?"
+            },
+            {
+                "name": "CID",
+                "text": "...Somewhere called “Triad Control,” inside the research facility."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "And what manner of place is that?"
+            },
+            {
+                "name": "CID",
+                "text": "It is, and I quote, “a regulation facility for the 'Warring Triad' test subjects.” And that's all it says. The rest of the information is only accessible to users with consular privileges."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I mislike the sound of this...which leads me to believe that it is indeed the place."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I am inclined to agree with Y'shtola. Whatever it is that the archbishop seeks, it is like to be there."
+            },
+            {
+                "name": "CID",
+                "text": "That settles it, then. Let's find a way to cross over to the Flagship."
+            },
+            {
+                "name": "BIGGS",
+                "text": "That fool of a Lalafell, always making us worry... And he's already gone and named the node! Can you believe it?"
+            },
+            {
+                "name": "WEDGE",
+                "text": "I'm sorry... I promise to be more careful from now on..."
+            },
+            {
+                "name": "GUIDANCESYSTEM",
+                "text": "&lt;blip&gt; Greetings, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Forename</span>. Is there something you wish to know?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "This device serves as an aetheryte, yet it is not made of crystal. To think that the Allagans could emulate the properties of so fundamental a substance..."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Did you find anything?"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "No. Nothing at all."
+            }
+        ],
+        "reward": {
+            "gil": 641,
+            "aetherCurrent": 1,
+            "items": [
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5672,
+                    "one": 1
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                }
+            ],
+            "xp": 86400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67199
+            ]
+        },
+        "next": [
+            67201,
+            67515,
+            67516,
+            67517,
+            67518
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012792",
+            "obj": {
+                "i": 1012792,
+                "n": "Cid",
+                "l": 2101,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014675",
+            "obj": {
+                "i": 1014675,
+                "n": "Cid",
+                "l": 2101,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012789",
+            "obj": {
+                "i": 1012789,
+                "n": "Alphinaud",
+                "l": 2101,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012790",
+            "obj": {
+                "i": 1012790,
+                "n": "Estinien",
+                "l": 2101,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012791",
+            "obj": {
+                "i": 1012791,
+                "n": "Y'shtola",
+                "l": 2101,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012793",
+            "obj": {
+                "i": 1012793,
+                "n": "Biggs",
+                "l": 2101,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013264",
+            "obj": {
+                "i": 1013264,
+                "n": "Alphinaud",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013265",
+            "obj": {
+                "i": 1013265,
+                "n": "Estinien",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013266",
+            "obj": {
+                "i": 1013266,
+                "n": "Y'shtola",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013267",
+            "obj": {
+                "i": 1013267,
+                "n": "Biggs",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013268",
+            "obj": {
+                "i": 1013268,
+                "n": "Wedge",
+                "l": 2101,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015134",
+            "obj": {
+                "i": 1015134,
+                "n": "Alphinaud",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015135",
+            "obj": {
+                "i": 1015135,
+                "n": "Biggs",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015136",
+            "obj": {
+                "i": 1015136,
+                "n": "Wedge",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015137",
+            "obj": {
+                "i": 1015137,
+                "n": "Guidance Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5672",
+            "obj": {
+                "i": 5672,
+                "n": "Savage Aim Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67199",
+            "obj": {
+                "i": 67199,
+                "n": "The First Flight of the Excelsior",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 88
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67201",
+            "obj": {
+                "i": 67201,
+                "n": "In Node We Trust",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 90
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67515",
+            "obj": {
+                "i": 67515,
+                "n": "Basic Training",
+                "g": 102,
+                "l": "Azys Lla",
+                "s": 5901
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67516",
+            "obj": {
+                "i": 67516,
+                "n": "Good Clean Fun",
+                "g": 102,
+                "l": "Azys Lla",
+                "s": 5902
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67517",
+            "obj": {
+                "i": 67517,
+                "n": "General Protection Fault",
+                "g": 102,
+                "l": "Azys Lla",
+                "s": 5903
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67518",
+            "obj": {
+                "i": 67518,
+                "n": "Excessive Force",
+                "g": 102,
+                "l": "Azys Lla",
+                "s": 5904
+            }
+        }
+    ]
+}

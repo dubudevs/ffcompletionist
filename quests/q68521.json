@@ -1,0 +1,165 @@
+{
+    "quest": {
+        "name": "Little Kojin Lost",
+        "location": "The Ruby Sea",
+        "id": 68521,
+        "patch": 4.1,
+        "sort": 13,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "involved": [
+            1024295,
+            1024344,
+            1024345
+        ],
+        "genre": 51,
+        "journal": [
+            "Zukin needs you to locate a missing youngling.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "With the chat mode in <span class=\"highlight\">Say</span>, enter any phrase containing “Itomaki” at the designated location to search for the lost Kojin.",
+            "Search for Itomaki.",
+            "Report to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "<span class=\"highlight\">Forename</span>, might I ask a favor? Itomaki, one of our younglings, left in search of treasure near the wreck of the <span class=\"emphasis\">Kobayashi Maru</span> and has yet to return."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Could you tell her to come back before she finds herself in any real trouble?"
+            },
+            {
+                "name": "SAYTODO",
+                "text": "Itomaki"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With the chat mode in <span class=\"highlight\">Say</span>, use your keyboard or the software keyboard to enter any phrase containing the word “Itomaki” to call out to the lost Kojin."
+            },
+            {
+                "name": "ITOMAKI",
+                "text": "(-???-)Hello? Did someone call my name? Erm...I don't suppose you could help me find my way to Tamamizu?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You hear a voice that seems to belong to the would-be treasure hunter. Search the area for Itomaki."
+            },
+            {
+                "name": "ITOMAKI",
+                "text": "Are you here to help me? I came here in search of treasure, but the currents seem to have shifted a bit and I'm afraid to say I'm rather lost."
+            },
+            {
+                "name": "ITOMAKI",
+                "text": "I managed to find this treasure, and judging by the craftsmanship, it seems rather valuable. Surely Zukin won't be so cross with me when he sees this! So, which way is the village?"
+            },
+            {
+                "name": "ITOMAKI",
+                "text": "Unfortunately, I couldn't find so much as a rusted teaspoon. Oh well, I'm sure that Zukin will be pleased to see me safe and sound, treasure or no. Probably. So, which way was it?"
+            },
+            {
+                "name": "ITOMAKI",
+                "text": "Oh, I see! Now that you mention it, that does look like the way home, doesn't it? Not to worry, I'll be back in two shakes of a gyuki's tail! Good-bye for now!"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "You found her, you say? You have my thanks, <span class=\"highlight\">Forename</span>. She is only seventy summers old─nowhere near experienced enough to navigate the ever-changing Ruby Sea by herself. "
+            },
+            {
+                "name": "ZUKIN",
+                "text": "She can barely make it from one side of the village to the other without asking for directions. &lt;sigh&gt; I daresay she will go wandering off again soon."
+            }
+        ],
+        "reward": {
+            "gil": 615,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024295",
+            "obj": {
+                "i": 1024295,
+                "n": "Itomaki",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024344",
+            "obj": {
+                "i": 1024344,
+                "n": "Itomaki",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024345",
+            "obj": {
+                "i": 1024345,
+                "n": "Itomaki",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

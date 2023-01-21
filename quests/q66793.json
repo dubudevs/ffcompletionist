@@ -1,0 +1,136 @@
+{
+    "quest": {
+        "name": "Deck the Hut",
+        "location": "East Shroud",
+        "id": 66793,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005561,
+        "target": 1005561,
+        "involved": [
+            1000540
+        ],
+        "genre": 37,
+        "journal": [
+            "Tonaxia would repay a debt of kindness.",
+            "The sylphs of Little Solace are fond of Rolfe Hawthorne, who has been a friend to their people. Tonaxia would repay the man's kindness with an offering of wild vegetables from this year's bountiful harvest. Take them and decorate the Hawthorne Hut as directed by Tonaxia.",
+            "You have decked the hut with wild vegetables as Tonaxia requested. Speak with Rolfe Hawthorne, who is sure to be overjoyed at the surprise gift.",
+            "Despite being less than pleased with the gift and the means of delivery, Rolfe nevertheless appreciates the kindness of his forest friends. Inform Tonaxia that the deed is done.",
+            "Tonaxia is delighted to hear of Rolfe's joy and frustration both. It would seem the troublesome nature of the “gift” was exactly as the mischievous sylph intended."
+        ],
+        "objectives": [
+            "Place the wild vegetables around the Hawthorne Hut.",
+            "Speak with Rolfe Hawthorne.",
+            "Report to Tonaxia."
+        ],
+        "dialogue": [
+            {
+                "name": "TONAXIA",
+                "text": "Walking one at hut-house is always kind to these ones! This one would repay walking one's kindness."
+            },
+            {
+                "name": "TONAXIA",
+                "text": "These ones harvested many eat-plants, but these ones do not eat! This one would not be wasteful one."
+            },
+            {
+                "name": "TONAXIA",
+                "text": "This one would decorate hut-house with eat-plants, make hut-house pretty place! But this one is busy one. Would kind one go in this one's place?"
+            },
+            {
+                "name": "ROLFE",
+                "text": "Blast! Well, I'll be, they've done it again! ...Hm?"
+            },
+            {
+                "name": "ROLFE",
+                "text": "What's that? It was <span class=\"emphasis\">you</span> who “decorated” my home with overgrown weeds at the sylphs' request? &lt;sigh&gt; Oh dear..."
+            },
+            {
+                "name": "ROLFE",
+                "text": "Look, I appreciate the sentiment, but I'd appreciate it a fair sight more if the next gift from our forest friends was delivered straight to my doorstep...and didn't taste of dirt, at that."
+            },
+            {
+                "name": "TONAXIA",
+                "text": "Decorate hut-house with eat-plants, let walking one know it is gift from these ones. Kind one will do this for this one, yes?"
+            },
+            {
+                "name": "TONAXIA",
+                "text": "Friendly one returns! Walking one was pleased, yes?"
+            },
+            {
+                "name": "TONAXIA",
+                "text": "Walking one wants next gift delivered to doorstep? But what would be the fun in that? Tee hee!"
+            }
+        ],
+        "reward": {
+            "gil": 420,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 8797
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 42,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005561",
+            "obj": {
+                "i": 1005561,
+                "n": "Tonaxia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000540",
+            "obj": {
+                "i": 1000540,
+                "n": "Rolfe Hawthorne",
+                "l": 55,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

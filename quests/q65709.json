@@ -1,0 +1,147 @@
+{
+    "quest": {
+        "name": "The Nose Knows",
+        "location": "North Shroud",
+        "id": 65709,
+        "patch": 2.0,
+        "sort": 50,
+        "eventIcon": 71221,
+        "issuer": 1000632,
+        "target": 1000632,
+        "involved": [
+            1000764,
+            1000784
+        ],
+        "genre": 92,
+        "journal": [
+            "Vionne is searching for an adventurer to deliver an item.",
+            "Vionne, a stablehand at Treespeak Stables, requests your assistance with a simple delivery. However, she does not have the item in question on hand, and bids you speak with Gillian, who can be found to the rear of the stables.",
+            "Pleasantly surprised by your willingness to help, Gillian directs you to a pile of burlap sacks atop a crate. Retrieve one of the sacks.",
+            "The mysterious sack emits a strange yet familiar odor... Deliver it to Nolanel at Blessed Bud.",
+            "Whilst thanking you profusely, Nolanel inadvertently confirms your suspicions regarding the contents of the sack. Return to Treespeak Stables and speak with Vionne.",
+            "Vionne apologizes after realizing you were unaware of the sack's contents. She admits that while chocobo manure is favored as a potent fertilizer, few are so keen on its equally potent stench."
+        ],
+        "objectives": [
+            "Speak with Gillian.",
+            "Retrieve the burlap sack.",
+            "Deliver the burlap sack to Nolanel.",
+            "Report to Vionne."
+        ],
+        "dialogue": [
+            {
+                "name": "VIONNE",
+                "text": "If you want for work, I have need of an adventurer willing to dirty <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> hands."
+            },
+            {
+                "name": "VIONNE",
+                "text": "Hm? No, no, I speak not of dark deeds. I mean only to have you deliver something. I myself would not dare venture deep into the Twelveswood, but you seem more than capable of defending yourself."
+            },
+            {
+                "name": "VIONNE",
+                "text": "My colleague Gillian will furnish you with the item in question, and provide all the necessary directions. She should be somewhere behind the stables, supervising the field hands."
+            },
+            {
+                "name": "GILLIAN",
+                "text": "Well, I'll be! Vionne actually found someone willin' to lend a hand!"
+            },
+            {
+                "name": "GILLIAN",
+                "text": "Grab one of them burlap sacks over yonder─atop the crate, aye. 'Tain't the most convenient location, to be sure, but where else can we store that stinkin' shite? Nowhere a visitin' customer might catch a whiff, that's for sure!"
+            },
+            {
+                "name": "GILLIAN",
+                "text": "Deliver it to Nolanel down at Blessed Bud. That's west of here, in case you were wonderin'. Seems our conjurer friend takes his gardenin' pretty bloomin' seriously..."
+            },
+            {
+                "name": "NOLANEL",
+                "text": "That odor... &lt;sniff&gt; Is that what I think it is?"
+            },
+            {
+                "name": "NOLANEL",
+                "text": "Praise be to the elementals! I cannot thank you enough for your kindness."
+            },
+            {
+                "name": "NOLANEL",
+                "text": "This bounty of chocobo manure shall nourish the plants and ensure their continued growth."
+            },
+            {
+                "name": "NOLANEL",
+                "text": "Please relay my sincerest thanks to Vionne upon your return to Treespeak Stables. And a word of advice─wash your hands quickly, lest the cloying stench of feces linger."
+            },
+            {
+                "name": "VIONNE",
+                "text": "Welcome back, friend. Hmmm... I gather from that smell that the task is complete?"
+            },
+            {
+                "name": "VIONNE",
+                "text": "Oh, my! Did I neglect to inform you of the sack's contents? I cannot apologize enough!"
+            },
+            {
+                "name": "VIONNE",
+                "text": "That would certainly explain why you agreed to help when countless others turned their noses up at the idea, so to speak...<br>Well, what's done is done. Please accept this for your troubles, along with my thanks."
+            }
+        ],
+        "reward": {
+            "gil": 103,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 4551
+                }
+            ],
+            "xp": 560
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 3,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000632",
+            "obj": {
+                "i": 1000632,
+                "n": "Vionne",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000764",
+            "obj": {
+                "i": 1000764,
+                "n": "Nolanel",
+                "l": 57,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000784",
+            "obj": {
+                "i": 1000784,
+                "n": "Gillian",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        }
+    ]
+}

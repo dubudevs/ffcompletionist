@@ -1,0 +1,577 @@
+{
+    "quest": {
+        "name": "Stifled Screams",
+        "location": "Limsa Lominsa",
+        "id": 65680,
+        "patch": 2.4,
+        "sort": 150,
+        "icon": 100344,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1009943,
+        "target": 1010218,
+        "involved": [
+            1010197,
+            1010198,
+            1010199,
+            1010220,
+            1010221
+        ],
+        "genre": 132,
+        "journal": [
+            "Jacke wishes to bring you in on a tricky assignment.",
+            "The latest client come to the rogues for assistance hails from Maelstrom Command itself. It would seem that a group called the Jolly Merchants has been abducting smallfolk, but that the Maelstrom is powerless to stop them without causing a panic. Jacke accepts the job without hesitation, and nominates you to help him engage the slavers directly. Speak with Jacke for further instructions.",
+            "Hearing that a Jolly Merchant has been spied prowling the countryside, Jacke sends you to lower La Noscea to gather more information. Travel to the Moraby Drydocks and speak with Swarsynt.",
+            "You meet with Swarsynt, and the watchful rogue-turned-shipwright tells you of an odd group he spotted earlier that he now believes to be a pirate and two captives. Swarsynt then muses that the slaver likely has a boat hidden somewhere along the coast to the south. Travel to the Salt Strand, and keep an eye on the Jolly Merchant until Jacke arrives.",
+            "As you and Jacke spy on the slaver and witness his unpleasant treatment of the captives, you learn that the Jolly Merchants mean to gather in Aleport to await the return of their ship, the <span class=\"emphasis\">Jolly Merchantman</span>. Make your way to Aleport and speak with Jacke to learn how the guildmaster intends to deal with the assembled pirates.",
+            "Jacke has ascertained that your marks, along with their prisoners, have taken rooms in Aleport. Speak with Jacke once more when you are ready to put his plan for liberating the captives into action.",
+            "You have defeated the Jolly Merchants and freed the abducted villagers. Speak with Jacke again to complete your assignment.",
+            "Just as the guildmaster is complimenting you on a job well done, you are approached by one of the former captives. After thanking you for her rescue, the yet-shaken girl explains that she heard her captor muttering about a lingering group of slavers that failed to make the rendezvous. It seems the job is not yet finished. Add the Throwing Dagger technique to your arsenal of rogue tools, then rejoin Jacke in Aleport to eliminate the remnants of the Jolly Merchants."
+        ],
+        "objectives": [
+            "Speak with Jacke.",
+            "Speak with Swarsynt at the Moraby Drydocks.",
+            "Spy on the Jolly Merchant until Jacke arrives.",
+            "Speak with Jacke in Aleport.",
+            "Speak with Jacke and free the captives.",
+            "Speak with Jacke in Aleport."
+        ],
+        "dialogue": [
+            {
+                "name": "JACKE",
+                "text": "Ah, <span class=\"highlight\">Forename</span>, just the <span class=\"alternative-container\"><span class=\"alternative\">mort</span><span class=\"alternative\">cove</span></span> I was hopin' to see. We've some nasty trouble brewin'..."
+            },
+            {
+                "name": "JACKE",
+                "text": "The client's on his way, so sit tight an' pay attention. I'm callin' Underfoot an' the Stray in on this as well─it'll be a right little rogue family reunion."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Jacke. The client's arrived."
+            },
+            {
+                "name": "JACKE",
+                "text": "Our guest here has come from Maelstrom Command, with confidential orders direct from the Admiral herself─so ye know this won't be a simple job."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "I'm afraid your guildmaster speaks truly. 'Twas several days ago when an emaciated man stumbled into one of our camps seeking aid."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "Upon questioning the poor fellow, we discovered that he had narrowly escaped a life of slavery. He claimed that pirates had raided his village, abducting him and many others to sell on a black market auction block."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "We dispatched a patrol to confirm the tale, and found the village almost completely destroyed. 'Twas a meager settlement without so much as a guardhouse─thus did its unkind fate escape our notice until now..."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Ye'd think these pirates'd never even heard o' the code."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Pillagin' honest culls an' dippin' their wicks in the slave trade? They're headed the right way for a good stabbin'."
+            },
+            {
+                "name": "JACKE",
+                "text": "Aye. Though it ain't set down in so many whids, the code's notoriously unforgivin' against those as raise weapons against the weak."
+            },
+            {
+                "name": "JACKE",
+                "text": "After all, the first pirates in these parts were culls what was fleein' oppression in the northern seas. Ignore yer history, an' ye risk becomin' what it was ye hated most."
+            },
+            {
+                "name": "JACKE",
+                "text": "...So, ye've a mark for us, then?"
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "That we do. From the descriptions given to us by the escaped villager, we've determined that these lawbreakers are members of the Jolly Merchants─a pirate crew in possession of an official privateering license."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "...'Twould appear, however, that privateering has been naught but a screen behind which to hide their illicit activities. One can only imagine how many other Lominsan citizens have fallen prey to these wicked slavers..."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "And we've let it happen right under our very noses! Naturally, the Admiral desires a swift resolution to this ignominy, but merely tracking down those poor souls who have already been sold is proving heavily taxing to our allocated resources."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "We <span class=\"emphasis\">could</span> throw more soldiers at the problem...but that runs the risk of drawing the smallfolk's attention and inciting undue panic."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "Thus do we come to the Rogues' Guild for help. We ask that you eliminate the Jolly Merchants and liberate the villagers presently in their custody─and that you do so with the utmost discretion."
+            },
+            {
+                "name": "JACKE",
+                "text": "Consider it done. When those nasty coves'll feel our shortblades prickin' into their backs, they'll enjoy but a brief moment o' regret afore the code is rightly enforced."
+            },
+            {
+                "name": "JACKE",
+                "text": "All right, let's get to work! I'll be goin' after the Jolly Merchants meself."
+            },
+            {
+                "name": "JACKE",
+                "text": "Underfoot, V'kebbe. You two lend yer skills to the Maelstrom's investigation an' see what ye can whiddle about the culls what have already been sold."
+            },
+            {
+                "name": "JACKE",
+                "text": "<span class=\"highlight\">Forename</span>, yer comin' with me. I think yer ready for the next step of yer education."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "These Jolly Merchant bastards won't be so jolly once we catch up to 'em."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "I've no doubt you an' Jacke can handle a few ale-sodden pirates. But if ye need an extra set o' fambles, just say the word an' we'll be there."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "Your aid─and confidentiality─in this matter is greatly appreciated. We can now focus on coordinating with the Yellowjackets to free those unfortunate folk already sold into slavery."
+            },
+            {
+                "name": "JACKE",
+                "text": "Shall we get after these slavin' cutthroats, then?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Our client tells me that the <span class=\"emphasis\">Jolly Merchantman</span> set sail from Aleport a few bells ago."
+            },
+            {
+                "name": "JACKE",
+                "text": "Oh, aye, they might even board an imperial ship or two, but that's just some mummery they're puttin' on to amuse the Admiral's swads."
+            },
+            {
+                "name": "JACKE",
+                "text": "I reckoned the rest o' the crew'd be back on land, lookin' to snap the shackles on a fresh herd o' chattel. An' just to prove me theory right, one o' them Jolly bastards got himself spotted creepin' about the ruffmans in lower La Noscea."
+            },
+            {
+                "name": "JACKE",
+                "text": "There's a bene cove over at the Moraby Drydocks by the name o' Swarsynt what'll likely know the full story."
+            },
+            {
+                "name": "JACKE",
+                "text": "He's more of a shipwright than a rogue these days, but he keeps his glazes keen for the guild. Head over an' have yerself a prattle, an' I'll join ye soon-like."
+            },
+            {
+                "name": "JACKE",
+                "text": "Go speak with Swarsynt about that Jolly Merchant, an' I'll be with ye directly."
+            },
+            {
+                "name": "SWARSYNT",
+                "text": "Aye...I know what you are. What can old Swarsynt do for you?"
+            },
+            {
+                "name": "SWARSYNT",
+                "text": "Hunting down Jolly Merchant slavers? Ah, well that explains a few things..."
+            },
+            {
+                "name": "SWARSYNT",
+                "text": "I was keeping an eye on the bustle about the Drydocks, you see, when I spied an odd trio off in the distance. This rough-looking sod─one of your pirates, I'd wager─was prodding along another bloke and this poor skinny lass. I've seen whipped curs less miserable than the two being herded."
+            },
+            {
+                "name": "SWARSYNT",
+                "text": "Last I saw, they were headed south. If what you're saying about this slavery business is true, then that Jolly Merchant's not going to walk his charges all the way to market. No, he likely has a boat waiting for him."
+            },
+            {
+                "name": "SWARSYNT",
+                "text": "And if I were a slaver headed south, my vessel would be hidden somewhere along the Salt Strand. That doesn't leave you much time."
+            },
+            {
+                "name": "SWARSYNT",
+                "text": "You said Jacke was on his way, yes? You'd best go on ahead, and I'll point him in the right direction when he gets here."
+            },
+            {
+                "name": "SWARSYNT",
+                "text": "Search the coast along the Salt Strand and you'll find your slavers. Shouldn't be long before Jacke arrives, so I'd stay out of sight until he joins you."
+            },
+            {
+                "name": "JACKE",
+                "text": "Swarsynt came through for us, eh? ...Now, what do we got here?"
+            },
+            {
+                "name": "JACKE",
+                "text": "This one looks a charmer..."
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "Soddin' <span class=\"emphasis\">move</span>, I told ye! Me peg-legged grandma 'obbles quicker'n you miserable sacks o' shite!"
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "...Or maybe ye need another thrashin', is that it!? Ye already forgot what 'appens when ye try me generous patience!?"
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "I-I'm sorry! P-Please, no more beatings! We walked as fast as we could... But we need food...water..."
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "Then get in the boat, an' shut yer traps! Ye'll get fed when we reach the other side."
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "The other side!? ...Where are you taking us!?"
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "Are ye challengin' me, or just plain daft? I told ye to keep yer bleatin' mouth shut!"
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "&lt;whimper&gt; I-I'm sorry... &lt;sob&gt; I didn't mean to... &lt;sob&gt;"
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "Leviathan's scaly arse, she's weepin' again... Listen, we're 'eaded to Aleport, all right?"
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "That's where me an' me shipmates gather to take stock o' the “merchandise,” an' decide what gets sold where."
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "Ye see, some buyers want only lads, while others is lookin' for lasses. As long as we keep these rich bastards 'appy, we make more coin than we ever did scrappin' with the Empire's war galleys!"
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "Not that you care about that, I s'pose. What matters to <span class=\"emphasis\">you</span> is that ye'll be loaded onto the <span class=\"emphasis\">Jolly Merchantman</span>, sailed off to gods know where, and Limsa'll be a distant memory."
+            },
+            {
+                "name": "PIRATE00144",
+                "text": "So if I was you, I'd fill that empty belly with one last big gobful o' sweet La Noscean sea breeze! Gahahahahaha!"
+            },
+            {
+                "name": "JACKE",
+                "text": "I'm sore tempted to put a blade 'twixt his eyes here an' now, but that won't get the job done."
+            },
+            {
+                "name": "JACKE",
+                "text": "No, we'll let him guide us to his mates in Aleport...then we'll mill the whole bloody lot of 'em."
+            },
+            {
+                "name": "JACKE",
+                "text": "The Jolly Merchants'll get their due, don't ye worry about that."
+            },
+            {
+                "name": "JACKE",
+                "text": "...They've gone."
+            },
+            {
+                "name": "JACKE",
+                "text": "We'd best hurry to Aleport. Unless ye've a quicker way, there's a ferry what leaves from Candlekeep Quay. I'll meet ye across the water, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>."
+            },
+            {
+                "name": "JACKE",
+                "text": "<span class=\"highlight\">Forename</span>. That Jolly Merchant cove's still with his captives. Seems they've taken a room under an alias."
+            },
+            {
+                "name": "JACKE",
+                "text": "Hmph. Hidin' their operation in plain sight. Bold as brass, aye, but it's an old slaver's trick. See, even if some cull recognizes the “merchandise,” only a single handler gets boned. The rest o' the crew just whistles, all innocent-like, while their mate is marched off to cry cockles."
+            },
+            {
+                "name": "JACKE",
+                "text": "An' ye can bet they've threatened bloody murder for any prisoner what raises a hue an' cry..."
+            },
+            {
+                "name": "JACKE",
+                "text": "Patience now, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">colt</span></span>. We'll just wait until we're sure that all these blackguards've arrived. Meanwhile, ye'd better sharpen yer stabbers─we've a busy night ahead of us."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ready for the job, then? Once the Jolly Merchants are all here, we'll ambush the sods an' set their captives free."
+            },
+            {
+                "name": "JACKE",
+                "text": "...That ought to be long enough. We'll just have to hope there ain't any stragglers."
+            },
+            {
+                "name": "JACKE",
+                "text": "Listen closely now, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">colt</span></span>: the Merchants're disguised as plain old 'venturers, an' have settled 'emselves in three separate rooms here in Aleport."
+            },
+            {
+                "name": "JACKE",
+                "text": "...How do we whiddle which coves are the Merchants? Easy. Take a look at the daddles o' that bingo-swillin' cull over yonder."
+            },
+            {
+                "name": "JACKE",
+                "text": "He's wearin' lavender gloves─the exact same type what that nasty sod at the Salt Strand had on. That'll be how they find each other in a crowd."
+            },
+            {
+                "name": "JACKE",
+                "text": "'Course, it's also how I whiddled where each o' the bastards was stayin'. Just snilch the hopeless glazes o' the company they keep, an' ye can be sure ye've found yer mark."
+            },
+            {
+                "name": "JACKE",
+                "text": "So, here's the job all laid out for ye: we hit all three common rooms, mill the Merchants quick an' dirty-like, an' get those captives their bleedin' lives back. All right?"
+            },
+            {
+                "name": "YELLOWJACKET00144",
+                "text": "(-Angry Shout-)Oi! The storeroom door's been forced open! Some thievin' sod's been at the ale!"
+            },
+            {
+                "name": "YELLOWJACKET00144",
+                "text": "Well, they can't have gotten far! Better get the lads an' do a sweep of the port."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ugh, was that Merchant cove gulpin' pilfered ale? Ye'd think they'd be doin' their best not to draw attention to 'emselves, all things considered. Bloody oafs..."
+            },
+            {
+                "name": "JACKE",
+                "text": "An' now we've got a swarm o' Yellowjackets buzzin' about, lookin' for blood. If they spot us wanderin' 'round in the darkmans, I've a feelin' they'll axe first an' ask questions later."
+            },
+            {
+                "name": "JACKE",
+                "text": "It'd be best, then, if the patrols never even knew we was here."
+            },
+            {
+                "name": "JACKE",
+                "text": "We'll slip as sneaky as we can into each o' the common rooms, an' use them telltale lavender gloves to identify our marks. There's innocent culls in there as well, mind, so let's try not to stab any as don't deserve it, eh?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Hmmm. I'm thinkin' we should head out one at a time to better avoid them Yellowjackets, so I'll let ye take the lead. After you, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "CLIENT00144",
+                "text": "I've just finished reading the report: in addition to liberating those unfortunate Lominsan citizens, you've done much to cripple the Jolly Merchants' slaving operation. Thank you. The Admiral shall be most pleased."
+            },
+            {
+                "name": "JACKE",
+                "text": "Not a bad night's work, eh, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "JACKE",
+                "text": "The Maelstrom'll be takin' care of them poor culls we freed, an' I've made sure none o' the Merchants we downed are like to get up again."
+            },
+            {
+                "name": "JACKE",
+                "text": "As for the <span class=\"emphasis\">Jolly Merchantman</span>, well, her crew can expect a visit from the Admiral's finest galleys...an' it won't be for tea an' crumpets on the poopdeck."
+            },
+            {
+                "name": "JACKE",
+                "text": "Right, me natty <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>! Our part in this is done! Time to head back to the Sisters."
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "Excuse me... Are you the ones who freed us?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Aye. Was there somethin' else we could do for ye, miss? The Maelstrom swads'll take ye home, if that's what yer worried about..."
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "Oh, no, I know. I just wanted to... Thank you."
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "...If I may, there <span class=\"emphasis\">was</span> one other thing I wished to tell you: moments before you rescued me, that dreadful pirate was muttering into his cups."
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "'Twas something about another raiding party that hadn't yet made it back..."
+            },
+            {
+                "name": "JACKE",
+                "text": "I beg yer pardon!?"
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "It seems they'd been hunting for slaves in western La Noscea, and, being so close to Aleport, our captor assumed they were out “roundin' up chattel until last bell.”"
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "I just couldn't bear the thought of anyone else suffering as I have. Please, is there naught you can do?"
+            },
+            {
+                "name": "JACKE",
+                "text": "There certainly is, miss. You just get yerself safely home an' leave this stray pack o' jackals to us."
+            },
+            {
+                "name": "POORLADY00144",
+                "text": "I will pray for your success. Thank you again."
+            },
+            {
+                "name": "JACKE",
+                "text": "Heh, so much for savorin' a victory pint. I'll send word o' this development to Underfoot an' the Stray─we've some well-earned trade for the last o' these Jolly Merchants!"
+            },
+            {
+                "name": "JACKE",
+                "text": "By the by... How's yer throwin' arm, <span class=\"highlight\">Forename</span>? I think it's time I learned ye how to fling a proper blade."
+            },
+            {
+                "name": "JACKE",
+                "text": "When yer out in the wide open ruffmans, ye often find the need to sting a cove from a distance."
+            },
+            {
+                "name": "JACKE",
+                "text": "An' I'm sure a canny <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span> like yerself'll figure all sorts o' uses for a well-thrown dagger. Just keep it in mind for when we hunt down the rest o' them slavers!"
+            },
+            {
+                "name": "QIB",
+                "text": "Defeat the Jolly Merchants and free the captives!"
+            },
+            {
+                "name": "QIB",
+                "text": "Free captive villagers"
+            },
+            {
+                "name": "JACKE",
+                "text": "Our marks are behind the doors up ahead.<br>Don't let them Yellowjackets see you!"
+            },
+            {
+                "name": "JACKE",
+                "text": "That looks to be the last of 'em.<br>An' ye didn't even need my help!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Back into the shadows, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>..."
+            },
+            {
+                "name": "JACKE",
+                "text": "Gah, where'd these coves spring from!?<br>Get to stabbin', <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Smooth, Jacke...<br>Yer a proper dimber damber..."
+            },
+            {
+                "name": "TARGET",
+                "text": "'Ands off the merchandise!<br>Ain't no one cuts into our profits!"
+            }
+        ],
+        "reward": {
+            "action": 2247,
+            "xp": 3360
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 91
+                }
+            ],
+            "quests": [
+                65662
+            ]
+        },
+        "next": [
+            65681
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009943",
+            "obj": {
+                "i": 1009943,
+                "n": "Jacke",
+                "l": 1427,
+                "q": 15,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010218",
+            "obj": {
+                "i": 1010218,
+                "n": "Jacke",
+                "l": 33,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010197",
+            "obj": {
+                "i": 1010197,
+                "n": "Perimu Haurimu",
+                "l": 1427,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010198",
+            "obj": {
+                "i": 1010198,
+                "n": "V'kebbe",
+                "l": 1427,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010199",
+            "obj": {
+                "i": 1010199,
+                "n": "Swarsynt",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010220",
+            "obj": {
+                "i": 1010220,
+                "n": "Maelstrom Officer",
+                "l": 1427,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010221",
+            "obj": {
+                "i": 1010221,
+                "n": "Maelstrom Officer",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "action",
+            "id": "2247",
+            "obj": {
+                "i": 2247,
+                "n": "Throwing Dagger",
+                "c": 614,
+                "j": 29,
+                "t": 3,
+                "l": 15
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65662",
+            "obj": {
+                "i": 65662,
+                "n": "Stray into the Shadows",
+                "g": 132,
+                "l": "Limsa Lominsa",
+                "s": 100,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65681",
+            "obj": {
+                "i": 65681,
+                "n": "Slave to the Code",
+                "g": 132,
+                "l": "Western La Noscea",
+                "s": 151,
+                "f": 1
+            }
+        }
+    ]
+}

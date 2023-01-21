@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "Incense and Sensibility",
+        "location": "Gridania",
+        "id": 65556,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1000786,
+        "target": 1000705,
+        "genre": 92,
+        "journal": [
+            "The conjurer Mellaine seeks an assistant for her frantically busy student.",
+            "Conjurer Mellaine's student, Braya, is struggling to complete the many preparatory tasks required to hold an impending ceremony. Seek her out at the Conjurers' Guild, and offer your assistance.",
+            "The censers in the Conjurers' Guild are almost dry. Refill them using the Azeyma rose oil you received from Braya.",
+            "You have refilled the censers with Azeyma rose oil. Return to Braya and report that the task is complete.",
+            "Braya is pleasantly surprised to see an adventurer work with such courtesy, and is impressed with her mentor's eye for character."
+        ],
+        "objectives": [
+            "Speak with Braya.",
+            "Pour the Azeyma rose oil into the censers.",
+            "Report to Braya at the Conjurers' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "MELLAINE",
+                "text": "You there. You are an adventurer, yes? Good. I have a task for you."
+            },
+            {
+                "name": "MELLAINE",
+                "text": "Take yourself over to the Conjurers' Guild and speak with my student, Braya. She has her hands full preparing for the auguries and would likely welcome your assistance."
+            },
+            {
+                "name": "MELLAINE",
+                "text": "In her excitement at becoming a conjurer, I fear my young disciple is pushing herself beyond the limits of her endurance. Enthusiasm is all well and good, but it would not do to have an initiate collapse from exhaustion."
+            },
+            {
+                "name": "BRAYA",
+                "text": "Yes? Yes, I am Braya, but I am also awfully b─ Oh, you say Lady Mellaine herself asked you to assist me?"
+            },
+            {
+                "name": "BRAYA",
+                "text": "In that case, I suppose you <span class=\"emphasis\">might</span> lend a hand...especially as mine appear to be shaking─though only very slightly. Not that it's anything to worry about─mere nervous energy!"
+            },
+            {
+                "name": "BRAYA",
+                "text": "Ahem. I would be exceedingly grateful if you would take this Azeyma rose oil and refill the censers. There are two that require attention."
+            },
+            {
+                "name": "BRAYA",
+                "text": "Please have a care not to disturb the conjurers amid their meditations. You must be as quiet and unobtrusive as possible."
+            },
+            {
+                "name": "BRAYA",
+                "text": "My thanks. I must admit to being rather impressed by how faithfully you followed my instructions."
+            },
+            {
+                "name": "BRAYA",
+                "text": "I had always considered adventurers to be an uncouth and rowdy lot, but I see you are capable of courtesy as well."
+            },
+            {
+                "name": "BRAYA",
+                "text": "Lady Mellaine has a fine eye for character. You should feel honored that she chose you for the task."
+            }
+        ],
+        "reward": {
+            "gil": 103,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4551,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 50
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000786",
+            "obj": {
+                "i": 1000786,
+                "n": "Mellaine",
+                "l": 53,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000705",
+            "obj": {
+                "i": 1000705,
+                "n": "Braya",
+                "l": 53,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        }
+    ]
+}

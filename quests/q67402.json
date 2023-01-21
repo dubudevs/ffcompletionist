@@ -1,0 +1,123 @@
+{
+    "quest": {
+        "name": "An Uneasy Feeling",
+        "location": "The Churning Mists",
+        "id": 67402,
+        "patch": 3.0,
+        "sort": 5531,
+        "icon": 100478,
+        "eventIcon": 71221,
+        "issuer": 1014307,
+        "target": 1014307,
+        "genre": 100,
+        "journal": [
+            "Something is keeping Mogga from crossing this bridge.",
+            "Mogga has been tasked with patrolling Zenith for any signs of dragons serving the evil Nidhogg, and it seems she may have found some across the bridge she is cowering in front of. However, the poor moogle is too frightened to check herself, and bids you go in her stead. Cross the bridge and be on the lookout for any dragons that may be lurking about.",
+            "You have rid this part of Zenith of the dragon threat...for now. Report to Mogga and tell her the hardest part of her patrol is finished.",
+            "Relieved that she will no longer have to deal with the wrath of dragons, Mogga returns to her patrol duty and asks you to warn Mogok to be extra alert on his patrol."
+        ],
+        "objectives": [
+            "Search for dragons in the specified areas.",
+            "Report to Mogga."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGGA",
+                "text": "Oh! Adventurer, I thought you were a dragon, kupo!"
+            },
+            {
+                "name": "MOGGA",
+                "text": "What!? Dragons have already been spotted prowling Zenith? We can't just let them run amok in our sacred palaces!"
+            },
+            {
+                "name": "MOGGA",
+                "text": "In fact, I think I can hear their impudent growls from here. But...dragons are so monstrous, and their claws are so sharp..."
+            },
+            {
+                "name": "MOGGA",
+                "text": "Just imagining the dragons fills me with dread...but <span class=\"emphasis\">you're</span> brave enough! Do you suppose maybe you could cross this bridge and scare away any dragons you find, kupo?"
+            },
+            {
+                "name": "MOGGA",
+                "text": "I can't imagine there're very many of them... Just cross the bridge and check, will you?"
+            },
+            {
+                "name": "MOGGA",
+                "text": "There...there were <span class=\"emphasis\">how</span> many dragons across the bridge? Thank heavens for you, adventurer, I would've tired out after slaying just one, kupo."
+            },
+            {
+                "name": "MOGGA",
+                "text": "Well, I shall return to my patrol... Mayhap I should keep a wide berth from <span class=\"emphasis\">this</span> area..."
+            },
+            {
+                "name": "MOGGA",
+                "text": "Ah, while you're here, I would ask one more favor from you. Mogok is also patrolling the area nearby. Pray tell him to be <span class=\"emphasis\">extra</span> alert on his patrol─we wouldn't want him to be dragon food, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 490,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67171,
+                67401
+            ]
+        },
+        "next": [
+            67404
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1014307",
+            "obj": {
+                "i": 1014307,
+                "n": "Mogga",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67401",
+            "obj": {
+                "i": 67401,
+                "n": "An Urgent Message",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5530
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67404",
+            "obj": {
+                "i": 67404,
+                "n": "Trouble at Zenith",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5533
+            }
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "quest": {
+        "name": "Aggressive Pruning",
+        "location": "The Dravanian Forelands",
+        "id": 67325,
+        "patch": 3.0,
+        "sort": 5220,
+        "eventIcon": 71221,
+        "issuer": 1012282,
+        "target": 1012282,
+        "genre": 98,
+        "journal": [
+            "The Vath Hungerer seems distracted by something in the forest.",
+            "The Vath Hungerer explains that the nearby meliae interfere with the Vath's hunting and gathering. She asks you to kill four of the monsters, lest her tribe go hungry, unable to collect food.",
+            "You fell the meliae as requested. Return to the Hungerer with the good news.",
+            "The Hungerer tells you that, to the Vath, fighting is simply a means to gather food. The idea of attacking something inedible is unpalatable to them. Though, from the way they talk, it is clear they have tried to eat meliae before."
+        ],
+        "objectives": [
+            "Slay meliae.",
+            "Report to the Vath Hungerer."
+        ],
+        "dialogue": [
+            {
+                "name": "UMASOU",
+                "text": "Greetings, hunter. Do you know the meliae? They wander the forest. We would like you to kill some."
+            },
+            {
+                "name": "CIBLEROIT",
+                "text": "Why would you ask <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> to hunt meliae? You cannot eat them. They are far too tough!"
+            },
+            {
+                "name": "UMASOU",
+                "text": "We do not want to eat them. We cannot eat them. Not one part of them is edible. But those evil creatures stop us from gathering food. They interfere with our hunting! Please kill four of them. It would make our lives much easier."
+            },
+            {
+                "name": "UMASOU",
+                "text": "We are hungry, but cannot gather food. The meliae interfere. Please slay them for us."
+            },
+            {
+                "name": "UMASOU",
+                "text": "Thank you, hunter. You are a strong ally."
+            },
+            {
+                "name": "CIBLEROIT",
+                "text": "When we fight, it is only to hunt food. It is a waste to hunt what we cannot eat. We would only grow hungrier."
+            },
+            {
+                "name": "UMASOU",
+                "text": "You are right, Cibleroit. Hunting meliae is pointless. They taste terrible. They are tough and dry. You find yourself picking splinters from your mandibles for days afterwards."
+            }
+        ],
+        "reward": {
+            "gil": 502,
+            "xp": 26400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 52,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67149,
+                67322
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012282",
+            "obj": {
+                "i": 1012282,
+                "n": "The Hungerer",
+                "l": 2000,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67149",
+            "obj": {
+                "i": 67149,
+                "n": "The Nonmind",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 34
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67322",
+            "obj": {
+                "i": 67322,
+                "n": "To Each His Own",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5217
+            }
+        }
+    ]
+}

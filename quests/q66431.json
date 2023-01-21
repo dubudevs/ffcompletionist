@@ -1,0 +1,107 @@
+{
+    "quest": {
+        "name": "Death Becomes You",
+        "location": "Coerthas Central Highlands",
+        "id": 66431,
+        "patch": 2.0,
+        "sort": 360,
+        "eventIcon": 71221,
+        "issuer": 1006386,
+        "target": 1006392,
+        "genre": 94,
+        "journal": [
+            "You sense that there is a pact of sorts between you and Stephannot now, and he gives every indication that he has another mission for you.",
+            "The recruit that died in a croc attack leaves a father, another knight of Ishgard at Camp Dragonhead. The memento of the young soldier, a silvery ring, must reach this Theobalin.",
+            "Despite some misgivings, you honor the pact and tell Theobalin of his son's glorious death in combat. Theobalin's heart seems to be made lighter by the fact that his family's grim legacy is now unbroken."
+        ],
+        "objectives": [
+            "Deliver the silvery ring to Theobalin."
+        ],
+        "dialogue": [
+            {
+                "name": "STEPHANNOT",
+                "text": "I mislike adventurers, as well you know, but that wretched death on the north road binds us together. It is the will of the Fury. After much reflection, I have decided to send you to Camp Dragonhead with the ring─for Theobalin, the boy's father."
+            },
+            {
+                "name": "STEPHANNOT",
+                "text": "It ill becomes a knight to prevaricate, but I have added the boy's name to the patrol that was lost to dragons. You must tell Theobalin that his son died gloriously in battle. Let his name not stand in shame─he deserved better."
+            },
+            {
+                "name": "THEOBALIN",
+                "text": "You seek Theobalin? I am he. A ring? Talk sense, adventurer."
+            },
+            {
+                "name": "THEOBALIN",
+                "text": "This is my wife's naming ring, which I took off her cold finger so many years ago. I gave it to our son after his swearing of the sword. You need not look so beetle-browed, adventurer. I know what this means─my son is dead, my line is ended."
+            },
+            {
+                "name": "THEOBALIN",
+                "text": "Yes, I know what this means...<br>There was a patrol out of Skyfire Locks last night that was killed to the last man. Was he one of them?"
+            },
+            {
+                "name": "THEOBALIN",
+                "text": "Ah, then he died well, for I heard they brought down two dragons before the fire came for them."
+            },
+            {
+                "name": "THEOBALIN",
+                "text": "In every generation of my family, at least one son has died in the crusade. I scarce remember my father, who fell manning the ballista at the Locks, and I am the last of three brothers."
+            },
+            {
+                "name": "THEOBALIN",
+                "text": "I had four sons and a daughter. Two of the boys did not live to see their first nameday, and my wife died in childbirth with the third. Sickness took my daughter along with her babes."
+            },
+            {
+                "name": "THEOBALIN",
+                "text": "Yet, our honor is intact, for my son gave his life to the cause. Would that he had known more days, fought more battles ere he fell! That is my only regret. Thank you for the message. You lack no courage to make your way to Coerthas in these troubled times..."
+            }
+        ],
+        "reward": {
+            "gil": 1544,
+            "xp": 9450
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 36,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66430
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006386",
+            "obj": {
+                "i": 1006386,
+                "n": "Stephannot",
+                "l": 63,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006392",
+            "obj": {
+                "i": 1006392,
+                "n": "Theobalin",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66430",
+            "obj": {
+                "i": 66430,
+                "n": "I'd Rather Be Cannon Fodder",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 360
+            }
+        }
+    ]
+}

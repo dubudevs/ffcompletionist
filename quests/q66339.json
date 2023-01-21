@@ -1,0 +1,181 @@
+{
+    "quest": {
+        "name": "Beneath the Planks",
+        "location": "Gridania",
+        "id": 66339,
+        "patch": 2.0,
+        "sort": 290,
+        "eventIcon": 71221,
+        "issuer": 1006694,
+        "target": 1006260,
+        "genre": 92,
+        "journal": [
+            "Roustebant has a task for a capable adventurer.",
+            "Roustebant informs you that a fellow Wood Wailer is in need of an adventurer's aid. Travel to Dunstan's Spire and seek out Thievenaix.",
+            "Recent rainfalls have left the wooden scaffolding at Dunstan's Spire in troubling condition. Inspect the scaffolding and see to any sodden planks or wood-boring pests you encounter.",
+            "Your inspection of the scaffolding is complete. Report back to Thievenaix.",
+            "Thievenaix expresses his thanks for your deeds, while ordering you not to discuss the presence of Shroud hares with Marcette. Who is this woman who strikes such fear into the hearts of brave warriors?"
+        ],
+        "objectives": [
+            "Speak with Thievenaix at Dunstan's Spire.",
+            "Inspect the scaffolding and slay any Shroud hares that appear.",
+            "Report to Thievenaix."
+        ],
+        "dialogue": [
+            {
+                "name": "ROUSTEBANT",
+                "text": "It is no ordinary adventurer who is granted passage through the White Wolf Gate. I am Roustebant of the Wood Wailers, and I would see you live up to your reputation."
+            },
+            {
+                "name": "ROUSTEBANT",
+                "text": "My fellow Wailers at Dunstan's Spire are in grave need of an adventurer's aid. Should you have a mind to make yourself useful, travel there and seek out Thievenaix."
+            },
+            {
+                "name": "THIEVENAIX",
+                "text": "Roustebant sent you? Thank the Twelve─I'd just about given up hope that anyone would answer our call. Tell me, did you perhaps notice that gaping hole in the ground on your way here?"
+            },
+            {
+                "name": "THIEVENAIX",
+                "text": "Aye, 'twould be hard to miss it─one of the many remnants of Dalamud's fury. The scaffolding you see is a solution we worked up with our friends from the Carpenters' Guild, but even the sturdiest wood is at the mercy of the elements."
+            },
+            {
+                "name": "THIEVENAIX",
+                "text": "The rains have fallen hard of late, and I fear there still might be some soggy planks left untended. Please see to them, as well as to any pests who have come to feast on the wood."
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: inspect scaffolding, kill monster"
+            },
+            {
+                "name": "THIEVENAIX",
+                "text": "You have my thanks, adventurer. A Shroud hare? I see. I ask you only this, friend: should you have occasion to meet Marcette, speak nothing of this to her."
+            },
+            {
+                "name": "THIEVENAIX",
+                "text": "She is a researcher of sorts, unusual creatures being her specialty. Were she to catch wind of Shroud hares lurking beneath, she would rip up every last plank till we had nowhere to stand upon."
+            },
+            {
+                "name": "THIEVENAIX",
+                "text": "The woman treats us as if the Wood Wailers were her personal laboratory assistants. I will stand for this no more─I keep my distance from her, and would suggest you do the same."
+            },
+            {
+                "name": "POP",
+                "text": "Something is moving under this plank!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4222,
+                    "one": 1
+                },
+                {
+                    "id": 4216,
+                    "one": 1
+                },
+                {
+                    "id": 4224,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 7220
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 29,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66338
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006694",
+            "obj": {
+                "i": 1006694,
+                "n": "Roustebant",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006260",
+            "obj": {
+                "i": 1006260,
+                "n": "Thievenaix",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4222",
+            "obj": {
+                "i": 4222,
+                "n": "Fluorite Earrings",
+                "l": 29,
+                "c": 55213,
+                "t": 41,
+                "p": 2544
+            }
+        },
+        {
+            "type": "item",
+            "id": "4216",
+            "obj": {
+                "i": 4216,
+                "n": "Danburite Earrings",
+                "l": 29,
+                "c": 55212,
+                "t": 41,
+                "p": 2544
+            }
+        },
+        {
+            "type": "item",
+            "id": "4224",
+            "obj": {
+                "i": 4224,
+                "n": "Lapis Lazuli Earrings",
+                "l": 29,
+                "c": 55209,
+                "t": 41,
+                "p": 2544
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66338",
+            "obj": {
+                "i": 66338,
+                "n": "Broadening Horizons",
+                "g": 92,
+                "l": "Gridania",
+                "s": 290,
+                "f": 1
+            }
+        }
+    ]
+}

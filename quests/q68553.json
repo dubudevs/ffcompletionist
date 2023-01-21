@@ -1,0 +1,184 @@
+{
+    "quest": {
+        "name": "If I Had a Glamour",
+        "location": "Western Thanalan",
+        "id": 68553,
+        "patch": 4.1,
+        "sort": 151,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1004990,
+        "target": 1004990,
+        "involved": [
+            1004096
+        ],
+        "genre": 93,
+        "journal": [
+            "Swyrgeim wishes to impart to you her knowledge of glamours.",
+            "Swyrgeim is keen to teach you the true meaning of glamour. But first, you must fetch her a drink. Folclind, a barmaid at the Pissed Peiste, is ready to take your order.",
+            "In a flash, Folclind prepares the blood orange juice and hands it over. You had best take it to Swyrgeim before she or the drink succumb to the heat.",
+            "Thirst duly sated, Swyrgeim expounds upon the wonders of glamours, a magical means by which you may alter the appearance of your arms and armor. Properly educated, you may now take appropriate measures to start looking the part of a professional adventurer!"
+        ],
+        "objectives": [
+            "Speak with Folclind.",
+            "Deliver the blood orange juice to Swyrgeim."
+        ],
+        "dialogue": [
+            {
+                "name": "SWYRGEIM",
+                "text": "Oh dear, dear, dear. This will never do! My sense of aesthetics simply won't allow it! How can you go out dressed like that?"
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "My dear, if only you'd spare a thought for style and coordination! I hope your garb holds up during a scuffle, because there's little else going for it!"
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "That's it! I've made up my mind. From this day forth, I'll take it upon myself to save you from any more fashion disasters."
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "Let me see... So much that needs to be addressed─where to even begin? Be a dear and get me a drink. I'm feeling rather parched, and this is a matter best discussed over a glass of something cold."
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "Just go to the Pissed Peiste and ask Folclind. I'll have some blood orange juice. And tell her to make sure there's no pulp in it. Now, off you go!"
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "Oh my, was it too much to ask? It's just over there, dear─I'm sure you can manage."
+            },
+            {
+                "name": "FOLCLIND",
+                "text": "Oh, Swyrgeim sent you, did she? That woman─I've never known anyone so lazy! Would it kill her to come and get it herself?"
+            },
+            {
+                "name": "FOLCLIND",
+                "text": "Here you are. You shouldn't let her push you around, you know. Give her an ilm and she'll take a malm."
+            },
+            {
+                "name": "FOLCLIND",
+                "text": "I tell you, that stuff doesn't come cheap. The owner would have to up my pay before I can afford luxuries like that!"
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "So, how's that drink coming along?"
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "Oh! Delicious! Nothing better on a hot day! Some say I have expensive tastes, but life's too short to settle for second best. Of course, this extends to my choice of wardrobe, too."
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "Now that I'm feeling refreshed, shall we get started? Do you know, dear, you'd look a lot less drab if you knew how to apply “glamours”!"
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "\"What's a glamour?“ you ask? Well, they use a glamour prism as a catalyst to project the image of one item onto another. It's just an illusion, mind, but very convincing!"
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "This means the original object stays essentially the same. It just takes on a new appearance, that's all."
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "Remember, if you fancy a change, you don't have to stick with the same glamour. Just apply another one on top, or use a glamour dispeller to return the object to normal."
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "Why sacrifice style for such humdrum trifles as “durability” or “protection from bodily harm”? Limitless possibilities for self-expression are just a couple of glamours away!"
+            },
+            {
+                "name": "SWYRGEIM",
+                "text": "Go ahead, give it a try! And do make it quick, dear, for my sake. I'm finding your uninspired attire more and more offensive with each passing moment."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Glamour dressers in inn rooms are now available."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may use dressers to transform items into glamours and create ensembles for quick and easy use."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 12,
+                    "id": 21800
+                },
+                {
+                    "id": 13258
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            68554
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1004990",
+            "obj": {
+                "i": 1004990,
+                "n": "Swyrgeim",
+                "l": 42,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004096",
+            "obj": {
+                "i": 1004096,
+                "n": "Folclind",
+                "l": 42,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "21800",
+            "obj": {
+                "i": 21800,
+                "n": "Glamour Prism",
+                "l": 35,
+                "c": 26235,
+                "t": 60
+            }
+        },
+        {
+            "type": "item",
+            "id": "13258",
+            "obj": {
+                "i": 13258,
+                "n": "Green Beret",
+                "l": 1,
+                "c": 41292,
+                "t": 34
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68554",
+            "obj": {
+                "i": 68554,
+                "n": "Absolutely Glamourous",
+                "g": 93,
+                "l": "Western Thanalan",
+                "s": 152,
+                "f": 1
+            }
+        }
+    ]
+}

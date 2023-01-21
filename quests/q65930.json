@@ -1,0 +1,97 @@
+{
+    "quest": {
+        "name": "A Luxury Long Lost",
+        "location": "Ul'dah",
+        "id": 65930,
+        "patch": 2.0,
+        "sort": 20,
+        "eventIcon": 71221,
+        "issuer": 1001766,
+        "target": 1001657,
+        "genre": 93,
+        "journal": [
+            "Alewyn has need of an adventurer to help him test a revolutionary new medicine.",
+            "Alewyn has just developed what he claims to be a revolutionary new medicine, which can be used to treat all manner of maladies. He has yet to test its effectiveness, though, and bids you offer the tonic to Landebert, a leader amongst the Ala Mhigan refugees living in Pearl Lane.",
+            "Landebert is well aware of Alewyn's true motives. However, despite the danger in relying on untested alchemical concoctions, the refugees have no choice but to accept Alewyn's so-called goodwill."
+        ],
+        "objectives": [
+            "Offer Alewyn's tonic to Landebert."
+        ],
+        "dialogue": [
+            {
+                "name": "ALEWYN",
+                "text": "Yes, yes... <span class=\"emphasis\">Yes</span>! At last, my work is complete!"
+            },
+            {
+                "name": "ALEWYN",
+                "text": "Mark my words: this formula will revolutionize alchemy as we know it! With just a sip of this tonic, even raging fevers will be instantly extinguished!"
+            },
+            {
+                "name": "ALEWYN",
+                "text": "But I must needs test it, adventurer! While I produce more, I bid you take this batch to Pearl Lane, to a man there named Landebert. He is trusted by the other refugees."
+            },
+            {
+                "name": "ALEWYN",
+                "text": "Persuade this Landebert to take my tonic and give it to his people. I require nothing in exchange─after all, if it is truly effective, it will be a tremendous boon to the advancement of the alchemic arts...and, uh, mankind at large!"
+            },
+            {
+                "name": "LANDEBERT",
+                "text": "Eh? Medicine for the sick? "
+            },
+            {
+                "name": "LANDEBERT",
+                "text": "Hah! We're not fools, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">boy</span></span>. We know full well what that bastard Alewyn is up to."
+            },
+            {
+                "name": "LANDEBERT",
+                "text": "...But we'll accept his medicine nonetheless. Look at us─beggars can't be choosers. Might be as it's a mere experiment to him, but to us it's a matter of life and death. If we've got to choose between this bastard's swill and nothing at all, is it really a choice?"
+            }
+        ],
+        "reward": {
+            "gil": 111,
+            "items": [
+                {
+                    "num": 9,
+                    "id": 7
+                }
+            ],
+            "xp": 110
+        },
+        "next": [
+            65931
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001766",
+            "obj": {
+                "i": 1001766,
+                "n": "Alewyn",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001657",
+            "obj": {
+                "i": 1001657,
+                "n": "Landebert",
+                "l": 41,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65931",
+            "obj": {
+                "i": 65931,
+                "n": "The Wealth of Nations",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 20
+            }
+        }
+    ]
+}

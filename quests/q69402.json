@@ -1,0 +1,132 @@
+{
+    "quest": {
+        "name": "What Do You Mean You Forgot the Wine",
+        "location": "Eastern La Noscea",
+        "id": 69402,
+        "patch": 5.3,
+        "sort": 170,
+        "eventIcon": 71201,
+        "issuer": 1006266,
+        "target": 1006305,
+        "genre": 1,
+        "journal": [
+            "Wheiskaet would like to congratulate you on a job well done.",
+            "Wheiskaet applauds your performance, but still refuses to tell you of Titan's secrets. Before you can face the Lord of Crags in battle, you must procure a bottle of the very finest wine from Shamani Lohmani, a former member of the Company. Wheiskaet hands you a note to explain the details of the order, which should save you the trouble of remembering any difficult-to-pronounce wine names.",
+            "Shamani Lohmani immediately deduces your intent with his impressive sense of smell. Having explained why he did so, he is now ready to discuss business."
+        ],
+        "objectives": [
+            "Hand the note to Shamani Lohmani in Wineport."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Bravo, <span class=\"highlight\">Forename</span>. Thanks to you, our guests shall be honored with a marvelous banquet."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "But what good is an exotic feast without an equally exquisite aperitif?"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Luckily, I know just the person to ask. Make your way to Wineport and seek out Shamani Lohmani, another former member of the Company."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "All you have to do is give him this order slip. He'll take care of the rest."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Oh, and if you're wondering if this is merely a ploy to test your patience, I assure you I <span class=\"emphasis\">do</span> actually need that wine. And while you're there, give Shamani Lohmani my regards."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "...Sweat, grime, and blood. Aye, you reek of blood. An adventurer, unless I am mistaken. What brings you to Wineport?"
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "An order? Let me guess─a request for the finest vintage I can muster."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "&lt;sniff&gt; &lt;sniff&gt; The paper smells of loam and perfume. Costa del Sol. And there is also the─&lt;cough&gt;─unmistakable odor of goblin cheese..."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "Yes, Master Gegeruju would not settle for anything less than the best. Dyrstweitz and his crew must be quite busy preparing an exotic feast, hence his decision to rely on an adventurer."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "Ah, but perhaps you are confused. This display of deduction was not intended to impress you."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "When one loses his vision, he is forced to compensate in other ways. But you've no interest in my affairs─you wish only to discuss the wine, I suspect."
+            }
+        ],
+        "reward": {
+            "gil": 288
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66368
+            ]
+        },
+        "next": [
+            66376
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006266",
+            "obj": {
+                "i": 1006266,
+                "n": "Wheiskaet",
+                "l": 32,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006305",
+            "obj": {
+                "i": 1006305,
+                "n": "Shamani Lohmani",
+                "l": 32,
+                "q": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66368",
+            "obj": {
+                "i": 66368,
+                "n": "The Things We Do for Cheese",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 169
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66376",
+            "obj": {
+                "i": 66376,
+                "n": "An Offer You Can Refuse",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 171
+            }
+        }
+    ]
+}

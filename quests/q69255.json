@@ -1,0 +1,136 @@
+{
+    "quest": {
+        "name": "An Academic Dispute",
+        "location": "Excavation Tunnels",
+        "id": 69255,
+        "patch": 5.1,
+        "sort": 30,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1032020,
+        "target": 1032228,
+        "genre": 24,
+        "journal": [
+            "Anogg won't be kept from the secrets of the ruins a moment longer.",
+            "You speak with Anogg, who rushes off to chase the “key” that 2P bade you recover before you can get so much as a word in edgeways. At this point, there is little for you or Konogg to do but follow.",
+            "Catching up to Anogg deeper within the ruins, Konogg attempts to dissuade her from rushing headlong into danger at 2P's behest, making the rather astute observation that you hardly know her and you definitely do <span class=\"emphasis\">not</span> know her true intentions. Anogg, however, refuses to consider that he may have a point, and insists upon cooperation with the android, believing it to be the most expedient means of making even greater discoveries. It seems that you have no choice but to pick a side."
+        ],
+        "objectives": [
+            "Speak with Anogg."
+        ],
+        "dialogue": [
+            {
+                "name": "ANOGG",
+                "text": "Ready? Trick question─don't care! Let's go!"
+            },
+            {
+                "name": "KONOGG",
+                "text": "There's no stopping her now. So much for preparation."
+            },
+            {
+                "name": "ANOGG",
+                "text": "Just think─machines equal to man! No, perhaps even greater! If we can find the key, we can figure out how they work! We can fix 2P, and then..."
+            },
+            {
+                "name": "KONOGG",
+                "text": "...And what? Slow down and use your head! How are we to know that any of what she said was true?"
+            },
+            {
+                "name": "ANOGG",
+                "text": "Oh, so you'd have us sit on our hands instead of pursuing the untold power that sleeps in these ruins? Twiddle our thumbs while others race ahead and claim the prize?"
+            },
+            {
+                "name": "KONOGG",
+                "text": "I'm as intrigued as you are! But I would <span class=\"emphasis\">not</span> have us put our blind faith in someone we've only just met─particularly someone making such wild claims. Were we to bring this “key” to her, there's no telling what she might do with it..."
+            },
+            {
+                "name": "ANOGG",
+                "text": "Hmph. If you want to be a coward, be my guest. I'll be boldly forging a path forward as, if you recall, we planned to do. And if we can secure 2P's continued assistance, all the better."
+            },
+            {
+                "name": "ANOGG",
+                "text": "What about you? You can either dive into the great unknown with me, or stick in one toe at a time like a beardless baby."
+            },
+            {
+                "name": "KONOGG",
+                "text": "Sometimes I hate being the reasonable one."
+            }
+        ],
+        "reward": {
+            "gil": 695
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69254
+            ]
+        },
+        "next": [
+            69256,
+            69257
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1032020",
+            "obj": {
+                "i": 1032020,
+                "n": "Anogg",
+                "l": 3427,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1032228",
+            "obj": {
+                "i": 1032228,
+                "n": "Anogg",
+                "l": 3441,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69254",
+            "obj": {
+                "i": 69254,
+                "n": "On the Threshold",
+                "g": 24,
+                "l": "Kholusia",
+                "s": 20,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69256",
+            "obj": {
+                "i": 69256,
+                "n": "Tails, You Lose",
+                "g": 24,
+                "l": "The Copied Factory",
+                "s": 100,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69257",
+            "obj": {
+                "i": 69257,
+                "n": "Heads, I Win",
+                "g": 24,
+                "l": "The Copied Factory",
+                "s": 200,
+                "f": 1
+            }
+        }
+    ]
+}

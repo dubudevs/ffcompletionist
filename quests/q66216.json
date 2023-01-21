@@ -1,0 +1,430 @@
+{
+    "quest": {
+        "name": "The Company You Keep (Twin Adder)",
+        "location": "The Waking Sands",
+        "id": 66216,
+        "patch": 2.0,
+        "sort": 107,
+        "icon": 100068,
+        "eventIcon": 71201,
+        "issuer": 1004884,
+        "target": 1002394,
+        "involved": [
+            1004883,
+            1004885,
+            1004886
+        ],
+        "genre": 1,
+        "journal": [
+            "The Twin Adder recruitment officer seems eager to welcome you to Gridania's Grand Company.",
+            "You have confirmed your intention to join the ranks of the Order of the Twin Adder. Visit the Adders' Nest in Gridania, and speak with the personnel officer to be formally inducted into the Grand Company.",
+            "Your formal induction into the Order of the Twin Adder is interrupted by an urgent report concerning an imperial attack on a Highwind Skyways airship. Head to the area southeast of Nine Ivies and determine the fate of the crippled vessel and its crew.",
+            "You have defeated the imperial soldiers intent on requisitioning the downed airship. You learn that the vessel's crew, Biggs and Wedge, are engineers from Garlond Ironworks, and that Master Garlond himself has been missing since the Calamity. Return to the Adders' Nest and report to the personnel officer.",
+            "Back at the Adders' Nest, the personnel officer praises your efforts, and reassures you that the two engineers you encountered were able to continue on their way. He then expresses his eagerness to complete your induction into the ranks of the Order of the Twin Adder. Speak with him once more when you are ready to attend to the formalities."
+        ],
+        "objectives": [
+            "Speak with the personnel officer at the Adders' Nest.",
+            "Head southeast of Nine Ivies and determine the fate of the airship and its crew.",
+            "Speak with the personnel officer at the Adders' Nest.",
+            "Defeat the imperial soldiers!"
+        ],
+        "dialogue": [
+            {
+                "name": "SERPENTOFFICER",
+                "text": "Ah, I take it the Elder Seedseer's words have touched your heart. Have you resolved to entwine your destiny with that of the Twin Adder?"
+            },
+            {
+                "name": "Q1",
+                "text": "Join the Order of the Twin Adder?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "SERPENTOFFICER",
+                "text": "You have chosen wisely, my friend! The Elder Seedseer will be overjoyed!"
+            },
+            {
+                "name": "SERPENTOFFICER",
+                "text": "Without further ado, let us speak of practical matters. In order to complete the enrollment procedure, you must report to <span class=\"alternative-container\"><span class=\"alternative\">our headquarters in Gridania─the Adders' Nest</span><span class=\"alternative\">the Adders' Nest</span></span>."
+            },
+            {
+                "name": "SERPENTOFFICER",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">The building you seek stands in the southern part of the city, now called New Gridania</span><span class=\"alternative\">I daresay you know it well from your wanderings in New Gridania</span></span>. Give your name to the personnel officer there, and he will guide you through the formalities."
+            },
+            {
+                "name": "SERPENTOFFICER",
+                "text": "I have no doubt but that your deeds will bring great honor to our order. When next we meet in Gridania, I shall be proud to call you <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>!"
+            },
+            {
+                "name": "SERPENTOFFICER",
+                "text": "Ah...forgive me. In my eagerness to embrace you as a <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>, I mistook your intention."
+            },
+            {
+                "name": "SERPENTOFFICER",
+                "text": "I shall send word to the Adders' Nest so that our people know to expect you. Give your name to the personnel officer, and he will guide you through the formalities."
+            },
+            {
+                "name": "FLAMEOFFICER",
+                "text": "What's this!? You mean to take up with the <span class=\"emphasis\">Adders</span>!? B-But...did the awe-inspiring figure of General Raubahn not stir you? He <span class=\"emphasis\">can</span> seem a trifle intimidating...but I'm sure you'd warm to him, given time."
+            },
+            {
+                "name": "STORMOFFICER",
+                "text": "If your mind is made up, then there is no help for it. Yet know that like the tide, men's hearts are apt to change. If and when yours does, you may be certain of a warm welcome from us."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "You are come to the Adders' Nest, headquarters of the Order of the Twin Adder. Ever do we welcome they who would toil in the elementals' name for the good of our forest nation."
+            },
+            {
+                "name": "Q2",
+                "text": "How will you respond?"
+            },
+            {
+                "name": "A2",
+                "text": "My name is <span class=\"highlight\">Forename Surname</span>. I believe you are expecting me."
+            },
+            {
+                "name": "A2",
+                "text": "I am here to enlist, if you will have me."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "Ah, the great adventurer <span class=\"alternative-container\"><span class=\"alternative\">herself</span><span class=\"alternative\">himself</span></span>! Yes, our recruitment officer sent word that you were on your way. It is a pleasure and an honor both to welcome you to our ranks, friend."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "Ah! Might you be <span class=\"highlight\">Forename Surname</span>? I thought as much! Our recruitment officer sent word that you would be coming. It is a pleasure and an honor both to welcome you to our ranks."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "Now, let me gather together the relevant documentation..."
+            },
+            {
+                "name": "SERPENT",
+                "text": "Sir!"
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "What is it? Report."
+            },
+            {
+                "name": "SERPENT",
+                "text": "An urgent message from Amarissaix's Spire, sir! A Highwind Skyways airship has taken fire from imperial forces in the skies over the East Shroud!"
+            },
+            {
+                "name": "SERPENT",
+                "text": "The vessel's engines were crippled, sir, and it was forced to make an emergency landing southeast of Nine Ivies."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "Nine Ivies? Gods, this could not have come at a worse time. All but a handful of our forces are presently afield, dealing with the Ixal."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "<span class=\"highlight\">Forename</span>─I know full well you have yet to be formally inducted into our ranks, but we have urgent need of your aid."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "In all likelihood, the airship was bearing civilians, and if the reports are accurate, it will have come down dangerously close to Garlean-occupied territory."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "Please make all haste to the area southeast of Nine Ivies, locate the airship, and ascertain the status of the passengers."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "We think the airship reportedly came down somewhere to the southeast of Nine Ivies. Go there without delay and ascertain the status of the passengers."
+            },
+            {
+                "name": "Q3",
+                "text": "Duty calls. Do you wish to proceed with<br>“The Company You Keep (Twin Adder)”?"
+            },
+            {
+                "name": "A3",
+                "text": "Yes"
+            },
+            {
+                "name": "A3",
+                "text": "No"
+            },
+            {
+                "name": "BIGGS",
+                "text": "(-Airship Crewman-)An adventurer!? What're you doing out here? No, wait─let's find some cover first..."
+            },
+            {
+                "name": "BIGGS",
+                "text": "(-Airship Crewman-)The Adders' Nest sent you? How do I know you're not an imperial spy? You don't even have a uniform!"
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "Peace, friend─we mean you no harm. You are an engineer of Garlond Ironworks, are you not? We were alerted to your plight, and have come to rescue you."
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "And you are <span class=\"highlight\">Forename Surname</span>, I presume. I was told to expect an “honorary” Serpent. My thanks for your aid, friend."
+            },
+            {
+                "name": "IMPERIALSOLDIER",
+                "text": "I've never seen a craft of this design... It must be Garlond's work. Is there no end to the man's treachery?"
+            },
+            {
+                "name": "IMPERIALSOLDIER",
+                "text": "The secrets of magitek belong in imperial hands. They are not to be squandered on Eorzean savages!"
+            },
+            {
+                "name": "IMPERIALSOLDIER",
+                "text": "We are taking this craft back to the fortress! Dismantle it if you must! And bring the engineer! Someone must pay for Garlond's crimes."
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "Imperial scouts from Castrum Oriens. They mean to requisition the ship."
+            },
+            {
+                "name": "BIGGS",
+                "text": "(-Airship Crewman-)Wedge! You have to help him! That fool of a Lalafell was hiding <span class=\"emphasis\">inside</span> the <span class=\"emphasis\">Tiny Bronco</span>!"
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "The <span class=\"emphasis\">Tiny Bronco</span>? But isn't that the Ironworks' latest creation!?"
+            },
+            {
+                "name": "BIGGS",
+                "text": "(-Airship Crewman-)It's the first airship we've built since the Calamity─the first since Master Garlond...well, since he went missing."
+            },
+            {
+                "name": "BIGGS",
+                "text": "(-Airship Crewman-)After years of work, she was finally ready for her first test flight. And she was <span class=\"emphasis\">soaring</span>, she really was─till those bastards blasted her out of the sky!"
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "Attend me, all: the Ironworks' latest creation must not fall into Garlean hands. We shall strike them, swift and sure, and rescue Engineer Wedge."
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "<span class=\"highlight\">Forename</span>, I trust we can rely on your support."
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "May the Matron watch over us! With me!"
+            },
+            {
+                "name": "IMPERIALSOLDIER",
+                "text": "An ambush! To arms!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Biggs!"
+            },
+            {
+                "name": "BIGGS",
+                "text": "Wedge! You shouldn't have stayed with the ship!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Th-That was a close one!"
+            },
+            {
+                "name": "BIGGS",
+                "text": "Too damn close. So...how's she look, anyway?"
+            },
+            {
+                "name": "WEDGE",
+                "text": "The auxiliary propeller is a dead loss, but I think we can wring enough thrust from the main propeller to get us airborne."
+            },
+            {
+                "name": "BIGGS",
+                "text": "A few minor modifications and we should be able to fly the <span class=\"emphasis\">Tiny Bronco</span> home."
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "While you do your work, we shall keep watch over the perimeter. The enemy may yet be lurking nearby. "
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "As for you, <span class=\"highlight\">Forename</span>, you have more than done your part today. I bid you return to the Adders' Nest and complete your enlistment."
+            },
+            {
+                "name": "SERPENTLIEUTENANT",
+                "text": "I pray there will be no further interruptions. When next we meet, let it be as fellow Serpents of the Order!"
+            },
+            {
+                "name": "BIGGS",
+                "text": "I, um...just wanted to say sorry...you know, for calling you an imperial spy and all that... Got <span class=\"emphasis\">that</span> one wrong, didn't I!? Ha ha! Seriously, though─if it hadn't been for you and the Twin Adder lads there, we'd be chained up in a dungeon by now. I'm in your debt, friend─we both are."
+            },
+            {
+                "name": "BIGGS",
+                "text": "Wedge!"
+            },
+            {
+                "name": "WEDGE",
+                "text": "Thank you! We're very grateful!"
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "<span class=\"highlight\">Forename</span>! It does my spirit well to see you returned!"
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "Word arrived but moments ago from the team at Nine Ivies. Lest you worry, the two engineers are safely on their way."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "The lieutenant informs me that you were instrumental in the mission's success. Had you not found Engineer Biggs when you did, and helped us to rout the Garleans, things might have been very different."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "And all this before you were even inducted into the Order! You are well on your way to carving out a fine career for yourself beneath the Twin Adder standard."
+            },
+            {
+                "name": "SERPENTPERSONNEL",
+                "text": "But without further ado, let us see to your induction. Twelve willing, there won't be any further interruptions."
+            },
+            {
+                "name": "QIB",
+                "text": "Leave none standing!"
+            },
+            {
+                "name": "QIB",
+                "text": "Keep them away from the airship!"
+            },
+            {
+                "name": "QIB",
+                "text": "Savages! You cannot stand against the might of the Empire!"
+            },
+            {
+                "name": "QIB",
+                "text": "This has gone on long enough!"
+            },
+            {
+                "name": "QIB",
+                "text": "Annihilate these barbarians!<br>Teach them the futility of resistance!"
+            },
+            {
+                "name": "QIB",
+                "text": "The elementals take them..."
+            },
+            {
+                "name": "QIB",
+                "text": "Th-They're...too strong..."
+            },
+            {
+                "name": "QIB",
+                "text": "Avenge...me..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5765
+                }
+            ],
+            "xp": 8120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66047
+            ]
+        },
+        "next": [
+            66219
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1004884",
+            "obj": {
+                "i": 1004884,
+                "n": "Serpent Officer",
+                "l": 356,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002394",
+            "obj": {
+                "i": 1002394,
+                "n": "Serpent Personnel Officer",
+                "l": 52,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004883",
+            "obj": {
+                "i": 1004883,
+                "n": "Flame Officer",
+                "l": 356,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004885",
+            "obj": {
+                "i": 1004885,
+                "n": "Storm Officer",
+                "l": 356,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004886",
+            "obj": {
+                "i": 1004886,
+                "n": "Airship Crewman",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5765",
+            "obj": {
+                "i": 5765,
+                "n": "Honey Yellow Dye",
+                "l": 30,
+                "c": 22806,
+                "t": 55
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66047",
+            "obj": {
+                "i": 66047,
+                "n": "A Hero in the Making",
+                "g": 1,
+                "l": "The Waking Sands",
+                "s": 106
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66219",
+            "obj": {
+                "i": 66219,
+                "n": "Wood's Will Be Done",
+                "g": 1,
+                "l": "Gridania",
+                "s": 110
+            }
+        }
+    ]
+}

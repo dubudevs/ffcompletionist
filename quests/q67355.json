@@ -1,0 +1,77 @@
+{
+    "quest": {
+        "name": "The Bathing Bully",
+        "location": "The Churning Mists",
+        "id": 67355,
+        "patch": 3.0,
+        "sort": 5401,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012284,
+        "target": 1012284,
+        "genre": 100,
+        "journal": [
+            "Mogret is in desperate need of a bath.",
+            "A popular moogle bathing spot has been taken over by half-fish, half-dragon monstrosities called hropkens. Slay three of them, scattering the beasts so Mogret can finally clean under her wings.",
+            "You have slain the hropkens, although their odor still remains fresh in your nose. Return to Mogret and inform her that the waters are once again safe.",
+            "Mogret is overjoyed at your news, and explains that she can't stand the smell of raw fish. She suggests that maybe <span class=\"emphasis\">you</span> should also consider taking a dip in the waters."
+        ],
+        "objectives": [
+            "Slay hropkens.",
+            "Report to Mogret."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGRET",
+                "text": "Have you ever bathed in the waters to the northeast? Of course not, because a gang of burly hropkens has been attacking any who goes near them, kupo! If you were kind enough to slay a few, that might scare them away, giving me time for a dip in the waters."
+            },
+            {
+                "name": "MOGRET",
+                "text": "Surely half-dragon, half-fish beasts don't need those waters like <span class=\"emphasis\">I</span> do. Scare them away so I can finally get myself clean."
+            },
+            {
+                "name": "MOGRET",
+                "text": "Many thanks, brave adventurer! Finally I can enjoy a bath without the smell of raw dragon-fish assaulting my senses. &lt;sniff&gt; ...Say, a dip in the waters might serve to, uh...<span class=\"emphasis\">freshen</span> you up as well, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 515,
+            "aetherCurrent": 1,
+            "xp": 31200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 54,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67156
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012284",
+            "obj": {
+                "i": 1012284,
+                "n": "Mogret",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67156",
+            "obj": {
+                "i": 67156,
+                "n": "Moghan's Trial",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 41
+            }
+        }
+    ]
+}

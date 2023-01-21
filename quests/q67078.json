@@ -1,0 +1,131 @@
+{
+    "quest": {
+        "name": "A Very Cherry Bomb",
+        "location": "Middle La Noscea",
+        "id": 67078,
+        "patch": 2.3,
+        "sort": 50,
+        "repeatable": 1,
+        "icon": 100283,
+        "eventIcon": 71222,
+        "issuer": 1009250,
+        "target": 1009250,
+        "genre": 201,
+        "journal": [
+            "There is a Very Cherry Bomb with your name on it, if only you would speak with J'nangho.<br>※This quest is available for a limited time only.",
+            "Combining high-explosives disposal and crowd-pleasing pyrotechnics takes a merry heart and a steady hand. Follow J'nangho's instructions to chase flaming Bombard blanks towards a mortar full of fireworks. Whether to use the northern or the eastern venue is entirely up to you.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "Off go the fireworks, the bomb core turns to ashes, and, as J'nangho predicted, the crowd goes wild. It would only be fair to let her know that she was right.",
+            "J'nangho has her own two bits to add to the inside tale of the Moonfire Faire. All this talk of energy is a happy reminder that, should you so choose, you can always return to the Zephyr Gate for another round of a Very Cherry Bomb."
+        ],
+        "objectives": [
+            "Attack a Bombard blank to drive it into a mortar.",
+            "Report to J'nangho."
+        ],
+        "dialogue": [
+            {
+                "name": "JNANGHO",
+                "text": "Ready to roll? Blow those Bombard blanks straight towards the mortar. Do it with style, now!"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "I've set up two separate venues─one to the north and one to the east. Too many mortars in one place is a recipe for singed adventurers and crispy onlookers... So, go to whichever, fry up the Bombards in some pretty fireworks, then let me know how it went!"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "There're two separate venues set up─one to the north, another to the east. Don't keep all your explosives in one mortar, and all that. Either place'll do─fry up the Bombards in some fireworks, then come talk to me!"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "Are you good or are you good? You must have some practice blowing up things!"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "At first I was thinking, “What is this rigmarole? Are we the Adventurers' Guild or the Mummers' Guild?” But the energy of the crowd has me all turned around!"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "I've done my share of helping out with guild functions. That's why I ended up a chaperone. But let's face it, I'm just a mote in the beam. This faire has a life of its own, you know?"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "Something about the energy of clashing personalities. I mean, that prim plum Mayaru Moyaru was either going to garrote Haermaga for his crazy ideas, or they were going to come up with a pretty fine event. And that's what happened, right? The cannon thing?"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "Same with the rest of us, me and Ethelia included. An elbst-mad phlegm needle she may be, but Sister Thel's all right. I tell you, what a faire this year! It has such...such <span class=\"emphasis\">heart</span>. Beats me how it happened!"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "Here's your take for the show, by the way. Well deserved! Come back any time if you miss the gunpowder─and bacon fat. I'll keep the mortars packed for you!"
+            },
+            {
+                "name": "JNANGHO",
+                "text": "Another blistering performance! Keep up the good energy, and come back any time."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have participated in all three Moonfire Faire events."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Return to the Aftcastle in Limsa Lominsa to receive a special reward from Haermaga."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 10,
+                    "id": 8216
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                67075
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009250",
+            "obj": {
+                "i": 1009250,
+                "n": "J'nangho",
+                "l": 30,
+                "q": 2,
+                "t": "Moonfire Faire Chaperone"
+            }
+        },
+        {
+            "type": "item",
+            "id": "8216",
+            "obj": {
+                "i": 8216,
+                "n": "Pinwheel",
+                "l": 1,
+                "c": 27001,
+                "t": 85,
+                "p": 19
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67075",
+            "obj": {
+                "i": 67075,
+                "n": "Explode It! Moonfire Faire",
+                "g": 201,
+                "l": "Limsa Lominsa",
+                "s": 47
+            }
+        }
+    ]
+}

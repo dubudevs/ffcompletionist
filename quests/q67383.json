@@ -1,0 +1,100 @@
+{
+    "quest": {
+        "name": "Back to Baskets",
+        "location": "The Churning Mists",
+        "id": 67383,
+        "patch": 3.0,
+        "sort": 5511,
+        "eventIcon": 71221,
+        "issuer": 1012091,
+        "target": 1012091,
+        "genre": 100,
+        "journal": [
+            "Mogson looks like he's forgotten something again.",
+            "It appears that the absent-minded Mogson has left his baskets behind again, this time in Tharl Oom Khash. Recover them for the poor moogle so he can stop fluttering about in distress.",
+            "You find the baskets scattered around Tharl Oom Khash, and it is a mystery how the tiny moogle expected to carry them back in the first place. Return to Mogson and deliver his precious baskets back to him.",
+            "Mogson is delighted to have the baskets returned to him, grateful that he can resume crafting with the crystals stored inside the baskets. It seems that a distant dragon's roar scared the moogle off while he was gathering the crystals. Now, thanks to you, the nervous moogle can resume crafting whatever it is he makes."
+        ],
+        "objectives": [
+            "Recover Mogson's baskets.",
+            "Deliver the baskets to Mogson."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGSON",
+                "text": "Oh no, I've done it again, kupo. I've forgotten my baskets! Please, adventurer, find them for me!"
+            },
+            {
+                "name": "MOGSON",
+                "text": "I forgot three baskets around Tharl Oom Khash. Find them before the monsters get into them!"
+            },
+            {
+                "name": "MOGSON",
+                "text": "Those baskets are precious to me. Find them around Tharl Oom Khash, kupo."
+            },
+            {
+                "name": "MOGSON",
+                "text": "If I don't get those baskets back, this whole day will have been a waste, kupo! Were you able to recover them?"
+            },
+            {
+                "name": "MOGSON",
+                "text": "My baskets! Thank heavens you found them, kupo!"
+            },
+            {
+                "name": "MOGSON",
+                "text": "I went to Tharl Oom Khash to gather crystals for my crafting, but then I heard a dragon roar in the distance and ran off, leaving my baskets behind, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 551,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67171,
+                67361
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012091",
+            "obj": {
+                "i": 1012091,
+                "n": "Mogson",
+                "l": 2002,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67361",
+            "obj": {
+                "i": 67361,
+                "n": "Who's Got the Baskets",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5406
+            }
+        }
+    ]
+}

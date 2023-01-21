@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Yarzon, Yarzoff",
+        "location": "Middle La Noscea",
+        "id": 66006,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1002119,
+        "target": 1002119,
+        "genre": 91,
+        "journal": [
+            "Ostfyr hopes to assure the safety of wayfarers at the La Thagran Checkpoint by ridding the area of its dangerous denizens.",
+            "You learn that the Rogue River has been particularly perilous of late. Overturn three yarzon nests, and extirpate the yarzons that appear.",
+            "You have considerably thinned out the yarzon population at the Rogue River. Return to the La Thagran Checkpoint to let Ostfyr know that the creatures will menace wayfarers no more.",
+            "The Yellowjackets are too few in number to guard the La Thagran Checkpoint, and the surrounding regions have not a man to spare. They need your help."
+        ],
+        "objectives": [
+            "Jostle the yarzons out of their nests and slay them.",
+            "Report to Ostfyr."
+        ],
+        "dialogue": [
+            {
+                "name": "OSTFYR",
+                "text": "More and more travelers pass through these gates bloodied and bruised each day."
+            },
+            {
+                "name": "OSTFYR",
+                "text": "They tell me the yarzons harry them at the Rogue. It pains me to do nothing, but we need every man we have just to hold the garrison."
+            },
+            {
+                "name": "OSTFYR",
+                "text": "You would do us all a great service were you to thin the yarzon population for us. If you could clear out, say, three of their nests, we'd all be in your debt."
+            },
+            {
+                "name": "OSTFYR",
+                "text": "Ah, so you did for the vilekin? Every passer-through owes you a debt of gratitude."
+            },
+            {
+                "name": "OSTFYR",
+                "text": "La Thagran is a vital stronghold, one the Maelstrom would defend themselves, had they the means. The fleet is spread too thin, which is why the Yellowjackets have been called in."
+            },
+            {
+                "name": "OSTFYR",
+                "text": "But our numbers are hardly inexhaustible, and your help goes a long way towards preserving the peace."
+            },
+            {
+                "name": "POP",
+                "text": "Angry yarzons burst out from the nest!"
+            }
+        ],
+        "reward": {
+            "gil": 128,
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 5,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66000
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002119",
+            "obj": {
+                "i": 1002119,
+                "n": "Ostfyr",
+                "l": 30,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66000",
+            "obj": {
+                "i": 66000,
+                "n": "Further Afield",
+                "g": 0,
+                "l": "Middle La Noscea",
+                "s": 28
+            }
+        }
+    ]
+}

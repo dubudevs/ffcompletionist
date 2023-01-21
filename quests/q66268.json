@@ -1,0 +1,79 @@
+{
+    "quest": {
+        "name": "Stash Saboteur",
+        "location": "South Shroud",
+        "id": 66268,
+        "patch": 2.0,
+        "sort": 220,
+        "eventIcon": 71221,
+        "issuer": 1000598,
+        "target": 1000598,
+        "genre": 92,
+        "journal": [
+            "Auphiliot at Buscarron's Druthers seeks an adventurer's aid in dashing a Qiqirn-hatched plot.",
+            "Auphiliot has caught word that Qiqirn raiders are hoarding large quantities of poison, which they intend to use in their efforts to waylay unsuspecting travelers. Use the firepots he has provided to destroy the stashes of poison before any of the Druthers' patrons come to harm.",
+            "You have succeeded in destroying all the Qiqirn poison stashes, ensuring the safety of travelers en route to and from the Druthers. Report your deeds to Auphiliot.",
+            "Auphiliot is pleased that you were able to preemptively thwart the Qiqirn's venomous plot, whatever it might have been. He further explains that the idea came from Buscarron, who believes in avoiding direct confrontation, that true peace might eventually return to the forest."
+        ],
+        "objectives": [
+            "Use the firepots to destroy Qiqirn stashes.",
+            "Report to Auphiliot."
+        ],
+        "dialogue": [
+            {
+                "name": "AUPHILIOT",
+                "text": "Been takin' me advice an' puttin' yer skills to work at the Druthers, have ye? Now that's what I like to see from a strappin' young <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Well, tighten yer bootstraps, 'cause I've got another job for ye."
+            },
+            {
+                "name": "AUPHILIOT",
+                "text": "Was downin' a pint o' Buscarron's finest the other day when I heard that the Qiqirn are hoardin' stashes o' poison 'round these parts. Can't say for sure what they're up to, but it can't be nothin' good. What say you take these firepots here an' go blow up the whole bleedin' lot?"
+            },
+            {
+                "name": "AUPHILIOT",
+                "text": "The poison stashes are no more, ye say? Good <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>! Yer next pint will be on me."
+            },
+            {
+                "name": "AUPHILIOT",
+                "text": "Were it <span class=\"emphasis\">my</span> druthers, I'd grab those Qiqirn one by one an' string 'em up by their ratty ears, but old man Buscarron won't have none o' that. Says each battle we forgo now saves us one down the road, an'─to tell the truth─I'm startin' to come 'round to his ways."
+            }
+        ],
+        "reward": {
+            "gil": 1140,
+            "xp": 4340
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 22,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66265
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000598",
+            "obj": {
+                "i": 1000598,
+                "n": "Auphiliot",
+                "l": 56,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66265",
+            "obj": {
+                "i": 66265,
+                "n": "No Guts, No Glory",
+                "g": 92,
+                "l": "South Shroud",
+                "s": 220
+            }
+        }
+    ]
+}

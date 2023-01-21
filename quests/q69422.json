@@ -1,0 +1,247 @@
+{
+    "quest": {
+        "name": "Chasing Ivy",
+        "location": "Gridania",
+        "id": 69422,
+        "patch": 5.3,
+        "sort": 68,
+        "eventIcon": 71201,
+        "issuer": 1010010,
+        "target": 1010018,
+        "genre": 2,
+        "journal": [
+            "Ilberd is convinced that he has discovered the Ivy's identity and is preparing to move against the Garlean spy.",
+            "Ilberd reveals that the Ivy is none other than Flame Marshal Eline Roaille, Raubahn's second-in-command. He believes that she has come to Gridania with treachery in mind, and means to catch her in the act. Join him in watching her every move.",
+            "Eline Roaille appears to be bound for the Blue Badger Gate. Continue to shadow the suspect.",
+            "Eline Roaille has entered the Carline Canopy, and Ilberd bids you look for her within. If she is not on the upper level, take your search to the landing area below and speak with Crystal Brave Ephemie.",
+            "Ephemie is certain that Eline Roaille has not boarded an airship. Make your way back outside the Carline Canopy, and report her mysterious disappearance to Ilberd.",
+            "Ilberd believes that Eline Roaille may have availed herself of a room at the Roost to throw pursuers off her trail. Just when it seems as though your quarry has eluded you, a shinobi of Doma appears with word that Eline Roaille has left Gridania by way of Westshore Pier. Your hunt will next take you to the East Shroud."
+        ],
+        "objectives": [
+            "Speak with Ilberd.",
+            "Speak with Ilberd again.",
+            "Speak with Ephemie at the airship landing.",
+            "Report to Ilberd."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "ILBERD",
+                "text": "Roaille is headed in the direction of the Blue Badger Gate. With me, Scion."
+            },
+            {
+                "name": "ROAILLE",
+                "text": "Ahhh... The forest air is so cleansing. I feel like a new woman every time I visit Gridania."
+            },
+            {
+                "name": "ILBERD",
+                "text": "So, Roaille has entered the Carline Canopy... Meeting someone, perchance? Or could it be she means to board an airship?"
+            },
+            {
+                "name": "ILBERD",
+                "text": "Pray look for her within. If she is not on the upper floor, try the landing area below."
+            },
+            {
+                "name": "ILBERD",
+                "text": "One of mine is stationed there, and she may have seen something. Ephemie is her name. I shall remain here in case Roaille reappears."
+            },
+            {
+                "name": "ILBERD",
+                "text": "Quickly now─look for Roaille inside the Carline Canopy. If she is not on the upper floor, try the landing area below. Speak with Ephemie─she may have seen something."
+            },
+            {
+                "name": "EPHEMIE",
+                "text": "<span class=\"highlight\">Forename Surname</span>! Such an unexpected pleasure! What brings you here?"
+            },
+            {
+                "name": "EPHEMIE",
+                "text": "Ahem. <span class=\"emphasis\">A social visit</span>, you say? How pleasant! (No─she didn't come this way. I've noted every passenger, and none bore any resemblance.) Well, don't let me keep you!"
+            },
+            {
+                "name": "EPHEMIE",
+                "text": "Still no sign of your friend, I'm afraid! (And I mean that.) I do hope you find <span class=\"emphasis\">him</span>!"
+            },
+            {
+                "name": "ILBERD",
+                "text": "...Nowhere to be seen, you say? And you are sure she did not board an airship?"
+            },
+            {
+                "name": "ILBERD",
+                "text": "Hmph. She did not come back out, either. Where in the seven hells could she have gone...?"
+            },
+            {
+                "name": "ILBERD",
+                "text": "...The Roost! How could I forget!?"
+            },
+            {
+                "name": "SHINOBI00079",
+                "text": "(-Peddler-)Greetings, good sir. Might I interest you in some Mun–Tuy tonic? A cup a day imbues a man with great <span class=\"emphasis\">vigor</span>, if you take my meaning. Heh heh..."
+            },
+            {
+                "name": "ILBERD",
+                "text": "Perhaps another time, friend."
+            },
+            {
+                "name": "ILBERD",
+                "text": "...Wait. That necklace─ You are a shinobi of Doma."
+            },
+            {
+                "name": "SHINOBI00079",
+                "text": "The woman you seek has left Gridania by way of Westshore Pier."
+            },
+            {
+                "name": "SHINOBI00079",
+                "text": "She was attired as a merchant, but these eyes are not so easily deceived."
+            },
+            {
+                "name": "SHINOBI00079",
+                "text": "You may wish to take your search to the East Shroud. Rest assured that we shall continue to support you from the shadows."
+            },
+            {
+                "name": "ILBERD",
+                "text": "Thank the Twelve for the Domans. Were it not for their unique talents, Roaille would have disappeared without a trace."
+            }
+        ],
+        "reward": {
+            "gil": 658,
+            "items": [
+                {
+                    "id": 9330
+                },
+                {
+                    "id": 7321,
+                    "one": 1
+                },
+                {
+                    "id": 7331,
+                    "one": 1
+                },
+                {
+                    "id": 7341,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                65614
+            ]
+        },
+        "next": [
+            69423
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010010",
+            "obj": {
+                "i": 1010010,
+                "n": "Ilberd",
+                "l": 52,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010018",
+            "obj": {
+                "i": 1010018,
+                "n": "Ilberd",
+                "l": 52,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "9330",
+            "obj": {
+                "i": 9330,
+                "n": "Triple Cream Coffee",
+                "l": 110,
+                "c": 24407,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "7321",
+            "obj": {
+                "i": 7321,
+                "n": "Auroral Tabard",
+                "l": 110,
+                "c": 42379,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "7331",
+            "obj": {
+                "i": 7331,
+                "n": "Daystar Robe",
+                "l": 110,
+                "c": 42377,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "7341",
+            "obj": {
+                "i": 7341,
+                "n": "Evenstar Coat",
+                "l": 110,
+                "c": 42376,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65614",
+            "obj": {
+                "i": 65614,
+                "n": "Tendrils of Intrigue",
+                "g": 2,
+                "l": "Coerthas Central Highlands",
+                "s": 67
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69423",
+            "obj": {
+                "i": 69423,
+                "n": "In Flagrante Delicto",
+                "g": 2,
+                "l": "Gridania",
+                "s": 70
+            }
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "quest": {
+        "name": "Death to the Bean Thieves",
+        "location": "North Shroud",
+        "id": 65639,
+        "patch": 2.0,
+        "sort": 60,
+        "eventIcon": 71221,
+        "issuer": 1000627,
+        "target": 1000656,
+        "genre": 92,
+        "journal": [
+            "Q'djawana at Treespeak Stables needs someone to slay opo-opos and recover property stolen from Hyrstmill.",
+            "Q'djawana tells you of how starving opo-opos stole bags of Mun–Tuy beans from Dametta in Hyrstmill. While the pungent beans will not be missed, the normally cheerful and talkative Dametta has fallen into a deep depression. Slay opo-opos on the road to Hyrstmill and recover the six stolen bags of Mun–Tuy beans.",
+            "You serve justice to the thieving, malnourished opo-opos and recover the stolen bags of Mun–Tuy beans. See them delivered to Dametta in Hyrstmill.",
+            "You deliver the stolen Mun–Tuy beans to their rightful owner. Overjoyed by their safe return, Dametta launches into one of her infamous long-winded monologues, and you immediately regret your good deed."
+        ],
+        "objectives": [
+            "Slay opo-opos and recover Dametta's Mun–Tuy beans.",
+            "Deliver the bags of Mun–Tuy beans to Dametta."
+        ],
+        "dialogue": [
+            {
+                "name": "QDJAWANA",
+                "text": "Did you hear about Dametta of Hyrstmill? Apparently, opo-opos crept into her stores and made off with her Mun–Tuy beans!"
+            },
+            {
+                "name": "QDJAWANA",
+                "text": "Ordinarily, opo-opos wouldn't go near them, what with their foul odor and even fouler taste, but food has become scarce of late. Truth be told, a good many of us are glad to be rid of the stench. Still, I can't stand to see Dametta so dispirited."
+            },
+            {
+                "name": "QDJAWANA",
+                "text": "Would you track down those thieving opo-opos and recover the Mun–Tuy beans? I'm told six bags were taken, all told."
+            },
+            {
+                "name": "QDJAWANA",
+                "text": "Dametta is well respected by all the women of Hyrstmill, so it would do you well to earn her favor. So be polite, smile, and don't interrupt if she goes off on one of her tangents..."
+            },
+            {
+                "name": "QDJAWANA",
+                "text": "Hyrstmill lies just to the north of here. You're like to run into opo-opos on the way. With luck, you may even encounter the bean thieves themselves."
+            },
+            {
+                "name": "DAMETTA",
+                "text": "&lt;sigh&gt; I suppose there's nothing to be done...<br>What's that, young <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">man</span></span>? You have something for me?"
+            },
+            {
+                "name": "DAMETTA",
+                "text": "&lt;gasp&gt; My missing bags of Mun–Tuy beans! But how!? You didn't track down those wretched opo-opos, did you!?"
+            },
+            {
+                "name": "DAMETTA",
+                "text": "I had all but given up hope before you arrived, but with these beans, I can make enough Mun–Tuy tonic for <span class=\"emphasis\">everyone</span> in Hyrstmill!"
+            },
+            {
+                "name": "DAMETTA",
+                "text": "As long as I have enough microchu leaflets to flavor it, there should be no complaints..."
+            },
+            {
+                "name": "DAMETTA",
+                "text": "Speaking of which, my son drank unflavored Mun–Tuy tonic the other day!"
+            },
+            {
+                "name": "DAMETTA",
+                "text": "One of his friends challenged him to do it, he said. And do you know what? He drained the whole cup in one great gulp, without making so much as a face!"
+            },
+            {
+                "name": "DAMETTA",
+                "text": "Oh, he grows stronger and braver by the day─nay, the very hour! Either that or my secret recipe is rather more delicious than I imagined. Hmmm...now that I think about it, a good many people <span class=\"emphasis\">have</span> described the taste as unforgettable..."
+            }
+        ],
+        "reward": {
+            "gil": 146,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 4
+                },
+                {
+                    "num": 5,
+                    "id": 4689
+                }
+            ],
+            "xp": 975
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65735
+            ]
+        },
+        "next": [
+            65634
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000627",
+            "obj": {
+                "i": 1000627,
+                "n": "Q'djawana",
+                "l": 57,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000656",
+            "obj": {
+                "i": 1000656,
+                "n": "Dametta",
+                "l": 57,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "4689",
+            "obj": {
+                "i": 4689,
+                "n": "Chanterelle Saute",
+                "l": 7,
+                "c": 24205,
+                "t": 46,
+                "p": 10
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65735",
+            "obj": {
+                "i": 65735,
+                "n": "A Clear Sign",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65634",
+            "obj": {
+                "i": 65634,
+                "n": "Drink Your Beans, Dear",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 80
+            }
+        }
+    ]
+}

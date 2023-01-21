@@ -1,0 +1,217 @@
+{
+    "quest": {
+        "name": "Rock the Castrum",
+        "location": "Northern Thanalan",
+        "id": 69409,
+        "patch": 5.3,
+        "sort": 248,
+        "icon": 112016,
+        "eventIcon": 71201,
+        "issuer": 1006646,
+        "target": 1006657,
+        "genre": 1,
+        "journal": [
+            "Edelstein would send you forth to commence the penultimate phase of Operation Archon.",
+            "Lieutenant Edelstein once more expresses his gratitude for all you have done to lift the spirits of the troops─as well as his own. With morale high once more, the time is nigh to begin the third phase of Operation Archon. March forth to Castrum Meridianum and report for duty to General Raubahn.",
+            "So begins the penultimate phase of Operation Archon. While the main Alliance host wreaks havoc without, you must steal inside Castrum Meridianum and disable its magitek field generator.<br><br>※Challenge Castrum Meridianum with other players via the Duty Finder, or with a party of NPCs via Duty Support. Both systems are accessible from the main menu as well as the dungeon's entrance point.",
+            "You have successfully disabled the magitek field generator protecting the Praetorium, and defeated Livia sas Junius into the bargain. Though you are eager to press on with the fourth and final phase of Operation Archon, you will require the use of an airship if you are to reach the Ultima Weapon's resting place. For now, make your way back outside and report to Raubahn.",
+            "After gruffly reaffirming his trust in your abilities, Raubahn declares the third phase of Operation Archon a success. All that remains is the small matter of finding and destroying the Ultima Weapon."
+        ],
+        "objectives": [
+            "Speak with Raubahn.",
+            "Enter Castrum Meridianum.",
+            "Report to Raubahn."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "EDELSTEIN",
+                "text": "You have rekindled the flames of courage that burn within our brave men and women's hearts, and for this, I thank you."
+            },
+            {
+                "name": "EDELSTEIN",
+                "text": "And now, the time for battle is nigh. We must march forth with no worries or regrets."
+            },
+            {
+                "name": "EDELSTEIN",
+                "text": "General Raubahn awaits you at Castrum Meridianum. The battle will not be an easy one, but I trust that you are up to the task. Godsspeed, [GC Rank][GC Rank][GC Rank] <span class=\"highlight\">Surname</span>!"
+            },
+            {
+                "name": "EDELSTEIN",
+                "text": "General Raubahn awaits you at Castrum Meridianum. Godsspeed, [GC Rank][GC Rank][GC Rank] <span class=\"highlight\">Surname</span>!"
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Our hero returns. I trust that your visit has done much to lift the spirits of our garrison on the eve of our greatest battle yet."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "Time is of the essence. Let us commence the briefing at once."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "We will suffer the Black Wolf to prowl our lands no more! Let us teach the hunter what it is to be hunted!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Go now, <span class=\"highlight\">Forename</span>, and bring us one step closer to the dawn!"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "See that you come back to us, my friend. May the Crystal bless you and keep you."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "I knew you wouldn't let us down, soldier!"
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "With the Praetorium stripped of its defenses, the way to the Ultima Weapon lies open."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "The time is come for the final phase of Operation Archon!"
+            }
+        ],
+        "reward": {
+            "gil": 5368,
+            "items": [
+                {
+                    "id": 4279,
+                    "one": 1
+                },
+                {
+                    "id": 4280,
+                    "one": 1
+                },
+                {
+                    "id": 4283,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5824,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                69408
+            ]
+        },
+        "next": [
+            66060,
+            70058
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006646",
+            "obj": {
+                "i": 1006646,
+                "n": "Edelstein",
+                "l": 46,
+                "q": 8,
+                "t": "Flame Lieutenant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006657",
+            "obj": {
+                "i": 1006657,
+                "n": "Raubahn",
+                "l": 46,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "4279",
+            "obj": {
+                "i": 4279,
+                "n": "Darklight Earrings of Aiming",
+                "l": 70,
+                "c": 55273,
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "4280",
+            "obj": {
+                "i": 4280,
+                "n": "Darklight Earrings of Healing",
+                "l": 70,
+                "c": 55277,
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "4283",
+            "obj": {
+                "i": 4283,
+                "n": "Darklight Earrings of Casting",
+                "l": 70,
+                "c": 55271,
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69408",
+            "obj": {
+                "i": 69408,
+                "n": "Hearts on Fire",
+                "g": 1,
+                "l": "Northern Thanalan",
+                "s": 246
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66060",
+            "obj": {
+                "i": 66060,
+                "n": "The Ultimate Weapon",
+                "g": 0,
+                "l": "Northern Thanalan",
+                "s": 249
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70058",
+            "obj": {
+                "i": 70058,
+                "n": "The Ultimate Weapon",
+                "g": 1,
+                "l": "Northern Thanalan",
+                "s": 249
+            }
+        }
+    ]
+}

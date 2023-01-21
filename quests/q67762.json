@@ -1,0 +1,557 @@
+{
+    "quest": {
+        "name": "A Gentleman Falls, Rather than Flies",
+        "location": "Ishgard",
+        "id": 67762,
+        "patch": 3.2,
+        "sort": 30,
+        "icon": 100523,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1016597,
+        "involved": [
+            1011202,
+            1011204,
+            1011207,
+            1011231,
+            1012180,
+            1015596,
+            1016598,
+            1016599,
+            1016604,
+            1016605,
+            1016606
+        ],
+        "genre": 69,
+        "journal": [
+            "As you catch sight of Nashu, you cannot help but wonder if you are about to have a bad time.",
+            "Nashu Mhakaracca, loyal assistant to Inspector Hildibrand Helidor Maximilian Manderville, has determined that her missing companion has likely landed somewhere in Ishgard. Judging her chance meeting with you to be serendipity, she drafts you into her service and bids you help her canvass the Jeweled Crozier for any news of a “gentlemanly Highlander.”",
+            "Alas, none of the merchants can recall having dealings with a man matching Hildibrand's description. However, one supposes that Mistress Elaisse may be of assistance, as she is well acquainted with many merchants and noblemen who do business in the markets.",
+            "At last, your investigation bears fruit, as Mistress Elaisse has heard tell of a gentlemanly Highlander who is in Ishgard at the invitation of none other than Count Edmont de Fortemps. Given your close association with the count, the knights guarding the manor should be more than willing to aid you.",
+            "A House Fortemps knight informs you that the gentlemanly guest is currently being entertained by Lord Edmont, but that their meeting should be coming to a close soon. He suggests that you and Nashu retire to the gazebo to wait until they have finished─a suggestion Nashu accepts with bewildering trepidation.",
+            "Nashu springs to her feet at the sound of the manor doors opening, and you both rush to catch the departing guest, only to find that he is the wrong Manderville man. Godbert is surprised to find two of his beloved son's companions standing before him, but perhaps even more surprised when a young inquisitor named Cyr appears and accuses him of being a heretic. Annoyed, Lord Edmont immediately intervenes, prompting Cyr to rescind his accusation and explain that Godbert matches the description of a suspected heretic he has been tracking. Upon learning of your search for Inspector Hildibrand, the inquisitor proposes that you join forces and continue your search in Falcon's Nest, where the first reported sightings of Cyr's quarry originated, as it is possible that you seek the same man. If so─and if the inspector is innocent─it would behoove you to be present when he is apprehended.",
+            "Ser Redwald is quite surprised to find that the footnote he left in a report drew the attention of a young inspector, the Warrior of Light, and a half-naked gillionaire goldsmith, among others. He states that the suspected heretic was sighted just south of the Dusk Vigil, but is also quick to add that they have no reason to presume the man was in fact a heretic. Nevertheless, Inquisitor Cyr is quick to proclaim that you have caught the “unmistakable scent of heresy”─all-too-familiar words which give you pause...",
+            "Your survey of the area near Banepool leads to yet another unexpected reunion, this time with one of the Gentle Dead Men, the association of undead which Inspector Hildibrand founded while he was under the impression that he was a zombie. Despairing that her search has literally met a dead end, Nashu sighs, but the zombie gentleman reassures her that all is not lost, for he claims to have the ability to track his beloved overlord via some manner of aetheric bond they share. As the others rush off, eager to find the inspector, you are left alone with Cyr, who is attempting to determine if zombification is a sickness which must be purged."
+        ],
+        "objectives": [
+            "Gather information in the Jeweled Crozier.",
+            "Speak with Elaisse.",
+            "Speak with the House Fortemps knight.",
+            "Wait with Nashu.",
+            "Speak with Redwald at Falcon's Nest.",
+            "Search the area south of Banepool."
+        ],
+        "dialogue": [
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Well, I'll be! <span class=\"highlight\">Forename Surname</span>, in the flesh! A pleasure to see you again!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Wait─is this what they call serendipity? It is, isn't it!? That settles it─you've got to help me find the inspector!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Cor, I was hoping you would silently agree!<br>So, I've been trying to calculate the trajectory the inspector took when he was catapulted into the sky again. I've triple-checked my figures, and concluded he must have landed somewhere here in Ishgard!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Unfortunately, the investigation hasn't been proceeding as smoothly as I had hoped..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "But now that you're here, we're sure to make some progress! Come, let's speak with the merchants and see if anyone hasn't had dealings with a gentlemanly Highlander!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Sir? I say, sir! Ah, you must be checking your ledgers to see if he was a customer! That's very kind of you, sir!"
+            },
+            {
+                "name": "FRINE",
+                "text": "A “gentlemanly Highlander,” you say? My apologies, but I cannot say I have had dealings with a man as you describe."
+            },
+            {
+                "name": "PIENNE",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morrow</span><span class=\"alternative\">day</span></span> to you, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. I─ Oh, you are looking for someone? A “gentlemanly Highlander”? Hmm..."
+            },
+            {
+                "name": "PIENNE",
+                "text": "I know not this man of whom you speak, but mayhap Mistress Elaisse does? She is well acquainted with rather a lot of merchants and noblemen."
+            },
+            {
+                "name": "NORLAISE",
+                "text": "...I've sold my fair share of goods to Highlander adventurers, aye, but I'd not describe such clients as particularly gentlemanly, I'm afraid."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "As ever, a warm welcome to you, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. How may I be of service?"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "Hmm... A “gentlemanly Highlander,” you say? Now that I think of it, I have heard tell of a foreigner who may be the man whom you seek."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "&lt;huff&gt; &lt;puff&gt; Begging...begging your pardons, miss, but did you say you know Inspector Hildibrand!?"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "...An acquaintance of yours, I presume?"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "I do not know his name, only that he is here by invitation of Lord Edmont. Or so it is rumored."
+            },
+            {
+                "name": "ELAISSE",
+                "text": "Surely as a ward of House Fortemps it would be a trifling matter to go and ask after him at the manor?"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Cor! I knew it was serendipity! To Fortemps Manor!"
+            },
+            {
+                "name": "ELAISSE",
+                "text": "I must say, since throwing wide the Gates of Judgement, we have had no shortage of...interesting visitors."
+            },
+            {
+                "name": "HOUSEFORTEMPSKNIGHT02226",
+                "text": "Well met, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. Do you require assistance?"
+            },
+            {
+                "name": "HOUSEFORTEMPSKNIGHT02226",
+                "text": "Aye, it is as you say. At this time, Lord Edmont is entertaining a foreign guest."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Huzzah! We've found the inspector!"
+            },
+            {
+                "name": "HOUSEFORTEMPSKNIGHT02226",
+                "text": "If I am not mistaken, their meeting should be ending shortly. If you like, you may retire to the gazebo and wait for our guest to depart."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "A gazebo! Aren't those dangerous!? Then again, you seem a responsible sort─not like to let a wild gazebo run amok. Very well! We humbly accept your offer."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "And if it wakes up, I'll have you there to protect me!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "With what powerful magicks did they tame this dread fiend?"
+            },
+            {
+                "name": "HOUSEFORTEMPSKNIGHT02226",
+                "text": "It's...it's a sodding gazebo..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "That must be Inspector Hildibrand!"
+            },
+            {
+                "name": "EDMONT",
+                "text": "...I cannot well imagine how arduous your journey must have been."
+            },
+            {
+                "name": "GODBERT",
+                "text": "(-???-)Truth be told, I've found the brisk Coerthan air to be rather invigorating. It stimulates body and mind both─a welcome benefit when one must discuss matters of commerce. I daresay we would not have accomplished so much otherwise."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "There you are, Inspector! I've been looking all over for you!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "I say, who do I see before me? Not one, but two of my beloved son's faithful companions!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Lord Godbert!? But...but I thought..."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Hildy? In Ishgard? This is the first I've heard of it..."
+            },
+            {
+                "name": "CYR",
+                "text": "(-???-)Aha! I've found you at last, heretic!"
+            },
+            {
+                "name": "CYR",
+                "text": "(-???-)Yes, you! The hulking brute with a mad gleam in his eye! Your brazen heresy is plain for all to see! Surrender yourself to the inquisition at once!"
+            },
+            {
+                "name": "EDMONT",
+                "text": "I beg your pardon!? This man is an Ul'dahn merchant, here at the behest of House Fortemps. Such baseless accusations will not be tolerated!"
+            },
+            {
+                "name": "CYR",
+                "text": "(-???-)A-A guest of House Fortemps!? Then...then he couldn't possibly..."
+            },
+            {
+                "name": "CYR",
+                "text": "(-???-)Though there were those two wards that... But they were acquitted of all charges in a trial by combat... And if he demands the right to... Then I would personally have to... Oh dear."
+            },
+            {
+                "name": "CYR",
+                "text": "A thousand apologies, good sir. I spoke out of turn. I am Cyr and, as you may have guessed, I am an inquisitor who has been charged with investigating reports of a rather suspicious, possibly heretical individual..."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ho ho ho! A heretic, you say? One who bears a passing resemblance to me?"
+            },
+            {
+                "name": "CYR",
+                "text": "Aye. A man, rather muscular, wearing dark garments and acquitting himself in a somewhat “gentlemanly” fashion, as some might say."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "This heretic sounds like the spitting image of Inspector Hildibrand. Could he be...a fan?"
+            },
+            {
+                "name": "CYR",
+                "text": "Say again? You are acquainted with such a man?"
+            },
+            {
+                "name": "CYR",
+                "text": "I see...and the man you are looking for is Lord Godbert's son? Hmm..."
+            },
+            {
+                "name": "CYR",
+                "text": "It would seem that our investigations may be connected. So, I put to you a proposal: The first reported sightings of the heretic I am tracking came from Falcon's Nest. Mayhap we should journey there together?"
+            },
+            {
+                "name": "CYR",
+                "text": "It is, after all, possible that we are seeking the selfsame individual. If so─and if he is innocent─it would be for the best if you were present when I apprehend him, that we might resolve this matter without incident."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "I say we go with him, <span class=\"highlight\">Forename</span>! This looks to be our best lead yet!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Then I shall accompany you all. It has been far too long since I laid eyes on my beloved son, and if there is a chance we might be reunited, I should be glad to seize it!"
+            },
+            {
+                "name": "CYR",
+                "text": "Then it is settled. We shall leave for Falcon's Nest at once."
+            },
+            {
+                "name": "REDWALD",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. Are these your...traveling companions?"
+            },
+            {
+                "name": "REDWALD",
+                "text": "...The mysterious muscular vagabond? Ah, yes. A patrol sighted him lurking near the Dusk Vigil. Thinking he might be a lost traveler, they called out to him. But rather than approach, he fled."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Quite frankly, I am surprised you bothered to come all this way. That sighting barely warranted a mention in my report..."
+            },
+            {
+                "name": "CYR",
+                "text": "Ah hah! The unmistakable scent of heresy!"
+            },
+            {
+                "name": "CYR",
+                "text": "Ah, terribly sorry. Old habit I picked up from my mentor. I know, I know─I will not rush to judgment as before."
+            },
+            {
+                "name": "CYR",
+                "text": "Still, much as I hope you find your missing inspector, I must confess some small desire that we instead unearth a lingering pocket of heresy. Of late there have been virtually no confirmed instances of heretical misdeeds..."
+            },
+            {
+                "name": "CYR",
+                "text": "It's gotten so bad that some are speculating our funding may be reduced─or worse, that the inquisition's operations might come under review. That is why, Halone as my witness, I will find and bring a heretic to justice, and prove that our order still has value in these uncertain times!"
+            },
+            {
+                "name": "REDWALD",
+                "text": "Yes, yes, I understand you have your reasons...but whether or not this vagabond was a heretic remains to be seen. Still, if you are set upon your course, you might begin your search near the Dusk Vigil."
+            },
+            {
+                "name": "CYR",
+                "text": "An excellent suggestion, Ser Redwald. Should we succeed in our endeavor, rest assured that you will share in the glory."
+            },
+            {
+                "name": "CYR",
+                "text": "The hunt continues! Onward, to the Dusk Vigil! I am told that region is especially cold, so do not forget to dress appropriately for the weather!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "This land has a beauty all its own, don't you think? A pity my dear wife isn't here to enjoy it."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Look, it's frozen! Wait...does that mean the fish are frozen too?"
+            },
+            {
+                "name": "CYR",
+                "text": "I t-t-trust you are managing? Good. It would...it would be a shame if we had t-t-to turn back now... &lt;shiver&gt;"
+            },
+            {
+                "name": "REDWALD",
+                "text": "...I suppose I ought to pray for the boy's success."
+            },
+            {
+                "name": "CYR",
+                "text": "Fury take me, it's freezing! Bah, this is a waste of time. No living thing could survive in this godsforsaken wasteland!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Over there, look! Someone's coming from the Vigil!<br>Inspector! Inspector, is that you!?"
+            },
+            {
+                "name": "ZOMBIEA",
+                "text": "(-???-)As I live and breathe! Of all the places to be reunited with Master Zombibrand's compatriots! How fare you all this fine <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">afternoon</span></span>?"
+            },
+            {
+                "name": "CYR",
+                "text": "Hark! A heretic raised from the dead by his brothers' unholy magicks!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Ahaha! He's not a heretic─he's one of the Gentle Dead Men!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "What brings you so far from Ul'dah, good sir?"
+            },
+            {
+                "name": "ZOMBIEA",
+                "text": "Well, as you know, ours is a rather lonely existence. So when we heard rumors of an abandoned fortress held by zombies, we were delighted! I was chosen to serve as emissary and set out immediately. Alas, it seems my efforts were for naught..."
+            },
+            {
+                "name": "ZOMBIEA",
+                "text": "Master Zombibrand? Forgive me, but as you can see, I have traveled here alone."
+            },
+            {
+                "name": "ZOMBIEA",
+                "text": "Ah... Truly? Every last one, dead? That is to say, er, irrevocably dead? &lt;sigh&gt; If it was necessary, then so be it. Still, after coming all this way, it is more than a little disappointing, you understand."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Then...my calculations were wrong? The inspector didn't land in Coerthas?"
+            },
+            {
+                "name": "ZOMBIEA",
+                "text": "Now, now, do not fret so. If it is our overlord you seek, then you are in luck! As the founder of the Gentle Dead Men, our fates─and our aether─are inextricably entwined. In fact, I can feel it calling to me now!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Truly, good sir? You can guide us to Inspector Hildibrand!?"
+            },
+            {
+                "name": "ZOMBIEA",
+                "text": "As surely as my rotting nose can lead me to fresh brains! Follow me, my friends!"
+            },
+            {
+                "name": "CYR",
+                "text": "“One must remain vigilant for heresy, for it can manifest in myriad ways. 'Tis a vile, insidious sickness which must needs be burned out ere the infection takes hold.”<br>...Surely zombification would qualify, yes?"
+            },
+            {
+                "name": "CYR",
+                "text": "Confound it, they've left us behind!"
+            }
+        ],
+        "reward": {
+            "gil": 940,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                66038,
+                67205
+            ]
+        },
+        "next": [
+            67763
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016597",
+            "obj": {
+                "i": 1016597,
+                "n": "Nashu Mhakaracca",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011202",
+            "obj": {
+                "i": 1011202,
+                "n": "Pienne",
+                "l": 2301,
+                "s": 1,
+                "q": 1,
+                "t": "Apothecary",
+                "a": 2317,
+                "c": [
+                    6.68,
+                    10.25
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011204",
+            "obj": {
+                "i": 1011204,
+                "n": "Norlaise",
+                "l": 2301,
+                "s": 19,
+                "q": 1,
+                "t": "Armorer",
+                "a": 2317,
+                "c": [
+                    7.17,
+                    10.18
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011207",
+            "obj": {
+                "i": 1011207,
+                "n": "Frine",
+                "l": 2301,
+                "s": 1,
+                "q": 1,
+                "t": "Merchant & Mender",
+                "a": 2317,
+                "c": [
+                    6.07,
+                    9.98
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011231",
+            "obj": {
+                "i": 1011231,
+                "n": "Redwald",
+                "l": 2200,
+                "q": 17
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012180",
+            "obj": {
+                "i": 1012180,
+                "n": "Elaisse",
+                "l": 2301,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015596",
+            "obj": {
+                "i": 1015596,
+                "n": "House Fortemps Knight",
+                "l": 2301,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016598",
+            "obj": {
+                "i": 1016598,
+                "n": "Nashu Mhakaracca",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016599",
+            "obj": {
+                "i": 1016599,
+                "n": "Nashu Mhakaracca",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016604",
+            "obj": {
+                "i": 1016604,
+                "n": "Cyr",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016605",
+            "obj": {
+                "i": 1016605,
+                "n": "Nashu Mhakaracca",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016606",
+            "obj": {
+                "i": 1016606,
+                "n": "Godbert",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66038",
+            "obj": {
+                "i": 66038,
+                "n": "Her Last Vow",
+                "g": 68,
+                "l": "Ul'dah",
+                "s": 21,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67205",
+            "obj": {
+                "i": 67205,
+                "n": "Heavensward",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 94
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67763",
+            "obj": {
+                "i": 67763,
+                "n": "Don't Call It a Comeback",
+                "g": 69,
+                "l": "Coerthas Western Highlands",
+                "s": 31,
+                "f": 1
+            }
+        }
+    ]
+}

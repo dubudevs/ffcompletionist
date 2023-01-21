@@ -1,0 +1,140 @@
+{
+    "quest": {
+        "name": "Wildwort and Sundrop",
+        "location": "The Sea of Clouds",
+        "id": 67735,
+        "patch": 3.1,
+        "sort": 63,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016088,
+        "genre": 45,
+        "journal": [
+            "Muna Vanu has a message to pass on to you.<br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu passes on a message that a concerned Linu Vanu wishes to speak with you. Details are lacking─you will need to speak with him yourself for further details.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest. ",
+            "Upon speaking with Linu Vanu, you learn that his recent attempts at soothsaying bear ill portent for the tribe. A gaelicat he released fell promptly from the sky, to be seen no more. Fearing that the Gundu's ancestors look down upon the tribe with disdain, he bids you travel to the Gundu totem at old Ok' Gundu, and place an offering of weeping wildwort. Present this offering along with the sundrop dance to quell their fury. Weeping wildwort can be found growing wild in patches at the Cromlech.",
+            "You have obtained the weeping wildwort. Take these flowers to Ok' Gundu and place them before the Gundu totem.",
+            "The weeping wildwort flowers lie at the foot of the Gundu totem. Dedicate this offering to the ancestors by performing the sundrop dance.",
+            "The flowers have been accepted. The contract is sealed. Return to Linu Vanu.",
+            "Linu Vanu thanks you for your assistance in calming the rage of his ancestors. However, he does now recall that the gaelicat he released to obtain this omen smelled strongly of intoxicating cloudcrawler..."
+        ],
+        "objectives": [
+            "Speak with Linu Vanu.",
+            "Gather weeping wildwort at the Cromlech.",
+            "Place the wildwort at the Gundu totem.",
+            "Perform the /sundropdance before the Gundu totem.",
+            "Report to Linu Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "<span class=\"highlight\">Forename</span>! Linu Vanu leaves word that he wishes to speak with you. He seems worried. Please speak with him when you can spare time to aid our tribe once more."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Ah, <span class=\"highlight\">Forename</span>, dependable as always, you have come to hear my plea."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Yesterday, Linu Vanu releases gaelicat to skies, to divine omens and peer into Gundu's future. But gaelicat lurches and falls from sky like great gaelicat-shaped stone! Portent is real and clear as morning sky: Gundu ancestors─ great heroes all─look down in shame and fury at tribe's lack of devotion."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "We must appease honored warriors of Gundu legend. We must calm their rage. Please, make offering before great Gundu totem at ruins of old village. Place weeping wildwort before totem and perform <span class=\"highlight\">sundrop dance</span>, that ancestors may smile upon us once more."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Weeping wildwort hangs head in shame, just as Gundu do. It shows tribe's penitence for our neglect. Gather these flowers at the Cromlech, place them before Gundu totem, and rouse ancestors from slumber with passionate <span class=\"highlight\">sundrop dance</span>."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Weeping wildwort shows tribe's remorse. Sundrop dance shows tribe's strength and resolve─to honor our dead with our lives."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Find weeping wildwort at the Cromlech. Find Gundu totem at ruins of old Ok' Gundu. Offer fresh wildwort to ancestors and rouse them with a mighty <span class=\"highlight\">sundrop dance</span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The ancestors await the sundrop dance to seal this sign of oblation."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Many thanks, <span class=\"highlight\">Forename</span>. Your offering calms fiery hearts of mighty Gundu forebears."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "But after netherling leaves, Linu Vanu thinks further on topic of gaelicat. Come to think of it, strong smell of cloudcrawler surrounds gaelicat! Perhaps it does not bring dark omens, but is merely drunk on cloudcrawler...?"
+            }
+        ],
+        "reward": {
+            "gil": 609,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016088",
+            "obj": {
+                "i": 1016088,
+                "n": "Linu Vanu",
+                "l": 2100,
+                "q": 14
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

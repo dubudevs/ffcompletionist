@@ -1,0 +1,216 @@
+{
+    "quest": {
+        "name": "A Matter of Tradition",
+        "location": "Ul'dah",
+        "id": 66177,
+        "patch": 2.0,
+        "sort": 84,
+        "eventIcon": 71201,
+        "issuer": 1004002,
+        "target": 1001353,
+        "involved": [
+            1004005,
+            1004093
+        ],
+        "genre": 1,
+        "journal": [
+            "Owyne would like to speak with you regarding the sultana's invitation.",
+            "Owyne states that there are certain protocols that must be observed by guests attending a royal banquet. He directs you to speak with Momodi, who will explain precisely what is expected of you.",
+            "According to Momodi, all who attend the royal banquet are obliged to wear a pair of ceremonial earrings. She instructs you to visit the Goldsmiths' Guild and speak with Serendipity to obtain yours.",
+            "Serendipity presents you with a very beautiful and very <span class=\"emphasis\">locked</span> rosewood box. For reasons of royal security, she explains, the earring cases are intended to be opened only by designated individuals. In this instance, the designated individual is apparently Momodi. Return to the Quicksand, hand over the box, and she will do the rest.",
+            "You now have the ceremonial earrings needed to gain entry to the banquet. Speak with Momodi when you are ready to join the festivities."
+        ],
+        "objectives": [
+            "Speak with Momodi at the Quicksand.",
+            "Collect the earrings from Serendipity.",
+            "Deliver the wooden lockbox to Momodi."
+        ],
+        "dialogue": [
+            {
+                "name": "OWYNE",
+                "text": "By the Twelve, <span class=\"highlight\">Forename</span>! For an adventurer to receive a personal invitation from Her Grace is unprecedented!"
+            },
+            {
+                "name": "OWYNE",
+                "text": "Seats at these banquets are offered only to the most distinguished individuals. You will be dining with some of the most influential people in Ul'dah."
+            },
+            {
+                "name": "OWYNE",
+                "text": "There are, of course, certain protocols that must be observed."
+            },
+            {
+                "name": "OWYNE",
+                "text": "...But I am no authority on them. Fear not, however─Mistress Momodi has long been responsible for familiarizing foreign guests with our customs."
+            },
+            {
+                "name": "OWYNE",
+                "text": "Pray return to the Quicksand and speak with her. She will tell you all you need know."
+            },
+            {
+                "name": "OWYNE",
+                "text": "My fellow Sultansworn and I must see to our own preparations. In the meantime, you should speak with Mistress Momodi. She will explain to you the protocols that must be observed by all in attendance."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>, and congratulations on your invite to the big soirée!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "To be honest, I never imagined I'd be explainin' these procedures to you. It's usually only foreign dignitaries who get to hear me prattle on and on about royal traditions. Anyroad, I know you're a busy <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>, so I'll keep it short and sweet."
+            },
+            {
+                "name": "MOMODI",
+                "text": "In accordance with ancient custom, all guests to this banquet are required to wear a pair of ceremonial earrin's, made 'specially for the occasion. They're meant to symbolize─ Actually, forget about that. This was meant to be the short version. Ahem. Bein' of a design unique to the occasion, the earrin's serve as a security measure. The Sultansworn won't let you near the hall without 'em."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Your set should be ready and waitin' for you at the Goldsmiths' Guild. Mistress Serendipity is expectin' you, so you'll want to head down there now."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Once you've got them, bring them back here and we'll continue."
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Greetings! Is there something I can help you with?"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! Your earrings are right here. I crafted them myself, I'll have you know. I think you'll be very pleased!"
+            },
+            {
+                "name": "SERENDIPITY",
+                "text": "In case Mistress Momodi didn't warn you, the box is locked, and I am not permitted to give you the key. It's a final safeguard, you see─only designated individuals are authorized to distribute the earrings to guests. In this instance, the person in question is none other than Mistress Momodi, so you will need to ask her to open the box on your behalf. Pardon the inconvenience, but the Sultansworn take Her Grace's safety <span class=\"emphasis\">very</span> seriously."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Picked up your earrin's yet, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Let me just... &lt;gasp&gt; Well, now, looks like the guildmaster outdid herself with this pair!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "You'd best take good care of these earrin's! If they fell into the wrong hands, gods only know what might happen!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Now then, I hope you're feelin' sociable, <span class=\"highlight\">Forename</span>, 'cause you're about to hobnob with Ul'dah's elite! Let me know when you're ready to head to the banquet."
+            },
+            {
+                "name": "Q1",
+                "text": "Proceed into the Heart of the Sworn?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            }
+        ],
+        "reward": {
+            "gil": 230,
+            "items": [
+                {
+                    "id": 4196
+                }
+            ],
+            "xp": 6440
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 14,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66087
+            ]
+        },
+        "next": [
+            66088
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1004002",
+            "obj": {
+                "i": 1004002,
+                "n": "Owyne",
+                "l": 354,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001353",
+            "obj": {
+                "i": 1001353,
+                "n": "Momodi",
+                "l": 40,
+                "q": 27,
+                "t": "Quicksand Proprietress"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004005",
+            "obj": {
+                "i": 1004005,
+                "n": "Sultansworn Elite",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004093",
+            "obj": {
+                "i": 1004093,
+                "n": "Serendipity",
+                "l": 41,
+                "q": 29,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "4196",
+            "obj": {
+                "i": 4196,
+                "n": "Voice of the Just",
+                "l": 1,
+                "c": 55213,
+                "t": 41,
+                "p": 100
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66087",
+            "obj": {
+                "i": 66087,
+                "n": "Duty, Honor, Country",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 83
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66088",
+            "obj": {
+                "i": 66088,
+                "n": "A Royal Reception",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 85
+            }
+        }
+    ]
+}

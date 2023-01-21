@@ -1,0 +1,141 @@
+{
+    "quest": {
+        "name": "Acting the Part",
+        "location": "Mor Dhona",
+        "id": 66538,
+        "patch": 2.0,
+        "sort": 236,
+        "eventIcon": 71201,
+        "issuer": 1006531,
+        "target": 1006531,
+        "genre": 1,
+        "journal": [
+            "Glaumunt wants you to practice the part of imperial trooper.",
+            "Your disguise can only ever be as good as your acting. To this end, Glaumunt bids you learn how to perform an imperial salute. Take yourself close to Castrum Centri, and observe the imperial soldiers on patrol.",
+            "You have committed the imperial salute to your memory. Report your success to Glaumunt at Revenant's Toll.",
+            "At Glaumunt's urging, you refrain from demonstrating the imperial salute to him. It would not do to sustain a cracked skull ahead of the rescue mission."
+        ],
+        "objectives": [
+            "Lie in wait at the specified location.",
+            "Report to Glaumunt."
+        ],
+        "dialogue": [
+            {
+                "name": "GLAUMUNT",
+                "text": "Clean the wax out o' your ears now, 'cause there's somethin' I want you to do by way o' preparation."
+            },
+            {
+                "name": "GLAUMUNT",
+                "text": "The plan's to have you enter Castrum Centri all decked out in imperial duds, but a disguise is more'n just the clothes you're wearin'. You also gotta act the part."
+            },
+            {
+                "name": "GLAUMUNT",
+                "text": "At the very least, you need to know how to perform a convincin' imperial salute. First impressions're <span class=\"emphasis\">everythin'</span>, as they say."
+            },
+            {
+                "name": "GLAUMUNT",
+                "text": "I <span class=\"emphasis\">could</span> teach you the salute myself, o' course, but it's best you learned it from the experts. So get yourself near as you dare to Castrum Centri, an' watch the imperials doin' what they do."
+            },
+            {
+                "name": "DUMMY",
+                "text": "(Wait at specificied location. Two imperial soldiers pop.)"
+            },
+            {
+                "name": "IMPERIALSOLDIER",
+                "text": "(-Imperial Sentry-)Nothing to report, sir!"
+            },
+            {
+                "name": "IMPERIALSOLDIER",
+                "text": "(-Imperial Decurion-)We have received an anonymous warning that insurgent forces are near."
+            },
+            {
+                "name": "IMPERIALSOLDIER",
+                "text": "(-Imperial Decurion-)We must redouble our vigilance. I shall recommend that patrols be increased."
+            },
+            {
+                "name": "GLAUMUNT",
+                "text": "So, did you manage to learn the imperial salute?"
+            },
+            {
+                "name": "GLAUMUNT",
+                "text": "No, no, no, best you don't demonstrate─I'm liable to fly into a rage an' crack skulls. I'll just take your word for it."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have learned the emote <span class=\"highlight\">Imperial Salute</span>!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "You cannot proceed!"
+            }
+        ],
+        "reward": {
+            "emote": "Imperial Salute",
+            "xp": 25850
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 45,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66522
+            ]
+        },
+        "next": [
+            66539,
+            69407
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006531",
+            "obj": {
+                "i": 1006531,
+                "n": "Glaumunt",
+                "l": 67,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66522",
+            "obj": {
+                "i": 66522,
+                "n": "Getting Even with Garlemald",
+                "g": 1,
+                "l": "Mor Dhona",
+                "s": 234
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66539",
+            "obj": {
+                "i": 66539,
+                "n": "Dressed for Conquest",
+                "g": 0,
+                "l": "Mor Dhona",
+                "s": 237
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69407",
+            "obj": {
+                "i": 69407,
+                "n": "Dressed for Conquest",
+                "g": 1,
+                "l": "Mor Dhona",
+                "s": 237
+            }
+        }
+    ]
+}

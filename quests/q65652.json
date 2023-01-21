@@ -1,0 +1,144 @@
+{
+    "quest": {
+        "name": "A Sheepish Request",
+        "location": "Limsa Lominsa",
+        "id": 65652,
+        "patch": 2.0,
+        "sort": 30,
+        "eventIcon": 71221,
+        "issuer": 1000959,
+        "target": 1000959,
+        "involved": [
+            1003603
+        ],
+        "genre": 91,
+        "journal": [
+            "H'lahono needs help replenishing the Bismarck's larders.",
+            "H'lahono has urgent need of four slices of fresh lamb. Abylfarr, a sentry stationed in Bulwark Hall, will know where you might find the lambs that yield the meat.",
+            "You learn from Abylfarr that wild lambs graze southeast of the Zephyr Gate. Make your way there, and cull enough of the critters to procure the four slices of fresh lamb required.",
+            "You have obtained four slices of fresh lamb. See them delivered to H'lahono at the Bismarck.",
+            "Thanking you for your assistance, H'lahono proceeds to tell you about herself. Though her career as a chef did not work out, she still finds great satisfaction in her role as the Bismarck's provisioner."
+        ],
+        "objectives": [
+            "Speak with Abylfarr.",
+            "Obtain slices of fresh lamb from lost lambs.",
+            "Deliver the slices of fresh lamb to H'lahono."
+        ],
+        "dialogue": [
+            {
+                "name": "HLAHONO",
+                "text": "Beg your pardons, good <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>, but you are an adventurer, are you not?"
+            },
+            {
+                "name": "HLAHONO",
+                "text": "I realize this is sudden, but we urgently need help restocking our larders. We are in the midst of preparing a full-course meal for soon-arriving guests, but I fear we are short on fresh lamb for the main course."
+            },
+            {
+                "name": "HLAHONO",
+                "text": "I would be grateful if you could procure four slices for us. I daresay it would be quickest to obtain these directly from the source─wild lambs."
+            },
+            {
+                "name": "HLAHONO",
+                "text": "In case you are unfamiliar with the creatures, I suggest you speak with Abylfarr, a sentry stationed in Bulwark Hall, just below the Drowning Wench."
+            },
+            {
+                "name": "ABYLFARR",
+                "text": "The Bismarck wants fresh lamb, does it? Gods, I could do with a slice myself, fresh off the grill and dripping in its own juices..."
+            },
+            {
+                "name": "ABYLFARR",
+                "text": "&lt;slurp&gt; Sorry, friend. I haven't had a single bite to eat since my shift began. Anyroad, you can get lamb easily enough by hunting the lambs that graze outside the city. Go through the Zephyr Gate and follow the path east and south for a bit. You'll run into the fluffy─and tasty─critters before long."
+            },
+            {
+                "name": "TALK",
+                "text": "Textless"
+            },
+            {
+                "name": "HLAHONO",
+                "text": "Have you had any luck obtaining the fresh lamb? Please hurry─the guests are arriving any moment now..."
+            },
+            {
+                "name": "HLAHONO",
+                "text": "Four slices of fresh lamb, and right in the nick of time! Thank you ever so much!"
+            },
+            {
+                "name": "HLAHONO",
+                "text": "'Tis times like this I feel fulfilled in my role. I used to be a chef myself, you see, but my skills weren't quite up to par. So when the Bismarck expanded operations, I asked to be made its provisioner instead. This way, I can still be part of the business in spite of my shortcomings."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3530,
+                    "one": 1
+                },
+                {
+                    "id": 3531,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 420
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000959",
+            "obj": {
+                "i": 1000959,
+                "n": "H'lahono",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003603",
+            "obj": {
+                "i": 1003603,
+                "n": "Abylfarr",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3530",
+            "obj": {
+                "i": 3530,
+                "n": "Fingerless Leather Gloves",
+                "l": 5,
+                "c": 44060,
+                "t": 37,
+                "p": 126
+            }
+        },
+        {
+            "type": "item",
+            "id": "3531",
+            "obj": {
+                "i": 3531,
+                "n": "Leather Lightmitts",
+                "l": 5,
+                "c": 44065,
+                "t": 37,
+                "p": 126
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

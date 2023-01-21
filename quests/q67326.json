@@ -1,0 +1,115 @@
+{
+    "quest": {
+        "name": "Stolen Munitions",
+        "location": "The Dravanian Forelands",
+        "id": 67326,
+        "patch": 3.0,
+        "sort": 5221,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1011929,
+        "target": 1011929,
+        "genre": 98,
+        "journal": [
+            "The Vath fleetfoot is examining the weapon stores with a concerned expression.",
+            "The Vath fleetfoot tells you that the Vath's weapon stores are worryingly low. He asks you to help them restock by taking flintlocks from the nearby Gnath hive.",
+            "You pry the Gnath's firearms from their cold, dead hands. Take them to the fleetfoot at Loth ast Vath.",
+            "The fleetfoot thanks you for the weapons. He goes on to explain how unnerving he finds the Gnath's shared thoughts and actions. Though they are of the same blood and breed, though all Vath were once Gnath, he finds it difficult to believe they are of the same race."
+        ],
+        "objectives": [
+            "Slay Gnath firedrones and obtain Gnathic flintlocks.",
+            "Deliver the flintlocks to the Vath fleetfoot."
+        ],
+        "dialogue": [
+            {
+                "name": "IDATEN",
+                "text": "Though we hear not each other's thoughts, generous hunter, you somehow know that we need help. Our weapon stocks are wanting. We need more."
+            },
+            {
+                "name": "IDATEN",
+                "text": "I would make a request of you. Please bring us muskets with which to defend ourselves. You can take them from the Gnath nearby. Two would be sufficient."
+            },
+            {
+                "name": "IDATEN",
+                "text": "Please bring us two muskets. Procure them from the Gnath firedrones."
+            },
+            {
+                "name": "IDATEN",
+                "text": "Have you the muskets?"
+            },
+            {
+                "name": "IDATEN",
+                "text": "Thank you, hunter. With these we can arm ourselves─defend ourselves."
+            },
+            {
+                "name": "IDATEN",
+                "text": "We are of the same blood as the Gnath. But even we find it utterly unnerving─the way they think as one, the way they move as one. It is hard to imagine us as the same people."
+            }
+        ],
+        "reward": {
+            "gil": 560,
+            "aetherCurrent": 1,
+            "xp": 26400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 52,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67149
+            ]
+        },
+        "next": [
+            67328,
+            67331
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011929",
+            "obj": {
+                "i": 1011929,
+                "n": "Vath Fleetfoot",
+                "l": 2000,
+                "q": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67149",
+            "obj": {
+                "i": 67149,
+                "n": "The Nonmind",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 34
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67328",
+            "obj": {
+                "i": 67328,
+                "n": "Natural Repellent",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5223
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67331",
+            "obj": {
+                "i": 67331,
+                "n": "Treason and Plot",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5303
+            }
+        }
+    ]
+}

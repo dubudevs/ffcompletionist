@@ -1,0 +1,89 @@
+{
+    "quest": {
+        "name": "Heat of the Moment",
+        "location": "Southern Thanalan",
+        "id": 66363,
+        "patch": 2.0,
+        "sort": 310,
+        "eventIcon": 71221,
+        "issuer": 1006295,
+        "target": 1006295,
+        "genre": 93,
+        "journal": [
+            "Mumugoi has vast amounts of dirty and dangerous work for an adventurer.",
+            "Mumugoi has expressed his concern to you over the harm being done to the equipment of Byregot's Strike by the abundance of sand in the area. In order to forestall further maintenance, he has asked you to clean up three such piles of sand in the immediate vicinity. He has also warned you of the smoke bombs that may have burrowed into them.",
+            "With much grit and elbow grease, you have banished both the sand piles and the bombs that lay within. Inform Mumugoi of the happy development.",
+            "Mumugoi was thrilled to see you so easily dispatch the nuisances infecting the Strike. However, he informs you there is much and more to do, as the dangerous smoke bombs which surround the dig are often drawn in by the heat of the machinery. In order to keep the work site free of unwanted visitors, extinguish four of these fiends.",
+            "You have defeated four smoke bombs in an exemplary fashion. The heat-loving creatures perished in strange jubilation, for to them your dripping, febrile form was as a thing divine. Report your success to Mumugoi.",
+            "Mumugoi rejoices in the knowledge that four of the area's bombs have been taken care of. He also seems appreciative to have been able to devote more time to his chosen profession instead of the vexatious details that usually preoccupy his time."
+        ],
+        "objectives": [
+            "Remove the sand dunes and dispatch smoke bombs.",
+            "Speak with Mumugoi.",
+            "Slay smoke bombs.",
+            "Report to Mumugoi."
+        ],
+        "dialogue": [
+            {
+                "name": "MUMUGOI",
+                "text": "You see all this? All the excavation knowledge of Amajina & Sons Mineral Concern, put to use uncovering the remains of the Allagan Empire. We mine knowledge here, not ore!"
+            },
+            {
+                "name": "MUMUGOI",
+                "text": "Now, that sounds grand─and it <span class=\"emphasis\">is</span>!─but most of my time is actually spent mothering this equipment. It's on account of the sand getting into the worst of places. And the damn stuff is everywhere!"
+            },
+            {
+                "name": "MUMUGOI",
+                "text": "Which brings me to you, naturally. Your showing up now is a godssend, and who am I to refuse the gods? Could you remove the three piles of sand right over there? You be careful as you go about it, though: some smoke bombs have burrowed into them, and they're none too friendly."
+            },
+            {
+                "name": "DUMMY",
+                "text": "砂山を除去する×３"
+            },
+            {
+                "name": "MUMUGOI",
+                "text": "That was wonderful, adventurer! Those piles were growing larger by the day, and I can't tell you how <span class=\"emphasis\">little</span> I wanted to clean them up myself..."
+            },
+            {
+                "name": "MUMUGOI",
+                "text": "But speaking of things I've no interest in doing, I'm sure you've noticed by now the glut of smoke bombs surrounding the site. Well, they're not here by chance; they're here on account of the equipment."
+            },
+            {
+                "name": "MUMUGOI",
+                "text": "The machines run bloody hot and the heat draws the bombs in. And every time that happens, we need to shut everything down or else risk them exploding on the lot of us. We'd all appreciate it if you could take care of four of the pesky devils."
+            },
+            {
+                "name": "MUMUGOI",
+                "text": "By Nald and by Thal, freedom from distractions at last! Thanks to you, I might be able to spend more than a minute focusing on the dig. Nothing beats having an extra pair of hands around!"
+            },
+            {
+                "name": "POP",
+                "text": "A bomb bursts forth from the sand!"
+            }
+        ],
+        "reward": {
+            "gil": 1404,
+            "xp": 7600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 31,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006295",
+            "obj": {
+                "i": 1006295,
+                "n": "Mumugoi",
+                "l": 45,
+                "q": 1
+            }
+        }
+    ]
+}

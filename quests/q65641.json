@@ -1,0 +1,198 @@
+{
+    "quest": {
+        "name": "Way of the Leatherworker",
+        "location": "Gridania",
+        "id": 65641,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100060,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000352,
+        "target": 1000691,
+        "genre": 140,
+        "journal": [
+            "Randall wishes you to reaffirm your desire to join the Leatherworkers' Guild.",
+            "You must receive Guildmaster Geva's permission if you wish to join the Leatherworkers' Guild. Seek her out in the workshop and impress upon her your desire to learn.",
+            "Though you have been accepted into the Leatherworkers' Guild, you have much to prove if you are to meet their high standard of craftsmanship. To embark upon your journey as a leatherworker, equip the knife Geva gave you and speak to her again."
+        ],
+        "objectives": [
+            "Speak with Guildmaster Geva."
+        ],
+        "dialogue": [
+            {
+                "name": "RANDALL",
+                "text": "Have you decided to join the Leatherworkers' Guild?"
+            },
+            {
+                "name": "RANDALL",
+                "text": "Regrettable...though I am pleased to see the gravity of the decision is not lost on you."
+            },
+            {
+                "name": "RANDALL",
+                "text": "Few are resolute enough to work with leather, knowing full well the source."
+            },
+            {
+                "name": "RANDALL",
+                "text": "Very well. I invite you to speak with Guildmaster Geva."
+            },
+            {
+                "name": "RANDALL",
+                "text": "She is a brilliant artisan, personally responsible for the creation of countless Fen–Yll products. You have doubtless heard her name before."
+            },
+            {
+                "name": "RANDALL",
+                "text": "The guildmaster's patterns are uniformly elegant, and with them even novice craftsmen can cut their materials with minimal waste."
+            },
+            {
+                "name": "RANDALL",
+                "text": "It is for her to decide if you are fit to join us."
+            },
+            {
+                "name": "RANDALL",
+                "text": "She can be found in the work area within. Present yourself to her and do not waver in your determination."
+            },
+            {
+                "name": "GEVA",
+                "text": "So you wish to become a leatherworker?"
+            },
+            {
+                "name": "GEVA",
+                "text": "If you've spoken with Randall, then you've been told what it means to work with leather─the weight you must carry, the responsibility you must bear."
+            },
+            {
+                "name": "GEVA",
+                "text": "Not just to the elementals, mind you, but also to the guild. Our craftsmanship is unrivaled, and each member is expected to live up to that reputation."
+            },
+            {
+                "name": "GEVA",
+                "text": "Once you join, there is no turning back. If you dishonor us, I shall flay you myself and make a chocobo saddle from your hide."
+            },
+            {
+                "name": "GEVA",
+                "text": "Will you swear to uphold our traditions and be the best leatherworker you can be?"
+            },
+            {
+                "name": "Q1",
+                "text": "Swear to uphold the traditions of the Leatherworkers' Guild?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "GEVA",
+                "text": "A shame. You might have made a halfway decent leatherworker─or a serviceable saddle at worst."
+            },
+            {
+                "name": "GEVA",
+                "text": "Very well, you may learn our craft within these walls..."
+            },
+            {
+                "name": "GEVA",
+                "text": "...though you seem ill equipped to do even that."
+            },
+            {
+                "name": "GEVA",
+                "text": "I will give you a head knife to help you on your way, but the rest is up to you."
+            },
+            {
+                "name": "GEVA",
+                "text": "Do not presume that your association with us means your work will bear the Fen–Yll name. Until you prove yourself worthy, you will not be permitted to so much as <span class=\"emphasis\">touch</span> a Fen–Yll product, much less craft one."
+            },
+            {
+                "name": "GEVA",
+                "text": "Now then, if we're to continue with your initiation, you'll need to put that knife in your hand first. Talk to me when you're ready to begin."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "items": [
+                {
+                    "num": 100,
+                    "id": 5
+                },
+                {
+                    "num": 50,
+                    "id": 4
+                },
+                {
+                    "id": 2416
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65724
+            ]
+        },
+        "next": [
+            65745
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000352",
+            "obj": {
+                "i": 1000352,
+                "n": "Randall",
+                "l": 53,
+                "q": 3,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000691",
+            "obj": {
+                "i": 1000691,
+                "n": "Geva",
+                "l": 53,
+                "q": 20,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2416",
+            "obj": {
+                "i": 2416,
+                "n": "Weathered Head Knife",
+                "l": 1,
+                "c": 35404,
+                "t": 20,
+                "p": 69
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65724",
+            "obj": {
+                "i": 65724,
+                "n": "So You Want to Be a Leatherworker",
+                "g": 0,
+                "l": "Old Gridania",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65745",
+            "obj": {
+                "i": 65745,
+                "n": "My First Head Knife",
+                "g": 140,
+                "l": "Gridania",
+                "s": 11,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "quest": {
+        "name": "Talos, Interrupted",
+        "location": "Kholusia",
+        "id": 68908,
+        "patch": 5.0,
+        "sort": 1211,
+        "icon": 100851,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1030766,
+        "target": 1030766,
+        "genre": 114,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Eueliss appears ready to accept Sai-Lewq's next task.",
+            "Eueliss asks Sai-Lewq for his second task─a duty which apparently involves a slow-footed Talos. Follow her lead, and help free the Talos in question from any bothersome predators.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "You have inspected the derelict Talos, and dealt with the pests which infested its interior. Eueliss waits nearby with a look of resignation...",
+            "Eueliss briefly explains the decline of Talos in the region, and how the rusted specimen you inspected─a favorite of Sai-Lewq's─was damaged to the point where it would never move again. With nothing more to be done, you turn back towards Stonegazer.",
+            "Sai-Lewq appears well pleased by your actions in aiding his dear Talos. Eueliss, too, thanks you for your assistance, and hopes that you will stay to help with whatever other confounding errands the old man has in store."
+        ],
+        "objectives": [
+            "Inspect the derelict Talos and defeat any threats that appear.",
+            "Speak with Eueliss."
+        ],
+        "dialogue": [
+            {
+                "name": "EUELISS",
+                "text": "I am grateful to have you with me, <span class=\"highlight\">Forename</span>. Thank you again..."
+            },
+            {
+                "name": "EUELISS",
+                "text": "Sai-Lewq, sir, I believe you had more tasks for me?"
+            },
+            {
+                "name": "SAILEWQ",
+                "text": "Hm? Still here, are you? Yes, yes, tasks..."
+            },
+            {
+                "name": "SAILEWQ",
+                "text": "There's a Talos of mine that's taking far too long to make its return. Probably busy tussling with some dim-witted predator. Go and see how it fares, and chase off anything slowing it down."
+            },
+            {
+                "name": "EUELISS",
+                "text": "But, all the─ Ah, you mean <span class=\"emphasis\">that</span> Talos..."
+            },
+            {
+                "name": "EUELISS",
+                "text": "Pray follow my lead, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "EUELISS",
+                "text": "We'll find the Talos in question to the southwest of here. And I've no doubt there'll be “dim-witted predators” aplenty for you to deal with."
+            },
+            {
+                "name": "SAILEWQ",
+                "text": "&lt;sigh&gt;"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Something hostile emerges from the Talos!"
+            },
+            {
+                "name": "EUELISS",
+                "text": "Here's the Talos Sai-Lewq was talking about. I think something's made a nest in there..."
+            },
+            {
+                "name": "EUELISS",
+                "text": "Phew, I'm glad you were here! They must have burrowed in beneath the plates."
+            },
+            {
+                "name": "EUELISS",
+                "text": "I know Sai-Lewq implied the Talos was still moving, but as you can see..."
+            },
+            {
+                "name": "EUELISS",
+                "text": "Once upon a time there'd be a line of these contraptions hauling materials down to the shipyard, step by ponderous step. Which incidentally, is how the “Slowroad” supposedly earned its name."
+            },
+            {
+                "name": "EUELISS",
+                "text": "But after Daedalus Stoneworks closed down some fifteen summers ago, there was no one left to make or maintain their creations. One by one, the Talos slowly fell into disrepair..."
+            },
+            {
+                "name": "EUELISS",
+                "text": "This particular worker was damaged during that stray eater rampage, and it hasn't shifted an ilm ever since. It was always Sai-Lewq's favorite."
+            },
+            {
+                "name": "EUELISS",
+                "text": "...Come, let us make our report."
+            },
+            {
+                "name": "EUELISS",
+                "text": "Sai-Lewq, sir, <span class=\"highlight\">Forename</span> has cleared away the pests who were bothering your Talos."
+            },
+            {
+                "name": "EUELISS",
+                "text": "It should be left alone for the time being..."
+            },
+            {
+                "name": "SAILEWQ",
+                "text": "Ah, excellent news! But I expect he'll need a good polishing when he returns─the most troublesome ones are often the most endearing, eh?"
+            },
+            {
+                "name": "EUELISS",
+                "text": "Oh, sir..."
+            },
+            {
+                "name": "SAILEWQ",
+                "text": "You've done me a fine service, thank you!"
+            },
+            {
+                "name": "EUELISS",
+                "text": "Indeed, thank you, <span class=\"highlight\">Forename</span>─I never could have fought such creatures myself. If I might impose upon you for the next task as well...?"
+            },
+            {
+                "name": "SAILEWQ",
+                "text": "If only... If only I had... &lt;sniff&gt;"
+            }
+        ],
+        "reward": {
+            "gil": 715
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68907
+            ]
+        },
+        "next": [
+            68909
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1030766",
+            "obj": {
+                "i": 1030766,
+                "n": "Eueliss",
+                "l": 2954,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68907",
+            "obj": {
+                "i": 68907,
+                "n": "Village of Woe",
+                "g": 114,
+                "l": "Kholusia",
+                "s": 1210,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68909",
+            "obj": {
+                "i": 68909,
+                "n": "The Cape in Bloom",
+                "g": 114,
+                "l": "Kholusia",
+                "s": 1212,
+                "f": 1
+            }
+        }
+    ]
+}

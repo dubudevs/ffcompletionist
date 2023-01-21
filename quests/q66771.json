@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "Beacon Keepers",
+        "location": "Southern Thanalan",
+        "id": 66771,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005551,
+        "target": 1005551,
+        "genre": 35,
+        "journal": [
+            "Narujj Boh wishes to entrust you with a tiresome─but necessary─task.",
+            "Though the Brotherhood of Ash strives to destroy the fiery talismans of its foe whenever they appear, it lacks the numbers to match the zealous pace of the Flamefangs. Take the sacks of ash given to you by Narujj Boh, and smother all the beacons you find within the Zanr'ak encampment. Be prepared to defend yourself against any retaliation your efforts incur.",
+            "You have extinguished all the Amalj'aa beacons within the encampment. Return to the Ring of Ash and report to Narujj Boh.",
+            "You return to the Ring of Ash, tested but triumphant. Narujj Boh is well pleased by your deeds, but warns that the Flamefangs will respond with ever greater acts of foolish fanaticism. He vows, however, the Brotherhood of Ash will never surrender in its efforts to restore the ancient and honorable ways of the Amalj'aa."
+        ],
+        "objectives": [
+            "<span class=\"alternative-container\"><span class=\"alternative\">Use smothering ash to extinguish Amalj'aa beacons.</span><span class=\"alternative\">Use smothering ash to extinguish the last beacon, and defeat any Flamefangs that appear.</span></span>",
+            "Report to Narujj Boh."
+        ],
+        "dialogue": [
+            {
+                "name": "NARUJIBOH",
+                "text": "Attend me, honored ally. Our Zahar'ak foes yet shelter the potent flames of Ifrit, and fuel their endless rites with his unholy fire."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Once more do they erect blazing beacons within their camp, in a bid to forever dwell under the heat of their deity's savage blessing. How many times must we topple these foul talismans?"
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "We have not the numbers to prevent their constant reappearance. Thus, again, I must turn to you for aid."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "I would have you slip inside the boundaries of the encampment with this smothering ash, and extinguish all the beacons you can find."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "The Flamefangs have, however, grown wary of our incursions, and posted veteran sentinels to guard against our attacks. Expect your efforts to be met with furious retaliation."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "As of this moment, our scouts report four beacons within the Zanr'ak encampment. Take with you the sacks of smothering ash, and put out these flames spawned of Ifrit's searing breath!"
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "The unholy flames of Ifrit no longer wink at us in the darkness. You have once more deprived our foe of a potent source of strength."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "I wish only that your victory were more permanent─the Flamefangs will respond, doubtless with their characteristic zealotry. But the Brotherhood of Ash cannot─<span class=\"emphasis\">will not</span>─be swayed from its path!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "POP",
+                "text": "The enemy is still about!"
+            },
+            {
+                "name": "POP",
+                "text": "You violate the sacred flame, unbeliever!"
+            }
+        ],
+        "reward": {
+            "gil": 660,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9693
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005551",
+            "obj": {
+                "i": 1005551,
+                "n": "Narujj Boh",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

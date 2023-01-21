@@ -1,0 +1,124 @@
+{
+    "quest": {
+        "name": "Leves of Aleport",
+        "location": "Western La Noscea",
+        "id": 66230,
+        "patch": 2.0,
+        "sort": 150,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1001791,
+        "target": 1001791,
+        "genre": 91,
+        "journal": [
+            "Orwen, the Adventurers' Guild representative for local levequests in Aleport, is seeking an adventurer to undertake guildleves.",
+            "In order to gauge your ability to handle the various guildleves he has to offer, Orwen requires that you carry out a preliminary task.",
+            "You have successfully completed the trial guildleve. Report to Orwen in Aleport.",
+            "Orwen is now confident that you are capable of handling any of the trials and tribulations you might encounter around Aleport. Prove your worth as an adventurer, and continue to undertake the guildleves he has to offer."
+        ],
+        "objectives": [
+            "Complete Orwen's trial guildleve.",
+            "Report to Orwen."
+        ],
+        "dialogue": [
+            {
+                "name": "ORWEN",
+                "text": "You in need of work, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>? The name's Orwen, and I'm a representative of the Adventurers' Guild. Notice the hat?"
+            },
+            {
+                "name": "ORWEN",
+                "text": "I keep a record of tasks what the locals need doin', then dole 'em out to adventurers what look capable."
+            },
+            {
+                "name": "ORWEN",
+                "text": "Now, you <span class=\"emphasis\">look</span> capable, but the last sod I reckoned was tough enough got his face bit off by a bleedin' wharf rat. You need to prove to me you can handle me jobs."
+            },
+            {
+                "name": "ORWEN",
+                "text": "Take a look at this here task. Does that seem like someaught you could do?"
+            },
+            {
+                "name": "ORWEN",
+                "text": "Alright, then. You need to <span class=\"highlight\">beckon</span> to your client, Memeroon, to help lead him to his destination."
+            },
+            {
+                "name": "SYS",
+                "text": "Use the /beckon emote to lead your client safely to the destination. You may find it convenient to add the emote to your hotbar before beginning the guildleve."
+            },
+            {
+                "name": "ORWEN",
+                "text": "You can start the guildleve whenever you're ready."
+            },
+            {
+                "name": "ORWEN",
+                "text": "Completed the task, have you? Then you need only collect your reward."
+            },
+            {
+                "name": "ORWEN",
+                "text": "You've started me trial guildleve, then? Good fortune to you, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>."
+            },
+            {
+                "name": "ORWEN",
+                "text": "Aye, I reckon you're tough enough to take on the rest of me leves."
+            },
+            {
+                "name": "ORWEN",
+                "text": "Aleport's an important hub for trade in the region, and there's no shortage of tasks to be had. I look forward to seein' you make a difference here, adventurer."
+            }
+        ],
+        "reward": {
+            "gil": 239,
+            "xp": 3360
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 34
+                }
+            ],
+            "questsType": "any",
+            "quests": [
+                66229,
+                65756
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001791",
+            "obj": {
+                "i": 1001791,
+                "n": "Orwen",
+                "l": 33,
+                "q": 1,
+                "t": "Levemete"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66229",
+            "obj": {
+                "i": 66229,
+                "n": "Leves of Swiftperch",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 100,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65756",
+            "obj": {
+                "i": 65756,
+                "n": "Leves of Bentbranch",
+                "g": 92,
+                "l": "Gridania",
+                "s": 100,
+                "f": 1
+            }
+        }
+    ]
+}

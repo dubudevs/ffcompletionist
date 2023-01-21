@@ -1,0 +1,948 @@
+{
+    "quest": {
+        "name": "Sleep Now in Sapphire",
+        "location": "The Lochs",
+        "id": 69431,
+        "patch": 5.3,
+        "sort": 20,
+        "icon": 101018,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1032586,
+        "target": 1032586,
+        "genre": 25,
+        "journal": [
+            "Information relating to the Weapon project has been uncovered, and your allies prepare to depart for distant lands.",
+            "The troops stationed at Porta Praetoria have been given orders to escort you to Alliance Headquarters by Gaius himself, an arrangement that does not sit well with the rank and file. It would appear the investigation into the Empire's Weapon project has finally borne fruit, though you will need to speak with those directly involved to learn more.",
+            "Despite having visited Alliance Headquarters on several occasions, your comrades still feel the need to have you escorted there and back each time. The Resistance fighter nearby will be more than happy to show you the way.",
+            "You discuss the latest findings of the Ironworks with Severa and Cid, whose earlier hypotheses surrounding the Ruby Weapon have been proven correct. It was equipped with a synthetic auracite system designed to forcibly supplant the consciousness of the pilot with data collected from more experienced soldiers. As Cid explains it, said data was collected via magitek devices akin to soul crystals affixed to the magitek armor of high-ranking officials. This is likely how the Garleans were able to retrieve the combat data of Nael van Darnus, who was killed prior to the Calamity, although there yet remain many questions surrounding the bizarre phenomena witnessed during the battle with the Ruby Weapon. As the Ironworks engineers endeavor to unravel this mystery, you decide to consult with Gaius and plan the next move.",
+            "Valdeaulin gives a brief account of his mission to trace the Ruby Weapon's path back to its source. It is believed to have come from an imperial base in Werlyt, which happens to be where Alfonse and the other orphans lived before they were taken into Gaius's care. In addition, a large machina resembling a Weapon was seen being transported to the coastal town of Terncliff a few days past, and the most logical course of action is to disable it as quickly as possible. The considerable distance between the suspected Weapon and your current location poses a major obstacle, but Cid claims to have prepared a top secret plan for such an occasion.",
+            "Cid takes great pleasure in revealing his trump card: the G-Warrior, an enormous Allagan warmachina restored to working order. He proposes that it be flown to Terncliff using the <span class=\"emphasis\">Enterprise</span>, where it will battle the latest Weapon. It seems you were the only candidate considered as pilot, presumably owing to your preternatural abilities and abundance of combat experience. Gaius, having previously taken helm of the Ultima Weapon, will provide support remotely. Before heading to Terncliff, Cid requests that you familiarize yourself with the G-Warrior's controls using a simulator.",
+            "Armed with a fundamental understanding of the G-Warrior, you and your allies make your way by airship to Terncliff, where the Weapon is poised to attack in the bay below. Though your fledgling abilities as a pilot are sorely tested, you eventually succeed in overcoming your foe, which now lies defeated, but largely intact, on the ocean's surface.",
+            "After disembarking from the G-Warrior, you join the rest of your party in the now-liberated town of Terncliff. You decide to discuss the aftermath of the battle with Gaius, who may have some fresh insight to share.",
+            "The Echo affords you a glimpse of events that unfolded prior to your arrival in Werlyt, and a conversation between Rex and Ricon, two of the orphans fostered by Gaius. With the Eorzean forces on their doorstep, Rex was committed to pilot an as-of-yet-unfinished Sapphire Weapon to afford his comrades time to escape. After much pleading, however, Ricon convinced him to trade places, and instead see the remaining Weapons to a safe location. The vision also confirms the theories surrounding the synthetic auracite and a system known as Oversoul, which fuses the pilot with the Weapon's core and replaces their consciousness with that of another soldier. After expounding on what you saw to Gaius, Cid arrives to confirm the cold, hard truth of your words.",
+            "As Gaius is in no state of mind to speak with anybody whatsoever at present, you turn to Valdeaulin, who reveals how he came to travel alongside the former imperial legatus. After his entire village, including his wife and daughter, were captured and used in Garlean experiments on the poisonous gas that would later become Black Rose, he joined the Order of the Twin Adder to exact his revenge. He joined the assault on the Praetorium and was almost crushed as the fortress was brought crashing down, but thereupon encountered Gaius Baelsar, who was close to death. Just as Valdeaulin prepared to land the killing blow, Gaius asked that he stay his hand, at least until he could exterminate the Ascians who had orchestrated the war on Eorzea. Ever since that day, Valdeaulin has followed Gaius on his hunt, that he may judge his true intentions and slay him the moment he breaks their agreement. Valdeaulin seeks to bring a swift end to the threat posed by the Weapon project and return to eliminating the root cause rather than the symptoms of the Ascian menace.",
+            "Now that the true nature of Oversoul has come to light, Gaius is more determined than ever to disable the remaining Weapons before they can be deployed. To that end, he and Valdeaulin will pursue Rex and the fleeing Garlean soldiers, while Cid continues to examine the imperial facility at Terncliff and the Sapphire Weapon. Your only task at present is to relay the outcome of the battle to the Resistance members at Porta Praetoria and await further instructions.",
+            "You arrive back at Porta Praetoria where the officer in charge offers you a warm welcome. Pleasantries aside, you inform him of all that transpired at Werlyt. There is naught left to do but await further news from headquarters, though you suspect it will not be long before you and your allies are drawn back into conflict with the Empire."
+        ],
+        "objectives": [
+            "Speak with the Resistance fighter.",
+            "Speak with Severa at Alliance Headquarters.",
+            "Speak with Gaius.",
+            "Speak with Gaius again.",
+            "Speak with Gaius yet again.",
+            "Speak with Gaius one last time.",
+            "Speak with Gaius.",
+            "Speak with Valdeaulin.",
+            "Speak with Severa.",
+            "Speak with the Resistance officer at Porta Praetoria."
+        ],
+        "dialogue": [
+            {
+                "name": "RESISTANCEOFFICER",
+                "text": "<span class=\"highlight\">Forename</span>. I'm afraid we haven't much in the way of information to share from the front line."
+            },
+            {
+                "name": "RESISTANCEOFFICER",
+                "text": "We have, however, received word that Gaius wishes to speak with you at Alliance Headquarters."
+            },
+            {
+                "name": "RESISTANCEOFFICER",
+                "text": "I've arranged an escort to take you to headquarters, so when you're ready to depart, speak with the fellow over there."
+            },
+            {
+                "name": "RESISTANCEGATEKEEPER",
+                "text": "Ready to head out?"
+            },
+            {
+                "name": "Q1",
+                "text": "Accompany the Resistance fighter to Alliance Headquarters?"
+            },
+            {
+                "name": "RESISTANCEOFFICER",
+                "text": "I wouldn't like to hazard a guess at exactly what it is your presence is required <span class=\"emphasis\">for</span>, but it's probably not the sort of thing that can be put off until later."
+            },
+            {
+                "name": "SEVERA",
+                "text": "Good. You're here."
+            },
+            {
+                "name": "SEVERA",
+                "text": "The Ironworks have completed their analysis of the Ruby Weapon, and Cid Garlond wishes to share his findings."
+            },
+            {
+                "name": "SEVERA",
+                "text": "I take it you can spare a few moments?"
+            },
+            {
+                "name": "SEVERA",
+                "text": "Very good. Please wait here while I inform him of your arrival."
+            },
+            {
+                "name": "CID",
+                "text": "Glad you could make it, <span class=\"highlight\">Forename</span>. I'm sure you're as anxious as anyone to hear what we've uncovered."
+            },
+            {
+                "name": "CID",
+                "text": "Our early hypotheses were proven correct. The Garleans have designed a system whereby a pilot's consciousness can be forcibly supplanted with data based on the memories and experience of another."
+            },
+            {
+                "name": "SEVERA",
+                "text": "So, even a rank amateur could obtain the combat capabilities of a seasoned warrior?"
+            },
+            {
+                "name": "CID",
+                "text": "Precisely, and we learned how this was made possible when we opened the cockpit. The monitors were still operational, and among the messages displayed, one particular phrase caught my attention: “synthetic auracite system.”"
+            },
+            {
+                "name": "SEVERA",
+                "text": "Which is what, exactly?"
+            },
+            {
+                "name": "CID",
+                "text": "Well, the core of the Ultima Weapon was referred to as the Heart of Sabik by the Ascians. We believe it to have been a type of auracite."
+            },
+            {
+                "name": "CID",
+                "text": "I can't say much for the synthetic sort at this stage, but I've encountered real auracite before. It was extremely potent, perhaps equal in power to the Heart of Sabik."
+            },
+            {
+                "name": "CID",
+                "text": "It's unclear whether the Garleans' simulacrum possesses the same properties as genuine auracite, but I intend to follow this avenue of inquiry to see where it leads."
+            },
+            {
+                "name": "SEVERA",
+                "text": "What we <span class=\"emphasis\">do</span> know is that it was used to implant the combat data of Nael van Darnus into the pilot, who has been presumed dead since before the Calamity. Are you any closer to discovering how they were able to retrieve this data?"
+            },
+            {
+                "name": "CID",
+                "text": "The link didn't occur to Gaius at first, but he later told me of devices fitted to the magitek armor of the Empire's high-ranking officers."
+            },
+            {
+                "name": "CID",
+                "text": "There is reason to believe they were designed to emulate the soul crystals used throughout Eorzea."
+            },
+            {
+                "name": "SEVERA",
+                "text": "Yes, that was rumored to be its true purpose, but it was never publicly acknowledged. Perhaps those in the upper echelons of command wanted to avoid comparisons to the so-called “savages” they were meant to be conquering."
+            },
+            {
+                "name": "CID",
+                "text": "There is also the question of whether this system even functions as intended."
+            },
+            {
+                "name": "CID",
+                "text": "From what we've seen, we can assume they were successful in gathering combat data of those wearing armor equipped with the device. If the comparison with soul crystals is valid, perhaps this data was transferred via aether."
+            },
+            {
+                "name": "CID",
+                "text": "However, it seems that it extracted not only memories relating to combat, but the soldier's very essence. As you saw, the pilot succumbed entirely to the will of van Darnus."
+            },
+            {
+                "name": "CID",
+                "text": "Though this is merely supposition, it's possible that being fused with the Ruby Weapon's core accelerated the process and caused the deceased legatus to manifest in corporeal form."
+            },
+            {
+                "name": "SEVERA",
+                "text": "Could it be that the death of the pilot was caused by the system malfunctioning?"
+            },
+            {
+                "name": "CID",
+                "text": "It's hard to say. The Ruby Weapon itself was still largely intact when it deactivated, which strongly implies that it was the synthetic auracite running amok that killed her, rather than the damage incurred during the battle."
+            },
+            {
+                "name": "CID",
+                "text": "But even after our analysis, I'm afraid we still don't have enough information. For now, perhaps we should consult with Gaius as to our next plan of action."
+            },
+            {
+                "name": "RESISTANCEGATEKEEPER",
+                "text": "Ready to head out?"
+            },
+            {
+                "name": "Q1",
+                "text": "Accompany the Resistance fighter to Alliance Headquarters?"
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Valdeaulin has come bearing vital information."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "I traced the Ruby Weapon's path back to the occupied territory of Werlyt, which appears to be where it was built."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Where exactly is Werlyt?"
+            },
+            {
+                "name": "A2",
+                "text": "My grasp of geography is surprisingly poor. Care to enlighten me?"
+            },
+            {
+                "name": "SEVERA",
+                "text": "While Ala Mhigo is placed on the western edge of Ghimlyt, Werlyt lies on the opposite side, to the east. It was once a proud and prosperous city, until it was brought to its knees by the imperial invaders."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "You seem rather well-informed. Perhaps I should've taken you with me."
+            },
+            {
+                "name": "SEVERA",
+                "text": "Hmph. I thought that much was common knowledge."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "It is also where Alfonse and the others were born."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "And now, the Weapon project has brought them home..."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Yes, the place is now rife with imperials. They have established an airship supply depot in the coastal town of Terncliff. According to the locals, something resembling one of the Weapons was transported there a few days ago."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "This bodes ill indeed. Were it possible, I would attempt to capture Alfonse and his followers before they can launch an offensive."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "However, the distance between here and Terncliff presents a considerable obstacle, and in all likelihood, their Weapon will be ready long before we arrive. Approaching by sea would allow us to save time by circumventing their ground-based troops, provided we were able to secure a vessel."
+            },
+            {
+                "name": "CID",
+                "text": "Or you could use the <span class=\"emphasis\">Enterprise</span> and take the most direct route of all: as the crow flies. In fact, this is the perfect chance to put my top secret plan into action."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "And might I ask what that entails?"
+            },
+            {
+                "name": "CID",
+                "text": "It wouldn't be much of a secret if I told you, now would it?"
+            },
+            {
+                "name": "CID",
+                "text": "What I <span class=\"emphasis\">can</span> say is there's a starring role planned for you, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "CID",
+                "text": "Why so surprised? You didn't think I'd let you get off that easily, did you? It'll be here soon, so don't go anywhere!"
+            },
+            {
+                "name": "SEVERA",
+                "text": "Gaius will know how best to proceed."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "I have just returned from my reconnaissance, and I shall reveal my findings before taking a long overdue rest."
+            },
+            {
+                "name": "CID",
+                "text": "I still need to get to the bottom of how the synthetic auracite system works, and whether the pilot's fusion with the core was a malfunction or planned from the start."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "I see Cid still delights in keeping others in suspense. I can only hope he does not make us wait overlong."
+            },
+            {
+                "name": "CID",
+                "text": "Here it is, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "CID",
+                "text": "I present Garlond Ironworks' adaptation of the Ultima Warrior, the G-Warrior!"
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "I know Allagan design when I see it. Excavated from one of their ruins, no doubt."
+            },
+            {
+                "name": "CID",
+                "text": "Azys Lla, to be precise. We came across it during the course of our investigations and decided it would be a shame to let it go to waste."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "And you will be taking this refitted relic to face the enemy head-on, yes? Perhaps my knowledge of the Ultima Weapon will be of use."
+            },
+            {
+                "name": "CID",
+                "text": "I'm counting on it, as it happens. But first, we'll need to perform a test run in the simulator before throwing you into battle. Come, we haven't much time."
+            },
+            {
+                "name": "SEVERA",
+                "text": "I must admit, I am not fond of surprises, or secrets for that matter."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Many imperials who fought at Ghimlyt withdrew to Werlyt, though they will have had ample time to recuperate by now. Were we to approach by land, we could expect considerable resistance."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Are you sufficiently prepared?"
+            },
+            {
+                "name": "Q6",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A6",
+                "text": "Yes, I'm ready."
+            },
+            {
+                "name": "A6",
+                "text": "Some more practice wouldn't go amiss."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Then we shall depart for Terncliff at once."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "In that case, you should have the technician run the simulator again."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "It seems they were expecting us. But who is the pilot...?"
+            },
+            {
+                "name": "CID",
+                "text": "<span class=\"highlight\">Forename</span>, we're almost there! You'd better have your wits about you!"
+            },
+            {
+                "name": "Q3",
+                "text": "Issue the command to activate!"
+            },
+            {
+                "name": "A3",
+                "text": "Initiate combat mode!"
+            },
+            {
+                "name": "A3",
+                "text": "I have control!"
+            },
+            {
+                "name": "A3",
+                "text": "Erm... G-Warrior, do...the thing!"
+            },
+            {
+                "name": "CID",
+                "text": "Now, get ready to strike!"
+            },
+            {
+                "name": "Q4",
+                "text": "Issue the command to launch!"
+            },
+            {
+                "name": "A4",
+                "text": "It's time to fry this overgrown squid!"
+            },
+            {
+                "name": "A4",
+                "text": "Ah... Is it too late to back out?"
+            },
+            {
+                "name": "A4",
+                "text": "G-Warrior, engage!"
+            },
+            {
+                "name": "CID",
+                "text": "Haha! And save some for me! For research purposes, that is..."
+            },
+            {
+                "name": "CID",
+                "text": "That's the <span class=\"highlight\">Forename</span> I know, always with a joke at the ready! Wait, you're not joking are you?"
+            },
+            {
+                "name": "CID",
+                "text": "That sounds awfully familiar..."
+            },
+            {
+                "name": "RICON",
+                "text": "(-Pilot of the Sapphire Weapon-)I can't afford to lose... It's all or nothing!"
+            },
+            {
+                "name": "RICON",
+                "text": "(-Pilot of the Sapphire Weapon-)Activating Oversoul!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Synthetic Auracite System-)Hydrus combat sample ready.<br>Initiating organic core overwrite."
+            },
+            {
+                "name": "RICON",
+                "text": "Nnngh... Noooooo!<br>I can't...hold on...!"
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "I will be monitoring the situation from the air. Follow my instructions and eliminate the target."
+            },
+            {
+                "name": "SEVERA",
+                "text": "Incredible... But how does it compare to the Weapons?"
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "I suppose that in theory, any one of us could be the pilot, but I daresay your preternatural abilities give you a certain advantage."
+            },
+            {
+                "name": "GARLONDMECHANIC00686",
+                "text": "Back for more training, eh?"
+            },
+            {
+                "name": "Q7",
+                "text": "Initiate the G-Warrior simulation?"
+            },
+            {
+                "name": "GARLONDMECHANIC00686",
+                "text": "Right you are. Give me a moment while I get it fired up!"
+            },
+            {
+                "name": "GARLONDMECHANIC00686",
+                "text": "Well, if you change your mind, you know where to find me."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "The target has been silenced."
+            },
+            {
+                "name": "Q5",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A5",
+                "text": "That damned squid never stood a chance!"
+            },
+            {
+                "name": "A5",
+                "text": "Understood."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Now that the immediate threat has been dealt with, we should gather what information we can in Terncliff."
+            },
+            {
+                "name": "GARLONDMECHANIC00686",
+                "text": "On your way to Terncliff? Allow me to escort you."
+            },
+            {
+                "name": "Q8",
+                "text": "Travel to Terncliff?"
+            },
+            {
+                "name": "CONVEYOR03783",
+                "text": "Heading to Terncliff?"
+            },
+            {
+                "name": "Q9",
+                "text": "Travel to Terncliff?"
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "You did well to pilot the G-Warrior so adeptly in so short a time."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "And with the Weapon largely intact, Cid and his researchers should be able to gather a wealth of valuable information. Before it is dismantled, perhaps we should take one last look upon our fallen foe."
+            },
+            {
+                "name": "REX",
+                "text": "We should've known Father and his friends would track us down sooner or later. Now, they're at our doorstep, and the Sapphire Weapon <span class=\"emphasis\">still</span> isn't ready!"
+            },
+            {
+                "name": "REX",
+                "text": "Even so, it should still be able to fend them off, or at least buy us some time."
+            },
+            {
+                "name": "REX",
+                "text": "Not quite how I'd imagined it, but this seems as good a way to die as any."
+            },
+            {
+                "name": "RICON",
+                "text": "(-???-)Rex, I..."
+            },
+            {
+                "name": "REX",
+                "text": "Ricon!? Why are you still here!? You're supposed to be moving the other Weapons to a safe location!"
+            },
+            {
+                "name": "RICON",
+                "text": "You can take care of that...while I pilot the Sapphire Weapon."
+            },
+            {
+                "name": "REX",
+                "text": "What are you talking about!? I'm the pilot, not you! There's no need to put your life on the line."
+            },
+            {
+                "name": "REX",
+                "text": "Besides, it's still incomplete. It can barely perform basic maneuvers, so it'll be practically useless in a real fight."
+            },
+            {
+                "name": "RICON",
+                "text": "We have a solution: Oversoul."
+            },
+            {
+                "name": "REX",
+                "text": "You want to end up like Milisandia!?"
+            },
+            {
+                "name": "RICON",
+                "text": "No, of course not. I wouldn't wish that on my worst enemy."
+            },
+            {
+                "name": "RICON",
+                "text": "But she didn't give her life in vain. The Ruby Weapon left behind data that's been used to improve the system, to prevent any further malfunctions."
+            },
+            {
+                "name": "REX",
+                "text": "What difference does that make!? Once Oversoul is activated and the pilot fuses with the core, there's no way back."
+            },
+            {
+                "name": "RICON",
+                "text": "That's why I should be the one to pilot the Sapphire Weapon, not you, Rex. Alfonse needs you."
+            },
+            {
+                "name": "RICON",
+                "text": "You and I both know I'm the least qualified pilot we have. There's less to lose if I don't make it back."
+            },
+            {
+                "name": "REX",
+                "text": "No! I won't let you!"
+            },
+            {
+                "name": "RICON",
+                "text": "Please, Rex. Hear me out. Ever since we were children, I was the smallest, the weakest, too afraid to stand up for myself. But I had the best brothers and sisters a boy could wish for. You were always there for me, protected me."
+            },
+            {
+                "name": "RICON",
+                "text": "Now, it's my turn to protect you."
+            },
+            {
+                "name": "RICON",
+                "text": "Take the other Weapons and get out of here. See this through to the end."
+            },
+            {
+                "name": "RICON",
+                "text": "Do it for me. For Milisandia. I'm counting on you, Rex."
+            },
+            {
+                "name": "REX",
+                "text": "Hmph. You always did have a stubborn streak. All right, Ricon. I won't let you down."
+            },
+            {
+                "name": "REX",
+                "text": "Just promise you'll wait for me...on the other side. We'll meet again, Brother."
+            },
+            {
+                "name": "RICON",
+                "text": "You all made me happier than I had any right to be. And now...I've finally found my purpose. I have no regrets."
+            },
+            {
+                "name": "RICON",
+                "text": "Come on, Sapphire. We may be far from perfect, but we have a job to do. Let's give Father something to remember us by!"
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "The Echo, I presume. What did it reveal to you?"
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Ricon... My poor boy. You were braver than most could ever hope to be."
+            },
+            {
+                "name": "CID",
+                "text": "It's as we feared. I'm sorry, Gaius."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "First Milisandia, now Ricon! We must find the remaining Weapons and end this madness."
+            },
+            {
+                "name": "SEVERA",
+                "text": "I must admit, I envy your talents. Would that I possessed even a fraction of your skill, that I could better serve Gaius."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "I cannot help feeling there was a simpler way to defeat the Weapon. Perhaps shooting it in the head with a large cannon would have sufficed?"
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Tell me: what do you make of Gaius Baelsar?"
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "I understand the two of you have been acquainted since his days as the Black Wolf. He claims to have shed his pelt when he took up the hunt for Ascians, but he's still the same man deep down."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "He certainly kept quiet about having a flock of foster children back in the Empire, though. It seems he would rather bare his teeth to his former masters than allow harm to come to them."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Yet try as I might, I cannot make sense of it. Does he truly fight for the good of mankind, as he would have us all believe, or is he merely biding his time before he reveals his true colors?"
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Whatever the answer may be, in the end he will always be a Garlean. And though there may be honorable men and women among them, I have suffered much and more as a result of their conquests. Barbaric campaigns in which Gaius Baelsar played no small part."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "My first encounter with the Garleans was twenty years ago, shortly after the fall of Ala Mhigo. They continued their march into the lands that had long been home to we Duskwights."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "We sought to repel the invaders, but we were woefully unprepared. Our bows and arrows were no match for their magitek, and even our most powerful magicks did little to slow their advance."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "I fought on the front line, but was knocked unconscious in the opening exchange. When I came to, I was alone, the rest of my unit slaughtered. I hurried back to my village to look for my wife and daughter, only to find the place deserted."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "My search lasted for days, then weeks, then months, and it seemed they had disappeared without a trace. I finally learned from two imperials held at Bittermill that the villagers had been captured and used as test subjects for the poison gas that would later be known as Black Rose.<br>They were never seen again."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "For twenty long years I roamed aimlessly, with nothing but hatred to keep me alive. I eventually found myself at the Order of the Twin Adder, who offered me a place among their ranks. The desire for revenge was the only thing I had left, so without a moment's hesitation, I accepted."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Were it not for the war with Garlemald, I would have been loath to work alongside the city-dwelling Gridanians who for so long had treated my kind as outcasts. But none of that mattered anymore."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "It all culminated with Operation Archon. As you led the charge into the Praetorium, we were right behind you. And when the place came crumbling down, most of us were caught in the rubble. I escaped with my life, though many others were less fortunate."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Having dragged myself free from the rubble, I sought a way out. It was then that I encountered none other than Gaius Baelsar, on the verge of death. The gods had delivered to me the man whose conquests had robbed me of everything."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "I was poised, ready to exact my revenge. And then, he spoke."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "\"I will not beg for mercy. I only ask that you stay your hand a while longer."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "\"I cannot die until I have rid the world of the Ascian menace. For millennia, mankind has danced to their tune. But no more. Then, once we are finally free, my life is yours for the taking.“"
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "I would have struck him down there and then had I not sensed truth in his words. So, I decided to grant him a stay of execution and join him on his hunt."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "All this time, I've kept a close eye on Gaius. Though he is ever on the watch for pursuers, he has granted me ample opportunity to slay him if I so choose. And I still might, if he shows even the slightest sign of betraying our agreement."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "But for now, the Ascians are my chosen quarry. If they are indeed the ones pulling the Empire's strings, then it shall not end until they have been eradicated, every last one. Though I could not save my kin, there are those who may yet be spared the horrors of war."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Unfortunately, dealing with the Ascians will have to wait until we have brought an end to Garlemald's Weapon project."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Though we may have vanquished two of the new Weapons, we must make every effort to prepare for whatever the Garleans throw at us next. Perhaps Severa can tell us whether the Ironworks engineers have uncovered any information of note?"
+            },
+            {
+                "name": "SEVERA",
+                "text": "Valdeaulin has never been one to openly express himself, at least not in front of Gaius and myself. Even so, I cannot help but notice that something is amiss."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "..."
+            },
+            {
+                "name": "SEVERA",
+                "text": "The Ironworks engineers are still at work dismantling the Sapphire Weapon and investigating the Terncliff magitek facility. Though they have yet to make their report, they may have some news to share at this juncture. Please, wait here a moment."
+            },
+            {
+                "name": "CID",
+                "text": "We've yet to finish our investigation, but I can give you a preliminary report."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Were you able to recover anything of note?"
+            },
+            {
+                "name": "CID",
+                "text": "Before abandoning the facility, they'd attempted to destroy anything they couldn't take with them, including many of their research materials. Luckily, some information relating to the Sapphire Weapon's combat data was intact."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Judging by what we saw during the battle, it was extracted from Regula van Hydrus, correct?"
+            },
+            {
+                "name": "CID",
+                "text": "It also appears that the Sapphire Weapon was actually in an incomplete state, and therefore unable to perform at full capacity."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Even so, it was immensely powerful. Had they been given the chance to finish it before we'd arrived, who knows how it would've ended?"
+            },
+            {
+                "name": "CID",
+                "text": "Indeed. We may not be so fortunate next time, so we must prepare for the worst. The Ironworks will continue to investigate the Sapphire Weapon and look into possible countermeasures."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "The Echo afforded you a glimpse into the conversation between Ricon and Rex prior to the Weapon's deployment. Do you remember any other details?"
+            },
+            {
+                "name": "CID",
+                "text": "Improvements were made to the synthetic auracite system to prevent malfunctions? Then it was never their intent to create a manifestation of Nael van Darnus..."
+            },
+            {
+                "name": "CID",
+                "text": "But there's one thing that <span class=\"emphasis\">was</span> intended..."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Oversoul. Its activation results in the pilot being absorbed by the core, killing them in the process. Rex and Ricon were fully aware of this, were they not?"
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Then the death of the pilot was by design all along..."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "Alfonse, how could you!? Sacrificing your own siblings to fuel these accursed war machines!"
+            },
+            {
+                "name": "SEVERA",
+                "text": "Surely, there is no cause worth paying such a price."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Aye. Nothing is more precious than family."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "This nightmare is far from over. It appears that Rex has fled with the remaining Weapons, and we can assume that Alfonse has every intention of sending them into battle."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "We must find a way to disable them before Oversoul can be activated."
+            },
+            {
+                "name": "SHADOWHUNTER",
+                "text": "I have seen enough death. I do not wish to see any more."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Then there is no time to waste. Let's be about it, Gaius."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "Severa, you're in charge here. Keep Cid and his team safe while they carry out the investigation."
+            },
+            {
+                "name": "SEVERA",
+                "text": "Understood. Please see that no harm comes to Gaius."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "While we're gone, I need you to relay everything to the Resistance troops. Your firsthand account should prove useful. If there are any developments, we'll be sure to contact you."
+            },
+            {
+                "name": "VALDEAULIN",
+                "text": "(I'd rather you didn't share what we've discussed with my...traveling companions. It would only complicate matters.)"
+            },
+            {
+                "name": "RESISTANCEOFFICER",
+                "text": "Welcome back! It sounds like you've been on quite the journey. All the way to Terncliff!"
+            },
+            {
+                "name": "RESISTANCEOFFICER",
+                "text": "And judging by the fact you made it here in one piece, I trust everything went according to plan?"
+            },
+            {
+                "name": "RESISTANCEOFFICER",
+                "text": "What an astonishing account... I wouldn't mind putting that G-Warrior through its paces myself! Certainly a lot more stimulating than supervising this rabble, I'd imagine."
+            },
+            {
+                "name": "RESISTANCEOFFICER",
+                "text": "Anyway, as before, I'll compile the information into a report and leave it over there for your perusal, should you feel so inclined. If we hear anything from headquarters, we'll be sure to pass it on."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Meanwhile, in the VIIth Legion's Werlyt headquarters..."
+            },
+            {
+                "name": "ALFONSE",
+                "text": "I have come to deliver my report, Lord Valens."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Ah, so you have returned, young Alfred. Or was it Allwick?"
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Not that it really matters, of course. I hear that you and your darling “brothers and sisters” have allowed the Sapphire Weapon to fall into the hands of the enemy. <span class=\"emphasis\">Do</span> tell me it isn't so..."
+            },
+            {
+                "name": "ALFONSE",
+                "text": "I am afraid that is the case, Lord Valens."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Oh, come now. No need to be so sullen. As they say, “to err is human, to forgive, divine.” And you know how forgiving I can be. When it suits me..."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "So, tell me, whatever-your-name-is: who was able to best the Sapphire Weapon?"
+            },
+            {
+                "name": "ALFONSE",
+                "text": "Our sources state that the one known as the Warrior of Light was assisted by Cid Garlond and...Gaius van Baelsar, my lord."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Gaius, Gaius, Gaius. Yes, it seems he's been quite the troublemaker of late. Defecting from Garlemald, assassinating the Emperor... Whatever next? Oh well, there's no use crying over spilt milk."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Speaking of which, I've become quite the connoisseur since arriving in Werlyt. This particular variety comes from a rare breed of cow, you know. Only a hundred of them in existence and pampered every day of their lives."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Yes, they are quite valuable. Until their milk dries up, that is. When it does, they are sent to the slaughterhouse like all the rest. For that is their lot in life..."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "...to be discarded once they have served their purpose."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Did I create the Ruby and Sapphire Weapons so that you could deliver them gift wrapped to the enemy!? I can see it now─Cid nan Garlond rubbing his hands with glee at all the technological marvels we've bestowed upon him!"
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "And you let Gaius van Baelsar of all people get the better of you! How do you think this reflects on me!? The legatus of the VIIth Legion humiliated by that traitor! Humiliated, I say!"
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "There's only one way to deal with worthless provincial filth like you! Wait for me in the correction chamber. You need to be taught a lesson in obedience."
+            },
+            {
+                "name": "ALFONSE",
+                "text": "Yes, my lord."
+            },
+            {
+                "name": "IMPERIALCOMMANDER03895",
+                "text": "Forgive my intrusion, Lord Valens, but it's time for your meeting with the head of magitek development."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Oh, how time flies when you're whipping useless soldiers into shape! Yes, yes, I'll be along once I've made myself presentable. Can't have people thinking I've let my standards slip, now can I?"
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "What are you doing here?"
+            },
+            {
+                "name": "ALLIE",
+                "text": "You wished to see me, Lord Valens?"
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Did I now?"
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "...Ah yes, that's right."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "So, you're Allie, yes? And you joined the military of your own free will along with your fellow orphans?"
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Such devotion! What an inspiration you are! You see, it is my firm belief that love grants us the power to move mountains, to overcome any obstacle."
+            },
+            {
+                "name": "VALENSVANVARRO",
+                "text": "Together, we shall discover the strength that lies within you. Take my hand, child. I will show you the way."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 30382
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69319
+            ]
+        },
+        "next": [
+            69516
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1032586",
+            "obj": {
+                "i": 1032586,
+                "n": "Resistance Officer",
+                "l": 2408,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "30382",
+            "obj": {
+                "i": 30382,
+                "n": "Sapphire Weapon Bust",
+                "l": 1,
+                "c": 53355,
+                "t": 78,
+                "p": 1000
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69319",
+            "obj": {
+                "i": 69319,
+                "n": "Ruby Doomsday",
+                "g": 25,
+                "l": "The Lochs",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69516",
+            "obj": {
+                "i": 69516,
+                "n": "Blood of Emerald",
+                "g": 25,
+                "l": "The Lochs",
+                "s": 30,
+                "f": 1
+            }
+        }
+    ]
+}

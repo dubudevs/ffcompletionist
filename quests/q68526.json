@@ -1,0 +1,139 @@
+{
+    "quest": {
+        "name": "Sand-sifting Specialist",
+        "location": "The Ruby Sea",
+        "id": 68526,
+        "patch": 4.1,
+        "sort": 18,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "involved": [
+            1024218
+        ],
+        "genre": 51,
+        "journal": [
+            "Zukin would like to introduce you to a new style of treasure hunting.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Speak with Makura.",
+            "Use the ray's Inhale ability to gather treasure.",
+            "Report to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "Can I interest you in a new method of treasure hunting? Makura will explain all."
+            },
+            {
+                "name": "MAKURA",
+                "text": "Glad you could join us! My clever little ray has learned a new trick."
+            },
+            {
+                "name": "MAKURA",
+                "text": "You might have seen striped rays with their faces in the sand, looking for food. Normally they just swallow water and filter out the krill, but the tastiest morsels can be found under the seabed."
+            },
+            {
+                "name": "MAKURA",
+                "text": "There's a lot more than sediment and ray snacks down there though. This little one has learned how to search for treasure while he's at it! Why don't you take him out there and give it a try?"
+            },
+            {
+                "name": "MAKURA",
+                "text": "The ray's been taught to come back here if you get separated. Once you've finished, Zukin will take care of the rest. Good luck!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The ray finds treasure beneath the sediment."
+            },
+            {
+                "name": "MAKURA",
+                "text": "I was wondering when you'd be back. Our friend seems eager to continue the search!"
+            },
+            {
+                "name": "MAKURA",
+                "text": "There are a few spots nearby that may be worth a closer look."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This seems like a promising location. Ride the ray, and use his Inhale ability to search for treasure."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "The ray's belly seems fit to burst. I advise you to stand back when he regurgitates everything. Hopefully there will be some treasure in there along with all the sand and muck."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Makura and her ray toiled for many days and nights to perfect that technique. Their efforts have paid dividends, as we are now able to recover many precious items that would otherwise remain undiscovered."
+            }
+        ],
+        "reward": {
+            "gil": 615,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024218",
+            "obj": {
+                "i": 1024218,
+                "n": "Makura",
+                "l": 2409,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

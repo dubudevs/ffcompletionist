@@ -1,0 +1,584 @@
+{
+    "quest": {
+        "name": "The Face of Thal",
+        "location": "Ul'dah",
+        "id": 65799,
+        "patch": 2.0,
+        "sort": 200,
+        "icon": 100054,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1001739,
+        "target": 1001739,
+        "involved": [
+            1001285,
+            1001438,
+            1001462,
+            1004092,
+            1004140
+        ],
+        "genre": 127,
+        "journal": [
+            "First Sword Mylla has an urgent task for you.",
+            "One of your guildmates has been attacked by an unknown assailant and requires immediate assistance. Mylla bids you search for him at the Coffer & Coffin in central Thanalan and offer whatever assistance you can.",
+            "Though the potion is enough to save your comrade's life, it will take some time for him to make a full recovery. In the meantime, he asks you to find and speak with any witnesses in the vicinity, as well as search the point of ambush so that you can identify the assailant.",
+            "Your search yields a potential sighting, as well as a strange ring engraved with the likeness of a scorpion. Present your findings to the injured gladiator.",
+            "Believing the ring to be an important clue, the gladiator suggests that you show it to Wymond, an independent businessman known to possess knowledge on a wide variety of subjects. Speak with Wymond on the Steps of Nald in Ul'dah.",
+            "Wymond informs you that the ring is worn by members of the Alacran, a notorious criminal organization. Return to the Gladiators' Guild and tell Mylla everything you have learned.",
+            "Moments after you return to make your report, Aldis once again bursts into the guild, much to Mylla's chagrin. He admits that he is the target of the bounty hunters, and urges the guildmaster to leave the Alacran to him. However, Mylla refuses to heed his counsel and declares that the Gladiators' Guild will confront the bandits at the Silver Bazaar. Make your preparations for the coming battle and rendezvous with Mylla in western Thanalan.",
+            "After repelling the attackers, you and your comrades are confronted by more members of the Alacran, who are led by a man armed with a blade resembling Aldis's. While the encounter did not result in bloodshed, it has left Mylla shaken to the core. Return to the Gladiators' Guild and see if she is all right.",
+            "At the guild, Aldis explains that Leavold, his former Coliseum partner, has taken control of the Alacran and transformed them from a gang of common thieves into the most feared criminal organization in Thanalan. However, Mylla insists that the Leavold she once knew would never do such terrible things. As you witness the exchange between the two of them, you cannot help but wonder what terrible twist of fate tore the three friends apart seven long years ago.<br><br>※The next gladiator quest will be available from Mylla upon reaching level 25."
+        ],
+        "objectives": [
+            "Aid the injured gladiator at the Coffer & Coffin in central Thanalan.",
+            "Find and speak with any witnesses.",
+            "Search the point of ambush for evidence.",
+            "Speak with the injured gladiator.",
+            "Show the scorpion ring to Wymond in Ul'dah.",
+            "Report to Mylla.",
+            "Rendezvous with Mylla at the Silver Bazaar in western Thanalan.",
+            "Speak with Mylla at the Gladiators' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "MYLLA",
+                "text": "<span class=\"highlight\">Forename</span>, I'm glad you're here! One of our members has been attacked and gravely wounded, and I need you to go and help him."
+            },
+            {
+                "name": "MYLLA",
+                "text": "I suspect this is the work of more bounty hunters. It may even be a trap to lure more of us into the open. Nevertheless, we cannot ignore our comrade's plight."
+            },
+            {
+                "name": "MYLLA",
+                "text": "When last he contacted us by linkpearl, he said he'd try to seek shelter at the Coffer & Coffin. Take this potion and search for him there."
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "Help...help me... I can't feel my..."
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "Thank you, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>. It all happened so fast...over by the tracks to the north. I don't know who attacked me, nor why they left me alive, but I daresay the answer is out there. Surely, someone saw something."
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "I don't remember anything myself, but I'm sure someone nearby saw something. Could you speak with the local residents and see what they know? The place I was attacked might also be worth a look."
+            },
+            {
+                "name": "NPC",
+                "text": "Suspicious characters? Well, now that you mention it, I did see a strange fellow wearing a garish purple robe. At first, I thought he was talking to himself, but then I realized he had a linkpearl. I heard him say something about the “wrong man” and the “Silver Bazaar.” Does that help?"
+            },
+            {
+                "name": "NPC",
+                "text": "The fellow outside? Aye, I saw him stumble in when I left the bar to take a piss. Was alone as I recall. Ye say he's wounded? Thought he was just drunk!"
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "&lt;cough&gt; Purple robe? Hmmm, that sounds familiar...<br>Aye, it was him, I'd swear it. Did you find anything else?"
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "Picked this up by the tracks, eh? Might well have belonged to the bastard. Can't say I've seen its like before."
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "Might be as Wymond could tell you more. You know him, don't you? He's the bespectacled bloke who's always lounging around Emerald Avenue in the city. 'Course, being the <span class=\"emphasis\">businessman</span> that he is, he'll probably ask to be compensated in exchange."
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "Show that ring to Wymond. He's sure to know something about it."
+            },
+            {
+                "name": "WYMOND",
+                "text": "Well now, if it ain't <span class=\"highlight\">Forename</span>, everybody's favorite 'venturer! I hear you threw your lot in with the gladiators─a questionable decision, given the events of recent days, but to each his own. To what do I owe the pleasure?"
+            },
+            {
+                "name": "WYMOND",
+                "text": "Oi, put that away before someone sees it! Where in the seven hells'd you get one of those rings!?"
+            },
+            {
+                "name": "WYMOND",
+                "text": "What, don't you recognize the sigil? &lt;sigh&gt; Godsdamned fool. Before you go stumblin' around in the brush, you ought to at least know what kind of venomous bastards'll be lurkin' within."
+            },
+            {
+                "name": "WYMOND",
+                "text": "Been a long time since Ul'dah's seen a criminal organization rise from obscurity to notoriety as quickly as the Alacran. Word is they've got connections to the Brass Blades, the Syndicate, an' gods know who else."
+            },
+            {
+                "name": "WYMOND",
+                "text": "But you didn't hear that from me. I want no part of whatever mess you an' your mates have gotten yourselves into. Understood?"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Oh, <span class=\"highlight\">Forename</span>! I was wondering when you might return. What news do you bring of our injured comrade?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "He was attacked by a member of the Alacran."
+            },
+            {
+                "name": "A2",
+                "text": "His attackers may be headed to the Silver Bazaar."
+            },
+            {
+                "name": "MYLLA",
+                "text": "The Alacran? I find that hard to believe─but no matter."
+            },
+            {
+                "name": "MYLLA",
+                "text": "The Silver Bazaar!? Then it must be the same gang of ruffians!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "One of our comrades returned from Stonesthrow moments ago. A gang of bandits is said to be headed for the Silver Bazaar. They're after a man with an enormous bounty on his head."
+            },
+            {
+                "name": "MYLLA",
+                "text": "The people living there are in grave danger. In their frenzy to find their quarry, the bandits won't scruple to destroy property and harm civilians, and the few Brass Blades stationed there will be powerless to stop them."
+            },
+            {
+                "name": "MYLLA",
+                "text": "<span class=\"emphasis\">We</span> must stop them, <span class=\"highlight\">Forename</span>. We'll protect the Silver Bazaar and avenge our injured guildmate, all in one fell swoop!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "A bit melodramatic, if you ask me."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Aldis!? I told you never to come here again!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "I couldn't sit idly by while you charge into battle against an enemy you know nothing about. Mylla, a responsible guildmaster would never risk the lives of her charges like this."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Who are <span class=\"emphasis\">you</span> to lecture me about responsibility!?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Mylla, listen to me─this is the <span class=\"emphasis\">Alacran</span> you're dealing with."
+            },
+            {
+                "name": "MYLLA",
+                "text": "So? Whatever notoriety they may have achieved means nothing to me. We'll cut them down like the common bandits they are."
+            },
+            {
+                "name": "ALDIS",
+                "text": "It's not that simple. More importantly, it's not your fight."
+            },
+            {
+                "name": "MYLLA",
+                "text": "What are you saying?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "They want <span class=\"emphasis\">me</span>, Mylla. I've been fending off assassination attempts ever since I returned to Thanalan."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Just stay here and let me handle this. It'll be over soon, I promise."
+            },
+            {
+                "name": "MYLLA",
+                "text": "...Just stay here while you go off on your own, is that it?"
+            },
+            {
+                "name": "MYLLA",
+                "text": "It's been seven years since I let you leave, Aldis. Seven <span class=\"emphasis\">years</span>. Do you have any idea─any idea at all what you put me through?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Mylla..."
+            },
+            {
+                "name": "MYLLA",
+                "text": "I don't want to hear it, you selfish bastard! Do you even care about the people who suffered because of you? Just...just get out─we don't need your help! We'll settle this ourselves!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Mylla, wait! There's something you need to know─"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Enough! Get out, get OUT!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "All right, all right. Save some of that for the Alacran. But do try not to let <span class=\"highlight\">Forename</span> here come to harm while you're at it."
+            },
+            {
+                "name": "MYLLA",
+                "text": "What are you waiting for!? You have your orders, now <span class=\"emphasis\">go</span>!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "There you are, <span class=\"highlight\">Forename</span>! Everyone's already in position! Are you prepared?"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Rejoice, gladiators, for the day is ours!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Hm!?"
+            },
+            {
+                "name": "MYLLA",
+                "text": "What!? But...but why would <span class=\"emphasis\">you</span> be─"
+            },
+            {
+                "name": "NPCA",
+                "text": "Leave 'em to us, First Sword!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "No, stop!"
+            },
+            {
+                "name": "ZANA",
+                "text": "(-???-)Such brittle blades, so easily broken. Perhaps the First Sword is made of stronger steel."
+            },
+            {
+                "name": "REHWOLDT",
+                "text": "(-???-)Leave her, Zana. Our business here is over."
+            },
+            {
+                "name": "MYLLA",
+                "text": "What...what have you done, Leavold...?"
+            },
+            {
+                "name": "NPCA",
+                "text": "First Sword, we must withdraw! The wounded need tending! Let us take them back to the guild!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Give me a moment, <span class=\"highlight\">Forename</span>. I need to think..."
+            },
+            {
+                "name": "ALDIS",
+                "text": "I wanted to spare you this, Mylla. I begged you not to go."
+            },
+            {
+                "name": "MYLLA",
+                "text": "You knew, Aldis? That...that Leavold had..."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Leavold and I once fought side by side in the Coliseum─the Twin Swords of Nald'thal, they called us. Never lost a match, honored by the Bull of Ala Mhigo himself─but that was then and this is now."
+            },
+            {
+                "name": "ALDIS",
+                "text": "When I learned Leavold single-handedly transformed the Alacran from a gang of common thieves into the most feared criminal organization in Thanalan, I knew I had to return."
+            },
+            {
+                "name": "ALDIS",
+                "text": "It seems like a lifetime ago that the three of us used to train together in this hall..."
+            },
+            {
+                "name": "MYLLA",
+                "text": "The Leavold I knew would never stoop so low. He was a good man, strong and true! What would drive him to do this?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "When I find him, I'll be sure to ask. Unfortunately, he seems determined to kill me for my curiosity."
+            },
+            {
+                "name": "MYLLA",
+                "text": "What aren't you telling me, Aldis?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "I'm not clever enough to keep secrets, my dear. I'm a simple man, only capable of dealing with what's right in front of me."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Is that so..."
+            },
+            {
+                "name": "ALDIS",
+                "text": "I'll find him, Mylla. I promise."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next gladiator quest will be available from Mylla upon reaching level 25."
+            },
+            {
+                "name": "SCENE00020",
+                "text": "Duty calls. Do you wish to proceed with<br>“CLSGLA200”?"
+            },
+            {
+                "name": "SCENE00020",
+                "text": "Yes"
+            },
+            {
+                "name": "SCENE00020",
+                "text": "No"
+            },
+            {
+                "name": "QIB",
+                "text": "Defeat the Alacran henchmen!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Stay focused! Choose your target and finish him!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "The conjurers are the greater threat! The others can wait!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "<span class=\"highlight\">Forename</span>, deal with them!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Thaumaturges!? Gods, I've always hated mages..."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Finish them, before they can cast again!"
+            },
+            {
+                "name": "QIB",
+                "text": "Damn you, I'll...ugh!"
+            },
+            {
+                "name": "QIB",
+                "text": "First Sword...I'm sorry..."
+            },
+            {
+                "name": "QIB",
+                "text": "Ugh... We must...p-protect..."
+            },
+            {
+                "name": "QIB",
+                "text": "<span class=\"emphasis\">Nobody</span> makes me bleed my own─ugh!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "I...I..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 1611
+                },
+                {
+                    "id": 2241
+                },
+                {
+                    "id": 3045,
+                    "one": 1
+                },
+                {
+                    "id": 2712,
+                    "one": 1
+                },
+                {
+                    "id": 3563,
+                    "one": 1
+                },
+                {
+                    "id": 3793,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4060
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 2
+                }
+            ],
+            "quests": [
+                65798
+            ]
+        },
+        "next": [
+            65800
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001739",
+            "obj": {
+                "i": 1001739,
+                "n": "Mylla",
+                "l": 41,
+                "q": 16,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001285",
+            "obj": {
+                "i": 1001285,
+                "n": "Wymond",
+                "l": 40,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001438",
+            "obj": {
+                "i": 1001438,
+                "n": "Etfled",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001462",
+            "obj": {
+                "i": 1001462,
+                "n": "Roundelph",
+                "l": 43,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004092",
+            "obj": {
+                "i": 1004092,
+                "n": "Mylla",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004140",
+            "obj": {
+                "i": 1004140,
+                "n": "Injured Gladiator",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "1611",
+            "obj": {
+                "i": 1611,
+                "n": "Carnage Sword",
+                "l": 20,
+                "c": 30506,
+                "t": 2,
+                "p": 869
+            }
+        },
+        {
+            "type": "item",
+            "id": "2241",
+            "obj": {
+                "i": 2241,
+                "n": "Iron Lantern Shield",
+                "l": 21,
+                "c": 30015,
+                "t": 11
+            }
+        },
+        {
+            "type": "item",
+            "id": "3045",
+            "obj": {
+                "i": 3045,
+                "n": "Iron Cuirass",
+                "l": 20,
+                "c": 48002,
+                "t": 35,
+                "p": 1228
+            }
+        },
+        {
+            "type": "item",
+            "id": "2712",
+            "obj": {
+                "i": 2712,
+                "n": "Iron Celata",
+                "l": 20,
+                "c": 40002,
+                "t": 34,
+                "p": 992
+            }
+        },
+        {
+            "type": "item",
+            "id": "3563",
+            "obj": {
+                "i": 3563,
+                "n": "Iron Gauntlets",
+                "l": 20,
+                "c": 48302,
+                "t": 37,
+                "p": 882
+            }
+        },
+        {
+            "type": "item",
+            "id": "3793",
+            "obj": {
+                "i": 3793,
+                "n": "Iron Sabatons",
+                "l": 20,
+                "c": 46806,
+                "t": 38,
+                "p": 1008
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65798",
+            "obj": {
+                "i": 65798,
+                "n": "That Old Familiar Feeling",
+                "g": 127,
+                "l": "Ul'dah",
+                "s": 150,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65800",
+            "obj": {
+                "i": 65800,
+                "n": "On Holy Ground",
+                "g": 127,
+                "l": "Ul'dah",
+                "s": 250,
+                "f": 1
+            }
+        }
+    ]
+}

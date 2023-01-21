@@ -1,0 +1,89 @@
+{
+    "quest": {
+        "name": "Blast from the Past",
+        "location": "Southern Thanalan",
+        "id": 66296,
+        "patch": 2.0,
+        "sort": 250,
+        "eventIcon": 71221,
+        "issuer": 1004894,
+        "target": 1004894,
+        "genre": 93,
+        "journal": [
+            "Annabel of the Immortal Flames has a task for a stalwart adventurer.",
+            "Lost souls from the age of Belah'dia are said to haunt the ruins south of Little Ala Mhigo. Using the blessed water provided by Annabel to weaken their powers, slay one tempered sword and one tempered brand.",
+            "The tempered souls have been slain. Inform Annabel of your success.",
+            "Impressed with your abilities, Annabel resolves to devote herself to her martial training, that one day she might perform similar deeds."
+        ],
+        "objectives": [
+            "Use blessed water and slay a tempered sword.",
+            "Use blessed water and slay a tempered brand.",
+            "Report to Annabel."
+        ],
+        "dialogue": [
+            {
+                "name": "ANNABEL",
+                "text": "Adventurer, I would have your ear. Have you perchance visited the ruins south of here? It is said that they date back to the era of the Belah'dians."
+            },
+            {
+                "name": "ANNABELl",
+                "text": "As a student of history, I was delighted when my superiors sent me there on patrol. My delight soon turned to dread, however, when I discovered the terrible truth─these ruins are haunted!"
+            },
+            {
+                "name": "ANNABEL",
+                "text": "Yes, you heard me right. Specters of Belah'dia haunt the place to this day, and my limited training has hardly prepared me to face such horrors. Would you be so obliging as to take this holy water and shepherd the lost souls to Thal's realm?"
+            },
+            {
+                "name": "ANNABEL",
+                "text": "Remarkable! You adventurers truly are as valiant as they say. I must devote myself to my training, that one day I, too, may be capable of such deeds."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 1232,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5786
+                }
+            ],
+            "xp": 4760
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 25,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1004894",
+            "obj": {
+                "i": 1004894,
+                "n": "Annabel",
+                "l": 45,
+                "q": 1,
+                "t": "Flame Private"
+            }
+        },
+        {
+            "type": "item",
+            "id": "5786",
+            "obj": {
+                "i": 5786,
+                "n": "Turquoise Green Dye",
+                "l": 1,
+                "c": 22810,
+                "t": 55,
+                "p": 334
+            }
+        }
+    ]
+}

@@ -1,0 +1,710 @@
+{
+    "quest": {
+        "name": "Sibling Strife",
+        "location": "Western Thanalan",
+        "id": 66027,
+        "patch": 2.5,
+        "sort": 18,
+        "icon": 100354,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1011677,
+        "target": 1011675,
+        "involved": [
+            1001294,
+            1001708,
+            1003897,
+            1011620,
+            1011679,
+            1011681,
+            1011682,
+            1011683,
+            1011685,
+            1011729
+        ],
+        "genre": 68,
+        "journal": [
+            "Hildibrand is onto something, or at least he thinks he is.",
+            "Thoroughly convinced that your adversary─the phantom thief-turned-murderer─is a vengeful Sil'dihn spirit seeking retribution for centuries-old war crimes, Hildibrand proposes a trip to the Thaumaturges' Guild, where one might learn more about the troubled history of the sibling nations. Briardien acquiesces, if only to get his meddling rival out of his hair while he pursues his own line of investigation. Accompany Inspector Hildibrand to the guild to see what information might be had.",
+            "Questioning a number of thaumaturges at the guild, you learn of the horrors of the so-called War of the Sisters, which culminated with Sil'dih's horrific attempt to raise a fearsome zombie legion from the ranks of its own citizens. Share these frightful findings with Inspector Hildibrand, who is surely eager to put his famed deductive powers to work.",
+            "Upon hearing your report, Hildibrand proposes securing an apology from a doubtless long-dead Sil'dihn statesman as a means to appease the wayward soul that he still believes the phantom thief-cum-murderer to be. Briardien dismisses this theory out of hand, while granting that the Sil'dih connection is indeed worth exploring. As the consulting inspector ponders the relationship between the murder victims, Ellie shares rumors she heard about a man who was sighted trying to make contact with more than one of the victims while they still lived. Seek out this man, the trader Guguriya of Horizon, to see what stories he may have to tell.",
+            "Despite his reluctance, Guguriya speaks with you after being prodded along by a timely appearance from Lady Durilda. He reveals that the victims were all members of the Arbiters of Truth─a secret society devoted to preventing false knowledge of Ul'dahn history from reaching the ears of the general populace─and that they were turned to zombies before being slain. He further shares with you the identity of his employer, a man by the name of Hob, who─fearing for his life after the murders of his colleagues─has already fled the sultanate. Hurry to Vesper Bay and seek the man out before he meets a similarly gruesome fate.",
+            "Your arrival in Vesper Bay comes too late, as the unfortunate Hob has already been reduced to a slavering zombie. After you have finished putting the poor man out of his misery, Inspector Briardien proposes a return to the Heart of the Sworn in Ul'dah, that you may deliver a full report to Phillice. Ellie and Nashu set off for the <span class=\"emphasis\">Mythril Eye</span> offices to do some additional investigating, with a plan to rendezvous when both groups have finished with their tasks.",
+            "Your conversation with Phillice is interrupted by a scream from the direction of the vault. Racing to the scene, you come upon Miss Ellie and an unconscious Sultansworn, who a quick dash of demasking dust reveals to be none other than the thief of many faces. There is scarcely time to rejoice in this most unexpected and fortunate turn of events when a stumbling Hildibrand accidentally dumps a second sachet of dust on the fallen man's face, removing a second mask to reveal that he is indeed one of Phillice's men, after all. In the meantime, Ellie is nowhere to be found. Phillice is quick to take action, declaring the <span class=\"emphasis\">Mythril Eye</span> reporter the phantom thief and sending her full contingent out to secure her arrest. And yet, in a case which has taken one surprising turn after the next, is everything as simple as it seems...?"
+        ],
+        "objectives": [
+            "Gather information at the Thaumaturges' Guild.",
+            "Speak with Hildibrand.",
+            "Speak with Guguriya in Horizon.",
+            "Search for Hob.",
+            "Speak with Phillice at Scholars' Walk."
+        ],
+        "dialogue": [
+            {
+                "name": "BRIARDIEN",
+                "text": "Shades from Sil'dih? Living men turned to zombies? The old crone's lost not just her son, but her wits as well."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "It's all becoming clear to me now! That dear old woman's testimony has confirmed that which I had suspected from the start!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Like a zombie picking away at its rotting flesh, Hildibrand─agent of enquiry, inspector extraordinaire─has peeled away the foul scab of uncertainty to reveal the truth within!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Open your ears and feast your minds on the fruits of my flawless deduction! Ahem... Our phantom thief is a phantom indeed, a wayward spirit caught between the realm of the living and dead for nigh on centuries since meeting a tragic end on the battlefield."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "As such, our course of action is clear! We must placate this tortured soul, that it might abandon its vengeful vendetta and travel to the next life in peace!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "But what is the true nature of the specter's grievances? Without this knowledge, we cannot hope to assuage its rancor."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Let us begin our search at the Thaumaturges' Guild. Doubtless the tomes there contain a wealth of knowledge on the ill blood between the sibling nations."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Notwithstanding the abject stupidity of everything else that came out of your mouth, some knowledge of Sil'dih might serve us well. Go research as you will. And <span class=\"emphasis\">do</span> take as much time as you need."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "You can count on me, Inspector Briardien! Whatever knowledge is to be gleaned at the guild, it shall not escape my inspector's eye!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "I'd be much obliged if you could keep him out of my way, <span class=\"highlight\">Forename</span>. I have some <span class=\"emphasis\">real</span> investigating to do, and would prefer to be free of distractions."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Knowledge is power, and surely our thaumaturge friends have a wealth of knowledge on the feud between Ul'dah and Sil'dih. Let us begin our inquiry!"
+            },
+            {
+                "name": "NENEKKO",
+                "text": "Gods be good! You're the adventurer who saved me back at the ruins! Researching the ancient feud between Ul'dah and Sil'dih, are you? Why, I'm pleased to say I have more than a passing familiarity with ancient history."
+            },
+            {
+                "name": "NENEKKO",
+                "text": "Researching the ancient feud between Ul'dah and Sil'dih, are you? Most impressive! Young people these days show so little interest in learning from the past. Anyhow, I'm pleased to say I have more than a passing familiarity with ancient history."
+            },
+            {
+                "name": "NENEKKO",
+                "text": "To understand the history of the sibling nations, one must go back further still, to the birth of their mother nation, Belah'dia."
+            },
+            {
+                "name": "NENEKKO",
+                "text": "The Fifth Astral Era was an age of untold wonders, when the arcane arts burgeoned and the great civilizations that commanded such powers flourished."
+            },
+            {
+                "name": "NENEKKO",
+                "text": "This age of enlightenment would not last, however. Power bred avarice, and avarice bred resentment. It culminated in the War of the Magi, which brought the great floods of the Sixth Umbral Calamity, which in turn swallowed once-proud nations and left a battered wasteland in its wake."
+            },
+            {
+                "name": "NENEKKO",
+                "text": "Mages were reviled and persecuted for having caused this catastrophe, with many forced to leave their homelands or face death. It was a small band of those survivors that found their way to Thanalan, where they would found the nation of Belah'dia some eight centuries agone."
+            },
+            {
+                "name": "NENEKKO",
+                "text": "Ah, imagine: a government of mages, by mages, and <span class=\"emphasis\">for</span> mages! What wonders might have been wrought had Belah'dian civilization survived to this very day! Alas, this was not to be..."
+            },
+            {
+                "name": "ERASMUS",
+                "text": "You don't say? It's not every day someone comes to our halls to research Sil'dih. As a fellow student of history, though, I more than welcome the conversation."
+            },
+            {
+                "name": "ERASMUS",
+                "text": "Belah'dian civilization flourished in relative peace until twin sons were born to the royal family. The two were fierce rivals, and when they came of age and their father passed, each one claimed that he was the rightful heir to the throne."
+            },
+            {
+                "name": "ERASMUS",
+                "text": "With neither son willing to relinquish his claim, they agreed to split their kingdom in two, forming the twin nations of Ul'dah and Sil'dih. But not unlike the two proud princes, the sibling nations developed a penchant for rivalry..."
+            },
+            {
+                "name": "YAYAROKU",
+                "text": "Greetings, traveler. You would learn of the war between Ul'dah and the fallen sultanate of Sil'dih? It would be my pleasure to enlighten you."
+            },
+            {
+                "name": "YAYAROKU",
+                "text": "The two city–states coexisted for several generations until the bad blood between them boiled over, culminating in outright war. As you might deduce from the present state of affairs, Ul'dah emerged victorious, leaving its once-proud sibling nation in smoldering ruins."
+            },
+            {
+                "name": "YAYAROKU",
+                "text": "As the histories tell it, the battles fought between the sister nations were the stuff of nightmares. In a desperate attempt to overcome Ul'dah's superior numbers, Sil'dihn alchemists devised a most horrific stratagem. Employing a frightful formula known as the Traders' Spurn, they brought their fallen warriors back as undead soldiers."
+            },
+            {
+                "name": "YAYAROKU",
+                "text": "Some theories have it that they even employed the potion on those of the living who were too weak or wounded to fight. Sends shivers up the spine just thinking about it, no? It is truly a crowning glory of our fair nation that our forebears were able to emerge victorious against these horrors."
+            },
+            {
+                "name": "COCOBUKI",
+                "text": "Hm hm...hm!? <span class=\"highlight\">Forename</span>? Don't surprise me like that! What's this? You're here not for your studies, but to learn of the bad blood between Ul'dah and Sil'dih?"
+            },
+            {
+                "name": "COCOBUKI",
+                "text": "Hm hm hm... What's that, you say? You seek knowledge of the bad blood between Ul'dah and Sil'dih? I suppose I can spare a moment or two. But take good notes─I'm not fond of repeating myself."
+            },
+            {
+                "name": "COCOBUKI",
+                "text": "Two scales, one of gold and one of silver. The gold of Ul'dah, weighing prosperity and power. The silver of Sil'dih, weighing <span class=\"emphasis\">knowledge</span> and power. But the power sought by the two nations differed greatly─yes, greatly indeed."
+            },
+            {
+                "name": "COCOBUKI",
+                "text": "The power wrought by Ul'dahn prosperity was that of justice and good, while the power wrought by Sil'dihn knowledge was horrific beyond belief─the power to rip the living soul out of a man and render him a mindless killing machine."
+            },
+            {
+                "name": "COCOBUKI",
+                "text": "On this matter, the histories are clear. But riddle me this, my friend: who writes the histories, and what does this say of the words writ within? Yes, truth can be elusive and fickle as the shifting sands..."
+            },
+            {
+                "name": "COCOBUKI",
+                "text": "As one example, did you know that in the war against Sil'dih, Ul'dahn and Amalj'aa warriors fought side by side? Likely, you did not. And neither did I, until I encountered a faded passage in an ancient text buried deep in our archives."
+            },
+            {
+                "name": "COCOBUKI",
+                "text": "And yet, in the histories read by the populace, you will see no mention of this most fascinating fact. Might it be that someone, at some time, deemed this particular truth less than convenient? Hm hm hm...? But I have said enough already..."
+            },
+            {
+                "name": "NENEKKO",
+                "text": "They say that the thief of many faces is collecting the four relics of ancient Belah'dia. Do you suppose he'd be kind enough to show them to me when he's done? Even a cursory glance at them would do wonders for my research!"
+            },
+            {
+                "name": "ERASMUS",
+                "text": "If Belah'dian civilization had flourished to this day, what wonders might have been achieved! But there is little to be gained from lamenting the past..."
+            },
+            {
+                "name": "YAYAROKU",
+                "text": "The mere thought of a nation turning its own citizens into mindless zombies. While I am loath to speak ill of the fallen, I can only conclude that the prospect of losing the war drove the Sil'dihns stark staring mad."
+            },
+            {
+                "name": "COCOBUKI",
+                "text": "Read well the histories, but never forget who it is that writes them─that is my advice to you."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "My ever-loyal associate! Tell me, what have you learned from your questioning of the scholars in these halls?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "...Indeed. As it happens, I have learned much the same. Let us take a moment to review, and allow my peerless powers of deduction to work their magic."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "A war of succession divides the great civilization of Belah'dia, giving rise to the sibling nations of Ul'dah and Sil'dih. The two nations coexist for some generations, until ill blood boils over, culminating in outright war."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Daunted by Ul'dah's superior military might, Sil'dih employs their advanced alchemical knowledge to horrific ends, transforming their own citizens─alive and dead─into a fearsome undead legion!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Yes, I believe I have it! The facts at hand have led me to one unassailable conclusion! Our phantom thief is a descendant of doomed Sil'dih, who seeks vengeance against those who reduced his countrymen to slavering zombies!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "To pacify his soul and send him peacefully to the next world, there is but one course of action! We must find the Sil'dihn statesman who conceived this dreadful stratagem, and have him apologize to the thief in person for the suffering he has wrought!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "A brilliant plan. Perhaps you'd like to go find yourself a shovel and dig this statesman out of his grave yourself?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Leaving aside this nonsense of spirits and specters, it appears increasingly likely that our quarry shares some link to Sil'dih. His garish garb is no doubt meant to evoke the silver scales of the fallen sultanate."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "This Sil'dihn connection would also serve to explain the rare knowledge of Belah'dian relics our thief clearly possesses."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "But what of the murder victims? What common thread amongst them could have incurred the ire of our adversary?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "A few people in town spoke of a man sighted calling upon the victims in the past days. Those who saw him said he had a most frightened air about him..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Wait... Yes, it's coming to me...of course! My keen investigator's senses ring out with a voice loud and clear! This man Miss Ellie speaks of...just might know something!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "You really should stop thinking so hard─you're like to strain a brain muscle. Miss Ellie, who is this man and where might we find him?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "My sources identified the man as Guguriya, a traveling merchant known to frequent Horizon. Shall we pay him a visit?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "My keen instincts tell me that Master Guguriya's testimony will be key to a monumental breakthrough in our investigation. Yes, I shall employ the ancient Manderville art of parley to skillfully extract the information we require!"
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "Y-Yes? If you've got business, make it quick. My time's too v-valuable to waste chattin' with every stranger who passes by."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Forgive us, good sir. My name is Ellie, a reporter with the <span class=\"emphasis\">Mythril Eye</span>─never blinking, all-seeing...you know the rest. I was wondering if we could trouble you with just a few questions─"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Was it for love or money that you killed them!? Yes, <span class=\"emphasis\">you</span>─the thief of many faces!"
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "Me? A thief!? Wh-What is this nonsense?"
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "I don't know who you are, but I ain't got the time or the patience for this mummery! Now if you'll excuse me, an important client awaits─"
+            },
+            {
+                "name": "DURILDA",
+                "text": "(-Refined Voice-)I thought I recognized that voice..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Lady Durilda! Well met, indeed! Pray tell, whatever brings you to these environs this fair <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">day</span></span>?"
+            },
+            {
+                "name": "DURILDA",
+                "text": "Wh-Why, I <span class=\"emphasis\">live</span> here, you ham-headed half-wit! ...I-Inspector Briardien! This is an unexpected pleasure. Do you have some business with my associate here, pray tell?"
+            },
+            {
+                "name": "DURILDA",
+                "text": "...Guguriya. We can discuss business after. Pray lend the inspector here─the <span class=\"emphasis\">handsome</span> one─whatever assistance he requires."
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "B-But, Lady Durilda! What about─"
+            },
+            {
+                "name": "DURILDA",
+                "text": "Ah, yes...my dear Maria's nameday present. I had in mind one of the prize pieces from Eshtaime's latest seasonal collection. You <span class=\"emphasis\">would</span> be able to procure one for me, yes? Or shall I eliminate the middleman and make the trip to Ul'dah myself?"
+            },
+            {
+                "name": "DURILDA",
+                "text": "I'll say it just once more, Guguriya... I expect you to give the inspector and his companions your full assistance. They─yes, even the stupid one─helped me regain something truly priceless. Yes, something more valuable than any mere trinket..."
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "All right, all right. I'll tell you what I know─but you didn't hear it from me, got it? I was lookin' into the killin' on behalf of a...client o' mine."
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "The thief's got himself some o' that zombie dust─the Traders' Spurn, was it? And his cards speak o' five victims. It got me to thinkin'─Sil'dih...five victims...aye, the Arbiters of Truth."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "The Arbiters of Truth? I'm not familiar with the name."
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "Aye, few would be─on account o' them bein' somethin' of a secret society and all. Influential personages of the sultanate, you see, workin' from the shadows to keep <span class=\"emphasis\">false knowledge</span> about the Ul'dah-Sil'dih conflict from reachin' the ears o' folk like you and me."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "False knowledge? Pray tell, just what sort of knowledge might that be?"
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "Th-Thal's balls, don't make me say no more! I-I've got a family to feed!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Very well. Just tell us one last thing: who hired you, and where can we find him?"
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "Hob! His name's Hob! When he heard what I said, he told me that he was goin' to set sail for Limsa with his five best sellswords to guard his back."
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "...Said there were many pryin' eyes at the airship docks. Said he had a private ship docked and waitin' for him at Vesper Bay. B–But remember, you didn't hear none o' this from me!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "This man Hob must be one of the killer's targets. Doubtless he also knows the identity of the remaining one."
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "I doubt that. They say the Arbiters are so secretive, they don't even know each other's true identities. Now, don't ask me how that all works, but..."
+            },
+            {
+                "name": "GUGURIYA",
+                "text": "Hob's got high-rankin' friends in the Brass Blades. Once he heard the victims had been all...zombified...he panicked. Guess he knew that he'd be next..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Thank you very much, my kind sir! Once again, the ancient Manderville art of parley has procured for us a key morsel of knowledge. Let us seek out this Hob fellow and see what he can share with us. And let us hurry─the man's life is in danger even as we speak!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "I would hear what this Hob fellow has to say. Come, my ever-loyal associate, let us away to Vesper Bay with all speed!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "M-Master Hob? Is everything quite all right?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "No! Stand back, Ellie!"
+            },
+            {
+                "name": "HOB",
+                "text": "Hunger... I hunger...for your braiiinnnsss!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Damn! There's no saving the man. <span class=\"highlight\">Forename</span>! Do what you must!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Yes, my firsthand knowledge of zombies tells me this particular shade of green is unmistakably that of the undead. 'Twould seem we were a few moments late to the scene."
+            },
+            {
+                "name": "ELLIE",
+                "text": "...A message. <span class=\"emphasis\">And then there was one...</span>"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "...There it is again."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Hmmmmmm? Is something the matter, Inspector?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Indeed, Nashu, there is. Ever since I picked up the trail of the phantom thief, I've had this fleeting sense... A sense that someone─or some<span class=\"emphasis\">thing</span>─is watching us..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "The thief might be close at hand. We should be careful..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "For the moment, let us return and report our findings to Miss Phillice. Secret society or no, knowing the identities of its members may yet lead us to the final victim."
+            },
+            {
+                "name": "ELLIE",
+                "text": "I, too, had best return to the <span class=\"emphasis\">Mythril Eye</span>. Let's meet up again after─I'll see what new clues I can uncover in the meantime."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "You will do nothing of the sort, Miss Ellie. These streets are far too dangerous for you to walk alone."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Inspector! Inspector! I'll go with her!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "If you insist, Nashu, then I give my leave. But pray be wary! Not just of the thief, but of Miss Ellie─she has quite the temper, as we both know."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Miss Ellie. There is something I must tell you when this case is over. Be safe, and promise me that you will not attempt anything rash, as you did that time when the fiend took aim at my own life."
+            },
+            {
+                "name": "ELLIE",
+                "text": "<span class=\"emphasis\">Your</span> life, Inspect─ah, at Costa del Sol! Yes, that was quite the ordeal, wasn't it?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "I'll be careful... I promise. I eagerly await the day when I may hear what it is you would share with me."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "A secret vow? Oho! Consider my interest piqued as well, good inspector! Now let us be off. Miss Phillice awaits our report!"
+            },
+            {
+                "name": "HUMPHREY",
+                "text": "Some shifty-lookin' fellow was eyein' the vaults before, but he took off faster than a fleein' cactuar soon as my gaze met his. Aye, just like I cowed many a Garlean on the plains o'─o-oh, it's you."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "The news of Hob's death will not sit well with Miss Phillice, but a gentleman must do what a gentleman must do."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "A fourth victim? Thal have mercy! Were you able to glean aught of a connection to the other victims?"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "The Arbiters of Truth...!? N-No... It cannot be..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "(-Ellie-)Somebody...help!"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "...Miss Ellie!? The voice came from the direction of the vault. We must hurry!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Miss Ellie! Are you hurt?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "That man... I only thought to ask him a few questions. Before I knew what was happening, he was upon me! I could only..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "...Bash his brains with a conveniently placed bottle of mead, it would seem. Haha, remind me not to get on your bad side, Miss Ellie! That said, is Nashu not with you?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "She saw a figure lurking in the shadows, and went off in pursuit before I could stop her."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "...This man wears the armor of a Sultansworn squire, yet his face is unfamiliar to me. Something is amiss!"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "Th-The thief of many faces!? To think we would find our man like this..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Thrice and again did the fiend elude our grasp, but no more! By virtue of a gentleman's ingenious deductions and a lady's pugilistic puissance, I declare this case closed!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "I return this sachet to you, Miss Phillice. Whilst the gesture was appreciated, in the end it proved superfluous to my cracking of the case."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "While you're at it, is there anything <span class=\"emphasis\">else</span> of immense value that you'd like to wantonly destroy?"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "Wh-What... What is the meaning of this!?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "...Ingenious. A double disguise...planted by the thief to throw us off his trail, no doubt."
+            },
+            {
+                "name": "PHILLICE",
+                "text": "This is Guigue, one of my most capable men. I assigned him to guard the vault, and outfitted him with an ample supply of demasking dust. It is inconceivable that the thief could so easily elude his grasp!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Unless...the thief was not wearing a mask?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Speaking of which, has anyone seen Miss Ellie?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "No... That's impossible..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "...Of course! It all makes perfect sense! With the phantom thief to thank for her burgeoning readership and rise through the ranks at the <span class=\"emphasis\">Mythril Eye</span>, Miss Ellie could not bear to face the possibility of her story of a lifetime coming to an end. Thus, she hatched a plan to..."
+            },
+            {
+                "name": "SOLDIER00491",
+                "text": "M-My lady! The vault has been breached! The Wiseman's Whisper...it's gone!"
+            },
+            {
+                "name": "PHILLICE",
+                "text": "For her foul crimes against the sultanate, I hereby declare Ellie of the <span class=\"emphasis\">Mythril Eye</span>─the thief of many faces─an enemy of the state. Deploy all troops and do not rest until she is in custody!"
+            },
+            {
+                "name": "HATENAJ",
+                "text": "(-???-)And <span class=\"emphasis\">now</span> the game is truly afoot..."
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "Bah! What is the meaning of all of this racket and rumpus!? And just as we were about to make our triumphant return! Isn't that so, Enkidu?"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Miss Ellie! Miss Ellllllie! That shadow you said you saw? I think it was just a dormouse!"
+            },
+            {
+                "name": "HATENAC",
+                "text": "(-???-)To think he'd literally stumble face-first onto the second mask. His good fortune truly knows no end."
+            },
+            {
+                "name": "HATENAC",
+                "text": "(-???-)But not to worry... Yes, I daresay the phantom thief has another trick or two up his sleeve..."
+            }
+        ],
+        "reward": {
+            "gil": 799,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66026
+            ]
+        },
+        "next": [
+            66028
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011677",
+            "obj": {
+                "i": 1011677,
+                "n": "Hildibrand",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011675",
+            "obj": {
+                "i": 1011675,
+                "n": "Phillice",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001294",
+            "obj": {
+                "i": 1001294,
+                "n": "Yayaroku",
+                "l": 40,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001708",
+            "obj": {
+                "i": 1001708,
+                "n": "Cocobuki",
+                "l": 40,
+                "q": 11,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003897",
+            "obj": {
+                "i": 1003897,
+                "n": "Erasmus",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011620",
+            "obj": {
+                "i": 1011620,
+                "n": "Humphrey",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011679",
+            "obj": {
+                "i": 1011679,
+                "n": "Briardien",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011681",
+            "obj": {
+                "i": 1011681,
+                "n": "Nenekko",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011682",
+            "obj": {
+                "i": 1011682,
+                "n": "Hildibrand",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011683",
+            "obj": {
+                "i": 1011683,
+                "n": "Guguriya",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011685",
+            "obj": {
+                "i": 1011685,
+                "n": "Hildibrand",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011729",
+            "obj": {
+                "i": 1011729,
+                "n": "Hildibrand",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66026",
+            "obj": {
+                "i": 66026,
+                "n": "Shades of Sil'dih",
+                "g": 68,
+                "l": "Ul'dah",
+                "s": 17,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66028",
+            "obj": {
+                "i": 66028,
+                "n": "Beneath the Mask",
+                "g": 68,
+                "l": "Ul'dah",
+                "s": 19,
+                "f": 1
+            }
+        }
+    ]
+}

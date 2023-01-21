@@ -1,0 +1,186 @@
+{
+    "quest": {
+        "name": "You Shall Not Trespass",
+        "location": "Central Shroud",
+        "id": 65912,
+        "patch": 2.0,
+        "sort": 42,
+        "eventIcon": 71201,
+        "issuer": 1000470,
+        "target": 1000748,
+        "genre": 1,
+        "journal": [
+            "Keitha, the head wrangler at Bentbranch Meadows, appears most distraught. See if there is anything you can do.",
+            "It would seem that a Qiqirn broke a chocobo egg during a robbery at Bentbranch Meadows. Find a soldier by the name of Roseline at the Matron's Lethe and learn what measures may be taken to prevent any further incidents of this kind.",
+            "Roseline would have you send a “message” to the Qiqirn. Head to the west of the Matron's Lethe and slay four Qiqirn scramblers.",
+            "You have sent the Qiqirn a bloody message. Inform Roseline that the deed is done.",
+            "Roseline thanks you for your help, stressing the necessity of your bloody deeds. She hopes that this example will dissuade Qiqirn thieves from further trespassing in locales frequented by “vengeful” adventurers."
+        ],
+        "objectives": [
+            "Speak with Roseline.",
+            "Slay Qiqirn scramblers.",
+            "Report to Roseline at the Matron's Lethe."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "TALK",
+                "text": "Seven hells! Some bastard Qiqirn has gone and broken one of me chocobo eggs!"
+            },
+            {
+                "name": "TALK",
+                "text": "The filthy little thief was busy lootin' the barn when a guard startled it, promptin' the damn thing to drop the egg it was clutchin' and run. Some of the lads gave chase, bless 'em, but when three more of the vermin appeared, me lot had no choice but to turn back."
+            },
+            {
+                "name": "TALK",
+                "text": "Somethin' has to be done about those Qiqirn...<br>Would you mind headin' over to the Matron's Lethe and havin' a word with a soldier named Roseline for me? The ratmen nest in her neck of the woods, see... She'll know what to do."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "You're here on Keitha's behalf? Hm? I see. Broke one of her eggs, you say? And there were four of the creatures?"
+            },
+            {
+                "name": "ROSELINE",
+                "text": "The Qiqirn are a nuisance at the best of times, but we must now add trespass and chocobo murder to their list of transgressions... They have forced our hand. Our retribution must needs be swift and decisive."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "And who better than you to deliver it, adventurer? Find the lair to the west of here and make an example of exactly <span class=\"emphasis\">four</span> Qiqirn scramblers. We can send no clearer message."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "The deed is done? Good. A grim task, but a necessary one."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "You have shown them the folly of inciting the wrath of those who consort with adventurers. Perhaps now the Qiqirn will think twice before giving in to their larcenous proclivities."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3016,
+                    "one": 1
+                },
+                {
+                    "id": 3015,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 3420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65712
+            ]
+        },
+        "next": [
+            65913,
+            65914
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000470",
+            "obj": {
+                "i": 1000470,
+                "n": "Keitha",
+                "l": 54,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000748",
+            "obj": {
+                "i": 1000748,
+                "n": "Roseline",
+                "l": 54,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "3016",
+            "obj": {
+                "i": 3016,
+                "n": "Leather Jacket",
+                "l": 10,
+                "c": 43026,
+                "t": 35,
+                "p": 351
+            }
+        },
+        {
+            "type": "item",
+            "id": "3015",
+            "obj": {
+                "i": 3015,
+                "n": "Amateur's Dalmatica",
+                "l": 10,
+                "c": 42017,
+                "t": 35,
+                "p": 280
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65712",
+            "obj": {
+                "i": 65712,
+                "n": "On to Bentbranch",
+                "g": 1,
+                "l": "Gridania",
+                "s": 40
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65913",
+            "obj": {
+                "i": 65913,
+                "n": "Don't Look Down",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 48
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65914",
+            "obj": {
+                "i": 65914,
+                "n": "Look, but Won't Touch",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 100
+            }
+        }
+    ]
+}

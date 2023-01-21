@@ -1,0 +1,429 @@
+{
+    "quest": {
+        "name": "Chasing Shadows",
+        "location": "Central Shroud",
+        "id": 65981,
+        "patch": 2.0,
+        "sort": 16,
+        "icon": 100064,
+        "eventIcon": 71201,
+        "issuer": 1000421,
+        "target": 1000421,
+        "genre": 1,
+        "journal": [
+            "Galfrid needs an adventurer to investigate suspicious activity in the Twelveswood.",
+            "At the Bannock, you learn that Ixali activity has been steadily increasing since the appearance of an as-yet-unknown individual in the Twelveswood. Suspecting a connection, Galfrid bids you investigate Lifemend Stump to the northeast.",
+            "Arriving at Lifemend Stump, you are met with a baffling sight: a sword has been thrust into the stump, and an Ixal lies dead nearby.",
+            "The mystery does not end there. Who were those two strange characters, and what was the scene that unfolded inside your mind's eye? The sword may well be a clue...",
+            "You have removed the sword from Lifemend Stump. Take it back to the Bannock and show it to Galfrid.",
+            "It turns out that the Hyuran lass and Lalafellin lad you encountered are friends of Gridania. Named Yda and Papalymo, respectively, the pair are scholars who are assisting the Gods' Quiver and the Wood Wailers. That revelation aside, your efforts have helped shed some light on the Ixal's recent activities. Galfrid expresses his gratitude, and asks that you continue to labor in service of Gridania and her citizens."
+        ],
+        "objectives": [
+            "Investigate Lifemend Stump.",
+            "Pull the sword from Lifemend Stump.",
+            "Deliver the sword to Galfrid."
+        ],
+        "dialogue": [
+            {
+                "name": "GALFRID",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. By your tireless efforts, you have proven yourself a friend to Gridania. I believe you can be trusted with sensitive intelligence."
+            },
+            {
+                "name": "GALFRID",
+                "text": "I would assign you a mission of considerable import, yet the need for secrecy prevents me from disclosing its details until you have pledged your participation. I am authorized to tell you only that it concerns suspicious activity in the Twelveswood. Say that you will lend us your aid, and I shall proceed with the briefing."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Good. Time is of the essence, so listen well."
+            },
+            {
+                "name": "GALFRID",
+                "text": "You will by now have heard that a suspicious individual has been seen prowling the Twelveswood."
+            },
+            {
+                "name": "GALFRID",
+                "text": "And you may also be aware that Ixali activity has risen sharply in the region of late. What you may <span class=\"emphasis\">not</span> know is that this increase coincided almost exactly with the first recorded sighting of the aforementioned individual."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Suspecting a connection, we tightened our surveillance in hopes of tracking down our unknown visitor. Alas, our quarry is proving to be <span class=\"emphasis\">exceedingly</span> elusive─almost as if he knows our movements ahead of time."
+            },
+            {
+                "name": "GALFRID",
+                "text": "But where whole units have failed, a lone adventurer may yet succeed. Acting independently and covertly, you may be able to close in on our quarry unnoticed."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Fear and anxiety are beginning to take their toll upon the citizenry, <span class=\"highlight\">Forename</span>. For their sake, I ask that you aid us in this investigation."
+            },
+            {
+                "name": "GALFRID",
+                "text": "You have my gratitude. With your help, I am hopeful we will shed light upon this mystery."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Begin your search at Lifemend Stump. It is there that the majority of the sightings took place."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Be forewarned: my people cannot offer you support, lest our quarry catch scent of our presence and evade us yet again. Proceed with caution."
+            },
+            {
+                "name": "Q1",
+                "text": "Duty calls. Do you wish to proceed with<br>“Chasing Shadows”?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You are about to enter an instanced battle. Instanced battles only occur during certain quests and missions."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Take a moment to read the information displayed in the active help window before answering the call of duty."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Defeat the frenzied creatures!"
+            },
+            {
+                "name": "YDA",
+                "text": "(-???-)Look! Someone's already here!"
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)Oh dear. Is that a sword in the stump? Bad idea. Really bad idea..."
+            },
+            {
+                "name": "YDA",
+                "text": "It takes a lot less than that to incite the greenwrath, you know. Why, the first time we came to the Twelveswood, we almost ended up as a treant's dinner just for crashing our airship in the wrong place. It was all Papalymo's fault, of course. Though he'd sooner swallow his staff than admit that he's wrong."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Is this our dark stranger?"
+            },
+            {
+                "name": "KUPLOKOPP",
+                "text": "(-Moogle-)No, no, not this one. Not even close, kupo!"
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)Hm? You know <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>, Kuplo Kopp?"
+            },
+            {
+                "name": "KUPLOKOPP",
+                "text": "(-Kuplo Kopp-)Well, not exactly, but we did once share a carriage. Isn't that right?"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Is this our dark stranger?"
+            },
+            {
+                "name": "KUPLOKOPP",
+                "text": "(-Moogle-)Of course not! <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span>'s not a stranger at all!<br>At least I don't think <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> is..."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Ah, now that you mention it, there <span class=\"emphasis\">is</span> something familiar about <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>..."
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)Hey, you're right! This feels more like a reunion than a first meeting."
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)So, um...when did we first meet again?"
+            },
+            {
+                "name": "KUPLOKOPP",
+                "text": "(-Moogle-)I...don't recall exactly. But I do remember <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> being a good person."
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)How are the readings?"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Same as the last. There is a disturbance here as well, and newly manifested at that."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Kuplo Kopp seems convinced of your innocence. But if this isn't your doing, whose is it?"
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)Ever since the Calamity, the forest's been really sensitive."
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)The slightest disruption to the aetheric flow..."
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)And this sort of thing happens!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)It seems we have little choice..."
+            },
+            {
+                "name": "YDA",
+                "text": "&lt;huff&gt; &lt;puff&gt;"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "&lt;huff&gt; &lt;puff&gt;"
+            },
+            {
+                "name": "MOTHERCRYSTAL",
+                "text": "Hear... Feel... Think..."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Crystal bearer..."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "I am Hydaelyn. All made one."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "A Light there once was that shone throughout this realm...yet it hath since grown dim."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "And as it hath faltered, so hath Darkness risen up in its stead, presaging an end to Life."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "For the sake of all, I beseech thee: deliver us from this fate!"
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "The power to banish the Darkness dwelleth in the Crystals of Light. Journey forth and lay claim to them."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "By thy deeds shall the Crystals reveal themselves to thee."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Only believe, for the Light liveth in thy heart."
+            },
+            {
+                "name": "HYDAELYN",
+                "text": "Go now, my child, and shine thy Light on all creation."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)You fainted. A surfeit of aether, no doubt."
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)Hm? And what have we here?"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Our culprit, it would seem. An Ixal. And no ordinary Ixal, either─a chieftain."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)That they would venture this deep into enemy territory... The beastmen may indeed be acting under orders."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "This is Papalymo. We've found the culprit─it was an Ixali chieftain. Yes, we'll seek Brother E-Sumi-Yan's cooperation in the matter. Yda? Oh, loud, tactless─much the same as always."
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)How are we feeling, then? Better? Good!"
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)Giant crystals? Can't say I've seen any... Are you <span class=\"emphasis\">sure</span> you're feeling better?"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)...Understood. Over and out."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Kuplo Kopp. Please bear word of these developments to Brother E–Sumi–Yan. We shall soon return to give a full report."
+            },
+            {
+                "name": "KUPLOKOPP",
+                "text": "(-Kuplo Kopp-)Understood! Over and out, kupo!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Here is where we part ways. Till next time, take care!"
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)I think that sword might be a clue! You should definitely pull it out and take it back to the Bannock!"
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)You don't suppose that adventurer could see Kuplo Kopp, do you!?"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)And this occurs to you NOW!?"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Yes. It <span class=\"emphasis\">seemed</span> that way. Time will tell..."
+            },
+            {
+                "name": "YDA",
+                "text": "(-Animated Pugilist-)Well, time will have to, because you won't! You never tell me what's really going on! Unless...you don't know what's going on either!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "(-Short-tempered Thaumaturge-)Bah! You'd like that, wouldn't you!?"
+            },
+            {
+                "name": "GALFRID",
+                "text": "<span class=\"highlight\">Forename</span>! It is good to see you back!"
+            },
+            {
+                "name": "GALFRID",
+                "text": "One of our patrols sent word that you had been spotted doing battle with enraged treants. I am relieved to find you none the worse for the experience."
+            },
+            {
+                "name": "GALFRID",
+                "text": "But tell me, what were you able to discover at Lifemend Stump?"
+            },
+            {
+                "name": "GALFRID",
+                "text": "A sword in the stump, and a dead Ixal? Hmmm..."
+            },
+            {
+                "name": "GALFRID",
+                "text": "I can say with absolute certainty that this blade is of Ixali origin. It is of a kind used exclusively in the beastmen's rituals."
+            },
+            {
+                "name": "GALFRID",
+                "text": "The Ixal rarely set foot in the Central Shroud, so tight is our guard over the area. What purpose could have driven them to take such a risk? I fear something is afoot..."
+            },
+            {
+                "name": "GALFRID",
+                "text": "What's that? A dubious couple sporting peculiar spectacles? Hah hah hah!"
+            },
+            {
+                "name": "GALFRID",
+                "text": "So you have finally been acquainted with Yda and Papalymo! Lay your suspicions to rest─Gridania counts them among her staunchest allies. Both are scholars hailing from a distant land, and have been with us since before the Calamity."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Their garb may appear outlandish, and their exchanges baffling, but never once have they given us cause to doubt them."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Indeed, they often assist the Gods' Quiver and the Wood Wailers in their work─much as I hope you will in the days to come, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "GALFRID",
+                "text": "Although our unknown visitor eludes us still, owing to your efforts, we have acquired important intelligence on the Ixali threat. You have my gratitude."
+            },
+            {
+                "name": "GALFRID",
+                "text": "We are fortunate indeed to have a capable adventurer such as you aiding us. I pray you will continue to serve the people of Gridania in whatever capacity you are able."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Do you want to get eaten!? Hit them harder!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "If you value your life, stay <span class=\"emphasis\">close</span>!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Well done! We're almost there!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Are you all right!?"
+            },
+            {
+                "name": "YDA",
+                "text": "I'm trying, I'm trying!"
+            },
+            {
+                "name": "YDA",
+                "text": "There's more! Be careful!"
+            }
+        ],
+        "reward": {
+            "gil": 132,
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 5,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65737
+            ]
+        },
+        "next": [
+            65732,
+            69390
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000421",
+            "obj": {
+                "i": 1000421,
+                "n": "Galfrid",
+                "l": 54,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65737",
+            "obj": {
+                "i": 65737,
+                "n": "Passing Muster",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 15
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65732",
+            "obj": {
+                "i": 65732,
+                "n": "An Eft for Effort",
+                "g": 0,
+                "l": "Central Shroud",
+                "s": 21
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69390",
+            "obj": {
+                "i": 69390,
+                "n": "Eggs over Queasy",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 24
+            }
+        }
+    ]
+}

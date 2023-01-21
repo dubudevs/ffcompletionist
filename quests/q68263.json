@@ -1,0 +1,116 @@
+{
+    "quest": {
+        "name": "Gone Fishing",
+        "location": "Yanxia",
+        "id": 68263,
+        "patch": 4.0,
+        "sort": 4100,
+        "eventIcon": 71221,
+        "issuer": 1019295,
+        "target": 1019313,
+        "genre": 109,
+        "journal": [
+            "Sentei has more work if you are willing."
+        ],
+        "objectives": [
+            "Obtain firewood.",
+            "Obtain a tasty trout from Sentei's net.",
+            "Deliver firewood and a tasty trout to Kohagi."
+        ],
+        "dialogue": [
+            {
+                "name": "SENTEI",
+                "text": "Hello again, kind traveler. If you are up to it, there is something else I would like to ask of you."
+            },
+            {
+                "name": "SENTEI",
+                "text": "I need the firewood you see behind me delivered to my wife, Kohagi, in Namai."
+            },
+            {
+                "name": "SENTEI",
+                "text": "I also need you to check if the net I placed in the nearby stream caught any fish. If it did, pray take the spoils to Kohagi as well."
+            },
+            {
+                "name": "SENTEI",
+                "text": "Please deliver this firewood and any fish my net may have caught to my wife in Namai."
+            },
+            {
+                "name": "KOHAGI",
+                "text": "Oh, hello there. Have we met before?"
+            },
+            {
+                "name": "KOHAGI",
+                "text": "Ah, my husband asked you to bring me these? Thank you for your kindness."
+            },
+            {
+                "name": "KOHAGI",
+                "text": "I shall exchange the firewood and trout for rice. Our family does not own a paddy, so we put rice on our table by trading with those in Namai who do."
+            },
+            {
+                "name": "KOHAGI",
+                "text": "We must be thankful for the spring water that flows from the heart of the Gensui Chain. Without the life it sustains, we would have nothing to trade, and no way of feeding ourselves."
+            }
+        ],
+        "reward": {
+            "gil": 574,
+            "xp": 99900
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 64,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                68030,
+                68262
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1019295",
+            "obj": {
+                "i": 1019295,
+                "n": "Sentei",
+                "l": 2410,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019313",
+            "obj": {
+                "i": 1019313,
+                "n": "Kohagi",
+                "l": 2410,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68030",
+            "obj": {
+                "i": 68030,
+                "n": "The Ones We Leave Behind",
+                "g": 6,
+                "l": "Yanxia",
+                "s": 500
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68262",
+            "obj": {
+                "i": 68262,
+                "n": "Not Safe for Children",
+                "g": 109,
+                "l": "Yanxia",
+                "s": 4090
+            }
+        }
+    ]
+}

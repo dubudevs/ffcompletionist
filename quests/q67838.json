@@ -1,0 +1,200 @@
+{
+    "quest": {
+        "name": "For Moogles in Peril",
+        "location": "The Churning Mists",
+        "id": 67838,
+        "patch": 3.3,
+        "sort": 21,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 8,
+        "eventIcon": 71222,
+        "issuer": 1017171,
+        "target": 1017171,
+        "involved": [
+            1017393,
+            1017396,
+            1017399,
+            1017470
+        ],
+        "genre": 49,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Mogek is beside himself with panic.",
+            "Mogek tells you that the minions of Nidhogg have been harassing the Mogmenders. He asks you to seek the aid of Whei Ahf to fend them off, positive the wyvern's mighty roar will deter any would-be assailants.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "You seek to entreat Whei Ahf but find a young dragonling in his stead. After hearing of the moogles' plight, however, he immediately calls for him that you might do away with their attackers. Journey together with Whei Ahf to the Landlord Colony and save the Mogmenders.<br><br>※Speak with the dextrous dragonet in Bahrr Lehs to mount Whei Ahf.",
+            "No sooner do you arrive than you spot a moogle cowering before a pair of drakes. An angry bellow from Whei Ahf is all it takes to send them running. The Mogmender thanks you profusely and soon after retreats, most likely back to Bahrr Lehs. Whei Ahf implores you to continue your search for troubled moogles.",
+            "To the east you find a young moogle beset by vicious peistes, but they are soon scattered by another terrible cry from Whei Ahf. The moogle seems surprised to find himself in one piece and flees before that is no longer the case. Your dragon companion still senses danger nearby, and so you press on.",
+            "Heading south you spot a moogle confronted by a trio of tyrannosaurs. Though seemingly emboldened by their numbers, the beasts cower and fall back in the presence of Whei Ahf. No longer sensing any danger in the area, he suggests returning to Bahrr Lehs and informing Mogek that the dragon threat is no more.",
+            "Mogek is overjoyed to see you return, assuring you that all the Mogmenders are accounted for. Should dragons or their followers return, the Mogmenders' marvelous manager knows who to turn to for help."
+        ],
+        "objectives": [
+            "Speak with the dextrous dragonet.",
+            "Ride Whei Ahf and use his Roar ability at the designated location.",
+            "Report to Mogek the Marvelous."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGEK",
+                "text": "Oh, <span class=\"highlight\">Forename</span>! It's horrible! Nidhogg's minions are harassing the Mogmenders again, kupo!"
+            },
+            {
+                "name": "MOGEK",
+                "text": "You have done us a great kindness in the past, staving off our enemies, but now they assail us at every opportunity and work is at a standstill."
+            },
+            {
+                "name": "MOGEK",
+                "text": "I say we fight fire with fire, or in this case, dragons with dragons, kupo! If we beseech the aid of Whei Ahf I'm sure he will help us. No doubt you'll need to speak with his dragonling companion first. Time is of the essence, friend. Please hurry!"
+            },
+            {
+                "name": "WYVERNRECEPTION02302",
+                "text": "Well come, <span class=\"alternative-container\"><span class=\"alternative\">daughter</span><span class=\"alternative\">son</span></span> of man. What business brings you here?"
+            },
+            {
+                "name": "WYVERNRECEPTION02302",
+                "text": "The Mogmenders are under attack? Then I shall summon Whei Ahf immediately."
+            },
+            {
+                "name": "WYVERNRECEPTION02302",
+                "text": "Nidhogg's brood still harry the moogles? You need say no more."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Minions of Nidhogg have the moogle cornered and could strike at any moment. Perhaps the mighty bellow of Whei Ahf could drive these beasts away."
+            },
+            {
+                "name": "ATTACKEDMOOGLEA02302",
+                "text": "Kupopopo! Please, someone save me!"
+            },
+            {
+                "name": "ATTACKEDMOOGLEA02302",
+                "text": "Phew. For a moment there I thought my pom was popped, kupo! Thank you."
+            },
+            {
+                "name": "ATTACKEDMOOGLEA02302",
+                "text": "(-Whei Ahf-)Our work here is finished. Come, let us search for others who may be in danger."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The enemies flee in terror before the might of Whei Ahf!"
+            },
+            {
+                "name": "ATTACKEDMOOGLEB02302",
+                "text": "Please, no! Stay away!"
+            },
+            {
+                "name": "ATTACKEDMOOGLEB02302",
+                "text": "I'm...I'm alive? I'm alive, kupo! Now to make sure I stay that way!"
+            },
+            {
+                "name": "ATTACKEDMOOGLEB02302",
+                "text": "(-Whei Ahf-)It is most fortunate he was unharmed, but I sense there are yet moogles to be saved."
+            },
+            {
+                "name": "ATTACKEDMOOGLEC02302",
+                "text": "But I have so much left to live for! So many kupo nuts left to eat!"
+            },
+            {
+                "name": "ATTACKEDMOOGLEC02302",
+                "text": "Oh, thank goodness. I think I need to lie down, kupo."
+            },
+            {
+                "name": "ATTACKEDMOOGLEC02302",
+                "text": "(-Whei Ahf-)Hmmm... I no longer sense minions of the brood in the vicinity. Let us return to Bahrr Lehs."
+            },
+            {
+                "name": "MOGEK",
+                "text": "The mighty hero returns, kupo! You'll be happy to know all of the Mogmenders are accounted for. They're a bit shaken, but nothing a good day's rest cannot fix."
+            },
+            {
+                "name": "MOGEK",
+                "text": "I should hope the brood will not return, but if they do, you can be sure we will call on you and Whei Ahf once more."
+            }
+        ],
+        "reward": {
+            "gil": 472,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 20,
+                    "id": 8
+                },
+                {
+                    "num": 3,
+                    "id": 21080
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 33
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1017171",
+            "obj": {
+                "i": 1017171,
+                "n": "Mogek The Marvelous",
+                "l": 2002,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017393",
+            "obj": {
+                "i": 1017393,
+                "n": "Timorous Moogle",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017396",
+            "obj": {
+                "i": 1017396,
+                "n": "Timorous Moogle",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017399",
+            "obj": {
+                "i": 1017399,
+                "n": "Timorous Moogle",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017470",
+            "obj": {
+                "i": 1017470,
+                "n": "Dextrous Dragonet",
+                "l": 2002,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "21080",
+            "obj": {
+                "i": 21080,
+                "n": "Carved Kupo Nut",
+                "l": 1,
+                "c": 65057,
+                "t": 100
+            }
+        }
+    ]
+}

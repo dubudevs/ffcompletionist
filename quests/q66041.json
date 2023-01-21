@@ -1,0 +1,87 @@
+{
+    "quest": {
+        "name": "Angling Ankle-biters",
+        "location": "Western Thanalan",
+        "id": 66041,
+        "patch": 2.0,
+        "sort": 130,
+        "eventIcon": 71221,
+        "issuer": 1002066,
+        "target": 1002066,
+        "genre": 93,
+        "journal": [
+            "Totoruna would like you to cull orobon in the Footfalls.",
+            "Totoruna has asked you to slay six of the orobon infesting the waters of the Footfalls. Seek out the unlovely creatures and put them to death.",
+            "You mercilessly slaughter six of the slimy beasts. Tell Totoruna your work is complete.",
+            "Though the orobon pose no real threat, Totoruna is glad to be rid of the beasts. Should a thaumaturge suffer even a minor injury, the consequences for the Brass Blades would be most dire."
+        ],
+        "objectives": [
+            "Slay orobon.",
+            "Report to Totoruna."
+        ],
+        "dialogue": [
+            {
+                "name": "TOTORUNA",
+                "text": "Since yer here, might as well make yerself useful."
+            },
+            {
+                "name": "TOTORUNA",
+                "text": "The orobon swimmin' around the site are disruptin' the thaumaturges' work, which means we've got to slaughter the lot of 'em."
+            },
+            {
+                "name": "TOTORUNA",
+                "text": "Ye can help us out by cullin' six of the beasts. Let me know when ye've finished."
+            },
+            {
+                "name": "TOTORUNA",
+                "text": "Much obliged, 'venturer. That's six fewer orobon to pester our guests."
+            },
+            {
+                "name": "TOTORUNA",
+                "text": "Truth be told, the thaumaturges could've brought their own escort from the city. But seein' as they wanted to take a gander at ruins this close to Horizon, the officers reckoned we'd be held responsible for any incidents regardless. So here we are."
+            },
+            {
+                "name": "TOTORUNA",
+                "text": "It ain't that much work, but we've still got to stay on guard. If an orobon so much as nibbles on one of their toes, we're liable to lose all of ours."
+            }
+        ],
+        "reward": {
+            "gil": 212,
+            "xp": 3080
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65868
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002066",
+            "obj": {
+                "i": 1002066,
+                "n": "Totoruna",
+                "l": 42,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65868",
+            "obj": {
+                "i": 65868,
+                "n": "Passing the Blade",
+                "g": 1,
+                "l": "Central Thanalan",
+                "s": 61
+            }
+        }
+    ]
+}

@@ -1,0 +1,220 @@
+{
+    "quest": {
+        "name": "Mogmug's Trial",
+        "location": "The Churning Mists",
+        "id": 67157,
+        "patch": 3.0,
+        "sort": 42,
+        "eventIcon": 71201,
+        "issuer": 1012080,
+        "target": 1012080,
+        "genre": 3,
+        "journal": [
+            "Mogmug would test your trustworthiness with a trial.",
+            "You speak with Mogmug, one of the three trial-givers named by Moglin, and the preening moogle bids you beat some manners into his overeager Dravanian “admirers.” Head out to Eil Tohm, and defeat the archaeosaurs.",
+            "You track down the archaeosaurs, and administer a tough lesson on personal boundaries. Return to Moghome and report to Mogmug.",
+            "Mogmug thanks you for your efforts in educating the Dravanians, but continues to lament his adorable appearance. From his description of the archaeosaurs' pursuit, however, it would seem their interest in Mogmug was more gastronomical than aesthetic..."
+        ],
+        "objectives": [
+            "Defeat archaeosaurs.",
+            "Report to Mogmug."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGMUG",
+                "text": "Hm? Yes, you have the pleasure of speaking with Mogmug. I know, I know, I am the fluffiest, most enchanting creature you have ever laid eyes upon, kupo."
+            },
+            {
+                "name": "MOGMUG",
+                "text": "It isn't easy being this adorable! I can barely take a stroll outside without those relentless Dravanians throwing themselves at me... Why, they look as if they might just gobble me right up!"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "In any case, fleeing their overbearing adulation is growing a bit tiresome. Your trial, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>, is this: find these ardent archaeosaurs, and slap some manners into them, kupo."
+            },
+            {
+                "name": "MOGMUG",
+                "text": "Perhaps a firm smack on the snout will teach them to appreciate my charm from afar!"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "Those archaeosaurs need a good trouncing, I say! It's the only way they'll learn to respect my boundaries."
+            },
+            {
+                "name": "MOGMUG",
+                "text": "I do appreciate my admirers, but enough is enough, kupo!"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "You were able to humble my Dravanian devotees? Wonderful! You are as capable as I am captivating, kupo!"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "Still, my precious perfection does not excuse those louts from pursuing me so mercilessly, their tongues lolling and bellies rumbling!"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "The Dravanians and their ilk have much to learn about acceptable acts of admiration!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have completed the Trials of Trustworthiness. Return to Chieftain Moglin and await his judgment."
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "items": [
+                {
+                    "id": 10612,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10630,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10642,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10648,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                }
+            ],
+            "xp": 62400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 54,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67155
+            ]
+        },
+        "next": [
+            67159,
+            67356
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012080",
+            "obj": {
+                "i": 1012080,
+                "n": "Mogmug",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10612",
+            "obj": {
+                "i": 10612,
+                "n": "Dark Chestnut Longbow",
+                "l": 133,
+                "c": 32300,
+                "t": 4,
+                "p": 30332
+            }
+        },
+        {
+            "type": "item",
+            "id": "10630",
+            "obj": {
+                "i": 10630,
+                "n": "Titanium-barreled Arquebus",
+                "l": 133,
+                "c": 34617,
+                "t": 88,
+                "p": 27383
+            }
+        },
+        {
+            "type": "item",
+            "id": "10642",
+            "obj": {
+                "i": 10642,
+                "n": "Hardsilver Staff",
+                "l": 133,
+                "c": 33034,
+                "t": 7,
+                "p": 27383
+            }
+        },
+        {
+            "type": "item",
+            "id": "10648",
+            "obj": {
+                "i": 10648,
+                "n": "Dhalmelskin Grimoire",
+                "l": 133,
+                "c": 33500,
+                "t": 10,
+                "p": 28225
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67155",
+            "obj": {
+                "i": 67155,
+                "n": "Mountaintop Diplomacy",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 40
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67159",
+            "obj": {
+                "i": 67159,
+                "n": "Moglin's Judgment",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 44
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67356",
+            "obj": {
+                "i": 67356,
+                "n": "A Show of Devotion",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5402
+            }
+        }
+    ]
+}

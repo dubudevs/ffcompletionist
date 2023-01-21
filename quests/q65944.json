@@ -1,0 +1,187 @@
+{
+    "quest": {
+        "name": "What Counts",
+        "location": "Lower La Noscea",
+        "id": 65944,
+        "patch": 2.0,
+        "sort": 120,
+        "eventIcon": 71221,
+        "issuer": 1002232,
+        "target": 1002232,
+        "involved": [
+            1002234,
+            1002235
+        ],
+        "genre": 91,
+        "journal": [
+            "Moraby Drydocks yardmaster Yulgi Honalgi seeks someone to aid his crew in taking inventory.",
+            "Yulgi Honalgi needs help taking inventory of the shipyard lumber. Speak with Razyn Mylzyn and Ruimo Falaimo and record their tally numbers, and perform an accurate count of both the remaining quarterdeck logs and forecastle planks.",
+            "You have recorded all the necessary information. Now report the numbers to Yulgi Honalgi.",
+            "While disappointed, Yulgi Honalgi does not seem surprised at his dwindling supplies. Though five years have passed since the events of the Calamity, many of the wounds suffered at that time have yet to fully heal."
+        ],
+        "objectives": [
+            "Speak with Razyn Mylzyn.",
+            "Speak with Ruimo Falaimo.",
+            "Count the remaining forecastle planks.",
+            "Count the remaining quarterdeck logs.",
+            "Return to Yulgi Honalgi with the results."
+        ],
+        "dialogue": [
+            {
+                "name": "YULGIHONALGI",
+                "text": "I'm lookin' fer a strappin' young adventurer good with <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> numbers to help tally our remainin' supply o' planks and logs...but I suppose ye'll have to do."
+            },
+            {
+                "name": "YULGIHONALGI",
+                "text": "Now that work on the <span class=\"emphasis\">Victory</span> is nearin' completion, I need one final count on the lumber we have, so I can determine if we'll need more."
+            },
+            {
+                "name": "YULGIHONALGI",
+                "text": "I already have Razyn Mylzyn and Ruimo Falaimo started on the tally, so speak with them and see what they've found. Then bring me back the <span class=\"emphasis\">exact</span> number o' quarterdeck logs and forecastle planks remaining on-site. Understood?"
+            },
+            {
+                "name": "RAZYNMOLZYN",
+                "text": "Just finished me count o' the cedar masts, and the yardmaster ain't going to like what I have to tell him. What? Ye'll tell him for me? Well, be me guest then, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>!"
+            },
+            {
+                "name": "RAZYNMOLZYN",
+                "text": "The <span class=\"emphasis\">Victory</span>, bein' as big as she is, will be outfitted with three full-sized masts, and two smaller masts. Each mast'll have its own set o' four to five spars, or crossmasts, from which the sails hang. One need not be a scholarly from Mealvaan's Gate to know that's a whole hell's worth o' lumber."
+            },
+            {
+                "name": "RAZYNMOLZYN",
+                "text": "And so, just how many mast-worthy logs did I count here? Four. Not four hundred, not four score, not even four<span class=\"emphasis\">teen</span>. One, two, three, four. And you can take that to the yardmaster...but don't say I didn't warn ye."
+            },
+            {
+                "name": "RUIMOFALAIMO",
+                "text": "Two hundred oak berthing planks. Not one more, not one less. I counted 'em twice, and then I counted 'em thrice more, jus' fer good measure."
+            },
+            {
+                "name": "RUIMOFALAIMO",
+                "text": "We may be in trouble, though, if them shipwrights need any more than what ye see before ye."
+            },
+            {
+                "name": "RUIMOFALAIMO",
+                "text": "The fires of the Calamity claimed most o' the trees in ol' Oakwood. And what o' those that remained, ye ask? Why, we chopped down the rest to help build the <span class=\"emphasis\">Victory</span>."
+            },
+            {
+                "name": "YULGIHONALGI",
+                "text": "I trust ye had enough fingers to help ye through the tallyin'. So, tell me now. What did ye find?"
+            },
+            {
+                "name": "YULGIHONALGI",
+                "text": "Hm... Those be grim numbers, indeed. The Calamity may be jus' a fadin' memory, but it seems we're still far from truly healin'."
+            },
+            {
+                "name": "YULGIHONALGI",
+                "text": "As a salt-blooded Lominsan, it pains me to say it, but we may have to turn to them treefolk in Gridania if we're to finish the <span class=\"emphasis\">Victory</span> on time..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3017,
+                    "one": 1
+                },
+                {
+                    "id": 3018,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 2625
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65945
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002232",
+            "obj": {
+                "i": 1002232,
+                "n": "Yulgi Honalgi",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002234",
+            "obj": {
+                "i": 1002234,
+                "n": "Razyn Mylzyn",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002235",
+            "obj": {
+                "i": 1002235,
+                "n": "Ruimo Falaimo",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3017",
+            "obj": {
+                "i": 3017,
+                "n": "Hard Leather Harness",
+                "l": 12,
+                "c": 43134,
+                "t": 35,
+                "p": 436
+            }
+        },
+        {
+            "type": "item",
+            "id": "3018",
+            "obj": {
+                "i": 3018,
+                "n": "Hempen Robe",
+                "l": 12,
+                "c": 42044,
+                "t": 35,
+                "p": 349
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65945",
+            "obj": {
+                "i": 65945,
+                "n": "Failure to Lunch",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 120
+            }
+        }
+    ]
+}

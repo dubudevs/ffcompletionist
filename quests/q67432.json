@@ -1,0 +1,100 @@
+{
+    "quest": {
+        "name": "Supply Lines",
+        "location": "Coerthas Western Highlands",
+        "id": 67432,
+        "patch": 3.0,
+        "sort": 5607,
+        "eventIcon": 71221,
+        "issuer": 1011910,
+        "target": 1011910,
+        "genre": 94,
+        "journal": [
+            "Luciae is looking for assistance in securing the Convictory's supply lines.",
+            "Luciae is waiting for supplies from Ishgard, but a nearby nest of archaeornis is waylaying any caravan that attempts the journey. Thin the brood's numbers by slaying at least three grand archaeornis so that the goods can be transported safely.",
+            "You have slain three of the grandest archaeornis that you could find, hopefully reducing their numbers enough for any caravans to pass by unmolested. Report to Luciae with the good news.",
+            "You inform Luciae of your success. Glad that the route is no longer at risk of attack, she sets about convincing the Ishgardian merchants of its safety."
+        ],
+        "objectives": [
+            "Slay grand archaeornis.",
+            "Report to Luciae."
+        ],
+        "dialogue": [
+            {
+                "name": "LUCIAE",
+                "text": "Ah, perfect timing! I was just looking for a reliable hand."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "I was expecting a delivery from the Holy See, but it never arrived. It seems a nearby nest of archaeornis has been attacking the caravans, stopping them from getting here."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "The merchants aren't fool enough to send their goods unguarded, but their mercenary escorts can't handle an entire brood of dragons. If you were to slay three of the beasts, though, that should thin their numbers enough that they'd no longer pose a serious threat."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "We can't last much longer without those supplies. Please slay those archaeornis."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "Thank you for taking care of those horrid beasts. Caravans should now be able to make their way here unmolested."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "All that's left is the matter of convincing those cowardly merchants that the path is safe. Don't worry, though─I should be able to handle that much myself."
+            }
+        ],
+        "reward": {
+            "gil": 558,
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67409
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011910",
+            "obj": {
+                "i": 1011910,
+                "n": "Luciae",
+                "l": 2200,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67409",
+            "obj": {
+                "i": 67409,
+                "n": "Enlisted",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5602
+            }
+        }
+    ]
+}

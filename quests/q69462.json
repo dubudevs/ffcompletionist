@@ -1,0 +1,106 @@
+{
+    "quest": {
+        "name": "Not for Drinking",
+        "location": "Lakeland",
+        "id": 69462,
+        "patch": 5.3,
+        "sort": 125,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 14,
+        "eventIcon": 71222,
+        "issuer": 1033712,
+        "target": 1033712,
+        "genre": 61,
+        "journal": [
+            "Regitt is looking for someone reliable to run a little errand.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Pay the pouch of grog money to the sundries supplier in Sullen.",
+            "Deliver the sealed ale cask to Regitt."
+        ],
+        "dialogue": [
+            {
+                "name": "REGITT",
+                "text": "Ozogg's ethanol will keep our tanks rolling well enough for the time being, but even she agrees that the future holds room for improvement. We reckon the answer might lie in the techniques used for brewing grog, which we can adapt to create new types of fuel."
+            },
+            {
+                "name": "REGITT",
+                "text": "To that end, we've decided to research as many regional brews as we can get our hands on. Any one of these fermented delights could hold the key to producing an alternative that's safe, cheap, and easy to make."
+            },
+            {
+                "name": "REGITT",
+                "text": "...You're likely wondering what <span class=\"emphasis\">your</span> role is in all this. Well, it's a simple one this time: I give you the coin, and you buy the grog."
+            },
+            {
+                "name": "REGITT",
+                "text": "I know, I know, you're more than just an errand <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>, but believe me─you're the only one I can trust with this job. Anyway, off to Sullen with you. Should be a bloke there waiting with our order. "
+            },
+            {
+                "name": "MERCHANT03926",
+                "text": "...The cask for Master Regitt? Yes, yes, I have it ready right here. If I might trouble you for the payment...?"
+            },
+            {
+                "name": "MERCHANT03926",
+                "text": "Thank you, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>, and remember: lift with your legs, not with your back. I bid you good day."
+            },
+            {
+                "name": "REGITT",
+                "text": "Back with that cask already? No, uh, “trouble” on the road, then?"
+            },
+            {
+                "name": "REGITT",
+                "text": "...It's still sealed! I mean, of course it is! I knew I could count on you!"
+            },
+            {
+                "name": "REGITT",
+                "text": "If I'd sent a Tholl to buy that grog, you could bet your grandmother's boots he'd have to stop somewhere and “sample the merchandise.” That's why I had to ask you instead."
+            },
+            {
+                "name": "REGITT",
+                "text": "Speaking of sampling, I should probably take a little sip myself. You know, just to make sure it's─ No! This is for research! Ahem, you can go now, <span class=\"highlight\">Forename</span>!"
+            }
+        ],
+        "reward": {
+            "gil": 606,
+            "reputation": 60,
+            "items": [
+                {
+                    "id": 28188
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 33
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1033712",
+            "obj": {
+                "i": 1033712,
+                "n": "Regitt",
+                "l": 2953,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "28188",
+            "obj": {
+                "i": 28188,
+                "n": "Hammered Frogment",
+                "l": 1,
+                "c": 65080,
+                "t": 100
+            }
+        }
+    ]
+}

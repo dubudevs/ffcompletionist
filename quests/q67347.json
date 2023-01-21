@@ -1,0 +1,121 @@
+{
+    "quest": {
+        "name": "Blunders in Dragonsitting",
+        "location": "The Dravanian Forelands",
+        "id": 67347,
+        "patch": 3.0,
+        "sort": 5321,
+        "eventIcon": 71221,
+        "issuer": 1013417,
+        "target": 1013417,
+        "involved": [
+            1013418
+        ],
+        "genre": 98,
+        "journal": [
+            "This indomitable wyvern is beside himself with panic over something lost.",
+            "Although hesitant at first, the indomitable wyvern admits to the cause for his distress: his younger brother has gone missing. He cannot say for certain, but he believes his sibling may be lost somewhere in Mourn. Search the cavern of Mourn for the missing dragon youngling.",
+            "You find the dragon youngling safe and sound, rousing from sleep. His mind still fuzzy from slumber, he regards you with indifference bordering on distaste. One mention of his brother, however, quickly sends him flying toward the exit. Head back to the indomitable wyvern and see if his younger brother has returned safely.",
+            "You exit the cave to find the indomitable wyvern in the company of his younger brother. He thanks you and looks down to his little brother, hoping the young dragon will also pay respects. You are offered only silence as he flies off without saying a word. The indomitable wyvern quickly apologizes, promising his brother will be dealt with in short order."
+        ],
+        "objectives": [
+            "Search Mourn for the landbound dragonling.",
+            "Return to the indomitable wyvern."
+        ],
+        "dialogue": [
+            {
+                "name": "OLDERBROTHERWYVERN01811",
+                "text": "A man!? Erm...will you help me? My sibling has disappeared without a trace."
+            },
+            {
+                "name": "OLDERBROTHERWYVERN01811",
+                "text": "He is still young, and inclined to wander. Please find him before he meets with trouble. I suspect he is lost in the cavern of Mourn."
+            },
+            {
+                "name": "OLDERBROTHERWYVERN01811",
+                "text": "My brother often succumbs to curiosity and goes wandering about Mourn. Find him before it is too late."
+            },
+            {
+                "name": "YOUNGERBROTHERPUPPY01811",
+                "text": "&lt;yawn&gt; The warmth of this cave makes for sound sleep, but now I grow hungry... Hm? What do you want?"
+            },
+            {
+                "name": "YOUNGERBROTHERPUPPY01811",
+                "text": "My brother calls? Then I must leave."
+            },
+            {
+                "name": "OLDERBROTHERWYVERN01811",
+                "text": "Thank you. I was right to call on you. Little one, where is your gratitude?"
+            },
+            {
+                "name": "OLDERBROTHERWYVERN01811",
+                "text": "You must forgive him. He is not accustomed to speaking with...your kind. Do not worry, I will deal with him."
+            },
+            {
+                "name": "YOUNGERBROTHERPUPPY01811",
+                "text": "（★未使用／削除予定★）"
+            }
+        ],
+        "reward": {
+            "gil": 538,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67152,
+                67348
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013417",
+            "obj": {
+                "i": 1013417,
+                "n": "Indomitable Wyvern",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013418",
+            "obj": {
+                "i": 1013418,
+                "n": "Landbound Dragonling",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67152",
+            "obj": {
+                "i": 67152,
+                "n": "Lord of the Hive",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 37
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67348",
+            "obj": {
+                "i": 67348,
+                "n": "Back in the Game",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5316
+            }
+        }
+    ]
+}

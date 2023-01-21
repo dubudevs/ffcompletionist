@@ -1,0 +1,134 @@
+{
+    "quest": {
+        "name": "Buffaloed All the Way",
+        "location": "Eastern La Noscea",
+        "id": 66372,
+        "patch": 2.0,
+        "sort": 320,
+        "eventIcon": 71221,
+        "issuer": 1006271,
+        "target": 1006271,
+        "genre": 91,
+        "journal": [
+            "P'ebaloh is a maidservant of dignity on a rather inglorious errand.",
+            "P'ebaloh is vexed by Master Gegeruju's belief that nearby buffaloes are to blame for the recent quakes. Though she has tried to persuade him otherwise, he is convinced the large beasts need to be taken care of. To satisfy him, P'ebaloh would have you cull six of them.",
+            "You have slain six large buffaloes on a flimsy pretext. Report the slaughter to P'ebaloh.",
+            "P'ebaloh thanks you for appeasing her master's whims. However, she believes that, deep in his heart, Gegeruju realizes that the true cause of the tremors is the primal Titan."
+        ],
+        "objectives": [
+            "Slay large buffaloes.",
+            "Report to P'ebaloh."
+        ],
+        "dialogue": [
+            {
+                "name": "PEBALOH",
+                "text": "Master Gegeruju is of course second to none in matters of business and connoisseurship. However, he can be somewhat naive as regards other matters."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "For example, he has become convinced that the recent spate of earthquakes is the fault of the large buffaloes that roam near. I would grant <span class=\"emphasis\">some</span> amount of exasperation over our local children being mauled in the wake of the tremors, but really now."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "It's one thing to see the buffaloes in a tizzy, but another to think they could have anything to do with the quakes. I have tried to reason with him, but it's been to no avail. Might you simply indulge my master and slay a half-dozen of the creatures?"
+            },
+            {
+                "name": "PEBALOH",
+                "text": "I am indebted to you, kind adventurer. I am quite certain those beasts were innocent of any earth-shattering crimes, but it is well they have been dispatched regardless."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "In truth, I believe Master Gegeruju knows in his heart that the buffaloes are not the cause, and that it is in fact the primal Titan. However, he also realizes that his wealth would not avail against such a threat."
+            },
+            {
+                "name": "PEBALOH",
+                "text": "While it does him credit that he strives to do right by the people of Costa del Sol, he must allow that certain problems are not within his means to solve."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3605,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 7995
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66368
+            ]
+        },
+        "next": [
+            66373
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006271",
+            "obj": {
+                "i": 1006271,
+                "n": "P'ebaloh",
+                "l": 32,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "3605",
+            "obj": {
+                "i": 3605,
+                "n": "Steel Scale Fingers",
+                "l": 32,
+                "c": 48378,
+                "t": 37,
+                "p": 3131
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66368",
+            "obj": {
+                "i": 66368,
+                "n": "The Things We Do for Cheese",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 169
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66373",
+            "obj": {
+                "i": 66373,
+                "n": "Pests in the Pillars",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 320
+            }
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+    "quest": {
+        "name": "Botanist in a Bind",
+        "location": "Gridania",
+        "id": 65548,
+        "patch": 2.0,
+        "sort": 450,
+        "icon": 100056,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000815,
+        "target": 1000815,
+        "involved": [
+            1000193
+        ],
+        "genre": 145,
+        "usedItems": [
+            5536
+        ],
+        "journal": [
+            "Recent developments have Fufucha feeling increasingly unsure of herself.",
+            "Fufucha has received a request for mistletoe from the Order of the Twin Adder, but is concerned as to how the plant will be used. Go to the Adders' Nest and inquire of Second Serpent Lieutenant Gavin as to the nature of the request.",
+            "Fufucha will be dismayed to hear that this latest order will once more serve the war effort, but the request must be honored. Harvest twenty sprigs of mistletoe from the vicinity of Camp Dragonhead in the Coerthas central highlands, and deliver them back to Fufucha at the Botanists' Guild.",
+            "Though appreciative of your efforts, Fufucha continues to have deep misgivings about contributing to a war effort that has left such scars on the forest she so loves, to the point that she is considering abandoning the path of the botanist.<br><br>※The next botanist quest will be available from Fufucha upon reaching level 50."
+        ],
+        "objectives": [
+            "Speak with Lieutenant Gavin.",
+            "Deliver sprigs of mistletoe to Fufucha."
+        ],
+        "dialogue": [
+            {
+                "name": "FUFUCHA",
+                "text": "<span class=\"highlight\">Forename</span>. I trust you─not only as a botanist, but as one who shares my dream of bringing peace to the forest that shelters us."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "The Order of the Twin Adder has commissioned from us mistletoe in staggering quantities. You will need to search in the vicinity of Camp Dragonhead in the central highlands of Coerthas."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "The curative properties of mistletoe make it a vital ingredient for many salves and medicines. I cannot help but fear that our guild has once more been drawn into serving this fruitless war effort."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "Forgive me for being a hopeless idealist, <span class=\"highlight\">Forename</span>. Could you visit the Adders' Nest and inquire with Lieutenant Gavin as to the nature of his request? I will not refuse his order, you may assure him of that. I simply wish to...know."
+            },
+            {
+                "name": "GAVIN",
+                "text": "So Fufucha wishes to know how the mistletoe will be used before she fills the order. 'Tis a fair enough request."
+            },
+            {
+                "name": "GAVIN",
+                "text": "I've no intent to deceive her, nor you. The mistletoe will be used to prepare medicines for the battles ahead. It is as simple as that."
+            },
+            {
+                "name": "GAVIN",
+                "text": "This will not please a pacifist like Fufucha, I know. But what can be done?"
+            },
+            {
+                "name": "GAVIN",
+                "text": "Does she think that we enjoy bloodshed any more than she? Were there a way to bring peace back to the forest, I would be the first to welcome it."
+            },
+            {
+                "name": "GAVIN",
+                "text": "In the meantime, the Ixal continue to attack our people, and we do what we can to protect them. A single soldier such as myself has no more power to end this war than does a botanist."
+            },
+            {
+                "name": "GAVIN",
+                "text": "In any event, I must return to my duties. If you could harvest twenty sprigs of mistletoe and tell Fufucha that our courier will be along to receive them, the Order would be in your debt."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. So it is as I feared. Do not worry─I will take the twenty sprigs of mistletoe."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "Thank you. You have served the guild well once more. And so the unending cycle of bloodshed goes on... Needless to say, by no fault of your own."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "I bear no ill will to Lieutenant Gavin or his people. On the contrary, I have naught but respect for his candor, not to mention his service to my homeland."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "What weighs heavy on my heart is a sentiment far more simple─almost childish. I simply cannot bear to see this forest I love suffer any longer."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "War is inevitable. This I understand. But by aiding the war effort, we do not merely contribute to the suffering, we profit from it. No better than the parasitic mistletoe, we suck the life out of the trees that shelter us for our own personal gain."
+            },
+            {
+                "name": "FUFUCHA",
+                "text": "...A parasite. Is that what our once-proud guild has been reduced to? How can I in good conscience permit this to go on? Forgive me, <span class=\"highlight\">Forename</span>. I would be alone with my thoughts for a while."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2555
+                },
+                {
+                    "id": 2837,
+                    "one": 1
+                },
+                {
+                    "id": 3909,
+                    "one": 1
+                },
+                {
+                    "id": 3188,
+                    "one": 1
+                },
+                {
+                    "id": 3653,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 204930
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 45,
+                    "id": 18
+                }
+            ],
+            "quests": [
+                65547
+            ]
+        },
+        "next": [
+            65549
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000815",
+            "obj": {
+                "i": 1000815,
+                "n": "Fufucha",
+                "l": 53,
+                "q": 20,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000193",
+            "obj": {
+                "i": 1000193,
+                "n": "Gavin",
+                "l": 52,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "2555",
+            "obj": {
+                "i": 2555,
+                "n": "Cobalt Hatchet",
+                "l": 44,
+                "c": 38102,
+                "t": 30,
+                "p": 5840
+            }
+        },
+        {
+            "type": "item",
+            "id": "2837",
+            "obj": {
+                "i": 2837,
+                "n": "Felt Coif of Gathering",
+                "l": 45,
+                "c": 41598,
+                "t": 34,
+                "p": 4158
+            }
+        },
+        {
+            "type": "item",
+            "id": "3909",
+            "obj": {
+                "i": 3909,
+                "n": "Raptorskin Workboots",
+                "l": 48,
+                "c": 46215,
+                "t": 38,
+                "p": 5900
+            }
+        },
+        {
+            "type": "item",
+            "id": "3188",
+            "obj": {
+                "i": 3188,
+                "n": "Woolen Doublet",
+                "l": 46,
+                "c": 42219,
+                "t": 35,
+                "p": 6680
+            }
+        },
+        {
+            "type": "item",
+            "id": "3653",
+            "obj": {
+                "i": 3653,
+                "n": "Fingerless Raptorskin Gloves of Gathering",
+                "l": 45,
+                "c": 44103,
+                "t": 37,
+                "p": 4620
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "5536",
+            "obj": {
+                "i": 5536,
+                "n": "Mistletoe",
+                "l": 44,
+                "c": 25001,
+                "t": 54
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65547",
+            "obj": {
+                "i": 65547,
+                "n": "Crisis of Faith",
+                "g": 145,
+                "l": "Gridania",
+                "s": 400,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65549",
+            "obj": {
+                "i": 65549,
+                "n": "Seeds of Hope",
+                "g": 145,
+                "l": "Gridania",
+                "s": 500,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,433 @@
+{
+    "quest": {
+        "name": "On Holy Ground",
+        "location": "Ul'dah",
+        "id": 65800,
+        "patch": 2.0,
+        "sort": 250,
+        "icon": 100054,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1001739,
+        "target": 1001739,
+        "involved": [
+            1002277,
+            1004141,
+            1004225
+        ],
+        "genre": 127,
+        "journal": [
+            "First Sword Mylla has an important mission for you.",
+            "Mylla has sent her best men to scour Thanalan for any trace of Leavold and the Alacran. Unfortunately, one of these gladiators has not reported back. She bids you search for him near the Hammers in western Thanalan, where he was last seen.",
+            "Despite walking blindly into the Alacran trap, you manage to overpower your would-be assassins. Speak with your comrade and see if he requires additional assistance.",
+            "The veteran gladiator thanks you for rescuing him, and tells you that he will return to Ul'dah after a short rest. Report to Mylla at the Gladiators' Guild.",
+            "Mylla is relieved to hear that you and your comrade survived the Alacran ambush. She insists that you rest for the time being, and mentions that Lulutsu has a message for you.",
+            "Aldis has asked that you come alone to the Church of Saint Adama Landama in eastern Thanalan. Knowing that the First Sword is still upset with the disgraced gladiator, Lulutsu has promised to keep your meeting a secret. Rendezvous with Aldis at the lichyard and see what he has to say.",
+            "Your private conversation with Aldis is once again interrupted, this time by Zana Lyehga, Leavold's loyal minion. After you defeat the pugilist in single combat, Aldis explains that the guildmaster needs dependable gladiators like you to stick by her. Now that your meeting is finished, return to the Gladiators' Guild and see if Mylla has news of the Alacran.",
+            "There have been no new developments regarding the Alacran or Leavold. However, Mylla remains confident that it is only a matter of time before her gladiators catch him. Remembering Aldis's words, you return to your training in preparation for the inevitable confrontation.<br><br>※The next gladiator quest will be available from Mylla upon reaching level 30."
+        ],
+        "objectives": [
+            "Search for the veteran gladiator near the Hammers in western Thanalan.",
+            "Speak with the veteran gladiator.",
+            "Report to Mylla.",
+            "Speak with Lulutsu.",
+            "Rendezvous with Aldis at the lichyard in eastern Thanalan.",
+            "Speak with Mylla."
+        ],
+        "dialogue": [
+            {
+                "name": "MYLLA",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. I must apologize for my earlier behavior."
+            },
+            {
+                "name": "MYLLA",
+                "text": "As First Sword, my duty is not only to foster your growth as a gladiator, but to also protect you from dangers you are not yet ready to face."
+            },
+            {
+                "name": "MYLLA",
+                "text": "I did not know that Leavold had become the leader of the Alacran. Had he chosen to bare his steel at us, many and more of us would not have returned alive."
+            },
+            {
+                "name": "MYLLA",
+                "text": "I need to know why he's turned to a life of crime. And so I've ordered my best men to scour Thanalan for any trace of his whereabouts."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Unfortunately, one of them has disappeared. I have strong suspicions that he has been taken prisoner by the Alacran, or worse."
+            },
+            {
+                "name": "MYLLA",
+                "text": "If there is any hope of saving him, we must act quickly. I would have you search for our missing comrade."
+            },
+            {
+                "name": "MYLLA",
+                "text": "His last report stated that he was tracking the Alacran near the Hammers in western Thanalan. If you go there, you may yet find some clues to his fate."
+            },
+            {
+                "name": "MYLLA",
+                "text": "I've been far too reckless in recent days, and let too many good gladiators come to harm. Please, <span class=\"highlight\">Forename</span>, find our missing comrade and bring him home safe."
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "&lt;cough&gt; &lt;cough&gt; It's a trap, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>!"
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "That's some fine swordsmanship, <span class=\"highlight\">Forename</span>! Mylla─ahem, the First Sword certainly knows how to pick 'em."
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "Heh, even after all these years, I can't quite bring myself to call her that. See, I still remember when her father first brought her to the guild─a wee lass who cried at the sight of naked steel. But to look at her now, you'd swear she was born with a blade in her hand!"
+            },
+            {
+                "name": "GUILDMEMBER",
+                "text": "Not like she had much of a choice but to rise to the occasion, though, what with all that trouble Aldis got into seven years ago. Selfish bastard, he should've never─ Ah, but enough of my rambling. I'll make my way back to Ul'dah after a short rest. You go on ahead and tell Mylla that I'm fine."
+            },
+            {
+                "name": "MYLLA",
+                "text": "<span class=\"highlight\">Forename</span>, thank the gods you're all right!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "I heard all about the ambush at the Hammers. Excellent work!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "You've been invaluable to the guild, and I cannot thank you enough. In fact, I believe you deserve a much-needed rest. Take some time for yourself and return when you've recuperated. But before you go, speak with Lulutsu─I believe she has a message for you."
+            },
+            {
+                "name": "LULUTSU",
+                "text": "Ah, <span class=\"highlight\">Forename</span>─the very gladiator I was seeking! Lean closer, for I would not have the others hear my words."
+            },
+            {
+                "name": "LULUTSU",
+                "text": "Aldis sends his regards and requests you meet him at the lichyard in eastern Thanalan."
+            },
+            {
+                "name": "LULUTSU",
+                "text": "Naturally, I've not divulged this information to the First Sword. As you may have gathered from their previous interactions, she's still rather upset with him, and would likely forbid any further association. Quite understandable, since he was clearly being groomed to become the next guildmaster before that <span class=\"emphasis\">horrible</span> scandal. Ahhh, they would have made such a lovely couple..."
+            },
+            {
+                "name": "LULUTSU",
+                "text": "...Ahem, forgive me. This is hardly an appropriate topic of conversation. Anyway, you have my word that the First Sword will not hear of any rendezvous from me."
+            },
+            {
+                "name": "ALDIS",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">I like a woman who keeps me waiting─it nurtures the sense of anticipation.</span><span class=\"alternative\">And where have you been? Busy drowning in some sweet young thing's eyes? Well, if that's the case, I understand completely.</span></span>"
+            },
+            {
+                "name": "ALDIS",
+                "text": "It's been seven years since Mylla's father was laid to rest here."
+            },
+            {
+                "name": "ALDIS",
+                "text": "He was mean and stubborn─an old aldgoat through and through. But gods, when he danced with sword in hand, it was pure poetry in motion."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Mylla's right. There's no way I could know what it was like for her back then, forced to replace her father under such terrible circumstances..."
+            },
+            {
+                "name": "ALDIS",
+                "text": "And who might you be? Another of Leavold's lackeys?"
+            },
+            {
+                "name": "ZANA",
+                "text": "Master Leavold has been most distressed since learning of your return. This is unacceptable."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Your <span class=\"emphasis\">master</span> does not deserve your loyalty, kitten. When you've outlived your usefulness, he'll dispose of you like so many others. Believe me, I speak from personal experience."
+            },
+            {
+                "name": "ZANA",
+                "text": "Say what you will. I will not be swayed!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "She looks awfully determined to kill me. Still, I'm not really in the mood to play. Mind stopping her, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "...You've gotten stronger. Good. I'm glad Mylla has a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> like you to rely upon."
+            },
+            {
+                "name": "ALDIS",
+                "text": "She's her father's daughter─a leader of men, a true warrior, and an obstinate woman who lets her feelings cloud her judgment."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Which is why she needs to be surrounded by dependable people who will give her good counsel and keep her temper in check─now more than ever. Stick by her. She needs you more than she knows."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "I'll do what I can."
+            },
+            {
+                "name": "A2",
+                "text": "She needs <span class=\"emphasis\">you</span>, Aldis."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Thank you. I know this business with Leavold and the Alacran has everyone on edge, but it's almost over now. You have my word."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Haven't you listened to a word I said? She needs <span class=\"emphasis\">dependable</span> people. In case you haven't noticed, I am anything but."
+            },
+            {
+                "name": "ALDIS",
+                "text": "I'm only here because of unfinished business. When it's settled, there'll be no reason left for me to stay."
+            },
+            {
+                "name": "ALDIS",
+                "text": "I owe it to her old man to put an end to this─to give him peace in Thal's realm by making that bastard Leavold finally answer for his crimes."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Remember what I said, <span class=\"highlight\">Forename</span>. Now, go─she's probably wondering where you are."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Why are you staring at me like that, <span class=\"highlight\">Forename</span>? Is something the matter? You're behaving rather oddly..."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Well, I'm afraid I have no news regarding the Alacran's movements. I remain confident that we will find them soon, though, so keep your blade sharp!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next gladiator quest will be available from Mylla upon reaching level 30."
+            },
+            {
+                "name": "POP",
+                "text": "A trio of assassins emerges from the shadows!"
+            },
+            {
+                "name": "SCENE00006",
+                "text": "Duty calls. Do you wish to proceed with<br>“CLSGLA250”?"
+            },
+            {
+                "name": "SCENE00006",
+                "text": "Yes"
+            },
+            {
+                "name": "SCENE00006",
+                "text": "No"
+            },
+            {
+                "name": "QIB",
+                "text": "Defeat Zana Lyehga!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "No pressure, but I'll be evaluating your performance."
+            },
+            {
+                "name": "ZANA",
+                "text": "Your interference is inexcusable."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Read her movements, <span class=\"highlight\">Forename</span>.<br>It's not exactly high literature."
+            },
+            {
+                "name": "ZANA",
+                "text": "You would die for this scum? Very well."
+            },
+            {
+                "name": "ZANA",
+                "text": "This...ends...now!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Watch it, <span class=\"highlight\">Forename</span>! This kitten has claws!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 1622
+                },
+                {
+                    "id": 2242
+                },
+                {
+                    "id": 3068,
+                    "one": 1
+                },
+                {
+                    "id": 3579,
+                    "one": 1
+                },
+                {
+                    "id": 3352,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 4760
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 25,
+                    "id": 2
+                }
+            ],
+            "quests": [
+                65799
+            ]
+        },
+        "next": [
+            65801
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001739",
+            "obj": {
+                "i": 1001739,
+                "n": "Mylla",
+                "l": 41,
+                "q": 16,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002277",
+            "obj": {
+                "i": 1002277,
+                "n": "Lulutsu",
+                "l": 41,
+                "q": 6,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004141",
+            "obj": {
+                "i": 1004141,
+                "n": "Aldis",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004225",
+            "obj": {
+                "i": 1004225,
+                "n": "Veteran Gladiator",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "1622",
+            "obj": {
+                "i": 1622,
+                "n": "Iron Spatha",
+                "l": 24,
+                "c": 30402,
+                "t": 2,
+                "p": 1354
+            }
+        },
+        {
+            "type": "item",
+            "id": "2242",
+            "obj": {
+                "i": 2242,
+                "n": "Iron Scutum",
+                "l": 23,
+                "c": 30013,
+                "t": 11,
+                "p": 2112
+            }
+        },
+        {
+            "type": "item",
+            "id": "3068",
+            "obj": {
+                "i": 3068,
+                "n": "Heavy Iron Armor",
+                "l": 25,
+                "c": 48020,
+                "t": 35,
+                "p": 3540
+            }
+        },
+        {
+            "type": "item",
+            "id": "3579",
+            "obj": {
+                "i": 3579,
+                "n": "Heavy Iron Gauntlets",
+                "l": 25,
+                "c": 48368,
+                "t": 37,
+                "p": 1795
+            }
+        },
+        {
+            "type": "item",
+            "id": "3352",
+            "obj": {
+                "i": 3352,
+                "n": "Heavy Iron Flanchard",
+                "l": 25,
+                "c": 45291,
+                "t": 36,
+                "p": 2748
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65799",
+            "obj": {
+                "i": 65799,
+                "n": "The Face of Thal",
+                "g": 127,
+                "l": "Ul'dah",
+                "s": 200,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65801",
+            "obj": {
+                "i": 65801,
+                "n": "The Rematch",
+                "g": 127,
+                "l": "Ul'dah",
+                "s": 300,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "quest": {
+        "name": "Forbidden Island",
+        "location": "Lower La Noscea",
+        "id": 65952,
+        "patch": 2.0,
+        "sort": 130,
+        "eventIcon": 71221,
+        "issuer": 1002446,
+        "target": 1002446,
+        "genre": 91,
+        "journal": [
+            "Mealvaan's Gate field assessor A'zumyn is seeking help to exterminate an unknown pest.",
+            "Journey to the northeast of Candlekeep Quay and search for suspicious-looking mounds of earth. Upon one of these mounds, place a lump of fetid dodo flesh and slay anything that crawls forth from the soil.",
+            "You have defeated a family of Thavnairian mites. Return to Candlekeep Quay and report your findings to A'zumyn.",
+            "Though still lacking hard evidence, A'zumyn believes that the Thavnairian mites may have been introduced to the area by pirates smuggling restricted items into Vylbrand from Radz–at–Han."
+        ],
+        "objectives": [
+            "Place fetid dodo flesh on a suspicious mound and slay the creatures that emerge.",
+            "Report to A'zumyn at Candlekeep Quay."
+        ],
+        "dialogue": [
+            {
+                "name": "AZUMYN",
+                "text": "Excuse me, adventurer, might I have a moment of your time? Allow me to introduce myself. I am A'zumyn, field assessor for Mealvaan's Gate. My work with the custom house involves the investigation of claims made regarding the unlawful import of restricted items from foreign shores."
+            },
+            {
+                "name": "AZUMYN",
+                "text": "Recently, there have been a number of petitions made by the residents of Candlekeep Quay concerning a species not native to Vylbrand. If this species is indeed alien to the island, it must be located and destroyed immediately, before it is allowed to reproduce and possibly disturb the natural balance found here amongst the area's fauna."
+            },
+            {
+                "name": "AZUMYN",
+                "text": "I would ask that you take this lump of fetid dodo flesh, and place it upon one of the mounds of soil thought to be the nests of the invasive species. The odor should draw forth whatever creatures lurk beneath, leaving them easy targets."
+            },
+            {
+                "name": "AZUMYN",
+                "text": "Thavnairian mites!? We have collected eggs from cargo carried on ships hailing from Radz–at–Han before...but always in Limsa Lominsa."
+            },
+            {
+                "name": "AZUMYN",
+                "text": "There are no records of ships traveling to or from the tiny island nation making stops here in Candlekeep Quay...nor would they ever need to."
+            },
+            {
+                "name": "AZUMYN",
+                "text": "Unless...the mites did not come from a ship that laid anchor here, but from a different vessel...one with more heinous motives. I believe this will require further investigation. I thank you again for your assistance. Perhaps I may require your services again in the near future."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "A hungry creature emerges from its nest!"
+            }
+        ],
+        "reward": {
+            "gil": 234,
+            "xp": 3080
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002446",
+            "obj": {
+                "i": 1002446,
+                "n": "A'zumyn",
+                "l": 31,
+                "q": 1
+            }
+        }
+    ]
+}

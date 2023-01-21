@@ -1,0 +1,133 @@
+{
+    "quest": {
+        "name": "Easy as Paissa",
+        "location": "The Sea of Clouds",
+        "id": 67732,
+        "patch": 3.1,
+        "sort": 54,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016089,
+        "involved": [
+            1016237
+        ],
+        "genre": 45,
+        "journal": [
+            "Muna Vanu needs a skilled hand to attend to a difficult task.<br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu has need of a strong, energetic paissa, but due to his responsibilities to the tribe, he has not the time to undertake the drawn-out task of capturing such wily prey himself. Furnishing you with a large sack in which to hold the beast, he bids you travel westward to where these creatures are most plentiful. They can be caught by digging a hole, which the careless creatures will fall into, finding themselves stuck.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You dig a hole, deep and wide enough to trap the sturdiest of paissas. Now you must wait for just such a beast to fall for this obvious─but apparently effective─ploy.",
+            "It's not long before a spry but oblivious paissa falls straight into the hole you dug. Put the creature into the sack the Vanu gave you before it escapes.",
+            "The paissa puts up little resistance as you extricate it from the hole and place it in the sack. Return your prize to Muna Vanu.",
+            "Muna Vanu explains that he has been challenged by a friend from the Zundu tribe to a paissafight. Though his tribe owes theirs a great debt, the elderly Vanu cannot bring dishonor on his people by losing the fight. Once properly trained, the spry and stalwart creature you captured should help secure his victory in the upcoming challenge."
+        ],
+        "objectives": [
+            "Dig a hole at the specified location.",
+            "Lie in wait until a paissa falls for the trap.",
+            "Capture the trapped paissa.",
+            "Deliver the captured paissa to Muna Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "Hmmm... But who is skilled enough to... Oh, <span class=\"highlight\">Forename</span> arrives at perfect moment!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Muna Vanu has need of paissa─lively one, full of spirit. But catching paissa takes time, and I have responsibilities to tribe and cannot spare such time."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "<span class=\"highlight\">Forename</span>, please catch paissa for Muna Vanu. Best way is to dig hole. Paissa falls right into hole and cannot get out. Many paissas roam west of Ok' Gundu. Hunt there, and catch prey alive in this sack."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You slip the struggling paissa into the sack."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "<span class=\"highlight\">Forename</span> returns! Does <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> catch fit and sprightly paissa?"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Yes! Yes! Many thanks! Fluffy like summer storm cloud, sprightly like zephyr wind. Muna Vanu wins for certain now, cannot lose with this perfect paissa!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Ah... Perhaps Muna Vanu gets carried away. Friend from Ok' Zundu lays challenge in paissafight, and to lose brings shame to all Gundu!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Although we owe Zundu great debt, we cannot let them win. Honor of whole tribe depends on fight! I train this paissa to defeat Zundu paissa─<br>without mercy."
+            }
+        ],
+        "reward": {
+            "gil": 681,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 5,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016237",
+            "obj": {
+                "i": 1016237,
+                "n": "Perky Paissa",
+                "l": 2100,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "How to Feed Your Dragon",
+        "location": "The Dravanian Forelands",
+        "id": 67335,
+        "patch": 3.0,
+        "sort": 5312,
+        "eventIcon": 71221,
+        "issuer": 1011940,
+        "target": 1011940,
+        "genre": 98,
+        "journal": [
+            "You notice the sound of Toh Y Thrah's grumbling stomach.",
+            "After hearing tales from his kin of miacid meat and its savory taste, Toh Y Thrah wishes to taste it for himself. However, he is not yet strong enough to hunt them without severe repercussions. Slay any miacids you come across in the wilds and obtain three chunks of their meat.",
+            "You slay three miacids and obtain their meat. Take them to Toh Y Thrah, that he may sate both his hunger and curiosity.",
+            "You deliver the meat to Toh Y Thrah. With a single bite his eyes grow wide with amazement. He proclaims the meat is indeed quite succulent, anticipating the day he can freely hunt it for himself."
+        ],
+        "objectives": [
+            "Slay miacids for their meat.",
+            "Deliver the meat to Toh Y Thrah."
+        ],
+        "dialogue": [
+            {
+                "name": "TOHYTHRAH",
+                "text": "Have you ever tasted the flesh of a miacid? My brothers tell me it's a most delectable creature."
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "Would that I had the strength to hunt them myself. If you encounter miacids outside of the tower, could you bring me their meat?"
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "Bring three chunks of their flesh. I wish to know what they taste like."
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "I have not hunted this day and I grow quite hungry. Three chunks of miacid flesh should do to fill my stomach."
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "Have you seen the miacids? Do you come with their flesh?"
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "So this is the meat of the miacid. At last I will know why my kin hunt them so hungrily...&lt;gulp&gt;<br>This...this is..."
+            },
+            {
+                "name": "TOHYTHRAH",
+                "text": "So flavorful, so tender! I look forward to the day I can gorge on this beast at my leisure."
+            }
+        ],
+        "reward": {
+            "gil": 538,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67150
+            ]
+        },
+        "next": [
+            67336
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011940",
+            "obj": {
+                "i": 1011940,
+                "n": "Toh Y Thrah",
+                "l": 2000,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67150",
+            "obj": {
+                "i": 67150,
+                "n": "A Gnathic Deity",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67336",
+            "obj": {
+                "i": 67336,
+                "n": "Hungry for Seconds",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5313
+            }
+        }
+    ]
+}

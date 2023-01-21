@@ -1,0 +1,125 @@
+{
+    "quest": {
+        "name": "A Burning Request",
+        "location": "South Shroud",
+        "id": 66354,
+        "patch": 2.0,
+        "sort": 300,
+        "eventIcon": 71221,
+        "issuer": 1002762,
+        "target": 1002762,
+        "genre": 92,
+        "journal": [
+            "Florent needs a capable adventurer to locate his lost goods.",
+            "Arriving at Camp Tranquil via the southern rope bridge, Florent has dropped some of his precious lumber into Rootslake. He asks you to proceed under the south bridge to retrieve the pieces of wood from the scummy expanse.",
+            "You have collected every precious length of lumber. Take them to Florent at Camp Tranquil.",
+            "The lumber that you risked your life for is slated for the fireplace at Buscarron's Druthers. Though the wood is wet, Florent assures you that this can be quickly remedied."
+        ],
+        "objectives": [
+            "Gather the lengths of dropped lumber.",
+            "Return the lumber to Florent."
+        ],
+        "dialogue": [
+            {
+                "name": "FLORENT",
+                "text": "Hail, adventurer, you come at an opportune time! My botanist's hatchet serves its own purpose well enough, but I'd hesitate to use it on anything that bites back. I would guess that your own skill at arms is more apropos for <span class=\"emphasis\">this</span> situation."
+            },
+            {
+                "name": "FLORENT",
+                "text": "I was crossing the bridge behind me when I got to thinking of all I've seen since the Calamity. What boggles the mind wobbles the body, and before I knew it, I was nearly on my face and the lumber in my arms was scattered all over the bridge. Some of it must've fallen over the side."
+            },
+            {
+                "name": "FLORENT",
+                "text": "Now, I'm not so green as to go vaulting under the bridge when I know perfectly well of the fiends below. But an adventurer should have little and less to fear. Will you go in my stead to retrieve the wood?"
+            },
+            {
+                "name": "FLORENT",
+                "text": "Ah, adventurer! I am right glad for your return. Did you find my wood where it fell?"
+            },
+            {
+                "name": "FLORENT",
+                "text": "Wonderful! The tavern will get a fine blaze out of these. 'Tis firewood for Buscarron's Druthers you were gathering."
+            },
+            {
+                "name": "FLORENT",
+                "text": "A little damp, but nothing that a little drying won't fix. The sun is strong and the way is long, after all. Much appreciated!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 1377,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4644,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4732,
+                    "one": 1
+                }
+            ],
+            "xp": 7410
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 30,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66350
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002762",
+            "obj": {
+                "i": 1002762,
+                "n": "Florent",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4644",
+            "obj": {
+                "i": 4644,
+                "n": "Aldgoat Steak",
+                "l": 27,
+                "c": 24360,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4732",
+            "obj": {
+                "i": 4732,
+                "n": "Crumpet",
+                "l": 28,
+                "c": 24053,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66350",
+            "obj": {
+                "i": 66350,
+                "n": "A Modest Proposal",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 161
+            }
+        }
+    ]
+}

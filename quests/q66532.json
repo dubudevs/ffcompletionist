@@ -1,0 +1,134 @@
+{
+    "quest": {
+        "name": "Dropping Out",
+        "location": "Mor Dhona",
+        "id": 66532,
+        "patch": 2.0,
+        "sort": 450,
+        "eventIcon": 71221,
+        "issuer": 1006545,
+        "target": 1006677,
+        "involved": [
+            1006726
+        ],
+        "genre": 95,
+        "journal": [
+            "You feel the call of the road, but when a mishap strikes, Nazyl Duzyl has one more call on your time.",
+            "One of a pair of researchers excavating a lakeside site has fallen down a hole. Nazyl Duzyl bids you head west and deliver a length of thick rope to the wrought researcher that awaits assistance for his learned colleague.",
+            "Once given the rope, the researcher trades his anxiety for resoluteness. He orders you to leave the rescue to him and take an urgent message to Kakamehi in Revenant's Toll: send medicines.",
+            "Having delivered the message to Kakamehi, your work is done. Kakamehi is dispatching the potions and liniments even as you settle in for a well-earned rest. Another day, another job well done."
+        ],
+        "objectives": [
+            "Give the rope to the wrought researcher.",
+            "Speak with Kakamehi."
+        ],
+        "dialogue": [
+            {
+                "name": "NAZYLDUZYL",
+                "text": "<span class=\"highlight\">Forename</span>, how fortunate to have you here! One of the researchers excavating the lakeside has tumbled down a hole!"
+            },
+            {
+                "name": "NAZYLDUZYL",
+                "text": "He remains there still and has wounds that will need tending, but his team traveled quite light. They lack the necessary supplies for his rescue."
+            },
+            {
+                "name": "NAZYLDUZYL",
+                "text": "Will you take this length of rope to the lakeside, for the rescue?"
+            },
+            {
+                "name": "NAZYLDUZYL",
+                "text": "After that, you must hasten to Revenant's Toll and tell Kakamehi to dispatch medicines thither."
+            },
+            {
+                "name": "NAZYLDUZYL",
+                "text": "We are already much in your debt, <span class=\"highlight\">Forename</span>, if not in gil then in spirit─but may I impose on you one last time?"
+            },
+            {
+                "name": "NPCA",
+                "text": "Hallo! Thank the Twelve you're here! He fell right down this hole, thinks he broke a leg."
+            },
+            {
+                "name": "NPCA",
+                "text": "We have to get him out before he passes out again─the pain seems to be bad. Have you any rope?"
+            },
+            {
+                "name": "NPCA",
+                "text": "Good and stout! Right, I can fish him out by myself here. But once he's out, he'll need some true physicking."
+            },
+            {
+                "name": "NPCA",
+                "text": "Go on to Revenant's Toll and tell them to send potions─buckets of them!"
+            },
+            {
+                "name": "NPCA",
+                "text": "I'll fish him out by myself. You go on to Revenant's Toll and tell them to send potions."
+            },
+            {
+                "name": "KAKAMEHI",
+                "text": "Long time no see, <span class=\"highlight\">Forename</span>! They keeping you busy at Saint Coinach's Find? Ah, an accident, eh? Not enough physick, sure, sure."
+            },
+            {
+                "name": "KAKAMEHI",
+                "text": "I'll get what's needed to the Sons. You look like you ran all the way─go sun those soles, you've earned a rest."
+            }
+        ],
+        "reward": {
+            "gil": 1782,
+            "xp": 12420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 45,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66527
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006545",
+            "obj": {
+                "i": 1006545,
+                "n": "Nazyl Duzyl",
+                "l": 67,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006677",
+            "obj": {
+                "i": 1006677,
+                "n": "Kakamehi",
+                "l": 67,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006726",
+            "obj": {
+                "i": 1006726,
+                "n": "Wrought Researcher",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66527",
+            "obj": {
+                "i": 66527,
+                "n": "Playing the Postman",
+                "g": 95,
+                "l": "Mor Dhona",
+                "s": 450
+            }
+        }
+    ]
+}

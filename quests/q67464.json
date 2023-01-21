@@ -1,0 +1,97 @@
+{
+    "quest": {
+        "name": "Smarter than the Average Beast",
+        "location": "The Dravanian Forelands",
+        "id": 67464,
+        "patch": 3.0,
+        "sort": 5701,
+        "eventIcon": 71221,
+        "issuer": 1011916,
+        "target": 1011916,
+        "genre": 98,
+        "journal": [
+            "Marcechamp is stewing in his chair.",
+            "A wild beast has been making off with Marcechamp's precious chocobos before he can gather them from the traps, and he has asked you to lure it out and slay it. Use the chocobo thigh he gave you to lure out the beast from the designated location in the Chocobo Forest.",
+            "You have placed the chocobo meat. Lie in wait and slay the beast when it appears.",
+            "You have slain the bear, ensuring that no more of Marcechamp's chocobos will come to harm. Report your success to the beleaguered chocobo hunter.",
+            "Marcechamp is grateful for your aid, and for all the help you have given him since arriving at Tailfeather."
+        ],
+        "objectives": [
+            "Place the chocobo thigh at the specified location.",
+            "Wait for the beast to reveal itself and slay it when it appears.",
+            "Report to Marcechamp."
+        ],
+        "dialogue": [
+            {
+                "name": "MARCECHAMP",
+                "text": "...Of all the blasted... Seven hells! Some beast is makin' off with <span class=\"emphasis\">my</span> hard-earned chocobos afore I can gather 'em from the traps. Accounts from my men say it's one o' the biggest bears they've ever laid eyes on.<br><br>I've got a plan to lure out the greedy bugger, but I need someone reliable to take it down for me─an' there ain't many more reliable than you!"
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "Take this here chocobo meat an' place it where my men reported the beast's last sightin', then lie in wait till it shows itself. I'm sure you'll make quick work of it from there."
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "Go to the bear's last known location an' use the chocobo meat to lure it out. Make sure it troubles me no longer."
+            },
+            {
+                "name": "MARCECHAMP",
+                "text": "I take it the beast won't be terrorizin' my chocobos anymore? My thanks, friend. I'm in your debt for all the help you've given me."
+            }
+        ],
+        "reward": {
+            "gil": 602,
+            "items": [
+                {
+                    "id": 6654
+                }
+            ],
+            "xp": 38400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 57,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67189
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011916",
+            "obj": {
+                "i": 1011916,
+                "n": "Marcechamp",
+                "l": 2000,
+                "q": 14
+            }
+        },
+        {
+            "type": "item",
+            "id": "6654",
+            "obj": {
+                "i": 6654,
+                "n": "Stuffed Chocobo",
+                "l": 49,
+                "c": 53003,
+                "t": 78
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67189",
+            "obj": {
+                "i": 67189,
+                "n": "Tataru's Surprise",
+                "g": 3,
+                "l": "Gridania",
+                "s": 78
+            }
+        }
+    ]
+}

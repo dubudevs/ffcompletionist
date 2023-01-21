@@ -1,0 +1,947 @@
+{
+    "quest": {
+        "name": "Yes We Cant",
+        "location": "Ul'dah",
+        "id": 65774,
+        "patch": 2.38,
+        "sort": 57,
+        "icon": 100303,
+        "eventIcon": 71221,
+        "issuer": 1010550,
+        "target": 1010556,
+        "involved": [
+            1001301,
+            1001308,
+            1001309,
+            1001310,
+            1001312,
+            1001313,
+            1001353,
+            1001678,
+            1004331
+        ],
+        "genre": 203,
+        "journal": [
+            "Godriquelain is eager to resume his investigation of the Continental Circus.<br>※This quest is available for a limited time only.",
+            "Godriquelain has learned that the Continental Circus is recruiting volunteers for the costume parade it is hosting in Ul'dah. As you have done thus far, you must pretend to cooperate with the twisted troupe, that you might uncover the details of its dark plot. Speak with the unsavory illusionist by the entrance to the Ruby Road Exchange, and offer your services to her.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "Desiring to spread word of the parade, the unsavory illusionist entrusts you with three flyers to hand out at the Quicksand. Head inside the tavern, and find likely recipients for the flyers.<br><br>※If the illusion wears off, you may receive it again by speaking with the unsavory illusionist.",
+            "You have handed out all three flyers. Report the completion of your task to the unsavory illusionist.",
+            "Satisfied that the parade has been sufficiently advertised, the unsavory illusionist next bids you participate in the parade itself. While transfigured, take your place in the parade alongside your fellow adventurers, and cast the Festal Cant charm upon the citizens who have come to spectate.<br><br>※The FATE “Main Street Spectral Parade” can be commenced by speaking with the ogre pumpkinhead on Emerald Avenue.",
+            "In no small part due to your participation, the parade has proved to be a rousing success. Report the completion of your task to the unsavory illusionist.",
+            "Having thanked you for your assistance, the unsavory illusionist lets it slip that she has a clandestine meeting with someone she calls the Impresario. In spite of her earnest request that you do not follow her, your instincts tell you that this is a meeting you do not want to miss. Make your way to the Gold Court, and find a suitable place to observe the rendezvous.",
+            "You have overheard the conversation between the Impresario and the unsavory illusionist, both of whom are revealed to be imps in disguise. As you have suspected all along, the parade is but a means to usher in the Night of Devilry; the charm does not actually grant happiness and fortune, but transforms people into fiends. Make haste to the Quicksand, and report all that you have seen and heard to Godriquelain.",
+            "Godriquelain is shocked to learn of the charm's true nature, and moves to put a stop to the parade. However, Momodi, on her way back from spectating the parade, assures him that the charm is in fact harmless. It would seem that the Continental Circus had been misled all this time, and the citizens are perfectly safe. So ends your quest to forestall the Night of Devilry. And though the danger is past─or rather, never was─the festivities yet continue. Why not participate in another parade?"
+        ],
+        "objectives": [
+            "Speak with the unsavory illusionist.",
+            "While transfigured, distribute parade flyers in the Quicksand.",
+            "Report to the unsavory illusionist.",
+            "Complete the FATE “Main Street Spectral Parade” on Emerald Avenue.",
+            "Report to the unsavory illusionist.",
+            "Lie in wait at the Gold Court.",
+            "Report to Godriquelain in front of the Quicksand."
+        ],
+        "dialogue": [
+            {
+                "name": "GODRIQUELAIN",
+                "text": "Without further ado, let us resume our investigation. Since arriving in Ul'dah, I have learned that the Continental Circus is planning to host a costume parade."
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "As the procession makes its way along Emerald Avenue, its participants will cast some manner of charm upon onlookers, which purportedly brings happiness and fortune to those who receive it."
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "Sounds like harmless fun, but make no mistake, this event is but another means for the shape-shifting fiends to usher in the Night of Devilry. It falls to us to see that they do not succeed."
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "As before, the Continental Circus is recruiting volunteers, and I would have you answer their call. Considering the assistance you have lent the troupe thus far, they will surely take you on again without suspicion."
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "Now then, go and speak with the illusionist who stands by the entrance to the Ruby Road Exchange. Offer her your services, and do whatever she requires of you."
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "In the meantime, I shall pursue my own line of investigation. Once you have completed your task for the troupe, seek me out in front of the Quicksand. Godsspeed!"
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "The Continental Circus means to bring about the Night of Devilry, but how do they mean to go about achieving it? We must cast light upon this mystery."
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "Uwaaah! Wh-What do you want from me!?"
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "A-Ahem. Of course it's only you. &lt;sigh&gt; I really must do something about my propensity to startle..."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Hello there, adventurer! Are you here to help out with our splendidly spooky parade by any chance? ...You are? Marvelous!"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "We've prepared flyers to spread word of the event, and we want you to hand them out to the people in the Quicksand."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "In order to give them a taste of what's in store, I will weave an illusion to alter your appearance to something frighteningly festive."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Oh, and be sure to say this to each person who receives a flyer: “If you invite fourteen people within four hours and then join the parade, you will know great happiness!” It's a surefire way to make the parade a rousing success!"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "But without further ado, it's transfiguration time!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The action Festal Cant is now available on the <span class=\"highlight\">pet hotbar</span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Festal Cant is used in the FATE “Main Street Spectral Parade,” and has no effect elsewhere."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Please hand out the parade flyers to the people in the Quicksand while you're in your frighteningly festive form."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "To each person who receives a flyer, remember to say: “If you invite fourteen people within four hours and then join the parade, you will know great happiness!”"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Oh dear, it looks like your illusion has faded. Allow me to refresh it!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This person seems to be deep in thought, and does not respond."
+            },
+            {
+                "name": "PAPASU",
+                "text": "Aiiiiiie! Please don't eat me! I don't taste very good!"
+            },
+            {
+                "name": "PAPASU",
+                "text": "&lt;gasp&gt; M-My lord! I b-bid you welcome to the Quicksand! Will you be dining with us this day?"
+            },
+            {
+                "name": "PAPASU",
+                "text": "&lt;gasp&gt; Y-Your Grace! I b-bid you welcome to the Quicksand! Will you be dining with us this day?"
+            },
+            {
+                "name": "PAPASU",
+                "text": "...Only an illusion!? You wicked, wicked adventurer! My heart nigh stopped beating for the fright!"
+            },
+            {
+                "name": "PAPASU",
+                "text": "But what's this flyer you've brought? Ooh, a charm that brings happiness and fortune! I must round up my whole family for the parade!"
+            },
+            {
+                "name": "PAPASU",
+                "text": "Hello there, traveler. Are you enjoying the All Saints' Wake celebration? They say it's twice as fun if you're in costume."
+            },
+            {
+                "name": "PAPASU",
+                "text": "My thanks for the flyer! I shall round up my whole family for the parade!"
+            },
+            {
+                "name": "BOTULF",
+                "text": "A m-m-monster! Help me! Somebody!"
+            },
+            {
+                "name": "BOTULF",
+                "text": "G-General Raubahn! 'Tis an honor to meet a great hero such as you! I would be your man, if you will have me! I can deliver your packages, scrub your mail, and...and massage your sore feet after a hard day's march!"
+            },
+            {
+                "name": "BOTULF",
+                "text": "Y-Your Grace! Th-This is no place for a woman of your exalted personage! You're liable to get kidnapped...or worse! Allow your humble servant, Botulf, to spirit you to safety!"
+            },
+            {
+                "name": "BOTULF",
+                "text": "...What? It's just an illusion? Godsdammit! If I'm so easily deceived, how can I expect to survive in this viper's nest of a city?"
+            },
+            {
+                "name": "BOTULF",
+                "text": "...Eh? I'll know great happiness if I invite fourteen people to this parade of yours!?"
+            },
+            {
+                "name": "BOTULF",
+                "text": "This...this isn't another trick, is it? Because it sure sounds like one...<br>Ah, what the hells─I'll be there with whomever else I can drag along. It's not like I have anything to lose."
+            },
+            {
+                "name": "BOTULF",
+                "text": "&lt;sigh&gt; Of all the stupid blunders I've made, this one trumps them all. Gods, I need a stiff drink to forget my woes. And I need the coin to buy that stiff drink. Thal bugger me dead..."
+            },
+            {
+                "name": "BOTULF",
+                "text": "If I can bring fourteen people to the parade, I'll know great happiness..."
+            },
+            {
+                "name": "BOTULF",
+                "text": "I don't want to set myself up for disappointment, but there's a part of me that desperately wishes for it to be true. I'll be at the parade with whomever else I can drag along."
+            },
+            {
+                "name": "MARTEIRE",
+                "text": "Egads! A fiend in the Quicksand!? To arms, to arms!"
+            },
+            {
+                "name": "MARTEIRE",
+                "text": "&lt;gasp&gt; General Raubahn! The tales of your valorous exploits are known even in my native Gridania!"
+            },
+            {
+                "name": "MARTEIRE",
+                "text": "&lt;gasp&gt; Your Grace! I am moved beyond words that you would honor me, a humble outsider, with your presence!"
+            },
+            {
+                "name": "MARTEIRE",
+                "text": "...An illusion? I-I knew that, of course! I was simply, er...playing along. 'Tis All Saints' Wake, after all, and I am not one to spoil the festive mood."
+            },
+            {
+                "name": "MARTEIRE",
+                "text": "Needless to say I should be glad to participate in the parade of which this flyer speaks."
+            },
+            {
+                "name": "MARTEIRE",
+                "text": "...What's that? Come with fourteen friends, you say? Assuming they are willing, my comrades here make two, leaving twelve more to be found... Hmmm..."
+            },
+            {
+                "name": "MARTEIRE",
+                "text": "The All Saints' Wake celebration here is rather more boisterous than what I'm accustomed to in my native Gridania. I expect that the costumes, too, will be a deal more lavish."
+            },
+            {
+                "name": "MARTEIRE",
+                "text": "I should be glad to participate in the parade. As for the fourteen friends you requested...I shall see what I can do."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Welcome back! Thanks to your deft distribution of the flyers, we're expecting record attendance at the parade! Well, this is the first time we're holding it, to be sure, but you get my meaning."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Welcome back! Thanks to your deft distribution of the flyers, we're expecting record attendance at the parade! Well, this is the first time we're holding it, to be sure, but no need for us to dwell on semantics. Oh, but before I go on, allow me to remove your illusion."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "You have served us admirably for the parade's preparations. Next, I would have you participate in the parade itself─our troupe's centerpiece for this year's All Saints' Wake!"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Oh, there is nothing to it. You simply have to march along Emerald Avenue and cast a charm upon citizens who have come to spectate. “Festal Cant,” the charm is called, and it brings happiness and fortune to all who are touched by it! Delightful, is it not?"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Yet not everything is sugar and rainbows, I'm afraid. You must beware the mages of the Thaumaturges' Guild, who have concealed themselves among the crowd."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "For reasons unclear, they bear our troupe no love, and will seek to spoil our efforts to spread joy in Ul'dah. Should you cast the charm upon them, they will strip you of your illusion."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "For the sake of our spectators' enjoyment, we must avoid showing our true forms during the parade. Do have care where the charm is directed."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Go now, adventurer, and show the people of Ul'dah a frighteningly fun time! I look forward to hearing from you upon the parade's conclusion!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The FATE “Main Street Spectral Parade” can be commenced by speaking with the ogre pumpkinhead on Emerald Avenue."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Accompany the ogre pumpkinhead as she makes her way along the avenue, and use the action Festal Cant on any unsuspecting citizens you come upon."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You must be transfigured to participate in and complete the FATE. This status can be received by speaking with the unusual illusionist."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Please note that you cannot interact with the ogre pumpkinhead while transfigured. You must remove the status if you wish to commence the FATE."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Lastly, in order to obtain the FATE's rewards and advance the quest, you must be a Disciple of War or Magic."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Go on and show the people of Ul'dah a frighteningly fun time! I look forward to hearing from you upon the parade's conclusion!"
+            },
+            {
+                "name": "TRANSFORMATION",
+                "text": "I am a wondrous wizard of illusion! I am a maker of mirages and a rearranger of reality, with a thousand hi-potions' worth of health and infinite piety. I have received word of you, adventurer, and will grant you a frighteningly festive form, if that is your desire."
+            },
+            {
+                "name": "TRANSFORMATION",
+                "text": "There, the illusion is in place. The parade awaits─pray spread the joy of All Saints' Wake to the people."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "I am told the parade was a rousing success! You have been a great help, adventurer."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "I am told the parade was a rousing success! You have been a great help, adventurer. But here, you won't be needing the illusion anymore."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Finally, our mission is accomplished! The Impresario shall be most pleased!"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "...What mission, you ask? Why, the parade, of course! What else could I be referring to?"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Now, if you'll excuse me, I must go and meet with the Impresario. He is expecting a report. In the meantime, might I suggest that you take part in more parades?"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "...Where's this meeting taking place, you ask? Why, the Gold Court, of course! Where else could it─ Oh..."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "N-No one is supposed to know of this! You mustn't come, do you understand? If you do, I'll get turned into a pumpkin cookie! Being the kindly adventurer that you are, you don't want that to happen, right? Right!"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "N-No one is supposed to know of my meeting with the Impresario! You mustn't come, do you understand? If you do, I'll get turned into a pumpkin cookie! Being the kindly adventurer that you are, you don't want that to happen, right? Right!"
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "You were not followed?"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Of course not, sir! And you can be assured that not a soul knows of this meeting! ...Before we begin, would it be possible to shed this cumbersome form?"
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "It does get wearisome having to stand on these crude limbs. Very well."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Ahhh, that's more like it! Natural is the way to go!"
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "Aye, well, just remember that we've got to be more vigilant. Now, give me that report."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Yes, sir! I'm pleased to say that the parade was a resounding success. A gullible adventurer came along, and <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> followed our instructions to the letter."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "Heh heh heh! Our hard work has paid off! The Night of Devilry will return!"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Turning people into our brethren rather than summoning them─it's so simple, I don't know why we didn't think of it before!"
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "The use of illusions, the plot for each nation... That woman suggested it all. And as if that weren't enough, she offers to lead the parade!"
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "I still don't have the faintest who she is, but we couldn't've come this far without her. Hells, if I didn't know better, I'd say she's the Great Gourd of legend come again!"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Ooh, it's about time the charm took effect. When the citizens become us, the terror that ensues will be delicious! We won't want to miss a moment of it!"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "Heh heh heh... It's so close, I can almost taste that sweet, sweet terror...<br>Oh, hello there, adventurer! If you're not busy, might I suggest that you take part in more parades?"
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "You are returned! Tell me, were you able to uncover the troupe's plot?"
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "...They're using the parade to transform the citizens into fiends!? Gods be good... The situation is far graver than I had anticipated..."
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "I know not what can be done for those who have already been affected by the charm, but we cannot allow any more to fall victim to it. We must put a stop to the parade!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Sounds like you're in a spot of bother, Godri. Trouble with the womanfolk, mayhap?"
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "Miss Momodi!"
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "Allow me to introduce you to Miss Momodi, the owner of the Quicksand."
+            },
+            {
+                "name": "MOMODI",
+                "text": "I also have the pleasure of lookin' after adventurers like yourself here in Ul'dah. Pleased to meet you!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "I was just at the parade with some friends, and we had a grand old time. I stood at the front of the crowd and got a double dose of that charm! I feel as though I'm walkin' on clouds!"
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "What!? M-Miss Momodi, there is something you must know. That charm is not what you think it is. It turns people...into fiends!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "...People into <span class=\"emphasis\">fiends</span>? Ahahaha! Godri, did you get into my mead while I was away?"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Do I look like a fiend to you? I don't think so! I appreciate your concern, but you're worryin' for naught."
+            },
+            {
+                "name": "MOMODI",
+                "text": "'Twas a traditional charm for promotin' a sense of well–bein' what was bein' cast. I've known 'bout it since I was a wee lass. The bit about bringin' fourteen friends, though? Now, <span class=\"emphasis\">that's</span> bollocks."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Anyroad, if you saw 'em as went to the parade, you'd see that they're all grinnin' from ear to ear─like yours truly! Ain't no better proof the charm did as promised."
+            },
+            {
+                "name": "MOMODI",
+                "text": "This has been the most enjoyable All Saints' Wake I've had in <span class=\"emphasis\">ages</span>. I daresay even the fiends had 'emselves a good time!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Anyroad, it's past time I got back to work. Be seein' you! La la la la la...♪"
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "So the Continental Circus had been misled all this time? Words do not suffice to express my relief..."
+            },
+            {
+                "name": "PUMPKIN",
+                "text": "(-Disembodied Voice-)Heh heh heh... Happiness and joy for man and monster both─things are as they should be..."
+            },
+            {
+                "name": "GODRIQUELAIN",
+                "text": "D-Did you say something? No? I could have sworn I heard a voice..."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "Hmmm... This is passing strange. Why has the transformation not begun?"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "I'm sure it will happen any moment now, sir. We just need to be patient."
+            },
+            {
+                "name": "IMPHEAD",
+                "text": "Yes, no doubt you are right. The wait will make it all the more glorious when this city is overrun with our kind! Ahahahahaha!"
+            },
+            {
+                "name": "SYSTEMS",
+                "text": "A new variety of face paint is now available. To use it, you must unlock access to the aesthetician by completing the quest “Beauty Is Only Scalp Deep.”"
+            },
+            {
+                "name": "SYSTEMS",
+                "text": "A new variety of face paint is now available, and can be selected when summoning the aesthetician."
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CITIZEN65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CITIZEN65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CITIZEN65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CITIZEN65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CITIZEN65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "THAUMATURGE65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "THAUMATURGE65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "THAUMATURGE65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "THAUMATURGE65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "THAUMATURGE65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "THAUMATURGE65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "HALLOWEEN00051",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MAGICIAN65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MAGICIAN65774",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "MOMODI",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "HALLOWEEN00051",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "IMPRESARIO",
+                "text": "(Marked for deletion)"
+            },
+            {
+                "name": "CONJURER65774",
+                "text": "(Marked for deletion)"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 8711
+                },
+                {
+                    "id": 8712
+                },
+                {
+                    "id": 8713
+                },
+                {
+                    "id": 8714
+                }
+            ],
+            "xp": 3360
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65773
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010550",
+            "obj": {
+                "i": 1010550,
+                "n": "Godriquelain",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010556",
+            "obj": {
+                "i": 1010556,
+                "n": "Godriquelain",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001301",
+            "obj": {
+                "i": 1001301,
+                "n": "Memenaru",
+                "l": 40,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001308",
+            "obj": {
+                "i": 1001308,
+                "n": "Marteire",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001309",
+            "obj": {
+                "i": 1001309,
+                "n": "Elviane",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001310",
+            "obj": {
+                "i": 1001310,
+                "n": "Papasu",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001312",
+            "obj": {
+                "i": 1001312,
+                "n": "Emelin",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001313",
+            "obj": {
+                "i": 1001313,
+                "n": "Botulf",
+                "l": 40,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001353",
+            "obj": {
+                "i": 1001353,
+                "n": "Momodi",
+                "l": 40,
+                "q": 27,
+                "t": "Quicksand Proprietress"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001678",
+            "obj": {
+                "i": 1001678,
+                "n": "Kekezani",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004331",
+            "obj": {
+                "i": 1004331,
+                "n": "Silver Nettle",
+                "l": 40,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "8711",
+            "obj": {
+                "i": 8711,
+                "n": "Eerie Hat",
+                "l": 1,
+                "c": 41212,
+                "t": 34,
+                "p": 59
+            }
+        },
+        {
+            "type": "item",
+            "id": "8712",
+            "obj": {
+                "i": 8712,
+                "n": "Eerie Robe",
+                "l": 1,
+                "c": 42384,
+                "t": 35,
+                "p": 59
+            }
+        },
+        {
+            "type": "item",
+            "id": "8713",
+            "obj": {
+                "i": 8713,
+                "n": "Eerie Tights",
+                "l": 1,
+                "c": 45467,
+                "t": 36,
+                "p": 39
+            }
+        },
+        {
+            "type": "item",
+            "id": "8714",
+            "obj": {
+                "i": 8714,
+                "n": "Eerie Crakows",
+                "l": 1,
+                "c": 46408,
+                "t": 38,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65773",
+            "obj": {
+                "i": 65773,
+                "n": "A Plague of Pumpkins",
+                "g": 203,
+                "l": "Limsa Lominsa",
+                "s": 56
+            }
+        }
+    ]
+}

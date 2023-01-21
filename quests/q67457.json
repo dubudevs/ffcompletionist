@@ -1,0 +1,115 @@
+{
+    "quest": {
+        "name": "An Awkward Situation",
+        "location": "The Sea of Clouds",
+        "id": 67457,
+        "patch": 3.0,
+        "sort": 5710,
+        "eventIcon": 71221,
+        "issuer": 1013580,
+        "target": 1012067,
+        "genre": 97,
+        "journal": [
+            "This Vanu Vanu is in an embarrassing situation.",
+            "In the Cromlech you come across a Vanu Vanu who is about to become a sacrifice for the Vundu tribe. A malicious poison prevents him from moving, but with your help he may be able to escape. Go to Aanu Vanu in Ok' Zundu for an antidote to the paralytic poison.",
+            "Aanu Vanu gives you the antidote, bidding you make your way back to the would-be sacrifice as soon as possible.",
+            "The desperate Vanu Vanu eagerly drinks the antidote, but his motor functions are not restored immediately. The unlucky Vanu will hide while you return to Aanu Vanu and ask him to send a sanuwa to the Cromlech. ",
+            "Aanu Vanu agrees to send a sanuwa towards the Cromlech immediately. With any luck the poor Zundu Vanu will return unscathed."
+        ],
+        "objectives": [
+            "Receive the paralyna from Aanu Vanu.",
+            "Use the paralyna on the Zundu sacrifice.",
+            "Report to Aanu Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "SACRIFICEVANU01921",
+                "text": "Netherling, help! Tribe of Vundu means to make sacrifice soon! Grant freedom before Vundu shaman returns."
+            },
+            {
+                "name": "SACRIFICEVANU01921",
+                "text": "Poison from fiendish Vundu courses through veins, prevents all movement. Netherling, ride on fiercest gale to Aanu Vanu in Ok' Zundu for antidote, and return here before ceremony of sacrifice finishes."
+            },
+            {
+                "name": "SACRIFICEVANU01921",
+                "text": "Poison is curable─but only Aanu Vanu knows which antidote to use. Hurry before Vundu shaman returns!"
+            },
+            {
+                "name": "AANUVANU",
+                "text": "...Vundu tribe means to sacrifice innocent Zundu!? Tribe of Vundu goes too far this time! Hurry, netherling, take this antidote to fellow Zundu and free him from dreadful poison."
+            },
+            {
+                "name": "AANUVANU",
+                "text": "Time for talk there is not, netherling! Hurry before fellow Zundu becomes sacrifice."
+            },
+            {
+                "name": "BALLOON",
+                "text": "Toss netherling into cloud sea!"
+            },
+            {
+                "name": "SACRIFICEVANU01921",
+                "text": "Netherling's courage remains as reliable as setting sun. However, poison takes time to flow through body, and lingers as a scent brought by gentle breeze."
+            },
+            {
+                "name": "SACRIFICEVANU01921",
+                "text": "For now I hide and remain quiet, away from cruel eye of Vundu tribesmen. Tell Aanu Vanu to send sanuwa─poison should run its course before steed's arrival."
+            },
+            {
+                "name": "SACRIFICEVANU01921",
+                "text": "Vundu can search, but they will not find. This one waits here until wings of sanuwa arrive to deliver freedom."
+            },
+            {
+                "name": "AANUVANU",
+                "text": "...Ah, thank the blessings of the heavens that our tribesmate is safe. Aanu Vanu sends swiftest sanuwa on zephyr winds to the Cromlech. Once again, netherling, Ok' Zundu is in your debt."
+            }
+        ],
+        "reward": {
+            "gil": 742,
+            "xp": 38400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 57,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67183
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013580",
+            "obj": {
+                "i": 1013580,
+                "n": "Zundu Sacrifice",
+                "l": 2100,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012067",
+            "obj": {
+                "i": 1012067,
+                "n": "Aanu Vanu",
+                "l": 2100,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67183",
+            "obj": {
+                "i": 67183,
+                "n": "Bolt, Chain, and Island",
+                "g": 3,
+                "l": "The Sea of Clouds",
+                "s": 72
+            }
+        }
+    ]
+}

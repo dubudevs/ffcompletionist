@@ -1,0 +1,236 @@
+{
+    "quest": {
+        "name": "Operation Archon",
+        "location": "The Waking Sands",
+        "id": 70057,
+        "patch": 6.1,
+        "sort": 242,
+        "icon": 100155,
+        "eventIcon": 71201,
+        "issuer": 1006690,
+        "target": 1006578,
+        "genre": 1,
+        "journal": [
+            "Minfilia would brief you on the Eorzean Alliance's planned counteroffensive against the Empire.",
+            "So begins Operation Archon, the Eorzean Alliance's eleventh-hour bid to purge the realm of the imperial menace. Suffice it to say, your role in the counteroffensive will be crucial to its success. Proceed to the Immortal Flames encampment north of Vesper Bay, and speak with the Allied communications officer to receive your orders.",
+            "The Immortal Flames stand ready to launch their assault on the imperial outpost at Cape Westwind. Make your way to the staging point situated before the enemy stronghold, and report for duty to Lieutenant Adalbert.",
+            "Phase one of Operation Archon is now in motion. Enter the imperial outpost and fight your way through to the innermost sector, where a confrontation with Rhitahtyn sas Arvina awaits.",
+            "At the end of a fierce struggle, you deal Rhitahtyn his death-blow, consigning the first Roegadyn to hold the rank of praefectus to history. Phase one of Operation Archon has ended in success.",
+            "With Rhitahtyn's demise, the forces garrisoned at Castrum Occidens have been thrown into disarray. For now, withdraw to the Immortal Flames encampment north of Vesper Bay, and report to the Allied communications officer.",
+            "The time has come to commence the second phase of Operation Archon. When you are ready, request further orders from the Allied communications officer."
+        ],
+        "objectives": [
+            "Speak with the Allied communications officer.",
+            "Report to Adalbert in front of the imperial outpost.",
+            "Examine the designated location to confront Rhitahtyn sas Arvina at Cape Westwind.",
+            "Report to the Allied communications officer."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In order to proceed with this quest, you must first complete the quest “My Little Chocobo (MaelstromTwin AdderImmortal Flames).”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may accept the quest “My Little Chocobo (MaelstromTwin AdderImmortal Flames)” by speaking with R'ashaht Rhiki at Maelstrom CommandVorsaile Heuloix at the Adders' NestCommander Swift at the Hall of Flames."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "You are well come, <span class=\"highlight\">Forename Surname</span> of the Scions. As communications officer, it falls to me to issue you your orders, and provide guidance on forthcoming missions."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "Your first mission is to infiltrate the imperial outpost at Cape Westwind and eliminate Praefectus Rhitahtyn sas Arvina."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "All participating units are now in position and awaiting your arrival. Please proceed to the staging point and report to Lieutenant Adalbert."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "This is but the first step in our bid to purge the realm of the Garlean menace. I shall pray for your success!"
+            },
+            {
+                "name": "ADALBERT",
+                "text": "Go now, <span class=\"highlight\">Forename</span>, and bring us Rhitahtyn's head! May Rhalgr grant you strength!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You must be a Disciple of War or Magic of level 49 or above to proceed."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "&lt;pant&gt; &lt;pant&gt; You are stronger than I had expected..."
+            },
+            {
+                "name": "RHITAHTYN",
+                "text": "But I have my honor! I cannot─I will not yield!"
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "Scion <span class=\"highlight\">Surname</span>! Your deeds this day are an inspiration to us all!"
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "With the death of the praefectus, Operation Archon has entered its second phase. Even as we speak, the Maelstrom moves to blockade Castrum Occidens and Castrum Marinum."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "And far to the east, in the Black Shroud, the Order of the Twin Adder advances upon Castrum Oriens."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "Already, you have done much to advance our cause, performing such feats as are worthy of song─but if our plan is to succeed, more is required of you."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "Let me know when your preparations are in order, and I shall relay to you the particulars of your next mission."
+            },
+            {
+                "name": "KANRIKAN",
+                "text": "The assault on Cape Westwind is but the first step in our bid to purge the realm of the Garlean menace. I shall pray for your success!"
+            }
+        ],
+        "reward": {
+            "gil": 3463,
+            "items": [
+                {
+                    "id": 3183,
+                    "one": 1
+                },
+                {
+                    "id": 3191,
+                    "one": 1
+                },
+                {
+                    "id": 27677,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5826,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 49,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66058
+            ]
+        },
+        "next": [
+            66573,
+            66574
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006690",
+            "obj": {
+                "i": 1006690,
+                "n": "Minfilia",
+                "l": 356,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006578",
+            "obj": {
+                "i": 1006578,
+                "n": "Allied Communications Officer",
+                "l": 42,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "3183",
+            "obj": {
+                "i": 3183,
+                "n": "Tortoiseshell Scale Mail",
+                "l": 46,
+                "c": 43084,
+                "t": 35,
+                "p": 8016
+            }
+        },
+        {
+            "type": "item",
+            "id": "3191",
+            "obj": {
+                "i": 3191,
+                "n": "Raptorskin Harness",
+                "l": 47,
+                "c": 43081,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "27677",
+            "obj": {
+                "i": 27677,
+                "n": "Altered Woolen Cowl",
+                "l": 47,
+                "c": 43906,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66058",
+            "obj": {
+                "i": 66058,
+                "n": "The Black Wolf's Ultimatum",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 241
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66573",
+            "obj": {
+                "i": 66573,
+                "n": "A Hero in Need",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 243
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66574",
+            "obj": {
+                "i": 66574,
+                "n": "High Standards",
+                "g": 93,
+                "l": "Northern Thanalan",
+                "s": 490
+            }
+        }
+    ]
+}

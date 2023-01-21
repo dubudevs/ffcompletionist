@@ -1,0 +1,221 @@
+{
+    "quest": {
+        "name": "Into the Mists",
+        "location": "Ishgard",
+        "id": 67408,
+        "patch": 3.0,
+        "sort": 5605,
+        "icon": 100479,
+        "eventIcon": 71221,
+        "issuer": 1013557,
+        "target": 1013560,
+        "involved": [
+            1012163,
+            1013558,
+            1013559,
+            1013561
+        ],
+        "genre": 96,
+        "journal": [
+            "This unflinching Temple Knight seeks the aid of the adventurer who felled the mighty Nidhogg.",
+            "A knight standing calmly in the snowy Pillars has told you that Second Commander Handeloup of the Temple Knights seeks an audience with you. Go to the Congregation of Our Knights Most Heavenly and speak to Commander Handeloup to hear what he requires.",
+            "Once you arrive at the Congregation, Commander Handeloup explains that the Temple Knights would like to know more about the state of the Churning Mists since the fall of Nidhogg, and are planning a reconnaissance mission into the heart of the former dragon stronghold. Commander Handeloup has requested your strength and knowledge to aid Maenne, who will be leading the mission. Speak with her to find out more details of this dangerous mission.",
+            "Maenne introduces herself as the leader of the reconnaissance mission, and asks for you to share any knowledge of the Churning Mists that may be of aid. She determines that the best place to land will be at the Rookery, and bids you meet her there at your soonest convenience.",
+            "Maenne and her fellow dragoons have landed safely at the Rookery, and they await their orders hesitantly in this unfamiliar territory. Although she is troubled by a sense of trepidation, Maenne declares that their mission will begin shortly, and bids you aid them when you are ready. "
+        ],
+        "objectives": [
+            "Speak with Handeloup at the Congregation.",
+            "Speak with Maenne.",
+            "Speak with Maenne at the Rookery."
+        ],
+        "dialogue": [
+            {
+                "name": "TEMPLEKNIGHTA01872",
+                "text": "Ah, I've been looking for you, <span class=\"highlight\">Forename</span>. Commander Handeloup of the Temple Knights has an urgent matter he'd like to discuss with you. It would seem your strength is required once again."
+            },
+            {
+                "name": "TEMPLEKNIGHTA01872",
+                "text": "Pray make your way to the Congregation of Our Knights Most Heavenly and lend an ear to his request."
+            },
+            {
+                "name": "TEMPLEKNIGHTA01872",
+                "text": "The strength of an adventurer such as you is invaluable at a time like this. Pray speak with Commander Handeloup."
+            },
+            {
+                "name": "MAENNE",
+                "text": "The Churning Mists... Whatever kind of place could it be?"
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "Ah, the adventurer who felled the dread wyrm Nidhogg is here at last. I have a request that requires the strength of one such as you."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "We wish to know the current state of the Churning Mists, now that Nidhogg has been laid low. To that end, we have planned a reconnaissance mission that aims to gather information on the Churning Mists. "
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "Maenne here will be leading the mission, and I would ask that you aid her with your knowledge, as well as your strength. If you wish to aid us, pray speak to her."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "Maenne is in charge of this mission and its planning. Pray speak to her to hear more."
+            },
+            {
+                "name": "MAENNE",
+                "text": "Ah, so you're the adventurer <span class=\"highlight\">Forename</span> I've heard so much about. Well met, friend, I am Maenne, and I'll be leading our mission into the Churning Mists. I know Ser Handeloup has spoken to you already─will you be lending us your assistance?"
+            },
+            {
+                "name": "MAENNE",
+                "text": "'Tis an honor to have the aid of the one who felled the mighty Nidhogg. As you already know, we hope to strike deep into the heart of what was once Nidhogg's domain."
+            },
+            {
+                "name": "MAENNE",
+                "text": "However, the Churning Mists remain an uncharted territory for us. I would ask that you teach us all you know of the place, of the beasts dwelling within, and any other information that could aid our mission."
+            },
+            {
+                "name": "MAENNE",
+                "text": "...I see... You have my thanks, <span class=\"highlight\">Forename</span>. With this information to guide us we can plan a secure route to our destination. We shall take the airship and make anchor at the Rookery."
+            },
+            {
+                "name": "MAENNE",
+                "text": "We shall begin preparations for our departure shortly. Let us meet again at the Rookery, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "AIRPORTINVESTIGATOR01871",
+                "text": "We are honored to have you with us, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "MAENNE",
+                "text": "So this is the Churning Mists. 'Tis the first time I've set foot in the Horde's stronghold."
+            },
+            {
+                "name": "MAENNE",
+                "text": "For the safety of the Holy See, we must needs ascertain the movements of the Horde, now that Nidhogg no longer guides them."
+            },
+            {
+                "name": "MAENNE",
+                "text": "Nonetheless, this place fills me with a sense of unease. It's as if someone─or something─is watching us..."
+            },
+            {
+                "name": "MAENNE",
+                "text": "...Ah, 'tis best not to pay nervous fancies any mind. <span class=\"highlight\">Forename</span>, we shall begin our mission shortly. May it end without incident."
+            }
+        ],
+        "reward": {
+            "gil": 875,
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67404
+            ]
+        },
+        "next": [
+            67414
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013557",
+            "obj": {
+                "i": 1013557,
+                "n": "Unflinching Temple Knight",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013560",
+            "obj": {
+                "i": 1013560,
+                "n": "Maenne",
+                "l": 2002,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012163",
+            "obj": {
+                "i": 1012163,
+                "n": "Handeloup",
+                "l": 2300,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013558",
+            "obj": {
+                "i": 1013558,
+                "n": "Unflinching Temple Knight",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013559",
+            "obj": {
+                "i": 1013559,
+                "n": "Maenne",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013561",
+            "obj": {
+                "i": 1013561,
+                "n": "Scouting Party Dragoon",
+                "l": 2002,
+                "q": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67404",
+            "obj": {
+                "i": 67404,
+                "n": "Trouble at Zenith",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5533
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67414",
+            "obj": {
+                "i": 67414,
+                "n": "Bitter Is the Night",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5604
+            }
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "quest": {
+        "name": "Eyes on the Empire",
+        "location": "Coerthas Central Highlands",
+        "id": 66516,
+        "patch": 2.0,
+        "sort": 229,
+        "eventIcon": 71201,
+        "issuer": 1006380,
+        "target": 1006518,
+        "involved": [
+            1006517
+        ],
+        "genre": 1,
+        "journal": [
+            "Lord Portelaine would like to aid in your search for Biggs and Wedge.",
+            "According to Lord Portelaine, word of the imperial airship's emergency landing came to the Observatorium by way of Dzemael Darkhold. So as to expedite your mission, he provides you with an introduction letter to show to Ser Bricelt, a knight stationed at the entrance to the subterranean fortress.",
+            "Ser Bricelt informs you that two captives reportedly fled the airship the instant it landed. You are next directed to seek out a knight named Pierremons, who stands guard at the Aurum Vale.",
+            "At the Aurum Vale, Ser Pierremons recounts his sighting of the imperial airship. The vessel has since taken back to the skies, but not before deploying a contingent of imperial troops."
+        ],
+        "objectives": [
+            "Show the letter of introduction to Bricelt.",
+            "Speak with Pierremons."
+        ],
+        "dialogue": [
+            {
+                "name": "PORTELAINE",
+                "text": "My purpose here is to reconnoiter Garlean activity along Abalathia's Spine. Owing to this, I have the honor of being acquainted with Y'shtola."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Now, the report of the imperial airship's emergency landing came to us by way of Dzemael Darkhold, situated to the west."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "Our man stationed at the entrance, a knight named Bricelt, may be able to tell you more. So as to expedite your mission, I shall furnish you with a letter of introduction."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "I pray that you will soon be reunited with your comrades. May the Fury grant you strength."
+            },
+            {
+                "name": "BRICELT",
+                "text": "You stand before Dzemael Darkhold, the subterranean fortress excavated by the great Ishgardian house of the same name. None but authorized personnel may enter."
+            },
+            {
+                "name": "BRICELT",
+                "text": "A letter from Lord Portelaine?<br>...So you have come about the imperial airship."
+            },
+            {
+                "name": "BRICELT",
+                "text": "According to our scouts, the vessel had scarce touched the ground when a pair of men─captives, by all accounts─burst forth and bolted. Imperial soldiers have since been sighted in the area, seeking to recapture them."
+            },
+            {
+                "name": "BRICELT",
+                "text": "What? The captives are like to be your friends, you say? Then let us pray that they are yet a step ahead of their pursuers..."
+            },
+            {
+                "name": "BRICELT",
+                "text": "The emergency landing reportedly took place near the Aurum Vale, situated south and west of here. I suggest you take your search there. Seek out a knight named Pierremons─he should be able to assist you."
+            },
+            {
+                "name": "PIERREMONS",
+                "text": "...The imperial airship? Aye, I saw it approach to land with mine own two eyes."
+            },
+            {
+                "name": "PIERREMONS",
+                "text": "I hastened to the landing site, arriving just in time to see the vessel take to the skies again, but not before it had deployed a detachment of troops. Gruff orders were being barked, and there was an air of consternation about them."
+            }
+        ],
+        "reward": {
+            "gil": 1646,
+            "items": [
+                {
+                    "id": 3431,
+                    "one": 1
+                },
+                {
+                    "id": 27646,
+                    "one": 1
+                },
+                {
+                    "id": 3429,
+                    "one": 1
+                },
+                {
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 24380
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66514
+            ]
+        },
+        "next": [
+            66517
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006380",
+            "obj": {
+                "i": 1006380,
+                "n": "Portelaine",
+                "l": 63,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006518",
+            "obj": {
+                "i": 1006518,
+                "n": "Pierremons",
+                "l": 63,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006517",
+            "obj": {
+                "i": 1006517,
+                "n": "Bricelt",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3431",
+            "obj": {
+                "i": 3431,
+                "n": "High Mythril Flanchard",
+                "l": 44,
+                "c": 45352,
+                "t": 36,
+                "p": 9522
+            }
+        },
+        {
+            "type": "item",
+            "id": "27646",
+            "obj": {
+                "i": 27646,
+                "n": "Altered Woolen Trousers",
+                "l": 44,
+                "c": 47282,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "3429",
+            "obj": {
+                "i": 3429,
+                "n": "Woolen Gaskins",
+                "l": 44,
+                "c": 45182,
+                "t": 36,
+                "p": 3808
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66514",
+            "obj": {
+                "i": 66514,
+                "n": "Casing the Castrum",
+                "g": 1,
+                "l": "The Waking Sands",
+                "s": 228
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66517",
+            "obj": {
+                "i": 66517,
+                "n": "Footprints in the Snow",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 230
+            }
+        }
+    ]
+}

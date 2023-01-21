@@ -1,0 +1,468 @@
+{
+    "quest": {
+        "name": "Highway Robbery",
+        "location": "Limsa Lominsa",
+        "id": 66856,
+        "patch": 2.2,
+        "sort": 0,
+        "icon": 100234,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1003550,
+        "target": 1005927,
+        "involved": [
+            1005964,
+            1005965,
+            1005967,
+            1006325,
+            1007950,
+            1007958
+        ],
+        "genre": 38,
+        "journal": [
+            "Trachraet seeks an adventurer with superior sleuthing skills.",
+            "Lieutenant Trachraet reveals to you a troubling development: a Maelstrom convoy was recently intercepted, the unidentified perpetrators absconding with a vital shipment of saltpeter. He beseeches your aid, asking you to travel to Swiftperch in western La Noscea to assist Lieutenant Skaetswys, the officer tasked with leading the investigation.",
+            "Lieutenant Skaetswys is grateful for your assistance, as her subordinates have thus far not demonstrated much in the way of investigative skills. Search Swiftperch for the evidence which has thus far eluded her grasp.",
+            "A thorough scouring of Swiftperch has turned up a misshapen pickaxe of curious make. Could this be a tool left behind by the saltpeter thieves? Present it to Lieutenant Skaetswys in hopes that it sheds light on her inquiry.",
+            "Upon a close examination of the pick, Skaetswys is now convinced that the ambush of the convoy was carried out by a band of kobolds. Accompany Skaetswys to Camp Overlook and seek out Commander Bloeidin, whose vast knowledge of the tunnel-dwelling beastmen will prove vital in determining a proper course of action.",
+            "Upon your arrival at Camp Overlook, a captive kobold under interrogation by Commander Bloeidin is quick to confess that a notorious order of his kin, the 789th, were the masterminds behind the saltpeter theft. Exercising due caution, infiltrate their den of villainy and rendezvous once more with Skaetswys.",
+            "No sooner do you arrive at the dig and locate the stolen supplies than does the 789th Order sniff out your presence, quickly surrounding you. The mystery then deepens, however, when the vicious kobolds surrender the stolen goods with nary a fight. Speak with Skaetswys again, that the two of you might puzzle out exactly what has transpired.",
+            "Thoroughly confused by the kobolds' behavior, Skaetswys nonetheless elects to put off any further pondering until the supplies are safely conveyed to their original destination. Before setting off for Camp Overlook, she encourages you to explore the dig and seek out the leader of the 789th, that you might glean some knowledge of the surprisingly nonconfrontational kobolds.",
+            "The foreman of the 789th, an uninspiring kobold by the name of Gi Gu, sheepishly expresses his remorse for his order's actions, while insisting that they only stooped to common thievery due to extenuating circumstances. It would seem there is more to these kobolds' plight than meets the eye..."
+        ],
+        "objectives": [
+            "Speak with Skaetswys at Swiftperch.",
+            "Search Swiftperch and the vicinity for clues.",
+            "Deliver the crooked pickaxe to Skaetswys.",
+            "Speak with Bloeidin at Camp Overlook.",
+            "Speak with Skaetswys at the 789th Order Dig.",
+            "Speak with Skaetswys.",
+            "Speak with 789th Order Pickman Gi Gu."
+        ],
+        "dialogue": [
+            {
+                "name": "TRACHRAET",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">[GC Rank]</span><span class=\"alternative\"> <span class=\"highlight\">Surname</span></span><span class=\"alternative\"><span class=\"highlight\">Forename</span></span></span>! I know not what brings ye to Maelstrom Command this day, but I can 'ardly fault yer timin'. Aye, we've a situation on our 'ands, we do."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "Not days ago, a convoy of ours was ambushed en route to Limsa, and a goodly shipment of saltpeter plundered from our very 'ands. The scurvy dogs responsible for the act struck swiftly and under darkness, so we've yet to figure out who they are─much less bring them to justice."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "Saltpeter, as ye may know, is a key ingredient in fashionin' firesand. Whatever our foe might be plottin', like as not it involves an 'earty share o' fiery death and destruction."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "Command has dispatched an elite regiment to the field to investigate, but clues 'ave proved 'arder to come by than an 'alf-decent pint of ale at sea."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "Leadin' the investigation is a good comrade of mine. While I'd like nothin' more than to lend me strength to 'er search, I can't very well shirk me duties 'ere."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "If ye find yerself itchin' for adventure, ye could do worse than to make for Swiftperch and seek out one Lieutenant Skaetswys. Just say that Trachraet sent ye."
+            },
+            {
+                "name": "TRACHRAET",
+                "text": "A dear old comrade of mine leads the search for our missin' shipment of saltpeter. If ye be itchin' for adventure, make for Swiftperch and seek out one Lieutenant Skaetswys. Just say that Trachraet sent ye."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Llymlaen take the lot of ye! Ye'd 'ave me believe that there's not a single piece of evidence in this entire godsforsaken 'amlet!?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "And who might <span class=\"emphasis\">you</span> be? An adventurer come on behalf of ol' Trachraet? Who said I was lookin' for 'elp, anyway?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Trachraet did? Hah! I'll 'ave ye both know that it's all clear skies and smooth sailin' 'ere. Aye, I was just about to file my report to─"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "...Eh, I ain't foolin' no one. A good tonze o' saltpeter's been snatched from our 'ands, like as not by someone who'd use it to sink our fair Limsa to the bottom o' the sea. All right, I'll share with ye what me men 'ave gleaned, though I warn ye─it ain't much."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Given the scope o' the act, we believe it was a coordinated effort by a well-trained group. What's more, given the sheer speed with which the scurvy thieves vanished from our sight, I reckon that they 'ave knowledge o' passages unknown to us."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "I 'ad me 'opes up that my men would've found <span class=\"emphasis\">somethin'</span>, but they 'ad no such luck. What say ye? Care to take a look around and see if ye can find the evidence me 'alf-blind and thrice-daft subordinates couldn't?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "To steal off with all those crates with even our best men catchin' nary a glimpse... We're dealin' with a criminal band o' surpassin' skill an' chicanery."
+            },
+            {
+                "name": "KOKKADANA01320",
+                "text": "&lt;sigh&gt; I'm in for a demotion for sure. How will I ever face me wife and kids again...?"
+            },
+            {
+                "name": "KOKKADANB01320",
+                "text": "Me eyes never left the wagon─I swear on me mother's grave! Well, I mean...maybe they did. Just for a moment... But Aleport was in clear sight! Can ye blame me for thinkin' we were safe?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "<span class=\"highlight\">Forename</span>, was it? Well? Find any evidence that could shed some light on our investigation?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Hmmm...what 'ave we here? A pickaxe, and a rather sorry-lookin' one, at that. Do ye reckon this was left behind by the perpetrators?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "In my time with the Maelstrom, I've confronted just about every pirate, brigand, and 'ighwayman in these parts, but I've not known any of 'em to employ a tool like this."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "No, I'd wager more than a round at the Wench that our band o' grubby little thieves ain't no ordinary men. Aye, it's all becomin' clear to me..."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "...And yerself, no doubt. Tell me, <span class=\"highlight\">Forename</span>─might ye be thinkin' what I'm thinkin'?"
+            },
+            {
+                "name": "Q1",
+                "text": "Are you thinking what Skaetswys is thinking? The culprit is..."
+            },
+            {
+                "name": "A1",
+                "text": "...A rogue Roegadyn!?"
+            },
+            {
+                "name": "A1",
+                "text": "...Those conniving kobolds!"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "None other! Aye, only a Roegadyn of abundant physical and mental talents─such as meself─could fashion and employ such an exquisite piece o'..."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "...Do ye 'ave barnacles where yer brains should be, adventurer!? 'Cause if yer so much as <span class=\"emphasis\">implyin'</span> that I staged the robbery meself, ye'll be takin' a long walk off a short pier the second you set foot back in Limsa!"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "...I knew ye were a sharp one. Aye, the moment I laid eyes on that pickaxe ye found, me mind was convinced."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "The primitive make o' this tool, an all–too–'ealthy interest in explosives─all signs point to those rat–faced rapscallions bein' behind all this."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "It's so bloody obvious now that I could almost kick meself─and me good–for–nothin' men─for not comin' to this conclusion sooner."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "But this is 'ardly a time for whingin'. No, we must strike quickly if we mean to reclaim what's ours."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Camp Overlook is our front line o' defense against those tunnel-burrowin' thieves. If anyone 'as a notion o' where they've taken the saltpeter and 'ow they plan to use it, it'll be Commander Bloeidin."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "I'm off to deliver me report, but I've an 'unch our job has only begun. What say you come along, <span class=\"highlight\">Forename</span>? You're the first capable <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> I've worked with today."
+            },
+            {
+                "name": "KOBOLDA01320",
+                "text": "Release me at once─free me, unhand me, release me!"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Hm? Make it quick, adventurer. As ye can see, I've got me hands full with our little friend here."
+            },
+            {
+                "name": "KOBOLDA01320",
+                "text": "This is an outrage─a farce, an atrocity, an outrage! This is an insult, and we kobolds will not stand for it. No, no, stand no more!"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Ye'll not have legs to stand on if ye don't quit blabberin' an' spill the truth about whatever it is ye scurvy rats are plottin'!"
+            },
+            {
+                "name": "KOBOLDA01320",
+                "text": "Plotting? There is no plotting! No, no, we plot nothing─naught, nil, nothing!"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Enough! Unlike you and yer ilk, I've a workin' pair of eyes and at least half me wits about me. Ye think I've not seen you lot blastin' and scurryin' around U'Ghamaro of late!?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Commander Bloeidin, sir!"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Skaetswys? Aye, it's a treat to see me old trainee, but I fear a brewin' kobold plot demands me attention..."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "<span class=\"highlight\">Forename</span> 'ere and I just might be able to 'elp ye with that, Commander. I trust ye've 'eard the news of our missin' shipment of saltpeter?"
+            },
+            {
+                "name": "KOBOLDA01320",
+                "text": "So soon she knows!? This cannot be! No, no, it cannot be!"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Hah, I knew it! Yer endless tongue-waggin' has finally dug yer own grave!"
+            },
+            {
+                "name": "KOBOLDA01320",
+                "text": "It was not us! No, no, not us. It was <span class=\"emphasis\">them</span>─yes, yes, <span class=\"emphasis\">them</span>!"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "What nonsense is this? Beady eyes, frizzy tail, a penchant for causin' us trouble─a kobold's a kobold!"
+            },
+            {
+                "name": "KOBOLDA01320",
+                "text": "This is not so! No, no, not so! There are kobolds, and then there are kobolds, and then there are kobolds still. It is the low ones who stole your precious saltpeter─the ones who live down, beneath, below!"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Beneath and below? ...Come to think of it, me scouts did mention a particularly scraggy band of kobolds what seem to have made their home at the cliff base."
+            },
+            {
+                "name": "KOBOLDA01320",
+                "text": "Yes, yes! That is the place! That is the home, the home of the 789th. They are the worst─the worst of the worst. They are most stinky─smelly, scummy, stinky─and ugly, too!"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Commander! As the presidin' officer in this investigation, I request permission to go below and investigate the so-called 789th. Furthermore, I would enlist this adventurer to join me─<span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">'e</span></span>'s proven <span class=\"alternative-container\"><span class=\"alternative\">'erself</span><span class=\"alternative\">'imself</span></span> capable, and it would seem we go up against a worthy foe."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "As ye please, Lieutenant. But I warn ye, be careful down there. The sight of a kobold won't strike fear into anyone's heart, but their bite─and their bombs─are a fair sight worse than their bark."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Understood, Commander─we'll not let ye down. And with that, I take my leave. Till sea swallows all!"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Well, <span class=\"highlight\">Forename</span>? Are ye ready to take on the scurviest band o' kobolds in La Noscea? Ye'd best be, because I'm countin' on ye to make yerself useful."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Kobolds might look like little more than overgrown wharf rats, but their minds are as sharp as their claws. If you ever find yerself surrounded by 'em, ye'd best be ready for the fight o' yer life."
+            },
+            {
+                "name": "KOBOLDA01320",
+                "text": "No good can come from dealing with the 789th. No good, no good at all. Ignore my words, and you are a fool─a dunce, a <span class=\"alternative-container\"><span class=\"alternative\">madwoman</span><span class=\"alternative\">madman</span></span>, a fool."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Well, well... What 'ave we 'ere?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "One, two...aye, three crates o' saltpeter. It would seem our kobold informant spoke true."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "What the─!?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Surrounded!? Stand ready, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Are ye just goin' to stand there squeakin' at me all <span class=\"alternative-container\"><span class=\"alternative\">night</span><span class=\"alternative\">day</span></span>!? Fight with 'onor, or die like the rats ye are!"
+            },
+            {
+                "name": "GIGU",
+                "text": "(-Unimposing Kobold-)Ah, er...are there no alternatives─ch-choices, options, alternatives? Such as perhaps...surrender? Yes, yes, surrender! We surrender!"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Did you just say...surrender?"
+            },
+            {
+                "name": "KOBOLD01320",
+                "text": "(-789th Order Kobolds-)Yes, yes, we surrender─yield, submit, surrender!"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "What in the seven hells...?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "I 'aven't an inklin' as to the whys and wherefores, but it seems the notorious 789th is keen to return their plunder without so much as a fight."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "I, for one, wouldn't 'ave been opposed to crackin' a few kobold skulls, but considerin' the strained relations between Limsa and the little buggers these days, who can argue with good diplomacy?"
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "Anyroad, I'll report back to Commander Bloeidin and arrange for the transport o' the supplies─aye, and with a reliable escort this time."
+            },
+            {
+                "name": "SKAETSWYS",
+                "text": "In the meantime, why don't ye ask around and see what ye can learn about our new neighbors? After all, they don't seem 'alf as imposin' as I expected─their leader least of all... Best of luck, <span class=\"highlight\">Forename</span>. Till sea swallows all!"
+            },
+            {
+                "name": "GIGU",
+                "text": "Is the scary woman gone yet? Oh please, please say she is! You must forgive Gi Gu. Yes, Gi Gu and his friends naughty─wicked, nasty, naughty!"
+            },
+            {
+                "name": "GIGU",
+                "text": "Y-You are still here!? We have surrendered, yes? Yielded, submitted, surrendered? You will not hurt us, yes?"
+            },
+            {
+                "name": "GIGU",
+                "text": "...Phew. I am relieved─reassured, relaxed, relieved. And who I am, you ask?"
+            },
+            {
+                "name": "GIGU",
+                "text": "I am Gi Gu, and Gi Gu is foreman of the 789th. Leader in name, yes, but no more. No, no, no more. For in truth, no one listens to Gi Gu. Gi Gu is ignored─invisible, insulted, ignored...incompetent, too."
+            },
+            {
+                "name": "GIGU",
+                "text": "The 789th stole your precious boompowder? Yes, yes, we did. And yet, we had good cause for doing so─an excuse, a reason, a cause."
+            },
+            {
+                "name": "GIGU",
+                "text": "Ours is a peaceful order by nature. The 789th troubled no one, and no one troubled us. No, not until now. Now we are driven from the tunnels, exiled to this place that stinks of soil and seawater."
+            },
+            {
+                "name": "GIGU",
+                "text": "But you are a stranger, and I ramble too much, too soon. No, no, I will speak no more. Go now, and leave Gi Gu to his suffering─his pain, his shame, his suffering."
+            }
+        ],
+        "reward": {
+            "gil": 691,
+            "xp": 11500
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 41,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66488
+            ]
+        },
+        "next": [
+            66857
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003550",
+            "obj": {
+                "i": 1003550,
+                "n": "Trachraet",
+                "l": 28,
+                "q": 8,
+                "t": "Storm Lieutenant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005927",
+            "obj": {
+                "i": 1005927,
+                "n": "789th Order Pickman Gi Gu",
+                "l": 350,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005964",
+            "obj": {
+                "i": 1005964,
+                "n": "Skaetswys",
+                "l": 33,
+                "q": 1,
+                "t": "Storm Lieutenant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005965",
+            "obj": {
+                "i": 1005965,
+                "n": "Panicked Storm Private",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005967",
+            "obj": {
+                "i": 1005967,
+                "n": "Captured Kobold",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006325",
+            "obj": {
+                "i": 1006325,
+                "n": "Bloeidin",
+                "l": 350,
+                "q": 15,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007950",
+            "obj": {
+                "i": 1007950,
+                "n": "Skaetswys",
+                "l": 350,
+                "q": 1,
+                "t": "Storm Lieutenant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007958",
+            "obj": {
+                "i": 1007958,
+                "n": "Mortified Storm Private",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66488",
+            "obj": {
+                "i": 66488,
+                "n": "In Pursuit of the Past",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 211
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66857",
+            "obj": {
+                "i": 66857,
+                "n": "How Low Can You Go",
+                "g": 38,
+                "l": "Outer La Noscea",
+                "s": 0,
+                "f": 1
+            }
+        }
+    ]
+}

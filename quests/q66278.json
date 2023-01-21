@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "Shadows of the Empire",
+        "location": "South Shroud",
+        "id": 66278,
+        "patch": 2.0,
+        "sort": 240,
+        "eventIcon": 71221,
+        "issuer": 1000598,
+        "target": 1000598,
+        "genre": 92,
+        "journal": [
+            "Auphiliot would be most grateful if you could hunt down some Garlean interlopers in his stead.",
+            "A number of the Garleans responsible for the disappearance of the sylph elder remain in the area. Investigate the specified locations, and vanquish any Garleans you come upon.",
+            "The Garlean intruders are no more. Report your success to Auphiliot.",
+            "Thanks to your efforts, the Garleans have been driven off, and a small measure of peace has returned to the Twelveswood. At least for the moment."
+        ],
+        "objectives": [
+            "Investigate the specified locations and defeat Garleans.",
+            "Report to Auphiliot."
+        ],
+        "dialogue": [
+            {
+                "name": "AUPHILIOT",
+                "text": "Yer back, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>, an' somethin' tells me ye've not come for a flagon o' Buscarron's ale. All the better, that. I just overheard some Garlean stragglers was seen in the Twelveswood, an' ye know they're not like to be up to any good."
+            },
+            {
+                "name": "AUPHILIOT",
+                "text": "Me? Why, I'd like nothin' more than to gut those imperial whoresons meself, but I fear I've─<span class=\"emphasis\">hic</span>!─other...duties...to attend this day. We're countin' on ye, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>!"
+            },
+            {
+                "name": "AUPHILIOT",
+                "text": "Saw to those Garlean dogs as swift an' sure as I saw to me pint o'─er, me <span class=\"emphasis\">duties</span>, did ye? On behalf of old man Buscarron an' me compatriots here at the Druthers, ye have─<span class=\"emphasis\">hurk</span>!─me gratitude, an' then some."
+            },
+            {
+                "name": "AUPHILIOT",
+                "text": "What with ye an' meself seein' to matters, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>, I tell ye: no flagon o' mead or Garlean troublemaker on or around these premises is─<span class=\"emphasis\">hic</span>─safe!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 244,
+            "xp": 4620
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 24,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66050
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000598",
+            "obj": {
+                "i": 1000598,
+                "n": "Auphiliot",
+                "l": 56,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66050",
+            "obj": {
+                "i": 66050,
+                "n": "Into the Beast's Maw",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 129
+            }
+        }
+    ]
+}

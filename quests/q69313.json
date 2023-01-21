@@ -1,0 +1,443 @@
+{
+    "quest": {
+        "name": "The Converging Light",
+        "location": "Kholusia",
+        "id": 69313,
+        "patch": 5.3,
+        "sort": 270,
+        "icon": 101009,
+        "eventIcon": 71201,
+        "issuer": 1033829,
+        "target": 1033854,
+        "genre": 9,
+        "journal": [
+            "Y'shtola gazes out into the distance.",
+            "Eager to rendezvous with your comrades, Y'shtola sets off for Eulmore at a brisk pace, leaving you trailing in her wake.",
+            "You eventually catch up with Y'shtola at the aetheryte plaza, and together walk the last few steps to rejoin your assembled friends.",
+            "Your comrades listen intently as you recount your recent adventure in the depths, their faces turning grim at the revelation that Elidibus is a primal. Even as you ponder what your foe may do next, another starshower appears in the skies over Eulmore, this time accompanied by an illusion of Amaurot... Yet it does not end there, for you are promptly set upon by spectral warriors who emerge from arcane rings resembling those conjured in the Exarch's summoning rituals. Whatever the reason for this uncanny similarity, all agree that you must take the battle elsewhere lest innocents fall into harm's way. To that end, you resolve to board a waiting airship and fly for the Crystarium.<br><br>※To enlist your companion NPCs for this duty, speak with them near the entrance or access Duty Support via the main menu. Use the Duty Finder if you wish to complete the instance alongside fellow players.",
+            "Not long into your flight, the airship sustains heavy damage and you are forced to land in the wastes of Amh Araeng. Wings thus clipped, you have no choice but to make your way back to the Crystarium on foot, with spectral foes dogging your every step. Though your route proves to be unexpectedly circuitous, aided by many a friend made during your time in Norvrandt, you finally emerge in the familiar environs of Lakeland.",
+            "So near and yet so far. But a short distance from the Crystarium, you are surrounded by an army of spectral warriors, halting your party's breathless advance. In an oft-repeated scene, your comrades duly volunteer to hold the enemy at bay while you alone press on to your destination, and so you leave them. As you plunge through the forest, you stumble upon the prostrate forms of the Exarch and Beq Lugg, who have apparently escaped a close encounter with Elidibus. In rueful tones, they inform you that the Ascian has stolen the Exarch's spirit vessel─and has thus acquired the means to control the Crystal Tower. Despite his fast-advancing crystallization, the Exarch expresses his determination to help you to put a stop to Elidibus's plot, and fixes his gaze upon the tower.",
+            "Nearing the Crystarium, the Exarch begs leave to make a brief stop at the Accensor Gate, hoping to send guards to Beq Lugg's aid.",
+            "While the Exarch is issuing instructions, Lyna arrives to take charge of the situation in the Crystarium. Knowing all too well what is at stake, the two share a brief but heartfelt moment, and then you and the Exarch forge on towards the city.",
+            "At the Exedra, the Exarch observes with satisfaction that the ward he and Beq Lugg raised over the tower still holds. Within awaits your foe, made mighty by the hopes of the countless heroes he has summoned from other reflections. At a word from you, the Exarch will lift the ward and open the way to your reckoning with Elidibus. See that you are ready."
+        ],
+        "objectives": [
+            "Speak with Y'shtola in Eulmore.",
+            "Speak with Chai-Nuzz.",
+            "Enter the Heroes' Gauntlet.",
+            "Speak with the Crystal Exarch.",
+            "Speak with the nervous guard.",
+            "Speak with the Crystal Exarch."
+        ],
+        "dialogue": [
+            {
+                "name": "YSHTOLA",
+                "text": "Right─no more musing. We have taken far too long as it is."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Our friends await us in Eulmore, yes? Let us hurry and join them."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "So the rumors have reached this far..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "You certainly took your time. Did something happen?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Ah, there you are. Eventful trip?"
+            },
+            {
+                "name": "RYNE",
+                "text": "We were starting to worry─but I see we shouldn't have. No?"
+            },
+            {
+                "name": "URIANGER",
+                "text": "'Tis my pleasure to report that we accomplished our task without further bouts of faintness─a feat we attribute to Tataru's most generous gift."
+            },
+            {
+                "name": "CHAINUZZ",
+                "text": "Yes, people have been talking about little else of late..."
+            },
+            {
+                "name": "DULIACHAI",
+                "text": "Oh, if it isn't <span class=\"highlight\">Forename</span>! I confess, I'm not entirely sure what's going on, but with you and your friends here, I'm sure it will all be all right in the end!"
+            },
+            {
+                "name": "WRENDEN",
+                "text": "We have been apprised of the situation. Suffice it to say, we can ill afford to lose able-bodied citizens during this vital period of rebuilding."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "It appears we are fashionably late."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Come. Our tale will not wait."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "This will be my first time meeting Master Chai in his capacity as mayor. The fellow behind him is his advisor, I take it─Wrenden."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A1",
+                "text": "Small talk."
+            },
+            {
+                "name": "A1",
+                "text": "Form a party and enter the Heroes' Gauntlet."
+            },
+            {
+                "name": "A1",
+                "text": "Nothing."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We should first make for the western edge of Amh Araeng before bending our course towards the Crystarium."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "This route will allow us to land and contend with the enemy if necessary. Given that they can appear out of thin air, we must be prepared for anything."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "First the starshower, then these specters... And something tells me the worst is yet to come."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Urianger is right, though─the Exarch didn't send them. He would sooner harm himself than us."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "But that only makes me want to get back to the Crystarium more quickly."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Cutting down that swordsman felt like slicing through thin air. I only wish his blade had felt similarly intangible."
+            },
+            {
+                "name": "THANCRED",
+                "text": "We must lead them away from the civilians. The rest we can work out en route to the Crystarium."
+            },
+            {
+                "name": "THANCRED",
+                "text": "There are sure to be a few surprises along the way, but we are nothing if not resourceful."
+            },
+            {
+                "name": "RYNE",
+                "text": "I think they were after us. Us <span class=\"emphasis\">specifically</span>, I mean. And that's not all..."
+            },
+            {
+                "name": "RYNE",
+                "text": "I sensed the aura of Light around them. As if they were blessed, like you and me."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Fiery stars illuminating a blackened sky... By this vision, many and more shall have awakened to Hydaelyn's voice."
+            },
+            {
+                "name": "URIANGER",
+                "text": "And as Elidibus hath designed, their hearts shall swell with the desire for salvation. The desire which doth empower him."
+            },
+            {
+                "name": "URIANGER",
+                "text": "We must needs move swiftly against him, ere this mania seizeth every soul, and his might exceedeth all measure."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "If we are dealing with the selfsame magick employed by the Exarch, we may safely assume that our enemies are being summoned from other worlds."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Beyond that, all is speculation. But I would wager the fact that their summoning seems still less complete than our own has rendered them more susceptible to external influence. The suggestion to kill us, for example."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "But I am musing again. Let us away ere more of them manifest."
+            },
+            {
+                "name": "CHAINUZZ",
+                "text": "What are you still doing here!? To the airship with you!"
+            },
+            {
+                "name": "CHAINUZZ",
+                "text": "You can thank me later!"
+            },
+            {
+                "name": "DULIACHAI",
+                "text": "I don't know what this sky portends, but I <span class=\"emphasis\">do</span> know it can't be good."
+            },
+            {
+                "name": "DULIACHAI",
+                "text": "So please take care, and return to us safe and sound."
+            },
+            {
+                "name": "WRENDEN",
+                "text": "We will see that order is restored in the city. Go now, and do not look back."
+            },
+            {
+                "name": "EULMOREMANA",
+                "text": "Wh-Who were those ghostly figures? W-Were they the ones talking inside my head?"
+            },
+            {
+                "name": "EULMOREMANB",
+                "text": "When the stars were raining down, I thought I saw a city in the sky. But then the fighting broke out, and when I looked again, it was gone..."
+            },
+            {
+                "name": "EULMOREMANB",
+                "text": "Did you see it too? It was so beautiful! So <span class=\"emphasis\">heartbreakingly</span> beautiful..."
+            },
+            {
+                "name": "GUIDEOFTHEPENDANTS",
+                "text": "M-My <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">lord</span></span>! Sincerest apologies, but the way to your room is blocked at the moment. In their rush to see the starshower, a number of residents lost their footing and fell down the stairs, you see... Our chirurgeons are presently attending to them, and we ask for your patience and understanding until such time as they can be moved."
+            },
+            {
+                "name": "BEQLUGG",
+                "text": "Don't worry about me─I merely need a rest... Go on, off with you! I'd be no help at all..."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "With your permission, I would make a brief stop at Accensor Gate─just long enough to send the guard to Beq Lugg's aid, you understand."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Were it not for them, we would never have escaped Elidibus, much less with the spirit vessels."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Though mine fell into our foe's clutches, Beq Lugg gathered up the rest at great risk to themself."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "I must see that they are safe before we press on. Enough good people have given their lives that I might fulfill my duty."
+            },
+            {
+                "name": "CRYSTARIUMGUARD03777",
+                "text": "W-Warrior of Darkness! Exarch! Forgive us this paltry greeting. We were not notified of your coming!"
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "It wasn't planned. I need you to assemble a rescue party."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Our friend Beq Lugg lies wounded in a clearing to the west. Pray go to their aid with all haste."
+            },
+            {
+                "name": "CRYSTARIUMGUARD03777",
+                "text": "At once, my lord! M-May I ask how they came to harm?"
+            },
+            {
+                "name": "CRYSTARIUMGUARD03777",
+                "text": "There've been reports of enemies in our midst─<span class=\"emphasis\">specters</span> who appeared after the starshower. Do they have something to do with it?"
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Yes. The man who attacked Beq Lugg is also responsible for the starshower and the appearance of the specters."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "I have no time to explain, but know that the individual in question does not seek to do indiscriminate harm. If you do not bar his servants' path, they will not turn on you."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "You are to leave this foe to us, understood? Meanwhile, I ask that you alert the rest of the guard, and focus on maintaining calm in the city."
+            },
+            {
+                "name": "LYNA",
+                "text": "(-???-)Understood."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Lyna!"
+            },
+            {
+                "name": "LYNA",
+                "text": "I shall take charge of matters in the city. Find Beq Lugg─now!"
+            },
+            {
+                "name": "LYNA",
+                "text": "“No time to explain”... Hmph."
+            },
+            {
+                "name": "LYNA",
+                "text": "The graver the matter, the less inclined you are to speak of it. Even when it is plain for all to see─like what is happening to you."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Lyna... This time there truly is no time."
+            },
+            {
+                "name": "LYNA",
+                "text": "I know, my lord. Were matters otherwise, I believe you would even be willing to speak of your <span class=\"emphasis\">past</span> if pressed."
+            },
+            {
+                "name": "LYNA",
+                "text": "Yet I remain afraid to do so."
+            },
+            {
+                "name": "LYNA",
+                "text": "Afraid that what I might learn would make a stranger of you."
+            },
+            {
+                "name": "LYNA",
+                "text": "...Forgive me. There is no time."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Perhaps a few words are in order."
+            },
+            {
+                "name": "A2",
+                "text": "We need to get going."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Indeed. Time must be made."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "I know, my friend. I know. Just...grant me a moment. Please."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "...Lyna. Do you remember the time you got lost in the tower when you were little, and I searched for you for hours on end?"
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "And the cake I baked for your tenth nameday. That hideous lump the good people of the Mean covered up with beautiful candles..."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "And your hapless first encounter with the sin eaters as a guard. Afterwards, you threw yourself into your training, pretending nothing was wrong, though I could see the tears in your eyes..."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "All these moments that we shared, all the feelings that accompanied them...they are as real as aught that came before, and nothing will ever change that─will ever change what we mean to one another."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "If I have made you worry, then I beg your forgiveness. Heavens know you deserve better."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Through the darkest of times, you have kept faith with me, standing tall as a proud daughter of the Crystarium─as an example to us all. I count myself blessed to have had you in my life, and I want you to know that."
+            },
+            {
+                "name": "LYNA",
+                "text": "Why do you speak so? As if this were our last meeting? Truly, you have a knack for making people worry."
+            },
+            {
+                "name": "LYNA",
+                "text": "Besides, it is <span class=\"emphasis\">you</span> who are an example to us all. You who have led us through countless trials. And you who will lead us through countless trials to come."
+            },
+            {
+                "name": "LYNA",
+                "text": "So go, my lord. Do what you must.<br>...But take care."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "The ward holds. Excellent. Elidibus will still be within the tower."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "Our foe's sole purpose is to destroy you, and to that end he has summoned heroes from other reflections, empowering himself with their hope even as they occupy your comrades. You will not best him as easily as you did in the depths. By any measure, the odds are now stacked firmly in his favor."
+            },
+            {
+                "name": "MYSTERYVOICE",
+                "text": "To wit, spare no preparation, my friend. I shall lift the ward only when you are ready."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may now enter the Heroes' Gauntlet with a party of NPC avatars. To make use of this feature, open the <span class=\"highlight\">Trust</span> interface located under <span class=\"highlight\">Duty</span> in the main menu."
+            }
+        ],
+        "reward": {
+            "gil": 5353,
+            "instance": 75
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69312
+            ]
+        },
+        "next": [
+            69314
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1033829",
+            "obj": {
+                "i": 1033829,
+                "n": "Y'shtola",
+                "l": 2954,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1033854",
+            "obj": {
+                "i": 1033854,
+                "n": "Crystal Exarch",
+                "l": 2951,
+                "q": 2
+            }
+        },
+        {
+            "type": "instance",
+            "id": "75",
+            "obj": {
+                "i": 75,
+                "n": "The Heroes' Gauntlet",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 80,
+                "max_lvl": 80,
+                "min_ilvl": 460,
+                "max_ilvl": 500
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69312",
+            "obj": {
+                "i": 69312,
+                "n": "Etched in the Stars",
+                "g": 9,
+                "l": "The Tempest",
+                "s": 260
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69314",
+            "obj": {
+                "i": 69314,
+                "n": "Hope's Confluence",
+                "g": 9,
+                "l": "The Crystarium",
+                "s": 280
+            }
+        }
+    ]
+}

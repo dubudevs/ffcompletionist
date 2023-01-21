@@ -1,0 +1,145 @@
+{
+    "quest": {
+        "name": "Wool's Errand",
+        "location": "Lower La Noscea",
+        "id": 66012,
+        "patch": 2.0,
+        "sort": 60,
+        "eventIcon": 71221,
+        "issuer": 1002571,
+        "target": 1002652,
+        "genre": 91,
+        "journal": [
+            "Anaoc seeks an adventurer to assist the Red Rooster Stead.",
+            "Anaoc asks you to deliver wool to the Grey Fleet. Retrieve the sack of fleece from the sheep's pen.",
+            "You have obtained the sack of fleece. Deliver it to Weitzaren at the Grey Fleet.",
+            "Weitzaren receives your delivery with equal parts exasperation and delight. Thanks to you, the miller may now begin making his felt."
+        ],
+        "objectives": [
+            "Obtain the sack of fleece.",
+            "Deliver the sack of fleece to Weitzaren at the Grey Fleet."
+        ],
+        "dialogue": [
+            {
+                "name": "ANAOC",
+                "text": "I hope you don't feel sheepish about hauling a wee bit of wool. The flock's fleece is shorn and scoured, and the sack is all set to sail."
+            },
+            {
+                "name": "ANAOC",
+                "text": "Normally, the manic miller up north takes it and felts it for us."
+            },
+            {
+                "name": "ANAOC",
+                "text": "But it seems the only wool his courier's tending to today is his blanket, the lackadaisical loafer."
+            },
+            {
+                "name": "ANAOC",
+                "text": "So, I hoped you might see to it the sack of fleece down by the flock's pen reaches the miller─Weitzaren is his name."
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "A miller with no fleece is an artist with no canvas! A poet with no words! A man with no purpose!"
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "Curse that blasted courier! Do the sheep stop growing? Does the mill stop churning? What entitles him to rest?"
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "Bah! Let him count sheep in his bed! The wool is at last mine, and soon the felt shall be wrought! Mwahahaha..."
+            }
+        ],
+        "reward": {
+            "gil": 135,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 4696
+                }
+            ],
+            "xp": 975
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66011
+            ]
+        },
+        "next": [
+            66013,
+            66022
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002571",
+            "obj": {
+                "i": 1002571,
+                "n": "Anaoc",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002652",
+            "obj": {
+                "i": 1002652,
+                "n": "Weitzaren",
+                "l": 31,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "4696",
+            "obj": {
+                "i": 4696,
+                "n": "Flatbread",
+                "l": 5,
+                "c": 24006,
+                "t": 46,
+                "p": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66011",
+            "obj": {
+                "i": 66011,
+                "n": "Cry Me a Liver",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 50
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66013",
+            "obj": {
+                "i": 66013,
+                "n": "Flour Power",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 80
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66022",
+            "obj": {
+                "i": 66022,
+                "n": "Kobolds Ahoy",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 80
+            }
+        }
+    ]
+}

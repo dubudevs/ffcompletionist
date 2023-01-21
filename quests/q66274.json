@@ -1,0 +1,194 @@
+{
+    "quest": {
+        "name": "Sylphish Concerns",
+        "location": "South Shroud",
+        "id": 66274,
+        "patch": 2.0,
+        "sort": 127,
+        "eventIcon": 71201,
+        "issuer": 1000590,
+        "target": 1000590,
+        "genre": 1,
+        "journal": [
+            "If Buscarron had his druthers, he'd have an adventurer with whom to share talk of sylphs.",
+            "Sightings of sylphs in a region of the wood beyond their domain have given cause for concern. Buscarron has marked a tract on your map. Travel there and survey the area.",
+            "You have completed your patrol of the designated area. Return to the Druthers and speak with Buscarron.",
+            "Buscarron tells you that Garlean soldiers were never before able to penetrate the forest depths. The mounting evidence seems to suggest that there is a traitor in Gridania aiding the imperial advance."
+        ],
+        "objectives": [
+            "Investigate the specified areas.",
+            "Report to Buscarron."
+        ],
+        "dialogue": [
+            {
+                "name": "BUSCARRON",
+                "text": "There was word while you were away. Sylphs were seen in the wood, but near no lands of their own. No, this was a place near to <span class=\"emphasis\">here</span>─a place we've never known a sylph to come. "
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Something must have given them cause to venture this far. More than like, the missing sylph elder's among them. Here, I've marked the tract where they were sighted on your map. Go see if there's anything to be seen."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "So, was there aught to be found in the wood? What did you come to─<br>...Garleans!? In <span class=\"emphasis\">this</span> part of the Twelveswood!?"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Hmmm... First sylphs and now Garleans, and all in the same place. It cannot be mere coincidence. Might the Garleans be following the sylphs? Tracking them or giving chase, mayhap?"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "But no, not this far into the forest. The Wailers' spires are everywhere. Imperials could never have stolen past them all. How in the bloody hells could they─ Unless..."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Unless someone guided them through. Someone who knew where the spires stand, and when the Wailers watch. A Gridanian traitor."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3347,
+                    "one": 1
+                },
+                {
+                    "id": 3345,
+                    "one": 1
+                },
+                {
+                    "id": 3343,
+                    "one": 1
+                },
+                {
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 8960
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 23,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66273
+            ]
+        },
+        "next": [
+            66275,
+            66276,
+            69398
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000590",
+            "obj": {
+                "i": 1000590,
+                "n": "Buscarron",
+                "l": 56,
+                "q": 14,
+                "t": "Alehouse Proprietor"
+            }
+        },
+        {
+            "type": "item",
+            "id": "3347",
+            "obj": {
+                "i": 3347,
+                "n": "Goatskin Breeches",
+                "l": 23,
+                "c": 45304,
+                "t": 36,
+                "p": 1056
+            }
+        },
+        {
+            "type": "item",
+            "id": "3345",
+            "obj": {
+                "i": 3345,
+                "n": "Cotton Kecks",
+                "l": 23,
+                "c": 45099,
+                "t": 36,
+                "p": 844
+            }
+        },
+        {
+            "type": "item",
+            "id": "3343",
+            "obj": {
+                "i": 3343,
+                "n": "Cotton Gaskins",
+                "l": 22,
+                "c": 45283,
+                "t": 36,
+                "p": 734
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66273",
+            "obj": {
+                "i": 66273,
+                "n": "Like Fine Wine",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 126
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66275",
+            "obj": {
+                "i": 66275,
+                "n": "Enemy Mine",
+                "g": 92,
+                "l": "South Shroud",
+                "s": 230
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66276",
+            "obj": {
+                "i": 66276,
+                "n": "Nouveau Riche",
+                "g": 0,
+                "l": "South Shroud",
+                "s": 128
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69398",
+            "obj": {
+                "i": 69398,
+                "n": "Nouveau Riche",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 128
+            }
+        }
+    ]
+}

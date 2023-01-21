@@ -1,0 +1,115 @@
+{
+    "quest": {
+        "name": "Winter Is Coming",
+        "location": "Coerthas Western Highlands",
+        "id": 67299,
+        "patch": 3.0,
+        "sort": 5105,
+        "eventIcon": 71221,
+        "issuer": 1011910,
+        "target": 1011910,
+        "genre": 94,
+        "journal": [
+            "Luciae is looking for someone to help keep her warm through the cold Coerthan nights.",
+            "The bitter cold of Coerthas is taking its toll upon the garrison's morale, and Luciae has asked you to help her supplement the Convictory's store of blankets by collecting yak wool for use in their creation. Slay three wooly yaks so that you can harvest their wool.",
+            "You slaughter the yaks and shear their carcasses. Deliver the wool to Luciae and collect your reward.",
+            "Luciae declares the wool to be of the highest quality she has ever seen. The thick, warm blankets she will make with it will do much to protect the garrison from the elements."
+        ],
+        "objectives": [
+            "Slay yaks and obtain their wool.",
+            "Deliver the wool to Luciae."
+        ],
+        "dialogue": [
+            {
+                "name": "LUCIAE",
+                "text": "&lt;sigh&gt; ...Hm? I look troubled, do I? Well, we all have our fair share of troubles out here. You looking to lend a hand?"
+            },
+            {
+                "name": "LUCIAE",
+                "text": "Out here, the cold is a constant nemesis. We could always use more yak wool for the creation of blankets. If you bring me three baskets of it, I'll see that it's worth your while."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "Bring me three baskets of yak wool and I'll make it worth your while."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "We still have need of that wool, if you are willing to procure it."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "This is some of the highest-quality wool that I've ever seen! I must say, you've gone above and beyond what I asked of you."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "You have my deepest thanks. The nights are bitterly cold these days, but the blankets made from this wool will do much to keep our people warm."
+            }
+        ],
+        "reward": {
+            "gil": 524,
+            "xp": 25200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67143,
+                67295
+            ]
+        },
+        "next": [
+            67304
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011910",
+            "obj": {
+                "i": 1011910,
+                "n": "Luciae",
+                "l": 2200,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67143",
+            "obj": {
+                "i": 67143,
+                "n": "Camp of the Convictors",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 28
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67295",
+            "obj": {
+                "i": 67295,
+                "n": "Protecting What's Important",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5103,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67304",
+            "obj": {
+                "i": 67304,
+                "n": "A Faithful Companion",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5107
+            }
+        }
+    ]
+}

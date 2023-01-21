@@ -1,0 +1,166 @@
+{
+    "quest": {
+        "name": "Wag the Sea Dogs",
+        "location": "Western La Noscea",
+        "id": 66568,
+        "patch": 2.0,
+        "sort": 480,
+        "eventIcon": 71221,
+        "issuer": 1006617,
+        "target": 1006617,
+        "involved": [
+            1006626
+        ],
+        "genre": 91,
+        "journal": [
+            "Eilis would call you to the wall once more.",
+            "Eilis has briefed you on the need to divert Sahagin forces away from South Tidegate. Speak with Nortmoen about the tactical situation.",
+            "Nortmoen outlines a simple plan: slay a pair of trenchtooth Sahagin.",
+            "Apprise Eilis of the situation in the north.",
+            "Eilis reports that the decoy attack was a success, and that the detachment returned safely through the southern gates without ado."
+        ],
+        "objectives": [
+            "Speak with Nortmoen.",
+            "Slay trenchtooth Sahagin.",
+            "Report to Eilis."
+        ],
+        "dialogue": [
+            {
+                "name": "EILIS",
+                "text": "The Maelstrom needs your help."
+            },
+            {
+                "name": "EILIS",
+                "text": "We would open South Tidegate to welcome a returning detachment, but doing so would expose us to the Sahagin."
+            },
+            {
+                "name": "EILIS",
+                "text": "Thus, we aim to launch a diversionary attack along the north side and lure the Sahagin hordes away from the open gate."
+            },
+            {
+                "name": "EILIS",
+                "text": "Seek out Nortmoen at North Tidegate─the offensive falls under his command."
+            },
+            {
+                "name": "NORTMOEN",
+                "text": "So you've come to help bail my beleaguered brother out from under trouble's foot once more? Very well. All you need do is slay a pair of the skittish little sea slugs─that ought to summon the lot of them."
+            },
+            {
+                "name": "EILIS",
+                "text": "Sure as rain, our subtle stratagem drew the southerly sea-sods away from the open gates. The men of the detachment send their gratitude."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4510,
+                    "one": 1
+                },
+                {
+                    "id": 4512,
+                    "one": 1
+                },
+                {
+                    "id": 4504,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 13965
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66567
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006617",
+            "obj": {
+                "i": 1006617,
+                "n": "Eilis",
+                "l": 33,
+                "q": 3,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006626",
+            "obj": {
+                "i": 1006626,
+                "n": "Nortmoen",
+                "l": 33,
+                "q": 4,
+                "t": "Storm Captain"
+            }
+        },
+        {
+            "type": "item",
+            "id": "4510",
+            "obj": {
+                "i": 4510,
+                "n": "Spinel Ring",
+                "l": 49,
+                "c": 54426,
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "4512",
+            "obj": {
+                "i": 4512,
+                "n": "Turquoise Ring",
+                "l": 49,
+                "c": 54422,
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "4504",
+            "obj": {
+                "i": 4504,
+                "n": "Zircon Ring",
+                "l": 49,
+                "c": 54425,
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66567",
+            "obj": {
+                "i": 66567,
+                "n": "Sibling Rivalry",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 480
+            }
+        }
+    ]
+}

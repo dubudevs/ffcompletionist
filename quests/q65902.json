@@ -1,0 +1,532 @@
+{
+    "quest": {
+        "name": "The Rising Chorus",
+        "location": "The Rising Stones",
+        "id": 65902,
+        "patch": 2.5,
+        "sort": 80,
+        "icon": 100366,
+        "eventIcon": 71201,
+        "issuer": 1010891,
+        "target": 1010858,
+        "involved": [
+            1008969,
+            1010854,
+            1010855,
+            1010856,
+            1010857,
+            1010881,
+            1011122,
+            1011123,
+            1011124
+        ],
+        "genre": 2,
+        "journal": [
+            "Tataru seems eager to escort you to the solar.",
+            "Brooking no delay, Tataru bids you follow her to the solar to meet with the Antecedent, who is waiting for you with the Ishgardian envoy. Proceed within and speak with Minfilia.",
+            "Waiting for you in the solar is Lucia, Ser Aymeric's second-in-command, who has come on his behalf to request your assistance with a matter of grave import. The astrologians of the Observatorium have interpreted recent signs as an indication of Midgardsormr's imminent resurrection. Alas, the knights of Ishgard are in no position to dispatch forces to the Keeper of the Lake at present, and so Ser Aymeric would have you investigate the wreckage on their behalf and ascertain the veracity of the astrologians' claims. Before proceeding to the Keeper of the Lake, however, Minfilia advises you to speak with a Doman watch who has been stationed on the northern shore.",
+            "The Doman watch reports that forces from Castrum Centri have been scavenging materials from the wreckage, but that otherwise the distant monument has shown no signs of activity. Given the imperial presence, a stealthy approach will be necessary. Gather your allies and take the watch's boat to the base of the <span class=\"emphasis\">Agrius</span> and survey the fallen airship from bottom to top.<br><br>※Challenge the Keeper of the Lake with other players via the Duty Finder, or with a party of NPCs via Duty Support. Both systems are accessible from the main menu as well as the dungeon's entrance point.",
+            "The Ishgardian's worst fears have seemingly come to pass, as atop the wreckage of the <span class=\"emphasis\">Agrius</span> you confront the fallen guardian of Silvertear Falls. With no choice but to fight, you engage the wyrm lord in battle, at last laying him to rest forever.",
+            "As you turn to leave, the voice of Midgardsormr rings out once more, and you are invited to plead your case. Yet your words fall on deaf ears, and the wyrm lord flatly states that his children now sing of Ishgard's imminent destruction. Your fate sealed, he prepares to end your life─only to hesitate when Hydaelyn intervenes and marks you as one of Her chosen. Midgardsormr then relents─but not before somehow stripping you of the Mothercrystal's blessing. Revealing that a covenant binds him to you, the essence of the wyrm lord coalesces into a tiny vessel, and though it subsequently vanishes, you can yet feel his eyes upon your back...",
+            "Before you can even begin to speak of your experiences, the Doman watch informs you that Alphinaud has summoned you to the Rising Stones. Return and seek out the young commander.",
+            "In private, you share your experiences with Minfilia, Alphinaud, and Urianger. Together, you conclude that it would be best to keep the majority of your conversation with Midgardsormr a secret, given Ishgardian attitudes towards consorting with Dravanians. Alphinaud leaves to speak with Lucia, and for a moment you are left alone with Minfilia, who observes that you are somehow changed. Having no choice, you reveal what you kept concealed from the others─that Midgardsormr took from you the blessing of Light. The Antecedent accepts your reassurances that everything is well...yet Midgardsormr's constant presence is a reminder of the opposite.<br><br>Unaware of your new burden, Lucia thanks you for besting Midgardsormr, and for bringing confirmation of the impending Dravanian attack. Though she has complete faith in her nation's capacity to defend itself, Alphinaud remains doubtful, and as the knight takes her leave he mutters quietly to himself, head bowed in thought.",
+            "Despite his reservations, Alphinaud acknowledges that the Scions of the Seventh Dawn are in no position to intervene. Until such time as they choose to request aid, you and the others have no choice but to watch and wait."
+        ],
+        "objectives": [
+            "Speak with Minfilia.",
+            "Speak with the Doman watch in Mor Dhona.",
+            "Enter the Keeper of the Lake.",
+            "Speak with the Doman watch.",
+            "Speak with Alphinaud at the Rising Stones.",
+            "Speak with Alphinaud."
+        ],
+        "dialogue": [
+            {
+                "name": "TATARU",
+                "text": "Our guest is with the Antecedent in the solar at present."
+            },
+            {
+                "name": "TATARU",
+                "text": "Let's not keep them waiting any longer. Shall we?"
+            },
+            {
+                "name": "LUCIA",
+                "text": "You look well, <span class=\"highlight\">Forename</span>. We will have words when the Antecedent and I are finished."
+            },
+            {
+                "name": "URIANGER",
+                "text": "'Tis poor form to assault a guest in one's home. Alas, Moenbryda hath ever struggled to observe proper decorum."
+            },
+            {
+                "name": "MOENBRYDA",
+                "text": "So this is an Ishgardian knight, eh? She looks the part, I'll give her that─but I reckon I could hold my own."
+            },
+            {
+                "name": "TATARU",
+                "text": "This is no time for idle chatter!"
+            },
+            {
+                "name": "LUCIA",
+                "text": "Good of you to join us. We have much to discuss."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Unexpected tidings from the north, borne by the lord commander's second. What manner of wind bloweth this day..."
+            },
+            {
+                "name": "MOENBRYDA",
+                "text": "At this point, it would be more unnerving if he spoke plainly."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Forgive me if I state aught which you already know, but I would ensure that you understand the nature of your destination."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "As Urianger stated, what we now call the Keeper of the Lake is the wreckage of the <span class=\"emphasis\">Agrius</span>, former flagship of the imperial fleet, and the corpse of the wyrm responsible for its destruction."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Fifteen years ago, as the next step in his campaign to subjugate Eorzea, Gaius van Baelsar attempted to seize control of Mor Dhona. So massive was his force that all thought his victory a foregone conclusion..."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "But an unlikely ally came to Eorzea's aid that day─Midgardsormr, legendary guardian of Silvertear Falls, burst forth from beneath the waters of the lake and led a host of dragons against the Garlean airships overhead."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "In what would later become known as the Battle of Silvertear Skies, the great wyrm felled countless airships before engaging the <span class=\"emphasis\">Agrius</span>."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "In the ensuing struggle, the flagship's ceruleum engines failed, and it tumbled into the lake below. Yet this victory came at a great cost, for the explosion which followed claimed the life of the great wyrm as well."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "That same explosion transformed Silvertear Falls into the desolate wasteland it is today, draining the lake of its waters and crystallizing aether for malms around."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Yet a remnant of the lake remains, and at its center a constant reminder of that fateful day long ago..."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "In accordance with Ser Aymeric's wishes, our Doman allies have been standing watch over the Keeper of the Lake. It would be wise to speak with them before investigating the wreckage yourself."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Be careful, my friend. We know not what dangers await you within."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Now then, let us not neglect our own tasks! There is much to be done, and precious little time to do it."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Midgardsormr was once worshipped as the guardian deity of Silvertear Falls, yet there he has lain for fifteen years..."
+            },
+            {
+                "name": "TATARU",
+                "text": "Oh gods, if that charred monstrosity actually returned to life, I...I don't know what I would do."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Before I depart, I must needs speak with the Antecedent in private. If you would be so kind."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "You're in luck, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. I was about to send word to Revenant's Toll about the Garleans."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "Of late, I've seen small airships─likely from Castrum Centri─come and go from the Keeper of the Lake. Though I cannot say for certain at this distance, I believe they may be salvaging something from within the wreckage."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "The castrum's supply lines have been cut for some time, and I'd wager they're desperately in need of spare parts and other equipment."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "So it's true, then? The Ishgardians honestly fear that the wyrm might rise again?"
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "Well, from here that seems rather unlikely...but if it's assurances they want, you've no choice but to inspect the corpse in its entirety."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "Easier said than done, given the creatures which inhabit the wreckage─and the aforementioned Garleans who won't take kindly to your presence."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "They're sure to fire upon an airship, so I'd advise a more stealthy approach. Take this boat and a few of your comrades to the base of the <span class=\"emphasis\">Agrius</span>, then climb to the top. That's the only viable approach, I'd say."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Garleans have taken an interest in the Keeper of the Lake? Then that is all the more reason we must investigate the wreckage."
+            },
+            {
+                "name": "TATARU",
+                "text": "Do you think he would attack Revenant's Toll? Gah, just the thought of it is enough to give me nightmares!"
+            },
+            {
+                "name": "LUCIA",
+                "text": "Hm? Ser Aymeric bade me remain until your investigation is complete. Though, if Garleans are salvaging the <span class=\"emphasis\">Agrius</span>, that may present a problem..."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "The boat is yours for the taking─though I wouldn't make the journey without a few friends at my side, as those Garleans won't hesitate to attack you."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may summon Midgardsormr by selecting the corresponding entry within your <span class=\"highlight\">Minion Guide</span> under <span class=\"highlight\">Character</span> in the main menu."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "I was beginning to fear the worst! Were those explosions I saw?"
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "Ah, but you shouldn't waste time talking with me. Alphinaud left a message stating that you were to return to the Rising Stones at once."
+            },
+            {
+                "name": "DOMANPEOPLE00366",
+                "text": "He sounded awfully worried about you. Mayhap you should hurry back to Revenant's Toll?"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Welcome home, <span class=\"highlight\">Forename</span>. Alphinaud was worried sick about you─why don't you go and set his mind at ease?"
+            },
+            {
+                "name": "TATARU",
+                "text": "Twelve save me, is it coming!? What should we do!?<br>Oh...he's not?"
+            },
+            {
+                "name": "LUCIA",
+                "text": "Have you spoken with Commander Leveilleur yet? He has been pacing again."
+            },
+            {
+                "name": "URIANGER",
+                "text": "Truth interpreted is truth transformed. Today's heroes may yet become tomorrow's gods...or something else."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Praise the Twelve that you are hale and whole!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I came as soon as Minfilia informed me of Ser Aymeric's request."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You have completed your investigation of the Keeper of the Lake, I take it? Then I would hear your report."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You...conversed with Midgardsormr? I swear, were anyone else to make such a claim, I would regard it with considerable skepticism."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Are we to understand that the wyrm lord did not perish, and has in sooth lain dormant these past fifteen years?"
+            },
+            {
+                "name": "URIANGER",
+                "text": "Less a resurrection and more a rejuvenation for he who dwelleth in eternity, years passing as moments..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Though his words were ambiguous at times, one statement left little room for interpretation:"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "“My people have heard the song. Ishgard shall burn.”"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Clearly, an attack is imminent. We must share this information with Ser Aymeric immediately."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "However, we dare not divulge your conversation with Midgardsormr in its entirety."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "To even acknowledge that you heard the voice of a Dravanian is a grave but necessary risk. Lest we forget, men have been executed as heretics for declaring as much."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "For your own protection, and for the sake of our tenuous relations with Ishgard, the truth cannot leave this room."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "As for how we shall present our revelation to Ser Aymeric's emissary, you may leave that to me. Pray remain here for now."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Is there something you are not telling us, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "You seem...different, somehow. 'Tis almost as if you are missing something...something important."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Twelve forfend! Midgardsormr stripped you of the blessing of Light!? Are you all right? How do you feel!?"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "I see... It is a relief to hear that you are otherwise unharmed."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "It beggars belief that any being could possess the power to deprive you of Her blessing."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Hmmm... Midgardsormr made mention of a covenant, did he not?"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "One of the ancient myths regarding Silvertear Falls states that when the waters came into existence, so too did the great wyrm."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Althyk and Nymeia, Brother Time and Sister Fate, decreed that Midgardsormr ever watch over the source, from which all water─and magic─was said to flow."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "I wonder... What if this was the covenant of which he spoke, and 'twas not the gods with whom he treated, but Hydaelyn Herself?"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Well, if he is watching over you as he claimed, mayhap you will have an opportunity to ask."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Let us keep this matter to ourselves. I do not wish to burden our friends needlessly."
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "Art thou a pawn, or master of thy fate?"
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "What hast thou wrought by thine own hands, mortal?"
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Oh? I was not expecting you to return so soon. Surely you are not completely finished with your investigation, are you? Of course not. We shall speak again anon."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Once you have set your affairs in order, I would be glad to hear your report."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "Would that we could discern the nature of the covenant between Hydaelyn and Midgardsormr..."
+            },
+            {
+                "name": "TATARU",
+                "text": "Thank you, <span class=\"highlight\">Forename</span>, thank you! I shall sleep soundly knowing that that wyrm will trouble us no longer!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The Ishgardians have warred with the Dravanians for centuries─nay, nearly one thousand years."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "In all that time, not once have their enemies breached their defenses and entered the city proper."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Yet regardless of how strong these magical wards may be, I nevertheless fear that the Ishgardians are underestimating the gravity of the situation."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Though it was not Midgardsormr who roared, a call to arms by one of the first brood cannot be ignored..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Until such time as they choose to request our aid, however, we can do naught but observe the situation at a distance, and pray that our fears are unfounded."
+            }
+        ],
+        "reward": {
+            "gil": 2486,
+            "xp": 4800,
+            "instance": 32
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                65901
+            ]
+        },
+        "next": [
+            65903,
+            69424
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010891",
+            "obj": {
+                "i": 1010891,
+                "n": "Tataru",
+                "l": 481,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010858",
+            "obj": {
+                "i": 1010858,
+                "n": "Alphinaud",
+                "l": 481,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008969",
+            "obj": {
+                "i": 1008969,
+                "n": "Minfilia",
+                "l": 481,
+                "q": 19
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010854",
+            "obj": {
+                "i": 1010854,
+                "n": "Tataru",
+                "l": 481,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010855",
+            "obj": {
+                "i": 1010855,
+                "n": "Lucia",
+                "l": 481,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010856",
+            "obj": {
+                "i": 1010856,
+                "n": "Lucia",
+                "l": 481,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010857",
+            "obj": {
+                "i": 1010857,
+                "n": "Alphinaud",
+                "l": 481,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010881",
+            "obj": {
+                "i": 1010881,
+                "n": "Doman Watch",
+                "l": 67,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011122",
+            "obj": {
+                "i": 1011122,
+                "n": "Moenbryda",
+                "l": 481,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011123",
+            "obj": {
+                "i": 1011123,
+                "n": "Urianger",
+                "l": 481,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011124",
+            "obj": {
+                "i": 1011124,
+                "n": "Urianger",
+                "l": 481,
+                "q": 1
+            }
+        },
+        {
+            "type": "instance",
+            "id": "32",
+            "obj": {
+                "i": 32,
+                "n": "The Keeper of the Lake",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 50,
+                "max_lvl": 50,
+                "min_ilvl": 90
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65901",
+            "obj": {
+                "i": 65901,
+                "n": "Best Laid Schemes",
+                "g": 2,
+                "l": "Eastern Thanalan",
+                "s": 79
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65903",
+            "obj": {
+                "i": 65903,
+                "n": "Aether on Demand",
+                "g": 0,
+                "l": "The Rising Stones",
+                "s": 81
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69424",
+            "obj": {
+                "i": 69424,
+                "n": "Aether on Demand",
+                "g": 2,
+                "l": "The Rising Stones",
+                "s": 81
+            }
+        }
+    ]
+}

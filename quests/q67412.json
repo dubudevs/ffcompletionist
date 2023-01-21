@@ -1,0 +1,153 @@
+{
+    "quest": {
+        "name": "Spring Cleaning",
+        "location": "The Churning Mists",
+        "id": 67412,
+        "patch": 3.0,
+        "sort": 5602,
+        "eventIcon": 71221,
+        "issuer": 1012286,
+        "target": 1012286,
+        "involved": [
+            1013562,
+            1013563,
+            1013565
+        ],
+        "genre": 100,
+        "journal": [
+            "Mogoon is concerned about the waters to the east.",
+            "Mogoon tells you about a flock of migrating anzu that have taken up in the sacred waters near the Mother of the Sheave statue. Their aggression cannot stand─scare them away or slay them if you must.",
+            "You drive away or slay all of the encroaching anzu. Report back to Mogoon with news of your success.",
+            "Although Mogoon recognizes the importance of water for migrating birds, he insists that wild creatures cannot be allowed to sully sacred waters."
+        ],
+        "objectives": [
+            "Drive away the anzu or slay them if they attack.",
+            "Report to Mogoon."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGOON",
+                "text": "A flock of migratory anzu is defiling the holy waters near the statue, kupo! Please, adventurer, get rid of them!"
+            },
+            {
+                "name": "MOGOON",
+                "text": "But you must not desecrate the holy place by killing near the statue─try your hardest to simply scare them away. However, if the anzu prove to be confrontational, well... I guess you have no choice but to show them your wrath, kupo!"
+            },
+            {
+                "name": "MOGOON",
+                "text": "The anzu showed up one morning without warning, and are defiling the sacred waters near the Mother of the Sheave statue. Please make them go away, kupo!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have scared away the anzu."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have scared away the anzu."
+            },
+            {
+                "name": "MOGOON",
+                "text": "I can hear the squawking of the anzu no longer! My thanks, adventurer, tranquility has returned to the area."
+            },
+            {
+                "name": "MOGOON",
+                "text": "The waters near the statue are sacred, and if wild beasts take up home there they'll only desecrate them. That's why they must be gotten rid of, one way or the other, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 496,
+            "xp": 36000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67173,
+                67411
+            ]
+        },
+        "next": [
+            67413
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012286",
+            "obj": {
+                "i": 1012286,
+                "n": "Mogoon",
+                "l": 2002,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013562",
+            "obj": {
+                "i": 1013562,
+                "n": "Anzu",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013563",
+            "obj": {
+                "i": 1013563,
+                "n": "Anzu",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013565",
+            "obj": {
+                "i": 1013565,
+                "n": "Anzu",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67173",
+            "obj": {
+                "i": 67173,
+                "n": "He Who Would Not Be Denied",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67411",
+            "obj": {
+                "i": 67411,
+                "n": "Respecting the Sheave",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5601
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67413",
+            "obj": {
+                "i": 67413,
+                "n": "No Nests Allowed",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5603
+            }
+        }
+    ]
+}

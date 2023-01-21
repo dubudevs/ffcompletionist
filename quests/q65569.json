@@ -1,0 +1,744 @@
+{
+    "quest": {
+        "name": "Sweet Words, Shadowy Dealings",
+        "location": "Limsa Lominsa",
+        "id": 65569,
+        "patch": 2.38,
+        "sort": 9,
+        "icon": 100298,
+        "eventIcon": 71221,
+        "issuer": 1009153,
+        "target": 1009953,
+        "involved": [
+            1000227,
+            1000228,
+            1000243,
+            1000768,
+            1001276,
+            1009949,
+            1009950,
+            1009951,
+            1009952,
+            1009955,
+            1009958,
+            1010047,
+            1010048,
+            1010049
+        ],
+        "genre": 77,
+        "journal": [
+            "The deputy postmoogle has a letter requiring delivery to a dashing band of players.",
+            "The deputy postmoogle has entrusted you with a missive from an Ul'dahn merchant to the renowned Gridanian minstrel troupe, the Homunculi. Deliver the letter to their leader, Augustiniel, at the Greatloam Growery, where they are wont to rehearse.",
+            "Augustiniel rejoices upon receiving the letter, explaining that his band has found the patron that they have been seeking to fund their long-sought musical tour of Eorzea. The joyous moment is interrupted by Maisenta of Black Rabbit Traders, the Homunculi's long-standing patron, who is most distressed to hear that her beloved band will be breaking their partnership and seeking sponsorship elsewhere. Sensing something amiss with the Ul'dahn trader's offer, she solicits your aid. Rendezvous with her out of earshot beneath the bridge near the Leatherworkers' Guild.",
+            "You rendezvous with Maisenta under the bridge. Reiterating her misgivings, she enlists you to canvass the markets for any rumors that may shed light on disreputable dealings by Ul'dahn merchants.",
+            "The three merchants you questioned spoke freely of rumors regarding the attacks on Black Rabbit supply wagons. One merchant went so far as to imply that the Ul'dahns were behind the attacks, while another─while harboring no such suspicions of misdeeds─observed that Rishushu has been known to submit reports to her homeland. Return to the rendezvous point beneath the bridge and share your findings with Maisenta.",
+            "The information you have gleaned seems to have confirmed Maisenta's suspicions, as she entreats your aid in carrying out a plan to bring the perpetrators to justice. Take the document she has prepared as part of this stratagem and deliver it to the self-styled “independent” merchant Rishushu at the Ebony Stalls.",
+            "Rishushu takes quite an interest in the documents you provided, even promising you a share of the profits they will presumably bring her. Has this exchange gone according to Maisenta's plans? Report to the Black Rabbit consignor at the rendezvous point beneath the bridge and see what comes next.",
+            "With your report further confirming Maisenta's suspicions, she is then visited upon by an associate of Rishushu's, who has been successfully persuaded to pilfer a few documents from his employer's books. All together, the documents point strongly to a connection between Rishushu and the disreputable Baert Trading Company, which has hired brigands to further their shady agenda. Fearing that lives and valued cargo are at stake, she urges you to make for the road southwest of the White Wolf Gate in the Central Shroud, that a potential ambush might be averted.",
+            "You successfully dispatch the brigands and acquire a bill that stands as incontrovertible proof of the involvement of the Baert Trading Company. Deliver it to Maisenta at her place of business in the Knot.",
+            "Maisenta is overjoyed, as your efforts have afforded her with the evidence she needs to confront Rishushu and, in the process, win her beloved minstrel troupe back to her side once and for all. Hurry to the Gridanian airship landing and present the shifty trader with the incriminating documentation.",
+            "Caught red-handed with evidence of her wrongdoings, Rishushu repents. Though she swears that she was not complicit in the attacks on the Black Rabbit supply wagons, she acknowledges that her single-minded pursuit of profit caused her to turn a blind eye to the underside of her chosen partners, obstructing Maisenta's efforts at honest trade and putting innocent lives at stake. Maisenta, ever willing to make a deal, offers to look the other way in exchange for Rishushu's promise that she will meddle with neither the Homunculi nor Black Rabbit Traders' business again. Observing their patron's ruthless relentlessness in achieving her aims, the honey-tongued bards are quick to change their tune and sing Maisenta's praises. With a revitalized Black Rabbit Traders backing them, their long-awaited realm-wide debut is doubtless close at hand."
+        ],
+        "objectives": [
+            "Deliver the letter to Augustiniel in Gridania.",
+            "Speak with Maisenta outside the Leatherworkers' Guild.",
+            "Gather information from merchants at the markets.",
+            "Speak with Maisenta outside the Leatherworkers' Guild.",
+            "Deliver the Black Rabbit Traders receipt to Rishushu.",
+            "Speak with Maisenta outside the Leatherworkers' Guild.",
+            "Dispatch outlaws southwest of the White Wolf Gate and obtain evidence of conspiracy.",
+            "Deliver the Baert Trading Company bill to Maisenta at the Knot.",
+            "Present evidence to Rishushu at the airship landing in Gridania."
+        ],
+        "dialogue": [
+            {
+                "name": "LETTERMOOGLE",
+                "text": "If it isn't my favorite assistant, kupo! Brace yourself, for today I've a task for you that will have all the fair maidens in Gridania green with envy! This letter in my paw is addressed to none other than the Homunculi!"
+            },
+            {
+                "name": "LETTERMOOGLE",
+                "text": "You are familiar with the Homunculi, yes? The traveling troupe of troubadours, renowned for stirring the seeds of passion the realm over? Ever since their recent performance in Gridania, their popularity has gone through the roof, kupo!"
+            },
+            {
+                "name": "LETTERMOOGLE",
+                "text": "Why, I've handled hundreds of fan letters in the past fortnight alone─kupo-oh? This particular epistle appears to be from a trader in Ul'dah. A matter of business, mayhap?"
+            },
+            {
+                "name": "LETTERMOOGLE",
+                "text": "All the more reason that it must be delivered to Gridania with haste! You will find the band and its leader, Augustiniel, rehearsing for their next performance at the Greatloam Growery."
+            },
+            {
+                "name": "LETTERMOOGLE",
+                "text": "The Homunculi have an exclusive contract with Gridania's Black Rabbit Traders. What dealings could they possibly have with a merchant of Ul'dah?"
+            },
+            {
+                "name": "LETTERMOOGLE",
+                "text": "In any event, you will find the band and its leader, Augustiniel, rehearsing for their next performance at the Greatloam Growery. Pray deliver the message with all speed, kupo!"
+            },
+            {
+                "name": "OSCARLET",
+                "text": "This lilting melody I've composed is guaranteed to melt the heart of any maiden who hears it─mark my words."
+            },
+            {
+                "name": "ORSELFAUX",
+                "text": "Would you mind treading a bit more quietly? We are creating works of musical genius here, if you haven't noticed."
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "Well, if it isn't my friend from Hatching-tide! Just couldn't keep away, could you? 'Tis a common affliction among my admirers─of which you are but one, needless to say. If you've come seeking my autograph, I ask that you return when our rehearsal is done."
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "I am Augustiniel, vocalist and leader of the Homunculi, a lyrical genius the likes of which this realm has ne'er before seen. And you, no doubt, are one of my innumerable fans. If you've come seeking my autograph, I ask that you return when our rehearsal is done."
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "A letter? Don't tell me─you've taken on a second career as a messenger <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span> that you might afford tickets to our next performance! Most admirable, friend, most admirable indeed."
+            },
+            {
+                "name": "OSCARLET",
+                "text": "Has our new contract arrived, perchance? I am ever so looking forward to sharing our gift of music with Eorzeans the realm over."
+            },
+            {
+                "name": "ORSELFAUX",
+                "text": "Our ballads and lays shall sweep the land, and a new chapter in the legend of the Homunculi will be writ! That said, it is a touch...bittersweet. It is only through Maisenta's patronage that we stand where we are today."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Did I hear my name? What might I do for you today, Augustiniel? Looking to procure new garb for your next performance, mayhap?"
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "My darling Maisenta! Just the lady we were hoping to see. The Homunculi have a most important announcement to make, and I felt you should be the first to know."
+            },
+            {
+                "name": "OSCARLET",
+                "text": "To put it simply, we are taking our show on the highroad. The Homunculi have made arrangements for a musical tour that will span from the peaks of Coerthas to Thanalan!"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Why, our long-sought dream, realized at last! I truly could not be happier for you. Needless to say, as your patrons, Black Rabbit Traders will gladly provide you with the funds for this momentous undertaking."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "That said, recent events have thinned our coffers some. But worry not! I shall return and meet with my superiors immediately. I can promise you that you will be able to depart within the next moon."
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "The sentiment is welcome, my darling, but that will not be necessary. A trader from Ul'dah has promised us all the gil we need. We leave on the morrow."
+            },
+            {
+                "name": "ORSELFAUX",
+                "text": "I'm afraid there is another rub. Our new backers desire to be the sole and singular patrons of the Homunculi. Our relationship with Black Rabbit Traders has been a mutually beneficial one, but I fear that it must come to an end."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Wh-What!? You cannot mean this!"
+            },
+            {
+                "name": "OSCARLET",
+                "text": "Maisenta, my dear. We are forever in your debt for all that you have done for us, and yet, you must understand. The gift we would share with the realm is too great to tarry here any longer."
+            },
+            {
+                "name": "ORSELFAUX",
+                "text": "Parting is always such sweet sorrow, and yet, the pain would only be greater were we to linger on. We will treasure the memories we have made forever, but the road calls us onward."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "As ever, the words flow from your lips like honey. Very well─if this is the choice you have made, who am I to stand in your way? I say only this─this tour of yours had best be the greatest show Eorzea has ever seen. As your first and foremost admirer, I will settle for nothing less!"
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "It will be all that and more. You have my word, my dear."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "(Adventurer...I would have a word with you. Meet me beneath the bridge by the Leatherworkers' Guild, and speak to no one of our conversation.)"
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "'Twas Maisenta herself who first proposed the idea of sharing the gift of song with the realm. The decision was a painful one, but business is business."
+            },
+            {
+                "name": "OSCARLET",
+                "text": "Once again, I leave a girl in tears. My fair features, my gift of music─'twould seem my blessings are also my curse..."
+            },
+            {
+                "name": "ORSELFAUX",
+                "text": "&lt;sniff&gt; ...It's been some time since I've written a sorrowful refrain, but suddenly I feel the inspiration striking me."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "There is something amiss about all this. I would discuss the matter further, but not here─meet me beneath the bridge by the Leatherworkers' Guild."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Thank you for coming, adventurer─let us delve straight into the matter at hand. You know that I serve as consignor of Black Rabbit Traders, yes?"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "It is a profession which is about as glamorous as it sounds─which is to say, not very. There was a time when I entertained the thought of leaving it in search of a more fulfilling line of work. Then, one day, I happened upon <span class=\"emphasis\">them</span>."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Their music was enchanting, and their countenances even more so. But the garb they wore─my dearly departed great-grandmother wouldn't be caught dead in those garish rags!"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "And so I proposed an offer: Black Rabbit Traders would clothe the Homunculi in our finest garb, and pay a sum sufficient to keep their instruments in good fettle. In return, their performances would serve to promote our wares."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "It was a relationship that exceeded the wildest expectations of all involved. Gridanians flocked to their performances, and business at Black Rabbit Traders burgeoned. It was a dream come true for all of us. A dream I thought would last forever..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "But I assure you this is no self-centered grudge─this sudden offer is most troubling. For all our successes, the profits the Homunculi have brought us would barely amount to a clink in the coffers of any wealthy Ul'dahn trader. No, I smell something amiss."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "I would ask your expertise in investigating the matter. Walk the markets of Gridania and listen to the word on the street. Should you hear of any shady dealings, return here and share them with me."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "This offer that the Homunculi have received─I am certain that something is amiss. Walk the markets of Gridania and listen to the word on the street. Should you hear of any shady dealings, return here and share them with me."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "How fare you in the task we discussed? Should you uncover any information, seek me out at the location we last met."
+            },
+            {
+                "name": "PARSEMONTRET",
+                "text": "Any <span class=\"emphasis\">news</span>? Do you take Parsemontret, master of the markets, for a common rumormonger!? And to compound the insult, you come bearing not even a single eel pie. Oh, very well... I shall deign to answer, if for no other reason than that you seem unlike to leave my sight until I do."
+            },
+            {
+                "name": "PARSEMONTRET",
+                "text": "All the talk about the markets of late has been of the attacks on the Black Rabbit supply wagons─as you might have heard for yourself if you had a pair of working ears."
+            },
+            {
+                "name": "PARSEMONTRET",
+                "text": "With the damage visited by the Calamity upon the land and its natural resources, trade has been slow to recover in Gridania these past five years. It's only with the wares brought in by traveling merchants from Ul'dah that these markets have been able to sustain this level of activity."
+            },
+            {
+                "name": "PARSEMONTRET",
+                "text": "The only local operation that has been able to bring in a steady profit is Black Rabbit Traders, what with their purchasing of items from adventurers and Maisenta's recent efforts to employ that band of honey-tongued bards in publicizing her product. Perhaps they've enjoyed a bit <span class=\"emphasis\">too</span> much success for others' liking?"
+            },
+            {
+                "name": "PARSEMONTRET",
+                "text": "All the talk about the markets of late has been of the attacks on the Black Rabbit supply wagons─as you might have heard for yourself if you had a pair of working ears."
+            },
+            {
+                "name": "MARCQUELORT",
+                "text": "Rumors, you say? Surprised you haven't heard 'em yourself. Can't take more than two steps these days without hearing of another attack on a Black Rabbit supply wagon."
+            },
+            {
+                "name": "MARCQUELORT",
+                "text": "I've got my own theories as to the perpetrators, mind you. And they start with a certain Ul'dahn wench who I reckon ain't too happy about her rival's recent successes. "
+            },
+            {
+                "name": "MARCQUELORT",
+                "text": "Evidence? Let's just call it instinct. I wouldn't trust an Ul'dahn half as far as I could throw one."
+            },
+            {
+                "name": "MARCQUELORT",
+                "text": "I've got my own theories as to the perpetrators, mind you. And they start with a certain Ul'dahn wench who I reckon ain't too happy to see her main rival raking in the gil."
+            },
+            {
+                "name": "MARCQUELORT",
+                "text": "Evidence? Let's just call it instinct. I wouldn't trust an Ul'dahn half as far as I could throw one."
+            },
+            {
+                "name": "HADREFORT",
+                "text": "Whoever could be behind these unpardonable crimes...? What crimes, you say? Why, I speak of the vicious attacks on Black Rabbit supply wagons, of course. I'm surprised you've not heard─the tales are so terrifying as to keep the bravest merchant up at night."
+            },
+            {
+                "name": "HADREFORT",
+                "text": "My brother Marcquelort, stubborn as he is, is convinced that the Ul'dahns are pulling the strings. I, however, believe we should be wary against letting our prejudices color our views."
+            },
+            {
+                "name": "HADREFORT",
+                "text": "Take Rishushu, for one. While many merchants think only of profit, she has spared no effort in studying Gridanian culture and trade, filing regular reports to Ul'dah on the transactions made at these markets."
+            },
+            {
+                "name": "HADREFORT",
+                "text": "As she tells it, she has taken an active role in promoting Gridanian wares in her own homeland and across the realm. My brother is entitled to his opinion, but I cannot see how any could question the girl's intentions."
+            },
+            {
+                "name": "HADREFORT",
+                "text": "My brother Marcquelort, stubborn as he is, is convinced that the Ul'dahns are pulling the strings. I, however, believe we should be wary against letting our prejudices color our views."
+            },
+            {
+                "name": "HADREFORT",
+                "text": "Take Rishushu, for one. While many merchants think only of profit, she has spared no effort in studying our culture and trade, making efforts to promote Gridanian wares in Ul'dah. My brother is entitled to his opinion, but I cannot see how any could question the girl's intentions."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "...So our recent troubles are the talk of the town. Little surprise, that─to the rumormonger, the misfortune of others tastes as sweet as honeyed mead."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "I must say, this news that Rishushu is monitoring transactions at our markets is somewhat concerning. While I have no desire to race to conclusions, I believe caution is in order."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "There is more. While presenting herself as an independent merchant, I have reason to believe she procures a sizable portion of her stock through the Baert Trading Company."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Perhaps the name is unfamiliar to you? It is most often heard in connection with all manner of ill rumors─dealings in stolen goods, swindling unsuspecting customers, and so on and so forth."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Under normal circumstances, I'd want nothing to do with this band of thieves, but if they've set their sights on my honey-tongued Homunculi, I simply refuse to turn a blind eye. Fortunately, I have an idea..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "I've prepared a certain document that should pique Rishushu's interest. I would ask you to deliver it to her and keep her distracted. I will take care of the rest."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Ul'dahn gentlemen are so strong and brave, indeed. No doubt a single swing of your blade would cut through any troubles that stood in my path. You would do that for me...wouldn't you?"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Deliver the document to Rishushu and keep her distracted. I will take care of the rest. When the deed is done, meet me at you-know-where."
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "Ah, Maisenta...the only Gridanian I've met in my time here who understands how to do business. Whatever brings her to─hm? Yes, what can I do for you?"
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "A proposition for me, you say? I've been around far too long to fall for empty tales of easy profits and great windfalls. But very well, let us see what you would offer..."
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "Hm...? This is...!"
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "...A page from the Black Rabbit ledgers, complete with a list of all wares purchased from adventurers, along with their selling and purchasing prices!"
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "With this knowledge, I can simply sell the wares that they offer at a discount, while raising the price on those goods not obtainable elsewhere. Simply by following the principles of good trade, I'll be able to make a fortune!"
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "...My dear Maisenta. I know not what brings you here today, but it would appear you've come just in time to watch me win over your loyal customers."
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "Your services today will not be forgotten. Come back in a fortnight's time and I promise you'll receive your fair share of the profits."
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "The information you provided will mean a fortune to us. Come back in a fortnight's time and I promise you'll receive your fair share of the profits."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "...Excellent. That went precisely according to plan. Meet me you-know-where and we shall plan our next course of action."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "I cannot thank you enough─with your aid, the first step of my plan has been carried out to perfection. Now, my visitor should be arriving any moment..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "...Yes, thank you. As promised, here is your payment in full."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "What's that look for, friend? A smart businesswoman knows how to use all of her <span class=\"emphasis\">resources</span>, if you understand what I mean..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "The fellow who just departed was one of Rishushu's underlings. I asked him to search his mistress's stall for two documents. The first one, which my new friend has dutifully delivered, is a contract with the Homunculi..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "As I suspected, Rishushu aims to steal our profits, and seeks to accomplish this first and foremost by luring our exclusive band of bards away from us."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "The other document I have...acquired...is a page from the latest report sent by Rishushu to Ul'dah. Note the red mark along our major trading thoroughfare."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Assuming that Rishushu's associates at the Baert Trading Company are in possession of the same document, I suspect that the next attack on our supply caravan will strike right there─in the Central Shroud, due southwest from the White Wolf Gate."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Such brazen acts of banditry cannot be permitted, yes? I beg of you, adventurer─hurry into the wood and give the would-be ambushers the drubbing they deserve."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Should you find any evidence of a connection to those blackguards at Baert, deliver it to me at my place of business at the Knot. If we do not act quickly, my sweet-tongued, fair-haired beauties will be lost to Gridania forever!"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Brazen acts of banditry cannot be permitted, yes? I beg of you, adventurer─hurry into the wood and give the would-be ambushers the drubbing they deserve."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Should you find any evidence of a connection to those blackguards at Baert, deliver it to me at my place of business at the Knot. If we do not act quickly, my sweet-tongued, fair-haired beauties will be lost to Gridania forever!"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "The enemy is still about! "
+            },
+            {
+                "name": "BALOON",
+                "text": "Empty yer wagon or I'll empty yer innards!"
+            },
+            {
+                "name": "BALOON",
+                "text": "Yer wares or yer life─I'll gladly take them both!"
+            },
+            {
+                "name": "KUROUSAGI",
+                "text": "C-Call me mad, but I can't shake the sense that I'm being f-followed. There's ill rumors of these roads of late..."
+            },
+            {
+                "name": "KUROUSAGI",
+                "text": "The shock took a year or two off my life, I reckon, but apart from that I'm no worse for the wear. I can't thank you enough, friend."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "It heartens me to know that our man is safe─you have my thanks, adventurer. Pray tell, were you able to find any evidence of a connection to those rogues at Baert?"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "...Aha! Just as I suspected. It began as mere speculation, but I daresay we've built ourselves a most convincing case. Yes, everything has come together..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Rishushu's reports on the flow of goods at the markets found their way to those scoundrels at Baert, who─seizing upon the chance for a quick profit─orchestrated the attacks on our suppliers."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "The stolen wares were hauled back to Baert, then sold for a pittance to Rishushu. With the goods now in high demand, she raised her prices, doubtless funneling a portion of the ample profits back into the Baert coffers."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "To add insult to injury, they were poised to use these ill-gotten gains─along with the timely troubles of Black Rabbit Traders─to lure my precious Homunculi away from me."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Why, it's a plan so brilliant I wish I'd come up with it myself! But thanks to you, friend, it's a plan that has now been spectacularly foiled."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Augustiniel and the others came by just moments ago to say farewell. If we hurry, we can catch them before they depart─we must make for the airship landing without delay!"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "I have it on good account that Rishushu will be in attendance to see them off. Let us shove the evidence of these twisted dealings in her self-satisfied little face!"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "If we hurry, we can catch the Homunculi before their departure─we must make for the airship landing without delay!"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "I have it on good account that Rishushu will be in attendance to see them off. Let us shove the evidence of these twisted dealings in her self-satisfied little face!"
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "Come to see us off, have you? The gesture truly is appreciated. But worry not! We shall return to Gridania someday─though I cannot guarantee that tickets to our performances will be easily come by."
+            },
+            {
+                "name": "OSCARLET",
+                "text": "&lt;sniff&gt; It simply won't be the same without Maisenta. That said, I hear that there is no dearth of buxom beauties in Ul'dah..."
+            },
+            {
+                "name": "ORSELFAUX",
+                "text": "Oh, do not cry for your Orselfaux, Maisenta! 'Twould pain my heart to see your beautiful countenance clouded so!"
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "...Ahem. Come for your share, have you? Patience, friend─fortunes are not made in a day. Or do you have another proposition for me?"
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "Well now, what have we─well, I never! Just whose side are you on, anyhow!?"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "This adventurer kindly rescued one of our wagons from a band of bloodthirsty brigands. Brigands who just <span class=\"emphasis\">happened</span> to be in possession of the bill you now see."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Meanwhile, <span class=\"emphasis\">I</span> have managed to come into the possession of detailed reports on our trading activities, signed in your name and addressed to the Baert Trading Company. Quite the coincidence, wouldn't you say?"
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "Ladies, please! This bickering ill becomes your beautiful features! Rishushu! Did you say you would donate a share of your profits to see Black Rabbit Traders through their recent plight?"
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "B-Brigands...!? What nonsense is this? Any reports I made to Ul'dah were simply in the interest of fostering trade! That my contacts at Baert would use them to such ill ends is unthinkable! Well, ah, given their reputation, perhaps not entirely so..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "...I suspected as much. Let me guess: you had your misgivings, but couldn't let your conscience get in the way when there were fortunes to be had. So you cast your lot with Baert, covered your eyes and ears and hoped for the best."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Ignorance of your complicity is no excuse, Rishushu. I hear that the Wood Wailers and Gods' Quiver are taking particularly severe measures regarding the sale of stolen and poached goods in light of recent events."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "A word or two from me and you'll spend the night in the comfort of your very own gaol cell. That said, I might still be persuaded to look the other way...provided we can come to an agreement."
+            },
+            {
+                "name": "OSCARLET",
+                "text": "M-My darling Maisenta! Speaking as an almost-victim of these shady schemes, I daresay Miss Rishushu's deeds should not go unpunished! Ah, then again, one might argue it might be an equal crime to imprison such a comely lass..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Sever all ties with the Baert Trading Company at once, and promise me you'll never so much as lay a finger on my precious Homunculi again. These are my conditions, and they are <span class=\"emphasis\">not</span> negotiable!"
+            },
+            {
+                "name": "RISHUSHU",
+                "text": "N-Never again! You have my word! Starting on the morrow, every merchant in the markets will vouch that they've never seen a trader as reputable as Rishushu!"
+            },
+            {
+                "name": "ORSELFAUX",
+                "text": "There's no putting anything past you, my dear, now is there? Brilliant <span class=\"emphasis\">and</span> beautiful─now there's a lass worthy of song."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "...Says he who was ready to bolt for the desert at the call of the highest bidder. Hah! Consider yourself fortunate that when it comes to business, I can hold my own with anyone in Ul'dah─or the realm, for that matter."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "...With the help of a few good friends, that is."
+            },
+            {
+                "name": "AUGUSTINIEL",
+                "text": "Haha! Ahaha! Bwahahahahahaha! Bold and beautiful! Oh, how could we ever have so much as thought of parting ways!?"
+            },
+            {
+                "name": "OSCARLET",
+                "text": "Just so, just so! Why, I've never seen a woman more willing and able to use all the resources at her disposal to overcome any obstacle in her path. Remind me never to end up on your bad side again, my dear!"
+            },
+            {
+                "name": "MAISENTA",
+                "text": "Stick to your songwriting and singing and leave the financial affairs to me, and I don't foresee us having any more problems. Do we have an understanding?"
+            },
+            {
+                "name": "ORSELFAUX",
+                "text": "We do! We most certainly do! Maisenta, my dear, you are a veritable sheer force of nature. I cannot imagine any who would dare stand in your way..."
+            },
+            {
+                "name": "MAISENTA",
+                "text": "I'll be watching your future performances─and our ledgers─with <span class=\"emphasis\">great</span> interest. Here's to a profitable relationship for years and years to come!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "With your successful delivery, your reputation as a letter carrier has grown! "
+            }
+        ],
+        "reward": {
+            "gil": 1417,
+            "items": [
+                {
+                    "num": 40,
+                    "id": 2
+                },
+                {
+                    "num": 40,
+                    "id": 4
+                },
+                {
+                    "num": 40,
+                    "id": 7
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009153",
+            "obj": {
+                "i": 1009153,
+                "n": "Deputy Postmoogle",
+                "l": 29,
+                "q": 24
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009953",
+            "obj": {
+                "i": 1009953,
+                "n": "Rishushu",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000227",
+            "obj": {
+                "i": 1000227,
+                "n": "Hadrefort",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000228",
+            "obj": {
+                "i": 1000228,
+                "n": "Marcquelort",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000243",
+            "obj": {
+                "i": 1000243,
+                "n": "Rishushu",
+                "l": 53,
+                "q": 2,
+                "t": "Importer of Exotics"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000768",
+            "obj": {
+                "i": 1000768,
+                "n": "Parsemontret",
+                "l": 53,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001276",
+            "obj": {
+                "i": 1001276,
+                "n": "Maisenta",
+                "l": 52,
+                "s": 10,
+                "q": 2,
+                "t": "Black Rabbit Traders",
+                "a": 551,
+                "c": [
+                    11.53,
+                    11.29
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009949",
+            "obj": {
+                "i": 1009949,
+                "n": "Augustiniel",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009950",
+            "obj": {
+                "i": 1009950,
+                "n": "Oscarlet",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009951",
+            "obj": {
+                "i": 1009951,
+                "n": "Orselfaux",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009952",
+            "obj": {
+                "i": 1009952,
+                "n": "Maisenta",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009955",
+            "obj": {
+                "i": 1009955,
+                "n": "Black Rabbit Trader",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009958",
+            "obj": {
+                "i": 1009958,
+                "n": "Maisenta",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010047",
+            "obj": {
+                "i": 1010047,
+                "n": "Augustiniel",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010048",
+            "obj": {
+                "i": 1010048,
+                "n": "Oscarlet",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010049",
+            "obj": {
+                "i": 1010049,
+                "n": "Orselfaux",
+                "l": 52,
+                "q": 1
+            }
+        }
+    ]
+}

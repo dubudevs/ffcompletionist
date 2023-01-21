@@ -1,0 +1,465 @@
+{
+    "quest": {
+        "name": "Over the Rails",
+        "location": "Limsa Lominsa",
+        "id": 65994,
+        "patch": 2.0,
+        "sort": 151,
+        "icon": 100100,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000909,
+        "target": 1000909,
+        "involved": [
+            1005208,
+            1005209,
+            1005210,
+            1005211,
+            1005214
+        ],
+        "genre": 135,
+        "journal": [
+            "Acting Guildmaster Thubyrgeim is awaiting the arrival of the inspection party members.",
+            "Now that all the members of the Mealvaan's Gate inspection party are assembled and briefed, Foreseer K'lyhia is ready to depart. Meet the assessor and the mercenaries outside of Aleport, and prepare to board the merchant vessel <span class=\"emphasis\">Morningstar</span>.",
+            "In order to make your way to the <span class=\"emphasis\">Morningstar</span>, you must first board the small transport craft tied up at the end of the pier. Speak with the landing boat steersman, and announce the arrival of the inspection party.",
+            "You have defeated the thugs sent to impede the inspection. Speak with the steersman once more.",
+            "You have secured the pier for your companions. Head to the landing boat, and await the arrival of Foreseer K'lyhia and the two mercenaries.",
+            "After a mighty battle with the crew of the <span class=\"emphasis\">Morningstar</span>, you manage to arrive before the hatch that leads belowdecks. But just as K'lyhia seeks to begin her inspection, she is suddenly confronted by the ship's dreadful captain. With her grimoire tossed overboard, and her wits scattered by the terrible man standing before her, the foreseer slips into unconsciousness. You have no choice but to abandon the task. Return to the Arcanists' Guild and inform Thubyrgeim of your failure. ",
+            "You learn from Thubyrgeim that the captain of the <span class=\"emphasis\">Morningstar</span> is an exiled pirate by the name of Doesmaga, and that this is not the first time the foreseer has suffered at his hands. Though K'lyhia has sustained no lasting physical injuries, her mind may require some time to recover from the shock of the encounter. The acting guildmaster bids you channel your emotions into your training, and clear your head for forthcoming duties.<br><br>※The next arcanist quest will be available from Thubyrgeim upon reaching level 20."
+        ],
+        "objectives": [
+            "Speak with K'lyhia outside Aleport.",
+            "Speak with the landing boat steersman.",
+            "Wait by the landing boat.",
+            "Report to Thubyrgeim at the Arcanists' Guild.",
+            "Defeat the crew of the <span class=\"emphasis\">Morningstar</span>!"
+        ],
+        "dialogue": [
+            {
+                "name": "KLYHIA",
+                "text": "The mercenaries Geissfryn and Aersthota are here to assist with the inspection."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "Both are old hands when it comes to escorting K'lyhia during her more dangerous duties."
+            },
+            {
+                "name": "GEISSFRYN",
+                "text": "Well met, <span class=\"highlight\">Forename</span>. My spells are at your disposal."
+            },
+            {
+                "name": "AERSTHOTA",
+                "text": "This won't be the first time we're expectin' trouble, but as long as we follow the foreseer's tactics─and keep a clear head─we'll come through just fine."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "The <span class=\"emphasis\">Morningstar</span> is preparing to dock in Aleport. We will meet our first challenge, however, before we even board the vessel."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "It is almost a certainty that the “merchant ship” has hired a thug or two to accost us at the pier─I calculate the probability at 98%. The crew wish to avoid attacking us on deck, you see, as that would all but trumpet their criminal intentions to the world at large."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Now, once we do manage to clear the rails, we will face a deck crowded with armed sailors. For a small party such as ours, the most effective strategy will be to incapacitate individual foes as swiftly as possible─each opponent we down is one less weapon raised against us. It is imperative that we do not allow ourselves to become tangled in multiple, drawn-out skirmishes lest we be overwhelmed. I call this “Stratagem Hammerfall.”"
+            },
+            {
+                "name": "KLYHIA",
+                "text": "“Strategy is a tool used to manipulate one's situation into the desired reality.” Keep those words in mind, <span class=\"highlight\">Forename</span>. It is time we departed─let us regroup before the main gates of Aleport."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Let us be about our task. <span class=\"highlight\">Forename</span>, pray inform the steersman at the pier that we are ready to conduct our inspection."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Should violence be offered, you are to execute Stratagem Hammerfall. Do not forget: your tactics are both your shield and your weapon."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Please inform the steersman at the pier of our arrival. Any aggression is to be rebuked with Stratagem Hammerfall."
+            },
+            {
+                "name": "GEISSFRYN",
+                "text": "The foreseer will be safe with us."
+            },
+            {
+                "name": "AERSTHOTA",
+                "text": "We're countin' on you to cut us a path to the landin' boat!"
+            },
+            {
+                "name": "SENDOU",
+                "text": "You're with the folks from Mealvaan's Gate? I─ Ah, hells, I <span class=\"emphasis\">knew</span> there'd be trouble!"
+            },
+            {
+                "name": "SENDOU",
+                "text": "Y-You're on your own, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>!"
+            },
+            {
+                "name": "SENDOU",
+                "text": "Well, then! I'm certainly glad to see you can handle yourself. You'll find the landing boat just down here at the end of this ramp. I'll have no part of what comes next, though!"
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Deftly handled, <span class=\"highlight\">Forename</span>. Once again, I am reminded of our guildmaster."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Thanks to your efficient response, we will be able to commence this inspection earlier than I had calculated. We shall board the merchant vessel out in the bay."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Aersthota, if you would take the rudder? The <span class=\"emphasis\">Morningstar</span> awaits."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Since their welcoming party at the pier failed to deter us, I expect─with a probability of 85%─that our arrival will incite further belligerence."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Our objective, however, is not to trade blows, but to gain access to the hold. It may behoove us to employ “Stratagem Hardhead.”"
+            },
+            {
+                "name": "KLYHIA",
+                "text": "The aim of our opponents is to buy time so that suspect goods may be tossed into the ocean. I do not intend to give them that time. We will bull our way towards the cargo hold as quickly as we can."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "It is a tactic fraught with risk, but one that your presence makes possible. Shall we begin?"
+            },
+            {
+                "name": "TALK",
+                "text": "I am Foreseer K'lyhia. By the authority of Mealvaan's Gate, I request that you surrender your goods for assessment!"
+            },
+            {
+                "name": "TALK",
+                "text": "Well, now, yer timin' couldn't be worse, lass. The 'old door's all rusted up, ye see. Bloody thing won't open. Ye'll 'ave to come back another day after we's fixed the 'inges."
+            },
+            {
+                "name": "TALK",
+                "text": "I will see that cargo <span class=\"emphasis\">now</span>. Any vessel entering a port of Limsa Lominsa is bound by law to submit to a routine inspection."
+            },
+            {
+                "name": "TALK",
+                "text": "The law, is it? Lads, I reckon it's time our “guests” 'ad 'emselves a little accident. Pitch 'em over the side!"
+            },
+            {
+                "name": "KLYHIA",
+                "text": "A masterful display, <span class=\"highlight\">Forename</span>! Now we can finally gain access to their cargo."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Oof!"
+            },
+            {
+                "name": "DOSWMAGA",
+                "text": "(-???-)What 'ave we 'ere, then? It's one o' the bitch Admiral's lapdogs, scamperin' about me ship."
+            },
+            {
+                "name": "DOSWMAGA",
+                "text": "(-???-)Yer just like yer mistress: always stickin' yer nose in where it ain't invited."
+            },
+            {
+                "name": "KLYHIA",
+                "text": "N-No...it can't be!"
+            },
+            {
+                "name": "DOSWMAGA",
+                "text": "(-???-)Hah. Recognized me pretty face, did ye? "
+            },
+            {
+                "name": "KLYHIA",
+                "text": "B-But...you were caught... Exiled..."
+            },
+            {
+                "name": "AERSTHOTA",
+                "text": "Foreseer! Are you hurt? Can you stand?"
+            },
+            {
+                "name": "KLYHIA",
+                "text": "St-Stay back! You stay away from me!"
+            },
+            {
+                "name": "AERSTHOTA",
+                "text": "Foreseer, please, calm down! What are your orders?"
+            },
+            {
+                "name": "DOSWMAGA",
+                "text": "(-???-)I've 'ad enough o' yer whimperin'. An' I've <span class=\"emphasis\">certainly</span> 'ad enough o' these bloody books. It's clear ye ain't learnin' anythin' from 'em."
+            },
+            {
+                "name": "DOSWMAGA",
+                "text": "(-???-)Reckon it's time ye got a <span class=\"emphasis\">different</span> kind o' lesson!"
+            },
+            {
+                "name": "KLYHIA",
+                "text": "Aaaaaah!"
+            },
+            {
+                "name": "AERSTHOTA",
+                "text": "K'lyhia! Nophica preserve us, she's fainted! We must withdraw!"
+            },
+            {
+                "name": "GEISSFRYN",
+                "text": "<span class=\"highlight\">Forename</span>, quickly! Back to the boat! We'll carry the foreseer!"
+            },
+            {
+                "name": "DOSWMAGA",
+                "text": "(-???-)Aye, that's right! Ye slink on back to yer mistress, ye worthless curs! Gahahahaha!"
+            },
+            {
+                "name": "AERSTHOTA",
+                "text": "We'll take care of K'lyhia. You'd best return to the Arcanists' Guild and report to Mistress Thubyrgeim."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "It is good to see you well, <span class=\"highlight\">Forename</span>. Geissfryn sent word ahead of your travails. An unfortunate turn of events, but considering the infamous blackheart you faced, you might have fared much worse."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "Have you heard of the pirate Doesmaga? He was exiled from Limsa Lominsa some years ago, but it appears he has chosen to defy the Admiral's orders."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "And once more he dares lay a hand on Foreseer K'lyhia! The poor lass must have been terrified. If I had known Doesmaga was aboard that ship, I never would have assigned her that duty."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "The assessor may require some time to recover─for K'lyhia, that man is a nightmare made flesh."
+            },
+            {
+                "name": "THUBYRGEIM",
+                "text": "Though her physical wounds will soon mend, there is little we can do to salve the hurt to her mind. You are concerned? Angry, mayhap? Harness that energy, and channel it into your training. I predict we shall be needing your skills again before long."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "QIB",
+                "text": "Commence Stratagem Hardhead!"
+            },
+            {
+                "name": "QIB",
+                "text": "<span class=\"highlight\">Forename</span>!<br>It's Topaz Carbuncle's time to shine!"
+            },
+            {
+                "name": "QIB",
+                "text": "Our healer must be protected first and foremost!"
+            },
+            {
+                "name": "QIB",
+                "text": "Too many. Just too many..."
+            },
+            {
+                "name": "QIB",
+                "text": "I must learn...to cure...my own wounds..."
+            },
+            {
+                "name": "QIB",
+                "text": "This scenario was not entirely unexpected..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2147
+                },
+                {
+                    "id": 3024,
+                    "one": 1
+                },
+                {
+                    "id": 3547,
+                    "one": 1
+                },
+                {
+                    "id": 3327,
+                    "one": 1
+                },
+                {
+                    "id": 3777,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 3360
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 27
+                }
+            ],
+            "quests": [
+                66639
+            ]
+        },
+        "next": [
+            65995
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000909",
+            "obj": {
+                "i": 1000909,
+                "n": "Thubyrgeim",
+                "l": 29,
+                "q": 15,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005208",
+            "obj": {
+                "i": 1005208,
+                "n": "K'lyhia",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005209",
+            "obj": {
+                "i": 1005209,
+                "n": "Geissfryn",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005210",
+            "obj": {
+                "i": 1005210,
+                "n": "Aersthota",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005211",
+            "obj": {
+                "i": 1005211,
+                "n": "Steersman",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005214",
+            "obj": {
+                "i": 1005214,
+                "n": "Aersthota",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "2147",
+            "obj": {
+                "i": 2147,
+                "n": "Hard Leather Grimoire",
+                "l": 15,
+                "c": 33405,
+                "t": 10,
+                "p": 732
+            }
+        },
+        {
+            "type": "item",
+            "id": "3024",
+            "obj": {
+                "i": 3024,
+                "n": "Cotton Cowl",
+                "l": 15,
+                "c": 43610,
+                "t": 35,
+                "p": 663
+            }
+        },
+        {
+            "type": "item",
+            "id": "3547",
+            "obj": {
+                "i": 3547,
+                "n": "Hard Leather Ringbands",
+                "l": 16,
+                "c": 48239,
+                "t": 37,
+                "p": 365
+            }
+        },
+        {
+            "type": "item",
+            "id": "3327",
+            "obj": {
+                "i": 3327,
+                "n": "Cotton Tights",
+                "l": 15,
+                "c": 45083,
+                "t": 36,
+                "p": 315
+            }
+        },
+        {
+            "type": "item",
+            "id": "3777",
+            "obj": {
+                "i": 3777,
+                "n": "Hard Leather Boots",
+                "l": 15,
+                "c": 46139,
+                "t": 38,
+                "p": 480
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66639",
+            "obj": {
+                "i": 66639,
+                "n": "Topaz Teachings",
+                "g": 135,
+                "l": "Limsa Lominsa",
+                "s": 150,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65995",
+            "obj": {
+                "i": 65995,
+                "n": "Pincer Maneuver",
+                "g": 135,
+                "l": "Limsa Lominsa",
+                "s": 200,
+                "f": 1
+            }
+        }
+    ]
+}

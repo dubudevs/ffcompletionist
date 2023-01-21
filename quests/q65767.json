@@ -1,0 +1,110 @@
+{
+    "quest": {
+        "name": "Ticked Off",
+        "location": "Western Thanalan",
+        "id": 65767,
+        "patch": 2.0,
+        "sort": 50,
+        "eventIcon": 71221,
+        "issuer": 1002001,
+        "target": 1002001,
+        "involved": [
+            1002005
+        ],
+        "genre": 93,
+        "journal": [
+            "Imme of Scorpion Crossing is worried about the condition of her chocobo.",
+            "Imme fears that her chocobo, Slugger, is the unwilling host of a parasite ladybug. Examine her bird and kill any parasites that you find.",
+            "You have slain the parasite ladybug that was plaguing Slugger. The chocobo is now looking at you intently, as if it has something it wants to say...",
+            "Lessened one bloodsucking parasite ladybug, Slugger has made an immediate and complete recovery. Speak to Imme once more.",
+            "Imme is immensely grateful to you for saving Slugger, and goes on to speak about the role of chocobos in Eorzea's shipment of cargo over land, and the importance of maintaining the birds' health."
+        ],
+        "objectives": [
+            "Examine Slugger and slay any parasites you find.",
+            "Speak with Slugger.",
+            "Speak with Imme."
+        ],
+        "dialogue": [
+            {
+                "name": "IMME",
+                "text": "You there! Yes, you. You're an adventurer, are you not? You travel about Eorzea slaying beasts and finding treasure─that sort of thing?"
+            },
+            {
+                "name": "IMME",
+                "text": "I've need of help. I must travel to Horizon where my cargo awaits, but my chocobo, Slugger, won't move an ilm."
+            },
+            {
+                "name": "IMME",
+                "text": "I tried to have a closer look, but I saw a vile pair of antennae protruding from his feathers and lost my nerve. I love Slugger with all my heart, but bugs... Bugs I <span class=\"emphasis\">cannot</span> do."
+            },
+            {
+                "name": "IMME",
+                "text": "I fear he may have a parasite ladybug that's gorging itself on his blood. Check him for me, would you? And if you find a ladybug dug in there somewhere, kill the damned thing."
+            },
+            {
+                "name": "CHOBO",
+                "text": "Kweh! Kweh!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "TALK",
+                "text": "Kweeeh! Kweh kweh kweh!"
+            },
+            {
+                "name": "IMME",
+                "text": "Slugger says thank you, and you've my thanks as well!"
+            },
+            {
+                "name": "IMME",
+                "text": "I was sure as sunup it was a parasite ladybug. Must have latched itself on somewhere along the road, but how the bloody thing managed to stay concealed at that size is a complete mystery. In fact, I'm not even going to question it. I'd just like to move on and put this all behind me."
+            },
+            {
+                "name": "IMME",
+                "text": "If we don't keep our chocobos healthy, cargo won't be able to move over land. We owe these birds a great debt─I wish more folk would see that."
+            }
+        ],
+        "reward": {
+            "gil": 132,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 6
+                }
+            ],
+            "xp": 560
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002001",
+            "obj": {
+                "i": 1002001,
+                "n": "Imme",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002005",
+            "obj": {
+                "i": 1002005,
+                "n": "Slugger",
+                "l": 42,
+                "q": 1
+            }
+        }
+    ]
+}

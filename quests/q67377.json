@@ -1,0 +1,88 @@
+{
+    "quest": {
+        "name": "An Immaculate Home",
+        "location": "The Churning Mists",
+        "id": 67377,
+        "patch": 3.0,
+        "sort": 5507,
+        "eventIcon": 71221,
+        "issuer": 1012288,
+        "target": 1012288,
+        "genre": 100,
+        "journal": [
+            "Something has Mogmont's pom-pom in a twist.",
+            "Mogmont's sense of duty has been highly offended by a brazen dragon who has built a nest just outside Zenith. The dutiful moogle bids you steal an egg from this nest, but does not say for what purpose. Go to the plaza in front of Zenith and take the egg from under the dragon's snout.",
+            "Understandably, the dragon attacks you when you attempt to steal the egg, but you manage to subdue it. Grab an egg from the nest before the dragon recovers.",
+            "The egg is warm to the touch, and you can feel the heat of the soon-to-be-born dragon within. Bring the egg back to Mogmont to finally find out what he plans to do with it.",
+            "After handing the dragon egg over to Mogmont, he reveals the final step in his master plan: he will return it. However, not before giving the thoughtless dragon an earful and lecturing him on the importance of keeping such a holy place as Zenith clean and tidy."
+        ],
+        "objectives": [
+            "Obtain a dragon egg.",
+            "Deliver the egg to Mogmont."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGMONT",
+                "text": "This aggression will not stand, kupo! Nidhogg's meddlesome minions have swarmed the plaza in front of Zenith."
+            },
+            {
+                "name": "MOGMONT",
+                "text": "We need to do <span class=\"emphasis\">something</span> to teach them a lesson. One of them even had the gall to make a nest right in front of the holy place, if you can believe that. I need you to snatch an egg from it─that'll teach them to breed where they don't belong!"
+            },
+            {
+                "name": "MOGMONT",
+                "text": "We cannot tolerate Nidhogg's dragons <span class=\"emphasis\">breeding</span> on holy ground. Steal an egg from the nest to show those dragons they're not welcome here!"
+            },
+            {
+                "name": "MOGMONT",
+                "text": "The nerve of that dragon, making a nest in such holy grounds. Did you have any trouble stealing the egg, kupo?"
+            },
+            {
+                "name": "MOGMONT",
+                "text": "That... That egg is larger than I imagined! Oh? You want to know what I plan on doing with it?"
+            },
+            {
+                "name": "MOGMONT",
+                "text": "Why, I'm going to march right back to that dragon and give it back the egg! But not before giving it an earful! I'll have it know this is Hraesvelgr's domain, and we won't tolerate untidy nests around here, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 521,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67171
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012288",
+            "obj": {
+                "i": 1012288,
+                "n": "Mogmont",
+                "l": 2002,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        }
+    ]
+}

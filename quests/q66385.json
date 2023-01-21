@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Anise, Chocolate, and a Hint of Toad",
+        "location": "Eastern La Noscea",
+        "id": 66385,
+        "patch": 2.0,
+        "sort": 330,
+        "eventIcon": 71221,
+        "issuer": 1006307,
+        "target": 1006307,
+        "genre": 91,
+        "journal": [
+            "Etgar would have you once again slay his demons.",
+            "Etgar worriedly recounts how the river has gorged itself sick on the winery's rich wastewater, causing gigantoads to run riot. He bids you dispatch three of the overgrown amphibians.",
+            "You have beaten back the humongous hopping menaces. Report back to Etgar and tell him the deed is done.",
+            "Though relieved that the sugar-soused pests have been dealt with, Etgar remains concerned about the impact of winemaking on the natural habitat. You cannot help but feel better about your own chosen trade and its relative lack of complication."
+        ],
+        "objectives": [
+            "Slay gigantoads.",
+            "Report to Etgar."
+        ],
+        "dialogue": [
+            {
+                "name": "ETGAR",
+                "text": "The vineyard wastes much water─washing sugar and chaff off the grapes, the spoilage and dregs from vats and barrels─and all of it goes into the river."
+            },
+            {
+                "name": "ETGAR",
+                "text": "The richness of the swill chokes the river and gigantoads feast on the scum. If raptors were horrible, these are thrice as bad. Slay them for us─for <span class=\"emphasis\">me</span>, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "ETGAR",
+                "text": "Oh, Master Byrglaent will be so pleased. But...it grieves me that our wine has spoiled the river so. Perhaps we can─<span class=\"emphasis\">I</span> can─construct some system to make our swill sweeter."
+            }
+        ],
+        "reward": {
+            "gil": 1690,
+            "items": [
+                {
+                    "num": 4,
+                    "id": 4701,
+                    "one": 1
+                },
+                {
+                    "num": 4,
+                    "id": 4654,
+                    "one": 1
+                }
+            ],
+            "xp": 8190
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 33,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66380
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006307",
+            "obj": {
+                "i": 1006307,
+                "n": "Etgar",
+                "l": 32,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "4701",
+            "obj": {
+                "i": 4701,
+                "n": "Acorn Cookie",
+                "l": 33,
+                "c": 24007,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4654",
+            "obj": {
+                "i": 4654,
+                "n": "Scrambled Eggs",
+                "l": 33,
+                "c": 24256,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66380",
+            "obj": {
+                "i": 66380,
+                "n": "Mona Lisa Smile",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 330
+            }
+        }
+    ]
+}

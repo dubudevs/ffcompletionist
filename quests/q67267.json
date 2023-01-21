@@ -1,0 +1,186 @@
+{
+    "quest": {
+        "name": "Dinner for Four",
+        "location": "Ishgard",
+        "id": 67267,
+        "patch": 3.0,
+        "sort": 5006,
+        "eventIcon": 71221,
+        "issuer": 1012217,
+        "target": 1012217,
+        "involved": [
+            1011218,
+            1011220,
+            1011221
+        ],
+        "genre": 96,
+        "journal": [
+            "Torsefers seeks assistance with a rather delicate issue.",
+            "House Fortemps is preparing to host a banquet, and invitations must be delivered to the other High Houses. Assuming you will be unable to meet with the lords and ladies of each house, Torsefers asks that you deliver invitations to the guards standing watch at each house.",
+            "You speak with Bartelot at Haillenarte Manor and hand him the banquet invitation. He regretfully informs you that, although his lord would be pleased by the invitation, he has been kept busy in the wake of recent Dravanian assaults and matters concerning heretics. Move on to Dzemael Manor and deliver the next invitation.",
+            "You reach Dzemael Manor to find Jainelette standing guard outside. She tells you that her lord has been preoccupied with the restoration of Falcon's Nest and has little time for aught else. Nevertheless, she promises to see the invitation delivered. Proceed to Durendaire Manor to deliver the last invitation.",
+            "You deliver the invitation to Framoncis standing guard at Durendaire Manor, and he finds the proposed banquet to be suspect at best. He goes on to tell you that House Durendaire and House Fortemps are not on good terms. He agrees to deliver the invitation if only to prevent undue tension between the two houses. Report to Torsefers and inform him the invitations have been delivered.",
+            "You return to Torsefers empty-handed, and he is thankful for your assistance. He tells you that the four High Houses are descended from the heroes who helped establish Ishgard. Although they are a formidable alliance in the face of their Dravanian enemies, they are quick to turn on one another when seeking political clout. He warns you to be careful, as making new friends may also result in new enemies."
+        ],
+        "objectives": [
+            "Deliver a formal invitation to Haillenarte Manor.",
+            "Deliver a formal invitation to Dzemael Manor.",
+            "Deliver a formal invitation to Durendaire Manor.",
+            "Report to Torsefers."
+        ],
+        "dialogue": [
+            {
+                "name": "TORSEFERS",
+                "text": "Excuse me, adventurer. I would ask a favor of you on behalf of House Fortemps."
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "My lord is hosting a banquet, and requests attendance from the other High Houses. Take these invitations and see they are delivered at once."
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "Of course, you will likely not be granted an audience with the lords and ladies of the High Houses. Leaving these with the guards will do, but they must be delivered."
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "Do not let the guards intimidate you. If they will not permit you entry, leave the invitations with them."
+            },
+            {
+                "name": "BARTELOT",
+                "text": "What business have you with House Haillenarte?"
+            },
+            {
+                "name": "BARTELOT",
+                "text": "An invitation to dine with House Fortemps? Me lord would be honored to attend."
+            },
+            {
+                "name": "BARTELOT",
+                "text": "But I'm afraid he's quite busy at present, what with the breach of Ishgard's defenses and rising heretic activity."
+            },
+            {
+                "name": "BARTELOT",
+                "text": "Can't rightly say he's <span class=\"emphasis\">too</span> busy, though. That's for him to decide. You have me word this invitation'll be delivered."
+            },
+            {
+                "name": "BARTELOT",
+                "text": "I'll deliver this invitation personally. You have me word."
+            },
+            {
+                "name": "JAINELETTE",
+                "text": "This is the residence of House Dzemael. If you have no business here, I must ask you to leave."
+            },
+            {
+                "name": "JAINELETTE",
+                "text": "A banquet hosted by House Fortemps? I see.<br>...Hm? Oh, it's nothing."
+            },
+            {
+                "name": "JAINELETTE",
+                "text": "It's just... My lord has been tied up with the restoration of Falcon's Nest. I imagine making time to attend will be difficult. Nevertheless, I will see to it he receives the invitation."
+            },
+            {
+                "name": "JAINELETTE",
+                "text": "My lord is a busy man, but you can be sure he will have this invitation."
+            },
+            {
+                "name": "FRAMONCIS",
+                "text": "What business brings you to House Durendaire? Speak up."
+            },
+            {
+                "name": "FRAMONCIS",
+                "text": "A dinner with House Fortemps? Hmph. And whose favor do they aim to gain this time?"
+            },
+            {
+                "name": "FRAMONCIS",
+                "text": "Not that it concerns you, but House Durendaire and Fortemps don't exactly see eye to eye. Little wonder they would ask <span class=\"emphasis\">you</span> to deliver this missive."
+            },
+            {
+                "name": "FRAMONCIS",
+                "text": "But far be it from me to exacerbate matters... The invitation will be delivered. What my lord does with it is not my concern."
+            },
+            {
+                "name": "FRAMONCIS",
+                "text": "The invitation will be delivered in due time. Now please, stop loitering about the manor."
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "Ah, and so you have returned. I hope you were not met with too much hostility."
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "The High Houses of Ishgard are descended from the heroes who once fought alongside Haldrath, the first Azure Dragoon. Their ancestors were the founders of Ishgard, and it is from their bloodlines the archbishop is chosen."
+            },
+            {
+                "name": "TORSEFERS",
+                "text": "There is no force greater than their combined strength when pitted against the Horde. When vying for power here in Ishgard, however, they are like coeurls fighting for territory in a small pit. To involve yourself in politics here is a dangerous game. You would do well to remember that."
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67118
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012217",
+            "obj": {
+                "i": 1012217,
+                "n": "Torsefers",
+                "l": 2301,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011218",
+            "obj": {
+                "i": 1011218,
+                "n": "Framoncis",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011220",
+            "obj": {
+                "i": 1011220,
+                "n": "Bartelot",
+                "l": 2301,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011221",
+            "obj": {
+                "i": 1011221,
+                "n": "Jainelette",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67118",
+            "obj": {
+                "i": 67118,
+                "n": "The Better Half",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 3
+            }
+        }
+    ]
+}

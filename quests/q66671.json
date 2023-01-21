@@ -1,0 +1,139 @@
+{
+    "quest": {
+        "name": "Ghosts of Amdapor",
+        "location": "Western Thanalan",
+        "id": 66671,
+        "patch": 2.0,
+        "sort": 500,
+        "icon": 112015,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1005021,
+        "target": 1007574,
+        "genre": 93,
+        "journal": [
+            "Nedrick Ironheart has information that is certain to set your heart to racing.",
+            "Sensing that you may be wanting for stimulation, Nedrick Ironheart tells you of Amdapor Keep, a ruined fortress situated in the South Shroud. If you would walk its halls and delve into the past, speak with Maxinne, the Wood Wailer who stands guard at the entrance.",
+            "You learn that Amdapor Keep is overrun with the Lambs of Dalamud and the voidsent they have taken to summoning. Satisfied that you will hold your own against such foes, Maxinne grants you permission to enter.<br><br>※Amdapor Keep can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Speak with Maxinne at Amdapor Keep."
+        ],
+        "dialogue": [
+            {
+                "name": "NEDRICK",
+                "text": "If you don't mind my saying, it seems to me you've been wanting for stimulation of late. Aye, the air of torpor about you is quite palpable."
+            },
+            {
+                "name": "NEDRICK",
+                "text": "Adventurers are as next of kin to explorers, my friend. Like us, you need regular doses of excitement, else you're like to shrivel up and die."
+            },
+            {
+                "name": "NEDRICK",
+                "text": "I would hate to see that happen to you, so I will tell you of a place that will surely set your heart to racing: Amdapor Keep. 'Tis a ruined fortress situated in the South Shroud, dating back to the Fifth Astral Era."
+            },
+            {
+                "name": "NEDRICK",
+                "text": "If the thought of delving into the past sets your loins afire, the keep will surely serve to quench it. The entrance is watched by a Wood Wailer named Maxinne. Give her my name, and she will tell you all you need to know."
+            },
+            {
+                "name": "MAXINNE",
+                "text": "Here at Nedrick's recommendation? Then you must not be without skill. That said, it is my duty to warn you of the dangers that await."
+            },
+            {
+                "name": "MAXINNE",
+                "text": "This fortress was built by the Amdapori, an ancient people who rose to power upon arcane knowledge. During the heyday of their civilization, they built magnificent structures such as this."
+            },
+            {
+                "name": "MAXINNE",
+                "text": "Alas, that splendor has long faded into memory, and the keep has become a lair for the Lambs of Dalamud, a doomsday cult. Some of the cultists have even succeeded in summoning voidsent, and we Wood Wailers welcome capable adventurers who would be willing to keep their numbers in check."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have unlocked the Duty Finder! This feature allows you to undertake multiplayer duties without having to form a party on your own."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To bring up the Duty Finder interface, select <span class=\"highlight\">Duty Finder</span> under <span class=\"highlight\">Duty</span> from the <span class=\"highlight\">main menu</span>."
+            }
+        ],
+        "reward": {
+            "gil": 5368,
+            "instance": 14,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 1
+                }
+            ],
+            "instances": [
+                5
+            ],
+            "quests": [
+                70058
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005021",
+            "obj": {
+                "i": 1005021,
+                "n": "Nedrick Ironheart",
+                "l": 42,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007574",
+            "obj": {
+                "i": 1007574,
+                "n": "Maxinne",
+                "l": 56,
+                "q": 3
+            }
+        },
+        {
+            "type": "instance",
+            "id": "14",
+            "obj": {
+                "i": 14,
+                "n": "Amdapor Keep",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 50,
+                "max_lvl": 50,
+                "min_ilvl": 45,
+                "max_ilvl": 110
+            }
+        },
+        {
+            "type": "instance",
+            "id": "5",
+            "obj": {
+                "i": 5,
+                "n": "The Aurum Vale",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 47,
+                "max_lvl": 49
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70058",
+            "obj": {
+                "i": 70058,
+                "n": "The Ultimate Weapon",
+                "g": 1,
+                "l": "Northern Thanalan",
+                "s": 249
+            }
+        }
+    ]
+}

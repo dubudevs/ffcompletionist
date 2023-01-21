@@ -1,0 +1,807 @@
+{
+    "quest": {
+        "name": "Hitting the Books",
+        "location": "Old Sharlayan",
+        "id": 69895,
+        "patch": 6.0,
+        "sort": 513,
+        "icon": 101099,
+        "eventIcon": 71201,
+        "issuer": 1038670,
+        "target": 1038679,
+        "genre": 11,
+        "journal": [
+            "Krile is intent on uncovering the reason behind the Forum's inexplicable behavior.",
+            "As a means to gain insight into the Forum and their confounding obstinacy, Krile has been scouring Sharlayan's archives for any mention of the Final Days. Progress has been slow, however, and she enlists you and your fellow Scions to help with her research. For your first task, you are to meet Krile at the nearby entrance to Noumenon─the grand library of Sharlayan.",
+            "Krile instructs you to seek out any books on the subject of Sharlayan history or the workings of the Forum. It seems she wishes for you to brush up on your fundamental knowledge for the sake of the ongoing investigation.",
+            "Having reviewed the basics of Sharlayan's founding and the establishment of the Forum, you feel sufficiently prepared for the task ahead. You then recall that you were to rendezvous with the others at the stone benches just outside Noumenon's entrance.",
+            "Alisaie and G'raha Tia are the first to join you, and following a revealing discussion of their respective family situations, they settle down to study their borrowed books. Alphinaud and Krile should both be along soon...",
+            "As expected, Alphinaud and Krile appear next, bearing their own armfuls of reading material. Krile subjects you to a sudden interrogation regarding your experiences in Amaurot, wishing to compare your firsthand account with what she knows of the Final Days. Satisfied that her understanding is now equal to the rest of the Scions, she and Alphinaud focus on their reading, leaving you to keep an eye out for the final member of your research group.",
+            "Last to arrive, Y'shtola expresses doubts that the sensitive knowledge you seek would be contained in Noumenon's public archives. She is of the opinion, however, that some snippet of useful information might still be found, and enlists you as her research assistant. After what feels like an age, you are released to speak with Krile.",
+            "Despite your exhausted appearance, Krile informs you that, should you so desire, Noumenon's reference mammet can point you towards the same books you located earlier. For the moment, however, you are excused from further reading duties."
+        ],
+        "objectives": [
+            "Speak with Krile outside Noumenon.",
+            "Read books in Noumenon on the relevant subjects.",
+            "Wait at the designated location.",
+            "Wait at the designated location again.",
+            "Wait at the designated location once more.",
+            "Speak with Krile."
+        ],
+        "dialogue": [
+            {
+                "name": "ALPHINAUD",
+                "text": "If the Forum is intent on concealing its intentions, then a cursory investigation will avail us little, I suspect. We will need to dig deeper─and with the greatest of care..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I still don't understand how the vote could be unanimous... What could possibly convince them all to turn their backs on Eorzea?"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "The process by which Forum members are elected is fair and equitable─neither wealth nor social standing offers any advantages to a prospective candidate. But fairly elected or not, Master Matoya still found them all to be insufferable."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Our tour of the city was a pleasant distraction. I feel more than ready now to tackle the challenges of the day!"
+            },
+            {
+                "name": "KRILE",
+                "text": "An unsettling change has come over Sharlayan, but together we will divine the underlying cause for the Forum's callousness."
+            },
+            {
+                "name": "KRILE",
+                "text": "As I mentioned before, however, questioning the councilors directly is a fruitless endeavor. They seem to have already come to a consensus as to what─and how little─they are willing to divulge."
+            },
+            {
+                "name": "KRILE",
+                "text": "Which is why I began scouring Sharlayan's archive of historical records for any hint of a connection to the Final Days."
+            },
+            {
+                "name": "KRILE",
+                "text": "Suffice it to say that progress has been slow─there are only so many dusty pages one can skim in a day. But now that I have this band of willing reinforcements, the search should proceed all the swifter!"
+            },
+            {
+                "name": "KRILE",
+                "text": "Let us reconvene outside Noumenon, shall we?"
+            },
+            {
+                "name": "KRILE",
+                "text": "Exit the annex to the right, and you'll find the archives on the western edge of the woods."
+            },
+            {
+                "name": "KRILE",
+                "text": "My directions were easy enough to follow, I hope? In any case, you stand now before the doors of Noumenon, Sharlayan's grandest collection of books and tomes!"
+            },
+            {
+                "name": "KRILE",
+                "text": "This building is actually only an entrance─and one of many at that─for the archives of Noumenon extend deep beneath the surface like the roots of a tree. The vast halls of the Great Gubal Library pale in comparison to Noumenon's endless maze of subterranean chambers."
+            },
+            {
+                "name": "KRILE",
+                "text": "Any citizen of Sharlayan is free to enter and peruse its shelves. ...Well, most of its shelves. Only Archons are afforded access to certain restricted vaults."
+            },
+            {
+                "name": "KRILE",
+                "text": "I've dispatched Y'shtola and Raha to investigate those. Meanwhile, Alisaie and Alphinaud will help me continue my search through the stacks open to the general public."
+            },
+            {
+                "name": "KRILE",
+                "text": "Your status presents more of a problem. As a non-citizen, you are only permitted to browse the first floor here at the entrance. Even so, there should be a number of books which touch upon Sharlayan history or Forum policy."
+            },
+            {
+                "name": "KRILE",
+                "text": "Your task will be to find and study the relevant publications. I promise you, a working knowledge of those subjects will make it far easier to spot the sort of clues we're looking for."
+            },
+            {
+                "name": "KRILE",
+                "text": "Let us be about it, shall we? I've told the others to meet us at the stone benches over there once they've found some promising tomes. Happy reading!"
+            },
+            {
+                "name": "Q1",
+                "text": "The title on the spine reads <span class=\"emphasis\">An Introduction to the Heavens</span>.<br>Read the book?"
+            },
+            {
+                "name": "BOOKONE",
+                "text": "(-<span class=\"emphasis\">An Introduction to the Heavens</span>-)<span class=\"emphasis\">Have you ever gazed at the skies above and contemplated the mysteries contained therein? I speak not of shifting cloud patterns, but of the vastness beyond─of the sun and the twinkling tapestry of the night.</span>"
+            },
+            {
+                "name": "BOOKONE",
+                "text": "(-<span class=\"emphasis\">An Introduction to the Heavens</span>-)<span class=\"emphasis\">Some think the dome above us to be a finite space, yet amongst the leading thinkers of our age, one scholar's depiction of a boundless sea of stars has firmly taken root.</span>"
+            },
+            {
+                "name": "BOOKONE",
+                "text": "(-<span class=\"emphasis\">An Introduction to the Heavens</span>-)<span class=\"emphasis\">Alas, this heavenly sea remains an unreachable, unknowable destination. There are few indeed who can explain, in satisfactory detail, why our own star is believed to revolve around the sun.</span>"
+            },
+            {
+                "name": "BOOKONE",
+                "text": "(-<span class=\"emphasis\">An Introduction to the Heavens</span>-)<span class=\"emphasis\">It was the technologists of Allag who came closest to understanding the laws which govern that starry abyss. It was they who launched Dalamud, and sought to expand beyond our earthbound existence.</span>"
+            },
+            {
+                "name": "BOOKONE",
+                "text": "(-<span class=\"emphasis\">An Introduction to the Heavens</span>-)<span class=\"emphasis\">...Having read of their ancient ambitions, I wonder: has your interest in this field of study waxed or waned?</span>"
+            },
+            {
+                "name": "BOOKONE",
+                "text": "(-<span class=\"emphasis\">An Introduction to the Heavens</span>-)<span class=\"emphasis\">What if I were to tell you that the eternal constellations were arranged differently in the distant past? That their positions continue to shift almost imperceptibly but measurably as we journey into the future?</span>"
+            },
+            {
+                "name": "BOOKONE",
+                "text": "(-<span class=\"emphasis\">An Introduction to the Heavens</span>-)<span class=\"emphasis\">Would it shock you to learn that the stars drift further and further apart, and may indeed do so forever? Are you eager to learn more?</span>"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This book is on the wrong subject. Search for works which contain details on the Forum, or mention the history of Sharlayan."
+            },
+            {
+                "name": "Q2",
+                "text": "The title on the spine reads <span class=\"emphasis\">The Voice of a Growing City</span>.<br>Read the book?"
+            },
+            {
+                "name": "BOOKTWO",
+                "text": "(-<span class=\"emphasis\">The Voice of a Growing City</span>-)<span class=\"emphasis\">In the years which followed the founding of Sharlayan, civic policy and other matters of import were decided at the Ecclesia─a public forum at which every citizen was eligible to speak.</span>"
+            },
+            {
+                "name": "BOOKTWO",
+                "text": "(-<span class=\"emphasis\">The Voice of a Growing City</span>-)<span class=\"emphasis\">As the city's population grew, however, this format became increasingly impractical. The larger number of participants gave rise to ever-longer debates, resulting in significant delays of vital resolutions.</span>"
+            },
+            {
+                "name": "BOOKTWO",
+                "text": "(-<span class=\"emphasis\">The Voice of a Growing City</span>-)<span class=\"emphasis\">Various measures were introduced in an attempt to curtail protracted discussions, but in the year 201 of the Sixth Astral Era, it was ultimately decreed that Sharlayan would transition to a new form of governance.</span>"
+            },
+            {
+                "name": "BOOKTWO",
+                "text": "(-<span class=\"emphasis\">The Voice of a Growing City</span>-)<span class=\"emphasis\">The nation would now be led by a body of ninety-nine members─citizens chosen from amongst their peers by means of a nationwide vote. Thus was the Forum as we know it today conceived and created.</span>"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have gained a fundamental understanding of Sharlayan history and the foundation of the Forum. Head outside to the rendezvous point and await your companions."
+            },
+            {
+                "name": "Q3",
+                "text": "The faded title on the spine reads <span class=\"emphasis\">Stewards of Wisdom</span>.<br>Read the book?"
+            },
+            {
+                "name": "BOOKTHREE",
+                "text": "(-<span class=\"emphasis\">Stewards of Wisdom</span>-)<span class=\"emphasis\">During the chaos of the Sixth Umbral Calamity, Archon Nyunkrepf, founder of Sharlayan, bore witness to the madness and savagery of men brought to the brink of despair. Upon raising a settlement on an island in the Northern Empty, he instructed his people thus:</span>"
+            },
+            {
+                "name": "BOOKTHREE",
+                "text": "(-<span class=\"emphasis\">Stewards of Wisdom</span>-)<span class=\"emphasis\">Renounce the ways of war, and pursue enlightenment through knowledge and reason.</span>"
+            },
+            {
+                "name": "BOOKTHREE",
+                "text": "(-<span class=\"emphasis\">Stewards of Wisdom</span>-)<span class=\"emphasis\">The Sharlayans took to heart the words of their savior, and thenceforth served as stewards of wisdom.</span>"
+            },
+            {
+                "name": "BOOKTHREE",
+                "text": "(-<span class=\"emphasis\">Stewards of Wisdom</span>-)<span class=\"emphasis\">Upon a foundation of accumulated learning, they built a homeland unlike any other─a nation born from strength of minds, rather than strength of arms.</span>"
+            },
+            {
+                "name": "BOOKTHREE",
+                "text": "(-<span class=\"emphasis\">Stewards of Wisdom</span>-)<span class=\"emphasis\">With knowledge of economics came shrewd trading. With knowledge of agriculture came bountiful crops. Engineering brought wells and sewers, ending squabbles over water.</span>"
+            },
+            {
+                "name": "BOOKTHREE",
+                "text": "(-<span class=\"emphasis\">Stewards of Wisdom</span>-)<span class=\"emphasis\">Wealth of expertise could be bartered for wealth in coin. And the more their wisdom spread throughout the world, the more mankind as a whole would thrive.</span>"
+            },
+            {
+                "name": "BOOKTHREE",
+                "text": "(-<span class=\"emphasis\">Stewards of Wisdom</span>-)<span class=\"emphasis\">And so it was that no matter the trials and tribulations of the age, the citizens of Sharlayan would live by their founder's teachings. For the sake of a better tomorrow─for the sake of a brighter star─they would eschew the tools of war, and with knowledge deliver the world.</span>"
+            },
+            {
+                "name": "Q4",
+                "text": "The title on the spine reads <span class=\"emphasis\">Forever Twenty Summers</span>.<br>Read the book?"
+            },
+            {
+                "name": "BOOKFOUR",
+                "text": "(-<span class=\"emphasis\">Forever Twenty Summers</span>-)<span class=\"emphasis\">My beloved seekers of knowledge. Have you ever put learning before your health, and neglected to feed and rest your body as you should?</span>"
+            },
+            {
+                "name": "BOOKFOUR",
+                "text": "(-<span class=\"emphasis\">Forever Twenty Summers</span>-)<span class=\"emphasis\">I, too, once engaged in such foolish practices. But one night, engrossed in philosophical study, I had an epiphany:</span>"
+            },
+            {
+                "name": "BOOKFOUR",
+                "text": "(-<span class=\"emphasis\">Forever Twenty Summers</span>-)<span class=\"emphasis\">For all the world's mysteries that drive us to reckless abandon, we have so very few years of life in which to achieve our goals.</span>"
+            },
+            {
+                "name": "BOOKFOUR",
+                "text": "(-<span class=\"emphasis\">Forever Twenty Summers</span>-)<span class=\"emphasis\">Thus do I share with you this mantra: I am forever twenty summers young.</span>"
+            },
+            {
+                "name": "BOOKFOUR",
+                "text": "(-<span class=\"emphasis\">Forever Twenty Summers</span>-)<span class=\"emphasis\">The number itself is unimportant─you could be nineteen, or twenty-three, or forty. Whatever age you are when you discover this manual, let that be the age you aspire to remain.</span>"
+            },
+            {
+                "name": "BOOKFOUR",
+                "text": "(-<span class=\"emphasis\">Forever Twenty Summers</span>-)<span class=\"emphasis\">Through mindful, healthy living, will you extend the time available to spend upon your chosen research─another day, another moon, another summer to grasp the greater truths you pursue.</span>"
+            },
+            {
+                "name": "BOOKFOUR",
+                "text": "(-<span class=\"emphasis\">Forever Twenty Summers</span>-)<span class=\"emphasis\">In the pages that follow, we will explore the secrets of maintaining one's physical condition from a biological, aetherological, and arcane viewpoint...</span>"
+            },
+            {
+                "name": "Q5",
+                "text": "The title on the spine reads <span class=\"emphasis\">The Story of Sharlayan</span>.<br>Read the book?"
+            },
+            {
+                "name": "BOOKFIVE",
+                "text": "(-<span class=\"emphasis\">The Story of Sharlayan</span>-)<span class=\"emphasis\">Long, long ago, on an island in the northern sea, there lived a Roegadyn man by the name of Nyunkrepf.</span>"
+            },
+            {
+                "name": "BOOKFIVE",
+                "text": "(-<span class=\"emphasis\">The Story of Sharlayan</span>-)<span class=\"emphasis\">Nyunkrepf was a student of astrology, and he divined that a flood of terrifying proportions would soon sweep over the lands of Eorzea.</span>"
+            },
+            {
+                "name": "BOOKFIVE",
+                "text": "(-<span class=\"emphasis\">The Story of Sharlayan</span>-)<span class=\"emphasis\">So it was that he built a gigantic ship, assembled a crew, and set sail for that imperiled realm.</span>"
+            },
+            {
+                "name": "BOOKFIVE",
+                "text": "(-<span class=\"emphasis\">The Story of Sharlayan</span>-)<span class=\"emphasis\">The flood arrived as foretold, and to their horror the strangely churning waters drove the people towards the ocean. It was there, however, that Nyunkrepf's crew hauled them aboard his ark, but the danger had not passed: a towering wave approached, threatening to smash the vessel to pieces!</span>"
+            },
+            {
+                "name": "BOOKFIVE",
+                "text": "(-<span class=\"emphasis\">The Story of Sharlayan</span>-)<span class=\"emphasis\">With only moments to spare, Nyunkrepf wove a mighty spell of teleportation, and shifted the entire ship to safety atop Abalathia's Spine.</span>"
+            },
+            {
+                "name": "BOOKFIVE",
+                "text": "(-<span class=\"emphasis\">The Story of Sharlayan</span>-)<span class=\"emphasis\">Refugees from the surrounding regions huddled there alongside them, but it was not long before disputes over the dwindling supply of food led to violence and bloodshed.</span>"
+            },
+            {
+                "name": "BOOKFIVE",
+                "text": "(-<span class=\"emphasis\">The Story of Sharlayan</span>-)<span class=\"emphasis\">Saddened by the sight, Nyunkrepf gathered to him his crew and his grateful passengers, and abandoned the ark to those reddened peaks. They journeyed to the coast where they built a new ship, intent upon returning to the northern seas.</span>"
+            },
+            {
+                "name": "BOOKFIVE",
+                "text": "(-<span class=\"emphasis\">The Story of Sharlayan</span>-)<span class=\"emphasis\">They landed on the beach of an island, and settled upon that very spot. That settlement prospered and grew, and in time it became the city of Sharlayan we live in to this day.</span>"
+            },
+            {
+                "name": "Q6",
+                "text": "The title on the spine reads <span class=\"emphasis\">Roads of Old: The Colony</span>.<br>Read the book?"
+            },
+            {
+                "name": "BOOKSIX",
+                "text": "(-<span class=\"emphasis\">Roads of Old: The Colony</span>-)<span class=\"emphasis\">Many years ago, on the banks of the Thaliak in the Dravanian hinterlands, a Sharlayan colony once thrived.</span>"
+            },
+            {
+                "name": "BOOKSIX",
+                "text": "(-<span class=\"emphasis\">Roads of Old: The Colony</span>-)<span class=\"emphasis\">This settlement was originally established as a mere outpost to study the aetherial sea in the year 1311 of the Sixth Astral Era.</span>"
+            },
+            {
+                "name": "BOOKSIX",
+                "text": "(-<span class=\"emphasis\">Roads of Old: The Colony</span>-)<span class=\"emphasis\">Scholars dispatched to Eorzea found the facilities wanting, and their demands encouraged a gradual expansion in structures and services.</span>"
+            },
+            {
+                "name": "BOOKSIX",
+                "text": "(-<span class=\"emphasis\">Roads of Old: The Colony</span>-)<span class=\"emphasis\">As rumors spread of a growing community of academics, the area was further inundated with Eorzean students hoping to share in the renowned wisdom of the Sharlayans.</span>"
+            },
+            {
+                "name": "BOOKSIX",
+                "text": "(-<span class=\"emphasis\">Roads of Old: The Colony</span>-)<span class=\"emphasis\">Fifty years later, the Forum passed a motion to recognize what had become a flourishing town as an official Sharlayan colony.</span>"
+            },
+            {
+                "name": "BOOKSIX",
+                "text": "(-<span class=\"emphasis\">Roads of Old: The Colony</span>-)<span class=\"emphasis\">Eorzean residents took to calling the colony itself “Sharlayan,” which led to no small amount of confusion when discussions turned to the subject of the motherland.</span>"
+            },
+            {
+                "name": "BOOKSIX",
+                "text": "(-<span class=\"emphasis\">Roads of Old: The Colony</span>-)<span class=\"emphasis\">In response, some Sharlayan inhabitants, if pressed for a name, would simply refer to it as “Emporium.”</span>"
+            },
+            {
+                "name": "BOOKSIX",
+                "text": "(-<span class=\"emphasis\">Roads of Old: The Colony</span>-)<span class=\"emphasis\">Following the exodus, however, goblins and treasure hunters claimed for themselves a corner of the abandoned colony and gave it yet another name: Idyllshire.</span>"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The following chapters go on to introduce the most prominent features of Idyllshire. This book does not appear to contain additional information on the Forum, or cover the history of the Sharlayan motherland in greater detail."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Sorry, were you waiting long?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I wanted to make sure I'd borrowed at least a few promising volumes. Alphinaud and Krile should also be along shortly."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "I was delayed in similar fashion. As far as I could see, no titles in the Archon stacks mentioned the Final Days specifically, so we have no choice but to start with the tangentially relevant tomes─if they are even that."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "At present, the plan is to skim through as quickly as we dare, and share our discoveries as we make them."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "It would've been nice to invite everyone to the estate. Plenty of comfortable places to read, and a ready supply of hot tea..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Oh, I was always quite fond of reading outside."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "...But it's not about the little pleasures, is it? You miss your home."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "It's been...difficult. After our arrival, we managed to speak with one of the family servants and ask how things were."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "It seems our dear father has instructed the staff that even if Alphinaud and I were to return to Sharlayan, we were not to be allowed across the threshold."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "A harsh measure, indeed. I hope that our efforts to understand his position─and that of the Forum─will perhaps lead to a reconciliation..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "We'll mend this rift one day. I'm certain of it."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "And what of you, G'raha? Have you been to visit your family? Or do they not live here in the city?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Ah, well... My situation is also somewhat complicated. I was raised in Sharlayan, yes, but I was born rather further away."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "In the southern reaches of Ilsabard, in fact. For generations, my people have dwelt in Corvos, the coastal region opposite the island of Thavnair."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "The Allagans founded a city in that fertile land, and by ship, brought in the subjugated tribes of the Miqo'te to serve as laborers."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Of course, the massive earthquakes of the Fourth Umbral Calamity brought an end to the empire's reign. And when the Fifth Calamity froze the seas solid, many of the tribes still living in Corvos braved the journey back to Eorzea..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "My ancestors, however, chose to remain, that they might prevent the remnants of Allagan technology from being misused."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Isn't Corvos under Garlean rule?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "For the past fifty years, yes. Some semblance of local culture remains, as is the case for most imperial provinces, but Garlemald renamed the region “Locus Amoenus.”"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "...When I was a boy, a nearby town came under the jurisdiction of an illustrious imperial family─the nobles of House Darnus."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "House Darnus demonstrated a singular interest in Allagan civilization, and so my tribe was forced to consider a plan of action."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "For some time already, voices had been raised in favor of abandoning our ancient customs─after all, the Allagan Eye no longer passed to our eldest children as reliably as it once had."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Fear of discovery eventually tipped the scales, and the decision was made to bury our ties to the knowledge and traditions of Allag."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "As the last child born with the Allagan Eye, I was given over to the custody of friends in the Students of Baldesion, who had me registered as a Sharlayan citizen."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I never even considered... Forgive me, it was an unkind question."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Even Thancred was taken in by Archon Louisoix, was he not? Stories of adopted waifs and rescued orphans are more common among Sharlayans than you might think."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Yet regardless of our origins, we are all provided with an equal opportunity to learn. And with sufficient perspicacity, we outsiders can even earn the vaunted title of “Archon.”"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "'Tis exactly why I have such love for this country. And why I wish it to remain a nation of which its citizens can be proud."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Hear, hear! Another good reason to get to the bottom of the Forum's stubbornness─aside from the trifling matter of our impending doom."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Excuse us while we try to make some headway into these books, <span class=\"highlight\">Forename</span>. More company should be arriving any moment now!"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "There are others better suited to poring over old history books, so I thought I'd try my luck with more recent events. If I can find anything to better inform the Forum's baffling behavior..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Hm? What else do I know of Corvos? Precious little, I am afraid─I've not returned since Master Galuf first brought me here."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "I can tell you that Corvosi rebels still seek to slip the yoke of their imperial masters, though the fighting is far less fierce than it once was."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Oh, and they have carpets. <span class=\"emphasis\">Flying</span> carpets! The legends are quite extraordinary!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We've returned with our selections!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Although I must say, the pickings were quite slim indeed─Mistress Krile has already flicked through every history book devoted to disasters, and more than a few which barely made mention of them."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "As such, we will be looking into research papers on the Umbral Calamities, as well as articles written by prominent Forum members. Perhaps their knowledge of the Final Days comes from an unexpected source..."
+            },
+            {
+                "name": "KRILE",
+                "text": "Speaking of which, might I ask <span class=\"emphasis\">you</span> a few questions related to the Final Days?"
+            },
+            {
+                "name": "KRILE",
+                "text": "I'm the only one here who didn't witness the events of Amaurot firsthand, and fear I may be overlooking critical details."
+            },
+            {
+                "name": "KRILE",
+                "text": "My thanks! Now, where to begin..."
+            },
+            {
+                "name": "KRILE",
+                "text": "First things first─what kind of phenomena did the ancients encounter as the Final Days drew nigh?"
+            },
+            {
+                "name": "Q7",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A7",
+                "text": "A complete destabilization of creation magicks."
+            },
+            {
+                "name": "A7",
+                "text": "Primals of unrivaled power were summoned from the aether."
+            },
+            {
+                "name": "A7",
+                "text": "The worst kind of phenomena you can imagine!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Yes, the unfolding catastrophe wrought havoc on all manner of life..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The chaos extended to the ancients themselves, causing their powers of creation to spiral out of control. Fear and despair manifested in terrible, tangible fashion─meteors raining from the sky, fire erupting from the ground, indescribable abominations prowling the streets..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Ahem, I believe Hydaelyn and Zodiark were summoned <span class=\"emphasis\">after</span> the Final Days had arrived. Quite deliberately, in fact."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "If we are speaking of phenomena caused by the Final Days, the chaos of creation magicks run rampant is what first comes to mind. Fear and despair manifested in terrible, tangible fashion─meteors raining from the sky, fire erupting from the ground, indescribable abominations prowling the streets..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Well, that certainly is an accurate─if somewhat ambiguous─impression."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "To expound upon that explanation, the unfolding catastrophe wrought havoc on all manner of life..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The chaos extended to the ancients themselves, causing their powers of creation to spiral out of control. Fear and despair manifested in terrible, tangible fashion─meteors raining from the sky, fire erupting from the ground, indescribable abominations prowling the streets..."
+            },
+            {
+                "name": "KRILE",
+                "text": "That more or less aligns with my understanding. If only the arts of creation had survived until the present day, we might have had something substantial to analyze."
+            },
+            {
+                "name": "KRILE",
+                "text": "To the best of our knowledge, however, those techniques were not preserved or passed on. Y'shtola surmises that the closest known magick is that of the summoning rituals promulgated by the Ascians."
+            },
+            {
+                "name": "KRILE",
+                "text": "Was there aught else of note which heralded the approach of the Final Days?"
+            },
+            {
+                "name": "Q8",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A8",
+                "text": "The entire star was engulfed by disaster all at once."
+            },
+            {
+                "name": "A8",
+                "text": "They say it began with a keening sound from the land itself..."
+            },
+            {
+                "name": "A8",
+                "text": "Alphinaud, you can answer this one!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I...think you may be misremembering. As I recall, 'twas more of a gradual spread."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The Amaurotines spoke of a “keening” sound that rose from the land itself just before a region was visited by catastrophe. We never did hear this sound ourselves, of course, thrust as we were into the midst of the madness..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Ah, yes, the Amaurotines spoke of it, didn't they? We never did hear this sound ourselves, of course, thrust as we were into the midst of the madness..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "But it seems that each and every one of the catastrophes was preceded by this ominous noise. Eventually it resounded all across the star, and not even Amaurot was spared."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "M-Me!? Well, as you wish..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The Amaurotines were debating the cause of an anomaly which had been observed in the lands across the sea. By this fact alone, we can deduce that the Final Days occurred not all at once the world over, but rather had a point of origin from which it began to spread."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Others also spoke of a “keening” sound rising from the land itself, just before a region was visited by catastrophe. We never did hear this sound ourselves, of course, thrust as we were into the midst of the madness..."
+            },
+            {
+                "name": "KRILE",
+                "text": "So the ground was crying out, you say? To be considered the harbinger of doom, it must have been quite distinctive...and probably quite loud."
+            },
+            {
+                "name": "KRILE",
+                "text": "I'll have to speak with one of Noumenon's mammets, and ask after any books which make mention of such a sound."
+            },
+            {
+                "name": "KRILE",
+                "text": "Last but not least, would you describe how the ancients sought to quell this unprecedented calamity? What definitive action did they take?"
+            },
+            {
+                "name": "Q9",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A9",
+                "text": "They summoned Zodiark."
+            },
+            {
+                "name": "A9",
+                "text": "They summoned Hydaelyn."
+            },
+            {
+                "name": "A9",
+                "text": "They knocked Dalamud from the sky."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Yes, with Elidibus serving as His heart. So many gave themselves in sacrifice to bring Him into being..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Ah, I believe it was <span class=\"emphasis\">Zodiark</span> who was summoned in response to the Final Days. Many sacrificed themselves to bring Him into being, with Elidibus serving as His heart..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Surely you can't be serious! That was the Seventh Umbral Calamity─hardly an event of the distant past. And even if Dalamud had existed at the time, bringing down a moon of any kind would surely only make things worse!"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "The ancients summoned <span class=\"emphasis\">Zodiark</span> in response to the Final Days. Many sacrificed themselves to bring Him into being, with Elidibus serving as His heart..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We do not know exactly how Zodiark brought salvation to the star, only that by His godlike will were the laws of nature set aright."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Then, once the balance was redressed, the ancients offered up a further sacrifice to heal the ravages of the Final Days."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Lives sprouted anew, and it was these fledgling souls they intended to render unto Zodiark. A “trade” that would have allowed them to resurrect the shades of loved ones absorbed by the primal..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "...Or might have, had Venat and her fellows not manifested their opposition in the form of Hydaelyn."
+            },
+            {
+                "name": "KRILE",
+                "text": "Thank you─both of you─for the detailed review. I feel much more confident now in my understanding of events."
+            },
+            {
+                "name": "KRILE",
+                "text": "With all that freshly in mind, it does make me wonder what the Telophoroi truly mean when they speak of bringing back the Final Days."
+            },
+            {
+                "name": "KRILE",
+                "text": "We've seen what they're doing with those towers of theirs. Is forcing people to summon primals a kind of catalyst? Are they attempting to mirror the conditions caused by unstable creation magicks?"
+            },
+            {
+                "name": "KRILE",
+                "text": "Or are they simply using the Final Days as a figure of speech? A convenient metaphor for the scale of destruction they plan to unleash..."
+            },
+            {
+                "name": "KRILE",
+                "text": "&lt;sigh&gt; But this is all just pointless conjecture at this stage. Let us return our attention to the Forum, shall we?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We should keep an eye out for Y'shtola, but 'tis time we began studying these research papers..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Many Forum members are also researchers or professors. If they know aught of the Final Days, then that knowledge might surface in their writing. That is my hope, anyway..."
+            },
+            {
+                "name": "KRILE",
+                "text": "It really is comforting to have all these dedicated assistants on hand. Right, then! Enough chatting, more reading!"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I'm the last, am I? Well, my extended search of the Archon stacks produced one or two possibly useful books."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "...But I wouldn't get your hopes up."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "If you recall, Urianger learned of the Source's reflections from <span class=\"emphasis\">The Gerun Oracles</span>. For its potential to cause panic and confusion, that tome was deemed apocrypha and sealed away in the Great Gubal Library."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "'Tis even less likely that knowledge of the unsundered world, not to mention the horrors of the Final Days, would be left sitting on a shelf for any curious scholar to find."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "It stands to reason then that my colleagues─be they Archons or councilors─should perforce be largely ignorant of the subject."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Yet when you confronted Master Fourchenault with knowledge of the Telophoroi and their machinations, he scoffed at the suggestion that they posed a threat. He seemed adamant that the Forum would know if the Final Days were truly upon us."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Which only supports the conclusion that whatever privileged wisdom is guiding the Forum's behavior, it is being kept secret from the rest of the nation."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "...Not that I mean to excuse myself from reading duty. Whether they contain mention of the Final Days or no, these books could yet hold something of value."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "You weren't thinking of leaving, were you? There's plenty of work for everyone."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You labor for what feels like an age as Y'shtola's research assistant..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I've found naught of interest so far. I think Y'shtola might be right about not getting our hopes up."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Ngh..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "......"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Your efforts to gain G'raha Tia's attention go unnoticed. He appears to be lost in his reading..."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Thank you for your help, but I think I can manage the rest without your assistance. If I were you, I'd steal a few quiet moments for myself..."
+            },
+            {
+                "name": "KRILE",
+                "text": "Oh dear, you look exhausted! But what about <span class=\"emphasis\">your</span> studies? Were you able to find any books on the subjects I mentioned?"
+            },
+            {
+                "name": "KRILE",
+                "text": "Then the day was well spent! Should you wish to read them again, a mammet at the reference desk will point you in the right direction."
+            },
+            {
+                "name": "KRILE",
+                "text": "For the moment, though, I suggest you take a well-deserved rest─we might be occupied with our research for quite some time..."
+            }
+        ],
+        "reward": {
+            "gil": 1095,
+            "items": [
+                {
+                    "id": 35671
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69894
+            ]
+        },
+        "next": [
+            69896
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1038670",
+            "obj": {
+                "i": 1038670,
+                "n": "Krile",
+                "l": 3817,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1038679",
+            "obj": {
+                "i": 1038679,
+                "n": "Krile",
+                "l": 3706,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "35671",
+            "obj": {
+                "i": 35671,
+                "n": "Horse Chestnut Foot Gear Coffer (IL 515)",
+                "l": 1,
+                "c": 26562,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69894",
+            "obj": {
+                "i": 69894,
+                "n": "Old Sharlayan, New to You",
+                "g": 11,
+                "l": "Old Sharlayan",
+                "s": 512
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69896",
+            "obj": {
+                "i": 69896,
+                "n": "A Seat at the Last Stand",
+                "g": 11,
+                "l": "Old Sharlayan",
+                "s": 514
+            }
+        }
+    ]
+}

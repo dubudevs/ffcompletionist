@@ -1,0 +1,89 @@
+{
+    "quest": {
+        "name": "There Will Be Blades",
+        "location": "The Churning Mists",
+        "id": 67382,
+        "patch": 3.0,
+        "sort": 5514,
+        "eventIcon": 71221,
+        "issuer": 1013507,
+        "target": 1013507,
+        "genre": 100,
+        "journal": [
+            "The impatient moogle has had it up to here with the local wildlife.",
+            "The impatient moogle is sick to his back teeth of the bladed vinegaroons, those spiny scalekin who terrorize travelers along the path through Ohl Tahn. He asks that you destroy four of their number to allow at least some passersby to escape unscathed.",
+            "You take down four of the bladed beasts. Return to Zenith, where the impatient moogle awaits word of your success with bated breath.",
+            "The moogle thanks you for your efforts, satisfied that the vinegaroons no longer pose an imminent threat. However, he cannot rest on his laurels just yet─so as long as the monsters continue to pursue any passing traveler, he must remain ever watchful."
+        ],
+        "objectives": [
+            "Defeat bladed vinegaroons.",
+            "Report to the impatient moogle."
+        ],
+        "dialogue": [
+            {
+                "name": "AIRPORTMOG01845",
+                "text": "Have you seen those bladed vinegaroons loitering around just beyond that pass, kupo? Well, I have─enough to last me a lifetime, in fact. They're making it impossible to travel through Ohl Tahn unmolested. Could you get rid of four of them for me?"
+            },
+            {
+                "name": "AIRPORTMOG01845",
+                "text": "Every day, those vinegaroons walk back and forth...back and forth...flashing their blades and snarling. I've had just about enough of it, kupo! If you cut down four of them, it'll soon wipe the smiles off their faces!"
+            },
+            {
+                "name": "AIRPORTMOG01845",
+                "text": "Thank you, adventurer! Now I can relax a little─but only a little, kupo. Those vinegaroons are always chasing after us moogles, snapping their bladed jaws and swinging their bladed tails. If I wasn't here to scare them away, this place would be a few pom-poms short of a picnic!"
+            }
+        ],
+        "reward": {
+            "gil": 521,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67171
+            ]
+        },
+        "next": [
+            67381
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013507",
+            "obj": {
+                "i": 1013507,
+                "n": "Impatient Moogle",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67381",
+            "obj": {
+                "i": 67381,
+                "n": "No Country for Young Moogles",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5515
+            }
+        }
+    ]
+}

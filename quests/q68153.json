@@ -1,0 +1,481 @@
+{
+    "quest": {
+        "name": "Blood Ties",
+        "location": "Limsa Lominsa",
+        "id": 68153,
+        "patch": 4.0,
+        "sort": 650,
+        "icon": 100686,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000997,
+        "target": 1000997,
+        "involved": [
+            1021042,
+            1021044,
+            1021045
+        ],
+        "genre": 137,
+        "usedItems": [
+            17887,
+            17888
+        ],
+        "journal": [
+            "Forgemaster Brithael has a twinkle in his eye that suggests he would like to make yet another request of you.",
+            "Forgemaster Brithael has received a request from a man named Shinto in the Far East, who has asked for the guild's most talented blacksmith to forge him a weapon. This seemingly standard commission, however, comes with an odd stipulation, which is that neither of you should mention anything about this to Sekka. While Brithael briefly puzzles over its implications, he tells you that you─the best smithy─will be going to fulfill Shinto's order. Make your way to the ferry docks and see what this mysterious Far Eastern man would have you forge.",
+            "Shinto hands you a hunk of rusted iron, and asks that you use it to create a katana. It seems the poor-quality metal is all the man can afford. Recognizing that this will be a challenging task, he urges you first consult Sekka before setting to work. As you make ready to leave, he gives you one last stern reminder to keep his identity a secret from her. Make your way to Anchor Yard and see if Sekka can assist you.",
+            "Given the high percentage of impurities and rust in the metal, Sekka proposes focusing solely on cultivating the durability of the blade as opposed to its sharpness. She fears that if you were to fold the already brittle iron too many times, it will make the blade prone to breakage. Suggesting you attempt to make a heavy uchigatana, she hands you half of the iron hunk, and holds on to the rest should you need to try again later. Make a high-quality heavy uchigatana and deliver it to Shinto, who awaits you at the docks.<br><br>※In the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Sekka.",
+            "Shinto begins by criticizing your work, saying that the shoddy craftsmanship trumps that of even the lesser swordsmiths of the Far East─or, at least, that is the critique he would have given you had you been furnished with decent materials. As it stands, he is impressed by the fact that you were even able to create an uchigatana, however poor, from the rusted iron he provided you with. Shinto then bids you return to Forgemaster Brithael to tell him that he is satisfied with your performance.",
+            "You learn that Shinto is, in fact, Sekka's father and has come to take her back to Kugane. He tells her that it is past time she gave up on her dream of becoming his apprentice as she lacks the fundamental skills it takes to become a swordsmith. Brithael, however, is of a different opinion, and tells Shinto off for his disparaging and overly critical comments. After exchanging a few more scathing remarks, Shinto walks out, beckoning his daughter to follow him. Forgemaster Brithael─out of a mixture of sympathy and fear that she will remain indefinitely at his guild─turns to Sekka before she leaves and promises to help her think of a way to gain her father's approval and fulfill her greatest desire.<br><br>※The next blacksmith quest will be available from Brithael upon reaching level 68."
+        ],
+        "objectives": [
+            "Speak with Shinto at the ferry docks.",
+            "Hand the hunk of rusted iron to Sekka in the Anchor Yard.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize a heavy uchigatana<img class=\"hq-icon small\" src=\"images/item/hq.png\"></span><span class=\"alternative\">Deliver the heavy uchigatana <img class=\"hq-icon small\" src=\"images/item/hq.png\"> to Shinto at the ferry docks</span></span>.",
+            "Report to Forgemaster Brithael."
+        ],
+        "dialogue": [
+            {
+                "name": "BRITHAEL",
+                "text": "<span class=\"highlight\">Forename</span>, thanks to ye winnin' that competition, Sekka has become surprisingly bearable o' late, and things have been oddly peaceful."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "That's not to say, however, that ye can rest on yer oars just yet. Not too soon before ye arrived, we received a rather peculiar request."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "It's from a man in Kugane named Shinto. He's askin' that our best smitty forge him a weapon. Seems pretty standard, right? Well, it's not."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "It came with one very interestin' condition. He's asked that we not mention a word of this to Sekka."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "Curious, ain't it? Why does he want to remain anonymous, and moreover, how does he know the girl is here?"
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "While I don't have the answer to either of those questions, there's one thing I know for certain: yer our best smitty. Our client should be arrivin' soon so ye best hurry to the docks. Any questions? Good. Now off ye go."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "Ye best quickly make yer way to the docks where Shinto is. After all, it's bad fer business to keep the client waitin'."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "You must be the blacksmith Forgemaster Brithael promised me. Thank you for coming. Before I make an official request of you, however, please answer me this: have you ever made a katana before?"
+            },
+            {
+                "name": "Q1",
+                "text": "Have you ever made an uchigatana before?"
+            },
+            {
+                "name": "SHINTOU",
+                "text": "Excellent. Then you are a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> with experience, and one which I can confidently entrust with <span class=\"emphasis\">this</span>..."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "Is that so? Then this may be a rather demanding assignment. If your forgemaster believes you capable, however, I shall go against my better judgment and nevertheless entrust you with <span class=\"emphasis\">this</span>..."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "What you hold in your hands is a hunk of rusted iron. I would like for you to forge a heavy uchigatana using this."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "Ah, yes the look of a skeptic. You do not think it a worthwhile endeavor?"
+            },
+            {
+                "name": "SHINTOU",
+                "text": "I agree it is far from ideal. Had my savings not been lost to unexpected expenses along the way, perhaps I would have been able to provide you with better metal to work with, but alas, this is all I can currently offer."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "That said, I do not think it by any means an impossible task─especially not for one of your purported talent."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "If you find yourself struggling, however, feel free to appeal to your colleagues for assistance. From what I understand, one of them is quite knowledgeable on the art of making katana."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "Be advised, however, not to mention my name should you choose to receive advice from this particular individual."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "So what'd he have to say? While not yer typical request, I take it ye've handled it with your usual charm an' grace?"
+            },
+            {
+                "name": "SHINTOU",
+                "text": "What? Have you already finished the katana I asked for?"
+            },
+            {
+                "name": "SEKKA",
+                "text": "<span class=\"highlight\">Forename</span>? What brings you here?"
+            },
+            {
+                "name": "SEKKA",
+                "text": "You have been tasked with forging an uchigatana from this rubbish!? Even the realm's greatest masters would struggle to do so with iron this poor. What idiot would ask such an outrageous thing of you?"
+            },
+            {
+                "name": "Q2",
+                "text": "Keep the client's identity a secret?"
+            },
+            {
+                "name": "SEKKA",
+                "text": "If the client has asked that you protect their identity, I suppose you must oblige their wishes. "
+            },
+            {
+                "name": "SEKKA",
+                "text": "An elderly man from Hingashi, you say? Could it be... Ah, no. Never mind."
+            },
+            {
+                "name": "SEKKA",
+                "text": "Still, this is absurd. There are so many impurities in this metal that any blade forged from it will be extremely brittle."
+            },
+            {
+                "name": "SEKKA",
+                "text": "Should the katana shatter during battle, the wielder's life will be forfeit. To preserve what little durability is present in these brittle hunks, we must refrain from folding the metal too many times. As such, you best make a heavy uchigatana."
+            },
+            {
+                "name": "SEKKA",
+                "text": "While the rust appears to be overwhelming, I think we have enough workable iron to make a full blade. Take half. I shall hold on to the rest in case we need to try again."
+            },
+            {
+                "name": "SEKKA",
+                "text": "You need more metal? Here you go."
+            },
+            {
+                "name": "SEKKA",
+                "text": "You are truly gifted. To think that you would be able to forge anything resembling a katana, much less one of this quality, is nothing short of miraculous. Let us deliver this to the client as promised. They will no doubt be pleased."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "So you have returned. Have you finished the uchigatana that I requested?"
+            },
+            {
+                "name": "SHINTOU",
+                "text": "...This blade─it is so rough-hewn, it does not even come close to matching the skill of even the lesser swordsmiths of the Far East."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "Or, at least, that is what I would say had I provided you with decent materials to work with. As it stands, the fact that you managed to craft a working uchigatana from the iron I gave you shows me you are an artisan of surpassing skill."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "I have witnessed firsthand that your reputation is well founded. Tell Master Brithael I am satisfied with your performance."
+            },
+            {
+                "name": "SEKKA",
+                "text": "Please, sir. I will do anything you assign to me without any complaints this time. I promise!"
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "Thank the Builder yer here. The bloody girl won't stop. She's been chasin' me around the shop all day sayin', “Please, sir, give me more work,” or “Please, sir, I need to practice if I'm ever to become as good as <span class=\"highlight\">Forename</span>.” It's drivin' me mad!"
+            },
+            {
+                "name": "SHINTOU",
+                "text": "(-Masculine Voice-)I believe I may have a solution to that!"
+            },
+            {
+                "name": "SHINTOU",
+                "text": "<span class=\"highlight\">Forename</span>, thank you for humoring my earlier request. Blacksmiths who are as talented and professional as you are hard to come by. Ah, but before that─Forgemaster Brithael, I believe we have not yet had the pleasure to meet in person. I am Shinto, master of Kugane's largest swordsmith forge."
+            },
+            {
+                "name": "SEKKA",
+                "text": "F-Father!? Wh-What are you doing here?"
+            },
+            {
+                "name": "SHINTOU",
+                "text": "I am here to take you home. Time and time again I have told you that you will never be good enough to become my apprentice. Sekka, you must clear your head of these foolish notions. We will be going now. You have caused these people and me enough trouble as it is."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "...While I'm not normally one to involve myself in such things, I think yer bein' a bit too hard on yer daughter. Shouldn't ye be supportin' her dreams instead of tearin' 'em down?"
+            },
+            {
+                "name": "SHINTOU",
+                "text": "She simply does not have what it takes to become a swordsmith. It is time she realized this and looked to pursuing something better suited to her talents─or lack thereof."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "Sekka, I presume you saw <span class=\"highlight\">Forename</span>'s uchigatana? While made from a heap of rusted scraps, it demonstrates a skill that far exceeds anything I have seen from you."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "And to think the <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> does not even have a fraction of the knowledge you do. A decade's worth of practice has amounted to nothing."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "For ye to lecture yer daughter on her behavior is one thing, but I will not have ye puttin' her down an' worse─usin' <span class=\"highlight\">Forename</span> to do it! Sekka may still have a ways to go before she's a master, but she's got talent and puts in a great deal of effort."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "I don't know who you think you are, but even if ye happen to be the finest swordsmith to have ever lived, it still doesn't give ye the right to tell a person to abandon their dreams!"
+            },
+            {
+                "name": "SEKKA",
+                "text": "...Forgemaster..."
+            },
+            {
+                "name": "SHINTOU",
+                "text": "Setting people up for failure with hollow praise may be your way of doing things, but it is not mine. Sekka, come. I will allow you a few days to come to terms with this. Know, however, that should you disobey me again, you shall be disowned."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "Father or not, great swordsmith or not, I don't see why ye'd ever want to be an apprentice to such a sour bast─er, man. Wouldn't ye prefer to study under someone who believed in yer potential?"
+            },
+            {
+                "name": "SEKKA",
+                "text": "I grew up watching him work─pounding, pouring, and heating metal with a single-minded focus. Despite his numerous faults as a person, he is an extraordinary swordsmith, and I hope to one day become just as good as him."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "&lt;sigh&gt; ...Lass, if ye really feel that strongly about it, we'll help you. "
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "The two o' us, we may have got off on the wrong foot, but it's nothing we can't put right startin' now. Together we'll think of a way to prove to yer father that yer worthy o' studyin' under him."
+            },
+            {
+                "name": "SEKKA",
+                "text": "...You would really do that for me? Thank you. Thank you so very much."
+            },
+            {
+                "name": "SEKKA",
+                "text": "Forgemaster Brithael, I must apologize. I was wrong about you. After seeing you stand up to my father, I now know you are rather chivalrous, brave, and kind."
+            },
+            {
+                "name": "BRITHAEL",
+                "text": "Rather chivalrous, brave, and kind, eh? I suppose she didn't see me in such a favorable light before this, then. Hahaha! But on to more important matters. <span class=\"highlight\">Forename</span>, let us each take some time to think of ways we might assist the girl and reconvene once we do."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In forging new paths as a blacksmith, you have learned “Manipulation”!"
+            }
+        ],
+        "reward": {
+            "gil": 821,
+            "action": 4575,
+            "items": [
+                {
+                    "num": 250,
+                    "id": 8
+                },
+                {
+                    "id": 19528
+                },
+                {
+                    "id": 19633,
+                    "one": 1
+                },
+                {
+                    "id": 19634,
+                    "one": 1
+                },
+                {
+                    "id": 19635,
+                    "one": 1
+                },
+                {
+                    "id": 19636,
+                    "one": 1
+                },
+                {
+                    "num": 6,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 2079000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 65,
+                    "id": 10
+                }
+            ],
+            "quests": [
+                68152
+            ]
+        },
+        "next": [
+            68154
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000997",
+            "obj": {
+                "i": 1000997,
+                "n": "Brithael",
+                "l": 28,
+                "q": 21,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021042",
+            "obj": {
+                "i": 1021042,
+                "n": "Sekka",
+                "l": 28,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021044",
+            "obj": {
+                "i": 1021044,
+                "n": "Shinto",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021045",
+            "obj": {
+                "i": 1021045,
+                "n": "Sekka",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "action",
+            "id": "4575",
+            "obj": {
+                "i": 4575,
+                "n": "Manipulation",
+                "c": 1985,
+                "j": 9,
+                "t": 7,
+                "l": 65
+            }
+        },
+        {
+            "type": "item",
+            "id": "19528",
+            "obj": {
+                "i": 19528,
+                "n": "Doman Iron Lump Hammer",
+                "l": 220,
+                "c": 35123,
+                "t": 14,
+                "p": 31363
+            }
+        },
+        {
+            "type": "item",
+            "id": "19633",
+            "obj": {
+                "i": 19633,
+                "n": "Kudzu Robe of Crafting",
+                "l": 220,
+                "c": 43812,
+                "t": 35,
+                "p": 28749
+            }
+        },
+        {
+            "type": "item",
+            "id": "19634",
+            "obj": {
+                "i": 19634,
+                "n": "Durium Chaplets",
+                "l": 220,
+                "c": 48275,
+                "t": 37,
+                "p": 17249
+            }
+        },
+        {
+            "type": "item",
+            "id": "19635",
+            "obj": {
+                "i": 19635,
+                "n": "Kudzu Culottes of Crafting",
+                "l": 220,
+                "c": 45973,
+                "t": 36,
+                "p": 28749
+            }
+        },
+        {
+            "type": "item",
+            "id": "19636",
+            "obj": {
+                "i": 19636,
+                "n": "Tigerskin Boots of Crafting",
+                "l": 220,
+                "c": 46760,
+                "t": 38,
+                "p": 17249
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "17887",
+            "obj": {
+                "i": 17887,
+                "n": "Rusted Iron Scrap",
+                "l": 276,
+                "c": 21222,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "17888",
+            "obj": {
+                "i": 17888,
+                "n": "Heavy Uchigatana",
+                "l": 276,
+                "c": 36432,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68152",
+            "obj": {
+                "i": 68152,
+                "n": "The Client Is King",
+                "g": 137,
+                "l": "Limsa Lominsa",
+                "s": 630,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68154",
+            "obj": {
+                "i": 68154,
+                "n": "The Missing Piece",
+                "g": 137,
+                "l": "Limsa Lominsa",
+                "s": 680,
+                "f": 1
+            }
+        }
+    ]
+}

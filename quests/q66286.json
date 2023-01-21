@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Buzz Off, Birds",
+        "location": "Eastern Thanalan",
+        "id": 66286,
+        "patch": 2.0,
+        "sort": 240,
+        "eventIcon": 71221,
+        "issuer": 1006208,
+        "target": 1006208,
+        "genre": 93,
+        "journal": [
+            "The researcher Gogoshu could use an adventurer's assistance in dispatching some bothersome buzzards.",
+            "Overaggressive chasm buzzards are disrupting the ongoing investigation of the ruins near Highbridge. Slay four of the avian pests so that Gogoshu might resume her research.",
+            "Four savage buzzards have fallen by your hand and will disrupt Gogoshu's research no more. Return and inform her of your deeds.",
+            "Thanks to your culling of the flock, Gogoshu may resume her investigation of the ruins."
+        ],
+        "objectives": [
+            "Slay chasm buzzards.",
+            "Report to Gogoshu."
+        ],
+        "dialogue": [
+            {
+                "name": "GOGOSHU",
+                "text": "We have been dispatched by the Order of Nald'thal to conduct a thorough investigation of these ruins. We have only begun to scratch the surface, yet it is already clear that they house countless untold secrets from the age of Belah'dia."
+            },
+            {
+                "name": "GOGOSHU",
+                "text": "Secrets which will remain hidden forever if something is not done about those accursed buzzards! Ever since they began nesting across the chasm, we have spent more hours wiping their droppings off our tomes than doing research of any sort."
+            },
+            {
+                "name": "GOGOSHU",
+                "text": "I ask you not to eradicate the entire species. The buzzard is a clever bird─slay four or so, and I suspect the rest of the flock will find somewhere else to roost."
+            },
+            {
+                "name": "GOGOSHU",
+                "text": "Free of savage peckings and buzzard droppings at last! I cannot thank you enough, friend. When I make my next historic discovery, you may take pride in knowing that you helped make it possible!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3057,
+                    "one": 1
+                },
+                {
+                    "id": 3060,
+                    "one": 1
+                },
+                {
+                    "id": 3062,
+                    "one": 1
+                },
+                {
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 4620
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 24,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66290
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006208",
+            "obj": {
+                "i": 1006208,
+                "n": "Gogoshu",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3057",
+            "obj": {
+                "i": 3057,
+                "n": "Iron Scale Mail",
+                "l": 23,
+                "c": 43063,
+                "t": 35,
+                "p": 1647
+            }
+        },
+        {
+            "type": "item",
+            "id": "3060",
+            "obj": {
+                "i": 3060,
+                "n": "Cotton Trapper's Tunic",
+                "l": 23,
+                "c": 42091,
+                "t": 35,
+                "p": 1372
+            }
+        },
+        {
+            "type": "item",
+            "id": "3062",
+            "obj": {
+                "i": 3062,
+                "n": "Cotton Robe",
+                "l": 24,
+                "c": 42053,
+                "t": 35,
+                "p": 1257
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66290",
+            "obj": {
+                "i": 66290,
+                "n": "The Perils of Pilgrimage",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 250
+            }
+        }
+    ]
+}

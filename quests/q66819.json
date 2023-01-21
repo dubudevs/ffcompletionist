@@ -1,0 +1,239 @@
+{
+    "quest": {
+        "name": "Podling Peril",
+        "location": "East Shroud",
+        "id": 66819,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005563,
+        "target": 1005563,
+        "involved": [
+            1005862
+        ],
+        "genre": 37,
+        "journal": [
+            "Moxia fears for the safety of the little ones.",
+            "Moxia explains to you how newborn sylphs sprout forth from “podlings,” which are bulb-like objects that must be incubated deep in the heart of the Sylphlands. With touched sylphs ever looking to steal away podlings to add to their numbers, Moxia would ask your aid in delivering a ready-to-sprout podling back to the safety of Little Solace. Travel to the Seedbed and take the podling in hand.",
+            "You have successfully retrieved the podling. Deliver it to the specified location, where two sylphs of Little Solace await.<br><br>※To bolster your strength while carrying the podling, interact with the patches of moongrass that you find along the way.",
+            "You have safely navigated the most dangerous depths of the Sylphlands and delivered the podling to the waiting hands of the sylphs. Inform Moxia that the little one is safe.",
+            "Moxia joyously informs you that a healthy little one has sprouted forth from the podling you helped deliver to safety, leading to much rejoicing among the sylphs of Little Solace. She fears, however, that the touched sylphs will not cease their attempt to rob the Seedbed, and asks that you lend your aid again."
+        ],
+        "objectives": [
+            "Pick up the podling from the Seedbed.",
+            "Carry the podling to the specified location.",
+            "Report to Moxia."
+        ],
+        "dialogue": [
+            {
+                "name": "MOXIA",
+                "text": "Brave one has seen podlings, yes? To say it in a way that a walking one can understand, podlings are where these ones' little ones come from."
+            },
+            {
+                "name": "MOXIA",
+                "text": "These ones bring podlings to a place called the Seedbed, deep in the forest. Given light and warmth, podlings ripen."
+            },
+            {
+                "name": "MOXIA",
+                "text": "When podling is fully ripened, these ones bring podling back to Little Solace, and...pop! Out comes a little one. Tee hee! Cute little ones always bring a smile to this one's face."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Yet smiles are not so many these days. The Seedbed where podlings must slumber lies deep in Sylphlands, where touched ones are many."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Touched ones steal podlings from these ones, raise little ones to be touched ones. This one weeps for little ones that will know nothing but shadows and stink."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Usually, one of these ones goes to carry back podlings, but touched ones are too many. A podling is ready to sprout, but touched ones will not let these ones near the Seedbed. Will brave one go and bring podling back?"
+            },
+            {
+                "name": "MOXIA",
+                "text": "This one begs of brave one. Brave one must help these ones bring little one back to safety!"
+            },
+            {
+                "name": "MOXIA",
+                "text": "These ones and brave one will work together. Brave one will go to Seedbed, carry podling back to these ones. These ones will bring podling back to Little Solace, where little one will be born."
+            },
+            {
+                "name": "RECOVER",
+                "text": "Cool, crisp air fills your lungs, giving your arms and legs new strength!"
+            },
+            {
+                "name": "NOTRECOVER",
+                "text": "You are not carrying the specified object. Return to the starting point and reattempt the delivery."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "Carry the podling back to Little Solace while your arms and legs still have strength."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "You will have fifty seconds to complete the task. Should you fail, return to the starting location and begin anew."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "Be wary of attacks from enemies. Should you find yourself tiring, seek out patches of glimmering moongrass, which will restore your strength."
+            },
+            {
+                "name": "KARIYADOSHIRUF",
+                "text": "Walking one will go to Seedbed, yes? Find podling, bring to this one? Walking one must walk gently─inside podling, little one slumbers."
+            },
+            {
+                "name": "KARIYADOSHIRUF",
+                "text": "(-Little Solace Sylph-)Walking one is strong indeed to survive the journey from the Seedbed. This one will carry podling back to Little Solace from here."
+            },
+            {
+                "name": "KARIYADOSHIRUF",
+                "text": "Little one will be safe, thanks to walking one. There is no end to this one's gratitude."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Brave one will be happy to hear that little one sprouted from podling not moments ago. Because of brave one, little one is safe, and these ones smile again."
+            },
+            {
+                "name": "MOXIA",
+                "text": "But touched ones will not give up so easily...this one knows. These ones would ask brave one to protect little ones again."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21075
+                },
+                {
+                    "id": 5672,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005563",
+            "obj": {
+                "i": 1005563,
+                "n": "Moxia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005862",
+            "obj": {
+                "i": 1005862,
+                "n": "Little Solace Sylph",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21075",
+            "obj": {
+                "i": 21075,
+                "n": "Sylphic Goldleaf",
+                "l": 1,
+                "c": 65051,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5672",
+            "obj": {
+                "i": 5672,
+                "n": "Savage Aim Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

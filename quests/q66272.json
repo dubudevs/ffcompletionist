@@ -1,0 +1,174 @@
+{
+    "quest": {
+        "name": "Buried Truth",
+        "location": "Upper La Noscea",
+        "id": 66272,
+        "patch": 2.0,
+        "sort": 230,
+        "eventIcon": 71221,
+        "issuer": 1006195,
+        "target": 1006195,
+        "genre": 91,
+        "journal": [
+            "Tanga Tonga seeks help excavating fossils at Thalaos.",
+            "The researcher Tanga Tonga has need of an adventurer to aid in his study of the Thalaos boneyard. Survey the excavation site to see if you can discover any fossils worth recovering.",
+            "You have found a couple different kinds of fossil that might serve to pique Tanga Tonga's interest. Return to the researcher in his cabin and let him pore over your discoveries.",
+            "Tanga Tonga has identified two types of ancient creatures from the fossils you have brought him: a large sea animal eaten by Thalaos, and a small parasite that clung to the Thalaos. With these new discoveries, he has enough information to advance his studies for the time being."
+        ],
+        "objectives": [
+            "Search for a round fossil.",
+            "Search for oblong fossils.",
+            "Deliver the fossils to Tanga Tonga."
+        ],
+        "dialogue": [
+            {
+                "name": "TANGATOTUNGA",
+                "text": "I know it's no easy thing making your way out to where I am. I could use someone like you around here. How would you like to aid in my excavation?"
+            },
+            {
+                "name": "TANGATOTUNGA",
+                "text": "I do what I can on my own, but I need someone to brave the more dangerous places─such as atop the bones themselves."
+            },
+            {
+                "name": "TANGATOTUNGA",
+                "text": "Set out in my place, and see what fossils there are to be found. If possible, I would prefer a variety of specimens."
+            },
+            {
+                "name": "TANGATOTUNGA",
+                "text": "Found something, have you? Come, let us have a look."
+            },
+            {
+                "name": "TANGATOTUNGA",
+                "text": "Ah, yes, these are fine specimens. These long narrow bones likely belonged to some sort of giant sea creature devoured by Thalaos. From the looks of it, I'd say it was about the size of an adult goobbue, all told."
+            },
+            {
+                "name": "TANGATOTUNGA",
+                "text": "And this round fossil, well, I've developed a theory that it is the shell of a parasitic organism. I have found countless others like it concentrated near the remains. These are good finds, my friend. Both are testaments to the sheer enormity of Thalaos."
+            },
+            {
+                "name": "TANGATOTUNGA",
+                "text": "Ah, forgive me. We scholars tend to assume all know as much of our subject matter as we. Do you know of the tale of Thalaos? It is said Llymlaen summoned the massive serpent upon the primordial dry, and from its belly it spewed forth the waters which became the seas."
+            },
+            {
+                "name": "TANGATOTUNGA",
+                "text": "We have no proof the remains that lie here are <span class=\"emphasis\">the</span> Thalaos. Indeed, whatever beast this was first came to be called that by virtue of its size alone. But I, for one, now dare to believe. It just may be that these bones are those of the divine serpent that brought life into this world."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 21800
+                },
+                {
+                    "id": 27653,
+                    "one": 1
+                },
+                {
+                    "id": 2725,
+                    "one": 1
+                },
+                {
+                    "id": 2719,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 4480
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 23,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66271
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006195",
+            "obj": {
+                "i": 1006195,
+                "n": "Tanga Tonga",
+                "l": 34,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "21800",
+            "obj": {
+                "i": 21800,
+                "n": "Glamour Prism",
+                "l": 35,
+                "c": 26235,
+                "t": 60
+            }
+        },
+        {
+            "type": "item",
+            "id": "27653",
+            "obj": {
+                "i": 27653,
+                "n": "Iron Headgear",
+                "l": 23,
+                "c": 40544,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "2725",
+            "obj": {
+                "i": 2725,
+                "n": "Reinforced Iron Sallet",
+                "l": 23,
+                "c": 40022,
+                "t": 34,
+                "p": 1108
+            }
+        },
+        {
+            "type": "item",
+            "id": "2719",
+            "obj": {
+                "i": 2719,
+                "n": "Cotton Sugarloaf Hat",
+                "l": 22,
+                "c": 41130,
+                "t": 34,
+                "p": 771
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66271",
+            "obj": {
+                "i": 66271,
+                "n": "The Hottest of Box Lunches",
+                "g": 91,
+                "l": "Upper La Noscea",
+                "s": 230
+            }
+        }
+    ]
+}

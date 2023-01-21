@@ -1,0 +1,163 @@
+{
+    "quest": {
+        "name": "Wind from Their Sails",
+        "location": "Western La Noscea",
+        "id": 66922,
+        "patch": 2.2,
+        "sort": 19,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005938,
+        "target": 1005938,
+        "involved": [
+            1005946
+        ],
+        "genre": 41,
+        "journal": [
+            "Fyuu needs you to teach humility to the Coral Tridents.",
+            "Fyuu has news that the Coral Tridents and their Serpent Reaver lackeys have taken control of a trading vessel. Worried that their prideful boasting will encourage others to attempt to emulate their victory, the young Sahagin asks that you slip aboard the merchantman and take the wind out of their sails. Ride an elbst to the trading vessel, and defeat the enemies on deck until the leader is provoked into engaging you himself.",
+            "You have humbled the Coral Tridents aboard the captured merchantman. Return to Novv's Nursery and report to Fyuu.",
+            "You inform Fyuu of your success aboard the trading vessel. After hearing of your exploits, Novv's spawnling is reminded of an experience involving a gluttonous feast and a dreadful stomachache... Reassuring you that he is not, in fact, comparing you to a poisonous bottom-feeder, Fyuu thanks you for your continued efforts towards the clutch's cause."
+        ],
+        "objectives": [
+            "Defeat enemies aboard the ship, then vanquish their leader when he appears.",
+            "Report to Fyuu."
+        ],
+        "dialogue": [
+            {
+                "name": "FYUU",
+                "text": "Pshhh! The Coral Tridentsss have taken command of a trading vessel! They certainly wasssted no time in sssending a messenger to boassst of their achievement to their brothers in the ssspawning grounds..."
+            },
+            {
+                "name": "FYUU",
+                "text": "If this prideful revelry is allowed to continue, it will only encourage others to follow their example."
+            },
+            {
+                "name": "FYUU",
+                "text": "I propose that you board the captured shhhip, and knock sssome humility into these merchant-hunting fools. Shhhow them that not all shhhorewalkers are sssuch easy prey!"
+            },
+            {
+                "name": "FYUU",
+                "text": "Begin your “demonssstration” with the rank and file on deck, and their leader will sssoon appear to challenge you. His defeat at your hands shhhould have the desired effect."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... The merchantman is yet in open water, so you will need to ride an elbssst to reach it. Take the wind from their sssails, finless one!"
+            },
+            {
+                "name": "FYUU",
+                "text": "Take an elbssst and make your way to the merchantman. Once you are over the rail, engage the lesser warriors firssst. Their leader will sssoon make his presence known, and then you can complete your lesson in humility."
+            },
+            {
+                "name": "TAMER01376",
+                "text": "The captured merchantman? It's far from the ssspawning grounds, and that is good─my elbssst needs the exercise."
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to the merchantman?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... Your lesson was a success? The tale of their humiliation will be apparent to all when they ssslink back to shhhore, beaten and bloody."
+            },
+            {
+                "name": "FYUU",
+                "text": "Thisss incident reminds me of a recent experience: after a particularly bountiful fishhhing expedition, I gorged myself on my catch."
+            },
+            {
+                "name": "FYUU",
+                "text": "It wasn't until after I had finishhhed my gluttonous feassst that I noticed the remains of a mildly poisonousss bottom-feeder. I was sssick for days, and have been careful to sssort my hauls ever sssince."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh! No! I do not mean to compare you to a bottom-feeder! Forget the ssstory! I thank you for your aid, shhhorewalker!"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "A surfclaw chief appears and challenges you!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "This shhhip is ours, shhhorewalker!<br>The Tridentshhh are invincible!"
+            }
+        ],
+        "reward": {
+            "gil": 540,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9142
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005938",
+            "obj": {
+                "i": 1005938,
+                "n": "Fyuu",
+                "l": 33,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

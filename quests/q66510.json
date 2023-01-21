@@ -1,0 +1,130 @@
+{
+    "quest": {
+        "name": "Crazy Enough to Work",
+        "location": "East Shroud",
+        "id": 66510,
+        "patch": 2.0,
+        "sort": 224,
+        "eventIcon": 71201,
+        "target": 1006710,
+        "involved": [
+            1006686
+        ],
+        "genre": 0,
+        "journal": [
+            "Maerwynn has hatched a ridiculous plan to ensnare the dastardly Giggity.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Ceana in Aleport.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "After dealing the errant golem a right thrashing, you now find yourself in possession of a golem soulstone. However, in its current state, it will not serve as bait. In accordance with Maerwynn's instructions, you must journey to Amberscale Rock in the Central Shroud, and rub the soulstone against the giant concentration of amber in order to dispel the enchantments woven into the chunk of true heart ore.",
+            "Through a series of bizarre and rather random actions, you have obtained a chunk of true heart ore. Your new prize is being eyed hungrily by Tiggy the spriggan, who apparently followed you to Amberscale Rock. Explain your strategy to the spriggan before he attempts to devour your ore.",
+            "Tiggy is delighted to learn of your plans, and tells you that the ravenous Giggity is presently lurking within the Spriggan Dig. Make your way into the lair of the spriggans and use the true heart to lure out and slay Giggity.",
+            "The furry inhabitants of the Spriggan Dig can at last breathe a collective sigh of relief, for the notorious Giggity has finally fallen. In a primal frenzy, you rip and tear open the spriggan's huge guts and claim the corrupted crystal nestled deep within. Present your prize to Hedyn so that he can confirm it is the crystal you seek.",
+            "Hedyn confirms that the foul-smelling, offal-laden crystal is comprised of ice-aspected aether. To your chagrin, you learn that you cannot cleanse the crystal of the spriggan entrails, as the thick coating of digestive juices is the only thing protecting you from the crystal's detrimental effects. Hopefully Cid will have developed a less irksome way to do the same..."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Ceana in Aleport.</span>",
+            "Use the true heart to lure out the crystal bearer.<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Ceana in Aleport.</span>",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Ceana in Aleport.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "MAERWYNN",
+                "text": "A chert golem was recently sighted near the gates to the Sylphlands. Who created it and why it was left free to roam is anyone's guess. In any case, the construct's presence is profoundly serendipitous, for the soulstone of a chert golem is created by enchanting a chunk of true heart ore. True heart, in case you were unaware, is an exceedingly rare ore, one which Giggity has almost certainly never tasted, and will therefore be unable to resist."
+            },
+            {
+                "name": "MAERWYNN",
+                "text": "So, all you need do is search for the golem, slay it, claim its heart, and use it to bait the spriggan. Oh, and do remember to rub the soulstone against a sufficiently large concentration of amber, say, Amberscale Rock in the Central Shroud. Short of petitioning a mage versed in golem magicks, that is the only way I know to dispel the enchantments woven into a true heart. Eh? Why are you looking at me like that? I had relations with a thaumaturge once, if you must know."
+            },
+            {
+                "name": "TIGGY",
+                "text": "Tiggy follow friend! Friend! Frieeeeeend!"
+            },
+            {
+                "name": "TIGGY",
+                "text": "Ore!? Shiny ore! Ore, ore, ore! Ooooooooore!"
+            },
+            {
+                "name": "TIGGY",
+                "text": "Tiggy ore!? Ah! Giggity ore! Friend stop Giggity! Giggity, Giggity, Giggityyyyyy!"
+            },
+            {
+                "name": "TIGGY",
+                "text": "Giggity is home! Tiggy is afraid! Friend come home! Friend stop Giggity!"
+            },
+            {
+                "name": "HEDYN",
+                "text": "Ah! Pray do not sneak up on me like that. I was engrossed in─wait, what is that─&lt;sniff&gt; &lt;sniff&gt;─what is that gods-awful smell?"
+            },
+            {
+                "name": "HEDYN",
+                "text": "My word, that is a breathtakingly beautiful crystal. I see my supposition was not mistaken."
+            },
+            {
+                "name": "HEDYN",
+                "text": "Ugh... And I also see you weren't averse to digging through spriggan entrails for your prize."
+            },
+            {
+                "name": "HEDYN",
+                "text": "We owe our furry friend a debt of gratitude, you know. This thick coating of digestive juices is protecting us from the harmful effects of the crystal, just as the warded pot you once used did."
+            },
+            {
+                "name": "HEDYN",
+                "text": "Why so glum, friend? You've finally obtained the corrupted crystal you sought─one overflowing with <span class=\"emphasis\">earth</span>-aspected aether!"
+            },
+            {
+                "name": "HEDYN",
+                "text": "Calm down─I jest, I jest! It is comprised of <span class=\"emphasis\">ice</span>-aspected aether, worry not. I suppose that joke was in poor taste, considering your previous two attempts were for naught..."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "xp": 23920
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 43,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66507
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006710",
+            "obj": {
+                "i": 1006710,
+                "n": "Hedyn",
+                "l": 53,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006686",
+            "obj": {
+                "i": 1006686,
+                "n": "Tiggy",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66507",
+            "obj": {
+                "i": 66507,
+                "n": "Of Sylphs and Spriggans",
+                "g": 0,
+                "l": "East Shroud",
+                "s": 223
+            }
+        }
+    ]
+}

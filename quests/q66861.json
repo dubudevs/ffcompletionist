@@ -1,0 +1,140 @@
+{
+    "quest": {
+        "name": "Rubbish for Refuse",
+        "location": "Outer La Noscea",
+        "id": 66861,
+        "patch": 2.2,
+        "sort": 10,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 3,
+        "eventIcon": 71222,
+        "issuer": 1005928,
+        "target": 1005928,
+        "involved": [
+            1007957
+        ],
+        "genre": 39,
+        "journal": [
+            "789th Order Dustman Bo Zu is half-starved and can't be arsed to do much about it.",
+            "After much racking of his hunger–addled brain, Bo Zu has hit upon a plan to procure sustenance with minimal–to–no effort on his own part. To wit: you will bring ore to Camp Overlook under the pretense that you confiscated it from the kobolds' stock, requesting spare rations as reward for your efforts. As the dustman himself has no intention of parting with his own meager mining haul, travel to Iron Lake and acquire the necessary ore in his stead.",
+            "You have managed to acquire only a few chunks of the shabbiest-looking ore you have ever seen. Bring them to Camp Overlook, hoping that the quartermaster will pity you enough to offer some scant reward.",
+            "Rightfully unimpressed with your donation, the quartermaster tosses some leftovers from last night's supper your way with a strongly worded suggestion that you bother her no further. Take your sorry haul back to Bo Zu at the 789th Order Dig.",
+            "Bo Zu is overjoyed at your efforts─the unappetizing nature of the meal outweighed by the fact that it was acquired without him lifting so much as a single paw. You cannot shake the feeling that the work–shy kobold will not hesitate to employ similar tactics in the near future..."
+        ],
+        "objectives": [
+            "Collect worthless ore around Iron Lake.",
+            "Deliver worthless ore to the quartermaster at Camp Overlook.",
+            "Deliver the rotting vegetables to Bo Zu."
+        ],
+        "dialogue": [
+            {
+                "name": "BOZU",
+                "text": "Zo Ga is true to his word. He has halved─yes, yes, cut in two─the 789th's ration allotment as punishment for our low yield. I am starving─ravenous, famished, starving! What, oh what, is a hungry kobold to do?"
+            },
+            {
+                "name": "BOZU",
+                "text": "Work harder, you say? But that sounds so tiring─grueling, taxing, tiring. I have a better plan. Yes, yes, a better plan, I have. Scraps of ore near Iron Lake, I saw. I was too tired to pick them up, but not you. No, no, not you."
+            },
+            {
+                "name": "BOZU",
+                "text": "You should gather them and take them to Camp Overlook, yes, yes. Tell the officer there you stole them from the naughty, naughty kobolds. As reward, you'll get tasty food, which you can bring to Bo Zu. Then we'll <span class=\"emphasis\">feast</span>─gobble, gorge, feast!"
+            },
+            {
+                "name": "BOZU",
+                "text": "No food yet? Do hurry─my belly is rumbling─grumbling, mumbling, rumbling. You bring ore to Camp Overlook, then bring back food in return. You will do this for Bo Zu, yes? Yes, yes, you will."
+            },
+            {
+                "name": "KOKKADAN01",
+                "text": "What's that? Plundered some precious metals from the kobolds that ye'd donate to our cause?"
+            },
+            {
+                "name": "KOKKADAN01",
+                "text": "Aye, the Maelstrom is fortunate indeed to 'ave capable allies like─<br>...Byregot's buttocks! These must be the sorriest dregs of ore I've ever 'ad the misfortune of layin' me eyes on."
+            },
+            {
+                "name": "KOKKADAN01",
+                "text": "Yer <span class=\"emphasis\">reward</span>!? How about this: I'll give ye some leftover scraps from last night's dinner, and you'll promise to go away and not waste any more of me time. Deal?"
+            },
+            {
+                "name": "KOKKADAN01",
+                "text": "Beggin' for slop doesn't become ye, friend. If this adventurin' thing doesn't work out for ye, the Maelstrom is always lookin' for a few good <span class=\"alternative-container\"><span class=\"alternative\">women</span><span class=\"alternative\">men</span></span>. It's a hard life, but at least ye always know where yer next meal is comin' from."
+            },
+            {
+                "name": "BOZU",
+                "text": "You have brought my meal!? Yes, yes, tell me you have! Bo Zu's belly rumbles, rumbles so loud that it almost caused a cave-in─a collapse, a rockfall, a cave-in!"
+            },
+            {
+                "name": "BOZU",
+                "text": "Oh, this will be a meal to savor─relish, delight, savor! Yes, yes, it is as Gi Gu always says─no treat is tastier than that earned by the efforts of others."
+            }
+        ],
+        "reward": {
+            "gil": 360,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 8625
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 41,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005928",
+            "obj": {
+                "i": 1005928,
+                "n": "789th Order Dustman Bo Zu",
+                "l": 350,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007957",
+            "obj": {
+                "i": 1007957,
+                "n": "Camp Quartermaster",
+                "l": 350,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

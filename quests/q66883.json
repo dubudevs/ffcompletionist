@@ -1,0 +1,635 @@
+{
+    "quest": {
+        "name": "The Mother of Exiles",
+        "location": "Western Thanalan",
+        "id": 66883,
+        "patch": 2.2,
+        "sort": 22,
+        "icon": 100220,
+        "eventIcon": 71201,
+        "issuer": 1008597,
+        "target": 1008616,
+        "involved": [
+            1001353,
+            1001821,
+            1001966,
+            1001968,
+            1008600,
+            1008601,
+            1008602,
+            1008603,
+            1008604,
+            1008605,
+            1008606,
+            1008607,
+            1008608,
+            1008609,
+            1008610,
+            1008612,
+            1008613,
+            1008614,
+            1008615,
+            1008617
+        ],
+        "genre": 2,
+        "journal": [
+            "Thancred has information on your next assignment.",
+            "By way of Minfilia and, in turn, Thancred, Alphinaud has requested your presence in Vesper Bay. Report to young Master Leveilleur at the docks outside the Waking Sands.",
+            "Alphinaud informs you that travelers from the eastern nation of Doma arrived in Vesper Bay not long ago, apparently seeking an audience with the rulers of Ul'dah. Believing that they may have valuable information on the current state of affairs within the Empire, he is resolved to seek them out, and wants you on hand to ensure that all proceeds smoothly. Knowing how unaccommodating the Sultansworn can be, he suggests beginning the search on the Royal Promenade in Ul'dah.",
+            "As predicted, you find the Doman leader and her assistants fruitlessly petitioning the Sultansworn posted outside the Fragrant Chamber. Sensing an opportunity, Alphinaud approaches the travelers and offers his assistance─on the condition that they first accompany him to the Quicksand and explain their situation. Follow the party to the Quicksand and let Alphinaud know when you are ready to listen to the Domans' tale.",
+            "Lady Yugiri, the leader of the refugees, explains that her people have come to Eorzea in search of asylum. After their rebellion against the Empire failed, imperial forces set about razing their homeland of Doma, leaving them no choice but to flee. Moved by her tale, Alphinaud offers to speak to General Raubahn on Yugiri's behalf, and departs for the Hall of Flames, leaving the refugees in your care. Inquire of Yugiri if there is anything she needs.",
+            "Supplies on the Doman galleon have run low, and Yugiri asks that you help her secure provisions. As proprietress of the Quicksand and a proven friend to the Scions, Momodi may be the best person to speak with regarding this matter.",
+            "It so happens that a wealthy merchant recently canceled his reservation at the Quicksand, leaving Momodi with an excess of foodstuffs. She offers to send them to the Waking Sands for redistribution, and furnishes you with two letters containing instructions for her suppliers, Fridurih and Katherine, who can be found at the Sapphire Avenue Exchange.",
+            "You deliver the instructions to the merchants, who make no effort to hide their disapproval of Momodi's actions. Return to the Quicksand and inform Momodi that the shipments are on their way.",
+            "Momodi is pleased to hear that the foodstuffs will be put to good use. Share the good tidings with Yugiri.",
+            "Not long after you explain Momodi's arrangement to Yugiri, Alphinaud returns to the Quicksand with more good news: the Domans have been granted an audience with the sultana and the Syndicate. What will come of the meeting is anyone's guess, but at least Yugiri will have an opportunity to plead her people's case. Return to the Royal Promenade and speak with Raubahn to proceed into the Fragrant Chamber.",
+            "Before the assembled leaders of Ul'dah, Yugiri details the circumstances which compelled her people to seek refuge in Ul'dah. Although the sultana, Raubahn, and Teledji Adeledji are sympathetic to her cause, the most influential member of the Syndicate, Lolorito, persuades the others to refuse the Domans asylum. Thus barred from Ul'dah, Yugiri and her people must look elsewhere for a new home."
+        ],
+        "objectives": [
+            "Speak with Alphinaud.",
+            "Search for the Domans on the Royal Promenade.",
+            "Speak with Alphinaud at the Quicksand.",
+            "Speak with Yugiri.",
+            "Speak with Momodi.",
+            "Deliver Momodi's letter to Fridurih at the Sapphire Avenue Exchange.",
+            "Deliver Momodi's letter to Katherine at the Sapphire Avenue Exchange.",
+            "Speak with Momodi.",
+            "Speak with Yugiri.",
+            "Speak with Raubahn on the Royal Promenade."
+        ],
+        "dialogue": [
+            {
+                "name": "THANCRED",
+                "text": "The Antecedent bid me tell you to make for Vesper Bay, where young Alphinaud awaits your coming <span class=\"emphasis\">most</span> eagerly. It was he who requested your assistance."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Some commotion or incident─I am not privy to the details."
+            },
+            {
+                "name": "THANCRED",
+                "text": "While you do whatever it is that Alphinaud has planned for you, I shall endeavor to track down our traitorous Brass Blade. And when I do, you may rest assured that we will have our answers."
+            },
+            {
+                "name": "THANCRED",
+                "text": "You do know Alphinaud hates to be kept waiting, don't you? Ah, but of course you do. Carry on, then."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You are late. No matter─I know where our visitors are headed. From what I have been able to gather, this vessel belongs to a band of Domans who seek an audience with the sultana. You are familiar with Doma, yes? In Othard?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Well, like the rest of the nations of the eastern continent, it is ruled by the Garlean Empire. Given our visitors' unannounced arrival, as well as the state of their ship, I suspect they did not leave their homeland under the best circumstances. Needless to say, I should be very interested to hear their tale and, more importantly, what they know of the current state of affairs in the Empire. Such information could prove most useful."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We would be fools not to pursue this opportunity, do you not think? Come with me to Ul'dah, <span class=\"highlight\">Forename</span>. Unless I am mistaken─and I am <span class=\"emphasis\">rarely</span> mistaken─we will find the Domans bickering with a Sultansworn on the Royal Promenade."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "...You are uncertain of your role in the proceedings? Insurance. If our guests are not themselves imperial agents, it seems fair to assume that they may be being pursued by some. And if not, who better than you to have on hand in the event of an unforeseen diplomatic incident?<br>Besides, I do so enjoy your sparkling repartee. Satisfied? Good. I shall see you in Ul'dah."
+            },
+            {
+                "name": "KASASAGI",
+                "text": "Who are you to address us with such disrespect!?"
+            },
+            {
+                "name": "KIKYOU",
+                "text": "It is imperative that you allow us to enter!"
+            },
+            {
+                "name": "BARTHOLOMEW",
+                "text": "It is as I told you, madam! None shall be granted an audience without the necessary permissions!"
+            },
+            {
+                "name": "YUGIRI",
+                "text": "You comprehend not the pressing nature of our suit, sir. If you would but summon your superior, I could explain..."
+            },
+            {
+                "name": "BARTHOLOMEW",
+                "text": "It matters not how many times you ask! Without the necessary permissions, none shall pass!"
+            },
+            {
+                "name": "YUGIRI",
+                "text": "(-Refugee Leader-)Pray understand, good sir! We have not the leisure to lodge a formal petition. Time is of the essence."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "(-Refugee Leader-)All I ask is that you summon your superior. Allow me to plead my case. Surely you can grant us that small kindness?"
+            },
+            {
+                "name": "BARTHOLOMEW",
+                "text": "Away with you, and darken these doors no longer. I will not ask again!"
+            },
+            {
+                "name": "YUGIRI",
+                "text": "(-Refugee Leader-)You know not what you do..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I gather your pleas fell upon deaf ears."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "(-Refugee Leader-)A loyal man with a cold heart. I know his kind well."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I hope that you will find me more to your liking. Alphinaud Leveilleur, at your service. A friend."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Which, I believe, makes me very nearly unique─in this part of the world, at least. Few indeed are your allies in Ul'dah. Yet you will need some if you wish to endear yourselves to the wealthy and powerful."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Pray join me and my associate at the Quicksand. There you may explain your situation to us, and we shall see if there is aught we can do to help."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Master Alphinaud's associate, yes? We have been waiting for you. I trust you are ready to begin?"
+            },
+            {
+                "name": "KASASAGI",
+                "text": "We would be most grateful for any assistance you and Master Alphinaud can offer."
+            },
+            {
+                "name": "KIKYOU",
+                "text": "It has been ever so long since we last set foot on dry land. I truly hope this marks the end of our journey."
+            },
+            {
+                "name": "KASASAGI",
+                "text": "We are grateful beyond measure for this kindness."
+            },
+            {
+                "name": "KIKYOU",
+                "text": "Lady Yugiri labors day and night for the good of our people. She is an inspiration to us all...yet I worry for her health."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "If I may, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>─as I said earlier, we have been at sea for some several moons, and our supplies are all but spent."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "I have not the heart to repeat the tales of our tribulations, nor would it please you to listen to them, I think. Suffice it to say, however...sacrifices have been made."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Though it shames me to beg for more when you have already offered so much, desperation compels me... <span class=\"alternative-container\"><span class=\"alternative\">Good madam</span><span class=\"alternative\">Gentle sir</span></span>, if you or your associates could spare any provisions─anything at all─it would go a long way to lessen the suffering of my people."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Anything you can provide would be welcome. The adults can go without, but the children..."
+            },
+            {
+                "name": "MOMODI",
+                "text": "...Hells, why didn't you say so sooner, <span class=\"highlight\">Forename</span>? 'Course I'll help! You couldn't have picked a better day, to tell the truth! A wealthy merchant an' his entourage were due to have a banquet here on the morrow, see, but just sent word they can't come, meanin' I've got a boatload of foodstuffs an' no one to feed. Best of all, they paid for the lot in advance! Hah hah!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Go an' call on Fridurih an' Katherine at the Sapphire Avenue Exchange. Tell 'em I said to ship the little prince's order to the Wakin' Sands. Oh, an' if they argue, just show 'em those letters. That should set 'em straight."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "I would not ask if the circumstances were not dire. Please─any provisions you can spare would be greatly appreciated."
+            },
+            {
+                "name": "FRIDURIH",
+                "text": "She's in the business of feedin' refugees now? I ain't normally one to question Mistress Momodi's judgment, but that doesn't seem wise to me."
+            },
+            {
+                "name": "FRIDURIH",
+                "text": "I'll not speak for the children, but if you ask me, any man what can't earn a crust deserves to go hungry."
+            },
+            {
+                "name": "KATHERINE",
+                "text": "My, that's a rather odd request. Mayhap you misheard her instructions?"
+            },
+            {
+                "name": "KATHERINE",
+                "text": "You know, you shouldn't encourage them like this. They'll start to <span class=\"emphasis\">expect</span> it, you mark my words!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "They didn't give you any trouble, did they? Good. Now go an' tell Lady Yugiri it's all in hand."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "I...I dared not hope for such magnanimity, much less expect it! Mistress Momodi is generous indeed... I shall be sure to thank her most humbly."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Lady Yugiri, I briefed the Flame General on your situation. I think you will be pleased with his reply."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "We have been granted an audience?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Before the sultana and the Syndicate both. We should return to the Royal Promenade at once."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "You have done much for us, Master Alphinaud. I swear we shall return the favor."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Naught is owed, Lady Yugiri, for naught has been given. This small favor, you fairly won with your words. And it is with words that you must win the favor of the Syndicate."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Then I shall choose them with care."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You will be accompanying us, yes? Good. Your presence may serve to remind the Syndicate of the true meaning of philanthropy─and that nothing so unpalatable will be required of them, assuming the Domans are willing to earn their keep. Come, the Flame General awaits us on the Royal Promenade."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We must take pains to illustrate how accepting the Domans would benefit Ul'dah. Only then might the Syndicate be swayed."
+            },
+            {
+                "name": "YUGIRI",
+                "text": "Bards sing of wars which decided the fates of nations, but a single word spoken within a council chamber is more like to decide that of mine own..."
+            },
+            {
+                "name": "KASASAGI",
+                "text": "If we are all enemies of Garlemald, is it not fitting that we should join forces?"
+            },
+            {
+                "name": "KIKYOU",
+                "text": "I have heard that the sultana is a kind and generous ruler. Of the Syndicate, I have heard less flattering things."
+            },
+            {
+                "name": "TELEDJIADELEDJI",
+                "text": "I wished to greet our guests beforehand and offer my support for their cause. Doman, Ul'dahn, it matters not to me; birthplace does not equate to birthright in mine eyes."
+            },
+            {
+                "name": "TELEDJIADELEDJI",
+                "text": "I take great pride in my establishments for this very reason. The Platinum Mirage, in particular, serves as a showcase for the talents of countless men and women born beyond our borders."
+            },
+            {
+                "name": "RAUBAHN",
+                "text": "A pleasure, <span class=\"alternative-container\"><span class=\"alternative\"><span class=\"highlight\">Forename</span></span><span class=\"alternative\">[GC Rank]</span><span class=\"alternative\"> <span class=\"highlight\">Surname</span></span></span>. The others are already inside. Let's not keep them waiting."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5736,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5766,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5750,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                66882
+            ]
+        },
+        "next": [
+            66884,
+            69416
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1008597",
+            "obj": {
+                "i": 1008597,
+                "n": "Thancred",
+                "l": 42,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008616",
+            "obj": {
+                "i": 1008616,
+                "n": "Raubahn",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001353",
+            "obj": {
+                "i": 1001353,
+                "n": "Momodi",
+                "l": 40,
+                "q": 27,
+                "t": "Quicksand Proprietress"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001821",
+            "obj": {
+                "i": 1001821,
+                "n": "Bartholomew",
+                "l": 41,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001966",
+            "obj": {
+                "i": 1001966,
+                "n": "Fridurih",
+                "l": 41,
+                "s": 1,
+                "q": 1,
+                "t": "Tradecraft Merchant",
+                "a": 646,
+                "c": [
+                    13.79,
+                    9.57
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001968",
+            "obj": {
+                "i": 1001968,
+                "n": "Katherine",
+                "l": 41,
+                "s": 1,
+                "q": 1,
+                "t": "Potwatch",
+                "a": 646,
+                "c": [
+                    13.97,
+                    9.89
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008600",
+            "obj": {
+                "i": 1008600,
+                "n": "Alphinaud",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008601",
+            "obj": {
+                "i": 1008601,
+                "n": "Refugee Leader",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008602",
+            "obj": {
+                "i": 1008602,
+                "n": "Refugee Attendant",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008603",
+            "obj": {
+                "i": 1008603,
+                "n": "Refugee Attendant",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008604",
+            "obj": {
+                "i": 1008604,
+                "n": "Alphinaud",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008605",
+            "obj": {
+                "i": 1008605,
+                "n": "Refugee Leader",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008606",
+            "obj": {
+                "i": 1008606,
+                "n": "Refugee Attendant",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008607",
+            "obj": {
+                "i": 1008607,
+                "n": "Refugee Attendant",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008608",
+            "obj": {
+                "i": 1008608,
+                "n": "Yugiri",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008609",
+            "obj": {
+                "i": 1008609,
+                "n": "Kasasagi",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008610",
+            "obj": {
+                "i": 1008610,
+                "n": "Kikyo",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008612",
+            "obj": {
+                "i": 1008612,
+                "n": "Alphinaud",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008613",
+            "obj": {
+                "i": 1008613,
+                "n": "Yugiri",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008614",
+            "obj": {
+                "i": 1008614,
+                "n": "Kasasagi",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008615",
+            "obj": {
+                "i": 1008615,
+                "n": "Kikyo",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008617",
+            "obj": {
+                "i": 1008617,
+                "n": "Teledji Adeledji",
+                "l": 41,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "5736",
+            "obj": {
+                "i": 5736,
+                "n": "Lilac Purple Dye",
+                "l": 1,
+                "c": 22805,
+                "t": 55,
+                "p": 216
+            }
+        },
+        {
+            "type": "item",
+            "id": "5766",
+            "obj": {
+                "i": 5766,
+                "n": "Millioncorn Yellow Dye",
+                "l": 30,
+                "c": 22806,
+                "t": 55
+            }
+        },
+        {
+            "type": "item",
+            "id": "5750",
+            "obj": {
+                "i": 5750,
+                "n": "Cork Brown Dye",
+                "l": 1,
+                "c": 22809,
+                "t": 55,
+                "p": 334
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66882",
+            "obj": {
+                "i": 66882,
+                "n": "A Final Temptation",
+                "g": 2,
+                "l": "Western Thanalan",
+                "s": 21
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66884",
+            "obj": {
+                "i": 66884,
+                "n": "Promises to Keep",
+                "g": 0,
+                "l": "Ul'dah",
+                "s": 23
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69416",
+            "obj": {
+                "i": 69416,
+                "n": "Promises to Keep",
+                "g": 2,
+                "l": "Ul'dah",
+                "s": 23
+            }
+        }
+    ]
+}

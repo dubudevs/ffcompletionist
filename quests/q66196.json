@@ -1,0 +1,833 @@
+{
+    "quest": {
+        "name": "Into a Copper Hell",
+        "location": "Ul'dah",
+        "id": 66196,
+        "patch": 2.0,
+        "sort": 95,
+        "icon": 100072,
+        "eventIcon": 71201,
+        "issuer": 1001353,
+        "target": 1001353,
+        "involved": [
+            1002285,
+            1004621,
+            1004623,
+            1004624
+        ],
+        "genre": 1,
+        "journal": [
+            "Momodi is waiting to brief you on your task.",
+            "It would seem that a horde of hecatoncheires has been wreaking havoc in the depths of Copperbell Mines. So that mining operations may resume, Papashan bids you subdue the hulking creatures. In preparation for the mission, the stationmaster suggests that you speak with Painted Mesa, an employee of Amajina & Sons Mineral Concern.",
+            "You learn from Painted Mesa that Copperbell Mines were reopened in order to meet the pressing demand for building materials created in the wake of the Calamity. Without a steady supply, Ul'dah's nascent recovery may slow to a standstill. Make your way to the mines, and report to the Stone Torch who stands guard at the entrance.",
+            "You've been granted permission to enter the mines. Make your way through the tunnels, putting down any hecatoncheires you encounter.<br><br>※Challenge Copperbell Mines with other players via the Duty Finder, or with a party of NPCs via Duty Support. Both systems are accessible from the main menu as well as the dungeon's entrance point.",
+            "You have succeeded in subduing the hecatoncheires. Report back to Painted Mesa at the Quicksand.",
+            "Your conversation with Painted Mesa is cut short by a shrill cry. Rushing to the origin of the exclamation, you find a woman being harassed by ruffians, and hurl yourself in harm's way to protect her. Immediately thereafter, <span class=\"alternative-container\"><span class=\"alternative\">Y'shtola arrives</span><span class=\"alternative\">Yda and Papalymo arrive</span><span class=\"alternative\">Thancred arrives</span><span class=\"alternative\">Hildibrand, the bumbling inspector of legend, arrives</span></span> on the scene.",
+            "After praising your courage, <span class=\"alternative-container\"><span class=\"alternative\">Y'shtola reveals that she belongs</span><span class=\"alternative\">Yda and Papalymo reveal that they belong</span><span class=\"alternative\">Thancred reveals that he belongs</span><span class=\"alternative\">the pair reveal that they belong</span></span> to an order called the Scions of the Seventh Dawn, and <span class=\"alternative-container\"><span class=\"alternative\">invites you to join them</span><span class=\"alternative\">invite you to join them</span></span>. But who exactly are these Scions, and what is their agenda? Perhaps Momodi can shed some light on these questions.",
+            "In the course of your travels, you have crossed paths with myriad individuals, some of whom you have positively influenced. One such individual is the young conjurer Edda, who reveals that you have inspired her to embark upon a new journey as an adventurer. You sense that you, too, must soon embark upon a new journey of your own. Speak with Momodi again when you have resolved to take the first step."
+        ],
+        "objectives": [
+            "Speak with Painted Mesa.",
+            "Speak with the Stone Torch before Copperbell Mines.",
+            "Enter Copperbell Mines.",
+            "Report to Painted Mesa.",
+            "Speak with Momodi.",
+            "Defeat the bodyguards!"
+        ],
+        "dialogue": [
+            {
+                "name": "MOMODI",
+                "text": "The petitioner ought to be arrivin' any moment now..."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "Gods almighty! Another second under that sun, and I would have been set afire! A tankard of ale, if you would be so kind!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Excellent timin', Papashan. It just so happens the adventurer who'll be handlin' your petition is here."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "Oh? Why, if it isn't my good friend <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "It does my spirit well to know that you are the one who will be helping us."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "So this <span class=\"alternative-container\"><span class=\"alternative\">winsome lass</span><span class=\"alternative\">strapping young lad</span></span> is the much-lauded adventurer, is <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span>? Marvelous, marvelous!"
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "A pleasure to make your acquaintance, <span class=\"alternative-container\"><span class=\"alternative\">milady</span><span class=\"alternative\">good sir</span></span>. I am Papashan, formerly of the Sultansworn. I thank you for agreeing to lend us your aid."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Mayhap you'd like to apprise <span class=\"highlight\">Forename</span> of <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> mission?"
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "Yes, of course. The petition in question was submitted by an acquaintance of mine at Amajina & Sons Mineral Concern. It relates to an unfortunate development at Copperbell Mines."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "To be plain, giants have seized control of the place."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "These giants are of the clan known as the hecatoncheires─fearsome creatures who were sealed within the deepest depths of the mines during the bygone Thorne Dynasty."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "Alas, it seems they have managed to break through the layer of rock which served to imprison them, and now prowl the tunnels where the miners ply their trade. The creatures are justifiably angry about their treatment at the hands of our ancestors, and their presence has forced the suspension of all mining activities on the site."
+            },
+            {
+                "name": "MOMODI",
+                "text": "It's no wonder they're angry. Didn't the Thorne Dynasty come to an end over three hundred years ago?"
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "You know your history well, milady."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "The people of that age used the hecatoncheires to work their mines. By way of enchanted helms, they were able to bind the ferocious creatures to their will. But as is oft the way in such tales, these enchantments eventually failed, and the slaves rose up against their masters."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "In a desperate bid to contain the unbridled fury of the hecatoncheires, our ancestors induced the collapse of the mines' lowermost levels. So it was that the Great Giant Revolt was ended─buried beneath a hundred thousand tonzes of rock."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Well, now...that's got me thinkin'... I seem to recall there bein' an article about Copperbell in the <span class=\"emphasis\">Mythril Eye</span> a fortnight or so ago."
+            },
+            {
+                "name": "MOMODI",
+                "text": "It said the mines were bein' reopened so as to meet the risin' demand for buildin' materials. Like as not, our boys dug a bit too deep and freed the giants."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Gods...to think the poor creatures are still alive an' kickin' after three centuries... That's a long time to nurse a grudge. They must be <span class=\"emphasis\">seethin'</span>..."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "Indeed. And that makes them a danger to us all. There will be no mining at Copperbell so long as they remain. For the sake of both peace and prosperity, they must be subdued. This is the task which we would have you undertake."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "Indeed. And that makes them a danger to us all. There will be no mining at Copperbell so long as they remain. For the sake of both peace and prosperity, they must be subdued. This is the task which we would have you undertake."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "I'll not deny that the mission will be rife with danger, but our need is great. And so I beg you: put an end to this sorry business."
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "Gods bless you! I feared you might have reservations, but I assure you it is for the best."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Hmmm... In case you don't know, Copperbell Mines are in western Thanalan. Do take care, you hear?"
+            },
+            {
+                "name": "PAPASHAN",
+                "text": "Ah, and one last thing before you depart... An employee of Amajina & Sons is presently at the Quicksand. The fellow's name is Painted Mesa, and he knows Copperbell Mines well. It may behoove you to seek his counsel."
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "Lookin' for Painted Mesa? You found him."
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "So you're the adventurer who's volunteered to deal with the mess down in Copperbell, are you?"
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "You've got guts, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">mate</span></span>. I just hope you've got skills to go with 'em, 'cause things ain't pretty down there. The hecatoncheires've left the place in a right state, and nary a week after minin' resumed."
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "I don't know if you know this, but Copperbell was old when the second Ul Dynasty was still young, and it was abandoned centuries ago. If it hadn't been for the shortage of materials needed for the rebuildin' effort, the Concern would never have thought to reopen it."
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "We knew full well about the giants beforehand, but the project went ahead anyway. I mean, nothin' could possibly survive bein' buried under a mountain's worth of rock for three centuries, right? <span class=\"emphasis\">Wrong</span>!"
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "Our miners dug up more than they bargained for. One swing of the pickaxe too many, and they found 'emselves in the company of giants. Unless we can subdue 'em, the nation's glorious recovery'll grind to a halt for want of aught to build with."
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "The Stone Torches're keepin' watch over the entrance in case the giants fancy some sunlight and fresh air. One of 'em will be able to show you the way in. The hope of the nation's restin' on you, friend. Best of luck!"
+            },
+            {
+                "name": "STONETORCH",
+                "text": "There's been an incident inside Copperbell Mines. We are here to ensure that its effects are contained, but for your own safety, I suggest you stay well away from here."
+            },
+            {
+                "name": "STONETORCH",
+                "text": "What? You're the adventurer who's volunteered to quell the hecatoncheires?"
+            },
+            {
+                "name": "STONETORCH",
+                "text": "I didn't think that Papashan would be able to find someone so quickly...if at all."
+            },
+            {
+                "name": "STONETORCH",
+                "text": "The giants are content to wreak havoc inside the mines for now, but it's only a matter of time before they think to come outside. The sooner you see to them, the better. Make ready as best you can, and enter at will."
+            },
+            {
+                "name": "ISILDAURE",
+                "text": "I have been an adventurer for long years, and borne witness to many a pivotal moment in history. Though the times may have changed, the essence of our trade has not."
+            },
+            {
+                "name": "ISILDAURE",
+                "text": "Adventuring has ever been a quest for self-betterment through challenges freely faced, and ever shall it remain so."
+            },
+            {
+                "name": "ISILDAURE",
+                "text": "As an adventurer becomes more experienced, he will naturally acquire a love of justice, and an understanding of the spirit of self-sacrifice."
+            },
+            {
+                "name": "ISILDAURE",
+                "text": "Such experience cannot be measured in any tangible way, yet it most assuredly shapes who we are, grounded as it is in the decisions we have made on our journey, and their consequences, good or ill."
+            },
+            {
+                "name": "ISILDAURE",
+                "text": "I sense a light within you, young one, and it tells me that you are destined for greatness."
+            },
+            {
+                "name": "ALIANNE",
+                "text": "We found Dolorous Bear and his entire party dead. The giants were...thorough in their work."
+            },
+            {
+                "name": "ALIANNE",
+                "text": "Judging by their tracks, it would seem they tried to rush a horde of the creatures. I cannot say for sure what drove an experienced crew like theirs to throw caution to the wind...but I do have my suspicions."
+            },
+            {
+                "name": "ALIANNE",
+                "text": "We are all our own worst critics, and our desire to better past achievements can rob us of good sense. Thus do we become more given to recklessness."
+            },
+            {
+                "name": "ALIANNE",
+                "text": "While it is important to have goals, one must not fixate upon them to the exclusion of all else. Do so, and one will surely pay the price, as Dolorous Bear and his comrades did this day."
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "The hope of the nation's restin' on your shoulders, friend. Send them giants back to whichever of the seven hells they escaped from!"
+            },
+            {
+                "name": "STONETORCH",
+                "text": "Good luck in there, adventurer. We Stone Torches will continue our vigil here, lest the foe slip by you."
+            },
+            {
+                "name": "Q1",
+                "text": "Duty calls. Do you wish to proceed with<br>“Into a Copper Hell”?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "Ah, the conqueror of Copperbell returns!"
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "Thanks to you, our minin' operations can resume, and Ul'dah will have the materials she needs to rebuild. The entire nation's in your debt, friend."
+            },
+            {
+                "name": "PAINTEDMESA",
+                "text": "I'll share the good tidin's with Papashan the next time I see him. As for you, you'll want to report to Momodi. It'll do the woman well to see you alive and in one piece."
+            },
+            {
+                "name": "POORDRESS",
+                "text": "(-???-)Noooooo!"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)Shut your mouth, you thieving little swine! You stole from me─don't even think to deny it!"
+            },
+            {
+                "name": "POORDRESS",
+                "text": "P-Please, sir, I didn't steal nothin'!"
+            },
+            {
+                "name": "POORDRESS",
+                "text": "I b-bought this─paid for it with me own coin!"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)What rot! You refugees are all the same─couldn't afford maggoty mole meat, much less a choice cut of dodo!"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)I'm going to say it one more time: give back what you stole, or I'll make you wish you'd never set foot in this town!"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)By rights, I should turn you over to the Brass Blades, you know─help keep the streets safe for law-abiding citizens. But I'm a reasonable man. If you agree to serve me in...whatever capacity I require, the authorities needn't hear of your crime."
+            },
+            {
+                "name": "POORDRESS",
+                "text": "B-But I ain't done nothin' wrong! Twelve as me witness!"
+            },
+            {
+                "name": "POORDRESS",
+                "text": "P-Please, adventurer! Help me, I beg o' ye!"
+            },
+            {
+                "name": "POORDRESS",
+                "text": "I swear on me mother's grave, I didn't steal nothin'! I bought this with the coin I'd saved... &lt;sob&gt; I only wanted to treat me children to a decent meal..."
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)And who the hells are you when you're at home!? This dog's master?"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)I've had enough of this mummer's farce. You lot, teach them a lesson!"
+            },
+            {
+                "name": "HEAVY",
+                "text": "I ain't gettin' paid enough for this!"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)H-Hey! Where the hells do you think you're going!?"
+            },
+            {
+                "name": "POORDRESS",
+                "text": "Thank ye, kind adventurer! Thank ye thrice over!"
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "I'd swear there were more refugees than when I last looked..."
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "And you wouldn't be mistaken."
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "But it's been five years since the Calamity! Why are they only coming here now?"
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "It's simple, really─while a number of hamlets survived the immediate aftermath of the Calamity, many were no longer able to support their communities."
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "The residents found their lands had either been rendered barren, or cut off from trade routes─and problems like those aren't easily solved. Though they tried to make the best of it, it was only a matter of time before they were forced to abandon their homes and seek a new life in the city."
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "I see..."
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "But the Calamity affected the whole realm, didn't it? Is the same thing happening in the other cities?"
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "If the talk is true, yes."
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "Though perhaps our situation is more pronounced. Ul'dah has a reputation for being prosperous, so it's natural that the refugees would try their luck here first."
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "My heart goes out to them, it truly does...but I would be lying if I said that I wasn't apprehensive. I hope their presence doesn't foment lawlessness in the city."
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "Well, if things do take a turn for the worse, we always have the Immortal Flames. I daresay the Brass Blades would welcome their help."
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "The heroes who fought the Garlean Empire, patrolling the streets for riffraff?"
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "It may well come to that."
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "Impoverished and desperate as they are, you may be sure that some of the refugees will turn to crime."
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "You know what this place is like. If you've no coin, you've no hope."
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "&lt;sigh&gt; What will become of our city?"
+            },
+            {
+                "name": "RESTLESSULD",
+                "text": "Not <span class=\"emphasis\">all</span> refugees are bad, mind you. Some are able to find employment and lead honest lives."
+            },
+            {
+                "name": "SALESPITCH",
+                "text": "Dodo tenderloins! Get yer dodo tenderloins! Guaranteed cheapest in Thanalan!"
+            },
+            {
+                "name": "SALESPITCH",
+                "text": "Thank ye for yer custom, madam! Please come again!"
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "Looking around, you'd think that Ul'dah was well on its way to recovery."
+            },
+            {
+                "name": "YOUNGULD",
+                "text": "But peer through the veil of prosperity and you'll see no end to the misery and suffering."
+            },
+            {
+                "name": "POORDRESS",
+                "text": "Er...<span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>? Are ye all right?"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)Wh-What now!? You mean to threaten a defenseless citizen!?"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)...What? Saw her buy that meat, you say? Th-That's absurd!"
+            },
+            {
+                "name": "AGENT",
+                "text": "(-???-)Aye, as did I! Leave the poor woman alone, you damnable vulture!"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)Wh-Who said that!?"
+            },
+            {
+                "name": "UNGUST",
+                "text": "(-Obnoxious Merchant-)Grrr! I will overlook this...but just this once!"
+            },
+            {
+                "name": "POORDRESS",
+                "text": "Gods bless ye, adventurer! If ye hadn't come along when ye did, who knows what that monster might've done!? It don't bear thinkin' about..."
+            },
+            {
+                "name": "YDA",
+                "text": "(-???-)Case closed!"
+            },
+            {
+                "name": "YDA",
+                "text": "Hello again!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "We have been keeping a close eye on you ever since you left Gridania."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "You discharged your duty as envoy impeccably, and never once faltered in the face of myriad dangers."
+            },
+            {
+                "name": "YDA",
+                "text": "But more importantly, you were always ready to help those in need, even if you didn't stand to earn a gil by doing so!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "You are possessed of all the qualities we seek in an adventurer, of this we are convinced."
+            },
+            {
+                "name": "YDA",
+                "text": "Even if you <span class=\"emphasis\">were</span> kind of dragged into that business with the dodo meat."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Yes, <span class=\"emphasis\">thank you</span>, Yda. Ahem. And then there is the matter of your gift. I daresay you are curious as to the nature of the vision you bore witness to moments ago? Well, we can help you to understand it."
+            },
+            {
+                "name": "YDA",
+                "text": "You're not the only one with that power, you know. We have a friend who has it too, and we'd love for you to meet her."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "And meeting her is only the beginning, for we would also have you lend your strength to our cause. In return, we should be glad to assist your adventuring endeavors in whatever way we are able."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Should you decide to take us up on our offer─and I sincerely hope you will─pray speak with Momodi. The proprietress of the Quicksand is a good friend of ours. She will tell you where to find us."
+            },
+            {
+                "name": "YDA",
+                "text": "Waaait a minute─we haven't even told you the name of our order! We're the Scions of the Seventh Dawn, defenders of justice! Oh, but don't tell anyone. Except for Momodi. She knows already."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "(-???-)Ever the selfless hero, I see."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "It has been a while, adventurer."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "I have been watching you closely ever since you flew out of Limsa Lominsa."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "You discharged your duty as the Admiral's personal envoy with admirable humility, and you have displayed unfaltering courage in the face of danger ever since."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Whensoever you came upon those in need, you gave them succor with no thought of personal gain."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "In summary, you have demonstrated all of the qualities we seek in an adventurer."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "For reasons I cannot well explain, your every deed seems invariably to serve the general good...whether you mean it to or not. It is a happy knack, and one which speaks volumes for your character!"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Yet for all your admirable qualities, it is your <span class=\"emphasis\">gift</span> which intrigues me most. I speak of the visions you experience. Visions like the one you had mere moments ago, if I am not mistaken. I can provide you with the means to understand them."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "An acquaintance of mine is blessed with the selfsame talent, you see... If you so desire, I can introduce you to her. She and I fight for a common cause─a cause which would greatly benefit for your support."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "If you would agree to lend us your strength, we should be glad to do all within our power to aid you in your personal endeavors."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Think on my offer awhile. Should you decide to accept it, pray speak with Momodi. The proprietress of the Quicksand is a close friend and ally of ours."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Inform her that you have been chosen by the Scions of the Seventh Dawn, and she will tell you where to find us."
+            },
+            {
+                "name": "THANCRED",
+                "text": "(-???-)All's well that ends well!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "We meet again!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Pray do not mistake my intent─for it is <span class=\"emphasis\">always</span> honorable─but I have been watching you ever since you departed Ul'dah."
+            },
+            {
+                "name": "THANCRED",
+                "text": "You played the part of envoy to perfection─confident as a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> on a diplomatic mission should be, yet unfailingly courteous to your betters. And when your travels led you into the midst of danger, you faced it without so much as a flinch. You, my <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">friend</span></span>, are quite a marvel, and I confess to being <span class=\"alternative-container\"><span class=\"alternative\">quite taken with</span><span class=\"alternative\">somewhat in awe of</span></span> you!"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Ah, but my lavish praise continues. Most of all, I was struck by your readiness to aid those in need, even when words were all the reward you could expect to receive. Such selflessness is a rare thing in this day and age."
+            },
+            {
+                "name": "THANCRED",
+                "text": "...All of which leads me to conclude that you are indeed the one whom I have been looking for─an adventurer possessed of a very rare set of qualities."
+            },
+            {
+                "name": "THANCRED",
+                "text": "To be sure, your rescue of that damsel in distress was more of a happy accident. But rescue her you did, and that is what matters in the end."
+            },
+            {
+                "name": "THANCRED",
+                "text": "I feel I should mention at this point that I <span class=\"emphasis\">also</span> harbor a burning interest in a certain talent of yours. I speak of your visions. You <span class=\"emphasis\">have</span> been experiencing visions, have you not?"
+            },
+            {
+                "name": "THANCRED",
+                "text": "Well, it just so happens that I know a woman who shares your talent, and can help you to understand it. She and I belong to the same organization, and we should both be delighted beyond words if you would agree to join our cause."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Naturally, there are benefits to being part of such a collective. For one, we should be glad to assist you in realizing your potential as an adventurer."
+            },
+            {
+                "name": "THANCRED",
+                "text": "You need not give me your answer now. Think upon it, and if you feel moved to help us─as I pray you shall─speak with Momodi, the ever-lovely and youthful mistress of the Quicksand."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Tell her the Scions of the Seventh Dawn have found their <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>, and she will tell you where to find us."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Hmph. Scenes like that are becomin' ever more common, I'm afraid. Don't worry, though─if you work hard, you'll probably be all right."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Sayin' that, if you ever find yourself in a spot of bother, come and see me. Just don't go pesterin' me every time you graze your knee, eh?"
+            },
+            {
+                "name": "MOMODI",
+                "text": "...'Course, I <span class=\"emphasis\">do</span> enjoy hearin' tell of a gentleman's woes with the womenfolk from time to time..."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! Sorry to keep you waitin'─I was just providin' guidance to a fresh-off-the-carriage adventurer."
+            },
+            {
+                "name": "MOMODI",
+                "text": "But gods, it's good to see you safe and well! To look at you, no one would ever guess you'd been hard at it with giants in the dark!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "I never doubted for a moment that you'd succeed, of course, and neither did Papashan─which ain't to say he won't be overjoyed!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "You're every ilm the adventurer Miounne said you'd be, <span class=\"highlight\">Forename</span>. The stationmaster will be overjoyed when he hears the news!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Oh, before I forget, there's a lass here who wants a word with you. Didn't actually know your name, but hearin' her description, I knew who she meant right away."
+            },
+            {
+                "name": "EDDA",
+                "text": "Th-Thank you for sparing the time. I realize you don't know me, but I've been longing to speak with you for a while now."
+            },
+            {
+                "name": "EDDA",
+                "text": "My name is Edda. I'm an adventurer like you, though I'm not very good at being one, if truth be told. Anyway, I was adventuring with my friends in Gridania when...when... I-I'm sorry. We were in Gridania...when the leader of our party was killed."
+            },
+            {
+                "name": "EDDA",
+                "text": "His name was Avere, and he and I were to be wed in the spring. You may not remember him, but to say that he remembered you would be an understatement. He would sing your praises from dawn to dusk. He saw you for what you are, you see─an adventurer's adventurer─and swore that he would be like you one day."
+            },
+            {
+                "name": "EDDA",
+                "text": "I believe that he would have succeeded...had a fiend not robbed him of the chance. Since that day, I have thought long and hard about giving up adventuring."
+            },
+            {
+                "name": "EDDA",
+                "text": "But when I think of the <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> you are─of all that you've achieved─I find that I am inspired, just as Avere once was."
+            },
+            {
+                "name": "EDDA",
+                "text": "And so I've decided to start again as an adventurer. I will go back to the village of my birth and begin my training anew."
+            },
+            {
+                "name": "EDDA",
+                "text": "But I wanted to meet you first...to ask you your name."
+            },
+            {
+                "name": "EDDA",
+                "text": "<span class=\"highlight\">Forename Surname</span>... I shan't forget."
+            },
+            {
+                "name": "EDDA",
+                "text": "Thank you, <span class=\"highlight\">Forename Surname</span>. I pray that we will meet again. Fare you well!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "Adventurin' can be a cruel bleedin' business... Time was, I didn't know why anyone would bother. When they first asked me to take charge of the guild here, I didn't want aught to do with you lot─thought it'd be a right pain in the arse lookin' after you all."
+            },
+            {
+                "name": "MOMODI",
+                "text": "But against my better judgment, I decided to accept the post...and I'm full glad I did. I feel privileged to be a part of your lives."
+            },
+            {
+                "name": "MOMODI",
+                "text": "And that goes double for yours, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "MOMODI",
+                "text": "...Eh? What did you say? You want to know about the Scions of the Seventh Dawn?"
+            },
+            {
+                "name": "MOMODI",
+                "text": "They're beginnin' to move in earnest, then..."
+            },
+            {
+                "name": "MOMODI",
+                "text": "Listen, <span class=\"highlight\">Forename</span>─the Scions ain't no ordinary folk, and the work they do ain't no ordinary work. I know full well how capable you are, but even <span class=\"emphasis\">you</span> would think twice about attemptin' some of the stuff they do. Knowin' that, if you're still certain you want to get involved, I'll tell you what I can."
+            },
+            {
+                "name": "QIB",
+                "text": "&lt;belch&gt; I'll take care o' this. The rest o' ye can watch."
+            },
+            {
+                "name": "QIB",
+                "text": "Hmph! Not bad...for an adventurer!"
+            },
+            {
+                "name": "QIB",
+                "text": "Ugh... I should've stopped at the seventh ale..."
+            },
+            {
+                "name": "QIB",
+                "text": "Stop bloody gawpin' at me and give me a hand, will ye!?"
+            },
+            {
+                "name": "QIB",
+                "text": "Bugger, bugger, BUGGER!"
+            }
+        ],
+        "reward": {
+            "gil": 848,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4552
+                },
+                {
+                    "num": 3,
+                    "id": 4555
+                }
+            ],
+            "xp": 7280,
+            "instance": 3
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 17,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66214
+            ]
+        },
+        "next": [
+            66045,
+            67092
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001353",
+            "obj": {
+                "i": 1001353,
+                "n": "Momodi",
+                "l": 40,
+                "q": 27,
+                "t": "Quicksand Proprietress"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002285",
+            "obj": {
+                "i": 1002285,
+                "n": "Stone Torch",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004621",
+            "obj": {
+                "i": 1004621,
+                "n": "Painted Mesa",
+                "l": 40,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004623",
+            "obj": {
+                "i": 1004623,
+                "n": "Isildaure",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004624",
+            "obj": {
+                "i": 1004624,
+                "n": "Alianne",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "instance",
+            "id": "3",
+            "obj": {
+                "i": 3,
+                "n": "Copperbell Mines",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 17,
+                "max_lvl": 20
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66214",
+            "obj": {
+                "i": 66214,
+                "n": "Call of the Desert",
+                "g": 1,
+                "l": "Gridania",
+                "s": 94
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66045",
+            "obj": {
+                "i": 66045,
+                "n": "The Scions of the Seventh Dawn",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 96
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67092",
+            "obj": {
+                "i": 67092,
+                "n": "The House That Death Built",
+                "g": 86,
+                "l": "Gridania",
+                "s": 171,
+                "f": 1
+            }
+        }
+    ]
+}

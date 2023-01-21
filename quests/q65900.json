@@ -1,0 +1,187 @@
+{
+    "quest": {
+        "name": "Bait and Switch",
+        "location": "Eastern Thanalan",
+        "id": 65900,
+        "patch": 2.5,
+        "sort": 78,
+        "eventIcon": 71201,
+        "issuer": 1010845,
+        "target": 1010849,
+        "involved": [
+            1010846,
+            1010847
+        ],
+        "genre": 2,
+        "journal": [
+            "Ilberd is eager to bring the black marketeer and his clients to justice.",
+            "Ilberd states that the 1st Unit will establish a perimeter, preventing the clients' escape, while you and he seize the black marketeer and his weapons. Follow the captain to the Burning Wall and survey the area.",
+            "Although he spies only a single sentry, Ilberd concludes that there must be others in hiding. He bids you create a distraction while he and his men slip past into the tunnels where the black marketeer and his clients are meeting. Approach the lone sentry and strike up a friendly conversation.",
+            "The sentry is less than pleased with your presence, and he and his comrades attempt to summarily dispatch you. They do not succeed. Captain Ilberd and his men are nowhere to be seen, and so you have no choice but to wait outside the tunnel as instructed.",
+            "A sudden scream of agony rings out from within the tunnel. Proceed inside and seek out the source of the disturbance.",
+            "You find a flustered Ilberd standing over a man who lies motionless in a pool of his own blood. The captain explains that the black marketeer fought back with a hidden blade, and that one of his subordinates, fearing for his safety, slew the man. What is worse, a party of Duskwight sellswords believed to be the clients managed to slip past the 1st Unit, which is currently giving chase. As a final ignominy, it would seem that Riol's information was erroneous, and that the massive shipment of weapons consists of a single wooden crate..."
+        ],
+        "objectives": [
+            "Speak with Ilberd.",
+            "Speak with the hired thug.",
+            "Wait for Ilberd outside the tunnel entrance.",
+            "Investigate the disturbance."
+        ],
+        "dialogue": [
+            {
+                "name": "ILBERD",
+                "text": "Now then, we should make for the Burning Wall without delay and secure those weapons."
+            },
+            {
+                "name": "ILBERD",
+                "text": "The 1st Unit will ensure that the clients do not escape. With me, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "ILBERD",
+                "text": "I spy the one man, but there are sure to be others..."
+            },
+            {
+                "name": "ILBERD",
+                "text": "I've a plan. While you approach the sentry and create a distraction, my men and I will slip past and catch the black marketeer unawares."
+            },
+            {
+                "name": "ILBERD",
+                "text": "Once you've disposed of the thugs, wait for us outside the tunnel entrance. Any questions? Then let us be off. Good luck, my friend."
+            },
+            {
+                "name": "SENTRY00364",
+                "text": "Who goes there!? An adventurer? Damned fool, you should have never come here!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Bah! Away with you!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Kill <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> and be done with it!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Worthless, all of you! This ends here!"
+            },
+            {
+                "name": "BLACKMARKETEER00364",
+                "text": "(-???-)I don't understand! Wh-What's this all about!?"
+            },
+            {
+                "name": "BLACKMARKETEER00364",
+                "text": "(-???-)Graaagh!"
+            },
+            {
+                "name": "ILBERD",
+                "text": "As you can see, this is a fine mess."
+            },
+            {
+                "name": "ILBERD",
+                "text": "When I tried to restrain him, he drew a hidden blade and lashed out. But before I could disarm him, one of my subordinates panicked, and this is the result."
+            },
+            {
+                "name": "ILBERD",
+                "text": "How foolish of me to underestimate the bastard, and to bring an inexperienced recruit. Commander Leveilleur will be most disappointed."
+            },
+            {
+                "name": "ILBERD",
+                "text": "Damn it all! A golden opportunity, wasted!"
+            },
+            {
+                "name": "ILBERD",
+                "text": "As for the clients...though we know not how, they slipped past our perimeter. At present, the 1st is currently tracking a party of Duskwight sellswords we suspect may be them."
+            },
+            {
+                "name": "ILBERD",
+                "text": "Would that we could have enlisted the aid of the Immortal Flames or the Brass Blades. Alas, we're here to aid <span class=\"emphasis\">them</span>─they're in no position to aid us."
+            },
+            {
+                "name": "ILBERD",
+                "text": "Well, at the very least, we have secured the weapons. Yet even that accomplishment is lacking, for the information we received indicated a massive shipment, and this is anything but..."
+            }
+        ],
+        "reward": {
+            "gil": 958,
+            "xp": 4800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                65899
+            ]
+        },
+        "next": [
+            65901
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010845",
+            "obj": {
+                "i": 1010845,
+                "n": "Ilberd",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010849",
+            "obj": {
+                "i": 1010849,
+                "n": "Ilberd",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010846",
+            "obj": {
+                "i": 1010846,
+                "n": "Ilberd",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010847",
+            "obj": {
+                "i": 1010847,
+                "n": "Hired Thug",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65899",
+            "obj": {
+                "i": 65899,
+                "n": "Good Intentions",
+                "g": 2,
+                "l": "The Rising Stones",
+                "s": 77
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65901",
+            "obj": {
+                "i": 65901,
+                "n": "Best Laid Schemes",
+                "g": 2,
+                "l": "Eastern Thanalan",
+                "s": 79
+            }
+        }
+    ]
+}

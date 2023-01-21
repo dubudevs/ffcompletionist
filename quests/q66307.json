@@ -1,0 +1,79 @@
+{
+    "quest": {
+        "name": "In Grandfather's Name",
+        "location": "South Shroud",
+        "id": 66307,
+        "patch": 2.0,
+        "sort": 260,
+        "eventIcon": 71221,
+        "issuer": 1000328,
+        "target": 1000328,
+        "genre": 92,
+        "journal": [
+            "Cuthbert of Quarrymill would seek your aid in recovering a family heirloom.",
+            "The notorious Redbelly Wasps have in their possession a priceless heirloom that once belonged to Cuthbert's grandfather, the elder of the ill-fated village of Boughbury. Venture near Redbelly Hive and recover the axe.",
+            "You have safely recovered the Boughbury Axe from the vicious bandits. Cuthbert will be overjoyed to see it returned after so many years.",
+            "Taking his grandfather's prized heirloom in hand, Cuthbert swears vengeance against those who stole from his family their rightful home."
+        ],
+        "objectives": [
+            "Recover the Boughbury Axe near Redbelly Hive.",
+            "Deliver the Boughbury Axe to Cuthbert."
+        ],
+        "dialogue": [
+            {
+                "name": "CUTHBERT",
+                "text": "In the days before the Calamity, my grandfather was village elder of Boughbury. We tried─gods be good, we tried─to reclaim his home, but to no avail. Passed away last year, he did..."
+            },
+            {
+                "name": "CUTHBERT",
+                "text": "With his last breath, he spoke of a family heirloom, an axe passed down for generations. Now those Redbelly whoresons use it to split wood─mockin' us all the while. The Twelve take me if I allow those bastards to besmirch Grandfather's memory any longer. You'll bring it back for me, won't you?"
+            },
+            {
+                "name": "CUTHBERT",
+                "text": "Well? Were you able to reclaim the axe from those bloody thieves?"
+            },
+            {
+                "name": "CUTHBERT",
+                "text": "Just as Grandfather always described it! You're a godssend, friend. Grandfather, I swear to you─the next time a Redbelly sees this axe, it'll be buried in his good-for-naught skull!"
+            }
+        ],
+        "reward": {
+            "gil": 1263,
+            "xp": 5075
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 26,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66308
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000328",
+            "obj": {
+                "i": 1000328,
+                "n": "Cuthbert",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66308",
+            "obj": {
+                "i": 66308,
+                "n": "The Marvelous Mun-Tuy Bean",
+                "g": 92,
+                "l": "South Shroud",
+                "s": 260
+            }
+        }
+    ]
+}

@@ -1,0 +1,719 @@
+{
+    "quest": {
+        "name": "Uninvited",
+        "location": "Kugane",
+        "id": 68625,
+        "patch": 4.3,
+        "sort": 30,
+        "icon": 100787,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1024149,
+        "target": 1025729,
+        "genre": 21,
+        "journal": [
+            "Lina Mewrilah appears to have been awaiting your arrival for quite some time.",
+            "Alma Lexentale has summoned Lina Mewrilah (and you) to the <span class=\"emphasis\">Prima Vista</span> to discuss recent findings concerning the auracite. As before, a word with the shuttle pilot will see you quickly and safely to the Lexentale airship.",
+            "It would seem that Cid has invited an Archon to join him on the <span class=\"emphasis\">Prima Vista</span>─a Student of Baldesion by the name of Mikoto.",
+            "Gamely endeavoring to speak in words of fewer than five syllables, the Archon shares her theories on the auracite, prompting a new debate─if the Otius is not a naturally occurring crystal, then who created it and why? Before a consensus can be reached, Ramza foments new tension with his sister by questioning her commitment to the family mission. It is during this fraternal spat that an uninvited guest enters stage right.",
+            "Seeking admission to their theater company, Montblanc, desert moogle from Dalmasca, petitions the Majestic with all the blustery gusto of a born drama queen. Ramza is quick to dismiss him, but in doing so, inadvertently presents Montblanc with a challenge─slay a beast, and earn apprenticeship aboard the <span class=\"emphasis\">Prima Vista</span>. Eager to prove his worth, the sorely overmatched and under-armored moogle marches out into the wilds to meet his prey...and most likely his maker.",
+            "Hurdy and Lina have set off in pursuit of Montblanc. Their first stop? Pier #2.",
+            "You learn that Montblanc may have found his way onto a falcon porter bound for the One River in Yanxia. Residents of the Glittering Basin might know more regarding the mole-bat's whereabouts.",
+            "As expected, you find Montblanc in urgent need of rescue, his attempt at slaying a ferocious beast (in this case, a fiery red chocobo) ending just about as well as everyone imagined─that is, in defeat, in case you imagined otherwise.",
+            "Having survived his misguided adventure, Montblanc begins the long journey back to the <span class=\"emphasis\">Prima Vista</span> in high spirits.",
+            "Upon your return, you find the theater barge has visitors─a band of Bangaa, weapons drawn. Only Jenomis might know how to diffuse a situation this volatile.",
+            "Hostage-taking apart, the Bangaa mean those of the Theater Company no harm, and merely seek aid in locating their missing captain. After hearing their tale, Mikoto believes that there is a chance Ba'Gamnan may have been manipulated by the Duma in the same manner as the late Argath Thadalfus. With no leads, however, the captain's rescue seems impossible...until Jenomis discovers a mysterious addition on the final page of his journal. Intent on discovering its significance, he returns at once to his research, promising to send for you as soon as the riddle is solved."
+        ],
+        "objectives": [
+            "Ride the transport shuttle to the <span class=\"emphasis\">Prima Vista</span>.",
+            "Speak with the newly arrived moogle.",
+            "Speak with Hurdy.",
+            "Speak with Lina Mewrilah or Hurdy on Pier #2.",
+            "Search for Montblanc in the Glittering Basin.",
+            "Speak with Montblanc.",
+            "Return to the <span class=\"emphasis\">Prima Vista</span>.",
+            "Speak with Jenomis cen Lexentale."
+        ],
+        "dialogue": [
+            {
+                "name": "LINAMEWRILAH",
+                "text": "<span class=\"highlight\">Forename</span>! Where in the world have you been? Did you not receive Alma's summons? Principal Lexentale's research into the auracite may finally have borne fruit!"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "We must hurry to the <span class=\"emphasis\">Prima Vista</span> before they embark on some grand and perilous adventure without us!"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "In her message, Alma mentioned a guest from Sharlayan. Someone your companion Cid Garlond believed might be able to assist the Principal's research. An “archetype,” I think is the term she used."
+            },
+            {
+                "name": "AIRSHIPGUIDE03003",
+                "text": "If you would follow me to the shuttle, good <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">sir</span></span>."
+            },
+            {
+                "name": "Q1",
+                "text": "Board the <span class=\"emphasis\">Prima Vista</span>?"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "<span class=\"highlight\">Forename</span>, Lady Mewrilah. Thank you for answering my summons. Master Garlond was kind enough to send for an Archon from Sharlayan, and I thought it only right that you be present to hear her findings."
+            },
+            {
+                "name": "CID",
+                "text": "To be frank, summoning Mikoto was more Y'shtola's idea. I simply came along to see what light she could shed on this mystery."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "I am Mikoto of House Jinba─a Doman, though my years in Sharlayan have made me a stranger here. You must be <span class=\"highlight\">Forename Surname</span>─fabled liberator of men. Slayer of false gods. Warrior of Light...<br>I thought you'd be taller."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Let us speak of the crystal."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Ahem..."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "The <span class=\"emphasis\">Otius</span>─one of but many <span class=\"emphasis\">auracite</span> shards that aided noble Delita's rise to regent."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "My apologies. The <span class=\"emphasis\">Otius</span> is no ordinary crystal, even discounting its obvious historical importance. The specimen is more than a simple manifestation of elementally aspected energies─it is, rather, an aetherial lodestone whose facilitation of both the absorption and transmission of distinct-frequency NRR–type harmonic vibrations has been observed to promote aetherial amplification."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "The resultant neuro-harmonic disturbance allows for a highly unique emittance of CPRS waves that, instead of radiating outward with a determinate factor of dispersal, instead resonate <span class=\"emphasis\">inward</span> at a frequency so labored, my estimates place the rate of VRT decay at upwards of several <span class=\"emphasis\">centuries</span>...though I must admit I lack sufficient variates to complete a truly comprehensive graphical assessment."
+            },
+            {
+                "name": "CID",
+                "text": "...Hmph. While that explanation may elicit admiring nods from your professors at the academy, it will earn you only blank looks here. Take a deep breath and try again─this time in a language those of us <span class=\"emphasis\">without</span> the Echo might comprehend."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "My apologies. I merely thought─"
+            },
+            {
+                "name": "CID",
+                "text": "Apologies will see us no nearer to an answer. A simpler explanation will."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Simpler... Right... Um... Aether is not only the building block of all things material, but those immaterial as well. Thoughts, memories, feelings, one's very will are all understood to be aetherial phenomena, and can be measured as such. Unlike most crystals, which only can emit elemental energies, auracite is tuned not only to absorb aether, but aether specific to the immaterial. That aether is then stored and multiplied within its crystalline confines until external stimuli precipitate release."
+            },
+            {
+                "name": "CID",
+                "text": "Try again."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Uh... Ahem. Under appropriate conditions, a strong will or desire can become imprinted upon the auracite and stored until fomentation, at which time the desire becomes manifest─"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Fomen...tation?"
+            },
+            {
+                "name": "CID",
+                "text": "What my studious young friend is <span class=\"emphasis\">trying</span> to say is that the Otius takes one's deepest fantasies and makes them reality."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Ah. Yes. Yes, that is...simpler. You...may choose to think of it as a process akin to that of summoning a primal."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "There being one marked difference─primal summoning requires a supplemental energy source, such as a hoard of elementally charged crystals. Auracite, on the other hand, has the capacity to serve as its own source of power."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "We know from the Durai Papers that Argath was never king of Ivalice. He was slain in battle during the War of the Lions."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Yet the Argath encountered during the recent expedition carried himself as if he had been crowned regent. I believe this was merely the auracite in his possession making manif─uh, realizing his desire to rule."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "I am informed that he uttered the same words over and over again for the duration of the confrontation which unfolded. If that is the case, it is possible that it was not actually Argath who uttered them, but the auracite itself."
+            },
+            {
+                "name": "CID",
+                "text": "If the Durai Papers are accurate, Argath was a weak and petty noble who believed that his blood entitled him to power. The auracite took that belief and twisted it into the abomination we─uh, <span class=\"emphasis\"><span class=\"highlight\">Forename</span></span> put to the sword."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Then you are saying the crystal could prove a threat?"
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "The <span class=\"emphasis\">auracite</span>, Alma. And not necessarily. Ramza seemed to fare well enough. There is no record of the young regent being manipulated by the artifacts he gathered."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "In the hands of the just, the auracite should prove harmless, even beneficial!"
+            },
+            {
+                "name": "CID",
+                "text": "To paraphrase: “It is not the weapon that kills, but the one who wields it”?"
+            },
+            {
+                "name": "CID",
+                "text": "Now where have I heard that before..."
+            },
+            {
+                "name": "CID",
+                "text": "Oh, yes. It was Emperor Galvus's justification for taking the marvels of magitek and applying them to the manufacture of arms. Where, after all, was the harm if it allowed him to “bring order” to the Three Great Continents?"
+            },
+            {
+                "name": "MIKOTO",
+                "text": "You draw an intriguing parallel, Master Garlond... The properties of these crystals are so singular, I do begin to wonder if they, like magitek, are products of <span class=\"emphasis\">science</span> and not nature. That they were created by someone to─"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "But who? What manner of person would even be capable of such a feat?"
+            },
+            {
+                "name": "CID",
+                "text": "Now <span class=\"emphasis\">that</span> is an interesting question─the answer to which I look forward to hearing. Regrettably, I have pressing matters to attend to elsewhere. Fear not, however: Mikoto's insight will prove far more beneficial than anything I might accidentally contribute. Good day to you all."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "What I don't understand is..."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "If the Duma was imprinted with Argath's deepest desires, then whose desires are rattling about inside the Otius?"
+            },
+            {
+                "name": "MIKOTO",
+                "text": "I had the selfsame question, and thus conducted a thorough inspection of the crystal upon my arrival. The results were...inconclusive. Traces of aetherial activity were present, but to all intents and purposes, the vessel was empty."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Empty? But what of the voices I heard?"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Voices? I heard nothing of the sort. The only voices you heard, Alma, were in your stubborn head!"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Ramza, why won't you─"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Shall we speak of “voices,” then? What of yours, Alma? Our resident voice of dissent. You have done naught but question the wisdom of our research from the moment we left Garlemald. Would you put your petty worries above our family's calling?"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "No! I would never─"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "You would never!? Then why involve a gossipmonger, a goody two-shoes, and this...this...flying mole!?"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Please tell me you can see that."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "A moogle! And a decidedly dusty one at that! Might this be one of <span class=\"emphasis\">your</span> acquaintances, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Most intriguing... Is it alive?"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Don't just stand there, get rid of the thing! You're the liberator. Liberate this vessel of that pest!"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "It's like nothing I have ever seen before... Can we keep it?"
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Ah. A moogle. Yes."
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "Am I interrupting? Oh, please <span class=\"emphasis\">do</span> go on. My acceptance into your fine troupe's ranks can wait until all have said their piece, kupo."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Guards! Get this, this, this─"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)Montblanc. The name is Montblanc. Denizen of Dalmasca's deserts, seeker of thrills, adventurer extraordinaire. But you may call me Montblanc, kupo."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Dalmasca has long been known as a melting pot for myriad cultures─where minor races such as the Seeq, the Bangaa, and the Viera might live in relative harmony with Hyur, Elezen, and others."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Yet there is no record of a prominent moogle population."
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)Most likely because we are neither prominent nor populous! My people are nomadic by nature, ever drawn to the elusive frontier and the freedom she promises, kupo!"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "A...moogle?"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)Of course I'm a moogle, kupo. You'd think the adorable wings and the fluffy pom would have given it away. Now, about my admission to the Majestic─"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "I will allow no such thing! The Majestic is the Empire's premier theater company. We will not sully its good name by granting refuge to a fluttering ball of fur!"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "And furthermore, how in the world did this abomination board the <span class=\"emphasis\">Prima Vista</span> in the first place!?"
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "By means of his <span class=\"emphasis\">wings</span>, were I to guess. As for his admission to our company, I do not seem to recall race, creed, or allegiance on <span class=\"emphasis\">my</span> list of prerequisites, do you?"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "...No, Father."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Very well, then. Montblanc, what is it exactly that calls you to the stage─our stage?"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)What else? <span class=\"emphasis\">The Zodiac Brave Story</span>, kupo! Never before have I witnessed something so amazing. So moving."
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)Sitting─well, technically <span class=\"emphasis\">hovering</span> there in the audience as the story unfolded around me...I knew I was witnessing something special. Something positively transcendental, kupo! It was then that I realized I either had to be a part of it...or go to my grave a bitter and broken moogle."
+            },
+            {
+                "name": "HURDY",
+                "text": "Was this realization before or after you swore you simply had to become the realm's greatest marauder, kupo!?"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)Hurdy!? How did you─"
+            },
+            {
+                "name": "HURDY",
+                "text": "Perhaps you'd have more success at running away if you didn't reveal your grand designs to every other fool you happen to meet, kupo."
+            },
+            {
+                "name": "HURDY",
+                "text": "Was it not but two score nights ago you took up the axe, kupo!? Now here you are professing your passion for the stage before carving even a single notch in your haft? Do you not remember, “to he who churns the butter goes the sweetest bread”?"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)But how is one to savor said buttered bread if his head is in the belly of a fearsome beast? You accuse me of giving up when I merely came to the realization that continuing would end in failure. Only through a change of course could I reach my final destination, kupo."
+            },
+            {
+                "name": "HURDY",
+                "text": "And that destination is what? Mummer? Are you sure it is not geomancer? Arithmetician? Templar? Do not bother answering, kupo─we all know you'll be singing a different tune come cockcrow!"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)That is where you are mistaken, Hurdy. I was destined to be a thespian! I can feel it in my fur. The role of Delita was made for me! Made for me, kupo!"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Kupo kupo kupo kupo! Enough!"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "The actors in our company trained at the Empire's finest institutes. They represent the pinnacle of the profession not only in Garlemald, but across the entire world."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "A vagrant <span class=\"emphasis\">bat-mole</span> like you could never hope to share a stage with such artists, let alone play the part of a hero like Delita! You yourself admitted you were too craven to face a solitary beast─how do you imagine you would fare against a pack of theater critics!? Any troupe would need proof of valor before it could even consider─"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)Craven!? Call me a cheat and call me cur, but do not, sir, call me craven! I accept your challenge: slay but one foul beast by mine own hand, and the Majestic Theater Company will accept me into its ranks, kupo."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Wait, I issued no such─"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "(-Montblanc-)You are all here witnesses, kupo! When I return with the head of a terrible beast in my gore-stained hands, you will be honor-bound to welcome me, Montblanc the Mummer, into the fabled ranks of the Majestic! Good day!"
+            },
+            {
+                "name": "HURDY",
+                "text": "Wonderful. What do we do now?"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "What do <span class=\"emphasis\">we</span> do? <span class=\"emphasis\">We</span> do nothing. If that bat-mole wishes to throw himself on the horns of a stampeding dzo, I will not stand in his way."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "I believe the proper term of derogation is “mole-bat,” and I should warn you: moogles do not take kindly to those who use it."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "Why must you always put yourself above others, Brother? Did you learn nothing from Argath's wretched example?"
+            },
+            {
+                "name": "HURDY",
+                "text": "Montblanc would never have set off on this fool's errand had you not made the challenge. If anything befalls my brother, his blood will be on your hands!"
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "<span class=\"highlight\">Forename</span>... You are the only one among us capable of locating Montblanc and preventing disaster. On behalf of my brother, I beg your assistance."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "However did Ramza come to be so thoroughly obnoxious? He and his sister couldn't be more different."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Moogles are prominent players in Ivalician legend, but none of the tales mention their capacity for flight. Something lost in translation, perhaps?"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "I...I apologize. I must learn to control my anger. But sometimes...it can be difficult."
+            },
+            {
+                "name": "ALMALEXENTALE",
+                "text": "You saw the poor moogle. He won't last a day on his own. You must find him and bring him back! I beg of you!"
+            },
+            {
+                "name": "HURDY",
+                "text": "My brother can be rather...simpleminded when it comes to such matters. Thinking to impress the Warrior of Light and <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> companions, Montblanc would likely choose the scene of your recent exploits to prove his worth─meaning Rabanastre, if I am not mistaken."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Pardon my language, but that Ramza really is an incurable little prick, is he not? How dare he speak to his sister and the moogle in that manner. I couldn't decide which was worse─the things he said, or the way the principal sat back and let him say them."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "But I suppose it is none of our concern. For now, let us concentrate on the task at hand─finding that moogle before he does something we'll all regret. What say we start nearby. Pier Two, perhaps?"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "The falcon porter tells us that he set a traveling blacksmith away to Yanxia not a bell past. And why would that be of interest to us, you ask?"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Because said peddler of iron and steel was seen to be carrying a bag stuffed to the brim with, and I quote, “albino mole fur and purple bat wings”!"
+            },
+            {
+                "name": "HURDY",
+                "text": "Montblanc!"
+            },
+            {
+                "name": "HURDY",
+                "text": "...Not that we look like that, kupo!"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "The quickest route into Dalmasca is via the One River and its western tributaries. If Montblanc is bound for Rabanastre, he will seek passage from the Glittering Basin."
+            },
+            {
+                "name": "HURDY",
+                "text": "Montblanc! What were you thinking!?"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Have you any idea what you put your brother through!? He has been worried sick!"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "Both Hurdy and Ramza were right all along. I am a failure. A flop. A flailing flapping foppish failure, kupo. How could <span class=\"emphasis\">I</span> play the part of a hero if I cannot even ruffle the feathers of a single measly bird. The audience would see right through me like the spineless jellyfish I am."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Now wait, Montblanc. Not everyone can be a hero...not even most heroes! Yes, the bards sing of the man who deals the final blow, but what of his cadre of loyal companions? Do you think Delita united Ivalice on his own? Do you think <span class=\"highlight\">Forename</span> here was alone when <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> liberated Ala Mhigo?"
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "You're never alone on the battlefield."
+            },
+            {
+                "name": "A2",
+                "text": "Not all wars are won on the front lines."
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "Never alone...? So you're saying you'll always be there for me? For Montblanc?"
+            },
+            {
+                "name": "HURDY",
+                "text": "Uh... I think <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> was speaking metaphorically..."
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "But of course they are not! Every campaign needs its brilliant architect─the mastermind who moves the pieces across the board! <span class=\"emphasis\">I</span>, Montblanc, can be that mastermind!"
+            },
+            {
+                "name": "HURDY",
+                "text": "That was quick..."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Let us not dwell on the details. The day is saved, and Montblanc has escaped sans scratch or singe to show for it. We should return to the <span class=\"emphasis\">Prima Vista</span> before our luck runs out."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Please! This ship is a place of peace!"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Release my sister or you will answer to me!"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "When the cat's away..."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Put that damnable thing down, Ramza. You're not helping matters!"
+            },
+            {
+                "name": "BWAGI",
+                "text": "We have no quarrel with you or yours. We only seek aid in finding our leader, Ba'Gamnan."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "You seek our help!? You who threatened to kill my father? Who stole his work and made fools of us all!? Never!"
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Silence, Ramza! They have Alma. We will hear what they have to say."
+            },
+            {
+                "name": "BWAGI",
+                "text": "As I said, we have no quarrel with you. We only did what was necessary to secure an audience. We surrender our weapons and offer your journal as an act of good faith."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "...This is all rather a lot to digest. But your claims do coincide with what we have learned about the auracite."
+            },
+            {
+                "name": "GIJUK",
+                "text": "You're saying that crystal did something to our captain?"
+            },
+            {
+                "name": "MIKOTO",
+                "text": "After being emptied of Argath's will, the Duma sought that of another to sate its appetite for aether."
+            },
+            {
+                "name": "RINOK",
+                "text": "You're saying that crystal <span class=\"emphasis\">ate</span> our captain!?"
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Not his body, no. Only his soul."
+            },
+            {
+                "name": "RINOK",
+                "text": "His <span class=\"emphasis\">soul</span>!?"
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Tell me...what in your opinion was your leader's deepest desire? What was it that he longed for above all else in the world?"
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Why waste your breath reasoning with these...these...<span class=\"emphasis\">lizards</span>? They showed themselves for the beasts they are when they put a knife to your throat!"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "First mole-bats, now lizards? This one's tongue is pure poison."
+            },
+            {
+                "name": "BWAGI",
+                "text": "The boy can call us what he pleases. For our past failings, we deserve no better."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Your failings?"
+            },
+            {
+                "name": "GIJUK",
+                "text": "Thirty summers have come and gone...yet not a night goes by that I do not wake in sweat at the memory."
+            },
+            {
+                "name": "RINOK",
+                "text": "We were fusiliers in the Dalmascan army, stationed in the royal stronghold at Nalbina."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Nalbina Fortress was reputed to be impenetrable. Its fall to the IVth Legion proved a turning point in the imperial campaign, dealing a crushing blow to Dalmascan morale and ultimately marking the beginning of the kingdom's end."
+            },
+            {
+                "name": "BWAGI",
+                "text": "Ba'Gamnan was our captain, and once it was clear the day would not be ours, Prince Rasler, commander of the garrison at Nalbina, tasked him with one final mission."
+            },
+            {
+                "name": "BWAGI",
+                "text": "Our unit was to escort His Highness's twin sister, the Princess Ashelia, away from the fortress and thence to safety. But...things did not go as planned..."
+            },
+            {
+                "name": "GIJUK",
+                "text": "I still remember the words she uttered as she lay dying in the captain's arms but a stone's throw from where the Garamsythe Waterway drains into the sea."
+            },
+            {
+                "name": "GIJUK",
+                "text": "Even as the fog of death descended upon her, she smiled and told us─the very people who had failed her─to survive, for as long as even a single Dalmascan stood, our nation would never truly perish."
+            },
+            {
+                "name": "RINOK",
+                "text": "But it should not have been us who survived. By failing to protect our charge, we betrayed the princess and her memory, and brought shame upon our race. So yes, we are naught but cold-blooded lizards deserving of whatever scorn you deign to heap on us."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Hmm... I think we may safely assume a deep-seated hatred towards the invaders of his homeland, coupled with self-loathing born from a sense of powerlessness."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "The darkness that lurks in the heart of Ba'Gamnan is little different from that which drove Argath─the selfsame emotions that were to nourish the Duma."
+            },
+            {
+                "name": "BWAGI",
+                "text": "Stop speaking in riddles, Sharlayan."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "She's saying your <span class=\"emphasis\">brave captain</span> will eventually turn into a monster...or rather, more of one."
+            },
+            {
+                "name": "GIJUK",
+                "text": "Garlean lies!"
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "What they say is true. If we do not find Ba'Gamnan and the Duma soon, none of us are safe, present company included."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Do you have any idea where he might have gone? Any at all?"
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "Wait, look at this! Something has been added to the final page of my journal!"
+            },
+            {
+                "name": "BWAGI",
+                "text": "Then the captain must have put it there. Only he had access to it─until we found it in the pack he left behind, that is."
+            },
+            {
+                "name": "LINAMEWRILAH",
+                "text": "Is this...Dalmascan?"
+            },
+            {
+                "name": "MONTBLANC",
+                "text": "Indeed it is! It says “Ridorana.”"
+            },
+            {
+                "name": "RINOK",
+                "text": "The lighthouse? Why would he write that, and in the old man's journal no less?"
+            },
+            {
+                "name": "MIKOTO",
+                "text": "There is a place on the Valnard Sea, far to the south of Rabanastre, where the ocean tumbles into a gaping maw more than a malm across─the Ridorana Cataract."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Legend would have us believe that it is the entrance to the Hell of Water."
+            },
+            {
+                "name": "MIKOTO",
+                "text": "Many a scholar seeking to prove otherwise has descended into the chasm─some even by airship─but not a one has returned."
+            },
+            {
+                "name": "RAMZALEXENTALE",
+                "text": "Tell me, is Ridorana truly as magnificent as they say? ...Hm? You have never been there? And there I was thinking you might have something to contribute."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "I must admit to knowing little of Ridorana save that which Lady Mikoto shared with us. Before we expend valuable time and resources traveling to so remote a place, I must review my notes and see if there is any mention of the abyss."
+            },
+            {
+                "name": "JENOMISLEXENTALE",
+                "text": "We shall share our findings as soon as we learn aught of interest."
+            }
+        ],
+        "reward": {
+            "gil": 1853
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68540
+            ]
+        },
+        "next": [
+            68627
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024149",
+            "obj": {
+                "i": 1024149,
+                "n": "Lina Mewrilah",
+                "l": 2404,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025729",
+            "obj": {
+                "i": 1025729,
+                "n": "Jenomis Cen Lexentale",
+                "l": 2370,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68540",
+            "obj": {
+                "i": 68540,
+                "n": "A City Fallen",
+                "g": 21,
+                "l": "Kugane",
+                "s": 20,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68627",
+            "obj": {
+                "i": 68627,
+                "n": "Desire",
+                "g": 21,
+                "l": "Kugane",
+                "s": 50,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Fungal Frolic",
+        "location": "Central Shroud",
+        "id": 66340,
+        "patch": 2.0,
+        "sort": 290,
+        "eventIcon": 71221,
+        "issuer": 1006261,
+        "target": 1006261,
+        "genre": 92,
+        "journal": [
+            "The naturalist Marcette at Dunstan's Spire is in need of a research assistant.",
+            "Marcette is doing research for the <span class=\"emphasis\">New Eorzean Geographic</span>, her compendium of knowledge in the making, and requires toadstool caps to complete the chapter on fungi.",
+            "You have successfully obtained the toadstool caps. Deliver them to Marcette.",
+            "Marcette is immensely pleased with herself at her most recent scientific discovery─so pleased that she has entirely forgotten the identity of the adventurer who made it possible..."
+        ],
+        "objectives": [
+            "Obtain toadstool caps from toadstools.",
+            "Deliver the toadstool caps to Marcette."
+        ],
+        "dialogue": [
+            {
+                "name": "MARCETTE",
+                "text": "You have the honor of addressing Marcette, realm-renowned naturalist and esteemed authoress of the <span class=\"emphasis\">New Eorzean Geographic</span>, the single most comprehensive collection of knowledge our realm has ever seen─or ever <span class=\"emphasis\">will</span> see."
+            },
+            {
+                "name": "MARCETTE",
+                "text": "You've not heard of the <span class=\"emphasis\">Geographic</span>? Why, of course you haven't─it hasn't been published yet! And it never will be if my assistants keep dawdling around instead of doing their jobs! So hop to it!"
+            },
+            {
+                "name": "MARCETTE",
+                "text": "Of <span class=\"emphasis\">course</span> I'm talking to you! Do you see anyone else here? Now, for the seventy-thousandth time: five toadstool caps, and be quick with them!"
+            },
+            {
+                "name": "DUMMY",
+                "text": "fetch five toadstool caps"
+            },
+            {
+                "name": "MARCETTE",
+                "text": "Have you brought me my toadstool caps? Each moment you dally deprives the realm of my prodigious knowledge!"
+            },
+            {
+                "name": "MARCETTE",
+                "text": "Yes, yes, hand it over, now. But of course! It is just as I theorized─the spore density of these toadstools is exponentially greater than that of samples taken from before the Calamity!"
+            },
+            {
+                "name": "MARCETTE",
+                "text": "Clearly, they have evolved as such in order to adapt to an increasingly harsh environment. Muahahaha! And with this, another entry of the <span class=\"emphasis\">New Eorzean Geographic</span> is complete! ...Ahem, who are you, again?"
+            }
+        ],
+        "reward": {
+            "gil": 1580,
+            "xp": 7220
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 29,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66341
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006261",
+            "obj": {
+                "i": 1006261,
+                "n": "Marcette",
+                "l": 54,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66341",
+            "obj": {
+                "i": 66341,
+                "n": "Shocking Discoveries",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 290
+            }
+        }
+    ]
+}

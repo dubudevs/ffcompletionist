@@ -1,0 +1,492 @@
+{
+    "quest": {
+        "name": "On Lambard's Trail",
+        "location": "Western La Noscea",
+        "id": 68117,
+        "patch": 4.0,
+        "sort": 580,
+        "icon": 100681,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1021473,
+        "target": 1021482,
+        "involved": [
+            1021474,
+            1021475,
+            1021476,
+            1021477,
+            1021478,
+            1021479,
+            1021480,
+            1021481,
+            1021483
+        ],
+        "genre": 161,
+        "journal": [
+            "X'rhun wishes to investigate Lambard's next move.",
+            "X'rhun has contacted an acquaintance in Limsa Lominsa to help investigate possible targets for Lambard and his cabal. Make your way to Hawkers' Round, and rendezvous with the Crimson Duelist.",
+            "X'rhun's contact is revealed to be Riol, a former member of the Company of Heroes. Riol tells you that he decided to track the merchantman's trade goods back to their source, and discovered a link to Castrum Meridianum in northern Thanalan. Considering the relation between Lambard and the Empire, you conclude that this imperial base is likely the source of the cabal's orders. Speak with X'rhun in the Drowning Wench, and devise a plan of action.",
+            "X'rhun proposes a simple but effective plan for gaining access to the castrum's records. Head to northern Thanalan, and regroup with your companions in Raubahn's Push.",
+            "You have been tasked with drawing the attention of the castrum's soldiers whilst X'rhun and Arya slip into the back entrance of the imperial base. Find a suitable spot to stage your diversion, and engage any enemies who object to your presence.",
+            "Your diversion appears to have served its purpose. Return to the rendezvous point and speak with X'rhun.",
+            "You rejoin your companions, and X'rhun reports success in uncovering Lambard's next objective. Withdraw to the Ceruleum Processing Plant and hear the details from the Crimson Duelist.",
+            "X'rhun shares with you the disturbing origins of the cabal's formation, and reveals that Lambard has been ordered to strike at a new target: the Garlond Ironworks. Rather than eliminate Cid directly, however, the Empire plans to destabilize the famous company by going after its senior staff members. Such a crippling blow to the Ironworks would have repercussions across Eorzea, and it seems the cabal will stop at nothing to achieve its objective. Lambard must be defeated.<br><br>※The next red mage quest will be available from X'rhun upon reaching level 60."
+        ],
+        "objectives": [
+            "Join X'rhun Tia in Limsa Lominsa.",
+            "Speak with X'rhun Tia in the Drowning Wench.",
+            "Join X'rhun Tia at Raubahn's Push.",
+            "Survey the area and engage any foes that appear.",
+            "Rendezvous with X'rhun Tia.",
+            "Speak with X'rhun Tia."
+        ],
+        "dialogue": [
+            {
+                "name": "ARYA",
+                "text": "Oh, <span class=\"highlight\">Forename</span>! I'm training day and night to make sure I don't slow you down!"
+            },
+            {
+                "name": "ARYA",
+                "text": "And I know X'rhun thinks I'm afraid of him, but I'm honestly not─I know now what a kind and honorable man he is. It's just that at our first meeting, he seemed so intense and...intimidating."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Lambard and his puppets are acting under imperial orders, that much is certain. Ever since we thwarted the attempt on Master Wilkin, however, it would seem they have abandoned him as a target. The merchant's life is not worth all the assassins we cost them, I'd wager."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "But it will only be a matter of time before the cabal is given new prey to hunt. I've called in a favor with a friend to investigate possible targets, and he's agreed to meet us at Hawkers' Round in Limsa Lominsa."
+            },
+            {
+                "name": "ARYA",
+                "text": "Everything looks so teasingly familiar...<br>It feels strange to have no memory of this place but still have my feet know where─and where not─to step."
+            },
+            {
+                "name": "RIOL",
+                "text": "All here, are we? Let's be gettin' on with things then!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "This fine gentleman here is Riol, a former member of the Company of Heroes. He's been helping us with our investigations since before we left for Aleport."
+            },
+            {
+                "name": "RIOL",
+                "text": "A pleasure to meet ye!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "This fine gentleman here is Riol, a former member of the Company of Heroes. He's been helping us with our investigations since before we left for Aleport. ...Ah, the two of you have met, I take it?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "It's good to see you, Riol."
+            },
+            {
+                "name": "A1",
+                "text": "Riol? Doesn't ring a bell..."
+            },
+            {
+                "name": "RIOL",
+                "text": "Good to see ye, too, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>! Mister Red Britches here didn't mention ye was on the road together."
+            },
+            {
+                "name": "RIOL",
+                "text": "Forget about bells! Three whistles at Bronze Lake? Now do ye remember me!?"
+            },
+            {
+                "name": "RIOL",
+                "text": "Anyhow, let's get straight to business. I did some diggin' into that floatin' fortress o' yer cabal. The merchantman dabbles in a bit o' tradin' to keep up the charade, so I started payin' attention to where the goods ended up..."
+            },
+            {
+                "name": "RIOL",
+                "text": "An' I think ye'll find that Lambard gets his orders from the imperial base in northern Thanalan. Castrum Meridianum. That's yer best bet, I reckon."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You are a treasure, Riol! I'll pass on any new information we manage to uncover. For the now, though, consider that favor repaid in full."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "<span class=\"highlight\">Forename</span>. Arya. To the Drowning Wench!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I've been studying red magic for hours a day, but I'm still having trouble with certain spells. I don't know if I'll ever be as skilled in the art as you..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Right, we have our destination so let's discuss the objective: we need to storm Castrum Meridianum, and locate documentation on Lambard's next target."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Hah, a poor choice of words perhaps. To clarify, one of us will provide a diversion, while the other two slip inside and rifle through desks until we find what we're looking for. Better?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "<span class=\"highlight\">Forename</span>, you will be our decoy. Draw away as many of their sentries as you can, and buy us the time we need!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Arya, we will run you through some practice exercises. I see you have been honing your skills on various beasts, but this will be your first battle against thinking opponents, yes?"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Very well. Make your preparations, my friends! We meet at Raubahn's Push!"
+            },
+            {
+                "name": "ARYA",
+                "text": "X'rhun tested my progress, but seemed a little frustrated. I'm afraid my talent for certain spells has overly raised his expectations..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Right, just as we planned! <span class=\"highlight\">Forename</span>, do your best to become the center of imperial attention!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Arya, you're with me. Once inside, we'll split up to hasten our search, so steel yourself for run-ins with patrols!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I hope I'm ready for this..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Just keep your head, and you'll be fine! You've not quite reached <span class=\"highlight\">Forename</span>'s level of skill, but your offensive magicks are─to be quite honest─terrifyingly powerful."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Your restorative arts on the other hand... Well, let me just say that the scales swing both ways."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Now that I think on it, Alisaie lacked balance in much the same manner. Must be something in the blood, but rarely have I met such an extreme case as you..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I've known others who tend to favor one area over another, but rarely have I met such an extreme case as you..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Not to worry. We will work on your weaker aspects until you find an equilibrium. Such is the key to excelling in red magic!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Now, let us set to work. Head around to the front of the base and make a nuisance of yourself, <span class=\"highlight\">Forename</span>! With the growth you've shown, I'm certain you can handle whatever those imperials throw at you!"
+            },
+            {
+                "name": "ARYA",
+                "text": "We'll be sneaking in from the back side while you hold their attention. Please try not to fight <span class=\"emphasis\">all</span> of them at once!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "We're under attack!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Is there an army!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "What fool storms our front gate?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "What magic is this!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Grah! Die already!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "A fiend in mortal flesh!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "How many have we lost!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "The foe mocks us!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "It's just one mage!"
+            },
+            {
+                "name": "ARYA",
+                "text": "I feel...a touch dizzy...<br>All that sneaking about has left me drained...but I'm glad to see you unharmed."
+            },
+            {
+                "name": "ARYA",
+                "text": "We met hardly a handful of guards...thanks to you..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "You don't do things by halves, do you, my friend─I could hear the commotion from the other side of the wall! Our foe was so focused on your battle, I daresay we could've walked out with an entire shelf of records!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "As things stand, however, we contented ourselves with the knowledge of Lambard's forthcoming operations. There is much to discuss...<br>I suggest we withdraw to the ceruleum plant that we might converse in relative safety."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Ah, but it would seem the experience has taken its toll on poor Arya. Are you able to walk, my dear?"
+            },
+            {
+                "name": "ARYA",
+                "text": "...I feel much recovered, thank you."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I see the color has returned to your cheeks, Arya. Do you feel any better?"
+            },
+            {
+                "name": "ARYA",
+                "text": "Much better, thank you. I may have been pushing too hard to perfect my white magicks..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "From what I witnessed, I'd say you have much work yet ahead of you!"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say to Arya?"
+            },
+            {
+                "name": "A1",
+                "text": "Keep at it!"
+            },
+            {
+                "name": "A1",
+                "text": "Still struggling, eh?"
+            },
+            {
+                "name": "ARYA",
+                "text": "I will!"
+            },
+            {
+                "name": "ARYA",
+                "text": "...I'm trying my best!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Let us return to the subject at hand, shall we? We uncovered documents detailing the Empire's deployment of the cabal...and it is much as we surmised."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The cabal's assassins spirit away youths with arcane aptitude─much like our Arya here─and deliver them to Lambard for branding. Once the cursed sigil has destroyed their wills, he fills their empty minds with lethal thaumaturgy, and conditions them to follow his every command."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "It seems, however, that the formation of the cabal itself was a relatively recent development. Lambard received imperial orders to organize his puppets into an expendable force─a fearless, unswervingly loyal cult of assassins that could strike against Resistance supporters in lands beyond the Empire's reach."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "This plan─as well as Lambard's involvement─was proposed by a Garlean officer by the name of Zenos. Even within the imperial legions, this man has a reputation for cold brutality."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "This plan─as well as Lambard's involvement─was proposed by the crown prince Zenos, heir apparent to the Emperor. Even within the imperial legions, this man has a reputation for cold brutality."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "This plan─as well as Lambard's involvement─was proposed by the crown prince himself. As the champion who brought Zenos to justice, I am sure you are familiar with the man's reputation for cold brutality."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Aside from his mastery of red magic, Lambard is well versed in ancient spells and rituals. Doubtless this knowledge, coupled with his singular lack of moral character, did much to curry the favor of a monster such as Zenos."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "And now we come to the cabal's next assignment. I could scarce believe my own eyes even as I read the details of the operation."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Lambard's next target is the Garlond Ironworks! Aye, the company of engineers founded by the great Cid Garlond!"
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "As a sanctuary for imperial defectors, the Ironworks has long drawn the ire of the Empire. And if that wasn't reason enough, the company has also begun sharing engineering secrets with the Ala Mhigan Resistance..."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "To my knowledge, this will be the highest profile enemy the cabal has ever been deployed against. Ah, but the operation will not target Cid himself─they have a far more effective method in mind."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "The plan is to assassinate Garlond's senior staff. And the name at the top of their list was “Jessie”...his deputy president."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "Cid's ideas cannot be brought to fruition without a talented team of engineers, and the organization itself will grind to a halt without Jessie's expertise. Her loss would be a dark day for Eorzea indeed."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "I've communicated the details of the planned assassination to the Ironworks... Unlike Master Wilkin's case, however, Lambard has been ordered to succeed at any cost─he will keep sending his killers until the deed is done, or we put a stop to this cabal for good."
+            },
+            {
+                "name": "XRHUNTIA",
+                "text": "And that means bringing down Lambard himself! <span class=\"highlight\">Forename</span>, Arya, I will need your aid. Sharpen your swords and ready your spells, for we are going to war!"
+            }
+        ],
+        "reward": {
+            "gil": 1439,
+            "xp": 81600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 58,
+                    "id": 112
+                }
+            ],
+            "quests": [
+                68116
+            ]
+        },
+        "next": [
+            68118
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1021473",
+            "obj": {
+                "i": 1021473,
+                "n": "X'rhun Tia",
+                "l": 33,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021482",
+            "obj": {
+                "i": 1021482,
+                "n": "X'rhun Tia",
+                "l": 46,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021474",
+            "obj": {
+                "i": 1021474,
+                "n": "Arya",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021475",
+            "obj": {
+                "i": 1021475,
+                "n": "X'rhun Tia",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021476",
+            "obj": {
+                "i": 1021476,
+                "n": "Arya",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021477",
+            "obj": {
+                "i": 1021477,
+                "n": "Riol",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021478",
+            "obj": {
+                "i": 1021478,
+                "n": "X'rhun Tia",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021479",
+            "obj": {
+                "i": 1021479,
+                "n": "Arya",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021480",
+            "obj": {
+                "i": 1021480,
+                "n": "X'rhun Tia",
+                "l": 46,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021481",
+            "obj": {
+                "i": 1021481,
+                "n": "Arya",
+                "l": 46,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021483",
+            "obj": {
+                "i": 1021483,
+                "n": "Arya",
+                "l": 46,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68116",
+            "obj": {
+                "i": 68116,
+                "n": "A Vermilion Vendetta",
+                "g": 161,
+                "l": "Western La Noscea",
+                "s": 560,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68118",
+            "obj": {
+                "i": 68118,
+                "n": "Stained in Scarlet",
+                "g": 161,
+                "l": "Northern Thanalan",
+                "s": 600,
+                "f": 1
+            }
+        }
+    ]
+}

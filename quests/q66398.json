@@ -1,0 +1,103 @@
+{
+    "quest": {
+        "name": "Deduce, Reuse, Recycle",
+        "location": "Outer La Noscea",
+        "id": 66398,
+        "patch": 2.0,
+        "sort": 340,
+        "eventIcon": 71221,
+        "issuer": 1006331,
+        "target": 1006331,
+        "genre": 91,
+        "journal": [
+            "Sergeant Swygrael wants something, and what this lady wants, she usually gets.",
+            "In the charmingly feckless manner of maidens everywhere, Sergeant Swygrael of Camp Overlook has mislaid some personal items while beating velociraptors to death. She bids you gather raptor claws and serrated arrowheads, three of each.",
+            "You have recovered the claws and arrowheads from the stinking velociraptor carcasses. Trudge back to the camp and give the loot to Swygrael.",
+            "The kobolds' skill with metal is formidable, but could their covetousness for the enemy's leavings prove a weakness? Or is there a reason they so desire more metal?"
+        ],
+        "objectives": [
+            "Collect velociraptor claws.",
+            "Collect serrated arrowheads.",
+            "Give Swygrael the claws and the arrowheads."
+        ],
+        "dialogue": [
+            {
+                "name": "SWYGRAEL",
+                "text": "Oi, you! Yeah, you, the honey-faced one with all the buckles. I've got a job for ye. I needed me some raptor claws, but the pissants gave me so much trouble that I clean forgot I was killin' 'em practical-like. Got mad, bashed their heads in, and walked away whistlin'."
+            },
+            {
+                "name": "SWYGRAEL",
+                "text": "The carcasses be lyin' around somewhere near, got a few of my arrows through 'em. Fetch me the claws, <span class=\"alternative-container\"><span class=\"alternative\">my wild rose</span><span class=\"alternative\">my gallant culver</span></span>, and I might be back in that practical mood! "
+            },
+            {
+                "name": "SWYGRAEL",
+                "text": "And oi, one more thing. You see those arrows of mine, bring back the heads! It's easy enough to fletch an arrow, but arrowheads don't grow on birds!"
+            },
+            {
+                "name": "SWYGRAEL",
+                "text": "Oi, sweet thing! Get me my claws and arrowheads!"
+            },
+            {
+                "name": "SWYGRAEL",
+                "text": "Appreciate it, dear heart! Why the long face? Oho, you think we're that low on supplies. Listen, crumpet, the kobolds can't leave metal be. Any we throw at 'em, even arrowheads? Back to their burrow it goes, and smelted into new arms."
+            },
+            {
+                "name": "SWYGRAEL",
+                "text": "So the orders are, give 'em no metal. Make arrowheads out of claws, chert, a bit o' the cook's gingerbread─and haul back any steel or bronze arrowheads. Comes natural-like to us seafarin' folk, you know. We be scrimpers!"
+            }
+        ],
+        "reward": {
+            "gil": 1492,
+            "xp": 8385
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 34,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66393
+            ]
+        },
+        "next": [
+            66399
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006331",
+            "obj": {
+                "i": 1006331,
+                "n": "Swygrael",
+                "l": 350,
+                "q": 3,
+                "t": "Storm Sergeant"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66393",
+            "obj": {
+                "i": 66393,
+                "n": "Lord of Crags",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 181
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66399",
+            "obj": {
+                "i": 66399,
+                "n": "Don't Let the Cat out of the Bag",
+                "g": 91,
+                "l": "Outer La Noscea",
+                "s": 340
+            }
+        }
+    ]
+}

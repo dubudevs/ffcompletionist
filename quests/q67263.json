@@ -1,0 +1,157 @@
+{
+    "quest": {
+        "name": "The Best Laid Plans",
+        "location": "Ishgard",
+        "id": 67263,
+        "patch": 3.0,
+        "sort": 5002,
+        "eventIcon": 71221,
+        "issuer": 1012220,
+        "target": 1012220,
+        "involved": [
+            1012222,
+            1014578
+        ],
+        "genre": 96,
+        "journal": [
+            "Cliaux cannot help but frown as she reads over her work.",
+            "Cliaux is preparing a test flight for an airship currently under repair, and needs her plan delivered right away. Take the flight plan to Jannequinard at the Athenaeum Astrologicum.",
+            "You deliver the flight plan to Jannequinard. Seeing the dates listed for the test flight leaves him gravely concerned, as he predicts significant dragon activity at that time. Rather than delaying the shipment, he suggests hastening repairs on the airship. Speak with Fromelaut at the Skysteel Manufactory and see what can be done about the repairs.",
+            "You relay Jannequinard's suggestion to rush repairs on the airship, leaving Fromelaut taken aback. Though he is hesitant to do so, he agrees to do whatever is necessary to make repairs as quickly as possible. Report to Cliaux and tell her it will be ready on the appointed day.",
+            "Cliaux thanks you for your help in setting her plans into motion. She tells you that conflicts with the Dravanian Horde make even simple airship deliveries a trying task, but the cooperation of the astrologians and machinists, under the guidance of the Holy See, has ensured safe passage through the skies of Ishgard."
+        ],
+        "objectives": [
+            "Deliver the airship flight plan to Jannequinard.",
+            "Speak with Fromelaut.",
+            "Report to Cliaux."
+        ],
+        "dialogue": [
+            {
+                "name": "CLIAUX",
+                "text": "You've the look of someone in need of a task. Well, it just so happens I am looking for a helping hand. One of our delivery airships is under repairs, and we're in the midst of preparing a test flight."
+            },
+            {
+                "name": "CLIAUX",
+                "text": "Ensuring a safe flight path is of the utmost importance, and I need someone to take this flight plan to Jannequinard at the Athenaeum Astrologicum. I would be ever grateful if you could take it to him."
+            },
+            {
+                "name": "CLIAUX",
+                "text": "We cannot afford for anything to go awry with this test. Please see this plan to Jannequinard immediately. You will find him at the Athenaeum Astrologicum."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Greetings and welcome to the Athenaeum Astrologicum. Might I ask what drew you here to this place of learning?"
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Ah, a missive from Miss Cliaux? Another test flight, I see. And it leaves us pressed for time... Our knowledge of the dragons' hunting cycles indicates they will be quite active around this time."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "I need not tell you what will happen should any of our airships encounter them."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "That is why our astrologians must interpret the stars for signs of Dravanian activity before airships are permitted leave."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "Hmmm... But delaying this shipment would have grave repercussions. Our only option is to hasten repairs on the airship. Pray speak with Fromelaut at the Skysteel Manufactory and see if there is aught he can do."
+            },
+            {
+                "name": "JANNEQUINARD",
+                "text": "If this test is to be conducted in a timely manner, they will have to be quick about the repairs. Speak with Fromelaut about this. You can find him at the Skysteel Manufactory."
+            },
+            {
+                "name": "FROMELAUT",
+                "text": "Hasten repairs of the airship? Easier said than done, my friend."
+            },
+            {
+                "name": "FROMELAUT",
+                "text": "We primarily oversee the production of dragon-slaying weapons such as ballistas and Bertha cannons under orders from House Haillenarte."
+            },
+            {
+                "name": "FROMELAUT",
+                "text": "The magitek utilized in these airships is most certainly not within our regular field of expertise; it is no simple matter to <span class=\"emphasis\">rush</span> anything..."
+            },
+            {
+                "name": "FROMELAUT",
+                "text": "&lt;sigh&gt; But I suppose if we are to contend with the Horde, it cannot be helped. Tell Cliaux we will do what we can."
+            },
+            {
+                "name": "FROMELAUT",
+                "text": "While I'm not sure how we'll manage it, diverting more of our men to work on the repairs should satisfy Cliaux's flight schedule. Please inform her we will finish as quickly as we're able."
+            },
+            {
+                "name": "CLIAUX",
+                "text": "Oh, thank goodness. The swiftness of your report is most appreciated. The advent of the airship is truly a wonderful thing, but not without its hindrances, as you can see."
+            },
+            {
+                "name": "CLIAUX",
+                "text": "They allow us to cross the ice wall blocking passage to western Coerthas and navigate the Sea of Clouds. But Halone have mercy on the ship that should encounter dragons..."
+            },
+            {
+                "name": "CLIAUX",
+                "text": "That is why the Holy See has seen fit to employ machinists and astrologians in the operation of our airships."
+            }
+        ],
+        "reward": {
+            "gil": 517,
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67118
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012220",
+            "obj": {
+                "i": 1012220,
+                "n": "Cliaux",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012222",
+            "obj": {
+                "i": 1012222,
+                "n": "Jannequinard",
+                "l": 2301,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014578",
+            "obj": {
+                "i": 1014578,
+                "n": "Fromelaut",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67118",
+            "obj": {
+                "i": 67118,
+                "n": "The Better Half",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 3
+            }
+        }
+    ]
+}

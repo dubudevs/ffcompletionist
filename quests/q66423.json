@@ -1,0 +1,215 @@
+{
+    "quest": {
+        "name": "Men of Honor",
+        "location": "Coerthas Central Highlands",
+        "id": 66423,
+        "patch": 2.0,
+        "sort": 193,
+        "eventIcon": 71201,
+        "issuer": 1006378,
+        "target": 1006380,
+        "involved": [
+            1006379
+        ],
+        "genre": 1,
+        "journal": [
+            "Jocea is attempting to attract your attention.",
+            "Having overheard your conversation with the chief astrologian, Jocea understands that your quest is one of great import. She is willing to assist you, but requires that you first help her by locating a missing colleague and confirming his safety. The astrologian in question was planning to conduct observations at a cliff to the east of the Observatorium, but he may have run afoul of Ixal said to be in the area. Proceed with caution and locate the missing man.",
+            "At first, the missing astrologian rejoices at your coming. However, his mood abruptly changes upon realizing that you are not an Ishgardian knight. Declaring that a man of House Durendaire cannot be seen in the company of an unbeliever, he abruptly storms off, presumably to return to the safety of the Observatorium. Return to Jocea and inform her that her associate is safe.",
+            "Making no effort to conceal her disdain, Jocea tells you that the highborn astrologian feels disgraced to have been rescued by an unbeliever. True to her word, she offers you an alternative means by which you might locate the <span class=\"emphasis\">Enterprise</span>. Approach Lord Portelaine and petition him for formal introductions to the other High Houses, who may have information that can help you locate the missing airship.",
+            "Lord Portelaine does not deny that you have helped House Durendaire twice. However, as there are three High Houses to which you have requested formal introductions, he requires that you perform a third act before he will oblige you. Unable to deny his logic, you brace yourself for the duty to come."
+        ],
+        "objectives": [
+            "Search for the missing astrologian.",
+            "Speak with Jocea.",
+            "Speak with Portelaine."
+        ],
+        "dialogue": [
+            {
+                "name": "JOCEA",
+                "text": "You there, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>! I could not help but overhear your conversation with the chief astrologian. There may be a way I can assist you, but it would require that you perform for me a favor in exchange."
+            },
+            {
+                "name": "JOCEA",
+                "text": "An associate of mine has yet to return from his expedition to the cliffs east of the Observatorium. He was adamant that he could conduct his observations alone, despite the presence of Ixal in that vicinity. If you would seek out this astrologian and confirm that he is well, it would be a great comfort to me."
+            },
+            {
+                "name": "NPC",
+                "text": "What a relief to see someone other than a godsdamned birdman! I thought I could finish my work whilst the Ixal were away, but they returned far quicker than I anticipated. It was all I could do to hide and hope they might leave again before I froze to─"
+            },
+            {
+                "name": "NPC",
+                "text": "Wait, who are you!? You are not one of our knights!"
+            },
+            {
+                "name": "NPC",
+                "text": "A man of House Durendaire cannot be seen in the company of an unbeliever! Good day, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>!"
+            },
+            {
+                "name": "JOCEA",
+                "text": "The arrogant fool returned not long before you arrived, muttering about the disgrace of having been rescued by an unbeliever. Serves him right for underestimating the dangers our knights face every day."
+            },
+            {
+                "name": "JOCEA",
+                "text": "Ah, but you are eager to locate your airship. It may surprise you that by saving him, you have already aided your own cause."
+            },
+            {
+                "name": "JOCEA",
+                "text": "House Durendaire is quick to regard outsiders with suspicion, as it is their duty to sound the alarm at the first sign of Dravanian aggression. Yet you have already aided them twice, for which they are honor-bound to repay you."
+            },
+            {
+                "name": "JOCEA",
+                "text": "Even so, they will <span class=\"emphasis\">not</span> grant you access to the Observatorium's records. That is just as well, for there are other ways you might locate your missing airship."
+            },
+            {
+                "name": "JOCEA",
+                "text": "What I propose is that you petition Lord Portelaine for an official introduction to the other High Houses. The word of House Durendaire carries tremendous weight in Ishgard. Should the captain consent, you would have little trouble obtaining information from the other High Houses."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "You've caused quite a stir in your short time here. First you slay two heretics and save a knight, and now I hear you have rescued a man of our house. I imagine you must desire something for your troubles."
+            },
+            {
+                "name": "PORTELAINE",
+                "text": "An introduction to the other High Houses? I cannot deny that you have given us no cause to distrust you. But while you have performed <span class=\"emphasis\">two</span> acts, you would have me endorse you to <span class=\"emphasis\">three</span> High Houses. It is only fitting that you aid us one final time, wouldn't you agree?"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3614,
+                    "one": 1
+                },
+                {
+                    "id": 3616,
+                    "one": 1
+                },
+                {
+                    "id": 3611,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 18900
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 36,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66422
+            ]
+        },
+        "next": [
+            66425
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006378",
+            "obj": {
+                "i": 1006378,
+                "n": "Jocea",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006380",
+            "obj": {
+                "i": 1006380,
+                "n": "Portelaine",
+                "l": 63,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006379",
+            "obj": {
+                "i": 1006379,
+                "n": "Established Astrologian",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3614",
+            "obj": {
+                "i": 3614,
+                "n": "Heavy Steel Gauntlets",
+                "l": 35,
+                "c": 48370,
+                "t": 37,
+                "p": 4233
+            }
+        },
+        {
+            "type": "item",
+            "id": "3616",
+            "obj": {
+                "i": 3616,
+                "n": "Boarskin Ringbands",
+                "l": 36,
+                "c": 48241,
+                "t": 37,
+                "p": 2533
+            }
+        },
+        {
+            "type": "item",
+            "id": "3611",
+            "obj": {
+                "i": 3611,
+                "n": "Fingerless Boarskin Gloves",
+                "l": 35,
+                "c": 44101,
+                "t": 37,
+                "p": 3024
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66422",
+            "obj": {
+                "i": 66422,
+                "n": "The Unending War",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 192
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66425",
+            "obj": {
+                "i": 66425,
+                "n": "Three for Three",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 194
+            }
+        }
+    ]
+}

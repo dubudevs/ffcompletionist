@@ -1,0 +1,604 @@
+{
+    "quest": {
+        "name": "A Pachyderm's Promptitude",
+        "location": "Thavnair",
+        "id": 70082,
+        "patch": 6.15,
+        "sort": 2,
+        "icon": 101171,
+        "beast": 15,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1042300,
+        "target": 1042300,
+        "genre": 32,
+        "journal": [
+            "Trna's eyes are sparkling with optimism, but the baleful look Maru shoots you from afar tells a different story.<br>※The difficulty of this quest will be synced to your current level.",
+            "Trna is energetic with news of the Hippo Riders' progress, but Maru, one of her associates, voices an uneasy prediction: due to the hippo carts' limited storage capacity, it will be only a matter of time before bigger competition sweeps them out of business. Not to be deterred, Trna starts considering what niche service the Hippo Riders might offer, but arrives at no clear answer. You agree to meet her at the Great Work in the hopes that her clientele may offer more inspiration.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You reach the Great Work, but Trna, due to arrive before you, is nowhere to be found. Worried for her safety, you decide to search the area.",
+            "You find Trna fending off a raging vajralangula and dispatch the beast without a second thought. Behind her, an alchemist nurses his injuries, so you kneel to administer what succor you can.",
+            "According to the alchemist, it was a gift of ripe fruit that drew the attention of the vajralangula, and Trna was his unexpected savior. Awkwardly accepting his praise, Trna decides to see the alchemist and his luggage safely into the Great Work before rendezvousing with you to pick up the original delivery.",
+            "Due to an unfortunate and explosive incident, the package is still being prepared. Trna suggests asking around the Great Work for niche business ideas in the meantime.",
+            "Serving as moral support for a trepidatious Trna, you begin your turn around the Great Work. As ever, conversation with the alchemists is bound to be...interesting.<br><br>※You must be accompanied by Trna to complete this task. Speak with her again should you become separated.",
+            "While undoubtedly colorful, the alchemists' accounts of their recent affairs fall short of delineating an eligible service plan. Regardless, it is time to check back with your customer and see if the package is ready.",
+            "The package, it turns out, is destined for none other than Yezahn─doubtless far too occupied with parenting to procure needed tinctures himself. As you prepare to depart the Great Work, Trna is struck by an idea to assist busy alchemists, but she puts the thought on hold as you set off to Palaka's Stand to reunite with an old acquaintance.",
+            "Upon Yezahn's grateful receipt of the package, Trna senses an opportunity to propose a new hippo-based service─food delivery. Yezahn assures her that such a service would be an attractive option to not only those at the Great Work, but Palaka's Stand as well, given the recently interrupted tradition of bringing fresh meals to those working in the jungle. Buoyed by his encouragement, Trna returns to Svarna in high spirits.",
+            "Trna shares her plan to offer food delivery by hippo cart, thereby solidifying the Hippo Riders' commitment to offering a niche service to the island. To this, Maru enthusiastically suggests installing a kitchen in Svarna, that the meals they deliver might be freshly made. Striking at the fastest way to anyone's heart─the stomach─the Hippo Riders gear up for the delicious deliveries that await!"
+        ],
+        "objectives": [
+            "Rendezvous with Trna at the Great Work.",
+            "Search for Trna.",
+            "Aid the injured alchemist.",
+            "Speak with the flustered alchemist.",
+            "Speak with Trna and have her accompany you.",
+            "Question the alchemists of the Great Work while accompanied by Trna.",
+            "Speak with the flustered alchemist while accompanied by Trna.",
+            "Speak with Yezahn.",
+            "Speak with Trna in Svarna."
+        ],
+        "dialogue": [
+            {
+                "name": "TRNA",
+                "text": "<span class=\"highlight\">Forename</span>! Here to see how we're gettin' along, are you? Let me go an' grab Maru."
+            },
+            {
+                "name": "TRNA",
+                "text": "Thanks to your help and Kancana's odd jobs, we've been keepin' our carts rollin' and stayin' outta trouble."
+            },
+            {
+                "name": "TRNA",
+                "text": "Communicatin' with the locals still feels dauntin' at times, but Maru here's made us some gulal to break the ice!"
+            },
+            {
+                "name": "TRNA",
+                "text": "Er, maybe you don't know what I'm talkin' about─gulal is this bright, colored powder used in some of Thavnair's religious traditions."
+            },
+            {
+                "name": "TRNA",
+                "text": "There's an old belief that you'll be blessed with good luck an' spared from evil if a visitor sprinkles you with a healthy handful. It's enough to make even the most stubborn buggers happy to welcome us."
+            },
+            {
+                "name": "MARU",
+                "text": "Sisters know it's been nothin' but bad business for everyone, lately. I reckon a little extra luck would do us all good..."
+            },
+            {
+                "name": "TRNA",
+                "text": "That it would. Though our own luck might be better if my girl Saurya didn't start gallopin' with glee when she gets so much as a glimpse of the stuff..."
+            },
+            {
+                "name": "TRNA",
+                "text": "But all in all, we've been gettin' our name out there an' learnin' the job. Might be slow goin', but we're makin' good progress."
+            },
+            {
+                "name": "MARU",
+                "text": "But Boss... Is slow goin' really gonna cut it? So long's I get to ride, I ain't got no problems, but..."
+            },
+            {
+                "name": "MARU",
+                "text": "Our carts ain't exactly designed for haulin' cargo. No one beats us for speed, but practically speakin'... "
+            },
+            {
+                "name": "MARU",
+                "text": "Sooner or later, some silver-tongued dab hand's gonna come along with carriages or boats that can carry loads an' loads of packages. An' then where will we be? Outta work, that's where... "
+            },
+            {
+                "name": "TRNA",
+                "text": "Our carts might not best a carriage in freight, but it's like you said, Maru─at speed, we're unbeatable. "
+            },
+            {
+                "name": "TRNA",
+                "text": "If only there was some way to make the most of it... To offer a service that no one else could do better..."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Ask not and ye shall receive no answer..."
+            },
+            {
+                "name": "A1",
+                "text": "Don't look at me. Maybe your customers will have some ideas."
+            },
+            {
+                "name": "TRNA",
+                "text": "True. We won't get anywhere marinatin' in our own juices. Let's ask around an' see what speedy services folks might need."
+            },
+            {
+                "name": "TRNA",
+                "text": "...Is what I'd say if I knew the first thing about makin' small talk. Which I don't. Help me out?"
+            },
+            {
+                "name": "TRNA",
+                "text": "Let's start at the Great Work─I got a delivery request from an alchemist there, so me an' Saurya'll head over first."
+            },
+            {
+                "name": "TRNA",
+                "text": "I'll meet you by the aetheryte after I've picked up the goods."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You wait by the aetheryte, but see no sign of Trna, who should have arrived before you. Has trouble befallen her...?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Perhaps you should search the area for any wayward hippos."
+            },
+            {
+                "name": "TRNA",
+                "text": "What the─ Y-You're amazin'! You put down that beast like it was nothin'!"
+            },
+            {
+                "name": "ALCHEMIST04546A",
+                "text": "Th-Thank you! Oh, thank you!"
+            },
+            {
+                "name": "TRNA",
+                "text": "You really saved our skins, <span class=\"highlight\">Forename</span>! Me an' Saurya zipped over when we heard yelpin', but it was everythin' I could do to just keep that beast at bay..."
+            },
+            {
+                "name": "ALCHEMIST04546A",
+                "text": "And I don't know what would have become of me if you hadn't! Allow me to express my sincerest gratitude."
+            },
+            {
+                "name": "TRNA",
+                "text": "A-Anyway, am I imaginin' things or does it smell like fruit around here? If I was a vajralangula, I'd come runnin' too."
+            },
+            {
+                "name": "ALCHEMIST04546A",
+                "text": "You've a sharp nose, miss. Yes, I was in Yedlihmad on an errand when a merchant bade me take this fruit, insisting it was delicious and perfectly ripe."
+            },
+            {
+                "name": "ALCHEMIST04546A",
+                "text": "How was I to know that every beast in Saltwind's Welcome should agree with his claims wholeheartedly? I thought escaping that herd of drooling gaja would be the worst of it, but my hopes were fruitless, as it were."
+            },
+            {
+                "name": "TRNA",
+                "text": "Well, the next time you've got somethin' to haul, call the Hippo Riders. Me an' my associates do fast, safe deliveries by hippo cart."
+            },
+            {
+                "name": "ALCHEMIST04546A",
+                "text": "Yes, I've heard talk of hippo couriers as of late! Never did I imagine one would come speeding to my rescue. I will absolutely call upon your services in the future."
+            },
+            {
+                "name": "TRNA",
+                "text": "I'm gonna load his fruit onto the cart an' see him into town."
+            },
+            {
+                "name": "TRNA",
+                "text": "I've still gotta pick up that package, so come find me inside the Great Work. This time for sure!"
+            },
+            {
+                "name": "TRNA",
+                "text": "Here's our customer. Let's pick up the goods and get goin'."
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "Aaah! You're the couriers, aren't you? You're here! You're already here!"
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "Huh? But <span class=\"emphasis\">you're</span> with the Students of Baldesion, aren't you? What business have you with our parcel!?"
+            },
+            {
+                "name": "TRNA",
+                "text": "I dunno about any Bal...bald students or nothin', but <span class=\"highlight\">Forename</span>'s helpin' out with our new delivery service."
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "Really? Supporting small businesses, how grand!"
+            },
+            {
+                "name": "TRNA",
+                "text": "So, er... Can I have the goods now?"
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "Ack! W-Well, you see... Th-That is to say... It's not quite ready yet!"
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "I overslept, is the thing─just a tiny little bit─so I was rushing to get it all prepared. And that's when I made this truly minuscule error in the formula and it...well, it exploded. Quite explosively."
+            },
+            {
+                "name": "TRNA",
+                "text": "E-Exploded? That's, er... My condolences. In that case, I'll just hang around here while you're gettin' it ready. ...No rush."
+            },
+            {
+                "name": "TRNA",
+                "text": "Let's go an' do the talkin' thing while we wait. See what our potential customers need most right now."
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "My colleagues <span class=\"emphasis\">unceremoniously</span> ejected me from the laboratory, but they are hard at work getting the shipment together, I promise you!"
+            },
+            {
+                "name": "TRNA",
+                "text": "Alright! Conversations, here we come."
+            },
+            {
+                "name": "ALCHEMIST04546C",
+                "text": "Woooooo! Burn, baby, burn!"
+            },
+            {
+                "name": "ALCHEMIST04546C",
+                "text": "What's this, what's this!? Do I need this, that, or the other!? No, no, no! I'm flying free and feeling fine!"
+            },
+            {
+                "name": "ALCHEMIST04546C",
+                "text": "I finished all my assigned work, which means I now have three delicious days for my personal research. I'll eat and sleep when I'm dead, but until then─ALCHEMY!"
+            },
+            {
+                "name": "TRNA",
+                "text": "Er... Right, then. Congratulations?"
+            },
+            {
+                "name": "ALCHEMIST04546D",
+                "text": "Ughhh... It's never-ending..."
+            },
+            {
+                "name": "ALCHEMIST04546D",
+                "text": "Do I need anything? Well...the Radiant Host used up its entire stock of medicinal supplies during the Final Days, so requests for replenishment keep pouring in without end."
+            },
+            {
+                "name": "ALCHEMIST04546D",
+                "text": "I can't remember the last time I sat down for dinner with my family. It seems like a different lifetime by now..."
+            },
+            {
+                "name": "TRNA",
+                "text": "That's, er, unfortunate. I wish I could help, but I dunno the first thing about medicine..."
+            },
+            {
+                "name": "ALCHEMIST04546E",
+                "text": "To eat! To sleep! Perchance to lick...?"
+            },
+            {
+                "name": "ALCHEMIST04546E",
+                "text": "Do I need something? Why, I'm glad you asked─I've depleted my stores of honey!"
+            },
+            {
+                "name": "ALCHEMIST04546E",
+                "text": "I haven't a moment to spare for such trivial affairs as <span class=\"emphasis\">eating</span>, but cognitive functioning dramatically decreases without regular sustenance, so I came up with a brilliant scheme─lick honey throughout the day for quick and easy nourishment. Only now there's none to be had, as I've licked it all up!"
+            },
+            {
+                "name": "TRNA",
+                "text": "We could start beekeepin', I guess? “Honey Honey Hippos” does have a ring to it... Then again, I'm not sure how many people'd use a high-speed honey service..."
+            },
+            {
+                "name": "ALCHEMIST04546C",
+                "text": "There are so many formulae to try! What if I just try them all...at the <span class=\"emphasis\">same time</span>!?"
+            },
+            {
+                "name": "ALCHEMIST04546D",
+                "text": "I hope I can eat dinner with my family again someday. While I still have a family, that is..."
+            },
+            {
+                "name": "ALCHEMIST04546E",
+                "text": "I suppose I'll have to order more honey... Or perhaps invent a comparable substance to lick!"
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "I am ever so sorry to have kept you waiting! It's all here, packed up safely and hardly singed at all."
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "I would like you to take this to a colleague of mine at Palaka's Stand. He's an alchemist named Yezahn. Well built for a bookish type. Handsome. You can't miss him."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Him! With the baby!"
+            },
+            {
+                "name": "A2",
+                "text": "Ah, I know Yezahn."
+            },
+            {
+                "name": "A2",
+                "text": "That name sounds familiar..."
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "Oh, you're acquainted, are you? What a small world indeed!"
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "He's still the same as ever, watching over his little one and Palaka's Stand alike. He requested replenishments for medicinal supplies, so hopefully this should tide them over."
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "I also threw in a handful of finished samples...and the whole explosion incident stays between us, yes!?"
+            },
+            {
+                "name": "ALCHEMIST04546B",
+                "text": "Now if you'll excuse me, I should eat something before my hands start shaking again. Oh, but do give him my regards! "
+            },
+            {
+                "name": "TRNA",
+                "text": "These alchemists don't seem to stop for nothin'─even meals. Ain't no denyin' that their work's important, but it's a miracle they haven't all keeled over by now..."
+            },
+            {
+                "name": "TRNA",
+                "text": "Hmm... What if the vittles came to them? "
+            },
+            {
+                "name": "TRNA",
+                "text": "...But I'm gettin' ahead of myself. This package ain't gonna ride to Palaka's Stand on its lonesome. Introduce me to this Yezahn when we get there, will you? "
+            },
+            {
+                "name": "TRNA",
+                "text": "Is this Yezahn? He <span class=\"emphasis\">is</span> pretty sturdy lookin'..."
+            },
+            {
+                "name": "YEZAHN",
+                "text": "<span class=\"highlight\">Forename</span>, what a pleasant surprise! I knew a shipment would be arriving soon, but I never expected you to be with it."
+            },
+            {
+                "name": "YEZAHN",
+                "text": "Are you playing the part of carter these days, then?"
+            },
+            {
+                "name": "TRNA",
+                "text": "The alchemist who sent this said it's herbs for medicine...an' somethin' about finished samples, too."
+            },
+            {
+                "name": "YEZAHN",
+                "text": "Is that so? I know how busy the work keeps them─it's very generous of them to send ready concoctions."
+            },
+            {
+                "name": "YEZAHN",
+                "text": "I wanted to get straight to work replenishing our medicinal stores, so your prompt arrival is welcome indeed."
+            },
+            {
+                "name": "TRNA",
+                "text": "Oh, if it's prompt you want, you ain't gotta look no further! The Hippo Riders'll deliver anythin' to anywhere in a flash!"
+            },
+            {
+                "name": "TRNA",
+                "text": "'Course, we're always fine-tunin' our carts an' services, so as to better, er, serve the area. Seein' as you're the one lookin' out for folks over here, I want to pitch you an idea."
+            },
+            {
+                "name": "TRNA",
+                "text": "My impression is that folks over at the Great Work are so busy, they barely have time to eat. That can't be good for the alchemy─not to mention the alchemists─so I'm thinkin' we start deliverin' fresh food by hunger-harryin' hippo!"
+            },
+            {
+                "name": "TRNA",
+                "text": "Only, startin' a service for just a handful of peaky alchemists ain't exactly gonna pay the rent. You think folks here could use some grub-runners?"
+            },
+            {
+                "name": "YEZAHN",
+                "text": "I do believe so."
+            },
+            {
+                "name": "YEZAHN",
+                "text": "It has long been tradition to send food to those working in the jungle, so I'm fairly certain you'll find our residents amenable to such a service."
+            },
+            {
+                "name": "YEZAHN",
+                "text": "As these hot and humid climes tend to spoil foodstuffs easily, we like to deliver meals as soon as they are prepared."
+            },
+            {
+                "name": "YEZAHN",
+                "text": "However, transporting victuals in this jungle can prove somewhat dangerous."
+            },
+            {
+                "name": "TRNA",
+                "text": "You mean that the smell attracts all sorts of hungry critters, right?"
+            },
+            {
+                "name": "YEZAHN",
+                "text": "Precisely. And what with our fighting fit currently healing or engaged in other matters, we simply haven't the manpower to spare on escorting meals."
+            },
+            {
+                "name": "TRNA",
+                "text": "...But our hippos are a different story!"
+            },
+            {
+                "name": "TRNA",
+                "text": "A hippo cart can outrun most anythin' in this jungle, so you ain't gotta worry on that front. "
+            },
+            {
+                "name": "TRNA",
+                "text": "Thanks for weighin' in! I've gotta consult with my associates, but somethin' tells me you can look forward to fresh meals from now on. Call it a lunch hunch."
+            },
+            {
+                "name": "TRNA",
+                "text": "Alright, <span class=\"highlight\">Forename</span>. Let's head back to Svarna for a team meetin'."
+            },
+            {
+                "name": "TRNA",
+                "text": "It was just as you said, <span class=\"highlight\">Forename</span>─askin' around earned us some bright ideas!"
+            },
+            {
+                "name": "MARU",
+                "text": "You think of somethin' good, Boss?"
+            },
+            {
+                "name": "TRNA",
+                "text": "Food, Maru! Eats! We're gonna deliver meals with these wheels!"
+            },
+            {
+                "name": "MARU",
+                "text": "Eats!?"
+            },
+            {
+                "name": "MARU",
+                "text": "Mouthwaterin' meals delivered wherever, whenever... Wish <span class=\"emphasis\">I</span> could order somethin'."
+            },
+            {
+                "name": "MARU",
+                "text": "We got it cinched, Boss! Ain't nothin' that'll deliver faster or fresher than our carts!"
+            },
+            {
+                "name": "TRNA",
+                "text": "Hold your hippos, Maru─we've still gotta sort somethin' out. Where are we gettin' this food in the first place? Takin' meals from Palaka's Stand to the jungle is one thing, but if we've gotta ride all the way to Yedlihmad or<br>Radz-at-Han for ready-mades..."
+            },
+            {
+                "name": "MARU",
+                "text": "Good point. Popular dishes'll be hard to keep in stock..."
+            },
+            {
+                "name": "MARU",
+                "text": "What if we had a kitchen here? We could make our own meals!"
+            },
+            {
+                "name": "TRNA",
+                "text": "Yeah... Fresh ingredients from merchants in Yedlihmad... The daily catch from fishers in Akyaali!"
+            },
+            {
+                "name": "MARU",
+                "text": "An' most importantly─we get an endless supply of food!"
+            },
+            {
+                "name": "MARU",
+                "text": "I might be a genius, Boss. Wait here, I'll have a kitchen goin' in no time!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Thanks to Maru's enthusiasm, Svarna has a new kitchen!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Hippo Riders' reputation has risen to <span class=\"emphasis\">formerly</span> delinquent carters. Make the most of their expanded services to help improve their social standing!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Trusted</span> reputation with the Hippo Riders."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "New Arkasodara tribal daily quests are now available from Maru in Svarna."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you will be able to undertake three additional quests from Maru as a reputation bonus. This bonus is available until the daily reset time for tribal quests. "
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These additional quests will become available after accepting all current daily quests from Maru. Please be advised that you cannot undertake these quests if you have no remaining allowances."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You now have access to a wider selection of wares from Ghanta."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Trna is now accompanying you. Keep her at your side to proceed with quest objectives."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You can leave Trna behind by entering a different area, or by speaking with her and selecting the option to part ways."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "If you wish to have Trna accompany you again, return and speak with her at the original location."
+            },
+            {
+                "name": "Q3",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A3",
+                "text": "Speak with Trna."
+            },
+            {
+                "name": "A3",
+                "text": "Part ways with Trna."
+            },
+            {
+                "name": "A3",
+                "text": "Nothing."
+            },
+            {
+                "name": "TRNA",
+                "text": "The alchemists here are an odd bunch, eh? Includin' our latest customer. Kinda feels like I've stepped into another dimension or somethin'."
+            },
+            {
+                "name": "TRNA",
+                "text": "Alright, I think I've got a good sense of things. Let's head back an' see if the goods are ready."
+            },
+            {
+                "name": "Q4",
+                "text": "Are you sure you wish to part ways with Trna?"
+            },
+            {
+                "name": "TRNA",
+                "text": "Somethin' came up? Well, when you're done, come find me by our customer."
+            },
+            {
+                "name": "TRNA",
+                "text": "You're back! Let's get goin', then."
+            },
+            {
+                "name": "TRNA",
+                "text": "The goods should be ready to go by now. Let's check in with our customer."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You must be accompanied by Trna and have her at your side in order to proceed with quest objectives."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Trna has yet to arrive. Be sure she is at your side before attempting to continue."
+            }
+        ],
+        "reward": {
+            "gil": 1535
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                70081
+            ]
+        },
+        "next": [
+            70083
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042300",
+            "obj": {
+                "i": 1042300,
+                "n": "Trna",
+                "l": 3709,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70081",
+            "obj": {
+                "i": 70081,
+                "n": "Hippos Born to Run",
+                "g": 32,
+                "l": "Thavnair",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70083",
+            "obj": {
+                "i": 70083,
+                "n": "Hippo Healing",
+                "g": 32,
+                "l": "Thavnair",
+                "s": 3,
+                "f": 1
+            }
+        }
+    ]
+}

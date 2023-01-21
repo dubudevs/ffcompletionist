@@ -1,0 +1,173 @@
+{
+    "quest": {
+        "name": "Honoring the Dead",
+        "location": "Eastern Thanalan",
+        "id": 66165,
+        "patch": 2.0,
+        "sort": 180,
+        "eventIcon": 71221,
+        "issuer": 1003937,
+        "target": 1003937,
+        "involved": [
+            1003946
+        ],
+        "genre": 93,
+        "journal": [
+            "Eaduuard wants to make a tombstone for his late sister.",
+            "Eaduuard wants a solemn tombstone made that is worthy of his late sister. Find for him some cloud marble in the outcrops to the east.",
+            "You have obtained the cloud marble. Take it to Brother Esmour at the Church of Saint Adama Landama.",
+            "Brother Esmour seems displeased at Eaduuard's adamance for getting the cloud marble, but he understands the child's need to grieve in his own way. Speak with Eaduuard and let him know his stone has been acquired.",
+            "Eaduuard is relieved that the tombstone for his sister can now be prepared using the proper materials. However, it seems he will have to work at the church for a while in order to cover the expenses of the funeral."
+        ],
+        "objectives": [
+            "Obtain a slab of cloud marble.",
+            "Deliver the cloud marble to Brother Esmour.",
+            "Report to Eaduuard."
+        ],
+        "dialogue": [
+            {
+                "name": "EADUUARD",
+                "text": "You're one of them 'venturer folk, ain't ye? I'd be much obliged for a li'l help. I'd like to make a tombstone for my kid sister what passed, ye see..."
+            },
+            {
+                "name": "EADUUARD",
+                "text": "But I ain't got the gil to get it done. I hear there's nice rocks for the takin' a ways from here, but I ain't old enough to fend off no wild beasts or such."
+            },
+            {
+                "name": "EADUUARD",
+                "text": "Was hopin' for a bit o' cloud marble. She really woulda liked that. Crops right up out the ground to the east o' here, they say. If you could find a bit and see it to Brother Esmour, me and my sis'd be ever so grateful."
+            },
+            {
+                "name": "ESMOUR",
+                "text": "Have you business here again, friend?"
+            },
+            {
+                "name": "ESMOUR",
+                "text": "Cloud marble? To make into a tombstone for Eaduuard's sister? &lt;sigh&gt; That boy is nothing if not trouble."
+            },
+            {
+                "name": "ESMOUR",
+                "text": "It was all I could do to convince him not to go looking for a stone on his own. Still, I suppose it cannot be helped, and losing a loved one is never easy. Thank you for your part in this. I will see the marble is used as Eaduuard wishes."
+            },
+            {
+                "name": "EADUUARD",
+                "text": "Gods, you 'venturers sure are kind folk! Now all I need is coin for the funeral. I'm gonna stay on here at the church for a bit and help out."
+            },
+            {
+                "name": "EADUUARD",
+                "text": "Wouldn't be right to leave <span class=\"emphasis\">everythin'</span> up to someone else. It'll mean more to my sis if I do what I can on my own."
+            },
+            {
+                "name": "EADUUARD",
+                "text": "Brother Esmour and Sister Airell are good folk, too. They say I don't need no gil to bury my sis here, but I know how it works. It'll take coin to send her over to Thal proper."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5743
+                },
+                {
+                    "num": 10,
+                    "id": 4552,
+                    "one": 1
+                },
+                {
+                    "num": 10,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 3780
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 18,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66162
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003937",
+            "obj": {
+                "i": 1003937,
+                "n": "Eaduuard",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003946",
+            "obj": {
+                "i": 1003946,
+                "n": "Esmour",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "5743",
+            "obj": {
+                "i": 5743,
+                "n": "Salmon Pink Dye",
+                "l": 1,
+                "c": 22805,
+                "t": 55,
+                "p": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66162",
+            "obj": {
+                "i": 66162,
+                "n": "Buzzing at Church",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 180
+            }
+        }
+    ]
+}

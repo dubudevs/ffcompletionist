@@ -1,0 +1,198 @@
+{
+    "quest": {
+        "name": "Surveying the Damage",
+        "location": "Central Shroud",
+        "id": 65711,
+        "patch": 2.0,
+        "sort": 27,
+        "eventIcon": 71201,
+        "issuer": 1000449,
+        "target": 1000685,
+        "genre": 1,
+        "journal": [
+            "A guard at Gilbert's Spire named Monranguin needs you to recover the surveying equipment left behind in a cave by a startled recruit.",
+            "Recover a set of survey records, a surveyor's rope, and two boxes of surveyor's instruments from the cave.",
+            "You have recovered all of the surveying tools. Return the equipment to Pauline at Gabineaux's Bower.",
+            "The Calamity has dramatically altered the forest's geography, prompting a conjurer named Pauline to request that the Order of the Twin Adder carry out topographical surveys. As luck would have it, mapping changes to the terrain within the hostile territory of the Twelveswood provides excellent training opportunities for new recruits."
+        ],
+        "objectives": [
+            "Recover the survey records.",
+            "Recover the boxes of surveyor's instruments.",
+            "Recover the surveyor's rope.",
+            "Return the surveying equipment to Pauline at Gabineaux's Bower."
+        ],
+        "dialogue": [
+            {
+                "name": "MONRANGUIN",
+                "text": "Such an embarrassing turn of events... I sent a recruit from the Bannock on a surveying expedition only for the craven to turn tail and flee at the first sign of trouble."
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "This is <span class=\"emphasis\">not</span> how we treat requests from the conjurers! And as if such a poor showing weren't bad enough, the lily-livered half-wit left behind the surveying equipment provided by Hearer Pauline herself!"
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "While I attempt to instill some backbone into this so-called “soldier,” would you mind recovering the survey gear and returning it to Hearer Pauline at Gabineaux's Bower?"
+            },
+            {
+                "name": "MONRANGUIN",
+                "text": "According to my recruit's tale of woe, there should be a set of survey records, a surveyor's rope, and two boxes of surveyor's instruments strewn about the interior of a cave to the south of here. &lt;sigh&gt; It's a wonder the damn fool didn't lose his boots... Ahem. Matron watch over you."
+            },
+            {
+                "name": "PAULINE",
+                "text": "Yes, may I assist you with some matter?"
+            },
+            {
+                "name": "PAULINE",
+                "text": "Oh? But this is the equipment I left with the soldiers of the Bannock..."
+            },
+            {
+                "name": "PAULINE",
+                "text": "Fled at the first sign of danger, you say? I see...<br>Well, all is not lost: it appears the recruit managed to complete the surveying assignment. The records are actually quite detailed."
+            },
+            {
+                "name": "PAULINE",
+                "text": "With the changes wrought by the Calamity, I thought it wise to send the Order of the Twin Adder on a number of expeditions to map the region's topography. As fortune would have it, the officers saw these tasks as an excellent opportunity to train inexperienced soldiers."
+            },
+            {
+                "name": "PAULINE",
+                "text": "We can no longer rely on our past knowledge of the Twelveswood. If we are to survive these troubled times, we must reacquaint ourselves with our surroundings, that we may better discern the threats we face. Stay vigilant, adventurer."
+            }
+        ],
+        "reward": {
+            "gil": 179,
+            "items": [
+                {
+                    "id": 3008,
+                    "one": 1
+                },
+                {
+                    "id": 3000,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 2550
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                69390
+            ]
+        },
+        "next": [
+            65663,
+            65734,
+            69391
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000449",
+            "obj": {
+                "i": 1000449,
+                "n": "Monranguin",
+                "l": 54,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000685",
+            "obj": {
+                "i": 1000685,
+                "n": "Pauline",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "3008",
+            "obj": {
+                "i": 3008,
+                "n": "Hempen Acton",
+                "l": 8,
+                "c": 43012,
+                "t": 35,
+                "p": 273
+            }
+        },
+        {
+            "type": "item",
+            "id": "3000",
+            "obj": {
+                "i": 3000,
+                "n": "Hempen Cowl",
+                "l": 8,
+                "c": 43601,
+                "t": 35,
+                "p": 309
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69390",
+            "obj": {
+                "i": 69390,
+                "n": "Eggs over Queasy",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 24
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65663",
+            "obj": {
+                "i": 65663,
+                "n": "Parasite Cleave",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 80
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65734",
+            "obj": {
+                "i": 65734,
+                "n": "Butcher of Greentear",
+                "g": 0,
+                "l": "Central Shroud",
+                "s": 31
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69391",
+            "obj": {
+                "i": 69391,
+                "n": "A Soldier's Breakfast",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 32
+            }
+        }
+    ]
+}

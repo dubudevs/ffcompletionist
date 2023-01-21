@@ -1,0 +1,132 @@
+{
+    "quest": {
+        "name": "Stand-in Sentry",
+        "location": "East Shroud",
+        "id": 66249,
+        "patch": 2.0,
+        "sort": 200,
+        "eventIcon": 71221,
+        "issuer": 1006189,
+        "target": 1006189,
+        "genre": 92,
+        "journal": [
+            "Piralnaut needs capable volunteers to patrol the Gridanian frontier.",
+            "Casualties have left the garrison at Josselin's Spire shorthanded, and Piralnaut requests that you patrol the area in the wounded's stead. There are three key strategic positions on the patrol route, each marked by a Twin Adder standard. Make your way to the three locations in turn.",
+            "You have safely completed your patrol. Report back to Piralnaut.",
+            "Learning of your encounter with fell fiends, Piralnaut expresses his concern at their growing numbers."
+        ],
+        "objectives": [
+            "Stand guard at the Twin Adder standards.",
+            "Report to Piralnaut."
+        ],
+        "dialogue": [
+            {
+                "name": "PIRALNAUT",
+                "text": "You look to be made of sterner stuff than the average adventurer. How would you fancy doing your bit to preserve the peace? We patrol the area night and day, but a recent skirmish put a dozen of my best men in the infirmary, and we're sorely shorthanded as a result."
+            },
+            {
+                "name": "PIRALNAUT",
+                "text": "I'd be grateful if you could help fill in for the wounded. Now, there are three strategic positions on our patrol route, each marked by a Twin Adder standard. What you need to do is go to the three locations in turn and hold your ground for a while. Nothing to it, see?"
+            },
+            {
+                "name": "PIRALNAUT",
+                "text": "Good to see you back in one piece. Is there aught to report?<br>...A run-in with fell fiends, you say? That is passing odd. We have never had trouble with the local fauna on this patrol route in the past."
+            },
+            {
+                "name": "PIRALNAUT",
+                "text": "Hmmm...mayhap their numbers are on the rise. We must keep a close eye on things. Anyway, my thanks for your help, friend."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 21800
+                },
+                {
+                    "num": 3,
+                    "id": 4643,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4730,
+                    "one": 1
+                }
+            ],
+            "xp": 4060
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66250
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006189",
+            "obj": {
+                "i": 1006189,
+                "n": "Piralnaut",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "21800",
+            "obj": {
+                "i": 21800,
+                "n": "Glamour Prism",
+                "l": 35,
+                "c": 26235,
+                "t": 60
+            }
+        },
+        {
+            "type": "item",
+            "id": "4643",
+            "obj": {
+                "i": 4643,
+                "n": "Antelope Steak",
+                "l": 20,
+                "c": 24360,
+                "t": 46,
+                "p": 49
+            }
+        },
+        {
+            "type": "item",
+            "id": "4730",
+            "obj": {
+                "i": 4730,
+                "n": "Dried Plums",
+                "l": 21,
+                "c": 24058,
+                "t": 46,
+                "p": 44
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66250",
+            "obj": {
+                "i": 66250,
+                "n": "Swinophobia",
+                "g": 92,
+                "l": "East Shroud",
+                "s": 200
+            }
+        }
+    ]
+}

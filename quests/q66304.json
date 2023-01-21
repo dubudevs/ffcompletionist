@@ -1,0 +1,141 @@
+{
+    "quest": {
+        "name": "An Apple a Day",
+        "location": "South Shroud",
+        "id": 66304,
+        "patch": 2.0,
+        "sort": 260,
+        "eventIcon": 71221,
+        "issuer": 1006236,
+        "target": 1006237,
+        "genre": 92,
+        "journal": [
+            "Deidra of Quarrymill would invite you to live a farmer's life for a day.",
+            "At Deidra's urging, you have consented to go apple-picking at the orchards north of Quarrymill. Speak with Fawkes at the orchards to see what is needed of you.",
+            "Fawkes would have you harvest six sprite apples from the orchards.",
+            "You have picked six of the sweetest, juiciest sprite apples in the orchard. Deliver the fruits of your harvest to Fawkes.",
+            "Fawkes is impressed with your aptitude for apple-picking and invites you to inherit his orchard when your adventuring days are through."
+        ],
+        "objectives": [
+            "Speak with Fawkes at the orchards.",
+            "Slay pests and harvest sprite apples.",
+            "Deliver your harvest to Fawkes."
+        ],
+        "dialogue": [
+            {
+                "name": "DEIDRA",
+                "text": "Welcome, friend. Many of your kind come to Quarrymill seeking a respite from the hardships of adventuring. Might you care to put your troubles aside for a day and live the farmer's life?"
+            },
+            {
+                "name": "DEIDRA",
+                "text": "Old Fawkes in the orchards to the north has quite a harvest on his hands this year, and knowing him, he'd be much obliged for a helping hand."
+            },
+            {
+                "name": "FAWKES",
+                "text": "What brings an adventurer to my humble orchards? Set your sights on sprite apples rather'n beastkin today? Well, I fer one am mighty grateful fer that!"
+            },
+            {
+                "name": "FAWKES",
+                "text": "These bones aren't fit fer climbin' as they used to be. I'd be much obliged if you could pick some apples fer me. Oh, and you'll want to make sure no creepy-crawlies are hidin' inside. Har har!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "//: pick apples and kill bugs"
+            },
+            {
+                "name": "FAWKES",
+                "text": "Back so soon? Let's see what you've got in that basket o' yours."
+            },
+            {
+                "name": "FAWKES",
+                "text": "Why, I'll be─just the sight o' your harvest has me mouth waterin'. You've an eye fer apple-pickin', my friend. I've a <span class=\"alternative-container\"><span class=\"alternative\">son</span><span class=\"alternative\">daughter</span></span> just around your age. What say you settle down here when you've had enough questin' fer glory?"
+            },
+            {
+                "name": "POP",
+                "text": "A writhing mass bursts forth!"
+            }
+        ],
+        "reward": {
+            "gil": 1263,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4709,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4747,
+                    "one": 1
+                }
+            ],
+            "xp": 5075
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 26,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66305
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006236",
+            "obj": {
+                "i": 1006236,
+                "n": "Deidra",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006237",
+            "obj": {
+                "i": 1006237,
+                "n": "Fawkes",
+                "l": 56,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4709",
+            "obj": {
+                "i": 4709,
+                "n": "Apple Tart",
+                "l": 17,
+                "c": 24054,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4747",
+            "obj": {
+                "i": 4747,
+                "n": "Apple Juice",
+                "l": 40,
+                "c": 24402,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66305",
+            "obj": {
+                "i": 66305,
+                "n": "A Bumper Crop",
+                "g": 92,
+                "l": "South Shroud",
+                "s": 260
+            }
+        }
+    ]
+}

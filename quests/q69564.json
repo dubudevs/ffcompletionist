@@ -1,0 +1,161 @@
+{
+    "quest": {
+        "name": "One Man's Relic",
+        "location": "Gangos",
+        "id": 69564,
+        "patch": 5.41,
+        "sort": 212,
+        "interval": "weekly",
+        "repeatable": 1,
+        "unlocksFunction": 1,
+        "eventIcon": 71342,
+        "issuer": 1035610,
+        "target": 1035610,
+        "genre": 76,
+        "journal": [
+            "Annes seeks relics of a particular sort, and she suspects you may know where to find them."
+        ],
+        "objectives": [
+            "Enter Delubrum Reginae.",
+            "Deliver the enigmatic Bozjan relic to Annes."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "In order to undertake this quest, you must have amassed  mettle."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have currently amassed  mettle."
+            },
+            {
+                "name": "ANNES",
+                "text": "Blade <span class=\"highlight\">Surname</span>! A pleasure to make your acquaintance. My name is Annes."
+            },
+            {
+                "name": "ANNES",
+                "text": "Zlatan has told me much of your difficulties working with Gerolt. N-Not to say that <span class=\"emphasis\">he</span> is difficult to work with, mind. Ahem. He has also told me all about your exploits on the southern front."
+            },
+            {
+                "name": "ANNES",
+                "text": "And that is precisely why I am here. I believe my research on tools and weapons from ancient Bozja may be of assistance to you."
+            },
+            {
+                "name": "ANNES",
+                "text": "The recently discovered ruins of the Bozjan palace are no doubt rife with such relics. If you should happen to explore its depths, I would be most grateful if you could bring back anything you find."
+            },
+            {
+                "name": "ANNES",
+                "text": "Safe travels, Blade <span class=\"highlight\">Surname</span>. I look forward to your return."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This quest can be completed once per week, with completion status being reset every [Reset]<span class=\"alternative-container\"><span class=\"alternative\">Sunday</span><span class=\"alternative\">Monday</span><span class=\"alternative\">Tuesday</span><span class=\"alternative\">Wednesday</span><span class=\"alternative\">Thursday</span><span class=\"alternative\">Friday</span><span class=\"alternative\">Saturday</span></span> at <span class=\"alternative-container\"><span class=\"alternative\"><span class=\"alternative-container\"><span class=\"alternative\">1</span><span class=\"alternative\">2</span><span class=\"alternative\">3</span><span class=\"alternative\">4</span><span class=\"alternative\">5</span><span class=\"alternative\">6</span><span class=\"alternative\">7</span><span class=\"alternative\">8</span><span class=\"alternative\">9</span><span class=\"alternative\">10</span><span class=\"alternative\">11</span><span class=\"alternative\">12</span></span></span><span class=\"alternative\">12</span></span> <span class=\"alternative-container\"><span class=\"alternative\">p.m.</span><span class=\"alternative\">a.m.</span></span> (Earth time)."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The item Annes seeks can be obtained by completing the raid “Delubrum Reginae.”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To enter Delubrum Reginae, speak with Sjeros in Gangos."
+            },
+            {
+                "name": "ANNES",
+                "text": "It is good to see you, Blade <span class=\"highlight\">Surname</span>. The relics you retrieved from the ruins have been of great help in my research."
+            },
+            {
+                "name": "ANNES",
+                "text": "Since you seem to have quite a talent for unearthing ancient artifacts, perhaps you could widen the net─so to speak─to include tools used in Bozjan rituals. They would certainly be a boon to our work."
+            },
+            {
+                "name": "ANNES",
+                "text": "Naturally, some relics are more useful than others, so any that we do not require for our work are yours to keep."
+            },
+            {
+                "name": "ANNES",
+                "text": "I would be most grateful for any relics you can find that may have been used in ancient rituals. But do be careful down there. There may be all manner of traps set to protect the place."
+            },
+            {
+                "name": "ANNES",
+                "text": "You are returned! And in one piece, I see. Were you able to recover anything of note from the ruins?"
+            },
+            {
+                "name": "ANNES",
+                "text": "Extraordinary. Simply extraordinary. My, and what is this...?"
+            },
+            {
+                "name": "ANNES",
+                "text": "There seems to be some sort of ancient coinage mixed in with the accoutrements you've brought. While collectors may be fascinated by this ancient currency, it falls beyond our field of study, so you are welcome to keep it."
+            },
+            {
+                "name": "ANNES",
+                "text": "In any case, you have given us more than enough to work with for the time being. Thank you, Blade <span class=\"highlight\">Surname</span>."
+            },
+            {
+                "name": "ANNES",
+                "text": "You have a fine eye for antiquities, Blade <span class=\"highlight\">Surname</span>. My, and what is this...?"
+            },
+            {
+                "name": "ANNES",
+                "text": "More coinage! As agreed, you may do with it as you will. Thank you again for all your help."
+            }
+        ],
+        "reward": {
+            "gil": 1000,
+            "gcseal": 12000,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 32180
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                69562
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1035610",
+            "obj": {
+                "i": 1035610,
+                "n": "Annes",
+                "l": 3478,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "32180",
+            "obj": {
+                "i": 32180,
+                "n": "Bozjan Gold Coin",
+                "l": 1,
+                "c": 26325,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69562",
+            "obj": {
+                "i": 69562,
+                "n": "Fit for a Queen",
+                "g": 76,
+                "l": "Gangos",
+                "s": 202,
+                "f": 1
+            }
+        }
+    ]
+}

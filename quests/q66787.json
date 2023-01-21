@@ -1,0 +1,180 @@
+{
+    "quest": {
+        "name": "The Beacon That Burns You",
+        "location": "Southern Thanalan",
+        "id": 66787,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "genre": 35,
+        "journal": [
+            "Yadovv Gah demands that the fires of Ifrit's beacons be quenched.",
+            "The beacons of the Flamefangs are symbols of power and prestige─none more so than those which bear the Lord of the Inferno's name. Yadovv Gah would have you destroy these abominations, and in so doing irreparably damage the reputation of the zealots.",
+            "The Flamefangs will rue this day, and rue it hard. Return to the Ring of Ash and report to Yadovv Gah.",
+            "The howls of the Flamefangs heard for malms around informed Yadovv Gah of your success. He declares that the Brotherhood's sworn enemies will soon lie broken at their feet, thanks to your tireless efforts."
+        ],
+        "objectives": [
+            "Destroy Ifrit's beacons.",
+            "Report to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "The beacons of the Flamefangs are a blight upon Zahar'ak─none more so than those which bear the Lord of the Inferno's name."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Each one is a symbol of power and prestige. By destroying them, we will deprive the zealots of both."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Know that your mission will not be easy, for the beacons burn in the heart of Zahar'ak, defended by the most devoted followers of Ifrit."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Moreover, the abominations defend themselves with ware sorcery, hurling flame at anything they deem to be a threat."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Few are capable of undertaking such a dangerous task, but I am confident that you will bring much glory to the Brotherhood."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "When the howls of the zealots echo throughout Zahar'ak, I will know that the beacons are no more."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "The wind carried word of your success, honored ally. How the ground quaked, how the Flamefangs wept!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Every victory brings us closer to the day of reckoning, when our sworn enemies will lie broken at our feet!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5672,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5672",
+            "obj": {
+                "i": 5672,
+                "n": "Savage Aim Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

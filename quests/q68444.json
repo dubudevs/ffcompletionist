@@ -1,0 +1,594 @@
+{
+    "quest": {
+        "name": "Snouts Down, Tails Up",
+        "location": "Ishgard",
+        "id": 68444,
+        "patch": 4.0,
+        "sort": 680,
+        "icon": 100675,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012251,
+        "target": 1012251,
+        "involved": [
+            1012252,
+            1012253,
+            1022150,
+            1022151,
+            1022168,
+            1022169,
+            1022170,
+            1022171,
+            1022172,
+            1022173,
+            1022174,
+            1022175,
+            1022180
+        ],
+        "genre": 158,
+        "journal": [
+            "Hilda has a letter for you from Rostnsthal.",
+            "Hilda hands you a letter from Rostnsthal. The note informs you that the bandit leader's firearm is of Lominsan construction, and bids you travel to the maritime city to help investigate how the strictly regulated weapon ended up in the thief's hands. Make your way to the aetheryte plaza in Limsa Lominsa, and seek out your fellow instructor.",
+            "Rostnsthal has narrowed down the potential suppliers to a single merchant─the very same trader who escaped the Hounds back in Boulder Downs. Find the black marketeer at the Anchor Yard, and aid Rostnsthal and Hilda with the interrogation.",
+            "After a healthy dose of intimidation from Rostnsthal, the merchant reveals the existence of a hidden bandit camp at Providence Point. Travel to the Coerthas central highlands, and track down the bandit leader.",
+            "You have located the bandit leader and defeated his beastly protectors. It is time to wring the full story from the cornered fugitive...",
+            "After interrogating the bandit leader and learning the details of the theft, you become aware that the events leading to Hrunting's reclamation may have been deliberately orchestrated. Return to Ishgard, and raise your concerns with Ser Muscadain at the Congregation of Our Knights Most Heavenly.",
+            "Initially bemused by Hilda's unexpected visit, Ser Muscadain is nevertheless persuaded to release Hrunting to the manufactory for a more thorough examination. Her mission successful, Hilda bids you follow her back to the Brume.",
+            "Though somewhat surprised by Ser Muscadain's accommodating attitude, Hilda seems pleased to know that Lord Stephanivien will be examining the blade. You have naught to do now but await the chief machinist's report, and prepare to act against the true instigator of this crime...<br><br>※The next machinist quest will be available from Hilda upon reaching level 70."
+        ],
+        "objectives": [
+            "Speak with Rostnsthal in Limsa Lominsa.",
+            "Speak with the black marketeer.",
+            "Search for the bandit leader at Providence Point.",
+            "Speak with the bandit leader.",
+            "Speak with Ser Muscadain at the Congregation of Our Knights Most Heavenly.",
+            "Speak with Hilda."
+        ],
+        "dialogue": [
+            {
+                "name": "HILDA",
+                "text": "Where've you been, <span class=\"highlight\">Forename</span>? I've been itchin' to open this letter from Rostnsthal, but he's addressed it to you. Come on, let's hear what he has to say!"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "(-Letter from Rostnsthal-)<span class=\"emphasis\">Mystery solved. I took a good look at Naldiq & Vymelli's stock, and the firearm's one of theirs.</span>"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "(-Letter from Rostnsthal-)<span class=\"emphasis\">Limsa has some bloody strict regulations on the export of firearms, so our bandit chief must've had a back-alley supplier.</span>"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "(-Letter from Rostnsthal-)<span class=\"emphasis\">Get your arse to Limsa Lominsa, and we'll find out who put that weapon in our thief's hands. I'll be at the aetheryte on the lower decks.<br><br>Rostnsthal</span>"
+            },
+            {
+                "name": "HILDA",
+                "text": "So he's on the trail, then? Good. Just let me get my gear and we can be off."
+            },
+            {
+                "name": "SYMME",
+                "text": "Wha─ You're going with <span class=\"highlight\">Forename</span>? Is that really a good idea...?"
+            },
+            {
+                "name": "EUDESTAND",
+                "text": "I'm with Symme on this one, Hilda. If the leader of the Hounds starts pickin' quarrels on foreign soil, we could be lookin' at all sorts of trouble for Ishgard."
+            },
+            {
+                "name": "HILDA",
+                "text": "Ishgard's where the bloody trouble started! And since when have folk of the Brume been content to sit back and let others handle the dirty work!?"
+            },
+            {
+                "name": "HILDA",
+                "text": "I'm goin' and that's the end of it. But I promise I'll be on my best behavior!"
+            },
+            {
+                "name": "SYMME",
+                "text": "Once our Hilda sights her target, she's not one to question pulling the trigger..."
+            },
+            {
+                "name": "EUDESTAND",
+                "text": "There's no arguin' with Hilda when she gets like this. Usually we just try to watch her back, but that'll have to be your job while you're in Limsa."
+            },
+            {
+                "name": "HILDA",
+                "text": "Don't you listen to them two─I'm perfectly capable of bein' reasonable. And besides, I'm sure Rostnsthal'll be glad to have me along!"
+            },
+            {
+                "name": "HILDA",
+                "text": "...What's that sour look for, then?"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "What in the bloody hells is she doin' here? I put your bleedin' name on the letter an' all..."
+            },
+            {
+                "name": "HILDA",
+                "text": "I need to see this through; if I don't, then what're the Hounds good for? You'll just have to humor me."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "I was aimin' to avoid political complications, seein' as <span class=\"highlight\">Forename</span> an' me ain't tied too tightly to any one nation... Yer just lucky I've a soft spot for fools what ignore the risks to make a point."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Let's get to it, then. The bloke most likely to 'ave supplied that firearm is the same bastard what tried to buy the sword: our black marketeer friend."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "If we're lucky, he might 'ave an idea o' where the brigand's run off to. I've a mind to squeeze 'im until an answer pops out."
+            },
+            {
+                "name": "HILDA",
+                "text": "Aye, I'd like to have a word or two with that bandit leader, myself. He's a loose end what needs tyin' up."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Then we're on the same page. Accordin' to me sources, we should find the merchant in the Anchor Yard─let's get over there an' get this business over with."
+            },
+            {
+                "name": "HILDA",
+                "text": "As far as I'm concerned, this ain't over till we've got that bandit in chains. And I hate leavin' a job half-finished."
+            },
+            {
+                "name": "HILDA",
+                "text": "Good day to you, master merchant. How about we have us a little chat, eh?"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Ye ain't gettin' away this time, matey. Best start talkin' afore I start cuttin'."
+            },
+            {
+                "name": "BLACKMARKETEER02908",
+                "text": "W-Well, if it isn't th-the...the Hounds, was it? What can a humble peddler such as myself do for Ishgard's finest?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Tell us where the bandit leader is hiding."
+            },
+            {
+                "name": "A1",
+                "text": "Help us capture the bandit leader."
+            },
+            {
+                "name": "BLACKMARKETEER02908",
+                "text": "For a man in my trade, no commodity is more valuable than discretion! If I were to disclose such information, my customers would cease to trus─"
+            },
+            {
+                "name": "BLACKMARKETEER02908",
+                "text": "I am but a humble merchant. Surely I would be more hindrance than help in such an investig─"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "If yer not feelin' helpful, then maybe I should pay a visit to the Yellowjackets an' mention the firearm yer valued customer was usin'. ...Or maybe I'll just skip straight to them as upholds the code."
+            },
+            {
+                "name": "BLACKMARKETEER02908",
+                "text": "N-Now let us not be too hasty! Mayhap I can make an exception in this case, in exchange for your silence regarding my, uh, trade in exotic weapons."
+            },
+            {
+                "name": "BLACKMARKETEER02908",
+                "text": "I believe the gentleman in question has a camp at Providence Point in the central highlands. That is where I would look."
+            },
+            {
+                "name": "HILDA",
+                "text": "Providence Point, eh? Well, it's a start."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "If yer playin' us false, I'll be back to feed the crabs with yer lyin' tongue. In fact, if I ever 'ear o' ye dealin' in stolen goods again, ye can add a few more body parts to that list. Nice doin' business with ye."
+            },
+            {
+                "name": "HILDA",
+                "text": "More of them guard beasts came at me, but I put 'em down easily enough. Rostnsthal's drills must be payin' off."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "These curs were trained. Seems our merchant was tellin' the truth about there bein' a camp 'ereabouts."
+            },
+            {
+                "name": "BLACKMARKETEER02908",
+                "text": "Never accept a deal from a client you know naught about! But that woman offered me so much gold, I ignored my own rule.<br>&lt;sigh&gt; Mayhap it <span class=\"emphasis\">is</span> time I retired from this business..."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "What!? How did ye─<br>Bah, ye've signed yer own death warrant comin' here!"
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "Gods, no! Ye've killed me precious..."
+            },
+            {
+                "name": "HILDA",
+                "text": "I came runnin' when I heard the shots, but it seems you had things well in hand."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "Oh, bugger me, there's more of ye. Please, I'll do anythin' ye ask...just don't kill me!"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Stop yer blubberin', cur, we ain't goin' to kill ye...not just yet, anyroad. That'll depend on the answers ye give us."
+            },
+            {
+                "name": "HILDA",
+                "text": "Answers? What's he on about, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "Q2",
+                "text": "What answer is Rostnsthal looking for?"
+            },
+            {
+                "name": "A2",
+                "text": "The reason behind Hrunting's theft."
+            },
+            {
+                "name": "A2",
+                "text": "The identity of the bandit's employer."
+            },
+            {
+                "name": "HILDA",
+                "text": "They wanted to sell it for coin, of cour─ Ah. But then why only steal the sword, eh?"
+            },
+            {
+                "name": "HILDA",
+                "text": "Wait, it weren't that black market bloke? ...Hm, I guess he'd have wanted more than just the sword, eh?"
+            },
+            {
+                "name": "HILDA",
+                "text": "Them other brigands we captured were bloody clueless. They only knew what the job was─not the who or the why."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Meanin' the whole deal was made through this bastard. Start barkin', dog, an' ye might just save yer own 'ide."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "We...we was pirates once─that is until the bitch Admiral passed her bloody law. Blokes like us, though, we ain't cut out for “honest” work."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "We'd almost drunk through the last of our plunder when that back-alley peddler showed up with some overpainted wench. Said she'd a job for us."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "All we had to do was filch a special sword from the Holy See. Hah! For the purse she offered, we'd have stolen the whole bleedin' vault."
+            },
+            {
+                "name": "HILDA",
+                "text": "And who was this woman?"
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "Part o' the deal was we didn't ask no questions. Even the merchant didn't know her real name. It was odd, aye, but we needed the coin an' I didn't rightly care either way."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "The job itself was easy as takin' a piss. She even paid for me to have a firearm to use, an' sent us down a route where we didn't see no guards─though the gods only know how she managed that trick."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "All we did was follow her map, then shoot the locks on the vault. Walked in, grabbed the sword, walked out. Bold as ye please. The trouble came after the delivery was made..."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "She gave the blade back to you."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "Aye. She sent for me again the day after. Pushed the sword back into me hand along with a sack full o' coin."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "Said she'd made a mistake or summat, an' that I should sell the damn thing. Well, I ain't fool enough to try fencin' a relic like that on me own, so I went back to the merchant..."
+            },
+            {
+                "name": "HILDA",
+                "text": "You were fool enough not to properly burn your contract of sale. How do you think we found you the first time?"
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "Contract o' sale? What in the hells are ye talkin' about? Ye think I'd leave a deal like that in ink for the whole world to see!?"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "...Things are startin' to make sense now. There's just one little problem with yer story."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "I've told ye the truth, I swear! It was that wench what put us up to it!"
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Aye, that bit I believe. What catches in me craw is her reason for handin' back the sword. That was no mistake. An' us findin' that contract o' sale this bastard says 'e never wrote was no mistake neither."
+            },
+            {
+                "name": "HILDA",
+                "text": "No...we was led by the nose to reclaim Hrunting before it was sold. And the quickest way to learn the why of it might be to ask the blade itself. Would you mind cartin' this piece of offal back to Ishgard, Rostnsthal?"
+            },
+            {
+                "name": "HILDA",
+                "text": "Come with me, <span class=\"highlight\">Forename</span>. We need to pay us a visit to Muscadain, and convince him to take a closer look at that sword."
+            },
+            {
+                "name": "HILDA",
+                "text": "To be honest, I ain't all that eager to talk to that blue-blooded bastard, but I suppose we all have to make sacrifices. Let's head over to the Congregation."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "I'll take care o' this pissant; ye just concern yerself with inspectin' that sword."
+            },
+            {
+                "name": "ROBBERLEADER02908",
+                "text": "If it weren't for that witch Merlwyb an' her shite-eatin' law, I'd still be sailin' free on the high seas..."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Forename</span>, how may I...ah. You again. Was there some choice insult you'd forgotten to spit at me during our previous meeting?"
+            },
+            {
+                "name": "HILDA",
+                "text": "Truce, Muscadain. I wouldn't be here if it weren't important."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "I see. So you believe that Hrunting may have been altered in some fashion before you were “allowed” to reclaim it?"
+            },
+            {
+                "name": "HILDA",
+                "text": "It's a bit too bloody convenient, don't you think? Maybe I'm wrong, but I'd rather look the fool than risk summat happenin' at the ceremony. We need to check that sword!"
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "I must admit, your passion confounds me. The blade is recovered and your Hounds have done their duty. Why bother pursuing such a faint suspicion? Why willingly endure the presence of a man you so clearly despise?"
+            },
+            {
+                "name": "HILDA",
+                "text": "Oh, aye, I hate your bleedin' guts. But once we take on a job, we do the damn thing right!"
+            },
+            {
+                "name": "HILDA",
+                "text": "<span class=\"highlight\">Forename</span> gave <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> all to save Ishgard. How could I look <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> in the eye if I let our petty feud get in the way of my duty!"
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "...Such pride. I've not seen this side of you before."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "It is as you say. If there truly is some flaw or trickery in the blade that disrupts the ceremony, the consequences could be grave indeed."
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "And yet there are rules in place which prevent me from simply handing Hrunting over to the Hounds. Furthermore, our resident blacksmith has already inspected the recovered weapon and declared it sound."
+            },
+            {
+                "name": "HILDA",
+                "text": "Even so, we should─"
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "Even so, I will call upon Lord Stephanivien to conduct an independent examination. A machinist may notice a detail that a blacksmith would overlook. I trust this can be accomplished with the requisite discretion?"
+            },
+            {
+                "name": "MUSCADAIN",
+                "text": "Very good. As far as the release of Hrunting is concerned, the manufactory is a sanctioned facility. The bureaucrats will be satisfied even should I secure the necessary permissions after the fact. I shall begin making the arrangements."
+            },
+            {
+                "name": "HILDA",
+                "text": "Well...that's that, then. Let's get back to the Brume and tell the news to Rostnsthal."
+            },
+            {
+                "name": "SYMME",
+                "text": "Back then, are you? I don't rightly know what the story was with that sword, but Hilda seems happy with what we did...and that's good enough for me!"
+            },
+            {
+                "name": "EUDESTAND",
+                "text": "Lord Stephanivien will get to the bottom of this, you see if he doesn't. Best thing we can do is get back to our drills and leave him to it."
+            },
+            {
+                "name": "ROSTNSTHAL",
+                "text": "Keep one 'and near yer weapon, <span class=\"highlight\">Forename</span>. Me gut says this business ain't over by a long shot..."
+            },
+            {
+                "name": "HILDA",
+                "text": "Muscadain's not known for his love of the lowborn. I didn't expect he'd just... I thought I'd have to put up more of a fight, is what I'm sayin'."
+            },
+            {
+                "name": "HILDA",
+                "text": "Well, the sword's with the manufactory now, so I've no complaints─that's where I'd meant to take it in the first place. Now we wait."
+            },
+            {
+                "name": "HILDA",
+                "text": "But don't get too comfortable, <span class=\"highlight\">Forename</span>. Things are sure to come to a head soon enough..."
+            }
+        ],
+        "reward": {
+            "gil": 2182,
+            "xp": 232200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 68,
+                    "id": 96
+                }
+            ],
+            "quests": [
+                68443
+            ]
+        },
+        "next": [
+            68445
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012251",
+            "obj": {
+                "i": 1012251,
+                "n": "Hilda",
+                "l": 2300,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012252",
+            "obj": {
+                "i": 1012252,
+                "n": "Symme",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012253",
+            "obj": {
+                "i": 1012253,
+                "n": "Eudestand",
+                "l": 2300,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022150",
+            "obj": {
+                "i": 1022150,
+                "n": "Rostnsthal",
+                "l": 2300,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022151",
+            "obj": {
+                "i": 1022151,
+                "n": "Muscadain",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022168",
+            "obj": {
+                "i": 1022168,
+                "n": "Hilda",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022169",
+            "obj": {
+                "i": 1022169,
+                "n": "Rostnsthal",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022170",
+            "obj": {
+                "i": 1022170,
+                "n": "Black Marketeer",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022171",
+            "obj": {
+                "i": 1022171,
+                "n": "Hilda",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022172",
+            "obj": {
+                "i": 1022172,
+                "n": "Rostnsthal",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022173",
+            "obj": {
+                "i": 1022173,
+                "n": "Bandit Leader",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022174",
+            "obj": {
+                "i": 1022174,
+                "n": "Hilda",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022175",
+            "obj": {
+                "i": 1022175,
+                "n": "Rostnsthal",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022180",
+            "obj": {
+                "i": 1022180,
+                "n": "Rostnsthal",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68443",
+            "obj": {
+                "i": 68443,
+                "n": "Release the Hounds",
+                "g": 158,
+                "l": "Ishgard",
+                "s": 650,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68445",
+            "obj": {
+                "i": 68445,
+                "n": "The Mongrel and the Knight",
+                "g": 158,
+                "l": "Ishgard",
+                "s": 700,
+                "f": 1
+            }
+        }
+    ]
+}

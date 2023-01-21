@@ -1,0 +1,272 @@
+{
+    "quest": {
+        "name": "Breaking into Hives",
+        "location": "The Dravanian Forelands",
+        "id": 67151,
+        "patch": 3.0,
+        "sort": 36,
+        "eventIcon": 71201,
+        "issuer": 1013582,
+        "involved": [
+            1012635,
+            1012639,
+            1012672,
+            1013192,
+            1013583,
+            1014847
+        ],
+        "genre": 3,
+        "journal": [
+            "Alphinaud wishes to review Ysayle's plan for infiltrating the Gnath hive.",
+            "Despite Alphinaud's misgivings, Ysayle seems determined to surrender herself to the Gnath, in the belief that this will bring her within striking distance of their god. Needless to say, she wants you to join her. Lacking any protection from the primal's influence, Alphinaud and Estinien will remain behind while you and Ysayle mount a mock assault upon the hive. Make your way to the main colony, and provoke the sentry stationed at the approach to Loth ast Gnath.",
+            "You have defeated the drones at the entrance to the colony, and alerted the hive to your presence. Plan your next move with Ysayle.",
+            "Though the colony must by now be aware of your intrusion, Ysayle seems determined to capture the Gnath's undivided attention. Press on into the heart of the hive, killing anything that stands in your way.",
+            "You have fought your way deeper into the hive. Wait for Ysayle to join you, then discuss the next step of your plans.",
+            "Ysayle is satisfied that your mock assault upon the colony has served its purpose. All that remains is to surrender yourself to capture...and pray that the Gnath drag you before their god."
+        ],
+        "objectives": [
+            "Provoke the Gnath drone and eliminate any resistance.",
+            "Speak with Ysayle.",
+            "Fight your way deeper into the hive.",
+            "Wait for Ysayle deeper within the hive."
+        ],
+        "dialogue": [
+            {
+                "name": "ALPHINAUD",
+                "text": "Forgive me, but let us be clear about what it is that you propose. You mean to say that you would deliberately provoke the Gnath, surrender yourself into what might generously be termed their “custody,” and then wait until their god arrives to <span class=\"emphasis\">claim your soul</span>?"
+            },
+            {
+                "name": "ICEHEART",
+                "text": "Aye, that fairly well describes my plan. You will join me in this endeavor, will you not, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "ICEHEART",
+                "text": "Judging by the great risks you took to prevent the summoning of Saint Shiva, you are not a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> to err on the side of caution."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "...Would that I could fight at your side, Warrior of Light. But the power of the dragon is no protection against primal influence. Forgive me, but I must remain here with Master Alphinaud."
+            },
+            {
+                "name": "ICEHEART",
+                "text": "Then it is settled. <span class=\"highlight\">Forename</span>, you and I shall challenge the guards at the entrance to the colony. Once the hive is roused, we shall feign a brief show of resistance, and then allow them to take us prisoner."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Estinien's words stung me more than I care to admit─'twould seem I have begun to take your victories for granted. Do be cautious, my friend..."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I would be curious to test my lance against a beast tribe's god, but I cannot risk falling under its sway. Tell me of the battle upon your return, Warrior of Light."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "I will admit, I had begun to wonder whether “Nonmind” meant “brainless.” Apparently not."
+            },
+            {
+                "name": "ICEHEART",
+                "text": "All rests upon the destruction of the Gnath's god. If we must surrender ourselves for sacrifice to approach the abomination, freely will I do it."
+            },
+            {
+                "name": "GNATHGUARD01615",
+                "text": "&lt;click&gt; &lt;click&gt; Intruders! Your lives are forfeit!"
+            },
+            {
+                "name": "ICEHEART",
+                "text": "Be at the ready, <span class=\"highlight\">Forename</span>─kicking the ants' nest will summon no few of its defenders."
+            },
+            {
+                "name": "ICEHEART",
+                "text": "The Overmind must by now be aware of our intrusion. Let us press on into the hive, and ensure that we have our hosts' undivided attention."
+            },
+            {
+                "name": "BALLOON",
+                "text": "Kill the intruders!"
+            },
+            {
+                "name": "ICEHEART",
+                "text": "Leave these drones to me. We can join forces again once we are deeper within the colony!"
+            },
+            {
+                "name": "ICEHEART",
+                "text": "That should be sufficient. If we did not have our hosts' full attention before, we must surely have it now..."
+            },
+            {
+                "name": "ICEHEART",
+                "text": "Our audience with the primal may be granted soon after our capture. Pray advise me once you have steeled your mind for the battle to come."
+            }
+        ],
+        "reward": {
+            "gil": 626,
+            "xp": 57600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67150
+            ]
+        },
+        "next": [
+            67152,
+            67340,
+            67341,
+            67342,
+            67343,
+            67344
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013582",
+            "obj": {
+                "i": 1013582,
+                "n": "Alphinaud",
+                "l": 2000,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012635",
+            "obj": {
+                "i": 1012635,
+                "n": "Alphinaud",
+                "l": 2000,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012639",
+            "obj": {
+                "i": 1012639,
+                "n": "Gnath Drone",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012672",
+            "obj": {
+                "i": 1012672,
+                "n": "Ysayle",
+                "l": 2000,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013192",
+            "obj": {
+                "i": 1013192,
+                "n": "Ysayle",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013583",
+            "obj": {
+                "i": 1013583,
+                "n": "Estinien",
+                "l": 2000,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014847",
+            "obj": {
+                "i": 1014847,
+                "n": "Ysayle",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67150",
+            "obj": {
+                "i": 67150,
+                "n": "A Gnathic Deity",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67152",
+            "obj": {
+                "i": 67152,
+                "n": "Lord of the Hive",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 37
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67340",
+            "obj": {
+                "i": 67340,
+                "n": "Awakened",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5307
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67341",
+            "obj": {
+                "i": 67341,
+                "n": "It's the Thought That Counts",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5308
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67342",
+            "obj": {
+                "i": 67342,
+                "n": "Advanced Vathematics",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5309
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67343",
+            "obj": {
+                "i": 67343,
+                "n": "Something Worth Protecting",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5310
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67344",
+            "obj": {
+                "i": 67344,
+                "n": "Nipped in the Bud",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5311
+            }
+        }
+    ]
+}

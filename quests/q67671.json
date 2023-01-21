@@ -1,0 +1,117 @@
+{
+    "quest": {
+        "name": "An Inspector's Gadget",
+        "location": "The Gold Saucer",
+        "id": 67671,
+        "patch": 3.25,
+        "sort": 107,
+        "icon": 100539,
+        "eventIcon": 71221,
+        "issuer": 1017080,
+        "target": 1011040,
+        "genre": 200,
+        "journal": [
+            "The attentive attendant wishes to show you the esteem of the Gold Saucer.<br>※This quest is available for a limited time only.",
+            "Now that the mystery of the Gold Saucer's murder has been solved, it is time to claim your reward. The attentive attendant directs you to speak with Grege at Entrance Square, who has your prize in safekeeping.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "After offering you his personal thanks, Grege bestows upon you a present befitting a master of deduction. Use it whenever an inspiration worthy of sharing with the world strikes you."
+        ],
+        "objectives": [
+            "Speak with Grege at Entrance Square."
+        ],
+        "dialogue": [
+            {
+                "name": "GSSTAFF02135",
+                "text": "Ah, the astute adventurer who so skillfully untangled the Gold Saucer's murderous mystery! I believe I speak for everyone involved when I say you have our utmost gratitude."
+            },
+            {
+                "name": "GSSTAFF02135",
+                "text": "But of course, your efforts deserve to be rewarded with more than just words. Grege at Entrance Square awaits with a prize that I'm sure will prove to be most satisfactory."
+            },
+            {
+                "name": "GSSTAFF02135",
+                "text": "Your reward for a job well done awaits at Entrance Square! Ah, if only I could be there to see your face when you receive it!"
+            },
+            {
+                "name": "GREGE",
+                "text": "Say no more─Ollier has already explained everything! Ah, but surely you've already deduced that. Nonetheless, I shall give you my thanks, along with the reward you so greatly deserve! May it serve you well the next time an impenetrable mystery unravels before your wit!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have learned the emote <span class=\"highlight\">Eureka</span>!"
+            }
+        ],
+        "reward": {
+            "emote": "Eureka",
+            "items": [
+                {
+                    "num": 5,
+                    "id": 10131
+                }
+            ],
+            "xp": 3360
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                67669
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1017080",
+            "obj": {
+                "i": 1017080,
+                "n": "Attentive Attendant",
+                "l": 1484,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011040",
+            "obj": {
+                "i": 1011040,
+                "n": "Grege",
+                "l": 1484,
+                "s": 1,
+                "q": 2,
+                "t": "Tap Keeper",
+                "a": 1492,
+                "c": [
+                    5.04,
+                    6.51
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "10131",
+            "obj": {
+                "i": 10131,
+                "n": "MGP Voucher",
+                "l": 1,
+                "c": 26173,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67669",
+            "obj": {
+                "i": 67669,
+                "n": "And Then There Were Some",
+                "g": 200,
+                "l": "The Gold Saucer",
+                "s": 106,
+                "r": 1
+            }
+        }
+    ]
+}

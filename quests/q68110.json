@@ -1,0 +1,592 @@
+{
+    "quest": {
+        "name": "Fade to Black Lotus",
+        "location": "Ul'dah",
+        "id": 68110,
+        "patch": 4.0,
+        "sort": 680,
+        "icon": 100668,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1001739,
+        "target": 1001739,
+        "involved": [
+            1021271,
+            1021377,
+            1021378,
+            1021379,
+            1021380,
+            1021381,
+            1021382,
+            1021383
+        ],
+        "genre": 147,
+        "journal": [
+            "Mylla's expectant gaze could only mean one thing: it is time.",
+            "Mylla sends you off to the Ul Cup final with words of encouragement, but no sooner do you take to the arena than your opponent is announced as having withdrawn from the match. Though this makes you the champion by default, such an unearned victory rings hollow to you. Perhaps your guildmaster can provide some clarity amid the confusion.",
+            "Sensing your dissatisfaction and knowing too well the ways of the Ul'dahn underworld, Mylla decides to investigate your opponent's unexpected withdrawal and recruits your aid. To begin with, she suggests that you speak with the tournament registrar, the last person to see Black Lotus.",
+            "According to the tournament registrar, after informing him that he no longer wished to fight, Black Lotus left in considerable haste in the direction of Pearl Lane.",
+            "You track down Black Lotus, who, to little surprise, turns out to be a disguised Aldis. He explains that he withdrew from the tournament in order to save a boy he met during his wanderings, whom unscrupulous match-fixers took hostage in the mistaken belief that he is Aldis's own. At this time an unimpressed Mylla arrives, and Aldis goes on to reveal that rumors of your surpassing skills are what drew him back to Ul'dah. His mention of a child leaves her dismayed, but the questions must wait, for the boy has yet to be released. Aldis means to track down the abductors and mount a rescue, and bids you ask after shady sorts in Pearl Lane.",
+            "Questioning the locals, you learn that a black market bookmaker has been operating in the area. In order to track him down, you must first go to his lackey near the Gate of Thal and indicate your intent do business.<br>With the chat mode in <span class=\"highlight\">Say</span>, enter the password “Doubt the truth” to let the suspicious fellow know you are a customer.",
+            "Satisfied that you are a customer, the suspicious fellow directs you to his associate near the Sultantree. And by the sounds of it, that is where you will find the abducted child.",
+            "The burly bloke and his cronies set upon you, but they are no match for the Ul Cup champion─by default or no. With the ruffians subdued, you may turn your attention to the child.",
+            "Mylla and Aldis join you as you finish freeing the child from his bindings. After a brief but warm reunion, Aldis informs you that he has found solid evidence implicating Odde, the detestable Lalafell from the Quicksand, in the match-fixing attempt. And then to Mylla's relief, he clarifies that the boy is not in fact his own. All is well, then, save for the fact that a dream match between you and Aldis was not to be. However, Mylla tells you not to give up, for she believes she can convince the organizers to host the Ul Cup final. Leaving to entrust the child to the Brass Blades' care, she bids you join her back at the guild afterwards.",
+            "Mylla reiterates her confidence that the Ul Cup final will go ahead, and excuses herself to go about making it so. See to it that you are fully prepared for the imminent match, for it will doubtless prove the toughest of all.<br><br>※The next paladin quest will be available from Mylla upon reaching level 70."
+        ],
+        "objectives": [
+            "Speak with Mylla.",
+            "Speak with the tournament registrar.",
+            "Search for Black Lotus.",
+            "Gather information in Pearl Lane.",
+            "With the chat mode in <span class=\"highlight\">Say</span>, enter “Doubt the truth” to let the suspicious fellow know you are a customer.",
+            "Search for the burly bloke at Spineless Basin.",
+            "Aid the scrubby stripling.",
+            "Speak with Mylla at the Gladiators' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "MYLLA",
+                "text": "It's time, <span class=\"highlight\">Forename</span>, the Ul Cup final. You have what it takes to win. Just fight as you always do, and the rest will follow."
+            },
+            {
+                "name": "OBSERVERSERVICE02574",
+                "text": "L-Ladies and gentlemen. It is my regret to inform you that Black Lotus has withdrawn from the match."
+            },
+            {
+                "name": "OBSERVERSERVICE02574",
+                "text": "In the absence of an opponent, the winner of the Ul Cup final is <span class=\"highlight\">Forename Surname</span> by default!"
+            },
+            {
+                "name": "MERCHANTVISITOR02574",
+                "text": "Hey, you don't think that those rumors could be true, do you?"
+            },
+            {
+                "name": "CRAFTSMANVISITOR02574",
+                "text": "What, that Black Lotus is Aldis, the gladiator who was banished from the Coliseum? Seems a little far-fetched, but you never know these things."
+            },
+            {
+                "name": "ADRIEN",
+                "text": "In an unexpected turn of events, Black Lotus, the winner of the Nald group, has withdrawn. I repeat, Black Lotus has withdrawn."
+            },
+            {
+                "name": "DOURMEADOW",
+                "text": "Twelve in a tangle, what in blazes is going on!?"
+            },
+            {
+                "name": "ADRIEN",
+                "text": "We will relay further information as soon as more becomes available. Please bear with us."
+            },
+            {
+                "name": "MYLLA",
+                "text": "What is the meaning of this?"
+            },
+            {
+                "name": "OBSERVERSERVICE02574",
+                "text": "A-Apologies, my lady, but I'm as much in the dark as you are. 'Twas the tournament registrar who spoke with Black Lotus on the matter."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Not even the organizers have full grasp of the situation..."
+            },
+            {
+                "name": "MYLLA",
+                "text": "It isn't uncommon for combatants to withdraw from a match, but when it does happen, more often than not something illicit is afoot."
+            },
+            {
+                "name": "MYLLA",
+                "text": "While some might consider “default” to be the sweetest word, I know that you do not. Nay, an unearned victory such as this rings hollow and brings you no satisfaction. As such, I have a mind to delve into what will certainly prove to be some dark places. May I rely on your help?"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Good. To begin with, let us go and ask the tournament registrar about his conversation with Black Lotus."
+            },
+            {
+                "name": "OBSERVERSERVICE02574",
+                "text": "A-Apologies, but I'm as much in the dark as you are. 'Twas the tournament registrar who spoke with Black Lotus on the matter."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Let us go and ask the tournament registrar about his conversation with Black Lotus."
+            },
+            {
+                "name": "ATTENDANT02574",
+                "text": "Yes, <span class=\"alternative-container\"><span class=\"alternative\">my lady</span><span class=\"alternative\">my lord</span></span>, Black Lotus came and informed me that he no longer wished to fight."
+            },
+            {
+                "name": "ATTENDANT02574",
+                "text": "This happened shortly after you entered the anteroom. I assumed he would follow suit, but instead he declared his withdrawal."
+            },
+            {
+                "name": "ATTENDANT02574",
+                "text": "Stunned as I was, by the time I had gathered my wits and thought to ask for his reason, he had spun on his heels and left."
+            },
+            {
+                "name": "ATTENDANT02574",
+                "text": "He was headed in the direction of Pearl Lane, I believe. If you wish to speak with him, I suggest you take your search there."
+            },
+            {
+                "name": "ATTENDANT02574",
+                "text": "If you wish to speak with Black Lotus, he was headed in the direction of Pearl Lane."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Were you able to learn anything?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "(-Black Lotus-)Well, I'd say it's time to come clean. Sharp as you are, you'd probably seen through the masquerade anyway."
+            },
+            {
+                "name": "ALDIS",
+                "text": "<span class=\"highlight\">Forename</span>, it's good to see you again. As myself, at any rate."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Let me guess: <span class=\"alternative-container\"><span class=\"alternative\">the heartbroken maiden demands to know why I abandoned her at the arena</span><span class=\"alternative\">you demand to know why I abandoned you at the arena</span></span>. I'll tell you that and more besides, but this stays between us, understood?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Since we took care of business with Leavold and I left Ul'dah, I've been roaming the land like a proper vagabond."
+            },
+            {
+                "name": "ALDIS",
+                "text": "In the course of which I helped a child in need. You've already met the little scamp. I came upon him one day, all on his lonesome, his face caked in dirt. A war orphan, like so many out there."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Upon learning what I do─did for a living, he decided that he must learn swordplay and begged me teach him. Wouldn't take no for an answer, the stubborn bugger, and he's been following me around ever since."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Now, those that came to me with threats, they mistook the boy for my own and took him hostage, and demanded that I pull out of the tournament."
+            },
+            {
+                "name": "ALDIS",
+                "text": "If it were just my own head, I wouldn't think twice about risking it, but I won't gamble with someone else's life. The boy may not be my flesh and blood, but he's in danger on my account. And here we are."
+            },
+            {
+                "name": "ALDIS",
+                "text": "What can I say? In spite of myself, I've taken to the rascal."
+            },
+            {
+                "name": "MYLLA",
+                "text": "I <span class=\"emphasis\">knew</span> it was you. From the moment we fought."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Mylla, my dear! You are as ravishing as ever!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Spare me! All this time and you couldn't bestir yourself to send a single godsdamned letter!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Easy on the anger, now. 'Twould be a right shame to line that beautiful face with wrinkles."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Th-That's neither here nor there! Now, tell me why have you returned!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "&lt;sigh&gt; As hasty as ever too, I see. If you must know, rumors had reached me of a free paladin named <span class=\"highlight\">Forename Surname</span> whose skills were beyond compare."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Precisely how far beyond compare had <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> skills become, I simply had to see─nay, test for myself. So I made my way back to Ul'dah."
+            },
+            {
+                "name": "ALDIS",
+                "text": "When I arrived, I learned that the prestigious Ul Cup had been revived. If <span class=\"highlight\">Forename</span> enters, I'd get my wish. If <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> doesn't, I'd just have to settle for winning the tournament and resuming my wanderings."
+            },
+            {
+                "name": "ALDIS",
+                "text": "With a little help from an old friend, I acquired an invitation and found myself a suitably menacing full-face helm. Being something of a pariah, it wouldn't do to be seen, you see."
+            },
+            {
+                "name": "MYLLA",
+                "text": "If you went through all that effort for the sake of fighting <span class=\"highlight\">Forename</span>, why did you withdraw?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Simply put? To make way for money. Not mine, mind you, but someone else's."
+            },
+            {
+                "name": "ALDIS",
+                "text": "As you know, a tournament of this scale sees stupendous sums of coin moved, and there are some who'd stop at nothing to ensure that it moves their way."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Well, it turns out that Black Lotus was standing between an especially unscrupulous crew and their fortune. And so they took my boy and threatened his life."
+            },
+            {
+                "name": "MYLLA",
+                "text": "...B-Boy?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Aye, well, it's a rather embarrassing tale. Let's save it for after I'm a few tankards in."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Someone wants you to win, <span class=\"highlight\">Forename</span>. At all costs. While I do not disagree with their choice of champion, their methods don't sit well with me."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Ah, but I'm afraid the rest will have to wait. The danger hasn't passed."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Though I did as I was told, they haven't kept their part of the bargain. I mean to mount a rescue, and for this I could use your help."
+            },
+            {
+                "name": "ALDIS",
+                "text": "I knew I could count on you. First of all, we must track down these match-fixing, child-abducting villains. For the sake of haste, let us split up and investigate. If you could ask after shady sorts in these parts, I'll see to the nearby areas."
+            },
+            {
+                "name": "MYLLA",
+                "text": "A-A child? When the hells did he...?"
+            },
+            {
+                "name": "ULDAHCITIZENA02574",
+                "text": "Shady sorts taking wagers on the Ul Cup? Haven't seen any myself, but safe to say they're out there. It's Ul'dah, after all."
+            },
+            {
+                "name": "ULDAHCITIZENB02574",
+                "text": "What? You here to laugh at me?"
+            },
+            {
+                "name": "ULDAHCITIZENB02574",
+                "text": "...Well, there's plenty 'round here hopin' to strike it rich quick. Don't know any bookmakers myself─don't have the coin for that─but someone's bound to."
+            },
+            {
+                "name": "ULDAHCITIZENC02574",
+                "text": "G-Gambling? M-Match-fixing? Whatever are you talking about?"
+            },
+            {
+                "name": "ULDAHCITIZENC02574",
+                "text": "...K-Kidnapping!? Oh, gods, I never imagined they'd go that─ Ahhh! Me and my big mouth!"
+            },
+            {
+                "name": "ULDAHCITIZENC02574",
+                "text": "&lt;sigh&gt; Alright, alright... I'll tell you what I know. Least I can do to clear my conscience."
+            },
+            {
+                "name": "ULDAHCITIZENC02574",
+                "text": "This black market bookmaker, he has no established base, the better to avoid the authorities, but right now he has a lackey near the Gate of Thal. Say to the fellow the words “Doubt the truth,” and he'll tell you where to go."
+            },
+            {
+                "name": "ULDAHCITIZENC02574",
+                "text": "Now, leave me be...and you didn't hear any of this from me!"
+            },
+            {
+                "name": "ULDAHCITIZENA02574",
+                "text": "Shady sorts taking wagers on the Ul Cup? Haven't seen any myself, but safe to say they're out there. It's Ul'dah, after all."
+            },
+            {
+                "name": "ULDAHCITIZENB02574",
+                "text": "As I said, there's plenty 'round here hopin' to strike it rich quick. Don't know any bookmakers myself─don't have the coin for that─but someone's bound to."
+            },
+            {
+                "name": "ULDAHCITIZENC02574",
+                "text": "This black market bookmaker has no established base, the better to avoid the authorities, but right now he has a lackey near the Gate of Thal. Say to the fellow the words “Doubt the truth,” and he'll tell you where to go."
+            },
+            {
+                "name": "MYLLA",
+                "text": "A child... I can't believe it..."
+            },
+            {
+                "name": "SUSPICIOUSMAN02574",
+                "text": "What're you gawpin' at? Piss off."
+            },
+            {
+                "name": "SUSPICIOUSMAN02574",
+                "text": "With the chat mode in <span class=\"highlight\">Say</span>, enter the password “Doubt the truth” to let the suspicious fellow know you are a customer."
+            },
+            {
+                "name": "SUSPICIOUSMAN02574",
+                "text": "...Oh, a customer. Collectin', are you? Then it's over by the Sultantree."
+            },
+            {
+                "name": "SUSPICIOUSMAN02574",
+                "text": "Just so you know, it might be a bit noisy. My mate there's, er...babysittin' at the moment."
+            },
+            {
+                "name": "SUSPICIOUSMAN02574",
+                "text": "Collection's over by the Sultantree. Just so you know, it might be a bit noisy. My mate there's, er...babysittin' at the moment."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Doubt the truth"
+            },
+            {
+                "name": "CAUTIOUSMAN02574",
+                "text": "Yeah? What you do you want?"
+            },
+            {
+                "name": "Q1",
+                "text": "What do you want? "
+            },
+            {
+                "name": "A1",
+                "text": "Your clothes, your boots, and your chocobo."
+            },
+            {
+                "name": "A1",
+                "text": "The child."
+            },
+            {
+                "name": "CAUTIOUSMAN02574",
+                "text": "You want my <span class=\"emphasis\">what</span>!? Whoever this clown is, get <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>!"
+            },
+            {
+                "name": "CAUTIOUSMAN02574",
+                "text": "One of Aldis's!? Get <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>!"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "You are under attack!"
+            },
+            {
+                "name": "CHILD02574",
+                "text": "&lt;sniff&gt; Are you a bad person, too? I want Uncle Aldy! &lt;sob&gt;"
+            },
+            {
+                "name": "MYLLA",
+                "text": "The child is unharmed?"
+            },
+            {
+                "name": "CHILD02574",
+                "text": "Uncle Aldy, I-I'm so sorry! If only I was stronger..."
+            },
+            {
+                "name": "ALDIS",
+                "text": "That's nothing a little training won't fix. By the way, have you thanked <span class=\"highlight\">Forename</span> here yet?"
+            },
+            {
+                "name": "CHILD02574",
+                "text": "Oh, right!"
+            },
+            {
+                "name": "CHILD02574",
+                "text": "Thanks for saving me, <span class=\"highlight\">Forename</span>! At first I thought you were one of the crooks, but you're a really nice person."
+            },
+            {
+                "name": "CHILD02574",
+                "text": "Oh, and you're really strong as well! I'm gonna train hard so I can be strong too and look after myself!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Allow me to thank you also, my friend. And lest you wonder, I haven't been idle either. I managed to find solid evidence implicating the ex-sellsword Odde, our friend whom you saw me having a chat with. The Brass Blades have been alerted to his shenanigans, and he'll trouble us no more."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Wait, did that boy just call you Uncle?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Aye, well, I'm a little too far gone to be his playmate. What of it?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Wait a minute─don't tell me you assumed he was...you know?"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Ahahaha! That certainly explains your black mood!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "To prevent further misunderstanding, he isn't mine. I chanced to help him and we became fast friends, is all."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Oh. Oh! W-Well, it's not like I cared or anything. It's just...given how long you were gone, I wouldn't have been surprised...is all."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Ahahaha! It takes a lot longer than that to grow 'em this big!"
+            },
+            {
+                "name": "MYLLA",
+                "text": "Th-This is nothing to laugh about!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "Ahhh, but it <span class=\"emphasis\">is</span>! &lt;sigh&gt; At any rate, all's well that ends well. It's just a pity the dream match between me and <span class=\"highlight\">Forename</span> could not be..."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Don't be so quick to give up. You've evidence that you were being threatened, have you not? I believe there's a good chance we can still make it happen."
+            },
+            {
+                "name": "MYLLA",
+                "text": "The Ul Cup generated such excitement as the Coliseum has not seen in generations. The organizers would have to be hopeless fools to forgo the chance to crown it off with a grand finale."
+            },
+            {
+                "name": "MYLLA",
+                "text": "I will lodge a formal petition in my capacity as guildmaster. The match <span class=\"emphasis\">will</span> take place, just you watch."
+            },
+            {
+                "name": "ALDIS",
+                "text": "Hah, that's my Mylla, as brilliant as you are beautiful!"
+            },
+            {
+                "name": "ALDIS",
+                "text": "The First Sword's as good as her word, my friend─our match is a guaranteed thing. When we finally meet in the arena, let us hold nothing back. And no hard feelings if I win, yes?"
+            },
+            {
+                "name": "MYLLA",
+                "text": "I will go and entrust the young one to the care of the Brass Blades. Pray come and see me at the guild afterwards."
+            },
+            {
+                "name": "MYLLA",
+                "text": "My thanks, <span class=\"highlight\">Forename</span>. With your help, not only were we able to save Aldis's boy, we may yet spare the tournament an unceremonious end. All that remains is to convince the organizers to host the final. Knowing them, though, it won't require much convincing."
+            },
+            {
+                "name": "MYLLA",
+                "text": "On the subject of the boy...I would thank you to keep my little misunderstanding to yourself. Ahem."
+            },
+            {
+                "name": "MYLLA",
+                "text": "Now then, I must be about my business. Until such time as the match is confirmed, take what rest you can. You will need it."
+            }
+        ],
+        "reward": {
+            "gil": 1447,
+            "xp": 232200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 68,
+                    "id": 20
+                }
+            ],
+            "quests": [
+                68109
+            ]
+        },
+        "next": [
+            68111
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001739",
+            "obj": {
+                "i": 1001739,
+                "n": "Mylla",
+                "l": 41,
+                "q": 16,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021271",
+            "obj": {
+                "i": 1021271,
+                "n": "Tournament Registrar",
+                "l": 41,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021377",
+            "obj": {
+                "i": 1021377,
+                "n": "Tournament Usher",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021378",
+            "obj": {
+                "i": 1021378,
+                "n": "Destitute Citizen",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021379",
+            "obj": {
+                "i": 1021379,
+                "n": "Wealthy Citizen",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021380",
+            "obj": {
+                "i": 1021380,
+                "n": "Skittish Citizen",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021381",
+            "obj": {
+                "i": 1021381,
+                "n": "Suspicious Fellow",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021382",
+            "obj": {
+                "i": 1021382,
+                "n": "Burly Bloke",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021383",
+            "obj": {
+                "i": 1021383,
+                "n": "Scrubby Stripling",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68109",
+            "obj": {
+                "i": 68109,
+                "n": "In Nald's Name",
+                "g": 147,
+                "l": "Ul'dah",
+                "s": 650,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68111",
+            "obj": {
+                "i": 68111,
+                "n": "Raising the Sword",
+                "g": 147,
+                "l": "Ul'dah",
+                "s": 700,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "quest": {
+        "name": "An Eye for Elixirs",
+        "location": "Northern Thanalan",
+        "id": 66581,
+        "patch": 2.0,
+        "sort": 490,
+        "eventIcon": 71221,
+        "issuer": 1006643,
+        "target": 1006643,
+        "genre": 93,
+        "journal": [
+            "Memezofu is once again in dire need of reagents.",
+            "Memezofu requires a pair of ahriman corneas to continue making medicine. Slay ahrimans to procure the reagent.",
+            "You now have two ahriman corneas. See them to Memezofu's hands.",
+            "Memezofu remarks that it takes only a bit of the reagent to cure a great many wounds, but the alchemist is fully aware that an onze of prevention is worth a ponze of cure."
+        ],
+        "objectives": [
+            "Slay ahrimans and obtain their corneas.",
+            "Deliver the ahriman corneas to Memezofu."
+        ],
+        "dialogue": [
+            {
+                "name": "MEMEZOFU",
+                "text": "I am loath to ask more of one who has already done so much, but rarely do I chance to meet such a reliable adventurer."
+            },
+            {
+                "name": "MEMEZOFU",
+                "text": "The winds of change blow constantly here on the fore, fanning the flames of war to burn ever faster through my stock of reagents."
+            },
+            {
+                "name": "MEMEZOFU",
+                "text": "In particular, I have urgent need of ahriman corneas at the moment, and fear I have no other I can ask. Might I trouble you to procure these for me?"
+            },
+            {
+                "name": "DUMMY",
+                "text": "Slay two ahrimans and acquire two ahriman corneas."
+            },
+            {
+                "name": "MEMEZOFU",
+                "text": "Magnificent! Precisely the reagent I requested. Its appearance is far from appetizing, I'll give you, but trust that its medicinal efficacy more than makes up for it."
+            },
+            {
+                "name": "MEMEZOFU",
+                "text": "This small sample shall suffice to synthesize a goodly amount of coagulant, which serves to stem bleeding."
+            },
+            {
+                "name": "MEMEZOFU",
+                "text": "I can naught but hope that an end to the bloodshed comes before an end to the salve does."
+            }
+        ],
+        "reward": {
+            "gil": 372,
+            "xp": 14210
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 49,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66580
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006643",
+            "obj": {
+                "i": 1006643,
+                "n": "Memezofu",
+                "l": 46,
+                "q": 3,
+                "t": "Flame Private"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66580",
+            "obj": {
+                "i": 66580,
+                "n": "The Life of the Party",
+                "g": 93,
+                "l": "Northern Thanalan",
+                "s": 490
+            }
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "quest": {
+        "name": "Swinophobia",
+        "location": "East Shroud",
+        "id": 66250,
+        "patch": 2.0,
+        "sort": 200,
+        "eventIcon": 71221,
+        "issuer": 1006189,
+        "target": 1006189,
+        "genre": 92,
+        "journal": [
+            "Piralnaut, a sentry at Josselin's Spire, would delegate some of his duties to an eager adventurer.",
+            "The wild boar population in the area has grown out of control, and furthermore, the beasts have turned hostile toward sylphs and local residents. Go to the Bramble Patch and cull five of the feral swine.",
+            "The feral swine have been dispatched. Report your success to Piralnaut.",
+            "Home to an aetheryte and overlooking a key hub of transportation in the realm, Josselin's Spire demands the utmost vigilance from its sentries. Your swine-slaying bravery has inspired Piralnaut, who resolves to be ever more vigilant in his duties."
+        ],
+        "objectives": [
+            "Slay wild boars.",
+            "Report to Piralnaut."
+        ],
+        "dialogue": [
+            {
+                "name": "PIRALNAUT",
+                "text": "Th-Those frightful snouts...tusks like unto spears...and the squealing! That dreadful squealing, a death hymn that haunts my dreams each night... Why, oh why, did I ever leave home to come <span class=\"emphasis\">here</span>?"
+            },
+            {
+                "name": "PIRALNAUT",
+                "text": "...Ahem. Hail, adventurer! Your sharp-eyed mien tells me you're keen to prove yourself, and─to your good fortune─I've a, uh, menial task ideal for one of your fair-to-middling abilities. Wild boars plague the Bramble Patch, and it's about time that someone culled the herd. Well? Hop to it, now."
+            },
+            {
+                "name": "PIRALNAUT",
+                "text": "P-Please, you have my vow! I shall wear boarskin armor no more! I will starve before I partake in the tiniest morsel of salted pork! Just make them go away!"
+            },
+            {
+                "name": "PIRALNAUT",
+                "text": "...Wh-What? The swine plague the Bramble Patch no more? Oh, <span class=\"emphasis\">thank you</span>, friend. To speak the truth of it, I have been plagued by a dreadful phobia of those tusked monstrosities in recent weeks."
+            },
+            {
+                "name": "PIRALNAUT",
+                "text": "But I realize this will not do. Josselin's Spire overlooks a hub of trade and military activity, and to shirk my duties would be a dishonor to the hero whose name the spire bears. You have instilled no small measure of courage in me today, friend, and for this I am grateful."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 7621
+                },
+                {
+                    "num": 3,
+                    "id": 4552,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 4060
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66249
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006189",
+            "obj": {
+                "i": 1006189,
+                "n": "Piralnaut",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "7621",
+            "obj": {
+                "i": 7621,
+                "n": "Glamour Dispeller",
+                "l": 30,
+                "c": 26228,
+                "t": 60,
+                "p": 500
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66249",
+            "obj": {
+                "i": 66249,
+                "n": "Stand-in Sentry",
+                "g": 92,
+                "l": "East Shroud",
+                "s": 200
+            }
+        }
+    ]
+}

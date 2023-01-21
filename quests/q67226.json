@@ -1,0 +1,185 @@
+{
+    "quest": {
+        "name": "Days of Azure",
+        "location": "Coerthas Central Highlands",
+        "id": 67226,
+        "patch": 3.0,
+        "sort": 520,
+        "icon": 100489,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006748,
+        "target": 1013445,
+        "involved": [
+            1013441
+        ],
+        "genre": 150,
+        "journal": [
+            "Heustienne is ready for her first lesson, and Ser Alberic would direct your steps to her.",
+            "Ser Alberic informs you that Heustienne is ready for her first lesson. Having offered you some words of advice, he bids you go to the western highlands of Coerthas. You will find your pupil near the Pike, testing her lancework against dragons.",
+            "You arrive to find Heustienne overwhelmed by dragons. Having dispatched the creatures and secured the area, return your attention to your pupil.",
+            "Heustienne thanks you for your timely arrival, and explains that her predicament was the result of an unsuccessful attempt to mimic your unique style. In order to avoid a recurrence, do as your pupil bids and give her a formal demonstration of your abilities. Follow her to the area west of the Black Iron Bridge, and lie in wait for dragons. When the creatures appear, strike them down with your sublime lancework.",
+            "You have demonstrated your transcendent abilities to Heustienne, who appears at once impressed and perplexed. Ask her what she thinks of your display.",
+            "Heustienne struggles to see how your lancework differs from her own. Though you are unable to answer her questions, in your earnest attempt to do so, you experience an epiphany which inspires you to create a new technique.<br><br>※The next dragoon quest is available from Heustienne to the northwest of the Black Iron Bridge."
+        ],
+        "objectives": [
+            "Speak with Heustienne near the Pike.",
+            "Speak with Heustienne.",
+            "Lie in wait at the specified location and defeat any enemies that appear.",
+            "Speak with Heustienne."
+        ],
+        "dialogue": [
+            {
+                "name": "ALBERIC",
+                "text": "Greetings, <span class=\"highlight\">Forename</span>. You look very much a teacher today. That is well, for Heustienne is eager for her first lesson."
+            },
+            {
+                "name": "ALBERIC",
+                "text": "Now, though you agreed to accept her as your pupil, I suspect that you are not without reservation. You worry whether you will be equal to the task. Well, worry not─I have every confidence that you will make a fine mentor."
+            },
+            {
+                "name": "ALBERIC",
+                "text": "Were I to offer you advice, however, it would be to have patience. Though Heustienne is a master of her art, it is all she has ever known. As such, it may prove a challenge for her to adapt. And like all of us, she is not without pride, and there will be times when tact is required."
+            },
+            {
+                "name": "ALBERIC",
+                "text": "I must also mention that Heustienne is zealous to a fault. I worry that she will overexert herself in her pursuit of strength.<br>...But I am keeping you from your lesson. Heustienne left word that she would be in the western highlands, testing her lance against dragon spawn. Seek her out near the Pike."
+            },
+            {
+                "name": "ALBERIC",
+                "text": "Heustienne has gone to the western highlands of Coerthas. Seek her out near the Pike."
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "&lt;pant&gt; There are too many... L-Look out!"
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "I owe you a debt of gratitude. &lt;sigh&gt; Our lessons have not even begun, and already you have seen me on my knees... I had been trying to match what lancework of yours I'd seen, but without success. That was how the dragons managed to overwhelm me."
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "Had I but fallen back on my tried and trusted techniques, I would have made short work of their ilk. But what would I have learned, then? Nay, what I know is no longer enough."
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "The war exacts a heavy toll on us all, but none more so than we dragoons. If we are to survive, we must grow stronger─<span class=\"emphasis\">I</span> must grow stronger!"
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "<span class=\"highlight\">Forename</span>, will you demonstrate your techniques to me? I would study your movements up close."
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "...Aye, I suppose you have the right of it. There is no substitute for live foes. Come with me, then─there is a suitable place west of the Black Iron Bridge."
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "This is the spot. Lie in wait long enough, and dragons will surely appear."
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "Hmmm... The techniques you employ differ not from mine, yet you overcome the enemy with such ease..."
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "What is it that separates us so? What is it that you are doing that I am not?"
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "...Did I hear you rightly?"
+            },
+            {
+                "name": "HEUSTIENNE",
+                "text": "You see no difference between our lancework, but in the course of considering this, you conceived a new technique!?"
+            }
+        ],
+        "reward": {
+            "gil": 816,
+            "action": 3557,
+            "xp": 26400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 52,
+                    "id": 23
+                }
+            ],
+            "quests": [
+                67225
+            ]
+        },
+        "next": [
+            67227
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006748",
+            "obj": {
+                "i": 1006748,
+                "n": "Alberic",
+                "l": 63,
+                "q": 17
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013445",
+            "obj": {
+                "i": 1013445,
+                "n": "Heustienne",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013441",
+            "obj": {
+                "i": 1013441,
+                "n": "Heustienne",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "action",
+            "id": "3557",
+            "obj": {
+                "i": 3557,
+                "n": "Battle Litany",
+                "c": 2585,
+                "j": 22,
+                "t": 4,
+                "l": 52
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67225",
+            "obj": {
+                "i": 67225,
+                "n": "Sky's the Limit",
+                "g": 150,
+                "l": "Coerthas Central Highlands",
+                "s": 500,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67227",
+            "obj": {
+                "i": 67227,
+                "n": "Heart of Justice",
+                "g": 150,
+                "l": "Coerthas Western Highlands",
+                "s": 521,
+                "f": 1
+            }
+        }
+    ]
+}

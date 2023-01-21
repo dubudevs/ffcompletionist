@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Before They Are Tempered",
+        "location": "Southern Thanalan",
+        "id": 66775,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005551,
+        "target": 1005551,
+        "genre": 35,
+        "journal": [
+            "Narujj Boh requests your aid in preventing the creation of a new wave of tempered.",
+            "Appalled at the boldness of his demented kin and the success of their kidnapping efforts, Narujj Boh bids you assist the Brotherhood in preventing the ranks of the tempered from growing ever more numerous. You are to ambush Flamefang ravagers in the Zanr'ak encampment, and seize from them the cage keys they hold.",
+            "You have obtained the cage keys from the Flamefang ravagers. Locate the makeshift cages in the Zanr'ak encampment, and free the prisoners from their unfortunate fate.",
+            "You have freed the captives from the Amalj'aa cages. Return to the Ring of Ash and report to Narujj Boh.",
+            "Narujj Boh is impressed with the courage and ability you displayed in plucking the captives straight from the jaws of the Flamefangs. As you continue to prove your worth as an ally, the Brotherhood warrior is encouraged to look to his own training."
+        ],
+        "objectives": [
+            "Ambush Flamefang ravagers at the designated locations and obtain cage keys.",
+            "Use cage keys to open makeshift cages.",
+            "Report to Narujj Boh."
+        ],
+        "dialogue": [
+            {
+                "name": "NARUJIBOH",
+                "text": "Though we work tirelessly to sabotage the plans of the Flamefangs, we cannot prevent every raid or ambush. The flow of kidnapping victims into Zahar'ak has been endless of late..."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Our demented kin brazenly stalk the lands around Camp Drybone and Little Ala Mhigo, snatching travelers from the roads be it dusk or dawn, or under the unblinking glare of the midday sun."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "The Flamefangs have grown so adept at their detestable trade that they are forced to take their prisoners first to the Zanr'ak encampment, there to be kept in makeshift cages until Ifrit's clergy are ready to receive them."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Our latest reconnaissance informs us that Zanr'ak is host to a group of captives even as we speak. If we do not act swiftly, the ranks of the tempered will soon welcome a new wave of recruits."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "I bid you ambush the Flamefang ravagers for the keys they hold, and free those unfortunate souls before it is too late."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Seize the keys from Flamefang ravagers, and liberate the prisoners from their cages!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "POP",
+                "text": "The enemy is still about!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Freed Prisoner-)I never dared to hope that help was coming. Please... There may be others..."
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Freed Prisoner-)Thank you! Oh, thank you! I had all but resigned myself to being a beastman slave!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Freed Prisoner-)Well, if you ain't a sight for sore eyes, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">son</span></span>. Ain't never been so happy to see a 'venturer!"
+            },
+            {
+                "name": "PRISONER",
+                "text": "(-Freed Prisoner-)&lt;sob&gt; Thank the gods! And you, of course! But mostly the gods!"
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Prying those prizes from the very maw of the Flamefangs was no simple task. It is no mystery to me why the warleader chose to place his trust in you."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Your deeds grow more impressive with each passing day, honored ally. I am inspired to work harder on my own martial improvement."
+            }
+        ],
+        "reward": {
+            "gil": 660,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9693
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005551",
+            "obj": {
+                "i": 1005551,
+                "n": "Narujj Boh",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "quest": {
+        "name": "Forged in Flame",
+        "location": "Southern Thanalan",
+        "id": 66770,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005551,
+        "target": 1005551,
+        "genre": 35,
+        "journal": [
+            "Narujj Boh is troubled by reports of frenzied nighttime rituals.",
+            "Narujj Boh shares with you news of a new form of ritual taking place at the Zanr'ak altar. He asks that you search the area of the Zanr'ak encampment and altar for weapon caches, and seize the armaments scouts claim were enchanted with unholy flames.",
+            "You have obtained the flame-sanctified weapons. Return to the Ring of Ash, and deliver the armaments to Narujj Boh.",
+            "You have brought the enchanted weapons to the Ring of Ash. Narujj Boh seems amused at the time and effort his foes have invested, only to have their new toys taken away. Pleased by your deeds, the proud warrior suggests you take your rest until your next task is decided."
+        ],
+        "objectives": [
+            "Obtain flame-sanctified weapons from heavy arms crates in the vicinity of the Zanr'ak encampment and altar.",
+            "Deliver the flame-sanctified weapons to Narujj Boh."
+        ],
+        "dialogue": [
+            {
+                "name": "NARUJIBOH",
+                "text": "Every evening after the sun has sunk below the horizon, there has been frenzied activity at the chief Zanr'ak altar. Our scouts report some manner of ritual involving a growing number of well-crafted weapons."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Considering the single-minded ambitions of our enemies, I assume they are attempting to imbue these armaments with the blessings of their god. We cannot allow such weapons to be brought against us."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Though I would sooner smash their tainted altar into a thousand pieces, I will settle for wresting from them the efforts of their misguided prayers. Honored ally, would you undertake this task, and seize these flame-sanctified weapons from the stores of our twisted kin?"
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Once we have the blessed armaments in our possession, our mystics will unlock the secrets of their power and learn how to dispel the enchantments. This new threat will not long plague us."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Scour the grounds of the Zanr'ak encampment and altar, and liberate the flame-sanctified weapons from the stores of our vile kin."
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Honored ally. I trust you have returned with the armaments of our foes?"
+            },
+            {
+                "name": "NARUJIBOH",
+                "text": "Yes, the heat of their searing enchantments is palpable even to a simple warrior such as me. Hah! The lengthy nighttime rituals of the Zahar'ak Amalj'aa come to naught! Rest now, warrior─you have done well."
+            }
+        ],
+        "reward": {
+            "gil": 660,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9693
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005551",
+            "obj": {
+                "i": 1005551,
+                "n": "Narujj Boh",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

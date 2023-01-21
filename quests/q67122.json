@@ -1,0 +1,270 @@
+{
+    "quest": {
+        "name": "From on High",
+        "location": "Coerthas Western Highlands",
+        "id": 67122,
+        "patch": 3.0,
+        "sort": 7,
+        "eventIcon": 71201,
+        "issuer": 1011241,
+        "target": 1011231,
+        "involved": [
+            1011903
+        ],
+        "genre": 3,
+        "journal": [
+            "Before you return to Falcon's Nest, Thierremont has a favor to ask.",
+            "Thierremont has always appreciated the kindness shown to him by Ser Ysaudore, a knight stationed at the observation post to the west known as the Anvil. For that reason, he wishes to return to her a package he believes she left behind by accident during her last visit. Deliver the package as bade and see if Ser Ysaudore recognizes it.",
+            "Torn between decorum and her desire to do right by the hardworking mason, Ser Ysaudore deliberately left behind the package of extra rations, believing that Thierremont would understand her gesture. Alas, he did not, and now the food has gone to waste. As there is nothing to be done, return to Falcon's Nest and report to Ser Redwald.",
+            "Tales of your various deeds have reached Ser Redwald's ears, giving him cause to applaud your initiative. However, he has not the time to thank you properly, as a sudden development has him scrambling to dispatch every able-bodied man and woman."
+        ],
+        "objectives": [
+            "Deliver the ice-crusted bundle to Ysaudore at the Anvil.",
+            "Report to Redwald."
+        ],
+        "dialogue": [
+            {
+                "name": "THIERREMONT",
+                "text": "Are you for Falcon's Nest? If so, I've a favor to ask."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "There's this knight, Ser Ysaudore, stationed at the Anvil to the west of here. She's always treated me with kindness and respect─more than I deserve, to be honest..."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "Anyroad, while you were away, she came through on patrol, and I think she might have left a package behind."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "It's a bit of a detour, but would you mind returning it to her? My thanks to you, friend."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "You should be able to find Ser Ysaudore at the Anvil, to the west of here."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "It's not on the way to Falcon's Nest, I know, but, well...I'm fairly certain that belongs to her, and since I can't leave the Pike unattended..."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "What's that? A package? I haven't the foggiest what you're talking about."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "Confound it, that fool of a... &lt;sigh&gt; What a waste."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "It was a <span class=\"emphasis\">gift</span>, adventurer. Thierremont labors day and night without regard for his own well-being. At the very least, he ought to try to eat better."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "...Why not simply give it to him? By the Fury, have you no sense of decorum? A highborn knight cannot be seen favoring a lowborn mason in such a manner!"
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "Nevertheless, I appreciate your concern, as well as your willingness to assist Thierremont."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "May your journey back to Falcon's Nest be safe and swift. Pray give my regards to Ser Redwald."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "Caught between a pike and anvil of my own─ Oh, you're still here! Ahem, er... Pray communicate my warmest regards to Ser Redwald...and nothing else."
+            },
+            {
+                "name": "REDWALD",
+                "text": "I must applaud your initiative, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. Rothe tells me you have been quite busy."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Alas, we have not the time to thank you properly. I have a task to which I would commit all able-bodied men and women─you and Lord Artoirel included."
+            }
+        ],
+        "reward": {
+            "gil": 517,
+            "items": [
+                {
+                    "id": 10684,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10726,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10768,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10852,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67121
+            ]
+        },
+        "next": [
+            67123,
+            67271,
+            67272
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011241",
+            "obj": {
+                "i": 1011241,
+                "n": "Thierremont",
+                "l": 2200,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011231",
+            "obj": {
+                "i": 1011231,
+                "n": "Redwald",
+                "l": 2200,
+                "q": 17
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011903",
+            "obj": {
+                "i": 1011903,
+                "n": "Ysaudore",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10684",
+            "obj": {
+                "i": 10684,
+                "n": "Mythrite Gauntlets of Fending",
+                "l": 115,
+                "c": 48502,
+                "t": 37,
+                "p": 15301
+            }
+        },
+        {
+            "type": "item",
+            "id": "10726",
+            "obj": {
+                "i": 10726,
+                "n": "Mythrite Gauntlets of Maiming",
+                "l": 115,
+                "c": 48503,
+                "t": 37,
+                "p": 15301
+            }
+        },
+        {
+            "type": "item",
+            "id": "10768",
+            "obj": {
+                "i": 10768,
+                "n": "Archaeoskin Gloves of Striking",
+                "l": 115,
+                "c": 44361,
+                "t": 37,
+                "p": 12751
+            }
+        },
+        {
+            "type": "item",
+            "id": "10852",
+            "obj": {
+                "i": 10852,
+                "n": "Rainbow Halfgloves of Scouting",
+                "l": 115,
+                "c": 44362,
+                "t": 37,
+                "p": 10200
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67121",
+            "obj": {
+                "i": 67121,
+                "n": "The First and Foremost",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67123",
+            "obj": {
+                "i": 67123,
+                "n": "Reconnaissance Lost",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 8
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67271",
+            "obj": {
+                "i": 67271,
+                "n": "Dances with Wolves",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5002
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67272",
+            "obj": {
+                "i": 67272,
+                "n": "Grandfather's Belongings",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5003
+            }
+        }
+    ]
+}

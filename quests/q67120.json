@@ -1,0 +1,223 @@
+{
+    "quest": {
+        "name": "Work in Progress",
+        "location": "Coerthas Western Highlands",
+        "id": 67120,
+        "patch": 3.0,
+        "sort": 5,
+        "eventIcon": 71201,
+        "issuer": 1011231,
+        "target": 1011236,
+        "genre": 3,
+        "journal": [
+            "Ser Redwald would have you assist the craftsmen rebuilding the fortifications of Falcon's Nest.",
+            "According to Ser Redwald, Rothe, the foreman who coordinates the efforts of the craftsmen rebuilding the fortifications of Falcon's Nest, has need of a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> with your talents. Speak with the man himself to learn more.",
+            "Rothe is convinced that errant icicle sprites residing in the hamlet are the cause of recent delays. Keep watch for the sprites and slay them if they appear.",
+            "It would seem that Rothe was correct, as you discover and slay numerous icicle sprites within the walls of Falcon's Nest. Deliver the good news to the foreman.",
+            "Rothe has nothing but praise for your deeds, deeming you the sort of <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> needed at a time like this. If your other tasks go as smoothly as this, perhaps your time in Falcon's Nest will pass more quickly than expected..."
+        ],
+        "objectives": [
+            "Speak with Rothe.",
+            "Search Falcon's Nest for icicle sprites.",
+            "Report to Rothe."
+        ],
+        "dialogue": [
+            {
+                "name": "REDWALD",
+                "text": "Several craftsmen in service to House Dzemael are contributing to the restoration of Falcon's Nest."
+            },
+            {
+                "name": "REDWALD",
+                "text": "These men and women are quite skilled at building and repairing fortifications, but their progress has been hampered by a number of factors."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Rothe, their foreman, tells me he has need of a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> with your talents. Would you be so kind as to seek him out?"
+            },
+            {
+                "name": "ARTOIREL",
+                "text": "Ser Redwald and I discussing how to deal with the heretics in this region. In the meantime, I ask that you see to other matters."
+            },
+            {
+                "name": "REDWALD",
+                "text": "Have you spoken with Rothe yet? He was asking after an assistant not long ago."
+            },
+            {
+                "name": "ROTHE",
+                "text": "Hm? Yes, I'm Rothe, and who might you be...?"
+            },
+            {
+                "name": "ROTHE",
+                "text": "Ah, the promised help! Glad to have you aboard!"
+            },
+            {
+                "name": "ROTHE",
+                "text": "I've the honor of overseein' this fine mess you see before you. Sent me over on one of them black birds, same as you, to build and mend and tell others how to build and mend. But Fury take me, this ice! It's bloody unnatural how fast it forms!"
+            },
+            {
+                "name": "ROTHE",
+                "text": "It's icicle sprites, I tell you. Mark my words, there're pockets of 'em here and there, just waitin' for me to turn my back so they can sneak out and do their dirty work! So I need you to search the hamlet and put an end to it. If you stand watch long enough, you're sure to find 'em."
+            },
+            {
+                "name": "ROTHE",
+                "text": "I'm not mad, dammit! It's those bloody icicle sprites, gallivantin' around when no one's lookin'. Stand still long enough and you'll see!"
+            },
+            {
+                "name": "ROTHE",
+                "text": "Hah! Now there's a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> what looks like <span class=\"alternative-container\"><span class=\"alternative\">she's</span><span class=\"alternative\">he's</span></span> found <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> marks!"
+            },
+            {
+                "name": "ROTHE",
+                "text": "You're just the sort we need around here─the kind that'll hop to when <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> sees a task undone!"
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "items": [
+                {
+                    "id": 10677,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10719,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10761,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10845,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67119
+            ]
+        },
+        "next": [
+            67121
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011231",
+            "obj": {
+                "i": 1011231,
+                "n": "Redwald",
+                "l": 2200,
+                "q": 17
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011236",
+            "obj": {
+                "i": 1011236,
+                "n": "Rothe",
+                "l": 2200,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "10677",
+            "obj": {
+                "i": 10677,
+                "n": "Mythrite Hauberk of Fending",
+                "l": 115,
+                "c": 48080,
+                "t": 35,
+                "p": 21312
+            }
+        },
+        {
+            "type": "item",
+            "id": "10719",
+            "obj": {
+                "i": 10719,
+                "n": "Mythrite Hauberk of Maiming",
+                "l": 115,
+                "c": 48081,
+                "t": 35,
+                "p": 21312
+            }
+        },
+        {
+            "type": "item",
+            "id": "10761",
+            "obj": {
+                "i": 10761,
+                "n": "Rainbow Bolero of Striking",
+                "l": 115,
+                "c": 42453,
+                "t": 35,
+                "p": 14208
+            }
+        },
+        {
+            "type": "item",
+            "id": "10845",
+            "obj": {
+                "i": 10845,
+                "n": "Rainbow Shirt of Scouting",
+                "l": 115,
+                "c": 42454,
+                "t": 35,
+                "p": 14208
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67119",
+            "obj": {
+                "i": 67119,
+                "n": "Over the Wall",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67121",
+            "obj": {
+                "i": 67121,
+                "n": "The First and Foremost",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 6
+            }
+        }
+    ]
+}

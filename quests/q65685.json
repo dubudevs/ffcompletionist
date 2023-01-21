@@ -1,0 +1,81 @@
+{
+    "quest": {
+        "name": "Due Diligence",
+        "location": "Ul'dah",
+        "id": 65685,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1001285,
+        "target": 1002278,
+        "genre": 93,
+        "journal": [
+            "Wymond would like to know what you think of Ul'dah.",
+            "Ever the consummate professional, Wymond has taken the opportunity to task you with a delivery. Do as bade and take his message to Josias at the Pugilists' Guild inside the Platinum Mirage.",
+            "The Pugilists' Guild offers protective services, but only to those who can afford it. The unsigned envelope contained the assessment of a petitioner whose finances were found lacking. Alas, the Platinum Mirage is not a charity."
+        ],
+        "objectives": [
+            "Deliver the unsigned envelope to Josias."
+        ],
+        "dialogue": [
+            {
+                "name": "WYMOND",
+                "text": "So, how're you takin' to Ul'dah, <span class=\"highlight\">Forename</span>? <span class=\"alternative-container\"><span class=\"alternative\">Eh? How do I know your name? Heh! Information is my stock and trade, 'venturer. You'd be amazed by what I know.</span><span class=\"alternative\">Make any new friends in high places yet? Hah! Well, when you have the sultana's ear one day, I hope you won't have forgotten about ol' Wymond!</span></span>"
+            },
+            {
+                "name": "WYMOND",
+                "text": "Long as you're here, mayhap you can do me a favor an' take this missive to Josias at the Platinum Mirage."
+            },
+            {
+                "name": "WYMOND",
+                "text": "It's just over yonder, an' the man'll even give you some gil for your trouble. If only all work in the city was this easy, eh?"
+            },
+            {
+                "name": "GAGARUNA",
+                "text": "Do you have business with the Platinum Mirage <span class=\"alternative-container\"><span class=\"alternative\">this evening</span><span class=\"alternative\">this morning</span><span class=\"alternative\">today</span></span>?"
+            },
+            {
+                "name": "GAGARUNA",
+                "text": "A missive from Wymond? Alright then, let's have a look..."
+            },
+            {
+                "name": "GAGARUNA",
+                "text": "\"Bird is barren. Let the hounds feast.“ &lt;sigh&gt; So it goes."
+            },
+            {
+                "name": "GAGARUNA",
+                "text": "Oh, this? Well you see, the guild is often contracted to provide protective services. Unfortunately for this particular petitioner, Wymond's investigation has revealed his finances to be...wanting."
+            },
+            {
+                "name": "GAGARUNA",
+                "text": "Maybe adventurers like you don't mind working for free, but we have a business to run. I myself have four mouths to feed, so this <span class=\"emphasis\">bird</span> will have to fend for himself, I'm afraid."
+            }
+        ],
+        "reward": {
+            "gil": 103,
+            "xp": 50
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001285",
+            "obj": {
+                "i": 1001285,
+                "n": "Wymond",
+                "l": 40,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002278",
+            "obj": {
+                "i": 1002278,
+                "n": "Josias",
+                "l": 40,
+                "q": 1
+            }
+        }
+    ]
+}

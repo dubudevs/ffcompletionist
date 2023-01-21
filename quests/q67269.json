@@ -1,0 +1,154 @@
+{
+    "quest": {
+        "name": "Stolen Goods",
+        "location": "Coerthas Western Highlands",
+        "id": 67269,
+        "patch": 3.0,
+        "sort": 5006,
+        "icon": 100466,
+        "eventIcon": 71221,
+        "issuer": 1013709,
+        "target": 1014123,
+        "genre": 94,
+        "journal": [
+            "Auriaune is lost in thought.",
+            "A large amount of supplies were recently stolen from Falcon's Nest. Auriaune asks you to be on the lookout for a group of suspicious characters moving a large crate of Ishgardian supplies in the Coerthas area.",
+            "You have found the thieves and dealt with them. Return the stolen crate to Auriaune at Falcon's Nest.",
+            "Auriaune thanks you for recovering the stolen goods. She also finds something curious within the crate: a feather ornament. She is able to identify it as being from the Sixth Astral Era, but can tell no more than that. She asks you to take it to Sigan, a local man who collects relics from that period.",
+            "Sigan thanks you for the ornament. He points out that they were a common sight in Falcon's Nest─before the Calamity, that is."
+        ],
+        "objectives": [
+            "Find the stolen supplies.",
+            "Deliver the supplies to Auriaune.",
+            "Deliver the ornament to Sigan."
+        ],
+        "dialogue": [
+            {
+                "name": "AURIAUNE",
+                "text": "I look worried, you say? Nothing of the sort. I was simply thinking about something─the rebuilding of Falcon's Nest, in fact."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "The damage from the Calamity─and the freezing winds it brought with it─was tremendous. Even the rats fled, driven out by the cold."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "With the impostor Guillaime dealt with, we can move forward with the rebuilding of the fortifications. I'm truly delighted─and proud─to be a part of it. But it's no simple task."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "The heretic's various supporters are obviously still a major concern. And the High Houses still have their squabbles and their disputes with the citizenry. Frankly, there's no end to the difficulties we face."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "Just yesterday, some valuable supplies went missing─stolen from within this very fortress, right beneath our noses!"
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "We've no leads, and we don't have the resources to scour the highlands looking for these supplies. But if you happen to see a group of suspicious-looking fellows carrying a large crate with them, it may well be our stolen goods. Please recover them for us."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "Have you seen any suspicious people carrying a crate of stolen Ishgardian supplies?"
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "Have you found the stolen supplies?"
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "Yes, yes! This is the very crate that was stolen. This looks very much like the heretics' handiwork."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "...But there's something in here that shouldn't be. A feather ornament? Whatever could it mean...?"
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "It looks like a type of ornament that was popular in Falcon's Nest before the Calamity. This sort of thing is of no use to us here─a mere decorative trinket. But there is someone who might be interested in it."
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "There's a humorless old man named Sigan who collects antiques from the small mountain village that used to be here at Falcon's Nest. I'm sure he'd love to take a look at something like this. Do you think you could do me a favor and take it to him?"
+            },
+            {
+                "name": "AURIAUNE",
+                "text": "Have you taken that ornament to Sigan yet?"
+            },
+            {
+                "name": "SIGAN",
+                "text": "Hm? Did you want something?"
+            },
+            {
+                "name": "SIGAN",
+                "text": "Ah, you used to see these all the time before the Calamity─back before Falcon's Nest ended up looking like this."
+            },
+            {
+                "name": "SIGAN",
+                "text": "This brings back some memories. You say it was left with supplies stolen by the heretics? ...Well, thank you, in any case."
+            }
+        ],
+        "reward": {
+            "gil": 714,
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67119
+            ]
+        },
+        "next": [
+            67270
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013709",
+            "obj": {
+                "i": 1013709,
+                "n": "Auriaune",
+                "l": 2200,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014123",
+            "obj": {
+                "i": 1014123,
+                "n": "Sigan",
+                "l": 2200,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67119",
+            "obj": {
+                "i": 67119,
+                "n": "Over the Wall",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67270",
+            "obj": {
+                "i": 67270,
+                "n": "Memories in the Snow",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5007
+            }
+        }
+    ]
+}

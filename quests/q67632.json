@@ -1,0 +1,158 @@
+{
+    "quest": {
+        "name": "Beloved of the Builder",
+        "location": "Mor Dhona",
+        "id": 67632,
+        "patch": 3.0,
+        "sort": 550,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1013395,
+        "target": 1012179,
+        "genre": 95,
+        "journal": [
+            "Lydirlona thinks you might benefit from becoming a specialist.",
+            "Judging you to be a rather skilled crafts<span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>, Lydirlona suggests that it might be in your best interests to become a specialist. She instructs you to seek out Alderan, a master craftsman in Ishgard, and present to him her letter that he might show you the way.",
+            "Intrigued by Lydirlona's endorsement, Alderan tells you that it is only right that those with talent learn every trade. However, even masters must come to terms with their limitations, for one can specialize in no more than three disciplines. He gives you a Soul of the Crafter and bids you decide which trades are most important to you. When you have reached a decision, he will be waiting to guide you on your new journey."
+        ],
+        "objectives": [
+            "Deliver the letter to Alderan in the Pillars."
+        ],
+        "dialogue": [
+            {
+                "name": "LYDIRLONA",
+                "text": "Given your talents as <span class=\"alternative-container\"><span class=\"alternative\">an [Job]</span><span class=\"alternative\">a [Job]</span></span>, I must ask: have you considered becoming a specialist?"
+            },
+            {
+                "name": "LYDIRLONA",
+                "text": "If I may, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>─you are a rather accomplished [Job], are you not? Have you perchance considered becoming a specialist?"
+            },
+            {
+                "name": "LYDIRLONA",
+                "text": "Such a decision is not to be made lightly, of course, but I think it might be in your best interests."
+            },
+            {
+                "name": "LYDIRLONA",
+                "text": "Seek Alderan, the master craftsman, in Ishgard. Show him this letter, and he will show you the way."
+            },
+            {
+                "name": "LYDIRLONA",
+                "text": "There is much to be gained by becoming a specialist. But do not take my word for it. Alderan can tell you more."
+            },
+            {
+                "name": "ARDERAN",
+                "text": "I have forged weapons and armor for heroes and catered banquets for royalty. I have concocted potions to heal the dying, woven great banners for nations, and just last week I won the Ishgardian Fine Woodworking Association Award for best chair. What have <span class=\"emphasis\">you</span> built of late?"
+            },
+            {
+                "name": "ARDERAN",
+                "text": "Oho, so Lydirlona thinks you have skill enough to become a specialist, does she? Hmm. She has yet to steer me wrong..."
+            },
+            {
+                "name": "ARDERAN",
+                "text": "We whom the Builder has blessed with talent are tempted to learn every trade─as we should."
+            },
+            {
+                "name": "ARDERAN",
+                "text": "That said, even we masters must come to accept our limitations. One can specialize in no more than three."
+            },
+            {
+                "name": "ARDERAN",
+                "text": "You must decide which disciplines are most important to you─and which ones are but passing fancies."
+            },
+            {
+                "name": "ARDERAN",
+                "text": "If the Builder does indeed guide your hands, then I would see them set to purpose. Come─take this Soul of the Crafter."
+            },
+            {
+                "name": "ARDERAN",
+                "text": "For now, it is but a token of what you may yet become."
+            },
+            {
+                "name": "ARDERAN",
+                "text": "When you have chosen your path, present it to me, and your journey as a specialist will begin."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You can now specialize in crafting disciplines!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "By trading a <span class=\"highlight\">Soul of the Crafter</span> to Alderan, you can obtain a specialized soul which will allow you to become a <span class=\"highlight\">specialist</span> in that particular discipline."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Specialists will be able to access unique actions that allow for more efficient and higher-quality synthesis in their specialized fields."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Please note that you may select no more than three different disciplines in which to specialize."
+            }
+        ],
+        "reward": {
+            "gil": 490,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 10336
+                }
+            ],
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 33
+                }
+            ],
+            "quests": [
+                67118
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013395",
+            "obj": {
+                "i": 1013395,
+                "n": "Lydirlona",
+                "l": 67,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012179",
+            "obj": {
+                "i": 1012179,
+                "n": "Alderan",
+                "l": 2301,
+                "q": 1,
+                "t": "Specialist"
+            }
+        },
+        {
+            "type": "item",
+            "id": "10336",
+            "obj": {
+                "i": 10336,
+                "n": "Soul of the Crafter",
+                "l": 1,
+                "c": 26051,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67118",
+            "obj": {
+                "i": 67118,
+                "n": "The Better Half",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 3
+            }
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "quest": {
+        "name": "The Caelumtree Wine Spree",
+        "location": "The Dravanian Forelands",
+        "id": 67804,
+        "patch": 3.2,
+        "sort": 14,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 7,
+        "eventIcon": 71222,
+        "issuer": 1016803,
+        "target": 1016855,
+        "genre": 47,
+        "journal": [
+            "The Vath keeneye looks at you, a puzzled glimmer in his hard beady eyes.<br>※The difficulty of this quest will be synced to your current level.",
+            "Despite finding the concept of drinking alcohol to be extremely unappealing, the Vath keeneye turns out to be a dab hand at making wines, and his home-brew causes quite a stir over at the Convictory. Overwhelmed by the amount he has been asked to produce, he turns to you for assistance. Make your way to the Chocobo Forest and gather three ripe caelumtree fruits.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You have found three ripe caelumtree fruits. Return to Loth ast Vath and deliver them to the Vath keeneye.",
+            "You deliver the ripe caelumtree fruits to the Vath keeneye who sets to work, just as a knight from the Convictory appears at the Vath sanctuary. The Convictor is in a desperate hurry to get his wine, but unfortunately for him, it is far from ready. The clever Vath somehow foresaw this would happen, and produces a bottle from his reserve. He asks that you hand it to the restless knight, in hopes that it will tide him over until the new batch of wine is ready.",
+            "You hand the bottle of caelumtree wine to the impatient Convictor knight, and his anxious twitching seems to subside. He is eager to know what gives the wine its full flavor, but before you can disclose any details, he comes to the conclusion that only the best of ingredients could make such a fine drink. He leaves the Vath sanctuary with a spring in his step and blissfully unaware of the rather dubious additives which have been sprinkled into his wine."
+        ],
+        "objectives": [
+            "Obtain caelumtree fruit.",
+            "Deliver the fruit to the Vath keeneye.",
+            "Deliver the caelumtree wine to the Convictor knight."
+        ],
+        "dialogue": [
+            {
+                "name": "SEARCHER",
+                "text": "How strange, you fleshlings. We talk with you, we trade with you, yet we do not understand. Why do you love this thing called “wine” so much? It dulls the senses. We do not like this."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Why, you ask? The Convictory once requested we procure a crate of wine. We knew not where to find it, so we made our own, improvising as necessary with...&lt;click&gt; &lt;click&gt;...special ingredients."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "They are insatiable. The orders come, and though we work hard, we cannot meet demand. We run low on supplies. Great hunter, please help us."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Your generosity knows no bounds! The key ingredient for our wine is the caelumtree fruit─a juicy fruit found in the Chocobo Forest. Please bring back three. The best fruits lie on the forest floors. They are the most ripe."
+            },
+            {
+                "name": "KIHEI02268",
+                "text": "Ah, a fellow traveler, is it? Tell me, have you, too, come for the Vath's exquisite caelumtree wine? If not, it's something you absolutely must try!"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "We smell fruit! &lt;click&gt; &lt;click&gt; Wonderfully ripe fruit!"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "The fragrant scent─it tells us these caelumtree fruits are at their peak flavor. They will make for a fine batch, indeed! This will take but a moment to prepare. Er... &lt;click&gt; &lt;click&gt; Please excuse us."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "&lt;grunt&gt; &lt;crunch&gt; &lt;crunch&gt;<br>&lt;snort&gt; &lt;slurp&gt; &lt;grunt&gt;"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "All done! Now, we must let it ferment. This will take time. Our restless friend over there, however, cannot wait so long. He says he is here to collect the wine we were to deliver to the Convictory. It is a good thing we anticipated his arrival! Please take this bottle to him."
+            },
+            {
+                "name": "KIHEI02268",
+                "text": "I couldn't go a moment longer without it, so I've traveled all this way, my good <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">sir</span></span>. Is it ready? Please, <span class=\"emphasis\">please</span> tell me it's ready!"
+            },
+            {
+                "name": "KIHEI02268",
+                "text": "Ah, there it is─the wine of all wines. There isn't another drink like it! The flavors─the sweetness, the acidity, and the hint of some sort of exotic spice, perhaps─they play across the length of your tongue and trail into the pit of your stomach, leaving you warm and content."
+            },
+            {
+                "name": "KIHEI02268",
+                "text": "I wonder what exactly it could be that lends the wine such a unique flavor. Whenever I ask, the Vath always seem hesitant to tell me. &lt;sigh&gt; I suppose it's a silly question, anyway. It's glaringly obvious something this good can only be crafted with the finest of ingredients!"
+            }
+        ],
+        "reward": {
+            "gil": 461,
+            "reputation": 70,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21079
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016803",
+            "obj": {
+                "i": 1016803,
+                "n": "Vath Keeneye",
+                "l": 2000,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016855",
+            "obj": {
+                "i": 1016855,
+                "n": "Convictor Knight",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21079",
+            "obj": {
+                "i": 21079,
+                "n": "Black Copper Gil",
+                "l": 1,
+                "c": 65056,
+                "t": 100
+            }
+        }
+    ]
+}

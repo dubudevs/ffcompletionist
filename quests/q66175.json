@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Waking the Spirit",
+        "location": "Central Thanalan",
+        "id": 66175,
+        "patch": 2.0,
+        "sort": 190,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1001427,
+        "target": 1001427,
+        "genre": 93,
+        "journal": [
+            "F'hobhas wishes to teach you how to meld materia.",
+            "At the Bonfire, F'hobhas offers to teach you how to meld materia to gear. Speak with her again to commence your learning.",
+            "You are now trained in the ways of materia melding. Put this knowledge to use and try your hand at attaching materia to gear."
+        ],
+        "objectives": [
+            "Speak with F'hobhas."
+        ],
+        "dialogue": [
+            {
+                "name": "FHOBHAS",
+                "text": "Why, hello there. I see you're a Disciple of the Hand like me."
+            },
+            {
+                "name": "FHOBHAS",
+                "text": "Mayhap you're interested in learning how to meld materia to gear? If so, it'd be my pleasure to teach you."
+            },
+            {
+                "name": "FHOBHAS",
+                "text": "Ready to begin? Good! Now then, there's one thing to keep in mind when melding: materia slots."
+            },
+            {
+                "name": "FHOBHAS",
+                "text": "The first of these is carbonized matter, a catalyst required in the melding process. The substance is found throughout nature. If you want to know how to go about gathering it, Kokosamu there can tell you."
+            },
+            {
+                "name": "FHOBHAS",
+                "text": "Next, you need to be aware of materia slots. Arms and armor each have a certain number of these slots, and this determines how many pieces of materia they can host."
+            },
+            {
+                "name": "FHOBHAS",
+                "text": "Arms and armor each have a certain number of these slots, and this determines how many pieces of materia they can host. Normally, an item cannot host more pieces of materia than it has slots. However, as with most other things in life, there are certain...exceptions."
+            },
+            {
+                "name": "FHOBHAS",
+                "text": "But this sort of knowledge is for later down the road. After you've become more experienced, you may want to broach the subject matter with Master Mutamix."
+            },
+            {
+                "name": "FHOBHAS",
+                "text": "Now, off you go, and happy melding!"
+            }
+        ],
+        "reward": {
+            "xp": 3920
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 19,
+                    "id": 33
+                }
+            ],
+            "quests": [
+                66174
+            ]
+        },
+        "next": [
+            66176
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001427",
+            "obj": {
+                "i": 1001427,
+                "n": "F'hobhas",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66174",
+            "obj": {
+                "i": 66174,
+                "n": "Forging the Spirit",
+                "g": 93,
+                "l": "Central Thanalan",
+                "s": 190,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66176",
+            "obj": {
+                "i": 66176,
+                "n": "Melding Materia Muchly",
+                "g": 93,
+                "l": "Central Thanalan",
+                "s": 250,
+                "f": 1
+            }
+        }
+    ]
+}

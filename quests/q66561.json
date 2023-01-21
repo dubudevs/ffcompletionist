@@ -1,0 +1,106 @@
+{
+    "quest": {
+        "name": "Into the Valley of the Skull",
+        "location": "The Waking Sands",
+        "id": 66561,
+        "patch": 2.0,
+        "sort": 480,
+        "eventIcon": 71221,
+        "issuer": 1007488,
+        "target": 1006614,
+        "genre": 93,
+        "journal": [
+            "Radolf would have you lend your assistance to the Maelstrom cause.",
+            "At the Waking Sands, you learn from Radolf that the Maelstrom has need of the Scions' aid. Speak with Falkbryda at Camp Skull Valley about the need to subdue the Sahagin threat.",
+            "Falkbryda welcomes your help, given the imminent danger of standing on the vanguard against the fearsome beast tribe."
+        ],
+        "objectives": [
+            "Speak with Falkbryda at Camp Skull Valley."
+        ],
+        "dialogue": [
+            {
+                "name": "RADOLF",
+                "text": "I call upon you as a fellow Scion, <span class=\"highlight\">Forename</span>, to assist our allies in meeting a mutual objective."
+            },
+            {
+                "name": "RADOLF",
+                "text": "The Maelstrom needs every sword it can summon to stifle the Sahagin advance."
+            },
+            {
+                "name": "RADOLF",
+                "text": "I implore you to journey to Camp Skull Valley, discuss the matter with Falkbryda, and render what remedy you can."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "If you have come seeking Falkbryda of the Maelstrom, congratulations─you have found her. Although, I suppose in truth it is I who have been seeking you."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "Camp Skull Valley overlooks the Sahagin fore, the sea-sucking hordes right under her bony nose. We are the dam against the rising tide of savagery."
+            }
+        ],
+        "reward": {
+            "gil": 1857,
+            "xp": 13965
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66058
+            ]
+        },
+        "next": [
+            66562
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1007488",
+            "obj": {
+                "i": 1007488,
+                "n": "Radolf",
+                "l": 356,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006614",
+            "obj": {
+                "i": 1006614,
+                "n": "Falkbryda",
+                "l": 33,
+                "q": 14,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66058",
+            "obj": {
+                "i": 66058,
+                "n": "The Black Wolf's Ultimatum",
+                "g": 1,
+                "l": "Ul'dah",
+                "s": 241
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66562",
+            "obj": {
+                "i": 66562,
+                "n": "Pier Review",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 480
+            }
+        }
+    ]
+}

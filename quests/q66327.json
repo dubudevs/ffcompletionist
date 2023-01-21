@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Pumiceous Pursuits",
+        "location": "North Shroud",
+        "id": 66327,
+        "patch": 2.0,
+        "sort": 280,
+        "eventIcon": 71221,
+        "issuer": 1006248,
+        "target": 1006685,
+        "genre": 92,
+        "journal": [
+            "Oriane needs your help in obtaining something not easily come by.",
+            "Pumice golems─creatures of living stone that have sprung up from the sundered landscape─have overrun the area, and Oriane would know their origins. Weaken one of the creatures to some degree, then capture its soul with a sealing vessel.",
+            "You have obtained the living soulstone of a pumice golem. The researcher Yhom Epocan at the Bobbing Cork in Fallgourd Float should be able to shed light on the creature's origins.",
+            "Yhom Epocan is overjoyed to receive a soulstone in such pristine condition, and vows to begin her analysis straightaway."
+        ],
+        "objectives": [
+            "Use the sealing vessel on a weakened pumice golem.",
+            "Deliver the living soulstone to Yhom Epocan."
+        ],
+        "dialogue": [
+            {
+                "name": "ORIANE",
+                "text": "As you have proven yourself a capable ally, I would entrust to you a task more ambitious than the slaying of hares."
+            },
+            {
+                "name": "ORIANE",
+                "text": "Mayhap you have encountered curious constructs of living stone in these parts. They emerged from the sundered landscape in the wake of the Calamity, and their numbers have only burgeoned thenceforth."
+            },
+            {
+                "name": "ORIANE",
+                "text": "For each one we slay, another rises to the surface to take its place─my comrades and I are at wit's end. It is clear that we must take this battle to the source."
+            },
+            {
+                "name": "ORIANE",
+                "text": "There is a researcher by the name of Yhom Epocan who frequents the Bobbing Cork in Fallgourd Float. I suspect she might be able to shed light on the matter."
+            },
+            {
+                "name": "ORIANE",
+                "text": "Take this sealing vessel and capture the living soulstone of one of the golems─mind you, you will have to weaken the brute first. Deliver the soulstone to Yhom Epocan, and see if she cannot ascertain the golems' origin."
+            },
+            {
+                "name": "BATTLE",
+                "text": "//: fight golems, capture their souls"
+            },
+            {
+                "name": "YHOMEPOCAN",
+                "text": "Yhom Epocan? Why, that's me! At least, that's who I think I am! Ah, er, did you need something from me?"
+            },
+            {
+                "name": "YHOMEPOCAN",
+                "text": "Gummice pollums? I fear I'm not familiar with them. <span class=\"emphasis\">Pumice golems</span>, on the other hand─Oriane has told me all about them. Let us see what you've brought me, now..."
+            },
+            {
+                "name": "YHOMEPOCAN",
+                "text": "Ooh, I can just feel it pulsing with energy! You've certainly found a live one, haven't you? I must begin my analysis straightaway. Now where did I put my glasses?"
+            }
+        ],
+        "reward": {
+            "gil": 1544,
+            "xp": 6290
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66326
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006248",
+            "obj": {
+                "i": 1006248,
+                "n": "Oriane",
+                "l": 57,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006685",
+            "obj": {
+                "i": 1006685,
+                "n": "Yhom Epocan",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66326",
+            "obj": {
+                "i": 66326,
+                "n": "Save the Trees",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        }
+    ]
+}

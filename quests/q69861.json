@@ -1,0 +1,173 @@
+{
+    "quest": {
+        "name": "Take a Look, It's in a Book",
+        "location": "Labyrinthos",
+        "id": 69861,
+        "patch": 6.0,
+        "sort": 8206,
+        "eventIcon": 71221,
+        "issuer": 1041320,
+        "target": 1041320,
+        "genre": 121,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>A rather determined Bibliothec seeks help with an issue of a scholastic nature."
+        ],
+        "objectives": [
+            "Pick up the stack of tomes and texts.",
+            "Deliver the tomes and texts to the cautious Student of Baldesion.",
+            "Speak with the determined Bibliothec."
+        ],
+        "dialogue": [
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "You there, adventurer. You've the carriage of a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> upon whose time I might prevail. Those books there─you see them, yes? I would have you bear them to one of the Students of Baldesion for me."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Can't you carry them yourself?"
+            },
+            {
+                "name": "A1",
+                "text": "Leave it to me."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "That would be ideal for all parties involved, wouldn't it? Alas, my political leanings prevent me from that most obvious solution. I am a member of the Bibliothecs─which I should think explanation enough."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "Oh, that was a deal easier than expected. I had half-thought this would require some explanation...which you shall have regardless. I am a member of a prominent political faction known as the Bibliothecs. I trust you've heard of us."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "I and my colleagues have sworn to bear silent witness to the affairs of our world, recording all which comes to pass. The Students of Baldesion, on the other hand, take a much more...active approach in the affairs of our world. Needless to say, things between us are tense."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "It would spell trouble were I to be found delivering these tomes myself. My colleagues may well bar me from the archives entire, a punishment worse than death. Thus, I seek aid from one who can pass unnoticed─you. "
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "Right then! Have a care and bring these to my Baldesion co-conspirator. You'll find her in Logistikon Alpha."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "Oh, and tell her it's a gift from a friendly researcher in Sharlayan Hamlet, will you?"
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "I fear the punishment that may befall me were I to be caught smuggling such materials to one who is, ostensibly, our enemy. Luckily, you have no such concerns, which makes you the right <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> for the job."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Deliver the stack of tomes and texts to the Baldesion co-conspirator in Logistikon Alpha before your arms give out."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You will have 200 seconds to complete the task. Should you fail, return to the starting location and begin anew."
+            },
+            {
+                "name": "BALDESION04325",
+                "text": "Yes? How might I help you?"
+            },
+            {
+                "name": "BALDESION04325",
+                "text": "My word. Look at all of this! Each book more valuable than the last. How in the world did you come by them?"
+            },
+            {
+                "name": "BALDESION04325",
+                "text": "Given to you by a researcher in Sharlayan Hamlet, you say? And meant as a gift for me? My mysterious benefactor is gracious indeed."
+            },
+            {
+                "name": "BALDESION04325",
+                "text": "It's a comfort to know that at least one person out there values our efforts in an ever-changing world. Do give my thanks to this charitable researcher next you see them."
+            },
+            {
+                "name": "BALDESION04325",
+                "text": "The Students of Baldesion want only to keep our star safe from that which threatens it. You would think that a noble cause, but <span class=\"emphasis\">some</span> find us to be importunate─that we should mind our own business. Honestly, these people... If the world is gone, they'll have nothing to record!"
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "Ah, you've returned─and without the books with which you departed. I assume that to mean they were delivered to the right hands. Thank you."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "As I mentioned before, we Bibliothecs keep to the wings of history's stage, and take a fierce stance against any sort of involvement."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "We've a sworn duty to observe all which transpires, even as the world unravels before our very eyes. So dedicated are we to our goal, there is no realm in which we are not present."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "I too was once stationed abroad. In the Far East, actually. It is where I caught wind of the Students of Baldesion, learned how they had become a symbol of hope for those fearing the Final Days."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "Sevestre tells us that knowledge is a gift, one that cannot be bestowed upon just anyone. It is only the worthy who ought wield the strength it provides."
+            },
+            {
+                "name": "BIBLIOTHEC04325",
+                "text": "And I believe the Students of Baldesion worthy. If there is any justice left in this world, then that which our pens and papers have locked away is theirs by rights. Thank you for helping me put the fruits of our labor to good use."
+            }
+        ],
+        "reward": {
+            "gil": 735,
+            "items": [
+                {
+                    "num": 2,
+                    "id": 36057
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                69982
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1041320",
+            "obj": {
+                "i": 1041320,
+                "n": "Determined Bibliothec",
+                "l": 3708,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "36057",
+            "obj": {
+                "i": 36057,
+                "n": "Coconut Cod Chowder",
+                "l": 545,
+                "c": 24105,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69982",
+            "obj": {
+                "i": 69982,
+                "n": "Hither and Yarns",
+                "g": 11,
+                "l": "Labyrinthos",
+                "s": 600
+            }
+        }
+    ]
+}

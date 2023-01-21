@@ -1,0 +1,169 @@
+{
+    "quest": {
+        "name": "Way of the Marauder",
+        "location": "Limsa Lominsa",
+        "id": 65846,
+        "patch": 3.1,
+        "sort": 10,
+        "icon": 100053,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000926,
+        "target": 1000927,
+        "genre": 129,
+        "journal": [
+            "Blauthota wishes you to reaffirm your desire to join the Marauders' Guild.",
+            "Blauthota bids you speak with Axemaster Wyrnzoen, whose approval you must obtain if you wish to join the guild.",
+            "Though somewhat grim of word and demeanor, Axemaster Wyrnzoen nevertheless welcomes you to the Marauders' Guild. Equip the weathered war axe that symbolizes your initiation and speak with the stern Roegadyn once more."
+        ],
+        "objectives": [
+            "Speak with Axemaster Wyrnzoen."
+        ],
+        "dialogue": [
+            {
+                "name": "BLAUTHOTA",
+                "text": "Ye've decided, then? Yer ready to join the Marauders' Guild?"
+            },
+            {
+                "name": "Q1",
+                "text": "blank"
+            },
+            {
+                "name": "A1",
+                "text": "blank"
+            },
+            {
+                "name": "A1",
+                "text": "blank"
+            },
+            {
+                "name": "BLAUTHOTA",
+                "text": "It's best ye realize that now, rather than in the midst of battle where a half-swing of yer axe might get ye killed. Ye must needs commit to the blow."
+            },
+            {
+                "name": "BLAUTHOTA",
+                "text": "Alright, then. All that needs doin' now is to speak with the axemaster himself. Sounds simple? I've seen folk slink out the door rather than put 'emselves in the path o' that unnervin' glare."
+            },
+            {
+                "name": "BLAUTHOTA",
+                "text": "That's the bloke right there in the middle o' the room. Wyrnzoen's his name. Put some steel in yer spine an' look him straight in the eye when ye talk to him, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Good fortune to ye."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Yes. I am Wyrnzoen. “Axemaster” they call me. Not the most imaginative of titles, I agree, but one should not underestimate the value of directness. I welcome your interest in our guild."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "The art of the marauder is used to rend, to cleave, and to destroy. It is not our way to simply outfight our adversaries; we seek to <span class=\"emphasis\">overwhelm</span> them."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "A marauder must be the most powerful and enduring presence on the battlefield; we must account for the most enemies defeated. Our role in combat is that of a steel whirlwind, dealing death and destruction without equal."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "No doubt the question has already been put to you by Blauthota, but once more shall I challenge your commitment: are you prepared for the bloody carnage that awaits an initiate of the Marauders' Guild?"
+            },
+            {
+                "name": "Q2",
+                "text": "Are you prepared for carnage?"
+            },
+            {
+                "name": "A2",
+                "text": "Yes"
+            },
+            {
+                "name": "A2",
+                "text": "No"
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "You recoil at the thought of shattered bone and hewn flesh? Then it is well you choose to turn away from this path. There is no dishonor in knowing your own strengths...or weaknesses."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Very well. Your name? Attend me well, then, <span class=\"highlight\">Forename</span>. Hold fast to this moment of dedication. The path of the marauder is a jagged and perilous one─the blood that spills at your feet will ofttimes be your own."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "I present to you this axe as a symbol of your commitment. Your first lesson shall be how to hold it. Now grip the haft with both hands and set yourself in a solid stance..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 1749
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65715
+            ]
+        },
+        "next": [
+            65848
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000926",
+            "obj": {
+                "i": 1000926,
+                "n": "Blauthota",
+                "l": 28,
+                "q": 4,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000927",
+            "obj": {
+                "i": 1000927,
+                "n": "Wyrnzoen",
+                "l": 28,
+                "q": 12,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "1749",
+            "obj": {
+                "i": 1749,
+                "n": "Weathered War Axe",
+                "l": 1,
+                "c": 31409,
+                "t": 3,
+                "p": 94
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65715",
+            "obj": {
+                "i": 65715,
+                "n": "So You Want to Be a Marauder",
+                "g": 0,
+                "l": "Limsa Lominsa Upper Decks",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65848",
+            "obj": {
+                "i": 65848,
+                "n": "My First Axe",
+                "g": 129,
+                "l": "Limsa Lominsa",
+                "s": 12,
+                "f": 1
+            }
+        }
+    ]
+}

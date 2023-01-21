@@ -1,0 +1,107 @@
+{
+    "quest": {
+        "name": "Repair for the Worst",
+        "location": "Amh Araeng",
+        "id": 69044,
+        "patch": 5.0,
+        "sort": 6220,
+        "eventIcon": 71221,
+        "issuer": 1030443,
+        "target": 1030443,
+        "genre": 115,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Twine is in need of an extra pair of eyes. Namely, yours."
+        ],
+        "objectives": [
+            "Inspect structures in need of repair.",
+            "Speak with the restless laborer."
+        ],
+        "dialogue": [
+            {
+                "name": "MINER03508",
+                "text": "Gods! This whole place is falling apart! My job is to order materials for repairs, but the budget is so tight I can't afford to buy more than is absolutely necessary."
+            },
+            {
+                "name": "MINER03508",
+                "text": "Argh! The supplier will be here soon, and I still haven't finished with my checks! There's no time, no time... I know! If you have a look around the place and see what needs fixing, I'll work out which materials we should order."
+            },
+            {
+                "name": "MINER03508",
+                "text": "These traveling peddlers don't hang around, so I've got to have everything ready before she moves on. You'll help the people of Twine, won't you? I knew you would!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These hinges have seen better days. One good slam and the whole door is liable to fall off."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "There is a deep split in the support beam. If this breaks, the whole building might come down."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The frame has warped and the door rattles in the breeze."
+            },
+            {
+                "name": "MERCHANT03508",
+                "text": "Finished your checks yet?"
+            },
+            {
+                "name": "MINER03508",
+                "text": "Gods be good, it's worse than I thought..."
+            },
+            {
+                "name": "MINER03508",
+                "text": "All right, here's what we need."
+            },
+            {
+                "name": "MERCHANT03508",
+                "text": "My, my, the paltry amount I will make from this is hardly worth the effort! "
+            },
+            {
+                "name": "MINER03508",
+                "text": "That's all we can afford at present. Maybe if your prices weren't so extortionate, we'd get a bit more for our gil!"
+            },
+            {
+                "name": "MINER03508",
+                "text": "Hmm... This might take a while, but you've played your part. Short on coin though we are, it was worth paying you for your help, considering the amount we'll save from ordering only the bare necessities. You have my thanks."
+            }
+        ],
+        "reward": {
+            "gil": 606
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                69149
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1030443",
+            "obj": {
+                "i": 1030443,
+                "n": "Restless Laborer",
+                "l": 2955,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69149",
+            "obj": {
+                "i": 69149,
+                "n": "On Track",
+                "g": 8,
+                "l": "Amh Araeng",
+                "s": 720
+            }
+        }
+    ]
+}

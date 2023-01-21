@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "A Dream Blooms",
+        "location": "The Churning Mists",
+        "id": 67358,
+        "patch": 3.0,
+        "sort": 5403,
+        "eventIcon": 71221,
+        "issuer": 1012081,
+        "target": 1012081,
+        "genre": 100,
+        "journal": [
+            "Mogomo is staring longingly into the distance.",
+            "Mogomo tells you of rare hornbloom flowers blooming north of Moghome, and asks you to pick three of them. Travel to the area near the House of Letters and look for the freshly sprouted flowers.",
+            "You have picked three hornblooms, and they are even more lovely than described. Return to Moghome and deliver them to Mogomo.",
+            "Mogomo flits with joy at receiving his bouquet. He plans to use the flowers in his secret garden, which he welcomes you to visit upon its completion."
+        ],
+        "objectives": [
+            "Pick hornblooms.",
+            "Deliver the hornblooms to Mogomo."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGOMO",
+                "text": "I've just heard the most amazing news, kupo! Rare and fragrant flowers called hornblooms are blooming near the House of Letters. If you could go and pick three for me, my gratitude would be yours!"
+            },
+            {
+                "name": "MOGOMO",
+                "text": "The flowers are more beautiful than any I've ever seen! If I had three of them it would make me so happy!"
+            },
+            {
+                "name": "MOGOMO",
+                "text": "You've returned bathed in a floral scent, kupo! Were you able to find three of the flowers?"
+            },
+            {
+                "name": "MOGOMO",
+                "text": "You really have the eyes of a florist. As I'm sure you've gathered, these are far more precious than the other flowers you see dotting the landscape, as they only bloom so lovely once a year. I'll put my very best into making sure they stay healthy and robust!"
+            },
+            {
+                "name": "MOGOMO",
+                "text": "Don't tell anyone, but I'll be using these for my secret garden. When it's finally complete, you'll be one of the first I invite, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "xp": 31200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 54,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67158
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012081",
+            "obj": {
+                "i": 1012081,
+                "n": "Mogomo",
+                "l": 2002,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67158",
+            "obj": {
+                "i": 67158,
+                "n": "Mogwin's Trial",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 43
+            }
+        }
+    ]
+}

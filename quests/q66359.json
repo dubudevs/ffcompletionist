@@ -1,0 +1,112 @@
+{
+    "quest": {
+        "name": "Fetch the Freshman",
+        "location": "Southern Thanalan",
+        "id": 66359,
+        "patch": 2.0,
+        "sort": 310,
+        "eventIcon": 71221,
+        "issuer": 1006287,
+        "target": 1006287,
+        "involved": [
+            1006289
+        ],
+        "genre": 93,
+        "journal": [
+            "With nary a word, U'tykha Tia indicates that he has a delicate commission for you.",
+            "You have learned from U'tykha Tia that a novice ranger of the U tribe, U'kahzuna, has gone forth to hunt anglers in the Sagolii Desert. However, she is long overdue for her return, and U'tykha Tia fears for her safety. With a susurrous sweep of his tail, the Miqo'te suggests you head southwest on a rescue mission.",
+            "You have rescued U'kahzuna from the jagged maws of the approaching anglers. Though she appears to be none the worse for wear, she reproaches herself for failing to complete her mission. Return to U'tykha Tia in Forgotten Springs to hear what he has to say.",
+            "U'tykha Tia judges the young one's failure to be no greater than those from his own youth. Out of the rawest novice may grow the finest ranger, if his tale is to be believed."
+        ],
+        "objectives": [
+            "Render assistance to U'kahzuna.",
+            "Report to U'tykha Tia."
+        ],
+        "dialogue": [
+            {
+                "name": "UTYKHATIA",
+                "text": "You there, you have the smell of a resourceful drink of water. Help me with one of the young ones, will you?"
+            },
+            {
+                "name": "UTYKHATIA",
+                "text": "I speak of a novice ranger by the name of U'kahzuna, one of our most promising. I sent her southwest to hunt anglers, but she is rather long in the returning. She should be back by now, even if she'd killed one, dressed it, and made a saddle out of it."
+            },
+            {
+                "name": "UTYKHATIA",
+                "text": "As young a huntress as she is, I suspect she tripped over her own tail and has made a right mess of things. But as this is something she ought do on her own, I fear sending one among the tribe to help her is out of the question. <span class=\"emphasis\">You</span>, on the other hand, are a different story."
+            },
+            {
+                "name": "UKAHZUNA",
+                "text": "&lt;groan&gt; I... Ugh. Gods, I'm sorry...<br>...Oh, not to <span class=\"emphasis\">you</span>. I'm sorry that I failed so miserably. U'tykha gave me this mission himself, and he's sure to be the next nunh of the tribe. And I...I..."
+            },
+            {
+                "name": "UKAHZUNA",
+                "text": "I have dishonored the name of the U. I could crop my tail as a penance, but I have to redeem myself. I'll just...do something different. Again.<br>&lt;sigh&gt; I'm trying so hard..."
+            },
+            {
+                "name": "UTYKHATIA",
+                "text": "Took it hard, did she? She <span class=\"emphasis\">should</span>─she's bringing up the rear in this crop of novices. If this were a game of Ifrit-take-the-hindmost, she'd be on fire right about now."
+            },
+            {
+                "name": "UTYKHATIA",
+                "text": "The reckless always have to take the hard way─they fail until they succeed, or get themselves killed. To tell you the truth, I was exactly like her once, down to the earnestness!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 1404,
+            "xp": 7600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 31,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66365
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006287",
+            "obj": {
+                "i": 1006287,
+                "n": "U'tykha Tia",
+                "l": 45,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006289",
+            "obj": {
+                "i": 1006289,
+                "n": "U'kahzuna",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66365",
+            "obj": {
+                "i": 66365,
+                "n": "Mind Games",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 310
+            }
+        }
+    ]
+}

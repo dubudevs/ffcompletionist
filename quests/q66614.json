@@ -1,0 +1,600 @@
+{
+    "quest": {
+        "name": "Always Bet on Black",
+        "location": "Eastern Thanalan",
+        "id": 66614,
+        "patch": 2.0,
+        "sort": 6,
+        "icon": 100102,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006753,
+        "target": 1006753,
+        "involved": [
+            1001289,
+            1001709,
+            1002279,
+            1004597,
+            1006752,
+            1007871,
+            1007872,
+            1007873
+        ],
+        "genre": 154,
+        "journal": [
+            "Kazagg Chah awaits you with news.",
+            "Unable to learn the location of the <span class=\"emphasis\">Solace of the Gods</span> and the final relic, Kazagg Chah directs you to call upon Ququruka once more. Perhaps Lalai will be able to assist you in gaining an audience with him. Seek her outside Milvaneth Sacrarium in Ul'dah.",
+            "Lalai has discovered that Ququruka is no prophet at all, but merely the vile criminal he was convicted of being one hundred years ago. He means to use the black magic at his command to open the voidgate and summon forth Barbatos─a monster capable of destroying all Eorzea. Follow Ququruka to Nald's Reflection in southern Thanalan and put an end to his maniacal scheme before it is too late.",
+            "You have vanquished Barbatos and heard from Ququruka the truth of all that has transpired these hundred years. The souls of Ququruka and his black mage brethren have finally been put to rest. Speak to Kazagg Chah, Dozol Meloc, and Da Za once more for closure.",
+            "You have spoken to the three black mage beastmen. All have forgiven Ququruka his sins, and pray their ancestors have done the same. Return to Burgundy Falls in eastern Thanalan and speak to Kazagg Chah once more.",
+            "Kazagg Chah is happy that you have chosen to walk the path of the black mage, and to have walked it with you. He vows to forever count you among both his friends and brethren.<br><br>※The next black mage quest will be available from Lalai once you have completed the main scenario quest “Before the Dawn.”"
+        ],
+        "objectives": [
+            "Speak with Lalai in Ul'dah.",
+            "Follow Ququruka to Nald's Reflection.",
+            "Speak with Kazagg Chah.",
+            "Speak with Dozol Meloc.",
+            "Speak with Da Za.",
+            "Report to Kazagg Chah at Burgundy Falls.",
+            "Defeat Barbatos."
+        ],
+        "dialogue": [
+            {
+                "name": "KAZAGGCHAH",
+                "text": "You have gathered the first four artifacts, <span class=\"highlight\">Forename</span>. That is no small feat."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "Yet I fear little time remains. If the tablet of Da Za's great ancestor is to be believed, there is yet one more. Attempting to seal the voidgate before you have found them all would be the height of folly."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "Our search for the <span class=\"emphasis\">Solace of the Gods</span> continues. I have gone through all the records left by my great-grandfather, yet have discovered little."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "The only seemingly relevant passage I found was his last. He put it to paper some one hundred years ago, just before bidding farewell to his home. “The true power of destruction will be awoken in that most sacred of places.”"
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "The power of destruction is black magic, of course. But as to what is meant by this “awakening”... I fear I am at a loss."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "Hm? You believe that Da Za's and Dozol Meloc's ancestors might know more? To be sure, they <span class=\"emphasis\">were</span> witness to the same events. And it is true that they, too, left their homes one hundred years ago and were damned for traitors."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "It could be mere coincidence... But, no, I do not think that likely."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "I fear this foreshadows our doom. Should you find aught else, I beseech you to tell me at once. I will also continue the search for answers."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "The tablet seems to suggest that the way to the <span class=\"emphasis\">Solace of the Gods</span> and the final relic will be made known in time. Yet we can scarce afford to wait idly by."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "Both Dozol Meloc and Da Za understand this urgency, and have already returned to their respective homelands to delve into the matter."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "And now, to your next task. You must return to he who first bound our four fates together─the prophet, Ququruka. Perhaps his words can guide us once more."
+            },
+            {
+                "name": "MAMANE",
+                "text": "<span class=\"emphasis\">Solace of the Gods</span>? There is no such place within the walls of Arrzaneth Ossuary. But the name... I recall having heard it before."
+            },
+            {
+                "name": "MAMANE",
+                "text": "Yes, there was a mage with Lalai who I overheard mention it. A Lalafell dressed all in black who... When he spoke there was...a darkness about his words."
+            },
+            {
+                "name": "COCOBYGO",
+                "text": "This place you seek... It has something to do with black mages? I know nothing of it, and the same goes for most folk around here, I'd wager. &lt;shudder&gt;"
+            },
+            {
+                "name": "COCOBYGO",
+                "text": "That said, Lalai is always with that criminal who escaped the Pit. The dark arts are her trade. She might have the answers you seek."
+            },
+            {
+                "name": "YAYAKE",
+                "text": "<span class=\"emphasis\">Solace of the Gods</span>? Black mage? voidgate? Gods, <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>, you sound like a bloody cultist!"
+            },
+            {
+                "name": "YAYAKE",
+                "text": "What madness has that criminal filled your mind with? Follow him down this path and you'll wind up no better than Lalai."
+            },
+            {
+                "name": "YAYAKE",
+                "text": "Ququruka's grip on that foolish lass is far too strong. For her, truth lost the battle to his lies long ago."
+            },
+            {
+                "name": "LALAI",
+                "text": "Please, you must help me. Ququruka has disappeared!"
+            },
+            {
+                "name": "LALAI",
+                "text": "That man is no messenger of Nald'thal. He is a miscreant and a charlatan─one guilty of the most heinous of crimes."
+            },
+            {
+                "name": "LALAI",
+                "text": "None had seen him for days. I became worried and entered his chambers to see that he was well, though he prohibited me from doing so. Within I found only evidence of his deception!"
+            },
+            {
+                "name": "LALAI",
+                "text": "The records he had hidden were damning. I now know why he was condemned as the greatest criminal of his day. "
+            },
+            {
+                "name": "LALAI",
+                "text": "One hundred years past, he conspired with magi from the beast tribes to summon a creature known as Barbatos─a monstrosity that was meant to destroy all of Eorzea."
+            },
+            {
+                "name": "LALAI",
+                "text": "Their plot was discovered by the Order of Nald'thal, and the voidgate was sealed before Barbatos could emerge."
+            },
+            {
+                "name": "LALAI",
+                "text": "Ququruka was cast into the Marasaja Pit for his crime, where he was to rot until his last breath."
+            },
+            {
+                "name": "LALAI",
+                "text": "The Order was loath to let word of this spread, fearing others might someday seek to succeed where Ququruka failed. And so they left no record of the plot, save a few inscrutable documents─parchments intelligible only to those to whom the secret was known."
+            },
+            {
+                "name": "LALAI",
+                "text": "These were the last words I found among the scribblings."
+            },
+            {
+                "name": "LALAI",
+                "text": "“Four is the answer. Four spells of black. Four artifacts of eld. The blood of four races. By four alone shall the true power of destruction be woken from the voidgate.”"
+            },
+            {
+                "name": "LALAI",
+                "text": "<span class=\"highlight\">Forename</span>... Black magic is not the key to sealing the voidgate. It is the key to <span class=\"emphasis\">opening</span> it! Ququruka used us to revive this dark art, and now means to finish what he began a century ago."
+            },
+            {
+                "name": "LALAI",
+                "text": "What fools we were to believe his lies..."
+            },
+            {
+                "name": "LALAI",
+                "text": "Please, <span class=\"highlight\">Forename</span>, you must stop him before it is too late! Hurry to Nald's Reflection in southern Thanalan. "
+            },
+            {
+                "name": "MINOTAURMALM",
+                "text": "I have been ordered to let none pass."
+            },
+            {
+                "name": "DOZOLMELOC",
+                "text": "You! Deceived us all, you have! Squaaawk! Pay, you will!"
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "You. You are one of Hetali Meloc's get, are you not?"
+            },
+            {
+                "name": "DOZOLMELOC",
+                "text": "Mother of mother of mother! Her name, you know!?"
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "And you, Amalj'aa... Yesss, you are of the line of Kazibb Chah. I can see it."
+            },
+            {
+                "name": "DAZA",
+                "text": "And, kobold, through your veins courses the blood of Da Gu, does it not?"
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "And last but not least─the black mage <span class=\"highlight\">Forename</span>. Splendidly done. Few could have vanquished Barbatos as you have. "
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "No doubt you are all eager to hear what truly transpired one hundred years ago. Being a kindly soul, I shall tell you."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "I was an ambitious mage in my youth─insatiable in my thirst for knowledge of the arcane. In the course of my studies, I discovered ancient writings which told of a black magic. A magic capable of destroying as only the gods can."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "It was innocent at first. Until it wasn't. But then questions began to arise in my mind that <span class=\"emphasis\">demanded</span> answers. Where had all the black mages of old gone? Why had the existence of the art been hidden?"
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "And so I probed. Endlessly. Tirelessly. The more I uncovered, the more it drew me in. There was such...<span class=\"emphasis\">power</span> to be had."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "I was not merely ambitious. I was also vainglorious. I desired recognition. Deference. By accomplishing that which no other could, I sought to make my legacy an eternal one."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "Yet the pursuit of black magic was...trying. I would pass days, weeks, months at a time, unsure of how to proceed. And what little progress did come, came but slowly. It was then that I met your ancestors."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "The Gem of Shatotto, the power to sense magic, the relics─all of these things I owe to them. With their vast knowledge, the slow crawl of my studies turned to leaps and bounds."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "I daresay your ancestors sought the same recognition as I. "
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "Kazibb Chah, ridiculed by the Amalj'aa for his ingenious analyses of worldly phenomena. Hetali Meloc, named a pariah for not sharing in the small-minded prejudices of the Ixal. Da Gu, a victim of his kind's idiocy, bound never to leave the land of the kobolds."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "We toiled together, learning what we could. And learn we did. Much and more. Imagining we had gleaned all that was to be known, we prepared to hold a dark rite─one we believed would restore black magic to its fullest expression."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "I do not know what came over me. I...<br>Blinded by my own lust for power, I altered one of the incantations. It was...arrogant. Foolish."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "Our command over the ancient powers we summoned was lost. I watched as the chaotic aether washed over my friends, ripping them apart, only to fuse them together into an...abomination."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "No... You couldn't mean... That <span class=\"emphasis\">thing</span> we just saw..."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "Yes. When I saw what my hubris had created, I mustered all of my strength to see Barbatos sealed behind the voidgate. Sealed─yet not defeated."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "Yet I felt myself corrupted by the aether, and was unsure whether I could hold my powers in check."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "Fearful, I returned to Ul'dah where I manipulated the minds of a few thaumaturges of the Order into believing I had committed some terrible crime. Only with me confined to the depths of the Marasaja Pit could the realm be safe."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "And there I remained─waiting. Waiting for the coming of one with the power to purify the aether of those three friends with whom I once shared a dream."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "I do not expect your forgiveness, but I am truly sorry."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "No words, Dozol has. Squaaawk! Only squaaawk!"
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "I am not long for this world. Here, take this relic while I still have strength enough to offer it."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "The fifth artifact? Yes, yes, the fifth! "
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "Welcome to the <span class=\"emphasis\">Solace of the Gods</span>. Perhaps you know it better as Nald's Reflection, as most do."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "Truly remarkable, <span class=\"highlight\">Forename</span>. You have succeeded...where many great mages...have failed. Mastered...what we sought...to master."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "I can now rest...knowing that this power...is safe with you. It is for you...to set the hatreds of the past...aright."
+            },
+            {
+                "name": "QUQURUKA",
+                "text": "My time to join Thal...has come. May He greet me...as a friend."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "To think, Ququruka carried that anguish one hundred long years."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "His crime was born of the hubris of youth, yet his atonement came from the wisdom of old age."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "His soul has found peace, and it is not our place to linger and disturb it. Come, let us return to Burgundy Falls."
+            },
+            {
+                "name": "DOZOLMELOC",
+                "text": "Century-old plan, this was? Fulfilled his purpose, Ququruka did?"
+            },
+            {
+                "name": "DOZOLMELOC",
+                "text": "Mother of mother of mother! Forgiven Ququruka, she has? Squaaawk! Think so, Dozol does."
+            },
+            {
+                "name": "DOZOLMELOC",
+                "text": "Finished, this story is."
+            },
+            {
+                "name": "DOZOLMELOC",
+                "text": "Had much fun, Dozol did. Like mother of mother of mother! Grand fun she had, too, Dozol hopes."
+            },
+            {
+                "name": "DOZOLMELOC",
+                "text": "Farewell, <span class=\"highlight\">Forename</span>. We meet again someday, Dozol hopes. Squaaawk!"
+            },
+            {
+                "name": "DAZA",
+                "text": "Then it is over─finished, ended, over. We did all we could, and the souls of Ququruka and the others have been saved."
+            },
+            {
+                "name": "DAZA",
+                "text": "The legends carried by my forebears have had their final chapter written this day. I confess, there is a sadness in that."
+            },
+            {
+                "name": "DAZA",
+                "text": "I am proud to call you friend, <span class=\"highlight\">Forename</span>─brethren, <span class=\"alternative-container\"><span class=\"alternative\">sister</span><span class=\"alternative\">brother</span></span>, friend. Now and always, no matter how divergent our paths from here."
+            },
+            {
+                "name": "DAZA",
+                "text": "Yes, yes, you are a true mage of the black now. Pray grace we kobolds in La Noscea with your presence someday."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "Things have come to an end, it would seem. Both the threads which bound us all, and this tragic tapestry they wove."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "Most mysterious things, these lives we lead. Do you recall when the words of so many legends and prophecies first brought you to me? It was here, at these same Burgundy Falls. We have spoken much here since then, yet I never imagined this day would come. "
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "I stand before you now with no regrets. I am grateful to the gods for letting our paths cross. Dozol Meloc, Da Za, and you, <span class=\"highlight\">Forename Surname</span>─I count you all as my brethren in black."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "Together, we have seen the souls of our ancestors given peace, and I, too, now feel a happiness I have never known."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "You have become a true black mage, my friend. And more than that, a true friend, black mage."
+            },
+            {
+                "name": "KAZAGGCHAH",
+                "text": "Let the dark art we share be a symbol of our bond, and that undying─in shadow or light, by day or night."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This concludes the black mage quests for FINAL FANTASY XIV: A Realm Reborn. In order to undertake the next series of quests, you must first meet the following requirements:"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "※ You must have completed the main scenario quest “Before the Dawn.”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Once you have done so, the next black mage quest will be available from Lalai."
+            },
+            {
+                "name": "QIB",
+                "text": "Let us see how far your powers have come, black mage!"
+            },
+            {
+                "name": "QIB",
+                "text": "No... The voidgate has opened too far. Other fiends have emerged!"
+            },
+            {
+                "name": "QIB",
+                "text": "Mage of the black, the voidgate looms before you! You must seal it!"
+            },
+            {
+                "name": "QIB",
+                "text": "Yes... Yes, you are nearly there. Finish it, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "QIB",
+                "text": "Forgive me, <span class=\"highlight\">Forename</span>. I have nothing left to give."
+            },
+            {
+                "name": "QIB",
+                "text": "Fallen, Dozol has. Squaaa─"
+            },
+            {
+                "name": "QIB",
+                "text": "I am beaten, <span class=\"highlight\">Forename</span>. Carry on the fight!"
+            }
+        ],
+        "reward": {
+            "action": 162,
+            "items": [
+                {
+                    "id": 3226
+                },
+                {
+                    "id": 20649
+                }
+            ],
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 26
+                }
+            ],
+            "quests": [
+                66613
+            ]
+        },
+        "next": [
+            66659,
+            67214
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006753",
+            "obj": {
+                "i": 1006753,
+                "n": "Kazagg Chah",
+                "l": 44,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001289",
+            "obj": {
+                "i": 1001289,
+                "n": "Mamane",
+                "l": 40,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001709",
+            "obj": {
+                "i": 1001709,
+                "n": "Cocobygo",
+                "l": 40,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002279",
+            "obj": {
+                "i": 1002279,
+                "n": "Yayake",
+                "l": 40,
+                "q": 9,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004597",
+            "obj": {
+                "i": 1004597,
+                "n": "Flame Private",
+                "l": 45,
+                "q": 1,
+                "t": "Gatekeep"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006752",
+            "obj": {
+                "i": 1006752,
+                "n": "Lalai",
+                "l": 41,
+                "q": 16
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007871",
+            "obj": {
+                "i": 1007871,
+                "n": "Kazagg Chah",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007872",
+            "obj": {
+                "i": 1007872,
+                "n": "Dozol Meloc",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007873",
+            "obj": {
+                "i": 1007873,
+                "n": "269th Order Mendicant Da Za",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "action",
+            "id": "162",
+            "obj": {
+                "i": 162,
+                "n": "Flare",
+                "c": 2652,
+                "j": 25,
+                "t": 2,
+                "l": 50
+            }
+        },
+        {
+            "type": "item",
+            "id": "3226",
+            "obj": {
+                "i": 3226,
+                "n": "Wizard's Coat",
+                "l": 55,
+                "c": 42237,
+                "t": 35,
+                "p": 1000
+            }
+        },
+        {
+            "type": "item",
+            "id": "20649",
+            "obj": {
+                "i": 20649,
+                "n": "Sorcerer's Attire Coffer (IL 90)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66613",
+            "obj": {
+                "i": 66613,
+                "n": "The Blood Must Flow",
+                "g": 154,
+                "l": "Eastern Thanalan",
+                "s": 5,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66659",
+            "obj": {
+                "i": 66659,
+                "n": "A Relic Reborn (Stardust Rod)",
+                "g": 154,
+                "l": "North Shroud",
+                "s": 7,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67214",
+            "obj": {
+                "i": 67214,
+                "n": "Black Books",
+                "g": 154,
+                "l": "Ul'dah",
+                "s": 500,
+                "f": 1
+            }
+        }
+    ]
+}

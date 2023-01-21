@@ -1,0 +1,179 @@
+{
+    "quest": {
+        "name": "Listen to Your Fish",
+        "location": "Central Thanalan",
+        "id": 65858,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1001457,
+        "target": 1001460,
+        "involved": [
+            1001455,
+            1001469
+        ],
+        "genre": 93,
+        "journal": [
+            "Hihiyaja can point you in the direction of work.",
+            "According to Hihiyaja, Wowobaru of the Coffer & Coffin seeks to create a new fish dish. If you would assist this culinary endeavor, collect four slices of fatty orobon and donate them to Wowobaru.",
+            "You procure an ample supply of fatty orobon slices in the usual fashion. Make a gift of them to Wowobaru at the Coffer & Coffin.",
+            "Upon seeing your largesse of fatty fish, Wowobaru is struck by inspiration and immediately invents a new dish. He thanks you profusely for sparing him a costly process. Here in the heart of Thanalan, it would seem that fish are worth their weight in gold."
+        ],
+        "objectives": [
+            "Obtain slices of fatty orobon.",
+            "Offer the fatty orobon to Wowobaru."
+        ],
+        "dialogue": [
+            {
+                "name": "HIHIYAJA",
+                "text": "An idle adventurer is a sorry sight. I've no need of assistance at the moment, but perhaps someone at the Coffer & Coffin wants for a helping hand."
+            },
+            {
+                "name": "HIHIYAJA",
+                "text": "Wowobaru, the resident chef, comes to mind. The man is obsessed with inventing new dishes, and I hear his current fascination is fish. If you were to donate some for his cause, I'm sure he'd be grateful."
+            },
+            {
+                "name": "HIHIYAJA",
+                "text": "Now, I'm a simple farmer and don't know much about fish. But I <span class=\"emphasis\">do</span> know what I like, and I like orobon. You won't find a more succulent fish in these parts, I tell you."
+            },
+            {
+                "name": "HIHIYAJA",
+                "text": "If you have a mind to give some fish to Wowobaru, I can wholeheartedly recommend fatty orobon. Four slices or so should be enough for him to experiment with."
+            },
+            {
+                "name": "WOWOBARU",
+                "text": "Fish, fish...futile! There are no suitable species! But I shall not surrender..."
+            },
+            {
+                "name": "WOWOBARU",
+                "text": "Orobon! Of course! But wait...how did you know of my epicurean endeavor?"
+            },
+            {
+                "name": "WOWOBARU",
+                "text": "Well, it matters not. The solution you suggest is sensational. Sauté with salt, a squirt of sun lemon...so simple yet sublime!"
+            },
+            {
+                "name": "WOWOBARU",
+                "text": "Fish is a costly commodity here in Thanalan. Were it not for your local largesse, I would have been forced to fork out a fortune to have some brought hither. Thank you!"
+            }
+        ],
+        "reward": {
+            "gil": 141,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4551,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65857
+            ]
+        },
+        "next": [
+            65840
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001457",
+            "obj": {
+                "i": 1001457,
+                "n": "Hihiyaja",
+                "l": 43,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001460",
+            "obj": {
+                "i": 1001460,
+                "n": "Wowobaru",
+                "l": 43,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001455",
+            "obj": {
+                "i": 1001455,
+                "n": "Gagari",
+                "l": 43,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001469",
+            "obj": {
+                "i": 1001469,
+                "n": "Gagalyo",
+                "l": 43,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65857",
+            "obj": {
+                "i": 65857,
+                "n": "The Slaying of the Shrews",
+                "g": 93,
+                "l": "Central Thanalan",
+                "s": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65840",
+            "obj": {
+                "i": 65840,
+                "n": "The Tasting of the Shrews",
+                "g": 93,
+                "l": "Central Thanalan",
+                "s": 70
+            }
+        }
+    ]
+}

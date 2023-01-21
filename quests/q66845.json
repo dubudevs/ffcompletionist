@@ -1,0 +1,118 @@
+{
+    "quest": {
+        "name": "Primal Focus",
+        "location": "Mor Dhona",
+        "id": 66845,
+        "patch": 2.1,
+        "sort": 4,
+        "repeatable": 1,
+        "icon": 100182,
+        "unlocksFunction": 1,
+        "eventIcon": 71342,
+        "issuer": 1006951,
+        "target": 1006951,
+        "involved": [
+            1007478
+        ],
+        "genre": 13,
+        "journal": [
+            "Laraina seeks to stock the shelves with more ritual tools.",
+            "Laraina has offered you another three tokens in exchange for a complete set of ritual foci. Defeat the primals Garuda, Titan, and Ifrit to obtain the three ghastly trophies that the acquisitions officer has requested.<br><br>※The Howling Eye (Extreme), the Navel (Extreme), and the Bowl of Embers (Extreme) can be accessed via the Duty Finder.",
+            "You have once more collected a full set of primal-summoning ritual tools. Deliver the trophies to Laraina at Revenant's Toll in Mor Dhona.",
+            "You obtain another three tokens from Laraina in exchange for the set of ritual foci. Though you might wish to acquire more tokens to spend at Rowena's shop, you must exercise a measure of patience as you wait for the beastmen to once again initiate the rites of summoning."
+        ],
+        "objectives": [
+            "Obtain a Vortex ritual focus in the Howling Eye (Extreme).",
+            "Obtain a Crag ritual focus in the Navel (Extreme).",
+            "Obtain an Inferno ritual focus in the Bowl of Embers (Extreme).",
+            "Deliver the ritual foci to Laraina at Revenant's Toll."
+        ],
+        "dialogue": [
+            {
+                "name": "LARAINA",
+                "text": "Ah, such a typical adventurer─powerless to resist the lure of our unique merchandise! Can I assume you're interested in earning more of Rowena's tokens?"
+            },
+            {
+                "name": "LARAINA",
+                "text": "As it happens, we've been inundated with orders from wealthy fools who are <span class=\"emphasis\">desperate</span> to decorate their manors with ghastly primal-summoning tools. And you, my friend, are our most trusted supplier. Bring me the goods in complete sets of three, and we can do business."
+            },
+            {
+                "name": "LARAINA",
+                "text": "We've been inundated with orders for more of those primal-summoning tools. Bring me the goods in complete sets of three, and we can do business."
+            },
+            {
+                "name": "LARAINA",
+                "text": "Not so fast, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. Allow me to just... Yes, the shudder down my spine confirms their authenticity. Your tokens, as promised."
+            },
+            {
+                "name": "LARAINA",
+                "text": "...Hmph. Rowena shall rue the day she began treating me like a lackey! I'm positioned now to woo her most affluent patrons, and the Twelve take me if I don't steal them all away the day I open my very own store!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 7004
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66734
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006951",
+            "obj": {
+                "i": 1006951,
+                "n": "Laraina",
+                "l": 67,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007478",
+            "obj": {
+                "i": 1007478,
+                "n": "Urianger",
+                "l": 356,
+                "q": 25
+            }
+        },
+        {
+            "type": "item",
+            "id": "7004",
+            "obj": {
+                "i": 7004,
+                "n": "Rowena's Token",
+                "l": 1,
+                "c": 26171,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66734",
+            "obj": {
+                "i": 66734,
+                "n": "To Tussle with Gods",
+                "g": 13,
+                "l": "The Waking Sands",
+                "s": 3,
+                "f": 1
+            }
+        }
+    ]
+}

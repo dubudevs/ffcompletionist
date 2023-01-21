@@ -1,0 +1,123 @@
+{
+    "quest": {
+        "name": "One Swallow Does Not a Victory Make",
+        "location": "Upper La Noscea",
+        "id": 66394,
+        "patch": 2.0,
+        "sort": 340,
+        "eventIcon": 71221,
+        "issuer": 1006324,
+        "target": 1006325,
+        "genre": 91,
+        "journal": [
+            "Storm Private Blaugybal has a letter burning a hole on his bedside table.",
+            "Blaugybal begs you deliver his pleas to Storm Commander Bloeidin at Camp Overlook. Use the lake crossing at Jijiroon's Trading Post, then head north to outer La Noscea.",
+            "You deliver the plea to Commander Bloeidin, who laments Blaugybal's callowness and disallows the reinstatement. He clearly does so out of care rather than malice, but Blaugybal's disappointment will be great."
+        ],
+        "objectives": [
+            "Hand the plea to Bloeidin at Camp Overlook."
+        ],
+        "dialogue": [
+            {
+                "name": "BLAUGYBAL",
+                "text": "Well met, adventurer. I serve with the Maelstrom Black Sails─or did, until I suffered grievous wounds in a battle with the kobolds. I was invalided and sent here."
+            },
+            {
+                "name": "BLAUGYBAL",
+                "text": "Will you take this to my commanding officer in Camp Overlook? It's a request for reinstatement. It ill suits my nature to lie abed."
+            },
+            {
+                "name": "BLAUGYBAL",
+                "text": "I was told my duty was to recover, and I have been dutiful. But surely they do not mean for me to wait until every last bit of flesh has knitted together. I can hold an axe─that should be enough."
+            },
+            {
+                "name": "BLAUGYBAL",
+                "text": "Between here and Camp Overlook is kobold territory, as the crow flies. I suggest you be smart about it: go to Jijiroon's Trading Post and take a boat across the lake. From there, head north to outer La Noscea."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Adventurer, eh? What do you got for us?"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "A <span class=\"emphasis\">letter</span>? Can't drink that, eat that, or keep a bed warm with that...'specially when it's from that pup Blaugybal."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Listen, what do they call you? <span class=\"highlight\">Forename</span>? We're the Red Swallows here, the most roughneck levy in all of the Maelstrom. Most of us come from what you might call a privateer background. We're the <span class=\"emphasis\">teeth</span> of the Maelstrom."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "What I'm saying is, you want to know where the worst of the fighting is? Just look for the Red Swallows. This is the front, not a moment of rest from the kobolds. Ain't no place for a pup with half-healed wounds."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "The kid has his heart in the right place, I'll warrant that, but he's like to get it blown out of his chest if he toddles on back here. He's just going to have to sleep in a soft bed and eat food that ain't full of weevils until he heals up."
+            }
+        ],
+        "reward": {
+            "gil": 1492,
+            "xp": 8385
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 34,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66393
+            ]
+        },
+        "next": [
+            66395
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006324",
+            "obj": {
+                "i": 1006324,
+                "n": "Blaugybal",
+                "l": 34,
+                "q": 2,
+                "t": "Storm Private"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006325",
+            "obj": {
+                "i": 1006325,
+                "n": "Bloeidin",
+                "l": 350,
+                "q": 15,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66393",
+            "obj": {
+                "i": 66393,
+                "n": "Lord of Crags",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 181
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66395",
+            "obj": {
+                "i": 66395,
+                "n": "Never Trout That I Love",
+                "g": 91,
+                "l": "Outer La Noscea",
+                "s": 340
+            }
+        }
+    ]
+}

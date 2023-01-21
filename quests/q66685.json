@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "My Brother's Not a Keeper",
+        "location": "Western La Noscea",
+        "id": 66685,
+        "patch": 2.0,
+        "sort": 160,
+        "eventIcon": 71221,
+        "issuer": 1003450,
+        "target": 1006626,
+        "involved": [
+            1006627
+        ],
+        "genre": 91,
+        "journal": [
+            "Quite thawed towards you after a wintry start, Wiltswys is practically humming as she devises a new task for you to undertake.",
+            "Wiltswys has a mind to send a bottle of lowland wine each to the captains of the two tidegates. First, take the wine to Captain Sthalrhet at South Tidegate.",
+            "You deliver the wine and note the gratified, if slightly ribald, response. Which part to report to Wiltswys is yours to decide.",
+            "Wiltswys bids you take the second bottle to Captain Nortmoen, brother to Sthalrhet. Deliver the wine to the good captain at North Tidegate.",
+            "Captain Nortmoen is taken with Wiltswys's choice of the vintage, until the alchemy of sibling rivalry transmutes the mild approval into love that pits brother against brother. How will the capable Wiltswys handle the logistics of this bizarre triangle?"
+        ],
+        "objectives": [
+            "Deliver wine to Captain Sthalrhet.",
+            "Report to Sergeant Wiltswys.",
+            "Deliver wine to Captain Nortmoen."
+        ],
+        "dialogue": [
+            {
+                "name": "WILTSWYS",
+                "text": "Camp Skull Valley was built to hold against attacks from the sea. To the north and south lie narrow channels, with a tidegate each to hold the Sahagin at bay."
+            },
+            {
+                "name": "WILTSWYS",
+                "text": "Will you deliver a bottle of lowland wine to the captains of North and South Tidegate? Call it a small privilege of the quartermaster."
+            },
+            {
+                "name": "WILTSWYS",
+                "text": "Please take the first bottle to Captain Sthalrhet of South Tidegate."
+            },
+            {
+                "name": "STHALRHET",
+                "text": "Hail, adventurer. What brings you to South Tidegate?"
+            },
+            {
+                "name": "STHALRHET",
+                "text": "A bottle of lowland from Sergeant Wiltswys? Now isn't that something. And isn't <span class=\"emphasis\">she</span> something─crisp yet full-bodied, is my guess. You know, didn't think I had a chance with a woman like that, but looks like she's sweet on <span class=\"emphasis\">me</span>!"
+            },
+            {
+                "name": "STHALRHET",
+                "text": "Always was popular with the fairer sex, if I say so myself. I have a brother, you heard about that? He's the captain of North Tidegate. Like as peas in a pod, they say, but <span class=\"emphasis\">they</span> never popped those peas out of the pod, if you take my meaning."
+            },
+            {
+                "name": "STHALRHET",
+                "text": "Wiltswys, Wiltswys. Got a way about her, she does. Cool as spray, but there's fire there and welcome she is to show me the light and scorch off every stitch 'tween the two of us..."
+            },
+            {
+                "name": "WILTSWYS",
+                "text": "Ah, there you are. Did Captain Sthalrhet receive it well? The other bottle is for Captain Nortmoen of North Tidegate."
+            },
+            {
+                "name": "WILTSWYS",
+                "text": "I should have mentioned, they're brothers in blood as well as arms. You'd think them closer for it, but the bickering is well-nigh constant. "
+            },
+            {
+                "name": "NORTMOEN",
+                "text": "Halt, adventurer! North Tidegate is no place for idlers."
+            },
+            {
+                "name": "NORTMOEN",
+                "text": "Wiltswys? The quartermaster, that mousy-looking girl? Still, she has excellent taste in wine. And must be a mind reader, for I've a supper of ocean cloud waiting that wants nothing more than a glass of lowland vintage."
+            },
+            {
+                "name": "NORTMOEN",
+                "text": "So...sent you over with a bottle just for me, huh? What? Sent one to that backbirth in South Tidegate too? Oh, you know what <span class=\"emphasis\">he's</span> going to think now, that she's his for the taking, that strutting...!"
+            },
+            {
+                "name": "NORTMOEN",
+                "text": "Well, he's got another think coming, misunderstanding an innocent kindness like that. She's a quartermaster, doesn't he know this is a─a <span class=\"emphasis\">professional</span> interest? That goatish fool! I won't have him bothering that lovely girl!"
+            }
+        ],
+        "reward": {
+            "gil": 207,
+            "xp": 3500
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 16,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66684
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003450",
+            "obj": {
+                "i": 1003450,
+                "n": "Wiltswys",
+                "l": 33,
+                "q": 3,
+                "t": "Storm Sergeant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006626",
+            "obj": {
+                "i": 1006626,
+                "n": "Nortmoen",
+                "l": 33,
+                "q": 4,
+                "t": "Storm Captain"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006627",
+            "obj": {
+                "i": 1006627,
+                "n": "Sthalrhet",
+                "l": 33,
+                "q": 3,
+                "t": "Storm Captain"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66684",
+            "obj": {
+                "i": 66684,
+                "n": "Toxic Avenger",
+                "g": 91,
+                "l": "Western La Noscea",
+                "s": 160
+            }
+        }
+    ]
+}

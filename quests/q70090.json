@@ -1,0 +1,155 @@
+{
+    "quest": {
+        "name": "Missing Rider",
+        "location": "Thavnair",
+        "id": 70090,
+        "patch": 6.15,
+        "sort": 104,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 15,
+        "eventIcon": 71222,
+        "issuer": 1042301,
+        "target": 1042301,
+        "genre": 33,
+        "journal": [
+            "Maru looks genuinely worried.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Search for the missing Rider.",
+            "Retrieve the fallen cargo.",
+            "Return the fallen cargo within the time limit.",
+            "Report back to Maru."
+        ],
+        "dialogue": [
+            {
+                "name": "MARU",
+                "text": "We might have trouble, <span class=\"highlight\">Forename</span>─one of our Riders has gone missin'."
+            },
+            {
+                "name": "MARU",
+                "text": "Last we heard from him, he was headin' back here from Palaka's Stand, but that was some time ago."
+            },
+            {
+                "name": "MARU",
+                "text": "You think you could spare a moment to join our search? We've covered the ground between here and the Wakeful Torana so far, but beyond that..."
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "Oh, blessed be! Someone came lookin'!"
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "You won't believe the beast we just ran into. Ugliest thing I've seen since the Final Days..."
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "Well, we spanked away like our skins depended on it, but my delivery got jostled outta the cart."
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "To make matters worse, when I pull 'round to fetch it, my wheel slams into a rock, an' now I'm spinnin' six ways to nowhere!"
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "My girl was in hippo hysterics─I had to cut her loose to stop her bellowin'. I hate to put you out like this, but you think you could lend me a hand an' bring me my cargo? "
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "It's just one wooden crate. I think I spotted it by that boulder over there."
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "Shapin' up to be one of those days, I'm afraid─but knowin' that cargo's safe would make all the difference."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Return the fallen cargo to the harried Rider's cart before your arms give out."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You will have three minutes to complete the task. Should you fail, return to the starting location and begin anew."
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "That's it! Thank the Sisters. And you!"
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "I'll head home as soon as we're ready to ride. Let Maru know we're alright, will you?"
+            },
+            {
+                "name": "WORRIEDARKASODARA04554",
+                "text": "I've still gotta check the cart an' coax my girl back under the yoke─tell Maru we'll be on our way shortly, yeah?"
+            },
+            {
+                "name": "MARU",
+                "text": "So that's what happened! Thank the Sisters that everyone's alright..."
+            },
+            {
+                "name": "MARU",
+                "text": "Our Riders are usually pretty good at avoidin' the nastier beasties, but a jungle's still a jungle... Sounds like our carts could use some adjustments, too..."
+            },
+            {
+                "name": "MARU",
+                "text": "Anyroad, I'll mention it to the boss. Thanks for bein' a pal, <span class=\"highlight\">Forename</span>."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 44
+                },
+                {
+                    "id": 36657
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042301",
+            "obj": {
+                "i": 1042301,
+                "n": "Maru",
+                "l": 3709,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "44",
+            "obj": {
+                "i": 44,
+                "n": "Allagan Tomestone of Causality",
+                "l": 1,
+                "c": "t/65094",
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "36657",
+            "obj": {
+                "i": 36657,
+                "n": "Arkasodara Pana",
+                "l": 1,
+                "c": "t/65091",
+                "t": 100
+            }
+        }
+    ]
+}

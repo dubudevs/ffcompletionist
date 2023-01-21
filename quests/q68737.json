@@ -1,0 +1,152 @@
+{
+    "quest": {
+        "name": "Every Little Thing She Does Is Mahjong",
+        "location": "The Gold Saucer",
+        "id": 68737,
+        "patch": 4.5,
+        "sort": 10692,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1011145,
+        "target": 1016307,
+        "genre": 93,
+        "journal": [
+            "Judging by the way Lewena is gnashing her teeth and muttering to herself, she appears to be somewhat perturbed.",
+            "Lewena, a permanent fixture around the Gold Saucer, is showing obvious signs of consternation. Upon interrupting her agitated monologue, you discover that the source of her frustration is the opponents she faced in her last game of mahjong. Having been recently introduced from Doma, it has attracted all manner of participants, including self-proclaimed games masters such as Lewena. Hoping that you might provide some decent competition, she suggests that you make inquiries at the Manderville Tables.",
+            "After initially mistaking you for a debt collector, the resident tutor gives a brief explanation of the Gold Saucer's mahjong tables. She informs you that in addition to matches with other patrons, you may also hone your skills against specially prepared automata. Now that the introductions are over, you are one step closer to becoming the type of opponent that Lewena craves."
+        ],
+        "objectives": [
+            "Speak with the mahjong tutor."
+        ],
+        "dialogue": [
+            {
+                "name": "LEWENA",
+                "text": "How dare they claim it wasn't a proper yaku! Don't they know a winning hand when they see one?"
+            },
+            {
+                "name": "LEWENA",
+                "text": "Yes? What do you want? &lt;sigh&gt; I am afraid you've found me in a rather foul mood. I've had a run of poor luck with that new game, mahjong."
+            },
+            {
+                "name": "LEWENA",
+                "text": "I hear it's all the rage in Doma, although it seems the Gold Saucer's clientele struggle to wrap their feeble minds around its intricacies. With the endless supply of shameless cheats and bumbling novices, I've yet to find a decent opponent."
+            },
+            {
+                "name": "LEWENA",
+                "text": "Perhaps you would provide me with more of a challenge. Yes... Some fresh meat could be just what I need. Run along to the Manderville Tables and get yourself acquainted with the basics, would you?"
+            },
+            {
+                "name": "LEWENA",
+                "text": "Mastered it already, have you? No? I thought not. The Gold Saucer staff are on hand to give free lessons, in case you are the sort that needs to have everything spelled out for you."
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "Listen, I'll have the money ready by next week, I swear!"
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "Oh, you're not a debt collector? What a pleasant surprise! In that case, you must be here to learn how to play Doman mahjong. I am the resident tutor, at your service."
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "Are you by any chance familiar with the game?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "I know my pon from my ron, if that's what you mean."
+            },
+            {
+                "name": "A1",
+                "text": "That's not the one where the loser drinks morbol bile, is it?"
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "Ho ho, that is a relief! I was worried I'd have to explain the rules for about the hundredth time today."
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "To be honest, I've had my hands full getting our beginners through a whole game without one of them trying to flip the table in a fit of rage."
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "Kami forfend! Is that what passes for entertainment in Eorzea? Perhaps all those rumors about pirates and their drunken antics are true..."
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "Anyway, mahjong is a far gentler affair. Four players sit around a table, collecting tiles and scoring points."
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "Thankfully, you'll find there is no shortage of opponents against whom to pit your wits. If you prefer, you can even practice against automata. They gloat less than their flesh-and-blood counterparts, too."
+            },
+            {
+                "name": "JANSHIOFEAST",
+                "text": "Should you have any questions, please don't hesitate to ask me. And may I say, I will be very interested to see how quickly you rise through the ranks here at the Gold Saucer!"
+            }
+        ],
+        "reward": {
+            "gil": 210,
+            "instance": 61001
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65970
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011145",
+            "obj": {
+                "i": 1011145,
+                "n": "Lewena",
+                "l": 1484,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016307",
+            "obj": {
+                "i": 1016307,
+                "n": "Mahjong Tutor",
+                "l": 1484,
+                "q": 1
+            }
+        },
+        {
+            "type": "instance",
+            "id": "61001",
+            "obj": {
+                "i": 61001,
+                "n": "Novice Mahjong (Full Ranked Match)",
+                "c": 61820,
+                "t": "Gold Saucer",
+                "min_lvl": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65970",
+            "obj": {
+                "i": 65970,
+                "n": "It Could Happen to You",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 141,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,199 @@
+{
+    "quest": {
+        "name": "Tines of the Trident",
+        "location": "Western La Noscea",
+        "id": 66936,
+        "patch": 2.2,
+        "sort": 30,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005940,
+        "target": 1005940,
+        "genre": 41,
+        "journal": [
+            "Seww needs your help to curtail a Sahagin strike force.",
+            "Seww has caught word of a Coral Trident strike force assembling for a concerted attack on the Maelstrom's defenses. He reasons that eliminating the leaders of the operation will steal the momentum from the assault. Defeat members of the Sapsa shelfscale, shelfclaw, and shelftooth clans, then slay the clan chiefs when they come forth to avenge their fallen kin.",
+            "You have eliminated the clan chiefs. Return to Novv's Nursery and report to Seww.",
+            "You report your success to Seww, and the young Sahagin is relieved to hear of his violent kin's demise. Though the Sahagin have once again narrowly avoided the threat of full-scale war, Novv's spawnling cautions that the next crop of leaders may very well take up where their shortsighted predecessors left off."
+        ],
+        "objectives": [
+            "Defeat a Sapsa shelfscale, then slay the shelfscale chief when he appears.",
+            "Defeat a Sapsa shelfclaw, then slay the shelfclaw chief when he appears.",
+            "Defeat a Sapsa shelftooth, then slay the shelftooth chief when he appears.",
+            "Report to Seww."
+        ],
+        "dialogue": [
+            {
+                "name": "SEWW",
+                "text": "Pshhh... The Coral Tridentshhh are rallying their warriors to make a pushhh on the shhhorewalker position! They mean to shhhtart open warfare!"
+            },
+            {
+                "name": "SEWW",
+                "text": "We cannot allow them to shhhteer our race towards oblivion. You mushhht find the three chiefshhh in charge of the operation and end their mad rushhh for glory!"
+            },
+            {
+                "name": "SEWW",
+                "text": "The shhhwiftest way to force a confrontation with these leaders is to launch an attack againshhht their clans. Defeat members of the Shhhapsa shelfscales, shelfclaws, and shelfteeth, and you will shhhoon draw the ire of their chiefshhh. Quickly now, before their momentum becomes unshhhtoppable!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Pshhh! You dare!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Shhhlay my kin, will you!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Pshhh! Perishhh, finless one!"
+            },
+            {
+                "name": "POP",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "POP",
+                "text": "A shelfscale chief comes forth to avenge his kin!"
+            },
+            {
+                "name": "POP",
+                "text": "A shelfclaw chief comes forth to avenge his kin!"
+            },
+            {
+                "name": "POP",
+                "text": "A shelftooth chief comes forth to avenge his kin!"
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... The chiefshhh are vanquishhhed? That is good. Our people will never find shhhalvation with such shhhortsighted warmongers in control."
+            },
+            {
+                "name": "SEWW",
+                "text": "But I fear that those who shhhtep up to fill thishhh void of authority will offer ushhh little better. We mushhht remain vigilant..."
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21077
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005940",
+            "obj": {
+                "i": 1005940,
+                "n": "Seww",
+                "l": 33,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21077",
+            "obj": {
+                "i": 21077,
+                "n": "Rainbowtide Psashp",
+                "l": 1,
+                "c": 65053,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "quest": {
+        "name": "You'll Never Go Back",
+        "location": "Ul'dah",
+        "id": 66610,
+        "patch": 2.0,
+        "sort": 2,
+        "icon": 100102,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006752,
+        "target": 1006752,
+        "genre": 154,
+        "journal": [
+            "Lalai at Milvaneth Sacrarium has guidance for those seeking the black.",
+            "You learn from Lalai that when a new light shines from the black mage's testimony you carry, you are to obtain the key to reseal the voidgate. To fulfill this prophecy, you must travel to the Sagolii Desert in southern Thanalan, and slay the fiends that emerge from the planar fissure. After having done so, collect their blood to use it as a sacrifice.",
+            "You have obtained yet another vial of voidsent blood. Pour it into the planar fissure that yet remains.",
+            "You have poured the sacrificial voidsent blood into the planar fissure. Take word of your feat back to Lalai at Milvaneth Sacrarium.",
+            "Lalai explains that your skill in the dark arts must be tempered further before the next task can be laid before you. Continue your training so that you will be prepared when the next challenge comes.<br><br>※The next black mage quest will be available from Lalai upon reaching level 40."
+        ],
+        "objectives": [
+            "Investigate the planar fissure in the Sagolii Desert and procure the blood of any fiends that emerge.",
+            "Pour the voidsent blood into the planar fissure.",
+            "Report to Lalai at Milvaneth Sacrarium."
+        ],
+        "dialogue": [
+            {
+                "name": "LALAI",
+                "text": "I sense the black magic within you has grown stronger, <span class=\"highlight\">Forename</span>. You have earned the right of my audience."
+            },
+            {
+                "name": "LALAI",
+                "text": "I am pleased to see that you do not fear your newfound powers. But then, you adventurers were ever wont to embrace the new."
+            },
+            {
+                "name": "LALAI",
+                "text": "You are now ready to set forth on your journey─to find the keys required to seal the voidgate. Hear me well, for mine are Master's own words, and his those of Nald'thal Himself."
+            },
+            {
+                "name": "LALAI",
+                "text": "..."
+            },
+            {
+                "name": "LALAI",
+                "text": "“The next key requires the blood of sacrifice."
+            },
+            {
+                "name": "LALAI",
+                "text": "“Travel to the Sagolii Desert in southern Thanalan. Slay what fiends emerge from the planar fissure there, and slake the land's thirst with their lifeblood."
+            },
+            {
+                "name": "LALAI",
+                "text": "“Once drunk, its essence shall be borne away upon the aetherial veins of the earth, and thence serve to notify our friends in the wastelands that the time has come."
+            },
+            {
+                "name": "LALAI",
+                "text": "“Complete the task before you, and the black mage testimony you carry will shine full with a new light. Light to envelop and absorb evil. Light to show you destruction and guide you to righteousness. This light is the key. Take it into you, where it will forever burn bright.” "
+            },
+            {
+                "name": "LALAI",
+                "text": "...That is all. Do you understand and accept what you must do?"
+            },
+            {
+                "name": "LALAI",
+                "text": "It is done, then. But the blackness you have awoken has yet to settle within you. Time is needed, <span class=\"highlight\">Forename</span>. Pray be patient."
+            },
+            {
+                "name": "LALAI",
+                "text": "Continue to practice your mastery of the arcane, and come to me once more when the dark art is as much you as you it."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next black mage quest will be available from Lalai upon reaching level 40."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "action": 154,
+            "xp": 18040
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 26
+                }
+            ],
+            "quests": [
+                66609
+            ]
+        },
+        "next": [
+            66611
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006752",
+            "obj": {
+                "i": 1006752,
+                "n": "Lalai",
+                "l": 41,
+                "q": 16
+            }
+        },
+        {
+            "type": "action",
+            "id": "154",
+            "obj": {
+                "i": 154,
+                "n": "Blizzard III",
+                "c": 456,
+                "j": 25,
+                "t": 2,
+                "l": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66609",
+            "obj": {
+                "i": 66609,
+                "n": "Taking the Black",
+                "g": 154,
+                "l": "Ul'dah",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66611",
+            "obj": {
+                "i": 66611,
+                "n": "International Relations",
+                "g": 154,
+                "l": "Ul'dah",
+                "s": 3,
+                "f": 1
+            }
+        }
+    ]
+}

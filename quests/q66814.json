@@ -1,0 +1,195 @@
+{
+    "quest": {
+        "name": "A Sticky Situation",
+        "location": "East Shroud",
+        "id": 66814,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005563,
+        "target": 1005563,
+        "genre": 37,
+        "journal": [
+            "The sylphs find themselves in a sticky wicket once more, and Moxia would have you provide a solution.",
+            "The dark sylphs that inhabit the Sylphlands are at their nastiness again, this time feeding three of Moxia's friends to the sylph-eating gapemaw plants, and sealing their fearsome maws shut to prevent any attempts at escape. The perpetrators of the mischief─violet screeches, sighs, and snarls south of the Hanging Barbs─keep close guard over a lubric substance that might serve to foil their deed. Slay them and acquire the liquid to save the unfortunate sylphs from their fate.",
+            "You have slain the malevolent sylphs and obtained three phials of the lubric solution. Hurry and find the glue-enhanced gapemaws before Moxia's compatriots are digested.",
+            "The frightful fronds will not dine on sylph this day, for Moxia's friends have been freed by your hand. Return to Little Solace to relay the good news.",
+            "Moxia rejoices at the safe return of her friends, while musing about how satisfying it would be if she could feast upon the predatory plants herself. While mildly gruesome, she feels such an act would be only fitting after the anguish they have inflicted upon her people."
+        ],
+        "objectives": [
+            "Slay violet sylphs south of the Hanging Barbs and obtain phials of lubric solution.",
+            "Use lubric solution on gluey gapemaws.",
+            "Report to Moxia."
+        ],
+        "dialogue": [
+            {
+                "name": "MOXIA",
+                "text": "Oh no, what is this one to do!? This one's friends will become <span class=\"alternative-container\"><span class=\"alternative\">dinner</span><span class=\"alternative\">breakfast</span><span class=\"alternative\">lunch</span></span> for chompy ones!"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Oh, brave one, please listen! These ones went to Sylphlands to play a trick on naughty ones, but alas! It is these ones who were tricked."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Naughty ones captured this one's friends, and fed them to nasty chomping ones! And if that was not bad enough, naughty ones smeared chompy ones' mouths with sticky-stick, making it impossible for any one to open!"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Only with slippery-slip can sticky mouths of chompy ones be opened, but naughty ones guard supply closely. If this one got too close, this one would only suffer the same fate as other ones!"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Screeching ones, snarling ones, sighing ones─these are naughty ones that did nasty deed. Brave one, please, save this one's friends from the bellies of beastly chompy ones."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Screeching ones, snarling ones, sighing ones─these are naughty ones that did nasty deed. Brave one, please, save this one's friends from the bellies of beastly chompy ones."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Brave one, please! Find the slippery stuff and save this one's friends from the bellies of those beastly chomping ones!"
+            },
+            {
+                "name": "SYLPHA",
+                "text": "Phew! This one thought this one was chompy-food for sure!"
+            },
+            {
+                "name": "SYLPHB",
+                "text": "Ick! Look at all this sticky-stick. This one needs a wash."
+            },
+            {
+                "name": "SYLPHC",
+                "text": "This one...is alive? Walking one has this one's thanks."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Sticky ones have returned to Little Solace safe and sound! Thank you, brave one. Sometimes this one wishes that these ones needed to eat─then these ones could chomp down on chompy ones to return the favor. Tee hee!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21075
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005563",
+            "obj": {
+                "i": 1005563,
+                "n": "Moxia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21075",
+            "obj": {
+                "i": 21075,
+                "n": "Sylphic Goldleaf",
+                "l": 1,
+                "c": 65051,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "Feltsmox Needs Bait",
+        "location": "The Dravanian Hinterlands",
+        "id": 67469,
+        "patch": 3.0,
+        "sort": 5803,
+        "eventIcon": 71221,
+        "issuer": 1013643,
+        "target": 1013643,
+        "genre": 99,
+        "journal": [
+            "Feltsmox looks thoroughly unsatisfied.",
+            "Feltsmox has not been able to catch anything while fishing lately. She seems to think that wildebeest eyes, from the nearby wildebeests, might solve the problem. Help this discouraged and disheartened goblin by gathering three eyes from the wildebeests.",
+            "You have gathered the mysterious, red orbs from the wildebeests you slew. Deliver them to Feltsmox and find out what she plans to do with them.",
+            "Through the tinted lenses in her mask, you see Feltsmox's eyes light up as you produce the wildebeest eyes. She explains that it makes exceptional bait for fishing, before eagerly rushing away to make use of it."
+        ],
+        "objectives": [
+            "Slay wildebeests and obtain their eyes.",
+            "Deliver the wildebeest eyes to Feltsmox."
+        ],
+        "dialogue": [
+            {
+                "name": "FELTSMOX",
+                "text": "Pshhh... Shkohhh...<br>Nothing is going well for Feltsmox, so she goes for a walk, but Feltsmox is still unhappy."
+            },
+            {
+                "name": "FELTSMOX",
+                "text": "Feltsmox loves fishing, but is having <span class=\"emphasis\">terrible</span> luck when fishing in recent days. Feltsmox can't catch <span class=\"emphasis\">anything</span>!"
+            },
+            {
+                "name": "FELTSMOX",
+                "text": "Feltsmox has an idea. Uplander, please help! Kill wildebeests and collect three of their eyes."
+            },
+            {
+                "name": "FELTSMOX",
+                "text": "Please help, uplander. Please collect three wildebeest eyes from nearby wildebeests."
+            },
+            {
+                "name": "FELTSMOX",
+                "text": "Do you have the wildebeest eyes?"
+            },
+            {
+                "name": "FELTSMOX",
+                "text": "Pshhh... Shkohhh...<br>Excellent! Perhaps this time Feltsmox will finally catch something!"
+            },
+            {
+                "name": "FELTSMOX",
+                "text": "These sparkly, shiny orbs make best fishingbait. Feltsmox will catch some big, delicious fish with this... Feltsmox will try it right now!"
+            }
+        ],
+        "reward": {
+            "gil": 507,
+            "xp": 40800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 58,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67191
+            ]
+        },
+        "next": [
+            67470
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013643",
+            "obj": {
+                "i": 1013643,
+                "n": "Feltsmox",
+                "l": 2001,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67191",
+            "obj": {
+                "i": 67191,
+                "n": "A Great New Nation",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 80
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67470",
+            "obj": {
+                "i": 67470,
+                "n": "Feltsmox's Reel Problems",
+                "g": 99,
+                "l": "The Dravanian Hinterlands",
+                "s": 5804
+            }
+        }
+    ]
+}

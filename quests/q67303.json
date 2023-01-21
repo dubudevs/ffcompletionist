@@ -1,0 +1,159 @@
+{
+    "quest": {
+        "name": "Spring into Action",
+        "location": "Coerthas Western Highlands",
+        "id": 67303,
+        "patch": 3.0,
+        "sort": 5108,
+        "eventIcon": 71221,
+        "issuer": 1011907,
+        "target": 1011907,
+        "genre": 94,
+        "journal": [
+            "Jantellot will not stop moaning about his leg.",
+            "Jantellot tells you that, despite his remarkable combat abilities, he has suffered injury at the claws of a monstrous dragon. He bids you fetch some healing spring water from Dragonspit, supplying you with a bottle for the purpose.",
+            "You fill the bottle with water from the spring. Return it to Jantellot so that he might regain his strength.",
+            "You provide Jantellot with the spring's healing water. He explains that, while the Convictory's supplies─particularly of healing potions─are low, the water you retrieved is more effective than the strongest of potions...or so some people say."
+        ],
+        "objectives": [
+            "Obtain spring water at Dragonspit.",
+            "Deliver the water to Jantellot."
+        ],
+        "dialogue": [
+            {
+                "name": "JANTELLOT",
+                "text": "Unnngh... My leg... That last dragon made quite a mess of it."
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "Had it happened to anyone else, I daresay they'd have been made a meal of. Fortunately, I'm made of sterner stuff and got away with no more than a flesh wound to show for it."
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "I'm keen to get back out there and hunt that bastard down, but I shan't be going anywhere until this leg heals up... Say, do you think you could fetch something for me?"
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "The waters of Dragonspit are said to have healing properties. If I had some of that, I'd be back on my feet in no time. Take this bottle and fill it with water from that spring, would you?"
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "Head up to Dragonspit and fetch me some of that renowned spring water. I can't stand to sit around here a moment longer!"
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "Do you have that spring water? I need to get back out there. I'm sick of seeing those dragons strut about without a care in the realm!"
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "Good, good. And not a moment too soon─I fear those dragons are starting to forget the taste of Ishgardian steel. After a few applications of this, I'll be ready to get back out there and give them a sharp reminder."
+            },
+            {
+                "name": "JANTELLOT",
+                "text": "They say this stuff is better than any potion. It's just as well, given how meager our supplies have been getting lately."
+            }
+        ],
+        "reward": {
+            "gil": 553,
+            "items": [
+                {
+                    "id": 4560,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4554,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4558,
+                    "one": 1
+                }
+            ],
+            "xp": 25200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67143,
+                67297
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011907",
+            "obj": {
+                "i": 1011907,
+                "n": "Jantellot",
+                "l": 2200,
+                "q": 12
+            }
+        },
+        {
+            "type": "item",
+            "id": "4560",
+            "obj": {
+                "i": 4560,
+                "n": "Hi-Elixir",
+                "l": 70,
+                "c": 20625,
+                "t": 44
+            }
+        },
+        {
+            "type": "item",
+            "id": "4554",
+            "obj": {
+                "i": 4554,
+                "n": "X-Potion",
+                "l": 70,
+                "c": 20603,
+                "t": 44,
+                "p": 887
+            }
+        },
+        {
+            "type": "item",
+            "id": "4558",
+            "obj": {
+                "i": 4558,
+                "n": "X-Ether",
+                "l": 70,
+                "c": 20623,
+                "t": 44,
+                "p": 1108
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67143",
+            "obj": {
+                "i": 67143,
+                "n": "Camp of the Convictors",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 28
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67297",
+            "obj": {
+                "i": 67297,
+                "n": "Baby Strides",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5106
+            }
+        }
+    ]
+}

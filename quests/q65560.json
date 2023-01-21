@@ -1,0 +1,86 @@
+{
+    "quest": {
+        "name": "Coarse Correspondence",
+        "location": "Gridania",
+        "id": 65560,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1000206,
+        "target": 1000233,
+        "genre": 92,
+        "journal": [
+            "F'mibhas of the Archers' Guild wishes you to deliver a sealed message to the markets.",
+            "Take the sealed message you received from F'mibhas to the markets and deliver it to Parnell in the Shaded Bower.",
+            "Parnell reveals that the message from F'mibhas was a request concerning the availability of stock at the markets. She wonders why the adventurer didn't simply speak with her directly, and reflects on the prickly impression outsiders have of Gridanians."
+        ],
+        "objectives": [
+            "Deliver the sealed message to Parnell in the markets."
+        ],
+        "dialogue": [
+            {
+                "name": "FMIBHAS",
+                "text": "Hail, adventurer! Might you have a moment?"
+            },
+            {
+                "name": "FMIBHAS",
+                "text": "I am in need of a trustworthy soul to deliver a missive to Parnell. You can find her in the Shaded Bower, in the midst of the markets."
+            },
+            {
+                "name": "FMIBHAS",
+                "text": "Hm? Why would I not simply go and speak with her myself?"
+            },
+            {
+                "name": "FMIBHAS",
+                "text": "Well, uh...as I am sure you have observed...Gridanians have a tendency to be rather... Ahem. I mean...<span class=\"emphasis\">in person</span>, they can be...well...a little on the prickly side."
+            },
+            {
+                "name": "FMIBHAS",
+                "text": "The matter is not urgent─simply hand over the missive the next time you find yourself in the markets. Please, as a favor from one adventurer to another!"
+            },
+            {
+                "name": "PARNELL",
+                "text": "Greetings, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. Might you be looking to secure the services of a retainer?"
+            },
+            {
+                "name": "PARNELL",
+                "text": "What's this? A missive from F'mibhas, you say? Whatever could it be about? Let me see, now...<br>...Hm? She wants to know about the available stock of potions at the markets."
+            },
+            {
+                "name": "PARNELL",
+                "text": "Hardly a matter that warrants a letter, much less the hiring of a courier! Why could she not ask the question in person? &lt;sigh&gt; I sense that adventurers from beyond our borders find Gridanians somewhat difficult to deal with."
+            },
+            {
+                "name": "PARNELL",
+                "text": "Are we truly so devoid of warmth? If we mistrust outsiders, it is only because so many of them have brought chaos to the Twelveswood─and such sins as theirs are not soon forgotten. Yet...I suppose we <span class=\"emphasis\">might</span> endeavor to be a little less...cold."
+            }
+        ],
+        "reward": {
+            "gil": 103,
+            "xp": 50
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000206",
+            "obj": {
+                "i": 1000206,
+                "n": "F'mibhas",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000233",
+            "obj": {
+                "i": 1000233,
+                "n": "Parnell",
+                "l": 53,
+                "q": 2,
+                "t": "Retainer Vocate"
+            }
+        }
+    ]
+}

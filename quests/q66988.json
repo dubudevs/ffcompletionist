@@ -1,0 +1,175 @@
+{
+    "quest": {
+        "name": "Levin an Impression",
+        "location": "East Shroud",
+        "id": 66988,
+        "patch": 2.3,
+        "sort": 49,
+        "icon": 100253,
+        "eventIcon": 71201,
+        "target": 1009097,
+        "involved": [
+            1009116,
+            1009117,
+            1009120,
+            1009121
+        ],
+        "genre": 0,
+        "journal": [
+            "Papalymo believes he has determined the site upon which the primal Ramuh was summoned.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to the serpent lieutenant in Little Solace.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "Upon approaching the beastman aetheryte, you find yourself in the presence of Lord Ramuh. Though initially dismissive of your attempts at mediation, the primal elects to suspend judgment until you have undergone a trial by combat. Enter the Lord of Levin's domain, and prove your worth!<br><br>※The Striking Tree (Hard) can be accessed via the Duty Finder.",
+            "You have defeated the Lord of Levin, and thus earned the right to champion the cause of peace in the Black Shroud. After witnessing your battle with the primal, it appears that Urianger has also found that which he sought...",
+            "Return to Little Solace and make your report to the serpent lieutenant.",
+            "You inform the Twin Adder lieutenant of your encounter with─and subsequent victory over─the primal Ramuh. His shock at the news that your audience culminated in combat soon gives way to joy as he realizes the ramifications of your deed for both Gridania and Little Solace."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to the serpent lieutenant in Little Solace.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "THANCRED",
+                "text": "What did she mean, “the <span class=\"emphasis\">real</span> Thancred”? And what's this about replacing me? Hmph! This must be how Yda feels most of the time..."
+            },
+            {
+                "name": "YDA",
+                "text": "Sooo...Thancred is Thancred, Papalymo is Papalymo, Y'shtola is Y'shtola, and you are you, right? Well, that's easy enough to remember. This one's name is Yda, in case walking one was wondering.<br>...JOKE! I'm joking! Don't you DARE scalebomb me again!"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Hmph. Well, at least the sylph offered some manner of apology for his mischief. But more importantly, his insistence that we proceed no further seems rather revealing, does it not?"
+            },
+            {
+                "name": "MAXIO",
+                "text": "Is walking one unharmed? This one would not like to see walking one in pain."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "My measurements indicate a large aetherial disturbance to the southeast."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Thanks to the antics of the sylphs, we've been dragged to every corner of the Sylphlands...but none of our various readings returned a result of this magnitude. There can be only one conclusion..."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Ramuh was called forth in the vicinity of the sylphs' aetheryte!"
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "I suggest we proceed thither with all possible haste─after bidding Maxio here a fond farewell, of course. Should our trusty guide come too close to his deity, there is the distinct possibility that he will fall under the primal's influence."
+            },
+            {
+                "name": "PAPALYMO",
+                "text": "Come, <span class=\"highlight\">Forename</span>. The Lord of Levin awaits!"
+            },
+            {
+                "name": "LIEUTENANT01448",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\"><span class=\"highlight\">Forename</span></span><span class=\"alternative\">[GC Rank]</span><span class=\"alternative\"> <span class=\"highlight\">Surname</span></span></span>, you have returned! Dare I ask how Ramuh received your visit?"
+            },
+            {
+                "name": "LIEUTENANT01448",
+                "text": "...He challenged you to a test of arms!? It is well, then, that you have some experience in such matters!"
+            },
+            {
+                "name": "LIEUTENANT01448",
+                "text": "The peoples of both Gridania and Little Solace will be relieved to hear that the Lord of Levin has accepted you as the forest's champion of peace."
+            },
+            {
+                "name": "LIEUTENANT01448",
+                "text": "You have performed a monumental duty this day, <span class=\"alternative-container\"><span class=\"alternative\"><span class=\"highlight\">Forename</span></span><span class=\"alternative\">[GC Rank]</span><span class=\"alternative\"> <span class=\"highlight\">Surname</span></span></span>. The Elder Seedseer must be informed of your deeds at once!"
+            }
+        ],
+        "reward": {
+            "xp": 4800,
+            "instance": 20022
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                66987
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009097",
+            "obj": {
+                "i": 1009097,
+                "n": "Serpent Lieutenant",
+                "l": 55,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009116",
+            "obj": {
+                "i": 1009116,
+                "n": "Yda",
+                "l": 55,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009117",
+            "obj": {
+                "i": 1009117,
+                "n": "Maxio",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009120",
+            "obj": {
+                "i": 1009120,
+                "n": "Thancred",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009121",
+            "obj": {
+                "i": 1009121,
+                "n": "Y'shtola",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20022",
+            "obj": {
+                "i": 20022,
+                "n": "The Striking Tree (Hard)",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 50,
+                "max_lvl": 50,
+                "min_ilvl": 65
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66987",
+            "obj": {
+                "i": 66987,
+                "n": "True to Form",
+                "g": 0,
+                "l": "East Shroud",
+                "s": 48
+            }
+        }
+    ]
+}

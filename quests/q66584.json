@@ -1,0 +1,168 @@
+{
+    "quest": {
+        "name": "Ifrit Bleeds, We Can Kill It",
+        "location": "The Waking Sands",
+        "id": 66584,
+        "patch": 2.0,
+        "sort": 1,
+        "icon": 112021,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1007534,
+        "involved": [
+            1004576
+        ],
+        "genre": 13,
+        "journal": [
+            "Thancred wants you to vanquish Ifrit, and has information that will help you to arrange an encounter.",
+            "Thancred confirms Urianger's words that Ifrit has been summoned once more. Report to the Hall of Flames and speak with Commander Swift to learn how you might arrange a meeting with the Lord of the Inferno.",
+            "According to Commander Swift, a beastman aetheryte leading to Ifrit's domain, the Bowl of Embers, has been discovered within Zahar'ak in southern Thanalan. Fight your way to the innermost depths of the Amalj'aa stronghold, and attune to the aetheryte.",
+            "You have attuned yourself to the Zahar'ak aetheryte, and the path to the Bowl of Embers lies wide open. Assemble your stoutest adventuring comrades, and vanquish the Lord of the Inferno.<br><br>※The Bowl of Embers (Hard) can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Speak with Swift at the Hall of Flames.",
+            "Attune to the aetheryte at Zahar'ak."
+        ],
+        "dialogue": [
+            {
+                "name": "THANCRED",
+                "text": "Confirmation has just arrived from the Immortal Flames."
+            },
+            {
+                "name": "THANCRED",
+                "text": "'Tis as Urianger said, I fear─the Amalj'aa have already summoned Ifrit. A confrontation with the Lord of the Inferno is inevitable."
+            },
+            {
+                "name": "THANCRED",
+                "text": "I would like nothing more than to lend you my blade, but the Students of Baldesion insisted that I refrain from taking to the field where it concerns primals."
+            },
+            {
+                "name": "THANCRED",
+                "text": "I know not the workings of it, but it would seem that recent events have left me especially susceptible to tempering."
+            },
+            {
+                "name": "THANCRED",
+                "text": "As much as I hate missing out on the fun, for everybody's sake, I must sit this one out. Instead I will focus on gathering and analyzing data."
+            },
+            {
+                "name": "THANCRED",
+                "text": "Now, the Immortal Flames have already conducted a preliminary investigation into Ifrit."
+            },
+            {
+                "name": "THANCRED",
+                "text": "They may well have information that will be of use to you. Do pay a visit to the Hall of Flames and speak with Commander Swift."
+            },
+            {
+                "name": "THANCRED",
+                "text": "One last thing before you depart. Doubtless you remember Minfilia's words, but this Ifrit is a far cry from the primal you first defeated. You will want to assemble your most dependable comrades for the mission. Be safe, my friend."
+            },
+            {
+                "name": "SWIFT",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\"><span class=\"highlight\">Forename</span></span><span class=\"alternative\">[GC Rank]</span><span class=\"alternative\"> <span class=\"highlight\">Surname</span></span></span>, we thank you for coming. The Flame General will be heartened to hear that you have answered the call."
+            },
+            {
+                "name": "SWIFT",
+                "text": "As we have already relayed to the Waking Sands, Ifrit is returned."
+            },
+            {
+                "name": "SWIFT",
+                "text": "For the sake of peace in the region, we humbly request that you vanquish him."
+            },
+            {
+                "name": "SWIFT",
+                "text": "The primal is to be found in his domain, the Bowl of Embers. To get there, you must use the beastman aetheryte found within the depths of Zahar'ak, the Amalj'aa stronghold."
+            },
+            {
+                "name": "SWIFT",
+                "text": "The Amalj'aa have constructed their own Aethernet from salvaged aetheryte shards. This being the case, you should be able to use it without problem."
+            },
+            {
+                "name": "SWIFT",
+                "text": "No doubt you already know this from your fellow Scions, but the present incarnation of Ifrit is far stronger than the last. Facing him with any fewer than seven of your stoutest comrades would be ill-advised."
+            },
+            {
+                "name": "SWIFT",
+                "text": "That is all the intelligence we have to share─the rest is in your hands. I shall pray for your victory and safe return."
+            }
+        ],
+        "reward": {
+            "gcseal": 719,
+            "instance": 20004,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66583
+            ]
+        },
+        "next": [
+            66693
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1007534",
+            "obj": {
+                "i": 1007534,
+                "n": "Thancred",
+                "l": 356,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004576",
+            "obj": {
+                "i": 1004576,
+                "n": "Swift",
+                "l": 40,
+                "q": 16,
+                "t": "Flame Commander"
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20004",
+            "obj": {
+                "i": 20004,
+                "n": "The Bowl of Embers (Hard)",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 50,
+                "max_lvl": 50,
+                "min_ilvl": 49
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66583",
+            "obj": {
+                "i": 66583,
+                "n": "A Recurring Problem",
+                "g": 13,
+                "l": "The Waking Sands",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66693",
+            "obj": {
+                "i": 66693,
+                "n": "In for Garuda Awakening",
+                "g": 13,
+                "l": "The Waking Sands",
+                "s": 2,
+                "f": 1
+            }
+        }
+    ]
+}

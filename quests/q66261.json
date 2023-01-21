@@ -1,0 +1,196 @@
+{
+    "quest": {
+        "name": "Spirited Away",
+        "location": "East Shroud",
+        "id": 66261,
+        "patch": 2.0,
+        "sort": 122,
+        "icon": 100114,
+        "eventIcon": 71201,
+        "issuer": 1000580,
+        "target": 1000590,
+        "involved": [
+            1000168,
+            1000734
+        ],
+        "genre": 1,
+        "journal": [
+            "Komuxio would make a confession to you.",
+            "Komuxio confesses to you that his elder has gone missing, and beseeches you to seek the aid of the Order of the Twin Adder. Make for the Adders' Nest and inquire with Commander Vorsaile Heuloix as to the elder's possible whereabouts.",
+            "Commander Vorsaile Heuloix consents to assist in the search for the sylph elder. Before venturing into the forest, solicit the advice of Giah Molkoh at Bentbranch Meadows.",
+            "Giah Molkoh has pledged the Wood Wailers' cooperation in the search effort. Take yourself to Buscarron's Druthers in the South Shroud and speak with the proprietor.",
+            "You speak with Buscarron, who agrees to keep an ear out amongst his many customers for any news of the sylph elder's whereabouts."
+        ],
+        "objectives": [
+            "Speak with Vorsaile Heuloix at the Adders' Nest.",
+            "Speak with Giah Molkoh at Bentbranch Meadows.",
+            "Speak with Buscarron at Buscarron's Druthers."
+        ],
+        "dialogue": [
+            {
+                "name": "KOMUXIO",
+                "text": "This one must ask kind one's forgiveness. This one made promise to take kind one to see elder one, yes? But this one cannot..."
+            },
+            {
+                "name": "KOMUXIO",
+                "text": "This one cannot because...elder one is not here. Elder one is not anywhere. Elder one went into forest yesterday, but has not come back..."
+            },
+            {
+                "name": "KOMUXIO",
+                "text": "This one is worried. Elder one often goes into forest, but never, never for this long. Kind one will help find elder one, yes?"
+            },
+            {
+                "name": "KOMUXIO",
+                "text": "Near where elder one disappeared is the home of a walking one named Buscarron. Buscarron may know what happened to elder one."
+            },
+            {
+                "name": "KOMUXIO",
+                "text": "This one would talk to Buscarron...but walking ones do not always trust these ones. Would kind one talk to Buscarron for this one?"
+            },
+            {
+                "name": "KOMUXIO",
+                "text": "And kind one comes from Gridania, yes? In Gridania live many kind ones, yes?"
+            },
+            {
+                "name": "KOMUXIO",
+                "text": "This one begs of kind one. Please go to Gridania and ask fellow kind ones for help. And please hurry─these ones are not safe until elder one returns."
+            },
+            {
+                "name": "VORSAILE",
+                "text": "Well, if it isn't our intrepid ambassador. How fare your diplomatic efforts with the sylph tribes?"
+            },
+            {
+                "name": "VORSAILE",
+                "text": "Their elder's gone missing, you say!? Why, if he were to end up in the hands of the tempered ones, we'd have a crisis on our hands."
+            },
+            {
+                "name": "VORSAILE",
+                "text": "You can assure the sylphs that my sharpest-eyed Serpents will be on the lookout night and day."
+            },
+            {
+                "name": "VORSAILE",
+                "text": "No stone must be left unturned. I would ask you to call upon Giah Molkoh at Bentbranch Meadows and deliver the message that the Wood Wailers are needed in the search effort."
+            },
+            {
+                "name": "GIAHMOLKOH",
+                "text": "A message from Commander Heuloix, you say?"
+            },
+            {
+                "name": "GIAHMOLKOH",
+                "text": "The sylph elder has vanished? Worry not, friend─the Wood Wailers have eyes under every leaf, behind every branch. If the elder is anywhere in these forests, we shall find him."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Well met, adventurer! We have the finest grog and grub this side of─ Eh? Not here to fill your belly, then?"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Ahhh, a hunger for news, is it? Aye, there's been talk of a sylph lurking hereabouts, but I couldn't rightly say if it be the elder you seek."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Those woodland scamps all look alike. Short of painting one red and another one blue, most folk would struggle to tell two of 'em apart."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "If you've the time, mayhap you could stay a while and see what the gods have in store. You never know, you might even stumble across this sylph elder yourself."
+            }
+        ],
+        "reward": {
+            "gil": 1140,
+            "xp": 8680
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 22,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66260
+            ]
+        },
+        "next": [
+            66262,
+            69395
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000580",
+            "obj": {
+                "i": 1000580,
+                "n": "Komuxio",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000590",
+            "obj": {
+                "i": 1000590,
+                "n": "Buscarron",
+                "l": 56,
+                "q": 14,
+                "t": "Alehouse Proprietor"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000168",
+            "obj": {
+                "i": 1000168,
+                "n": "Vorsaile Heuloix",
+                "l": 52,
+                "q": 23,
+                "t": "Serpent Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000734",
+            "obj": {
+                "i": 1000734,
+                "n": "Giah Molkoh",
+                "l": 54,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66260",
+            "obj": {
+                "i": 66260,
+                "n": "Brotherly Love",
+                "g": 1,
+                "l": "East Shroud",
+                "s": 121
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66262",
+            "obj": {
+                "i": 66262,
+                "n": "Druthers House Rules",
+                "g": 0,
+                "l": "South Shroud",
+                "s": 123
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69395",
+            "obj": {
+                "i": 69395,
+                "n": "Druthers House Rules",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 123
+            }
+        }
+    ]
+}

@@ -1,0 +1,536 @@
+{
+    "quest": {
+        "name": "The Wandering Whale",
+        "location": "Old Sharlayan",
+        "id": 69700,
+        "patch": 6.0,
+        "sort": 0,
+        "eventIcon": 71221,
+        "issuer": 1038551,
+        "target": 1038551,
+        "genre": 177,
+        "usedItems": [
+            35849
+        ],
+        "journal": [
+            "T'laqa Tia will stop at nothing to complete his research.",
+            "Your discussion with T'laqa Tia is suddenly interrupted by a flustered research assistant, who reports that a whale has somehow wandered its way into Scholar's Harbor. The harbormaster has requested T'laqa Tia's immediate presence, and the professor, in turn, asks for yours.",
+            "Upon arriving at the harbor and identifying the whale, T'laqa Tia decides to bring the confused creature in for a thorough examination. As he and his team may be tending to the whale for some time, the professor asks that you await him back at Searchers' Meet.",
+            "T'laqa Tia does not keep you waiting long, but it seems his analysis of the wayward whale has produced more questions than answers. It is at this point that Kytte arrives to report a similar incident, wherein a veritable legion of fish has washed ashore in Yedlihmad not far from the experimental aetheryte. The coincidence is too great to ignore. Plucking up his courage, T'laqa Tia volunteers himself to join you in Yedlihmad, where you might begin investigating this worrisome occurrence.",
+            "You arrive in Yedlihmad to find T'laqa Tia suffering from a ghastly case of aether sickness. As he is in no state to investigate much of anything for the moment, it falls to you to gather information on the wayward sea life.",
+            "Your inquiries into the recent shoreline incident have produced some interesting responses. T'laqa Tia will wish to hear what you have learned.",
+            "You share your findings with T'laqa Tia, and he believes the fish which were carried upstream might provide some valuable data. According to the professor, baiting your hook with leeches should allow you to catch an Alnairan salmon somewhere along Ksiroda.",
+            "You deliver the salmon to an appreciative─and apologetic─T'laqa Tia. With fish sample in hand, the yet-shaky scholar makes preparations to return to Searchers' Meet.",
+            "You return to find T'laqa Tia has already completed his analysis of the salmon. As suspected, it contained the same levels of aether as the wayward whale, and, after a brief discussion, you agree that the tidal bore─and thus some property of the moon─is likely the culprit of this strange behavior. T'laqa Tia theorizes that Zodiark's demise and the sudden release of massive amounts of aether could account for the discrepancies, but obtaining an uncontaminated species for comparison is an endeavor that will require more careful consideration..."
+        ],
+        "objectives": [
+            "Speak with T'laqa Tia.",
+            "Wait for T'laqa Tia at the designated location.",
+            "Speak with T'laqa Tia in Yedlihmad.",
+            "Gather information on the wayward sea life.",
+            "Speak with T'laqa Tia.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Catch an Alnairan salmon in Ksiroda.</span><span class=\"alternative\">Deliver the Alnairan salmon to T'laqa Tia.</span></span>",
+            "Speak with T'laqa Tia at Searchers' Meet."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "In order to progress further in the quest, you must first complete the main scenario quest “At World's End.”"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Thanks to your most selfless contributions, I draw closer and closer to proving my hypothesis correct. Other gleaners have also been helping me by continuing to find specimens for me in calmer waters."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "But I would gather data from further and further afield. Which is, of course, where you come in..."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "Professor!"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Aubracie. It's not like you to get so excited. Whatever is the matter?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Ah, but I haven't introduced you two yet, have I? This is Aubracie, one of my new research assistants. She's been a great help in analyzing all the data we've collected."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "I appreciate the vote of confidence, but this is no time for pleasantries! A whale has somehow wandered its way into Scholar's Harbor!"
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "The harbormaster has requested that you come and assess the situation with all haste!"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Oh dear! I suppose we'd best be in a hurry, then."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "My apologies, but it seems our work will have to wait until later. In the meanwhile, would you accompany me to the harbor? Your insight into the situation could prove most valuable."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "I believe it was somewhere around here... Look, everyone must be so concerned. It's not every day that a massive whale finds its way into the harbor..."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Hmm, that's a breed that calls the northern seas home. It's not especially rare to see them off the coast, but I've never heard of one coming so close to land as this."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "It's most strange. It doesn't appear to be wounded, nor have there been any notable storms of late. Whatever might have caused it to veer so far off its normal course?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "What indeed... At any rate, we need to move it to one of our facilities and ensure it's kept safe while we tend to its wounds it may have and study it more. I suppose we should check its aether levels as well. Ready a team for me, Aubracie."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "Of course, Professor!"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "This may be quite the undertaking. My apologies, but our project will have to wait a while longer. Let us reconvene back at Searchers' Meet and discuss the matter further."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Oh, hello there. I'm so very sorry for keeping you waiting. We just finished tending to the creature's ailments and doing some preliminary analysis."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "As we suspected, the whale hadn't sustained any major injuries. However, it <span class=\"emphasis\">does</span> seem to be suffering from severe aether sickness and is highly disoriented as a result. Needless to say, I can sympathize."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "The creature's aether levels were also cause for concern, which would explain why it wound up somewhere so far from its usual habitat. That said, we're still none the wiser as to <span class=\"emphasis\">what</span> caused all of this."
+            },
+            {
+                "name": "KYTTE",
+                "text": "How goes it, T'laqa? Oh, and <span class=\"highlight\">Forename</span>. What a pleasant surprise. I've heard all about your predicament with the wayward whale."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Master Kytte! To what do I owe the pleasure?"
+            },
+            {
+                "name": "KYTTE",
+                "text": "I was simply hoping to pick your brains about something that I imagine is related to your line of work."
+            },
+            {
+                "name": "KYTTE",
+                "text": "Around the same time your larger-than-life friend wandered into the harbor, a veritable legion of fish washed ashore in Yedlihmad, near the experimental aetheryte."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "That sounds too similar to be mere coincidence. Curious behavior by aquatic life has been known to portend natural disasters. Yes, this strikes me as very much related to my studies."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "That said, nothing I have gleaned thus far has suggested that aether currents can change so drastically as to inflict nearby creatures with aether sickness..."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "All I have observed suggests that the currents of the planet follow a simple and regular rhythm, not unlike the tides. Indeed, the entirety of my research up until now has been focused on proving this point."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "If there has been a sudden disturbance in the underwater aether currents, then it will take some time to determine the cause. I also need to attend to the whale. Oh, when will I have time to return to my thesis...?"
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "As for the whale, the Studium has already announced that it will be dispatching a vessel to research the aether currents in the seas near Sharlayan. It won't benefit any of us if such incidents continue to occur, after all."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "If we wish to investigate the link between the two events, as Master Kytte suggested, then perhaps we should pay visit to Thavnair."
+            },
+            {
+                "name": "KYTTE",
+                "text": "An astute suggestion. You could recruit the help of one of our colleagues over there, or... Wait a minute. I believe you have the perfect <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> for the job right here!"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Sure, I'll go to Thavnair."
+            },
+            {
+                "name": "A1",
+                "text": "If you insist..."
+            },
+            {
+                "name": "KYTTE",
+                "text": "As generous and dependable as ever! Yes, I knew you'd be up to the task."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I would accompany <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "KYTTE",
+                "text": "You would? When was the last time you even ventured outside the Studium's grounds?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Th-That's not important! <span class=\"highlight\">Forename</span> has risked life and limb to help me with my research! I can't just keep leaving all the hard work to <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "But Professor, going to Thavnair means you would have to travel via the aetheryte! Or by ship─not that you'd handle that any better..."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "You don't have to tell me that. Still, time is of the essence. Besides, I'll never be truly respected as a researcher if I don't go out and get my hands dirty from time to time."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I have let my fears rule me for far too long. Today is the day I conquer them!"
+            },
+            {
+                "name": "KYTTE",
+                "text": "Well, it's clear you're not going to change your mind."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "At least try not to cause <span class=\"highlight\">Forename</span> <span class=\"emphasis\">too</span> much trouble."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Now that you mention it, I hadn't consulted you on the matter. <span class=\"highlight\">Forename</span>, do you mind if I join you this time?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Fantastic! In that case, I shall see you in Yedlihmad!"
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "The professor was saying he would go on ahead to Yedlihmad and wait for you by the experimental aetheryte. I do hope he isn't too much of a nuisance for you with his aether sickness..."
+            },
+            {
+                "name": "ALCHEMISTA04164",
+                "text": "I found this fellow rolling about in his own vomit a short while ago. Not a pretty sight, I can assure you. I'm not sure I've ever seen someone suffer from such severe aether sickness..."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Urk... <span class=\"highlight\">Forename</span>...? Is that you?"
+            },
+            {
+                "name": "ALCHEMISTA04164",
+                "text": "Ah, you know this fellow? The poor man was so ill I thought he might die. I'd not have believed anyone could suffer from such severe aether sickness if I hadn't seen it myself."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Be glad you weren't here to see me immediately after I arrived. It was even...less pretty a sight than what you witnessed at the aetheryte plaza back in Sharlayan."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "And don't even get me started on the most ghastly visions I saw..."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Countless replicas of myself, dancing and singing and spinning, spinning, spinning... Oh, the spinning! Please, make it stop! Urk..."
+            },
+            {
+                "name": "ALCHEMISTA04164",
+                "text": "I'd suggest you lie down for a while still, friend. It wasn't so long ago that you were convulsing on the ground, spitting up some ghastly bile."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "You are right, my friend. My apologies for making you worry so."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I'm truly sorry about this, <span class=\"highlight\">Forename</span>. Might you be so kind as to ask around while I rest here a bit more?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "My apologies. I simply don't have the physical fortitude to do much of anything right now."
+            },
+            {
+                "name": "ALCHEMISTA04164",
+                "text": "Don't you worry. Your friend will be safe with me. I know not what business you have here, but pray attend to it."
+            },
+            {
+                "name": "ALCHEMISTB04164",
+                "text": "I've never seen anything like it─entire schools of fish suddenly washing up ashore. There were so many you couldn't see a single grain of sand! Our fishers have their hands full trying to clean up the mess even as we speak."
+            },
+            {
+                "name": "ALCHEMISTB04164",
+                "text": "Troublingly, we have no idea what caused it. It's not as if anything ominous occurred to portend such an event. Why, the night before was peaceful as always—the full moon shining bright in the night sky."
+            },
+            {
+                "name": "ALCHEMISTB04164",
+                "text": "I swear, these fish washed up seemingly out of nowhere. Where are we going to put them all?"
+            },
+            {
+                "name": "FISHER04164",
+                "text": "Gah! You think <span class=\"emphasis\">this</span> is a lot of fish? You should've been here earlier! This is a massive improvement, believe you me. No time to rest, though─if they start rotting, the stench alone will be enough to make the whole town ill!"
+            },
+            {
+                "name": "FISHER04164",
+                "text": "What's especially bizarre is that these fish normally stay away from land altogether─save for when they go up rivers to lay their eggs, that is."
+            },
+            {
+                "name": "FISHER04164",
+                "text": "Anyhow, I've never seen─or smelled─anything like it in my life, and I hope I never do again."
+            },
+            {
+                "name": "FISHER04164",
+                "text": "This better not become a regular occurrence around here. I'm a fisher, damn it, not a rubbish collector!"
+            },
+            {
+                "name": "MERCHANT04164",
+                "text": "Now that you mention it, there was one thing out of the ordinary earlier the day before the fish appeared. The river that runs here from the Shroud of the Samgha was swelling like mad."
+            },
+            {
+                "name": "MERCHANT04164",
+                "text": "The seawater flowed back in to the river, and some say they saw it carrying fish deep, deep into the woods."
+            },
+            {
+                "name": "MERCHANT04164",
+                "text": "What could have caused the seawater to flow upstream? Whatever it was, I just hope it doesn't happen again. This stench isn't exactly good for business."
+            },
+            {
+                "name": "ALCHEMISTA04164",
+                "text": "We gave your friend some medicine, and thankfully, it seems to be working. He's finally feeling a little more like himself."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "My apologies for making you go alone, friend. I still can't quite stand up straight, but I feel much better than when I arrived."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Tell me, were you able to learn anything of interest from the townspeople?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "A full moon the night before, and a strong tide flowing up into the river? It would seem this is what we call a tidal bore. The fact that these fish are typically not seen near the coast is strangely reminiscent of our whale problem, as well. No, this cannot be mere coincidence..."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "The matter of these fish that were supposedly carried upstream into the woods intrigues me as well. Assuming they're still alive, they would provide much more useful data than those rotting corpses on the beach."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "If we were to analyze them and find them in a similar aetheric state as the whale in Sharlayan, we could safely conclude that both events were caused by the same─or at least, a similar─phenomenon."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I'm terribly sorry to impose upon you again, but could you go catch those fish for me? They might very well be the key to solving this mystery!"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "From the fisherman's description─swimming upstream, you said?─I suspect we are looking for Alnairan salmon. If so, those leeches you used on the clams in Garlemald should serve you well again here."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I loathe to impose, but you must go into the woods and catch those fish for me! I didn't come all this way just to get myself sick─I must solve this mystery!"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Oh, thank the gods! ...And thank you, my friend. I would have hated to go home with nothing but the memory of my worst bout of aether sickness ever."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I'm happy to report that I also made some progress myself. I had a word with the alchemists who helped me, and it turns out they have a keen interest in aether as well. We had an exchange of views that was most stimulating."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I may not have been able to do much while here, but I'm glad I made the effort to leave the Studium for once."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Now, it's time we returned so I can make use of this new knowledge and analyze the sample you so kindly reeled in for me."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Alas, while we may not need to use that gods-awful experimental aetheryte to travel back, an aetheryte is still an aetheryte. Heavens have mercy..."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Good to see you return! Needless to say, the trip was a rough one for me. Thankfully, it wasn't nearly as uncomfortable as that dreadful experimental aetheryte."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I've just about finished analyzing the fish you caught in Thavnair. As expected, its aether levels are almost identical to those of the wayward whale."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "So you believe that a sudden change in the concentration of aether in the nearby currents caused them to completely alter their behavior?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Precisely. That said, the change was of such magnitude that I would struggle to explain it with my initial hypothesis of aetheric tides."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "On the contrary, if such sudden changes are possible, then I may have to reconsider my premise altogether. Moreover, we can't safely return the whale to the sea until we know precisely what is at the root of this problem."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A2",
+                "text": "Might the tidal bore hold the answer?"
+            },
+            {
+                "name": "A2",
+                "text": "Is it not connected to the ebb and flow of the tide?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Yes, I do remember considering that when you shared the people's tales with me."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "If we posit that the underwater aether currents are affected by the moon─much as the tide itself is─then any sudden change in the moon's state would naturally affect underwater aether levels as well."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Recent changes in the moon...?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "By the Scholar, that's it! The destruction of Zodiark would have freed an unfathomable amount of aether from within the moon. It would be only logical if this had an impact on the underwater aether currents!"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "If this is the explanation, my initial theory may yet be viable─with this recent outpouring of aether being the exception that proves the rule. We will need to watch closely for any similar incidents in the near future..."
+            },
+            {
+                "name": "NELE",
+                "text": "Ah, T'laqa! Word has it that you braved the journey by aetheryte to do some fieldwork in Thavnair. Did you find aught of interest there?"
+            },
+            {
+                "name": "NELE",
+                "text": "I see..."
+            },
+            {
+                "name": "NELE",
+                "text": "A word of advice, if I may. Any researcher worth his salt must be prepared to rethink and reevaluate their theories when presented with new evidence. Have you given any thought to how you might adapt yours?"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "My initial theory was, to a degree, predicated on the existence of Zodiark. Now that He is no more, I am not entirely sure how we might─"
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Unless we could... Yes, that's it! We could examine a species altogether more ancient—from a time when the heavens were free of Zodiark and other entities of high aetheric concentration!"
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "Professor, please! This is no time for idle jests."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "I'm being perfectly serious! Why, I have complete confidence that <span class=\"highlight\">Forename</span> here will be able to find what we require."
+            },
+            {
+                "name": "AUBRACIE",
+                "text": "I do not doubt <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> skills, but even the best of gleaners would struggle to find specimens of species that doubtless died out ages ago."
+            },
+            {
+                "name": "TLAQATIA",
+                "text": "Oh, ye of little faith! Our friend is more than up to the task. Isn't that so, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "NELE",
+                "text": "Bahaha! Now that's the spirit, T'laqa. A good scholar must consider every possible option, even those that might seem impossible. Keep pondering the matter, and I have no doubt you will arrive at an answer ere long."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next request will be available from T'laqa Tia upon reaching level 88 as a fisher."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In order to undertake the subsequent quest, you must first complete the main scenario quest “Thou Must Live, Die, and Know.”"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 2,
+                    "id": 36054
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 85,
+                    "id": 155
+                }
+            ],
+            "quests": [
+                69699
+            ]
+        },
+        "next": [
+            69701
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1038551",
+            "obj": {
+                "i": 1038551,
+                "n": "T'laqa Tia",
+                "l": 3706,
+                "q": 7
+            }
+        },
+        {
+            "type": "item",
+            "id": "36054",
+            "obj": {
+                "i": 36054,
+                "n": "Yakow Moussaka",
+                "l": 540,
+                "c": 24112,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "35849",
+            "obj": {
+                "i": 35849,
+                "n": "Alnairan Salmon",
+                "l": 560,
+                "c": 29282,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69699",
+            "obj": {
+                "i": 69699,
+                "n": "History Lesson",
+                "g": 177,
+                "l": "Old Sharlayan",
+                "s": 0
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69701",
+            "obj": {
+                "i": 69701,
+                "n": "Fish Time Forgot",
+                "g": 177,
+                "l": "Old Sharlayan",
+                "s": 0
+            }
+        }
+    ]
+}

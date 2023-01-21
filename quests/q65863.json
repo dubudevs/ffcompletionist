@@ -1,0 +1,96 @@
+{
+    "quest": {
+        "name": "Spriggan Cleaning",
+        "location": "Central Thanalan",
+        "id": 65863,
+        "patch": 2.0,
+        "sort": 38,
+        "eventIcon": 71201,
+        "target": 1001447,
+        "genre": 0,
+        "journal": [
+            "Warin needs your help to solve a mystery.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Zuzumeda at Black Brush Station.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "Return to Black Brush Station and inform Warin that the mystery is solved.",
+            "While many miners revere spriggans as bearers of good fortune, Warin has no objections to your culling the critters. The spriggans may not mean any ill, but their actions would have eventually led to disaster."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Zuzumeda at Black Brush Station.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "WARIN",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. I daresay you are the right <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> to solve this mystery."
+            },
+            {
+                "name": "WARIN",
+                "text": "Someone or some<span class=\"emphasis\">thing</span> has been littering the tracks with pieces of silver ore.　"
+            },
+            {
+                "name": "WARIN",
+                "text": "Even a tiny chunk can send a wagon off its course, so I've had to devote significant manpower to locating and clearing these obstructions."
+            },
+            {
+                "name": "WARIN",
+                "text": "We can't keep this up forever, though. I need you to find the culprits and put an end to their mischief. Search for any pieces of pockmarked silver ore on the tracks. If you're lucky, you'll catch the bastards before they escape."
+            },
+            {
+                "name": "WARIN",
+                "text": "So the spriggans were responsible!"
+            },
+            {
+                "name": "WARIN",
+                "text": "The little critters gnaw on ore as a hound on a bone. The rocks on the track were their godsdamned leftovers!"
+            },
+            {
+                "name": "WARIN",
+                "text": "Some superstitious miners believe that spriggans are harbingers of fortune, but by my reckoning the creatures are naught more than pests, like coblyns."
+            },
+            {
+                "name": "WARIN",
+                "text": "As far as I'm concerned, there's no better omen for Amajina & Sons than you. Ever since you began helping out at the station, our operations have been running without so much as a single hiccup."
+            },
+            {
+                "name": "POP",
+                "text": "You are being watched..."
+            }
+        ],
+        "reward": {
+            "xp": 3240
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65843
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001447",
+            "obj": {
+                "i": 1001447,
+                "n": "Warin",
+                "l": 43,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65843",
+            "obj": {
+                "i": 65843,
+                "n": "Out of House and Home",
+                "g": 1,
+                "l": "Central Thanalan",
+                "s": 37
+            }
+        }
+    ]
+}

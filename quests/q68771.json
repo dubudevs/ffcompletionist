@@ -1,0 +1,656 @@
+{
+    "quest": {
+        "name": "Healing Old Wounds",
+        "location": "The Crystarium",
+        "id": 68771,
+        "patch": 5.0,
+        "sort": 330,
+        "icon": 100847,
+        "eventIcon": 71221,
+        "issuer": 1027235,
+        "target": 1027235,
+        "genre": 169,
+        "usedItems": [
+            27254,
+            27255
+        ],
+        "journal": [
+            "Bethric was hoping you might stop by.",
+            "After much deliberation, Knem Cheleim-In wishes to speak with Bethric about Skip and the possibility of his permanent residency at the Crystarium. In light of your significant contributions to Skip's recovery, Bethric thought it only right that you be present as well, and so invites you to accompany him to Temenos Rookery. ",
+            "Knem Cheleim-In asks that Skip pass two tests to ensure he is fit to stay at the Crystarium. The first is a seemingly simple one: to eat the common fare of the stable's amaro. Being of a different breed, she would be certain it suits his constitution. Knowing this food was used to poison Skip not long ago, Bethric worries the trauma of that experience may be too difficult to overcome in such a short time. But Knem Cheleim-In has made up her mind, unwilling to bend her rules for the sake of a single amaro. Bethric then turns to you to prepare Skip's meal, hoping his sensitivity to aether and connection to you might assuage his anxiety.<br><br>※In the event you lose the materials or the synthesis ends in failure, you may try again by speaking with Knem Cheleim-In.",
+            "Despite the protestations of his stomach, Skip samples your cooking, and before long finds himself devouring it with great enthusiasm. Satisfied with the results of this first trial, Knem Cheleim-In is ready to move on to the next: a flight from the Belt in Lakeland to the Amaro Launch, carrying a passenger. Bethric is seemingly in agreement with this proposed task, until he discovers he is to be the passenger. Unable to sway Knem Cheleim-In's decision, he warily makes his way to the Belt.",
+            "Both Bethric and Skip are ready to take flight when they suddenly find themselves in the presence of the two poachers. They recognize your amaro companion and seem intent on finishing what they started during their first encounter. Bethric has a plan to deter them, perhaps long enough to call for help, but it would require help from Skip, who is paralyzed with fear. With a little encouragement, however, you manage to bring him to his senses.<br>Bethric then sets his plan into motion, which nearly goes awry as one of the poachers lets loose an arrow that comes within ilms of striking Skip. This incites a rage in Bethric, surprising both friend and foe, as he proceeds to bombard the poachers with a series of explosives. They are eventually driven back, and Skip is able to complete his trial as you all take a leisurely flight to the Crystarium.",
+            "Bethric and Skip land safely at the Amaro Launch, and Knem Cheleim-In was witness to all that took place prior to their arrival. The three of you rush over to the rookery, eager to hear what she has to say.",
+            "Together with Bethric and Skip, you arrive at the rookery to find Knem Cheleim-In, a look of admiration on her face. In light of Skip's bravery in the face of danger, and his successful completion of the trials, she welcomes him to the rookery with open arms. At last, the Tupaq Amaro has found a home, and the experience has renewed Bethric's resolve to improve as a practitioner of medicine. In fact, he wastes no time in returning to the Mean to begin his studies.",
+            "Words fail to express Bethric's gratitude for all you have done not only for him, but all the amaro of the Crystarium. With Skip safe and the poachers on the run, he vows to do all he can to keep the amaro healthy and safe from harm."
+        ],
+        "objectives": [
+            "Speak with Bethric.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize Zun-style amaro feed <img class=\"hq-icon small\" src=\"images/item/hq.png\"></span><span class=\"alternative\">Deliver Zun-style amaro feed <img class=\"hq-icon small\" src=\"images/item/hq.png\"> to Bethric</span></span>.",
+            "Speak with Bethric at the Belt in Lakeland.",
+            "Speak with Bethric at the Amaro Launch in the Crystarium.",
+            "Speak with Bethric."
+        ],
+        "dialogue": [
+            {
+                "name": "BETHRIC",
+                "text": "There you are. As I told you before, Knem wishes to speak with me about Skip's staying here at the Crystarium."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "If you would also hear what she has to say, meet us over at the rookery."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "Thank you for coming. I would have you hear this as well."
+            },
+            {
+                "name": "SKIP",
+                "text": "What do you suppose she has to say?"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "You've come. Good. Before we begin, I would thank you again for the Berube feed you prepared for the amaro."
+            },
+            {
+                "name": "SKIP",
+                "text": "It was most excellent, and the other amaro enjoyed it as well."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Ahem. But I digress. Now, as you may or may not be aware, Knem is the stable master here at the rookery."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "It warms my heart to see you well again, Skip."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "I have given the matter of your staying much thought, and there is no denying the value of your presence here at the Crystarium."
+            },
+            {
+                "name": "SKIP",
+                "text": "Then I have your leave to stay?"
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "In a word, yes."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "However, everyone here must do their part. To be certain that you too are able to contribute, I would have you undertake a test."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "A test?"
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "Yes. Two in fact. First, I would have you partake of the food we provide to the other amaro here at the stable. Being of a different breed, we must be certain our feed is suitable to your constitution."
+            },
+            {
+                "name": "SKIP",
+                "text": "That seems reasonable enough."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "I do not wish to alarm you, but the staple fare of our amaro is the same as that used by the poachers who poisoned you."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Must we really subject him to this now? It's not his constitution that concerns me, but the trauma of his experience."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "There's only so much we can do to accommodate a single amaro of many. It would be impractical to maintain a separate stock of food for him alone."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "If he proves comfortable eating it, we can discuss the next test."
+            },
+            {
+                "name": "SKIP",
+                "text": "If there is no other way, then I must try."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "I believe in you, Skip!"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "<span class=\"highlight\">Forename</span>, would you be willing to prepare the feed? Perhaps it will assuage his fears if he senses it was made by your hand."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "Thank you."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "If you have need of supplies, you need only ask. When you have finished, bring the feed to Bethric."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "In need of more supplies? Here, take this."
+            },
+            {
+                "name": "SKIP",
+                "text": "The mere thought of those poachers and their poison makes my stomach turn, but if this is what I must do to stay at the Crystarium, I will give it my all."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "You have done fine work, my friend. I pray Skip enjoys it."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "We're counting on you for that feed."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Another culinary masterpiece. This looks fantastic!"
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "You are quite skilled to master our recipes so quickly. Such quality would normally require years of training."
+            },
+            {
+                "name": "SKIP",
+                "text": "Are you certain there is no other way? Already I can feel my stomach turning in protest."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "You can do it, Skip. Remember: <span class=\"highlight\">Forename</span> prepared this especially for you."
+            },
+            {
+                "name": "SKIP",
+                "text": "This is...good..."
+            },
+            {
+                "name": "SKIP",
+                "text": "More than good─this is delicious! I regret not partaking sooner!"
+            },
+            {
+                "name": "SKIP",
+                "text": "Thank you, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "That's the spirit. And imagine how much more enjoyable your meals will be in the company of the other amaro."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "Well done. We may move on to the next test, then."
+            },
+            {
+                "name": "SKIP",
+                "text": "Yes, of course. What would you have me do?"
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "You must fly from the Belt to the Amaro Launch, carrying a passenger."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Ah, of course. To prepare him for the work the other amaro carry out, yes?"
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "Precisely. All who live here at the Crystarium must do their part to support our community. For you, that part will be the transport of goods and people."
+            },
+            {
+                "name": "SKIP",
+                "text": "I've not had a rider since the Flood... Still, I am an amaro. Such a task should prove a simple one."
+            },
+            {
+                "name": "SKIP",
+                "text": "Come, <span class=\"highlight\">Forename</span>. Let's be off."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "No. You must take Bethric."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Me!?"
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "It is clear you have formed a strong connection with <span class=\"highlight\">Forename</span>, Skip. But you are not like to share any such bond with riders in your day-to-day work."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "B-But... It's been too long since I've ridden. What's more, Skip has but recently recovered from his illness. Perhaps one of your stablehands, one proficient in─"
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "Such a skill is not easily forgotten. You will ride him, Bethric. My decision is final."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "You may stay to observe, if you like. Perhaps your presence will settle their nerves."
+            },
+            {
+                "name": "SKIP",
+                "text": "If you will be watching, then I cannot fail."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Provided I don't make a mess of things, of course. I'll try not to let Skip down."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Landing at the Amaro Launch is more difficult than one might think, but I'll guide him as best I can."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "We'll be waiting for you at the Belt."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "We can expect your attendance for this exercise, yes? I know it would mean much to Bethric and Skip both if you were there."
+            },
+            {
+                "name": "SKIP",
+                "text": "This place again..."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "This is it, Skip. How are you feeling?"
+            },
+            {
+                "name": "SKIP",
+                "text": "Equal parts terrified and excited. It was here that I was assailed by the poachers, but as we take to the sky and fly back to the Crystarium, I intend to leave those painful memories behind."
+            },
+            {
+                "name": "MTHIEF03235",
+                "text": "Hold on a minute. Isn't that...?"
+            },
+            {
+                "name": "MTHIEF03235",
+                "text": "Well I'll be! It's that talkin' amaro what got away from us the other day."
+            },
+            {
+                "name": "SKIP",
+                "text": "No... No, it can't be!"
+            },
+            {
+                "name": "FTHIEF03235",
+                "text": "Don't you two move, you hear? We don't want any trouble. Just your feathered friend there."
+            },
+            {
+                "name": "MTHIEF03235",
+                "text": "They say the tongue from an amaro like that can cure any illness. Should fetch a nice price from those overfed prigs in Eulmore!"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Tupaq Amaro tongues have never been proven to possess such curative properties! "
+            },
+            {
+                "name": "FTHIEF03235",
+                "text": "Well it don't matter what <span class=\"emphasis\">we</span> think. If they're willing to pay gil hand over fist for a sliver of that there tongue, who are we to argue?"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "We need to alert the guard somehow. If they can be apprehended and questioned, perhaps we can locate their hideout, and put an end to their entire operation."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "It's somewhat of a gamble, but I have an idea."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Skip, do you think you can lift me up into the air?"
+            },
+            {
+                "name": "SKIP",
+                "text": "No... No, not again. I can't!"
+            },
+            {
+                "name": "MTHIEF03235",
+                "text": "What's that? Best speak up now while you still can."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "You have to trust us."
+            },
+            {
+                "name": "A1",
+                "text": "Chin up, Skip. We'll get through this."
+            },
+            {
+                "name": "SKIP",
+                "text": "You... You're right. I cannot squander all you and the others have done for me."
+            },
+            {
+                "name": "SKIP",
+                "text": "You... You're right. I cannot squander all you and the others have done for me."
+            },
+            {
+                "name": "SKIP",
+                "text": "Bethric! Quickly!"
+            },
+            {
+                "name": "SKIP",
+                "text": "Wait here, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "MTHIEF03235",
+                "text": "What are you lot up to now?"
+            },
+            {
+                "name": "FTHIEF03235",
+                "text": "Out of the way, maggot!"
+            },
+            {
+                "name": "MTHIEF03235",
+                "text": "We're havin' that tongue!"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "You piddlin' streak o' piss!"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "You gormless pile o' Mordshite! Don't you dare lay a hand on my Skip!"
+            },
+            {
+                "name": "MTHIEF03235",
+                "text": "Wh-What in the hells?"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Let's go!"
+            },
+            {
+                "name": "SKIP",
+                "text": "R-Right!"
+            },
+            {
+                "name": "FTHIEF03235",
+                "text": "Ahhh! My legs! I can't feel my legs!"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Out of the way, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "MTHIEF03235",
+                "text": "Damn it all. You'll pay for this!"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Phew. At last they're gone. Are you all right?"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "The plan was a success, and it's all thanks to you, Skip. You were so brave up there!"
+            },
+            {
+                "name": "SKIP",
+                "text": "You should be thanking <span class=\"highlight\">Forename</span>, not me. <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span> helped me find the strength to cast away my fears."
+            },
+            {
+                "name": "SKIP",
+                "text": "And now I'm ready to complete Knem's trial. To the Crystarium!"
+            },
+            {
+                "name": "SKIP",
+                "text": "Knem is sure to be impressed."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Skip took to the sky as if it belonged to him, and Knem bore witness to it all, from takeoff to landing."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "I had my doubts at first, but he has grown so much in such a short time. "
+            },
+            {
+                "name": "SKIP",
+                "text": "Khrrr! Soon I will call the Crystarium home!"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "And after I inform the guard of our recent encounter with the poachers, I should hope that will be the last we hear of them."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Let us return to the rookery."
+            },
+            {
+                "name": "SKIP",
+                "text": "Home at last."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "It is good to see you are returned safe."
+            },
+            {
+                "name": "LYSSANA",
+                "text": "Bethric offered us a rather lengthy retelling of your confrontation with the poachers, and from the sounds of it, they can't have gone far. It's only a matter of time before they're found."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "There you are. I insisted we wait for your arrival before Knem announced her decision."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "After bearing witness to Skip's flight from the Belt, and his outstanding bravery in the face of danger, I hereby declare him fit to join the amaro here at Temenos Rookery."
+            },
+            {
+                "name": "SKIP",
+                "text": "Thank you! Thank you all so much!"
+            },
+            {
+                "name": "SKIP",
+                "text": "I promise to do all I can that my gift might bring man and amaro closer together, as they once were in the days of Ronka."
+            },
+            {
+                "name": "LYSSANA",
+                "text": "From what you told me earlier, you were no slouch either, Bethric."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Yes, well, I'm merely grateful I had the opportunity to overcome my apprehension of riding amaro. How fortuitous that you chose me rather than one of your stablehands..."
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "I'm not sure I understand what it is you're implying."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "More importantly, this whole ordeal has taught me that it requires more than knowledge to be skilled in medicine."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "If I'm ever to be a truly great veterinarian, I have to let go of the past and my fears of failure. It has kept me from fully committing to the care of amaro despite my love for them, and I suspect they could sense my trepidation."
+            },
+            {
+                "name": "SKIP",
+                "text": "A lesson I think we all would do well to learn."
+            },
+            {
+                "name": "SKIP",
+                "text": "Thank you again, <span class=\"highlight\">Forename</span>, for all your help."
+            },
+            {
+                "name": "SKIP",
+                "text": "And you as well, Bethric."
+            },
+            {
+                "name": "SKIP",
+                "text": "If your intention is to be more committed to the care of the amaro, I hope that means we can count on you to prepare our food in the future."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "...!"
+            },
+            {
+                "name": "BETHRIC",
+                "text": "For you, Skip, anything."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "What do you say we return to the Mean, <span class=\"highlight\">Forename</span>? The amaro's medicines want for mixing and they won't do it themselves."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "The future looks bright, old friend..."
+            },
+            {
+                "name": "SKIP",
+                "text": "You'll come back to visit, won't you?"
+            },
+            {
+                "name": "KNEMCHELEIMIN",
+                "text": "Skip will make for an interesting new addition to the rookery. No doubt the stablehands will appreciate his ability to speak to the other amaro."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Oh, <span class=\"highlight\">Forename</span>. You've done so much for me and the amaro, I'm at a loss as to how to repay your kindness."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "Skip wouldn't be alive if not for you... And like as not, I would've placed the blame on anyone but myself."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "That all ends now. I will do whatever it takes to ensure the amaro never again want for succor."
+            },
+            {
+                "name": "BETHRIC",
+                "text": "I have my work cut out for me, but don't be a stranger, all right? Perhaps I can even help you with something for a change."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Bethric is humbled by your efforts. He now considers you the <span class=\"highlight\">Savior of the Amaro</span>!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "There may be others in the Crystalline Mean who could use the assistance of a talented artisan. Ask around, and see who is in need of your skills."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have completed all the deliveries currently available. When you have a spare moment, it seems Katliss would like to have a word with you."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Return to visit the Crystalline Mean once you have completed the main scenario quest “Shadowbringers.”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have completed all the deliveries currently available. When you have a spare moment, it seems Katliss would like to have a word with you."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Visit her at the main reception counter in the Crystalline Mean."
+            }
+        ],
+        "reward": {
+            "gil": 1325,
+            "items": [
+                {
+                    "num": 2,
+                    "id": 26735
+                },
+                {
+                    "num": 2,
+                    "id": 26736
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 153
+                }
+            ],
+            "quests": [
+                68770
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1027235",
+            "obj": {
+                "i": 1027235,
+                "n": "Bethric",
+                "l": 2951,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "26735",
+            "obj": {
+                "i": 26735,
+                "n": "Craftsman's Competence Materia VIII",
+                "l": 430,
+                "c": 20276,
+                "t": 58,
+                "materia": {
+                    "tier": 7,
+                    "value": 21,
+                    "attr": "Craftsmanship",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "26736",
+            "obj": {
+                "i": 26736,
+                "n": "Craftsman's Cunning Materia VIII",
+                "l": 430,
+                "c": 20276,
+                "t": 58,
+                "materia": {
+                    "tier": 7,
+                    "value": 9,
+                    "attr": "CP",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "27254",
+            "obj": {
+                "i": 27254,
+                "n": "Zun Culinary Components",
+                "l": 430,
+                "c": 25919,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "27255",
+            "obj": {
+                "i": 27255,
+                "n": "Zun-style Amaro Feed",
+                "l": 430,
+                "c": 26581,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68770",
+            "obj": {
+                "i": 68770,
+                "n": "Where We Belong",
+                "g": 169,
+                "l": "The Crystarium",
+                "s": 320
+            }
+        }
+    ]
+}

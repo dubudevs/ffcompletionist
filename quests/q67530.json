@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Noble Indiscretions",
+        "location": "Ishgard",
+        "id": 67530,
+        "patch": 3.0,
+        "sort": 61,
+        "eventIcon": 71201,
+        "issuer": 1011192,
+        "target": 1011192,
+        "involved": [
+            1011222
+        ],
+        "genre": 3,
+        "journal": [
+            "Gibrillont has a faraway look in his eyes.",
+            "Gibrillont recalls a maidservant named Hierytha who is rather fond of this particular recipe for twice-mulled wine. Reasoning that it would be a shame for her to miss out, he bids you bring a bottle to her in the Pillars as a gift.",
+            "Hierytha recognizes the blend of herbs and spices to be the same as one used by a young Hyuran girl decades ago. Reminiscing, she speaks of how the girl fell in love with the nobleman she served─an Elezen baron with striking red eyes. Alas, the baron took advantage of the girl's affections, and cast her out onto the streets when she became pregnant with his child. She passed away sometime later, after returning to the Brume and giving birth, but Hierytha only learned of it years after the fact. Leave the maidservant to her memories and return to the Forgotten Knight.",
+            "Such incidents between a nobleman and a maidservant are not rare occurrences, Gibrillont observes. Yet the banality of the tale makes it no less tragic..."
+        ],
+        "objectives": [
+            "Deliver the twice-mulled wine to Hierytha.",
+            "Report to Gibrillont."
+        ],
+        "dialogue": [
+            {
+                "name": "GIBRILLONT",
+                "text": "Now that I think on it, there's a woman I know who's rather fond of this blend. Hierytha is her name, and she resides in the Pillars."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "She's a maidservant to some noble house or another, I forget. Anyway, be a shame if she didn't get to try this wine. Why not give her a bottle?"
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Wonder what it's like being waited on by scores and scores of servants..."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "After a time, the faces must start to blur together. But the servants, they remember. How can they not?"
+            },
+            {
+                "name": "HIERYTHA",
+                "text": "Y-Yes, I am Hierytha. Beg your pardon, but do I know you, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>?"
+            },
+            {
+                "name": "HIERYTHA",
+                "text": "I...I know this smell! This is the wine that girl used to prepare! Her special recipe! It must be decades since I last tasted this."
+            },
+            {
+                "name": "HIERYTHA",
+                "text": "Oh, the poor dear... Such a shame that she was taken in by that baron."
+            },
+            {
+                "name": "HIERYTHA",
+                "text": "He cut a dashing figure, I'll grant you that. Tall, slender, long of ear... &lt;sigh&gt; But those dazzling ruby eyes of his were filled with lust. 'Twas naught more than infatuation, what she felt, but she convinced herself it was love...and he couldn't help but take advantage."
+            },
+            {
+                "name": "HIERYTHA",
+                "text": "But when her belly started to grow, gods, the <span class=\"emphasis\">scandal</span>! I mean, 'tis not an uncommon occurrence, but that it was with a <span class=\"emphasis\">Hyur</span> made it so much, well...I needn't tell you. She was discharged from his service─cast out onto the streets, like so much refuse."
+            },
+            {
+                "name": "HIERYTHA",
+                "text": "After she returned to the Brume, we drifted apart. I only learned of her death years later by chance..."
+            },
+            {
+                "name": "HIERYTHA",
+                "text": "Gods, it feels like a lifetime ago..."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "So the amorous nobleman beds his maidservant, then casts her aside when the seed takes root."
+            },
+            {
+                "name": "GIBRILLONT",
+                "text": "Not the most original tale, is it? Cold comfort for the women and children who live it, though."
+            }
+        ],
+        "reward": {
+            "gil": 496,
+            "xp": 72000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67529
+            ]
+        },
+        "next": [
+            67531
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011192",
+            "obj": {
+                "i": 1011192,
+                "n": "Gibrillont",
+                "l": 2300,
+                "q": 10,
+                "t": "Forgotten Knight Proprietor"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011222",
+            "obj": {
+                "i": 1011222,
+                "n": "Hierytha",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67529",
+            "obj": {
+                "i": 67529,
+                "n": "The Spice of Life",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67531",
+            "obj": {
+                "i": 67531,
+                "n": "A Child Apart",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 62
+            }
+        }
+    ]
+}

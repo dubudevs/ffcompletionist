@@ -1,0 +1,134 @@
+{
+    "quest": {
+        "name": "I Won't Leaf You Behind",
+        "location": "The Churning Mists",
+        "id": 67372,
+        "patch": 3.0,
+        "sort": 5501,
+        "eventIcon": 71221,
+        "issuer": 1013500,
+        "target": 1013501,
+        "involved": [
+            1013502
+        ],
+        "genre": 100,
+        "journal": [
+            "It's hard to tell whether this moogle is injured or just napping.",
+            "You find a lonely moogle lying atop a rock in the Monsterie, and he tells you that he is there resting his wings after expending all his energy looking for a moca leaf to give to his sick friend in Moghome. Since you seem fresh and rested, the tired moogle has asked you to collect the moca leaf in his stead. Search southeast of the Monsterie for any signs of a moca leaf.",
+            "After an exciting search, you finally manage to find the leaf you require. Return to the mercurial moogle to make sure that this is indeed the leaf you were looking for.",
+            "The mercurial moogle seemingly is not recovered from his feverish search, and asks you to deliver the moca leaf for him. Hurry to Moghome to give it to the sick moogle before he succumbs to whatever sickness he has.",
+            "You deliver the moca leaf to one of the moogles at Moghome, and he says that he will soon make a medicine out of it for his ailing friend. Thanks to you, the moogles of Moghome get to go another day without a terrible medical tragedy."
+        ],
+        "objectives": [
+            "Obtain a moca leaf.",
+            "Speak with the mercurial moogle.",
+            "Give the moca leaf to the malcontent moogle."
+        ],
+        "dialogue": [
+            {
+                "name": "LYINGMOGA01836",
+                "text": "Oh...so tired... You see, a friend of mine in Moghome came down with a terrible fever, and I came all the way out here to get him some medicine, but I didn't know that it'd be so exhausting to search for it, kupo! I don't think I can go on anymore..."
+            },
+            {
+                "name": "LYINGMOGA01836",
+                "text": "You look like you have plenty of energy left for fetching! I was looking for a moca leaf─you should be able to find one to the southeast of the Monsterie. Keep in mind, you'll only be able to reach them if you can fly like us moogles can! Anyroad, I think I'll just lie down here for a bit, kupo..."
+            },
+            {
+                "name": "LYINGMOGA01836",
+                "text": "If you could go and get the moca leaf while I rest my tired wings, I'd be eternally grateful! Just go to the southeast of the Monsterie─and I hope you brought some wings!"
+            },
+            {
+                "name": "LYINGMOGA01836",
+                "text": "Thank the heavens, it's a moca leaf, kupo! I'm still quite tuckered out; I can barely flap my wings enough to fly. Say, why don't you head to Moghome and give the moca leaf to my friend? Please hurry─his fever seemed terrible, kupo!"
+            },
+            {
+                "name": "LYINGMOGA01836",
+                "text": "I would never be able to make it all the way back to Moghome in time. Adventurer, please see that my friend gets the medicine he needs, kupo!"
+            },
+            {
+                "name": "LYINGMOGB01836",
+                "text": "Why is this...happening to me, kupo?"
+            },
+            {
+                "name": "CAREGIVERMOG01836",
+                "text": "If we don't treat him soon, his pom-pom... Say, do you happen to have a moca leaf?"
+            },
+            {
+                "name": "CAREGIVERMOG01836",
+                "text": "His friend asked you to deliver it!? How kind of him, kupo! I'll use this to make medicine right away. I'm glad we can ensure our moogles are healthy thanks to you, adventurer!"
+            }
+        ],
+        "reward": {
+            "gil": 621,
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67171
+            ]
+        },
+        "next": [
+            67374
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013500",
+            "obj": {
+                "i": 1013500,
+                "n": "Mercurial Moogle",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013501",
+            "obj": {
+                "i": 1013501,
+                "n": "Malcontent Moogle",
+                "l": 2002,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013502",
+            "obj": {
+                "i": 1013502,
+                "n": "Meandering Moogle",
+                "l": 2002,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67374",
+            "obj": {
+                "i": 67374,
+                "n": "Moogles' Marvelous Medicine",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5503
+            }
+        }
+    ]
+}

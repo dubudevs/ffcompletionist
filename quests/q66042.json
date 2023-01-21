@@ -1,0 +1,132 @@
+{
+    "quest": {
+        "name": "This Fishwife's Life",
+        "location": "Western Thanalan",
+        "id": 66042,
+        "patch": 2.0,
+        "sort": 120,
+        "eventIcon": 71221,
+        "issuer": 1002070,
+        "target": 1002070,
+        "genre": 93,
+        "journal": [
+            "Edalene of Crescent Cove seeks help removing debris caught in her nets.",
+            "Edalene's trawling nets have become clogged with debris from the sea bottom. Aid her by removing whatever flotsam you can find.",
+            "You have picked the nets clean. Speak with Edalene once more.",
+            "After expressing her gratitude, Edalene goes on about how the life of a fishwife is one of repairing nets and praying for calm waters and large hauls."
+        ],
+        "objectives": [
+            "Remove debris from the trawling nets.",
+            "Speak with Edalene."
+        ],
+        "dialogue": [
+            {
+                "name": "EDALENE",
+                "text": "Have you some time to spare an old fishwife, friend? I've nets what need tendin', as you can probably tell."
+            },
+            {
+                "name": "EDALENE",
+                "text": "These nets you see hangin' here are used to haul in fish. Problem is, in the doin', they dredge up all manner of junk from the sea bottom."
+            },
+            {
+                "name": "EDALENE",
+                "text": "I'd be grateful if you'd pick any debris from them you might find."
+            },
+            {
+                "name": "EDALENE",
+                "text": "Thank you, dear. That's one less chore what needs seein' to."
+            },
+            {
+                "name": "EDALENE",
+                "text": "I tell you, 'tis no easy thing bein' a fishwife. When not mendin' nets and patchin' sails, I'm prayin' to Llymlaen for still waters and a hearty haul. Still, I wouldn't trade all the hard work for anything."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3017,
+                    "one": 1
+                },
+                {
+                    "id": 3018,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 2625
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65868
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002070",
+            "obj": {
+                "i": 1002070,
+                "n": "Edalene",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3017",
+            "obj": {
+                "i": 3017,
+                "n": "Hard Leather Harness",
+                "l": 12,
+                "c": 43134,
+                "t": 35,
+                "p": 436
+            }
+        },
+        {
+            "type": "item",
+            "id": "3018",
+            "obj": {
+                "i": 3018,
+                "n": "Hempen Robe",
+                "l": 12,
+                "c": 42044,
+                "t": 35,
+                "p": 349
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65868",
+            "obj": {
+                "i": 65868,
+                "n": "Passing the Blade",
+                "g": 1,
+                "l": "Central Thanalan",
+                "s": 61
+            }
+        }
+    ]
+}

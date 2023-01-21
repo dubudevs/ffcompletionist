@@ -1,0 +1,155 @@
+{
+    "quest": {
+        "name": "Violence of the Clams",
+        "location": "Western La Noscea",
+        "id": 66921,
+        "patch": 2.2,
+        "sort": 12,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005938,
+        "target": 1005938,
+        "involved": [
+            1005946
+        ],
+        "genre": 41,
+        "journal": [
+            "Fyuu seeks your aid in broadening the culinary horizons of his spawnbrothers.",
+            "Concerned that his younger siblings' diet has been restricted to what can be caught in the waters near the nursery, Fyuu requests that you procure some ocean delicacies from somewhat further afield. Borrow an elbst from Pahh to cross the waves, and collect the whitecap clams found on the beach of Moonshade Isle.",
+            "You have gathered an armful of whitecap clams. Return to Novv's Nursery and deliver your haul to Fyuu.",
+            "Fyuu's eyes appear to bulge even further from his head when he beholds the bounty with which you have returned. Judging by his joyful reaction, it may not be long before you find yourself back on an elbst, headed for the sands of Moonshade Isle once more..."
+        ],
+        "objectives": [
+            "Gather whitecap clams on Moonshade Isle.",
+            "Deliver the whitecap clams to Fyuu."
+        ],
+        "dialogue": [
+            {
+                "name": "FYUU",
+                "text": "Pshhh... There are many duties that occupy my time here in the nursssery, not the leassst of which is keeping the hatchlings fed."
+            },
+            {
+                "name": "FYUU",
+                "text": "And though there are many fishhh to be had in the nearby waters, it would be nice to expose my little ssspawnbrothers to more of what the sssea has to offer."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... If you could head over to Moonshhhade Isle and gather an armful of whitecap clams, it would do much for your ssstanding with the clutch."
+            },
+            {
+                "name": "FYUU",
+                "text": "The clams are a delicacy, you sssee, but we mussst often fight off other predators to claim them. Are you up to the tasssk?"
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... For this vital errand, I am shhhure Pahh will be glad to offer you the ssservices of his ssswiftest elbssst."
+            },
+            {
+                "name": "FYUU",
+                "text": "Head over to Moonshhhade Isle, and gather as many whitecap clams as you can find. Jussst be on the lookout for other predators ssseeking to contessst your claim!"
+            },
+            {
+                "name": "TAMER01376",
+                "text": "Pshhh... You go to Moonshhhade Isle for clams!? Ah, I can already tassste that sssucculent clam flesh..."
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to Moonshade Isle?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "An uragnite contests your claim on the clams!"
+            },
+            {
+                "name": "FYUU",
+                "text": "Have you been to Moonshhhade Isle? Let me sssee your haul."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh! Thisss is a rare bounty! You have made many friends within the clutch this day."
+            },
+            {
+                "name": "FYUU",
+                "text": "I will drop these clams in a rock pool to keep them freshhh. <span class=\"emphasis\">Cook</span> them? No, no, they mussst be eaten raw, shhhorewalker!"
+            }
+        ],
+        "reward": {
+            "gil": 540,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9142
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005938",
+            "obj": {
+                "i": 1005938,
+                "n": "Fyuu",
+                "l": 33,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

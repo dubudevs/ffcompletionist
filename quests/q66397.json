@@ -1,0 +1,110 @@
+{
+    "quest": {
+        "name": "Return to Your Dust",
+        "location": "Outer La Noscea",
+        "id": 66397,
+        "patch": 2.0,
+        "sort": 340,
+        "eventIcon": 71221,
+        "issuer": 1006325,
+        "target": 1006325,
+        "genre": 91,
+        "journal": [
+            "Commander Bloeidin has something on his mind.",
+            "The kobolds plan to create an army of golems, and this cannot come to pass. It is time to fight fire with fire, or clay with clay. Go to the Floating City and seize a soulstone from a golem.",
+            "With a soulstone in your possession, it is time to set a trap at a likely spot.",
+            "Your bait is in place. Lie in wait for the armored kobolds to appear, and defeat them using glass bottles of water.",
+            "The Unbreakable kobold lies broken, and the threat of a golem army has crumbled ere it began. Report the news to Commander Bloeidin.",
+            "You speak with Commander Bloeidin, who is much relieved. Yet his words send a frisson of unease through you, for if such a man as he expects more blood to flow, how could it be otherwise?"
+        ],
+        "objectives": [
+            "Wrest a soulstone from a basalt golem.",
+            "Place the soulstone in the specified spot.",
+            "Use the water in the glass bottles to defeat the Unbreakable kobold.",
+            "Report to Bloeidin."
+        ],
+        "dialogue": [
+            {
+                "name": "BLOEIDIN",
+                "text": "Don't let the looks fool you; the kobolds make a bad enemy. They've forgotten more about smelting and alchemy than some of the lot on our side have ever known. All that matters is, the kobolds can make golems. And war's a thing that kicks down the door between <span class=\"emphasis\">can</span> and <span class=\"emphasis\">do</span>."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "You know about the ancient golems up in the Floating City of Nym? The scouts tell me the moles are gathering material in the ruins. Once they make more golems and send 'em against us, we're as good as done."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "I got no men to spare, and you're not the worst I've seen. Put a stop to their shopping trip before it starts raining golems. Here's how this water's going to run:"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "You find a golem and get its soulstone. You put that on a likely spot as bait, and put an end to any kobolds that show up. "
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "And here, take these bottles of water. My boys tell me they didn't like the look of the kobolds' armor, but you know alchemy─it'll wash."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Sweetly done, adventurer. We won't have to look over our shoulder for an army of golems now. Risking little blood now saves wallows of it later."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 4580,
+            "xp": 8385
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 34,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66395
+            ]
+        },
+        "next": [
+            66400
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006325",
+            "obj": {
+                "i": 1006325,
+                "n": "Bloeidin",
+                "l": 350,
+                "q": 15,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66395",
+            "obj": {
+                "i": 66395,
+                "n": "Never Trout That I Love",
+                "g": 91,
+                "l": "Outer La Noscea",
+                "s": 340
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66400",
+            "obj": {
+                "i": 66400,
+                "n": "Looking for Trouble",
+                "g": 91,
+                "l": "Outer La Noscea",
+                "s": 340
+            }
+        }
+    ]
+}

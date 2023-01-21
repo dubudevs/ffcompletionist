@@ -1,0 +1,128 @@
+{
+    "quest": {
+        "name": "Pestered Ancestors",
+        "location": "The Sea of Clouds",
+        "id": 67726,
+        "patch": 3.1,
+        "sort": 42,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016088,
+        "genre": 45,
+        "journal": [
+            "Muna Vanu is looking right through you with ruffled feathers. <br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu seems distracted by news from his former home in Ok' Gundu. Inquire with Linu Vanu about the elderly Vanu Vanu's distress.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You speak with Linu Vanu, who tells you that after the group left their village in Ok' Gundu to pursue independence, Vundu shamans swept in and desecrated their ancestors' burial sites by bewitching their totems. With Muna Vanu and Linu Vanu's ancestors unable to rest in peace due to the incessant chanting, the Gundu chief bids you to travel to Ok' Gundu and expel the cursed totems.",
+            "You have destroyed the cursed totems plaguing the Gundu ancestral grounds. Report your success to Linu Vanu.",
+            "Linu Vanu is pleased with the news that the foul totems' chanting has been silenced. While it may be a long time before the tribe members can erect new ones to honor their forefathers, the burial sites will remain quiet and peaceful for their eternal rest."
+        ],
+        "objectives": [
+            "Speak with Linu Vanu.",
+            "Survey the locations in Ok' Gundu and destroy the Ok' Gundu totems.",
+            "Report to Linu Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "Oh...? Forgive Muna, netherling. He did not see you approach. His head feels clouded like thick fog after receiving news from former homeland about ancestral burial ground."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Muna fears forefathers' memory has been blackened like darkest night... What to do..."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Netherling asks about gloomy fog following Muna Vanu? Linu explains, for gloom is his as well. After leaving Ok' Gundu, Vundu shamans enter old village, spilling curses upon totems at ancestral resting places. Now ancestors cannot rest peacefully, disturbed by totems' dark chanting."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Linu and Muna regret not our cause for independence, yet ancestors' memory dusted with foul magicks is terrible affront to any Vanu's honor. Cursed totems are worse than no totems at all!"
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Perhaps netherling can raise Muna's spirits. Linu tells <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> where ancestral grounds are in Ok' Gundu so <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> can destroy sullied totems."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Linu asks netherling to destroy totems in Ok' Gundu. Then both the living and the dead can rest peacefully."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Netherling silences offending totems? Then <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> protects ancestors' honor. Linu is sure that when Muna Vanu hears, fog enveiling him clears away."
+            },
+            {
+                "name": "LINUVANU",
+                "text": "Fate of ancestors' resting place is uncertain, may take moons before new totems built to replace lost ones. But Linu is relieved in knowing spirits of ancestors now sleep peacefully as soft spring breeze."
+            }
+        ],
+        "reward": {
+            "gil": 737,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016088",
+            "obj": {
+                "i": 1016088,
+                "n": "Linu Vanu",
+                "l": 2100,
+                "q": 14
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

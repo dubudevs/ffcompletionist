@@ -1,0 +1,200 @@
+{
+    "quest": {
+        "name": "Storms on the Horizon",
+        "location": "Western Thanalan",
+        "id": 65870,
+        "patch": 2.0,
+        "sort": 68,
+        "eventIcon": 71201,
+        "issuer": 1002067,
+        "target": 1002068,
+        "involved": [
+            1002066
+        ],
+        "genre": 1,
+        "journal": [
+            "Nunuzofu wants you to deliver a message to Crescent Cove.",
+            "Captain Baldewyn wishes to hold a feast for a party of visiting thaumaturges. For the main dish, he requires fresh fish from Crescent Cove. Nunuzofu bids you relay the captain's request to Raffe the fisherman.",
+            "Though the fishermen of Crescent Cove have had a poor catch in recent days, Raffe swears that the captain will have his fish. While your business in the village is concluded, Raffe's nervous reaction to Captain Baldewyn's request lingers in your mind. Perhaps you should speak with others in Crescent Cove and see if there is aught amiss."
+        ],
+        "objectives": [
+            "Speak with Raffe in Crescent Cove."
+        ],
+        "dialogue": [
+            {
+                "name": "NUNUZOFU",
+                "text": "Hey, adventurer! Mind runnin' a message to Crescent Cove for us?"
+            },
+            {
+                "name": "NUNUZOFU",
+                "text": "Captain Baldewyn's plannin' some festivities for the thaumaturges, see, and he wants 'em treated to the finest food and drink. Nothin' but the best for our distinguished guests, eh?"
+            },
+            {
+                "name": "NUNUZOFU",
+                "text": "Head west and south to the village and tell Raffe that he's to deliver a bounty of fresh fish to Horizon for the feast."
+            },
+            {
+                "name": "RAFFE",
+                "text": "F-Fresh fish for Captain Baldewyn? Of course, <span class=\"emphasis\">of course</span>! We will do our best, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>."
+            },
+            {
+                "name": "RAFFE",
+                "text": "U-Unfortunately, we've had a poor catch in recent days on account of the rough seas. More boats should be returning soon, but I cannot promise that their catch will please."
+            },
+            {
+                "name": "RAFFE",
+                "text": "But don't worry, <span class=\"alternative-container\"><span class=\"alternative\">milady</span><span class=\"alternative\">sir</span></span>! The captain will have his fish! I swear it!"
+            }
+        ],
+        "reward": {
+            "gil": 195,
+            "items": [
+                {
+                    "id": 1605,
+                    "one": 1
+                },
+                {
+                    "id": 1685,
+                    "one": 1
+                },
+                {
+                    "id": 2108,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 6160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65869
+            ]
+        },
+        "next": [
+            65871,
+            65872
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002067",
+            "obj": {
+                "i": 1002067,
+                "n": "Nunuzofu",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002068",
+            "obj": {
+                "i": 1002068,
+                "n": "Raffe",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002066",
+            "obj": {
+                "i": 1002066,
+                "n": "Totoruna",
+                "l": 42,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "1605",
+            "obj": {
+                "i": 1605,
+                "n": "Bronze Spatha",
+                "l": 13,
+                "c": 30401,
+                "t": 2,
+                "p": 416
+            }
+        },
+        {
+            "type": "item",
+            "id": "1685",
+            "obj": {
+                "i": 1685,
+                "n": "Hard Leather Himantes",
+                "l": 14,
+                "c": 31008,
+                "t": 1,
+                "p": 598
+            }
+        },
+        {
+            "type": "item",
+            "id": "2108",
+            "obj": {
+                "i": 2108,
+                "n": "Decorated Bone Staff",
+                "l": 12,
+                "c": 33002,
+                "t": 7,
+                "p": 582
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65869",
+            "obj": {
+                "i": 65869,
+                "n": "Following Footfalls",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 67
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65871",
+            "obj": {
+                "i": 65871,
+                "n": "Compulsory Catering",
+                "g": 0,
+                "l": "Western Thanalan",
+                "s": 69
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65872",
+            "obj": {
+                "i": 65872,
+                "n": "Oh Captain, My Captain",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 81
+            }
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "quest": {
+        "name": "Advanced Dragonslaying",
+        "location": "Coerthas Western Highlands",
+        "id": 67302,
+        "patch": 3.0,
+        "sort": 5113,
+        "icon": 100468,
+        "eventIcon": 71221,
+        "issuer": 1013710,
+        "target": 1013710,
+        "involved": [
+            1014138,
+            1014140
+        ],
+        "genre": 94,
+        "journal": [
+            "Dominiac wants help with the next step of his plan.",
+            "Saintrelmaux has finished preparations for the next stage of Dominiac's plan and is waiting for you on the cliff to the north of the Convictory.",
+            "The bait has attracted an aevis, which takes the prize, but with Saintrelmaux's men in close pursuit. Hurry to where the bait was set─the bottom of the cliff northwest of the Convictory─and follow the trail from there.",
+            "With the aevis having fled west into Dragonspit, Saintrelmaux proposes a plan. He and his men will guard the exits and block its escape, allowing you to move in and dispose of it at your leisure.",
+            "You have dealt with the aevis. Let Saintrelmaux know.",
+            "Something about the beast you killed weighs heavily on Saintrelmaux. He says that these wretched creatures were once men, but he struggles to comprehend what could make a man change himself so. Leave Saintrelmaux to his thoughts and the job of collecting the aevis's corpse. Report back to Dominiac.",
+            "Dominiac thanks you once again for your help: he can now set the next stage of his plan in motion. He seems unsurprised by Saintrelmaux's ponderings, hoping simply that this experience will galvanize his resolve in the ongoing struggle with the Horde."
+        ],
+        "objectives": [
+            "Speak with Saintrelmaux.",
+            "Follow Saintrelmaux in pursuit of the aevis.",
+            "Slay the aevis in Dragonspit.",
+            "Speak with Saintrelmaux.",
+            "Report to Dominiac."
+        ],
+        "dialogue": [
+            {
+                "name": "DOMINIAC",
+                "text": "We're just about to carry out the next step of my plan! Saintrelmaux has finished his preparations, so he should be waiting for you out on the cliff to the north."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "If all goes well, we will attract an even larger beast than before, so be on your guard!"
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Saintrelmaux is waiting on the cliff to the north. We're expecting an even bigger beast than last time, so hurry─don't make him fight it alone!"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Did you see that aevis just now!? It snatched up the wadjet's corpse and made its escape!"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Our men are chasing the thing down as we speak. The bait was set under the cliff northwest of the Convictory─we should head there first, then follow the trail from there!"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Be on your guard. Aevis are renowned for their cunning."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "It seems the aevis has fled to the northwest into Dragonspit. We'll block the exits and corner it─you get in there and help finish it off!"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "We've got it cornered, now. Follow the beast into Dragonspit and put it down."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Did you slay it?"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Marvelous! Good work! Very good indeed..."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "But, um, did you notice anything? About the aevis?"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "It's just...it's just that I got to thinking while you were slaying it."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Is it true─what they say? Did it speak?"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "They say that aevis are what become of men─<span class=\"emphasis\">heretics</span> who drink dragon blood. But, what could make a man..."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "(-Saintrelmaux's Retainer-)Master Saintrelmaux..."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Yes, yes. Good work, <span class=\"highlight\">Forename</span>. We will collect the body of the beast. You should return to Dominiac and report our success."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Report our success to Dominiac. We shall see to the aevis's corpse."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Ah, back already! Things are proceeding swimmingly, it seems."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "But you look somehow troubled. What happened?"
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Hmmm. I suppose it's not surprising that he might say something like that."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Saintrelmaux was born into nobility. He knows all too well the pain of losing honor and status."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "But that's all in the past now. I only hope that this experience might steel his resolve."
+            }
+        ],
+        "reward": {
+            "gil": 610,
+            "xp": 25200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67142,
+                67301
+            ]
+        },
+        "next": [
+            67305
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013710",
+            "obj": {
+                "i": 1013710,
+                "n": "Dominiac",
+                "l": 2200,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014138",
+            "obj": {
+                "i": 1014138,
+                "n": "Saintrelmaux",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014140",
+            "obj": {
+                "i": 1014140,
+                "n": "Saintrelmaux",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67142",
+            "obj": {
+                "i": 67142,
+                "n": "Sounding Out the Amphitheatre",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 27
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67301",
+            "obj": {
+                "i": 67301,
+                "n": "Intermediate Dragonslaying",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5112
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67305",
+            "obj": {
+                "i": 67305,
+                "n": "Expert Dragonslaying",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5114
+            }
+        }
+    ]
+}

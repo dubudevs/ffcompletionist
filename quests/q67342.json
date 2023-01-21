@@ -1,0 +1,156 @@
+{
+    "quest": {
+        "name": "Advanced Vathematics",
+        "location": "The Dravanian Forelands",
+        "id": 67342,
+        "patch": 3.0,
+        "sort": 5309,
+        "eventIcon": 71221,
+        "issuer": 1013411,
+        "target": 1013411,
+        "involved": [
+            1013412,
+            1013413
+        ],
+        "genre": 98,
+        "journal": [
+            "The astute Vath gazes out at the Smoldering Wastes.",
+            "The astute Vath has heard the voice of a lost Gnath and asks you to find the owner of this voice. Search the area to the southwest of Anyx Trine.",
+            "You have found a wandering Gnath, confused and disoriented. But with his attention transfixed by the wyverns circling nearby, he does not respond to your attempts to guide him to Loth ast Vath. Slay one of the dragons and put his mind at ease.",
+            "With the nearest wyvern dealt with, the wandering Gnath might now feel more at ease and be willing to join the Vath.",
+            "Though the imminent threat of wyvern attack no longer looms, the wandering Gnath still does not know where to go or what to do. You explain about Loth ast Vath and tell him of the other Gnath that lost the link to the Onemind. Return to Loth ast Vath and inform the astute Vath of the impending new arrival.",
+            "The astute Vath informs you that the wandering Gnath never made it to the Vath hive, but he seems to know more than he lets on, suggesting you search near Loth ast Gnath for the missing Gnath.",
+            "You find the wandering Gnath on his way back to his old hive, single-mindedly intent on returning and resuming his work. Return to the astute Vath and explain the situation.",
+            "You break the bad news to the astute Vath. Just as he had feared, the Gnath's mental link to the Overmind had been reestablished and the poor creature is once again a drone of the Onemind. The astute Vath seems to harbor a gnawing fear that the same could one day happen to him, stripping him of all individuality and rendering him another mindless slave of the Overmind."
+        ],
+        "objectives": [
+            "Find the lost Gnath southwest of Anyx Trine.",
+            "Slay a Dravanian wyvern.",
+            "Speak with the wandering Gnath.",
+            "Speak with the astute Vath at Loth ast Vath.",
+            "Speak with the wandering Gnath at Loth ast Gnath.",
+            "Report to the astute Vath."
+        ],
+        "dialogue": [
+            {
+                "name": "YOUNGGNATH01806",
+                "text": "We have a new brother. He is lost. We hear his voice. &lt;click&gt; &lt;click&gt; He is lost near Anyx Trine. &lt;click&gt; &lt;click&gt; South of Anyx Trine. Please find him. Please help him. Please guide him to Loth ast Vath."
+            },
+            {
+                "name": "YOUNGGNATH01806",
+                "text": "Our lost brother is near Anyx Trine. Please find him. Please guide him to Loth ast Vath."
+            },
+            {
+                "name": "DEVIATEDGNATHA01806",
+                "text": "Where are we? &lt;click&gt; &lt;click&gt; There are wyverns. Wyverns everywhere. We are scared. This place is scary. We wish for a safe place."
+            },
+            {
+                "name": "DEVIATEDGNATHA01806",
+                "text": "The wyverns are scary. Is there no safe place?"
+            },
+            {
+                "name": "YOUNGGNATH01806",
+                "text": "Have you found our lost brother? Please, help him. Guide him here, to his new home."
+            },
+            {
+                "name": "DEVIATEDGNATHA01806",
+                "text": "The wyvern is dead. We feel much safer. But where should we go? We do not know what to do. &lt;click&gt; &lt;click&gt;"
+            },
+            {
+                "name": "DEVIATEDGNATHA01806",
+                "text": "Loth ast Vath? We will go there. We will join our brothers. Thank you. &lt;click&gt; &lt;click&gt;"
+            },
+            {
+                "name": "YOUNGGNATH01806",
+                "text": "Our new brother? We have not seen him. He has not come here yet. We have a bad feeling about this. &lt;click&gt; &lt;click&gt; Please check for him near Loth ast Gnath."
+            },
+            {
+                "name": "YOUNGGNATH01806",
+                "text": "Our new brother has still not arrived. Please check for him near Loth ast Gnath."
+            },
+            {
+                "name": "DEVIATEDGNATHB01806",
+                "text": "There is work to be done. I must return home. I must return to the hive. &lt;click&gt; &lt;click&gt;"
+            },
+            {
+                "name": "YOUNGGNATH01806",
+                "text": "He returns to the hive? He must have heard it again. The hive's voice. It is most regrettable."
+            },
+            {
+                "name": "YOUNGGNATH01806",
+                "text": "We sometimes hear voices from the hive. If the voice is strong enough, would we, too, become of the Onemind again? Would we lose our individuality? &lt;click&gt; &lt;click&gt; It is a worrying thought..."
+            }
+        ],
+        "reward": {
+            "gil": 626,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67151,
+                67340
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013411",
+            "obj": {
+                "i": 1013411,
+                "n": "Astute Vath",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013412",
+            "obj": {
+                "i": 1013412,
+                "n": "Wandering Gnath",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013413",
+            "obj": {
+                "i": 1013413,
+                "n": "Wandering Gnath",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67151",
+            "obj": {
+                "i": 67151,
+                "n": "Breaking into Hives",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 36
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67340",
+            "obj": {
+                "i": 67340,
+                "n": "Awakened",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5307
+            }
+        }
+    ]
+}

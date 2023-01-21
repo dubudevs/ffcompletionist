@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Living on the Edge",
+        "location": "Coerthas Central Highlands",
+        "id": 66487,
+        "patch": 2.0,
+        "sort": 400,
+        "eventIcon": 71221,
+        "issuer": 1006488,
+        "target": 1006488,
+        "involved": [
+            1006489,
+            1006701
+        ],
+        "genre": 94,
+        "journal": [
+            "Ser Briannaix is concerned for a comrade who has taken a tumble off of a snow-covered cliff.",
+            "Ser Briannaix needs help rescuing a comrade who has fallen over a cliff. There is a length of thick rope to be found in the keep which would be perfect for the job.",
+            "The rope is of goodly length, and reassuringly heavy in your hands. On the cliff top, another dragoon keeps watch as Ser Briannaix said. He will no doubt be glad to speak to you.",
+            "Aside from being trapped at the base of a steep cliff, the dragoon seems to be in fine shape. All he needs is one end of the rope in his hands, and he can climb out. The question is how to do so, with the high winds snapping the rope up and away as soon as you drop it.",
+            "What a soldier denies, an adventurer tries. Securing one end of the rope at the top of the cliff, you leap down with the other. The trapped dragoon is trapped no more, though he will feel the exertion tomorrow. Ser Briannaix will surely be gratified to hear of the rescue.",
+            "The rough-hewn knight is indeed appreciative, and shows himself to be blunt in speech. The gap between those who actually fight the war and those in command seems to be growing, with the pride of the latter trumping the needs of the former..."
+        ],
+        "objectives": [
+            "Collect a length of thick rope.",
+            "Speak with the knight in shining armor.",
+            "Hand the rope to the trapped dragoon.",
+            "Report to Briannaix."
+        ],
+        "dialogue": [
+            {
+                "name": "BRIANNAIX",
+                "text": "You're that <span class=\"highlight\">Forename</span>, aren't you? Well met, well met! Give us a hand─one of the dragoons has fallen clean over the cliff!"
+            },
+            {
+                "name": "BRIANNAIX",
+                "text": "He lives, praise the Fury. We could tell that much from the top."
+            },
+            {
+                "name": "BRIANNAIX",
+                "text": "A brother knight stayed behind on the cliff, and awaits a coil of rope. See here, can you go to the keep for the rope, and deliver it thither? I'm for the infirmary!"
+            },
+            {
+                "name": "NPCA",
+                "text": "What do <span class=\"emphasis\">you</span> want? You bring rope for the rescue? Excuse my churlishness, I have been stymied at every turn in helping my brother knight─it has made me forget my courtesy."
+            },
+            {
+                "name": "NPCA",
+                "text": "But with both our coils tied end-on-end, it may just be long enough! Throw the end of it down to him!"
+            },
+            {
+                "name": "NPCA",
+                "text": "The Fury help us! It will not fall─the wind blows it out of his reach, yet again. What are we to do, jump down with it?"
+            },
+            {
+                "name": "NPCA",
+                "text": "Halone preserve us! The rope is long enough, but this cursed cliff is ever buffeted by the winds. What are we to do, jump down with it?"
+            },
+            {
+                "name": "NPCB",
+                "text": "You too, huh? What do you mean you came to rescue me? You're on the wrong floor, friend! What do you plan to do, throw me up the cliff!?"
+            },
+            {
+                "name": "NPCB",
+                "text": "So...you jumped down a cliff. On purpose. I can certainly respect that. You are a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> with a plan. You do have a plan, don't you?"
+            },
+            {
+                "name": "NPCB",
+                "text": "Rope? High winds, huh? But this rope will hang straight with the weight of a man upon it? So we shall both climb back and over the precipice..."
+            },
+            {
+                "name": "NPCB",
+                "text": "A simple enough plan, and well tested. Ahem. I fear it'll take me a while to complete the climb. I hope you don't mind the wait."
+            },
+            {
+                "name": "BRIANNAIX",
+                "text": "Unhurt, was he? The infirmary'll be relieved to hear of it. Always short on something, they are."
+            },
+            {
+                "name": "BRIANNAIX",
+                "text": "Ishgard scolds us for using 'venturers for too many things, but I say sod 'em. They won't send reinforcements and threatened to denounce any knight who asked for them. The way I see it, a good 'venturer is worth more than their words."
+            }
+        ],
+        "reward": {
+            "gil": 1448,
+            "xp": 11270
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 40,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66477
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006488",
+            "obj": {
+                "i": 1006488,
+                "n": "Briannaix",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006489",
+            "obj": {
+                "i": 1006489,
+                "n": "Slipped Squire",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006701",
+            "obj": {
+                "i": 1006701,
+                "n": "Knight In Shining Armor",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66477",
+            "obj": {
+                "i": 66477,
+                "n": "The Heretic among Us",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 210
+            }
+        }
+    ]
+}

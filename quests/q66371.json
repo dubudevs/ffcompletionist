@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "Unrefined Methods",
+        "location": "Eastern La Noscea",
+        "id": 66371,
+        "patch": 2.0,
+        "sort": 320,
+        "eventIcon": 71221,
+        "issuer": 1006270,
+        "target": 1006270,
+        "genre": 91,
+        "journal": [
+            "Fyrilsunn has some makeshift explosives at his disposal. What could possibly go wrong?",
+            "In an act of aggression towards the people of Costa del Sol, the kobolds have begun moving their underground refiners closer to the settlement. Unwilling to take this antagonism sitting down, Fyrilsunn has prepared makeshift bombs, which he bids you throw at the kobolds' refiners to destroy them.",
+            "You have blown up all of the kobolds' refiners and have dispatched the angry bombs that were powering them. Report to Fyrilsunn.",
+            "Fyrilsunn gives you a warm welcome upon your return, having witnessed the refiners' demise from his location. He expresses concern, however, at the fact that Costa del Sol is likely ill equipped to deal with future antagonistic acts from the kobolds. It would seem as though you might be needed in the area a bit longer."
+        ],
+        "objectives": [
+            "Throw makeshift bombs at the refiners and slay all foes.",
+            "Report to Fyrilsunn."
+        ],
+        "dialogue": [
+            {
+                "name": "FYRILSUNN",
+                "text": "The kobolds are up to something. See those contraptions out along the road to the west? They've gone so far as to set up their damn refiners within yalms of our beach! And you know what I say? It's time to blow them to kingdom come!"
+            },
+            {
+                "name": "FYRILSUNN",
+                "text": "I just happen to have made some makeshift bombs for the occasion. But, uh...I've never thrown one before. Look, adventurer, I've seen you around here, and you seem a capable sort. Could you take these and pitch them at the refiners for me?"
+            },
+            {
+                "name": "FYRILSUNN",
+                "text": "That was some right fine work! I could see those blasted machines light up from here. You've got talent, which is a good thing, 'cause the kobolds are too much for us to handle."
+            },
+            {
+                "name": "FYRILSUNN",
+                "text": "But thanks to you, we got them this time! I only hope you're not planning on leaving us any time soon. I've no doubt we're going to need your help again before this is over."
+            },
+            {
+                "name": "POP",
+                "text": "A pair of angry grenades appear!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3118,
+                    "one": 1
+                },
+                {
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 7995
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66368
+            ]
+        },
+        "next": [
+            66374
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006270",
+            "obj": {
+                "i": 1006270,
+                "n": "Fyrilsunn",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "3118",
+            "obj": {
+                "i": 3118,
+                "n": "Steel Scale Mail",
+                "l": 32,
+                "c": 43175,
+                "t": 35,
+                "p": 4361
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66368",
+            "obj": {
+                "i": 66368,
+                "n": "The Things We Do for Cheese",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 169
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66374",
+            "obj": {
+                "i": 66374,
+                "n": "To You from Failing Hands We Throw",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 320
+            }
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Lichyard Lilies",
+        "location": "Eastern Thanalan",
+        "id": 66163,
+        "patch": 2.0,
+        "sort": 180,
+        "eventIcon": 71221,
+        "issuer": 1003936,
+        "target": 1003936,
+        "genre": 93,
+        "journal": [
+            "Sister Airell has work for a willing adventurer once more.",
+            "Simple graves are easily overlooked in the ever-expanding lichyard. As such, they often go neglected when flowers are offered. Aid Sister Airell by placing bouquets of Nymeia lilies at five of these graves.",
+            "You have made offerings of the Nymeia lilies. Report back to Sister Airell at the church.",
+            "Sister Airell tells you that the lichyard was once a small and humble place before the Calamity. Ever since, the number of bodies needing burials has steadily risen, granting those who tend the graves nary a moment's rest."
+        ],
+        "objectives": [
+            "Place Nymeia lilies at the simple graves.",
+            "Report to Sister Airell."
+        ],
+        "dialogue": [
+            {
+                "name": "AIRELL",
+                "text": "So, you wish to honor the dead once more? Excellent. Make offerings of these Nymeia lilies at some of the simpler graves in the lichyard. The poor souls died alone, you see, with no one left to grieve for them."
+            },
+            {
+                "name": "AIRELL",
+                "text": "There are five such graves scattered about the lichyard that I would have you tend to. And remember, friend: mind your surroundings and pay the proper respect with each bundle of lilies... You're all they have."
+            },
+            {
+                "name": "AIRELL",
+                "text": "Once more, you have my thanks. No doubt the souls of the departed can take some small comfort in the care you have shown their graves."
+            },
+            {
+                "name": "AIRELL",
+                "text": "In days gone by, the lichyard was a small, humble plot. But that all changed after the Calamity. The dead grew in number, and so the yard grew with them."
+            },
+            {
+                "name": "AIRELL",
+                "text": "It is still simple, despite its size. Of course, it's that selfsame simplicity that keeps it from becoming more of a priority for the Order. We can ill afford to assign adequate numbers to its keeping, just as we cannot charge the poor to bury or be buried."
+            },
+            {
+                "name": "AIRELL",
+                "text": "Yet that does not stop the many who come calling to see their dead put to rest here. Those few of us who tend the yard haven't the time to see to the offerings our piety demands."
+            },
+            {
+                "name": "AIRELL",
+                "text": "The simple graves you visited belong to those who died alone. Let us pray the sweet fragrance you delivered grants some modicum of relief from their lonely solitude─if even for a short while."
+            }
+        ],
+        "reward": {
+            "gil": 220,
+            "xp": 3780
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 18,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66178
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003936",
+            "obj": {
+                "i": 1003936,
+                "n": "Airell",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66178",
+            "obj": {
+                "i": 66178,
+                "n": "Dead Bodies Everywhere",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 180
+            }
+        }
+    ]
+}

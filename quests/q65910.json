@@ -1,0 +1,85 @@
+{
+    "quest": {
+        "name": "Feeding Time",
+        "location": "Central Shroud",
+        "id": 65910,
+        "patch": 2.0,
+        "sort": 41,
+        "eventIcon": 71201,
+        "target": 1000470,
+        "genre": 0,
+        "journal": [
+            "Keitha, the head wrangler at Bentbranch Meadows, has some work for you on the ranch.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Keitha at Bentbranch Meadows.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You have gathered an armful of broad-leaf gysahl greens. Work your way around Bentbranch Meadows, replenishing each of the chocobos' feeding troughs.",
+            "You have replenished all of the chocobos' feeding troughs. Return to Keitha and let her know that the task is complete.",
+            "Keitha explains that the chocobos at Bentbranch Meadows are closely nurtured from the moment they hatch until the time they reach young adulthood. Offer your assistance to the workers around the ranch, and help keep the birds happy and healthy."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Keitha at Bentbranch Meadows.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "KEITHA",
+                "text": "Seein' as you're new 'round here, let's start you off with an easy job that'll help you get your bearin's, eh?"
+            },
+            {
+                "name": "KEITHA",
+                "text": "It just so happens it's feedin' time for the chocobos. Grab yourself a few bunches of broad-leaf gysahl greens from the pile beside the field there, and stick 'em in the feedin' troughs."
+            },
+            {
+                "name": "KEITHA",
+                "text": "Bentbranch is a big place, mind, so don't you go missin' any. Off you trot, then."
+            },
+            {
+                "name": "KEITHA",
+                "text": "Thank you for dolin' out the greens, <span class=\"highlight\">Forename</span>. I trust you got a rough idea how the place is laid out while you were at it? Good."
+            },
+            {
+                "name": "KEITHA",
+                "text": "Here at Bentbranch, we nurture our chocobos from the egg to young adulthood. So you might say we have 'em for the duration of their “formative years.”"
+            },
+            {
+                "name": "KEITHA",
+                "text": "'Tis backbreakin' work keepin' the birds free of illness and injury, and I'm sure me fellow workers'll appreciate any help you can give 'em."
+            }
+        ],
+        "reward": {
+            "xp": 3420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65712
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000470",
+            "obj": {
+                "i": 1000470,
+                "n": "Keitha",
+                "l": 54,
+                "q": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65712",
+            "obj": {
+                "i": 65712,
+                "n": "On to Bentbranch",
+                "g": 1,
+                "l": "Gridania",
+                "s": 40
+            }
+        }
+    ]
+}

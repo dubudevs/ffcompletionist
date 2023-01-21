@@ -1,0 +1,146 @@
+{
+    "quest": {
+        "name": "The Replacement Culler",
+        "location": "East Shroud",
+        "id": 66247,
+        "patch": 2.0,
+        "sort": 200,
+        "eventIcon": 71221,
+        "issuer": 1000536,
+        "target": 1000536,
+        "involved": [
+            1000619
+        ],
+        "genre": 92,
+        "journal": [
+            "Florimond seeks a capable adventurer to cull vermin in his stead.",
+            "Owing to an injury, Florimond is unable to join his Wood Wailer comrades in a culling operation, and asks that you take his place. Make your way to Josselin's Spire and report to Aniud.",
+            "Aniud bids you put down six black bats. Make your way to the Bramble Patch and slay the creatures.",
+            "You have culled the black bats. Report back to Aniud at Josselin's Spire.",
+            "Thanking you for your assistance, Aniud bids you bear a message to Florimond. Take yourself back to the Hawthorne Hut, where the injured Wood Wailer is convalescing.",
+            "Upon receiving his captain's message, Florimond promises to focus his energies on recovery, and not fret to no avail over how his absence may inconvenience his comrades."
+        ],
+        "objectives": [
+            "Report to Aniud.",
+            "Cull black bats.",
+            "Report to Aniud.",
+            "Speak with Florimond."
+        ],
+        "dialogue": [
+            {
+                "name": "FLORIMOND",
+                "text": "You have the look of one who has seen more than <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> fair share of danger. I am Florimond, a sentry of Josselin's Spire...though you would be forgiven for imagining me a sentry of this hut, so seldom have I left it in recent days. I sustained an injury, you see, and have been out of commission for some time."
+            },
+            {
+                "name": "FLORIMOND",
+                "text": "Anyway, my Wood Wailer comrades are about to commence a culling operation in the Bramble Patch, and the thought of them marching into the jaws of danger while I languish here like a coddled babe is frankly too much to bear. I realize this is sudden, but might I trouble you to take part in the operation in my stead? If you would do me this favor, seek out Captain Aniud at Josselin's Spire. He will tell you all you need to know."
+            },
+            {
+                "name": "ANIUD",
+                "text": "What brings you here, adventurer? Florimond's <span class=\"emphasis\">replacement</span>, you say? And...you are aware of the risks? Aye, well, you do seem a capable sort."
+            },
+            {
+                "name": "ANIUD",
+                "text": "Florimond's task was to be the slaying of six black bats in the Bramble Patch. I take it you will now see to this? Very well. I wish you the best of luck."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Defeat six black bats."
+            },
+            {
+                "name": "ANIUD",
+                "text": "So you have seen to the black bats. We couldn't have asked for a better substitute. You have my gratitude. Now, at the risk of seeming brazen, I would ask you a favor of my own. Might you bear a message to Florimond for me?"
+            },
+            {
+                "name": "ANIUD",
+                "text": "The lad is being overly hard on himself for his absence. Tell him that his fretting avails no one, he himself least of all. He serves the Wood Wailers best by getting back on his feet with all swiftness─and <span class=\"emphasis\">that</span> requires peace of mind."
+            },
+            {
+                "name": "FLORIMOND",
+                "text": "A message...from Captain Aniud? I see... &lt;sigh&gt; The captain speaks true. I must say, a great weight has been lifted from my shoulders. As bade, I shall focus all my energies on recovery, the sooner to resume my duties. My thanks again, friend."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5738
+                },
+                {
+                    "num": 3,
+                    "id": 4566,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4060
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 20,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000536",
+            "obj": {
+                "i": 1000536,
+                "n": "Florimond",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000619",
+            "obj": {
+                "i": 1000619,
+                "n": "Aniud",
+                "l": 55,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "5738",
+            "obj": {
+                "i": 5738,
+                "n": "Dalamud Red Dye",
+                "l": 30,
+                "c": 22805,
+                "t": 55
+            }
+        },
+        {
+            "type": "item",
+            "id": "4566",
+            "obj": {
+                "i": 4566,
+                "n": "Echo Drops",
+                "l": 20,
+                "c": 20643,
+                "t": 44,
+                "p": 99
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

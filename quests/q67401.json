@@ -1,0 +1,247 @@
+{
+    "quest": {
+        "name": "An Urgent Message",
+        "location": "The Churning Mists",
+        "id": 67401,
+        "patch": 3.0,
+        "sort": 5530,
+        "icon": 100478,
+        "eventIcon": 71221,
+        "issuer": 1014300,
+        "target": 1014304,
+        "involved": [
+            1014301,
+            1014302,
+            1014303
+        ],
+        "genre": 100,
+        "journal": [
+            "Mogkul has lost track of Mogleo's whereabouts.",
+            "Mogkul refuses to give up Zenith to Nidhogg's brood, but has lost sight of Mogleo, who should be on patrol nearby. He sends the other two moogles on their respective patrols, and bids you find the errant Mogleo before he falls victim to a dragon attack.",
+            "You find Mogleo lying atop a broken piece of the ruins, apparently wounded in a fight with one of the dragons in the surrounding area. His wounds do not appear to be severe, but he worries for the safety of the others and begs you to inform Mogkul that Zenith has been overrun.",
+            "You arrive to find Mogkul breathing heavily over the fallen corpses of two dragons at his feet. He is dismayed and surprised that so many of Nidhogg's brood have infested Zenith, and is overcome with worry about the two moogles he sent on patrol. After you tell him of what happened to Mogleo, Mogkul resolves to go and aid his comrade-in-arms, and bids you find Mogga and Mogok before one of Nidhogg's brood gives them an unpleasant surprise."
+        ],
+        "objectives": [
+            "Search for Mogleo.",
+            "Report to Mogkul."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGOK",
+                "text": "Zenith is vast... There's barely time to clean it, let alone protect it, kupo!"
+            },
+            {
+                "name": "MOGGA",
+                "text": "The dragons have caused such a mess... It'll take ages to clean it all up..."
+            },
+            {
+                "name": "MOGKUL",
+                "text": "Zenith has been under the care of us moogles for a thousand years, and we won't let Nidhogg's minions defile it now! The Pomguard shall defend it with all its might, kupo!"
+            },
+            {
+                "name": "MOGKUL",
+                "text": "Huh? Where's Mogleo? He was sent to patrol the nearby area, but there's no sign of his green cap."
+            },
+            {
+                "name": "MOGKUL",
+                "text": "I hope he didn't wander off too far... Adventurer, search for Mogleo─he should be close by. Mogok, Mogga, start your assigned patrols, kupo!"
+            },
+            {
+                "name": "MOGLEO",
+                "text": "...Adventurer? A dragon...attacked..."
+            },
+            {
+                "name": "MOGLEO",
+                "text": "So many...they've overrun...Zenith..."
+            },
+            {
+                "name": "MOGLEO",
+                "text": "I'll be fine, kupo... Please...tell Mogkul...it's too dangerous..."
+            },
+            {
+                "name": "MOGLEO",
+                "text": "Adventurer, it hurts... Please...tell Mogkul..."
+            },
+            {
+                "name": "MOGKUL",
+                "text": "&lt;pant&gt; &lt;pant&gt; ...The fiends attacked... I wager they regret that now! Why have they come so deep into Zenith...?"
+            },
+            {
+                "name": "MOGKUL",
+                "text": "What!? Mogleo was also attacked, kupopo!? I shall go to his aid immediately!"
+            },
+            {
+                "name": "MOGKUL",
+                "text": "But...I worry for Mogga and Mogok's safety─the dragons could be lying in wait anywhere... Adventurer, seek them out and tell them Zenith is more dangerous than we imagined. This does not bode well, kupo..."
+            }
+        ],
+        "reward": {
+            "gil": 490,
+            "items": [
+                {
+                    "id": 4560,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4554,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4558,
+                    "one": 1
+                }
+            ],
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67171,
+                67400
+            ]
+        },
+        "next": [
+            67402,
+            67403
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1014300",
+            "obj": {
+                "i": 1014300,
+                "n": "Mogkul",
+                "l": 2002,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014304",
+            "obj": {
+                "i": 1014304,
+                "n": "Mogkul",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014301",
+            "obj": {
+                "i": 1014301,
+                "n": "Mogok",
+                "l": 2002,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014302",
+            "obj": {
+                "i": 1014302,
+                "n": "Mogga",
+                "l": 2002,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014303",
+            "obj": {
+                "i": 1014303,
+                "n": "Mogleo",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4560",
+            "obj": {
+                "i": 4560,
+                "n": "Hi-Elixir",
+                "l": 70,
+                "c": 20625,
+                "t": 44
+            }
+        },
+        {
+            "type": "item",
+            "id": "4554",
+            "obj": {
+                "i": 4554,
+                "n": "X-Potion",
+                "l": 70,
+                "c": 20603,
+                "t": 44,
+                "p": 887
+            }
+        },
+        {
+            "type": "item",
+            "id": "4558",
+            "obj": {
+                "i": 4558,
+                "n": "X-Ether",
+                "l": 70,
+                "c": 20623,
+                "t": 44,
+                "p": 1108
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67400",
+            "obj": {
+                "i": 67400,
+                "n": "Save the Pomguard",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5529
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67402",
+            "obj": {
+                "i": 67402,
+                "n": "An Uneasy Feeling",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5531
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67403",
+            "obj": {
+                "i": 67403,
+                "n": "A Moogle's Intuition",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5532
+            }
+        }
+    ]
+}

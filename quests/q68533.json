@@ -1,0 +1,101 @@
+{
+    "quest": {
+        "name": "Clammed Up",
+        "location": "The Ruby Sea",
+        "id": 68533,
+        "patch": 4.1,
+        "sort": 25,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "genre": 51,
+        "journal": [
+            "Zukin is clamoring for giant clams.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Obtain slick debris from giant clams.",
+            "Deliver the slick debris to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "<span class=\"highlight\">Forename</span>, you are familiar with giant clams, yes? They have an appetite to match their prodigious size, and are known to indiscriminately devour random objects that drift by."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "I would be grateful if you could seek out these clams, prise them open, and bring back the slick debris you find inside. Four such pieces should suffice."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Ah, there you are, and with your arms intact. Just as well─we may still have need of them. But come, let us see what the clams have rendered up."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Yes, these are precisely what I sought! You have done well, my friend."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "When a foreign object settles inside a shell, it gradually develops a hard and lustrous coating. While such articles are not as valuable as a well-formed pearl, they are not without worth. Nor is it unheard of for clams to be holding treasures!"
+            }
+        ],
+        "reward": {
+            "gil": 550,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

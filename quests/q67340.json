@@ -1,0 +1,130 @@
+{
+    "quest": {
+        "name": "Awakened",
+        "location": "The Dravanian Forelands",
+        "id": 67340,
+        "patch": 3.0,
+        "sort": 5307,
+        "eventIcon": 71221,
+        "issuer": 1013409,
+        "target": 1013409,
+        "involved": [
+            1011928
+        ],
+        "genre": 98,
+        "journal": [
+            "One of the Gnath in the storeroom looks confused and bewildered.",
+            "The Nonmind drone can no longer hear her orders from the Onemind. At a loss for what to do, she asks you for help. Go to Loth ast Vath and inform the Vath storyteller of the situation.",
+            "The Vath storyteller immediately takes this as good news. He seems encouraged by the thought of a new member of the Nonmind. He tells you to direct the lost Gnath to Loth ast Vath.",
+            "You relay the storyteller's message to the Nonmind drone. She seems excited at the thought of finding others like herself and heads to Loth ast Vath straightaway. Hopefully she is able to integrate with her new hive easily."
+        ],
+        "objectives": [
+            "Speak with the Vath storyteller at Loth ast Vath.",
+            "Instruct the Nonmind drone what to do."
+        ],
+        "dialogue": [
+            {
+                "name": "GOODGNATHA01804",
+                "text": "Where are we? <span class=\"emphasis\">Who</span> are we? &lt;click&gt; &lt;click&gt; We are waiting for our orders, but we cannot hear our orders. What should we do?"
+            },
+            {
+                "name": "GOODGNATHA01804",
+                "text": "We do not speak with fleshlings. &lt;click&gt; &lt;click&gt; ...But we have no choice. What we should do, fleshling? Please ask someone for us."
+            },
+            {
+                "name": "GOODGNATHA01804",
+                "text": "Please, ask someone what we should do. &lt;click&gt; &lt;click&gt;"
+            },
+            {
+                "name": "STORYTELLER",
+                "text": "&lt;click&gt; &lt;click&gt; This Gnath you describe seems to have awakened─to have found the gift of self-awareness. This is good news. We have a new sister! Hunter, please instruct our new sister to come here, to Loth ast Vath."
+            },
+            {
+                "name": "STORYTELLER",
+                "text": "Find our new sister again and tell her to come to Loth ast Vath. &lt;click&gt; &lt;click&gt;"
+            },
+            {
+                "name": "GOODGNATHA01804",
+                "text": "The...Nonmind? &lt;click&gt; &lt;click&gt; So there are others. Other Gnath like us."
+            },
+            {
+                "name": "GOODGNATHA01804",
+                "text": "We understand. We shall go there now. We must, or we will be destroyed. Thank you, kind fleshling."
+            }
+        ],
+        "reward": {
+            "gil": 567,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67151
+            ]
+        },
+        "next": [
+            67341,
+            67342
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013409",
+            "obj": {
+                "i": 1013409,
+                "n": "Nonmind Drone",
+                "l": 2000,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011928",
+            "obj": {
+                "i": 1011928,
+                "n": "Vath Storyteller",
+                "l": 2000,
+                "q": 16
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67151",
+            "obj": {
+                "i": 67151,
+                "n": "Breaking into Hives",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 36
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67341",
+            "obj": {
+                "i": 67341,
+                "n": "It's the Thought That Counts",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5308
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67342",
+            "obj": {
+                "i": 67342,
+                "n": "Advanced Vathematics",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5309
+            }
+        }
+    ]
+}

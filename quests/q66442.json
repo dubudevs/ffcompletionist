@@ -1,0 +1,101 @@
+{
+    "quest": {
+        "name": "Tit for Tat",
+        "location": "North Shroud",
+        "id": 66442,
+        "patch": 2.0,
+        "sort": 370,
+        "eventIcon": 71221,
+        "issuer": 1006404,
+        "target": 1006404,
+        "genre": 92,
+        "journal": [
+            "A wounded animal is a dangerous animal, and the White Ram convalescing in Fallgourd Float fits the bill. Whatever Isaudorel has in mind, best to say yes.",
+            "Laid up at an inn after being wounded by the Ixal, Isaudorel has no choice but to ask another to hunt down the scouts. They should still be to the northeast of Fallgourd Float, living off wild game. Hide yourself near the antelope carcass, and slay the Ixali wildtalons when they appear.",
+            "The hunters become the hunted, and the wildtalons prove no match for your road-hardened ferity. Take a moment to reflect on whether you are growing too steely for your own good, then report the kill to Isaudorel.",
+            "Isaudorel is sincerely grateful for your work. Clearly, the thought of those two wildtalons at large had weighed on his mind. Listening to him plot further vengeance, it occurs to you that in wounding Isaudorel, the Ixal have made him twice as dangerous..."
+        ],
+        "objectives": [
+            "Lurk by the antelope carcass and slay the Ixali wildtalons.",
+            "Report to Isaudorel."
+        ],
+        "dialogue": [
+            {
+                "name": "ISAUDOREL",
+                "text": "Damn and blast, that hurts! Damn me for being careless about those Ixal; blast them for slicing me up like a side of fish!"
+            },
+            {
+                "name": "ISAUDOREL",
+                "text": "Here now, before you go all the way back to Coerthas, why not stretch your legs a little? Get those Ixali wildtalons for me."
+            },
+            {
+                "name": "ISAUDOREL",
+                "text": "They had the look of newcomers to this area; that means they won't stray far from where I saw them─the Gelmorra Ruins. Look for fresh kill, something big."
+            },
+            {
+                "name": "ISAUDOREL",
+                "text": "Did me a good turn, did you? Much appreciated, <span class=\"highlight\">Forename</span>! I'll be paying their friends a visit when I'm back on my feet."
+            },
+            {
+                "name": "ISAUDOREL",
+                "text": "Still, Molkot's going to tear me a new one for letting the wildtalons get a jump on me. This way, I can at least tell her the birds didn't live too long afterwards."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 5764,
+            "xp": 9660
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 37,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66441
+            ]
+        },
+        "next": [
+            66443
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006404",
+            "obj": {
+                "i": 1006404,
+                "n": "Isaudorel",
+                "l": 57,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66441",
+            "obj": {
+                "i": 66441,
+                "n": "Stand and Quiver",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 370
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66443",
+            "obj": {
+                "i": 66443,
+                "n": "Inquire at the Spire",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 370
+            }
+        }
+    ]
+}

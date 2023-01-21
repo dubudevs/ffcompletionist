@@ -1,0 +1,128 @@
+{
+    "quest": {
+        "name": "My First Spear",
+        "location": "Gridania",
+        "id": 65754,
+        "patch": 2.0,
+        "sort": 12,
+        "icon": 100057,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000254,
+        "target": 1000254,
+        "genre": 130,
+        "journal": [
+            "Ywain wishes to assign you your first trial as a member of the Lancers' Guild.",
+            "For your first trial as a member of the Lancers' Guild, Ywain bids you slay three squirrels, three ladybugs, and three funguars.",
+            "You have succeeded in slaying the specified creatures. Report back to Ywain at the Lancers' Guild.",
+            "According to Ywain, the true measure of a lancer is how well he can pierce his enemy's defenses. If you wish to become a lancer worthy of the name, you must spare no effort in your training. Taking these words to heart, you embark upon your chosen path.<br><br>※The next lancer quest will be available from Ywain upon reaching level 5."
+        ],
+        "objectives": [
+            "Slay ground squirrels as a lancer.",
+            "Slay little ladybugs as a lancer.",
+            "Slay forest funguars as a lancer.",
+            "Report to Ywain at the Lancers' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "YWAIN",
+                "text": "So you were able to discern one end of the spear from the other. Good."
+            },
+            {
+                "name": "YWAIN",
+                "text": "You are doubtless eager to put your new weapon to the test─which is well, for I too have a test in mind, or rather...a trial."
+            },
+            {
+                "name": "YWAIN",
+                "text": "In order to develop an affinity with your weapon and learn to gauge such things as distance, you are to go forth and pit yourself against the creatures that roam just outside the city."
+            },
+            {
+                "name": "YWAIN",
+                "text": "The squirrels, ladybugs, and funguars should provide you with a suitable challenge."
+            },
+            {
+                "name": "YWAIN",
+                "text": "Put down, let us say, three of each, and then report back to me."
+            },
+            {
+                "name": "YWAIN",
+                "text": "So you are back. I trust you have learned something of the essence of our art."
+            },
+            {
+                "name": "YWAIN",
+                "text": "A lancer learns best when he is doing, each thrust making him stronger. Such things as strategy and technique will come in time. And never forget courage─without it, you cannot hope to realize your potential."
+            },
+            {
+                "name": "YWAIN",
+                "text": "...Your look betrays no hint of doubt. That is well. It is clear you see the truth in my words."
+            },
+            {
+                "name": "YWAIN",
+                "text": "That will be all for the present. Now, take up your weapon, sally forth, and cut a path for yourself."
+            },
+            {
+                "name": "YWAIN",
+                "text": "When next we meet, I hope to see you stronger for your time out in the world."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next lancer quest will be available from Ywain upon reaching level 5."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "xp": 100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 5
+                }
+            ],
+            "quests": [
+                65668
+            ]
+        },
+        "next": [
+            65583
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000254",
+            "obj": {
+                "i": 1000254,
+                "n": "Ywain",
+                "l": 53,
+                "q": 13,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65668",
+            "obj": {
+                "i": 65668,
+                "n": "Way of the Lancer",
+                "g": 130,
+                "l": "Gridania",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65583",
+            "obj": {
+                "i": 65583,
+                "n": "Spear of the Fearless",
+                "g": 130,
+                "l": "Gridania",
+                "s": 50,
+                "f": 1
+            }
+        }
+    ]
+}

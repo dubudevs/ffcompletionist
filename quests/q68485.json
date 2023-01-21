@@ -1,0 +1,659 @@
+{
+    "quest": {
+        "name": "Ninja Bathin' Redux",
+        "location": "Eastern La Noscea",
+        "id": 68485,
+        "patch": 4.0,
+        "sort": 630,
+        "icon": 100673,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1010778,
+        "involved": [
+            1023555,
+            1023556,
+            1023557,
+            1023558,
+            1023559,
+            1023560,
+            1023561,
+            1023562,
+            1023563,
+            1023564,
+            1023753
+        ],
+        "genre": 152,
+        "journal": [
+            "Yomei has a missive from the Far East with your name on it.",
+            "Yomei greets you upon arrival, and eagerly hands you a letter. It would appear that Oboro and Jacke have safely arrived on Hingan shores, and that their investigation into the stolen scroll has turned up some promising leads. Your shinobi friend and master bids you join him in Kugane to continue the search. After disembarking, seek out Oboro in the alley behind Pier #2.",
+            "Oboro relates to you all that he and Jacke have learned. The theft of the scroll was apparently the work of the Garnet League, a band of masterless samurai who turned to banditry after having fled the battlefield in dishonor during the Doman uprising. Easily recognizable by their blood red garb and rough demeanor, they sojourn in Kugane of late. At Oboro's behest, spy upon them from the shadows of the Shiokaze Hostelry and the Rakuza District and see what knowledge you might glean of their plans, and of the scroll's current whereabouts.",
+            "Eavesdropping upon the Garnet League men, you manage to learn that they were hired to retrieve the scroll from an imperial storehouse by a Hingan client whose identity is not immediately evident. You also succeed in gathering more information on the Garnet League itself─namely, that it is led by one Zakuro Brightblood, a samurai feared for both her prowess with the blade and her nigh-legendary temper. Oboro and Jacke will doubtless be keen to hear all you have learned.",
+            "You and your companions share what you have learned, when you are joined by V'kebbe and Underfoot, who have been summoned to Kugane by Jacke to assist in the recovery of the scroll. Piecing together random bits of information, Captain Jacke devises a convoluted scheme to recover the scroll that will involve a high-wire act and imitation bird droppings, among other curious elements. With no better course of action coming immediately to mind, tasks are delegated amongst your party, and you prepare to move into action.",
+            "You carry out Jacke's creative plan to perfection, and send Zakuro running to the baths in utter horror. Infiltrate the Bokairo, and search for the scroll in the changing baskets while a somewhat-unwilling Oboro and Jacke keep Zakuro occupied with their manly wiles.",
+            "You search the baskets by the entrance to the baths, but the scroll is nowhere to be seen. Mayhap there is somewhere you haven't yet looked?",
+            "You search another set of baskets, but to no avail. Wherever could Zakuro have hidden the scroll?",
+            "You search the baskets in the innermost chamber of the bathhouse, where you successfully recover the scroll with Zakuro none the wiser. Make haste back to the alley and share the news of your success with your friends.",
+            "Oboro and Jacke rejoice at the success of the mission. The shinobi's mood, however, darkens considerably upon seeing what the scroll actually is─a forbidden summoning mudra and ancient treasure of his village that went missing in the Garlean invasion of twenty-five years past. It would seem that the scroll slept untouched in an imperial vault until it was stolen by Zakuro and her minions at the behest of their mysterious client. As Oboro ponders who outside his village might have knowledge of the scroll, Karasu Redbeak appears in a puff of smoke, revealing that he was the one pulling the strings behind the operation on behalf of his new master, and threatening physical harm to Tsubame, V'kebbe, and Underfoot─who he has captured in the meantime─if you do not return the scroll to him. Issuing an enigmatic warning of some challenge to come, he disappears as quickly as he came, leaving you and your companions at an utter loss. Continue to hone your skill in the art of ninjutsu, that you may be ready for whatever deadly game the crow has in store for you.<br><br>※The next ninja quest will be available from Oboro upon reaching level 65."
+        ],
+        "objectives": [
+            "Join Oboro in Kugane.",
+            "Use Hide to gather information at the Shiokaze Hostelry and the Rakuza District.",
+            "Report to Oboro.",
+            "Keep lookout from a high perch.",
+            "Search the bathhouse baskets for the scroll.",
+            "Search more baskets for the scroll.",
+            "Search even more baskets for the scroll.",
+            "Wait for Jacke and Oboro at the rendezvous point."
+        ],
+        "dialogue": [
+            {
+                "name": "YOUMEI",
+                "text": "Ah, <span class=\"highlight\">Forename</span>. I have a letter for you from Master Oboro. It would appear that his investigation in Kugane has borne fruit. Here, see for yourself."
+            },
+            {
+                "name": "OBORO",
+                "text": "(-Letter from Oboro-)Dear <span class=\"highlight\">Forename</span>,<br>I hope this letter finds you well. After a long and rather uneventful voyage, we have arrived safely in Kugane. Captain Jacke seems quite taken with Hingan culture, and is enjoying a stroll in the pleasure quarters at this very moment."
+            },
+            {
+                "name": "OBORO",
+                "text": "(-Letter from Oboro-)But forgive me, you are not interested in a diary of our travels. As for the matter of the scroll, rumors abound of a band of Doman scofflaws have been causing a stir in town of late. Putting together the accounts we have heard, the good Captain and I are convinced that these are the thieves we seek."
+            },
+            {
+                "name": "OBORO",
+                "text": "(-Letter from Oboro-)If the word about town is to be believed, these individuals are far more dangerous than we had imagined. I trust that you have been pursuing your ninjutsu training with your usual diligence? My apologies─of course you have. In any event, we would have you join us at your earliest convenience. We will be keeping an eye out for your arrival. Seek us in the alley behind the second pier ferry docks. Safe travels, friend."
+            },
+            {
+                "name": "YOUMEI",
+                "text": "It is good to see Master Oboro in good spirits once more. Ever since the elders commanded him to remain here in Eorzea, he has not quite been himself."
+            },
+            {
+                "name": "YOUMEI",
+                "text": "After all, a shinobi without a duty to carry out is as a hawk with clipped wings. It is good to see Master Oboro soaring high once more."
+            },
+            {
+                "name": "YOUMEI",
+                "text": "Still, I worry. Though I have great respect for the man, he can often be too trusting for his own good. Pray go to his side, friend, and see that he does not get himself into undue trouble. May the kami carry you safely across the sea."
+            },
+            {
+                "name": "YOUMEI",
+                "text": "Master Oboro awaits you in Kugane. I wish you a safe journey."
+            },
+            {
+                "name": "JACKE",
+                "text": "<span class=\"highlight\">Forename</span>! What took ye so long? Have ye snilched the rum doxies in the pleasure district? I'm likin' this place more and more by the day!"
+            },
+            {
+                "name": "TSUBAME",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! It has been too long. To have traveled so far to assist Oboro in his mission─words cannot begin to convey my gratitude."
+            },
+            {
+                "name": "OBORO",
+                "text": "<span class=\"highlight\">Forename</span>. I thank you for answering my call. Tsubame, too, has made the journey from the village to join us in retrieving the scroll."
+            },
+            {
+                "name": "TSUBAME",
+                "text": "It is an honor to stand by your side again, <span class=\"highlight\">Forename</span>. Master Oboro will doubtless benefit from your presence, as he always does."
+            },
+            {
+                "name": "JACKE",
+                "text": "Likewise, I figured we could use a few more dimber dambers on the job, so I've sent for Underfoot and the Stray. Their ship should be pullin' into harbor afore long."
+            },
+            {
+                "name": "OBORO",
+                "text": "In the meantime, allow me to share what we have learned. Reliable sources have it that the theft of the scroll is the work of the Garnet League, a notorious band of outlaws feared throughout Doma."
+            },
+            {
+                "name": "OBORO",
+                "text": "When the Doman rebellion was crushed one year ago, many a samurai fled the battlefield to escape the Empire's wrath. Dishonored and unable to return home, most turned to banditry to eke out a living. It is the most lethal of these warriors who formed the Garnet League."
+            },
+            {
+                "name": "OBORO",
+                "text": "Cutting down innocent men for their coinpurses, plundering villages... The men and women of the Garnet will gladly stain their hands with blood as long as it means they will live to see the morrow."
+            },
+            {
+                "name": "OBORO",
+                "text": "Why they covet that scroll so, I cannot say. What I do know is that if we do not stop them, they are all but certain to leave a trail of corpses in their wake. We must move, and quickly."
+            },
+            {
+                "name": "OBORO",
+                "text": "Fortunately, they should not prove hard to find. Confident in their ability to cut down anyone who dares oppose them, they take little trouble to conceal themselves. On the contrary, they parade their garnet-hued kimono for all to see. You can distinguish them from the similarly garbed Sekiseigumi by their lack of a hakama and their singularly uncouth demeanor."
+            },
+            {
+                "name": "OBORO",
+                "text": "Let us split up and cover as much ground as we can. <span class=\"highlight\">Forename</span>, I would entrust the Shiokaze Hostelry and the Rakuza District to you. Keep to the shadows, and gather what knowledge you can. When we are done with the task, let us reconvene here."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These men look to be members of the Garnet League. They seem to be discussing something..."
+            },
+            {
+                "name": "ZAKUROPEOPLEA02949",
+                "text": "One day she has us sneakin' into a bleedin' imperial storehouse, and the next the Confederacy's chasin' us halfway across the Ruby Sea. Zakuro could pay us twice what she does and it wouldn't be bloody worth it."
+            },
+            {
+                "name": "ZAKUROPEOPLEB02949",
+                "text": "Come now. Even you must admit it was quite the little adventure. Though it was fortunate that we came upon those Eorzean pirates when we did─and that they believed our little ruse. In the end, we made it here with our little prize, did we not? We simply took a slight detour."
+            },
+            {
+                "name": "ZAKUROPEOPLEA02949",
+                "text": "We didn't <span class=\"emphasis\">all</span> make it─or have ye forgotten those we left behind at Bloodshore? Cut down by our pursuers, no doubt. The poor bastards... Whose brilliant idea was it to go along with that masked man's plan, anyway?"
+            },
+            {
+                "name": "ZAKUROPEOPLEA02949",
+                "text": "If our brothers could not fend for themselves, they have only themselves to blame. As for our mysterious benefactor, he led us here as promised, did he not? Now we need only wait for our client to show and deliver the goods, and we will never need worry about going hungry again."
+            },
+            {
+                "name": "ZAKUROPEOPLEA02949",
+                "text": "Speakin' of which, just how long does our man mean to keep us waitin'? I'm beginnin' to wonder if someone isn't playin' all of us for fools."
+            },
+            {
+                "name": "ZAKUROPEOPLEA02949",
+                "text": "Now, now. We were late with our delivery, after all. Word has it our client returned to Koshu when we did not show, and now is making the long journey back to Kugane. We owe him some patience, do we not?"
+            },
+            {
+                "name": "ZAKUROPEOPLEA02949",
+                "text": "One day she has us sneakin' into─hey, why don't you mind yer own bloody business?"
+            },
+            {
+                "name": "ZAKUROPEOPLEB02949",
+                "text": "My friend here has a bit of a temper. You'd be wise to leave him alone."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Garnet League men are not likely to divulge any secrets in the presence of strangers. Move out of eyeshot and <span class=\"highlight\">hide</span> yourself in the shadows before approaching them again."
+            },
+            {
+                "name": "ZAKUROPEOPLEA02949",
+                "text": "We're not puttin' on a bloody show here. Piss off!"
+            },
+            {
+                "name": "ZAKUROPEOPLEB02949",
+                "text": "I am not in the habit of talking to strangers. If you have business, state it. If not, begone."
+            },
+            {
+                "name": "ZAKUROPEOPLEA02949",
+                "text": "I'll believe it when I bloody see it..."
+            },
+            {
+                "name": "ZAKUROPEOPLEB02949",
+                "text": "Have patience, friend. Just a bit longer, and the lives we have always wanted will be ours!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These men look to be members of the Garnet League. They seem to be discussing something..."
+            },
+            {
+                "name": "ZAKUROPEOPLEC02949",
+                "text": "I-I swear, I just wanted to see what all the fuss was about! Barely put a finger on the thing, and next I knew it, Zakuro's blade was at my throat! I-I thought she was going to cut me down right on the spot!"
+            },
+            {
+                "name": "ZAKUROPEOPLED02949",
+                "text": "Put yourself in her shoes. They say our client is such a dangerous man he's been known to kill those who renege on their agreements. If anything happened to the scroll, her life─and ours─would be as good as forfeit."
+            },
+            {
+                "name": "ZAKUROPEOPLEC02949",
+                "text": "Y-You're sayin' she's as scared as us? Zakuro Brightblood, who single-handedly cut down a hundred Garleans in a day during the rebellion? Zakuro Brightblood, who dyes her hair red with the blood of her foes?"
+            },
+            {
+                "name": "ZAKUROPEOPLED02949",
+                "text": "She cuts an imposing figure, this is true. But deep down, she's actually quite the sensitive type."
+            },
+            {
+                "name": "ZAKUROPEOPLEC02949",
+                "text": "S-Sensitive!? Don't make me laugh..."
+            },
+            {
+                "name": "ZAKUROPEOPLEC02949",
+                "text": "I-I swear, I just wanted to─ah, was I sayin' something? N-No, I don't believe I was..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Garnet League men are not likely to divulge any secrets in the presence of strangers. Move out of eyeshot and <span class=\"highlight\">hide</span> yourself in the shadows before approaching them again."
+            },
+            {
+                "name": "ZAKUROPEOPLEC02949",
+                "text": "Wh-What is it? C-Can't you see we're discussin' important matters here?"
+            },
+            {
+                "name": "ZAKUROPEOPLED02949",
+                "text": "You seem lost, friend. I suggest you get found, and quickly. Kugane is not friendly to those who go looking in the wrong places."
+            },
+            {
+                "name": "ZAKUROPEOPLEC02949",
+                "text": "<span class=\"emphasis\">S-Sensitive</span>! H-Hah, that's rich!"
+            },
+            {
+                "name": "ZAKUROPEOPLED02949",
+                "text": "I tell you, she really is quite charming when you get to know her..."
+            },
+            {
+                "name": "JACKE",
+                "text": "Seems the long journey's dulled ol' Jacke's wattles. Hope ye had better luck than I."
+            },
+            {
+                "name": "TSUBAME",
+                "text": "There is an air about you, <span class=\"highlight\">Forename</span>. I can tell you have grown even stronger since last we met."
+            },
+            {
+                "name": "OBORO",
+                "text": "It would seem we have everyone assembled. Excellent─let us share all we have learned."
+            },
+            {
+                "name": "OBORO",
+                "text": "Allow me to see if I have this right. So, in short, the Garnet League lifted the scroll from a Garlean storehouse at the bidding of an unknown Hingan client. They meant to sail straight from Yanxia to Kugane, but ran afoul of the Confederacy─doubtless because they were too poor to pay the Ruby Tithe."
+            },
+            {
+                "name": "OBORO",
+                "text": "In fleeing, they were then captured by the Krakens, so they claimed to be Doman refugees seeking asylum. Upon arriving in Eorzea, they made off with the scroll, and eventually found safe passage to Kugane─with Karasu's aid? That one's motives remain as inscrutable as ever...but I digress."
+            },
+            {
+                "name": "OBORO",
+                "text": "Furthermore, they are led by one Zakuro Brightblood, about whom no small number of tall tales are told. Regardless of their veracity, there can be no doubting that she is a formidable opponent."
+            },
+            {
+                "name": "OBORO",
+                "text": "For my part, I heard that she is most protective of the scroll, and keeps it on her person at all times─night and day."
+            },
+            {
+                "name": "TSUBAME",
+                "text": "I heard that Zakuro and her followers have rented a room at the Bokairo, an inn in town famous for its hot spring baths."
+            },
+            {
+                "name": "JACKE",
+                "text": "All ol' Jacke managed to whiddle is that the cove is right fond o' her flowin' locks. An' that she fancies herself a cup o' tea, makin' the trip from the inn to the teahouse and back at least thrice a day."
+            },
+            {
+                "name": "OBORO",
+                "text": "That is most...enlightening, Captain Jacke. Now, we must find a way to get our hands on the scroll before Zakuro's client arrives─but how? We could challenge her to single combat, but the Sekiseigumi would not look kindly on that."
+            },
+            {
+                "name": "OBORO",
+                "text": "Besides, we are shinobi, are we not? We must use stealth to our advantage. We simply need a plan..."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Look out below! Underfoot's on the scene. Good to see ye again, <span class=\"highlight\">Forename</span>. Can't wait to snilch the new tricks ye've learned from yer friends here."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "What's a mort got to do to get herself some sushi? I'm bloody starved! And what's with all these bleedin' seagulls? I swear, if another one takes a shite on my hair, it'll be seagull stew for dinner tonight!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Wait...that's it! V'kebbe, yer a bloody genius─an' so am I, I reckon."
+            },
+            {
+                "name": "JACKE",
+                "text": "Gather 'round and lend me yer wattles, friends─ol' Jacke's got a plan!"
+            },
+            {
+                "name": "JACKE",
+                "text": "First, we catch Zakuro as she's beatin' her way from the inn to the teahouse. Underfoot, V'kebbe, Tsubame─you three'll be in charge of causin' a scene and stoppin' the mort in her tracks."
+            },
+            {
+                "name": "JACKE",
+                "text": "Meanwhile, <span class=\"highlight\">Forename</span>. You make your way to that perch atop the markets, an' drop some imitation seagull shite down from above."
+            },
+            {
+                "name": "JACKE",
+                "text": "What with her precious locks all mucked up, the mort's sure to make for the hot springs. She can't very well bring the scroll into the water, so we just follow along─all stealthy-like─an' heave it from whatever basket she's stowed it away in."
+            },
+            {
+                "name": "JACKE",
+                "text": "For good measure, Oboro and I'll head to the bathhouse as well an' keep the girl occupied until <span class=\"highlight\">Forename</span> has the scroll safely in <span class=\"alternative-container\"><span class=\"alternative\">'er</span><span class=\"alternative\">'is</span></span> daddles!"
+            },
+            {
+                "name": "OBORO",
+                "text": "A most impressive plan, Captain Jacke. But I have one question: how do you propose that the two of us keep Zakuro...occupied?"
+            },
+            {
+                "name": "TSUBAME",
+                "text": "Oboro, surely you remember our visit to Bronze Lake, and the little show I put on for our pirate friend? It's all quite simple, really."
+            },
+            {
+                "name": "OBORO",
+                "text": "I am not certain I understand what you─oh. On second thought, I am not quite convinced this is the best course of action..."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ahaha! Give yerself some more credit, lad. Now, <span class=\"highlight\">Forename</span>. Ye'll want to climb up to the roof atop the Bokairo, an' then make your way across to the wire atop the markets."
+            },
+            {
+                "name": "JACKE",
+                "text": "Here, this white dye should do a suitable seagull shite impersonation. Once Underfoot and the gang lure Zakuro into position, let 'er fly."
+            },
+            {
+                "name": "JACKE",
+                "text": "All right, lads and lasses, look sharp! We'll meet back here once all's bob."
+            },
+            {
+                "name": "JACKE",
+                "text": "Quite the plan, eh? Ol' Jacke's still got it in him."
+            },
+            {
+                "name": "VKEBBE",
+                "text": "The pain... Oh, the pain!"
+            },
+            {
+                "name": "TSUBAME",
+                "text": "My poor girl! Whatever is the matter?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Someone, anyone, find a healer! The girl needs help!"
+            },
+            {
+                "name": "ZAKURO",
+                "text": "What was─? Gah! Bird shite!? Oh, bloody <span class=\"emphasis\">brilliant</span>!"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "Thank you, kind sir and madam. But worry not─I am not ill. You see, I simply haven't had a bite to eat all day."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Ahaha! Is that all, now? Fortunately, the Shiokaze Hostelry is but a short walk away, and I hear their sushi is positively to <span class=\"emphasis\">die</span> for. Shall we?"
+            },
+            {
+                "name": "ZAKURO",
+                "text": "My hair! My beautiful hair! &lt;sigh&gt; Back to the bathhouse, I suppose..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You search the basket, but to no avail. The scroll must be around here somewhere..."
+            },
+            {
+                "name": "OBORO",
+                "text": "What beautiful locks you have! However do you keep them so smooth and silky?"
+            },
+            {
+                "name": "JACKE",
+                "text": "I've seen many a rum doxy in my day, but ain't none what compare to you, milady."
+            },
+            {
+                "name": "ZAKURO",
+                "text": "Truly? I do not mean to boast, but they <span class=\"emphasis\">do</span> say my beauty is sung of far and wide..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You search the basket, but to no avail. The scroll must be around here somewhere..."
+            },
+            {
+                "name": "OBORO",
+                "text": "Well done, my friends! The operation was, by any measure, a rousing success. That said, I have not seen Tsubame and the others─I do hope all is well."
+            },
+            {
+                "name": "JACKE",
+                "text": "Now <span class=\"emphasis\">that</span> was some rum fun, if I do say so meself. As for the cove, I wouldn't fret─like as not V'kebbe and Underfoot dragged her off to yaffle on some o' Kugane's finer delicacies."
+            },
+            {
+                "name": "OBORO",
+                "text": "No doubt you are right, Captain Jacke. In the meantime, pray show me the scroll, <span class=\"highlight\">Forename</span>. I would see just what it is that Zakuro's mysterious employer covets so."
+            },
+            {
+                "name": "OBORO",
+                "text": "Why, this is─are my eyes to be believed!? The forbidden mudra of summoning! I had half-thought it just a ghost story meant to strike fear in the hearts of shinobi who would stray from their path."
+            },
+            {
+                "name": "JACKE",
+                "text": "Forbidden summoning? I wouldn't know a mudra from me own grandmum, but that sounds right dangersome..."
+            },
+            {
+                "name": "OBORO",
+                "text": "It is indeed, Captain Jacke. The legends say that if the summoner's focus wanes for even a moment, the monstrous beast called forth by this mudra will not hesitate to devour him whole."
+            },
+            {
+                "name": "OBORO",
+                "text": "Many years ago, it was gifted from our village to the King of Doma─then sealed away, to be used only in the most dire of circumstances. But it was lost in the chaos of the Garlean invasion, and never seen again. So it has been sleeping in an imperial vault all these years..."
+            },
+            {
+                "name": "JACKE",
+                "text": "So even with this bleedin' all-powerful summonin' at their fingertips, the Domans still couldn't hold off the Empire? Guess it wasn't all it was cracked up to be, eh?"
+            },
+            {
+                "name": "OBORO",
+                "text": "On the contrary, we never had the chance to find out. Master Gekkai, who led the shinobi, deemed the risk too great and refused to employ it, even as our nation fell."
+            },
+            {
+                "name": "OBORO",
+                "text": "Whether Master Gekkai plotted his betrayal even then, or whether he had our countrymen's best interests at heart, I cannot say─though I would like to believe the latter."
+            },
+            {
+                "name": "OBORO",
+                "text": "Nonetheless, it is clear that none in Garlemald knew of the scroll's true power. And so it sat untouched until it was stolen by the Garnet League, at the bidding of some unknown master."
+            },
+            {
+                "name": "OBORO",
+                "text": "But aside from my fellow shinobi, who out there would know of the scroll's true power? But it matters little now. We have the scroll, and I must return it to its rightful home in my village."
+            },
+            {
+                "name": "JACKE",
+                "text": "'Fraid I can't let ye do that, friend. I promised the Krakens I'd bring the scroll back for them, an' I'll not have it said that Jacke ain't a man of his whids."
+            },
+            {
+                "name": "JACKE",
+                "text": "After all, the scroll's been missin' from your village for twenty-odd summers, no? Clearly no one's sufferin' much."
+            },
+            {
+                "name": "OBORO",
+                "text": "That is hardly the issue, Captain Jacke! This scroll is an ancient treasure─it belongs in Doma!"
+            },
+            {
+                "name": "JACKE",
+                "text": "It belongs to those what found it, an' that's the Krakens! Gods, if ye ain't a stubborn bastard..."
+            },
+            {
+                "name": "KARASU",
+                "text": "(-Familiar Voice-)Gentlemen, gentlemen...must you make such a scene? After all, strictly speaking, the scroll <span class=\"emphasis\">belongs</span> to neither of you."
+            },
+            {
+                "name": "OBORO",
+                "text": "Karasu! Wherever did you─? But never mind. Thank you for guiding us here. You may rest assured that the scroll will safely return to Doma. You have my gratitude."
+            },
+            {
+                "name": "KARASU",
+                "text": "Oh, Oboro─my dear, sweet, deluded Oboro. You grow ever dimmer by the day. Do you truly believe that I do what I do for <span class=\"emphasis\">you</span>?"
+            },
+            {
+                "name": "KARASU",
+                "text": "I <span class=\"emphasis\">did</span> say that I was pulling all the strings in this little puppet play, did I not? Very well, allow me to put it in words even you can understand: the scroll belongs in Hingashi─to the master I now serve."
+            },
+            {
+                "name": "KARASU",
+                "text": "My mistake was in entrusting to Zakuro and her lackies what I should have seen to myself from the very start. Oh well, live and learn, I suppose!"
+            },
+            {
+                "name": "KARASU",
+                "text": "In any event, allow me to propose a simple transaction. You hand over the scroll, and I return your friends to you with their heads still attached to their bodies. A fair trade, no?"
+            },
+            {
+                "name": "OBORO",
+                "text": "Karasu, you craven─!"
+            },
+            {
+                "name": "KARASU",
+                "text": "On second thought... Ahahaha! Yes, I do believe we could have even more fun. Keep your eyes and ears out, dim one─you'll be hearing from me again soon."
+            },
+            {
+                "name": "OBORO",
+                "text": "Curse it all! And here I believed the man had turned over a new leaf after leaving Gekkai. But no, it would seem he has simply found another villain to serve."
+            },
+            {
+                "name": "JACKE",
+                "text": "Once a rook, always a rook, I reckon. An' a sharp one, at that─Underfoot and the Stray aren't the types to get boned so easily."
+            },
+            {
+                "name": "OBORO",
+                "text": "As long as we have the scroll, Karasu is not like to cause our friends any harm. And yet, he is as unpredictable an adversary as they come. We must proceed with caution."
+            },
+            {
+                "name": "OBORO",
+                "text": "Forgive me, <span class=\"highlight\">Forename</span>. It would mean much to me if you would remain in Kugane until our work here is through. Pray continue to train in your ninjutsu, and I shall call upon you again when the time is right."
+            }
+        ],
+        "reward": {
+            "gil": 2073,
+            "xp": 191700
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 63,
+                    "id": 92
+                }
+            ],
+            "quests": [
+                68484
+            ]
+        },
+        "next": [
+            68486
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010778",
+            "obj": {
+                "i": 1010778,
+                "n": "Yomei",
+                "l": 1428,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023555",
+            "obj": {
+                "i": 1023555,
+                "n": "Oboro",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023556",
+            "obj": {
+                "i": 1023556,
+                "n": "Jacke",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023557",
+            "obj": {
+                "i": 1023557,
+                "n": "Tsubame",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023558",
+            "obj": {
+                "i": 1023558,
+                "n": "Loutish Lickspittle",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023559",
+            "obj": {
+                "i": 1023559,
+                "n": "Level-headed Lackey",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023560",
+            "obj": {
+                "i": 1023560,
+                "n": "Flustered Follower",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023561",
+            "obj": {
+                "i": 1023561,
+                "n": "Mercurial Minion",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023562",
+            "obj": {
+                "i": 1023562,
+                "n": "Oboro",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023563",
+            "obj": {
+                "i": 1023563,
+                "n": "Jacke",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023564",
+            "obj": {
+                "i": 1023564,
+                "n": "Zakuro",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023753",
+            "obj": {
+                "i": 1023753,
+                "n": "Jacke",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68484",
+            "obj": {
+                "i": 68484,
+                "n": "Search for the Stolen Scroll",
+                "g": 152,
+                "l": "Eastern La Noscea",
+                "s": 601,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68486",
+            "obj": {
+                "i": 68486,
+                "n": "A Game of Life and Death",
+                "g": 152,
+                "l": "Kugane",
+                "s": 650,
+                "f": 1
+            }
+        }
+    ]
+}

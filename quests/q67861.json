@@ -1,0 +1,505 @@
+{
+    "quest": {
+        "name": "A Monumental Task",
+        "location": "The Churning Mists",
+        "id": 67861,
+        "patch": 3.3,
+        "sort": 6,
+        "icon": 100553,
+        "beast": 8,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1017320,
+        "target": 1017320,
+        "involved": [
+            1012162,
+            1012163,
+            1017170,
+            1017172,
+            1017173
+        ],
+        "genre": 48,
+        "usedItems": [
+            15749,
+            15723
+        ],
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Master Mogzin is looking frantically around the Mogmender camp.",
+            "At long last, the Mogmenders are ready to begin building the statue demanded by Gullinbursti. Tarresson and Mogzin have been waiting for you to discuss how to begin construction.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "Although Mogzin would like to begin work immediately, you realize that although you know what the statue stood for, you do not know what it looked like. After mulling over the question for a moment, you come to the conclusion that it likely depicted a scene of man and dragon living in harmony. However, with all such statues having been destroyed years ago, there is nothing to base yours on. Tarresson suggests that maybe the Temple Knights possess something that could be of use, and instructs you to go to the Congregation to ask Ser Handeloup if he can part with a heretical idol. In case the knight is hesitant to fulfill your request, Tarresson gives you a letter which he assures you will convince Ser Handeloup to do so.",
+            "As Tarresson suspected, Handeloup initially refuses your request, but changes his mind after reading the contents of the letter. In it, Tarresson has written that any figures taken from the Churning Mists should be returned to the moogles, as they have been tasked with taking care of the ancient ruins which dot the region. You ask how Tarresson knows so much about Ishgardian politics, prompting Handeloup to reveal that the humble stonemason was once in fact the count of House Dzemael. The commander agrees that Tarresson's reasoning is sound, and grants you leave to request an idol from his subordinate Vaincannet.",
+            "The attendant rummages through a collection of similar-looking statuettes and hands you one. Although it seems there are many others like it, you hold in your hand the image which will be immortalized at Bahrr Lehs.",
+            "Tarresson exclaims that the idol is the perfect model to base the statue on, and observes that you have returned without the letter he sent you with. It is then that he formally introduces himself as the former Count de Dzemael, and he confides that the work with the Mogmenders has been an ideal way for him to spend his time since stepping down from the position of count. He returns to the matter of the statue, and tasks you with crafting yet another set of supplies. Mogmul awaits with any materials you require.",
+            "Mogmul seems eager to have the statue completed, if only for the fact that it means he will at last be able to eat something. However, he promises to stay vigilant until your work is done.<br><br>※In the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Mogmul Mogbelly.",
+            "Mogzin applies the final touches to the statue, and everyone stands back to look in pride upon their accomplishment. Just then, Gullinbursti descends from the skies to pass judgment on the work of man and moogle. However, while he does not deride your efforts, it is a far cry from the accolades that Mogzin had hoped to receive. The dragon promises not to interfere further, but as he flies away, you cannot help but think that your work is far from over."
+        ],
+        "objectives": [
+            "Speak with Tarresson. ",
+            "Deliver the letter to Handeloup at the Congregation of Our Knights Most Heavenly.",
+            "Speak with Vaincannet.",
+            "Deliver the statuette to Tarresson at Bahrr Lehs.",
+            "Speak with Mogmul Mogbelly.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize statue supplies <img class=\"hq-icon small\" src=\"images/item/hq.png\"></span><span class=\"alternative\">Show the statue supplies <img class=\"hq-icon small\" src=\"images/item/hq.png\"> to Master Mogzin</span></span>."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGZIN",
+                "text": "Where could <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> be... Where could <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> be? Oh, there you are, <span class=\"highlight\">Forename</span>! Tarresson's ready to discuss how to begin building the statue, but we dare not start without you, kupo! Now, let's see what he has to say!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Gullinbursti will be moved to tears by our work! Can dragons cry, kupo? Ah, never mind all that. I suppose we shouldn't get ahead of ourselves. Let's first discuss where to begin!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "<span class=\"highlight\">Forename</span>, how good of you to join us! Once Ohl Deeh graces us with his presence we can begin our discussion. Ah, here he is now."
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "Greetings. For what purpose did you summon me here? Do you require my strength once more?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Indeed, Ohl Deeh, we would avail ourselves of your legendary strength. All of our work thus far has brought us to this decisive moment, and without your stout wings I fear we will have little hope of success!"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "Then of course my wings are yours! I would never stand idly by as my friends struggle! No task is too large for me!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "I knew we could count on your support, kupo! Finally, we are ready to begin work on the Mogmenders' first official commission: the statue requested by Gullinbursti!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "A monument to friendship and peace, now lost to time. With their new tools, the Mogmenders are working with more vigor than I have ever seen. I believe they are more than ready to rise to this challenge!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "We are ready, kupo! Ready to build a statue! A statue of...of what, exactly?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "It is the answer to that question which I have been contemplating, my dear Mogzin. Unfortunately, we have no pictures, no stories, and no remnants on which we can base the statue's form. We know only that it stood more than one thousand years ago, during the age when dragon and man lived together in harmony."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Could it be a kupa tree? Or an enormous cloud mallow? Hmmm..."
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "Do not be daft, Mogzin! The statue likely depicted dragon and man. Brother once told me many such sculptures used to dot the land."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Ohl Deeh, I must say I had much the same thought. What better subjects could there have been to immortalize a bond which, at the time, must have seemed unbreakable?"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Even so, there's still so much we don't know! How were they posed? How many were there? No statues remain to draw inspiration from! Tarresson, do any survive down below?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Well, there is the relief at Falcon's Nest, but that work is much too recent to be of use. However, there may be another way."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Perhaps, but I fear they might prove difficult to procure. Unfortunately, there are still those who think simply glimpsing such an image would be grounds to accuse one of heresy. However, there may be another way."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Our mutual friends, the Temple Knights, have spent generations chasing heretics. Doubtless they have seized at least a few of their idols during their ceaseless struggle."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "<span class=\"highlight\">Forename</span>, there is much work for us to do here at Bahrr Lehs. I would ask you to journey to Ishgard and ask our dear Handeloup if he can part with an idol. I have confidence he will oblige your request."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "However, if perchance he is hesitant to do so, hand him this letter. I believe it shall prove to be adequately convincing."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "And what of us? While <span class=\"highlight\">Forename</span> is away, what should we do? Continue our stonemasonry practice?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "No, my dear Mogzin, there are preparations to be made. Speak with Mogmul, and ready the stone we will use for the statue. Ohl Deeh, pray help Mogzin with his duties."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "For my part, I shall begin drawing up plans for the statue's base. Well then, I look forward to meeting again. May we all return with good news!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Make haste to the Congregation, and ask if Handeloup can spare an idol. If he insists on being difficult, simply hand him the letter I gave you. Trust me, it shall suffice."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "You require an idol seized from the heretics? Ah... My apologies, <span class=\"highlight\">Forename</span>, but such a request is not within my power to grant."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "Pray understand that much as I would like to offer you a helping hand, there are some matters where my reach is limited."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "A letter from Lord Tarresson? ...He writes that the figures in question were taken unlawfully from the Churning Mists, and that the moogles, as caretakers of the ancient ruins therein, are obliged to petition their return."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "A rather more bureaucratic approach than I anticipated, but I would expect no less from a lord of House Dzemael. As skilled with his words as he is with a hammer and chisel."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "He has not told you? That cunning old fox is none other than Tarresson de Dzemael─formerly <span class=\"emphasis\">Count</span> Tarresson de Dzemael. Although he has long since stepped down, he still does not scruple to intercede in various affairs."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "In any event, his reasoning is sound, and I see no harm in following his plan. Speak with my man Vaincannet. He will provide you with what you need."
+            },
+            {
+                "name": "HANDELOUP",
+                "text": "It seems the restoration is proceeding apace. Your duty is almost at an end, <span class=\"highlight\">Forename</span>. I hope it has been a worthwhile journey so far."
+            },
+            {
+                "name": "VAINCANNET",
+                "text": "You require an idol, yes? I believe this one should do─they all look the same to me. Dreadfully ugly, isn't it? Well, I suppose there's no accounting for taste."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "We've found the perfect stones, kupo! Have you returned with something we can use? Oh, I can't wait until we begin building!"
+            },
+            {
+                "name": "OHLDEEH",
+                "text": "If you need any more help carrying stones, I'm the dragon for you! I can do that all day!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "You are returned! Was Handeloup willing to oblige our request?"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "This is an object of heresy and untold evil? It seems harmless enough to me, and the craftsmanship is superb! I do believe this will provide the perfect model for our statue. Excellent work, my friend!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "However, I cannot help but notice you no longer have the letter I wrote. I suppose that means Ser Handeloup told you who I am, that a simple epistle would sway a man of his standing."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Well then, let me apologize for the belated introduction. I am Tarresson de Dzemael, erstwhile count of my house. I am happy to say my son now enjoys that burden, leaving me to spend my days as I please."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "I try to stay busy, of course, and our project here has been a boon in that regard. However, do not think this some whim born of idleness. No, this is how I wish to live out my twilight years. As my true self. As a craftsman."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "House Dzemael was built upon a foundation of mastery. Mastery of wood, steel, and stone. From a young age I strove to learn the techniques of my forefathers. Alas, once I became count, I was forced to trade my hammer and chisel for quill and parchment."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "A count's craft is to uphold the honor of his house, his tools, his wit, and his wiles. I was bound to the eternal struggle for glory and prestige, and as the months bled into years my days as an artisan faded into half-forgotten memory."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "It was in this single-minded state I raised my sons, teaching them naught of the joy of crafting. Perhaps by imparting my knowledge to others, I am in some small way trying to alleviate that regret..."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Hahaha, I have gone on too long again! Truly, I thank you for listening to this old man's ramblings. Now, let us return to the task at hand! The statue must be built, and I have a job perfectly suited to your skills."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Our sculpture will require sturdy metal beams to support the weight of the stone. Although they will remain unseen by most, they are nevertheless among the most vital components."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "A sculpture must be polished to a mirror sheen if it is to be remembered. And to that end, I would have you make the materials required to do so."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "What purpose would our efforts serve if the sculpture we build cannot withstand the elements? To prevent that from happening, I would ask that you prepare a coating to shield our work from the harsh winds and rains of this region."
+            },
+            {
+                "name": "TARRESSON",
+                "text": "As always, Mogmul shall provide you with aught you require. Bring your completed work to Mogzin, and we shall make use of it at once!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "You're helping us with the statue, kupo? Brilliant! Truth be told, a task this large is a bit intimidating. Still, I look forward to the day when the Mogmenders can face such a project without fear!"
+            },
+            {
+                "name": "TARRESSON",
+                "text": "Well, I believe we all have our work to do. Receive your supplies from Mogmul, and bring your finished work to Mogzin."
+            },
+            {
+                "name": "MOGMUL",
+                "text": "Did you see them moving those huge stones, kupo? Just watching them made my belly rumble. But I will do my duty! Until the statue is complete, I'll be here to give you whatever you need!"
+            },
+            {
+                "name": "MOGMUL",
+                "text": "The Mogmenders have plenty of supplies to spare, so there's no need to worry about running out. Just say the word and I'll fill your bags with anything you need, kupo!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "<span class=\"highlight\">Forename</span>, it goes without saying, but the Mogmenders are grateful for all your help so far, kupo! Just a little bit more, and we'll have finished. So, let's see what you've made!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "You've certainly outdone yourself this time! Gullinbursti will surely be in awe at the quality of our work! And now, all that's left is to build, build, build!"
+            },
+            {
+                "name": "MOGZIN",
+                "text": "We've done it, kupo! Can you feel it? This must be how the landlords and skylords felt the moment they built this plaza ages ago. I can only imagine what Gullinbursti's reaction will be!"
+            },
+            {
+                "name": "COLORDRAGON",
+                "text": "Little ones, how fares your work? If it is too difficult, simply say so. I shall allow you to return home before I raze this place to the ground."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "On the contrary, Gullinbursti, you could not have arrived at a more opportune time! The statue is complete, and I daresay even more majestic than it was before. Behold!"
+            },
+            {
+                "name": "COLORDRAGON",
+                "text": "I have not seen this statue in a long time. Yes, it is as it was. Almost."
+            },
+            {
+                "name": "COLORDRAGON",
+                "text": "Your work is...adequate. As promised, I shall leave you be. Continue in peace."
+            },
+            {
+                "name": "MOGZIN",
+                "text": "Almost? Adequate? But why would he say that, kupo?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Thanks to your efforts, the statue has been erected in Bahrr Lehs. It would seem your work is complete, but Gullinbursti's cryptic words suggest otherwise."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Honored</span> reputation with the Mogmenders."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "New moogle tribal daily quests are now available from Mogek the Marvelous at the plaza."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you will be able to undertake three additional quests from Mogek the Marvelous as a reputation rank bonus. This bonus is available until the daily reset time for tribal quests."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "These additional quests will become available after accepting all current daily quests from Mogek the Marvelous. Please be advised that you cannot undertake these quests if you have no remaining allowances."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You now have access to a wider selection of wares from Mogmul Mogbelly."
+            }
+        ],
+        "reward": {
+            "gil": 1455,
+            "items": [
+                {
+                    "num": 2,
+                    "id": 5688,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5698,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5703,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 5,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 33
+                }
+            ],
+            "quests": [
+                67860
+            ]
+        },
+        "next": [
+            67862
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1017320",
+            "obj": {
+                "i": 1017320,
+                "n": "Master Mogzin",
+                "l": 2002,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012162",
+            "obj": {
+                "i": 1012162,
+                "n": "Vaincannet",
+                "l": 2300,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012163",
+            "obj": {
+                "i": 1012163,
+                "n": "Handeloup",
+                "l": 2300,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017170",
+            "obj": {
+                "i": 1017170,
+                "n": "Tarresson",
+                "l": 2002,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017172",
+            "obj": {
+                "i": 1017172,
+                "n": "Mogmul Mogbelly",
+                "l": 2002,
+                "s": 4,
+                "q": 4,
+                "t": "Craver of Kupo Nuts",
+                "r": 1,
+                "a": 2095,
+                "c": [
+                    15.99,
+                    28.55
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017173",
+            "obj": {
+                "i": 1017173,
+                "n": "Ohl Deeh",
+                "l": 2002,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "5688",
+            "obj": {
+                "i": 5688,
+                "n": "Gatherer's Guerdon Materia V",
+                "l": 160,
+                "c": 20255,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 10,
+                    "attr": "Gathering",
+                    "category": 2
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5698",
+            "obj": {
+                "i": 5698,
+                "n": "Gatherer's Grasp Materia V",
+                "l": 160,
+                "c": 20255,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "GP",
+                    "category": 2
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5703",
+            "obj": {
+                "i": 5703,
+                "n": "Craftsman's Competence Materia V",
+                "l": 160,
+                "c": 20253,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 11,
+                    "attr": "Craftsmanship",
+                    "category": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "15749",
+            "obj": {
+                "i": 15749,
+                "n": "Statue Supplies Materials",
+                "l": 55,
+                "c": 26001,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "15723",
+            "obj": {
+                "i": 15723,
+                "n": "Statue Supplies",
+                "l": 55,
+                "c": 21012,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67860",
+            "obj": {
+                "i": 67860,
+                "n": "The Tools Make the Moogle",
+                "g": 48,
+                "l": "The Churning Mists",
+                "s": 5,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67862",
+            "obj": {
+                "i": 67862,
+                "n": "Piecing Together the Past",
+                "g": 48,
+                "l": "The Churning Mists",
+                "s": 7,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "quest": {
+        "name": "The Sins of Our Landlords",
+        "location": "The Churning Mists",
+        "id": 67397,
+        "patch": 3.0,
+        "sort": 5522,
+        "eventIcon": 71221,
+        "issuer": 1013547,
+        "target": 1013547,
+        "genre": 100,
+        "journal": [
+            "This moogle scavenger looks empty-handed and crestfallen.",
+            "The moogle scavenger has been hard at work collecting tools and weapons once used by the landlords, but his day's work has been stolen by a group of vouivres. Recover the tools from the dragons and return them to the moogle.",
+            "You have recovered the tools from the clutches of the greedy dragons. Deliver them to the moogle scavenger.",
+            "The moogle is elated to have his precious spoils back in his paws. The dragons infesting the Rookery still carry a grudge towards the landlords, allowing no one─not even moogles─to lay their hands on tools once belonging to the dragons' ancient enemies."
+        ],
+        "objectives": [
+            "Recover the tools from the vouivres.",
+            "Deliver the tools to the rummaging moogle."
+        ],
+        "dialogue": [
+            {
+                "name": "SEARCHAIRPORTMOG01861",
+                "text": "I've been working tirelessly gathering tools once belonging to the landlords that're scattered about these dragon-infested ruins, but those vicious vouivres attacked me and stole my hard work! The nerve, kupo!"
+            },
+            {
+                "name": "SEARCHAIRPORTMOG01861",
+                "text": "Say... <span class=\"emphasis\">You</span> look the sort who can deal with bullies. Please, get my tools back─the vouivres stole three of them from right out of my paws, kupo!"
+            },
+            {
+                "name": "SEARCHAIRPORTMOG01861",
+                "text": "The dragons are probably gloating over their ill-gotten gains as we speak. Get them back for me!"
+            },
+            {
+                "name": "SEARCHAIRPORTMOG01861",
+                "text": "I can't very well end my day's work empty-pawed. Do you have what the dragons stole from me, kupo?"
+            },
+            {
+                "name": "SEARCHAIRPORTMOG01861",
+                "text": "...Yes, these are the tools I found! Many thanks for returning them, adventurer."
+            },
+            {
+                "name": "SEARCHAIRPORTMOG01861",
+                "text": "The skylords still hold a grudge towards the landlords and their kin, and are loath to allow even moogles to use the ancient tools of their enemies. Us moogles don't care one way or the other about grudges, and if you ask me it's not like the tools are to blame for the sins of the past, kupo."
+            }
+        ],
+        "reward": {
+            "gil": 460,
+            "items": [
+                {
+                    "id": 5687,
+                    "one": 1
+                },
+                {
+                    "id": 5692,
+                    "one": 1
+                },
+                {
+                    "id": 5697,
+                    "one": 1
+                }
+            ],
+            "xp": 33600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 55,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67171
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013547",
+            "obj": {
+                "i": 1013547,
+                "n": "Rummaging Moogle",
+                "l": 2002,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5687",
+            "obj": {
+                "i": 5687,
+                "n": "Gatherer's Guerdon Materia IV",
+                "l": 55,
+                "c": 20212,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 6,
+                    "attr": "Gathering",
+                    "category": 2
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5692",
+            "obj": {
+                "i": 5692,
+                "n": "Gatherer's Guile Materia IV",
+                "l": 55,
+                "c": 20212,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 6,
+                    "attr": "Perception",
+                    "category": 2
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5697",
+            "obj": {
+                "i": 5697,
+                "n": "Gatherer's Grasp Materia IV",
+                "l": 55,
+                "c": 20212,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "GP",
+                    "category": 2
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67171",
+            "obj": {
+                "i": 67171,
+                "n": "The Song Begins",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 56
+            }
+        }
+    ]
+}

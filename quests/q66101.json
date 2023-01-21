@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "So You Think You Can Ride This Chocobo",
+        "location": "Central Shroud",
+        "id": 66101,
+        "patch": 2.51,
+        "sort": 151,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1010472,
+        "target": 1010464,
+        "genre": 92,
+        "journal": [
+            "Casting a curious glance in your direction, Katering is poised to ask you a question.",
+            "Reminding you that your initiation into the ranks of chocobo jockeys is not yet complete, Katering bids you return to the Gold Saucer so that you may register your new fledgling. Return to the race counter in Chocobo Square and speak with the race chocobo registrar once more.",
+            "The registrar welcomes your return and states that, once your registration has been accepted, you need only speak with her to enter your first race. Present your registration form to the race chocobo trainer to complete the process and take your first steps upon the path of a jockey!"
+        ],
+        "objectives": [
+            "Speak with the race chocobo registrar in the Gold Saucer."
+        ],
+        "dialogue": [
+            {
+                "name": "KATERING",
+                "text": "Hm? You're still here? I reckoned you'd have run off by now, being eager to try your hand at the races an' whatnot."
+            },
+            {
+                "name": "KATERING",
+                "text": "Well, in case you've forgotten, I'll reiterate: you need to deliver that form to the race counter in the Gold Saucer. Only then will you be allowed to enter sanctioned chocobo races."
+            },
+            {
+                "name": "KATERING",
+                "text": "What good's a race chocobo if you never ride her? Go on, then─go and register your bird at the Gold Saucer."
+            },
+            {
+                "name": "CHOCOBORACE00565",
+                "text": "Our promising new jockey returns─bearing <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> fledgling chocobo's registration form, I trust?"
+            },
+            {
+                "name": "CHOCOBORACE00565",
+                "text": "But of course. One so keen to join the ranks of honored champions would not be so foolish as to misplace essential documentation!"
+            },
+            {
+                "name": "CHOCOBORACE00565",
+                "text": "Our race chocobo trainer is responsible for registering new fledglings. Present your form to her and she will guide you through the process."
+            },
+            {
+                "name": "CHOCOBORACE00565",
+                "text": "And, when that final bureaucratic hurdle hath been surmounted, return to me, and I shall arrange your debut!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Chocobo races are now available."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To participate in chocobo races, first speak with the race chocobo trainer to register your fledgling."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Afterwards, speak with the registrar again and register for the training course to learn the fundamentals of chocobo racing."
+            }
+        ],
+        "reward": {
+            "gil": 539,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65972
+            ]
+        },
+        "next": [
+            66112
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010472",
+            "obj": {
+                "i": 1010472,
+                "n": "Katering",
+                "l": 54,
+                "q": 3,
+                "t": "Race Chocobo Breeder"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010464",
+            "obj": {
+                "i": 1010464,
+                "n": "Race Chocobo Registrar",
+                "l": 1484,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65972",
+            "obj": {
+                "i": 65972,
+                "n": "So You Want to Be a Jockey",
+                "g": 93,
+                "l": "Chocobo Square",
+                "s": 141,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66112",
+            "obj": {
+                "i": 66112,
+                "n": "Like Sire Like Fledgling",
+                "g": 93,
+                "l": "Chocobo Square",
+                "s": 141,
+                "f": 1
+            }
+        }
+    ]
+}

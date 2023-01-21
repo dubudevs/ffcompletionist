@@ -1,0 +1,947 @@
+{
+    "quest": {
+        "name": "The Great Horn Heist Redux",
+        "location": "The Gold Saucer",
+        "id": 69592,
+        "patch": 5.5,
+        "sort": 200,
+        "repeatable": 1,
+        "icon": 101065,
+        "eventIcon": 71222,
+        "issuer": 1036139,
+        "target": 1036139,
+        "genre": 200,
+        "journal": [
+            "Ollier can't help but get the sense that something is eating away at you.<br>※This quest is available for a limited time only.",
+            "You share with Ollier your lingering doubts that your prior investigation arrived at the whole truth behind the matter of the stolen horn. Convinced that the true culprit remains at large, Ollier agrees to persuade Master Roland to reopen the case, that justice might at last be served. Armed once more with your trusty inspector's journal, you head out once more into the halls of the Saucer, vowing that this time no clue will escape you.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "Having gleaned all that you can from your survey of the Saucer and questioning of its denizens, you share your deductions before a tribunal headed by Master Roland, and once again, a verdict is rendered. You then set out to speak once more with Ollier, that you might hear his thoughts on the outcome.",
+            "You speak with Ollier, who expresses his thanks for your diligent efforts on Hugue's behalf. With the case at last brought to a conclusion, you bid the Saucer attendant farewell and take your leave."
+        ],
+        "objectives": [
+            "Search the Gold Saucer for clues, and speak with Ollier to discuss them.",
+            "Speak with Ollier."
+        ],
+        "dialogue": [
+            {
+                "name": "OLLIER",
+                "text": "Oh, it's you again. Is everything quite all right? You look as if there's something on your mind..."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "It's nothing, really..."
+            },
+            {
+                "name": "A1",
+                "text": "Let me investigate once more!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Forgive me...I did not mean to presume. Thank you again for your aid with our investigation, and do enjoy the festivities."
+            },
+            {
+                "name": "OLLIER",
+                "text": "You wish to conduct another investigation? I admire your diligence, but─for better or for worse─the case is already closed..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "That said, if there is a chance that true justice has not been served, we would be remiss not to rectify matters."
+            },
+            {
+                "name": "OLLIER",
+                "text": "I will explain the situation to Master Roland and Captain Daluce and arrange for another hearing to be held. In the meantime, pray survey the premises and collect whatever evidence you can. We're counting on you, friend!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Should you choose to undertake this quest, know that guidance from the journal, duty list, and map will be limited. You will need to read the text carefully and decipher the clues to determine your course of action."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Scattered throughout the Gold Saucer are clues that will aid you in uncovering the identity of the thief. Obtain them by speaking to the denizens and customers of the Gold Saucer, and investigating any suspicious items or locations."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "All information gleaned in your inquiry may be reviewed at any time by checking your inspector's journal, which can be accessed at any time from the Key Items menu. Use your resources well, and see that the true culprit is brought to justice for their crimes!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "When you believe you've gathered all the information needed to crack the case, speak with Ollier. From there, you will have a chance to share your deductions and prove the accused innocent."
+            },
+            {
+                "name": "DALUCE",
+                "text": "Conducting another investigation, you say? Be my guest, though I'll be a chocobo's uncle if anything comes of it!"
+            },
+            {
+                "name": "HUGUE",
+                "text": "How many times must I say it? I swear to you, I am innocent!"
+            },
+            {
+                "name": "SASAPANO",
+                "text": "We all know you did it. Why not confess and save us all some trouble?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You inquire regarding any information potentially related to the incident in question..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You carefully survey the area..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Unsure whether or not the information you have gleaned will avail you, you nevertheless choose to record it in your journal."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You've already gleaned all there is to know from this place..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Your search has yielded all the pieces of the puzzle. It is now up to you to put them together."
+            },
+            {
+                "name": "STAFFA04056",
+                "text": "I was tasked with selling Mini Cactpot tickets, and was standing behind the counter at the time of the crime. To think that something like this could happen here at the Gold Saucer!"
+            },
+            {
+                "name": "STAFFA04056",
+                "text": "I said the same to Captain Daluce and Pipimaya─ah, they're the two Brass Blade officers questioning Hugue over there─but I don't recall anything out of the ordinary at the time."
+            },
+            {
+                "name": "STAFFA04056",
+                "text": "It was festival season, however, so our halls were even more crowded with customers than usual."
+            },
+            {
+                "name": "STAFFA04056",
+                "text": "Yet I guarantee you that no unauthorized persons were allowed to slip behind the counter. From my vantage point, I would have noticed in an instant if that were the case."
+            },
+            {
+                "name": "GUESTA04056",
+                "text": "That Hyuran attendant, you say? If I recall, he left his post for a time to escort a customer some place or another."
+            },
+            {
+                "name": "GUESTA04056",
+                "text": "Thought it odd to see no one manning the counter, but I suppose it happens from time to time? Or perhaps not..."
+            },
+            {
+                "name": "BRASSBLADESMANB04056",
+                "text": "Given its sheer size, we believe the thief has hidden the stolen horn somewhere around the premises until such time as they can arrange to smuggle it out. Though, for the life of me, I can't find the godsdamned thing anywhere..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have the sense that something currently hidden to your gaze was visible from a different angle. Or are you simply imagining things...?"
+            },
+            {
+                "name": "STAFFB04056",
+                "text": "Oh, whatever to do? Whatever to do!?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Lalafellin attendant seems terribly flustered, and not particularly inclined to carry on a conversation. Perhaps if you knew precisely what has him in such a huff, he might be persuaded to listen..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You inquire about the missing uniform..."
+            },
+            {
+                "name": "STAFFB04056",
+                "text": "Shush! Have you lost your wits!? Don't say that so loud! If anyone heard that I'd misplaced my uniform, why there'd be hells to─oh, I should probably quiet down, myself."
+            },
+            {
+                "name": "STAFFB04056",
+                "text": "Needless to say, those uniforms are issued to official Gold Saucer staff alone. When not wearing them, we're instructed to guard them as if our lives depended on it. If it were to get out that I lost mine..."
+            },
+            {
+                "name": "STAFFB04056",
+                "text": "Just before, I checked with the cleaning staff to make sure that it wasn't accidentally disposed of somehow."
+            },
+            {
+                "name": "STAFFB04056",
+                "text": "The man said he'd seen nothing, nor have any articles of clothing been delivered to the lost and found. Oh, wherever could my uniform have gone!?"
+            },
+            {
+                "name": "BRASSBLADESMANC04056",
+                "text": "The investigation? Hah. We already know that sorry wretch named Hugue did it. I've got more interesting matters to think about."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Brass Blade doesn't seem inclined to listen to you at the moment. Perhaps if you knew of a rumor that might pique his interest..."
+            },
+            {
+                "name": "BRASSBLADESMANC04056",
+                "text": "The investigation? Hah. We already know that sorry wretch named Hugue did it. I've got more interesting matters to think about. Say, have you heard any good rumors lately?"
+            },
+            {
+                "name": "BRASSBLADESMANC04056",
+                "text": "Pipimaya flat-out ignored a friendly invitation and went off to the chocobo races alone, you say? That's somethin' you don't hear every day..."
+            },
+            {
+                "name": "BRASSBLADESMAND04056",
+                "text": "Never known the man to say no to anyone. Why, one time a new recruit started calling him “Mayapipi,” and he didn't even bat an eyelash. On the contrary, he just went along with it like it was his new favorite nickname!"
+            },
+            {
+                "name": "BRASSBLADESMAND04056",
+                "text": "Since then, all the newcomers have taken to calling him “Master Mayapipi,” and Pipimaya's as happy as a chocobo gettin' scratched behind the ears! To think he'd turn a deaf ear to one of his subordinates─that's a juicy rumor if I ever heard one!"
+            },
+            {
+                "name": "STAFFC04056",
+                "text": "Have I noticed anything out of the ordinary, you ask? Well, now that you mention it─I doubt it has anything to do with the incident, but..."
+            },
+            {
+                "name": "STAFFC04056",
+                "text": "My colleague who mans the Cactpot Board mentioned that his uniform had gone missing. I could scarce believe it─the man's a veteran, and as careful as anyone I know."
+            },
+            {
+                "name": "STAFFC04056",
+                "text": "We're instructed to guard those outfits with our lives, you know. If my colleague doesn't find his soon, Master Roland is like to give him a chewing out like he'd never believe..."
+            },
+            {
+                "name": "BRASSBLADESMANE04056",
+                "text": "Around the time the robbery happened, I was just getting off active duty. I had a mind to go to the chocobo races with Pipimaya, so I gave him a yell. But would you believe it? He just walked off to the racetrack as if he never heard me!"
+            },
+            {
+                "name": "BRASSBLADESMANF04056",
+                "text": "Pipimaya, you say? I'd heard his brother was known to place a few coins on the birds from time to time, but never knew Pipimaya had an interest as well."
+            },
+            {
+                "name": "BRASSBLADESMANF04056",
+                "text": "Still, for a friendly chap like ol' Pipimaya to just ignore you like that...reckon he must have had a big bet on his mind, eh?"
+            },
+            {
+                "name": "STAFFD04056",
+                "text": "Have you met Pipimaya? He's one of the Brass Blades investigating the theft for us, but he's no stranger to the Gold Saucer. Why, I've seen him at the chocobo races more than once!"
+            },
+            {
+                "name": "STAFFE04056",
+                "text": "You sure that's not his brother? They're the spitting image of each other, and I hear it's the brother who's a regular patron here. They say he can rack up the MGP like you wouldn't believe..."
+            },
+            {
+                "name": "STAFFD04056",
+                "text": "His brother, you say? Why, I didn't even know he had a brother! From what I saw, they could almost be twins!"
+            },
+            {
+                "name": "STAFFE04056",
+                "text": "Hah! Someone needs to get around a bit more, it seems. Anyhow, the brother's a regular here if I ever saw one. Seeing the sheer single-minded devotion with which he attacks those games, I reckon he's got his eyes on an exclusive prize."
+            },
+            {
+                "name": "OLLIER",
+                "text": "How fares the investigation, my friend? You look as if the whole matter still has you a bit puzzled. Have you gotten any closer to the truth?"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Ah, there you are. Observing from afar, I couldn't help but notice just how thorough you've been in your investigation. Pray tell, do you believe you've arrived at the truth?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "It's all clear to me now!"
+            },
+            {
+                "name": "A1",
+                "text": "I'm not entirely sure..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The conclusion of this quest will differ depending on the choices you make in the following sequence. However, the rewards will remain the same."
+            },
+            {
+                "name": "Q2",
+                "text": "Are you ready to explain your reasoning?"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Truly? In that case, by all means let us share your deductions with the others!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "I see. Pray take the time you need to be certain, but please hurry...lest poor Hugue be forced to confess to a crime which he did not commit."
+            },
+            {
+                "name": "ROLAND",
+                "text": "Ollier has explained the situation to me. Though it is rather...<span class=\"emphasis\">unconventional</span> to reopen a case in this manner, we have a responsibility to arrive at the truth in whatever way that may be done. As such, I will listen once more to all evidence─old and new─at hand, and see what conclusion it leads us to regarding this unfortunate incident. I trust you have no objections?"
+            },
+            {
+                "name": "DALUCE",
+                "text": "Not as such, Master Roland. While I am skeptical that anything new will come to light, it would not be my place to refuse."
+            },
+            {
+                "name": "ROLAND",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I hear that you have diligently prepared for these proceedings. Are you ready to present your new evidence?"
+            },
+            {
+                "name": "ROLAND",
+                "text": "Very well, then let us begin. Captain Daluce, pray summarize the details of the incident for those of us who may have forgotten."
+            },
+            {
+                "name": "DALUCE",
+                "text": "Gladly. A few bells ago, a Sabotender Emperador horn went missing from the Gold Saucer's prize vault, located behind the main counter. It was noticed by a sharp-eyed attendant whose shift followed that of Hugue."
+            },
+            {
+                "name": "DALUCE",
+                "text": "Thorough questioning of all witnesses in the area at the time revealed that no other persons─attendant or customer alike─were seen behind the counter at the time."
+            },
+            {
+                "name": "DALUCE",
+                "text": "Investigating our records, we further learned that Hugue was arrested once for petty theft before being employed here at the Saucer. We have named him a primary suspect, and an interrogation is being conducted as we speak. That is all."
+            },
+            {
+                "name": "ROLAND",
+                "text": "Thank you, Captain Daluce."
+            },
+            {
+                "name": "ROLAND",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. Ollier has informed me that you, too, have been investigating the matter on our behalf. Have you any objections to Captain Daluce's testimony?"
+            },
+            {
+                "name": "Q3",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A3",
+                "text": "The true culprit is still out there!"
+            },
+            {
+                "name": "A3",
+                "text": "What proof do you have that Hugue did it?"
+            },
+            {
+                "name": "DALUCE",
+                "text": "What!? How could you possibly know that!?"
+            },
+            {
+                "name": "Q4",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A4",
+                "text": "There's always a true culprit!"
+            },
+            {
+                "name": "A4",
+                "text": "Call it a hunch, I guess...?"
+            },
+            {
+                "name": "A4",
+                "text": "One of the attendant's uniforms has gone missing!"
+            },
+            {
+                "name": "DALUCE",
+                "text": "As I just explained, our witnesses stated clearly that they saw no one go behind the counter. In the absence of any other potential suspects, it only stands to reason that Hugue is the culprit."
+            },
+            {
+                "name": "DALUCE",
+                "text": "...At any rate, it's clear you are simply stalling for time. If you have nothing of import to contribute, I daresay it's time we rendered a verdict."
+            },
+            {
+                "name": "DALUCE",
+                "text": "What's this you say...!?"
+            },
+            {
+                "name": "ROLAND",
+                "text": "...Oho. Then let us proceed to the next topic at hand. Captain Daluce and his men are all but convinced that Hugue is the thief. Have you uncovered any evidence to lead you to believe otherwise?"
+            },
+            {
+                "name": "Q5",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A5",
+                "text": "Just look at those innocent eyes!"
+            },
+            {
+                "name": "A5",
+                "text": "He says he didn't do it!"
+            },
+            {
+                "name": "A5",
+                "text": "If you're so sure he did it, then where is the horn?"
+            },
+            {
+                "name": "DALUCE",
+                "text": "It's true that we haven't recovered it yet, but I assure you it's only a matter of time. That's hardly evidence of the man's innocence. What exactly are you implying?"
+            },
+            {
+                "name": "Q6",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A6",
+                "text": "I'm not sure, but it was worth a shot."
+            },
+            {
+                "name": "A6",
+                "text": "I propose...the horn just vanished into thin air!"
+            },
+            {
+                "name": "A6",
+                "text": "The horn was stolen while Hugue was still on duty!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "...<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. My valued employee's good name and future are on the line today. I ask you to take these proceedings more seriously."
+            },
+            {
+                "name": "DALUCE",
+                "text": "Hah! You expect that baseless blathering to carry any weight here? It's more than evident that you're just wasting our time."
+            },
+            {
+                "name": "ROLAND",
+                "text": "...I see. For you to say so with such confidence, I imagine you must have uncovered some convincing evidence, indeed."
+            },
+            {
+                "name": "ROLAND",
+                "text": "Well, now. I do believe we've come to the heart of the matter. <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, if you would...just who do you believe is truly responsible for the crime?"
+            },
+            {
+                "name": "Q7",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A7",
+                "text": "It's you...Pipimaya!"
+            },
+            {
+                "name": "A7",
+                "text": "It's...not Hugue, that's for certain!"
+            },
+            {
+                "name": "A7",
+                "text": "I'm sorry, Hugue. I tried...!"
+            },
+            {
+                "name": "A7",
+                "text": "It's...Captain Daluce!"
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)M-Me!? Is this some kind of a joke!? I'm no thief! I'm an officer of the law!"
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)You'd best have some proof behind these accusations, or I'll have you hauled in gaol faster than you can say “Godbert Manderville!”"
+            },
+            {
+                "name": "Q8",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A8",
+                "text": "My adventurer's sense is never wrong!"
+            },
+            {
+                "name": "A8",
+                "text": "Just look at that suspicious look on his face!"
+            },
+            {
+                "name": "A8",
+                "text": "The stolen uniform was Lalafell-sized!"
+            },
+            {
+                "name": "ROLAND",
+                "text": "...I am in no mood for jests, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. I'll ask you again, and I expect a serious answer this time."
+            },
+            {
+                "name": "DALUCE",
+                "text": "So you would have us believe the true culprit is to be found elsewhere. Have you any evidence to support your words?"
+            },
+            {
+                "name": "Q9",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A9",
+                "text": "This is all just circumstantial evidence!"
+            },
+            {
+                "name": "A9",
+                "text": "Let me reconsider the matter."
+            },
+            {
+                "name": "A9",
+                "text": "I... I..."
+            },
+            {
+                "name": "ROLAND",
+                "text": "...I am in no mood for jests, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. I'll ask you again, and I expect a serious answer this time."
+            },
+            {
+                "name": "OLLIER",
+                "text": "N-No! Say it isn't so!"
+            },
+            {
+                "name": "DALUCE",
+                "text": "...I knew it. For all your lofty investigative work, all you've done is prove our case for us."
+            },
+            {
+                "name": "DALUCE",
+                "text": "The game's up, Hugue. Now tell us where you hid the horn, or you'll be spending tonight─and many more nights─in the sultanate's darkest gaol."
+            },
+            {
+                "name": "DALUCE",
+                "text": "You're not serious...are you?"
+            },
+            {
+                "name": "DALUCE",
+                "text": "At any rate, it's clear we've been wasting our time. Take the suspect away."
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)And so what if it is!? That is proof of nothing! You need only look around you to see that I am far from the only Lalafell in this place!"
+            },
+            {
+                "name": "Q10",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A10",
+                "text": "But not all have a brother with eyes only for MGP."
+            },
+            {
+                "name": "A10",
+                "text": "Come to think of it, he has a point..."
+            },
+            {
+                "name": "A10",
+                "text": "Hmmmmmmmmm..."
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)Perhaps that man is innocent, but so am I! The thief is still out there! What are you waiting for? Get out there and catch him!"
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)W-Wait...how do you know that!?"
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)I mean...nonsense! I have an alibi! At the time the theft happened, I was at the chocobo races! And I'll have you know I won myself a fortune as well! Hah! The joke's on you!"
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)Just ask any of the attendants there! They all remember me! Why, I'm one of their best customers!"
+            },
+            {
+                "name": "Q11",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A11",
+                "text": "My most sincere apologies, Master Mayapipi."
+            },
+            {
+                "name": "A11",
+                "text": "Lies! Be a man and confess to your crime!"
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)Why should I confess to something I have not done!? This is an outrage! You're trying to frame me to cover up for your own failure of an investigation!"
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "(-???-)Yes, precisely as we orchestrated..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "In summary, to this point I have not seen sufficient evidence to convict the suspect Hugue beyond a shadow of a doubt. Would you not concur?"
+            },
+            {
+                "name": "DALUCE",
+                "text": "...I do. Loath as I am to admit it, your adventurer friend here has raised legitimate concerns."
+            },
+            {
+                "name": "DALUCE",
+                "text": "My apologies for being so hasty in accusing the poor man. I shall have him released immediately."
+            },
+            {
+                "name": "DALUCE",
+                "text": "That said, the question remains─who was the <span class=\"emphasis\">true</span> mastermind behind this theft?"
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "(-???-)Yes, precisely as we orchestrated..."
+            },
+            {
+                "name": "SASAPANO",
+                "text": "(-Pipimaya-)Master <span class=\"emphasis\">Mayapipi</span>? Is this your idea of a joke? The least you could do is have the dignity to call a man by his proper name!"
+            },
+            {
+                "name": "BRASSBLADESMANC04056",
+                "text": "What? Just the other day you told us that was your favorite nickname!"
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "(-???-)Enough, Sasapano. It would seem our game is up."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "(-Pipimaya Look-alike-)Remarkable sleuthing, if I do say so myself. Of course, you are correct─Hugue is not the culprit."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "(-Pipimaya Look-alike-)I am. Or should I say, <span class=\"emphasis\">we are</span>..."
+            },
+            {
+                "name": "BRASSBLADESMANC04056",
+                "text": "M-Master Mayapipi! There's...two of you!?"
+            },
+            {
+                "name": "DALUCE",
+                "text": "What is the meaning of this!?"
+            },
+            {
+                "name": "ROLAND",
+                "text": "You'd better have a good explanation for all of us."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "<span class=\"emphasis\">I</span> am Pipimaya...the real one, that is. The man who was posing as me until our ruse was revealed is my twin brother, Sasapano."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "We also have another brother, some years younger than the two of us. He's our pride and joy, sharp of mind and fleet of foot."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "Sadly, one day our dear brother was stricken with a rare, nigh-untreatable malady. He was told he had but moons to live, if that."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "Needless to say, Sasapano and I were devastated. When the initial shock had passed, we were left with one thought─if we could not save the boy's life, at the very least we could make his biggest dream come true in the precious days he remained with us."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "Specifically, his dream to one day sail across the heavens on his very own Sabotender Emperador. I knew of his wish quite well, having often observed him eyeing its glorious succulent form longingly from my post on security duty."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "And so, in hopes of granting our dear sibling's dying wish, Sasapano and I embarked on a single-minded quest to accumulate as much MGP as we could muster. Sasapano, in particular, displayed quite the aptitude for games, and soon became known as one of the Saucer's most successful regulars."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "The points accumulated rapidly, and in great quantities, but our brother's condition was declining even more starkly. We were racing against time, and seemed destined to lose."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "So it was that the idea came to us out of sheer desperation. We would use the hustle and bustle of the festival as a cover, sneak behind the counter, and pilfer that which would make one ill-fated man's wildest dreams come true."
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "...The rest played out exactly as this insightful adventurer deduced. Little did I expect that I'd be found out before I could even sneak the horn past the guards..."
+            },
+            {
+                "name": "ROLAND",
+                "text": "Indeed. It all makes sense now..."
+            },
+            {
+                "name": "DALUCE",
+                "text": "My sincerest apologies, good sir. To think that not only did we wrongly accuse you, but that the true culprit─one of them, at least─was one of our own..."
+            },
+            {
+                "name": "DALUCE",
+                "text": "Using your position and knowledge as a security officer to mastermind such a heinous act...can you two even begin to comprehend the gravity of your crimes? I'll see you rot in the darkest gaol─"
+            },
+            {
+                "name": "HUGUE",
+                "text": "Wait...I beg of you!"
+            },
+            {
+                "name": "HUGUE",
+                "text": "Might I be allowed to speak for a moment?"
+            },
+            {
+                "name": "HUGUE",
+                "text": "I come from a poor family of refugees. Before they graciously hired me as a Saucer attendant, I lived alone with my mother."
+            },
+            {
+                "name": "HUGUE",
+                "text": "For years, it was a constant struggle to put food on our plates. We feared that each coming day might be our last. Often, I would hear my mother sobbing at night, unable to hold back the grief and pain she hid inside for her son's sake."
+            },
+            {
+                "name": "HUGUE",
+                "text": "One day, her nameday was approaching, and I had a thought. Once─for one day in her life─I would do something that would bring a smile to her face. And so, I got her a ring─or, more accurately, I stole it."
+            },
+            {
+                "name": "HUGUE",
+                "text": "I regretted the act almost immediately, but it was too late. I was soon apprehended. I was dismissed from my job as a laborer, and was told I would never find work in this town again."
+            },
+            {
+                "name": "HUGUE",
+                "text": "With not even the coin to buy a scrap of bread for tomorrow's breakfast, I fell into utter despair. My life─our lives─were surely over, I was certain. It was then that a kind soul reached out to me."
+            },
+            {
+                "name": "HUGUE",
+                "text": "That kind soul was none other than the very man whose gold ring I tried to steal. I speak of the owner of this Gold Saucer, the one and only Lord Godbert Manderville."
+            },
+            {
+                "name": "HUGUE",
+                "text": "He made me swear a promise that I would never turn to thievery again, and offered me a position as an attendant here if I would obey. I am far from a wealthy man, but the remuneration has been more than enough to provide my mother and I with a better life than we could have ever imagined."
+            },
+            {
+                "name": "HUGUE",
+                "text": "I was deeply wounded, of course, when I was judged by my less-than-upstanding history, and wrongly branded a thief. And I understand all too well that unfortunate circumstances do not justify turning to crime. And yet, hearing Master Pipimaya speak just now, I cannot help but feel for him..."
+            },
+            {
+                "name": "HUGUE",
+                "text": "And so, I beg of you─for what little that might count for─do not go overly hard on the man."
+            },
+            {
+                "name": "GODBERT",
+                "text": "(-???-)Your plea has been heard, my good man."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Captain Daluce. If I might have the floor for a moment, I would make a few propositions."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Proposition number one: in my capacity as owner of the Manderville Gold Saucer, I hereby gift to Pipimaya and Sasapano's dear brother one Sabotender Emperador, on the house."
+            },
+            {
+                "name": "GODBERT",
+                "text": "The horn was a gift, meaning that no theft has taken place here today. Thusly, there is no crime for which you need answer to the authorities."
+            },
+            {
+                "name": "Q12",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A12",
+                "text": "Such boundless generosity!"
+            },
+            {
+                "name": "A12",
+                "text": "Can I have one, too?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ohoho! Needless to say, there is one with your name on it as well, my friend. Simply partake in our games and start saving those points, and it'll be yours before you know it."
+            },
+            {
+                "name": "GODBERT",
+                "text": "As for you, Pipimaya and Sasapano. As I said, you need not answer to the authorities for what you did today. You will, however, answer to me."
+            },
+            {
+                "name": "GODBERT",
+                "text": "The words of Hugue here speak to me. In that light, I would make my second proposition."
+            },
+            {
+                "name": "GODBERT",
+                "text": "To answer for your actions, and repay me for my gift, I propose that you serve a period of community service, to be performed under my direct oversight."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Pipimaya, you are to don a Senor Sabotender suit and serve as a caretaker's assistant in the children's ward at Frondale's Phrontistery. There, you will do your best to provide succor and good cheer to the poor children who suffer as your own young brother does."
+            },
+            {
+                "name": "GODBERT",
+                "text": "This will, however, require you to undergo strict training until such time as you are able to perform a perfect Senor Sabotender shimmy. Do you accept these conditions?"
+            },
+            {
+                "name": "PIPIMAYA",
+                "text": "O-Of course, I do! With pleasure, Lord Manderville!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Now for you, Sasapano. I daresay your knowledge and expertise regarding all things Gold Saucer rivals almost any in the realm. It would be a shame to let that go to waste..."
+            },
+            {
+                "name": "GODBERT",
+                "text": "And so, I propose that you serve as a chaperone for those children suffering from symptoms less grave. You will show them about the Gold Saucer, that their hearts may lighten and they might forget their pain for a time."
+            },
+            {
+                "name": "GODBERT",
+                "text": "I trust you have no objections, Captain Daluce?"
+            },
+            {
+                "name": "DALUCE",
+                "text": "I am but a humble sellsword in the Syndicate's employ, Lord Manderville. Any judgment you render, it is my honor and duty to see carried out."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ohoho! Very well, then. I do believe we can now consider this matter closed."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Could Hugue indeed be guilty? Despite all the evidence saying as much, I still cannot believe it..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "At any rate, we may have arrived at a less-than-ideal conclusion, but I thank you for your cooperation nonetheless. "
+            },
+            {
+                "name": "OLLIER",
+                "text": "I can't thank you enough for absolving dear Hugue of blame. Though it puts me ill at ease to know that the true culprit is still out there somewhere..."
+            },
+            {
+                "name": "OLLIER",
+                "text": "...Ah well. I suppose I should count my blessings. I thank you for your cooperation in the matter."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Simply incredible! Thanks to your peerless detective work, my dear friend's innocence has been proven, and fair justice has been served to one and all."
+            },
+            {
+                "name": "OLLIER",
+                "text": "Lord Manderville granted Pipimaya and Sasapano a brief reprieve before beginning their sentence, that they might deliver the Sabotender Emperador to their brother in person. I can only imagine how his eyes will alight at the sight!"
+            },
+            {
+                "name": "OLLIER",
+                "text": "Truly, you have saved the day in more ways than one, and all of us here at the Gold Saucer are in your debt. Thank you, my friend!"
+            },
+            {
+                "name": "Q1",
+                "text": "What notes will you review?"
+            },
+            {
+                "name": "A1",
+                "text": "Notes on the crime scene at the time of the theft."
+            },
+            {
+                "name": "A1",
+                "text": "Testimony from a witness in the area at the time."
+            },
+            {
+                "name": "A1",
+                "text": "Notes from a conversation with a brusque Brass Blade."
+            },
+            {
+                "name": "A1",
+                "text": "On the appearance of the crime scene from a different angle."
+            },
+            {
+                "name": "A1",
+                "text": "Notes from a conversation with a frantic attendant."
+            },
+            {
+                "name": "A1",
+                "text": "Notes from a conversation with a blabbering Brass Blade."
+            },
+            {
+                "name": "A1",
+                "text": "Notes from a conversation with an astute attendant."
+            },
+            {
+                "name": "A1",
+                "text": "Notes from a conversation with two Brass Blades."
+            },
+            {
+                "name": "A1",
+                "text": "Notes from a conversation with two effusive attendants."
+            },
+            {
+                "name": "A1",
+                "text": "Nothing."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Notes on the Crime Scene-)According to the attendant handling Mini Cactpot tickets at the time, there was nothing particularly unusual about the scene behind the counter before and after the incident, save for the larger-than-usual crowd on hand to take part in the festivities."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Notes on the Crime Scene-)Furthermore, the attendant was certain that no individuals other than fellow staff were seen behind the counter, as it would be instantly and blatantly obvious were a non-uniformed personage to breach this high-security location."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Witness's Testimony-)According to a customer who happened to be observing the counter at the time, Hugue left his post briefly to show a guest around the floor. As far as the witness could see, no other staff came to fill the post during Hugue's absence."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Brass Blade's Testimony-)A sour-tempered sellsword charged with tracking down the stolen horn groused and grumbled that he has searched everywhere for the invaluable object, but cannot find it for the life of him."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Observations from the Crime Scene-)Surveying the general area of the crime scene, you could not help but feel that objects visible from a certain angle might be hidden from sight when viewed from others. Could this be relevant, somehow?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Words of a Frantic Attendant-)A Lalafellin attendant was in a panic upon discovering that their official uniform─a possession which Gold Saucer staff are instructed to protect with their lives─had gone missing, and has yet to be recovered."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Words of a Frantic Attendant-)He has searched high and low, and asked his fellow staff members if they had seen it, but to no avail. Furthermore, it would seem no missing items have been delivered to the lost and found yet today."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Words of a Blabbering Brass Blade-)A garrulous sellsword shared with you a story about Pipimaya, a senior member of the Brass Blades involved in the investigation. Pipimaya is an amiable fellow nicknamed “Master Mayapipi” by his subordinates. As the man tells it, it is unthinkable that he would ever ignore a friendly greeting."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Words of an Astute Attendant-)The attendant was shocked and surprised to hear of the missing uniform, as the victim is a veteran employee widely known as one of the most careful and circumspect of all the Saucer staff."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Words of Two Brass Blades-)A junior member of the Brass Blades shared his disappointment and dismay at having invited Pipimaya to the chocobo races for some off-duty entertainment, only to have his superior brusquely rush off without even acknowledging the poor newcomer's words."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Words of Two Brass Blades-)Furthermore, his comrade mentioned that Pipimaya has a brother who is known to enjoy himself at the Saucer from time to time."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Words of Two Effusive Attendants-)Some particularly talkative attendants were discussing Pipimaya's brother, a Gold Saucer regular whose single-minded dedication to earning massive quantities of MGP has only intensified as of late. The latest rumors among the staff say that he's set his sights on an invaluable prize."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Words of Two Effusive Attendants-)Furthermore, it would seem the sibling bears a striking resemblance to Pipimaya himself, as one of the employees appears to have confused the two for each other."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 10085
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                69590
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1036139",
+            "obj": {
+                "i": 1036139,
+                "n": "Ollier",
+                "l": 1484,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10085",
+            "obj": {
+                "i": 10085,
+                "n": "Gold Saucer Ticket",
+                "l": 1,
+                "c": 26173,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69590",
+            "obj": {
+                "i": 69590,
+                "n": "The Great Horn Heist",
+                "g": 200,
+                "l": "Ul'dah",
+                "s": 198
+            }
+        }
+    ]
+}

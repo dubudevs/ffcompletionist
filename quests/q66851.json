@@ -1,0 +1,565 @@
+{
+    "quest": {
+        "name": "The Science of Deduction",
+        "location": "Eastern Thanalan",
+        "id": 66851,
+        "patch": 2.2,
+        "sort": 5,
+        "icon": 100231,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1005884,
+        "target": 1008716,
+        "involved": [
+            1002022,
+            1003931,
+            1008707,
+            1008708,
+            1008709,
+            1008713,
+            1008715,
+            1008736
+        ],
+        "genre": 68,
+        "journal": [
+            "Ellie wishes to share her latest discoveries with you.",
+            "Inspector's Log:<br>These tales of a thieving duelist continue to confound me! But perhaps it is to be expected─I am but recently returned to civilized, un-undead society, after all. The case of Yellow Moon's missing Pure Heart was a welcome refresher, to be sure, but my second case was a grim reminder that dubious acts are sometimes necessary to achieve a greater good. Still, I hold out hope that we may yet find Eleazar's sword in the possession of my nefarious nemesis. But how am I to catch him if I know naught of the “collector's blade” he seeks?<br>　　　　　　　　　　　　*　*　*<br>Using her skills as a reporter, Ellie has managed to identify the sword the duelist seeks: the Treaty-Blade, a weapon which was recently purchased by an Ul'dahn collector. Ellie is eager to investigate the collector, but she is also concerned that her friendly overtures may be rebuffed. A small gift might serve to pave the way─perhaps a rare flower purchased from Tutusi in Camp Drybone.",
+            "While in Camp Drybone, you and Ellie observe an Elezen inspector extracting a confession from a merchant who murdered his former partner. Ellie is impressed by the man's skills as an investigator─though her mood darkens upon hearing the name of a certain other inspector. Avoid further mention of the gentleman in question and journey to Vesper Bay, where the Ul'dahn collector, Lady Durilda, resides.",
+            "Lady Durilda is less than enthused with your flowers, and even further annoyed when Inspector Hildibrand and his assistant make a most inopportune appearance. It is then the agent of enquiry's turn to grow flustered when the gentleman from Camp Drybone arrives and is revealed to have been hired by Lady Durilda. Declaring that Consulting Inspector Briardien and her guardsmen can ensure the security of the Treaty-Blade, the collector demands that you all leave. However, there may be another way to earn the approval of Lady Durilda. Maria, her daughter, lost a priceless antique vase in the wilds of Thanalan, and its successful recovery may serve as sufficient proof of the inspector's investigative skills. Begin your search near Nophica's Wells.",
+            "Your investigation leads you to a large, flamboyantly dressed man. At his feet lies something man-made. Perhaps it warrants a closer look.",
+            "Alas, the vase is no more, having been crushed beneath the heel of the flamboyant oaf. However, Inspector Hildibrand appears to have a plan. First, you must gather the muddy potsherds.",
+            "In a refreshing change of pace, the potsherds you pulled from the water were in fact the ones you sought. Present them to Inspector Hildibrand.",
+            "The inspector declares that you have gathered more than enough pieces of the vase. Yet even with all the pieces, he could not possibly mean to reconstruct the vase...or could he?"
+        ],
+        "objectives": [
+            "Speak with Tutusi.",
+            "Present the Althyk lavender to Durilda.",
+            "Investigate Nophica's Wells.",
+            "Examine the curious object.",
+            "Search for precious potsherds.",
+            "Give the potsherds to Hildibrand."
+        ],
+        "dialogue": [
+            {
+                "name": "ELLIE",
+                "text": "Perchance you are curious about the duelist's declared target? It so happens I have identified the weapon in question."
+            },
+            {
+                "name": "ELLIE",
+                "text": "The Treaty-Blade is part of an Ishgardian noble's collection─or <span class=\"emphasis\">was</span>, I should say."
+            },
+            {
+                "name": "ELLIE",
+                "text": "No, it has not yet been stolen; it has been purchased by an Ul'dahn collector─the wife of a wealthy merchant living in Vesper Bay."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Suffice it to say, I would be remiss in my duties as a reporter were I to not investigate her. And should the duelist strike whilst I am present... Well, I hope I needn't explain what a golden opportunity that would be!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Ingratiating myself to her may prove to be the greatest challenge, though. I'm told she is a difficult woman to please..."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Fortunately, I am also told that she has a fondness for rare flowers─the sort Tutusi in Camp Drybone sells. You can come along, if you'd like."
+            },
+            {
+                "name": "ELLIE",
+                "text": "I had a feeling you couldn't resist the pull of a good story. Since you're here, why don't you choose the Althyk lavender to buy?"
+            },
+            {
+                "name": "TUTUSI",
+                "text": "Here you are, miss. Thank you for your patronage."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-???-)Was it for love or money that you killed him?"
+            },
+            {
+                "name": "WOMAN01315",
+                "text": "It...it was <span class=\"emphasis\">you</span>!?"
+            },
+            {
+                "name": "MAN01315",
+                "text": "Have you gone mad? That was an Amalj'aa arrow in his back! I don't even know how to shoot a bow!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-Curt Gentleman-)Amalj'aa don't shoot fleeing unarmed merchants; they capture and temper them. Not that you or your victim make for convincing merchants."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-Curt Gentleman-)If you're going to misrepresent yourself, put some effort into it. Wear gloves, for gods' sakes, or at least don't wave your hands in front of my face!"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-Curt Gentleman-)The calluses on your fingers betray you as a veteran archer. Doubtless you used your skills to great effect five years ago, as did your partner."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-Curt Gentleman-)So again, I ask: was it because he took from you your share, or your <span class=\"emphasis\">sister</span>?"
+            },
+            {
+                "name": "MAN01315",
+                "text": "You don't touch a man's kin. He knew that, and yet he...he..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-Curt Gentleman-)Damn. I thought he did it for the money. You two─he's all yours."
+            },
+            {
+                "name": "DOJIN01315",
+                "text": "Y-Yes, of course! Thank you for the help, Inspector!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "...At least he's competent. But when did investigating crimes become such a popular profession?"
+            },
+            {
+                "name": "TUTUSI",
+                "text": "It's not his job, you know; he just likes doing it. He belongs to one of Ishgard's High Houses─some say he's a baron!"
+            },
+            {
+                "name": "TUTUSI",
+                "text": "Not at all like that buffoon Hildibrand, don't you think?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "I try not to think about Hildibrand."
+            },
+            {
+                "name": "ELLIE",
+                "text": "We should get going. Lady Durilda will not take kindly to wilted flowers."
+            },
+            {
+                "name": "ELLIE",
+                "text": "I believe you have something to present to Lady Durilda? Go on, then."
+            },
+            {
+                "name": "DURILDA",
+                "text": "Again!? As I told the last twenty who came before, if you have come looking for work, you are too late!"
+            },
+            {
+                "name": "DURILDA",
+                "text": "And even if I were in need of additional security, I would not deign to hire a common adventurer!"
+            },
+            {
+                "name": "DURILDA",
+                "text": "Now remove yourself from my sight before I have you removed."
+            },
+            {
+                "name": "DURILDA",
+                "text": "Did you really think I could be so easily manipulated? Present the right gift, speak the magic words, and you would earn my respect?"
+            },
+            {
+                "name": "DURILDA",
+                "text": "What is more, a flower's beauty is fleeting. I value beauty which transcends the boundaries of time─everlasting, enduring, unchanging. Like mine. Now get out."
+            },
+            {
+                "name": "ELLIE",
+                "text": "Forgive us, Lady Durilda. We meant no disrespect! We were afraid that you would not heed our warnings otherwise."
+            },
+            {
+                "name": "ELLIE",
+                "text": "A notorious, violent thief is plotting to steal the Treaty-Blade!"
+            },
+            {
+                "name": "DURILDA",
+                "text": "You fools. “I shall come to claim the collector's blade,” yes? I read the <span class=\"emphasis\">Mythril Eye</span>. I know full well of whom you speak, and it is none of your concern."
+            },
+            {
+                "name": "DURILDA",
+                "text": "I have a legion of guards at my disposal. Should he try, I will have him seized or worse."
+            },
+            {
+                "name": "DURILDA",
+                "text": "And even if by some miracle he should succeed, he will not escape my wrath, for I have retained the services of a certain gentleman."
+            },
+            {
+                "name": "DURILDA",
+                "text": "Ah, but you may see for yourself! Like every piece in my collection, he has been chosen with the utmost care. Now look on my peerless inspector, interlopers, and despair!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Ships that pass in the night; a signal shown in the darkness─"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "The lady cries out for a guardian, and a gentleman must needs oblige!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "I swear to you, here and now: I, Hildibrand, agent of enquiry, inspector extraordinaire, shall neither slumber nor sleep until the fiend who covets the Treaty-Blade is brought to justice!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">My lady</span><span class=\"alternative\">Good sir</span></span>, what brings you here? Are you come in pursuit of the duelist as well? Or, perchance, in pursuit of <span class=\"emphasis\">me</span>?"
+            },
+            {
+                "name": "DURILDA",
+                "text": "As if I would spend a single gil on an insufferable, incompetent─"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-???-)To be fair, you are not spending a single gil on me."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-Curt Gentleman-)The chance to investigate such an intriguing case is payment enough. Preemptive declarations of criminal intent are hardly in vogue."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "(-Curt Gentleman-)Sorry I'm late. Busy solving a murder."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Briardien, consulting inspector. At your service, my lady."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "<span class=\"emphasis\">Conniving</span> inspector?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "<span class=\"emphasis\">Consulting</span> inspector."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "&lt;sniff&gt; &lt;sniff&gt; Rotting flesh and saltpeter. Hildibrand Manderville and Nashu Mhakaracca, I presume."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Two rank amateurs playing at a profession of which they know naught."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Call me when you've finished with these wastrels."
+            },
+            {
+                "name": "DURILDA",
+                "text": "You see!? I do not want nor need your help. Briardien is more than capable of overseeing the transfer. Now get out, all of you!"
+            },
+            {
+                "name": "DURILDA",
+                "text": "Where have you been, Maria? And where is my vase?"
+            },
+            {
+                "name": "MARIA",
+                "text": "There was this strange flying thing, and I... The vase, I dropped it in the water. I was so─"
+            },
+            {
+                "name": "DURILDA",
+                "text": "That vase once belonged to the Royal House of Thorne! Do you have any idea how much it was worth!?"
+            },
+            {
+                "name": "DURILDA",
+                "text": "You will go back outside right now and search for my vase, and you are not to return until you find it. <span class=\"emphasis\">Do I make myself clear</span>?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "My lady, pray allow me to go in the girl's stead! It is not safe, for she herself spoke of a ferocious wild beast!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "With my unmatched investigative skills, I shall swiftly locate and recover the missing vase, thereby earning your respect! At which point, you will gladly grant me permission to investigate the thieving duelist! Verily, it is a plan fiendishly clever in its intricacies!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Not when spoken aloud."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Miss Maria, would you be so kind as to tell me exactly what happened?"
+            },
+            {
+                "name": "MARIA",
+                "text": "I picked up the vase in Ul'dah like Mother said, and I was on my way home..."
+            },
+            {
+                "name": "MARIA",
+                "text": "I was crossing the bridge, and then the flying thing came. I got scared, so I ran."
+            },
+            {
+                "name": "MARIA",
+                "text": "When I stopped, it was gone. But...so was the vase. I think I dropped it in Nophica's Wells."
+            },
+            {
+                "name": "MARIA",
+                "text": "I want to go and look! But there were scary-looking things down there. I'm scared to go alone."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "You are no longer alone, Miss Maria. We shall go together and look for the vase─all five of us!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "All <span class=\"emphasis\">four</span> of you. I'm going after Inspector Briardien. If the duelist strikes, I mean to be there."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "B-But, Miss Ellie! How can you ignore the plight of a young girl for the sake of a story?"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Because that's my <span class=\"emphasis\">job</span>, you imbecile!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Well, we shall not be derelict in our duty to justice. Come, Nashu! We must away!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "You don't even know what the bloody vase looks like!"
+            },
+            {
+                "name": "ELLIE",
+                "text": "Maria, dear, listen─if it gets dangerous, or if you feel afraid, you run to this adventurer for help, understand?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Eager to get started, eh? Capital! You have my leave to canvass the scene for clues. Mayhap you may even find a witness or two!"
+            },
+            {
+                "name": "DURILDA",
+                "text": "Out, <span class=\"emphasis\">out</span>! I have forthcoming appointments with <span class=\"emphasis\">very</span> prestigious guests, and will suffer your presence no longer!"
+            },
+            {
+                "name": "MERCHANT01315",
+                "text": "That girl what run by earlier? Aye, I seen her. Had somethin' in her hands, but dropped it while crossin' the bridge. Didn't get a good look, but I reckon it don't matter anyroad─whatever it was, it's long gone by now."
+            },
+            {
+                "name": "MERCHANT01315",
+                "text": "You say it was a vase, eh? I hope it wasn't valuable, 'cause it's been swept far downstream by now."
+            },
+            {
+                "name": "CENMIN",
+                "text": "A vase? Well, anything that falls in the water is like to be swept downstream fairly quickly."
+            },
+            {
+                "name": "CENMIN",
+                "text": "Does this have anything to do with that queer winged beast I saw earlier? No? Never mind, then."
+            },
+            {
+                "name": "CENMIN",
+                "text": "If you're looking for something that fell from the bridge, you should consider searching downstream."
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "A pox upon that thieving demon bird! He shall rue the day he crossed paths with me!"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "Huh? A vase? I know naught of what you─ Gah, curse this infernal refuse underfoot! Every point is a dagger!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "There is something in the water at the man's feet..."
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "Do the people of this land simply toss their refuse in the river? Every step is agony!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Do I spy the treasured vase of Lady Durilda over─ Oh. Oh dear."
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "(-Flamboyant Oaf-)Um. Does this belong to you, child?"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "(-Flamboyant Oaf-)Forgive me, I was so engrossed in my search that I did not notice..."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Your search for what, pray tell?"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "(-Flamboyant Oaf-)The demon bird that absconded with my weapon! I set it down for but a moment, only to see it next in the talons of that accursed creature!"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "(-Flamboyant Oaf-)I gave chase, following it to these waters, and in my haste I must have stepped upon your vase."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Don't fret, Maria! I know it looks bad, but I'm sure Inspector Hildibrand will think of something!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Oh, but I already have, my faithful assistant. Hearken to me now, for as the rising sun doth dispel the dark, so shall my solution resolve our dilemma!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "But first, we must gather as many fragments of the vase as we can find!"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Why does this feel so familiar...?"
+            },
+            {
+                "name": "GILGAMESH",
+                "text": "How could I have been so careless...?"
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Come to present your findings, have you? Splendid! Let's have a look."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "Well done, my friend. This should be more than sufficient for our needs."
+            },
+            {
+                "name": "HILDIBRAND",
+                "text": "He has performed miracles with far less, after all..."
+            }
+        ],
+        "reward": {
+            "gil": 939,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                66743
+            ]
+        },
+        "next": [
+            66852
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005884",
+            "obj": {
+                "i": 1005884,
+                "n": "Ellie",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008716",
+            "obj": {
+                "i": 1008716,
+                "n": "Hildibrand",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002022",
+            "obj": {
+                "i": 1002022,
+                "n": "Cenmin",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003931",
+            "obj": {
+                "i": 1003931,
+                "n": "Tutusi",
+                "l": 44,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008707",
+            "obj": {
+                "i": 1008707,
+                "n": "Ellie",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008708",
+            "obj": {
+                "i": 1008708,
+                "n": "Ellie",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008709",
+            "obj": {
+                "i": 1008709,
+                "n": "Durilda",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008713",
+            "obj": {
+                "i": 1008713,
+                "n": "Resting Merchant",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008715",
+            "obj": {
+                "i": 1008715,
+                "n": "Flamboyant Oaf",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008736",
+            "obj": {
+                "i": 1008736,
+                "n": "Hildibrand",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66743",
+            "obj": {
+                "i": 66743,
+                "n": "The Immaculate Deception",
+                "g": 68,
+                "l": "Ul'dah",
+                "s": 4,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66852",
+            "obj": {
+                "i": 66852,
+                "n": "The Hammer",
+                "g": 68,
+                "l": "Western Thanalan",
+                "s": 6,
+                "f": 1
+            }
+        }
+    ]
+}

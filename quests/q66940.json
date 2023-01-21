@@ -1,0 +1,203 @@
+{
+    "quest": {
+        "name": "Reaving in a Hurry",
+        "location": "Western La Noscea",
+        "id": 66940,
+        "patch": 2.2,
+        "sort": 32,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005940,
+        "target": 1005940,
+        "genre": 41,
+        "journal": [
+            "Seww would have you curtail the savagery of the Serpent Reavers.",
+            "Sickened by the brutality of recent Serpent Reaver activity and concerned about its contribution to the escalating conflict, Seww asks that you lure out and eliminate the savage group's leaders. Head into the Serpent's Tongue and defeat shelfscale, shelfeye, and shelfclaw Reavers, then slay their respective officers when they appear.",
+            "You have lopped off the head of the Reaver forces in the Serpent's Tongue. Return to Novv's Nursery and report to Seww.",
+            "Seww thanks you for your necessarily violent actions. Though you have crippled the leadership of the Serpent Reavers, the young Sahagin cautions that the wriggling body of the vicious pirate gang will not remain headless for long."
+        ],
+        "objectives": [
+            "Defeat shelfscale Reavers, then slay the drowned boatswain when he appears.",
+            "Defeat shelfeye Reavers, then slay the drowned gunner chief when he appears.",
+            "Defeat shelfclaw Reavers, then slay the drowned steersman chief when he appears.",
+            "Report to Seww."
+        ],
+        "dialogue": [
+            {
+                "name": "SEWW",
+                "text": "Pshhh... The finleshhh ones call <span class=\"emphasis\">us</span> beashhhtmen, but even I shhhudder at the recent brutalities enacted by the Shhherpent Reavers."
+            },
+            {
+                "name": "SEWW",
+                "text": "If we are ever to bring an end to the eshhhcalating violence, then the leadershhhip of the Reavers mushhht be crippled."
+            },
+            {
+                "name": "SEWW",
+                "text": "There is little room for shhhubtley here: rushhh into the Shhherpent's Tongue like a breaking wave, and lay the tattooed shhhorewalkers low. Their officers are shhhure to appear when your presence becomes too deadly to ignore."
+            },
+            {
+                "name": "SEWW",
+                "text": "If we are to neutralize the Reavers, then you mushhht lop off the head of the shhherpent."
+            },
+            {
+                "name": "SEWW",
+                "text": "Shhhlay the finleshhh pirates in the Shhherpent's Tongue, and their officers will shhhoon come forth to challenge you."
+            },
+            {
+                "name": "BALLOON",
+                "text": "For the glory of Lord Leviathan!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Who dares defile the Serpent's Tongue!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "We are the unstoppable tide!"
+            },
+            {
+                "name": "POP",
+                "text": "A Serpent Reaver officer comes forth to challenge you!"
+            },
+            {
+                "name": "POP",
+                "text": "A Serpent Reaver officer comes forth to challenge you!"
+            },
+            {
+                "name": "POP",
+                "text": "A Serpent Reaver officer comes forth to challenge you!"
+            },
+            {
+                "name": "POP",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... Thank you, <span class=\"highlight\">Forename</span>. The body of the shhherpent will flop aimleshhhly for a time, but shhhuch vile creatures always grow a new head..."
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21077
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005940",
+            "obj": {
+                "i": 1005940,
+                "n": "Seww",
+                "l": 33,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21077",
+            "obj": {
+                "i": 21077,
+                "n": "Rainbowtide Psashp",
+                "l": 1,
+                "c": 65053,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

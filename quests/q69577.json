@@ -1,0 +1,126 @@
+{
+    "quest": {
+        "name": "Forged Anew",
+        "location": "Gangos",
+        "id": 69577,
+        "patch": 5.41,
+        "sort": 0,
+        "repeatable": 1,
+        "eventIcon": 60091,
+        "issuer": 1035616,
+        "target": 1035616,
+        "genre": 0,
+        "journal": [],
+        "objectives": [],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "By reconditioning the Resistance weapon, you can redistribute the attribute points allocated to your weapon."
+            },
+            {
+                "name": "MEMORIZESYSTEM",
+                "text": "Reapplication of aetheroinsulation coating requires [#2] phials of aetherial sealant.<br>House of Splendors representatives are standing by, and ready to take your order!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Aetherial sealant can be obtained from Auriana at Revenant's Toll or Hismena at Idyllshire."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A1",
+                "text": "Recondition the Resistance weapon."
+            },
+            {
+                "name": "A2",
+                "text": "Ask about reconditioning."
+            },
+            {
+                "name": "A3",
+                "text": "Nothing."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "By supplying the Allagan node with aetherial sealant, you may raise the four available attributes of your Resistance weapon as you see fit."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "When you are satisfied with the allotment of attributes, select <span class=\"highlight\">Allocate</span> to complete the process."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Choose carefully, as redistribution of attributes will require the procurement of additional sealant."
+            },
+            {
+                "name": "MEMORIZESYSTEM",
+                "text": "&lt;blip&gt; &lt;blip&gt; Unable to process request. Insufficient aetherial sealant."
+            },
+            {
+                "name": "MEMORIZESYSTEM",
+                "text": "&lt;blip&gt; &lt;blip&gt; Unable to process request. Incompatible weapon detected. Please verify the correct weapon is equipped before placing next request. "
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may only recondition your currently equipped Resistance weapon when accessing the Allagan node."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "What will you do?"
+            },
+            {
+                "name": "Q1",
+                "text": "Recondition your presently equipped Resistance weapon?"
+            },
+            {
+                "name": "MEMORIZESYSTEM",
+                "text": "&lt;blip&gt; Suspending weapon recondition protocol. Entering standby mode..."
+            },
+            {
+                "name": "MEMORIZESYSTEM",
+                "text": "&lt;blip&gt; Scanning registry... Readying memories for extraction...<br>&lt;blip&gt; &lt;blip&gt; Reapplying aetheroinsulation coating...<br>Reconditioning protocol complete."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The Resistance weapon has been transformed, gaining newfound strength!"
+            }
+        ],
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 162
+                }
+            ],
+            "quests": [
+                69576
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1035616",
+            "obj": {
+                "i": 1035616,
+                "n": "Allagan Node",
+                "l": 3478,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69576",
+            "obj": {
+                "i": 69576,
+                "n": "A New Path of Resistance",
+                "g": 76,
+                "l": "Gangos",
+                "s": 253,
+                "r": 1,
+                "f": 1
+            }
+        }
+    ]
+}

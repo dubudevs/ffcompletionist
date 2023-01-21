@@ -1,0 +1,133 @@
+{
+    "quest": {
+        "name": "Preserving the Past",
+        "location": "Gridania",
+        "id": 65563,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1000194,
+        "target": 1000789,
+        "involved": [
+            1000686
+        ],
+        "genre": 92,
+        "journal": [
+            "Idele is looking for an adventurer to deliver a forgotten item.",
+            "Artor, the newest member of the Carpenters' Guild, has set out for his maiden assignment without the necessary tools. Idele asks that you collect them from Louhelic behind the Oak Atrium, and deliver them to Artor at Mih Khetto's Amphitheatre.",
+            "While muttering something under his breath, Louhelic gives you the new recruit's toolbox. Deliver it to Artor at Mih Khetto's Amphitheatre.",
+            "Annoyed at first, Artor's demeanor quickly changes when you hand him his toolbox. Embarrassed, he then explains that it was his love of the amphitheatre and respect for those who saved it that first inspired him to become a carpenter. Supposing you a fellow carpenter, he thanks you and resolves to work harder, while encouraging you to do the same."
+        ],
+        "objectives": [
+            "Speak with Louhelic.",
+            "Deliver the recruit's toolbox to Artor."
+        ],
+        "dialogue": [
+            {
+                "name": "IDELE",
+                "text": "Ah, an adventurer─precisely what we needed."
+            },
+            {
+                "name": "IDELE",
+                "text": "Not a moment ago, we dispatched our newest recruit, Artor, to inspect Mih Khetto's Amphitheatre. Regrettably, the young Hyur has more spirit than sense, and he charged off without his tools."
+            },
+            {
+                "name": "IDELE",
+                "text": "Suffice it to say, he won't be getting any work done. Would you be so kind as to deliver them to him?"
+            },
+            {
+                "name": "IDELE",
+                "text": "Wonderful! Seek out Louhelic in the Acorn Orchard, behind the atrium. He should have Artor's tools."
+            },
+            {
+                "name": "LOUHELIC",
+                "text": "Idele sent you? Give me a moment."
+            },
+            {
+                "name": "LOUHELIC",
+                "text": "...Here they are, still fresh and unused as the day he got 'em. Doubt he's even realized he left the bloody things behind... First day, and he forgets his tools... Daft sod needs a kick up the... &lt;mumble&gt;"
+            },
+            {
+                "name": "ARTOR",
+                "text": "...What!? I'm terribly busy right now and would thank you not to bother me. I'm a carpenter of the prestigious Oak Atrium, and I have repairs to─"
+            },
+            {
+                "name": "ARTOR",
+                "text": "&lt;gasp&gt; Where did I put my─ Oh, <span class=\"emphasis\">gods</span>... I, er...I take it you're from the guild too, then?"
+            },
+            {
+                "name": "ARTOR",
+                "text": "What's that? <span class=\"emphasis\">Idele</span> sent you!? W-With my tools!? Ah. Ah, yes... I was actually just about to go and...um... Ahem. This is <span class=\"emphasis\">so</span> embarrassing. My apologies, it's just...I've been so focused on the task at hand..."
+            },
+            {
+                "name": "ARTOR",
+                "text": "You know, it's a miracle this amphitheatre even survived the Calamity. It was the Carpenters' Guild that saved it, moving it piece by piece and rebuilding it."
+            },
+            {
+                "name": "ARTOR",
+                "text": "When I saw what they had done for Gridania, I knew what I wanted to be. But gods, when they told me my first task was to come <span class=\"emphasis\">here</span>..."
+            },
+            {
+                "name": "ARTOR",
+                "text": "Anyway, thank you for bringing me my tools. You're new to the Oak Atrium too, right? Well, let's both work hard for the good of the guild, eh!? Oh, and may the elementals watch over you and keep you safe."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 5,
+                    "id": 4
+                },
+                {
+                    "num": 10,
+                    "id": 5594
+                }
+            ],
+            "xp": 50
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000194",
+            "obj": {
+                "i": 1000194,
+                "n": "Idele",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000789",
+            "obj": {
+                "i": 1000789,
+                "n": "Artor",
+                "l": 53,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000686",
+            "obj": {
+                "i": 1000686,
+                "n": "Louhelic",
+                "l": 52,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5594",
+            "obj": {
+                "i": 5594,
+                "n": "Grade 1 Dark Matter",
+                "l": 1,
+                "c": 20401,
+                "t": 60,
+                "p": 4
+            }
+        }
+    ]
+}

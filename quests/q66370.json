@@ -1,0 +1,93 @@
+{
+    "quest": {
+        "name": "Get a Grip",
+        "location": "Eastern La Noscea",
+        "id": 66370,
+        "patch": 2.0,
+        "sort": 320,
+        "eventIcon": 71221,
+        "issuer": 1006269,
+        "target": 1006269,
+        "genre": 91,
+        "journal": [
+            "Kuzai Tazai wants your help with some crustacean issues.",
+            "Recent tremors off the shore of Costa del Sol have caused a troublesome influx of snippers. If that were not bad enough, Kuzai Tazai has informed you that the group is led by an even more fearsome creature. Providing you with a concoction that might be used to debilitate the larger foe, the Lalafell has bid you slay five of the snippers so that you might lure him out.",
+            "You have dispatched five snippers, which should serve to provoke the gripper. Lie in wait at the specified location, and ambush the crab with your alchemic concoction when it appears.",
+            "You have heroically slain the formidable gripper, making the shores safer for the time being. Report back to Kuzai Tazai.",
+            "As before, Kuzai Tazai seems gladdened by your achievement, but remains reserved about the situation. There are rumors afloat that the seaside quakes are being caused by an unknown monster."
+        ],
+        "objectives": [
+            "Slay snippers.",
+            "Lie in wait and defeat the gripper with the alchemic concoction.",
+            "Report to Kuzai Tazai."
+        ],
+        "dialogue": [
+            {
+                "name": "KUZAITAZAI",
+                "text": "Ah, <span class=\"alternative-container\"><span class=\"alternative\">ma'am</span><span class=\"alternative\">sir</span></span>. I didn't catch your name before. <span class=\"highlight\">Forename</span>? Nice to meet you! Even <span class=\"emphasis\">more</span> so because I could use your help once again. It's those quakes that started up a little while ago. The tremors have been sending snippers up out of the water."
+            },
+            {
+                "name": "KUZAITAZAI",
+                "text": "They're bloody dangerous things to get rid of by themselves, but there's a gnarled old gripper to tackle into the bargain. Took a toe off the salter's boy not three days past. &lt;sigh&gt; We know how to best it, but we can't get close enough."
+            },
+            {
+                "name": "KUZAITAZAI",
+                "text": "But that's where you come in. Master Gegeruju had an alchemic concoction made that should be able to soften the old gripper's shell."
+            },
+            {
+                "name": "KUZAITAZAI",
+                "text": "Here, take it. It'll be your job to survive the ill-tempered wavekin's swipes long enough to make sure it gets several dousings. You already took care of those kobolds─surely, <span class=\"emphasis\">these</span> shouldn't pose any challenge!"
+            },
+            {
+                "name": "KUZAITAZAI",
+                "text": "That was most quick! You are a credit to all adventurers, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "KUZAITAZAI",
+                "text": "You know, I've heard talk of late about what's been causing those tremors. Folk seem certain it's the work of some monster. I know from experience that such words are oft naught but wind, but I can't help but wonder..."
+            },
+            {
+                "name": "POP",
+                "text": "The gripper rears its ugly head!"
+            }
+        ],
+        "reward": {
+            "gil": 1690,
+            "xp": 7995
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 32,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66369
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006269",
+            "obj": {
+                "i": 1006269,
+                "n": "Kuzai Tazai",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66369",
+            "obj": {
+                "i": 66369,
+                "n": "Who Moved My Headcheese",
+                "g": 91,
+                "l": "Eastern La Noscea",
+                "s": 320
+            }
+        }
+    ]
+}

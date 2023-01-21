@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Learn by Destroying",
+        "location": "Western La Noscea",
+        "id": 66935,
+        "patch": 2.2,
+        "sort": 29,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005939,
+        "target": 1005939,
+        "involved": [
+            1005946
+        ],
+        "genre": 41,
+        "journal": [
+            "Houu has received word of a merchantman in trouble, and would send you to the rescue.",
+            "The Coral Tridents have seized a merchant vessel, bent on mastering the dubious art of sending shorewalker ships to their watery doom. Your task is to board the merchantman and dispatch four surfspine Sahagin. The open water being a cruel mistress to tender-skinned shorewalkers such as yourself, ask Pahh the seabeast tamer to provide you with an elbst for the journey. ",
+            "The surfspine saboteurs are dead, their careers in maritime demolition over ere they began. You are unmoved, having chosen your own job far more wisely than these Sahagin did. An adventurer goes everywhere, meets everyone, does anything─then returns to clients to report the job's success.",
+            "Houu minces no words in denouncing the dead surfspine Sahagin as blackguards, and wonders why anyone would devote their strengths to death and blight. Listening to Houu, you are uneasily reminded that the first casualties of any revolution are the mild of heart."
+        ],
+        "objectives": [
+            "Slay surfspine Sahagin aboard the merchantman.",
+            "Report to Houu."
+        ],
+        "dialogue": [
+            {
+                "name": "HOUU",
+                "text": "All is topsy-turvy with you shhhorewalkers, it shhheems to me. Because you are weak, you grow shhhtrong. Your shhhips skim across every shhhea and bob in every cove─yet you are finless and leaden. How peculiar..."
+            },
+            {
+                "name": "HOUU",
+                "text": "Shhhipbuilding, navigation, cartography. All these we Shhhahagin know little of. That is as it should be, for the shhhea is our matriarch and no shhhpawnling shhhould know its dam in such a way. Pshhh..."
+            },
+            {
+                "name": "HOUU",
+                "text": "But the Coral Tridents forget all decency in their ambition to make war on shhhorewalkers. They are learning <span class=\"emphasis\">engineering</span>. Pshhh! In this, they seek tutelage from their tame shhhorewalkers, the Shhherpent Reavers."
+            },
+            {
+                "name": "HOUU",
+                "text": "News reaches me on the waves that they have shhheized a merchantman to learn further of its weaknesses. How to breach its hull from the outside, shhhcuttle it with quickness from the inside, shhhuch and more... This must not be."
+            },
+            {
+                "name": "HOUU",
+                "text": "You must board the merchantman on the open shhhea and dispatch the Coral Tridents. One of Pahh's elbst will take you there, if you would speak with the shhheabeast tamer."
+            },
+            {
+                "name": "TAMER01376",
+                "text": "A jaunt to the ssseized merchantman, pshhh? Jussst say the word and I will get you on your way. My elbst is your elbst."
+            },
+            {
+                "name": "Q1",
+                "text": "Ride the elbst to the merchantman?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "HOUU",
+                "text": "Well done, shhhorewalker, well done indeed. You learn quickly. It is a quality I have come to grudgingly admire─even among the Coral Tridents."
+            },
+            {
+                "name": "HOUU",
+                "text": "That they would learn not to shhhpawn and nurture but to destroy and shhhlay...that I cannot understand. It shhhames all Shhhahagin that they would shhheize a trading ship like common brigands. Pshhh..."
+            }
+        ],
+        "reward": {
+            "gil": 660,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9693
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005939",
+            "obj": {
+                "i": 1005939,
+                "n": "Houu",
+                "l": 33,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005946",
+            "obj": {
+                "i": 1005946,
+                "n": "Pahh",
+                "l": 33,
+                "q": 13,
+                "t": "Seabeast Tamer"
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

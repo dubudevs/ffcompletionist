@@ -1,0 +1,137 @@
+{
+    "quest": {
+        "name": "Getting Your Bearings",
+        "location": "Western Thanalan",
+        "id": 65764,
+        "patch": 2.0,
+        "sort": 70,
+        "eventIcon": 71221,
+        "issuer": 1002030,
+        "target": 1002044,
+        "genre": 93,
+        "journal": [
+            "Danyell of the Silver Bazaar requires some very specific materials to fix his father's broken compass.",
+            "Danyell believes that his fisherman father has been stuck on land of late because his compass is broken. Venture outside the Silver Bazaar and see if you can find three chunks of magnetite to fix the broken instrument.",
+            "You have collected three chunks of magnetite. Deliver them to Galfridus at the Silver Bazaar.",
+            "The magnetite you supplied can be used to mend the damaged compass. Tragically, however, there does not seem to be much use for it once repaired."
+        ],
+        "objectives": [
+            "Find chunks of magnetite.",
+            "Deliver the magnetite to Galfridus at the Silver Bazaar."
+        ],
+        "dialogue": [
+            {
+                "name": "DANYELL",
+                "text": "Please, you must help me. It's my father!"
+            },
+            {
+                "name": "DANYELL",
+                "text": "Well, he isn't dying or anything... He's a fisherman by trade, you see, but he broke his only compass. He hasn't been able to put out to sea in weeks."
+            },
+            {
+                "name": "DANYELL",
+                "text": "The compass is very special. It was crafted by the goldsmiths of Eshtaime's Lapidaries. Repairing it will require many chunks of magnetite."
+            },
+            {
+                "name": "DANYELL",
+                "text": "Such stones can be found near the lighthouse, but the search is not without its dangers. The area is rife with earth sprites drawn to the magnetism. I'm a lowly fisherman's son. I have no arm for fighting, nor the stomach."
+            },
+            {
+                "name": "DANYELL",
+                "text": "Three chunks of magnetite would serve to mend the compass. Once you find them, please take them to my father, Galfridus. No doubt he'll be dawdling about the Bazaar, as always."
+            },
+            {
+                "name": "GALFRIDUS",
+                "text": "Don't waste yer time, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">mate</span></span>. Bloody compass done broke on me. Aye, I'll not be fishin' this day, nor the next, more than like."
+            },
+            {
+                "name": "GALFRIDUS",
+                "text": "Magnetite? Danyell asked that of ye, did he? So, Dad's to fix up the ol' compass an' put back out to sea, is he? Catch a nice haul of fat fish, hm?"
+            },
+            {
+                "name": "GALFRIDUS",
+                "text": "I've a vessel what's barely seaworthy, an' scarce big enough for me alone. I've no crew, no hands to help with the haul. All bloody day at sea bustin' me arse gets me a few gil at best."
+            },
+            {
+                "name": "GALFRIDUS",
+                "text": "Gods, days ain't what they were. Time was ye could scarce count the ships what used to make berth here. There weren't no empty coinpurse or stomach in all the Bazaar."
+            },
+            {
+                "name": "GALFRIDUS",
+                "text": "Small ships ain't got no place at sea no more. E'erywhere I go, I'm in the shadow or wake of some monstrous trawler or seiner. The old ways're done. We li'l fishermen done lost our way."
+            },
+            {
+                "name": "GALFRIDUS",
+                "text": "I ain't no fisherman no more, nor much of a father, I s'pose. Just a broken man with a broken compass an' broken dreams."
+            },
+            {
+                "name": "POP",
+                "text": "You sense an enemy nearby!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 141,
+            "xp": 1120
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            65765,
+            65766
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002030",
+            "obj": {
+                "i": 1002030,
+                "n": "Danyell",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002044",
+            "obj": {
+                "i": 1002044,
+                "n": "Galfridus",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65765",
+            "obj": {
+                "i": 65765,
+                "n": "Tackle the Problem",
+                "g": 93,
+                "l": "Western Thanalan",
+                "s": 80
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65766",
+            "obj": {
+                "i": 65766,
+                "n": "Search and Seizure",
+                "g": 93,
+                "l": "Western Thanalan",
+                "s": 90
+            }
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "quest": {
+        "name": "Harriers of the Hedgetree",
+        "location": "North Shroud",
+        "id": 65633,
+        "patch": 2.0,
+        "sort": 80,
+        "eventIcon": 71221,
+        "issuer": 1000640,
+        "target": 1000640,
+        "genre": 92,
+        "journal": [
+            "Eadbert needs someone to investigate the area surrounding the Hedgetree.",
+            "Eadbert asks you to investigate reports of Ixal sightings near the Hedgetree, southeast of Hyrstmill. If any harm were to come to the sacred tree, it would be a terrible tragedy.",
+            "You are ambushed by an Ixal while investigating the Hedgetree. After a frenzied battle, you emerge victorious. Report back to Eadbert in Hyrstmill.",
+            "Eadbert tells you that the Ixal once lived in the Twelveswood, but were driven out long ago, having incurred the wrath of the elementals. This, he explains, is the source of the beastmen's resentment for the Gridanians who now call the Twelveswood home."
+        ],
+        "objectives": [
+            "Investigate the Hedgetree.",
+            "Report to Eadbert."
+        ],
+        "dialogue": [
+            {
+                "name": "EADBERT",
+                "text": "Would ye mind goin' to the Hedgetree, an' seein' that all's well?"
+            },
+            {
+                "name": "EADBERT",
+                "text": "Since ancient times, the tree has guarded these woods with her holy presence. Lately, though, we've been hearin' reports of Ixal peckin' around in her vicinity."
+            },
+            {
+                "name": "EADBERT",
+                "text": "No more than scouts, I'd wager, but if they were to lay their filthy hands on the Hedgetree..."
+            },
+            {
+                "name": "EADBERT",
+                "text": "Well, it don't bear thinkin' about. So, I'd be much obliged if ye'd head southeast to the Hedgetree an' see that no harm has come to her. Oh, an' if ye chance to encounter any Ixal, send 'em packin'."
+            },
+            {
+                "name": "EADBERT",
+                "text": "Be warned, though─the birdmen ain't like to take their leave without a fight. Make sure ye go well prepared, an' keep yer eyes peeled, alright?"
+            },
+            {
+                "name": "EADBERT",
+                "text": "Slew an Ixal, did ye? Hah! Bloody birds'll think twice afore comin' near our hamlet!"
+            },
+            {
+                "name": "EADBERT",
+                "text": "The Ixal once dwelt in the Twelveswood, ye know. But long ago, they woke the greenwrath an' were driven out."
+            },
+            {
+                "name": "EADBERT",
+                "text": "Needless to say, they weren't best pleased when us Gridanians took their place here. In fact, it's none other than this resentment what kindled their hatred for us. Ah, but I 'spect I'm borin' ye."
+            },
+            {
+                "name": "EADBERT",
+                "text": "By defendin' the Hedgetree, ye've once more proven yerself a friend to Hyrstmill. If ye can spare a moment, I ask that ye speak with others in the hamlet. Many of us here could use a hand, an' I can think of none better to assist them."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3765,
+                    "one": 1
+                },
+                {
+                    "id": 3766,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 1275
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65631
+            ]
+        },
+        "next": [
+            65635
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000640",
+            "obj": {
+                "i": 1000640,
+                "n": "Eadbert",
+                "l": 57,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "3765",
+            "obj": {
+                "i": 3765,
+                "n": "Leather Leggings",
+                "l": 8,
+                "c": 46159,
+                "t": 38,
+                "p": 224
+            }
+        },
+        {
+            "type": "item",
+            "id": "3766",
+            "obj": {
+                "i": 3766,
+                "n": "Leather Boots",
+                "l": 8,
+                "c": 46137,
+                "t": 38,
+                "p": 224
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65631",
+            "obj": {
+                "i": 65631,
+                "n": "Hematophagic Harassment",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 70
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65635",
+            "obj": {
+                "i": 65635,
+                "n": "The Kindness of Strangers",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 90
+            }
+        }
+    ]
+}

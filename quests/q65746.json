@@ -1,0 +1,132 @@
+{
+    "quest": {
+        "name": "Idle Initiatives",
+        "location": "Central Shroud",
+        "id": 65746,
+        "patch": 2.0,
+        "sort": 50,
+        "eventIcon": 71221,
+        "issuer": 1000408,
+        "target": 1000408,
+        "involved": [
+            1000792,
+            1000793,
+            1000794
+        ],
+        "genre": 92,
+        "journal": [
+            "Tsubh Khamazom, a soldier at the Bannock, wants you to track down some initiates that failed to appear for training.",
+            "Find the three Twin Adder initiates missing from training, and tell them to report to Tsubh Khamazom. It is unlikely they have strayed far from the Bannock.",
+            "You have spoken with all three initiates. Report to Tsubh Khamazom at the Bannock.",
+            "Tsubh Khamazom reveals that initiates often lose their focus a short while after they are assigned to a unit. While enforcing a stricter code of discipline would seem to be the obvious solution, she is loath to do anything which might damage her troops' morale."
+        ],
+        "objectives": [
+            "Speak with the idle initiates.",
+            "Report to Tsubh Khamazom at the Bannock."
+        ],
+        "dialogue": [
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "Ah, perfect timing. I was just looking for a likely <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span> to track down some Twin Adder initiates."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "Three of our newest recruits have failed to report for training─exhausted from a month of solid drills, I expect."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "Considering their current physical state, I rather doubt they've wandered far. Hm? Oh gods, please don't mention wild beasts. Or blood. They're fine, I'm certain of it. Seek out my wayward troops and tell them to report back to me on the double."
+            },
+            {
+                "name": "BOOTA",
+                "text": "Can you not see I am attempting to become one with nature? Leave me be, good <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>."
+            },
+            {
+                "name": "BOOTA",
+                "text": "What!? Sergeant Khamazom sent you!? Matron's teats! I better get back before she makes her boot one with my backside..."
+            },
+            {
+                "name": "BOOTB",
+                "text": "Such a soothing sound. One day I shall build a home by the river..."
+            },
+            {
+                "name": "BOOTB",
+                "text": "Hm? Who are─ You say the sergeant's looking for me!? How long have I been here? What bell is it now? Stand aside, I must make haste!"
+            },
+            {
+                "name": "BOOTC",
+                "text": "&lt;snore&gt; Just...a few more moments, Mother..."
+            },
+            {
+                "name": "BOOTC",
+                "text": "&lt;snort&gt; ...Huh? Sergeant Khamazom? Oh...eft droppings. I must be late for training."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "Thank you, <span class=\"highlight\">Forename</span>. All the initiates are now present and accounted for."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "It's always the same, you know. A handful of recruits invariably lose focus a short while after being assigned to their new unit. That first rush of tension and excitement wears off, and the strain from constant drills begins to show."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "Reprimanding them isn't always the best solution, though─I've their morale to think about, after all. Still, I might give them a quick blast for good measure. What can I say? This is one battle I'm <span class=\"emphasis\">not</span> afraid to fight!"
+            }
+        ],
+        "reward": {
+            "gil": 135,
+            "xp": 560
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000408",
+            "obj": {
+                "i": 1000408,
+                "n": "Tsubh Khamazom",
+                "l": 54,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000792",
+            "obj": {
+                "i": 1000792,
+                "n": "Meditating Initiate",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000793",
+            "obj": {
+                "i": 1000793,
+                "n": "Daydreaming Initiate",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000794",
+            "obj": {
+                "i": 1000794,
+                "n": "Slumbering Initiate",
+                "l": 54,
+                "q": 1
+            }
+        }
+    ]
+}

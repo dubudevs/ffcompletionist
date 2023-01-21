@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "Digging in the Dark",
+        "location": "North Shroud",
+        "id": 66333,
+        "patch": 2.0,
+        "sort": 280,
+        "eventIcon": 71221,
+        "issuer": 1006258,
+        "target": 1006258,
+        "genre": 92,
+        "journal": [
+            "Ademar is in the dark and needs an adventurer's aid.",
+            "Ademar has exhausted his supply of lantern oil, making it impossible for him to prospect at night. Procure an alternate light source for him by weakening bright balloons and then capturing them with his lamps.",
+            "You have successfully fashioned two balloon lamps. Deliver them to Ademar.",
+            "Ademar expresses his thanks, then promptly returns to his digging. The life of a prospector affords little time for idle banter."
+        ],
+        "objectives": [
+            "Weaken and then capture bright balloons with lamps.",
+            "Deliver the lamps to Ademar."
+        ],
+        "dialogue": [
+            {
+                "name": "ADEMAR",
+                "text": "Pray help me, friend. I've run clean out o' lantern fuel, and I'm afeared I won't make it <span class=\"alternative-container\"><span class=\"alternative\">through the night</span><span class=\"alternative\">long past sundown</span></span>."
+            },
+            {
+                "name": "ADEMAR",
+                "text": "I've not tried it meself, but I've heard that ye can fashion makeshift lanterns by sealin' those flying balloons inside these here lamps. 'Course, it might take some coercin' before they goes in, if ye know what I mean."
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: fight balloons, get balloon lamp"
+            },
+            {
+                "name": "ADEMAR",
+                "text": "Were ye able to fashion some lamps for me, friend?"
+            },
+            {
+                "name": "ADEMAR",
+                "text": "Yer a godssend. Thanks to you, <span class=\"alternative-container\"><span class=\"alternative\">I can get back to me diggin'</span><span class=\"alternative\">I'll be diggin' long past sundown tonight</span></span>. Them's gold in thar hills, high-ho!♪"
+            }
+        ],
+        "reward": {
+            "gil": 1544,
+            "xp": 6290
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66334
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006258",
+            "obj": {
+                "i": 1006258,
+                "n": "Ademar",
+                "l": 57,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66334",
+            "obj": {
+                "i": 66334,
+                "n": "A Leg Up",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "quest": {
+        "name": "Where the Silver Dew Grows",
+        "location": "The Dravanian Forelands",
+        "id": 67803,
+        "patch": 3.2,
+        "sort": 13,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 7,
+        "eventIcon": 71222,
+        "issuer": 1016803,
+        "target": 1016803,
+        "genre": 47,
+        "journal": [
+            "The Vath keeneye stares dejectedly at a single sprig of wilted silver dew.<br>※The difficulty of this quest will be synced to your current level.",
+            "The Vath keeneye requires four sprigs of silver dew to complete his order to the Convictory and asks that you go and gather them from Avalonia Fallen for him. Before you leave, he urges you to remain vigilant, stating that many of the Gnath have been spotted frantically collecting this very same dew.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You have found and gathered the sprigs of silver dew. Return to Loth ast Vath and deliver them to the Vath keeneye.",
+            "The Gnath's actions suggest they are planning a preemptive strike against the dragons. The Vath keeneye fears that this could lead to a silver dew scarcity and that his people would be left with no means of sustaining themselves. To avert a potential disaster on the horizon, he deems it time they begin planting their own silver dew."
+        ],
+        "objectives": [
+            "Obtain silver dew.",
+            "Deliver the silver dew to the Vath keeneye."
+        ],
+        "dialogue": [
+            {
+                "name": "SEARCHER",
+                "text": "Adventurer, your timing is most fortuitous. &lt;click&gt; &lt;click&gt; The Convictory has just sent us a request. They ask for their standard shipment of silver dew. Please go and collect four sprigs of these precious plants for us."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Silver dew is plentiful in Avalonia Fallen. However, take heed. Recently, the Onemind has been driven into a frenzy. Many have been observed harvesting these herbs. They will not take kindly to your presence."
+            },
+            {
+                "name": "GNATHDRONEA02267",
+                "text": "(-Outloth Steeldrone-)Vile fleshling! &lt;click&gt; &lt;click&gt; How dare you steal our dew!"
+            },
+            {
+                "name": "GNATHDRONEB02267",
+                "text": "(-Outloth Steeldrone-)&lt;click&gt; &lt;click&gt; Leave now, fleshling, or die where you stand!"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "You have finally returned! &lt;click&gt; &lt;click&gt; Do you have our silver dew?"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Oh, they are beautiful! You, on the other hand, appear much more disheveled than when we last spoke. Did you cross paths with our Onemind brothers?"
+            },
+            {
+                "name": "SEARCHER",
+                "text": "Their obsession with this herb is very concerning, great hunter. We fear they intend to wage war on the dragons with it. If we are correct, our Onemind brothers will not stop until the land is stripped of all silver dew."
+            },
+            {
+                "name": "SEARCHER",
+                "text": "We can ill afford this to happen. &lt;click&gt; &lt;click&gt; Were it to vanish, our guild would crumble to dust. Our sanctuary walls would soon follow. We must begin cultivating our own to prevent this from ever coming to pass."
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "reputation": 70,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21079
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016803",
+            "obj": {
+                "i": 1016803,
+                "n": "Vath Keeneye",
+                "l": 2000,
+                "q": 20
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21079",
+            "obj": {
+                "i": 21079,
+                "n": "Black Copper Gil",
+                "l": 1,
+                "c": 65056,
+                "t": 100
+            }
+        }
+    ]
+}

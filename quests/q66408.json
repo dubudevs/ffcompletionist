@@ -1,0 +1,168 @@
+{
+    "quest": {
+        "name": "You Can't Take It with You",
+        "location": "Eastern Thanalan",
+        "id": 66408,
+        "patch": 2.0,
+        "sort": 184,
+        "icon": 100134,
+        "eventIcon": 71201,
+        "target": 1003958,
+        "involved": [
+            1001679,
+            1006357
+        ],
+        "genre": 0,
+        "journal": [
+            "Marques has a personal request to make of you.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Marques in the Church of Saint Adama Landama.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You scour Ul'dah and acquire the necessary tools. Deliver the tools to Marques at the Church of Saint Adama Landama.",
+            "Upon receiving the tools, Marques immediately sets to work and repairs the horologe, as if by instinct─an act that only serves to unnerve the troubled refugee. Apologizing for the inconvenience, he bids you take the device to Sister Eluned, who is currently tending to the body of its owner outside the church.",
+            "Sister Eluned has never before seen an intricate device like the horologe, which is reminiscent of the technological marvels Garlemald is said to possess. The brief association causes her to suspect that the deceased owner may have been a Garlean spy, and she considers informing the Immortal Flames stationed in Camp Drybone. However, Marques's ability to repair the horologe appears to be an even more stunning revelation, one which also bears further investigation."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Marques in the Church of Saint Adama Landama.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "MARQUEZ",
+                "text": "Excuse me, <span class=\"highlight\">Forename</span>...do you have a moment? It concerns this broken horologe which was found in the pocket of a man brought here for burial."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "There is something...familiar about it...but just what I cannot say. Perhaps if I tinker with the device, it will come to me."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "However, I lack the proper tools to do so. I would ask that you journey to Ul'dah in my stead to obtain a bull-point chisel and a pair of needle-nose pincers. If you are willing to do this, please note that, as they are uncommon tools, you may need to visit the Goldsmiths' Guild and browse the markets in order to find them."
+            },
+            {
+                "name": "MEMEDESU",
+                "text": "A bull-point chisel? Why, yes, we happen to have a surplus of that particular tool. By all means, take one if you so desire. An odd request, if you don't mind me saying─it has a very limited number of applications..."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "Welcome, <span class=\"emphasis\">welcome</span>! What might a discerning─ My word, did you say needle-nose pincers? You must be a skilled craftsman indeed! Please, take this pair as a gift. By the by, do you have representation here in the exchange? If not, I would be most interested in discussing a partnership..."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "Have you brought the tools I requested?"
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "Hmmm...something occurs to me. Please wait here for a moment."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "It was for naught. Though I repaired the device easily, this sensation that stirs within me remains a mystery."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "But how...how did I do it?"
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "These hands...my hands, they moved with a mind of their own, deftly manipulating the clockwork mechanisms..."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "There was no doubt or uncertainty. I knew exactly what to do, as though I had performed the same motions countless times before..."
+            },
+            {
+                "name": "MARQUEZ",
+                "text": "P-Pardon me, <span class=\"highlight\">Forename</span>─this was a mistake. Please give the horologe to Sister Eluned. The man who once owned it is currently in her care, and I think it best that it be returned to him."
+            },
+            {
+                "name": "ELUNED",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morrow</span><span class=\"alternative\">day</span></span> to you, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. Have you come to pay your respects to this man?"
+            },
+            {
+                "name": "ELUNED",
+                "text": "Never before have I seen such a queer device. You say that it measures the passing of time?"
+            },
+            {
+                "name": "ELUNED",
+                "text": "Mayhap they are more common in Garlemald. I am given to understand that its cities are filled with all manner of amazing technologies."
+            },
+            {
+                "name": "ELUNED",
+                "text": "Marques said that it belonged to the deceased? Oh dear... You don't suppose that the owner might have been a Garlean spy? It may behoove us to notify the authorities in Camp Drybone."
+            },
+            {
+                "name": "ELUNED",
+                "text": "But...mayhap more importantly, how did Marques manage to repair this device? I knew he had a talent for the trades, but this goes far beyond mending fences and thatching rooves..."
+            }
+        ],
+        "reward": {
+            "xp": 18040
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66053
+            ]
+        },
+        "next": [
+            66417
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003958",
+            "obj": {
+                "i": 1003958,
+                "n": "Eluned",
+                "l": 44,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001679",
+            "obj": {
+                "i": 1001679,
+                "n": "Syntgoht",
+                "l": 41,
+                "q": 12
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006357",
+            "obj": {
+                "i": 1006357,
+                "n": "Memedesu",
+                "l": 41,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66053",
+            "obj": {
+                "i": 66053,
+                "n": "All Good Things",
+                "g": 1,
+                "l": "Upper La Noscea",
+                "s": 182
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66417",
+            "obj": {
+                "i": 66417,
+                "n": "A Tall Drink of Aqua del Sol",
+                "g": 0,
+                "l": "Eastern Thanalan",
+                "s": 185
+            }
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "quest": {
+        "name": "For the Children",
+        "location": "Eastern Thanalan",
+        "id": 66157,
+        "patch": 2.0,
+        "sort": 101,
+        "eventIcon": 71201,
+        "issuer": 1003929,
+        "target": 1003929,
+        "involved": [
+            1003975,
+            1003976
+        ],
+        "genre": 1,
+        "journal": [
+            "Isembard is concerned about the questions surrounding Sister Ourcen's integrity.",
+            "Isembard refuses to believe that Sister Ourcen is behind the mysterious disappearances at Camp Drybone. To this end, he bids you speak with one of her favored children in the Golden Bazaar in order to learn more of her activities.",
+            "Upon arriving in the Golden Bazaar, you are told that Sister Ourcen left some time ago to search for the child's lost treasure. Fearing for her safety, the child pleads with you to go and find her.",
+            "You have rescued Ourcen from a grisly fate at the hands of undead soldiers. After expressing her gratitude, she takes her leave and returns to the Golden Bazaar. Make your way back to Camp Drybone and tell Isembard all that transpired.",
+            "After risking life and limb to recover the orphan's memento, Isembard is more convinced than ever that Sister Ourcen is not in any way responsible for the vanishings."
+        ],
+        "objectives": [
+            "Speak with the uncombed urchin in the Golden Bazaar.",
+            "Save Sister Ourcen.",
+            "Report to Isembard at Camp Drybone."
+        ],
+        "dialogue": [
+            {
+                "name": "ISEMBARD",
+                "text": "Sister Ourcen... It cannot be. Though, she <span class=\"emphasis\">is</span> wont to travel to the Golden Bazaar on her own, and it is not uncommon to see her speaking to the children. But...no. It could not be she...could it?"
+            },
+            {
+                "name": "ISEMBARD",
+                "text": "Hmmm... &lt;sigh&gt; I grow weary of these suspicions. I know there is one child in particular that she is fond of. Pray seek out the boy, <span class=\"highlight\">Forename</span>, and see if you cannot glean something from him about Ourcen's activities."
+            },
+            {
+                "name": "CHILD",
+                "text": "Please help! Sister Ourcen went out all on her own and hasn't come back!"
+            },
+            {
+                "name": "CHILD",
+                "text": "She always reads to me right here, about Thal and the Order and the other side. I told her I lost my shiny thing and she went looking for it. But what if the monsters outside hurt her? Please find her!"
+            },
+            {
+                "name": "CHILD",
+                "text": "What if the monsters outside hurt Sister Ourcen? Please find her!"
+            },
+            {
+                "name": "OURCEN",
+                "text": "You... You are the one from the church. Thank goodness you arrived when you did. It seems my gratitude is yours yet again."
+            },
+            {
+                "name": "OURCEN",
+                "text": "You spoke with the child? Yes, well, I was able to find his lost trinket. It is a ring given him by his mother before she passed. I will see it safely back to him."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ISEMBARD",
+                "text": "Sister Ourcen was attacked outside the Golden Bazaar? Gods forfend... I will secure a room at the inn for her should she require any rest."
+            },
+            {
+                "name": "ISEMBARD",
+                "text": "Searching for the mementos of orphans? And risking her own well-being in the doing, no less? Certainly not the dastardly deeds Thancred would have us believe."
+            }
+        ],
+        "reward": {
+            "gil": 250,
+            "items": [
+                {
+                    "id": 3332,
+                    "one": 1
+                },
+                {
+                    "id": 3334,
+                    "one": 1
+                },
+                {
+                    "num": 4,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 7840
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 19,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66156
+            ]
+        },
+        "next": [
+            66158
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003929",
+            "obj": {
+                "i": 1003929,
+                "n": "Isembard",
+                "l": 44,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003975",
+            "obj": {
+                "i": 1003975,
+                "n": "Ourcen",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003976",
+            "obj": {
+                "i": 1003976,
+                "n": "Uncombed Urchin",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3332",
+            "obj": {
+                "i": 3332,
+                "n": "Cotton Trousers",
+                "l": 17,
+                "c": 45019,
+                "t": 36,
+                "p": 534
+            }
+        },
+        {
+            "type": "item",
+            "id": "3334",
+            "obj": {
+                "i": 3334,
+                "n": "Cotton Breeches",
+                "l": 19,
+                "c": 45038,
+                "t": 36,
+                "p": 499
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66156",
+            "obj": {
+                "i": 66156,
+                "n": "A Proper Burial",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 100
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66158",
+            "obj": {
+                "i": 66158,
+                "n": "Amalj'aa Wrong Places",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 102
+            }
+        }
+    ]
+}

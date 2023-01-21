@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Seeing Eye to Winged Eye",
+        "location": "North Shroud",
+        "id": 66322,
+        "patch": 2.0,
+        "sort": 152,
+        "eventIcon": 71201,
+        "issuer": 1006242,
+        "target": 1006242,
+        "genre": 1,
+        "journal": [
+            "Ivaurault has information to share regarding your investigation.",
+            "Ivaurault reveals that he has also seen the winged eyeball. The sighting took place at the rocky area to the west. Take yourself there and investigate.",
+            "Instead of the winged eyeball, a monstrous banemite appears, and you are forced to defend yourself. Return to Fallgourd Float and report to Ivaurault.",
+            "You learn that the banemite you slew had long been a scourge upon the locals. While Ivaurault is duly impressed with your skill at arms, he wonders whether he only imagined seeing the winged eyeball."
+        ],
+        "objectives": [
+            "Investigate the specified location.",
+            "Report to Ivaurault."
+        ],
+        "dialogue": [
+            {
+                "name": "IVAURAULT",
+                "text": "There is something you should know. I have been keeping this to myself, lest I worsen Medrod's paranoia, but I, too, have seen the winged eyeball."
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "I cannot say whether it was coincidence, but my sighting took place precisely the same time as Medrod's. I was heading home after a day of digging when a shadow fell over me."
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "Looking up, I found myself locked in a gaze with a giant eyeball. I let out a scream at the top of my lungs and ran without once looking back. This happened at the rocky area west of here, in case you had a mind to investigate."
+            },
+            {
+                "name": "DUMMY",
+                "text": "(/lookout at rocky area and slay the spider that pops.)"
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "A monstrous banemite appeared...and you slew it!? That creature had long been a scourge upon the folk of Fallgourd!"
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "Intentional or no, you have done us a great service. You have my gratitude!"
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "...But this does make me wonder, was it truly a winged eyeball I saw? Or merely a trick of light combined with blind panic?"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 1320,
+            "xp": 12580
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                69400
+            ]
+        },
+        "next": [
+            66335
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006242",
+            "obj": {
+                "i": 1006242,
+                "n": "Ivaurault",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69400",
+            "obj": {
+                "i": 69400,
+                "n": "Ziz Is So Ridiculous",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 150
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66335",
+            "obj": {
+                "i": 66335,
+                "n": "Power of Deduction",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 153
+            }
+        }
+    ]
+}

@@ -1,0 +1,199 @@
+{
+    "quest": {
+        "name": "A Soldier's Breakfast",
+        "location": "Central Shroud",
+        "id": 69391,
+        "patch": 5.3,
+        "sort": 32,
+        "eventIcon": 71201,
+        "issuer": 1000685,
+        "target": 1000408,
+        "genre": 1,
+        "journal": [
+            "Pauline at Gabineaux's Bower needs an adventurer to cull the growing anole population, as well as gather one of the scalekin's eggs.",
+            "A growing number of anoles are venturing down from the mountains and disrupting the conjurers' communion with the elementals. Head to Naked Rock, slay three anoles, and collect one of the scalekin's eggs.",
+            "You have thinned the number of anoles and collected one of their eggs. Report to Pauline at Gabineaux's Bower.",
+            "Large and rich in nutrients, anole eggs make a perfect breakfast for a soldier. Deliver it to Tsubh Khamazom at the Bannock.",
+            "Upon taking receipt of your gift of the anole egg, Tsubh Khamazom notes with admiration that you appear not to have sustained any serious injury in the course of its collection."
+        ],
+        "objectives": [
+            "Obtain an anole egg.",
+            "Slay three anoles.",
+            "Report to Pauline at Gabineaux's Bower.",
+            "Deliver the egg to Tsubh Khamazom at the Bannock."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "PAULINE",
+                "text": "I hesitate to make such a dangerous request, but might you assist us in thinning the number of anoles on Naked Rock?"
+            },
+            {
+                "name": "PAULINE",
+                "text": "In our efforts to commune with the elementals, we conjurers often find ourselves in the area. Of late, however, our meditations have all too frequently been interrupted by unprovoked anole attacks. Truly, the beasts grow more aggressive by the day."
+            },
+            {
+                "name": "PAULINE",
+                "text": "Their numbers have continued to grow since the advent of the Seventh Umbral Era, you see, forcing packs of the scalekin to come down from the mountains in search of food. If you could slay a handful of the beasts, that should lessen their need to hunt and also serve as a warning to the anoles to remain within their territory."
+            },
+            {
+                "name": "PAULINE",
+                "text": "But I am afraid you must do more than thin the existing population. If we are to truly break this spiraling growth, then we must also target their future offspring. Bring me one of their eggs, and you will have played your part in returning balance to this area of the forest."
+            },
+            {
+                "name": "PAULINE",
+                "text": "Ah, you have returned. Now might my brothers and sisters continue their meditations undisturbed. You have my thanks."
+            },
+            {
+                "name": "PAULINE",
+                "text": "As for the egg, may I ask you to deliver it to Tsubh Khamazom at the Bannock?"
+            },
+            {
+                "name": "PAULINE",
+                "text": "Anole eggs are both large and filled with nutrients─the perfect meal for a soldier. She will be more than a little pleased to see you, I should imagine."
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "Who goes there!? Oh, <span class=\"highlight\">Forename</span>, it's you. Hm? Another delivery?"
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "I'm not certain I should be the one to─ By Nophica, that's an anole egg! The troops will be glad indeed to see one of these at table! And you say Hearer Pauline sent you on this errand?"
+            },
+            {
+                "name": "TSUBHKHAMAZOM",
+                "text": "I hear the anoles are more numerous than ever, yet you appear to have managed the task with your skin intact. Your skill and bravery continue to amaze me, <span class=\"highlight\">Forename</span>."
+            }
+        ],
+        "reward": {
+            "gil": 186,
+            "items": [
+                {
+                    "id": 1821,
+                    "one": 1
+                },
+                {
+                    "id": 1892,
+                    "one": 1
+                },
+                {
+                    "id": 1959,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65711
+            ]
+        },
+        "next": [
+            65665
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000685",
+            "obj": {
+                "i": 1000685,
+                "n": "Pauline",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000408",
+            "obj": {
+                "i": 1000408,
+                "n": "Tsubh Khamazom",
+                "l": 54,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "1821",
+            "obj": {
+                "i": 1821,
+                "n": "Bronze Spear",
+                "l": 8,
+                "c": 31806,
+                "t": 5,
+                "p": 403
+            }
+        },
+        {
+            "type": "item",
+            "id": "1892",
+            "obj": {
+                "i": 1892,
+                "n": "Maple Longbow",
+                "l": 8,
+                "c": 32205,
+                "t": 4,
+                "p": 364
+            }
+        },
+        {
+            "type": "item",
+            "id": "1959",
+            "obj": {
+                "i": 1959,
+                "n": "Whispering Maple Wand",
+                "l": 8,
+                "c": 32401,
+                "t": 8,
+                "p": 240
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65711",
+            "obj": {
+                "i": 65711,
+                "n": "Surveying the Damage",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 27
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65665",
+            "obj": {
+                "i": 65665,
+                "n": "Spirithold Broken",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 33
+            }
+        }
+    ]
+}

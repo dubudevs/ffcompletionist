@@ -1,0 +1,184 @@
+{
+    "quest": {
+        "name": "Nothing Sacred",
+        "location": "Southern Thanalan",
+        "id": 66784,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "genre": 35,
+        "journal": [
+            "Yadovv Gah would burn the heart out of his enemies.",
+            "It is tradition for Amalj'aa to be buried with their weapons, for they are warriors in death as well as in life. Conversely, it is considered sacrilege for the weapons of the dead to be removed from their graves. Yadovv Gah has already seen to that dark deed; all that remains is for you to place the stolen weapons on display in Zahar'ak and show the Flamefangs that their fallen brothers have been disgraced.",
+            "As the cries of the Flamefangs echo in your ears, you realize that your monuments to their misery have achieved the desired effect. Report your success to Yadovv Gah.",
+            "Recognizing that others may find his methods distasteful, Yadovv Gah asserts that by breaking the spirits of his sworn enemies, he ensures that they are less like to seek vengeance. Should his strategy prove effective, the conflict between the Brotherhood and the Flamefangs may end more quickly than anticipated."
+        ],
+        "objectives": [
+            "<span class=\"alternative-container\"><span class=\"alternative\">Make monuments with the stolen weapons in Zahar'ak.</span><span class=\"alternative\">Make the final monument in Zahar'ak.</span></span>",
+            "Report to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "Amalj'aa are warriors in death, as in life. For this reason, it is custom to be buried with one's weapons─"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Weapons such as these, which were taken from the graves of the Flamefangs. Aye, by this sacrilege we have brought great shame upon their fallen. But I would not have it end there."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Make monuments of that which was stolen for all Zahar'ak to see! Show that no glory awaits them─in this life or the next."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "There is no greater disgrace than that which has been inflicted upon the dead. Should you be taken, you will receive no quarter."
+            },
+            {
+                "name": "AMALJAA",
+                "text": "This...this is an abomination!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "The Flamefangs weep for their dishonored brothers! They curse us; they hate us. More importantly: they fear us!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Break a warrior's body, and he will thirst for vengeance. Break his spirit, and he will clamor for peace. Judge my methods distasteful if you will─but know that I seek to end this conflict, not prolong it."
+            },
+            {
+                "name": "POP",
+                "text": "A mournful cry echoes across the desert... "
+            },
+            {
+                "name": "POP",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

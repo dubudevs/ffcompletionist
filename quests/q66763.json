@@ -1,0 +1,113 @@
+{
+    "quest": {
+        "name": "Smothering Instinct",
+        "location": "Southern Thanalan",
+        "id": 66763,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005550,
+        "target": 1005550,
+        "genre": 35,
+        "journal": [
+            "Fibubb Gah wishes your aid in removing a blight from the land.",
+            "You have been tasked by Fibubb Gah with extinguishing the unnatural flames of the Amalj'aa beacons. Take the ritually prepared smothering ash and use it to deprive the foes of the Brotherhood of their enhanced blessings.",
+            "You have used the smothering ash to extinguish the tainted fires of the Amalj'aa beacons. Return to the Ring of Ash and report to Fibubb Gah.",
+            "Fibubb Gah praises your efforts, claiming that the land itself breathes easier in the absence of the foul Amalj'aa beacons. He bids you stand ready to offer your aid should his vile kin once more ignite their vile flames."
+        ],
+        "objectives": [
+            "Use the smothering ash to extinguish Amalj'aa beacons.",
+            "Report to Fibubb Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "FIBUBBGAH",
+                "text": "Tell me, honored ally, have you seen the ominous beacons the zealots of Zahar'ak light across the land? These unnatural flames are talismans of foul sorcery that amplify the blessings of the Lord of the Inferno."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "These symbols of servitude, of groveling weakness, cannot be allowed to taint the sacred domain of Zanr'ak a moment longer!"
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "If you truly wish to stand with us against our honorless kin, then I would ask your aid in extinguishing the beacons. Take with you this ash─it has been ritually prepared to fully smother the noxious fires of our foe."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "Be warned, however, that the beacons will not be unguarded. Our weakling brethren will be loath to surrender even a sliver of their undeserved might."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "Take the smothering ash and extinguish these beacons of unseemly servitude!"
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "The land itself breathes easier in the absence of those foul flames. You continue to show yourself a worthy ally of the Brotherhood."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "Our despicable kin, however, will not long countenance the loss of their magnified blessings. All too soon, new beacons will be lit, and we shall be glad of your aid once more."
+            }
+        ],
+        "reward": {
+            "gil": 480,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 8970
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 43,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005550",
+            "obj": {
+                "i": 1005550,
+                "n": "Fibubb Gah",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

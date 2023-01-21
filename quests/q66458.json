@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "The Ceruleum Must Flow",
+        "location": "Northern Thanalan",
+        "id": 66458,
+        "patch": 2.0,
+        "sort": 380,
+        "eventIcon": 71221,
+        "issuer": 1006438,
+        "target": 1001679,
+        "genre": 93,
+        "journal": [
+            "Papawazu would offer you another commission and a chance to admire him, if the mood strikes you.",
+            "The shipment of processed ceruleum will finally resume, to the satisfaction of all parties─well, except the coblyns, but creatures of their sort have no say, and dead ones doubly so. Report the news to Syntgoht at the Sapphire Avenue Exchange.",
+            "Syntgoht is relieved, though vexed by the price hike. Once the goods reach him in a few days, he should in turn be able to fill his orders."
+        ],
+        "objectives": [
+            "Speak with Syntgoht at the Sapphire Avenue Exchange."
+        ],
+        "dialogue": [
+            {
+                "name": "PAPAWAZU",
+                "text": "<span class=\"emphasis\">Any</span>way! The ceruleum must flow. No more delays in shipping─another brilliant coup by Papawazu! Oh, is that a feather? For my cap? Why, thank you very much!"
+            },
+            {
+                "name": "PAPAWAZU",
+                "text": "Sooo, you can tell Syntgoht that his shipment will be there in just a few days. <span class=\"emphasis\">Un</span>fortunately, there'll be a wee increase in price. Security surcharge, you know! Everybody does it."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "Welcome, <span class=\"emphasis\">welcome</span>! What might a discerning─oh, it's you, <span class=\"highlight\">Forename</span>. Talked to Papawazu? Really! He said a matter of days?"
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "So, my dear <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">man</span></span>, you're telling me they're shipping what's owed me but charging more for it. I wish Amajina and <span class=\"emphasis\">all</span> his sons the joy of my gil. I hope it gives them gout."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "I do appreciate you sorting this out, and with that puttock Papawazu, no less. A discerning middleman such as myself will certainly remember you for future commissions!"
+            }
+        ],
+        "reward": {
+            "gil": 1500,
+            "xp": 10105
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 38,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66456
+            ]
+        },
+        "next": [
+            66459
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006438",
+            "obj": {
+                "i": 1006438,
+                "n": "Papawazu",
+                "l": 46,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001679",
+            "obj": {
+                "i": 1001679,
+                "n": "Syntgoht",
+                "l": 41,
+                "q": 12
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66456",
+            "obj": {
+                "i": 66456,
+                "n": "Thieves and Robbers",
+                "g": 93,
+                "l": "Northern Thanalan",
+                "s": 380
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66459",
+            "obj": {
+                "i": 66459,
+                "n": "A Tale of Three Cities",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 380
+            }
+        }
+    ]
+}

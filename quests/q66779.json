@@ -1,0 +1,181 @@
+{
+    "quest": {
+        "name": "Unholier than Thou",
+        "location": "Southern Thanalan",
+        "id": 66779,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "genre": 35,
+        "journal": [
+            "Yadovv Gah wishes you to make an attack of opportunity.",
+            "Members of Ifrit's high clergy, the thaumaturges and their pugilist bodyguards, have been spotted moving among the rank and file. Cut your way into Zahar'ak, and slay these priests of flame before their ritual magic can be brought to bear against the Brotherhood of Ash.",
+            "You have slain the Zahar'ak thaumaturges and pugilists. Return to the Ring of Ash and report to Yadovv Gah.",
+            "Yadovv Gah revels in the confusion left in the wake of your assault on the high clergy. The Brotherhood warrior notes the effect your glorious deeds have on the morale of his fellow soldiers, and praises his warleader's decision to recruit you to their cause."
+        ],
+        "objectives": [
+            "Slay Zahar'ak thaumaturges.",
+            "Slay Zahar'ak pugilists.",
+            "Report to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "For many moons has the Brotherhood skirmished with the rank and file of Zahar'ak. In recent days, however, the ritual priests themselves have begun to appear about the enemy camp."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "If the superior members of Ifrit's clergy have deigned to join the grunts on the front line, then matters are soon to escalate. Yet though their presence signifies trouble for the region, it also provides us with a worthy target."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Leave the hatchlings for lesser soldiers, honored ally─your quarry awaits deeper within Zahar'ak."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Seek out the high-ranking thaumaturges and their pugilist lackeys, and cut down a fistful of each. Such slaughter should prove fatal to any scheme they had hoped to enact. May fortune find you in battle!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Blow past the rank and file, and howl directly into the heart of Zahar'ak like an avenging wind! Sever a few fingers from the grasping hand that is Ifrit's high clergy!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "You return at the crest of a wave of confusion, honored ally. Our foe is left bloodied and gasping, wondering at the demon who left behind such unexpected carnage."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Our plans to debilitate the enemy continue apace─in no small part thanks to your glorious victories."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Reports of your exploits stir the souls of our soldiers, mighty warrior. The warleader was shrewd to recruit your steel-clad spirit to our cause."
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5672,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5672",
+            "obj": {
+                "i": 5672,
+                "n": "Savage Aim Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "quest": {
+        "name": "A Spooky Celebration",
+        "location": "Gridania",
+        "id": 70193,
+        "patch": 6.2,
+        "sort": 222,
+        "repeatable": 1,
+        "icon": 101204,
+        "eventIcon": 71222,
+        "issuer": 1044085,
+        "target": 1044085,
+        "genre": 203,
+        "journal": [
+            "The harlequin guide is eager to put you to work.<br><br>※This quest is available for a limited time only.",
+            "Though you may be finished with the costume cortege, it is not finished with you. Using one of their perfectly safe concoctions, the harlequin guide bids you take on the guise of another creature to help spread word of the costume cortege.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "The putrid taste of the concoction remains in your mouth with no sign of disappearing, but you have nonetheless transfigured yourself successfully. The time is ripe for a spot of frightful fun to help spread word of the costume cortege.",
+            "With at least a few additional people now scared out of their wits, you return to Mih Khetto's Amphitheatre to tell the harlequin guide of your terrifying trip through town.",
+            "The harlequin guide is thankful for your efforts, but that is not to say he would refuse further assistance from you. Should time allow, he invites you to return for a scary good time."
+        ],
+        "objectives": [
+            "Transfigure yourself by drinking one of the mysterious concoctions.",
+            "Spread word of the costume cortege to the townspeople.",
+            "Report to the harlequin guide."
+        ],
+        "dialogue": [
+            {
+                "name": "PIERROTFAMILYSERVANT04657",
+                "text": "Hello there! Tell me, are you aware of the delightful costume cortege being held at present?"
+            },
+            {
+                "name": "PIERROTFAMILYSERVANT04657",
+                "text": "Of course you are! No small few have already joined in the merrymaking, and I daresay you would make a most welcome addition to their number!"
+            },
+            {
+                "name": "PIERROTFAMILYSERVANT04657",
+                "text": "How about it? Raring to give the next person you meet the fright of their life?"
+            },
+            {
+                "name": "Q0",
+                "text": "Participate in the costume cortege?"
+            },
+            {
+                "name": "PIERROTFAMILYSERVANT04657",
+                "text": "Oh, what a shame. What a shame indeed! Well, I shall be here should you change your mind. You <span class=\"emphasis\">will</span> reconsider, won't you?"
+            },
+            {
+                "name": "PIERROTFAMILYSERVANT04657",
+                "text": "Wonderful! Take your pick from our selection of perfectly safe concoctions placed atop the benches beside me, and transfigure yourself into the creature of your desire!"
+            },
+            {
+                "name": "PIERROTFAMILYSERVANT04657",
+                "text": "Wh-What, do you not trust me? The potions are perfectly safe this time, I swear!"
+            },
+            {
+                "name": "Q0",
+                "text": "You will be transfigured into a Continental eye after drinking this concoction. Proceed?"
+            },
+            {
+                "name": "Q0",
+                "text": "You will be transfigured into a wraith after drinking this concoction. Proceed?"
+            },
+            {
+                "name": "Q0",
+                "text": "You will be transfigured into a gaelikitten after drinking this concoction. Proceed?"
+            },
+            {
+                "name": "Q0",
+                "text": "You will be transfigured into a sasquatch after drinking this concoction. Proceed?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Your appearance will be changed after drinking the mysterious concoction. After frightening a townsperson in your transfigured state, dispel the enchantment, and inform them of the costume cortege."
+            },
+            {
+                "name": "Q0",
+                "text": "Drink the concoction again to extend the duration of the transfiguration?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You must be in a transfigured state before approaching the townspeople."
+            },
+            {
+                "name": "CHILD04657",
+                "text": "A monster...? Oh gods, a monster! Wh-What's it doing here!?"
+            },
+            {
+                "name": "Q0",
+                "text": "Dispel the transformation and inform them of the costume cortege?"
+            },
+            {
+                "name": "CHILD04657",
+                "text": "Hey, you're not a monster, you're just some strange <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">man</span></span>! You said you transformed by drinking a potion? I wanna try too!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have spread word of the costume cortege. Report back to the harlequin guide in Mih Khetto's Amphitheatre."
+            },
+            {
+                "name": "PIERROTFAMILYSERVANT04657",
+                "text": "Bravo! With the aid of volunteers such as yourself, word of the event shall surely spread like wildfire throughout the entire city!"
+            },
+            {
+                "name": "PIERROTFAMILYSERVANT04657",
+                "text": "Here, I have a little something for you as thanks. Should you care to spread the word further, you are welcome to return any time. Now, off you go. Enjoy the festivities to your heart's content!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 10,
+                    "id": 16929
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                70191
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1044085",
+            "obj": {
+                "i": 1044085,
+                "n": "Harlequin Guide",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "16929",
+            "obj": {
+                "i": 16929,
+                "n": "Magicked Prism (Pumpkin)",
+                "l": 1,
+                "c": 22632,
+                "t": 85,
+                "p": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70191",
+            "obj": {
+                "i": 70191,
+                "n": "A Mad Masquerade",
+                "g": 203,
+                "l": "Gridania",
+                "s": 220
+            }
+        }
+    ]
+}

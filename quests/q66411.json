@@ -1,0 +1,174 @@
+{
+    "quest": {
+        "name": "Scent of Cinnamon",
+        "location": "Eastern Thanalan",
+        "id": 66411,
+        "patch": 2.0,
+        "sort": 350,
+        "eventIcon": 71221,
+        "issuer": 1006360,
+        "target": 1006360,
+        "involved": [
+            1003946,
+            1004506,
+            1004575,
+            1006355
+        ],
+        "genre": 93,
+        "journal": [
+            "There is an air of mystery about Brother Barryn. He would bid you help him with a gift.",
+            "Barryn's heart is true and swift. Desiring to repay Father Iliud for his kindness, he has saved his gil─and, finding it wanting, enlisted your help. Your task is to raise more funds from both Brother Esmour within the church and Sister Zozoru at Camp Drybone.",
+            "You receive a sack of gil each from Esmour and Zozoru without a single word of persuasion crossing your lips. In truth, you are slightly piqued, for you had taken some pains to prepare your cajolery. Give the sacks to Ermegarde.",
+            "The gift is ready, made by Ermegarde's capable hands. Take the cinnamon cookies to Father Iliud at the Church of Saint Adama Landama.",
+            "You present the cookies to a visibly moved Father Iliud. You can now return to Brother Barryn with the satisfaction of a job well done.",
+            "You wonder anew at how few the Calamity left untouched. Ever has it been the lot of an obliging stranger to hear confidences from the low and the high, the guarded and the eager. Embrace your destiny."
+        ],
+        "objectives": [
+            "Collect a sack of gil from Esmour.",
+            "Collect a sack of gil from Zozoru.",
+            "Give the collected gil to Ermegarde at Camp Drybone.",
+            "Give the cinnamon cookies to Iliud.",
+            "Report to Barryn."
+        ],
+        "dialogue": [
+            {
+                "name": "BARRYN",
+                "text": "So generous is Father Iliud to so many─he feeds, clothes, and physicks them tirelessly. Yet he has none to do for him what he does for others. I would show him my appreciation with a special gift, but sadly, my meager purse is not enough."
+            },
+            {
+                "name": "BARRYN",
+                "text": "Will you speak to the other brothers and sisters, and see whether they too feel as I do?"
+            },
+            {
+                "name": "BARRYN",
+                "text": "I have made arrangements with Ermegarde, who runs a concern at Camp Drybone. If you are successful in raising the funds, will you deliver the gil to her?"
+            },
+            {
+                "name": "ESMOUR",
+                "text": "Be silent and take my gil! Pray forgive my outburst, good <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. It is only that I owe Father Iliud my life, and an opportunity to give him something─no matter how small─sets my spirit afire."
+            },
+            {
+                "name": "ZOZORU",
+                "text": "A gift for Father Iliud? Of course! It does not take Thal to see the good in him. It warms my heart that Brother Barryn would go to such trouble. Thank you both for your efforts."
+            },
+            {
+                "name": "ERMEGARDE",
+                "text": "Greetings, <span class=\"highlight\">Forename</span>. Brother Barryn said you might be coming by. A gift for Father Iliud, he said."
+            },
+            {
+                "name": "ERMEGARDE",
+                "text": "The good father must be a man much beloved, from the weight of these sacks."
+            },
+            {
+                "name": "ERMEGARDE",
+                "text": "I have given this matter much thought. A consignment of high-quality spices arrived just this day. Mayhap cinnamon cookies would suit? I have received many a kind word from my customers about my cookies, if I may say so."
+            },
+            {
+                "name": "ERMEGARDE",
+                "text": "I have also observed the good father linger at my store whenever a fresh batch was to be smelt coming out of the oven. But the only times he spent his gil on cookies and cakes, it was for the children of Lost Hope."
+            },
+            {
+                "name": "ILIUD",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morning</span><span class=\"alternative\">day</span></span> to you, <span class=\"highlight\">Forename</span>. What brings you to this place?"
+            },
+            {
+                "name": "ILIUD",
+                "text": "What...? How...? Cinnamon cookies, by Thal."
+            },
+            {
+                "name": "ILIUD",
+                "text": "A gift, you say? From Brother Barryn, Brother Esmour, and Sister Zozoru. How kind they are. I could tell them there was no need, but our Order teaches us to see a need despite the needy's disavowals. I shall thank them, from my heart..."
+            },
+            {
+                "name": "ILIUD",
+                "text": "I had a son, and through his happy marriage, a daughter. Well matched they were, and well met. Their house smelt of good things like this, and there was always an open peg for my cloak and a tall glass of mint tea. When they died, I..."
+            },
+            {
+                "name": "BARRYN",
+                "text": "Was Father Iliud pleased? Oh, that is good. And I believe it does his heart good to give word to his sorrows. That is what we tell the bereaved in the lichyards─that grief must be both shrieked and spoken."
+            },
+            {
+                "name": "BARRYN",
+                "text": "I had heard that Father Iliud had suffered a great loss in the Calamity. Yet his heart grows as large as a palace, and scores dwell there in the haven he makes of it. Would that someday, I am half the man he is."
+            }
+        ],
+        "reward": {
+            "gil": 1518,
+            "xp": 9020
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66410
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006360",
+            "obj": {
+                "i": 1006360,
+                "n": "Barryn",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003946",
+            "obj": {
+                "i": 1003946,
+                "n": "Esmour",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004506",
+            "obj": {
+                "i": 1004506,
+                "n": "Ermegarde",
+                "l": 44,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004575",
+            "obj": {
+                "i": 1004575,
+                "n": "Zozoru",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006355",
+            "obj": {
+                "i": 1006355,
+                "n": "Iliud",
+                "l": 44,
+                "q": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66410",
+            "obj": {
+                "i": 66410,
+                "n": "The Voyage of the Goobbue",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 350
+            }
+        }
+    ]
+}

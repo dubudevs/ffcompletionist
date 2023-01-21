@@ -1,0 +1,141 @@
+{
+    "quest": {
+        "name": "Taking Stock",
+        "location": "Idyllshire",
+        "id": 67499,
+        "patch": 3.0,
+        "sort": 5811,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1012133,
+        "target": 1013651,
+        "genre": 101,
+        "journal": [
+            "Steam appears to be rising from Midnight Dew's beautifully bedecked ears.",
+            "Midnight Dew's entire stock has been stolen by a band of thieves, who have been seen escaping into the Sharlayan ruins. She asks you to assist her in tracking the bandits down, and bids you meet with her in the Answering Quarter to begin the hunt.",
+            "You meet with Midnight Dew in the Answering Quarter and she briefs you on her plan to catch the robbers. As the stock they stole is too heavy to be transported on foot, she predicts that the bandits hope to escape by boat. While she contacts her comrades to have them stake out the riverbank, she asks that you investigate the Answering Quarter ruins to see if any sign of the bandits or their ill-gotten booty yet remains.",
+            "You chance upon a trio of bandits guarding a chest and they immediately attack. Lay the thugs low and retrieve the stolen goods.",
+            "You collect the chest the thugs were guarding, a heavy casket of oak and gold marked with the initials “M” and “D.” Return the stolen goods to Midnight Dew to the north of the Answering Quarter.",
+            "You present the chest to Midnight Dew, who immediately recognizes it as her own. She thanks you for its recovery, and asks that you continue to lend her your expert assistance in retrieving the remainder of her inventory."
+        ],
+        "objectives": [
+            "Rendezvous with Midnight Dew in the Answering Quarter.",
+            "Search for the stolen items.",
+            "Retrieve the stolen items.",
+            "Return the stolen items to Midnight Dew in the Answering Quarter."
+        ],
+        "dialogue": [
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "Gods damn it, I've been had! Some twice-cursed sons of a mad, blind bitch have made off with all my takin's, and my tradables, too! I knew this place was full of treasure hunters, but I never reckoned it'd be <span class=\"emphasis\">my</span> treasures they'd be huntin'!"
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "And it ain't just my losses that concern me. The gobbies count on the goods I bring in to keep this place fed and watered. If I don't get my stock back, this whole town could fall apart. What do you say, adventurer─will you help me bring these thievin' curs to book?"
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "An adventurer comin' back from the Answerin' Quarter says he bumped into a gang of ill-lookin' brutes on Frontbridge─nearly knocked the poor kid into the Thaliak, they did. Anyhow, he says they were headin' into the ruins─meet me there, and we'll start the search."
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "The curs who stole my stock were seen headin' into the Answerin' Quarter. Meet me there and we'll hunt the bastards down."
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "Well met, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Now, here's the plan: Considerin' the weight of the stuff they stole, they won't get far on foot─chances are they've got a boat hidden somewhere. I'll get onto my crew and have 'em stake out the riverbank."
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "In the meantime, I want you to search the ruins for whatever you can find. Might be the bandits are lyin' low out there, or maybe they've stashed the loot and moved on. If you should chance on any of my belongin's, I'd be obliged if you'd bring 'em back to me."
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "Understood, adventurer? I want you to search the ruins for bandits and booty. The booty you bring back to me─the bandits I'll leave to you, and the gods."
+            },
+            {
+                "name": "BALLOON",
+                "text": "What're you lookin' at!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Get away from our loot!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Chop-chop, lads!"
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "How goes the search, adventurer? Did you find anythin'?"
+            },
+            {
+                "name": "MIDNIGHTDEW",
+                "text": "My stock! ...Well, one chest's worth of it, anyway. There's still some missin', but this is a damned good start! You've got the nose of a bloodhound, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>─I'll be wantin' a lend of that sniffer of yours to track down the rest of my property!"
+            }
+        ],
+        "reward": {
+            "gil": 570,
+            "aetherCurrent": 1,
+            "xp": 40800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 58,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67194
+            ]
+        },
+        "next": [
+            67500
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012133",
+            "obj": {
+                "i": 1012133,
+                "n": "Midnight Dew",
+                "l": 2082,
+                "q": 12
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013651",
+            "obj": {
+                "i": 1013651,
+                "n": "Midnight Dew",
+                "l": 2001,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67194",
+            "obj": {
+                "i": 67194,
+                "n": "Leaving Idyllshire",
+                "g": 3,
+                "l": "Idyllshire",
+                "s": 83
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67500",
+            "obj": {
+                "i": 67500,
+                "n": "What the Boat Brought In",
+                "g": 99,
+                "l": "The Dravanian Hinterlands",
+                "s": 5809
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "quest": {
+        "name": "Cleaning House",
+        "location": "North Shroud",
+        "id": 66328,
+        "patch": 2.0,
+        "sort": 280,
+        "eventIcon": 71221,
+        "issuer": 1002804,
+        "target": 1002804,
+        "genre": 92,
+        "journal": [
+            "Aeluuin of the Bobbing Cork would ask you to help with housekeeping.",
+            "Aeluuin's employees are shirking their duties of late, and the paintings that adorn the inn are collecting dust. Borrow the innkeep's chocobo duster and restore the masterpieces to a pristine state.",
+            "Caked in dust not minutes ago, the paintings' vivid colors now shine through. Tell Aeluuin your job is done.",
+            "Aeluuin is pleased to see his paintings spic-and-span again. Though he is quite partial to one of the paintings, he has thus far been unable to ascertain the artist's identity."
+        ],
+        "objectives": [
+            "Use the chocobo duster on the paintings.",
+            "Report to Aeluuin."
+        ],
+        "dialogue": [
+            {
+                "name": "AELUUIN",
+                "text": "You see that painting over there? Well, of course you can't─it's covered in a fortnight's worth of dust thanks to my do-nothing employees!"
+            },
+            {
+                "name": "AELUUIN",
+                "text": "I'd dust them right off myself, but I reckon the sluggards would better learn their lesson if they saw a customer like yourself doing the deed. What do you say? A few swishes with this chocobo duster should do the trick, and I'll make it worth your while."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "//: dust paintings"
+            },
+            {
+                "name": "AELUUIN",
+                "text": "Thanks, friend. &lt;sigh&gt; If only my employees shared the love of fine art that you and I do, eh?"
+            },
+            {
+                "name": "AELUUIN",
+                "text": "The painting upstairs, especially─don't ask me why, but the lonesome figure standing there, gazing off into the distance... I'm not usually the sentimental type, but it stirs something inside me."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "Is he wistfully remembering adventures long past? Or steeling his nerves for a battle to come? Sadly, what with the artist's identity a mystery, we might never know."
+            }
+        ],
+        "reward": {
+            "gil": 1320,
+            "xp": 6290
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66324
+            ]
+        },
+        "next": [
+            66329
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002804",
+            "obj": {
+                "i": 1002804,
+                "n": "Aeluuin",
+                "l": 57,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66324",
+            "obj": {
+                "i": 66324,
+                "n": "Potable Perils",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66329",
+            "obj": {
+                "i": 66329,
+                "n": "Trouble on the Road",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        }
+    ]
+}

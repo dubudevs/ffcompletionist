@@ -1,0 +1,788 @@
+{
+    "quest": {
+        "name": "Make It a Manderville",
+        "location": "Radz-at-Han",
+        "id": 70188,
+        "patch": 6.25,
+        "sort": 101,
+        "icon": 101205,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1043950,
+        "target": 1043954,
+        "genre": 72,
+        "usedItems": [
+            38420
+        ],
+        "journal": [
+            "The House Manderville manservant has been patiently waiting to speak with you.<br>※Changing classes or jobs will prevent progress during this quest.",
+            "With no small degree of trepidation, you approach the House Manderville manservant to offer your assistance in Godbert's weaponsmithing endeavor. The servant responds with deferent appreciation, and directs you towards their base of operations in a corner of the High Crucible.<br><br>※You may not proceed with a class or job that is different from when you accepted this quest.",
+            "Upon reaching the crafting station, the manservant departs to inform Lord Manderville of your arrival. Godbert appears in short order, and after providing you with a brief history of Manderville weaponry, introduces you to the third member of your crew: the legendary blacksmith, Gerolt. Various obstacles yet stand in the way of Godbert and the recreation of his ancestor's armaments, and your particular task will be to acquire a sufficient quantity of manderium meteorite. According to Gerolt, the sky rocks in question might be available from one of Rowena's lackeys, Jubrunnah, who has set up shop near the city aetheryte. Suspiciously convenient.",
+            "You approach Jubrunnah, and find that the opportunistic merchant has a large quantity of meteorite pieces in stock. Gil is the preferred currency of collectors the world over, but not for Rowena's very special customer, oh no. It seems her agent has been instructed to charge you a sizable bounty of Allagan tomestones for each chunk of fantastically rare sky rock. And Gerolt will need three of them.",
+            "You deliver the manderium meteorite to the waiting blacksmith, who wastes no time in beginning the oil extraction process. The inert results are disappointing, to say the least. Godbert chooses that moment to make his appearance, treating a dumbfounded Gerolt to an outrageously masculine display of alchemy which transforms the liquid into glowing Exalamanderville. With all the necessary components now in place, Gerolt takes up his hammer, and succeeds in forging what is apparently only the first iteration of your chosen Manderville weaponry. Further refinements, however, will have to wait until Godbert has deciphered the next passage of his ancestor's manual. For the moment, it seems you are free to spend your time as you see fit. Embroiled in another madcap case, perhaps...?"
+        ],
+        "objectives": [
+            "Speak with the House Manderville manservant.",
+            "Speak with Jubrunnah.",
+            "Deliver the chunks of manderium meteorite to Gerolt."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "Please note that upon completing the quest “Make It a Manderville,” you will receive a Manderville weapon for <span class=\"alternative-container\"><span class=\"alternative\">an [Job]</span><span class=\"alternative\">a [Job]</span></span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Please ensure you have changed to your desired job before speaking with the House Manderville manservant."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A2",
+                "text": "Undertake this quest as another job."
+            },
+            {
+                "name": "A2",
+                "text": "Undertake this quest as <span class=\"alternative-container\"><span class=\"alternative\">an [Job]</span><span class=\"alternative\">a [Job]</span></span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Be advised that once you have undertaken this quest, you may not proceed with a class or job that is different from when you accepted it."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Please speak with the House Manderville manservant again when you are ready to undertake this quest."
+            },
+            {
+                "name": "SERVANT04652",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, how wonderful to finally speak with you. Your cooperation in Lord Manderville's weaponsmithing endeavor is highly appreciated."
+            },
+            {
+                "name": "SERVANT04652",
+                "text": "Regarding said endeavor, we've borrowed a corner of the High Crucible in which to base our crafting station. If you would be so kind as to follow me?"
+            },
+            {
+                "name": "SERVANT04652",
+                "text": "Our humble base of operations."
+            },
+            {
+                "name": "SERVANT04652",
+                "text": "You will no doubt be coming back and forth many times in the days ahead, so I strongly suggest that you attune to the city Aethernet...if you've not done so already."
+            },
+            {
+                "name": "SERVANT04652",
+                "text": "Otherwise, I trust you are all set to proceed? One moment whilst I inform Lord Manderville of your arrival."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Oho! Welcome, <span class=\"highlight\">Forename</span>, welcome! With your stalwart assistance added into the mix, I have every confidence that this adventure in forging will be a complete success!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "And so, let us begin...with a detailed exposition on the history of Manderville weaponry!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "First of all, when I say “Manderville weaponry,” what I refer to is the series of masterpieces crafted by the legendary artisan, Godbrand Manderville, the first lord of House Manderville."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Made with mystical manderium, these purportedly peerless armaments are perhaps our most prized treasures...or at least they were, until someone misplaced them. Terrible housekeeping, that. Fortunately, the timeworn manual in which Godbrand penned his secrets is both intact and still within our possession."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Thus with that precious family heirloom in hand─and a ready supply of purest ore─I intend to recreate what was lost!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "The work, however, cannot proceed without a few more key ingredients. I should like to call upon you to procure said materials, as well as provide a seasoned adventurer's perspective on the fruits of our labor."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Excellent! I knew I could count on you. As a goldsmith, crafting weaponry is akin to venturing into unknown territory, and I would place my trust only in the most proficient guides."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Speaking of which, may I introduce one of the very best in the business. Come on over, my friend!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Ugh, bloody hells...I had a feelin' you were the “adventurer” his lordship mentioned was helpin' out. Like a fly on shite when ye catch a whiff of shiny new weapons, ain't ye? &lt;sigh&gt;"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Pleased to meet ye an' all that. The name's Gerolt. I suppose we'll be workin' together on this excitin' little project of his lordship. &lt;sigh&gt;"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "You don't seem too eager to be here..."
+            },
+            {
+                "name": "A1",
+                "text": "Come on, this'll be fun!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "An' why should I be!? Look at this gil-addled dandy I'm forced to hammer fer. I'd rather drag me stones 'cross hot coals than forge yet another rich old bastard's trinkets."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Oh, aye, like a barrelful o' plague-ridden paissas. Look at this gil-addled dandy I'm forced to hammer fer. I'd rather drag me stones 'cross hot coals than forge yet another rich old bastard's trinkets."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Is that the way of it, then? I contacted Rowena hoping to employ the talents of Eorzea's finest smith..."
+            },
+            {
+                "name": "GODBERT",
+                "text": "But as you clearly have no interest in providing me with your services, I shall hire another artisan. We can put this talk of stones and coals behind us..."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Wait, wait, wait, ye've got me all wrong, yer lordship! That was just a bit o' smitty humor to lighten the mood! I would be <span class=\"emphasis\">honored</span> to work on yer trink─er, Manderville weapon!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Ugh, so here's the thing... I already spent the coin this job'll bring me on some right fancy bottles o' Thavnairian liquor. I can't afford <span class=\"emphasis\">not</span> to do it."
+            },
+            {
+                "name": "GODBERT",
+                "text": "So that means we're back in business, yes? Marvelous!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Aye, it's bloody splendid, it is. Yer crew is all present an' accounted fer, so let's get to smithin'!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "There is naught I'd like to do more. Presently, however, there are three conundrums which stand between us and making any Manderville armament a reality."
+            },
+            {
+                "name": "GODBERT",
+                "text": "The first of these is the devising of a method for working the manderium. From what I've been able to decipher from the manual, the process is quite demanding."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Ye jus' leave that to ol' Gerolt. I've yet to meet a metal I can't beat into shape."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Oho! Then I shall cede that chore to your artisanal ingenuity!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "The second is the crafting of ornamentation which will amplify the weapon's aetheric intensity."
+            },
+            {
+                "name": "GEROLT",
+                "text": "If it's a sturdy blade ye need, then I'm yer man. But fiddly bits o' decoration are not in me smithin' wheelhouse."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Then 'tis fortunate that fiddling with bits is most assuredly in mine! Though it shall no doubt be a challenge, creating suitably exquisite adornments is a task well suited to me and my goldsmithing hammer."
+            },
+            {
+                "name": "GODBERT",
+                "text": "As for the third and final problem wanting for resolution, we require a vial of Exalamanderville. If one has access to an industrial-size alchemical furnace, it should be possible to extract this superlative mineral oil from manderium-rich meteorites."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Assumin' I've understood what I heard o' the process, this exalamandra-whatsit oil is key to maximizin' aetherial conductivity."
+            },
+            {
+                "name": "GODBERT",
+                "text": "And thanks to the good graces of the High Crucible, we have the extraction apparatus we require right here. All that remains is to collect three or so goodly chunks of manderium meteorite. That will be your charge, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Right, then I will see about preparing materials for my share of the workload."
+            },
+            {
+                "name": "GEROLT",
+                "text": "An' I'll start stokin' the flames. Sounds like we'll need 'em nice an' hot."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Oh, Rowena asked me to tell ye summat. Seems like one o' her lackeys has oh-so-bloody-conveniently set up shop over by the aetheryte, an' jus' might have the meteorite chunks we need."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Lass by the name o' Jubrunnah, I think it was. Could save ye some searchin', but she sure as shite ain't givin' out sky rocks fer free."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Jubrunnah. In the aetheryte plaza. I expect she's got the meteorite chunks ye need, but like I said, they won't come cheap."
+            },
+            {
+                "name": "JUBRUNNAH",
+                "text": "You must be the famous <span class=\"highlight\">Forename</span>. Mistress Rowena said to expect you, and to assist with any procurement requests."
+            },
+            {
+                "name": "JUBRUNNAH",
+                "text": "Manderium meteorite? Why, yes, we happen to have cornered the market on that particular asset."
+            },
+            {
+                "name": "JUBRUNNAH",
+                "text": "Only so many of them fall from the sky, you see, and collectors offer top gil for such rarities. In your case, however, I've been instructed to request payment in an alternative currency. Say it with me now..."
+            },
+            {
+                "name": "JUBRUNNAH",
+                "text": "Allagan. Tome. Stones."
+            },
+            {
+                "name": "JUBRUNNAH",
+                "text": "The going rate is 500 Allagan Tomestone of Astronomy for one chunk of manderium meteorite. I'll be here whenever you're ready to make the trade."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Do ye have them chunks of sky rock yet? ...Then why are ye wastin' time gabbin' to me?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Chunks of manderium meteorite can be obtained from Jubrunnah at the aetheryte plaza in Radz–at–Han."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Well? Don't jus' stand there with yer thumb up yer arse. Let's see the goods."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Aye, these are proper sky rocks, an' no mistake. Godbert's not back yet, but I reckon we can get a head start on extractin' that special oil o' his!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Bugger. This might as well be cookin' grease fer all the conductivity it's got."
+            },
+            {
+                "name": "GEROLT",
+                "text": "I must've botched one o' the steps. But which one? Pretty sure I followed them instructions to the damn letter."
+            },
+            {
+                "name": "GODBERT",
+                "text": "(-Godbert-)There was no fault in your process, Master Gerolt!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Oh? Then how do ye explain this bottle o' weak piss sittin' on me anvil?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "It has yet to undergo the final treatment─an advanced oil-pressing technique passed down through generations of Manderville lubricant enthusiasts."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Hmph... It'll take more'n some enthusiastic oil pressin' to bring this liquid up to snuff."
+            },
+            {
+                "name": "GODBERT",
+                "text": "O ye of little faith. Observe!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Egads, man, what in the hells are ye strippin' down to yer smallclothes fer!? I should've known ye were jus' some degenerate fop!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Patience, Master Gerolt! This is merely the prelude."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Behold the mighty squats of a Manderville man!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "That should be enough to get the juices flowing. Now, to demonstrate the aforementioned technique!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "A single drop...of potently empowered...Manderville perspiration!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Ye gods, it's full o' stars..."
+            },
+            {
+                "name": "GEROLT",
+                "text": "B-But that don't change anythin'! Yer still jus' an eccentric ol' bugger prancin' about an' sweatin' on things!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Maybe so, but look closer, Master Gerolt. Thus is the Exalamanderville made ready!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "What d'ye mean, “ready”? All ye did was add yer drippings..."
+            },
+            {
+                "name": "GEROLT",
+                "text": "B-Bugger me!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "It ain't possible... Don't s'pose yer gonna explain this, are ye?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "One does not simply reveal the tricks of one's trade, especially long-guarded family traditions. As a fellow professional, I'm sure you understand."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Aye, well...makes no difference to me! Wouldn't be caught dead doin' them creepy poses!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Bracing banter aside, I do believe this puts us in possession of all the necessary components. 'Tis your time to shine, Master Gerolt!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Oh, I'll shine, alright. Yer a cut above the average craftsman, I'll grant you that, but ye've still a few rungs to climb."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Best shield yer eyes, <span class=\"alternative-container\"><span class=\"alternative\">ladies and gents</span><span class=\"alternative\">gents</span></span>, 'cause <span class=\"emphasis\">my</span> work is positively blindin'!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Success! Just as I predicted!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "That right there is a collaborative masterpiece..."
+            },
+            {
+                "name": "GEROLT",
+                "text": "[Error] an' [Error]!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "[Error]!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "That I would live to see my ancestor's wondrous forge work recreated... You've made me a happy Manderville man, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Let's not break out the bubbly booze jus' yet, yer lordship. We've got a ways to go afore we can call our work “finished.”"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Master Gerolt is quite right. I've neglected to properly explain that this is but the first stage of a much grander creation─the bare bones of the weaponry, if you will."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Aye, now begins the endless chore o' refinement. Which means I'll be stuck here fer gods know how long..."
+            },
+            {
+                "name": "GODBERT",
+                "text": "I am loath to monopolize your time, my good blacksmith, but the manual is written in a most confounding cipher. I am not even certain when I will finish decoding the next step in the process..."
+            },
+            {
+                "name": "GEROLT",
+                "text": "So I'm to sit idle, then? At least I've a few bottles of quality liquor to keep me company, heh heh!"
+            },
+            {
+                "name": "GODBERT",
+                "text": "A regrettable yet unavoidable delay. Let us reconvene when the manual has given up its secrets, shall we?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Meanwhile, I leave the weaponry in your battle-hardened hands. When next we meet, your report of its performance will be indispensable in guiding our improvements."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ah, and should you wish to experiment with a different variety of Manderville weapon..."
+            },
+            {
+                "name": "GODBERT",
+                "text": "...Then this highly trained House Manderville artisan is at your service. I've imparted to him the necessary techniques for facilitating this initial stage of crafting. He requires only a contribution of manderium meteorite to forge a weapon of your choosing."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Another near-naked bastard! What do ye Manderville folk have against trousers!?"
+            },
+            {
+                "name": "GODBERT",
+                "text": "Ohohoho!"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Ye know what, I don't even wanna know, jus'...leave the smithin' to me. When I do a job, I do it right."
+            },
+            {
+                "name": "GODBERT",
+                "text": "Very well, then I shall return anon. I am most eager to see the next stage of our masterpiece take shape!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "A repeatable quest is now available from the House Manderville artisan at the High Crucible of Al-Kimiya. This quest may be accepted to create Manderville weapons for other jobs."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Please ensure you have changed to your desired job before speaking with the House Manderville artisan."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 38400
+                },
+                {
+                    "id": 38419
+                },
+                {
+                    "id": 38401
+                },
+                {
+                    "id": 38402
+                },
+                {
+                    "id": 38403
+                },
+                {
+                    "id": 38404
+                },
+                {
+                    "id": 38408
+                },
+                {
+                    "id": 38409
+                },
+                {
+                    "id": 38410
+                },
+                {
+                    "id": 38411
+                },
+                {
+                    "id": 38405
+                },
+                {
+                    "id": 38406
+                },
+                {
+                    "id": 38407
+                },
+                {
+                    "id": 38412
+                },
+                {
+                    "id": 38413
+                },
+                {
+                    "id": 38414
+                },
+                {
+                    "id": 38415
+                },
+                {
+                    "id": 38416
+                },
+                {
+                    "id": 38418
+                },
+                {
+                    "id": 38417
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 90,
+                    "id": 191
+                }
+            ],
+            "quests": [
+                70178
+            ]
+        },
+        "next": [
+            70189
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1043950",
+            "obj": {
+                "i": 1043950,
+                "n": "House Manderville Manservant",
+                "l": 3707,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1043954",
+            "obj": {
+                "i": 1043954,
+                "n": "Gerolt",
+                "l": 3707,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "38400",
+            "obj": {
+                "i": 38400,
+                "n": "Manderville Sword",
+                "l": 615,
+                "c": "t/30654",
+                "t": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "38419",
+            "obj": {
+                "i": 38419,
+                "n": "Manderville Kite Shield",
+                "l": 615,
+                "c": "t/30244",
+                "t": 11
+            }
+        },
+        {
+            "type": "item",
+            "id": "38401",
+            "obj": {
+                "i": 38401,
+                "n": "Manderville Knuckles",
+                "l": 615,
+                "c": "t/30819",
+                "t": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "38402",
+            "obj": {
+                "i": 38402,
+                "n": "Manderville Axe",
+                "l": 615,
+                "c": "t/31228",
+                "t": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "38403",
+            "obj": {
+                "i": 38403,
+                "n": "Manderville Spear",
+                "l": 615,
+                "c": "t/31630",
+                "t": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "38404",
+            "obj": {
+                "i": 38404,
+                "n": "Manderville Harp Bow",
+                "l": 615,
+                "c": "t/32019",
+                "t": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "38408",
+            "obj": {
+                "i": 38408,
+                "n": "Manderville Cane",
+                "l": 615,
+                "c": "t/32448",
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "38409",
+            "obj": {
+                "i": 38409,
+                "n": "Manderville Rod",
+                "l": 615,
+                "c": "t/32863",
+                "t": 7
+            }
+        },
+        {
+            "type": "item",
+            "id": "38410",
+            "obj": {
+                "i": 38410,
+                "n": "Manderville Index",
+                "l": 615,
+                "c": "t/33362",
+                "t": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "38411",
+            "obj": {
+                "i": 38411,
+                "n": "Manderville Codex",
+                "l": 615,
+                "c": "t/33361",
+                "t": 98
+            }
+        },
+        {
+            "type": "item",
+            "id": "38405",
+            "obj": {
+                "i": 38405,
+                "n": "Manderville Knives",
+                "l": 615,
+                "c": "t/33605",
+                "t": 84
+            }
+        },
+        {
+            "type": "item",
+            "id": "38406",
+            "obj": {
+                "i": 38406,
+                "n": "Manderville Zweihander",
+                "l": 615,
+                "c": "t/34382",
+                "t": 87
+            }
+        },
+        {
+            "type": "item",
+            "id": "38407",
+            "obj": {
+                "i": 38407,
+                "n": "Manderville Revolver",
+                "l": 615,
+                "c": "t/34478",
+                "t": 88
+            }
+        },
+        {
+            "type": "item",
+            "id": "38412",
+            "obj": {
+                "i": 38412,
+                "n": "Manderville Torquetum",
+                "l": 615,
+                "c": "t/34976",
+                "t": 89
+            }
+        },
+        {
+            "type": "item",
+            "id": "38413",
+            "obj": {
+                "i": 38413,
+                "n": "Manderville Samurai Blade",
+                "l": 615,
+                "c": "t/36533",
+                "t": 96
+            }
+        },
+        {
+            "type": "item",
+            "id": "38414",
+            "obj": {
+                "i": 38414,
+                "n": "Manderville Rapier",
+                "l": 615,
+                "c": "t/36832",
+                "t": 97
+            }
+        },
+        {
+            "type": "item",
+            "id": "38415",
+            "obj": {
+                "i": 38415,
+                "n": "Manderville Gunblade",
+                "l": 615,
+                "c": "t/36075",
+                "t": 106
+            }
+        },
+        {
+            "type": "item",
+            "id": "38416",
+            "obj": {
+                "i": 38416,
+                "n": "Manderville Chakrams",
+                "l": 615,
+                "c": "t/36274",
+                "t": 107
+            }
+        },
+        {
+            "type": "item",
+            "id": "38418",
+            "obj": {
+                "i": 38418,
+                "n": "Manderville Scythe",
+                "l": 615,
+                "c": "t/37242",
+                "t": 108
+            }
+        },
+        {
+            "type": "item",
+            "id": "38417",
+            "obj": {
+                "i": 38417,
+                "n": "Manderville Milpreves",
+                "l": 615,
+                "c": "t/37040",
+                "t": 109
+            }
+        },
+        {
+            "type": "item",
+            "id": "38420",
+            "obj": {
+                "i": 38420,
+                "n": "Manderium Meteorite",
+                "l": 1,
+                "c": 21225,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70178",
+            "obj": {
+                "i": 70178,
+                "n": "The Imperfect Gentleman",
+                "g": 71,
+                "l": "Mare Lamentorum",
+                "s": 220,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70189",
+            "obj": {
+                "i": 70189,
+                "n": "Make Another Manderville",
+                "g": 72,
+                "l": "Radz-at-Han",
+                "s": 151,
+                "r": 1,
+                "f": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "quest": {
+        "name": "Removing the Stain",
+        "location": "Western La Noscea",
+        "id": 66945,
+        "patch": 2.2,
+        "sort": 39,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005940,
+        "target": 1005940,
+        "genre": 41,
+        "usedItems": [
+            7805
+        ],
+        "journal": [
+            "Seww would have you remove a dangerous threat to the peace of the spawning grounds.",
+            "According to Seww, a notorious Serpent Reaver captain by the name of Aermswys the Stained has been plotting alongside the leaders of the Coral Tridents. The young Sahagin fears that to stand idle while they set their nefarious plans in motion would be to invite disaster for his people. Participate in the FATE “Watch Your Tongue” in the Serpent's Tongue, and present proof of your deed to Seww.",
+            "You have vanquished the dreadful captain and delivered her coral necklace to Seww. Novv's spawnling confirms the authenticity of the trinket, and praises the enormity of your deed. But though you have foiled whatever schemes the Coral Tridents were hatching, it will not prevent them from enlisting the vile services of the next captain who arises from the ranks of the Serpent Reavers..."
+        ],
+        "objectives": [
+            "Deliver the coral necklace obtained in the FATE “Watch Your Tongue” to Seww."
+        ],
+        "dialogue": [
+            {
+                "name": "SEWW",
+                "text": "Pshhh... A notorioushhh Shhherpent Reaver captain by the name of Aermswys the Shhhtained has been shhheen meeting with the leaders of the Coral Tridentshhh."
+            },
+            {
+                "name": "SEWW",
+                "text": "We do not know what foul plans they are hatching, but naught that finleshhh brute is involved with bodes well for the peace of the shhhpawning grounds."
+            },
+            {
+                "name": "SEWW",
+                "text": "I do not think it wise to shhhtand back and allow eventshhh to unfold. If the death of one loathshhhome pirate can shhhpare my people future tragedy, then shhho be it!"
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... The captain often shhhuts hershhhelf away in her quarters, but you might catch her walking about in the Shhherpent's Tongue. Shhhlay thishhh dangerous woman, <span class=\"highlight\">Forename</span>, and bring me the coral necklace that shhhignifies her loyalty to the Coral Tridentshhh."
+            },
+            {
+                "name": "SEWW",
+                "text": "Aermswys the Shhhtained is one of the Tridents' moshhht vile petshhh. Bring me her coral necklace that we might know this dreadful shhhorewalker is no more!"
+            },
+            {
+                "name": "SEWW",
+                "text": "Yeshhh, thishhh trinket is proof that the pirate you defeated was indeed the captain and none other. The Reavers will have little time for villainy while they conteshhht the matter of her succession."
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... I do not undershhhtand why the Tridentshhh associate with shhhuch shhhcum. It shhheems our clutchfather has far better tashhhte in choosing his shhhorewalker allies!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21077
+                },
+                {
+                    "id": 5672,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005940",
+            "obj": {
+                "i": 1005940,
+                "n": "Seww",
+                "l": 33,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21077",
+            "obj": {
+                "i": 21077,
+                "n": "Rainbowtide Psashp",
+                "l": 1,
+                "c": 65053,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5672",
+            "obj": {
+                "i": 5672,
+                "n": "Savage Aim Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "7805",
+            "obj": {
+                "i": 7805,
+                "n": "Coral Necklace",
+                "l": 1,
+                "c": 54830,
+                "t": 61
+            }
+        }
+    ]
+}

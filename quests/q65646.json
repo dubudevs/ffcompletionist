@@ -1,0 +1,657 @@
+{
+    "quest": {
+        "name": "A Dainty Dilemma",
+        "location": "Limsa Lominsa",
+        "id": 65646,
+        "patch": 2.4,
+        "sort": 50,
+        "icon": 100344,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1009943,
+        "target": 1009943,
+        "involved": [
+            1005411,
+            1010197,
+            1010205,
+            1010206
+        ],
+        "genre": 132,
+        "journal": [
+            "Jacke appears eager to give you your first assignment.",
+            "Jacke has assigned you your first official task─a case concerning a plundered piece of imperial technology. Another rogue, a Lalafell by the name of Perimu Haurimu, is to assist you in your work. Speak with Perimu “Underfoot” Haurimu to begin your assignment.",
+            "Before you start your task in earnest, Perimu wishes to impress upon you the importance of evasion for a lightly armored rogue. Head out to lower La Noscea and defeat three aureliae while focusing on avoiding attacks through the use of swift footwork.",
+            "You have defeated the aureliae. Return to the Rogues' Guild and report to Perimu Haurimu.",
+            "You make your report, and Perimu Haurimu appears satisfied with your skills of evasion. After explaining that the first step in your assignment is to locate the thugs who violated the code, Underfoot then suggests making use of the guild's widespread spy network. Head to the Drowning Wench and attempt to order a weak ale from I'tolwann, the Miqo'te server.",
+            "You make your incredibly un-Lominsan-like order for weak ale, signalling to I'tolwann that you are a member of the Rogues' Guild in search of information. The Drowning Wench server then provides you with a description of your targets, otherwise known as the “Dainty Demolishers.” It seems the Demolishers are known for fencing their goods─mostly pieces of stolen Garlean machinery─to a group of goblins in middle La Noscea. Travel to Summerford, and join with Perimu Haurimu at his vantage point across the river from the beastmen's camp.",
+            "After rendezvousing with Perimu, you learn that one of the beastmen is already in possession of the stolen goods. Defeat the goblin gambler, and retrieve the firing mechanism.",
+            "You have slain the goblin gambler and secured the magitek device. Return to Perimu Haurimu at his vantage point and confirm that you have retrieved the correct gadget.",
+            "Perimu Haurimu inspects the device and commends you on a job well done. Return to the Rogues' Guild and deliver the firing mechanism to Jacke.",
+            "After delivering the device to Jacke, the “Dutiful Sisters” are suddenly paid a visit by the Dainty Demolishers. It seems the trio of dandified thugs had trailed you back to the guild with the intent of demanding restitution for your recent act of larceny. The rogues make short work of the intruders, but not before the Demolishers' leader reveals a curious fact about the guild's past. Speak with Jacke to conclude your assignment and learn more about the history of the rogues.",
+            "Though reluctant to dwell on past events, Jacke nevertheless explains to you the origin of the Rogues' Guild. No matter how its name changes, the guildmaster insists that the guild's task of upholding the code ever remains the same. Return to your training and prepare for your next assignment.<br><br>※The next rogue quest will be available from Jacke upon reaching level 10."
+        ],
+        "objectives": [
+            "Speak with Perimu Haurimu.",
+            "Slay aureliae.",
+            "Report to Perimu Haurimu at the Rogues' Guild.",
+            "Speak with I'tolwann at the Drowning Wench.",
+            "Speak with Perimu Haurimu in Summerford.",
+            "Steal the firing mechanism #43 from a goblin gambler.",
+            "Present the firing mechanism #43 to Perimu Haurimu.",
+            "Deliver the firing mechanism #43 to Jacke at the Rogues' Guild.",
+            "Speak with Jacke."
+        ],
+        "dialogue": [
+            {
+                "name": "JACKE",
+                "text": "Ho there, <span class=\"highlight\">Forename</span>. I must say, yer lookin' comfortable enough with those stabbers o' yers."
+            },
+            {
+                "name": "JACKE",
+                "text": "Aye, I reckon yer good an' ready for yer first assignment."
+            },
+            {
+                "name": "JACKE",
+                "text": "...Ordinarily I'd stow me whids an' let ye get on with yer work, but seein' as we only just dragged ye into the shadows, there might be a couple things what ye ain't yet familiar with."
+            },
+            {
+                "name": "JACKE",
+                "text": "Let's build on what ye likely <span class=\"emphasis\">do</span> know. An' that's the fact that the Admiral─gods bless her soul─has outlawed piracy in Limsa Lominsa."
+            },
+            {
+                "name": "JACKE",
+                "text": "So, why do ye think there're still so many soddin' pirates in this town? I'll tell ye why: it's 'cause there's still one way for 'em to loot an' pillage without incurrin' the wrath o' the law."
+            },
+            {
+                "name": "JACKE",
+                "text": "All ye need do is apply to serve the thalassocracy as a “certified privateer.” A captain with a privateer's license is free to terrorize the seas till the aldgoats come home...so long as he only targets vessels what belong to the Garlean Empire."
+            },
+            {
+                "name": "JACKE",
+                "text": "'Course, considerin' how bloody vast the Empire is, that's plenty o' lootin' to go around."
+            },
+            {
+                "name": "JACKE",
+                "text": "Crews fill their holds with imperial plunder, then sail back here to Limsa to off-load the spoils. ...An' that's where this particular case went sour."
+            },
+            {
+                "name": "JACKE",
+                "text": "See, this one crew got their fambles on a magitek device─a firin' mechanism to be precise─but was rooked out o' their haul by some heavy-handed coves."
+            },
+            {
+                "name": "JACKE",
+                "text": "If ye'll recall, that don't sit well with the code. If yer bold enough to rook a pirate out o' his due, then ye'd best be prepared for a visit from the rogues."
+            },
+            {
+                "name": "JACKE",
+                "text": "Ah, an' speakin' o' visitin' rogues... Underfoot! Over here, lad!"
+            },
+            {
+                "name": "JACKE",
+                "text": "I want the pair o' ye workin' together on this. Pass sentence on them code-defyin' rooks, and bite back that magitek part."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Eh!? What's the <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">colt</span></span> need me for!?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Yer in charge o' new recruits, ain't ye? It's <span class=\"highlight\">Forename</span>'s first assignment─yer to go along an' give <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> the benefit o' yer wisdom."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Since when was I in charge o' new─ Ah, bugger it..."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Er... So I guess we're to be partners for the now. The name's Perimu Haurimu, but most o' me fellows call me “Underfoot.”"
+            },
+            {
+                "name": "JACKE",
+                "text": "He might seem a touch reluctant, but Perimu's one of our best. You just do as he says, an' ye'll get the job done."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "All right, then, me young rogue. Seein' as this is yer first official outin', I want to be sure yer dance steps are up to the task."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "With them shortblades, ye need to get in good an' close to yer mark, aye? But we ain't bleedin' swads in shinin' armor, an' the lighter kit we wear ain't much protection from a click to the gan."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "So if ye don't fancy spittin' blood an' teeth, yer best defense is simply not bein' there when yer mark winds up to land a nasty clout."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Slidin' 'round to a flank usually does the trick, but there's some rum fun every rogue should master: the shade shift. Clear yer mind an' trust in yer speed, an' ye can leave an axe-wieldin' brute or spell-flingin' mage chasin' yer shadow while ye bury yer stabbers in his guts."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Right, now it's time ye put this lesson into practice against some o' those aureliae out in lower La Noscea. I hope ye was payin' attention, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>, 'cause those tentacles can pack a wallop. Enjoy!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Head out into lower La Noscea an' pick a fight with a few o' them aureliae. Remember: the point o' this exercise is to practice yer evasion, so don't come back to me with welts all over yer face!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Done with yer practice, then? Heh heh, the sting o' them tentacled buggers'll soon teach ye to stay on yer toes, eh?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Ahem. Now we've got yer blood rushin', I'd say it's time to get down to work."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "First things first, we need to track down them addled coves what rooked that magitek gadget."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Might be as one of our rogues has heard somethin'. The guild thrives on information, ye see, an' we've agents scattered far an' wide with their glazes keen an' their wattles to the ground."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Let's pay us a visit to I'tolwann at the Drownin' Wench. Ask her for a weak ale, an' see what that gets ye."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "I'm not settin' ye up for a laugh, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Trust me!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Order yerself a weak ale. It'll all make sense in a bit."
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "Welcome to the Drowning Wench! What's your pleasure, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you order?"
+            },
+            {
+                "name": "A1",
+                "text": "A chilled ale."
+            },
+            {
+                "name": "A1",
+                "text": "A strong ale."
+            },
+            {
+                "name": "A1",
+                "text": "A weak ale."
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "Certainly, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. Take a seat, and I'll bring it straight to your─ Hm? Changed your mind?"
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "Never in all my days! We may serve some cheap grog in the Wench, but naught that was watered down."
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "If our usual ale is too bold for your taste, mayhaps you'd like to order from the <span class=\"emphasis\">underground</span> menu?"
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "Aye, there's quite a lot on offer for a customer with your <span class=\"emphasis\">roguish</span> charms. Was there something in particular I could help you with?"
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "...Ah, the trouble over that magitek loot? 'Twas not a subtle job."
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "The gang in question is an unusual group of former pirates calling themselves the “Dainty Demolishers.” They seem to be enamored of court dandy mannerisms, and have a preference for seizing Garlean machinery."
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "They're also known for conspiring with goblins. Rumors say that the Demolishers visit a beastman camp in middle La Noscea to fence their goods."
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "And those goods generally take the form of imperial technology─I imagine the goblins were rather pleased to take possession of a Mark XLIII anti-aircraft cannon firing mechanism."
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "If you mean to steal the device back, then your trail leads to the goblin camp in Summerford."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Summerford, eh? On yer way, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Meet me across the river from the camp an' we'll plan our next move..."
+            },
+            {
+                "name": "ITOLWANN",
+                "text": "That twice-stolen magitek device is likely at the goblin camp in Summerford. I'd be quick if I were you─it won't be long before those curious beastmen begin taking it to pieces."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Get yer noggin down, <span class=\"highlight\">Forename</span>. I've been snilchin' the action across the way there."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "No sign o' the Demolishers, but I did see one o' them gambler coves stuffin' the Garlean gadget into his backpack."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "I knew I'tolwann would steer us aright. This is yer chance, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>─clout that gambler gobbie an' grabble that device!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Er... I've lost track o' which gob it was, but I'm thinkin' it's that sod on the left. Just make sure ye dance away from any bomb blasts─twistin' an' dodgin' in the middle of a fireball might not save ye from gettin' yer eyebrows singed off."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Go on, then─that gambler ain't gonna wait all day. Show ol' Underfoot how ye've learned yer lessons!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "That's the way, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. There was naught for me to do but sit on me daddles an' watch! ...So, ye've got the goods, then?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Aye, this is the device, an' no mistakin'."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Let's get it back to the guild, eh? We still owe them Demolisher bastards a millin', but they'll keep for the now."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Here, you should be the one to deliver the prize to Jacke. It was yer hand what snatched it outta the goblins' paws, after all."
+            },
+            {
+                "name": "KOBUNA00110",
+                "text": "Captain! Captain, I say! Some fiend has perpetrated violence upon our goblin colleagues whilst we sought but to wet our throats with fine libations!"
+            },
+            {
+                "name": "KOBUNB00110",
+                "text": "This will not stand, Captain! Our finely filched loot has been pilfered from under our noses!"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "Blast and bother! My blood boils and bubbles at the temerity of this affront!"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "I know not the identity of these audacious buffoons, but they shall be made to pay and pay dearly! With me, my fine fellows!"
+            },
+            {
+                "name": "KOBUNAB00110",
+                "text": "(-Dainty Demolisher Deckhands-)Huzzah!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Hand that magitek gadget directly to Jacke─I ain't about to take credit for yer fieldwork!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Ye manage to grabble that firin' mechanism yet, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Ah, still in one piece, too!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Ye've done well for yer first assignment, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. It don't look like much, but that crew put their lives on the line to cloy this here bauble. They'll be pleased to see it snatched back from the ruffmans."
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "We've yet to do for the Dainty Demolishers, Jacke... The job ain't over."
+            },
+            {
+                "name": "JACKE",
+                "text": "Yer right, Underfoot. It ain't. Ye break the code, ye face the consequences."
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "(-???-)Oho! This is not at all what I expected from the inside of a convent!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "...An' who might you be, sirs?"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "Hahaha! Your ignorance is understandable! After all, our schemes are always perfect─our heists, impeccable! Shall I reveal our infamous name and drink in your delicious terror?"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "We are deadly, dastardly, and dictionally devilish! Quail before the Dainty Demolishers!"
+            },
+            {
+                "name": "KOBUNA00110",
+                "text": "Captain! Captain, I say! There's the <span class=\"alternative-container\"><span class=\"alternative\">louse</span><span class=\"alternative\">cad</span></span> who misappropriated our merchandise!"
+            },
+            {
+                "name": "KOBUNB00110",
+                "text": "I concur! <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span> is the selfsame simpleton whom we trailed unnoticed to this very establishment!"
+            },
+            {
+                "name": "KOBUNAB00110",
+                "text": "(-Dainty Demolisher Deckhands-)Surprise, surprise!"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "Now, now, my dear dandies. Let us not be unpleasant. We should endeavor to resolve this distastefulness without resorting to insults or other less...diplomatic methods. At least not yet."
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "You there. Yes, the clean-cheeked errand boy. Be a good fellow, and fetch me your superior."
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "One of your colleagues has committed a terrible crime against us. And we shall not be leaving until the proper restitution has been paid."
+            },
+            {
+                "name": "JACKE",
+                "text": "...Oho, an errand boy now, am I?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Tell me, <span class=\"emphasis\">Captain</span>: just what kind o' place do ye think this is, then?"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "Hm? This place? Why, I suppose it is some manner of convent. The one-eyed doorman named it the “Dutiful Sisters of the Edelweiss,” or some such..."
+            },
+            {
+                "name": "JACKE",
+                "text": "An ye've yet to realize yer mistake? Yer fate was sealed the moment ye dragged yer sorry quarron across the threshold."
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "...Are you threatening me, boy!? I'll have my fellows cut out that impudent tongue!"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "We've exhausted our reserves of “dainty” today, lads! Show these fraudulent “Sisters” how the Demolishers deal with upstarts!"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "(-Red-haired Rogue-)Ye still don't understand, do ye?"
+            },
+            {
+                "name": "VKEBBE",
+                "text": "(-Red-haired Rogue-)There are but three sorts o' culls what the doorman'll let pass: clients, recruits─"
+            },
+            {
+                "name": "KOBUNB00110",
+                "text": "Gods spit!"
+            },
+            {
+                "name": "KOBUNB00110",
+                "text": "I'll kill you all!"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Didn't yer mum teach ye not to interrupt a lady when she's talkin'?"
+            },
+            {
+                "name": "PERIMUHAURIMU",
+                "text": "Ye'd have learned that the third sort o' cull is a bollocks-for-brains mark what marches himself right into the rogues' den."
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "R-Rogues!? B-But...we were so careful!"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "I'd heard tales in my pirate days─stories about the merciless wraiths who uphold the code. They weren't called rogues back then, though..."
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "The “Upright Thieves,” they were! The knives in the shadows!"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "Y-You can't be them... You're just trying to scare me! Well, the captain of the Dainty Demolishers is not so easily cowed!"
+            },
+            {
+                "name": "OYABUN00110",
+                "text": "To the hells with your deceptions! Huzzah! Huzzah for my fallen comrades!"
+            },
+            {
+                "name": "JACKE",
+                "text": "Deceptions? Aye. Anyone ye meet could be a rogue, Captain─even a clean-cheeked errand boy."
+            },
+            {
+                "name": "JACKE",
+                "text": "He's still breathin'. Find some rope an' string him up someplace in town."
+            },
+            {
+                "name": "JACKE",
+                "text": "An' <span class=\"emphasis\">now</span> the job's done. Quite an introduction ye had there, eh?"
+            },
+            {
+                "name": "JACKE",
+                "text": "Welcome to Limsa Lominsa's ever-churnin' underbelly, where the thieves shed their skins an' became rogues."
+            },
+            {
+                "name": "JACKE",
+                "text": "I'm not much for discussin' the old days, but since it's come up I might as well clear up the confusion."
+            },
+            {
+                "name": "JACKE",
+                "text": "It was back when piracy was at its peak. The coves what protected the code were dimber dambers─the best lads an' lasses to be had from among the pirate crews."
+            },
+            {
+                "name": "JACKE",
+                "text": "They bit back the goods what was wrongly bitten, an' came for the guilty under cover of darkmans. “Upright Thief” became the title for these coves what dealt in sanctioned stealin' an' millin'."
+            },
+            {
+                "name": "JACKE",
+                "text": "But it was only those as had cut all ties with the buccaneer's life what was accepted into the ranks. Conflictin' loyalties, an' all that."
+            },
+            {
+                "name": "JACKE",
+                "text": "They formed their own guild an' even their own way o' speakin', an' what was once pirates was pirates no more."
+            },
+            {
+                "name": "JACKE",
+                "text": "Later on, when Merlwyb took the Admiral's chair, the Upright Thieves agreed to abide by her laws."
+            },
+            {
+                "name": "JACKE",
+                "text": "We became the “Rogues' Guild” to mark the change, an' altered our recruitin' policy to accept 'venturers like yerself. But although the title is different, the job remains the same: uphold the code, an' preserve the underground society what spawned us."
+            },
+            {
+                "name": "JACKE",
+                "text": "...Just as ye've done with this assignment. Keep up the good work, <span class=\"highlight\">Forename</span>, an' ye'll go far in the shadows!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 9184
+                },
+                {
+                    "id": 3003,
+                    "one": 1
+                },
+                {
+                    "id": 2653,
+                    "one": 1
+                },
+                {
+                    "id": 3530,
+                    "one": 1
+                },
+                {
+                    "id": 27634,
+                    "one": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5823,
+                    "one": 1
+                }
+            ],
+            "xp": 560
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 5,
+                    "id": 91
+                }
+            ],
+            "quests": [
+                65640
+            ]
+        },
+        "next": [
+            65662
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009943",
+            "obj": {
+                "i": 1009943,
+                "n": "Jacke",
+                "l": 1427,
+                "q": 15,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005411",
+            "obj": {
+                "i": 1005411,
+                "n": "I'tolwann",
+                "l": 28,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010197",
+            "obj": {
+                "i": 1010197,
+                "n": "Perimu Haurimu",
+                "l": 1427,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010205",
+            "obj": {
+                "i": 1010205,
+                "n": "Perimu Haurimu",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010206",
+            "obj": {
+                "i": 1010206,
+                "n": "Perimu Haurimu",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "9184",
+            "obj": {
+                "i": 9184,
+                "n": "Bronze Daggers",
+                "l": 5,
+                "c": 33802,
+                "t": 84,
+                "p": 151
+            }
+        },
+        {
+            "type": "item",
+            "id": "3003",
+            "obj": {
+                "i": 3003,
+                "n": "Custom-made Tunic",
+                "l": 6,
+                "c": 42307,
+                "t": 35,
+                "p": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "2653",
+            "obj": {
+                "i": 2653,
+                "n": "Leather Eyepatch",
+                "l": 5,
+                "c": 40914,
+                "t": 34,
+                "p": 141
+            }
+        },
+        {
+            "type": "item",
+            "id": "3530",
+            "obj": {
+                "i": 3530,
+                "n": "Fingerless Leather Gloves",
+                "l": 5,
+                "c": 44060,
+                "t": 37,
+                "p": 126
+            }
+        },
+        {
+            "type": "item",
+            "id": "27634",
+            "obj": {
+                "i": 27634,
+                "n": "Altered Thighboots",
+                "l": 5,
+                "c": 49077,
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "5823",
+            "obj": {
+                "i": 5823,
+                "n": "Allagan Tin Piece",
+                "l": 5,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65640",
+            "obj": {
+                "i": 65640,
+                "n": "Stabbers in Yer Fambles",
+                "g": 132,
+                "l": "Limsa Lominsa",
+                "s": 11,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65662",
+            "obj": {
+                "i": 65662,
+                "n": "Stray into the Shadows",
+                "g": 132,
+                "l": "Limsa Lominsa",
+                "s": 100,
+                "f": 1
+            }
+        }
+    ]
+}

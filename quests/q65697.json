@@ -1,0 +1,415 @@
+{
+    "quest": {
+        "name": "Leia's Legacy",
+        "location": "Central Shroud",
+        "id": 65697,
+        "patch": 2.0,
+        "sort": 71,
+        "icon": 100036,
+        "eventIcon": 71201,
+        "issuer": 1000471,
+        "target": 1000471,
+        "involved": [
+            1000476,
+            1000483,
+            1000484,
+            1003002
+        ],
+        "genre": 1,
+        "journal": [
+            "Luquelot at Bentbranch Meadows seeks your assistance in finding a lost chocobo egg.",
+            "Luquelot informs you that an egg has been stolen from the stables. The lost egg appears to be of great importance to Luquelot. Question the people of Bentbranch Meadows and see what clues you can uncover as to its whereabouts.",
+            "You have finished questioning the ranch workers. Report your findings to Luquelot.",
+            "The egg thief appears to be a man from Luquelot's homeland of Ishgard. Follow the thief's trail to the Tam–Tara Deepcroft, and retrieve Leia's egg.",
+            "You emerge victorious from your confrontation with the egg thief. Take possession of Leia's egg.",
+            "Return Leia's egg to Luquelot at Bentbranch Meadows.",
+            "You have retrieved Leia's egg and returned it to Bentbranch Meadows, much to the relief of everyone at the ranch. Speak with Luquelot, who will doubtless want to reward you.",
+            "Having thanked you profusely for your assistance, Luquelot reveals that he bore witness to a most alarming sight while you were away. Given the obvious depth of his concern, it may be wise to ask the worried Elezen to relate the details."
+        ],
+        "objectives": [
+            "Question the people of Bentbranch Meadows.",
+            "Speak with Luquelot.",
+            "Subdue the thief, and take back Leia's egg.",
+            "Retrieve Leia's egg.",
+            "Return Leia's egg to Luquelot.",
+            "Speak with Luquelot.",
+            "Defeat Janremi Blackheart and his band!"
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "No! Oh, please gods, no! Leia's egg!"
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "<span class=\"highlight\">Forename</span>, you must help me! I stepped out of the stables for but a moment, and when I returned it was <span class=\"emphasis\">gone</span>!"
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "I─ What was gone? An egg! Sorry? You are sure the chocobos will lay another!? Gah! You do not understand─the egg is extremely valuable! I <span class=\"emphasis\">must</span> find it!"
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "You will help me, won't you, <span class=\"highlight\">Forename</span>? Oh, thank you, thank you!"
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "Someone must have made off with it. There can be no other explanation. I shall scour every ilm of the stable once more just to be sure. While I do so, I should be very grateful if you would ask the others if they noticed anything unusual."
+            },
+            {
+                "name": "LAODAIRE",
+                "text": "A chocobo egg has gone missing? Hm, well let me think."
+            },
+            {
+                "name": "LAODAIRE",
+                "text": "Now that you mention it, the chocobos <span class=\"emphasis\">were</span> making quite a racket earlier. So much so, in fact, that I ran over to check on them, almost flattening a passing peddler in my haste. I didn't find anything out of the ordinary, though."
+            },
+            {
+                "name": "LAODAIRE",
+                "text": "Hm? Could I describe the peddler? Oh...he was an Elezen fellow─didn't recognize his face. Seemed awfully twitchy. Oh <span class=\"emphasis\">gods</span>, you don't think he...? Why in the hells didn't I accost him!?"
+            },
+            {
+                "name": "BERNARD",
+                "text": "Have I seen any odd characters about? Aside from yourself, you mean? Not that I recall."
+            },
+            {
+                "name": "BERNARD",
+                "text": "I did see someone calming the birds, but only from a distance. I assumed it was Luquelot..."
+            },
+            {
+                "name": "BERNARD",
+                "text": "But if you say he was away from the stables at the time...then who was that with the chocobos?"
+            },
+            {
+                "name": "EWMOND",
+                "text": "See anyone actin' suspicious? I most certainly did, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. A man, it was, runnin' off towards the Tam–Tara Deepcroft."
+            },
+            {
+                "name": "EWMOND",
+                "text": "Hm? You say an egg was took? Then I'd say that there was yer culprit."
+            },
+            {
+                "name": "EWMOND",
+                "text": "But why would anyone pinch a chocobo egg? Without the proper learnin', it's damn near impossible to get one to hatch."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "There can be no mistake, then. The egg was indeed stolen."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "And from what you have told me, this was no simple robbery."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "That the culprit should take only Leia's egg and disregard all the rest tells me we are dealing with someone well versed in chocobo breeding. I am sorry to say that the individual in question is like to be a citizen of my native Ishgard."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "Leia, you see, is of the bloodline of Ouranos─one of the greatest birds ever to grace an Ishgardian stable."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "Many a man in my homeland would give his right arm to possess one of Leia's eggs... Gods, I should have foreseen this! We must give chase at once!"
+            },
+            {
+                "name": "KEITHA",
+                "text": "Hold your chocobos, Luquelot! If this egg thief's from Ishgard, like you say, why'd he go runnin' off towards the Tam–Tara Deepcroft? Unless I've got me mental map upside down, that's the opposite direction."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "W-Well, yes, but...he may seek to lay a false trail, or...uh... Bah! The why of it is not important! Leia's egg is all that matters! Adventurer, I beg of you, hunt the scoundrel down and take back what he stole!"
+            },
+            {
+                "name": "KEITHA",
+                "text": "Well, at least you ain't plannin' on chasin' after him yourself...wherever he's from."
+            },
+            {
+                "name": "KEITHA",
+                "text": "We may work wonders with our birds, <span class=\"highlight\">Forename</span>, but acts of derrin'-do ain't exactly our field. If you don't mind, we'll leave that end of things to you."
+            },
+            {
+                "name": "KEITHA",
+                "text": "With luck, you may catch the thief on the road to the Tam–Tara Deepcroft, but do be careful─we cannot be certain he is working alone in this."
+            },
+            {
+                "name": "JANREMI",
+                "text": "&lt;pant&gt; &lt;wheeze&gt; I have caught you at last, you spiteful imp! Now hand over the egg!"
+            },
+            {
+                "name": "KUPULUKOPO",
+                "text": "You can't have it, kupo! This egg belongs to Luquelot!"
+            },
+            {
+                "name": "JANREMI",
+                "text": "Who in Halone's bloody fury are you? Ah, those sops at Bentbranch hired themselves an adventurer, did they?"
+            },
+            {
+                "name": "JANREMI",
+                "text": "Yet <span class=\"emphasis\">another</span> complication. This farce has gone on long enough. Kill the moogle and the farmers' hireling, and bring me that damned egg!"
+            },
+            {
+                "name": "KUPULUKOPO",
+                "text": "Thank you, kupo."
+            },
+            {
+                "name": "KUPULUKOPO",
+                "text": "What's that, kupo? How did I come to be out here?"
+            },
+            {
+                "name": "KUPULUKOPO",
+                "text": "Ah, well, this egg here is Leia's. Leia is a very special chocobo, in case you didn't know. Anyway, I was having a nap in the stables when that nasty fellow crept in and tried to steal it, kupo!"
+            },
+            {
+                "name": "KUPULUKOPO",
+                "text": "So I snatched it up as quickly as I could and made a run for it. I <span class=\"emphasis\">was</span> planning to take it back to Bentbranch Meadows myself, but it might be safer if you did it. I'm sure Luquelot will be very happy to see you, kupo!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You carefully receive Leia's egg."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "Do you have the egg!? Is it safe!?"
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "Yes, it has the right coloring, the right weight... It is most definitely Leia's egg."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "I know not how to thank you."
+            },
+            {
+                "name": "KEITHA",
+                "text": "You had me worried for a bit there, <span class=\"highlight\">Forename</span>. 'Tis good to see you and the egg back safe and sound."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "...So I was correct in my assumption that an Ishgardian was involved─albeit one who did not, in fact, make off with the egg. Well, I could hardly have anticipated the intervention of a moogle!"
+            },
+            {
+                "name": "KEITHA",
+                "text": "Bugger me... It couldn't be the same one...could it?"
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "Might you have encountered our unlikely savior before, Keitha?"
+            },
+            {
+                "name": "KEITHA",
+                "text": "Could be, aye. One of 'em saved my hide back when the Calamity struck."
+            },
+            {
+                "name": "KEITHA",
+                "text": "I was in a part of the woods what we now call the Standin' Corses that day. Seemed like the whole bleedin' forest was ablaze, and I couldn't see a yalm in front of me for all the smoke. Well-nigh given up hope, I had."
+            },
+            {
+                "name": "KEITHA",
+                "text": "Then, all of a sudden, a moogle appears out of nowhere, tugs at me smolderin' sleeve, and leads me straight to a bit of the wood where the fire hadn't taken hold."
+            },
+            {
+                "name": "KEITHA",
+                "text": "And now you know why the business is named “Moogle's Gift Mounts.” Seemed like the least I could do. I'd be dead if it weren't for that plucky little bugger."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "Incredible. It may well be that the moogle has stood vigil over us ever since that day..."
+            },
+            {
+                "name": "KEITHA",
+                "text": "Ha! We'd better get back to work, then. Wouldn't want to go lettin' our guardian angel down, would we? <span class=\"highlight\">Forename</span>, you have our thanks. Oh, and I believe Luquelot wants to give you a little somethin' for your troubles."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "Leia's egg is irreplaceable. I cannot well express to you the depth of my gratitude."
+            },
+            {
+                "name": "LUQUELOT",
+                "text": "And yet, I find that I am still troubled... While this whole regrettable episode unfolded, I bore witness to a sight that greatly concerned me..."
+            },
+            {
+                "name": "INSTANCE",
+                "text": "Duty calls. Do you wish to proceed with<br>“Leia's Legacy”?"
+            },
+            {
+                "name": "INSTANCE",
+                "text": "Yes"
+            },
+            {
+                "name": "INSTANCE",
+                "text": "No"
+            },
+            {
+                "name": "JANREMI",
+                "text": "Meddlesome wretches... Prepare to die!"
+            },
+            {
+                "name": "JANREMI",
+                "text": "Ugh... <span class=\"alternative-container\"><span class=\"alternative\">She's</span><span class=\"alternative\">He's</span></span> tougher than <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> looks..."
+            },
+            {
+                "name": "JANREMI",
+                "text": "You'll feel this one, you obstinate cur!"
+            },
+            {
+                "name": "MOOGLE",
+                "text": "You'll not have Leia's egg, kupo!"
+            },
+            {
+                "name": "MOOGLE",
+                "text": "You're winning, kupo!"
+            },
+            {
+                "name": "MOOGLE",
+                "text": "Look out! He's up to something extra nasty, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 101,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 4564
+                },
+                {
+                    "id": 2229,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 6440
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 14,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65923
+            ]
+        },
+        "next": [
+            65982
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000471",
+            "obj": {
+                "i": 1000471,
+                "n": "Luquelot",
+                "l": 54,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000476",
+            "obj": {
+                "i": 1000476,
+                "n": "Leodaire",
+                "l": 54,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000483",
+            "obj": {
+                "i": 1000483,
+                "n": "Bernard",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000484",
+            "obj": {
+                "i": 1000484,
+                "n": "Ewmond",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003002",
+            "obj": {
+                "i": 1003002,
+                "n": "Kuplu Kopo",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4564",
+            "obj": {
+                "i": 4564,
+                "n": "Antidote",
+                "l": 10,
+                "c": 20641,
+                "t": 44,
+                "p": 39
+            }
+        },
+        {
+            "type": "item",
+            "id": "2229",
+            "obj": {
+                "i": 2229,
+                "n": "Leather Targe",
+                "l": 12,
+                "c": 30007,
+                "t": 11,
+                "p": 403
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65923",
+            "obj": {
+                "i": 65923,
+                "n": "Salvaging the Scene",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 65
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65982",
+            "obj": {
+                "i": 65982,
+                "n": "Dread Is in the Air",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 72
+            }
+        }
+    ]
+}

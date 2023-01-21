@@ -1,0 +1,179 @@
+{
+    "quest": {
+        "name": "Fool Me Once",
+        "location": "Limsa Lominsa",
+        "id": 66199,
+        "patch": 2.0,
+        "sort": 40,
+        "eventIcon": 71221,
+        "issuer": 1000981,
+        "target": 1002605,
+        "genre": 91,
+        "journal": [
+            "Niniya has information that, unlike last time, is sure to be of interest to you.",
+            "According to Niniya, the sentries stationed at the Eyes in lower La Noscea often turn to adventurers when they have too much work. Venture outside the city and speak with Ancreta to learn more.",
+            "Once again, it appears Niniya was playing a prank on you, as Ancreta is forbidden from officially offering you work. If you are willing to assist in an unofficial capacity, though, the Yellowjacket might have something for you..."
+        ],
+        "objectives": [
+            "Speak with Ancreta at the Eyes."
+        ],
+        "dialogue": [
+            {
+                "name": "NINIYA",
+                "text": "Oh, you've returned. I hope you do not harbor any ill will towards me for my earlier deception. You see, I believe the most important lesson for a green adventurer to learn is that <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> should always question the motives of everyone <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> meets."
+            },
+            {
+                "name": "NINIYA",
+                "text": "If I have given offense, allow me to make it up to you with some advice. Tell me, have you visited the Eyes, outside the Tempest Gate and past Madman Bridge?"
+            },
+            {
+                "name": "NINIYA",
+                "text": "The sentries stationed there keep watch over the road, and when trouble arises they sometimes turn to outside help."
+            },
+            {
+                "name": "NINIYA",
+                "text": "If you wish to make a name for yourself as a trustworthy adventurer, you should speak with Ancreta at the Eyes and offer your assistance."
+            },
+            {
+                "name": "ANCRETA",
+                "text": "Ye say someone told ye to come to me for work, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>? I'm afraid ye've been had."
+            },
+            {
+                "name": "ANCRETA",
+                "text": "We're known to hire adventurers, 'tis true, but we always go through the Adventurers' Guild."
+            },
+            {
+                "name": "ANCRETA",
+                "text": "Even if I wanted to assign ye duties, Yellowjacket regulations prohibit me from doin' so directly."
+            },
+            {
+                "name": "ANCRETA",
+                "text": "Now, if ye don't mind workin' in an unofficial capacity, I've a personal request I could make of ye..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3311,
+                    "one": 1
+                },
+                {
+                    "id": 3312,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 455
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "questsType": "any",
+            "quests": [
+                65644,
+                65645
+            ]
+        },
+        "next": [
+            66011
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000981",
+            "obj": {
+                "i": 1000981,
+                "n": "Niniya",
+                "l": 28,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002605",
+            "obj": {
+                "i": 1002605,
+                "n": "Ancreta",
+                "l": 31,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "3311",
+            "obj": {
+                "i": 3311,
+                "n": "Hempen Sarouel",
+                "l": 5,
+                "c": 45064,
+                "t": 36,
+                "p": 108
+            }
+        },
+        {
+            "type": "item",
+            "id": "3312",
+            "obj": {
+                "i": 3312,
+                "n": "Hempen Tights",
+                "l": 5,
+                "c": 45079,
+                "t": 36,
+                "p": 94
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65644",
+            "obj": {
+                "i": 65644,
+                "n": "Close to Home",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65645",
+            "obj": {
+                "i": 65645,
+                "n": "Close to Home",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 7
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66011",
+            "obj": {
+                "i": 66011,
+                "n": "Cry Me a Liver",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 50
+            }
+        }
+    ]
+}

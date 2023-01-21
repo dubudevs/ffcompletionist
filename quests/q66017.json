@@ -1,0 +1,163 @@
+{
+    "quest": {
+        "name": "Moegramm Had a Little Lamb",
+        "location": "Lower La Noscea",
+        "id": 66017,
+        "patch": 2.0,
+        "sort": 50,
+        "eventIcon": 71221,
+        "issuer": 1002657,
+        "target": 1002657,
+        "involved": [
+            1002550,
+            1002600,
+            1002611,
+            1002614
+        ],
+        "genre": 91,
+        "journal": [
+            "Moegramm has been losing sleep over his sheep.",
+            "The wool from Moegramm's sheep lacks its former luster, and won't fetch a fair price at market. The shepherd Chartain should know how to make the sheep shine again.",
+            "Chartain attributes the lackluster fleece to lice, and attributes the lice to a lack of farmhands to help with brushing. Delouse three shaggy sheep with the lice comb.",
+            "Inform Moegramm that his shaggy sheep now have a sheepy sheen.",
+            "Moegramm is grateful you brushed up his wool for market. It would have been a shame to make mutton of the sheep when he seems so...attached."
+        ],
+        "objectives": [
+            "Speak with Chartain.",
+            "Use the lice comb on the shaggy sheep.",
+            "Report to Moegramm."
+        ],
+        "dialogue": [
+            {
+                "name": "MOEGRAMM",
+                "text": "They call me the Stead shepherd, but all three kinds of livestock we breed here fall under my crook. Nevertheless, sheep remain my first love, my one true passion."
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "So you can imagine my dismay at finding my flock in frumpy fleece! I can't very well take worn-out wool to market. A sheep with no shine is good for nothing but mutton!"
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "But where there's wool, there's a way! See what Chartain has to say."
+            },
+            {
+                "name": "CHARTAIN",
+                "text": "Moegramm had some little lambs whose fleece was white as snow. But everywhere the little lambs went, lice were sure to go. Now we're stuck with lousy sheep."
+            },
+            {
+                "name": "CHARTAIN",
+                "text": "In the time it takes me to brush one clean, the lice spread to two more. I just can't keep up with them by myself!"
+            },
+            {
+                "name": "CHARTAIN",
+                "text": "If you could brush three shaggy sheep for me, we might be able to wipe out the infestation altogether."
+            },
+            {
+                "name": "CHARTAIN",
+                "text": "Let Moegramm know his sheep are in shipshape once you've finished."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The shaggy sheep looks itchy."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The shaggy sheep looks relieved."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The shaggy sheep looks relieved."
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "For an adventurer, you certainly know how to wield a lice comb!"
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "As I'm sure you have found, sheep are delicate souls that require delicate care. Truly wonderful wool requires time, love, and tenderness."
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "You must caress their coats ever so gently, listen to their soft bleating in your ear, feel the warmth of their breath on your neck... "
+            }
+        ],
+        "reward": {
+            "gil": 128,
+            "xp": 560
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66016
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002657",
+            "obj": {
+                "i": 1002657,
+                "n": "Moegramm",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002550",
+            "obj": {
+                "i": 1002550,
+                "n": "Chartain",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002600",
+            "obj": {
+                "i": 1002600,
+                "n": "Shaggy Sheep",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002611",
+            "obj": {
+                "i": 1002611,
+                "n": "Shaggy Sheep",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002614",
+            "obj": {
+                "i": 1002614,
+                "n": "Shaggy Sheep",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66016",
+            "obj": {
+                "i": 66016,
+                "n": "Much Ado About Dodos",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 60
+            }
+        }
+    ]
+}

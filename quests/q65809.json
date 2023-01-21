@@ -1,0 +1,190 @@
+{
+    "quest": {
+        "name": "Way of the Armorer",
+        "location": "Limsa Lominsa",
+        "id": 65809,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100049,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000998,
+        "target": 1001000,
+        "genre": 138,
+        "journal": [
+            "G'wahnako wishes you to reaffirm your desire to join the Armorers' Guild.",
+            "G'wahnako has directed you to speak with Forgemaster H'naanza. She can be found outside, on the guild's work floor.",
+            "Forgemaster H'naanza has approved your request to join the Armorers' Guild. Equip the weathered doming hammer she has given you, and speak with her once more."
+        ],
+        "objectives": [
+            "Speak with H'naanza."
+        ],
+        "dialogue": [
+            {
+                "name": "GWAHNAKO",
+                "text": "Your mind is made up? You're ready to throw your lot in with us armorers?"
+            },
+            {
+                "name": "GWAHNAKO",
+                "text": "Hmph. Seemin'ly not."
+            },
+            {
+                "name": "GWAHNAKO",
+                "text": "Well, I should commend you on not makin' a hasty decision─the meticulous work of an armorer is not for the impatient, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>."
+            },
+            {
+                "name": "GWAHNAKO",
+                "text": "Then it's time you made yourself known to the forgemaster."
+            },
+            {
+                "name": "GWAHNAKO",
+                "text": "That's no empty title, by the way─H'naanza's a renowned shipwright, an' one of the finest crafters in Limsa Lominsa."
+            },
+            {
+                "name": "GWAHNAKO",
+                "text": "Head outside an' you'll find her blisterin' the skins of our newest initiates."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "Another aspiring armorer, are you? Welcome. I am H'naanza, forgemaster of this guild."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "I take it G'wahnako has explained to you the history and nature of our craft? Good. I have little to add on that front, save this: the life of an armorer is not an easy one."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "Day after day, you will pit flesh and blood against iron and flame. And without a passion for the forge, you will fail. But passion alone will not make an armorer of you."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "To truly master this craft, you must be possessed of a will as unyielding as the metals you work. Knowing what lies before you, have you the fortitude to persevere?"
+            },
+            {
+                "name": "Q1",
+                "text": "Have you the fortitude to persevere?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "HNAANZA",
+                "text": "Hah! An honest <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>. There is no shame in admitting weakness─and no more for us to discuss. Fare you well, adventurer."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "Hah! I see you have no fear of hard work."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "That is well. Consider your request to join the guild approved."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "But if you ever give me aught less than your best, you will be out the door before you realize my boot has connected with your backside. Are we clear on that?"
+            },
+            {
+                "name": "HNAANZA",
+                "text": "Good. Now that we understand each other, let us begin with the basics. What is your name?"
+            },
+            {
+                "name": "HNAANZA",
+                "text": "<span class=\"highlight\">Forename</span>? Very well, <span class=\"highlight\">Forename</span>, this tool is called a doming hammer. Here, grip it firmly, note its weight."
+            },
+            {
+                "name": "HNAANZA",
+                "text": "Let me know when you feel comfortable with it in your hand─I'll tell you if you're holding it properly."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "items": [
+                {
+                    "num": 100,
+                    "id": 3
+                },
+                {
+                    "num": 50,
+                    "id": 5
+                },
+                {
+                    "id": 2366
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65722
+            ]
+        },
+        "next": [
+            65810
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000998",
+            "obj": {
+                "i": 1000998,
+                "n": "G'wahnako",
+                "l": 28,
+                "q": 2,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001000",
+            "obj": {
+                "i": 1001000,
+                "n": "H'naanza",
+                "l": 28,
+                "q": 28,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2366",
+            "obj": {
+                "i": 2366,
+                "n": "Weathered Doming Hammer",
+                "l": 1,
+                "c": 35203,
+                "t": 16,
+                "p": 72
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65722",
+            "obj": {
+                "i": 65722,
+                "n": "So You Want to Be an Armorer",
+                "g": 0,
+                "l": "Limsa Lominsa Upper Decks",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65810",
+            "obj": {
+                "i": 65810,
+                "n": "My First Doming Hammer",
+                "g": 138,
+                "l": "Limsa Lominsa",
+                "s": 11,
+                "f": 1
+            }
+        }
+    ]
+}

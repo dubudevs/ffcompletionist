@@ -1,0 +1,196 @@
+{
+    "quest": {
+        "name": "Demolition Drake",
+        "location": "Southern Thanalan",
+        "id": 66782,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "involved": [
+            1005860
+        ],
+        "genre": 35,
+        "journal": [
+            "Yadovv Gah seeks to employ your skills in demolition.",
+            "Yadovv Gah bids you ride a cavalry drake into Zahar'ak and incinerate the enemies' supply stores. Speak with the drake whisperer in Zanr'ak to borrow a mount.",
+            "Ride the cavalry drake into Zahar'ak, and destroy the Amalj'aa supply caches using your mount's Fiery Breath.<br><br>※Speak with the drake whisperer in Zanr'ak to mount a cavalry drake.",
+            "You have reduced the supply stores of the Amalj'aa to smoldering ruin. Return to the Ring of Ash and report to Yadovv Gah.",
+            "Yadovv Gah is grimly satisfied with your demolition handiwork. He appears eager to witness the widespread effects the supplies' destruction will have on the Zahar'ak Amalj'aa, overconfident as they are in the omnipotence of their god."
+        ],
+        "objectives": [
+            "Speak with the drake whisperer and mount the cavalry drake.",
+            "Ride the cavalry drake into Zahar'ak and use its Fiery Breath to destroy Amalj'aa caches.",
+            "Report to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "Outnumbered as we are, our strategies must be brutal and efficient. Though I would gladly wring the necks of our detestable enemies one by one, we can weaken their entire force by striking at their supplies."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Behind the gates of Zahar'ak, there are locked caches of foodstuffs and flame-touched weapons. Let us not be concerned with keys─take a drake and burn their stores to the ground!"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Our master of drakes awaits you, honored ally."
+            },
+            {
+                "name": "MOUNTAMALJAA",
+                "text": "My drake's volatile breath will have those caches blazing within moments. Have a care not to be caught in the flames."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Ride a cavalry drake into Zahar'ak, and reduce their supply caches to ash!"
+            },
+            {
+                "name": "MOUNTAMALJAA",
+                "text": "Should you need to dismount, the drake will return here to me. I will hold her in readiness until you are prepared to continue your mission. Now go, and let me see the pillars of smoke rising from our enemies' camp."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "You have incinerated their stores? Hah! No matter how powerful their precious deity, an army is only as strong as its supply lines─this, they will learn."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Your victories continue to mount, honored ally."
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005860",
+            "obj": {
+                "i": 1005860,
+                "n": "Drake Whisperer",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

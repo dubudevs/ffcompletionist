@@ -1,0 +1,148 @@
+{
+    "quest": {
+        "name": "Operation Crucible Down",
+        "location": "Outer La Noscea",
+        "id": 66555,
+        "patch": 2.0,
+        "sort": 470,
+        "eventIcon": 71221,
+        "issuer": 1006325,
+        "target": 1006325,
+        "genre": 91,
+        "journal": [
+            "Bloeidin could use your aid in creating a diversion.",
+            "Bloeidin has a mind to destroy a new crucible that the alchemically inclined kobolds have developed, and has tasked you with creating a diversion. Travel to Iron Lake and use the makeshift bombs provided by the commander to blow up piles of kobold supplies to draw their attention away from the primary target.",
+            "You have destroyed the kobold supplies as per your orders. Return to Bloeidin and inquire as to the success of the mission.",
+            "Bloeidin informs you that, thanks in no small part to your efforts, the operation was a success. The loss of their crucible should take the wind out of the kobolds' sails for the foreseeable future."
+        ],
+        "objectives": [
+            "Use makeshift bombs to blow up kobold supplies.",
+            "Report to Bloeidin."
+        ],
+        "dialogue": [
+            {
+                "name": "BLOEIDIN",
+                "text": "Well, we can't let my men have all the fun, now can we? What say you join us in a little operation that's sure to hit the kobolds where it hurts the most─in the crucible."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "As you know, the beasts pride themselves on their alchemical skills. We've located a hidden storehouse containing a prototype for a new crucible. I don't know what it's capable of, and I'm not of a mind to find out. I would charge you with drawing the kobolds' attention while my levy sees to the crucible."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Take these makeshift bombs to Iron Lake, where you'll find stores of sundry provisions belonging to the kobold army─I trust you'll know what to do from there. And mind you: the bigger the explosion, the better."
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: blow up crucible"
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Good work─why, I reckon I heard those blasts all the way from here! You'll be pleased to know that the operation was a rousing success: the crucible is no more."
+            },
+            {
+                "name": "BLOEIDIN",
+                "text": "Aye, this should keep the kobolds quiet for a spell. Ah, nothin' like the pleasure of a job well done. I reckon the grog we guzzle tonight will be the finest we've had in months."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3443,
+                    "one": 1
+                },
+                {
+                    "id": 3447,
+                    "one": 1
+                },
+                {
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 13160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 47,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66553
+            ]
+        },
+        "next": [
+            66556
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006325",
+            "obj": {
+                "i": 1006325,
+                "n": "Bloeidin",
+                "l": 350,
+                "q": 15,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "item",
+            "id": "3443",
+            "obj": {
+                "i": 3443,
+                "n": "Raptorskin Breeches",
+                "l": 46,
+                "c": 45355,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "3447",
+            "obj": {
+                "i": 3447,
+                "n": "Raptorskin Subligar",
+                "l": 47,
+                "c": 45175,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66553",
+            "obj": {
+                "i": 66553,
+                "n": "A Pirate's Life for Me",
+                "g": 91,
+                "l": "Outer La Noscea",
+                "s": 470
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66556",
+            "obj": {
+                "i": 66556,
+                "n": "Claiming the Booty",
+                "g": 91,
+                "l": "Outer La Noscea",
+                "s": 470
+            }
+        }
+    ]
+}

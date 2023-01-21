@@ -1,0 +1,112 @@
+{
+    "quest": {
+        "name": "Ziz Is So Ridiculous",
+        "location": "North Shroud",
+        "id": 69400,
+        "patch": 5.3,
+        "sort": 150,
+        "eventIcon": 71201,
+        "issuer": 1006241,
+        "target": 1006241,
+        "genre": 1,
+        "journal": [
+            "Aideen has a proposal to make concerning your investigation.",
+            "It is popularly believed that the local ziz may be responsible for the deaths. Aideen suggests that you cull three of the scalekin to see whether you can find any clues.",
+            "You have culled three ziz as suggested, and have little to show for it besides a rich crop of bites and gashes. Return to Fallgourd Float and report to Aideen.",
+            "Aideen strikes ziz from her list of suspects, and turns her attention once more towards the masked man and his winged eyeball."
+        ],
+        "objectives": [
+            "Slay ziz.",
+            "Report to Aideen."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "So, here's what I know about the deaths: all the victims were found with their faces torn to shreds."
+            },
+            {
+                "name": "AIDEEN",
+                "text": "Among the local fauna, only the scalekin known as ziz could inflict such wounds. That's why some folk are pointing the finger at them."
+            },
+            {
+                "name": "AIDEEN",
+                "text": "I somehow doubt that the answer's that simple, but for the sake of thoroughness, we should look into it. Why don't you put down, say, three of the creatures, and see if you can find any proof connecting them to the deaths?"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "You've already seen to the ziz? Good work, adventurer! So, were you able to find aught to suggest that the creatures are our culprits?"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "...Nothing? Truth be told, even if there were proof, I wouldn't know what it looked like. Aaanyway, I believe we can safely strike ziz from our list of suspects. Which leaves us with...the masked man and his winged eyeball!"
+            }
+        ],
+        "reward": {
+            "gil": 1544
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                69399
+            ]
+        },
+        "next": [
+            66322,
+            66323
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006241",
+            "obj": {
+                "i": 1006241,
+                "n": "Aideen",
+                "l": 57,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69399",
+            "obj": {
+                "i": 69399,
+                "n": "Terror at Fallgourd",
+                "g": 1,
+                "l": "The Waking Sands",
+                "s": 149
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66322",
+            "obj": {
+                "i": 66322,
+                "n": "Seeing Eye to Winged Eye",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 152
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66323",
+            "obj": {
+                "i": 66323,
+                "n": "Rock of Rancor",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 151
+            }
+        }
+    ]
+}

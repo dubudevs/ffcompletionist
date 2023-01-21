@@ -1,0 +1,606 @@
+{
+    "quest": {
+        "name": "Life Imitates Art Imitates Life",
+        "location": "Kugane",
+        "id": 68556,
+        "patch": 4.25,
+        "sort": 20,
+        "icon": 100765,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1024355,
+        "target": 1024710,
+        "involved": [
+            1019039,
+            1019063,
+            1020469,
+            1024705,
+            1024706,
+            1024707,
+            1024708,
+            1024709,
+            1024711
+        ],
+        "genre": 70,
+        "journal": [
+            "You have no one but yourself or the kami to blame for what comes if you talk to Nashu Mhakaracca.",
+            "Not content to remain idle, Nashu Mhakaracca has been aggressively pursuing any and all leads regarding the Kugane Wolf Burglar. From the various eyewitness accounts, she has managed to create a composite sketch of the infamous thief...though whether or not it will prove useful remains to be seen. In any event, you both decide it may be worthwhile to make renewed inquiries of Kugane's wealthy and powerful.",
+            "The burglar's reputation has only grown since last you spoke with the citizenry, and it is plain that he is growing bolder and bolder by the day. Despite this, the Sekiseigumi still has no leads─and neither do you...",
+            "While conversing with Nashu you run into Shigure once more─or rather, Shigure runs into a certain cheese-loving Lalafell, who quickly flees before Nashu can take notice. It would seem that he too is still in pursuit of the Wolf Burglar, and informs you of an impending private auction he is bound for that he suspects may be the thief's next target. Nashu quickly insists that you join, and so the three of you head towards Kogane Dori.",
+            "The auction is an intimate affair, attended by a handful of Kugane's most wealthy individuals─Master Akebono among them. He purchases the first item up for bid, which is described by the auctioneer as a legendary “ratman,” but which you and Nashu recognize at once to be an Eorzean Qiqirn. After the hapless beastman is shuffled away, the next item up for bid is brought on stage: <span class=\"emphasis\">The Eoruzean Gentleman</span>, which the auctioneer claims to be a triumph of Western sculpture, but which is plainly Inspector Hildibrand, somehow frozen in time. Once more Master Akebono is prepared to take on all comers, but before the sale can be finalized, the auction erupts into chaos when a bomb explodes and fills the area with smoke. When it clears, <span class=\"emphasis\">The Eoruzean Gentleman</span> is nowhere to be seen. An all-too-familiar note reveals that the Wolf Burglar has struck again, and Master Akebono urges you to give chase, for he glimpsed the thief running towards the Short Pier.",
+            "Fortunately, the Wolf Burglar's brazen crime has attracted more attention than usual. 'Tis a rare thing indeed, a Lupin carrying a hideous statue on his back, and the captain Shigure questions at the pier will not soon forget the sight. Apparently the thief boarded a boat and set forth for the Ruby Price, and so the chase continues.",
+            "Alas, with the recent liberation of Doma and the withdrawal of Garlean forces, the Ruby Price has seen increased traffic, and the watchmen there have been instructed to give departing vessels only a cursory glance if they are especially small. But surely someone else in the Ruby Sea will have noted the Wolf Burglar's skiff?"
+        ],
+        "objectives": [
+            "Question the wealthy and powerful of Kugane.",
+            "Speak with Nashu.",
+            "Speak with Shigure.",
+            "Search for Shigure.",
+            "Accompany Shigure to the Ruby Sea."
+        ],
+        "dialogue": [
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Well, well, well! If it isn't <span class=\"highlight\">Forename</span>, looking bright-eyed and bushy-tailed! Have I got news for you!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "So I've been asking after that Wolf Burglar fellow─the one that left that cheeky note claiming credit, you remember? And it seems he's not quite as sneaky as he thinks he is!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Oh, he's robbed plenty of rich merchants blind, I'll grant you that. No doubting it was him either─never fails to leave a calling card, this one. Too proud to leave people wondering for even a moment."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "But folks've laid eyes on him more than a few times! In fact, after talking to all the eyewitnesses, I had enough information to try and sketch a picture of the devil himself!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Not bad for a self-trained artiste, wouldn't you say?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Maybe leave the art to the professional artistes."
+            },
+            {
+                "name": "A2",
+                "text": "Don't see how this helps us, honestly."
+            },
+            {
+                "name": "A3",
+                "text": "..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Hmm... Not hearing a lot of support for the sketch. Right, then. Back to the drawing board─the metaphorical one, that is."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Let's you and me seek out and question the rich and famous─the sort of folks the burglar's been targeting─and see if we can't learn something new."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "I'll head to Kogane Dori, and you can check out the teahouse and the hostelry."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "What's a wealthy merchant in the Far East look like anyway? Hmm...something like Lord Godbert, but more...Hingan, maybe?"
+            },
+            {
+                "name": "CITIZEN03020",
+                "text": "I say! The Kugane Wolf Burglar? Must you sully my ears with that rapscallion's name as I attempt to take a moment to relax and take in the fresh air? Bah, it's no use─the moment is ruined!"
+            },
+            {
+                "name": "CITIZEN03020",
+                "text": "I too fell victim to the wolf's villainy, like so many others. Oh, if you had seen the vase before he took it... Gah! If there was any justice in this world, he would be paraded through the streets and boiled alive in Tenkonto!"
+            },
+            {
+                "name": "BYAKUDAN",
+                "text": "Ah, that infamous thief? I know of him. For a mercy, he has not seen fit to trouble those of lesser means like me and my associates."
+            },
+            {
+                "name": "BYAKUDAN",
+                "text": "Perhaps you thought me wealthy because I patronize the teahouse? On the contrary, this is my sole indulgence. Were I a stronger man, I would forgo it, but alas...the heart will not be denied."
+            },
+            {
+                "name": "URAKI",
+                "text": "Too long it has been since I shared a pipe with an ijin! How fortunate I─ Hm? You've no desire for a smoke, only talk of the Wolf Burglar? I see..."
+            },
+            {
+                "name": "URAKI",
+                "text": "I have no personal experience on which to draw, so I doubt I can be of much assistance. What I know is known to all. But if you insist... He is a “lone wolf” without comrades, and despite their best efforts, the Sekiseigumi has no leads."
+            },
+            {
+                "name": "URAKI",
+                "text": "Some say this has emboldened the man. Each theft is more brazen than the last. He has even been witnessed practicing his trade in broad daylight, if you can believe it..."
+            },
+            {
+                "name": "URAKI",
+                "text": "That is the extent of my knowledge. Now, if you will not favor me with tales of your own, I ask that you leave me to my pipe. It is far less demanding company."
+            },
+            {
+                "name": "CITIZEN03020",
+                "text": "<span class=\"emphasis\">Some</span> people say that cruel and unusual punishments don't deter the criminal element in the slightest. If you ask me, <span class=\"emphasis\">some</span> have no appreciation for a public boiling."
+            },
+            {
+                "name": "BYAKUDAN",
+                "text": "As I told you before, I doubt I need fear a visit from the Wolf Burglar. Despite appearances, my fortune is quite modest."
+            },
+            {
+                "name": "URAKI",
+                "text": "He is a “lone wolf,” this burglar, and quite brazen in his recent thefts. I can tell you no more of value, even if you were to accept my invitation to share a pipe."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Ah, here you are! Dig up any interesting tidbits?"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "So he's getting bolder by the day, is he? Well! If there's anything I've learned from following the inspector around, it's that overconfidence is liable to get you smacked upside the head by your mum and her magic frying pan!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "That said, we'd have a better chance of catching this wolf if we knew who he was eyeing next..."
+            },
+            {
+                "name": "OKKAKE",
+                "text": "(-???-)Gah!"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "A thousand pardons, young sir! I did not mean to trample you underfoot. Are you all right?"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Hey, aren't you the samurai I bumped into the other day? Shiggy-something, was it?"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Oh! We meet again, my lady! I say, you must think me in the habit of trampling my fellow pedestrians. Let me assure you nothing could be further from the truth. I was simply preoccupied with thoughts of my investigation..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "That's right─you were after the Wolf Burglar too! Got any leads?"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "As a matter of fact, I do! I but recently learned of a private auction in which many foreign wares are to be featured."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "While such auctions are not uncommon in Kugane, it has been some time since the wolf last struck, and there are rumors that this auction may include “particularly extraordinary” items..."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Much as I would love to converse with you at great length, I really must be going. Until we meet again!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Wait, Mister Shiggy, sir! Can we come too?"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "To the auction? If you like, but I very much doubt you will be able to afford any of the items to be sold..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Oh, don't you worry about that! <span class=\"highlight\">Forename</span> here's got enough money to buy and sell you a thousand times over!"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Er... Yes, very good! Then by all means, come with me!"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "This venue has been reserved for the private auction. The guests should be arriving any moment now..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "I remember you! Master Akebono, was it?"
+            },
+            {
+                "name": "AKEBONO",
+                "text": "Well, if it isn't the inspectors! I did not know you would be joining us."
+            },
+            {
+                "name": "AKEBONO",
+                "text": "I presume you are come to keep watch for the wolf, but should you see anything you like, know that we have money changers on hand to assist those who wish to spend foreign currency."
+            },
+            {
+                "name": "AKEBONO",
+                "text": "I must warn you, however, that should we desire the same item, I am not wont to surrender without a fight!"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "Greetings and welcome to you, the prosperous and esteemed elite! This <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">day</span></span> you will be given a rare opportunity to view─and purchase, if so inclined─a selection of strange and wondrous items from all across the world!"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "Without further ado, I give you our first─a queer, misshapen fiend captured in the mountainous wilds of Yanxia!"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "Aye, it is none other than the fabled ratman! An unholy union of man and beast! A demon of legend whose flesh, when consumed, bestows life everlasting!"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "Eternal life can be yours, ladies and gentlemen! So─shall we start the bidding at five hundred thousand koban!?"
+            },
+            {
+                "name": "RICHA03020",
+                "text": "Six hundred!"
+            },
+            {
+                "name": "RICHB03020",
+                "text": "Seven hundred!"
+            },
+            {
+                "name": "AKEBONO",
+                "text": "Eight hundred thousand koban!"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "Eight hundred thousand koban! Going once...going twice..."
+            },
+            {
+                "name": "TRADER03020",
+                "text": "Sold! To Master Akebono! Let us proceed to the next item up for bidding..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "He's not really gonna eat him, is he...?"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "The statue you are about to see was brought to Kugane from the West─the land of “Eoruzea,” to be precise. But let me tell you, ladies and gentlemen: “statue” does not even begin to describe this extraordinary work of art..."
+            },
+            {
+                "name": "TRADER03020",
+                "text": "I give you <span class=\"emphasis\">The Eoruzean Gentleman</span>! A masterpiece─nay, a triumph of Western sculpture! Marvel at the intricate details, the features so expertly realized that some have likened it to a living, breathing man, frozen in time..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Well, would you look at that! That statue's the spitting image of Inspector Hildibrand. Could it have been sculpted by...a fan?"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Hm? Was it a trick of the light, or did that statue just twitch..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "You mean to say...you think it might actually be the inspector, somehow frozen by temporal magicks!? In that case, I've got just the thing to bring him back to the land of the moving!"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Stay your bomb-filled hand, my lady, I beg of you, lest you slaughter these poor people and bring this marketplace to ruin!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "...I suppose you have a point. And it wouldn't be very inspector-like to blow innocents to kingdom come."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "How readily she resorts to violence, this woman... I shudder to think what carnage she has left in her wake..."
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Oho, I knew it! That's no statue─it's the genuine article, in the flesh! Probably hit his head when he fell from the sky again. Or maybe he's gone into hibernation again or something?"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "This bizarre sculpture is in truth a man? Is such a thing even possible?"
+            },
+            {
+                "name": "AKEBONO",
+                "text": "Strange...I do not recall it wearing an expression of sheer terror before..."
+            },
+            {
+                "name": "RICHA03020",
+                "text": "It was rather more serene, was it not...?"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "H-How very perceptive of you! Verily, this is no ordinary statue─it is a...a heretofore unseen hybrid of sculpture and automaton! Marvel at the way its features change, fluidly and effortlessly!"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "...Yeees, indeed! So─shall we start the bidding for this one-of-a-kind statue at five hundred thousand koban!?"
+            },
+            {
+                "name": "RICHB03020",
+                "text": "Six hundred!"
+            },
+            {
+                "name": "RICHA03020",
+                "text": "Seven!"
+            },
+            {
+                "name": "AKEBONO",
+                "text": "Eight hundred thousand koban, to be paid in full here and now!"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "Once more, Master Akebono will not be denied! Will any challenge his claim to <span class=\"emphasis\">The Eoruzean Gentleman</span>!?"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "We've got to do something, <span class=\"highlight\">Forename</span>! If we don't, these people are going to buy the inspector!"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "I bid nine hundred thousand koban!"
+            },
+            {
+                "name": "A1",
+                "text": "Good riddance."
+            },
+            {
+                "name": "AKEBONO",
+                "text": "Bwahaha! There is nothing in this world I cannot buy!"
+            },
+            {
+                "name": "AKEBONO",
+                "text": "One miiillion koooban!"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "&lt;cough&gt; &lt;cough&gt; What is the meaning of this!?"
+            },
+            {
+                "name": "TRADER03020",
+                "text": "By the kami! <span class=\"emphasis\">The Eoruzean Gentleman</span> has vanished!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Cheeky Note-)\"You have just been robbed by the Kugane Wolf Burglar!“"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "That thrice-damned oni! He's struck again!"
+            },
+            {
+                "name": "AKEBONO",
+                "text": "&lt;cough&gt; &lt;wheeze&gt; I...I saw him! The fiend with wolfish features! He took the statue and ran towards the Short Pier!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Do you know what this means!? Inspector Hildibrand has been stolen─err, kidnapped!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "We've got to get after that Wolf Burglar! For all we know he might want to eat him like that poor Qiqirn, and we can't have that!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "I still can't believe Inspector Hildibrand was stolen! That's got to be a first!"
+            },
+            {
+                "name": "KUGANEFERRYMAN",
+                "text": "Yes, yes. As I said, that is what I saw..."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Oh─you followed me, I presume? Of a mind to pursue the Wolf Burglar as well?"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "Of course we are! He's got Inspector Hildibrand, and I'll be damned if I'm going to let some two-gil thief eat him!"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Er...are you perchance referring to <span class=\"emphasis\">The Eoruzean Gentleman</span>, that hideous statue? I daresay no one in their right mind would try to eat it...but nonsensical fears notwithstanding, I should be honored to work with you to catch the Wolf Burglar."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "This man here claims he saw him board a boat with the statue and head towards the Ruby Price."
+            },
+            {
+                "name": "KUGANEFERRYMAN",
+                "text": "'Twas a sight I will not soon forget. Never before have I seen a Lupin carrying a twisted mockery of a man on his back. Never again will I, I expect."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Too bold was the fiend this day! In seeking to claim such a conspicuous prize in broad daylight, he has left a trail we can follow!"
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Come─let us make haste to the Ruby Price!"
+            },
+            {
+                "name": "NASHUMHAKARACCA",
+                "text": "That there tower just keeps on going and going and going..."
+            },
+            {
+                "name": "KUGANEFERRYMAN",
+                "text": "So that thing the Lupin stole was a statue? And people were willing to pay hundreds of thousands of koban for it? I say, some people have more money than they have good sense..."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "Surely one of the watchmen here will have seen the wolfman and his stolen statue..."
+            },
+            {
+                "name": "HAYAMA",
+                "text": "...Alas, I cannot say I have seen such a thing."
+            },
+            {
+                "name": "HAYAMA",
+                "text": "Since the withdrawal of Garlean forces from Doma and the Ruby Sea, there has been a significant increase in domestic traffic. Accordingly, we have been instructed to waive through smaller vessels leaving our waters, absent cause."
+            },
+            {
+                "name": "HAYAMA",
+                "text": "This Lupin you seek probably received no more than a cursory glance..."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "I see. Thank you for taking the time to explain, and pray forgive me the interruption. We shall continue our search elsewhere."
+            },
+            {
+                "name": "SHIGURE",
+                "text": "The question is, where else should we search? Who else has reason to keep a close watch on these waters...?"
+            }
+        ],
+        "reward": {
+            "gil": 1007,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68544
+            ]
+        },
+        "next": [
+            68557
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024355",
+            "obj": {
+                "i": 1024355,
+                "n": "Nashu Mhakaracca",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024710",
+            "obj": {
+                "i": 1024710,
+                "n": "Shigure",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019039",
+            "obj": {
+                "i": 1019039,
+                "n": "Uraki",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019063",
+            "obj": {
+                "i": 1019063,
+                "n": "Byakudan",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020469",
+            "obj": {
+                "i": 1020469,
+                "n": "Curt Captain",
+                "l": 2404,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024705",
+            "obj": {
+                "i": 1024705,
+                "n": "Nashu Mhakaracca",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024706",
+            "obj": {
+                "i": 1024706,
+                "n": "Nashu Mhakaracca",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024707",
+            "obj": {
+                "i": 1024707,
+                "n": "Nashu Mhakaracca",
+                "l": 2409,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024708",
+            "obj": {
+                "i": 1024708,
+                "n": "Shigure",
+                "l": 2404,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024709",
+            "obj": {
+                "i": 1024709,
+                "n": "Shigure",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024711",
+            "obj": {
+                "i": 1024711,
+                "n": "Preening Pundit",
+                "l": 2404,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68544",
+            "obj": {
+                "i": 68544,
+                "n": "A Hingan Tale: Nashu Goes East",
+                "g": 70,
+                "l": "Kugane",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68557",
+            "obj": {
+                "i": 68557,
+                "n": "Of Wolves and Gentlemen",
+                "g": 70,
+                "l": "The Ruby Sea",
+                "s": 30,
+                "f": 1
+            }
+        }
+    ]
+}

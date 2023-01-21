@@ -1,0 +1,195 @@
+{
+    "quest": {
+        "name": "Introductory Dragonslaying",
+        "location": "Coerthas Western Highlands",
+        "id": 67300,
+        "patch": 3.0,
+        "sort": 5111,
+        "icon": 100468,
+        "eventIcon": 71221,
+        "issuer": 1013710,
+        "target": 1013710,
+        "involved": [
+            1014134,
+            1014136
+        ],
+        "genre": 94,
+        "journal": [
+            "Dominiac is hoping for your assistance in executing a plan.",
+            "Dominiac asks for your help in executing his plan to lure out a powerful dragon. He has delegated most of the actual work to a new recruit at the Convictory─Saintrelmaux─and has asked you to help this talented but inexperienced man.",
+            "The first step of the plan is the acquisition of a Dravanian corpse. A rare breed of Dravanian─a tulihand─has been sighted near the large tree northeast of the camp. Meet with Saintrelmaux there.",
+            "You make short work of the tulihand. Check with Saintrelmaux for the next step of the plan.",
+            "Saintrelmaux thanks you for your assistance and tells you that he will handle transporting the body of the fallen beast to the Convictory. He tells you to go on ahead and inform Dominiac of the plan's success.",
+            "Dominiac is thrilled to hear that everything is going so well. He hints that future steps in his plan will be increasingly dangerous, but seems confident that, with your help, it will not be anything that cannot be handled."
+        ],
+        "objectives": [
+            "Speak with Saintrelmaux.",
+            "Speak with Saintrelmaux near the great tree and slay the tulihand.",
+            "Speak with Saintrelmaux.",
+            "Report to Dominiac."
+        ],
+        "dialogue": [
+            {
+                "name": "SAINTRELMAUX",
+                "text": "What does Dominiac think he's doing this time...?"
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "I'm working on my plan to draw out a great, ferocious dragon. A new recruit has just joined the Convictors, so I'm delegating the <span class=\"emphasis\">execution</span> of the plan to him."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "The lad shows a lot of potential, but he's sorely lacking in experience. You though, my friend, have more experience than anyone in the Convictory. I'd be eternally grateful if you could put some of that famous skill to good use and lend the young lad a hand."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "The soldier's name is Saintrelmaux. Talk to him. He knows all the relevant details, so he can answer any further questions you might have."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Talk to Saintrelmaux. He knows the details of the plan, so ask him if there's anything else you need to know."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Ah, you must be the adventurer Dominiac said would be assisting me. I made it quite clear that I could handle it myself, but the man won't listen."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "(-Saintrelmaux's Retainer-)I'm ever so sorry, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. Master Saintrelmaux has been having a bad day. He means no disrespect. We'd be more than happy to benefit from your assistance."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "We ought to start by reviewing the plan. Recently, there have been sightings of a particularly unusual─if somewhat diminutive─member of the Dravanian Horde: a tulihand. It's been observed near the great tree to the northeast."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "If the information you've gathered is correct, we should be able to kill this smaller dragon quite easily and use it as bait to attract a larger one."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "We shall sally forth to the great tree now, and find this beast. Once your preparations are in order, rendezvous with us there. We'll be waiting for you."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "We found the devious little thing, but he's a sight quicker than we'd anticipated."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "He's gone and hidden himself around here somewhere. He's no doubt waiting for the ideal moment to strike..."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Thank you, adventurer. I suppose I owe you an apology for my arrogant tone earlier. I'm still not quite accustomed to life at the Convictory."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Hmph. These Dravanian thralls truly are pitiful things. Enslaved by the greater dragons and used as mere tools─cogs in the Dravanian war machine."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "To be forced to fight against your will... I daresay it's no different to the situation I was once in─a tool of the High Houses and the Holy See."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Anyroad, we'd best get this thing back to the camp. You go on ahead and inform Dominiac of our success."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "You go on ahead and inform Dominiac of our success."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Ah, back already, I see. I take it you had no difficulty in retrieving the corpse of the tulihand?"
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "If all goes according to plan, the upcoming battles could be increasingly dangerous. But if you're anywhere near as powerful as they say you are─and if you lend us your assistance─I don't think we'll have any trouble."
+            }
+        ],
+        "reward": {
+            "gil": 553,
+            "xp": 25200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67142,
+                67298
+            ]
+        },
+        "next": [
+            67301
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013710",
+            "obj": {
+                "i": 1013710,
+                "n": "Dominiac",
+                "l": 2200,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014134",
+            "obj": {
+                "i": 1014134,
+                "n": "Saintrelmaux",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014136",
+            "obj": {
+                "i": 1014136,
+                "n": "Saintrelmaux",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67142",
+            "obj": {
+                "i": 67142,
+                "n": "Sounding Out the Amphitheatre",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 27
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67298",
+            "obj": {
+                "i": 67298,
+                "n": "The Secret to Success",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5110
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67301",
+            "obj": {
+                "i": 67301,
+                "n": "Intermediate Dragonslaying",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5112
+            }
+        }
+    ]
+}

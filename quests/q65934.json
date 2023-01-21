@@ -1,0 +1,137 @@
+{
+    "quest": {
+        "name": "Courier for a Day",
+        "location": "Middle La Noscea",
+        "id": 65934,
+        "patch": 2.0,
+        "sort": 44,
+        "eventIcon": 71201,
+        "target": 1003239,
+        "involved": [
+            1003240,
+            1003241
+        ],
+        "genre": 0,
+        "journal": [
+            "Wyrkrhit, a Skylift operator, needs an adventurer to deliver some forgotten packages.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Wyrkrhit at the Skylift.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You have delivered the packages to their rightful recipients. Return to the Skylift and report to Wyrkrhit.",
+            "Wyrkrhit muses that a great number of his delivery woes would be alleviated by the creation of a ramp up the face of the cliff. He also acknowledges that Limsa Lominsa's governing body is highly unlikely to divert resources to such a mundane endeavor while the city–state is occupied with the threat of the beast tribes and the Garlean Empire. For the time being, he must be content with overseeing the tedious business of loading and unloading the balloons."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Wyrkrhit at the Skylift.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "WYRKRHIT",
+                "text": "Ah, great gobs o' gobbie spit. There're still a couple o' parcels left in the balloon."
+            },
+            {
+                "name": "WYRKRHIT",
+                "text": "An' wouldn't ye know, the bloody courier has already left. Here now, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>, ye seem to have yer hands free."
+            },
+            {
+                "name": "WYRKRHIT",
+                "text": "Do a poor sod a favor an' deliver these packages to the personages what are writ on the cards there. Ye can read, can't ye? This one's for Syngithuv o' the Foremast, an' the other's for Jessamine o' the De Nevelle Checkpoint."
+            },
+            {
+                "name": "WYRKRHIT",
+                "text": "All sorted, then? Thank ye kindly, adventurer. 'Twouldn't do to have people whisperin' nasty rumors about the quality of our delivery services."
+            },
+            {
+                "name": "WYRKRHIT",
+                "text": "With all this loadin' an' unloadin', there's always the chance that somethin' gets left behind. We wouldn't even need the damn balloons if we could carve a ramp up the cliff face somehow..."
+            },
+            {
+                "name": "WYRKRHIT",
+                "text": "Bah, but the city ain't got the gil or the time for that, what with the beast tribes an' the Empire breathin' down our bloody necks."
+            },
+            {
+                "name": "WYRKRHIT",
+                "text": "All the competin' cargo companies had to pool their resources just to get this little operation off the ground. Hah! Get it? Off the ground! Ahem. Anyroad, we'll just have to do things the hard way for now."
+            },
+            {
+                "name": "SYNGITHUV",
+                "text": "Are you come from the Skylift? You didn't happen to overhear any talk of undelivered packages, did you?"
+            },
+            {
+                "name": "SYNGITHUV",
+                "text": "Why, this is the very parcel I was expecting! Marvelous! Hm? The smell? Ah, that would be from the lavender pouches I ordered from the Red Rooster Stead."
+            },
+            {
+                "name": "SYNGITHUV",
+                "text": "The soldiers here at the Foremast train until exhaustion, you see, often leaving them scant time to sluice away the day's sweat. The lavender fragrance helps cover their, uh, bodily aromas."
+            },
+            {
+                "name": "JESSAMINE",
+                "text": "You've come with a delivery from the Skylift? Please tell me it's the book my brother sent from the La Thagran Checkpoint."
+            },
+            {
+                "name": "JESSAMINE",
+                "text": "Huzzah! Now I can spend my off-duty hours reading instead of losing my wages throwing knuckles with the captain."
+            },
+            {
+                "name": "JESSAMINE",
+                "text": "The gods know there is precious little else that passes for amusement around here..."
+            }
+        ],
+        "reward": {
+            "xp": 3420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65933
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003239",
+            "obj": {
+                "i": 1003239,
+                "n": "Wyrkrhit",
+                "l": 30,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003240",
+            "obj": {
+                "i": 1003240,
+                "n": "Syngithuv",
+                "l": 30,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003241",
+            "obj": {
+                "i": 1003241,
+                "n": "Jessamine",
+                "l": 30,
+                "q": 1,
+                "t": "Storm Private"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65933",
+            "obj": {
+                "i": 65933,
+                "n": "Sky-high",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 43
+            }
+        }
+    ]
+}

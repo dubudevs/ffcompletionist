@@ -1,0 +1,158 @@
+{
+    "quest": {
+        "name": "Serveth Thy Master",
+        "location": "South Shroud",
+        "id": 66547,
+        "patch": 2.0,
+        "sort": 460,
+        "eventIcon": 71221,
+        "issuer": 1006587,
+        "target": 1006587,
+        "genre": 92,
+        "journal": [
+            "Kerrich just wants to have some fun.",
+            "The dread Ser Kerrich, Dark Rider of the Shroud, stands before you. Cower and /kneel before him.",
+            "The dread Ser Kerrich, Dark Rider of the Shroud, would accept you as his vassal, but first demands that you prove your loyalty by doing his bidding. Fetch the wings from three keds as your master commands.",
+            "You have procured three ked wings. Deliver them to Ser Kerrich with all speed.",
+            "Most pleased with your efforts, the dread Ser Kerrich, Dark Rider of the Shroud, invites you to come play with─er, <span class=\"emphasis\">serve</span> him whenever you desire."
+        ],
+        "objectives": [
+            "Show deference and /kneel to Kerrich.",
+            "Defeat keds and obtain their wings.",
+            "Deliver the ked wings to Kerrich."
+        ],
+        "dialogue": [
+            {
+                "name": "KERRICH",
+                "text": "Boooooo～oooooo! I am the Dark Rider of the Shroud! Ooooooooo! Thou art scaredeth of me, art thou noteth!? If thou art not, thou art a fool! <span class=\"highlight\">Kneel</span>eth before me! Noweth!"
+            },
+            {
+                "name": "KERRICH",
+                "text": "Thou art scaredeth of me, art thou noteth!? If thou art not, thou art a fool! <span class=\"highlight\">Kneel</span>eth before me! Noweth!"
+            },
+            {
+                "name": "KERRICH",
+                "text": "Ahahaha! Yes, thou art wise to feareth me, adventurer! But the Dark Rider dost not forgiveth fools so easilyeth."
+            },
+            {
+                "name": "KERRICH",
+                "text": "If thou wouldst serveth me, thou must doeth mine bidding! Doeth mine bidding, or I shall slayeth you for trees-on and insub...insub...not-doingeth-what-thy-master-telleth-you-to-doeth!"
+            },
+            {
+                "name": "KERRICH",
+                "text": "The Dark Rider dost desireth three ked wings! ...Why!? It is not thine place to asketh why! Three ked wings! Not two, and not four─thou had best remembereth well, or I shall haveth your head!"
+            },
+            {
+                "name": "KERRICH",
+                "text": "Dost thou mocketh me!? Mocketh me again, and I shalt have thy head! Now <span class=\"highlight\">kneel</span>eth! <span class=\"highlight\">Kneel</span>eth and beggeth thy master's forgiveness!"
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: kill keds, get wings"
+            },
+            {
+                "name": "KERRICH",
+                "text": "The Dark Rider dost desireth ked wings! Are thou too weak to slayeth mere keds?"
+            },
+            {
+                "name": "KERRICH",
+                "text": "Wow! Are those really ked wings!? I can't wait to show them off to Father─er, ahem."
+            },
+            {
+                "name": "KERRICH",
+                "text": "Ahem! Thou hast proven thy loyalty well! The Dark Rider of the Shroud hereby nameth you his loyal squire! That means you can come play with─er, that means thou canst <span class=\"emphasis\">serveth</span> me whenever thou likest!"
+            },
+            {
+                "name": "KERRICH",
+                "text": "Who knew it was so easy to boss around an adventurer? Methinks my spineless dad could learn a thing or two from me!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3669,
+                    "one": 1
+                },
+                {
+                    "id": 3651,
+                    "one": 1
+                },
+                {
+                    "id": 3656,
+                    "one": 1
+                },
+                {
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 12925
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 46,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006587",
+            "obj": {
+                "i": 1006587,
+                "n": "Kerrich",
+                "l": 56,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3669",
+            "obj": {
+                "i": 3669,
+                "n": "Tortoiseshell Scale Fingers",
+                "l": 46,
+                "c": 48387,
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "3651",
+            "obj": {
+                "i": 3651,
+                "n": "Fingerless Raptorskin Gloves",
+                "l": 45,
+                "c": 44103,
+                "t": 37,
+                "p": 4620
+            }
+        },
+        {
+            "type": "item",
+            "id": "3656",
+            "obj": {
+                "i": 3656,
+                "n": "Boarskin Ringbands of Flames",
+                "l": 46,
+                "c": 44135,
+                "t": 37,
+                "p": 5344
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

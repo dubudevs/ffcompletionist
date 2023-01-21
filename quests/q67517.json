@@ -1,0 +1,147 @@
+{
+    "quest": {
+        "name": "General Protection Fault",
+        "location": "Azys Lla",
+        "id": 67517,
+        "patch": 3.0,
+        "sort": 5903,
+        "eventIcon": 71221,
+        "issuer": 1012147,
+        "target": 1012147,
+        "genre": 102,
+        "journal": [
+            "The Allagan safeguard node is flickering erratically.",
+            "With a torrent of warnings and alerts, the Allagan safeguard node informs you that an enforcement droid is out of control and must be decommissioned. Find this technological terror and destroy it.",
+            "You deal with the out-of-control enforcement droid. Update the safeguard node with this information.",
+            "The safeguard node confirms that the enforcement droid is no longer a threat, and hints that a similar event occurred in the past─with horrifying consequences."
+        ],
+        "objectives": [
+            "Slay the enforcement droid 208.",
+            "Report to the safeguard node."
+        ],
+        "dialogue": [
+            {
+                "name": "SECURITYSYSTEM",
+                "text": "Danger! Danger! Unable to access key Azys Lla security systems."
+            },
+            {
+                "name": "SECURITYSYSTEM",
+                "text": "Enforcement droid 208 not responding to emergency shutdown commands. Recommend immediate forcible destruction of equipment. Danger! Danger! Unable to access key Azys... &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "SECURITYSYSTEM",
+                "text": "&lt;buzzzzzz&gt; ...security systems. Enforcement droid 208 not responding to emergency shutdown commands. Recommend immediate forcible destruction of equipment. Danger! Danger! Unable to... &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "SECURITYSYSTEM",
+                "text": "&lt;buzzzzzz&gt; Confirmed deactivation of malfunctioning security equipment."
+            },
+            {
+                "name": "SECURITYSYSTEM",
+                "text": "In recognition of your part in preventing a possible repeat of the...&lt;buzzzzzz&gt;...incident, in which two hundred and nine civilians and/or researchers were savagely...&lt;buzzzzzz&gt;...associated six hundred hour cleanup effort...&lt;buzzzzzz&gt;...have been recommended for the... &lt;buzzzzzz&gt;"
+            }
+        ],
+        "reward": {
+            "gil": 577,
+            "items": [
+                {
+                    "id": 12860
+                },
+                {
+                    "num": 3,
+                    "id": 9332,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4695,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4648,
+                    "one": 1
+                }
+            ],
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67200
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012147",
+            "obj": {
+                "i": 1012147,
+                "n": "Safeguard Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "12860",
+            "obj": {
+                "i": 12860,
+                "n": "Deep-fried Okeanis",
+                "l": 150,
+                "c": 24363,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "9332",
+            "obj": {
+                "i": 9332,
+                "n": "Flint Caviar",
+                "l": 110,
+                "c": 24259,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4695",
+            "obj": {
+                "i": 4695,
+                "n": "Black Truffle Risotto",
+                "l": 70,
+                "c": 24010,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4648",
+            "obj": {
+                "i": 4648,
+                "n": "Sauteed Coeurl",
+                "l": 70,
+                "c": 24355,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67200",
+            "obj": {
+                "i": 67200,
+                "n": "Systematic Exploration",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 89
+            }
+        }
+    ]
+}

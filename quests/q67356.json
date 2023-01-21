@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "A Show of Devotion",
+        "location": "The Churning Mists",
+        "id": 67356,
+        "patch": 3.0,
+        "sort": 5402,
+        "eventIcon": 71221,
+        "issuer": 1012080,
+        "target": 1012080,
+        "genre": 100,
+        "journal": [
+            "Mogmug is flitting about frantically looking for someone to do his bidding.",
+            "Mogmug has asked the newest member of his fan club─you─to gather four sankchinni vines. Head north of Moghome and gather the vines.",
+            "The sankchinnis fall easily. Gather their vines and return to Mogmug.",
+            "Mogmug is pleased at your obedience, and plans to use the vines to make a harp that will charm the attendees of the harvest fête, further expanding his army of fans."
+        ],
+        "objectives": [
+            "Slay sankchinnis and collect their vines.",
+            "Deliver the vines to Mogmug."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGMUG",
+                "text": "...Oh! You've returned to bask in my alluring aura! One can never have too many devotees... Say, I have just the job for a fledgling fan, kupo!"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "I require four vines from the sankchinnis that reside north of Moghome. An ardent admirer such as yourself surely will not deny me!"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "I dare not soil my immaculately groomed coat. Bring me four sankchinni vines and I'll be ever so grateful!"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "My steadfast serv─I mean <span class=\"emphasis\">supporter</span> has returned! Did the sankchinnis prove to be any trouble, kupo?"
+            },
+            {
+                "name": "MOGMUG",
+                "text": "Magnificent! Marvelous! Such beauteous vines <span class=\"emphasis\">almost</span> make me green with envy. With these I'll make the most harmonious harp in Moghome, and moogles for malms around will be enraptured when I perform at the harvest fête. Come and lend your voice to the cheers of my fabulous fans, kupo!"
+            }
+        ],
+        "reward": {
+            "gil": 485,
+            "xp": 31200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 54,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67157
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012080",
+            "obj": {
+                "i": 1012080,
+                "n": "Mogmug",
+                "l": 2002,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67157",
+            "obj": {
+                "i": 67157,
+                "n": "Mogmug's Trial",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 42
+            }
+        }
+    ]
+}

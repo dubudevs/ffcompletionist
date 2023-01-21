@@ -1,0 +1,94 @@
+{
+    "quest": {
+        "name": "In Health and in Sickness",
+        "location": "The Ruby Sea",
+        "id": 68252,
+        "patch": 4.0,
+        "sort": 3200,
+        "eventIcon": 71221,
+        "issuer": 1019231,
+        "target": 1019231,
+        "genre": 108,
+        "journal": [
+            "A deep frown mars Misago's features."
+        ],
+        "objectives": [
+            "Obtain crimson sea grass.",
+            "Obtain vimshrooms.",
+            "Obtain fresh island gedan meat.",
+            "Deliver the requested items to Misago."
+        ],
+        "dialogue": [
+            {
+                "name": "MISAGO",
+                "text": "An adventurer? Kami be praised! I need you to do something for me."
+            },
+            {
+                "name": "MISAGO",
+                "text": "You see, my husband has taken ill and is currently bedridden. Unless he returns to work soon, we will be in dire straits. To speed his recovery along, I am thinking to make him a hearty stew and need your help gathering some of the necessary ingredients."
+            },
+            {
+                "name": "MISAGO",
+                "text": "Please bring me a handful of vimshrooms that grow to the north of here, three slabs of island gedan meat, and some crimson sea grass from the Isle of Zekki."
+            },
+            {
+                "name": "MISAGO",
+                "text": "The vimshrooms can be found to the north of here, as can the island gedan. You will have need to travel to the Isle of Zekki, however, to procure the crimson sea grass."
+            },
+            {
+                "name": "MISAGO",
+                "text": "Ah, welcome back. Were you able to find everything I asked for?"
+            },
+            {
+                "name": "MISAGO",
+                "text": "Fantastic! Now all that is left for me to do is dump these into a pot and allow the ingredients to stew."
+            },
+            {
+                "name": "MISAGO",
+                "text": "While the fish we catch here are excellent, eating the same thing day in and day out is not exactly healthy. A well-balanced diet must include meat and a variety of vegetables."
+            },
+            {
+                "name": "MISAGO",
+                "text": "Thank you, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. Hopefully the food you gathered will have my husband back to full strength in next to no time! "
+            }
+        ],
+        "reward": {
+            "gil": 602,
+            "xp": 95850
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 63,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68026
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1019231",
+            "obj": {
+                "i": 1019231,
+                "n": "Misago",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68026",
+            "obj": {
+                "i": 68026,
+                "n": "Tide Goes in, Imperials Go Out",
+                "g": 6,
+                "l": "The Ruby Sea",
+                "s": 450
+            }
+        }
+    ]
+}

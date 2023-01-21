@@ -1,0 +1,140 @@
+{
+    "quest": {
+        "name": "A Hut to Dye For",
+        "location": "The Sea of Clouds",
+        "id": 67724,
+        "patch": 3.1,
+        "sort": 34,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016092,
+        "genre": 45,
+        "journal": [
+            "Muna Vanu looks a little blue.<br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu tells you that their stores of paint have run low, but Ginu Vanu has a plan to obtain the supplies he needs. Speak with him to learn what he has in mind.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "Ginu Vanu is nearly finished with the construction of huts, but lacks the paint necessary to complete his work. The reason, he explains, is that he was only able to bring essential building tools when moving to Ok' Gundu Nakki. Unable to make paint with their limited resources, Ginu Vanu believes the only option is to steal paint from the Vundu tribe. He implores you to go swiftly and stealthily to procure three pots of dye from the Vundu.",
+            "Though you could not avoid all eyes of the Vundu, you manage to obtain three pots of dye without incident. Deliver them to Ginu Vanu that he may continue in his work.",
+            "Ginu Vanu is overjoyed to have dye with which to decorate the Gundu huts. As he tells it, every tribe has a distinct color used to represent themselves. And now the Gundu tribe will adorn its homes with a beautiful azure hue."
+        ],
+        "objectives": [
+            "Speak with Ginu Vanu.",
+            "Obtain Vundu dye pots.",
+            "Deliver Vundu dye pots to Ginu Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "Thank goodness netherling is here. Ginu Vanu tells Muna Vanu of grave problem with lack of dye to paint huts."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "He has plan for retrieving ingredients, but maybe too risky for Gundu. Netherling may be more suited to the task."
+            },
+            {
+                "name": "GINUVANU",
+                "text": "As sunshine assists in drying dampened wings, netherling has also come to assist Ginu Vanu? He welcomes netherling's enthusiasm!"
+            },
+            {
+                "name": "GINUVANU",
+                "text": "Soon Ginu Vanu completes building of Gundu huts, but they are missing something very important. Huts must be painted with beautiful colors, made from special dye."
+            },
+            {
+                "name": "GINUVANU",
+                "text": "When Ginu Vanu comes to Ok' Gundu Nakki, he brings only the essential building tools he could carry, few resources to make paint. But Vundu village is big, lots of huts, which means lots of spare dye. Ginu Vanu thinks if netherling strikes quick like lightning, Vundu will never know <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> takes them."
+            },
+            {
+                "name": "GINUVANU",
+                "text": "Entering Vundu territory dangerous for Gundu, but Ginu Vanu needs three pots of dye or huts will not be finished. Hurry now, beautiful huts count on netherling!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "(-Vundu Warrior-)Stop, netherling! Lay down dye pot or lay down life!"
+            },
+            {
+                "name": "GINUVANU",
+                "text": "Zephyr winds bring netherling back sooner than expected. Did netherling find dye pots in Vundu village?"
+            },
+            {
+                "name": "GINUVANU",
+                "text": "Ginu Vanu will do great work with these. Breathing life into home will be easy task with such vibrant color."
+            },
+            {
+                "name": "GINUVANU",
+                "text": "Netherling may not know, but every tribe has special color to represent Vanu spirit. Our Zundu friends use fiery red, and thanks to netherling, Ginu Vanu will use dye to make Gundu hut color a light azure hue, like calm sky on cloudless day."
+            },
+            {
+                "name": "GINUVANU",
+                "text": "Finally Gundu has tribe color to make house into home. Thank you, netherling. Painting with colors of wind, Ginu Vanu will put heart and soul into finishing Gundu huts."
+            }
+        ],
+        "reward": {
+            "gil": 609,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016092",
+            "obj": {
+                "i": 1016092,
+                "n": "Ginu Vanu",
+                "l": 2100,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

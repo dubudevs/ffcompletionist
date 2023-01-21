@@ -1,0 +1,142 @@
+{
+    "quest": {
+        "name": "This Time's for Fun",
+        "location": "Mor Dhona",
+        "id": 66946,
+        "patch": 2.2,
+        "sort": 500,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1005524,
+        "target": 1008697,
+        "genre": 95,
+        "journal": [
+            "Hugubert has heard word of great deeds being done at Halatali, and would share with you the tales of triumph.",
+            "According to Hugubert, the training grounds at Halatali have been reopened to challengers, and your reputation as a seasoned battler precedes you. If you would take Hugubert up on his offer, make your way back to the reinvigorated training arena and speak with its sentry, Arlh.",
+            "Arlh informs you that the former death trap is now a well-oiled dungeon. While there are myriad calls on your talents, you cannot deny the appeal of proving yourself in Halatali.<br><br>※Halatali (Hard) can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Speak with Arlh at Halatali."
+        ],
+        "dialogue": [
+            {
+                "name": "HUGUBERT",
+                "text": "Ah, an adventurer who can hold <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> own in battle. It just so happens I've gotten word of a new challenge for one of your talents. Requires a bit of travel and a dash of heroics, but it'd be worth your while."
+            },
+            {
+                "name": "HUGUBERT",
+                "text": "Eastern Thanalan's lovely this time of the year. You've heard of the training grounds at Halatali, I'll wager. The place fell into...disuse after the Calamity, but some adventurer or another put it to rights."
+            },
+            {
+                "name": "HUGUBERT",
+                "text": "Its owners aim to train gladiators and adventurers once more, just as in the old days. A little paint, a little mass burial, and now the place is ready to take on challengers."
+            },
+            {
+                "name": "HUGUBERT",
+                "text": "If you're at all keen on the notion, go and talk with my friend Arlh down there. He'll get you in the door."
+            },
+            {
+                "name": "ARLH",
+                "text": "Welcome to Halatali, where heroes are made! I am Arlh, and any friend of Hugubert is a warmly regarded acquaintance of mine!"
+            },
+            {
+                "name": "ARLH",
+                "text": "Didn't mention he used to tread the sands, did he? Been trying to get that smooth-talking son of a hydra to take up the gladiator trade again, but...gets easily distracted, Hugubert does."
+            },
+            {
+                "name": "ARLH",
+                "text": "Now, I'll wager he didn't put two and two together when he heard your name. You're the <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span> Fafajoni over there was talking about, aren't you?"
+            },
+            {
+                "name": "ARLH",
+                "text": "Hah, I knew it! The liberator of Halatali <span class=\"alternative-container\"><span class=\"alternative\">herself</span><span class=\"alternative\">himself</span></span>! Thanks to you, we've made it nice and deadly in there again. Got to restore the Coliseum games to what they were!"
+            },
+            {
+                "name": "ARLH",
+                "text": "It's no lap of luxury, I warn you. Place could use some more freshening up, and there are some lurking crawlies that need a good killing. But the Brass Blades are on that detail."
+            },
+            {
+                "name": "ARLH",
+                "text": "So, what do you say? Care to experience the new and improved training grounds? We'd be honored to have the liberator of Halatali return as a challenger!"
+            }
+        ],
+        "reward": {
+            "gil": 939,
+            "instance": 21,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "instances": [
+                7
+            ],
+            "quests": [
+                70058
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005524",
+            "obj": {
+                "i": 1005524,
+                "n": "Hugubert",
+                "l": 67,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008697",
+            "obj": {
+                "i": 1008697,
+                "n": "Arlh",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "instance",
+            "id": "21",
+            "obj": {
+                "i": 21,
+                "n": "Halatali (Hard)",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 50,
+                "max_lvl": 50,
+                "min_ilvl": 55,
+                "max_ilvl": 110
+            }
+        },
+        {
+            "type": "instance",
+            "id": "7",
+            "obj": {
+                "i": 7,
+                "n": "Halatali",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 20,
+                "max_lvl": 23
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70058",
+            "obj": {
+                "i": 70058,
+                "n": "The Ultimate Weapon",
+                "g": 1,
+                "l": "Northern Thanalan",
+                "s": 249
+            }
+        }
+    ]
+}

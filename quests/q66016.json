@@ -1,0 +1,161 @@
+{
+    "quest": {
+        "name": "Much Ado About Dodos",
+        "location": "Lower La Noscea",
+        "id": 66016,
+        "patch": 2.0,
+        "sort": 60,
+        "eventIcon": 71221,
+        "issuer": 1002657,
+        "target": 1002657,
+        "involved": [
+            1002660,
+            1002661,
+            1002687,
+            1002688
+        ],
+        "genre": 91,
+        "journal": [
+            "Moegramm doesn't know what to do about his dodos.",
+            "Dodos have escaped from their pen at the Red Rooster Stead. Speak with X'payan if you would help to bring them back.",
+            "Domesticated dodos are docile creatures that wouldn't dare wander into the wild. Find the bolting dodos on the Stead and capture them in the dodo-sized sacks.",
+            "You have caught all the escaped birds. Take the dodo-filled sacks back to Moegramm.",
+            "With the restoration of his beloved dodos, Moegramm discovers a newfound love for capable adventurers."
+        ],
+        "objectives": [
+            "Speak with X'payan.",
+            "Capture the bolting dodos with the dodo-sized sacks.",
+            "Deliver the filled dodo-sized sacks to Moegramm."
+        ],
+        "dialogue": [
+            {
+                "name": "MOEGRAMM",
+                "text": "They may call it the “Red Rooster” Stead, but make no mistake─dodos are the birds that keep this stead steady."
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "Those sweet and tender eggs! That succulent meat! So long as you remove a dodoling's poison glands, you're in for some scrumptious and healthy poultry."
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "They're so delicious, I have to remind myself some birds just aren't meant to be caged. Or perhaps I don't. Talk to X'payan and see if we can't return those exquisite creatures to their pen."
+            },
+            {
+                "name": "XPAYAN",
+                "text": "Am I ever pleased to see you! I was about to cry “fowl,” but with your help we can round them up."
+            },
+            {
+                "name": "XPAYAN",
+                "text": "Those dim-witted dodos pecked through the fencing and flew the coop! Er, fled the coop. Luckily, they know better than to leave the Stead."
+            },
+            {
+                "name": "XPAYAN",
+                "text": "There are three bolting dodos in all. If you spot one, just throw one of these dodo-sized sacks over its head."
+            },
+            {
+                "name": "XPAYAN",
+                "text": "Once you've caught all the birds, would you mind leaving them in Moegramm's care? I need to repair the fencing before we can return them to this enclosure, you see."
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "I've heard everything! Hand me the dodos!"
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "Oh, my precious darlings! Without their poison breath, they're defenseless out in the wild! Daddy dodo gets so worried..."
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "And now my dodos have <span class=\"alternative-container\"><span class=\"alternative\">a mommy</span><span class=\"alternative\">another daddy</span></span>! "
+            },
+            {
+                "name": "MOEGRAMM",
+                "text": "You'll stay around and look after my babies, won't you? At least until they're ripe for slaughter?"
+            }
+        ],
+        "reward": {
+            "gil": 135,
+            "items": [
+                {
+                    "num": 13,
+                    "id": 5
+                }
+            ],
+            "xp": 975
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66017
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002657",
+            "obj": {
+                "i": 1002657,
+                "n": "Moegramm",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002660",
+            "obj": {
+                "i": 1002660,
+                "n": "X'payan",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002661",
+            "obj": {
+                "i": 1002661,
+                "n": "Bolting Dodo",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002687",
+            "obj": {
+                "i": 1002687,
+                "n": "Bolting Dodo",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002688",
+            "obj": {
+                "i": 1002688,
+                "n": "Bolting Dodo",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66017",
+            "obj": {
+                "i": 66017,
+                "n": "Moegramm Had a Little Lamb",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 50
+            }
+        }
+    ]
+}

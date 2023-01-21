@@ -1,0 +1,153 @@
+{
+    "quest": {
+        "name": "Papa Do Preach",
+        "location": "Coerthas Central Highlands",
+        "id": 66434,
+        "patch": 2.0,
+        "sort": 370,
+        "eventIcon": 71221,
+        "issuer": 1006397,
+        "target": 1006397,
+        "involved": [
+            1006398,
+            1006399
+        ],
+        "genre": 94,
+        "journal": [
+            "Duchesnelt would prevail upon a passing adventurer to search for his wayward daughter.",
+            "Duchesnelt's daughter has slipped out alone, a move neither wise nor politic for a girl gently born. A frantic Duchesnelt would have you go to the Weeping Saint and speak with her.",
+            "While making light of her father's concern, the girl shows a streak of caution born of common sense. She bids you look about for anything suspicious in the vicinity.",
+            "You find a man studying Duchesnelt's daughter with the intensity of a jackal. His hackles raised by your simple questions, he abruptly leaves, dropping something. Pick up the dull knife.",
+            "There are less nefarious reasons a man might stare at a young woman. Have you deprived an honest fellow of his whittling tool, or was it something else? Show the dull knife to Duchesnelt's daughter.",
+            "Uneasy at the sight of a blade brought into a holy place, Duchesnelt's daughter hastens back to Dragonhead. Perhaps Duchesnelt will know more, when you show him the knife.",
+            "You show Duchesnelt the dull knife, confirming his suspicions. Even with his daughter's safe return, Duchesnelt fears that the unbelievers mean to harm her for their own mad purposes..."
+        ],
+        "objectives": [
+            "Speak with Duchesnelt's daughter.",
+            "Investigate the area.",
+            "Pick up the dull knife.",
+            "Show the knife to Duchesnelt's daughter.",
+            "Give the knife to Duchesnelt."
+        ],
+        "dialogue": [
+            {
+                "name": "DUCHESNELT",
+                "text": "That daughter of mine! When she has a mind to do a thing, there's no stopping her. She's gone off to the Weeping Saint alone─I've told her time and again it's not safe with all the unbelievers about!"
+            },
+            {
+                "name": "DUCHESNELT",
+                "text": "You're one of those fearless, fire-breathing adventurers, aren't you? Normally I'd tell you to stay away from my fine, high-spirited lass, but right now, I bid you go in hot pursuit to the Weeping Saint and bring her back safe and sound! "
+            },
+            {
+                "name": "NOBLEDAUGHTER",
+                "text": "My father sent <span class=\"emphasis\">you</span> to fetch me back? My, he must be overstrung─he usually mislikes adventurers. He knows very well that I must have the blessed water, and one can hardly get it anywhere else."
+            },
+            {
+                "name": "NOBLEDAUGHTER",
+                "text": "Father means well, but I cannot have him ordering me home and insisting on armed chaperones. This war is older than he or his own father. What does he mean to do, hide me away in the tea caddy and hope that the war ends before I am old and grey?"
+            },
+            {
+                "name": "NOBLEDAUGHTER",
+                "text": "Still, I am not insensate to the dangers. Will you keep watch while I fetch the water? Who knows, you may discover an unbeliever in the woodworks."
+            },
+            {
+                "name": "NOBLEDAUGHTER",
+                "text": "I must partake of some blessed water. Will you keep watch, in case an unbeliever is hiding under a teacup?"
+            },
+            {
+                "name": "HERETIC",
+                "text": "Wh-What truck have I with you or you with me, huh? All may partake of the saint's tears, or do you not believe that I am worthy? I am, I am!"
+            },
+            {
+                "name": "HERETIC",
+                "text": "I know what you're thinking, <span class=\"alternative-container\"><span class=\"alternative\">adventure-woman</span><span class=\"alternative\">adventure-man</span></span>, I do. You're as transparent as that water there, the water <span class=\"emphasis\">she's</span> taking. You think I'm one of those unbelievers. I find your accusations <span class=\"emphasis\">vile</span> and remove myself from your foul presence!"
+            },
+            {
+                "name": "NOBLEDAUGHTER",
+                "text": "What's wrong? And what is it that you have in your hand?"
+            },
+            {
+                "name": "NOBLEDAUGHTER",
+                "text": "'Tis no soldier's weapon...and none but knights have leave to bring a weapon into a holy place. Perhaps there really was a heretic here─or I have somehow summoned one by my careless jest!"
+            },
+            {
+                "name": "NOBLEDAUGHTER",
+                "text": "I shall return to Camp Dragonhead forthwith─I am not easy in my mind. Kind adventurer, you'd do best not to linger."
+            },
+            {
+                "name": "DUCHESNELT",
+                "text": "I thank you for her safe return, but she is much subdued and will not tell me what passed at the Weeping Saint. I shall want answers, and quickly!"
+            },
+            {
+                "name": "DUCHESNELT",
+                "text": "A strangely furtive man, you say? Gazing fixed upon my girl─and armed in a holy place! It may well be an unbeliever, for who would risk doing such things?"
+            },
+            {
+                "name": "DUCHESNELT",
+                "text": "A girl of noble blood who eschews the seclusion that is her due makes an excellent prey. Of course I know this─many think me a scandal for allowing a daughter to run wild. And of course I worry, every day and every minute."
+            },
+            {
+                "name": "DUCHESNELT",
+                "text": "Yet I would not take the world from her. She is what she is─a rambling rose─and she cannot help what she was born to. I will keep her safe. From a distance mayhap, but safe."
+            }
+        ],
+        "reward": {
+            "gil": 1478,
+            "xp": 9660
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 37,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66426
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006397",
+            "obj": {
+                "i": 1006397,
+                "n": "Duchesnelt",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006398",
+            "obj": {
+                "i": 1006398,
+                "n": "Duchesnelt's Daughter",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006399",
+            "obj": {
+                "i": 1006399,
+                "n": "Suspicious Fellow",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66426",
+            "obj": {
+                "i": 66426,
+                "n": "The Rose and the Unicorn",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 195
+            }
+        }
+    ]
+}

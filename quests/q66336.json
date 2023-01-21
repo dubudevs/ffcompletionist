@@ -1,0 +1,192 @@
+{
+    "quest": {
+        "name": "Secret of the White Lily",
+        "location": "North Shroud",
+        "id": 66336,
+        "patch": 2.0,
+        "sort": 154,
+        "eventIcon": 71201,
+        "issuer": 1002780,
+        "target": 1006263,
+        "involved": [
+            1000100,
+            1000146,
+            1000248
+        ],
+        "genre": 1,
+        "journal": [
+            "Aethelmaer wants you to hold on to the button.",
+            "Aethelmaer entrusts you with the lily button, thus far the most promising lead in the murder investigation, and suggests that you show it to Miounne at the Adventurers' Guild in Gridania. Perhaps she will be able to recognize the sigil it bears.",
+            "While Miounne appreciates the button's exquisite craftsmanship, she is unfamiliar with its sigil. She suggests you show it to Bernadette, the keen-eyed sentry who stands guard at the aetheryte plaza.",
+            "Unfortunately, Bernadette does not recognize the lily sigil. In her turn, she suggests that you have it examined by Wood Wailer Ceinguled, who stands before the Lancers' Guild.",
+            "Ceinguled recalls having seen a man named Ursandel wearing an identical button upon the breast of his jacket. You will find him by the entrance to the Gentry's Ward, northwest of the Lancers' Guild.",
+            "Ursandel instantly recognizes the sigil as that of the old and proud Dartancours family. With a sigh of resignation, he agrees to reveal the truth behind the mysterious murders...on the condition that you promise to help him with what will most certainly be an unsavory task."
+        ],
+        "objectives": [
+            "Show the lily button to Miounne.",
+            "Show the lily button to Bernadette.",
+            "Show the lily button to Ceinguled.",
+            "Show the lily button to Ursandel."
+        ],
+        "dialogue": [
+            {
+                "name": "AETHELMAER",
+                "text": "I would have you hold on to the lily button. You will need it to continue your investigation."
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "While it isn't standard procedure to entrust key evidence to individuals, you have proven yourself reliable and resourceful in this matter. I see no reason why you shouldn't carry on your work."
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "If I might make a suggestion, you may wish to take the button to Gridania and have it examined by Miounne. Mayhap someone in her vast network of contacts can shed light upon its sigil."
+            },
+            {
+                "name": "MIOUNNE",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morrow</span><span class=\"alternative\">day</span></span> to you, <span class=\"highlight\">Forename</span>. By your grim expression, I suspect you aren't here for scones and herb tea."
+            },
+            {
+                "name": "MIOUNNE",
+                "text": "Well, isn't this a lovely little button. The engraving is quite exquisite─artisan-level quality, I would say. Where did you say you found this? ...On a dead body? <span class=\"emphasis\">Lovely</span>."
+            },
+            {
+                "name": "MIOUNNE",
+                "text": "Anyway, I'm afraid I do not recognize the lily sigil. You will have to find the answer the old-fashioned way─by asking around. You could do worse than beginning with Bernadette, over by the aetheryte plaza. She has a sharp pair of eyes, that one."
+            },
+            {
+                "name": "BERNADETTE",
+                "text": "Need help tracking down the owner of a button? That's certainly not a request I receive on a regular basis. Well, go on, then─show me what you have."
+            },
+            {
+                "name": "BERNADETTE",
+                "text": "Hmmm... Seems to be some manner of decorative button, reminiscent of those worn by the families of old, though I cannot claim to know its sigil. However, I can say with certainty that the white lily is a recurring theme in Gridanian culture."
+            },
+            {
+                "name": "BERNADETTE",
+                "text": "Alas, I do not know who would make a personal sigil of it. If there is a soul in Gridania who does, it would be Ceinguled over at the Lancers' Guild. The woman makes a point of knowing all the citizens on a forename basis."
+            },
+            {
+                "name": "CEINGULED",
+                "text": "Bernadette believes that I can help you? Well, that is a rather bold assumption to make. I will try to assist, never you fear, but whether aught comes of it is another matter. Now, then, what do you require of me?"
+            },
+            {
+                "name": "CEINGULED",
+                "text": "Fascinating... Work of this quality is rarely seen in the hands of ordinary Gridanians. The owner of this button is most certainly well-to-do. You may wish to take your search to the Gentry's Ward, northwest of here."
+            },
+            {
+                "name": "CEINGULED",
+                "text": "Wait. A memory comes to me. Of late, there has been a man who is perpetually seated at the bench by the ward's entrance. His name is Ursandel, and I distinctly recall seeing a markedly similar button upon the breast of his jacket. I daresay <span class=\"emphasis\">he</span> can tell you a thing or two about it."
+            },
+            {
+                "name": "URSANDEL",
+                "text": "I do not believe we are acquainted. Pray leave me to my thoughts."
+            },
+            {
+                "name": "URSANDEL",
+                "text": "&lt;gasp&gt; The sigil of the Dartancours family! How...how is it that you came to be in possession of this button?"
+            },
+            {
+                "name": "URSANDEL",
+                "text": "...From the body of a murdered woman? H-Her face...was it marred in any way?"
+            },
+            {
+                "name": "URSANDEL",
+                "text": "I had feared as much... &lt;sigh&gt; I can no longer feign ignorance. I shall reveal to you the truth of the deaths, but on one condition: you promise to put an end to my lady's madness and free her from her torment."
+            }
+        ],
+        "reward": {
+            "gil": 2297,
+            "xp": 12580
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66335
+            ]
+        },
+        "next": [
+            66337
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002780",
+            "obj": {
+                "i": 1002780,
+                "n": "Aethelmaer",
+                "l": 57,
+                "q": 3,
+                "t": "Serpent Sergeant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006263",
+            "obj": {
+                "i": 1006263,
+                "n": "Ursandel",
+                "l": 53,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000100",
+            "obj": {
+                "i": 1000100,
+                "n": "Mother Miounne",
+                "l": 52,
+                "q": 21,
+                "t": "Carline Canopy Proprietress"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000146",
+            "obj": {
+                "i": 1000146,
+                "n": "Bernadette",
+                "l": 52,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000248",
+            "obj": {
+                "i": 1000248,
+                "n": "Ceinguled",
+                "l": 53,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66335",
+            "obj": {
+                "i": 66335,
+                "n": "Power of Deduction",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 153
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66337",
+            "obj": {
+                "i": 66337,
+                "n": "Skeletons in Her Closet",
+                "g": 1,
+                "l": "Gridania",
+                "s": 155
+            }
+        }
+    ]
+}

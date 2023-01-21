@@ -1,0 +1,651 @@
+{
+    "quest": {
+        "name": "Gamboling for Gil",
+        "location": "Limsa Lominsa",
+        "id": 68786,
+        "patch": 5.0,
+        "sort": 202,
+        "icon": 100872,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1028724,
+        "target": 1028735,
+        "genre": 163,
+        "journal": [
+            "Nashmeira eyes you with an enthusiastic expression.",
+            "Mistress Nashmeira officially welcomes you to the ranks of Troupe Falsiam, and elucidates the details of her proposed tour across Eorzea. There remains, however, one rather serious complication: the troupe has yet to secure a patron willing to fund the trip. Fortunately, Nashmeira has tracked down a promising prospect─and one who might be particularly receptive to a plea from you, at that. Make the trip to Costa del Sol with your newfound troupemates in hopes of winning over a certain merchant of wealth and influence.",
+            "You arrive in Costa del Sol and pay your respects to Master Gegeruju, the renowned aesthete who has expressed a willingness to fund Troupe Falsiam's tour. Your host, however, has one strict condition: before he promises you his aid, you must deliver him a performance unlike anything he has ever laid eyes on before. With encouragement from Nashmeira and Ranaa, you ready yourself to take the stage for the first time in your new career.",
+            "Under Mistress Nashmeira's guidance, your inaugural performance as a member of Troupe Falsiam is a smashing success─in particular the grand finale, a dramatic dance battle between you and Ranaa. But was it enough to win the heart and loosen the purse strings of the notoriously difficult Master Gegeruju? There is only one way to find out...",
+            "Master Gegeruju gives Troupe Falsiam a momentary scare when he petulantly threatens to withdraw his support, but your stony glare quickly convinces him that it would be unwise to renege on his agreement. On the contrary, the merchant generously offered to write a personal letter of recommendation on the troupe's behalf to be delivered to the Syndicate, that your performance in Ul'dah may be carried out without a hitch. Your business here complete, Nashmeira heads off to share the good news with her troupemates.",
+            "With Ranaa hoping to pick up a trick or two from Master Gegeruju's dancers, and Nashmeira needing to prepare for the next leg of the journey, Troupe Falsiam decides to sojourn in Costa del Sol until such time as the necessary arrangements have been made with the sultanate. The respite should afford you an excellent opportunity to hone your dancing skills, should you be so inclined.<br><br>※The next dancer quest will be available from Nashmeira upon reaching level 63."
+        ],
+        "objectives": [
+            "Speak with Nashmeira at Costa del Sol.",
+            "Speak with Ranaa Mihgo.",
+            "Speak with Ranaa Mihgo again.",
+            "Speak with Nashmeira.",
+            "Execute a Closed Position with Nashmeira.",
+            "Dance the proper steps, then execute a Double Standard Finish.",
+            "Dance the steps again, then execute a Double Standard Finish.",
+            "Defeat the dancing dummy!",
+            "Defeat Ranaa in a dance battle!"
+        ],
+        "dialogue": [
+            {
+                "name": "RANAAMIHGO",
+                "text": "I still remember the time I first saw Nashmeira dance. So glamorous, so elegant she was... Though I was but a clumsy girl always tripping over my own two feet, I swore to myself then and there that one day I would shine like her."
+            },
+            {
+                "name": "KUIHLUD",
+                "text": "I hear that you've officially joined the ranks of our merry little troupe. I'm a musician, not a dancer, but if Mistress Nashmeira saw something in you, that's more than enough for me."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "I have trained many a dancer in my day, but I cannot recall ever having seen the crystal take to one of our new recruits so quickly. Truly, there is prodigious talent within you just waiting to be untapped..."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "I've never seen anything like it, either! Why, at this rate <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> might even be able to challenge <span class=\"emphasis\">me</span> for the position of Troupe Falsiam's rising star!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Let's not get ahead of ourselves, Ranaa. But yes, with <span class=\"highlight\">Forename</span> in our ranks, our ultimate goal might at long last be within reach..."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Before that, however, I should share with you the full details of our planned itinerary."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "As I may have mentioned, we have traveled to these shores with two purposes: to share our time-honored art with Eorzeans far and wide, and in doing so, to do our part to help heal any lingering scars left by the Calamity."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Limsa Lominsa here was the first stop on our tour of the realm. This leaves us with four destinations: Ul'dah, Gridania, Ishgard, and finally Ala Mhigo."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "And yet, Ishgard is still dealing with the repercussions of the Dragonsong War, and Ala Mhigo has but recently been liberated from their Garlean masters. I believe it would be best to put off our performances in those nations until such a time as we can be sure our presence will be welcome."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "And yet, Ala Mhigo remains under Garlean rule, and Ishgard is still dealing with the repercussions of the Dragonsong War. I believe it would be best to put off our performances in those nations until we can be certain our presence there will be welcome."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "And yet, Ishgard's gates remain shuttered to the outside world, and Ala Mhigo continues to struggle for freedom from its Garlean masters. Needless to say, we will be putting off our performances in those nations until such a time as we can be certain that our presence will be welcome."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "And so, by process of elimination, the next two destinations in our tour are all but decided. However, there is another important matter we must attend to before we set off."
+            },
+            {
+                "name": "KUIHLUD",
+                "text": "Finding ourselves a patron willing to sponsor our jaunt across the realm, yes?"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Precisely. With what little coin remains in our coffers after the long journey, we can scarce afford to put on humble productions like the one <span class=\"highlight\">Forename</span> just witnessed. We must find someone who will spare no expense in helping us bring our art to every corner of Eorzea."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Fortunately, I have learned of someone who might be suited to that role. An acquaintance of mine in these lands─a songstress, no less─introduced me to an influential merchant who considers it his life's work to promote daring new forms of creative expression the realm over."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "The man in question has all but agreed to fund our tour, on one condition: we must grace him with a private performance, and he must deem it to be a true artistic revolution unlike anything he's seen before."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "An artistic...revolution? That sounds like an awfully tall order..."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Indeed it is. After all, an aesthete of such renown has surely seen a Near Eastern dance or two in his day. So I asked myself─what could we possibly show this man that would truly awe and inspire him? Long did I struggle to come up with an answer, but no longer..."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "<span class=\"highlight\">Forename</span>─you will take the stage with Ranaa, and transform into a full-fledged dancer before this man's very eyes! Yes, I call it...<span class=\"emphasis\">A Flower Blooms on the Battlefield</span>!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Yes, yes...it is all coming to me now! For the final act, Ranaa here will play the role of a formidable foe, unleashing a fearsome array of steps and twirls against you. You'll fend them off, retaliating with flourishes of your own in a dramatic dance battle for the ages!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "<span class=\"highlight\">Forename</span> and I taking the stage together? My tail is tingling with excitement just thinking about it! And through our battle, we'll show our would-be patron that our art is more than just for show. Why, it's positively perfect!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "I know it's your first performance, but you needn't worry─Nashmeira and I will be right there with you. Just follow our lead, let the music carry you, and I'm sure our performance will knock this bigwig merchant's socks off."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Ranaa speaks true. I would not have invited you into our ranks if I did not believe─if I did not <span class=\"emphasis\">know</span>─you were capable of what I ask. And so, let us not delay any further. Our audience awaits us in a place called...ah yes, Costa del Sol."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "The success of our Eorzean tour─and perhaps the very future of our troupe as a whole─depends on what this fellow thinks of us. You bet I'm dressed for the occasion!"
+            },
+            {
+                "name": "KUIHLUD",
+                "text": "Ranaa and the boss have already left to pay their respects to our would-be patron. You should hurry along and join them."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Excellent! My two rising stars are here, and we can finally get the show on the road. But first, we should pay our respects to our patron-to-be, Master Gegeruju. Come with me."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "...Master Gegeruju. It is a pleasure and an honor to be invited to your lovely estate. I am Nashmeira, leader and principal dancer of Troupe Falsiam, and I stand before you today with two of my most promising protégés."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Yes, yes, welcome and all─Thal take me! Is that you, Titan's Bane? Moonlighting as a dancer these days, are you? I must admit, I thought adventuring was more lucrative than that..."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Yes, yes, welcome! But aren't you a spirited one? And this <span class=\"alternative-container\"><span class=\"alternative\">striking young lass</span><span class=\"alternative\">strapping young lad</span></span>─there's something about <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span> that catches the eye. Clearly─and wisely─you've brought only your best to perform for me today."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Mind you, when you're as wealthy as me, the <span class=\"emphasis\">best</span> is a given. No, I won't be content with merely a masterful performance. I want to see something daring! Something profound! Something the likes of which this realm has never seen! I trust you're up to the task?"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "We would let your eyes be the judge of that, Master Gegeruju. For today, Costa del Sol will be the venue for the inaugural performance of Troupe Falsiam's newest production. I call it, <span class=\"emphasis\">A Flower Blooms on the Battlefield</span>."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Fear not, <span class=\"highlight\">Forename</span>. I will guide you every step of the way. Cast your worries from your heart, let your body be as one with the music, and all will be well."
+            },
+            {
+                "name": "KUIHLUD",
+                "text": "This is our chance! If we win over Master Gegeruju, our coffers will be flowing over. Break a leg out there, <span class=\"highlight\">Forename</span>─er, not literally, of course."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "A flower on the battlefield, eh? Is this truly the artistic revolution I've sought for so long!? For the sake of your coinpurses, I should hope so! Gahahaha!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Your very first performance, and already you're taking center stage! Don't worry, you'll be fine. Your first opponent will be a training manikin designed specifically to hone an aspiring dancer's skills. Breathe deeply, move with purpose, and it'll be a breeze."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "At the same time, always remember that the Kriegstanz is a dance of war. I know you are among friends here, but I want you to imagine yourself on the battlefield, leaping and twirling through a legion of foes."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Now, let's knock this Master Gegeruju out of his hundred-thousand-gil stockings! I'm ready when you are!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have learned all dancer actions and traits to level 60. Detailed descriptions can be viewed in the <span class=\"highlight\">Actions & Traits</span> window, accessed under <span class=\"highlight\">Character</span> in the main menu."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "That's it...that fire in your eyes! This is the chance of our lifetimes, so let the same passion burn in your heart, and hold nothing back. Let the curtain rise!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "You still lack for experience...this I know. But take heart, for I have crafted this performance specifically to draw out your innate talent─step by precious step. Follow my lead, and you will feel yourself transforming into a full-fledged dancer before you even know it."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Lose yourself in the music, let the passion in your heart take over, and you will move as you have never moved before. Yes, <span class=\"emphasis\">you</span> are the flower on this battlefield, and today you will blossom!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Are you sure that was your first time up on stage? I could swear I was watching a veteran up there! I couldn't take my eyes off of you for a moment!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "But hey, my moves were nothing to sneeze at either, right? Of course, all the flashy lights were just for show. I set them up beforehand─just to liven up our performance, you know?"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "But enough about me─this was <span class=\"emphasis\">your</span> day to shine! If that meant me playing the villain for a day, so be it. I'm just proud to have played my part in helping your talents bloom!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Gahahaha! Now <span class=\"emphasis\">that</span> was a sight to behold. A bold young <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> taking on one fearsome foe after the next, and transforming into a masterful dancer before my very eyes! Yes, I do believe I've not seen anything quite like it!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Your words do us great honor, Master Gegeruju. Might we also count on you to loosen your purse strings and sponsor Troupe Falsiam on our tour across your fair realm?"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Hmmmmmm... It is true, of course, that your troupe deserves a far wider audience. And yet, your performance moved me so that I just couldn't bear to part with you so soon..."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "I must say, I found myself <span class=\"emphasis\">particularly</span> smitten with the young kitten who played the villain's role─Ranaa, was it? Perhaps I could interest you in signing a contract to be one of my personal dancers. I can promise that it would be a...lucrative one."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Wh-Why, you flatter me, Master Gegeruju... But I fear I'm still in training. I can't very well leave Miss Nashmeira's side until our tour is complete..."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Is that so, now? No, no, this simply won't do! Why, I'm afraid your rejection has so devastated me that I simply don't have it in me to fund your little excursion after all!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Y-You can't be serious! You gave us your word!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "He won't take no for an answer! Whatever should we do, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "You are...altering the deal?"
+            },
+            {
+                "name": "A2",
+                "text": "We can do this the easy way, or..."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Wh-What's that supposed to mean!? S-Stop looking at me like that─you're scaring me!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "I j-jest, I jest! I say, I n-never took you dancers to be such a bloody serious lot! I meant only to express how utterly enthralled I was by your p-p-peerless performance!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "You have provided me with precisely the sort of bold and audacious artistic revolution I sought. As per our deal, I am more than happy to offer you the financial backing you so clearly deserve!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "We are most grateful, Master Gegeruju. Truly, your aesthetic sensibilities are matched only by your boundless generosity. By your leave, we shall begin preparing for our forthcoming performance in Ul'dah."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "W-Wait, I say! I mean...if I might make just one small request."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "I ask not that you sign an exclusive contract─only that one of you sojourn here as my honored guest, and entertain me for a spell. In return, in addition to my patronage, I promise that I will deliver you a personal letter of recommendation to the Syndicate on your behalf!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Well, I do believe that sounds like a mutually beneficial arrangement. In that case, Master Gegeruju, you may have the pick of any of my troupe─excepting <span class=\"highlight\">Forename</span>, of course."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Then the deal is done! Yes, I would be more than content with the lovely Miss Ranaa here. Leave the negotiations with the Syndicate to me─in the meantime, I look forward to seeing every move in your repertoire."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "The pleasure is mine, Master Gegeruju. And please introduce me to your personal dancing girls as well─I'm sure there's so much they could teach me about the art of dance in Eorzea."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Phew. I was worried there for a moment, but all's well that ends well. I'll go and share the good news with the others. Pray come along if you'd like."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "I must say, their clothes are rather more...<span class=\"emphasis\">revealing</span>...than I expected. I'm feeling better by the minute about turning down Master Gegeruju's offer..."
+            },
+            {
+                "name": "KUIHLUD",
+                "text": "I'm not exaggerating, friend─that was a first performance for the ages! Nashmeira's eye for talent has never led us astray, but I had no idea you'd realize your potential so quickly. Bravo, I say! Bravo!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Can it truly be!? My beautiful Ranaa, mine to behold every night and every day!? Oh, truly the Trader smiles on me today!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "When Master Gegeruju started insisting on taking Ranaa from us, I thought all our efforts were for naught. But it seems we've come away with everything we bargained for, and then some."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "...And it's all thanks to you. It really was quite remarkable how he changed his tune after you gave him just a single glance. Clearly, you possess remarkable powers of persuasion."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "At any rate, I suppose a short sojourn here could benefit us all. Ranaa seems eager to get to know the dancers here, and I must attend to administrative tasks before our next performance. In the meantime, why don't you put your newfound skills to the test? I suspect you'll be quite pleased with how well they serve you."
+            },
+            {
+                "name": "QIB",
+                "text": "Gegeruju's Satisfaction"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Are you ready, <span class=\"highlight\">Forename</span>? First, you'll want to execute what we call a Closed Position, and choose me as your partner."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Once you've chosen a partner, you'll be able to invigorate them through your dancing."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Are you ready? Trust me: follow my lead, and Gegeruju will be all but putty in our hands."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Splendid! Now, let's show Gegeruju what you can do!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Come, now! Execute a Closed Position, choose me as your partner and let's put on a show!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "What's taking so long!? I came to see a show, not whatever this nonsense is!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Our apologies for the delay, Master Gegeruju. Without further ado, behold as our flower blooms on the battlefield!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Finally, it's time for the show! This had best be all I've heard it to be─lest you're not getting a single coin of my gil!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "...Phew. No pressure, eh? All right, <span class=\"highlight\">Forename</span>. Let's begin with the basics."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Commence your dance, make two Standard Steps, and then top it off with a Double Standard Finish."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "That's it! Can you feel the power welling up from within you? Now it's my turn!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Can you feel the strength surging within you? Just like this, you and your partner inspire and feed off of one another to bring out the best in both of you."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "But we're just getting warmed up, aren't we? Gegeruju wants to see more, so go ahead and show him what you've got!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Oho! So this is the famed Troupe Falsiam! Perhaps your reputation was well deserved after all!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Simply astounding! I never knew that Eastern dance was so...alluring."
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "<span class=\"emphasis\">This</span> is the famous Troupe Falsiam? It all seems so terribly...<span class=\"emphasis\">ordinary</span>."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Don't rush yourself, <span class=\"highlight\">Forename</span>! Every step must be executed with purpose!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "What is the meaning of this!? If I didn't know better, I'd say you were just making this up as you went along!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Bah, you've wasted my time long enough! If you're just going to stand around all day, I have more important places to be!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Not bad...not bad at all. But you must show me more...more, I say!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "It would seem Master Gegeruju has warmed up to you. Next, show him what you can do with this manikin here."
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "From here, you must dance to your own rhythm. Use your weapons to your advantage as well, and fell your foe!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Behold, Master Gegeruju: my protégé will now put on a show with this dancing doll. Watch as <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> fends off its mighty magicks!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Oho! Nothing like a good battle to get the blood pumping!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Is this supposed to be part of the show!? The <span class=\"alternative-container\"><span class=\"alternative\">girl</span><span class=\"alternative\">boy</span></span>'s taking an absolute beating out there!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Gahahaha! Elegant <span class=\"emphasis\">and</span> deadly? Yes, I do believe I approve!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Do not forget your standard steps. Dance your dance, and not only will you strike your foe, but invigorate yourself and your companions in the process!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Now <span class=\"emphasis\">that's</span> what I call dancing! What's next? The show will go on, yes!?"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "All right, <span class=\"highlight\">Forename</span>. We have Master Gegeruju right where we want him. It's time for you and Ranaa to take the stage together!"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "I trust you are enjoying the show? And now, we present the grand finale: behold, as my two dancers clash in a display of dangerous beauty!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "A duel of two dancers, you say!? Now <span class=\"emphasis\">that's</span> what I came to see! Come, my lovelies, and sweep me off my feet!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Are you ready, <span class=\"highlight\">Forename</span>? For the final act, we'll be performing together. Watch me closely, and try to keep up, okay?"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Two dancers, moving in perfect harmony! I've never seen such a sight! I want to see more!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Such beauty...! Such grace...! I can't take my eyes off of them!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "Gahahaha! My eyes are blinded by the sheer beauty!"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "I-Inconceivable! I...I've never seen anything like them!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Well, well! It looks like someone's feeling comfortable out there. But your rival still has a couple of tricks up her sleeves...!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "I am as the flames, flickering in the darkness...!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Your movements grow quicker even as I watch...but I've only begun to fight!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "I am as the raging waves, crashing against the shore!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Watch me now! <span class=\"emphasis\">This</span> is how you finish in style!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "I am as a whirlwind, ripping through the skies!"
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Hah! Neither you nor Master Gegeruju can resist my charms..."
+            },
+            {
+                "name": "RANAAMIHGO",
+                "text": "Can you keep up with me now?"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "Unused"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "GEGERUJU",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "NASHMEIRA",
+                "text": "（★未使用／削除予定★）"
+            }
+        ],
+        "reward": {
+            "gil": 1983
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 150
+                }
+            ],
+            "quests": [
+                68785
+            ]
+        },
+        "next": [
+            68787
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1028724",
+            "obj": {
+                "i": 1028724,
+                "n": "Nashmeira",
+                "l": 29,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1028735",
+            "obj": {
+                "i": 1028735,
+                "n": "Nashmeira",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68785",
+            "obj": {
+                "i": 68785,
+                "n": "Shall We Dance",
+                "g": 163,
+                "l": "Limsa Lominsa",
+                "s": 201,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68787",
+            "obj": {
+                "i": 68787,
+                "n": "A Soirée in the Sultanate",
+                "g": 163,
+                "l": "Eastern La Noscea",
+                "s": 211,
+                "f": 1
+            }
+        }
+    ]
+}

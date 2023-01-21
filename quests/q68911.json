@@ -1,0 +1,183 @@
+{
+    "quest": {
+        "name": "Work to Live or Live to Work",
+        "location": "Amh Araeng",
+        "id": 68911,
+        "patch": 5.0,
+        "sort": 1410,
+        "icon": 100852,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1027872,
+        "target": 1030391,
+        "genre": 115,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Ghen Gen is fidgeting even more than usual.",
+            "Ghen Gen urges you to intervene on his behalf in a matter involving his son Ghun Gun. The young Mord has earned a reputation as a hard worker, although he works a little too hard for his own good, only stopping to rest when specifically instructed to do so. The merchant asks that you travel to the Red Serai and ask Ghun Gun to refrain from any further exertion, lest he work himself to death.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "Ghun Gun pays little heed to his father's wishes, as he intends to carry on searching the rubble for “shinies” until a satisfactory haul can be found. However, he also understands that his refusal to rest would prevent you from fulfilling your promise to Ghen Gen. He suggests that were you to help him uncover a valuable relic or two, he would be able to stop working for at least long enough to catch his breath.",
+            "After much scrabbling around under rubble and in the sand, you eventually come across an intricately engraved signet ring. Sensing that this is precisely the sort of relic Ghun Gun has been looking for, you make your way over to present the unearthed treasure.",
+            "Ghun Gun is overjoyed with the signet ring you have found, and suggests that it may be highly valuable. He offers to give you half of the money earned from the sale of the relic, although it will first need to be evaluated to determine its true worth."
+        ],
+        "objectives": [
+            "Speak with Ghun Gun.",
+            "Search for relics at the specified location.",
+            "Deliver the intricately engraved signet ring to Ghun Gun."
+        ],
+        "dialogue": [
+            {
+                "name": "GHENGEN",
+                "text": "Greetings, friend! You like helping people, yes? Maybe you can help me, too!"
+            },
+            {
+                "name": "GHENGEN",
+                "text": "You see, my son Ghun Gun makes me very proud, but very worried. He works very hard, too hard for his own good!"
+            },
+            {
+                "name": "GHENGEN",
+                "text": "He follows orders, yes. Follows them until someone tells him to stop. This is very dangerous, bad for his health! I need you to speak to him, persuade him to rest."
+            },
+            {
+                "name": "GHENGEN",
+                "text": "He should be near the Red Serai, probably leaving no stone unturned in his search for relics."
+            },
+            {
+                "name": "GHENGEN",
+                "text": "Please, tell him his father <span class=\"emphasis\">orders</span> him to stop!"
+            },
+            {
+                "name": "GHENGEN",
+                "text": "I must explain to Ghun Gun the dangers of working <span class=\"emphasis\">too</span> hard. A dead Mord is no use to anyone!"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Search the nooks, search the crannies～♪<br>Search high, search low～♪ "
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Oh, sorry! I did not see you there. Are you lost?"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Father says I must rest? That will not do, no no. I <span class=\"emphasis\">will</span> stop, but not yet!"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "I need something to show for my efforts. All this scrabbling, all this searching and still no shinies!"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Hmm... You came here to tell me to stop, but if I refuse, your job will not be finished, will it? That will not do, either. Wait! I have an idea!"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "If you help me find shinies, my job will be over, your job will be over, and I can rest! Simple, yes?"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Look under that rubble and find whatever there is to be found. Maybe it will be valuable, maybe not."
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Either way, let us keep searching until we get at least one shiny! "
+            },
+            {
+                "name": "GHENGEN",
+                "text": "You are helping Ghun Gun with his work? Not the solution I had in mind..."
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Good shinies are too sturdy to be squished by falling rubble, so no need to worry about that. Do try not to squish yourself, though!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Your search fails to yield any shinies."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You find a signet ring!"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "What did you find? Not more rubble, I hope!"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Oh, this looks very special... Such pretty patterns! I have never seen one like this before."
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "But how much is it worth? I am an expert in finding shinies, not a historian. Perhaps we should ask someone."
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "Once we sell it, we will divide the profits between us!"
+            },
+            {
+                "name": "GHUNGUN",
+                "text": "We worked as a team, so half for you, half for me. Fair is fair!"
+            }
+        ],
+        "reward": {
+            "gil": 715,
+            "aetherCurrent": 1
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68829
+            ]
+        },
+        "next": [
+            68912
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1027872",
+            "obj": {
+                "i": 1027872,
+                "n": "Ghen Gen",
+                "l": 2955,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1030391",
+            "obj": {
+                "i": 1030391,
+                "n": "Ghun Gun",
+                "l": 2955,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68829",
+            "obj": {
+                "i": 68829,
+                "n": "Working Off the Meal",
+                "g": 8,
+                "l": "Amh Araeng",
+                "s": 150
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68912",
+            "obj": {
+                "i": 68912,
+                "n": "Mord of the Ring",
+                "g": 115,
+                "l": "Amh Araeng",
+                "s": 1411
+            }
+        }
+    ]
+}

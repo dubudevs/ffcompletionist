@@ -1,0 +1,133 @@
+{
+    "quest": {
+        "name": "Duty Calls",
+        "location": "Limsa Lominsa",
+        "id": 65651,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1000898,
+        "target": 1001537,
+        "involved": [
+            1001023
+        ],
+        "genre": 91,
+        "journal": [
+            "P'tahjha of Mealvaan's Gate needs help collecting duty on imported goods.",
+            "P'tahjha bids you deliver two log assessor's ledgers. The recipient of the first is Sundhimal, who stands post at the Octant.",
+            "You have delivered a ledger to Sundhimal. Next make your way to the Bismarck, and seek out Latisha.",
+            "It appears the ledgers were bound for places where merchants are like to gather. In the course of your errand, you have learned something of customs enforcement in Limsa Lominsa.   "
+        ],
+        "objectives": [
+            "Deliver a log assessor's ledger to Sundhimal.",
+            "Deliver a log assessor's ledger to Latisha."
+        ],
+        "dialogue": [
+            {
+                "name": "PTAHJHA",
+                "text": "Here at Mealvaan's Gate, we inspect all the goods that are imported into Limsa Lominsa, and collect duty as the law requires. Some merchants, however, seek to evade this obligation, and we must chase them down."
+            },
+            {
+                "name": "PTAHJHA",
+                "text": "I would be grateful if you could deliver these two ledgers─one to a man named Sundhimal, whom you will find at the Octant, and the other to a woman named Latisha, who works at the Bismarck."
+            },
+            {
+                "name": "PTAHJHA",
+                "text": "If you are uncertain as to the whereabouts of the Bismarck, ask Sundhimal when you meet him, and he will point you in the right direction."
+            },
+            {
+                "name": "SUNDHIMAL",
+                "text": "A ledger from Mealvaan's Gate, you say?"
+            },
+            {
+                "name": "SUNDHIMAL",
+                "text": "Yet more outstanding duty payments... When will those merchants ever learn? Very well, if I catch sight of any offenders, I shall drag them to the Gate, kicking and screaming if needs be."
+            },
+            {
+                "name": "SUNDHIMAL",
+                "text": "One more ledger bound for the Bismarck, you say? Follow this path to the upper decks, and you'll find the place."
+            },
+            {
+                "name": "LATISHA",
+                "text": "Tax evaders among our patrons, you say? Goodness me..."
+            },
+            {
+                "name": "LATISHA",
+                "text": "I daresay this may well put an end to their appetite, but this is in the best interests of the city–state."
+            },
+            {
+                "name": "LATISHA",
+                "text": "If any of the merchants named in this ledger come to dine with us, I shall see that Mealvaan's Gate is notified without delay."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 5,
+                    "id": 4551
+                },
+                {
+                    "num": 5,
+                    "id": 4555
+                }
+            ],
+            "xp": 50
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000898",
+            "obj": {
+                "i": 1000898,
+                "n": "P'tahjha",
+                "l": 29,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001537",
+            "obj": {
+                "i": 1001537,
+                "n": "Latisha",
+                "l": 28,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001023",
+            "obj": {
+                "i": 1001023,
+                "n": "Sundhimal",
+                "l": 29,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        }
+    ]
+}

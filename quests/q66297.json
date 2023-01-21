@@ -1,0 +1,227 @@
+{
+    "quest": {
+        "name": "Tea for Three",
+        "location": "Southern Thanalan",
+        "id": 66297,
+        "patch": 2.0,
+        "sort": 138,
+        "eventIcon": 71201,
+        "issuer": 1006217,
+        "target": 1006217,
+        "involved": [
+            1006702,
+            1006703,
+            1006704
+        ],
+        "genre": 1,
+        "journal": [
+            "Gisilbehrt would like to aid in your manhunt.",
+            "Gisilbehrt of the Immortal Flames believes that one of his lookouts may have seen the man you seek. That they might be more forthcoming, he provides you with cups of sweet Thanalan tea to distribute among his men at the outpost to the south.",
+            "Based on the scant information you acquired from the sentries, it would seem that Lahabrea is in some way connected to Little Ala Mhigo. Return to Gisilbehrt and share with him what you have learned.",
+            "Who was it that was speaking with Lahabrea, and what was the nature of their conversation? If you are to make further progress in your investigation, you must somehow gain the trust of the Ala Mhigan refugees."
+        ],
+        "objectives": [
+            "Deliver cups of tea to the lookouts.",
+            "Report to Gisilbehrt."
+        ],
+        "dialogue": [
+            {
+                "name": "GISILBEHRT",
+                "text": "Well met, adventurer. I'm Gisilbehrt, head of security here at Little Ala Mhigo. I heard tell that you had business with Gundobald. Knowing the bristly old bear, I don't doubt he told you to bugger off."
+            },
+            {
+                "name": "GISILBEHRT",
+                "text": "Owing to their hardships, the refugees don't trust anyone but themselves. Not even my men and I can get so much as a word of thanks out of them despite watching the place day and night."
+            },
+            {
+                "name": "GISILBEHRT",
+                "text": "But thanks or no, I try to help my fellow man when I can, and you seem a decent sort. If you tell me what's brought you here, might be as I can lend a hand."
+            },
+            {
+                "name": "GISILBEHRT",
+                "text": "...On the trail of a masked villain, you say? Hmmm, can't say that sounds familiar, but I have men on lookout for Amalj'aa to the south of here. If there's been any suspicious activity, they are like to have seen it."
+            },
+            {
+                "name": "GISILBEHRT",
+                "text": "I had a mind to take them each a cup of sweet Thanalan tea so as to lift their spirits. If you were to run this little errand in my stead, they'd be all the more willing to tell you what they know."
+            },
+            {
+                "name": "OSRIC",
+                "text": "Who the hells're you? I'm tryin' to conserve energy here, so leave me alone."
+            },
+            {
+                "name": "OSRIC",
+                "text": "Well, ain't ye considerate! My thanks, friend!<br>...What's that? A masked villain? Hidin' among the refugees, like as not."
+            },
+            {
+                "name": "OSRIC",
+                "text": "Me compatriots as live here go about as though they're dead on their feet. 'Tis near impossible to tell what's on their minds. For all I know, they're <span class=\"emphasis\">all</span> up to no good."
+            },
+            {
+                "name": "YAYAZUKE",
+                "text": "Shoo, shoo! Don't bother me! If the Amalj'aa overrun us, I'm blaming <span class=\"emphasis\">you</span>!"
+            },
+            {
+                "name": "YAYAZUKE",
+                "text": "For me? You shouldn't have!<br>...Sorry? A suspicious masked man? As a matter of fact, I caught glimpse of someone fitting that description during patrol."
+            },
+            {
+                "name": "YAYAZUKE",
+                "text": "Well, I couldn't quite make out whether it was a man or not, what with the mask and the robe. But assuming it <span class=\"emphasis\">was</span> a he, he was talking with some Ala Mhigans. I assumed he was one of them."
+            },
+            {
+                "name": "ANGRYRIVER",
+                "text": "You there! Are you an Amalj'aa? No? Then carry on!"
+            },
+            {
+                "name": "ANGRYRIVER",
+                "text": "Ahhh, this sophisticated aroma! It has been forever since I had a drop of sweet Thanalan! I'm going to enjoy this!"
+            },
+            {
+                "name": "ANGRYRIVER",
+                "text": "What? A masked man? Don't know, don't care! Unless he's got dark scaly skin, stands ten fulms tall, and has the face of a lizard, then I don't give a mummer's fart!"
+            },
+            {
+                "name": "GISILBEHRT",
+                "text": "Ah, you're back. So, did my lookouts have aught to share with you?<br>...Hmmm, that doesn't sound like much to go by. "
+            },
+            {
+                "name": "GISILBEHRT",
+                "text": "If you're to get any further in your investigation, seems to me you'll need the cooperation of the Ala Mhigans. For this, you'll need to win their trust, and that won't be an easy task."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 27638,
+                    "one": 1
+                },
+                {
+                    "id": 2728,
+                    "one": 1
+                },
+                {
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 9520
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 25,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66293
+            ]
+        },
+        "next": [
+            66298
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006217",
+            "obj": {
+                "i": 1006217,
+                "n": "Gisilbehrt",
+                "l": 45,
+                "q": 4,
+                "t": "Flame Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006702",
+            "obj": {
+                "i": 1006702,
+                "n": "Osric",
+                "l": 45,
+                "q": 1,
+                "t": "Flame Private"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006703",
+            "obj": {
+                "i": 1006703,
+                "n": "Yayazuku",
+                "l": 45,
+                "q": 1,
+                "t": "Flame Private"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006704",
+            "obj": {
+                "i": 1006704,
+                "n": "Angry River",
+                "l": 45,
+                "q": 1,
+                "t": "Flame Private"
+            }
+        },
+        {
+            "type": "item",
+            "id": "27638",
+            "obj": {
+                "i": 27638,
+                "n": "Altered Velveteen Bandana",
+                "l": 25,
+                "c": 41774,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "2728",
+            "obj": {
+                "i": 2728,
+                "n": "Silver Spectacles",
+                "l": 25,
+                "c": 40881,
+                "t": 34,
+                "p": 1314
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66293",
+            "obj": {
+                "i": 66293,
+                "n": "On to Little Ala Mhigo",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 137
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66298",
+            "obj": {
+                "i": 66298,
+                "n": "Foot in the Door",
+                "g": 1,
+                "l": "Southern Thanalan",
+                "s": 139
+            }
+        }
+    ]
+}

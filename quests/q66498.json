@@ -1,0 +1,169 @@
+{
+    "quest": {
+        "name": "The Reluctant Researcher",
+        "location": "Western La Noscea",
+        "id": 66498,
+        "patch": 2.0,
+        "sort": 219,
+        "eventIcon": 71201,
+        "issuer": 1006497,
+        "target": 1006503,
+        "involved": [
+            1007540,
+            1007640
+        ],
+        "genre": 1,
+        "journal": [
+            "Ceana has no desire to journey to the Isles of Umbra.",
+            "At your insistence, Ceana agrees to accompany you to the Isles of Umbra to help you acquire a corrupted crystal. Speak with the ferry skipper to begin your journey.",
+            "A cursory survey of the shore reveals no signs of undead. Even so, you observe that Ceana's hands are visibly shaking as she grips your warded pot. Find out what is troubling her.",
+            "In the end, Ceana succumbs to her fear and flees back to the mainland, though not before returning your warded pot to you, and instructing you to speak with the man standing guard at the gates to Pharos Sirius.",
+            "Though Davyd understands your intent, he is nevertheless unable to oblige you. It would be easy to slay the man and proceed inside to claim your crystal. However, as that is not particularly heroic, you might as well make an earnest attempt to change his mind."
+        ],
+        "objectives": [
+            "Speak with the ferry skipper.",
+            "Speak with Ceana.",
+            "Show the warded pot to Davyd."
+        ],
+        "dialogue": [
+            {
+                "name": "CEANA",
+                "text": "&lt;sigh&gt; Fine, fine! I fail to see the justification for dragging me along on your journey, but if you insist, I will go as well."
+            },
+            {
+                "name": "CEANA",
+                "text": "But Twelve as my witness, if you leave me behind to be devoured by some horrid abomination, I...I shall come back to haunt you!"
+            },
+            {
+                "name": "SENDO",
+                "text": "Hah! “Take me to the Isles of Umbra,” <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> bids! As if it's as simple as─ Oh, I see you've got a writ of passage. All right, then, climb aboard."
+            },
+            {
+                "name": "CEANA",
+                "text": "Th-Th-This doesn't seem all that bad..."
+            },
+            {
+                "name": "CEANA",
+                "text": "I'm not saying I'd like to build a summer home here, but─ Oh, the hells with this. Here, take your pot and go on without me."
+            },
+            {
+                "name": "CEANA",
+                "text": "You've harvested corrupted crystals before, right? So it isn't as though you require my assistance. Speak to the man guarding the gate─I'm sure he'll let you in. Now, if you would please excuse me..."
+            },
+            {
+                "name": "SENDO",
+                "text": "Hah! “Take me <span class=\"emphasis\">back</span> to the Isles of Umbra,” <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> jests! As if anyone would ever want to─ Oh, I see you're serious. All right, then, climb aboard."
+            },
+            {
+                "name": "CEANA",
+                "text": "You awful, awful <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>! I explicitly told you <span class=\"emphasis\">not</span> to abandon me!"
+            },
+            {
+                "name": "CEANA",
+                "text": "And you even have the audacity to request that I accompany you <span class=\"emphasis\">again</span>!? &lt;sigh&gt; Very well─but do not think I will forget this, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "DAVYD",
+                "text": "Beg your pardon, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>, but how did you come here? Access to this island is currently restricted..."
+            },
+            {
+                "name": "DAVYD",
+                "text": "An old pot? I'm not sure I follow. ...Oh, I see. You wish to harvest a corrupted crystal. Sorry, friend, but you may have to return empty-handed."
+            },
+            {
+                "name": "Q1",
+                "text": "Travel to the Isles of Umbra?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            }
+        ],
+        "reward": {
+            "gil": 1676,
+            "xp": 23460
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 42,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66497
+            ]
+        },
+        "next": [
+            66499
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006497",
+            "obj": {
+                "i": 1006497,
+                "n": "Ceana",
+                "l": 33,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006503",
+            "obj": {
+                "i": 1006503,
+                "n": "Davyd",
+                "l": 33,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007540",
+            "obj": {
+                "i": 1007540,
+                "n": "Ceana",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007640",
+            "obj": {
+                "i": 1007640,
+                "n": "Ferry Skipper",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66497",
+            "obj": {
+                "i": 66497,
+                "n": "Representing the Representative",
+                "g": 1,
+                "l": "Western La Noscea",
+                "s": 218
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66499",
+            "obj": {
+                "i": 66499,
+                "n": "Sweet Somethings",
+                "g": 1,
+                "l": "Western La Noscea",
+                "s": 220
+            }
+        }
+    ]
+}

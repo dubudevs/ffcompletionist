@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "Keeping It Fresh",
+        "location": "Middle La Noscea",
+        "id": 65936,
+        "patch": 2.0,
+        "sort": 100,
+        "eventIcon": 71221,
+        "issuer": 1003243,
+        "target": 1003243,
+        "genre": 91,
+        "journal": [
+            "Kazai Buoyzai, a cargo transporter at the Skylift, needs a helping hand to keep his fish fresh.",
+            "The gelid essences of water sprites are perfect for keeping fish chilled during transportation. Slay water sprites until you have collected three of their cores.",
+            "You have collected three water sprite cores. Deliver them to Kazai Buoyzai at the Skylift.",
+            "Kazai seems well pleased with the cores, and relieved that his customers will be receiving their goods in unspoiled condition. Competition among the cargo companies using the Skylift is fierce, and any misstep can mean losing business to a rival."
+        ],
+        "objectives": [
+            "Defeat water sprites and collect their cores.",
+            "Deliver the water sprite cores to Kazai Buoyzai at the Skylift."
+        ],
+        "dialogue": [
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Look sharp, <span class=\"alternative-container\"><span class=\"alternative\">lassie</span><span class=\"alternative\">laddie</span></span>, I got a job for ye! We don't got much time, so listen close."
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Today I got me too many fish an' not enough water sprite cores to keep 'em cool. Ye see me problem?"
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Now I can't be deliverin' crates o' rotted fish, so I need ye to head over yonder an' dance with them drippin' sprites till ye've collected three o' their chilly essences. ...Ye <span class=\"emphasis\">do</span> realize I don't want ye to actually dance with 'em, right?"
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Ye back already? Don't keep me waitin', now. Let's see those cores!"
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "Aye, <span class=\"alternative-container\"><span class=\"alternative\">lassie</span><span class=\"alternative\">laddie</span></span>, ye done well. Can't wait to get these beauties into me fish crates..."
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "That ought to keep the catch fresh, an' me customers happy."
+            },
+            {
+                "name": "KAZAIBUOYZAI",
+                "text": "There's a whole mess o' delivery companies what make use o' the Skylift─ye slip up one time an' some bastard's liable to steal yer business!"
+            }
+        ],
+        "reward": {
+            "gil": 173,
+            "xp": 1710
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65933
+            ]
+        },
+        "next": [
+            65937
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003243",
+            "obj": {
+                "i": 1003243,
+                "n": "Kazai Buoyzai",
+                "l": 30,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65933",
+            "obj": {
+                "i": 65933,
+                "n": "Sky-high",
+                "g": 1,
+                "l": "Limsa Lominsa",
+                "s": 43
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65937",
+            "obj": {
+                "i": 65937,
+                "n": "Baiting Buzzards",
+                "g": 91,
+                "l": "Middle La Noscea",
+                "s": 100
+            }
+        }
+    ]
+}

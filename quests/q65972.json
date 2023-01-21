@@ -1,0 +1,174 @@
+{
+    "quest": {
+        "name": "So You Want to Be a Jockey",
+        "location": "Chocobo Square",
+        "id": 65972,
+        "patch": 2.51,
+        "sort": 141,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1010464,
+        "target": 1010472,
+        "genre": 93,
+        "journal": [
+            "For those with a need for speed and a yearning for competition, the Manderville Gold Saucer provides the perfect solution.",
+            "You have been invited to participate in sanctioned chocobo races held by the Manderville Gold Saucer. However, in order to do so, you must first secure a trained race chocobo. Journey to Moogle's Gift Mounts in Gridania's Bentbranch Meadows and speak with Katering to learn more.",
+            "With Katering's assistance, you select a suitable fledgling to serve as your race chocobo. The trainer then furnishes you with the documentation needed to register your chocobo with the Gold Saucer, bringing you one step closer to your debut..."
+        ],
+        "objectives": [
+            "Speak with Katering at Bentbranch Meadows."
+        ],
+        "dialogue": [
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "Are you content to merely amble through life? Shuffling forward, step by step, at a snail's pace? Imagine the wind in your hair as you cross the finish line atop a chocobo─the thrill of competition, and the joy of triumph! Would that not be far, far greater?"
+            },
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "Ah, but that you are here bespeaks desire already present, does it not? Aye, I think <span class=\"alternative-container\"><span class=\"alternative\">this eve</span><span class=\"alternative\">this morn'</span><span class=\"alternative\">today</span></span>, a new jockey<span class=\"alternative-container\"><span class=\"alternative\">, we do receive</span><span class=\"alternative\"> is born</span><span class=\"alternative\"> enters the fray</span></span>!"
+            },
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "Alas, a jockey cannot compete without a suitable steed─a race chocobo, to be precise."
+            },
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "Mayhap you think to nominate your own personal chocobo? If so, strike the thought from your mind at once, for only a chocobo trained for the task will suffice."
+            },
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "But fear not, my friend, for it so happens we have a surplus of fledglings in need of new companions."
+            },
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "In fact, to any who wish to don the mantle of chocobo jockey, the Manderville Gold Saucer will generously gift a race chocobo."
+            },
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "You need only journey to Moogle's Gift Mounts in Bentbranch Meadows, where fledgling race chocobos receive their initial training."
+            },
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "Make your intentions known to the trainer named Katering, and she will see you matched with a suitable steed."
+            },
+            {
+                "name": "CHOCOBORACE00436",
+                "text": "If you wish to participate in the races, seek out Katering at Moogle's Gift Mounts in Gridania's Central Shroud. She will introduce you to a suitable fledgling."
+            },
+            {
+                "name": "KATERING",
+                "text": "Another one for the races, eh? Welcome, welcome!"
+            },
+            {
+                "name": "KATERING",
+                "text": "Once you've made your decision, I'll prepare the registration form you'll need to take back to the race counter."
+            },
+            {
+                "name": "KATERING",
+                "text": "Lest you worry, our chocobos're all quality stock. They might not seem like much at first, being young an' inexperienced, but give 'em a chance an' they'll win you a championship!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Additional fledgling chocobo registration forms can be purchased from the feathertrader at any time."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 9561,
+                    "one": 1
+                },
+                {
+                    "id": 9570,
+                    "one": 1
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65970
+            ]
+        },
+        "next": [
+            66101
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010464",
+            "obj": {
+                "i": 1010464,
+                "n": "Race Chocobo Registrar",
+                "l": 1484,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010472",
+            "obj": {
+                "i": 1010472,
+                "n": "Katering",
+                "l": 54,
+                "q": 3,
+                "t": "Race Chocobo Breeder"
+            }
+        },
+        {
+            "type": "item",
+            "id": "9561",
+            "obj": {
+                "i": 9561,
+                "n": "Fledgling Chocobo Registration G1-M",
+                "l": 1,
+                "c": 27641,
+                "t": 63,
+                "p": 5000
+            }
+        },
+        {
+            "type": "item",
+            "id": "9570",
+            "obj": {
+                "i": 9570,
+                "n": "Fledgling Chocobo Registration G1-F",
+                "l": 1,
+                "c": 27642,
+                "t": 63,
+                "p": 5000
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65970",
+            "obj": {
+                "i": 65970,
+                "n": "It Could Happen to You",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 141,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66101",
+            "obj": {
+                "i": 66101,
+                "n": "So You Think You Can Ride This Chocobo",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 151,
+                "f": 1
+            }
+        }
+    ]
+}

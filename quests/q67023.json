@@ -1,0 +1,676 @@
+{
+    "quest": {
+        "name": "Reaching for Cloud Nine",
+        "location": "North Shroud",
+        "id": 67023,
+        "patch": 2.35,
+        "sort": 2,
+        "icon": 100259,
+        "beast": 5,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1009199,
+        "target": 1009199,
+        "involved": [
+            1009204,
+            1009214,
+            1009218,
+            1009594,
+            1009595
+        ],
+        "genre": 42,
+        "usedItems": [
+            8568,
+            8085,
+            8129
+        ],
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Sezul appears eager to share more of his work with you.<br>※The crafting portion of this quest is recommended for Disciples of the Hand level 1 and above.",
+            "Sezul has marked you for a skilled artisan, and requests that you craft for him an airship hull component─a specialized item which the Ehcatl camp lacks the resources to build. Make your way to Fallgourd Float and obtain the necessary crafting materials from the Qiqirn junkmonger.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "After handing you the component materials, the junkmonger advises that you make use of the crafting facility found beside the Bobbing Cork. Head over to the workshop and hand the materials over to Hildeyerd.",
+            "After entrusting the component materials to Hildeyerd, the supervisor begins explaining the purpose of the crafting facility. Her explanation, however, is interrupted by a young Lalafellin man, who insists on appraising the results of your apparently doomed endeavor. Use the materials returned to you by Hildeyerd to craft the interior hull component, and then show the item to the waiting Tataramu.<br><br>※In the event that the status <span class=\"highlight\">Facility Access: Detailing</span> wears off or the synthesis ends in failure, you may try again by speaking with Hildeyerd.",
+            "You synthesize the hull interior component and show it to Tataramu. After recovering from his shock at the quality of your work, the young man demands to know the identity of your client. Upon realizing you were commissioned by a group of Ixal, however, Tataramu concludes that the beastmen mean to fashion a vessel of war, and rushes off to find the Ehcatl Nine's hidden camp. Return to Ehcatl and deliver the component to Sezul.",
+            "No sooner have you placed the component into Sezul's hands than Tataramu bursts into the camp and accuses the chief of sullying the field of airship engineering. The Ehcatl Nine leader explains, however, that his purpose in breaking away from the Garuda-beholden Ixal was to begin construction on the <span class=\"emphasis\">Dezul Qualan</span>─a hybrid vessel intended not to wage war, but to soar above the highest clouds. Quickly convinced by Sezul's obvious zeal and sincerity, Tataramu then begs for a position on the chief's ambitious project. Speak once more with Sezul, and decide what your own fate in this undertaking will be.",
+            "You have agreed to assist Sezul in the construction of his unique airship. Lend your crafting skills to the efforts of the Ehcatl Nine, and join the chief and Tataramu in aiming for the heavens."
+        ],
+        "objectives": [
+            "Obtain component materials from the Qiqirn junkmonger.",
+            "Present component materials to Hildeyerd.",
+            "<span class=\"alternative-container\"><span class=\"alternative\">Synthesize a hull interior component</span><span class=\"alternative\">Show the hull interior component to Tataramu</span></span>.",
+            "Deliver the hull interior component to Sezul Totoloc.",
+            "Speak with Sezul Totoloc."
+        ],
+        "dialogue": [
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Hm? A strange face you make, <span class=\"highlight\">Forename</span>. Burning with questions, you are, yes?"
+            },
+            {
+                "name": "Q1",
+                "text": "Burning with questions?"
+            },
+            {
+                "name": "A1",
+                "text": "What is the “Ehcatl Nine” exactly?"
+            },
+            {
+                "name": "A1",
+                "text": "...What are you trying to do here?"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Make myself clear, I did not, eh? Only natural, your suspicion is. Many Ixal would simply kill featherless one, and leave corpse for vultures."
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "But think like bird-brained Natalan zealots, clever Sezul and his crew do not! Endlessly wasteful, this war with forest people is! Waste of time! Waste of resources!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Ehcatl Nine is group of thinkers─of <span class=\"emphasis\">crafters</span>. This place, Ehcatl, is place for building dreams!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "To fly higher than any other is Ehcatl Nine's dream. But before we can fly, make wings, we must!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Good at making things, you are, yes? Know [Job] when see one, Sezul does. Way of moving. Way of <span class=\"emphasis\">looking</span>. Caw, caw, caw! Clothing had Sezul confused at first, though!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Creating much better than destroying, yes? Both Ixal and featherless ones agree on that, they can!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Have <span class=\"highlight\">Forename</span> create something for Ehcatl Nine, Sezul would. Build many things, we can, but not everything is possible in remote camp like this!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "You know of place called “Fallgourd Float,” yes? Fine crafting facility, they have! Perfect for making airship hull interior components!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Sturdy metal frame is component Sezul needs. Support hull from inside and become vessel's spine, it will!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Potent adhesive agent is component Sezul needs. Strengthen hull integrity and keep vessel from falling apart, it will!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Leather-backed plywood is component Sezul needs. Make for strong and durable hull, it will!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Placed order for raw materials with Qiqirn merchant in Fallgourd Float, Sezul has. <span class=\"highlight\">Forename</span> need only speak to junkmonger. Spend own coin, you need not!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Squawk! A surprise for you, Sezul has! Protect and support hands when crafting tricky airship components, these gloves will!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Even clever [Job] needs help from time to time, eh? Come back soon, featherless one!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Squaaawk! Featherless fool! How can <span class=\"highlight\">Forename</span> make components without proper equipment!? Lose precious gloves again, and beat <span class=\"highlight\">Forename</span> to within ilm of life with nail-spiked plank, Sezul will!"
+            },
+            {
+                "name": "KIKIROON01487",
+                "text": "Master merchant welcomes well-come customer! Birdman chief tell master merchant of chief makings!"
+            },
+            {
+                "name": "KIKIROON01487",
+                "text": "You take things for making, and go to place for making things! You find making place at side of inn, not inside!"
+            },
+            {
+                "name": "KIKIROON01487",
+                "text": "Master merchant thinks you have no time for thinking─birdman chief seems ready to burst at seams. Hildeyerd will give you helpful help!"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Hello there, adventurer! Come now, I can hardly hear you! I said, “Hello there”!"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "What's this? You wish to make use of our workshop? Well then, seeing as you're a first-timer, allow me to give you a brief explanation of what we seek to accomplish here."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "As I'm sure you are aware, Eorzea is populated with a plethora of artisans who create a range of wonderful wares. This workspace was created with just such a diversity of <span class=\"alternative-container\"><span class=\"alternative\">craftswomen</span><span class=\"alternative\">craftsmen</span></span> in mind."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "No matter your profession, our facility is designed to allow simply <span class=\"emphasis\">anyone</span> to bring in their materials and produce goods that demand an exquisite degree of precision and polish."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Our small operation here at the Bobbing Cork is only temporary until we secure a more permanent residence, but I assure you that everything is fully functional! Now, what exciting project has brought you to me this fine day?"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "What have we here... Ah! Such a strange coincidence that you should happen to arrive bearing the very same rare materials that─"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "(-???-)Hildeyerd! Have you any word on my delivery?"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "(-Lalafellin Youth-)Hm? And who might this <span class=\"alternative-container\"><span class=\"alternative\">lady</span><span class=\"alternative\">gentleman</span></span> be? ...And why does <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span> hold the component materials that <span class=\"emphasis\">I</span> ordered!?"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "(-Lalafellin Youth-)This is outrageous! You cannot simply swoop in and snatch up the wares I reserved a moon in advance!"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Please, Master Tataramu─you misunderstand! This adventurer brought along these materials <span class=\"alternative-container\"><span class=\"alternative\">herself</span><span class=\"alternative\">himself</span></span>."
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Just “brought them along,” did <span class=\"alternative-container\"><span class=\"alternative\">she</span><span class=\"alternative\">he</span></span>!? Poppycock! What would a gil-grabbing mercenary need with airship hull component materials!?"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Only a master engineer with the highest level of skill would be capable of utilizing the potential of such specialized items─and I highly doubt that anyone besides myself would have a use for them!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "I shall be gracious, however, and allow that you are some manner of artisan. Pray tell: exactly what do you intend to craft with those materials?"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "...I am, of course, ignoring the fact that your efforts will invariably result in a botched job and wasted resources!"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Master Tataramu! This is hardly gentlemanly conduct!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Hmph! Shall I offer to view the finished product, then? Go ahead, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. Craft your wares, and I shall appraise the “quality” of your work─free of charge."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Master Tataramu! I shall become cross with you if you continue in that tone! ...Here are your materials, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. I'm sure whatever you create will be absolutely splendid!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Should you choose to assist the Ehcatl Nine in their engineering efforts, you will be called upon to make use of special crafting facilities."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The first step in using one of these crafting facilities is to present the raw materials to the workshop supervisor. After preparing the workspace, the supervisor will then return to you the exact amount of materials required for your specific task.<br>You will next be allotted a certain amount of time in which to complete the synthesis."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Should your synthesis efforts prove unsuccessful, speak with the workshop supervisor once more to retrieve excess materials and renew your access to the crafting facility."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To begin the crafting process, open the <span class=\"highlight\">Crafting Log</span> from the main menu, followed by <span class=\"highlight\">Special Recipes</span>. Next, select <span class=\"highlight\">Tribal Quests</span>, then lastly <span class=\"highlight\">Ixal Quests</span> to locate the desired recipe."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "I'm sure you'll do just fine! Remember: I'll be right here if you need anything!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Craft away, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. I'll be waiting to appraise the results of your “expertise.”"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Finished crafting, have you? Well, don't keep the client waiting─run along and deliver your handiwork! Now, I doubt that you'd be so clumsy as to misplace your precious creations, but on the off chance that you do, know that I still have the excess materials in my keeping."
+            },
+            {
+                "name": "TATARAMU",
+                "text": "All done, are we? Now, let's have a look at the travesty you've made out of─ Gods be good!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "I can scarce believe it! The craftsmanship is exemplary! And you say this component is to be used in the construction of an airship? I cannot even imagine what type of hull you mean to build!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Tell me, adventurer: who commissioned this work from you? I <span class=\"emphasis\">must</span> know!"
+            },
+            {
+                "name": "Q2",
+                "text": "Who commissioned this work?"
+            },
+            {
+                "name": "A2",
+                "text": "An Ixal!"
+            },
+            {
+                "name": "A2",
+                "text": "I prefer not to say."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "A <span class=\"emphasis\">what</span>!? Why, that's incredible. ...Not to mention fascinating. Though I must wonder how one came to commission an adventurer for airship parts..."
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Hm. A curious reluctance. What harm can come of revealing a client who builds airships? Unless..."
+            },
+            {
+                "name": "TATARAMU",
+                "text": "There was an odd rumor making the rounds amongst the engineers at the company. They say a group of Ixal had carved out a secret camp in the Black Shroud, and were conducting trials for some kind of secret weapon..."
+            },
+            {
+                "name": "TATARAMU",
+                "text": "I had thought it idle gossip at the time, but 'twould appear the tale held merit, after all! Your Ixali master seeks to craft an airborne vessel of war!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "I will not allow it! Transforming the wonder of air travel into a means for delivering death is blasphemy of the highest order!"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "But, Master Tataramu! What do you mean to do!?"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Isn't it obvious!? I'm going to march right into that secret camp and give those blasted birdmen a good telling off! You'd best stay out of my way!"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "But you cannot simply... &lt;sigh&gt; When it comes to airships, I'm afraid Master Tataramu's passion overpowers his capacity for common sense."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "I wonder if he even has any idea where he's going..."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Here, you'd best take your finished component and complete the delivery. Your appraiser appears to have forgotten it in his haste to rush off and chastise the Ixal."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "Hm? Just who is Master Tataramu? I could tell you, but that wouldn't be very exciting now, would it? Perhaps you might ask him yourself."
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "He's not a bad person, you know. A trifle enthusiastic about airships, but ordinarily a most straightforward and reliable fellow. And considering the location of your client, I imagine you'll be meeting him again rather soon..."
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Squawk, squawk! Returned, you have! Able to craft component, you were?"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Made this, you did? Hm. Hm, hm... Yes! Serve us well, this will! Begin construction on hull, we can!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Raaaaaargh!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "&lt;pant&gt; &lt;pant&gt; &lt;huff&gt; &lt;huff&gt;<br>I...&lt;pant&gt;...finally...&lt;huff&gt;...found you! I never realized...&lt;pant&gt;...just how big...&lt;huff&gt;...this forest was..."
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "...Who is small angry featherless one?"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "N-Never mind who <span class=\"emphasis\">I</span> am! 'Tis <span class=\"emphasis\">you</span> who are on trial here! Are you not the Ixali master who seeks to build a death-dealing airship and bring war and destruction to Gridania!?"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Have you no respect for the virtuous field of engineering your uncouth plan will irretrievably sully!? Weapons on an airship!? Simply monstrous!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Squawk! Mind your tongue, you shall! Making airship with weapons, Sezul is not! Been telling tall tales, someone has!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Do not try to deny it! I have seen how the Ixal stole our technology to build those horrendous war balloons! Your kind know naught but killing and mayhem!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Squawk! Blather too much, angry one does! Sees not enough! Look at design under own feet, you should!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "This schematic... It contains elements of both dirigible and airship... I've never seen the like!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Hybrid vessel <span class=\"emphasis\">Dezul Qualan</span>, it is! Fly very high, it shall! Ceiling altitude of five thousand yalms!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Five thousand yalms!? That's impossible─an unattainable fantasy!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Why, even Master Garlond's <span class=\"emphasis\">Enterprise</span> cannot reach such heights! You speak of visiting the heavens themselves!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Yes! The heavens! Rap on gods' front door, we shall! Knock, knock!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Ayatlan... Floating continent of legends, it is! High, high above clouds. Place where Sezul's ancestors once lived!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Return to Ixal's lost paradise, we shall! All-consuming goal of Sezul's people, it once was!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "But this dream...shared now by too few, it is. Rather worship mad goddess Garuda and squabble with featherless ones, Natalan Ixal would..."
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Waste of life, Sezul says! Help Ehcatl Nine build balloon-airship hybrid and reach for distant sky, other Ixal should!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "What an incredible idea... You have such vision...such zeal!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Sezul, I...I have misjudged you! You must let me work with you! I will see this dream of yours become reality!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Squawk? Wish to join Sezul's crew, do you? Possess some skill at crafting, do you, yes?"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Y-Yes! I have studied airship design most extensively! And though my practical experience is admittedly limited, I vow that there are none who match my passion for the craft!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Important, passion is. But knowledge, too, you must have. Hmmm. Work you as hard as others, Sezul will. Be spared for your size, you will not!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Thank you, sir, you won't regret this! Tataramu, at your service!"
+            },
+            {
+                "name": "HILDEYERD",
+                "text": "What's this? You've misplaced your commission? Oh dear, well you shall simply have to make use of our facilities again! Misfortune is no excuse for failing a delivery!"
+            },
+            {
+                "name": "IXALDAILYR401498",
+                "text": "Lost precious crafting gloves, no-feathers has!? No respect for Ixal wares, you have!"
+            },
+            {
+                "name": "IXALDAILYR401498",
+                "text": "One more pair, you will be given! Lose them again, and feel pain of ten thousand deaths, you shall!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "And what of <span class=\"highlight\">Forename</span>? Impressed with work, Sezul is!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Enjoy crafting with Sezul's gloves, did you? Like second skin, yes? Protect hands, but allow artisan to make delicate and difficult movements, they do!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Agree to help Ehcatl Nine build <span class=\"emphasis\">Dezul Qualan</span>, and let <span class=\"highlight\">Forename</span> keep gloves, Sezul will."
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "What say you, featherless one? Sprout wings and fly with us, yes?"
+            },
+            {
+                "name": "Q3",
+                "text": "Fly with the Ehcatl Nine?"
+            },
+            {
+                "name": "A3",
+                "text": "Sprout wings, I will!"
+            },
+            {
+                "name": "A3",
+                "text": "Afraid of heights, I am..."
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Squawk! Feathers of the spirit, we share!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Hard to imagine to look at us now, it is... But an age when Ixal flew on power of their own wings, there once was!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Sad, then, that wrath of elementals, we incurred. Hmmm. Banished from forest, and stripped of gift of flight, we were!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "With younglings hatched outside of forest, something wrong there was. Stunted, their feathers were. But lose desire to soar, Ixal never did!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "In place of lost wings, great balloons Sezul's forefathers made. Such ingenuity! Seek to continue their legacy, Ehcatl Nine does!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "But forgotten joy of crafting own wings, Natalan Ixal have. Grovel instead to goddess, they do. Grovel and beg."
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Fools! Grant them new wings, Garuda never will! Seek only to increase her might, the goddess does! Always more sacrifices! Always more crystals!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Nothing more than slaves, Natalan Ixal are! But not Ehcatl Nine, no!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Soar once again, we shall. Within <span class=\"emphasis\">Dezul Qualan</span>, our salvation─our waking dream─lies!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Work hard, and see history written, <span class=\"highlight\">Forename</span> shall!"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Thought to share Ehcatl Nine's dream, Sezul did. Hmmm. But for everyone, the distant skies are not, eh?"
+            },
+            {
+                "name": "SEZULTOTOLOC",
+                "text": "Force you against your will, Sezul will not. Farewell, <span class=\"highlight\">Forename</span>! Rather than destroy, remember to build, you must!"
+            },
+            {
+                "name": "TATARAMU",
+                "text": "Adventurer... <span class=\"highlight\">Forename</span>, is it? I apologize for my earlier outburst─I spoke out of turn. I hope that you can forgive me, and that you choose to lend your formidable skills to this wonderful endeavor!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Thanks to your efforts, construction of the <span class=\"emphasis\">Dezul Qualan</span>'s hull has begun! Continue assisting the Ehcatl Nine to see the airship hybrid reach completion."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have achieved <span class=\"highlight\">Neutral</span> reputation with the Ehcatl Nine."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Ixal tribal daily quests are now available from Yazel Ahuatan the Able at Ehcatl."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Delivery quests are also available from the Ehcatl Nine manciple."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, you may now purchase wares from the Ehcatl Nine vendor."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In the case that you misplace your Ehcatl wristgloves, a new pair can be purchased from this same vendor."
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "You now have access to the crafting facility."
+            }
+        ],
+        "reward": {
+            "gil": 572
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 33
+                }
+            ],
+            "quests": [
+                67022
+            ]
+        },
+        "next": [
+            67024,
+            67105
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1009199",
+            "obj": {
+                "i": 1009199,
+                "n": "Sezul Totoloc",
+                "l": 57,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009204",
+            "obj": {
+                "i": 1009204,
+                "n": "Tataramu",
+                "l": 57,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009214",
+            "obj": {
+                "i": 1009214,
+                "n": "Tazel Meyean The Lettered",
+                "l": 57,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009218",
+            "obj": {
+                "i": 1009218,
+                "n": "Hildeyerd",
+                "l": 57,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009594",
+            "obj": {
+                "i": 1009594,
+                "n": "Qiqirn Junkmonger",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1009595",
+            "obj": {
+                "i": 1009595,
+                "n": "Tataramu",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "8568",
+            "obj": {
+                "i": 8568,
+                "n": "Ehcatl Wristgloves",
+                "l": 6,
+                "c": 44271,
+                "t": 37,
+                "p": 145
+            }
+        },
+        {
+            "type": "item",
+            "id": "8085",
+            "obj": {
+                "i": 8085,
+                "n": "Hull Interior Component Materials",
+                "l": 1,
+                "c": 26001,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "8129",
+            "obj": {
+                "i": 8129,
+                "n": "Hull Interior Component",
+                "l": 1,
+                "c": 21012,
+                "t": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67022",
+            "obj": {
+                "i": 67022,
+                "n": "A Bad Bladder",
+                "g": 42,
+                "l": "Gridania",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67024",
+            "obj": {
+                "i": 67024,
+                "n": "A Designer Job",
+                "g": 42,
+                "l": "North Shroud",
+                "s": 3,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67105",
+            "obj": {
+                "i": 67105,
+                "n": "Deliverance",
+                "g": 43,
+                "l": "North Shroud",
+                "s": 10,
+                "r": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "quest": {
+        "name": "Bad Blood",
+        "location": "Southern Thanalan",
+        "id": 66294,
+        "patch": 2.0,
+        "sort": 250,
+        "eventIcon": 71221,
+        "issuer": 1006211,
+        "target": 1006211,
+        "involved": [
+            1006212,
+            1006213,
+            1006214
+        ],
+        "genre": 93,
+        "journal": [
+            "Hihira would seek your help in her attempt to provide aid to the refugees.",
+            "Hihira wants nothing more than to deliver succor to the ill and infirm of Little Ala Mhigo, but has been unable to earn the locals' trust. Deliver medicine to three suffering refugees in her stead.",
+            "Despite your best efforts, the willful Ala Mhigans have chosen to prolong their suffering rather than seek succor in Ul'dahn remedies. Report your failure to Hihira.",
+            "Hihira is saddened to hear of the Ala Mhigans' refusal, but is not surprised. However, not one to be discouraged, she resolves to continue her efforts."
+        ],
+        "objectives": [
+            "Deliver Hihira's medicine to the suffering refugees.",
+            "Report to Hihira."
+        ],
+        "dialogue": [
+            {
+                "name": "HIHIRA",
+                "text": "Friend, hear my plea. As you have no doubt observed, many poor souls in this camp suffer from afflictions most grievous. Indeed, it is to deliver them succor that I have made the journey here from Ul'dah."
+            },
+            {
+                "name": "HIHIRA",
+                "text": "And yet, I fear that my efforts thus far have been for naught. The residents are most distrustful of outsiders─particularly those hailing from Ul'dah. They look upon my medicine as if it were poison."
+            },
+            {
+                "name": "HIHIRA",
+                "text": "Were an adventurer such as yourself to deliver the elixir, perhaps they would be willing to accept it. I have no one else to turn to. Will you go in my stead?"
+            },
+            {
+                "name": "BEROLD",
+                "text": "&lt;cough&gt; &lt;wheeze&gt; Me throat... It burns!"
+            },
+            {
+                "name": "BEROLD",
+                "text": "Medicine, ye say? Bah! &lt;cough&gt; I'd sooner drink sandworm piss than that Ul'dahn swill! &lt;wheeze&gt;"
+            },
+            {
+                "name": "OTELIN",
+                "text": "Hurgh... I can't...b-breathe..."
+            },
+            {
+                "name": "OTELIN",
+                "text": "Hah! Another phony elixir cooked up by those...&lt;wheeze&gt;...Ul'dahn quacks? Begone from my sight!"
+            },
+            {
+                "name": "ARCAVIUS",
+                "text": "What is it, outsider? Come to mock us in our suffering? Go ahead and laugh. Laugh to your heart's content."
+            },
+            {
+                "name": "ARCAVIUS",
+                "text": "&lt;spit&gt; That's what I think of you outsiders and your medicine. I'd rather die with dignity than owe my life to Ul'dah."
+            },
+            {
+                "name": "HIHIRA",
+                "text": "No luck, I see. &lt;sigh&gt; Take heart, friend─you did what you could. Age-old wounds are not healed so easily, but I must not give up this cause."
+            }
+        ],
+        "reward": {
+            "gil": 1232,
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4552,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4555,
+                    "one": 1
+                }
+            ],
+            "xp": 4760
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 25,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66293
+            ]
+        },
+        "next": [
+            66295
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006211",
+            "obj": {
+                "i": 1006211,
+                "n": "Hihira",
+                "l": 45,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006212",
+            "obj": {
+                "i": 1006212,
+                "n": "Berold",
+                "l": 45,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006213",
+            "obj": {
+                "i": 1006213,
+                "n": "Otelin",
+                "l": 45,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006214",
+            "obj": {
+                "i": 1006214,
+                "n": "Arcavius",
+                "l": 45,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4552",
+            "obj": {
+                "i": 4552,
+                "n": "Hi-Potion",
+                "l": 25,
+                "c": 20602,
+                "t": 44,
+                "p": 146
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66293",
+            "obj": {
+                "i": 66293,
+                "n": "On to Little Ala Mhigo",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 137
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66295",
+            "obj": {
+                "i": 66295,
+                "n": "Prickly Patients",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 250
+            }
+        }
+    ]
+}

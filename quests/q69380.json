@@ -1,0 +1,551 @@
+{
+    "quest": {
+        "name": "Fire in the Forge",
+        "location": "Gangos",
+        "id": 69380,
+        "patch": 5.25,
+        "sort": 50,
+        "icon": 100991,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1032903,
+        "target": 1032903,
+        "genre": 76,
+        "journal": [
+            "Gerolt looks ready to fire up his forge.<br>※Changing classes or jobs will prevent progress during this quest.",
+            "Thanks to your efforts and Cid's cooperation, everything is in place to begin reforging the blades of Gunnhildr, arms Gerolt would now refer to as Resistance weapons. Before setting to work, however, Gerolt asks you to expound on your exploration of Cid's mind. This insight makes clear to him that the weapons require a final ingredient before they can be completed─a special powder highly conductive to aether. Much to his dismay, the one best suited to acquiring this for you is none other than Rowena. At the risk of incurring more debt, he asks you to meet with her in Kugane to make an arrangement on behalf of the Bozjan Resistance.<br><br>※You may not proceed with a class or job that is different from when you accepted this quest.",
+            "Rowena has heard the details of your predicament from Gerolt, and is willing to provide you with the powder you require. It will, however, come at a cost to the Bozjan Resistance. You are unsure of what this means for Bajsaljen and his comrades, but the deal is struck nevertheless. With matters settled in Kugane, you return to Gangos, eager to see the fruits of Gerolt's labor.",
+            "Though you are too late to behold the masterful strikes of Gerolt's hammer on his anvil, you are fortunate enough to witness the final touches to the inscription. Armed as one of Gunnhildr's elite guard, you will soon be ready to help liberate the people of Bozja."
+        ],
+        "objectives": [
+            "Wait for Rowena at the Umineko Teahouse in Kugane.",
+            "Deliver the Thavnairian scalepowder to Gerolt at Gangos."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "<span class=\"highlight\">Forename Surname</span>? I am Zlatan. It's an honor to meet you. I've not much experience with the forge, but it is my hope that I might improve working under Master Gerolt."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The first step in my training appears to be getting him to remember my name..."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Yer here. Good. Ready to get workin' on the Resistance weapons, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Please note that upon completing the quest “Fire in the Forge,” you will receive a Resistance weapon for <span class=\"alternative-container\"><span class=\"alternative\">an [Job]</span><span class=\"alternative\">a [Job]</span></span>."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you do?"
+            },
+            {
+                "name": "A1",
+                "text": "Undertake this quest as another job."
+            },
+            {
+                "name": "A2",
+                "text": "Undertake this quest as <span class=\"alternative-container\"><span class=\"alternative\">an [Job]</span><span class=\"alternative\">a [Job]</span></span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Please speak with Gerolt again when you are ready to undertake this quest."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Ye like the name, “Resistance weapon”?"
+            },
+            {
+                "name": "GEROLT",
+                "text": "It crossed me mind to call 'em Gunnhildr's blades, but after talkin' with Misija, we figured it'd be too confusin', seein' as that's also the name o' the queen's guard."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Anyroad, yer timin' couldn't be better. Before we get to workin' in earnest, I was hopin' ye could tell me a bit more about what went on in Cid's noggin. I've heard a fair bit from Mikoto, but I'd like to know if you saw any different."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Hmm... Sounds like I was right to ask ye before settin' to work."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Seems to me those fancy markin's in the weapons are mainly for show. I can copy 'em, aye, but that won't be enough."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Like as not they were carved into the hilts as well. And to make sure the spell can take hold, ye'd need a finish with fine powder what's conductive to aether."
+            },
+            {
+                "name": "GEROLT",
+                "text": "For material like that, I reckon ye'd need to consult the alchemists o' Radz–at–Han... &lt;sigh&gt; And I can only think o' one person with close contacts there."
+            },
+            {
+                "name": "Q2",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Rowena...?"
+            },
+            {
+                "name": "A2",
+                "text": "Oh gods, you don't mean...?"
+            },
+            {
+                "name": "GEROLT",
+                "text": "Aye, the demoness o' coin."
+            },
+            {
+                "name": "GEROLT",
+                "text": "But not to worry, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. It just so happens she's been keepin' up a steady shipment o' supplies here on contract. If we say we need the powder fer the Resistance, might be as we can convince her to waive the costs."
+            },
+            {
+                "name": "GEROLT",
+                "text": "She ain't usually one to do business fer charity, I know, but it's worth a try, eh? I'll see about getting in touch with her, and after I do, you can go and meet with her an' figure out the rest."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Well ye don't expect <span class=\"emphasis\">me</span> to go and meet with her, do ye? Workin' on the Resistance weapons's kept me too busy by half, and Drake here─ Er, I mean... Uh... What was yer name again?"
+            },
+            {
+                "name": "ZLATAN",
+                "text": "Zlatan, Master Gerolt. My name is Zlatan. But more importantly, what if Mistress Rowena doesn't agree to a charitable contribution to our cause?"
+            },
+            {
+                "name": "GEROLT",
+                "text": "I'm sure if you an' Bajsaljen ask her nicely she might come 'round. But never mind that─we've important work to do."
+            },
+            {
+                "name": "GEROLT",
+                "text": "As fer where to find Rowena, afore she left Gangos, she said she'd be stoppin' over in Kugane on business. How's about I have her meet ye at the Umineko Teahouse? If we're lucky, a nice cup o' tea'll brighten her mood."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Afraid I'll have to leave Rowena to you, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>. Me tryin' to bargain with her'd be like squeezin' blood from a stone."
+            },
+            {
+                "name": "ZLATAN",
+                "text": "I fear Bajsaljen will not take well to Master Gerolt's plan. But I suppose it is for the sake of the Resistance..."
+            },
+            {
+                "name": "ROWENA",
+                "text": "(-???-)I was wonderin' when you'd show up. Gerolt told me everything."
+            },
+            {
+                "name": "ROWENA",
+                "text": "And luckily for you, my business here was at the Thavnairian Consulate. Here you are. This should be enough powder for one of those Resistance weapons you're forgin'."
+            },
+            {
+                "name": "ROWENA",
+                "text": "I've got to hand it to Gerolt. Seems he spends half his time getting deeper in debt, and the other half avoiding payment."
+            },
+            {
+                "name": "ROWENA",
+                "text": "Fine by me, though. Thanks to his schemin' I've a little more leverage over the Resistance and, by extension, him as well."
+            },
+            {
+                "name": "ROWENA",
+                "text": "Pass along a message to Gerolt and Bajsaljen for me, won't you? If they require more material for these weapons, I'd be more than happy to supply them. For a fee, of course."
+            },
+            {
+                "name": "ROWENA",
+                "text": "Same goes for you. I know you adventurin' types are always lookin' to be prepared for any sort of encounter, so if you're thinkin' of forgin' another of these Resistance weapons─and I suspect you are─you know where to go."
+            },
+            {
+                "name": "ROWENA",
+                "text": "I'll see to it my girls in Revenant's Toll and Idyllshire keep their shelves stocked. Until next time."
+            },
+            {
+                "name": "ZLATAN",
+                "text": "It has long been our wish to see the blades of Gunnhildr reforged, and it is for that purpose Bajsaljen has agreed to covering the required expenses. I but pray we are ready when Mistress Rowena demands recompense."
+            },
+            {
+                "name": "GEROLT",
+                "text": "The weapon's nearly finished, <span class=\"highlight\">Forename</span>. Just needs a nice coatin' with that powder to finish the inscription."
+            },
+            {
+                "name": "GEROLT",
+                "text": "O' course she bloody found what we needed. As much as I hate fattenin' her purse with another man's coin, least now we can do our part fer the Resistance."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Feast yer eyes on some of me finest work to date. Best of all, the inscription'll react to yer aether."
+            },
+            {
+                "name": "GEROLT",
+                "text": "A right fine weapon to rally the Bozjans: [???]. I reckon Gunnhildr'd be proud."
+            },
+            {
+                "name": "GEROLT",
+                "text": "A right fine sword an' shield to rally the Bozjans: [Error] and [Error]. I reckon Gunnhildr'd be proud."
+            },
+            {
+                "name": "ZLATAN",
+                "text": "That I should behold the glory of the fabled blades born anew... Hope is not yet lost."
+            },
+            {
+                "name": "GEROLT",
+                "text": "All in a day's work for yer ol' pal Gerolt. 'Course, this is only the beginning."
+            },
+            {
+                "name": "ZLATAN",
+                "text": "Your skills with a hammer were truly a sight to behold, Master Gerolt. And to see <span class=\"highlight\">Forename</span> wielding one of their holy blades thus, it is as if I stand before one of the heroes of eld."
+            },
+            {
+                "name": "ZLATAN",
+                "text": "When the time comes to do battle with the Empire, our brothers-in-arms will look upon you and know courage. On behalf of the Bozjan Resistance, I offer you my humblest thanks for your aid thus far."
+            },
+            {
+                "name": "GEROLT",
+                "text": "I'd love to start fresh on another weapon, but I had to use every last morsel o' the powder on that one."
+            },
+            {
+                "name": "ZLATAN",
+                "text": "Meaning we would find ourselves indebted further to Mistress Rowena were we to acquire more... I must consult Bajsaljen before we proceed further."
+            },
+            {
+                "name": "GEROLT",
+                "text": "Looks like we're takin' a short break then, eh? If you find yourself wantin' for another weapon, though, come an' speak with me helper here."
+            },
+            {
+                "name": "GEROLT",
+                "text": "I think I've earned meself a nice, big flagon of ale tonight! To, uh...celebrate the forgin', o' course!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "A repeatable quest is now available from Zlatan at Gangos. This quest may be accepted to create Resistance weapons for other jobs."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Please ensure you have changed to your desired job before speaking with Zlatan."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Furthermore, Thavnairian scalepowder can now be purchased from Auriana at Revenant's Toll or Hismena at Idyllshire."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 30228
+                },
+                {
+                    "id": 30245
+                },
+                {
+                    "id": 30229
+                },
+                {
+                    "id": 30230
+                },
+                {
+                    "id": 30231
+                },
+                {
+                    "id": 30232
+                },
+                {
+                    "id": 30236
+                },
+                {
+                    "id": 30237
+                },
+                {
+                    "id": 30238
+                },
+                {
+                    "id": 30239
+                },
+                {
+                    "id": 30233
+                },
+                {
+                    "id": 30234
+                },
+                {
+                    "id": 30235
+                },
+                {
+                    "id": 30240
+                },
+                {
+                    "id": 30241
+                },
+                {
+                    "id": 30242
+                },
+                {
+                    "id": 30243
+                },
+                {
+                    "id": 30244
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 162
+                }
+            ],
+            "quests": [
+                69372
+            ]
+        },
+        "next": [
+            69381,
+            69477
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1032903",
+            "obj": {
+                "i": 1032903,
+                "n": "Gerolt",
+                "l": 3478,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "30228",
+            "obj": {
+                "i": 30228,
+                "n": "Honorbound",
+                "l": 485,
+                "c": 30620,
+                "t": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "30245",
+            "obj": {
+                "i": 30245,
+                "n": "Tenacity",
+                "l": 485,
+                "c": 30209,
+                "t": 11
+            }
+        },
+        {
+            "type": "item",
+            "id": "30229",
+            "obj": {
+                "i": 30229,
+                "n": "Samsara",
+                "l": 485,
+                "c": 31186,
+                "t": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "30230",
+            "obj": {
+                "i": 30230,
+                "n": "Skullrender",
+                "l": 485,
+                "c": 31593,
+                "t": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "30231",
+            "obj": {
+                "i": 30231,
+                "n": "Dreizack",
+                "l": 485,
+                "c": 31995,
+                "t": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "30232",
+            "obj": {
+                "i": 30232,
+                "n": "Brilliance",
+                "l": 485,
+                "c": 32386,
+                "t": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "30236",
+            "obj": {
+                "i": 30236,
+                "n": "Ingrimm",
+                "l": 485,
+                "c": 32769,
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "30237",
+            "obj": {
+                "i": 30237,
+                "n": "Soulscourge",
+                "l": 485,
+                "c": 33140,
+                "t": 7
+            }
+        },
+        {
+            "type": "item",
+            "id": "30238",
+            "obj": {
+                "i": 30238,
+                "n": "Espiritus",
+                "l": 485,
+                "c": 33322,
+                "t": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "30239",
+            "obj": {
+                "i": 30239,
+                "n": "Akademos",
+                "l": 485,
+                "c": 33321,
+                "t": 98
+            }
+        },
+        {
+            "type": "item",
+            "id": "30233",
+            "obj": {
+                "i": 30233,
+                "n": "Honeshirazu",
+                "l": 485,
+                "c": 33970,
+                "t": 84
+            }
+        },
+        {
+            "type": "item",
+            "id": "30234",
+            "obj": {
+                "i": 30234,
+                "n": "Woeborn",
+                "l": 485,
+                "c": 34352,
+                "t": 87
+            }
+        },
+        {
+            "type": "item",
+            "id": "30235",
+            "obj": {
+                "i": 30235,
+                "n": "Lawman",
+                "l": 485,
+                "c": 34468,
+                "t": 88
+            }
+        },
+        {
+            "type": "item",
+            "id": "30240",
+            "obj": {
+                "i": 30240,
+                "n": "Solstice",
+                "l": 485,
+                "c": 34945,
+                "t": 89
+            }
+        },
+        {
+            "type": "item",
+            "id": "30241",
+            "obj": {
+                "i": 30241,
+                "n": "Hoshikiri",
+                "l": 485,
+                "c": 36502,
+                "t": 96
+            }
+        },
+        {
+            "type": "item",
+            "id": "30242",
+            "obj": {
+                "i": 30242,
+                "n": "Talekeeper",
+                "l": 485,
+                "c": 36801,
+                "t": 97
+            }
+        },
+        {
+            "type": "item",
+            "id": "30243",
+            "obj": {
+                "i": 30243,
+                "n": "Crownsblade",
+                "l": 485,
+                "c": 36041,
+                "t": 106
+            }
+        },
+        {
+            "type": "item",
+            "id": "30244",
+            "obj": {
+                "i": 30244,
+                "n": "Enchufla",
+                "l": 485,
+                "c": 36244,
+                "t": 107
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69372",
+            "obj": {
+                "i": 69372,
+                "n": "The Bozja Incident",
+                "g": 76,
+                "l": "Rhalgr's Reach",
+                "s": 3,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69381",
+            "obj": {
+                "i": 69381,
+                "n": "Resistance Is (Not) Futile",
+                "g": 76,
+                "l": "Gangos",
+                "s": 51,
+                "r": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69477",
+            "obj": {
+                "i": 69477,
+                "n": "Where Eagles Nest",
+                "g": 76,
+                "l": "Gangos",
+                "s": 101,
+                "f": 1
+            }
+        }
+    ]
+}

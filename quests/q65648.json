@@ -1,0 +1,180 @@
+{
+    "quest": {
+        "name": "Suspiciously Sober",
+        "location": "Limsa Lominsa",
+        "id": 65648,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1003604,
+        "target": 1003275,
+        "involved": [
+            1000938,
+            1000984,
+            1003274
+        ],
+        "genre": 91,
+        "journal": [
+            "Ahldskyf, captain of the trading ship <span class=\"emphasis\">Orion</span>, has some information that might benefit your standing as an adventurer.",
+            "Captain Ahldskyf has told you of a suspicious encounter he had with an unkempt seafarer at the Octant. Head to the entrance of East Hawkers' Alley and warn the guard, Glazrael.",
+            "Upon hearing your concerns, Glazrael swears to see security tightened in the area and also asks you to inform Frydwyb of the possible danger. Seek her out on East Hawkers' Alley and pass on the warning.",
+            "Mindful of the concealing crowds that pass through Hawkers' Alley every day, Frydwyb promises to keep a sharp eye out for any unusual activity."
+        ],
+        "objectives": [
+            "Speak with Glazrael.",
+            "Speak with Frydwyb."
+        ],
+        "dialogue": [
+            {
+                "name": "SINGINGSTORMCLOUD000",
+                "text": "blank"
+            },
+            {
+                "name": "SINGINGSTORMCLOUD000",
+                "text": "blank"
+            },
+            {
+                "name": "SINGINGSTORMCLOUD000",
+                "text": "blank"
+            },
+            {
+                "name": "AHLDSKYF",
+                "text": "By way of thanks for delivering my scattered lavender, I have a nugget of information that may prove useful to you. You see, I was recently approached by an unkempt seafarer─which is not, I admit, particularly unusual for a man in my profession."
+            },
+            {
+                "name": "AHLDSKYF",
+                "text": "What <span class=\"emphasis\">was</span> unusual was that he offered a generous sum of gil to be introduced to any adventurers I might know. In my experience, sailors are not known to carry such a wealth of coin about their person, especially with the alehouses of Limsa Lominsa so close at hand. Kidnappings have not been uncommon these past moons..."
+            },
+            {
+                "name": "AHLDSKYF",
+                "text": "I suggest you take this information and speak with Glazrael, the guard who stands at the entrance to East Hawkers' Alley. It never hurts to show a spirit of cooperation to the authorities, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>."
+            },
+            {
+                "name": "GLAZRAEL",
+                "text": "...That is disturbing news. Your initiative is appreciated, adventurer. I'll have the captain place the Yellowjackets on high alert."
+            },
+            {
+                "name": "GLAZRAEL",
+                "text": "Ah, and while I have your ear, I need you to visit Frydwyb and tell her the same thing you told me. You'll find her a bit further down East Hawkers' Alley."
+            },
+            {
+                "name": "GLAZRAEL",
+                "text": "Frydwyb has frequent dealings with adventurers, so any warning you give her should soon spread through the city."
+            },
+            {
+                "name": "SKAENRAEL",
+                "text": "If you wish to visit Bulwark Hall, the Crow's Lift is the swiftest way down."
+            },
+            {
+                "name": "FRYDWYB",
+                "text": "Greetings, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>. Might I interest you in the services of a retainer?"
+            },
+            {
+                "name": "FRYDWYB",
+                "text": "What's this? Some suspicious seafarer is on the prowl for gullible adventurers? A possible suspect in the recent kidnappings, you think? Well, I'll be sure to pass on that warning to my customers."
+            },
+            {
+                "name": "FRYDWYB",
+                "text": "What with all the merchants and travelers milling through Hawkers' Alley, these kinds of unsavory activities can often go unnoticed."
+            },
+            {
+                "name": "FRYDWYB",
+                "text": "In any case, I promise to keep a sharp lookout for anyone being accosted by strange-looking sailors."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 10,
+                    "id": 2
+                },
+                {
+                    "num": 10,
+                    "id": 5594
+                }
+            ],
+            "xp": 50
+        },
+        "reqs": {
+            "quests": [
+                65647
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003604",
+            "obj": {
+                "i": 1003604,
+                "n": "Ahldskyf",
+                "l": 29,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003275",
+            "obj": {
+                "i": 1003275,
+                "n": "Frydwyb",
+                "l": 29,
+                "q": 2,
+                "t": "Retainer Vocate"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000938",
+            "obj": {
+                "i": 1000938,
+                "n": "Ginnade",
+                "l": 28,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000984",
+            "obj": {
+                "i": 1000984,
+                "n": "Singing Stormcloud",
+                "l": 28,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003274",
+            "obj": {
+                "i": 1003274,
+                "n": "Glazrael",
+                "l": 29,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "5594",
+            "obj": {
+                "i": 5594,
+                "n": "Grade 1 Dark Matter",
+                "l": 1,
+                "c": 20401,
+                "t": 60,
+                "p": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65647",
+            "obj": {
+                "i": 65647,
+                "n": "Making a Name",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 10
+            }
+        }
+    ]
+}

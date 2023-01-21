@@ -1,0 +1,145 @@
+{
+    "quest": {
+        "name": "What's in the Dish",
+        "location": "Eastern La Noscea",
+        "id": 67662,
+        "patch": 3.07,
+        "sort": 85,
+        "repeatable": 1,
+        "icon": 100460,
+        "eventIcon": 71222,
+        "issuer": 1015614,
+        "target": 1015614,
+        "involved": [
+            1003585
+        ],
+        "genre": 201,
+        "journal": [
+            "You can tell from Espan's expression that he believes himself to be the busiest man at the stall.<br>※This quest is available for a limited time only.",
+            "Espan is a man of refined tastes and believes that the attendees of this year's Moonfire Faire deserve battered fish made from only the freshest haddock on offer. However, due to pirate-related troubles, the Adventurers' Guild cannot spare any hands for fishing. He judges you as an adventurer of taste and skill with a fishing rod, and asks that you board the Rhotano privateer to catch the fish.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "You have caught a fresh haddock that is sure to please even the most discerning fishmonger. Bring the fish to Espan so he can serve superior battered fish to the faire-goers.",
+            "Espan is pleased with the fish you present to him, and bemoans the fact that C'zibho Tia lacks the eye for freshness that he does. He assures you that haddock will always be in demand, and asks that you bring him any more that you catch in the future."
+        ],
+        "objectives": [
+            "Obtain a fresh haddock.",
+            "Deliver the fresh haddock to Espan."
+        ],
+        "dialogue": [
+            {
+                "name": "ESPAN",
+                "text": "Ah, you seem like a <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span> of more refined tastes. I've got just the job for you."
+            },
+            {
+                "name": "ESPAN",
+                "text": "I'm selling battered fish made with only fresh haddock. However, with the pirates around mucking things up, we've not enough fishermen to bring in a steady supply."
+            },
+            {
+                "name": "ESPAN",
+                "text": "Care to try your hand at catching a few fish? Don't even think of buying them from the merchant over there─I can smell their rancid stench from here. Hop aboard the Rhotano privateer and bring me any haddock you manage to catch."
+            },
+            {
+                "name": "ESPAN",
+                "text": "Fishing up a few haddock might prove challenging, but it'll be worth it. The Rhotano privateer will bring you out to the open seas, where there are haddock aplenty. I'll be grateful for any you manage to catch."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To board the Rhotano privateer, speak with the ferry skipper at the docks."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Fresh haddock can be caught by fishing from the bow of the Rhotano privateer."
+            },
+            {
+                "name": "SENDO02126",
+                "text": "This ferry'll be heading to the Rhotano privateer. If it's haddock you're looking to catch, there's no better spot than there."
+            },
+            {
+                "name": "Q1",
+                "text": "Board the Rhotano privateer?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "ESPAN",
+                "text": "I can't stand to see our faire-goers eating battered fish made from old haddock─gods know how long they've been sitting in the sun. Pray give me any haddock you've caught so I can prepare a superior dish."
+            },
+            {
+                "name": "ESPAN",
+                "text": "Yes...the sheen of the scales, the lingering smell of saltwater. It's as if the fish jumped straight from the ocean and into my hands! A tasteless fool such as C'zibho Tia would never appreciate the delight of frying something so fresh."
+            },
+            {
+                "name": "ESPAN",
+                "text": "You have my thanks. Of course, more fish are always welcome. Pray deliver them to me if you catch any more."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 10333
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 5,
+                    "id": 19
+                }
+            ],
+            "quests": [
+                67660
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1015614",
+            "obj": {
+                "i": 1015614,
+                "n": "Espan",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003585",
+            "obj": {
+                "i": 1003585,
+                "n": "Steersman",
+                "l": 32,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10333",
+            "obj": {
+                "i": 10333,
+                "n": "Faire Token XV",
+                "l": 1,
+                "c": 25918,
+                "t": 85
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67660",
+            "obj": {
+                "i": 67660,
+                "n": "Reigniting the Festivities",
+                "g": 201,
+                "l": "Limsa Lominsa",
+                "s": 83
+            }
+        }
+    ]
+}

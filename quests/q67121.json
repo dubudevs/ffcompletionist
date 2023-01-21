@@ -1,0 +1,214 @@
+{
+    "quest": {
+        "name": "The First and Foremost",
+        "location": "Coerthas Western Highlands",
+        "id": 67121,
+        "patch": 3.0,
+        "sort": 6,
+        "eventIcon": 71201,
+        "issuer": 1011236,
+        "target": 1011241,
+        "genre": 3,
+        "journal": [
+            "Good help is hard to find─a sad truth that Rothe knows well.",
+            "Disinclined to keep you to himself, Rothe implores you to pay a visit to Thierremont, a mason tending a gargantuan statue north of Falcon's Nest known as the Pike. Travel to the statue and see if the mason is in need of assistance.",
+            "Thierremont has been tasked with the restoration of the sculpture, for which the dark bristles of deepeyes would be most useful. Slay three of the beasts and shear their bristles for the mason.",
+            "With your customary flair, you dispatch several deepeyes and shear their bristles. Deliver them to Thierremont.",
+            "More than a mere statue of Haldrath, the first Azure Dragoon, the Pike is a proud symbol of Ishgardian defiance. Though the work may be hard and the conditions harsh, Thierremont could ask for no greater honor than to tend the monument."
+        ],
+        "objectives": [
+            "Speak with Thierremont at the Pike.",
+            "Slay deepeyes and obtain dark bristles.",
+            "Deliver the bristles to Thierremont."
+        ],
+        "dialogue": [
+            {
+                "name": "ROTHE",
+                "text": "You're a dab hand at warcraft, I can tell. Not that I've any skill at arms to speak of, mind, but it doesn't take an expert to recognize expertise."
+            },
+            {
+                "name": "ROTHE",
+                "text": "Be a waste to keep you to myself when there're others out what need help same as me, so if you're keen to keep on doin' what you've done, I'd ask you to head north to the Pike─the bloody huge statue out in the wastes, if you've never been."
+            },
+            {
+                "name": "ROTHE",
+                "text": "Mason by the name of Thierremont is out there tendin' to the thing. Good man, Thierremont, but I reckon he's taken on too much work for one. Might be there's somethin' you can do for him."
+            },
+            {
+                "name": "ROTHE",
+                "text": "The Pike's due north of here. Just keep goin' and you'll see it in due time."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "Hail to you, traveler! What brings you out this way?<br>...Hm? Foreman Rothe bid you assist me? Well, far be it from me to turn down a helping hand!"
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "I've been tasked with the restoration of this sculpture. Five years of neglect have not been kind, to say the least."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "Fortunately, I've just the thing for it─rather, those deepeyes have it. If you could slay three and bring me their bristles, I would be in your debt."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "My work is far from finished, but if you could shear the bristles from three deepeyes for me, it would be a tremendous help."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "There you are. Have you the bristles?"
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "Ahhh, feel how coarse that is? That's why they're perfect for scrubbing the soot from this statue."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "Beautiful, isn't it? The spitting image of Haldrath, first of the Azure Dragoons and one of Ishgard's founding fathers..."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "A symbol of everything the Dravanians despise, which is why they've taken to searing it with dragon fire every time they pass by."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "But no longer will we suffer this desecration of our nation's hero. Soon this statue will be as it once was─a proud, shining testament to the determination of Ishgard, and a message to the heretics that we have returned."
+            },
+            {
+                "name": "THIERREMONT",
+                "text": "The work may be hard and the conditions harsh, but as a proud Ishgardian, I could ask for no greater honor."
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "items": [
+                {
+                    "id": 10803,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10887,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10929,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67120
+            ]
+        },
+        "next": [
+            67122
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011236",
+            "obj": {
+                "i": 1011236,
+                "n": "Rothe",
+                "l": 2200,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011241",
+            "obj": {
+                "i": 1011241,
+                "n": "Thierremont",
+                "l": 2200,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "10803",
+            "obj": {
+                "i": 10803,
+                "n": "Rainbow Robe of Aiming",
+                "l": 115,
+                "c": 43687,
+                "t": 35,
+                "p": 14208
+            }
+        },
+        {
+            "type": "item",
+            "id": "10887",
+            "obj": {
+                "i": 10887,
+                "n": "Rainbow Robe of Healing",
+                "l": 115,
+                "c": 43688,
+                "t": 35,
+                "p": 14208
+            }
+        },
+        {
+            "type": "item",
+            "id": "10929",
+            "obj": {
+                "i": 10929,
+                "n": "Rainbow Robe of Casting",
+                "l": 115,
+                "c": 43689,
+                "t": 35,
+                "p": 14208
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67120",
+            "obj": {
+                "i": 67120,
+                "n": "Work in Progress",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67122",
+            "obj": {
+                "i": 67122,
+                "n": "From on High",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 7
+            }
+        }
+    ]
+}

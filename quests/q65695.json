@@ -1,0 +1,104 @@
+{
+    "quest": {
+        "name": "Lights Out",
+        "location": "Central Shroud",
+        "id": 65695,
+        "patch": 2.0,
+        "sort": 64,
+        "eventIcon": 71201,
+        "target": 1000503,
+        "genre": 0,
+        "journal": [
+            "Armelle at the Mirror Planks is seeking a valiant adventurer to slay marshlights.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Armelle at the Mirror Planks.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You have slain the marshlights. Return to Armelle at the Mirror Planks.",
+            "Armelle can scarce express her gratitude for your deed. Perhaps now the people of the Mirror Planks will know peace for a time."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Armelle at the Mirror Planks.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "ARMELLE",
+                "text": "I am told that adventurers are valiant heroes who bite their thumbs at danger, and scoff in the face of death. Do such rumors hold any truth?"
+            },
+            {
+                "name": "ARMELLE",
+                "text": "I certainly hope they do, for I would ask you to confront the creatures known as marshlights."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "They began appearing in this area not long after the Calamity. Now, night after night, the creatures assail every living thing they come across with showers of fiery sparks."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "They seem fond of flames, and I dare not build a fire for fear of drawing them upon me. I shudder to imagine how much worse it must be for the poor Hearers... Their duties require that they ofttimes travel at night, you see, and they can scarce make do without their lanterns."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "But it is the marshlights' fondness for flames that may yet prove their downfall. In this pot, I have placed a smoldering coal. Use it to start a fire at Lilystone, and lure the creatures to you, putting them down as they arrive."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "Ah, yes, and be wary of the local, uh, “wildlife” as you make your way to Lilystone."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "The marshlights are no more!"
+            },
+            {
+                "name": "ARMELLE",
+                "text": "I witnessed you extinguishing their lights at Lilystone as I cowered here in the darkness. With so many slain, I may even muster the courage to start a cooking fire again."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "There is no reward great enough to express my gratitude, but this will have to suffice. Thank you, <span class=\"alternative-container\"><span class=\"alternative\">milady</span><span class=\"alternative\">kind sir</span></span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The flames from your fire flicker and dance..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "xp": 6160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65920
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000503",
+            "obj": {
+                "i": 1000503,
+                "n": "Armelle",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65920",
+            "obj": {
+                "i": 65920,
+                "n": "A Hearer Is Often Late",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 63
+            }
+        }
+    ]
+}

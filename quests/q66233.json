@@ -1,0 +1,193 @@
+{
+    "quest": {
+        "name": "Hallo Halatali",
+        "location": "Western Thanalan",
+        "id": 66233,
+        "patch": 2.0,
+        "sort": 200,
+        "icon": 112004,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1005021,
+        "target": 1004582,
+        "genre": 93,
+        "journal": [
+            "Nedrick of the Scions of the Seventh Dawn has some useful information he wishes to share.",
+            "Nedrick has told you of a training ground in eastern Thanalan known as Halatali. Find its entrance, and there speak with one Flame Private Fafajoni.",
+            "You have learned from Nedrick and Fafajoni that dangerous beasts reside within the abandoned corridors of Halatali. With some reluctance, the flame private has granted you leave to use the former training grounds as you see fit.<br><br>※Halatali can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Speak with Fafajoni at Halatali."
+        ],
+        "dialogue": [
+            {
+                "name": "NEDRICK",
+                "text": "Hail there, adventurer. I'm Nedrick Ironheart, an explorer by trade and a Scion by allegiance. And <span class=\"emphasis\">you</span>, my friend, look to me an adventurer in need of a challenge. I happen to know just the place that will offer it to you."
+            },
+            {
+                "name": "NEDRICK",
+                "text": "Tucked away in a corner of eastern Thanalan lies Halatali, and it is there that you will find all the excitement you crave. The place boasts a storied history. It was built some one hundred years past as a training ground for gladiators."
+            },
+            {
+                "name": "NEDRICK",
+                "text": "The Calamity laid ruin to it, though, as it did to most things. Now, Halatali is a shadow of its former self. But in the dark of that shadow lurk wild beasts, both bloodthirsty and beyond count. For one such as yourself, I daresay there is no place finer than Halatali to test your skill and refine your technique."
+            },
+            {
+                "name": "NEDRICK",
+                "text": "Indeed, I've taken the liberty of passing your name along to the Flames who oversee the place. Should you visit, speak with one Fafajoni near the entryway."
+            },
+            {
+                "name": "FAFAJONI",
+                "text": "If it is the halls of Halatali you seek, you need seek no further."
+            },
+            {
+                "name": "FAFAJONI",
+                "text": "Permit me to tell you something of this place. The name comes from an ancient tongue, Halatali meaning “the land of many shadows.” It was here that our distant ancestors first settled, and─<br>Bah, you have not come all this way for a lesson in history."
+            },
+            {
+                "name": "FAFAJONI",
+                "text": "Shhh, listen. Do you not hear the howls and growls? Do you not feel how they shake the very earth beneath you?"
+            },
+            {
+                "name": "FAFAJONI",
+                "text": "Those sounds are the work of no wind, my friend, nor that rumbling the doing of any shadows. Those are the calls of Halatali, for now the beasts once kept for the Coliseum lurk here."
+            },
+            {
+                "name": "FAFAJONI",
+                "text": "And these are no gentle beasts broken by the hand of man. No, there are those within that even the might of the Immortal Flames cannot tame."
+            },
+            {
+                "name": "FAFAJONI",
+                "text": "From the look of you, you must be <span class=\"highlight\">Forename</span>. Aye, I received word from Nedrick that you might be along. By his recommendation, I grant you leave to enter freely. I only pray you are able to find your way out."
+            }
+        ],
+        "reward": {
+            "gil": 258,
+            "instance": 7,
+            "items": [
+                {
+                    "id": 3563,
+                    "one": 1
+                },
+                {
+                    "id": 3559,
+                    "one": 1
+                },
+                {
+                    "id": 3568,
+                    "one": 1
+                },
+                {
+                    "num": 4,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 4060
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 19,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66110
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005021",
+            "obj": {
+                "i": 1005021,
+                "n": "Nedrick Ironheart",
+                "l": 42,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1004582",
+            "obj": {
+                "i": 1004582,
+                "n": "Fafajoni",
+                "l": 44,
+                "q": 11,
+                "t": "Flame Private"
+            }
+        },
+        {
+            "type": "instance",
+            "id": "7",
+            "obj": {
+                "i": 7,
+                "n": "Halatali",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 20,
+                "max_lvl": 23
+            }
+        },
+        {
+            "type": "item",
+            "id": "3563",
+            "obj": {
+                "i": 3563,
+                "n": "Iron Gauntlets",
+                "l": 20,
+                "c": 48302,
+                "t": 37,
+                "p": 882
+            }
+        },
+        {
+            "type": "item",
+            "id": "3559",
+            "obj": {
+                "i": 3559,
+                "n": "Goatskin Armguards",
+                "l": 20,
+                "c": 48324,
+                "t": 37,
+                "p": 630
+            }
+        },
+        {
+            "type": "item",
+            "id": "3568",
+            "obj": {
+                "i": 3568,
+                "n": "Cotton Dress Gloves",
+                "l": 21,
+                "c": 44076,
+                "t": 37,
+                "p": 589
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66110",
+            "obj": {
+                "i": 66110,
+                "n": "Dressed to Deceive",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 103
+            }
+        }
+    ]
+}

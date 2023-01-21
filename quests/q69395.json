@@ -1,0 +1,154 @@
+{
+    "quest": {
+        "name": "Druthers House Rules",
+        "location": "South Shroud",
+        "id": 69395,
+        "patch": 5.3,
+        "sort": 123,
+        "eventIcon": 71201,
+        "issuer": 1000590,
+        "target": 1000590,
+        "genre": 1,
+        "journal": [
+            "Buscarron could use an adventurer to douse a fight brewing at his establishment.",
+            "Buscarron has no information on the sylph elder as yet, but he has something for you to do in the meantime. It seems as though one of his customers is spoiling for a fight. To put an end to any fisticuffs before they begin, Buscarron would have you pour a tub of cold water over the lout in question.",
+            "Drenched with water, the drunkard runs off, having come to his senses enough to realize that Buscarron means business when he says there's to be no fighting in or about his establishment. Report your success to Buscarron.",
+            "Thanks to your actions, the tavern's regulars are able to enjoy their drinks in peace. Buscarron prides himself on opening his doors to all customers─even those with unsavory reputations─so long as they pay good coin and stay out of trouble."
+        ],
+        "objectives": [
+            "Douse the mead-soaked Midlander with water.",
+            "Report to Buscarron."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "No word on the sylph elder yet, but I'm sure it's only a matter of time. In the meantime, how about doing a favor for old Buscarron in return?"
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Right, then, let's put you to work. There's a customer outside who's spoiling for a fight and I need you to cool him off for me."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "No need to go cracking any skulls, though. Just take this tub of cold water and douse the drunkard. Tends to do the trick."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "My patrons can swill grog all night and carouse loud enough to wake the dead if they wish, but as soon as it turns violent, I've got to put my boot down."
+            },
+            {
+                "name": "NPCA",
+                "text": "What are you starin' at!? You wanna keep them eyes in yer face?"
+            },
+            {
+                "name": "NPCB",
+                "text": "Grrr... If this were anywhere but the Druthers, I'd have that fool spittin' teeth before he formed a second word."
+            },
+            {
+                "name": "NPCA",
+                "text": "Ugh! Nophica's teats, that's cold! What do you mean, “no fightin'”? This Duskwight scum was─"
+            },
+            {
+                "name": "NPCA",
+                "text": "Yeah, yeah, I know the rules. That bastard gets to keep his skin...for now."
+            },
+            {
+                "name": "NPCB",
+                "text": "Thanks for steppin' in there, friend. Not that I couldn't handle myself against a bleatin' milksop like that bloke."
+            },
+            {
+                "name": "NPCB",
+                "text": "And I don't want to cause no trouble for Buscarron. You know, havin' to mop up blood and bits o' teeth and the like."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "Nicely done, <span class=\"highlight\">Forename</span>. I'll not have my patrons picking fights with each other over a bit of petty prejudice."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "In case you didn't see, the bloke who caught the brunt of that outburst is a Duskwight Elezen. They're a people who shun cities to live in the wilds, making them no better than brigands in the eyes of many."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "To be fair, the Duskwights can be an unruly lot, but they ain't so bad once you get to know them. And it don't seem right to bar a whole race of people from the Druthers for the misdeeds of a few."
+            },
+            {
+                "name": "BUSCARRON",
+                "text": "There should be at least one place where anyone willing to pay the coin and drink in peace is welcome, don't you think?"
+            }
+        ],
+        "reward": {
+            "gil": 1109,
+            "items": [
+                {
+                    "id": 4772
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 22,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66261
+            ]
+        },
+        "next": [
+            69396
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000590",
+            "obj": {
+                "i": 1000590,
+                "n": "Buscarron",
+                "l": 56,
+                "q": 14,
+                "t": "Alehouse Proprietor"
+            }
+        },
+        {
+            "type": "item",
+            "id": "4772",
+            "obj": {
+                "i": 4772,
+                "n": "Chicken Egg",
+                "l": 3,
+                "c": 25252,
+                "t": 45,
+                "p": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66261",
+            "obj": {
+                "i": 66261,
+                "n": "Spirited Away",
+                "g": 1,
+                "l": "East Shroud",
+                "s": 122
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69396",
+            "obj": {
+                "i": 69396,
+                "n": "Never Forget",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 124
+            }
+        }
+    ]
+}

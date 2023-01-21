@@ -1,0 +1,152 @@
+{
+    "quest": {
+        "name": "That Weight",
+        "location": "Eastern La Noscea",
+        "id": 66382,
+        "patch": 2.0,
+        "sort": 174,
+        "eventIcon": 71201,
+        "issuer": 1006312,
+        "target": 1006312,
+        "genre": 1,
+        "journal": [
+            "Drest is suffering from extreme duress.",
+            "Drest cannot sleep due to the incessant buzzing of midge swarms. Seek out the noisy vilekin and exterminate them for the distressed hermit.",
+            "The jungle is noticeably quieter now that you have slain several swarms of dung midges. Return to the Severed String and speak with Drest.",
+            "In the midst of thanking you for your assistance, Drest confesses that he is an imperial deserter, though he himself is not Garlean. The Empire conquered his native lands, and he holds no ill will towards the people of Eorzea. Nevertheless, he had no choice but to come to Vylbrand, where he now toils in secret so that one day he might return home."
+        ],
+        "objectives": [
+            "Slay dung midge swarms.",
+            "Speak with Drest."
+        ],
+        "dialogue": [
+            {
+                "name": "DREST",
+                "text": "Can't...can't sleep... They won't let me sleep...the midges... The buzzing...it keeps me awake..."
+            },
+            {
+                "name": "DREST",
+                "text": "I'm not... I...I never wanted to hurt anyone. I won't fight. I don't want to fight!"
+            },
+            {
+                "name": "DREST",
+                "text": "Please, make the buzzing stop! Make the midges go away!"
+            },
+            {
+                "name": "DREST",
+                "text": "It's not so loud anymore. Did...did you do that? Thank you. You...you helped me. Even after what my comrades and I did to your country..."
+            },
+            {
+                "name": "DREST",
+                "text": "We were on a reconnaissance mission when the Maelstrom caught us by surprise. We tried to escape, but the others... N-No one else survived."
+            },
+            {
+                "name": "DREST",
+                "text": "I didn't ask for this, dammit! I'm not even Garlean! They conquered my lands just like they tried to conquer yours!"
+            },
+            {
+                "name": "DREST",
+                "text": "I...I don't want to die in some blasted jungle halfway around the world..."
+            },
+            {
+                "name": "DREST",
+                "text": "I just...I just want to go home..."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4602
+                },
+                {
+                    "num": 3,
+                    "id": 4603
+                }
+            ],
+            "xp": 16380
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 33,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66381
+            ]
+        },
+        "next": [
+            66383,
+            66384
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006312",
+            "obj": {
+                "i": 1006312,
+                "n": "Drest",
+                "l": 32,
+                "q": 6
+            }
+        },
+        {
+            "type": "item",
+            "id": "4602",
+            "obj": {
+                "i": 4602,
+                "n": "Hi-Potion of Intelligence",
+                "l": 35,
+                "c": 20668,
+                "t": 44
+            }
+        },
+        {
+            "type": "item",
+            "id": "4603",
+            "obj": {
+                "i": 4603,
+                "n": "Hi-Potion of Mind",
+                "l": 35,
+                "c": 20669,
+                "t": 44
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66381",
+            "obj": {
+                "i": 66381,
+                "n": "Give a Man a Drink",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 173
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66383",
+            "obj": {
+                "i": 66383,
+                "n": "Not My War",
+                "g": 0,
+                "l": "Eastern La Noscea",
+                "s": 175
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66384",
+            "obj": {
+                "i": 66384,
+                "n": "Battle Scars",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 176
+            }
+        }
+    ]
+}

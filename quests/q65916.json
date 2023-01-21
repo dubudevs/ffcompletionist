@@ -1,0 +1,185 @@
+{
+    "quest": {
+        "name": "Threat Level Elevated",
+        "location": "Central Shroud",
+        "id": 65916,
+        "patch": 2.0,
+        "sort": 50,
+        "eventIcon": 71201,
+        "issuer": 1000748,
+        "target": 1000741,
+        "involved": [
+            1000483,
+            1001280
+        ],
+        "genre": 1,
+        "journal": [
+            "Roseline would like you to warn other sentries of the stranger's activities.",
+            "Roseline entrusts you with a letter detailing everything she has learned about the suspicious stranger. She bids you share the information with other sentries and encourage them to be vigilant for similar figures. Show the letter to Elmar, a sentry at the Bannock.",
+            "Elmar is grateful for the warning, and states that he will pass word to the other sentries and recruits at the Bannock. Head next to the eastern gates of Bentbranch Meadows and show the letter to Bernard.",
+            "Bernard thanks you for delivering Roseline's message, and directs you to Eylgar within the gates. Seek him at the chocobo stables and show him the letter.",
+            "Eylgar is pleased by your efforts to warn the other sentries. He assures you that, should this stranger attempt to harm the chocobos, they will have to face not only the Wood Wailers but the entire staff of Bentbranch Meadows."
+        ],
+        "objectives": [
+            "Show Roseline's message to Elmar.",
+            "Show Roseline's message to Bernard.",
+            "Show Roseline's message to Eylgar."
+        ],
+        "dialogue": [
+            {
+                "name": "ROSELINE",
+                "text": "We cannot allow other sentries to dismiss similar sightings─they must know what we have learned. To that end, I've prepared this letter containing everything we know about our mysterious stranger."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "I need you to show it to my comrades throughout the Shroud. Once each sentry has committed the details to memory, have them write their name at the bottom for confirmation."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "Start with Elmar at the Bannock, then find Bernard at the eastern gates of Bentbranch Meadows. They ought to relay the information to the others."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "Finally, make sure Eylgar sees the letter. He stands watch within the stables, so if this stranger's aim is to harm the chocobos, Eylgar may have to personally put an end to it."
+            },
+            {
+                "name": "ELMAR",
+                "text": "You don't look like you're here for training..."
+            },
+            {
+                "name": "ELMAR",
+                "text": "A shadowy figure... Understood. I'll pass word to the recruits as well as the sentries."
+            },
+            {
+                "name": "ELMAR",
+                "text": "Let me just make my mark...there, that should do."
+            },
+            {
+                "name": "ELMAR",
+                "text": "If you follow the road south, you'll find Bernard by the bridge to Bentbranch. Godsspeed, adventurer."
+            },
+            {
+                "name": "BERNARD",
+                "text": "You have business with me, adventurer?"
+            },
+            {
+                "name": "BERNARD",
+                "text": "Roseline is right to be cautious. For this stranger to venture so close, yet go to such great lengths to remain undetected, is highly suspicious. They clearly have designs on Bentbranch."
+            },
+            {
+                "name": "BERNARD",
+                "text": "We appreciate the help. I should write my name here, yes?"
+            },
+            {
+                "name": "BERNARD",
+                "text": "And...here, take it. You'll find Eylgar in the stables, past the aetheryte."
+            },
+            {
+                "name": "EYLGAR",
+                "text": "Mind the birds, adventurer. They get nervous around strangers."
+            },
+            {
+                "name": "EYLGAR",
+                "text": "What's this? A shadowy stranger near the Matron's Lethe... You've already shown this to Bernard and Elmar, I see. Good, good."
+            },
+            {
+                "name": "EYLGAR",
+                "text": "Then all that's left is to inform the staff here. Not everyone here is a Wood Wailer, true, but even our stableboys wouldn't hesitate to take up arms to defend these chocobos."
+            }
+        ],
+        "reward": {
+            "gil": 191,
+            "xp": 4200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65915
+            ]
+        },
+        "next": [
+            65692,
+            65917
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000748",
+            "obj": {
+                "i": 1000748,
+                "n": "Roseline",
+                "l": 54,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000741",
+            "obj": {
+                "i": 1000741,
+                "n": "Eylgar",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000483",
+            "obj": {
+                "i": 1000483,
+                "n": "Bernard",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001280",
+            "obj": {
+                "i": 1001280,
+                "n": "Elmar",
+                "l": 54,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65915",
+            "obj": {
+                "i": 65915,
+                "n": "In the Grim Darkness of the Forest",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 49
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65692",
+            "obj": {
+                "i": 65692,
+                "n": "Ruffled Feathers",
+                "g": 0,
+                "l": "Central Shroud",
+                "s": 70
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65917",
+            "obj": {
+                "i": 65917,
+                "n": "Migrant Marauders",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 57
+            }
+        }
+    ]
+}

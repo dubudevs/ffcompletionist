@@ -1,0 +1,106 @@
+{
+    "quest": {
+        "name": "Until a Quieter Time",
+        "location": "Central Thanalan",
+        "id": 65841,
+        "patch": 2.0,
+        "sort": 29,
+        "eventIcon": 71201,
+        "target": 1001447,
+        "genre": 0,
+        "journal": [
+            "Roger has an exciting proposition for adventurers looking for work.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Roger at the Coffer & Coffin.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "After a series of heroic battles, you have collected five antling mandibles. Bring the proof of your prowess to Warin at Black Brush Station.",
+            "Though taken aback at first, Warin recognizes your potential and welcomes you warmly. He offers to give you more work, if you are willing and able."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Roger at the Coffer & Coffin.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "ROGER",
+                "text": "Word is, Black Brush Station's sorely undermanned. The Stone Torches there can't get a moment's peace."
+            },
+            {
+                "name": "ROGER",
+                "text": "It don't help none that the antlings've been multiplyin' like it's nobody's business. For every critter Warin an' his crew put down, two more o' the buggers spawn in its place."
+            },
+            {
+                "name": "ROGER",
+                "text": "I was thinkin', mayhap ye can make yerself useful at the station by cullin' some antlings. I don't doubt Warin would appreciate the help."
+            },
+            {
+                "name": "ROGER",
+                "text": "An' if ye win his trust, he's like to have more work for ye. Mind ye, ye'll need to show the man proof o' yer deeds. Five or so antling mandibles ought to do the talkin' for ye."
+            },
+            {
+                "name": "WARIN",
+                "text": "What? You say you put down some antlings? You are scarce the first to come here and make that claim, hoping to earn quick coin. Unless you have proof of this feat, you'll not see a single gil from me."
+            },
+            {
+                "name": "WARIN",
+                "text": "Thal's balls...are those antling mandibles!? Then it's true─you really culled the beasts! I apologize for doubting your words."
+            },
+            {
+                "name": "WARIN",
+                "text": "With Ul'dah nearby, you'd think we were out of harm's way. Truth is, the antlings have been more active than ever. We can never have too many able-bodied adventurers to help preserve the peace in the area."
+            },
+            {
+                "name": "WARIN",
+                "text": "If you would lend us your aid, I should gladly assign you a task. Gods know we have no shortage of them here."
+            }
+        ],
+        "reward": {
+            "xp": 2550
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65860
+            ]
+        },
+        "next": [
+            65842
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001447",
+            "obj": {
+                "i": 1001447,
+                "n": "Warin",
+                "l": 43,
+                "q": 6
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65860",
+            "obj": {
+                "i": 65860,
+                "n": "Disorderly Conduct",
+                "g": 0,
+                "l": "Central Thanalan",
+                "s": 26
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65842",
+            "obj": {
+                "i": 65842,
+                "n": "Prudence at This Junction",
+                "g": 0,
+                "l": "Central Thanalan",
+                "s": 30
+            }
+        }
+    ]
+}

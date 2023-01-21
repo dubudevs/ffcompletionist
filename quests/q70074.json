@@ -1,0 +1,596 @@
+{
+    "quest": {
+        "name": "A Divine Dilemma",
+        "location": "The Omphalos",
+        "id": 70074,
+        "patch": 6.1,
+        "sort": 130,
+        "icon": 101160,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1042278,
+        "target": 1042285,
+        "genre": 27,
+        "journal": [
+            "Krile wishes to take stock of the situation.",
+            "Having taken stock of the situation, Krile declares that she will remain in the Omphalos for a time to explore. In the meantime, G'raha Tia wishes to investigate the worship of the Twelve across Eorzea, and invites you and Deryk to accompany him.",
+            "By learning about the Twelve as They are worshipped, G'raha hopes to identify any similarities or differences between Them and the beings you encountered; in so doing, he believes you will draw closer to the truth of their identities. Your mission thus established, you set out first for Rhalgr's Reach, the holy ground for disciples of the Destroyer.",
+            "Upon arriving at your destination, Deryk states that those places where phantom realm sightings are known to occur often have a tradition of Twelve worship. Encouraged by this fact, you split up to seek out people who may possess knowledge about the local faith.",
+            "Among a few other details, your search has yielded a copy of <span class=\"emphasis\">Destructivity</span>, a rare surviving scripture of the Fist of Rhalgr. Satisfied with the fruits of your efforts, you go to reconvene with your comrades at Starfall.",
+            "Skimming over the scripture, G'raha Tia finds an account of the construction of the great image of the Destroyer. The text states that, among the refugees who followed Rhalgr's comet to safety during the Sixth Umbral Calamity, some few claimed to have caught sight of the divinity Himself. Yet even as you struggle to decide whether the mysterious beings gave rise to their respective faiths or were born of them, Rhalgr and Byregot appear before you once more, in the form of a hawk and a spriggan respectively. The two explain that mortals may catch glimpses of them in their true forms when the aether surrounding their sanctums becomes unstable─a phenomenon known to occur during an Umbral Calamity. Having shared this detail in lieu of an apology for their earlier deception, the pair then take their leave. As you discuss these revelations, Krile contacts you with word that she has recruited an acquaintance to your cause─an authority on mythology. While G'raha Tia takes himself to the Sunken Temple of Qarn to receive this individual, you are tasked with going ahead to Ul'dah with Deryk to make inquiries about Nald'thal.",
+            "Though Deryk has agreed to accompany you, his apprehension towards the idea is plain to see. Whatever may be the source of his discomfiture, for now you decide to focus on the task at hand."
+        ],
+        "objectives": [
+            "Speak with G'raha Tia.",
+            "Wait at the designated location in Rhalgr's Reach.",
+            "Make inquiries on the Fist of Rhalgr.",
+            "Wait at the designated location.",
+            "Speak with Deryk."
+        ],
+        "dialogue": [
+            {
+                "name": "GRAHATIA",
+                "text": "'Tis well Krile could make her way here quickly."
+            },
+            {
+                "name": "DERYK",
+                "text": "She's another one of your colleagues, I take it?"
+            },
+            {
+                "name": "KRILE",
+                "text": "Greetings. I am Krile, of the Students of Baldesion. Do I have the pleasure of addressing Deryk, the explorer who sought aid in investigating this place?"
+            },
+            {
+                "name": "DERYK",
+                "text": "Aye, I am Deryk. And this here is a baby opo-opo."
+            },
+            {
+                "name": "KRILE",
+                "text": "Yes, I can see that. Doesn't it have a name?"
+            },
+            {
+                "name": "DERYK",
+                "text": "None that I know of. Nor would I presume to bestow one, for that would be condescending."
+            },
+            {
+                "name": "KRILE",
+                "text": "I see. That's very considerate of you."
+            },
+            {
+                "name": "KRILE",
+                "text": "So, I understand you explored the various phantom realms with Deryk. Will you recount to me the experience?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "So while the gods tested you sorely, you did not sense any malicious intent... "
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "As Byregot said, they wish to do battle with us. But 'twould seem they do not necessarily wish to cause us harm. "
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Though much and more about this perplexes, mayhap 'tis safe to assume that they are not primals."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "As you may recall, Livingway once told us that the art of summoning as taught by the Ascians incorporates the fervent desire to assimilate others into one's belief."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Thus do the resultant primals seek to enthrall worshipers, who in turn seek to grow their ranks."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "But these beings appear to harbor no such desire. If they are primals, then they are unlike those that have been summoned in recent memory."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "We might suppose that they were created in antiquity in like manner to Hydaelyn, but there is no way to prove it."
+            },
+            {
+                "name": "KRILE",
+                "text": "Who could they possibly be? And why do they desire battle with man?"
+            },
+            {
+                "name": "EMETSELCH",
+                "text": "(-Emet-Selch-)Even of your little Eorzea, you know precious little. The true identities of the Twelve, for instance."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Emet-Selch did say that, didn't he?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "By which we may assume he knew the truth...and challenged you to seek it out too. Suffice it to say you'll do so, of course?"
+            },
+            {
+                "name": "KRILE",
+                "text": "Insofar as we can ascertain, this is a matter which has implications for the entire star. In light of this, the Students of Baldesion formally accept the commission. We will investigate the phantom realm and the beings who call themselves the Twelve."
+            },
+            {
+                "name": "DERYK",
+                "text": "I'm pleased to hear that. Thank you."
+            },
+            {
+                "name": "KRILE",
+                "text": "Without further ado, then, I will take a look around. There are a few things I'm curious about."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Then with your permission, I will take myself around Eorzea and investigate the worship of those gods we encountered."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "<span class=\"highlight\">Forename</span>, Deryk. Seeing as you've already seen this place, would you care to accompany me?"
+            },
+            {
+                "name": "DERYK",
+                "text": "By all means. In which case..."
+            },
+            {
+                "name": "KRILE",
+                "text": "To be deleted."
+            },
+            {
+                "name": "DERYK",
+                "text": "Could you stay here with Krile, my friend? It wouldn't do to leave a fair maiden alone."
+            },
+            {
+                "name": "BABYOPOOPO",
+                "text": "Ook ook!"
+            },
+            {
+                "name": "KRILE",
+                "text": "Hehe, I shall be glad for the company. Take care, then, and good luck."
+            },
+            {
+                "name": "KRILE",
+                "text": "Raha has also shared his observations with me. Keeping your combined accounts in mind, I shall see what else I can learn here."
+            },
+            {
+                "name": "BABYOPOOPO",
+                "text": "(-Baby Opo-opo-)Ook!"
+            },
+            {
+                "name": "DERYK",
+                "text": "Shall we ask G'raha Tia about his plan?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "So, to explain my plan..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "'Tis believed that the Twelve were already worshipped during the Third Astral Era, when the Allagan Empire flourished."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Come the Fifth Astral Era, those nations that fought in the War of the Magi each took one of the Twelve as a guardian deity."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "This practice has continued to the present day in Eorzea, with some notable regional differences. For instance, Ishgardians hold Halone as absolute, while Sharlayans enjoy a moderate relationship with Thaliak."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "By visiting various locations in Eorzea and learning about the Twelve as They are worshipped, I hope to identify any similarities or differences between Them and the beings we encountered."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "In so doing, I believe we will draw closer to the truth of their identities."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "For our first destination, I propose we take ourselves to Rhalgr's Reach. The place is holy ground for worshipers of the Destroyer, and promises to yield useful details."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "There you are, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "This place served as the base of operations for your investigation into Omega, did it not? How delightful to be here together!"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "So, this is Rhalgr's Reach, where the dauntless soldiers of the Ala Mhigan Resistance gathered... How stirring to stand here with you!"
+            },
+            {
+                "name": "DERYK",
+                "text": "If you don't mind my making an observation, it seems you enjoy traveling with company."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "I do. It's something I had dreamed of for a long time."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "There's nothing like traveling with good friends."
+            },
+            {
+                "name": "A1",
+                "text": "I enjoy company, but sometimes I prefer my own."
+            },
+            {
+                "name": "DERYK",
+                "text": "Is that so..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "What of yourself? Do you normally travel alone?"
+            },
+            {
+                "name": "DERYK",
+                "text": "Aye. In my wanderings, I much prefer to have solitude."
+            },
+            {
+                "name": "DERYK",
+                "text": "Not that I avoid people or communities, mind you. As a matter of fact, I've been here before, on the trail of the phantom realm."
+            },
+            {
+                "name": "DERYK",
+                "text": "Hmmm, now that I think on it..."
+            },
+            {
+                "name": "DERYK",
+                "text": "More often than not, those places where phantom realm sightings are known to occur have a tradition of Twelve worship."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Then I dare to hope that we are on the right track."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "As I'm sure you know, Rhalgr's Reach is home to the Temple of the Fist, the ancient headquarters of the Fist of Rhalgr."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Razed by the mad king Theodoric, the temple lay abandoned before the Ala Mhigan Resistance claimed it for its operations."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "While I doubt that much literature has survived over the years, the people here may possess some knowledge of the local faith."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "So let us split up and make inquiries, and reconvene here afterwards to share findings."
+            },
+            {
+                "name": "DERYK",
+                "text": "Learned anything thus far?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You read the words inscribed on the monument..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "(-Bloodstorm-)A storm of blood approaches fast,<br>Hells open, Heavens weep.<br>For no one soul doth lie beyond<br>The measure of His Reach."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Once upon a time, Lyse explained to you their meaning─that we must prepare ourselves for the strife and sorrow that will inevitably come."
+            },
+            {
+                "name": "ALAMHIGANLIBERATOR04538",
+                "text": "Oh, if it isn't <span class=\"highlight\">Forename</span>! Is this man perchance a friend of yours?"
+            },
+            {
+                "name": "ALAMHIGANLIBERATOR04538",
+                "text": "When last he visited, he shared with me the tales he heard on his journeys. And what amazing tales they were!"
+            },
+            {
+                "name": "ALAMHIGANLIBERATOR04538",
+                "text": "If you have time, I'd love to hear both of your stories!"
+            },
+            {
+                "name": "DERYK",
+                "text": "Alas, we're in some haste. We're investigating the worship of Rhalgr, and seek literature on the subject─religious texts and the like. Can any still be found here?"
+            },
+            {
+                "name": "ALAMHIGANLIBERATOR04538",
+                "text": "Just about all of it is gone, sadly─destroyed by the Empire if not the mad king before that."
+            },
+            {
+                "name": "ALAMHIGANLIBERATOR04538",
+                "text": "But we haven't lost everything. The mighty image of the Destroyer... The tales we share at the campfire, like the legend of our nation's founding..."
+            },
+            {
+                "name": "ALAMHIGANLIBERATOR04538",
+                "text": "We still have these things, and they were a source of great comfort and strength to us in our darkest moments."
+            },
+            {
+                "name": "DERYK",
+                "text": "I see. If you don't mind, I would be obliged to hear your stories this time."
+            },
+            {
+                "name": "DERYK",
+                "text": "<span class=\"highlight\">Forename</span>, rest assured I have this well in hand. Feel free to carry on as you were."
+            },
+            {
+                "name": "SCHOLAR04538",
+                "text": "...Yes? If you have business, please make it quick. I'm due to meet with someone any moment now."
+            },
+            {
+                "name": "MARJORIE",
+                "text": "(-???-)Forgive me my delay!"
+            },
+            {
+                "name": "MARJORIE",
+                "text": "Hm? You're an adventurer, I take it? What can we students of Ala Mhigan history do for you?"
+            },
+            {
+                "name": "MARJORIE",
+                "text": "Researching the worship of the Destroyer, you say! In that case, I have something that ought to be of interest!"
+            },
+            {
+                "name": "MARJORIE",
+                "text": "Why, if it isn't the adventurer who kindly escorted me to the Temple of the Fist! Are you studying monks too, perchance?"
+            },
+            {
+                "name": "MARJORIE",
+                "text": "If so, you ought to work together with me and my colleague here! Few things are finer than joining heads with like-minded folk!"
+            },
+            {
+                "name": "MARJORIE",
+                "text": "Researching the worship of the Destroyer, you say! Why didn't you mention it sooner!?"
+            },
+            {
+                "name": "MARJORIE",
+                "text": "This is a copy of <span class=\"emphasis\">Destructivity</span>, a scripture of the Fist of Rhalgr. The original is one of the few texts that survived the temple's razing, and is in the safekeeping of one Professor Erik."
+            },
+            {
+                "name": "MARJORIE",
+                "text": "This is a copy of <span class=\"emphasis\">Destructivity</span>, a scripture of the Fist of Rhalgr. The original is one of the few texts that survived the temple's razing, and was recovered by a monk named Widargelt."
+            },
+            {
+                "name": "MARJORIE",
+                "text": "I went to the trouble of having this made for my colleague...only for her to say she doesn't need it. So I will offer it to you instead!"
+            },
+            {
+                "name": "SCHOLAR04538",
+                "text": "&lt;sigh&gt; Lest you forget, this is <span class=\"emphasis\">your</span> passion, not mine. I'm simply assisting you as a favor, and I'd thank you not to put us in danger."
+            },
+            {
+                "name": "MARJORIE",
+                "text": "Ah, but danger is the crucible in which the monk tempers body and mind! &lt;sigh&gt; So sublime, monks..."
+            },
+            {
+                "name": "MARJORIE",
+                "text": "Well, we had best return to our work! Till next time, adventurer!"
+            },
+            {
+                "name": "ALAMHIGANLIBERATOR04538",
+                "text": "Next time, I hope to hear some of your stories too!"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "<span class=\"highlight\">Forename</span>, what were you able to learn?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "A copy of one of the scriptures, you say? A moment while I skim over it!"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "I see... This chapter appears to be a record of the construction of the great image of Rhalgr, written in a style that suggests folklore was committed to parchment."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "When the deluge of the Sixth Umbral Calamity threatened Eorzea, the ancestors of the Ala Mhigans were guided to safety by a comet."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Believing that it was sent by Rhalgr, they came to hold Him in the highest. This much of the tale, I had been familiar with..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "But according to the scripture, among those refugees who followed the comet, some claimed to have caught sight of Rhalgr Himself."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Their accounts were passed down through the centuries, and worshipers of the Destroyer pieced them together to give shape to yonder statue."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "I must say, it bears more than a passing resemblance to the being we encountered..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Were that Rhalgr a primal, the explanation for the similarities would be simple."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "That is, the statue gives rise to a unified interpretation of Rhalgr's appearance, which in turn lends form to the primal."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "However, this fails to account for what inspired the likeness in the first place. If the scripture is to be believed, it was the sightings during the Sixth Umbral Calamity. Yet for those witnesses to be able to recognize Rhalgr, they would have needed an agreed-upon idea of His appearance beforehand."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "If we then consider the history of Twelve worship─that it already existed in the Third Astral Era─it would not be ridiculous to think that these divinities existed even prior to that."
+            },
+            {
+                "name": "DERYK",
+                "text": "So the question is, did these beings give rise to their respective faiths, or are they primals born of them?"
+            },
+            {
+                "name": "RHALGR",
+                "text": "(-Rhalgr's Voice-)I thought we had made it clear. We are not summoned beings."
+            },
+            {
+                "name": "RHALGR",
+                "text": "(-Hawk with Rhalgr's Voice-)Since time immemorial, our domains have lain scattered across Eorzea. As a matter of fact, one of those in which you set foot is nearby. 'Tis not unusual for mortals to glimpse us."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "That voice... Could they be...?"
+            },
+            {
+                "name": "BYREGOT",
+                "text": "Indeed. I am Byregot, and the hawk beside me is Rhalgr. I shall elaborate upon my master's explanation."
+            },
+            {
+                "name": "BYREGOT",
+                "text": "We thus disguise ourselves when we wish to observe the world without, for being seen in our true forms would violate our laws of conduct."
+            },
+            {
+                "name": "BYREGOT",
+                "text": "Yet though we similarly disguise our sanctums, veiling them in illusion, rents are known to manifest when the surrounding aether is unstable."
+            },
+            {
+                "name": "RHALGR",
+                "text": "In such a time, should a gifted mortal chance to be near, they may inadvertently catch sight of us."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Of course! During an Umbral Calamity, aetheric imbalance occurs on a star-wide scale─the ideal condition for seeing the phantom realm!"
+            },
+            {
+                "name": "RHALGR",
+                "text": "Precisely how many times we have been seen, we ourselves have no way of knowing, but aye─that is a sound assumption to make."
+            },
+            {
+                "name": "RHALGR",
+                "text": "Well, Byregot, I believe that much shall suffice by way of an apology for our deception. Shall we?"
+            },
+            {
+                "name": "BYREGOT",
+                "text": "Indeed, that is all we are at liberty to reveal. Fare you well, children of man."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Aside from their reticence where it concerns their identity and objective, these divinities are certainly approachable."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "If what they said was true, and their worship can be traced back to their sightings, it would serve to explain one thing."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "According to my research, in the field of comparative mythology, Rhalgr is often observed to bear many similarities with Ramuh."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Assuming both were inspired by the Rhalgr of the phantom realm..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Their divergence may be attributable to differences in culture between man and sylph."
+            },
+            {
+                "name": "DERYK",
+                "text": "So you believe that they gave rise to the prevailing faiths of Eorzea?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Given available evidence, yes─I am inclined to. Yet none of this explains their presence. How and when did beings of such power come into existence?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "...Oh, 'tis you, Krile. Has something happened?"
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "...Truly!? Very well, I shall take care of it."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Krile has recruited an acquaintance to aid in our investigation─an authority on mythology."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "I must go and receive her at the Sunken Temple of Qarn, where she is currently conducting fieldwork─after a brief detour to prepare...a little something."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Conveniently, Thanalan is home to countless adherents of Nald'thal. While I tend to business, may I ask the two of you to make inquiries in Ul'dah?"
+            },
+            {
+                "name": "DERYK",
+                "text": "Very well..."
+            },
+            {
+                "name": "GRAHATIA",
+                "text": "Excellent. I will join you as soon as I'm able. By your leave..."
+            },
+            {
+                "name": "DERYK",
+                "text": "So, it's to be just you and me in Ul'dah..."
+            },
+            {
+                "name": "DERYK",
+                "text": "&lt;sigh&gt; I suppose it can't be helped..."
+            }
+        ],
+        "reward": {
+            "gil": 3000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 90,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                70073
+            ]
+        },
+        "next": [
+            70075
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042278",
+            "obj": {
+                "i": 1042278,
+                "n": "Krile",
+                "l": 4031,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1042285",
+            "obj": {
+                "i": 1042285,
+                "n": "Deryk",
+                "l": 2403,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70073",
+            "obj": {
+                "i": 70073,
+                "n": "The Realm of the Gods",
+                "g": 27,
+                "l": "The Omphalos",
+                "s": 120,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70075",
+            "obj": {
+                "i": 70075,
+                "n": "The Face of an Explorer",
+                "g": 27,
+                "l": "Rhalgr's Reach",
+                "s": 140,
+                "f": 1
+            }
+        }
+    ]
+}

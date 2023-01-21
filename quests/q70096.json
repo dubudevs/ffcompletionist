@@ -1,0 +1,101 @@
+{
+    "quest": {
+        "name": "Bloomin' Ocean",
+        "location": "Thavnair",
+        "id": 70096,
+        "patch": 6.15,
+        "sort": 110,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 15,
+        "eventIcon": 71222,
+        "issuer": 1042301,
+        "target": 1042301,
+        "genre": 33,
+        "journal": [
+            "Maru hopes you will be amenable to acquiring anemones.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Obtain redbloom anemones.",
+            "Deliver the redbloom anemones to Maru."
+        ],
+        "dialogue": [
+            {
+                "name": "MARU",
+                "text": "<span class=\"highlight\">Forename</span>, would you be willin' to go scrape me up some redbloom anemones? There's this recipe I wanna try..."
+            },
+            {
+                "name": "MARU",
+                "text": "You'll wanna look just off the coast of Saltwind's Welcome. If you could grab me a couple growin' close to the water's surface, I'd be much obliged."
+            },
+            {
+                "name": "MARU",
+                "text": "You find those redblooms?"
+            },
+            {
+                "name": "MARU",
+                "text": "These're them! Redblooms are universal─fishers use 'em for moochin', and they're delicious deep-fried or steamed in coconut milk. With fronds like these, who needs other anemones?"
+            },
+            {
+                "name": "MARU",
+                "text": "...A-Anyway, since they're so popular, you're only allowed to harvest 'em from certain areas. Don't wanna get too greedy, after all..."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 44
+                },
+                {
+                    "id": 36657
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042301",
+            "obj": {
+                "i": 1042301,
+                "n": "Maru",
+                "l": 3709,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "44",
+            "obj": {
+                "i": 44,
+                "n": "Allagan Tomestone of Causality",
+                "l": 1,
+                "c": "t/65094",
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "36657",
+            "obj": {
+                "i": 36657,
+                "n": "Arkasodara Pana",
+                "l": 1,
+                "c": "t/65091",
+                "t": 100
+            }
+        }
+    ]
+}

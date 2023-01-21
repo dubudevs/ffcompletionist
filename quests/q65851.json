@@ -1,0 +1,244 @@
+{
+    "quest": {
+        "name": "Wake of Destruction",
+        "location": "Limsa Lominsa",
+        "id": 65851,
+        "patch": 2.0,
+        "sort": 100,
+        "icon": 100053,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000927,
+        "target": 1000927,
+        "genre": 129,
+        "journal": [
+            "Wyrnzoen wishes to speak with you regarding your ongoing training.",
+            "Wyrnzoen has taken a personal interest in preparing you to take vengeance against Kujata, the beast responsible for slaying Sighard's parents. Focus your rage, and slay the galagos found near Blind Iron Mines.",
+            "You have slain the specified creatures. Return to the Marauders' Guild and report to Axemaster Wyrnzoen.",
+            "After returning to Axemaster Wyrnzoen, you learn that Kujata has been on a destructive rampage through the lands near Tiller's Rest. Find the overturned wain in middle La Noscea, and slay the plainstriders that seek to devour the exposed cargo of foodstuffs.",
+            "You have defeated the plainstriders. Return to the Marauders' Guild and report to Axemaster Wyrnzoen.",
+            "Though you have successfully defended the cargo of produce from the voracious plainstriders, you learn that such incidents will continue so long as Kujata is allowed to rampage unchecked. To fully prepare yourself to defeat the so-called Stampeding Mountain, you must heed Wyrnzoen's advice and commit yourself to your training.<br><br>※The next marauder quest will be available from Wyrnzoen upon reaching level 15."
+        ],
+        "objectives": [
+            "Slay galagos as a marauder.",
+            "Report to Axemaster Wyrnzoen at the Marauders' Guild.",
+            "As a marauder, investigate the wain and defeat the creatures that appear.",
+            "Report to Axemaster Wyrnzoen at the Marauders' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "WYRNZOEN",
+                "text": "<span class=\"highlight\">Forename</span>. I have gathered what information I could concerning the beast that young Sighard bade you slay. The tales name this creature “Kujata.”"
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Those who have witnessed Kujata in the terrifying flesh also call him the “Stampeding Mountain,” such is his immense size and bulk."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Again, I will not seek to dissuade you from claiming vengeance for the boy's parents. In fact, I encourage it."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "But to topple this lumbering colossus, you must first become his equal in strength and ferocity. As a single step towards that distant goal, I send you to Blind Iron Mines."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "We have had word that folk are falling prey to the claws of the local galagos. It is your task to protect the weak from these unruly creatures. Learn to channel the rage inside you, and let your axe blade sing in righteous slaughter."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. Your actions have saved many from needless injury and anguish."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "But though your efforts are to be commended, there is yet much work to be done. Kujata, the object of your vengeance, has trampled a farmer's wagon as he thundered through the lands of Tiller's Rest."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "The foodstuffs spilled from the overturned wain have attracted all manner of hungry predators. Without produce for the market, the farmers will surely suffer for coin this season. Your duty is thus clear: put down these rapacious scavengers and preserve the cargo."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Once again, your capacity for carnage has been tested and proven. The creatures you defeated, however, were merely some of the many base scavengers that subsist on the scraps left in the wake of Kujata's rampages."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "To face Kujata himself, you yet require far more training. But do not despair, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "As axemaster and fellow marauder, this I swear: I will not rest until I have taught you how to wring every last onze of power from your weapon; until the blade of your axe can slice cleanly through the thickest hide, the most knotted muscle, the densest bone. This menace <span class=\"emphasis\">will</span> fall by your hand."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 1752
+                },
+                {
+                    "id": 3016,
+                    "one": 1
+                },
+                {
+                    "id": 2662,
+                    "one": 1
+                },
+                {
+                    "id": 3539,
+                    "one": 1
+                },
+                {
+                    "id": 3770,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 1710
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 4
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                65848,
+                65849
+            ]
+        },
+        "next": [
+            65852
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000927",
+            "obj": {
+                "i": 1000927,
+                "n": "Wyrnzoen",
+                "l": 28,
+                "q": 12,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "1752",
+            "obj": {
+                "i": 1752,
+                "n": "Cloud Axe",
+                "l": 10,
+                "c": 31407,
+                "t": 3,
+                "p": 446
+            }
+        },
+        {
+            "type": "item",
+            "id": "3016",
+            "obj": {
+                "i": 3016,
+                "n": "Leather Jacket",
+                "l": 10,
+                "c": 43026,
+                "t": 35,
+                "p": 351
+            }
+        },
+        {
+            "type": "item",
+            "id": "2662",
+            "obj": {
+                "i": 2662,
+                "n": "Bronze Sallet",
+                "l": 10,
+                "c": 40020,
+                "t": 34,
+                "p": 283
+            }
+        },
+        {
+            "type": "item",
+            "id": "3539",
+            "obj": {
+                "i": 3539,
+                "n": "Hempen Bracers",
+                "l": 11,
+                "c": 44042,
+                "t": 37,
+                "p": 280
+            }
+        },
+        {
+            "type": "item",
+            "id": "3770",
+            "obj": {
+                "i": 3770,
+                "n": "Leather Jackboots",
+                "l": 10,
+                "c": 46816,
+                "t": 38,
+                "p": 288
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65848",
+            "obj": {
+                "i": 65848,
+                "n": "My First Axe",
+                "g": 129,
+                "l": "Limsa Lominsa",
+                "s": 12,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65849",
+            "obj": {
+                "i": 65849,
+                "n": "Axe in the Stone",
+                "g": 129,
+                "l": "Limsa Lominsa",
+                "s": 50,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65852",
+            "obj": {
+                "i": 65852,
+                "n": "Brutal Strength",
+                "g": 129,
+                "l": "Limsa Lominsa",
+                "s": 150,
+                "f": 1
+            }
+        }
+    ]
+}

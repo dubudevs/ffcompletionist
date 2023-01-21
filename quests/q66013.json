@@ -1,0 +1,184 @@
+{
+    "quest": {
+        "name": "Flour Power",
+        "location": "Lower La Noscea",
+        "id": 66013,
+        "patch": 2.0,
+        "sort": 80,
+        "eventIcon": 71221,
+        "issuer": 1002652,
+        "target": 1002591,
+        "genre": 91,
+        "journal": [
+            "Weitzaren, high miller of the Grey Fleet, requires the help of an able adventurer.",
+            "Weitzaren asks that you wreak vengeance on the galagos that robbed him of his milled grains, and recover the sacks of flour they stole.",
+            "You have delivered swift retribution to the thieving galagos. Take the recovered flour to Skarnmhar at the Red Rooster Stead.",
+            "Skarnmhar is appreciative of your help, but bemoans the fact the Stead hires no guards, and he must rely on the kindness of adventurers when things go awry."
+        ],
+        "objectives": [
+            "Defeat the galagos and recover the sacks of flour.",
+            "Deliver the sacks of flour to Skarnmhar."
+        ],
+        "dialogue": [
+            {
+                "name": "WEITZAREN",
+                "text": "Now, felting wool is all well and good for your run-of-the-mill miller, but you know what gets my grindstone spinning? Grain!"
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "What worth has wheat? None! But once shred into fabulous flour, even the confounded galagos can't keep their hands off of it."
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "Which is precisely why I need you to slay them and recover the four sacks they pilfered!"
+            },
+            {
+                "name": "WEITZAREN",
+                "text": "Once you have done so, take the sacks of flour down to the Stead, and Skarnmhar will take care of the rest. "
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "All the eggs and milk in the world don't matter a lick without flour."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "Not that flour's any good on its own, mind you. The galagos just hoard whatever they can get their filthy paws on."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "But now we've got the whole kit and caboodle, thanks to you."
+            },
+            {
+                "name": "SKARNMHAR",
+                "text": "It's a relief you were around, but at the end of the day we're still utterly unprepared should this sort of thing happen again."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 5,
+                    "id": 4716
+                },
+                {
+                    "id": 2654,
+                    "one": 1
+                },
+                {
+                    "num": 10,
+                    "id": 4555,
+                    "one": 1
+                },
+                {
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 1275
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66012
+            ]
+        },
+        "next": [
+            66014
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002652",
+            "obj": {
+                "i": 1002652,
+                "n": "Weitzaren",
+                "l": 31,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002591",
+            "obj": {
+                "i": 1002591,
+                "n": "Skarnmhar",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "4716",
+            "obj": {
+                "i": 4716,
+                "n": "Frumenty",
+                "l": 4,
+                "c": 24102,
+                "t": 46,
+                "p": 7
+            }
+        },
+        {
+            "type": "item",
+            "id": "2654",
+            "obj": {
+                "i": 2654,
+                "n": "Hard Leather Pot Helm",
+                "l": 8,
+                "c": 40015,
+                "t": 34,
+                "p": 220
+            }
+        },
+        {
+            "type": "item",
+            "id": "4555",
+            "obj": {
+                "i": 4555,
+                "n": "Ether",
+                "l": 15,
+                "c": 20621,
+                "t": 44,
+                "p": 60
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66012",
+            "obj": {
+                "i": 66012,
+                "n": "Wool's Errand",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66014",
+            "obj": {
+                "i": 66014,
+                "n": "Kobolds and Indigents",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 90
+            }
+        }
+    ]
+}

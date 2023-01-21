@@ -1,0 +1,163 @@
+{
+    "quest": {
+        "name": "Meeting with the Resistance",
+        "location": "The Waking Sands",
+        "id": 66299,
+        "patch": 2.0,
+        "sort": 140,
+        "eventIcon": 71201,
+        "issuer": 1006688,
+        "target": 1006219,
+        "involved": [
+            1007418
+        ],
+        "genre": 1,
+        "journal": [
+            "Minfilia wants to introduce you to an Ala Mhigan member of the Scions.",
+            "Minfilia has told you of Haribehrt, a member of the Scions hailing from Ala Mhigo. Seek him out in the storage area and solicit his assistance in your investigation.",
+            "While Haribehrt no longer has friends in the Resistance, he knows someone who does. Take yourself to Quarrymill in the South Shroud, and introduce yourself to a woman named Albreda.",
+            "Mentioning Haribehrt's name to Albreda earns you an angry outburst. Nonetheless, she relents to your request and refers you to a man named Meffrid, a captain of the Ala Mhigan Resistance."
+        ],
+        "objectives": [
+            "Speak with Haribehrt.",
+            "Speak with Albreda at Quarrymill."
+        ],
+        "dialogue": [
+            {
+                "name": "MINFILIA",
+                "text": "Your Ala Mhigan comrade is named Haribehrt. He joined our cause in the hopes that he might find a way to liberate his homeland."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "While he spares no effort towards that endeavor, I have no doubt that he would be glad to assist you."
+            },
+            {
+                "name": "MINFILIA",
+                "text": "If I recall correctly, Haribehrt is currently between missions. Try looking for him in the storage area."
+            },
+            {
+                "name": "HARIBEHRT",
+                "text": "If it isn't <span class=\"highlight\">Forename Surname</span>, the Scions' rising star! Is there aught I can do for you? "
+            },
+            {
+                "name": "HARIBEHRT",
+                "text": "You wish to win the trust of the people of Little Ala Mhigo! That is a daunting task, my friend, even for our own countrymen."
+            },
+            {
+                "name": "HARIBEHRT",
+                "text": "I would like nothing more than to help, but I'm afraid my name no longer carries weight with that lot."
+            },
+            {
+                "name": "HARIBEHRT",
+                "text": "I used to be a member of the Ala Mhigan Resistance, you see, but I left in favor of joining the Scions."
+            },
+            {
+                "name": "HARIBEHRT",
+                "text": "Though my allegiance may have shifted, my purpose remains ever the same─the liberation of Ala Mhigo. Yet whatever my reasons were, I abandoned my comrades, and they'll have nothing to do with me."
+            },
+            {
+                "name": "HARIBEHRT",
+                "text": "Now, while I may have no more friends in the Resistance, I know someone who does. Her name is Albreda, and she is a resident of Quarrymill. Say my name when you meet her, and she won't lead you astray."
+            },
+            {
+                "name": "ALBREDA",
+                "text": "Eh? You want <span class=\"emphasis\">me</span> to introduce <span class=\"emphasis\">you</span> to the Resistance? Hah! Why the hells should I do that? Give me just one reason!"
+            },
+            {
+                "name": "ALBREDA",
+                "text": "H-Haribehrt sent you!? Grrr, that worthless whoreson... He abandons his comrades─his <span class=\"emphasis\">woman</span>─and now he has the gall to ask <span class=\"emphasis\">me</span> for a favor!? Simply incredible..."
+            },
+            {
+                "name": "ALBREDA",
+                "text": "I just... I mean... &lt;sigh&gt; Ugh. I realize Haribehrt was only doing what he felt was right. He's a good man. And if he trusts you, then that's all I need to know. You see that bloke there? That's Meffrid, a captain of the Resistance. I hope he can give you what you need."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 31331
+                }
+            ],
+            "xp": 10150
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 26,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66298
+            ]
+        },
+        "next": [
+            66301
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006688",
+            "obj": {
+                "i": 1006688,
+                "n": "Minfilia",
+                "l": 356,
+                "q": 8
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006219",
+            "obj": {
+                "i": 1006219,
+                "n": "Albreda",
+                "l": 56,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007418",
+            "obj": {
+                "i": 1007418,
+                "n": "Haribehrt",
+                "l": 356,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "31331",
+            "obj": {
+                "i": 31331,
+                "n": "Level 24 Weapon Coffer",
+                "l": 1,
+                "c": 26557,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66298",
+            "obj": {
+                "i": 66298,
+                "n": "Foot in the Door",
+                "g": 1,
+                "l": "Southern Thanalan",
+                "s": 139
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66301",
+            "obj": {
+                "i": 66301,
+                "n": "Killing Him Softly",
+                "g": 1,
+                "l": "South Shroud",
+                "s": 141
+            }
+        }
+    ]
+}

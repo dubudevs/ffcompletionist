@@ -1,0 +1,246 @@
+{
+    "quest": {
+        "name": "From One Heretic to Another",
+        "location": "Coerthas Western Highlands",
+        "id": 67141,
+        "patch": 3.0,
+        "sort": 26,
+        "eventIcon": 71201,
+        "issuer": 1012592,
+        "target": 1012601,
+        "involved": [
+            1012594,
+            1012595,
+            1012600,
+            1012602
+        ],
+        "genre": 3,
+        "journal": [
+            "The expedition leader has a promising lead to aid you in your search for Lady Iceheart.",
+            "The expedition leader recalls a stack of correspondence they had discovered within the farmhouse that may contain some clue as to Lady Iceheart's current whereabouts. Search Gorgagne Mills, and collect any heretic letters you find.",
+            "You have gathered a respectable stack of heretic epistles. Return to the expedition leader, and add your contribution to the pile.",
+            "After handing your share of the heretic letters to the waiting knight, the Ishgardian quickly peruses the collected correspondence. The messages prove to be a meticulously kept record of the dealings between the heretics camped at Gorgagne Mills, and their fellows in the Akh Afah Amphitheatre. Judging by the numerous requests for provisions, it would seem the amphitheatre is still being used as a base by Iceheart's minions..."
+        ],
+        "objectives": [
+            "Collect heretic epistles.",
+            "Hand the heretic epistles to the expedition leader."
+        ],
+        "dialogue": [
+            {
+                "name": "KIGHTLEADER01605",
+                "text": "You wish to track down Lady Iceheart, is this not so? The records we discovered ere those beasts mauled my comrades appeared to be some manner of correspondence."
+            },
+            {
+                "name": "KIGHTLEADER01605",
+                "text": "We had not the luxury of perusing their contents more closely─intent as we were on surviving an onslaught of fang and claw─but I'd wager those epistles contain more than friendly salutations betwixt lonely heretics."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "My interrogation of the patrol proved fruitless. Either we divine some clue from these letters, or we wander the snowfields and pray that the gods lead us right to Iceheart's door. 'Tis hardly a choice at all..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Th-The thing took me by surprise... Until my hands stop shaking enough to weave spells, I fear I shall prove more a hindrance than a help."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "My inquiries availed me naught. The patrol leader had little to report beyond which of his extremities had frozen the most completely..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "I have found some few of these letters. Let us gather a respectable stack, and see what secrets the expedition captain can wring from the collected correspondence."
+            },
+            {
+                "name": "KIGHTLEADER01605",
+                "text": "Ah, the letters were in a neat pile just here...but 'twould seem the skirmish with the beasts has scattered them rather thoroughly."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Where are these damnable pages...? I'd rather battle two score aevis than continue this confounded search!"
+            },
+            {
+                "name": "KIGHTLEADER01605",
+                "text": "Have you recovered much of the heretics' correspondence?"
+            },
+            {
+                "name": "KIGHTLEADER01605",
+                "text": "Splendid. Added to the contributions from Master Leveilleur and Ser Estinien, we now have more than a dozen letters."
+            },
+            {
+                "name": "KIGHTLEADER01605",
+                "text": "What have we here, then... Hmmm. Every one of these pages is a record of the dealings betwixt the Gorgagne Mills heretics and their fellows in the Akh Afah Amphitheatre."
+            },
+            {
+                "name": "KIGHTLEADER01605",
+                "text": "There are requests for foodstuffs, clothing, and all manner of provisions. Iceheart's followers must yet inhabit the ruins we had thought abandoned..."
+            }
+        ],
+        "reward": {
+            "gil": 438,
+            "items": [
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5672,
+                    "one": 1
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                }
+            ],
+            "xp": 50400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67140
+            ]
+        },
+        "next": [
+            67142
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012592",
+            "obj": {
+                "i": 1012592,
+                "n": "Expedition Leader",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012601",
+            "obj": {
+                "i": 1012601,
+                "n": "Expedition Leader",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012594",
+            "obj": {
+                "i": 1012594,
+                "n": "Estinien",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012595",
+            "obj": {
+                "i": 1012595,
+                "n": "Alphinaud",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012600",
+            "obj": {
+                "i": 1012600,
+                "n": "Alphinaud",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012602",
+            "obj": {
+                "i": 1012602,
+                "n": "Estinien",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5672",
+            "obj": {
+                "i": 5672,
+                "n": "Savage Aim Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67140",
+            "obj": {
+                "i": 67140,
+                "n": "In Search of Iceheart",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 25
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67142",
+            "obj": {
+                "i": 67142,
+                "n": "Sounding Out the Amphitheatre",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 27
+            }
+        }
+    ]
+}

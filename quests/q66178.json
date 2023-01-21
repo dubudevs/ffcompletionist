@@ -1,0 +1,91 @@
+{
+    "quest": {
+        "name": "Dead Bodies Everywhere",
+        "location": "Eastern Thanalan",
+        "id": 66178,
+        "patch": 2.0,
+        "sort": 180,
+        "eventIcon": 71221,
+        "issuer": 1003936,
+        "target": 1003936,
+        "genre": 93,
+        "journal": [
+            "Sister Airell of the Church of Saint Adama Landama has her hands full with the Order's work.",
+            "There are too many graves for Sister Airell to tend to in a timely manner. Gather six old offerings from graves in her stead.",
+            "You have gathered the old offerings from the graves. Report back to Sister Airell at the church.",
+            "It seems Sister Airell still has some straightening up to do around the church. Speak to her once more for another task."
+        ],
+        "objectives": [
+            "Gather old offerings.",
+            "Deliver the old offerings to Sister Airell."
+        ],
+        "dialogue": [
+            {
+                "name": "AIRELL",
+                "text": "Be welcome to the Church of Saint Adama Landama. I am Sister Airell."
+            },
+            {
+                "name": "AIRELL",
+                "text": "I gather you are on no pilgrimage. You look to be an adventurer. If so, might I impose on you to help tend the lichyard while you are here with us?"
+            },
+            {
+                "name": "AIRELL",
+                "text": "The graves here far outnumber we who keep them. Alone, we cannot possibly do all that needs be done."
+            },
+            {
+                "name": "AIRELL",
+                "text": "Would you see to gathering up the old offerings currently lying about outside? I made note of at least six during my last rounds through the yard."
+            },
+            {
+                "name": "AIRELL",
+                "text": "Were you able to gather the old offerings?"
+            },
+            {
+                "name": "AIRELL",
+                "text": "Thank you. &lt;sigh&gt; Would that there were naught else to be done. I must see to collecting the weathered vases, urns, and ewers before long. The dead sleep soundest in a tidy grave."
+            },
+            {
+                "name": "AIRELL",
+                "text": "I have no shortage of work to offer, should you care to take it. Speak to me again whensoever you feel so compelled. "
+            }
+        ],
+        "reward": {
+            "gil": 243,
+            "xp": 3780
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 18,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66163
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003936",
+            "obj": {
+                "i": 1003936,
+                "n": "Airell",
+                "l": 44,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66163",
+            "obj": {
+                "i": 66163,
+                "n": "Lichyard Lilies",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 180
+            }
+        }
+    ]
+}

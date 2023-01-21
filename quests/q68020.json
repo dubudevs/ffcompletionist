@@ -1,0 +1,291 @@
+{
+    "quest": {
+        "name": "In Soroban We Trust",
+        "location": "The Ruby Sea",
+        "id": 68020,
+        "patch": 4.0,
+        "sort": 390,
+        "icon": 100645,
+        "eventIcon": 71201,
+        "issuer": 1019958,
+        "target": 1019970,
+        "involved": [
+            1019956,
+            1019957,
+            1019968,
+            1019969,
+            1019971,
+            1021614
+        ],
+        "genre": 6,
+        "journal": [
+            "Soroban is about to show you a shining, shimmering, splendid new world.",
+            "The requisite items have been gathered and given to Soroban, and so he invites you to join him at the western edge of Tamamizu. There, where the water twists and turns on the surface of the dome, he will perform the ritual to let you traverse the depths as easily as any Kojin, that you might begin your search for the Yasakani–no–Magatama.",
+            "The deep, booming voice of Soroban resounds in your ears as he intones a sacred prayer to the kami of the deep. With a flash of light, it is done, and you are told you can breathe underwater as you would on land. Alisaie's skepticism turns to amazement once she passes through the portal and finds herself in open water, completely at ease. Yet that is not all, for Soroban then summons for you noble steeds of great strength. And so, with the aid of the striped rays, you embark on your journey to Sui–no–Sato.",
+            "It is not long before you arrive at your destination─the underwater village of the Raen. But will these reclusive people be willing to aid your cause?"
+        ],
+        "objectives": [
+            "Speak with Alisaie.",
+            "Speak with Lyse."
+        ],
+        "dialogue": [
+            {
+                "name": "LYSE",
+                "text": "I can hardly wait!"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Quite how this blessing is supposed to keep us from drowning remains to be seen..."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Are you ready, my friends, to explore a world unlike any you have ever known?"
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Then let us go to western part of the village, where the water twists and turns, and there complete our preparations for the ritual."
+            },
+            {
+                "name": "LYSE",
+                "text": "This is the place, right? Hmm... I'm not sure I like the look of that whirlpool..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "He dove into the water a moment ago and said to wait here until he returned..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Owing to Soroban's blessing, you may now <span class=\"highlight\">dive</span> into deep water and stay submerged indefinitely."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Underwater settlements like Tamamizu and Sui–no–Sato can be accessed via circular portals."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To leave deep water, you need only swim towards the surface. Conversely, to dive into deep water while swimming on the surface, press <span class=\"alternative-container\"><span class=\"alternative\"><span class=\"highlight\">[Ctrl+Spacebar]</span></span><span class=\"alternative\">[???]</span></span>."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Should you become separated from your steed, speak with Soroban in Tamamizu to mount a striped ray."
+            },
+            {
+                "name": "SOROBAN",
+                "text": "Were you thrown from your ray? No matter! I shall summon another─assuming that is your wish?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Mount a striped ray?"
+            },
+            {
+                "name": "ALISAIE",
+                "text": "I'll admit I had my doubts, but this is a “blessing” worthy of the name. One cannot help wondering what other magicks the Kojin possess..."
+            },
+            {
+                "name": "LYSE",
+                "text": "This must be Sui–no–Sato, the Raen village Soroban told us about."
+            },
+            {
+                "name": "LYSE",
+                "text": "Right, then! Let's see if they can't help us find the Kojin's missing jewel!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You may now perform underwater emotes!"
+            }
+        ],
+        "reward": {
+            "gil": 762,
+            "items": [
+                {
+                    "id": 27361,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 27362,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 3,
+                    "id": 5673,
+                    "one": 1
+                }
+            ],
+            "xp": 191700
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 63,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68019
+            ]
+        },
+        "next": [
+            68021,
+            68458
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1019958",
+            "obj": {
+                "i": 1019958,
+                "n": "Soroban",
+                "l": 2409,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019970",
+            "obj": {
+                "i": 1019970,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019956",
+            "obj": {
+                "i": 1019956,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019957",
+            "obj": {
+                "i": 1019957,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019968",
+            "obj": {
+                "i": 1019968,
+                "n": "Lyse",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019969",
+            "obj": {
+                "i": 1019969,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019971",
+            "obj": {
+                "i": 1019971,
+                "n": "Alisaie",
+                "l": 2409,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021614",
+            "obj": {
+                "i": 1021614,
+                "n": "Soroban",
+                "l": 2409,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "27361",
+            "obj": {
+                "i": 27361,
+                "n": "High Steel Bayonet",
+                "l": 265,
+                "c": 36007,
+                "t": 106,
+                "p": 37778
+            }
+        },
+        {
+            "type": "item",
+            "id": "27362",
+            "obj": {
+                "i": 27362,
+                "n": "High Steel War Quoits",
+                "l": 265,
+                "c": 36205,
+                "t": 107,
+                "p": 37778
+            }
+        },
+        {
+            "type": "item",
+            "id": "5673",
+            "obj": {
+                "i": 5673,
+                "n": "Savage Aim Materia V",
+                "l": 160,
+                "c": 20258,
+                "t": 58,
+                "materia": {
+                    "tier": 4,
+                    "value": 6,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68019",
+            "obj": {
+                "i": 68019,
+                "n": "Of Kojin and Kami",
+                "g": 6,
+                "l": "The Ruby Sea",
+                "s": 380
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68021",
+            "obj": {
+                "i": 68021,
+                "n": "Forever and Ever Apart",
+                "g": 6,
+                "l": "The Ruby Sea",
+                "s": 400
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68458",
+            "obj": {
+                "i": 68458,
+                "n": "A New Fishing Ex-spear-ience",
+                "g": 108,
+                "l": "The Ruby Sea",
+                "s": 104,
+                "f": 1
+            }
+        }
+    ]
+}

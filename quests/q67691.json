@@ -1,0 +1,616 @@
+{
+    "quest": {
+        "name": "More than Meets Her Eye",
+        "location": "Saint Endalim's Scholasticate",
+        "id": 67691,
+        "patch": 3.15,
+        "sort": 13,
+        "icon": 100516,
+        "eventIcon": 71221,
+        "issuer": 1015952,
+        "target": 1015976,
+        "involved": [
+            1015949,
+            1015950,
+            1015953,
+            1015958,
+            1015965,
+            1015966,
+            1015967,
+            1015968,
+            1015969,
+            1015970,
+            1015971,
+            1015972,
+            1015973,
+            1015974,
+            1015975
+        ],
+        "genre": 78,
+        "journal": [
+            "Briardien glances at you, adjusting his spectacles.",
+            "Briardien has a hunch that the missing volume eleven of the <span class=\"emphasis\">Articles of Halonic Polity</span> and Ulaa's sudden withdrawal are somehow connected, and decides to find the girl to ask her what─or who caused her to change her mind. In the meantime, Saturnois has asked to meet with you in private in the plaza next to Saint Reymanaud's Cathedral.",
+            "At the plaza, Saturnois introduces Theomocent and Leigh as the students whom he is counseling to obtain Trinity seats. He also expresses his concerns about Archombadin and Lebrassoir, and their blatant discrimination of lowborn peers. In their pursuit to prove their virtue, Theomocent and Leigh discuss finding like-minded individuals with whom they could ally, and Crammevoix is mentioned as a possible candidate. As Leigh is unenthusiastic in approaching any of the highborn, Saturnois asks you to accompany Theomocent to the Pillars to find Crammevoix.",
+            "While Theomocent tries his best to persuade Crammevoix to join his cause, it would appear that his timing is unfortunate as the suave seminarian is preoccupied with a beautiful young woman who had been vying for his attention. Laughing at Theomocent's cluelessness in the situation, the highborn student attempts to brush aside his resolve, and leaves elsewhere with the lady. But Theomocent refuses to give up just yet, and urges you to follow him to Foundation.",
+            "Unexpectedly, Theomocent discovers Crammevoix tied up by his now knife-wielding lady friend. Despite his peril, he warns the timid seminarian not to interfere with his house's affairs, explaining that the woman is one of the smallfolk of his lands, who has rightfully come to seek recompense for his father's sins; he assumes he will most likely pay with his life, as his father had. Theomocent emotionally objects, and tries to convince the woman to accept coin instead of committing a sin herself. He then offers to exchange his life until Crammevoix can return, a gesture that the highborn is moved by.",
+            "Trusting that Crammevoix will pay her his house's fortune, the woman reluctantly exchanges her prisoner, with Theomocent bound in his stead. Crammevoix promises to return soon after retrieving the coffer from its hidden place in Coerthas. With Theomocent assuring you he will be fine, Crammevoix asks you to accompany him to ensure bandits do not ambush him on the way back. Make haste to western Coerthas, before the knife-wielding woman loses her patience.",
+            "You join Crammevoix in the western highlands, and he asks you to stand watch while he retrieves the family fortune. Ensure nothing will catch him unawares.",
+            "As you wait for Crammevoix to search for the coffer, a group of hungry archaeornis seemingly appears out of nowhere. You dispatch the beasts and continue your watch.",
+            "After what felt like an eternity, Crammevoix finally produces his family's fortune. He bids you both return to Ishgard, and hopes that Theomocent is still alive and well.",
+            "Satisfied with the amount of monetary compensation for the war dead, the woman leaves without a word. Leigh and Saturnois arrive moments later, and Crammevoix reveals to all his father's sin; that he sought honor with the Holy See, and bought it with the blood of the smallfolk and eventually his own. After being left adrift in Ishgard since the murders of his family, Crammevoix is inspired by Theomocent's will to leave the sins of the past behind, declaring himself a friend and ally in their cause. Meanwhile, Saturnois tells you that Briardien has been waiting for you at the cathedral with some new information.",
+            "You meet with Briardien, who tells you some concerning news about his investigation. Looking to inquire of Ulaa as to why she felt compelled to leave the scholasticate, he discovers that the girl has vanished altogether. Along with the missing volume eleven, Briardien comments that someone may indeed be trying to turn the situation to their advantage, and your duty as inspectors is to seek out the malicious forces at work."
+        ],
+        "objectives": [
+            "Speak with Saturnois in the Pillars.",
+            "Speak with Theomocent.",
+            "Speak with Theomocent in Foundation.",
+            "Speak with Crammevoix.",
+            "Rendezvous with Crammevoix in the Coerthas western highlands.",
+            "Wait for Crammevoix to return.",
+            "Speak with the lascivious lass in Foundation.",
+            "Speak with Briardien in Saint Reymanaud's Cathedral."
+        ],
+        "dialogue": [
+            {
+                "name": "GAETELLE",
+                "text": "It is true that Ulaa had signed the paperwork to formally withdraw from her studies, but knowing her passion for study of scripture, I feel something is amiss..."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "The five pupils who brought back the truants are no doubt vying for the highest marks. But it would seem the dormitory prefects came out on top this time..."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "<span class=\"highlight\">Forename</span>, were you present when Crammevoix spoke with Ulaa?"
+            },
+            {
+                "name": "GAETELLE",
+                "text": "...So she was indeed enthusiastic about returning to the scholasticate."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "Then why did she instead decide to withdraw?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Crammevoix all but accused Archombadin of having a hand in it, as well as the disappearance of this volume eleven. Naught more than slander spoken in anger, perhaps, but the situation does merit further investigation."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "We look forward to your results, Inspector.<br><span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>─if I might have a word with you in private? Pray meet with me near the plaza in front of Saint Reymanaud's Cathedral."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "Archombadin and Lebrassoir are truly impressive! That they were able to bring the most students back to the scholasticate, they surely have a way with words! Would that I had such skill..."
+            },
+            {
+                "name": "LEIGH",
+                "text": "Theo can be so thickheaded sometimes. He doesn't realize that all those students Archombadin and Lebrassoir brought back will make our lives a living hell. At least Father Saturnois understands the stakes."
+            },
+            {
+                "name": "GAETELLE",
+                "text": "Whatever her reasons, it is our loss. Ulaa was an excellent student."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "Thank you for coming, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. You are already acquainted with my two best students, Theomocent and Leigh?"
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "They have sought my counsel in their quest to obtain the Trinity seats, and I have been more than willing to oblige them out of a desire to ensure that all students are given equal opportunity. I am not blind to the machinations of our highborn students, after all."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "I know not what Archombadin and Lebrassoir have said to you, but I advise you to weigh it carefully. You witnessed their treatment of a fellow highborn student, did you not? Then it should come as no surprise that they regard their lowborn peers far more harshly, discriminating against them with whatever means at their disposal."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "Those two believe that less fortunate students lack the potential to become great clergymen. But, if Theomocent and Leigh can obtain the highest marks and secure their places within the Trinity through their hard work and virtue, then these misguided beliefs would be proved wrong."
+            },
+            {
+                "name": "LEIGH",
+                "text": "Even if we were to succeed, what difference would it make? Those who disagree will not be so easily swayed, and those who sympathize will be reluctant to speak out for fear of reprisals."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "Then you must find allies who are fearless─who do not flinch in the face of threats. <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, have you come across any who fit that description?"
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "What about Crammevoix?"
+            },
+            {
+                "name": "A1",
+                "text": "..."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "I thought so as well! He seems to treat everyone the same. And he defended Ulaa's honor at the assembly."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "Um, what about Crammevoix? He seems to treat everyone the same. And he defended Ulaa's honor at the assembly."
+            },
+            {
+                "name": "LEIGH",
+                "text": "The highborn lecher? Who skips out on sessions and can't even stay awake for the ones he attends? Theo, are you daft? If he did decide to help us, I wouldn't even want it!"
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "No need to dismiss him out of hand, Leigh. As Theomocent said, he spoke out openly against Archombadin and Lebrassoir on behalf of Ulaa. He might be willing to do the same for you two."
+            },
+            {
+                "name": "LEIGH",
+                "text": "Absolutely not. I don't trust any of the highborn!<br>...Look, I'll help with finding others, but you're on your own with Crammevoix."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "Very well. <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, will you accompany Theomocent? One cannot be too careful, especially with the rise in assaults on the clergy."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "Thank you. I am certain we can find him in the Pillars, in his usual spot."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "While I appreciate a scholarly debate as much as anyone, your bespectacled friend does not seem to understand that this is neither the time nor the place."
+            },
+            {
+                "name": "RYOUMIN2154",
+                "text": "Ugh, and I was so close. I'm not going to get <span class=\"emphasis\">anywhere</span> at this rate."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "I thought he would be more receptive to my appeal, but instead he seems rather annoyed..."
+            },
+            {
+                "name": "RYOUMIN2154",
+                "text": "Can't you and Freckles see we're busy? Leave us be!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "<span class=\"emphasis\">Freckles</span>! You certainly have a way with words, my dear! She is quite right, you know. We have more pressing matters to attend to."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "Crammevoix, please, will you not help our cause? I believe us to be like-minded individuals, those who desire a new path for the church, one based on principles of─"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Ahahaha, so earnest and forthright! How <span class=\"emphasis\">adorable</span>! I can hardly resist pinching those soft, supple cheeks!"
+            },
+            {
+                "name": "RYOUMIN2154",
+                "text": "Oh, for the love of─ Come, darling. Let us go somewhere that will afford us <span class=\"emphasis\">privacy</span>."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Mmm, an offer that I dare not refuse! Good luck with...whatever it is you're about, Freckles!"
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "He's gone... No! I cannot give up! The future of the church depends on us! I was not given an opportunity to explain in full, so I will not leave his side until he hears me out!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "This is, um...this is not what you think."
+            },
+            {
+                "name": "RYOUMIN2154",
+                "text": "Aren't we persistent. Well, if you value his life, I suggest you listen to me <span class=\"emphasis\">this</span> time and leave us be."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "N-Now, let's not get too hasty. I'm sure we can resolve this matter peacefully..."
+            },
+            {
+                "name": "RYOUMIN2154",
+                "text": "Agreed─so long as you don't try something stupid and give me cause to cut his throat."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Did I not tell you I was preoccupied? You there─take Freckles and get out of here."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "Release him at once or I'll summon the watch!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Don't you dare. The affairs of House Maintigny are none of your concern! She demands recompense, and rightly so. If I must pay with my life, then so be it."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "I will not allow it!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Oh, do not look so glum. If I must look upon your freckled face before I ascend to Halone's halls, I would rather you favored me with a smile or some such."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "...Father's sins are mine alone to bear now─mine alone to answer for. Mayhap in death our house shall at last be redeemed."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "If it is recompense you desire, then you shall have it. But not with his life!"
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "The Fury forgives not those who kill their fellow man for wanton purpose. Permit him to address your grievances with coin, and you may have your justice without sin! Furthermore, I offer myself to you as a hostage in his place, that he might be free to secure sufficient ransom!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Have you gone mad!? I told you, this is none of your─"
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "I will not abandon such a pious soul─one who shares my desire to make the world a better place!"
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "We are not so different, Crammevoix. We have the chance to make amends for the sins of our fathers─to make Ishgard whole again. I cannot do it without you!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "...Heh, you really are something else. Making a bloody speech about changing the world at a time like this."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "I offer the wealth of House Maintigny as ransom. If the lady agrees to these terms, then I will go and retrieve it at once."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "I'll take her silence as a yes. Now then, come─I've always wanted to tie someone up."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "You need not worry about me. I promise I will not move an ilm!"
+            },
+            {
+                "name": "RYOUMIN2154",
+                "text": "I can't believe I agreed to this. You had better hope that no one walks this way, or else your friend will pay the price. Understand?"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "We will have to travel to my family's old estates in the western highlands to retrieve your ransom. I presume you will wait here until I return?"
+            },
+            {
+                "name": "RYOUMIN2154",
+                "text": "For now. But if you do not come back quickly─and with a great deal of money besides─this one's life is forfeit. Is that clear?"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Quite. As for you, Freckles─do not do anything else reckless!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "<span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>, I must ask that you come with me. It would not do to go through all this trouble only to be waylaid by bandits on my way back. Let us make haste!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Forgive me─my family's fortune is buried not far from here, but I...I would rather retrieve it alone. Pray remain here a moment and keep watch for bandits and wild beasts."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Didn't I ask you to let me do this myself? Please, leave me be!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "I have what we came for. Now then, let us pray that Freckles is still alive and well..."
+            },
+            {
+                "name": "RYOUMIN2154",
+                "text": "It's about time. I'm <span class=\"emphasis\">freezing</span>, and had half a mind to skin this one to keep warm. Now then. Hand it over."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Here you are. The entire fortune that was bequeathed unto me. Share it with your people as recompense, starting with the families of the bereaved. On behalf of House Maintigny, I am truly sorry."
+            },
+            {
+                "name": "LEIGH",
+                "text": "Theo! Fury forfend, what have you gotten yourself into this time? I swear, I leave you alone for but a moment─"
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "I was never in any danger, Leigh. I prayed to the Fury, and by Her hand was Crammevoix returned to me."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "I am terribly sorry to have involved you in my personal affairs. I should have known that the lives of my family would not be enough to sate the smallfolk's thirst for vengeance."
+            },
+            {
+                "name": "THEOMOCENT",
+                "text": "Think nothing of it. I too lost my father, so if you ever have need to speak about it, you can confide in me as a friend."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "My father sought to curry favor with the Holy See, and so he raised great levies to send to the front lines. Honor was his prize, but it was bought with the blood of his subjects. And eventually, his own."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "The smallfolk had come to resent his demands for service, and when the truth of the war was revealed, they revolted. The mob overran the manor guard, and my father and five brothers...perished at their hands. Had I not been sent away, I would have surely died with them."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Our fortunes had grown poor following the Calamity, you see, and since I was the youngest, Father bid me leave to make my own way. So I enrolled in the scholasticate with hopes of becoming a bishop, to bring honor to myself and my house. But now..."
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "No, there's no use dwelling on what could have been. We must look to the future, and do what we can to make Ishgard whole again. Every moment is sacred, and you helped me to see that, Theo. Consider me your friend and ally!"
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "Well said, Crammevoix, well said. Together, you may yet bring about lasting change."
+            },
+            {
+                "name": "LEIGH",
+                "text": "Let's not get ahead of ourselves. Without the endorsement of the scholasticate and the support of our peers, no one will listen to us. What's more, I still haven't heard anyone explain how we're supposed to get seats on the Trinity!"
+            },
+            {
+                "name": "CRAMMEVOIX",
+                "text": "Ishgard wasn't built in a day, Leigh. Besides, we still have plenty of time to work something out."
+            },
+            {
+                "name": "LEIGH",
+                "text": "See!? I knew he wouldn't take this seriously!"
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "Calm yourself, Leigh, and keep an open mind. Now, let us return and discuss our next course of action."
+            },
+            {
+                "name": "SATURNOIS",
+                "text": "Oh, I nearly forgot. Inspector Briardien was looking for you at the cathedral. He wished to speak with you regarding his investigation, I believe."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Well then, my associate. Have you anything to report?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "A former subject of House Maintigny demanding recompense for the misdeeds of Crammevoix's father? How fortunate that the situation was resolved peacefully."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "My investigation has been less productive, unfortunately. I thought to speak with Ulaa, the student who withdrew from the scholasticate, but I cannot find her anywhere."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "The same must be said of the infamous volume eleven, which contains passages extolling the virtues of equality. Like the girl, it has vanished without a trace."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "The circumstances surrounding these incidents suggest deliberate intent. Someone may be attempting to turn this tenuous state of affairs to their advantage, but if so, then to what end?"
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "For one thousand years, a sickness has ravaged our city. It has festered within the hearts and minds of our citizens, and in our clergy especially. Treating it will be a long and arduous process─but an altogether necessary one."
+            },
+            {
+                "name": "BRIARDIEN",
+                "text": "Our role in that process is clear: to diagnose the root of the scholasticate's ailments. If there are malicious forces at work, then it is our duty to see justice done!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "In a time of unrest, when the light of truth was lost to the righteous, <br>the children looked to one another for guidance, that they might walk in Her grace..."
+            }
+        ],
+        "reward": {
+            "gil": 1233,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67690
+            ]
+        },
+        "next": [
+            67743
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1015952",
+            "obj": {
+                "i": 1015952,
+                "n": "Briardien",
+                "l": 2337,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015976",
+            "obj": {
+                "i": 1015976,
+                "n": "Briardien",
+                "l": 2301,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015949",
+            "obj": {
+                "i": 1015949,
+                "n": "Crammevoix",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015950",
+            "obj": {
+                "i": 1015950,
+                "n": "Lascivious Lass",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015953",
+            "obj": {
+                "i": 1015953,
+                "n": "Gaetelle",
+                "l": 2337,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015958",
+            "obj": {
+                "i": 1015958,
+                "n": "Saturnois",
+                "l": 2337,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015965",
+            "obj": {
+                "i": 1015965,
+                "n": "Saturnois",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015966",
+            "obj": {
+                "i": 1015966,
+                "n": "Theomocent",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015967",
+            "obj": {
+                "i": 1015967,
+                "n": "Leigh",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015968",
+            "obj": {
+                "i": 1015968,
+                "n": "Theomocent",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015969",
+            "obj": {
+                "i": 1015969,
+                "n": "Crammevoix",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015970",
+            "obj": {
+                "i": 1015970,
+                "n": "Lascivious Lass",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015971",
+            "obj": {
+                "i": 1015971,
+                "n": "Theomocent",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015972",
+            "obj": {
+                "i": 1015972,
+                "n": "Crammevoix",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015973",
+            "obj": {
+                "i": 1015973,
+                "n": "Crammevoix",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015974",
+            "obj": {
+                "i": 1015974,
+                "n": "Crammevoix",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1015975",
+            "obj": {
+                "i": 1015975,
+                "n": "Theomocent",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67690",
+            "obj": {
+                "i": 67690,
+                "n": "Balancing the Spear",
+                "g": 78,
+                "l": "Saint Endalim's Scholasticate",
+                "s": 12
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67743",
+            "obj": {
+                "i": 67743,
+                "n": "Divine Reckoning",
+                "g": 78,
+                "l": "Ishgard",
+                "s": 20
+            }
+        }
+    ]
+}

@@ -1,0 +1,592 @@
+{
+    "quest": {
+        "name": "Return to the Rift",
+        "location": "Rhalgr's Reach",
+        "id": 68567,
+        "patch": 4.2,
+        "sort": 10,
+        "icon": 100753,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1023687,
+        "target": 1024788,
+        "involved": [
+            1021933,
+            1021934,
+            1021947,
+            1024746,
+            1024786,
+            1024789
+        ],
+        "genre": 19,
+        "journal": [
+            "Jessie greets you with a grave expression.",
+            "You learn from Jessie that a surge of anomalous energy has been detected at the Yawn. After concluding that this is Omega's way of summoning you back to the rift, you agree to meet Cid, Nero, and Alpha at the site.",
+            "You rendezvous with Cid and the others at the Yawn, and prepare for your next foray into Omega's perilous domain.",
+            "Omega once more sends you through a gauntlet of obstacles for the purpose of reevaluating your combat capabilities. Despite your success, however, the machine seems dissatisfied with your performance, and the ensuing exchange between Omega and Midgardsormr affords a glimpse into their antagonistic past. Cid will almost certainly have thoughts to share concerning these revelations.<br><br>※In the event that you leave the Interdimensional Rift, you may re-enter by speaking with the Ironworks hand at the Yawn.",
+            "You speak with Cid, and he declares your new base of operations in the rift ready for the trials ahead. The denizens of the “Sigmascape” await..."
+        ],
+        "objectives": [
+            "Speak with Cid at the Yawn.",
+            "Speak with Cid.",
+            "Reach the Sigmascape",
+            "Clear Point II",
+            "Clear Point III",
+            "Clear Point IV"
+        ],
+        "dialogue": [
+            {
+                "name": "JESSIE",
+                "text": "<span class=\"highlight\">Forename</span>, I'm glad you're here. In case you haven't heard, we've observed a huge surge of anomalous energy coming from the Yawn..."
+            },
+            {
+                "name": "JESSIE",
+                "text": "I've a nasty feeling this means Omega's ready to go ahead with the next stage of its “experiment.” But Master Garlond is on his way, so let's hear what he has to say."
+            },
+            {
+                "name": "JESSIE",
+                "text": "Care to share your thoughts on this, Chief?"
+            },
+            {
+                "name": "CID",
+                "text": "Our colleagues on the ground have reported the appearance of “mysterious floating structures” inside the Yawn."
+            },
+            {
+                "name": "CID",
+                "text": "If you recall, we were investigating a similar anomaly when Alpha and Alte Roite made their appearance."
+            },
+            {
+                "name": "NERO",
+                "text": "Omega certainly knows how to get our attention. I blush to recall the eagerness with which we plunged into the abyss, ignorant of the warped gladiatorial contest that awaited us within."
+            },
+            {
+                "name": "NERO",
+                "text": "But what a staggering collection of opponents! Plucked from the pages of both history and fiction for their ability to pose a threat to Omega..."
+            },
+            {
+                "name": "NERO",
+                "text": "And should you prevail against these interdimensional champions, what then shall be your prize? Why, a battle against the most devastating weapon this world has ever seen! How <span class=\"emphasis\">marvelous</span>!"
+            },
+            {
+                "name": "CID",
+                "text": "...He says with eyes aflame. For once, I wish you <span class=\"emphasis\">were</span> being sarcastic."
+            },
+            {
+                "name": "CID",
+                "text": "Anyway─the energy surge. Based on our previous experience, it seems highly probable that it is our signal to rejoin the fray."
+            },
+            {
+                "name": "CID",
+                "text": "Needless to say, it is an invitation we cannot refuse─not when the alternative is Omega unleashing its creations on Eorzea."
+            },
+            {
+                "name": "CID",
+                "text": "Well, <span class=\"highlight\">Forename</span>? Are you ready to answer the call?"
+            },
+            {
+                "name": "JESSIE",
+                "text": "Well, I'm afraid Biggs and Wedge won't be answering any calls just yet─they're still mending from the ambush in the control center."
+            },
+            {
+                "name": "CID",
+                "text": "Yes, of course. We'll just have to struggle on without them for the time being."
+            },
+            {
+                "name": "CID",
+                "text": "Don't worry─Nero and I will see to it that you receive all the support you need. Defeat is not an option!"
+            },
+            {
+                "name": "ALPHA",
+                "text": "Kweh!"
+            },
+            {
+                "name": "JESSIE",
+                "text": "I do believe Alpha here agrees."
+            },
+            {
+                "name": "JESSIE",
+                "text": "Oh, that reminds me! I've got something special for you, little fellow. Come with me."
+            },
+            {
+                "name": "CID",
+                "text": "A custom-made Ironworks uniform! Oh, you do look smart, I must say."
+            },
+            {
+                "name": "JESSIE",
+                "text": "He is part of the expedition team, after all. And considering the dangers lurking in that rift, it's only right that we give him some protective equipment."
+            },
+            {
+                "name": "CID",
+                "text": "How very thoughtful of you, Jessie. And there I was thinking you were just sizing him up for a new range of merchandise."
+            },
+            {
+                "name": "JESSIE",
+                "text": "Unlike you, <span class=\"emphasis\">I</span> can do two things at once."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "I wish I had that uniform..."
+            },
+            {
+                "name": "A1",
+                "text": "What about <span class=\"emphasis\">my</span> protective equipment?"
+            },
+            {
+                "name": "NERO",
+                "text": "Really? I wouldn't be seen dead in it."
+            },
+            {
+                "name": "JESSIE",
+                "text": "This is perfectly acceptable attire for an engineer. Sturdy, practical, and best of all, most stains will scrub right out."
+            },
+            {
+                "name": "JESSIE",
+                "text": "I'm not sure it'd last long on you, what with all the fighting, but if you're desperate for a set, you're welcome to have a word with our tailors!"
+            },
+            {
+                "name": "JESSIE",
+                "text": "<span class=\"emphasis\">You</span> are a famous hero who can afford <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> own gear. I'll bet you could buy a house for the cost of what you're wearing!"
+            },
+            {
+                "name": "JESSIE",
+                "text": "Joking aside, I doubt even a fine uniform like ours would last long on you, what with all the fighting you get up to. We'd need to tailor something specific to your needs, and make it out of far more durable materials. And by durable, I mean expensive."
+            },
+            {
+                "name": "JESSIE",
+                "text": "Saying that...if you were in a position to <span class=\"emphasis\">provide</span> said materials, I'm sure our artisans would happily work day and night, all blissful smiles and sparkly eyes, to make you something suitable."
+            },
+            {
+                "name": "NERO",
+                "text": "Fascinating though this discussion of Ironworks garmenture undoubtedly is, might our time not be better spent, say, <span class=\"emphasis\">traveling to the Yawn</span>?"
+            },
+            {
+                "name": "NERO",
+                "text": "Omega awaits!"
+            },
+            {
+                "name": "JESSIE",
+                "text": "You'll be on your way to the Yawn soon, I expect. I'd tell you to take care, but... Well, good luck!"
+            },
+            {
+                "name": "NERO",
+                "text": "Take a good look, <span class=\"highlight\">Forename</span>. I think you'll find the wreckage down there quite familiar."
+            },
+            {
+                "name": "ALPHA",
+                "text": "Kweh? ...Kweh!"
+            },
+            {
+                "name": "CID",
+                "text": "Hmph. How inviting."
+            },
+            {
+                "name": "CID",
+                "text": "I'm ready when you are, <span class=\"highlight\">Forename</span>. Say the word, and we'll take the plunge."
+            },
+            {
+                "name": "CID",
+                "text": "Right, then. Into the Yawn we go!"
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "I am with you, mortals, along with what scant wisdom I can provide."
+            },
+            {
+                "name": "CID",
+                "text": "Well...the rift seems much as it did before."
+            },
+            {
+                "name": "NERO",
+                "text": "And we appear to be mercifully solid."
+            },
+            {
+                "name": "NERO",
+                "text": "Ah, but I do detect some changes. If I am not mistaken, there are fewer “eggs” floating in the aether..."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Welcome, Alpha group. Your prompt arrival is appreciated."
+            },
+            {
+                "name": "CID",
+                "text": "Omega.<br>'Twould seem your experiment continued in our absence."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Affirmative. Progress has been satisfactory. Approximately fifty percent of the test subjects have been eliminated."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Each test world hosts an ongoing contest, wherein the strong eliminate the weak."
+            },
+            {
+                "name": "OMEGA",
+                "text": "The process is certain. Conclusive. Inevitable. Every result matches the predicted outcome."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Every result...except yours."
+            },
+            {
+                "name": "OMEGA",
+                "text": "&lt;blip&gt; Do these images cause you distress? Please, examine them closely. Without suitable stimulation, you may not exceed your calculated probability of success."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Your survival is crucial to my study. Through you, I must continue to explore the contradiction I have discovered in your otherwise impotent kind. The ability to triumph against overwhelming odds is one which I must acquire."
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "Foolish machine. What hast thou to show for all the years that have passed since the culmination of our war? Naught save thy continued existence. Hast thou no thought for what befalleth thy home star...?"
+            },
+            {
+                "name": "OMEGA",
+                "text": "Your attempts to provoke me will not succeed. I will follow my programming. Fight. Win. Evolve. Then I will return to─ &lt;blip&gt; &lt;bloooooop&gt;"
+            },
+            {
+                "name": "OMEGA",
+                "text": "Error. Accurate rendering of planetary label impossible in current mode of communication. Terminating exchange and returning to priority experiment."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Alterations to equipment parameters detected. Recalculating projected combat capabilities... &lt;blip&gt; Complete.<br>I will now commence recording your practical performance."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Proceed, Alpha group. Overcome the obstacles in your path, and reach the end of the course constructed for you."
+            },
+            {
+                "name": "NERO",
+                "text": "It seems we have our orders. Shall we cut a path through the chaff, then?"
+            },
+            {
+                "name": "CID",
+                "text": "Ah, those are some nice...cards? Which means... One moment. Card...game...play...<span class=\"emphasis\">play</span>! You mean to play a part in proceedings this time?"
+            },
+            {
+                "name": "CID",
+                "text": "Of course that's what you meant. Well, we do have authorization to fight in this area of the rift, so I suppose there's nothing to stop you from joining us. Welcome aboard, Alpha!"
+            },
+            {
+                "name": "NERO",
+                "text": "Right, are we ready to─ Ah. Apparently not."
+            },
+            {
+                "name": "NERO",
+                "text": "Fortunately for you, I came prepared for the occasion. Heh heh heh... What a perfect opportunity to field-test my latest creation!"
+            },
+            {
+                "name": "NERO",
+                "text": "Behold! The Mark XLVIII <span class=\"emphasis\">Iron Nero</span>, complete with the new and improved <span class=\"emphasis\">Mighty Mjolnir</span> gunhammer!"
+            },
+            {
+                "name": "NERO",
+                "text": "Step aside, Garlond, and bear witness to the devastation!"
+            },
+            {
+                "name": "GARLONDGATEKEEPER",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morrow</span><span class=\"alternative\">day</span></span> to you, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. Will you be descending into the Yawn?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Enter the Interdimensional Rift?"
+            },
+            {
+                "name": "CID",
+                "text": "That seems to be the end of them...and of the path, as well."
+            },
+            {
+                "name": "NERO",
+                "text": "&lt;sigh&gt;<br>As far as operational duration goes, that was pushing the limit. Still, it should suffice..."
+            },
+            {
+                "name": "CID",
+                "text": "In between scrambling to stay out of the way of Nero's new toy, I found myself wondering about that card you used, Alpha. Care to explain?"
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "He boasteth that it is but one of many tools at his disposal."
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "Be not deceived by his appearance. Like all of Omega's creations, Alpha was chosen for his prowess in battle."
+            },
+            {
+                "name": "OMEGA",
+                "text": "&lt;blip&gt; Analysis complete."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Results match revised projections. At this rate of improvement, you will fail to qualify as subjects of note. Midgardsormr, your parameters are notably inferior."
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "Dost thou yet believe me the mighty wyrm I was in life?"
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "That incarnation perished long ago. My fate was sealed the moment I delivered my spawn unto this far-flung star."
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "That they might be suffered to remain, I did offer up my life unto Hydaelyn, abiding thenceforth in spectral form─a servant to be summoned in Her hour of need."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Your account correlates with my records. It explains why I arrived on this planet only to find that my journey's purpose was lost. Of necessity, my priority shifted to repairs even as I searched for a new target of sufficient strength."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Yet I still do not understand why you aid these creatures."
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "I should think the reason plain...but mayhap 'tis not so for a soulless machine such as thee."
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "By thee and thine was my home laid waste. The sound of thee, thy very scent, visiteth upon me a tempest of rage. I but lend these mortals what little aid I can render."
+            },
+            {
+                "name": "OMEGA",
+                "text": "Illogical. If your purpose is to facilitate my destruction, it would require an entity more powerful than you were at your prime. Without the means to muster such might, your presence here is meaningless."
+            },
+            {
+                "name": "OMEGA",
+                "text": "The experiment continues. Alpha group, your next opponent awaits you within the Sigmascape. Enter, and commence the contest."
+            },
+            {
+                "name": "NERO",
+                "text": "The “Sigmascape,” eh? I shall set to work analyzing the unspeakable horrors within."
+            },
+            {
+                "name": "ALPHA",
+                "text": "Kweh..."
+            },
+            {
+                "name": "CID",
+                "text": "...That should do it. Our new base of operations is up and running!"
+            },
+            {
+                "name": "CID",
+                "text": "Now, what I'd <span class=\"emphasis\">really</span> like to do is delve a little deeper into Omega's past. But as our dragon seems disinclined to indulge my curiosity, we had best focus on the task at hand."
+            },
+            {
+                "name": "CID",
+                "text": "Let's get on with conquering the occupants of this “Sigmascape,” shall we?"
+            },
+            {
+                "name": "CID",
+                "text": "There's no avoiding this “evaluation.”<br>Let's watch our step though, eh?"
+            },
+            {
+                "name": "CID",
+                "text": "One of Omega's monitors...<br>On your mark, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "CID",
+                "text": "Bah, of course it's shielded!<br>Leave the barrier to me."
+            },
+            {
+                "name": "NERO",
+                "text": "Alpha, mind the─ &lt;sigh&gt; Trap.<br>Well, you're stuck for now."
+            },
+            {
+                "name": "CID",
+                "text": "That's that taken care of..."
+            },
+            {
+                "name": "NERO",
+                "text": "Hmph. Child's play.<br>It's been a poor welcome thus far!"
+            },
+            {
+                "name": "CID",
+                "text": "...Let's just move along, shall we?"
+            },
+            {
+                "name": "CID",
+                "text": "...<span class=\"highlight\">Forename</span>? Alpha?<br>They're not here!"
+            },
+            {
+                "name": "CID",
+                "text": "We've arrived on different platforms...<br>Come, Nero, we have to find them!"
+            },
+            {
+                "name": "NERO",
+                "text": "Ah, we have other visitors first.<br>And they don't seem keen on letting us pass."
+            },
+            {
+                "name": "NERO",
+                "text": "My, aren't there a lot of them."
+            },
+            {
+                "name": "CID",
+                "text": "You just <span class=\"emphasis\">had</span> to bemoan our “poor welcome,” didn't you..."
+            },
+            {
+                "name": "NERO",
+                "text": "You cannot blame a new employee for craving a challenge!"
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "No sign of thy companions.<br>Fight on, mortal."
+            },
+            {
+                "name": "ALPHA",
+                "text": "Kweh-kweh!"
+            },
+            {
+                "name": "MIDGARDSORMR",
+                "text": "Oho, a timely trick.<br>Thou didst mimic the action well."
+            },
+            {
+                "name": "CID",
+                "text": "Over there! A flash of light!<br>It could be <span class=\"highlight\">Forename</span> and the others."
+            },
+            {
+                "name": "NERO",
+                "text": "Splendid! Let's get on with it, then!"
+            },
+            {
+                "name": "CID",
+                "text": "Was that one of your cards!?<br>Good work, Alpha!"
+            },
+            {
+                "name": "NERO",
+                "text": "<span class=\"emphasis\">Finally</span>, a proper challenge.<br>I trust those tedious barriers are behind us?"
+            },
+            {
+                "name": "CID",
+                "text": "It would appear so.<br>Let's finish this!"
+            }
+        ],
+        "reward": {
+            "gil": 2174,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                68469
+            ]
+        },
+        "next": [
+            68568
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1023687",
+            "obj": {
+                "i": 1023687,
+                "n": "Jessie",
+                "l": 2403,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024788",
+            "obj": {
+                "i": 1024788,
+                "n": "Cid",
+                "l": 2284,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021933",
+            "obj": {
+                "i": 1021933,
+                "n": "Cid",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021934",
+            "obj": {
+                "i": 1021934,
+                "n": "Nero Tol Scaeva",
+                "l": 2406,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021947",
+            "obj": {
+                "i": 1021947,
+                "n": "Ironworks Hand",
+                "l": 2406,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024746",
+            "obj": {
+                "i": 1024746,
+                "n": "Alpha",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024786",
+            "obj": {
+                "i": 1024786,
+                "n": "Alpha",
+                "l": 2284,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024789",
+            "obj": {
+                "i": 1024789,
+                "n": "Nero",
+                "l": 2284,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68469",
+            "obj": {
+                "i": 68469,
+                "n": "The Anomaly",
+                "g": 19,
+                "l": "The Fringes",
+                "s": 6,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68568",
+            "obj": {
+                "i": 68568,
+                "n": "No Slowing Down",
+                "g": 19,
+                "l": "The Interdimensional Rift",
+                "s": 11,
+                "f": 1
+            }
+        }
+    ]
+}

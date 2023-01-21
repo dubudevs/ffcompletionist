@@ -1,0 +1,182 @@
+{
+    "quest": {
+        "name": "Doing the Dirty Work",
+        "location": "Central Shroud",
+        "id": 66343,
+        "patch": 2.0,
+        "sort": 290,
+        "eventIcon": 71221,
+        "issuer": 1006261,
+        "target": 1006261,
+        "genre": 92,
+        "journal": [
+            "Marcette would keep your nose to the grindstone.",
+            "Marcette requires a freshly extracted stroper stomach for her latest experiment. Use the medicine she has provided you with to neutralize its foul breath, then slay the creature and extract its innards.",
+            "You have obtained the putrid stomach of a stroper. Deliver the foul mess to Marcette before you pass out from the unbearable stench.",
+            "Never have you seen anyone so happy to receive a putrid pile of innards. Marcette is once again tremendously pleased with herself, and─from the fact that she remembered your number─might even genuinely appreciate your efforts this time."
+        ],
+        "objectives": [
+            "Use Marcette's medicine and kill a halitostroper.",
+            "Deliver the stomach to Marcette."
+        ],
+        "dialogue": [
+            {
+                "name": "MARCETTE",
+                "text": "Research Assistant Eight Hundred Seventy-three! You're late!"
+            },
+            {
+                "name": "MARCETTE",
+                "text": "I am conducting an experiment of the utmost importance to determine the source of the distinctive stink of a stroper's breath, and require one freshly extracted stroper stomach."
+            },
+            {
+                "name": "MARCETTE",
+                "text": "The stench is said to be strong enough to knock out a man, so I shall provide you with a bottle of Marcette's Breath-Be-Gone. I know not what you've been eating lately, but you may want to take a dose of it yourself."
+            },
+            {
+                "name": "MARCETTE",
+                "text": "Oh, and do try not to get killed, will you? Funeral rites for incompetent assistants are eating away an inordinate share of my research budget these days."
+            },
+            {
+                "name": "DUMMY",
+                "text": "//: kill stroper, get stroper stomach"
+            },
+            {
+                "name": "MARCETTE",
+                "text": "Assistant Whatever-your-number-was! I haven't all week! You'd best have the stroper stomach I requested, or I do believe I shall use your own innards as a substitute!"
+            },
+            {
+                "name": "MARCETTE",
+                "text": "Yes, yes─just hand it over, will you? And the dissection reveals..."
+            },
+            {
+                "name": "MARCETTE",
+                "text": "...Exactly as I surmised! With the proliferation of poisonous toadstools in the years since the Calamity, the stroper's diet has undergone a dramatic change. The reaction of the toadstools with the stroper's stomach acids results in the noxious gases emitted from the mouth of the foul beast!"
+            },
+            {
+                "name": "MARCETTE",
+                "text": "And with that groundbreaking discovery, I believe I owe my prodigious mind a well-deserved respite. You, on the other hand, Research Assistant Six, have earned nothing of the sort! Get out there and hone your skills, that you might actually make yourself half-useful the next time I call upon you."
+            },
+            {
+                "name": "POP",
+                "text": "A repulsive stench turns your stomach!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 4450,
+                    "one": 1
+                },
+                {
+                    "id": 4444,
+                    "one": 1
+                },
+                {
+                    "id": 4452,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 7220
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 29,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66341
+            ]
+        },
+        "next": [
+            67021
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006261",
+            "obj": {
+                "i": 1006261,
+                "n": "Marcette",
+                "l": 54,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "4450",
+            "obj": {
+                "i": 4450,
+                "n": "Fluorite Ring",
+                "l": 29,
+                "c": 54412,
+                "t": 43,
+                "p": 1735
+            }
+        },
+        {
+            "type": "item",
+            "id": "4444",
+            "obj": {
+                "i": 4444,
+                "n": "Danburite Ring",
+                "l": 29,
+                "c": 54411,
+                "t": 43,
+                "p": 1735
+            }
+        },
+        {
+            "type": "item",
+            "id": "4452",
+            "obj": {
+                "i": 4452,
+                "n": "Lapis Lazuli Ring",
+                "l": 29,
+                "c": 54408,
+                "t": 43,
+                "p": 1735
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66341",
+            "obj": {
+                "i": 66341,
+                "n": "Shocking Discoveries",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 290
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67021",
+            "obj": {
+                "i": 67021,
+                "n": "Thwack-a-Mole",
+                "g": 77,
+                "l": "Limsa Lominsa",
+                "s": 8
+            }
+        }
+    ]
+}

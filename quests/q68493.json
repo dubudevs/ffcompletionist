@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "These Fireworks Won't Light Themselves",
+        "location": "Eastern La Noscea",
+        "id": 68493,
+        "patch": 4.05,
+        "sort": 139,
+        "repeatable": 1,
+        "icon": 100723,
+        "eventIcon": 71222,
+        "issuer": 1023789,
+        "target": 1023789,
+        "genre": 201,
+        "journal": [
+            "P'obyano requires an adventurer to aid in the fireworks festivities of the Moonfire Faire.<br>※This quest is available for a limited time only.",
+            "P'obyano asks that you help light fireworks for the Moonfire Faire. Use the summer firework at three firework mortars located in the vicinity of the Isle of Endless Summer.<br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "You used the summer firework on the firework mortars. Report back to P'obyano on the Isle of Endless Summer.",
+            "You took word of your deeds back to P'obyano. Speak to her again if you wish to help further with the Moonfire Faire fireworks."
+        ],
+        "objectives": [
+            "Use the summer firework on a firework mortar.",
+            "Report back to P'obyano."
+        ],
+        "dialogue": [
+            {
+                "name": "POBYANO",
+                "text": "Back for more, are you? I'll not turn away an offer to help. Would you see fit to light some more fireworks for us?"
+            },
+            {
+                "name": "POBYANO",
+                "text": "Just in case you'd forgotten how it is done─you need only throw a summer firework into a firework mortar near where the faire-goers are gathered."
+            },
+            {
+                "name": "POBYANO",
+                "text": "There is no need for you to speak to Jiriri any further. But this time, I ask that you light fireworks in three locations rather than just the one. Don't overheat out there!"
+            },
+            {
+                "name": "POBYANO",
+                "text": "You simply cannot get enough of these fireworks, can you, <span class=\"highlight\">Forename</span>? Very well, you'll hear no complaints from me."
+            },
+            {
+                "name": "POBYANO",
+                "text": "The task is the same as before. Light the fireworks by throwing a summer firework into a firework mortar near where our faire-goers are gathered. I will keep an eye to the skies."
+            },
+            {
+                "name": "POBYANO",
+                "text": "Remember now─you must throw the summer fireworks into three firework mortars. The faire-goers await. Hurry along, now!"
+            },
+            {
+                "name": "POBYANO",
+                "text": "Yet another job well done. Thank you, <span class=\"highlight\">Forename</span>. If you care to help further, you know where to find me. Until then, have a merry Moonfire Faire!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 20304
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 30,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                68492
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1023789",
+            "obj": {
+                "i": 1023789,
+                "n": "P'obyano",
+                "l": 32,
+                "q": 2,
+                "t": "Moonfire Faire Chaperone"
+            }
+        },
+        {
+            "type": "item",
+            "id": "20304",
+            "obj": {
+                "i": 20304,
+                "n": "Faire Voucher XVII",
+                "l": 1,
+                "c": 25918,
+                "t": 85
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68492",
+            "obj": {
+                "i": 68492,
+                "n": "The Isle and the Faire",
+                "g": 201,
+                "l": "Limsa Lominsa",
+                "s": 138
+            }
+        }
+    ]
+}

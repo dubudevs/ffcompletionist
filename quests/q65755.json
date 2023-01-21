@@ -1,0 +1,136 @@
+{
+    "quest": {
+        "name": "My First Bow",
+        "location": "Gridania",
+        "id": 65755,
+        "patch": 2.0,
+        "sort": 12,
+        "icon": 100048,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000200,
+        "target": 1000200,
+        "genre": 131,
+        "journal": [
+            "Luciane wishes to gauge your aptitude for archery.",
+            "Luciane wishes to test your fitness to join the Archers' Guild. Take yourself outside the city and slay three squirrels, three ladybugs, and three funguars.",
+            "You have succeeded in slaying the specified creatures. Report back to Luciane at the Archers' Guild.",
+            "Having successfully completed the trial, Luciane names you a member of the Archers' Guild. She encourages you to practice proper technique, loosing arrow after arrow until the movement becomes second nature.<br><br>※The next archer quest will be available from Luciane upon reaching level 5."
+        ],
+        "objectives": [
+            "Slay ground squirrels as an archer.",
+            "Slay little ladybugs as an archer.",
+            "Slay forest funguars as an archer.",
+            "Report to Luciane at the Archers' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "LUCIANE",
+                "text": "Ah, yes. The bow becomes you, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Now, before proceeding any further, I must needs gauge your innate aptitude for archery. To this end, I hereby assign you the following trial..."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Slay the squirrels, ladybugs, and funguars that roam just beyond the city gates─three of each should suffice."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "In so doing, you will prove your fitness to join the Archers' Guild."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "It goes without saying that you must do so using your bow. Report back to me when the task is accomplished."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Go now, <span class=\"highlight\">Forename</span>, and earn your place within these halls."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. It would seem you have successfully completed the trial."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "You have proven yourself worthy of a place within these halls. It is with pleasure that I name you an archer of the guild."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "As fellows of the path, let us together strive for greater mastery of our art."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "Now, though you may be a member of the Archers' Guild, know that your seniors will not coddle you with personal attention. It is up to you to seek out the experiences you need to grow as an archer."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "By way of a first step, I encourage you to practice proper technique. Loose arrow after arrow, paying close attention to form, until the movement becomes second nature."
+            },
+            {
+                "name": "LUCIANE",
+                "text": "When drawing your bowstring has become as natural to you as drawing breath, and the world seems clearer when viewed down the shaft of an arrow, return to me. Go well, my young apprentice."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next archer quest will be available from Luciane upon reaching level 5."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "xp": 100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 6
+                }
+            ],
+            "quests": [
+                65667
+            ]
+        },
+        "next": [
+            65582
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000200",
+            "obj": {
+                "i": 1000200,
+                "n": "Luciane",
+                "l": 52,
+                "q": 13,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65667",
+            "obj": {
+                "i": 65667,
+                "n": "Way of the Archer",
+                "g": 131,
+                "l": "Gridania",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65582",
+            "obj": {
+                "i": 65582,
+                "n": "A Matter of Perspective",
+                "g": 131,
+                "l": "Gridania",
+                "s": 50,
+                "f": 1
+            }
+        }
+    ]
+}

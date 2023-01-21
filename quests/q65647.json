@@ -1,0 +1,200 @@
+{
+    "quest": {
+        "name": "Making a Name",
+        "location": "Limsa Lominsa",
+        "id": 65647,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1002698,
+        "target": 1003604,
+        "involved": [
+            1000969,
+            1000981,
+            1002433
+        ],
+        "genre": 91,
+        "journal": [
+            "Niniya, a veteran adventurer, has some information that might be of interest to you.",
+            "According to Niniya, a number of plants usually found only on black market shelves are scattered about the first floor of the Mizzenmast. Speak with Skaenrael to travel below.",
+            "You have arrived in Bulwark Hall, on the first floor of the Mizzenmast. Collect the peculiar herbs scattered across the ground.",
+            "You have gathered all the peculiar herbs. Take them to Ahldskyf at the Octant, and have him examine the plants.",
+            "The peculiar herbs have been revealed to be Althyk lavender, a plant well known by the inhabitants of Limsa Lominsa. Though it appears Niniya was having a laugh at your expense, you have nevertheless made the acquaintance of Ahldskyf, the captain of the <span class=\"emphasis\">Orion</span>. Such an encounter may prove mutually beneficial..."
+        ],
+        "objectives": [
+            "Speak with Skaenrael.",
+            "Gather the peculiar herbs.",
+            "Deliver the peculiar herbs to Ahldskyf."
+        ],
+        "dialogue": [
+            {
+                "name": "NINIYA",
+                "text": "Well, would you look at this─a shiny, new adventurer. Listen close, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">lad</span></span>, I've some information that might just help put you on the map here in Limsa."
+            },
+            {
+                "name": "NINIYA",
+                "text": "I was passing through Bulwark Hall below not long ago, and saw a bunch of herbs just scattered about on the ground. Now, I'm not entirely certain, but I think they might've been the black market wares known as “dream flowers.”"
+            },
+            {
+                "name": "NINIYA",
+                "text": "Limsa Lominsa is a busy port, and not all the merchants that blow in across the Strait are above board, if you know what I mean. How'd the plants end up in the Mizzenmast? Who knows─might've been a deal gone bad. The important thing is you make a name for yourself by handing them in."
+            },
+            {
+                "name": "NINIYA",
+                "text": "Speak to Skaenrael, and she'll get you down to the first floor. Then all you have to do is pick up the herbs, and take them to Ahldskyf at the Octant. Being a worldly captain, he knows a thing or two about such shady goods."
+            },
+            {
+                "name": "SKAENRAEL",
+                "text": "You wish to visit Bulwark Hall below? The Crow's Lift is ready when you are."
+            },
+            {
+                "name": "Q1",
+                "text": "Take the Crow's Lift?"
+            },
+            {
+                "name": "A1",
+                "text": "Yes"
+            },
+            {
+                "name": "A1",
+                "text": "No"
+            },
+            {
+                "name": "SKAENRAEL",
+                "text": "If you mean to make Limsa Lominsa your home, then I'd suggest you take the lift down to the lower decks and attune yourself to the aetheryte."
+            },
+            {
+                "name": "SKAENRAEL",
+                "text": "Hm? You forget to do something? Well, it never hurts to take a moment and think about where you're going."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To leave the Drowning Wench, you must accept the quest “Close to Home” by speaking with Baderon."
+            },
+            {
+                "name": "AHLDSKYF",
+                "text": "Yes, I am Ahldskyf. You have some herbs you wish me to examine?"
+            },
+            {
+                "name": "AHLDSKYF",
+                "text": "...Yes. As you suspected, these are the highly illegal blooms known as dream flowers. They are the prime ingredient in the creation of “somnus”─a substance whose fragrance is said to lull the sniffer's mind into the sleep of death."
+            },
+            {
+                "name": "AHLDSKYF",
+                "text": "...Forgive me, I could not resist the jest! These herbs are naught more than Althyk lavender, a common enough export from Limsa Lominsa. In fact, these probably spilled from crates that were loaded onto my very own ship."
+            },
+            {
+                "name": "AHLDSKYF",
+                "text": "I think someone has been having a bit of fun with you, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">son</span></span>. But not to worry! You've learned a few things, and made a new acquaintance. Well met!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 10,
+                    "id": 5
+                },
+                {
+                    "num": 2,
+                    "id": 4551
+                }
+            ],
+            "xp": 50
+        },
+        "reqs": {
+            "quests": [
+                65643
+            ]
+        },
+        "next": [
+            65648
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002698",
+            "obj": {
+                "i": 1002698,
+                "n": "Niniya",
+                "l": 28,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003604",
+            "obj": {
+                "i": 1003604,
+                "n": "Ahldskyf",
+                "l": 29,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000969",
+            "obj": {
+                "i": 1000969,
+                "n": "Skaenrael",
+                "l": 28,
+                "q": 1,
+                "t": "Lift Attendant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000981",
+            "obj": {
+                "i": 1000981,
+                "n": "Niniya",
+                "l": 28,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002433",
+            "obj": {
+                "i": 1002433,
+                "n": "N'delika",
+                "l": 29,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65643",
+            "obj": {
+                "i": 65643,
+                "n": "Coming to Limsa Lominsa",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65648",
+            "obj": {
+                "i": 65648,
+                "n": "Suspiciously Sober",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 10
+            }
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "quest": {
+        "name": "Righting the Shipwright",
+        "location": "Lower La Noscea",
+        "id": 65951,
+        "patch": 2.0,
+        "sort": 59,
+        "eventIcon": 71201,
+        "issuer": 1002274,
+        "target": 1002238,
+        "involved": [
+            1002456
+        ],
+        "genre": 1,
+        "journal": [
+            "Haldbroda has a suggestion for the kind adventurer who came bearing foreman Ahtbyrm's message.",
+            "According to Haldbroda, there still may be survivors from the recent accident washed up on the Salt Strand. One of them may even be the missing shipwright, Fyrilsmyd.",
+            "As if by some miracle, you find Fyrilsmyd alive and well on the Salt Strand. The shipwrecked shipwright, however, reveals to you that he cannot return to the Moraby Drydocks without first collecting the three pieces of cargo he was originally sent to collect─the cargo that is now guarded by deadly Qiqirn beachcombers.",
+            "You have salvaged all three missing pieces of cargo. Deliver them to Fyrilsmyd right away.",
+            "Fyrilsmyd thanks you for locating the cargo, and asks of you one last favor before running off once again─return to Ahtbyrm at the Moraby Drydocks, and tell the foreman what has become of his shipwright.",
+            "Ahtbyrm seems pleased that both cargo and wright were discovered no worse for wear. Contrary to what Fyrilsmyd reports, the foreman does not believe that the storm which caused the ships to sink was natural, but in fact created by the Sahagin."
+        ],
+        "objectives": [
+            "Search the Salt Strand for survivors.",
+            "Salvage the <span class=\"emphasis\">Victory</span>'s helm wheel.",
+            "Salvage the <span class=\"emphasis\">Victory</span>'s rigging.",
+            "Salvage the <span class=\"emphasis\">Victory</span>'s sailcloth.",
+            "Take the three items to Fyrilsmyd.",
+            "Report to Ahtbyrm."
+        ],
+        "dialogue": [
+            {
+                "name": "HALDBRODA",
+                "text": "Now, the way I see it, if you have time to be standing here questioning my character, then you most certainly have the time to get that arse of yours down to the Salt Strand and help us search for survivors of the wreck."
+            },
+            {
+                "name": "HALDBRODA",
+                "text": "Who knows? You may just run across this Fyrilsmyd everyone seems so eager to find. Here's to hoping the Navigator hasn't found him first."
+            },
+            {
+                "name": "FYRILSMYD",
+                "text": "Aye, I'm Fyrilsmyd. Ye say the foreman's wonderin' on me whereabouts? I thought he might be. But ye must know, I cannot show me face at the Drydocks until I've righted the terrible wrong I caused."
+            },
+            {
+                "name": "FYRILSMYD",
+                "text": "Two nights past, I made the trip from the Drydocks to Candlekeep Quay, just as the foreman asked. The seas were right rough, and the cap'n of the cargo ship was wary of bringin' her too close to the cliffs, so I paid a few coins to a fisher to take me out to meet her."
+            },
+            {
+                "name": "FYRILSMYD",
+                "text": "By the time we was halfway 'twixt shore and ship, the swells had risen to nigh on ten yalms, and 'twasn't long afore the waves had hold of us. Try as we might to steady the boat, nature's grip was too tight, and we was flung headlong into the Lominsan galley."
+            },
+            {
+                "name": "FYRILSMYD",
+                "text": "When I awoke, both ships were gone, and the cargo I was to collect lay strewn across the Salt Strand. I's made every effort to salvage it, but the sands are crawlin' with Qiqirn, and I ain't a one with a sword. And now ye see why it is I cannot return to the Drydocks..."
+            },
+            {
+                "name": "AHTBYRM",
+                "text": "I am relieved to hear that both Fyrilsmyd and the supplies are unharmed, though it was foolish for him to believe that I would blame him for that which was obviously out of his hands."
+            },
+            {
+                "name": "AHTBYRM",
+                "text": "You see, there was no storm that day, and the seas here adjacent the Drydocks were as calm as a slumbering child. This leads me to believe that the trouble the ships encountered off Candlekeep Quay was of a less natural sort─the sort which the Sahagin have been known to conjure."
+            },
+            {
+                "name": "FYRILSMYD",
+                "text": "That night, I was tossed into the sea like some doll of rags, and it weren't long afore the world 'round me faded to black as I slipped deeper into the abyss. But lo, the Navigator wouldn't see me to the gates of the seven hells, and I woke to find meself washed ashore. And here I's been, ever since, waitin' for a chance to salvage me master's cargo."
+            },
+            {
+                "name": "FYRILSMYD",
+                "text": "The missin' parts! I-I don't know how I can repay you!"
+            },
+            {
+                "name": "FYRILSMYD",
+                "text": "I'll deliver the supplies right away...but first I must stop by the Quay so that I might pay me respects to the widow of the brave fisher who gave his life fer a handful o' coin."
+            },
+            {
+                "name": "FYRILSMYD",
+                "text": "Could ye tell Ahtbyrm that I'll be back at the Drydocks by <span class=\"alternative-container\"><span class=\"alternative\">daybreak</span><span class=\"alternative\">nightfall</span></span>? Many thanks, adventurer! I will not forget this kindness!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You are discovered by a Qiqirn!"
+            }
+        ],
+        "reward": {
+            "gil": 234,
+            "xp": 5250
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65948
+            ]
+        },
+        "next": [
+            65949
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002274",
+            "obj": {
+                "i": 1002274,
+                "n": "Haldbroda",
+                "l": 31,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002238",
+            "obj": {
+                "i": 1002238,
+                "n": "Ahtbyrm",
+                "l": 31,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002456",
+            "obj": {
+                "i": 1002456,
+                "n": "Fyrilsmyd",
+                "l": 31,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65948",
+            "obj": {
+                "i": 65948,
+                "n": "Without a Doubt",
+                "g": 1,
+                "l": "Lower La Noscea",
+                "s": 58
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65949",
+            "obj": {
+                "i": 65949,
+                "n": "Do Angry Pirates Dream",
+                "g": 1,
+                "l": "Lower La Noscea",
+                "s": 66
+            }
+        }
+    ]
+}

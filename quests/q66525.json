@@ -1,0 +1,103 @@
+{
+    "quest": {
+        "name": "Dirt and Ashes",
+        "location": "Mor Dhona",
+        "id": 66525,
+        "patch": 2.0,
+        "sort": 450,
+        "eventIcon": 71221,
+        "issuer": 1006544,
+        "target": 1006544,
+        "genre": 95,
+        "journal": [
+            "Word is that Guolgeim seeks an extra pair of hands.",
+            "Guolgeim bids you salvage whatever usable provisions still remain at a ruined camp nearby. Open the crates with a sledgehammer and collect the boxes of abandoned supplies.",
+            "The area yields three boxes of supplies, none the worse for wear even after five years. Perhaps Guolgeim will tell you more when you deliver the haul.",
+            "After taking hold of the supplies, Guolgeim reveals to you her reluctance to visit the ruined Camp Revenant's Toll. It does one no good to pick through the detritus of a place that was dear to the heart..."
+        ],
+        "objectives": [
+            "Open the crates with a sledgehammer.",
+            "Give the boxes of supplies to Guolgeim."
+        ],
+        "dialogue": [
+            {
+                "name": "GUOLGEIM",
+                "text": "There's a ruined camp to the west of here. You know the place?"
+            },
+            {
+                "name": "GUOLGEIM",
+                "text": "What I do is recover what I can from the site and bring it back here. The gil's good and the work is plentiful, but...I'm feeling a bit done in, to tell the truth."
+            },
+            {
+                "name": "GUOLGEIM",
+                "text": "I could use a little help, if you're looking for some honest work. Use this sledgehammer to break the locks on the crates, and bring back a few of the boxes inside─say, three."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You obtain a box of abandoned supplies."
+            },
+            {
+                "name": "GUOLGEIM",
+                "text": "You find the crates? Good, good. Let's have what you found inside."
+            },
+            {
+                "name": "GUOLGEIM",
+                "text": "I ought to be ashamed of myself for hiring another to do my own job, but...there's no cozening myself─it makes me heartsore to go there. The Calamity made it thus."
+            },
+            {
+                "name": "GUOLGEIM",
+                "text": "In case you didn't already know, that was Camp Revenant's Toll, a hub for 'venturers. Many a merry day and night I've spent there. 'Twas my abode at the crossroads."
+            },
+            {
+                "name": "GUOLGEIM",
+                "text": "Never paid much mind to the name of these parts until the Calamity, but...Revenant's Toll. Not exactly a lucky sort of name."
+            },
+            {
+                "name": "GUOLGEIM",
+                "text": "I wish to the Twelve that they had changed it to something else when they built this new camp."
+            },
+            {
+                "name": "GUOLGEIM",
+                "text": "It wearies me, is all...going there and sorting through the mess. Sometimes, I come across something I know well, and I... &lt;sigh&gt; It weighs on my heart."
+            }
+        ],
+        "reward": {
+            "gil": 1782,
+            "xp": 12420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 45,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66534
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006544",
+            "obj": {
+                "i": 1006544,
+                "n": "Guolgeim",
+                "l": 67,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66534",
+            "obj": {
+                "i": 66534,
+                "n": "The Organ of Choice",
+                "g": 95,
+                "l": "Mor Dhona",
+                "s": 450
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "quest": {
+        "name": "Compulsory Catering",
+        "location": "Western Thanalan",
+        "id": 65871,
+        "patch": 2.0,
+        "sort": 69,
+        "eventIcon": 71201,
+        "target": 1002071,
+        "genre": 0,
+        "journal": [
+            "Merilda needs help preparing a meal for unscrupulous guests.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Merilda in Crescent Cove.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "With little difficulty, you obtain the necessary ingredients. Deliver them to Merilda before the bandits grow impatient.",
+            "A relieved Merilda thanks you for your help, explaining that the Brass Blades of Vesper Bay and Horizon care little for the plight of the small fishing village. Some Brass Blades are even said to cooperate with the bandits..."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Merilda in Crescent Cove.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "MERILDA",
+                "text": "Pardon me, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. I know this is sudden, but I have no one else to turn to."
+            },
+            {
+                "name": "MERILDA",
+                "text": "Our village has long been a haven for...unscrupulous characters. One such band has taken over our tavern."
+            },
+            {
+                "name": "MERILDA",
+                "text": "They demand that we serve them buzzard thighs, thickshell legs, and scaphite slices─none of which we have in our larders. Could you procure these ingredients for me, adventurer? I have not the skill to harvest them from the creatures."
+            },
+            {
+                "name": "MERILDA",
+                "text": "Have you the ingredients? If we fail to satisfy the bandits, they will take their displeasure out on us."
+            },
+            {
+                "name": "MERILDA",
+                "text": "Bless you, adventurer, bless you! We may yet pass this <span class=\"alternative-container\"><span class=\"alternative\">eve</span><span class=\"alternative\">day</span></span> without incident."
+            },
+            {
+                "name": "MERILDA",
+                "text": "Though I know not what terrors tomorrow may bring. These outlaws do whatever they please, and we have not the strength to stand up to them."
+            },
+            {
+                "name": "MERILDA",
+                "text": "The Brass Blades of Horizon and Vesper Bay see no profit in protecting a poor village like ours. Most of them pretend we do not even exist."
+            },
+            {
+                "name": "MERILDA",
+                "text": "Worst of all are those in league with the bandits..."
+            }
+        ],
+        "reward": {
+            "xp": 6160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65870
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002071",
+            "obj": {
+                "i": 1002071,
+                "n": "Merilda",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65870",
+            "obj": {
+                "i": 65870,
+                "n": "Storms on the Horizon",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 68
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "Basic Training",
+        "location": "Azys Lla",
+        "id": 67515,
+        "patch": 3.0,
+        "sort": 5901,
+        "eventIcon": 71221,
+        "issuer": 1012145,
+        "target": 1012145,
+        "genre": 102,
+        "journal": [
+            "The Allagan training node is silently awaiting user interaction.",
+            "Mistaking you for an Allagan soldier, the training node instructs you to locate and defeat five snapper-rooks as part of standard daily Allagan military training.",
+            "You have destroyed the snapper-rooks as instructed. Notify the training node that you have completed the assigned task.",
+            "The training node explains to you the importance of the task it set you, but the message is so distorted by static that you fail to discern what it is trying to tell you."
+        ],
+        "objectives": [
+            "Slay snapper-rooks.",
+            "Report to the training node."
+        ],
+        "dialogue": [
+            {
+                "name": "TRAININGSYSTEM",
+                "text": "Greetings, loyal soldiers of the Allagan Empire. Today's training regimen starts now."
+            },
+            {
+                "name": "TRAININGSYSTEM",
+                "text": "Your task is to locate and destroy <span class=\"emphasis\">FIVE SNAPPER-ROOKS</span>. Please ensure that all targets are rendered completely dead and/or inoperable. Good hunting, soldiers."
+            },
+            {
+                "name": "TRAININGSYSTEM",
+                "text": "Locate and destroy <span class=\"emphasis\">FIVE SNAPPER-ROOKS</span>. Please ensure that all targets are rendered completely dead and/or inoperable."
+            },
+            {
+                "name": "TRAININGSYSTEM",
+                "text": "Congratulations. You have successfully...&lt;buzzzzzz&gt;...today's training exercise."
+            },
+            {
+                "name": "TRAININGSYSTEM",
+                "text": "Today's training is intended to teach the importance of...&lt;buzzzzzz&gt;...when dealing...&lt;buzzzzzz&gt;...situations. We hope this knowledge serves you well in your service of the Allagan Empire."
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67200
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012145",
+            "obj": {
+                "i": 1012145,
+                "n": "Training Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67200",
+            "obj": {
+                "i": 67200,
+                "n": "Systematic Exploration",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 89
+            }
+        }
+    ]
+}

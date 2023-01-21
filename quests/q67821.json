@@ -1,0 +1,859 @@
+{
+    "quest": {
+        "name": "The Weeping City",
+        "location": "The Sea of Clouds",
+        "id": 67821,
+        "patch": 3.3,
+        "sort": 3,
+        "icon": 112162,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1016130,
+        "target": 1017158,
+        "involved": [
+            1017141,
+            1017142,
+            1017143,
+            1017144,
+            1017145,
+            1017146,
+            1017149,
+            1017150,
+            1017152,
+            1017153,
+            1017154,
+            1017155,
+            1017156,
+            1017157,
+            1017159,
+            1017163,
+            1017165
+        ],
+        "genre": 18,
+        "journal": [
+            "Stacia appears to be in need of your assistance.",
+            "Stacia explains that Diabolos and his minions have been spotted amongst the clouds, but Leofard and Cait Sith are unable to agree on the best way to conduct a search for the voidsent's elusive lair. She requests that you visit the sky pirates' aerial roost, and add your perspective to the debate. Use the Redbill standard to travel to the Parrock, and seek out Stacia.",
+            "You have arrived safely at the Parrock. Enter Leofard's private quarters and speak with the Redbill captain.",
+            "Although his argument with Cait Sith is hardly concluded, Leofard refuses to discuss the matter any further. The captain seems ready to dismiss you as well, then suddenly remembers a problem plaguing Utata with which you may be able to assist. Make your way to the Gauntlet, and see what can be done to aid the troubled engineer.",
+            "You find Utata almost sobbing over the apparent failure of her newly built ectocompass. After hearing the painstaking process behind its construction, however, Cait Sith theorizes that the issue lies not with the device, but with the location of the energy the device is tracking. Almost coinciding with her realization that she now holds a reliable method for hunting down Diabolos, Utata receives an urgent call from Stacia. It seems that a number of Talon airships are on an approach course to the Parrock. Return to the Redbills' roost, and speak with Leofard.",
+            "You arrive back at the Parrock to find a pair of weary and disheveled Talons with a woeful tale to tell. It seems that Radlia and her crew were directed by the stolen ectocompass to the ruins of Mhach, where they were ambushed by nightmarish voidsent. The Talons then beg Leofard to rescue Radlia from the fiends, a request to which he agrees after learning of the existence of a powerful artifact hidden within the remnants of the city. Join the Redbill captain back in his private quarters, and help decide your next move.",
+            "According to Cait Sith, the Nullstone─an artifact capable of obliterating even the most powerful voidsent─was left behind to sink with the doomed city of Mhach. With the ruins now exposed, however, the feline familiar reasons that it will only be a matter of time before Diabolos and his minions break through the wards protecting the relic. Lured by the prospect of loot and adventure, Leofard lays down a plan to rescue Radlia and snatch the artifact from under the fiends' noses. Head out to the Parrock airship landing and speak with the Redbill captain when you are ready to fly.",
+            "Though it took the promise of treasure to persuade him, Leofard has agreed to attempt the rescue of Captain Radlia from the clutches of the voidsent. While he and his crew search for the lost Talons, you have been tasked with carving a path through to the heart of the Mhachi ruins. You must retrieve the Nullstone before Diabolos, or risk forfeiting a potent weapon in the battle against your demonic foe.<br><br>※The Weeping City of Mhach can be accessed via the Duty Finder.",
+            "You have survived your foray into the heart of the Weeping City. Make your way back to the Parrock.",
+            "In the highest chambers of the Mhachi ruins, you defeat an immortal guardian of questionable sanity to release the precious Nullstone. Just as Cait Sith claims the artifact, however, the voidsent Ferdiad appears. The cackling fiend taunts you with a captive Radlia, and threatens to harm the Talon captain if you do not surrender the relic. While Leofard distracts the voidsent by feigning disinterest in Radlia's well-being, Cait Sith moves into position to smite Ferdiad with the Nullstone. The scorched voidsent flees with promises of vengeance, and you exit the ruins with both Radlia and the Mhachi artifact in your possession. Speak with Leofard on the Parrock airship landing, and celebrate the success of your mission.",
+            "Leofard praises you for your heroic contribution, but seems unimpressed by the potency of the Nullstone. Cait Sith explains that he has yet to learn how to unleash the relic's full potential, and points to Radlia's rescue as proof of the Nullstone's usefulness even at a fraction of its true power. Surprisingly, Leofard agrees with the feline's assessment, and even compliments Cait Sith for taking advantage of his bluff. It seems that shared danger has softened the captain's attitude towards the Mhachi familiar..."
+        ],
+        "objectives": [
+            "Speak with Stacia at the Parrock.",
+            "Speak with Leofard in his chambers.",
+            "Speak with Utata on the Gauntlet.",
+            "Speak with Leofard at the Parrock.",
+            "Speak with Leofard in his chambers.",
+            "Speak with Leofard at the airship landing.",
+            "Enter the Weeping City of Mhach.",
+            "Speak with Leofard."
+        ],
+        "dialogue": [
+            {
+                "name": "STACIA",
+                "text": "<span class=\"highlight\">Forename</span>! I was just about to fly out to Ishgard and track you down."
+            },
+            {
+                "name": "STACIA",
+                "text": "You remember Cait Sith, that Mhachi familiar? We've been workin' with him on a plan to find Diabolos and the Queen's Coffin."
+            },
+            {
+                "name": "STACIA",
+                "text": "There've been voidsent sightin's from pirates all over, so we know that bat-winged bugger is hidin' someplace in the sky─we just don't know exactly <span class=\"emphasis\">where</span>."
+            },
+            {
+                "name": "STACIA",
+                "text": "And as for goin' about pinpointin' the location, Leofard and the feline are bickerin' over just exactly <span class=\"emphasis\">how</span>..."
+            },
+            {
+                "name": "STACIA",
+                "text": "That's where you come in. If you've a spare moment or two, we could use a third opinion to break the stalemate."
+            },
+            {
+                "name": "STACIA",
+                "text": "Besides all that, Leofard's eager to have another hand to help in the search, so come on over to the Parrock as soon as you're able. You know the way from here, don't you?"
+            },
+            {
+                "name": "STACIA",
+                "text": "Come on over to the Parrock when you've a spare moment. I'm tired of hearin' those two arguin', and that's the gods' honest truth..."
+            },
+            {
+                "name": "STACIA",
+                "text": "Thanks for comin'. The captain and the cat are inside, still havin' their “discussion.” Talk to Leofard, will you, before I strangle the both of them."
+            },
+            {
+                "name": "STACIA",
+                "text": "Like squabblin' children, the pair of them. Help Leofard settle this, would you?"
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Ah, <span class=\"highlight\">Forename</span>! A rational mind such as yours is most welcome! Pray reason with this wind-addled brigand!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "If you're here to ask about the Queen's Coffin then you'd best turn around and walk straight out again. This aggravatin' furball's turned my mood sour as month-old aldgoat milk."
+            },
+            {
+                "name": "STACIA",
+                "text": "Leofard! <span class=\"highlight\">Forename</span>'s come all this way to help us─at <span class=\"emphasis\">your</span> request, I might add! <span class=\"alternative-container\"><span class=\"alternative\">She</span><span class=\"alternative\">He</span></span> deserves to hear where we stand on the search, at least!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...The “search” is givin' me ulcers, is what it is. By all reports, Diabolos is lurkin' somewhere in the heavens, buildin' up his forces. But the sky is a vast dome, as high as the ocean is deep, and we've not the pirates to scour every damn floatin' rock."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "That's when I tried my luck with Radlia. You remember her, don't you? Captain of the Talons? Blonde hair? One eye? Stole our bloody compass?"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Well I've been eavesdroppin' with that linkpearl I slipped into the casin', hopin' to catch somethin' useful. But all I've heard from her and her sorry crew is snorin', grumblin', and japes about the archbishop's holy nethers."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "In the end, it seems we've no choice but to do this the hard way...but a certain mewlin' annoyance refuses to acknowledge the truth of it."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "You cannot possibly hope to investigate the entire sky with this meager handful of ne'er-do-wells! I find my suggestion to seek aid from your fellow pirate gangs a perfectly reasonable one under the circumstances!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Ah, stow it, you mangy alley cat! You've not the faintest idea of how sky pirates operate! Best case scenario, we'd be locked into a deal to hand over any treasure we find─and that's assumin' we weren't laughed out of the room to begin with!"
+            },
+            {
+                "name": "CAITSITH",
+                "text": "You cannot assume that every man and woman shares your base morality! If we but made the attempt, I am sure we could convince some few of the nobility of our cause!"
+            },
+            {
+                "name": "STACIA",
+                "text": "And so it goes, 'round and 'round...<br>Knowin' pirates as I do, I find myself sidin' with the captain on this. But what of you, <span class=\"highlight\">Forename</span>? Any thoughts on the matter?"
+            },
+            {
+                "name": "Q2",
+                "text": "What are your thoughts on the matter?"
+            },
+            {
+                "name": "A2",
+                "text": "We should handle this ourselves."
+            },
+            {
+                "name": "A2",
+                "text": "We should seek aid from other crews."
+            },
+            {
+                "name": "A2",
+                "text": "(Keep your silence.)"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "See there!? Even <span class=\"highlight\">Forename</span> agrees with me. We proceed as we have been, and try to cover as much sky as possible."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "What!? You're sidin' with the furball!? I would've thought you'd learned a thing or two about sky pirates by now..."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Hmph. Seems that even the great Warrior of Light has no simple solutions for this problem."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...However we tackle things, though, we've a long road ahead of us. I'll see if I can't think up a better way to shorten it."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "You might as well head back to your adventures, <span class=\"highlight\">Forename</span>...unless you're willin' to lend us your experience in another matter, that is."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Utata, our chief engineer, has been mumblin' about the Void Ark and cursin' under her breath for days. Might be as you can provide some insight into her dilemma."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "She is conducting her research in the Sea of Clouds, yes? Well, I should rather discuss the properties of the Void Ark than continue with this fruitless debate! I shall see you down there, <span class=\"highlight\">Forename</span>!"
+            },
+            {
+                "name": "STACIA",
+                "text": "Leofard is right in not trustin' aught to our fellow pirates, but we could spend years trawlin' through the clouds. There has to be some other way..."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Head into the Sea of Clouds and see what's botherin' Utata. Might be as you can shed some light on her problem."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "While waiting for word on Diabolos, I have been spending my time learning to pilot the Redbills' little airships. Thankfully, it seems I've mastered enough of the basics to manage this little jaunt."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Hmmm, mayhap I could make contact with some other pirates without Leofard's mediation...<br>Ah, but let us first address Mistress Utata's woes, shall we?"
+            },
+            {
+                "name": "CAITSITH",
+                "text": "What troubles you, Mistress Utata? We were told that some matter regarding the Void Ark was causing you no small measure of grief..."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Mistress Utata! What are you─ Oof! Urk!"
+            },
+            {
+                "name": "UTATA",
+                "text": "Ah, I feel so much better now!"
+            },
+            {
+                "name": "UTATA",
+                "text": "My apologies, Cait Sith. You had the misfortune to enter my field of view just as I felt the intense desire to squeeze something warm and furry."
+            },
+            {
+                "name": "UTATA",
+                "text": "It's this damnable ectocompass...<br>I made another one, you see, identical in all respects to the first compass that Radlia stole."
+            },
+            {
+                "name": "UTATA",
+                "text": "But look! It points in a completely different direction to where the Void Ark should currently be! I don't understand what I did wrong! I used the same plans, the same parts..."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "I can imagine that would be infuriating. And you are certain there are no flaws in the design or the materials?"
+            },
+            {
+                "name": "UTATA",
+                "text": "Positive. I've tweaked and adjusted and replaced every single piece, but it refuses to function as intended. I'm on the verge of tossing the blasted thing over the edge! What do you make of this, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "Q3",
+                "text": "What do you make of it?"
+            },
+            {
+                "name": "A3",
+                "text": "I don't think the compass is broken."
+            },
+            {
+                "name": "A3",
+                "text": "Something may have happened to the Void Ark..."
+            },
+            {
+                "name": "A3",
+                "text": "I haven't the slightest idea."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Yes, I am inclined to agree. Judging by your previous work, it would seem unlikely that the compass itself is defective. We must consider other factors."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Yes, the cause may indeed lie outside the compass itself. We must consider this dilemma from a broader perspective."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Hmmm. If you are unable to detect any defects with the compass, then it is unlikely that <span class=\"highlight\">Forename</span> or I could do so either. Mayhap we should consider this dilemma from a broader perspective."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Might you explain to us the principle by which the ectocompass tracks the Void Ark?"
+            },
+            {
+                "name": "UTATA",
+                "text": "It all comes down to aetheric signature. I discovered that the Void Ark is encompassed by an energy of rather peculiar composition, so I simply tuned the compass to follow its unique trail."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "An energy of peculiar composition, you say..."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Of course! The ark was propelled by the siphoned energies of voidsent! Could it be that the compass was tracking not the vessel itself, but the aether of the entities imprisoned within?"
+            },
+            {
+                "name": "CAITSITH",
+                "text": "That would certainly explain why the compass now points in a different direction than one would expect! After all, Diabolos and the Shadow Queen are no longer on board the ark!"
+            },
+            {
+                "name": "UTATA",
+                "text": "...Are you implying that if we plotted a course based on the readings from the ectocompass, we would arrive on the demon's doorstep...so to speak?"
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Just so, Mistress Utata! Assuming my theory is correct, we no longer require outside assistance to pursue our elusive quarry!"
+            },
+            {
+                "name": "UTATA",
+                "text": "Oh, Stacia! What perfect timing! You won't believe the wonderful discovery we've just─"
+            },
+            {
+                "name": "UTATA",
+                "text": "Talon airships have been spotted en route to our nest! If it's revenge they're looking for, we'd best head back and make ready for them!"
+            },
+            {
+                "name": "STACIA",
+                "text": "I'm glad you're here, <span class=\"highlight\">Forename</span>, but I don't think they're spoilin' for a fight..."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "It would not appear that these pirates have come with murder and pillage in mind. Quite the opposite, in fact...they seem rather bedraggled and beaten."
+            },
+            {
+                "name": "UTATA",
+                "text": "I don't like this, <span class=\"highlight\">Forename</span>. Why have the Talons come here without their captain? Where is Radlia?"
+            },
+            {
+                "name": "SUBORDINATE02204",
+                "text": "We made it, thank the gods..."
+            },
+            {
+                "name": "SUBORDINATE02204",
+                "text": "Truce, Redbill! We need your help to save Captain Radlia!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "You... You're one of Radlia's favorites. You threaten my crew, steal our compass, and now you come crawlin' to me for help? What kind of unholy mess have you cretins stumbled into?"
+            },
+            {
+                "name": "SUBORDINATE02204",
+                "text": "Aye, we took your damn compass, but it didn't show us to the ghost ship. We ended up at some moldy, old ruins, lousy with voidsent..."
+            },
+            {
+                "name": "SUBORDINATE02204",
+                "text": "Before we knew it, some sort of spider demon was knockin' our ships out of the sky. The two of us managed to pull away, but we saw what happened to them as got caught on the ground... If the captain survived the massacre, she's stuck there with no wings to fly out again."
+            },
+            {
+                "name": "STACIA",
+                "text": "Why don't you give that linkpearl a listen, Captain? Might be as we can learn if Radlia is alive or dead, at least."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...Ugh, so much buzzin'. Can't hear a blasted─ Wait. I'm gettin' some words..."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "“They're after...Mhachi artifact. Damn demons are searchin'... Hide!”"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...And then a bunch of screamin'. Seems Radlia's still kickin' for now, but who knows for how long."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "If those screams were an act, then consider me fooled─I don't think the Talons are layin' a trap here."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "I've half a mind to leave Radlia to her fate, but I never turn my back on an adventure! Especially when the scent of treasure is in the air, eh? Now, tell me where you found these ruins!"
+            },
+            {
+                "name": "SUBORDINATE02204",
+                "text": "...You'll help us, then!? You're a good man, Redbill! We left the captain in the Yafaem Saltmoor, just northwest of Mor Dhona."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "In Yafaem, you say!? Then you must speak of the ruined shell of Mhach itself! ...By Shatotto's black heart! Could they be after the Nullstone?"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "What's that, puss? You think you know what those fiends are after?"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Right. Utata, see that these Talons are patched up, then have the <span class=\"emphasis\">Raimille</span> ready to fly. And don't spare the oil─you know I love to hear her purr."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "<span class=\"highlight\">Forename</span>, Stacia. Bring the furball to my quarters, and we'll have ourselves a chat about our impendin' trip to old Mhach!"
+            },
+            {
+                "name": "STACIA",
+                "text": "You know, we've never been friendly with the Talons, but that don't mean we can just sit back and let them be torn to shreds by cacklin' voidsent."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "I never imagined Diabolos would seek to enter the old city. Ah, but I should have suspected as much when I learned that the floodwaters had receded and left Yafaem exposed..."
+            },
+            {
+                "name": "SUBORDINATE02204",
+                "text": "P-Please! You have to rescue the captain!"
+            },
+            {
+                "name": "UTATA",
+                "text": "When Leofard asks me to pay special attention to his airship, that's a sign he's fully committed to his next adventure! He had the same spark right before he left to board the Void Ark."
+            },
+            {
+                "name": "UTATA",
+                "text": "...You're wondering why his ship is named “Raimille”? Hm. I never gave it much thought, but I'd wager it was the name of his first love...or maybe it was a pet!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Right, furball. Let's hear about this artifact that Diabolos is lookin' for."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "...If I am to speak of the Nullstone, then I must first explain the method by which Mhachi sorcerers would bind the voidsent into service."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "The more powerful the voidsent, the more difficult it is to manifest its presence in this world. Their own immense strength weighs them down like an anchor, you see, preventing them from breaking the surface of our dimension."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "And that is why they “cooperate” with mortal sorcerers. A mage can provide a suitable vessel for the summoning, or rip a large enough hole in the fabric of reality for the entity itself to step through."
+            },
+            {
+                "name": "STACIA",
+                "text": "...And let me guess: the mage forces the voidsent to agree to a pact in return for the invitation into our world?"
+            },
+            {
+                "name": "CAITSITH",
+                "text": "That is correct. But it would be foolhardy to expect such devious and malevolent creatures to abide by the spirit of even the most carefully worded contract."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Thus did the Mhachi magi construct an occult device that would more securely bind the voidsent to their will─a safeguard of sorts, that to the best of my knowledge yet lies entombed within the remnants of the ancient city."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "The Nullstone was seen as a last resort! Should a voidsent break its pact and turn on its summoner, the mage could use the relic to disperse the very essence of even the most potent entity, obliterating it completely."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "I can't see the “royals” of the void takin' too kindly to a threat like that. Seems those sorcerers were just as ruthless as the monsters they summoned."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "When it came to the glory of Mhach, the ends justified the means...<br>In any event, we can be certain that Diabolos seeks to secure the Nullstone before it falls into mortal hands, and thereby ensure that Scathach will reign unopposed."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "All right, so we know what the fiends are after. But what I don't understand, is why such a valuable relic was left behind when the mages knew a colossal flood was on the way."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Its value was the very reason they chose not to risk its relocation. The Nullstone is kept within a structure constructed for the purpose, secured behind powerful wards and protected by deadly guardians."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "And with the rising of the waters, they reasoned that the artifact would be sunk along with the city, far beyond the reach of vengeful voidsent."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "But now that Yafaem is more swamp than sea, the demons only have the wards and the guardians to deal with. And I doubt they'd be wastin' their time down there in the mud if they didn't have some trick to break through the wards."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Aye, this's become a race to see who can nab the treasure first─which is just the sort of contest a sky pirate lives for!"
+            },
+            {
+                "name": "STACIA",
+                "text": "So we slip into the ruins, pinch the relic, then rescue Radlia right from under the fiends' noses!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...Well, I suppose we <span class=\"emphasis\">could</span> save her while we're pokin' around for loot."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "I'll grab the new compass from Utata so we know where we're goin'. Check your weapons, pack your smallclothes, and meet me out by the landin' when you're ready to fly!"
+            },
+            {
+                "name": "STACIA",
+                "text": "So, all we need to do is rescue Captain Radlia from a mob of nasty voidsent, then retrieve a dangerous artifact from the magically defended ruins of an ancient civilization. Easy, eh...?"
+            },
+            {
+                "name": "CAITSITH",
+                "text": "I shall join you in this endeavor to recover the Nullstone. Though after fifteen hundred years, I wonder what remains of the city I once knew..."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "We'll fly directly to Yafaem from here. Once we arrive, you forge ahead with your band of adventurers as you did on the ark, <span class=\"highlight\">Forename</span>. Just keep slicin' into the depths until you reach that Nullstone."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Hmmm. We don't want to risk gettin' knocked out of the sky like the Talons, so we'd best land a little ways out from the ruins and head in on foot."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "The furball says he knows the place well enough to guide you, so me and the Redbills will follow behind on rescue duty. You concentrate on smashin' a path through to the artifact─we'll check the nooks and crannies for Radlia and her crew."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Don't let your guard down once you reach the ruins, though, eh? There's likely golems and such in there what are worse than the fiends outside, and we wouldn't want our hero losin' <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> head now, would we?"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Your job is to carve a path to the vault where they keep the Nullstone. The Redbills will come in behind, and scour the area for Radlia and her crew...and whatever shiny baubles we can get our greedy hands on."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...So this is the heart of the ruins, eh?"
+            },
+            {
+                "name": "STACIA",
+                "text": "You've done a fine job dismantlin' the defenses, <span class=\"highlight\">Forename</span>. I only wish we could say we had the same success, but Radlia and her Talons were nowhere to be found."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Yes, it is quite distressing, but we must focus on claiming the prize at hand. The Nullstone is ours!"
+            },
+            {
+                "name": "FERDIAD",
+                "text": "(-???-)Mwahahahaha! You've left me such an <span class=\"emphasis\">inviting</span> trail of destruction to follow!"
+            },
+            {
+                "name": "FERDIAD",
+                "text": "Well, well, well! If it isn't the adventurer I've so longed to dismember! Praise Lord Diabolos for this opportunity─I shall gift him your head in gratitude. Ah, and speaking of gifts, I've brought a present to celebrate our gleeful reunion!"
+            },
+            {
+                "name": "FERDIAD",
+                "text": "I see you've found the relic, then. Wonderful! Lord Diabolos will be so pleased! And look here! I've brought you a gift as thanks for all your hard work!"
+            },
+            {
+                "name": "FERDIAD",
+                "text": "This <span class=\"emphasis\">is</span> the lovely lass you've been oh-so-desperately seeking, isn't it? Unless you wish to see her rent limb from limb, then you will hand over the Nullstone!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "You think I care about her worthless limbs? That woman's done naught but cause us grief, and I just thought to crow over her grave!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Don't give me that look, Radlia. What? You thought I was here to <span class=\"emphasis\">save</span> your sorry hide?"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "You've never been aught but an obstacle to me. Do you remember the first time we met? You were roarin' with laughter at the sight of all them Allagan relics until I used your pretty blonde head as a steppin'-stone!"
+            },
+            {
+                "name": "RADLIA",
+                "text": "Damn you, you selfish bastard! And damn me for expecting you to act any different! If I had my weapons, I'd blow a bloody hole in your belly!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Have you forgotten how awful a shot you are? Not much of a threat when I've seen you miss the side of a cathedral at ten yalms."
+            },
+            {
+                "name": "FERDIAD",
+                "text": "Silence, you grinning fool! You've ruined my moment, and now I'll ruin your smirking face!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Now, puss!"
+            },
+            {
+                "name": "FERDIAD",
+                "text": "What─ Aaargh! It burns!"
+            },
+            {
+                "name": "CAITSITH",
+                "text": "This world is not your stage, unholy harlequin! Begone from our realm!"
+            },
+            {
+                "name": "FERDIAD",
+                "text": "Grrr! A clever farce, mortals! But the show is not over...not until you scream!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...The bugger got away. And I think we'd best do the same."
+            },
+            {
+                "name": "STACIA",
+                "text": "Aye, it all worked out in the end, but I've had just about enough of Leofard's folly.<br>...Ugh, I must've said that a hundred times by now."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "The lady pirate is saved, and the Nullstone is ours! That all went rather well, did it not?"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Now that was some excitement, wasn't it, <span class=\"highlight\">Forename</span>! Probably a little too much for Radlia, but we gave her a bed to sleep off the worst of her ordeal. She'll likely be back to her usual cheerful self in no time."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Quite a successful jaunt, all told. You and me, we make a pretty good partnership!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...But I've got words for you, furball! You said that relic would obliterate a voidsent “completely.” Seems to me that foppish fiend just got scorched before he slipped away."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Oh, that? That was scarcely a fraction of the Nullstone's true power. Once I have learned how to unleash its full potential, such demons shall be consumed like gnats caught in a bonfire."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "So you're tellin' me our secret weapon ain't ready for battle? You might as well be wieldin' a blunted sword..."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "Might I remind you that this “blunted sword” stung our foe sufficiently to free the lady pirate? A result we could not have achieved with your blustering words alone!"
+            },
+            {
+                "name": "LEOFARD",
+                "text": "Bah, I was ready to flee without Radlia if things took a turn for the worse."
+            },
+            {
+                "name": "LEOFARD",
+                "text": "...But you're right. You had the presence of mind to take advantage of my bluff, and it was your actions that saved her in the end."
+            },
+            {
+                "name": "CAITSITH",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "LEOFARDSCONSPIRATORS02204",
+                "text": "（★未使用／削除予定★）"
+            }
+        ],
+        "reward": {
+            "gil": 7500,
+            "xp": 0,
+            "instance": 30038
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67741
+            ]
+        },
+        "next": [
+            67822
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016130",
+            "obj": {
+                "i": 1016130,
+                "n": "Stacia",
+                "l": 2100,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017158",
+            "obj": {
+                "i": 1017158,
+                "n": "Leofard",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017141",
+            "obj": {
+                "i": 1017141,
+                "n": "Stacia",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017142",
+            "obj": {
+                "i": 1017142,
+                "n": "Leofard",
+                "l": 1804,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017143",
+            "obj": {
+                "i": 1017143,
+                "n": "Stacia",
+                "l": 1804,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017144",
+            "obj": {
+                "i": 1017144,
+                "n": "Cait Sith",
+                "l": 1804,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017145",
+            "obj": {
+                "i": 1017145,
+                "n": "Utata",
+                "l": 2100,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017146",
+            "obj": {
+                "i": 1017146,
+                "n": "Cait Sith",
+                "l": 2100,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017149",
+            "obj": {
+                "i": 1017149,
+                "n": "Leofard",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017150",
+            "obj": {
+                "i": 1017150,
+                "n": "Talons Deckswab",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017152",
+            "obj": {
+                "i": 1017152,
+                "n": "Cait Sith",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017153",
+            "obj": {
+                "i": 1017153,
+                "n": "Stacia",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017154",
+            "obj": {
+                "i": 1017154,
+                "n": "Utata",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017155",
+            "obj": {
+                "i": 1017155,
+                "n": "Leofard",
+                "l": 1804,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017156",
+            "obj": {
+                "i": 1017156,
+                "n": "Stacia",
+                "l": 1804,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017157",
+            "obj": {
+                "i": 1017157,
+                "n": "Cait Sith",
+                "l": 1804,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017159",
+            "obj": {
+                "i": 1017159,
+                "n": "Stacia",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017163",
+            "obj": {
+                "i": 1017163,
+                "n": "Cait Sith",
+                "l": 1803,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017165",
+            "obj": {
+                "i": 1017165,
+                "n": "Stacia",
+                "l": 1803,
+                "q": 2
+            }
+        },
+        {
+            "type": "instance",
+            "id": "30038",
+            "obj": {
+                "i": 30038,
+                "n": "The Weeping City of Mhach",
+                "c": 61802,
+                "t": "Raids",
+                "min_lvl": 60,
+                "max_lvl": 60,
+                "min_ilvl": 205
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67741",
+            "obj": {
+                "i": 67741,
+                "n": "To Rule the Skies",
+                "g": 18,
+                "l": "The Sea of Clouds",
+                "s": 2,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67822",
+            "obj": {
+                "i": 67822,
+                "n": "Freedom for Our Skies",
+                "g": 18,
+                "l": "The Parrock",
+                "s": 4,
+                "f": 1
+            }
+        }
+    ]
+}

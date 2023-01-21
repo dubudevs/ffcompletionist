@@ -1,0 +1,204 @@
+{
+    "quest": {
+        "name": "Genius at Work",
+        "location": "Outer La Noscea",
+        "id": 66903,
+        "patch": 2.2,
+        "sort": 31,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 3,
+        "eventIcon": 71222,
+        "issuer": 1005930,
+        "target": 1005930,
+        "involved": [
+            1005932
+        ],
+        "genre": 39,
+        "journal": [
+            "789th Order Dustman Bo Bu is a believer in equal opportunities.",
+            "Bo Bu, proving to be among the more spirited kobolds at the dig, dismisses the vaunted abilities of Zo Ga and his followers, asserting that their strength is merely the product of superior resources paid for with ill-gotten wealth. To test his theory, he would “borrow” some crystalline saltpeter from the 13th Order's stores in U'Ghamaro, and deliver it to the 789th's own Ba Go, to see what destructive wonders the acolyte might fashion from such prime material. Or rather, he would have <span class=\"emphasis\">you</span> do this─there is a limit to the dustman's courage, after all.",
+            "With any luck, Zo Ga will not notice the modest quantity of saltpeter you have lifted from his order's workshop. Deliver it to Ba Go at the 789th Order Dig and prepare for the inevitable applause and accolades.",
+            "Neither applause nor accolades were to be had, but rather expletives and epithets, as Ba Go took considerable umbrage at the mere implication─voiced by no one in particular─that the work of Zo Ga's alchemists was somehow superior to his own. Break the news to Bo Bu, and try to be gentle about it.",
+            "789th Order Dustman Bo Bu, showing admirable pluck, is not shaken by Ba Go's disapproval─perhaps because he did not hear it─even resolving to someday apprentice himself to the eccentric genius and hone his own bombcrafting skills. Who are you to dash the young lad's dreams?"
+        ],
+        "objectives": [
+            "Obtain shards of crystalline saltpeter from U'Ghamaro Mines.",
+            "Deliver shards of crystalline saltpeter to 789th Order Acolyte Ba Go.",
+            "Report to 789th Order Dustman Bo Bu."
+        ],
+        "dialogue": [
+            {
+                "name": "BOBU",
+                "text": "Zo Ga is so strong? Zo Ga is so smart? Hah! I think not. No, no, Zo Ga is neither strong nor smart."
+            },
+            {
+                "name": "BOBU",
+                "text": "Tools make the kobold, and Zo Ga is simply rich enough to afford the best─wealthy, well-heeled, rich. This is all Zo Ga is, all he is and nothing more."
+            },
+            {
+                "name": "BOBU",
+                "text": "To wit: Zo Ga supplies his alchemists and acolytes with saltpeter so pristine you can see right through, through to the other side. Why, if our Ba Go had access to the same, I shudder to think of the destruction he could wreak─chaos, damage, destruction."
+            },
+            {
+                "name": "BOBU",
+                "text": "Which gives Bo Bu an idea, yes, a notion. You will borrow─yes, steal, pilfer, borrow─the finest shards of saltpeter from Zo Ga's workshop of horrors. Bring to Ba Go as a present from you and me. Much lauded and applauded, we shall be!"
+            },
+            {
+                "name": "BOBU",
+                "text": "Do you have holes in your head, to forget so soon? You will borrow─steal, pilfer, borrow─the finest shards of saltpeter from Zo Ga's workshop. Bring to Ba Go, as a present from you and me. Much lauded and applauded, we shall be!"
+            },
+            {
+                "name": "BAGO",
+                "text": "Yes, yesss? Ba Go is busy, very busy with─<br>...Hmmm? A present for me and my lovelies?"
+            },
+            {
+                "name": "BAGO",
+                "text": "The nerve─the gall, the audacity, the nerve! Bo Bu thinks my beauties pale before Zo Ga's, he does? Perhaps Bo Bu would like to serve as my next test subject, yes? Feel their power firsthand, yes?"
+            },
+            {
+                "name": "BAGO",
+                "text": "I will take the saltpeter this time, yes. But you tell Bo Bu that he can shove the rest of the stuff where the sun don't shine. Woe, woe is Ba Go! Will no one ever understand my genius─my brilliance, my gift, my genius?"
+            },
+            {
+                "name": "BOBU",
+                "text": "Speak not a whisper, friend─no, no, not a word. I could hear Ba Go screaming and shrieking in joy all the way from here."
+            },
+            {
+                "name": "BOBU",
+                "text": "Yes, yes, any day now will he offer to take me on as his apprentice─his student, his pupil, his apprentice. Aspiring 789th Order Acolyte Bo Bu─it rings nicely to the ear, no?"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21078
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005930",
+            "obj": {
+                "i": 1005930,
+                "n": "789th Order Dustman Bo Bu",
+                "l": 350,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005932",
+            "obj": {
+                "i": 1005932,
+                "n": "789th Order Acolyte Ba Go",
+                "l": 350,
+                "q": 16
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21078",
+            "obj": {
+                "i": 21078,
+                "n": "Titan Cobaltpiece",
+                "l": 1,
+                "c": 65052,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

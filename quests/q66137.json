@@ -1,0 +1,638 @@
+{
+    "quest": {
+        "name": "And My Axe",
+        "location": "Upper La Noscea",
+        "id": 66137,
+        "patch": 3.0,
+        "sort": 600,
+        "icon": 100434,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1013279,
+        "target": 1013329,
+        "involved": [
+            1006266,
+            1006614,
+            1006746,
+            1013311,
+            1013312,
+            1013313,
+            1013314,
+            1013315,
+            1013316,
+            1013324,
+            1013325,
+            1013326,
+            1013327,
+            1013328,
+            1013330,
+            1013339
+        ],
+        "genre": 149,
+        "journal": [
+            "Broken Mountain is steeling himself for the decisive battle.",
+            "Broken Mountain informs you that the Sahagin have begun their assault on the tidegates. Although Curious Gorge remains doubtful about his ability to control his inner beast, the defense will require two warriors for it to be successful. Broken Mountain will not let you and his brother shoulder all of the burden, however, and he informs you that he will aid you with what limited healing magicks he has at his disposal. Speak with Curious Gorge for further details of the defensive operation.",
+            "The three burly Roegadyn fighters are ready to depart for the decisive battle. Wheiskaet informs you that the Sahagin plan to use massive seabeasts to overrun the tidegate, and that he will be joining you despite the wounds he suffered in his fight with the primal Titan. Curious Gorge, still overcome with self-doubt, asks you to once again dispel the fear from his heart with an inspiring /slap to the face.",
+            "Your slap serves to rouse Curious Gorge's inner beast even more so than his fight with the kobolds, restoring his confidence and preparing him for his fight against the Sahagin threat. With a newfound courage, he rushes to Camp Skull Valley─follow him and speak with Storm Commander Falkbryda to receive a briefing on your critical mission.",
+            "Your allies are all waiting at the southern gate for the fury of the Sahagin. Speak with Storm Marshal Eynzahr to start the desperate battle.",
+            "The Sahagin come in waves, one after the other, only to be cut down like fish to the slaughter. Curious Gorge fights at a fever pitch, eventually falling to the ground in a struggle to control his inner beast. In the last desperate moment, he triumphantly quells the rising fury of his inner beast, at last conquering it for good. Then, in a futile attempt to break through the tidegate's mighty defenders, the Sahagin captain attacks with his massive seabeast, but they fall quickly before the full strength of two unbridled warriors. With the Sahagin threat finally quelled, speak with Curious Gorge to celebrate this tremendous victory together.",
+            "Curious Gorge and his brother are ecstatic that the former was able to finally tame his inner beast, but that is not the only good news waiting for them. With the Sahagin threat quelled, Storm Marshal Eynzahr informs them that the Maelstrom will move forward with its plan to train its troops in the way of the warrior, and that Maelstrom Command has requested that the two brothers be the first two to teach the fledgling warriors. Little by little, the dream that they carried down with them from their humble mountain village will come to pass, as more people of Eorzea learn the teachings of their ancestors. Curious Gorge, fueled by his new confidence, swears that he will master the techniques of eld, and promises a fearsome duel once you both reach the peak of your martial prowess. Take care not to neglect your training, lest one day Curious Gorge become the mightiest warrior in Eorzea.<br><br>※The next warrior quest will be available from Curious Gorge once you have met the following requirements:<br>※ FINAL FANTASY XIV: Stormblood must be registered to your service account.<br>※ You must have completed the main scenario quest “The Far Edge of Fate.”"
+        ],
+        "objectives": [
+            "Speak with Curious Gorge.",
+            "Rouse Curious Gorge with a /slap.",
+            "Speak with Falkbryda at Camp Skull Valley.",
+            "Speak with Eynzahr at South Tidegate.",
+            "Speak with Curious Gorge.",
+            "Decimate the Sahagin forces!"
+        ],
+        "dialogue": [
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "<span class=\"highlight\">Forename</span>, the Sahagin forces have begun marching upon the tidegates. The time has come for the decisive battle, on which the fate of all Lominsans hangs in the balance."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "My brother still wrestles with his tenuous grasp on the inner beast, but this crisis will not wait for him. The successful defense of the tidegates depends on <span class=\"emphasis\">two</span> warriors being present."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "I shall not stand idly by, either. I will lend what meager aid I can with my healing magicks. If your heart is steeled for battle, let us meet my brother outside."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "I cannot stand by idly during so monumental a battle. Let us go meet Wheiskaet and my brother."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "The Sahagin have begun their attack. There is much to discuss at Camp Bronze Lake."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "The decisive battle is at hand. Go to Camp Bronze Lake so we can begin planning at once."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Whether we like it or not, the fate of Limsa Lominsa depends on us..."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "<span class=\"highlight\">Forename</span>, you're here at last. Is my brother ready to depart?"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "My preparations are complete. I am ready to lay down my life in Limsa Lominsa's defense."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "As are we all. The most recent reports tell that the Sahagin plan to use their massive seabeasts to overrun the tidegates. "
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Us four will be in charge of defending the southern tidegate. With two warriors by our side, we'll beat those slimy fishbacks into the muddy depths from whence they came!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "You're fighting too!? But what of your wounds? And you said <span class=\"emphasis\">two</span> warriors...?"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Aye, it's true the injuries from our fight with Titan remain, but I reckon the Sahagin's courage won't last for long. As for the warriors... Well, we've got two right here, don't we?"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Worry not, Wheiskaet, the Sahagin will rue the day they stood before our might!"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Alright, then, let's head to Camp Skull Valley─the Sahagin won't soon forget this battle!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "...The fate of Limsa Lominsa... I desire nothing more than to see everyone safely through this battle, but if the beast within takes me within its clutches again..."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "<span class=\"highlight\">Forename</span>, you know what to do! Gather your strength and drive the fear from me with a mighty <span class=\"highlight\">slap</span>! It's time to put that training to work!"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Use your fighting spirit to guide my brother through his fog of doubt."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "I'll be at Camp Bronze Lake preparing for the battle against the Sahagin."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Everything depends on the outcome of this battle. Show the realm what warriors are made of!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Don't hold back, <span class=\"highlight\">Forename</span>! Slap me silly like only a warrior can!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "That's the stuff, <span class=\"highlight\">Forename</span>! I'll be feeling that in the morning!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Come hells or high water, the tidegates will not fall! We'll show the Sahagin the iron will of the warrior! <span class=\"highlight\">Forename</span>, let us report to Commander Falkbryda at once!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Your presence makes me proud to call myself a warrior! With us at the front lines, the fishbacks won't make it one yalm past the shore!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "The Sahagin won't get one ilm past the tidegates with us standing in their way!"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Curious Gorge seems like a warrior reborn. With you two by our side, Limsa Lominsa has nothing to fear."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "My brother's confidence has returned at last, thanks to your splendid example."
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "This operation depends on the successful defense of both tidegates. You four will see to the southern, while another unit attends to the northern. Although you are few in number, 'twould be foolish to expect anything but greatness from such storied fighters."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "All in charge of defending the southern tidegate are here. Let's not waste any more time!"
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Not so fast, Wheiskaet. You don't think I'd let you take all the glory, do you?"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "Storm Marshal Eynzahr!? You plan to fight alongside us?"
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "There was naught I could say to stop him. Once he has a mind to do something, there is very little that can..."
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "My sense of duty will scarce allow you four to bear the weight of Limsa Lominsa's fate on your own. My axe will be the first to greet the Sahagin wave!"
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "And what's more, I'd like to see the strength of these two warriors with mine own eyes. Something tells me this will be a fight to remember!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Storm Marshal, it will be an honor to fight by your side! Our axes will see the people of Limsa Lominsa safely through this storm!"
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Brave defenders! This day, the Sahagin mean to descend upon us like a tidal wave! But you will stand strong! You will not allow the fishbacks a single ilm of land, nor will you give them any quarter!"
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Our fate awaits us at Halfstone! To the tidegate!"
+            },
+            {
+                "name": "FALKBRYDA",
+                "text": "The fate of Limsa Lominsa is safe in your hands. May you return victorious!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Your strength has served to inspire mine, and now <span class=\"emphasis\">our</span> strength will stand in between Limsa Lominsa and the Sahagin menace. Hurry to Halfstone before they attack!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "We shall show Eorzea a warrior's true mettle. May our axes remain steadfast and true!"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "To see the storm marshal in battle... The Maelstrom is sparing no effort in this endeavor. May the Twelve give us luck!"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "The responsibility we bear is not to be taken lightly. The citizens of Limsa Lominsa shall not regret putting their trust in us! "
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Valiant protectors of Limsa Lominsa! This day, the Sahagin mean to make an end of us. They will come shrieking like the gale, and descend upon us with the force of a tidal wave! But will we falter? No! We will stand strong, unwavering, until the tide recedes, stained by the blood of their dead!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "The beast...has been tamed. <span class=\"highlight\">Forename</span>, Brother, friends...thank you."
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "My axe remains steadfast! Friends, stand at my back─my inner beast shall protect you!"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Haha, the fishbacks have brought more pets to be crushed under the warriors' heels!"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "<span class=\"highlight\">Forename</span>, Brother! Imbue your axes with your inner fury, and show the world a warrior's true wrath!"
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Go forward, undaunted warriors! Smash these invaders till naught remains but fodder for the gulls!"
+            },
+            {
+                "name": "QIB",
+                "text": "Defend the tidegate and use the fishbacks' broken corpses as bait!"
+            },
+            {
+                "name": "QIB",
+                "text": "You call that an axe!?"
+            },
+            {
+                "name": "QIB",
+                "text": "Mwahaha! You're not worthy of tasting my steel!"
+            },
+            {
+                "name": "QIB",
+                "text": "<span class=\"highlight\">Forename</span>, Curious Gorge! Skewer the fishbacks!"
+            },
+            {
+                "name": "QIB",
+                "text": "Graaagh! Die! Choke on your dead!"
+            },
+            {
+                "name": "QIB",
+                "text": "My brother, he's...losing control! The beast threatens to swallow him whole!"
+            },
+            {
+                "name": "QIB",
+                "text": "Tremble before me...weaklings!"
+            },
+            {
+                "name": "QIB",
+                "text": "<span class=\"highlight\">Forename</span>, I'll take care of the captain! Fell the trifling beast!"
+            },
+            {
+                "name": "QIB",
+                "text": "As long as <span class=\"highlight\">Forename</span> stands with us, none shall break through!"
+            },
+            {
+                "name": "QIB",
+                "text": "I must...withdraw..."
+            },
+            {
+                "name": "QIB",
+                "text": "Godsdammit...go on without me..."
+            },
+            {
+                "name": "QIB",
+                "text": "The Sahagin are too fierce... We must pull back..."
+            },
+            {
+                "name": "QIB",
+                "text": "Gaaagh... I can't... It's over..."
+            },
+            {
+                "name": "QIB",
+                "text": "Finish off the Sahagin captain!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "The Sahagin have been beaten back! Limsa Lominsa is saved! Let's meet at the southern gate to celebrate our victory!"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "To see you and my brother fight unbridled gave me strength I did not know I had. No doubt our victory here is thanks to you."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "If not for you two warriors, the tidegate would surely have fallen. Let's return to the southern tidegate to celebrate our victory."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "The full strength of a warrior is truly a sight to behold. The Sahagin won't soon forget today's battle!"
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Warrior of Light, the tales do not do you justice. It's been too long since I've swung my axe as I did today."
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Warrior of Light, Curious Gorge! The battle is won, and the Sahagin scurry back to their moldy caverns!"
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Today's victory is owed to the might of our two warriors! Without you, we would not be standing here."
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "Curious Gorge, wear the title of warrior with pride!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "I couldn't have made it this far alone. It was only thanks to the bravery of my allies that I was able to dominate the beast within."
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "The day will soon come when, with proper training and instruction, all the peoples of Eorzea can choose to walk the path of the warrior."
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Speaking of which, with the Sahagin threat dealt with, the Maelstrom can proceed with its plan to train its troops in the way of the warriors. And who better to train them than the two siblings who brought their teachings to Eorzea in the first place?"
+            },
+            {
+                "name": "EYNZAHRSLAFYRSYN",
+                "text": "Curious Gorge, Broken Mountain, I invite you to instruct the Maelstrom recruits in the ways of your ancestors. Forge our troops into mighty defenders worthy of their title!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "Many moons have passed since we came down from our mountain village, and finally we can begin to realize our dream!"
+            },
+            {
+                "name": "BROKENMOUNTAIN",
+                "text": "I... This is an honor. My brother and I will gladly accept this appointment!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "<span class=\"highlight\">Forename</span>, mayhap now <span class=\"emphasis\">you're</span> the one who needs to start training harder!"
+            },
+            {
+                "name": "WHEISKAET",
+                "text": "I daresay you're right─<span class=\"highlight\">Forename</span> has some proper competition!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "We'll both fight where we're needed, unbound by fear or hesitation, and in doing so master the techniques of eld!"
+            },
+            {
+                "name": "CURIOUSGORGE",
+                "text": "<span class=\"highlight\">Forename</span>, look forward to the day we both reach the peak of our strengths, for then you'll face an opponent worthy of your axe: me!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "This concludes the warrior quests for FINAL FANTASY XIV: Heavensward. In order to undertake the next series of quests, you must first meet the following requirements:"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "※ FINAL FANTASY XIV: Stormblood must be registered to your service account.<br>※ You must have completed the main scenario quest “The Far Edge of Fate.”"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Once you have done so, the next warrior quest will be available from Curious Gorge."
+            }
+        ],
+        "reward": {
+            "gil": 1128,
+            "action": 3550,
+            "items": [
+                {
+                    "id": 20657
+                }
+            ],
+            "xp": 167400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 22
+                }
+            ],
+            "quests": [
+                66134
+            ]
+        },
+        "next": [
+            68436
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013279",
+            "obj": {
+                "i": 1013279,
+                "n": "Broken Mountain",
+                "l": 34,
+                "q": 7
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013329",
+            "obj": {
+                "i": 1013329,
+                "n": "Curious Gorge",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006266",
+            "obj": {
+                "i": 1006266,
+                "n": "Wheiskaet",
+                "l": 32,
+                "q": 20
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006614",
+            "obj": {
+                "i": 1006614,
+                "n": "Falkbryda",
+                "l": 33,
+                "q": 14,
+                "t": "Storm Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006746",
+            "obj": {
+                "i": 1006746,
+                "n": "Curious Gorge",
+                "l": 32,
+                "q": 15
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013311",
+            "obj": {
+                "i": 1013311,
+                "n": "Wheiskaet",
+                "l": 34,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013312",
+            "obj": {
+                "i": 1013312,
+                "n": "Eynzahr",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013313",
+            "obj": {
+                "i": 1013313,
+                "n": "Wheiskaet",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013314",
+            "obj": {
+                "i": 1013314,
+                "n": "Curious Gorge",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013315",
+            "obj": {
+                "i": 1013315,
+                "n": "Broken Mountain",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013316",
+            "obj": {
+                "i": 1013316,
+                "n": "Curious Gorge",
+                "l": 34,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013324",
+            "obj": {
+                "i": 1013324,
+                "n": "Wheiskaet",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013325",
+            "obj": {
+                "i": 1013325,
+                "n": "Curious Gorge",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013326",
+            "obj": {
+                "i": 1013326,
+                "n": "Eynzahr",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013327",
+            "obj": {
+                "i": 1013327,
+                "n": "Broken Mountain",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013328",
+            "obj": {
+                "i": 1013328,
+                "n": "Wheiskaet",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013330",
+            "obj": {
+                "i": 1013330,
+                "n": "Broken Mountain",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013339",
+            "obj": {
+                "i": 1013339,
+                "n": "Curious Gorge",
+                "l": 34,
+                "q": 3
+            }
+        },
+        {
+            "type": "action",
+            "id": "3550",
+            "obj": {
+                "i": 3550,
+                "n": "Decimate",
+                "c": 2558,
+                "j": 21,
+                "t": 3,
+                "l": 60
+            }
+        },
+        {
+            "type": "item",
+            "id": "20657",
+            "obj": {
+                "i": 20657,
+                "n": "Ravager's Armor Coffer (IL 210)",
+                "l": 1,
+                "c": 26509,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66134",
+            "obj": {
+                "i": 66134,
+                "n": "Slap an' Chop",
+                "g": 149,
+                "l": "Upper La Noscea",
+                "s": 580,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68436",
+            "obj": {
+                "i": 68436,
+                "n": "Curious Gorge Meets His Match",
+                "g": 149,
+                "l": "Eastern La Noscea",
+                "s": 601,
+                "f": 1
+            }
+        }
+    ]
+}

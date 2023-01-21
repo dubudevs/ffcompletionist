@@ -1,0 +1,154 @@
+{
+    "quest": {
+        "name": "He Who Waited Behind",
+        "location": "Eastern Thanalan",
+        "id": 66419,
+        "patch": 2.0,
+        "sort": 190,
+        "eventIcon": 71201,
+        "issuer": 1006355,
+        "target": 1006371,
+        "involved": [
+            1002780
+        ],
+        "genre": 1,
+        "journal": [
+            "Father Iliud has some parting words for you and the others.",
+            "Father Iliud suggests that you begin your search for Cid's airship in Fallgourd Float, located in Gridania's North Shroud. Journey to the settlement and speak with the Twin Adder forces stationed there for more information.",
+            "The final flight of the <span class=\"emphasis\">Enterprise</span> appears to be a well-known moment in Gridanian history, as Aethelmaer has no trouble recounting the event. He bids you speak with Vortefaurt at Florentel's Spire, a sentry who saw the airship with his own eyes that day five years ago.",
+            "Vortefaurt confirms that he bore witness to the vessel's passing. Listen well as the veteran Wailer spins his yarn, for it shall doubtless provide essential information that leads you to the errant vessel's location."
+        ],
+        "objectives": [
+            "Speak with Aethelmaer in Fallgourd Float.",
+            "Speak with Vortefaurt."
+        ],
+        "dialogue": [
+            {
+                "name": "ILIUD",
+                "text": "What a curious twist of fate that Master Cid Garlond would at last be found within our church. It defies imagination..."
+            },
+            {
+                "name": "ILIUD",
+                "text": "Beg your pardon, <span class=\"highlight\">Forename</span>. You wish to find his airship, yes?"
+            },
+            {
+                "name": "ILIUD",
+                "text": "I know not how much truth there is to it, but there is a tale known as, “The Final Flight of the <span class=\"emphasis\">Enterprise</span>,” which grew popular in the wake of the Calamity─much like “The Great Goobbue Wall of Ul'dah.” It states that the <span class=\"emphasis\">Enterprise</span> flew northwest from Gridania towards Coerthas."
+            },
+            {
+                "name": "ILIUD",
+                "text": "If true, the airship would have passed through the North Shroud, likely over Fallgourd Float─the closest settlement to Coerthas. Mayhap the Serpents stationed there have records of the events that transpired that day."
+            },
+            {
+                "name": "ILIUD",
+                "text": "I had hoped you might rest from your journeys for a time, but I see that the world still has need of you and the Scions. Pray look after yourself and Cid, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "Is there aught I can assist you with, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>?"
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "The <span class=\"emphasis\">Enterprise</span>? You speak of Master Garlond's ship, yes?"
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "Aye, I needn't refer to the records. I know that the airship was sighted overhead five years ago, clearly bound for Coerthas. What became of it after that I cannot say."
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "If you wish to know more, pray speak with Vortefaurt at Florentel's Spire. He was on duty that day and saw it with his own eyes."
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "I am unsure what it is you hope to accomplish, though. Even should you locate the ship, would you not need a man of Master Garlond's caliber to fly it? I hear tell that the machinery is fiendishly complex..."
+            },
+            {
+                "name": "VORTEFAURT",
+                "text": "You have come in search of Vortefaurt? Then well met, for you have found him."
+            },
+            {
+                "name": "VORTEFAURT",
+                "text": "Indeed, I have served as a Wailer for many years, since before the great snows came to Coerthas. What exactly is this about?"
+            },
+            {
+                "name": "VORTEFAURT",
+                "text": "Ahhh, the final flight of the <span class=\"emphasis\">Enterprise</span>. I do indeed remember that day..."
+            }
+        ],
+        "reward": {
+            "gil": 1544,
+            "xp": 18900
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 36,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66054
+            ]
+        },
+        "next": [
+            66420
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006355",
+            "obj": {
+                "i": 1006355,
+                "n": "Iliud",
+                "l": 44,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006371",
+            "obj": {
+                "i": 1006371,
+                "n": "Vortefaurt",
+                "l": 57,
+                "q": 3,
+                "t": "Serpent Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002780",
+            "obj": {
+                "i": 1002780,
+                "n": "Aethelmaer",
+                "l": 57,
+                "q": 3,
+                "t": "Serpent Sergeant"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66054",
+            "obj": {
+                "i": 66054,
+                "n": "Eyes on Me",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 189
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66420",
+            "obj": {
+                "i": 66420,
+                "n": "Cold Reception",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 191
+            }
+        }
+    ]
+}

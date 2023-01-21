@@ -1,0 +1,99 @@
+{
+    "quest": {
+        "name": "The King Rat Must Die",
+        "location": "Coerthas Central Highlands",
+        "id": 66472,
+        "patch": 2.0,
+        "sort": 390,
+        "eventIcon": 71221,
+        "issuer": 1006460,
+        "target": 1006460,
+        "genre": 94,
+        "journal": [
+            "Fousquenet finds himself besieged by the mighty rat king, and seeks an adventurer's assistance.",
+            "Rats of unusual size are to be seen around the stronghold feeding, scurrying, and baring their yellow teeth at all and sundry. Fousquenet asks that you search the courtyard and kill any rats you find.",
+            "You have found several rats and made sure they shall gnaw no more. Fousquenet will be glad to hear of it from your lips.",
+            "Encouraged by your speed and aplomb, Fousquenet lays out a more ambitious plan. He believes there is a large nest underground that can be gotten at from outside the walls of the stronghold. Survey the rats' nest and kill the rat king.",
+            "The lord of the midden is dead, and you can hear the pack beginning to turn on each other in the confusion. This would be a good time to go back inside, Kingslayer, and tell Fousquenet that his end has been achieved.",
+            "The grain sacks of Whitebrim Front are safer tonight, and knights shall sleep without fear of rat bites. Fousquenet's foresight and your incomparable reflexes have saved the day."
+        ],
+        "objectives": [
+            "Search for signs of rats.",
+            "Speak with Fousquenet.",
+            "Search for the rats' nest.",
+            "Report to Fousquenet."
+        ],
+        "dialogue": [
+            {
+                "name": "FOUSQUENET",
+                "text": "We've got a rat problem, and if nothing's done about it now, we shall soon have a supply problem and a plague problem. They're no more content with the kitchen than the pot boy is, and have a run of the outpost."
+            },
+            {
+                "name": "FOUSQUENET",
+                "text": "They feed off of our scraps─unwanted guests at a meager feast! See if you can't have a good look around and roust up a few to slay."
+            },
+            {
+                "name": "FOUSQUENET",
+                "text": "Good and well, that's fewer of the vermin to get at our larder."
+            },
+            {
+                "name": "FOUSQUENET",
+                "text": "They remain too numerous, however. There must be a large nest somewhere down below. Kill the king rat and the common rats will lose heart─something both we and the dragons know well!"
+            },
+            {
+                "name": "FOUSQUENET",
+                "text": "I've tracked the rats well as I can, and they look to slip outside as often as not. There must be an opening that leads to the nest, somewhere outside the stronghold."
+            },
+            {
+                "name": "FOUSQUENET",
+                "text": "That's the end of the king, is it? Well struck! We'll see less of the foul little things, I expect."
+            },
+            {
+                "name": "FOUSQUENET",
+                "text": "That said, <span class=\"alternative-container\"><span class=\"alternative\">do they not say in your fair home city that rats abandon a sinking ship?</span><span class=\"alternative\">sailors talk of rats abandoning a sinking ship, do they not?</span></span> Perhaps I should more rightly take it as a <span class=\"emphasis\">good</span> omen that the rats deign to stay in Whitebrim."
+            },
+            {
+                "name": "POP",
+                "text": "You feel beady eyes upon you!"
+            }
+        ],
+        "reward": {
+            "gil": 1624,
+            "xp": 10800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 39,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66460
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006460",
+            "obj": {
+                "i": 1006460,
+                "n": "Fousquenet",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66460",
+            "obj": {
+                "i": 66460,
+                "n": "Ye of Little Faith",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 202
+            }
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "quest": {
+        "name": "Vindictive Vath Vendetta",
+        "location": "The Dravanian Forelands",
+        "id": 67332,
+        "patch": 3.0,
+        "sort": 5305,
+        "eventIcon": 71221,
+        "issuer": 1011928,
+        "target": 1011928,
+        "genre": 98,
+        "journal": [
+            "The Vath storyteller is shaking with rage.",
+            "The Vath storyteller, furious that his fellow Vath have been attacked by the Gnath, wants revenge. Exact vengeance for him by slaying an irondrone, a haildrone, and a forager.",
+            "You carry out the storyteller's brutal reprisal. Return to Loth ast Vath and inform him that justice has been done.",
+            "The storyteller thanks you for avenging his brothers. Though the Gnath you killed may not have been the specific individuals that attacked the Vath, the storyteller assures you that since all Gnath share a linked consciousness, this is not a meaningful distinction to make."
+        ],
+        "objectives": [
+            "Slay a Gnath haildrone.",
+            "Slay a Gnath irondrone.",
+            "Slay a Gnath forager.",
+            "Report to the Vath storyteller."
+        ],
+        "dialogue": [
+            {
+                "name": "STORYTELLER",
+                "text": "Those detestable Onemind. They come here, they target our young ones. &lt;click&gt; &lt;click&gt; Generous hunter, I beg you. Give us justice. Make them suffer as we have suffered."
+            },
+            {
+                "name": "STORYTELLER",
+                "text": "One irondrone, one haildrone, one forager. Kill one of each. We do not seek justice against any one caste of the Onemind. What we seek is justice against the very Onemind itself."
+            },
+            {
+                "name": "STORYTELLER",
+                "text": "Do we have our revenge on the Gnath, hunter? One irondrone, one haildrone, one forager."
+            },
+            {
+                "name": "STORYTELLER",
+                "text": "Thank you, hunter. We appreciate what you have done. The Onemind now know our pain. This is enough revenge for now."
+            },
+            {
+                "name": "STORYTELLER",
+                "text": "Though those you slew were likely not the selfsame Gnath that attacked us, it makes no difference. The Gnath are all of the same consciousness. You have attacked a part of that which attacked us."
+            }
+        ],
+        "reward": {
+            "gil": 597,
+            "xp": 28800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 53,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67150,
+                67328
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011928",
+            "obj": {
+                "i": 1011928,
+                "n": "Vath Storyteller",
+                "l": 2000,
+                "q": 16
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67150",
+            "obj": {
+                "i": 67150,
+                "n": "A Gnathic Deity",
+                "g": 3,
+                "l": "The Dravanian Forelands",
+                "s": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67328",
+            "obj": {
+                "i": 67328,
+                "n": "Natural Repellent",
+                "g": 98,
+                "l": "The Dravanian Forelands",
+                "s": 5223
+            }
+        }
+    ]
+}

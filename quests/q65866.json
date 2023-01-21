@@ -1,0 +1,220 @@
+{
+    "quest": {
+        "name": "Last Letter to Lost Hope",
+        "location": "Western Thanalan",
+        "id": 65866,
+        "patch": 2.0,
+        "sort": 56,
+        "eventIcon": 71201,
+        "issuer": 1002058,
+        "target": 1001605,
+        "involved": [
+            1001604
+        ],
+        "genre": 1,
+        "journal": [
+            "Fufulupa wants you to track down a missing courier.",
+            "Fufulupa has asked you to ascertain the whereabouts of a missive he sent to Lost Hope. He fears that the courier has met with some misfortune en route. Search the roads southwest of Black Brush Station in central Thanalan for the courier.",
+            "You find the courier unharmed, but her chocobo did not fare as well. Until she has finished tending to her mount's injured leg, she cannot complete the delivery. Take the letter to Lost Hope in her stead and give it to Leofric.",
+            "Leofric thanks you for the letter and suggests that you do not linger in Lost Hope, lest you become associated with Ul'dah's unwanted. Despite what the crestfallen Brass Blade says, perhaps you should stay and lend a helping hand..."
+        ],
+        "objectives": [
+            "Search for Seseli in central Thanalan.",
+            "Deliver Fufulupa's letter to Leofric at Lost Hope."
+        ],
+        "dialogue": [
+            {
+                "name": "FUFULUPA",
+                "text": "Pray allow me to enlist your aid, brave adventurer. I would have you ascertain the whereabouts of a missive I sent to Lost Hope the other day."
+            },
+            {
+                "name": "FUFULUPA",
+                "text": "Captain Leofric is stationed there. Ever since he was transferred, we've exchanged letters, but never before has it taken this long to receive a reply."
+            },
+            {
+                "name": "FUFULUPA",
+                "text": "And so I fear that the courier may have met with some misfortune en route."
+            },
+            {
+                "name": "FUFULUPA",
+                "text": "She must have made it to central Thanalan, or the Brass Blades that patrol the roads between here and Scorpion Crossing would have seen something. But, if she made it as far as Black Brush Station, she would have surely delivered the letter by now. Lost Hope is practically on its doorstep..."
+            },
+            {
+                "name": "FUFULUPA",
+                "text": "I suggest you focus your search on the road to Black Brush Station, in central Thanalan. With luck, you will find her quickly."
+            },
+            {
+                "name": "SESELI",
+                "text": "Huh? A letter? Aye, I've got Fufulupa's missive right here."
+            },
+            {
+                "name": "SESELI",
+                "text": "I won't be deliverin' it any time soon, though. Got to tend to my bird's injured leg first. Even the most minor of cuts can fester if ignored."
+            },
+            {
+                "name": "SESELI",
+                "text": "Fufulupa sent you, right? If this is a pressin' matter, why don't you take it the rest of the way?"
+            },
+            {
+                "name": "SESELI",
+                "text": "Lost Hope's just past Black Brush Station, to the northeast. Look for the tents by the river."
+            },
+            {
+                "name": "TALK",
+                "text": "Kweh! Or it would be, if this tag was being used."
+            },
+            {
+                "name": "LEOFRIC",
+                "text": "Just passing through, or will you be staying a while?"
+            },
+            {
+                "name": "LEOFRIC",
+                "text": "...Fufulupa sent you all this way because of a late letter? &lt;sigh&gt; The boy is still far too earnest."
+            },
+            {
+                "name": "LEOFRIC",
+                "text": "Despite my demotion, he continues to call me Captain. I suspect he has no idea what it means to be transferred to Lost Hope either."
+            },
+            {
+                "name": "LEOFRIC",
+                "text": "The Brass Blades don't give a Qiqirn's arse about this settlement. No one in Ul'dah does."
+            },
+            {
+                "name": "LEOFRIC",
+                "text": "All here have been forsaken, adventurer. The refugees, their protectors. And you will be, too, if you're seen associating with us."
+            },
+            {
+                "name": "LEOFRIC",
+                "text": "Thank you for the letter. Now, for your own good, leave."
+            },
+            {
+                "name": "TALK",
+                "text": "Head northeast, past Black Brush Station. Look for the tents. If you cross the river, you've gone too far."
+            },
+            {
+                "name": "TALK",
+                "text": "Sup, unused tag."
+            }
+        ],
+        "reward": {
+            "gil": 188,
+            "xp": 4200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65865
+            ]
+        },
+        "next": [
+            65867,
+            66066,
+            66067,
+            66109,
+            69389
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002058",
+            "obj": {
+                "i": 1002058,
+                "n": "Fufulupa",
+                "l": 42,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001605",
+            "obj": {
+                "i": 1001605,
+                "n": "Leofric",
+                "l": 43,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001604",
+            "obj": {
+                "i": 1001604,
+                "n": "Seseli",
+                "l": 43,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65865",
+            "obj": {
+                "i": 65865,
+                "n": "The Perfect Swarm",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 55
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65867",
+            "obj": {
+                "i": 65867,
+                "n": "Heir Today, Gone Tomorrow",
+                "g": 0,
+                "l": "Central Thanalan",
+                "s": 60
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66066",
+            "obj": {
+                "i": 66066,
+                "n": "Alternative Medicine",
+                "g": 93,
+                "l": "Central Thanalan",
+                "s": 120
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66067",
+            "obj": {
+                "i": 66067,
+                "n": "Need Not Apply in Person",
+                "g": 93,
+                "l": "Central Thanalan",
+                "s": 110
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66109",
+            "obj": {
+                "i": 66109,
+                "n": "Fringe Benefits",
+                "g": 93,
+                "l": "Central Thanalan",
+                "s": 120
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69389",
+            "obj": {
+                "i": 69389,
+                "n": "Heir Today, Gone Tomorrow",
+                "g": 1,
+                "l": "Central Thanalan",
+                "s": 60
+            }
+        }
+    ]
+}

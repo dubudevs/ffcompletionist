@@ -1,0 +1,151 @@
+{
+    "quest": {
+        "name": "Going for Gold",
+        "location": "Western Thanalan",
+        "id": 66550,
+        "patch": 2.0,
+        "sort": 470,
+        "icon": 112014,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1005021,
+        "target": 1007625,
+        "genre": 93,
+        "journal": [
+            "Nedrick knows of a place where a skilled adventurer might hone <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> skills.",
+            "According to Nedrick, an area known as the Aurum Vale might hold a suitable challenge for an adventurer of your accomplishments. The vale may be found in the southwesterly reaches of the central highlands of Coerthas. Travel there and seek out a man by the name of Willielmus.",
+            "Willielmus reluctantly grants you entry to the Aurum Vale. Take up the challenge, but be ever mindful of the lethal fumes within!<br><br>※The Aurum Vale can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Speak with Willielmus at the Aurum Vale."
+        ],
+        "dialogue": [
+            {
+                "name": "NEDRICK",
+                "text": "I can't take two steps around this place without hearing <span class=\"highlight\">Forename</span> this, or <span class=\"highlight\">Forename</span> that. Why, it's as if you're some kind of godsdamned hero!"
+            },
+            {
+                "name": "NEDRICK",
+                "text": "...But I jest. Even I can see that you're just itching to find a new battleground to hone your skills. Fortunately, I know just the place: the Aurum Vale. Head southwest through the central highlands of Coerthas and seek out a man named Willielmus─and tell him that Nedrick sent you."
+            },
+            {
+                "name": "WILLIELMUS",
+                "text": "Hail, adventurer. Wait, do not tell me─Nedrick sent you."
+            },
+            {
+                "name": "WILLIELMUS",
+                "text": "Tell me this, adventurer─do you know how the Aurum Vale earned its most enticing name? Well, allow me to enlighten you."
+            },
+            {
+                "name": "WILLIELMUS",
+                "text": "The cave is rich with sulphur and mythril ore which, through reactions with the groundwater, combine to exude golden-hued fumes. A beautiful sight─that is, until you realize the damned death clouds are burning your chest from within."
+            },
+            {
+                "name": "WILLIELMUS",
+                "text": "If you still wish to take your life in your hands, I'll not be the one that stops you. But do try not to get killed─I've dragged enough corpses out of the vale to last me a lifetime."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You have unlocked the Duty Finder! This feature allows you to undertake multiplayer duties without having to form a party on your own."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "To bring up the Duty Finder interface, select <span class=\"highlight\">Duty Finder</span> under <span class=\"highlight\">Duty</span> from the <span class=\"highlight\">main menu</span>."
+            }
+        ],
+        "reward": {
+            "gil": 5126,
+            "instance": 5,
+            "items": [
+                {
+                    "id": 4497,
+                    "one": 1
+                },
+                {
+                    "id": 4363,
+                    "one": 1
+                },
+                {
+                    "id": 5826,
+                    "one": 1
+                }
+            ],
+            "xp": 13160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 1
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005021",
+            "obj": {
+                "i": 1005021,
+                "n": "Nedrick Ironheart",
+                "l": 42,
+                "q": 5
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007625",
+            "obj": {
+                "i": 1007625,
+                "n": "Willielmus",
+                "l": 63,
+                "q": 4
+            }
+        },
+        {
+            "type": "instance",
+            "id": "5",
+            "obj": {
+                "i": 5,
+                "n": "The Aurum Vale",
+                "c": 61801,
+                "t": "Dungeons",
+                "min_lvl": 47,
+                "max_lvl": 49
+            }
+        },
+        {
+            "type": "item",
+            "id": "4497",
+            "obj": {
+                "i": 4497,
+                "n": "Electrum Ring",
+                "l": 47,
+                "c": 54404,
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "4363",
+            "obj": {
+                "i": 4363,
+                "n": "Red Coral Necklace",
+                "l": 47,
+                "c": 54832,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "5826",
+            "obj": {
+                "i": 5826,
+                "n": "Allagan Gold Piece",
+                "l": 35,
+                "c": 26001,
+                "t": 61
+            }
+        }
+    ]
+}

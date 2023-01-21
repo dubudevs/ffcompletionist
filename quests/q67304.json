@@ -1,0 +1,173 @@
+{
+    "quest": {
+        "name": "A Faithful Companion",
+        "location": "Coerthas Western Highlands",
+        "id": 67304,
+        "patch": 3.0,
+        "sort": 5107,
+        "eventIcon": 71221,
+        "issuer": 1011910,
+        "target": 1013359,
+        "involved": [
+            1013358
+        ],
+        "genre": 94,
+        "journal": [
+            "Luciae keeps looking worriedly out towards the east.",
+            "Luciae sent a messenger out on a mission near Riversmeet. He should have returned long ago, but there is still no sign of him. Head out after him and find out what happened.",
+            "You find the missing man near Riversmeet as expected. He completed his mission but was attacked by a yeti and thrown from his chocobo. The steed saved his life by bravely drawing the beast away, but has not been seen since. The messenger returns to base to report to Luciae, but asks you to track down his beloved chocobo, Amberbeak, fearing for his safety.",
+            "You find the chocobo─or rather, its corpse. You pluck a feather from its slowly freezing body, a token from the fallen bird. Take the feather back to the Convictory and break the grim news to Amberbeak's fretting owner.",
+            "The hope fades from the man's eyes as you hand him the feather. He is heartbroken to have lost his loyal companion, but appreciates you retrieving this memento of his cherished steed."
+        ],
+        "objectives": [
+            "Search for the messenger near Riversmeet.",
+            "Find the messenger's chocobo.",
+            "Return the chocobo feather to the messenger at the Convictory."
+        ],
+        "dialogue": [
+            {
+                "name": "LUCIAE",
+                "text": "Whatever could be taking him so long? It oughtn't take this much time just to deliver a message."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "I sent a man out on a mission quite some time ago. He should have been back hours ago, but there's still no sign of him."
+            },
+            {
+                "name": "LUCIAE",
+                "text": "He was on chocoback, so he should have returned by now. Would you do me the favor of heading out towards Riversmeet and seeing if you can find him?"
+            },
+            {
+                "name": "LUCIAE",
+                "text": "Please, head out towards Riversmeet and find my missing messenger. We can't afford even a single man unaccounted for."
+            },
+            {
+                "name": "MESSENGER01768",
+                "text": "You were dispatched by Luciae to find me? Well, I've finished my mission, but I can't go back to the camp just yet. I'm still searching for Amberbeak, my dear chocobo."
+            },
+            {
+                "name": "MESSENGER01768",
+                "text": "I was attacked by a yeti and thrown to the ground. Just when I thought the great beast would tear me to shreds, Amberbeak distracted the thing and drew it away. He damn well saved my life, but I fear that the monster will catch him... I have to save him!"
+            },
+            {
+                "name": "MESSENGER01768",
+                "text": "...Hm? You'll find him for me? I'd like to join you on the search, but I would only slow you down in my present condition... &lt;sigh&gt; Thank you. I shall head back to the Convictory now. But please, please bring Amberbeak back to me!"
+            },
+            {
+                "name": "LUCIAE",
+                "text": "Thrown from his mount, was he? Well, do please find that chocobo. He's ever so fond of it."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The tag on the reins says “Amberbeak,” but upon closer inspection it is obvious that the poor bird has been brutally eviscerated. You take a feather from the fallen chocobo."
+            },
+            {
+                "name": "MESSENGER01768",
+                "text": "Please, find my dear Amberbeak!"
+            },
+            {
+                "name": "LUCIAE",
+                "text": "Oh dear. He'll be devastated. &lt;sigh&gt; Well, it would be best if you presented that feather to him straightaway... Though I can't imagine it will help much."
+            },
+            {
+                "name": "MESSENGER01768",
+                "text": "Did you find him? Did you find Amberbeak?"
+            },
+            {
+                "name": "MESSENGER01768",
+                "text": "This feather... Amberbeak...? Noooooo! &lt;sob&gt; He...he fought valiantly with me through...through so many... &lt;sniff&gt; Tell me...was it quick?"
+            },
+            {
+                "name": "MESSENGER01768",
+                "text": "I see... Well, thank you for this feather. At least I'll always have something to remember him by..."
+            }
+        ],
+        "reward": {
+            "gil": 610,
+            "items": [
+                {
+                    "id": 4570
+                }
+            ],
+            "xp": 25200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67143,
+                67299
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011910",
+            "obj": {
+                "i": 1011910,
+                "n": "Luciae",
+                "l": 2200,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013359",
+            "obj": {
+                "i": 1013359,
+                "n": "Messenger Knight",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013358",
+            "obj": {
+                "i": 1013358,
+                "n": "Messenger Knight",
+                "l": 2200,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "4570",
+            "obj": {
+                "i": 4570,
+                "n": "Phoenix Down",
+                "l": 50,
+                "c": 20650,
+                "t": 44
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67143",
+            "obj": {
+                "i": 67143,
+                "n": "Camp of the Convictors",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 28
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67299",
+            "obj": {
+                "i": 67299,
+                "n": "Winter Is Coming",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5105
+            }
+        }
+    ]
+}

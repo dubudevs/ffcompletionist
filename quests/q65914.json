@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Look, but Won't Touch",
+        "location": "Central Shroud",
+        "id": 65914,
+        "patch": 2.0,
+        "sort": 100,
+        "eventIcon": 71221,
+        "issuer": 1000748,
+        "target": 1000748,
+        "genre": 92,
+        "journal": [
+            "Roseline needs an adventurer to destroy diremite eggs.",
+            "Roseline recently discovered two clutches of diremite eggs by the Matron's Lethe. However, despite being a battle-tested Wood Wailer, she is repulsed by the mere sight of the eggs. Seek out and destroy the two clutches of eggs.",
+            "You slay the unborn diremites and their enraged parents. Tell Roseline that the task is complete.",
+            "Roseline is grateful for your willingness to dirty your hands, and laments that she cannot always rely on such timely help."
+        ],
+        "objectives": [
+            "Destroy the diremite eggs.",
+            "Report to Roseline."
+        ],
+        "dialogue": [
+            {
+                "name": "ROSELINE",
+                "text": "Your willingness to assist the residents of the Twelveswood is commendable. If you have a moment, mayhap you can assist me with a delicate matter?"
+            },
+            {
+                "name": "ROSELINE",
+                "text": "My duties as a Wood Wailer include inspecting the Matron's Lethe for signs of damage or decay. It's never been a difficult task─until the other day, when I discovered several clutches of diremite eggs."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "I've no problem slaying the beasts when full-grown, but the mere sight of their eggs <span class=\"emphasis\">sickens</span> me. Spare me this disgusting task and destroy the eggs."
+            },
+            {
+                "name": "ROSELINE",
+                "text": "Would that I could always rely on a kind soul to handle such tasks!"
+            },
+            {
+                "name": "ROSELINE",
+                "text": "My training prepared me to face beasts in combat, and not once have I shirked that duty. But to lay hands upon those sticky, slimy eggs is just─"
+            },
+            {
+                "name": "ROSELINE",
+                "text": "Well, clearly you have no problems doing so. Thank you for your help, adventurer."
+            },
+            {
+                "name": "POP",
+                "text": "A diremite rushes to the defense of the eggs!"
+            }
+        ],
+        "reward": {
+            "gil": 220,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 4551
+                }
+            ],
+            "xp": 1710
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65912
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000748",
+            "obj": {
+                "i": 1000748,
+                "n": "Roseline",
+                "l": 54,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65912",
+            "obj": {
+                "i": 65912,
+                "n": "You Shall Not Trespass",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 42
+            }
+        }
+    ]
+}

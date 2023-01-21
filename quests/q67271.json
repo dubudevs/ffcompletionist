@@ -1,0 +1,87 @@
+{
+    "quest": {
+        "name": "Dances with Wolves",
+        "location": "Coerthas Western Highlands",
+        "id": 67271,
+        "patch": 3.0,
+        "sort": 5002,
+        "eventIcon": 71221,
+        "issuer": 1011903,
+        "target": 1011903,
+        "genre": 94,
+        "journal": [
+            "Ysaudore peers over the cliff with concern.",
+            "The area around Camp Riversmeet was once a field of rich, rolling meadows. Now it is a frozen wasteland, home to fierce, hungry wolves. Ysaudore seems intent on driving these beasts away and has entrusted you with a mission: slay three silver wolves.",
+            "You have slain the wolves as requested. Return to Ysaudore, and let her hear of your success.",
+            "Ysaudore thanks you for your hard work. Camp Riversmeet once served as a military outpost, quartering Ishgardian troops and facilitating patrols of the surrounding area. Ysaudore hopes to see the camp reclaimed and the area made safe once more."
+        ],
+        "objectives": [
+            "Slay silver wolves.",
+            "Report to Ysaudore."
+        ],
+        "dialogue": [
+            {
+                "name": "YSAUDORE",
+                "text": "Some ways beyond here lies Camp Riversmeet. The camp was once the center of luscious pastures─a prime grazing field for cattle and other livestock... Now it's home to naught more than wolves."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "Pray help drive the beasts away with sword and spell. Slay three silver wolves─let them learn to fear us."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "Pray drive away the creatures at Camp Riversmeet. Slay three of the silver wolves found skulking there."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "You've already slain those horrid wolves? You have my deepest thanks."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "There was a time when there were Ishgardian troops stationed at Camp Riversmeet. Should we recover the camp─were we able to station soldiers there again─it would make our patrols safer, let them cover more area..."
+            },
+            {
+                "name": "YSAUDORE",
+                "text": "Before long, we shall move to reclaim the camp. When that time comes, I may call upon your services again."
+            }
+        ],
+        "reward": {
+            "gil": 574,
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67122
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1011903",
+            "obj": {
+                "i": 1011903,
+                "n": "Ysaudore",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67122",
+            "obj": {
+                "i": 67122,
+                "n": "From on High",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 7
+            }
+        }
+    ]
+}

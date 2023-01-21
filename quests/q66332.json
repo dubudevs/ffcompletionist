@@ -1,0 +1,142 @@
+{
+    "quest": {
+        "name": "Meals for Miners",
+        "location": "North Shroud",
+        "id": 66332,
+        "patch": 2.0,
+        "sort": 280,
+        "eventIcon": 71221,
+        "issuer": 1002804,
+        "target": 1002804,
+        "involved": [
+            1006253,
+            1006254,
+            1006258
+        ],
+        "genre": 92,
+        "journal": [
+            "Aeluuin would ask you to make a special delivery.",
+            "Aeluuin has entrusted you with delivering meals to three prospectors at Finders' Bluff: Laughing Fury, Vavapu, and Ademar.",
+            "The three prospectors were overjoyed to receive their long-awaited meals. Inform Aeluuin that they go hungry no more.",
+            "Aeluuin is genuinely pleased to hear that the prospectors at Finders' Bluff enjoyed their meals. It is clear that the innkeep cares deeply for his customers."
+        ],
+        "objectives": [
+            "Deliver meals to the prospectors.",
+            "Report to Aeluuin."
+        ],
+        "dialogue": [
+            {
+                "name": "AELUUIN",
+                "text": "My <span class=\"alternative-container\"><span class=\"alternative\">dear lady</span><span class=\"alternative\">good man</span></span>, I daresay you're more reliable than the rest of my hired help put together. For better or for worse, this means I've got another job for you."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "I've got three basket lunches here that need delivering to Finders' Bluff. After the last adventurer scarfed down three boxes on his own and ran off without paying his tab, I need someone I can trust."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "//: deliver food"
+            },
+            {
+                "name": "LAUGHINGFURY",
+                "text": "Diggin' for gold day and night sure works me up an appetite. Is it time for <span class=\"alternative-container\"><span class=\"alternative\">supper</span><span class=\"alternative\">breakfast</span><span class=\"alternative\">lunch</span></span> yet?"
+            },
+            {
+                "name": "LAUGHINGFURY",
+                "text": "One o' Master Aeluuin's specialty basket lunches? Well, now, don't mind if I do!"
+            },
+            {
+                "name": "VAVAPU",
+                "text": "Ah! Will my tummy not stop rumbling? Tummy! I command you! Cease your rumbling!"
+            },
+            {
+                "name": "VAVAPU",
+                "text": "From Aeluuin, you say? My tummy and I are much obliged!"
+            },
+            {
+                "name": "ADEMAR",
+                "text": "Bloody hog of an adventurer, stealin' the food o' honest, hardworkin' men..."
+            },
+            {
+                "name": "ADEMAR",
+                "text": "Are me eyes to be believed!? Thank ye, friend. It's good to know <span class=\"emphasis\">some</span> adventurers can still be trusted."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "Aeluuin's famous basket lunches hit the spot, eh? I thought as much! The prospectors at Finders' Bluff aren't just digging for personal fortune, you know─each onze of gold helps this region thrive and prosper. I'm happy to return the favor."
+            },
+            {
+                "name": "AELUUIN",
+                "text": "You've gone above and beyond for me, and for this you have my thanks. Next time you fancy an ale, a tale, or just a respite from the road, know that there's always a place for you here at the Bobbing Cork."
+            }
+        ],
+        "reward": {
+            "gil": 1320,
+            "xp": 6290
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66329
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002804",
+            "obj": {
+                "i": 1002804,
+                "n": "Aeluuin",
+                "l": 57,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006253",
+            "obj": {
+                "i": 1006253,
+                "n": "Laughing Fury",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006254",
+            "obj": {
+                "i": 1006254,
+                "n": "Vavapu",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006258",
+            "obj": {
+                "i": 1006258,
+                "n": "Ademar",
+                "l": 57,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66329",
+            "obj": {
+                "i": 66329,
+                "n": "Trouble on the Road",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 280
+            }
+        }
+    ]
+}

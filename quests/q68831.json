@@ -1,0 +1,150 @@
+{
+    "quest": {
+        "name": "Following in Her Footprints",
+        "location": "Amh Araeng",
+        "id": 68831,
+        "patch": 5.0,
+        "sort": 170,
+        "icon": 100896,
+        "eventIcon": 71201,
+        "issuer": 1029001,
+        "target": 1029002,
+        "genre": 8,
+        "journal": [
+            "Tesleen casts her gaze around the Inn, hoping to spot Alisaie.",
+            "Seeing no sign of Alisaie inside the Inn, Tesleen suggests you venture out to the watchtower, where your mutual friend usually begins her patrol.",
+            "Though Alisaie is nowhere to be seen, you do find some familiar footprints. If you follow them, you may yet catch up with her...",
+            "The tracks head northwest, and so you must do the same.",
+            "More footprints lead off into the distance, drawing you ever further northwest...",
+            "Just as you are beginning to wonder how far this “patrol route” will take you from the Inn, the tracks curve around to the west.",
+            "Without warning, the trail comes to an abrupt stop, leaving you at a loss as to how to proceed. As you attempt to divine what could have happened, you witness Alisaie leaping off a nearby building in pursuit of a fleeing sin eater. You approach as she finishes off her prey, and your long-awaited reunion quickly becomes an eager exchange of news.",
+            "Alisaie paints a grim picture of Amh Araeng and the threat posed by the sin eaters. It seems that she intends for you to learn about the situation at the edge of the world firsthand..."
+        ],
+        "objectives": [
+            "Look for signs of Alisaie near the Derrick.",
+            "Investigate the small footprints.",
+            "Follow the small footprints.",
+            "Investigate the small footprints.",
+            "Speak with Alisaie."
+        ],
+        "dialogue": [
+            {
+                "name": "TESLEEN",
+                "text": "Now, where is she...?"
+            },
+            {
+                "name": "TESLEEN",
+                "text": "...Hm. I think she might be out on patrol."
+            },
+            {
+                "name": "TESLEEN",
+                "text": "You could wait, I suppose─but why not go and surprise her!? She usually takes a look at things from the watchtower first, so you might be able to catch her there."
+            },
+            {
+                "name": "TESLEEN",
+                "text": "It's not far─head out the south side and you'll soon see it. I'll stay behind, in case she comes back while you're gone."
+            },
+            {
+                "name": "TESLEEN",
+                "text": "The watchtower's on the south side. I only wish I could be there to see Alisaie's face when she realizes it's you!"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Alisaie is nowhere to be seen, but you spot fresh footprints on the ground...and they look to be about the right size."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The small footprints lead off to the northwest."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The footprints continue on to the northwest."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The footprints curve around to the west."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "There are more tracks here, but they end in a mess of disturbed sand..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "It's just a matter of time─more for some, less for others. Those patients will all become monsters in the end."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "And to add insult to injury, the afflicted are <span class=\"emphasis\">feared</span>. Shunned. Cast out of society, and exiled here to the edge of the world..."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "The only good thing I have to say about this hellish place is that it has served me well as a training ground. Tesleen and the others have also been kind enough to share their knowledge of the sin eaters."
+            },
+            {
+                "name": "ALISAIE",
+                "text": "Which is knowledge I can now share with you...while you help me finish my patrol, of course."
+            }
+        ],
+        "reward": {
+            "gil": 1007
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                68830
+            ]
+        },
+        "next": [
+            68832
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1029001",
+            "obj": {
+                "i": 1029001,
+                "n": "Tesleen",
+                "l": 2955,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1029002",
+            "obj": {
+                "i": 1029002,
+                "n": "Alisaie",
+                "l": 2955,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68830",
+            "obj": {
+                "i": 68830,
+                "n": "A Desert Crossing",
+                "g": 8,
+                "l": "Amh Araeng",
+                "s": 160
+            }
+        },
+        {
+            "type": "quest",
+            "id": "68832",
+            "obj": {
+                "i": 68832,
+                "n": "Culling Their Ranks",
+                "g": 8,
+                "l": "Amh Araeng",
+                "s": 180
+            }
+        }
+    ]
+}

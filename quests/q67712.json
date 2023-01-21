@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Water Crystal Waltz",
+        "location": "The Sea of Clouds",
+        "id": 67712,
+        "patch": 3.1,
+        "sort": 16,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016089,
+        "involved": [
+            1011952
+        ],
+        "genre": 45,
+        "journal": [
+            "Muna Vanu is looking haggard and gaunt.<br>※The difficulty of this quest will be synced to your current level.",
+            "You learn that the Gundu's water supplies are precariously close to running out. Muna Vanu is not content to gamble his tribe's fate on waiting for rain, and so asks you to collect spring crystals from Voor Sian Siran to fulfill the need for water. However, since the knights of Camp Cloudtop now gather crystals there, he suggests you seek authorization from the nearby Ishgardians, lest a diplomatic incident result. Travel to the Rosehouse and convince Lady Laniaitte to let you harvest these crystals.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "Laniaitte is more than happy for you to gather spring crystals for the Gundu. In fact, she finds it odd that they even feel they need permission. Collect three spring crystals from Voor Sian Siran, then return to Muna Vanu and let him know that the Rose Knights bear his people no ill will.",
+            "You collect three large, clean spring crystals. Deliver them to Muna Vanu.",
+            "With the crystals you gathered for them, the Gundu tribe will now have enough water to meet their needs. Though they wish to foster a mutually beneficial relationship with the knights of Camp Cloudtop, troubles with the Vundu have left them too busy to work towards this goal. But by speaking to the Ishgardians on their behalf, you may have paved the way to further advancements on this front."
+        ],
+        "objectives": [
+            "Speak with Laniaitte at the Rosehouse.",
+            "Gather spring crystals at Voor Sian Siran.",
+            "Deliver the crystals to Muna Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "Water... Ok' Gundu has no water. Throats of villagers parched like sun-bleached stones. Rainfall is rare thing when above clouds themselves, but spring crystals well with moisture, pouring forth like endless waterfall. Such crystals would quench our tribe's thirst."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "They grow large at place netherlings call Voor Sian Siran. Knights of Camp Cloudtop use spring crystals as water source, as once did Gundu, but to harvest them without permission would risk sparking hostilities."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "But <span class=\"highlight\">Forename</span> is netherling, and can speak with leader of camp to get permission to harvest crystals! Please, speak with knights and gather three spring crystals for Gundu."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "The Gundu need spring crystals, do they? I don't see any problem with helping yourself to them. There are more than enough to provide us all with sufficient water."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "To be honest, I can't see why they feel the need to ask permission first. They have all lived up here a great deal longer than we have! In any case, I appreciate the courtesy. Please extend my thanks to them."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "By far the best place to get your hands on spring crystals is over at Voor Sian Siran. It's some ways east of here."
+            },
+            {
+                "name": "LANIAITTE",
+                "text": "You seem to be on very good terms with the Gundu, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. With all the work you are doing for them, I daresay you'll find yourself very much in their good graces before long. If only <span class=\"emphasis\">our</span> relationship with them were so genial."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Gundu eagerly await return of <span class=\"highlight\">Forename</span>. Does netherling bring spring crystals?"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Such beautiful crystals they are! Large and clear, like great, majestic lake. Ok' Gundu Nakki's crops go unwatered no longer, and beaks no longer go dry and parched!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "To gather water in Sea of Clouds is no easy task. Gundu collect rainwater, but sky is fickle with its generosity. And so we must resort to spring crystals."
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Thank you again for reaching out to netherlings on Gundu's behalf. Our warriors and thinkers have talons full in dealing with cruel Vundu menace. But thanks to <span class=\"highlight\">Forename</span>, we have foundation on which to build relationship with knights of Camp Cloudtop."
+            }
+        ],
+        "reward": {
+            "gil": 681,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011952",
+            "obj": {
+                "i": 1011952,
+                "n": "Laniaitte",
+                "l": 2100,
+                "q": 19
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

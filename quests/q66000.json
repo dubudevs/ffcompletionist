@@ -1,0 +1,98 @@
+{
+    "quest": {
+        "name": "Further Afield",
+        "location": "Middle La Noscea",
+        "id": 66000,
+        "patch": 2.0,
+        "sort": 28,
+        "eventIcon": 71201,
+        "target": 1002627,
+        "genre": 0,
+        "journal": [
+            "Gurcant is eyeing fertile new fields for Summerford Farms, but pests perturb his plows.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to either Staelwyrn or Gurcant at Summerford Farms, depending on your progress.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "The fields are now ripe for tillage. Deliver the good news to Gurcant.",
+            "Gurcant laments having to ask outsiders for help, especially considering all the one-time swashbucklers loitering about. All the same, he is grateful for your assistance."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and accept it again to restart.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "GURCANT",
+                "text": "Blast! How's a botanist supposed to accomplish fieldwork without a field to work in?"
+            },
+            {
+                "name": "GURCANT",
+                "text": "Washed-up pirates are well and good when you want a field pillaged and plundered, but not when you need it plowed."
+            },
+            {
+                "name": "GURCANT",
+                "text": "A lone horticulturalist such as myself hardly strikes fear in the hearts of monsters, but your gait is such that I believe <span class=\"emphasis\">you</span> might."
+            },
+            {
+                "name": "GURCANT",
+                "text": "I'd be much obliged if you could rid the field of some mandragoras. With five fewer of the sprouting critters roaming about, I'm sure I could return to my work."
+            },
+            {
+                "name": "GURCANT",
+                "text": "How about that! You've already done more than that whole lot of slothful sea slugs combined."
+            },
+            {
+                "name": "GURCANT",
+                "text": "If only they spent half as much time proving their worth as they do talking about it."
+            }
+        ],
+        "reward": {
+            "xp": 1950
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 5,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66079
+            ]
+        },
+        "next": [
+            66006
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002627",
+            "obj": {
+                "i": 1002627,
+                "n": "Gurcant",
+                "l": 30,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66079",
+            "obj": {
+                "i": 66079,
+                "n": "Lurkers in the Grotto",
+                "g": 1,
+                "l": "Middle La Noscea",
+                "s": 18
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66006",
+            "obj": {
+                "i": 66006,
+                "n": "Yarzon, Yarzoff",
+                "g": 91,
+                "l": "Middle La Noscea",
+                "s": 70
+            }
+        }
+    ]
+}

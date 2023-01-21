@@ -1,0 +1,109 @@
+{
+    "quest": {
+        "name": "Inquire at the Spire",
+        "location": "North Shroud",
+        "id": 66443,
+        "patch": 2.0,
+        "sort": 370,
+        "eventIcon": 71221,
+        "issuer": 1006405,
+        "target": 1006406,
+        "genre": 92,
+        "journal": [
+            "Isaudorel's companion has been taciturn till now, but when Ireine has something to say, all present are advised to listen.",
+            "Overhearing your conversation with Isaudorel, Ireine bids you take Coerthas' Ixal problem up the chain of command. Leave Ireine and Isaudorel to hurl comradely abuse at one another and make your report to Miah Molkot at Eugenia's Spire.",
+            "Miah Molkot accepts Belmont's request without demur and with much purr. You learn that the White Rams are in fact a counter-Ixal levy, and on a personal level, Molkot appears to take nearly gustatory delight in defeating the birdmen. "
+        ],
+        "objectives": [
+            "Report to Miah Molkot."
+        ],
+        "dialogue": [
+            {
+                "name": "IREINE",
+                "text": "Well met, adventurer. May I call you <span class=\"highlight\">Forename</span>? I'm Ireine, a tactical officer of the White Rams─and apparently a medic, for I find myself ordered to keep an eye on this lug. Oh, shut it, Isaudorel!"
+            },
+            {
+                "name": "IREINE",
+                "text": "So, the matter you were speaking to Isaudorel about. I'm certain Instructor Molkot will be keen to hear of the Ixal's movements in the west─best you talk to her straightaway and make plans."
+            },
+            {
+                "name": "IREINE",
+                "text": "That'd be Miah Molkot, the leader of the White Rams and an instructor of the Gods' Quiver. She bides this day at Eugenia's Spire to the north. Take Belmont's words to her."
+            },
+            {
+                "name": "IREINE",
+                "text": "And do watch yourself. Miah Molkot's slain as many Ixal in battle as there are trees in the woods of Proud Creek. She can be...scary. Waste her time with maffles or bluster, and she might use you as Ixal bait."
+            },
+            {
+                "name": "MIAHMOLKOT",
+                "text": "Who scratches at my door? An adventurer on the prowl for Miah Molkot? I am she, born to be the bane of the birdmen! I lead the White Rams, an arrow of the Gods' Quiver aimed at the craven hearts of the Ixal."
+            },
+            {
+                "name": "MIAHMOLKOT",
+                "text": "I see! We must act now─right <span class=\"emphasis\">now</span>─to stop this threat. Extending the defensive line against the Ixal northwest into Coerthas will be no stroll through the wood, but ah, how the birdies will struggle in the net! I can already hear their little necks breaking..."
+            }
+        ],
+        "reward": {
+            "gil": 1478,
+            "xp": 9660
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 37,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66442
+            ]
+        },
+        "next": [
+            66444
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006405",
+            "obj": {
+                "i": 1006405,
+                "n": "Ireine",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006406",
+            "obj": {
+                "i": 1006406,
+                "n": "Miah Molkot",
+                "l": 57,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66442",
+            "obj": {
+                "i": 66442,
+                "n": "Tit for Tat",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 370
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66444",
+            "obj": {
+                "i": 66444,
+                "n": "Don't Shut Me Out",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 370
+            }
+        }
+    ]
+}

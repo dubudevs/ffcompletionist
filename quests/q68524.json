@@ -1,0 +1,151 @@
+{
+    "quest": {
+        "name": "Buoyant Bounty",
+        "location": "The Ruby Sea",
+        "id": 68524,
+        "patch": 4.1,
+        "sort": 16,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "involved": [
+            1024218
+        ],
+        "genre": 51,
+        "journal": [
+            "Zukin hopes to identify the source of an unusual aroma.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Put the fragrant substance into the waterproof bag.",
+            "Deliver the bag of fragrant substance to Makura.",
+            "Report to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "There's something I would like you to investigate. I have had a report of an unusual object bobbing up and down on the waves. Apparently, it is giving off an unusual scent too."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "It is probably nothing, but we should look into it all the same. The smell might be caused by it dissolving into the water, so we should put it into a waterproof bag to help keep it intact."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "I would recommend showing it to Makura once you get back. She has a keen sense of smell, and will hopefully be able to tell us what it is."
+            },
+            {
+                "name": "MAKURA",
+                "text": "An unidentified fragrant object you say? Floating on the waves? If that's what I think it is, we had best retrieve it posthaste!"
+            },
+            {
+                "name": "MAKURA",
+                "text": "How goes the search?"
+            },
+            {
+                "name": "MAKURA",
+                "text": "Not quite what I was hoping for, but I'm sure we can find a use for it. I half expected it to be ambergris."
+            },
+            {
+                "name": "MAKURA",
+                "text": "While the fragrance is certainly pleasing, it's definitely not ambergris."
+            },
+            {
+                "name": "MAKURA",
+                "text": "This is it! Ambergris! Our devotion to the kami has been rewarded!"
+            },
+            {
+                "name": "MAKURA",
+                "text": "Although we do not treat ambergris as “treasure” as such, it is nonetheless very rare and precious to the Kojin."
+            },
+            {
+                "name": "MAKURA",
+                "text": "Allow me to explain. Ambergris is said to be formed inside a dragon's gut─I jest not─and is sometimes found floating on the Ruby Sea."
+            },
+            {
+                "name": "MAKURA",
+                "text": "We have no method for ascertaining when or where it can be found. Owing to its scarcity, we treat it with the utmost care. It is used to produce incense like no other."
+            },
+            {
+                "name": "MAKURA",
+                "text": "I'll show this to the others and we'll decide how it should be used. If you come across anything similar, I would very much like to examine it!"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Makura seemed very interested by your findings. Did I hear her mention ambergris? She would use it to make incense and whatnot, but that seems like a waste to me. Think of how much it would fetch at market!"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Well, once again, your help in our investigations is much appreciated."
+            }
+        ],
+        "reward": {
+            "gil": 615,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 4,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024218",
+            "obj": {
+                "i": 1024218,
+                "n": "Makura",
+                "l": 2409,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

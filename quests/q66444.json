@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "Don't Shut Me Out",
+        "location": "North Shroud",
+        "id": 66444,
+        "patch": 2.0,
+        "sort": 370,
+        "eventIcon": 71221,
+        "issuer": 1006406,
+        "target": 1006406,
+        "genre": 92,
+        "journal": [
+            "Instructor Molkot commands both fear and loyalty, and one of those will bend you to her will. Resist not, and find out what she wants.",
+            "Miah Molkot is never without a violent plan or three, and the barricade erected by the Ixal only stokes the flames. Take the bomb finger, make your way to the blockade on the north corridor, and blast it into oblivion.",
+            "The blockade is no more, and the north corridor stands open. Take the happy news to Molkot.",
+            "Molkot greets the news with eyes glittering and tail lashing. At certain times, she reminds you of some exotic creature─impossible to control, casually bloodthirsty, and hypnotic to behold."
+        ],
+        "objectives": [
+            "Use the bomb finger to destroy the Ixali blockade.",
+            "Report to Miah Molkot."
+        ],
+        "dialogue": [
+            {
+                "name": "MIAHMOLKOT",
+                "text": "The White Rams are stationed at Eugenia's Spire <span class=\"emphasis\">ostensibly</span> on guard duty─oh yes, protecting the trees of this forest from the miscreants in the Ixali logging grounds to the north. Very defensive!"
+            },
+            {
+                "name": "MIAHMOLKOT",
+                "text": "Play defense long enough, and the enemy forgets we can attack. I suppose that was the idea, but─now! Now, the enemy <span class=\"emphasis\">anticipates</span> us."
+            },
+            {
+                "name": "MIAHMOLKOT",
+                "text": "Those mocking, tweeting birds have sealed off the north corridor with a blockade! I ssspit on their cunning. It keeps me from their wee necks..."
+            },
+            {
+                "name": "MIAHMOLKOT",
+                "text": "Adventurer, take down the blockade with this bomb finger. Little birds not content to have a few more quiet moons before all hells break loose? Fine! The Ixal shall feel the Ram right meow!"
+            },
+            {
+                "name": "MIAHMOLKOT",
+                "text": "Well blasted! A purrrfect detonation!"
+            },
+            {
+                "name": "MIAHMOLKOT",
+                "text": "Put up your little blockades, my wee birds, and down they go like a cradle on a bough! There will be nothing, but nothing, to stand between the White Rams and our prey..."
+            },
+            {
+                "name": "POP",
+                "text": "That screech could only be limbcutters!"
+            }
+        ],
+        "reward": {
+            "gil": 1478,
+            "xp": 9660
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 37,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66443
+            ]
+        },
+        "next": [
+            66445
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006406",
+            "obj": {
+                "i": 1006406,
+                "n": "Miah Molkot",
+                "l": 57,
+                "q": 5
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66443",
+            "obj": {
+                "i": 66443,
+                "n": "Inquire at the Spire",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 370
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66445",
+            "obj": {
+                "i": 66445,
+                "n": "From Gridania, with Love",
+                "g": 92,
+                "l": "North Shroud",
+                "s": 370
+            }
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "quest": {
+        "name": "Skullduggery",
+        "location": "Western La Noscea",
+        "id": 66924,
+        "patch": 2.2,
+        "sort": 16,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005938,
+        "target": 1005938,
+        "involved": [
+            1008793,
+            1008794,
+            1008795,
+            1008796
+        ],
+        "genre": 41,
+        "journal": [
+            "Fyuu has learned of an ill-considered Coral Trident scheme.",
+            "Fyuu informs you that several Sahagin warriors have slipped past the tidegates and now lurk in the shadows of the shorewalker encampments. Conduct a search of the area around Camp Skull Valley, and neutralize the infiltrators before they can endanger Novv's cause with their impatiently planned assault.",
+            "After a series of spectacularly unsuccessful negotiations, you have removed the threat of the Sahagin infiltrators by force. Return to Novv's Nursery and report to Fyuu.",
+            "Fyuu appears saddened but unsurprised by the bloody conclusion to your encounter beyond the tidegates. Though the thick-scaled Tridents seem immune to the barbs of reason, the young Sahagin hopes that the continued failure of their operations will one day help them to see the futility of their course."
+        ],
+        "objectives": [
+            "Confront the Sahagin infiltrators in Skull Valley.",
+            "Report to Fyuu."
+        ],
+        "dialogue": [
+            {
+                "name": "FYUU",
+                "text": "Pshhh... Ill news, finless one. My watchful ssspawnbrothers witnessed a group of young Trident warriors sssneaking around the coassstline in an attempt to bypass the defenses of the tidegates."
+            },
+            {
+                "name": "FYUU",
+                "text": "Assuming they have been successful, these impatient infiltrators will have already taken up position in the shhhadows around the shhhorewalker camp. Now they await but the opportunity to ssstrike."
+            },
+            {
+                "name": "FYUU",
+                "text": "If you are quick about tracking them down, perhapsss you can convince them to abandon this folly before any real damage is done."
+            },
+            {
+                "name": "FYUU",
+                "text": "Should they refuse to heed your warnings, then do what mussst be done. I will not long grieve for kin that place our entire race in jeopardy."
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... Sssearch the shhhorewalker encampment beyond the tidegates for these eager fools. If they do not abandon their ssscheme upon being dissscovered, then use whatever force is necessary to end this incident before it is begun."
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "You are under attack!"
+            },
+            {
+                "name": "MOBA01388",
+                "text": "Our ssscheme is uncovered? Pshhhahaha! Then yours shhhall be the firssst blood I ssspill!"
+            },
+            {
+                "name": "MOBB01388",
+                "text": "Pshhh... Any who oppose the will of the Tridentshhh mushhht fall!"
+            },
+            {
+                "name": "MOBC01388",
+                "text": "You think to command me, finless one!? I will teach you to tessst the might of the Sssahagin!"
+            },
+            {
+                "name": "MOBD01388",
+                "text": "Are you sssun-touched, shhhorewalker? We will abandon our purpose when the sssea runs dry!"
+            },
+            {
+                "name": "FYUU",
+                "text": "Pshhh... Ssso, the infiltrators all lie ssslain? I expected as much, but I had hoped they would listen to reason."
+            },
+            {
+                "name": "FYUU",
+                "text": "Perhapsss if my kin continue to fail in this manner, they will one day reconsssider their warmongering ways..."
+            }
+        ],
+        "reward": {
+            "gil": 540,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9142
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 44,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005938",
+            "obj": {
+                "i": 1005938,
+                "n": "Fyuu",
+                "l": 33,
+                "q": 11
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008793",
+            "obj": {
+                "i": 1008793,
+                "n": "Sahagin Infiltrator",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008794",
+            "obj": {
+                "i": 1008794,
+                "n": "Sahagin Infiltrator",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008795",
+            "obj": {
+                "i": 1008795,
+                "n": "Sahagin Infiltrator",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008796",
+            "obj": {
+                "i": 1008796,
+                "n": "Sahagin Infiltrator",
+                "l": 33,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

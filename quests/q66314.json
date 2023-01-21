@@ -1,0 +1,234 @@
+{
+    "quest": {
+        "name": "Wilred Wants You",
+        "location": "Southern Thanalan",
+        "id": 66314,
+        "patch": 2.0,
+        "sort": 146,
+        "eventIcon": 71201,
+        "issuer": 1006226,
+        "target": 1006215,
+        "involved": [
+            1006228
+        ],
+        "genre": 1,
+        "journal": [
+            "Hremfing has a secret message for you.",
+            "It seems a young fellow named Wilred wants a word with you in private. Make your way to the designated meeting point, a rocky area north of the settlement.",
+            "Somewhat predictably, the rendezvous turns out to be a trap. Wilred and his cronies fall upon you, but you succeed in overpowering them. Question Wilred and learn of his agenda.",
+            "Wilred manages to give you the slip, but not before mentioning a plan to bring down the Empire. Gundobald will want to know of this.",
+            "Gundobald is troubled to learn that Wilred and his companions will stop at nothing for their plan. What could the young ones possibly mean to do?"
+        ],
+        "objectives": [
+            "Rendezvous with Wilred.",
+            "Question Wilred.",
+            "Report to Gundobald."
+        ],
+        "dialogue": [
+            {
+                "name": "HREMFING",
+                "text": "Hey, adventurer. You done talking with the old bear?"
+            },
+            {
+                "name": "HREMFING",
+                "text": "I've got a message for you from Wilred. Lad's something of a leader among the young ones here."
+            },
+            {
+                "name": "HREMFING",
+                "text": "He's impressed that you've won over Gundobald, and wants a word with you. Says he'll be waiting over at the craggy area north of here."
+            },
+            {
+                "name": "WILRED",
+                "text": "Thanks for coming, friend. 'Tis no ordinary outsider who can gain the trust of the old bear. That's why I wanted to meet you, to discuss something in private."
+            },
+            {
+                "name": "WILRED",
+                "text": "Tell me...why are you snooping about? Did the Empire send you? Or someone else?"
+            },
+            {
+                "name": "WILRED",
+                "text": "Coeurl got your tongue? Hmph, no matter. Whoever it is you work for, your meddling ends here. Get <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">him</span></span>!"
+            },
+            {
+                "name": "WILRED",
+                "text": "I won't let you foil our plan!"
+            },
+            {
+                "name": "DUMMY",
+                "text": "(Defeat Ala Mhigan youths.)"
+            },
+            {
+                "name": "WILRED",
+                "text": "Y-You're stronger than you look..."
+            },
+            {
+                "name": "WILRED",
+                "text": "This changes nothing! Threaten us, beat us bloody all you like...but nothing short of death can make us give up our fight!"
+            },
+            {
+                "name": "WILRED",
+                "text": "We're going to obtain the power to bring down the Empire, and with it we'll reclaim our homeland!"
+            },
+            {
+                "name": "GUNDOBALD",
+                "text": "Attacked by Wilred and his cronies!? That they would go to such lengths for the sake of this plan of theirs..."
+            },
+            {
+                "name": "GUNDOBALD",
+                "text": "Left to their own devices, the young fools are like to harm others, if not themselves. We must uncover their agenda and put an end to this madness."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3068,
+                    "one": 1
+                },
+                {
+                    "id": 3090,
+                    "one": 1
+                },
+                {
+                    "id": 3066,
+                    "one": 1
+                },
+                {
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 11520
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 27,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66313
+            ]
+        },
+        "next": [
+            66315,
+            66318
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006226",
+            "obj": {
+                "i": 1006226,
+                "n": "Hremfing",
+                "l": 45,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006215",
+            "obj": {
+                "i": 1006215,
+                "n": "Gundobald",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006228",
+            "obj": {
+                "i": 1006228,
+                "n": "Wilred",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "3068",
+            "obj": {
+                "i": 3068,
+                "n": "Heavy Iron Armor",
+                "l": 25,
+                "c": 48020,
+                "t": 35,
+                "p": 3540
+            }
+        },
+        {
+            "type": "item",
+            "id": "3090",
+            "obj": {
+                "i": 3090,
+                "n": "Velveteen Cowl",
+                "l": 27,
+                "c": 43615,
+                "t": 35,
+                "p": 2568
+            }
+        },
+        {
+            "type": "item",
+            "id": "3066",
+            "obj": {
+                "i": 3066,
+                "n": "Velveteen Shirt",
+                "l": 25,
+                "c": 42226,
+                "t": 35,
+                "p": 1428
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66313",
+            "obj": {
+                "i": 66313,
+                "n": "The Bear and the Young'uns' Cares",
+                "g": 1,
+                "l": "Southern Thanalan",
+                "s": 145
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66315",
+            "obj": {
+                "i": 66315,
+                "n": "Corpse Confrontation",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 270
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66318",
+            "obj": {
+                "i": 66318,
+                "n": "Big Trouble in Little Ala Mhigo",
+                "g": 1,
+                "l": "Southern Thanalan",
+                "s": 147
+            }
+        }
+    ]
+}

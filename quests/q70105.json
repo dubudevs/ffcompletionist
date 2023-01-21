@@ -1,0 +1,110 @@
+{
+    "quest": {
+        "name": "Tusk Trouble",
+        "location": "Thavnair",
+        "id": 70105,
+        "patch": 6.15,
+        "sort": 119,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 15,
+        "eventIcon": 71222,
+        "issuer": 1042301,
+        "target": 1042301,
+        "genre": 33,
+        "journal": [
+            "Maru seems concerned about dental hygiene.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Place the rotting meat at the designated location.",
+            "Lie in wait at the designated location and defeat the old pisaca when it appears.",
+            "Deliver the handful of tough pisaca scales to Maru."
+        ],
+        "dialogue": [
+            {
+                "name": "MARU",
+                "text": "Our hippos are all sweet softies, but behind those plump, whiskery lips, they're packin' serious tusks that need regular care."
+            },
+            {
+                "name": "MARU",
+                "text": "We like usin' pisaca scales to file 'em down, but pisaca scales have this tendency of comin' attached to pisaca. That's where you come in..."
+            },
+            {
+                "name": "MARU",
+                "text": "If you leave this spoiled meat by their stampin' grounds, one's sure to come stampin'. Just make sure it ain't got brittle scales, okay? An old pisaca should have what you're lookin' for..."
+            },
+            {
+                "name": "MARU",
+                "text": "Find any eligible scales?"
+            },
+            {
+                "name": "MARU",
+                "text": "Oh, these are perfect! Thanks for your help."
+            },
+            {
+                "name": "MARU",
+                "text": "So far as I know, pisaca scales are the only tool tough enough to handle Thavnairian hippo tusks. Wild hippos scrape theirs against giantsgall, but they can swallow bits of rock doin' that. Upsets their stomachs..."
+            },
+            {
+                "name": "MARU",
+                "text": "But thanks to you, Svarna's hippos will have shaved tusks an' healthy bellies! The keystones of hippo health. ...Probably."
+            }
+        ],
+        "reward": {
+            "gil": 655,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 44
+                },
+                {
+                    "id": 36657
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 5,
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1042301",
+            "obj": {
+                "i": 1042301,
+                "n": "Maru",
+                "l": 3709,
+                "q": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "44",
+            "obj": {
+                "i": 44,
+                "n": "Allagan Tomestone of Causality",
+                "l": 1,
+                "c": "t/65094",
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "36657",
+            "obj": {
+                "i": 36657,
+                "n": "Arkasodara Pana",
+                "l": 1,
+                "c": "t/65091",
+                "t": 100
+            }
+        }
+    ]
+}

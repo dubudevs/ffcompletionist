@@ -1,0 +1,168 @@
+{
+    "quest": {
+        "name": "What's Your Poison",
+        "location": "Southern Thanalan",
+        "id": 66316,
+        "patch": 2.0,
+        "sort": 270,
+        "eventIcon": 71221,
+        "issuer": 1006227,
+        "target": 1006227,
+        "genre": 93,
+        "journal": [
+            "Amelot needs something, and needs it now.",
+            "Amelot needs to prepare an antidote─and quickly─but lacks for a vital ingredient. Use the bottle of leoformic acid she has entrusted to you to slay a rockskin peiste and obtain its poison.",
+            "You have obtained a secretion of peiste poison. Deliver it to Amelot with due haste.",
+            "As Amelot tells it, the poisons employed by the Corpse Brigade have grown increasingly potent of late, and antidote has been in short supply. Your efforts have made it possible for the Resistance to continue fighting the good fight."
+        ],
+        "objectives": [
+            "Use the leoformic acid and slay a rockskin peiste.",
+            "Deliver the peiste poison to Amelot.",
+            "//: kill peiste, get poison"
+        ],
+        "dialogue": [
+            {
+                "name": "AMELOT",
+                "text": "Adventurer. I fear I've no time for pleasantries, but I would be much in your debt if you could perform for me a simple task."
+            },
+            {
+                "name": "AMELOT",
+                "text": "To wit, I need you to slay a rockskin peiste and obtain for me a secretion of its poison."
+            },
+            {
+                "name": "AMELOT",
+                "text": "If you've seen one of those fearsome reptiles─as I reckon you have─you know that their scales are as hard as solid stone."
+            },
+            {
+                "name": "AMELOT",
+                "text": "This acid I give you, however, will cut right through it─I haven't much, so pray use it well."
+            },
+            {
+                "name": "AMELOT",
+                "text": "Some of my countrymen are not quick to trust outsiders, but I've no time to entertain foolish prejudices─this is a matter of life and death."
+            },
+            {
+                "name": "AMELOT",
+                "text": "You return, adventurer. Have you brought me the poison I seek?"
+            },
+            {
+                "name": "AMELOT",
+                "text": "On behalf of my countrymen, you have my thanks."
+            },
+            {
+                "name": "AMELOT",
+                "text": "Forgive me for my brusqueness before. Our skirmishes with the Corpse Brigade have taken a great toll on us of late. They employ poisons ever more lethal, and our antidote stores were running low."
+            },
+            {
+                "name": "AMELOT",
+                "text": "I must attend to my potion-brewing, but thank you, outsider. Because of you, the men and women of the Resistance live to fight another day."
+            },
+            {
+                "name": "POP",
+                "text": "With a savage hiss, the scaled beast strikes at you!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 5811
+                },
+                {
+                    "num": 3,
+                    "id": 4579,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4580,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4581,
+                    "one": 1
+                }
+            ],
+            "xp": 5760
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 27,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66317
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006227",
+            "obj": {
+                "i": 1006227,
+                "n": "Amelot",
+                "l": 45,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "5811",
+            "obj": {
+                "i": 5811,
+                "n": "Colibri Pink Dye",
+                "l": 30,
+                "c": 22812,
+                "t": 55
+            }
+        },
+        {
+            "type": "item",
+            "id": "4579",
+            "obj": {
+                "i": 4579,
+                "n": "Poisoning Potion",
+                "l": 35,
+                "c": 20681,
+                "t": 44
+            }
+        },
+        {
+            "type": "item",
+            "id": "4580",
+            "obj": {
+                "i": 4580,
+                "n": "Blinding Potion",
+                "l": 35,
+                "c": 20685,
+                "t": 44
+            }
+        },
+        {
+            "type": "item",
+            "id": "4581",
+            "obj": {
+                "i": 4581,
+                "n": "Silencing Potion",
+                "l": 35,
+                "c": 20684,
+                "t": 44
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66317",
+            "obj": {
+                "i": 66317,
+                "n": "Death from Above",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 270
+            }
+        }
+    ]
+}

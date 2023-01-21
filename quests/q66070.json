@@ -1,0 +1,186 @@
+{
+    "quest": {
+        "name": "Way of the Weaver",
+        "location": "Ul'dah",
+        "id": 66070,
+        "patch": 2.0,
+        "sort": 10,
+        "icon": 100063,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1002283,
+        "target": 1003818,
+        "genre": 141,
+        "journal": [
+            "Maronne wishes you to reaffirm your desire to join the Weavers' Guild.",
+            "Maronne bids you present yourself to the man in charge of guild operations, a towering Roegadyn named Redolent Rose.",
+            "Redolent Rose grants you leave to study weaving. After providing you with a sewing needle, he instructs you to hold it as you would if you were about to attempt a stitch, and present yourself for inspection."
+        ],
+        "objectives": [
+            "Speak with Redolent Rose."
+        ],
+        "dialogue": [
+            {
+                "name": "MARONNE",
+                "text": "Are you ready to meet the guildmaster? First impressions are everything, and you do <span class=\"emphasis\">not</span> want to present yourself poorly."
+            },
+            {
+                "name": "MARONNE",
+                "text": "I suspected you might need more time. Very well─I shall not rush you."
+            },
+            {
+                "name": "MARONNE",
+                "text": "Pray return when you have prepared yourself sufficiently. We will be here."
+            },
+            {
+                "name": "MARONNE",
+                "text": "Excellent! Though I do wonder if your attire is appropriate for the occasion..."
+            },
+            {
+                "name": "MARONNE",
+                "text": "You will find the esteemed Redolent Rose supervising guild operations over yonder."
+            },
+            {
+                "name": "MARONNE",
+                "text": "He is... How shall I put this? He is...relentless in his pursuit of excellence."
+            },
+            {
+                "name": "MARONNE",
+                "text": "So long as you demonstrate that you are similarly committed, he will treat you fairly and with respect."
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "What do we have here? Another adventurer in search of thrills and excitement?"
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "Shall I dance you a merry jig? No? Well, if this fails to please you, I suggest you run along─perhaps the women of the Ruby Road Exchange will be more to your liking."
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "...Oh, so you mean to become a weaver? Then we have something to discuss after all."
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "I shall be blunt─weaving is an art, and, like all true artists, we must make sacrifices and suffer for our craft. So tell me, adventurer: are you prepared to <span class=\"emphasis\">suffer</span>?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Are you prepared to suffer?"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Yes"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "No"
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "Then why are you here? Don't you know what you want? Or is it that you don't like what getting what you want entails? Either way, I don't want you."
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "So you say, but only time will tell."
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "In any case, you'll need equipment to get started. This needle should suffice for now."
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "I need not explain what a needle is, I trust?"
+            },
+            {
+                "name": "REDOLENTROSE",
+                "text": "Good. Then hold it as you would when sewing, and show me you're ready to begin."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "items": [
+                {
+                    "num": 100,
+                    "id": 6
+                },
+                {
+                    "num": 50,
+                    "id": 4
+                },
+                {
+                    "id": 2442
+                }
+            ],
+            "xp": 100
+        },
+        "reqs": {
+            "quests": [
+                65725
+            ]
+        },
+        "next": [
+            66071
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002283",
+            "obj": {
+                "i": 1002283,
+                "n": "Maronne",
+                "l": 41,
+                "q": 2,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1003818",
+            "obj": {
+                "i": 1003818,
+                "n": "Redolent Rose",
+                "l": 41,
+                "q": 21,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "item",
+            "id": "2442",
+            "obj": {
+                "i": 2442,
+                "n": "Rusty Needle",
+                "l": 1,
+                "c": 35501,
+                "t": 22,
+                "p": 50
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65725",
+            "obj": {
+                "i": 65725,
+                "n": "So You Want to Be a Weaver",
+                "g": 0,
+                "l": "Ul'dah - Steps of Thal",
+                "s": 0,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66071",
+            "obj": {
+                "i": 66071,
+                "n": "My First Needle",
+                "g": 141,
+                "l": "Ul'dah",
+                "s": 11,
+                "f": 1
+            }
+        }
+    ]
+}

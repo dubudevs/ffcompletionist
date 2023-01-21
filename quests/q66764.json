@@ -1,0 +1,137 @@
+{
+    "quest": {
+        "name": "Losing One's Tempered",
+        "location": "Southern Thanalan",
+        "id": 66764,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005550,
+        "target": 1005550,
+        "genre": 35,
+        "journal": [
+            "Fibubb Gah requests your assistance in testing a new remedy.",
+            "Fibubb Gah has entrusted you with the Brotherhood of Ash's latest weapon in their kin war─a possible remedy for the madness of the tempered. Subdue the tempered found at the tempering ground in northern Zanr'ak, and test the efficacy of the sacred ash.",
+            "You have tested the sacred ash on the tempered with uncertain results. Return to the Ring of Ash and report to Fibubb Gah.",
+            "Though disappointed at the remedy's apparent failure, Fibubb Gah vows that the Brotherhood will continue its efforts toward creating a cure for the tempered. He muses that perhaps you just might be the one who tests the first successful batch."
+        ],
+        "objectives": [
+            "Head to the tempering ground in northern Zanr'ak, and use the sacred ash on subdued tempered.",
+            "Report to Fibubb Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "FIBUBBGAH",
+                "text": "Honored ally, the Brotherhood of Ash has toiled to create a new weapon to use against our enemies─bone ash imbued with spiritual energy by the sacred chants of our mystics."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "It is our hope that the purifying properties of the ash will serve to cleanse the tempered of Ifrit's malign influence. This remedy has, however, yet to be tested."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "It is with bitter fortune, then, that we learned of a raid to the south. It seems that a hunting party from Forgotten Springs was ambushed by a superior force, and dragged before the Lord of the Inferno for tempering."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "I ask that you locate these unfortunate Miqo'te, and sprinkle upon each a pinch of the ash."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "Be sure to pacify the rangers sufficiently first, otherwise our unwilling subjects will simply shake off the ash before it has time to take effect."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "Find the tempered Miqo'te, and sprinkle a pinch of sacred ash upon each one to determine the remedy's efficacy. Do not forget to subdue your opponents thoroughly before attempting to use the ash!"
+            },
+            {
+                "name": "TEMPERED",
+                "text": "Aaargh! It burrrns!"
+            },
+            {
+                "name": "TEMPERED",
+                "text": "Lord Ifrit! Your servant needs You!"
+            },
+            {
+                "name": "TEMPERED",
+                "text": "Wh-What is this strange sorcery!?"
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "So...it seems the sacred ash failed to have the desired effect. Our mystics will be most disappointed."
+            },
+            {
+                "name": "FIBUBBGAH",
+                "text": "But the Brotherhood of Ash does not buckle at the slightest sign of hardship! We shall learn from this failure, and redouble our efforts to concoct a cure. You may yet be the first to reclaim a tempered mind from the abyss of madness."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "POP",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 480,
+            "reputation": 10,
+            "items": [
+                {
+                    "num": 5,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 8970
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 43,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005550",
+            "obj": {
+                "i": 1005550,
+                "n": "Fibubb Gah",
+                "l": 45,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

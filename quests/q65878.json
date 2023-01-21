@@ -1,0 +1,148 @@
+{
+    "quest": {
+        "name": "Lominsan Rubbish",
+        "location": "Western Thanalan",
+        "id": 65878,
+        "patch": 2.0,
+        "sort": 130,
+        "eventIcon": 71221,
+        "issuer": 1002069,
+        "target": 1002069,
+        "involved": [
+            1002067
+        ],
+        "genre": 93,
+        "journal": [
+            "Osment at Crescent Cove is vexed by litter in the area.",
+            "A merchant from Limsa Lominsa has left rubbish scattered about the docks. Clean it up as a service to the distressed Osment.",
+            "You have finished cleaning up the rubbish that littered the docks. Speak to Osment once more.",
+            "Though cleanliness has been restored, Osment is already lamenting the next Lominsan sloth who will darken his docks."
+        ],
+        "objectives": [
+            "Clean up the rubbish on the docks.",
+            "Speak with Osment."
+        ],
+        "dialogue": [
+            {
+                "name": "OSMENT",
+                "text": "Ugggh, what a pain in the bloody arse. Who do those Lominsans think they are, anyway?"
+            },
+            {
+                "name": "OSMENT",
+                "text": "Just look at all this, would you? A merchant from Limsa Lominsa dumped this junk when he shipped out. Claimed it wasn't fit for sellin', so he just up and left it!"
+            },
+            {
+                "name": "OSMENT",
+                "text": "Barbarians! What passes for etiquette across the Strait of Merlthor?"
+            },
+            {
+                "name": "OSMENT",
+                "text": "Don't suppose I could ask you to clean up the rest for me, eh? Please? I've picked up so much junk already, the mere sight of it fair makes me gag."
+            },
+            {
+                "name": "OSMENT",
+                "text": "Thank you, friend. Seeing this place clean again does my spirit good."
+            },
+            {
+                "name": "OSMENT",
+                "text": "Though, I suppose some other Lominsan merchant will be by before long and leave more filth behind. &lt;sigh&gt; I hate my life."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 27636,
+                    "one": 1
+                },
+                {
+                    "id": 3320,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 3080
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65868
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002069",
+            "obj": {
+                "i": 1002069,
+                "n": "Osment",
+                "l": 42,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002067",
+            "obj": {
+                "i": 1002067,
+                "n": "Nunuzofu",
+                "l": 42,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "27636",
+            "obj": {
+                "i": 27636,
+                "n": "Hard Leather Kecks",
+                "l": 12,
+                "c": 45099,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "3320",
+            "obj": {
+                "i": 3320,
+                "n": "Striped Cotton Slops",
+                "l": 13,
+                "c": 45296,
+                "t": 36,
+                "p": 297
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65868",
+            "obj": {
+                "i": 65868,
+                "n": "Passing the Blade",
+                "g": 1,
+                "l": "Central Thanalan",
+                "s": 61
+            }
+        }
+    ]
+}

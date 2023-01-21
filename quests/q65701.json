@@ -1,0 +1,138 @@
+{
+    "quest": {
+        "name": "The Great Gladiator",
+        "location": "Ul'dah",
+        "id": 65701,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1001295,
+        "target": 1001299,
+        "involved": [
+            1002280
+        ],
+        "genre": 93,
+        "journal": [
+            "Zazarikku needs an adventurer to pick up an order from the Goldsmiths' Guild.",
+            "In order to make a dazzling Coliseum debut, Zazarikku needs to look his best. Present his receipt of purchase to Jemime at the Goldsmiths' Guild and collect his circlet.",
+            "Jemime explains that the circlet is not yet ready because the guild ran out of garnets. She asks you to explain the situation to Crooked Haft at the Miners' Guild so that he may expedite his next shipment of garnets.",
+            "Crooked Haft scoffs at the gladiator's obsession with style, but agrees to do his best to ensure the Goldsmiths' Guild receives the necessary garnets."
+        ],
+        "objectives": [
+            "Present the receipt of purchase to Jemime.",
+            "Speak with Crooked Haft."
+        ],
+        "dialogue": [
+            {
+                "name": "ZAZARIKKU",
+                "text": "Have you come to wish me luck? I appreciate the thought, but there's no need to worry."
+            },
+            {
+                "name": "ZAZARIKKU",
+                "text": "What!? You don't know who I am!? The next biggest thing that's coming to the Coliseum!?"
+            },
+            {
+                "name": "ZAZARIKKU",
+                "text": "Zazarikku is my name, and you'll be hearing all about my exploits in the coming days. I've even thought of a title for myself: the Garnet Gladiator!"
+            },
+            {
+                "name": "ZAZARIKKU",
+                "text": "Ah, which reminds me─I have yet to collect the circlet I commissioned from the Goldsmiths' Guild. You wouldn't mind picking it up for me, would you?"
+            },
+            {
+                "name": "CROOKEDHAFT",
+                "text": "I've a mind to drain a pint, so hurry up an' speak yer business."
+            },
+            {
+                "name": "CROOKEDHAFT",
+                "text": "...She wants <span class=\"emphasis\">how</span> many bloody garnets!? Seven hells, <span class=\"alternative-container\"><span class=\"alternative\">lass</span><span class=\"alternative\">man</span></span>, they don't grow on trees!"
+            },
+            {
+                "name": "CROOKEDHAFT",
+                "text": "But more than that, this lad what fancies himself the next Franz the Fair ought to worry less about style an' more about swordplay!"
+            },
+            {
+                "name": "CROOKEDHAFT",
+                "text": "Anyroad, I'll do my part to ensure the little bastard gets bedecked in all the godsdamned garnets he can afford. And if he dies in his first fight, well, at least he'll leave a pretty corpse."
+            },
+            {
+                "name": "TALK",
+                "text": "Good <span class=\"alternative-container\"><span class=\"alternative\">evening</span><span class=\"alternative\">morrow</span><span class=\"alternative\">day</span></span> to you, adventurer. How may I be of service?"
+            },
+            {
+                "name": "TALK",
+                "text": "Zazarikku's circlet? Just a moment, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>."
+            },
+            {
+                "name": "TALK",
+                "text": "Oh dear, this is <span class=\"emphasis\">so</span> embarrassing. I am afraid crafting the circlet to Zazarikku's exact specifications has proven somewhat difficult."
+            },
+            {
+                "name": "TALK",
+                "text": "We ran out of garnets halfway through our work, and we are still waiting on the next shipment."
+            },
+            {
+                "name": "TALK",
+                "text": "I hate to impose, but would you explain the situation to Crooked Haft at the Miners' Guild? My records indicate that he was supposed to deliver the gemstones yesterday. Mayhap it slipped his mind?"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 5,
+                    "id": 2
+                },
+                {
+                    "num": 10,
+                    "id": 5594
+                }
+            ],
+            "xp": 50
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1001295",
+            "obj": {
+                "i": 1001295,
+                "n": "Zazarikku",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001299",
+            "obj": {
+                "i": 1001299,
+                "n": "Crooked Haft",
+                "l": 41,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002280",
+            "obj": {
+                "i": 1002280,
+                "n": "Jemime",
+                "l": 41,
+                "q": 7,
+                "t": "Guild Receptionist"
+            }
+        },
+        {
+            "type": "item",
+            "id": "5594",
+            "obj": {
+                "i": 5594,
+                "n": "Grade 1 Dark Matter",
+                "l": 1,
+                "c": 20401,
+                "t": 60,
+                "p": 4
+            }
+        }
+    ]
+}

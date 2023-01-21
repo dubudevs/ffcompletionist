@@ -1,0 +1,147 @@
+{
+    "quest": {
+        "name": "Good Hunting",
+        "location": "Azys Lla",
+        "id": 67521,
+        "patch": 3.0,
+        "sort": 5907,
+        "eventIcon": 71221,
+        "issuer": 1012291,
+        "target": 1012291,
+        "genre": 102,
+        "journal": [
+            "The Allagan tracking node is awaiting user interaction.",
+            "The Allagan tracking node appears to be conducting some sort of training program and has challenged you to hunt down four empuses.",
+            "You hunt down the empuses as instructed. Return to the tracking node for your performance evaluation.",
+            "It seems the tracking node is unable to complete its training program. Given next week's hunting target, that may very well be for the best..."
+        ],
+        "objectives": [
+            "Slay empuses.",
+            "Report to the tracking node."
+        ],
+        "dialogue": [
+            {
+                "name": "HUNTINGSYSTEM",
+                "text": "Hello! Welcome to the Aetherochemical Research Facility employee hunting program─sponsored by the Aetherochemical Research Facility employee benefits department!"
+            },
+            {
+                "name": "HUNTINGSYSTEM",
+                "text": "Stay fit and healthy by participating in our daily hunting contest! Today's objective is four empuses! Work as fast as you can and try to beat the current record of <span class=\"emphasis\">DATA NOT FOUND</span>. Ready... Go! &lt;beep&gt;"
+            },
+            {
+                "name": "HUNTINGSYSTEM",
+                "text": "Today's hunting objective is four empuses. Move fast! The clock is ticking!"
+            },
+            {
+                "name": "HUNTINGSYSTEM",
+                "text": "&lt;buzzzzzz&gt; ...would like to remind all participants that laboratory assistants and laboratory property do not constitute valid targets for the purposes of... &lt;buzzzzzz&gt;"
+            },
+            {
+                "name": "HUNTINGSYSTEM",
+                "text": "Remember to come back again to...&lt;buzzzzzz&gt;...next week's target...&lt;buzzzzzz&gt;...and three <span class=\"alternative-container\"><span class=\"alternative\">Hyurs</span><span class=\"alternative\">Elezen</span><span class=\"alternative\">Lalafells</span><span class=\"alternative\">Miqo'te</span><span class=\"alternative\">Roegadyn</span><span class=\"alternative\">Au Ra</span><span class=\"alternative\">Hrothgar</span><span class=\"alternative\">Viera</span></span>... &lt;buzzzzzz&gt;"
+            }
+        ],
+        "reward": {
+            "gil": 801,
+            "items": [
+                {
+                    "id": 12847
+                },
+                {
+                    "num": 3,
+                    "id": 9330,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4734,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4656,
+                    "one": 1
+                }
+            ],
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67201
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012291",
+            "obj": {
+                "i": 1012291,
+                "n": "Tracking Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "12847",
+            "obj": {
+                "i": 12847,
+                "n": "Marron Glace",
+                "l": 148,
+                "c": 24076,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "9330",
+            "obj": {
+                "i": 9330,
+                "n": "Triple Cream Coffee",
+                "l": 110,
+                "c": 24407,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4734",
+            "obj": {
+                "i": 4734,
+                "n": "Pineapple Ponzecake",
+                "l": 70,
+                "c": 24068,
+                "t": 46
+            }
+        },
+        {
+            "type": "item",
+            "id": "4656",
+            "obj": {
+                "i": 4656,
+                "n": "Apkallu Omelette",
+                "l": 70,
+                "c": 24253,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67201",
+            "obj": {
+                "i": 67201,
+                "n": "In Node We Trust",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 90
+            }
+        }
+    ]
+}

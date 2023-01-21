@@ -1,0 +1,178 @@
+{
+    "quest": {
+        "name": "The Talk of Coerthas",
+        "location": "Coerthas Central Highlands",
+        "id": 66433,
+        "patch": 2.0,
+        "sort": 197,
+        "eventIcon": 71201,
+        "issuer": 1006384,
+        "target": 1006384,
+        "involved": [
+            1006377,
+            1006395,
+            1006396
+        ],
+        "genre": 1,
+        "journal": [
+            "Lord Haurchefant has a proposal for how you might participate in his investigation.",
+            "Lord Haurchefant explains that while the High Houses of Ishgard are unwilling or unable to offer you formal assistance in your search, there are nevertheless influential individuals in the High Houses that may be sympathetic to your cause. More specifically, he suggests that you speak with Lady Ninne of House Fortemps, Cravellin of House Haillenarte, and Chief Astrologian Forlemort of House Durendaire.",
+            "Contrary to Lord Haurchefant's expectations, the three Ishgardians provide you with no information relevant to your search. Return to Lord Haurchefant and share with him your findings─or lack thereof, rather.",
+            "With regret, Lord Haurchefant tells you that his inquiries have yet to yield any useful information. It seems that the only topic of discussion in recent times is that of heretics in the High Houses..."
+        ],
+        "objectives": [
+            "Speak with Ninne.",
+            "Speak with Cravellin.",
+            "Speak with Forlemort.",
+            "Report to Haurchefant."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "As you have doubtless realized by now, the High Houses of Ishgard─House Fortemps included─are either unable or unwilling to offer you formal assistance in your search."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "However, that does not mean that there are not influential individuals within each house who are sympathetic to your cause."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "I shall be sending missives to their various representatives in Ishgard, though I suspect it would be quicker and more efficient if you were make inquiries of your own."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Lady Ninne of mine own House Fortemps, who resides here in Camp Dragonhead, rather enjoys the company of travelers. There is also Cravellin of House Haillenarte, who can be found at Skyfire Locks─though any information you pry from the scribe may prove difficult to parse."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Have you spoken with the chief astrologian of House Durendaire yet? Really? Hm... Perhaps he will be more accommodating once I inform him that you are a friend of House Fortemps."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Do not concern yourself with House Dzemael─I shall contact them myself. Seek the counsel of the three I mentioned, and return to me when finished."
+            },
+            {
+                "name": "NINNE",
+                "text": "Why, hello, good <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>. What's that? An airship, you say? I hate to disappoint you, but I know nothing of what you seek. Likely no one of House Fortemps does, for if they did, I would <span class=\"emphasis\">definitely</span> know as well."
+            },
+            {
+                "name": "NINNE",
+                "text": "The topic on everyone's lips these days is what will become of young Lord Francel. Some say the allegations are long overdue, given how many members of House Haillenarte have been found guilty of heresy in recent days..."
+            },
+            {
+                "name": "CRAVELLIN",
+                "text": "Halone, grant me strength! There must be some way to─ Oh, who are you? A friend of Lord Haurchefant?"
+            },
+            {
+                "name": "CRAVELLIN",
+                "text": "I want to help you, I truly do! But these accusations of heresy have thrown House Haillenarte into chaos. Right now, we must focus on combating these charges and preserving our reputation."
+            },
+            {
+                "name": "FORLEMORT",
+                "text": "I gather you have been busy since last we spoke. Lord Haurchefant's missive was positively glowing. But if you think that his endorsement is cause for me to disregard Ishgardian policies, then you are sorely mistaken."
+            },
+            {
+                "name": "FORLEMORT",
+                "text": "We are at <span class=\"emphasis\">war</span>, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>, and the enemy grows bolder by the day. Why, in the short time since Inquisitor Guillaime arrived in Coerthas, countless heretics have been discovered, even amongst the elite of Ishgardian society!"
+            },
+            {
+                "name": "FORLEMORT",
+                "text": "If Lord Haurchefant wishes to waste his days chasing after a long-lost airship, then that is his choice. But if he expects others to share in his folly, then he is truly blind to the present state of affairs."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "By your countenance, I take it you did <span class=\"emphasis\">not</span> learn anything of use."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Nor did I, I fear. It seems the whole of Coerthas is consumed by this talk of heretics in the High Houses. We can only hope that my sources in Ishgard proper provide more pertinent information."
+            }
+        ],
+        "reward": {
+            "gil": 1478,
+            "xp": 19320
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 37,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66426
+            ]
+        },
+        "next": [
+            66446
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006384",
+            "obj": {
+                "i": 1006384,
+                "n": "Haurchefant",
+                "l": 63,
+                "q": 16
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006377",
+            "obj": {
+                "i": 1006377,
+                "n": "Forlemort",
+                "l": 63,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006395",
+            "obj": {
+                "i": 1006395,
+                "n": "Ninne",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006396",
+            "obj": {
+                "i": 1006396,
+                "n": "Cravellin",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66426",
+            "obj": {
+                "i": 66426,
+                "n": "The Rose and the Unicorn",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 195
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66446",
+            "obj": {
+                "i": 66446,
+                "n": "Road to Redemption",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 198
+            }
+        }
+    ]
+}

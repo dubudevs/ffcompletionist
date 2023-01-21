@@ -1,0 +1,192 @@
+{
+    "quest": {
+        "name": "Pulling Fangs",
+        "location": "Southern Thanalan",
+        "id": 66781,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "genre": 35,
+        "usedItems": [
+            7001
+        ],
+        "journal": [
+            "Yadovv Gah wishes to present a true challenge to your martial ability.",
+            "Yadovv Gah has charged you with slaying the commander of a notorious Flamefang elite unit. Participate in the FATE “Quenching the Flame” in Zahar'ak, and present proof of your deed to Yadovv Gah.",
+            "You have presented the Flamefang choker to Yadovv Gah. The Brotherhood warrior exults in your towering victory, and relishes the thought of his enemies' plunging morale."
+        ],
+        "objectives": [
+            "Deliver the Flamefang choker obtained in the FATE “Quenching the Flame” to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "I have for you a challenge this day: among the feeble ranks of the Flamefangs there is a unit of soldiers of unsurpassed strength."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Even amidst their own allies, these sadistic veterans inspire more terror than respect. As soldiers, they are perhaps the only opponents who might truly compete with the Brotherhood of Ash on even ground."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Honored ally, I would have you face these elites...and their commander. If you can succeed in wresting from him his treasured Flamefang choker, the glory of your deed shall know no bounds."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "The disbelieving cries of our foe will be as the sweetest birdsong─assuming you succeed. This will be a true test of your martial ability."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Kill the commander of these elite soldiers, and bring to me the bauble he treasures. Such a towering victory will steal our enemies' belly for battle as surely as a blade to the innards."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Well, honored ally? Have you succeeded in my challenge? Does the commander of the Flamefang elites lie dead?"
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Yes! This is his precious necklace! The fangs of the choker must be pried from the flesh, thus the certainty of your deed is indisputable."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "You have triumphed where even the most skilled of the Brotherhood might have failed. I bow to your prowess, mighty warrior!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5672,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5672",
+            "obj": {
+                "i": 5672,
+                "n": "Savage Aim Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Critical Hit",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "7001",
+            "obj": {
+                "i": 7001,
+                "n": "Flamefang Choker",
+                "l": 1,
+                "c": 54832,
+                "t": 61
+            }
+        }
+    ]
+}

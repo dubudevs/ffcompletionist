@@ -1,0 +1,182 @@
+{
+    "quest": {
+        "name": "Elite Beating",
+        "location": "Southern Thanalan",
+        "id": 66778,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 1,
+        "eventIcon": 71222,
+        "issuer": 1005552,
+        "target": 1005552,
+        "genre": 35,
+        "journal": [
+            "Yadovv Gah is eager to seize upon his foe's miscalculation.",
+            "Though he often counsels measured action, Yadovv Gah appears hungry for blood this day. It seems that certain of Zagozz Teh's elite troops have left his side, with orders to participate in upcoming raids. Take advantage of their vulnerability, and strike down the Zahar'ak lancers and archers.",
+            "You have slain the lancers and archers of Zahar'ak, leaving their corpses as a stark warning to Zagozz Teh and his arrogance. Return to the Ring of Ash and report to Yadovv Gah.",
+            "You return to Yadovv Gah with news of your unrestrained slaughter. Though cheered by the thought of such fangs pulled from his enemy's maw, the Brotherhood warrior warns that your attacks may provoke retaliation. Stand ready to offer your assistance should the need arise."
+        ],
+        "objectives": [
+            "Slay Zahar'ak lancers.",
+            "Slay Zahar'ak archers.",
+            "Report to Yadovv Gah."
+        ],
+        "dialogue": [
+            {
+                "name": "YADOVVGAH",
+                "text": "Honored ally, the greed of our foes has led them into grave error."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "In his frantic quest to gather victims for tempering, Zagozz Teh has allowed certain of his personal bodyguards to join the Flamefang raiding efforts."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Never again will his elite soldiers be so vulnerable! I urge you to strike now, and remove these pieces from the board."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "You will find the high-ranked lancers and archers prowling the canyons of Zahar'ak, awaiting the call to action. Spare these fools neither words nor mercy."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "This day is a day for blood! May the fortune of battle be yours."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "Hunt down the Flamefang elites, and leave them bleeding in the dust. Zagozz Teh will pay for his mad ambition."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "You have dealt a telling blow, honored ally. The enemy has been deprived of some of his sharpest fangs."
+            },
+            {
+                "name": "YADOVVGAH",
+                "text": "But the wounded cur is most like to bite. Be on guard, and prepared to move at a moment's notice!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21076
+                },
+                {
+                    "id": 5632,
+                    "one": 1
+                },
+                {
+                    "id": 5682,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005552",
+            "obj": {
+                "i": 1005552,
+                "n": "Yadovv Gah",
+                "l": 45,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21076",
+            "obj": {
+                "i": 21076,
+                "n": "Steel Amalj'ok",
+                "l": 1,
+                "c": 65050,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5632",
+            "obj": {
+                "i": 5632,
+                "n": "Piety Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Piety",
+                    "category": 0,
+                    "advancedMeldingForbidden": 1
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5682",
+            "obj": {
+                "i": 5682,
+                "n": "Battledance Materia IV",
+                "l": 70,
+                "c": 20216,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Tenacity",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

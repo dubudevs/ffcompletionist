@@ -1,0 +1,105 @@
+{
+    "quest": {
+        "name": "Deep Turquoise Sea",
+        "location": "The Ruby Sea",
+        "id": 68530,
+        "patch": 4.1,
+        "sort": 22,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 9,
+        "eventIcon": 71222,
+        "issuer": 1024217,
+        "target": 1024217,
+        "genre": 51,
+        "journal": [
+            "Trade with the Qestir is flourishing, and Zukin seeks to improve it further.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Collect lunar orbs.",
+            "Deliver the lunar orbs to Zukin."
+        ],
+        "dialogue": [
+            {
+                "name": "ZUKIN",
+                "text": "I have a new assignment for you, <span class=\"highlight\">Forename</span>. As you know, we have recently opened trade agreements with the Qestir."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "And I have a mind to impress─offer them something that only we Kojin and those blessed by the kami can provide. A precious treasure found deep in the Turquoise Trench."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "There you will find several glowing crystals of immense proportions. When small pieces come loose, they form what we call “lunar orbs,” which resemble the moon itself. Will you help us gather them from the depths?"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "How fare you in the search?"
+            },
+            {
+                "name": "ZUKIN",
+                "text": "Beautiful! Is it not fascinating how they are formed into such perfect little spheres? Shaped by ocean currents, perhaps. And see how brightly they shine! We could use these to light the village at night."
+            },
+            {
+                "name": "ZUKIN",
+                "text": "The Qestir worship Nhaama, goddess of the moon and dusk. I expect they will gladly pay large sums for these lunar orbs. Many thanks for your cooperation!"
+            }
+        ],
+        "reward": {
+            "gil": 550,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21081
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 5,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024217",
+            "obj": {
+                "i": 1024217,
+                "n": "Zukin",
+                "l": 2409,
+                "q": 24
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21081",
+            "obj": {
+                "i": 21081,
+                "n": "Kojin Sango",
+                "l": 1,
+                "c": 65058,
+                "t": 100
+            }
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "quest": {
+        "name": "A Fiendish Likeness",
+        "location": "The Rising Stones",
+        "id": 67817,
+        "patch": 3.2,
+        "sort": 16103,
+        "icon": 112127,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1014565,
+        "target": 1016633,
+        "genre": 17,
+        "journal": [
+            "Unukalhai has a gift for you.",
+            "Unukalhai gifts you an Allagan tomestone that supposedly contains a detailed record of the furious conflict between Sephirot and the forces of Allag. He proceeds to explain that the wondrous technology of the ancient empire will be able to use that information to manifest an artificial incarnation of the powerful eikon, allowing you to experience battle against the mighty Sephirot once more. Take the tomestone to the Flagship of Azys Lla, and present the recording device to the verification node.",
+            "You have presented the tomestone to the verification node, and initiated what the orb describes as a “combat simulation.” Assemble a band of trusty companions, and test your mettle against the unfettered might of Sephirot.<br><br>※Containment Bay S1T7 (Extreme) can be accessed via the Duty Finder."
+        ],
+        "objectives": [
+            "Present the Allagan tomestone of theology to the verification node on the Flagship."
+        ],
+        "dialogue": [
+            {
+                "name": "UNUKALHAI",
+                "text": "...I have something for you, Warrior of Light. During our expedition to banish Sephirot, I came across a certain relic, and I believe it would be put to best use in your hands."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "It is an Allagan device of the kind used to store information─in this case, the record of the furious conflict that took place on the shores of Meracydia between the eikon Sephirot and the forces of Allag."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "Should you present this tomestone to the verification node outside Triad Control, the node's systems will analyze the various aspects of the conflict and create for you a false eikon against which you can train. Consider it a sort of “mock battle” that presumes a Sephirot who has broken free of his shackles."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "If I understand its workings correctly, the node should also be capable of manifesting a far stronger incarnation of the eikon. This would mimic the catastrophic consequences were Sephirot ever to absorb an additional source of energy─say, by defeating another member of the Warring Triad. A compelling challenge for a warrior of your ability, yes?"
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "You need not possess Mistress Krile's knowledge of Allagan technology to begin this particular battle. Simply present the tomestone to the node on the Flagship, and then follow the orb's instructions. I hope the experience brings you valuable insight, Warrior of Light."
+            },
+            {
+                "name": "UNUKALHAI",
+                "text": "As I explained, simply present the tomestone to the verification node on the Flagship. Follow the node's instructions, and you will soon find yourself facing the towering Sephirot once more!"
+            },
+            {
+                "name": "VERIFICATIONSYSTEM",
+                "text": "&lt;blip&gt; Activating verification systems... Combat simulation request acknowledged. Awaiting tomestone data..."
+            },
+            {
+                "name": "VERIFICATIONSYSTEM",
+                "text": "&lt;blip&gt; Data processed. Adversary: Warring Triad, Sephirot. Defining simulation parameters..."
+            },
+            {
+                "name": "VERIFICATIONSYSTEM",
+                "text": "&lt;blip&gt; &lt;bloop&gt; WARNING! Threat level: Extreme. The Empire assumes no responsibility for death or injury resulting from participation in combat simulations."
+            },
+            {
+                "name": "VERIFICATIONSYSTEM",
+                "text": "&lt;blip&gt; Activating reality augmentation... Initiating combat simulation... The Empire thanks you for volunteering to participate in this study. Postmortem data will be used to improve the survival rates of subsequent participants. Your sacrifice is appreciated."
+            }
+        ],
+        "reward": {
+            "gil": 934,
+            "instance": 20038,
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67766
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1014565",
+            "obj": {
+                "i": 1014565,
+                "n": "Unukalhai",
+                "l": 481,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016633",
+            "obj": {
+                "i": 1016633,
+                "n": "Verification Node",
+                "l": 2101,
+                "q": 5
+            }
+        },
+        {
+            "type": "instance",
+            "id": "20038",
+            "obj": {
+                "i": 20038,
+                "n": "Containment Bay S1T7 (Extreme)",
+                "c": 61804,
+                "t": "Trials",
+                "min_lvl": 60,
+                "max_lvl": 60,
+                "min_ilvl": 205
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67766",
+            "obj": {
+                "i": 67766,
+                "n": "When the Bough Wakes",
+                "g": 17,
+                "l": "The Rising Stones",
+                "s": 16002,
+                "f": 1
+            }
+        }
+    ]
+}

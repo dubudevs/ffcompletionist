@@ -1,0 +1,134 @@
+{
+    "quest": {
+        "name": "By the Lights of Ishgard",
+        "location": "Coerthas Central Highlands",
+        "id": 66475,
+        "patch": 2.0,
+        "sort": 208,
+        "eventIcon": 71201,
+        "issuer": 1006467,
+        "target": 1006467,
+        "genre": 1,
+        "journal": [
+            "Alphinaud appears to be in deep thought.",
+            "Ser Joellaut, the injured knight currently recuperating in the infirmary, previously told you of the night when Inquisitor Guillaime first arrived. When you relayed this account to Alphinaud, he found several questionable details which he cannot reconcile. He asks that you retrace the path the inquisitor is said to have taken that night, and see if it sheds any light on this mystery.",
+            "Your investigation leads you to a frozen corpse in the chasm which bears a striking resemblance to Inquisitor Guillaime. If you inspect the body, perhaps you will find some clue to his identity.",
+            "You find a bloody encyclical on the corpse which suggests that the man was a newly appointed inquisitor. Present the document to Alphinaud and see what he makes of it.",
+            "Alphinaud declares that your discoveries prove that the Inquisitor Guillaime you know is an impostor. However, his true identity and objectives remain unknown."
+        ],
+        "objectives": [
+            "Search the area outside Whitebrim Front for clues.",
+            "Inspect the corpse.",
+            "Show the bloody encyclical to Alphinaud."
+        ],
+        "dialogue": [
+            {
+                "name": "ALPHINAUD",
+                "text": "Something troubles me about that wounded knight's account. He claims he fell chasing a figure in the darkness that he saw outside the <span class=\"emphasis\">eastern</span> gate, yes? But the main road leads to the <span class=\"emphasis\">southwestern</span> gate."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Since we've arrived in Whitebrim Front, I've seen no travelers arrive by the eastern gate. Moreover, he said he glimpsed a “silhouette illuminated by the light of the city,” which would imply that the inquisitor came from <span class=\"emphasis\">north</span> of the eastern gate, not south.<br>But it cannot be so─that way lies naught but a deep chasm."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Assuming Ser Joellaut is not misremembering, the inquisitor's behavior that night makes absolutely no sense, at least to me. Mayhap retracing his steps will shed light on this mystery."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "You found something, didn't you? Well, don't keep me waiting in suspense. Let's see it."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Hmmm... Given the contents of this encyclical, I believe you have just made the acquaintance of the <span class=\"emphasis\">real</span> Inquisitor Guillaime."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Newly come to Coerthas and murdered on the day of his arrival... Yes, it would have been a simple thing to assume his identity, for even if he were to behave oddly, who would dare question the wisdom of a papal appointment?"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Still, while this is incontrovertible proof that the inquisitor is an impostor, we have yet to discern his true identity, or why he has decided to oppose us."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "We must proceed quickly, <span class=\"highlight\">Forename</span>, before he learns that his deception has been discovered!"
+            },
+            {
+                "name": "POP",
+                "text": "The air begins to crackle with aetherial energies..."
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 31335
+                }
+            ],
+            "xp": 22540
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 40,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66474
+            ]
+        },
+        "next": [
+            66476
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006467",
+            "obj": {
+                "i": 1006467,
+                "n": "Alphinaud",
+                "l": 63,
+                "q": 5
+            }
+        },
+        {
+            "type": "item",
+            "id": "31335",
+            "obj": {
+                "i": 31335,
+                "n": "Level 40 Weapon Coffer",
+                "l": 1,
+                "c": 26557,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66474",
+            "obj": {
+                "i": 66474,
+                "n": "Influencing Inquisitors",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 207
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66476",
+            "obj": {
+                "i": 66476,
+                "n": "Blood for Blood",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 209
+            }
+        }
+    ]
+}

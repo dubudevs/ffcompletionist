@@ -1,0 +1,84 @@
+{
+    "quest": {
+        "name": "Something Needs to Change",
+        "location": "The Churning Mists",
+        "id": 67363,
+        "patch": 3.0,
+        "sort": 5408,
+        "eventIcon": 71221,
+        "issuer": 1012288,
+        "target": 1012288,
+        "genre": 100,
+        "journal": [
+            "Mogmont is flapping his tired wings vigilantly.",
+            "Constant conflicts between the dragons of the north and south are taking their toll on Mogmont's health. Slay three of each to give him time for much-needed rest.",
+            "You have slain the moss dragons and lower skylords. Report back to Mogmont with the good news.",
+            "Behind Mogmont's tired eyes you see a well of gratitude. The moogles must ensure that the servants of Nidhogg do not lay waste to Hraesvelgr's sacred domain."
+        ],
+        "objectives": [
+            "Slay moss dragons.",
+            "Slay lower skylords.",
+            "Report to Mogmont."
+        ],
+        "dialogue": [
+            {
+                "name": "MOGMONT",
+                "text": "The skylords of the north and south are in constant conflict. That is why one must remain ever vigilant, always on alert... I'm at my wit's end, kupo!"
+            },
+            {
+                "name": "MOGMONT",
+                "text": "The moogles here are in desperate need of relief. If you were to put a pause to the dragons' fighting by slaying a few, it's like to give us some breathing room, kupo."
+            },
+            {
+                "name": "MOGMONT",
+                "text": "It's impossible to be on guard all day every day─slay the dragons before we collapse from exhaustion."
+            },
+            {
+                "name": "MOGMONT",
+                "text": "Ah... Now we can finally breathe without dragons bothering us! It might be time to break out the wine, kupo!"
+            },
+            {
+                "name": "MOGMONT",
+                "text": "Asah is the domain of Hraesvelgr, and we can't permit Nidhogg's menacing minions to encroach upon it. May you aid us again in our time of need!"
+            }
+        ],
+        "reward": {
+            "gil": 545,
+            "xp": 31200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 54,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67161
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012288",
+            "obj": {
+                "i": 1012288,
+                "n": "Mogmont",
+                "l": 2002,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67161",
+            "obj": {
+                "i": 67161,
+                "n": "The Road to Zenith",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 46
+            }
+        }
+    ]
+}

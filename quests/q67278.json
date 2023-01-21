@@ -1,0 +1,126 @@
+{
+    "quest": {
+        "name": "Mum's the Word",
+        "location": "Ishgard",
+        "id": 67278,
+        "patch": 3.0,
+        "sort": 5007,
+        "eventIcon": 71221,
+        "issuer": 1014715,
+        "target": 1011233,
+        "involved": [
+            1014716
+        ],
+        "genre": 96,
+        "journal": [
+            "This House Durendaire knight needs an adventurer who can keep a secret.",
+            "Seeing you are not native to Ishgard, a knight of House Durendaire requests a favor of you. He asks that you deliver a gift to Falcon's Nest. What the gift is, he is not at liberty to say. All he can tell you is that the knight of the brush has a package waiting for you at the Forgotten Knight.",
+            "You arrive at the Forgotten Knight, and the knight of the brush recognizes you right away. He hands you the package, insisting that you do not open the box. It is not safe to be seen out in the open. He insists that you head to Falcon's Nest and deliver the package to Emerissel. And if anyone asks, you and the knight of the brush have never met.",
+            "Emerissel is curious why you give him such strange looks─that is, until he sees the package. One glimpse of the painting wrapped inside sends him into the throes of a strange euphoric experience, ranting about renewed religious fervor. He soon regains his composure and asks you to keep this all secret. However, you cannot shake the feeling that you have done something terribly wrong."
+        ],
+        "objectives": [
+            "Speak with the knight of the brush at the Forgotten Knight.",
+            "Deliver the faded iconograph to Emerissel at Falcon's Nest."
+        ],
+        "dialogue": [
+            {
+                "name": "DURANDALSOLDIER01742",
+                "text": "Excuse me. Um...you're not from around here, are you? I know this is sudden, but I have a favor to ask. I'm looking for someone to deliver a gift to a friend in Falcon's Nest."
+            },
+            {
+                "name": "DURANDALSOLDIER01742",
+                "text": "What is it? Well, it's a surprise, so I can't really say. I... I just need you to deliver it, that's all. You can pick it up from the knight of the brush at the Forgotten Knight. You'll know him when you see him. And I'm sure he'll recognize you, as well."
+            },
+            {
+                "name": "DURANDALSOLDIER01742",
+                "text": "All you have to do is pick it up, and deliver it to Falcon's Nest. The knight of the brush will be waiting for you at the Forgotten Knight."
+            },
+            {
+                "name": "PAINTER01742",
+                "text": "Ah, there you are. I thought it might be you. So it's true? You're not from Ishgard? Perfect, no one will suspect a thing."
+            },
+            {
+                "name": "PAINTER01742",
+                "text": "Here's the package, <span class=\"alternative-container\"><span class=\"alternative\">my dear lady</span><span class=\"alternative\">good sir</span></span>. Whoa, hey! Don't wave it all about like that! Someone may see! Now hurry on to Falcon's Nest; you'll want to deliver it to Emerissel."
+            },
+            {
+                "name": "PAINTER01742",
+                "text": "And remember: this meeting never happened. If anyone asks, you don't know me."
+            },
+            {
+                "name": "PAINTER01742",
+                "text": "Hurry and take that package to Falcon's Nest, before you start drawing attention."
+            },
+            {
+                "name": "EMERISSEL",
+                "text": "What's with that look? We don't tolerate funny business here at Falcon's Nest. If you have no business here, I suggest you move along."
+            },
+            {
+                "name": "EMERISSEL",
+                "text": "Oh! My package! Happy day! I was worried my friend would not be able to get it... Now, let's take a look here..."
+            },
+            {
+                "name": "EMERISSEL",
+                "text": "A masterpiece beyond compare! The very glory of it inspires an indescribable fulfillment─a crescendo of righteous emotions. I feel my faith in the church renewed, my spirit cleansed by its presence! Ahem. Thank you for this, adventurer. Remember: no one must know of this!"
+            }
+        ],
+        "reward": {
+            "gil": 640,
+            "xp": 24000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67134
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1014715",
+            "obj": {
+                "i": 1014715,
+                "n": "House Durendaire Knight",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011233",
+            "obj": {
+                "i": 1011233,
+                "n": "Emerissel",
+                "l": 2200,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014716",
+            "obj": {
+                "i": 1014716,
+                "n": "Knight Of The Brush",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67134",
+            "obj": {
+                "i": 67134,
+                "n": "Disclosure",
+                "g": 3,
+                "l": "Ishgard",
+                "s": 19
+            }
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "Cry Me a Liver",
+        "location": "Lower La Noscea",
+        "id": 66011,
+        "patch": 2.0,
+        "sort": 50,
+        "eventIcon": 71221,
+        "issuer": 1002605,
+        "target": 1002571,
+        "genre": 91,
+        "journal": [
+            "Ancreta, sentry at the Eyes, solicits assistance.",
+            "Ancreta's grandfather, head of the Red Rooster Stead, has charged her with the procurement of three livers from the rivertoads indigenous to the Eyes. Alas, the squeamish sentry is sickened by the mere thought of handling the livers, and requests that you obtain them in her stead.",
+            "You have obtained the requested amount of rivertoad livers. Show them to Ancreta at the Eyes.",
+            "Unable to leave her post and loath to handle the livers, Ancreta tasks you with delivering them to her grandfather Anaoc at the Red Rooster Stead.",
+            "The livers give Anaoc's fertilizer more potency...or so you are told. Adopting advanced agricultural techniques has served the farm well to date, and promises a prosperous future to come."
+        ],
+        "objectives": [
+            "Slay rivertoads and collect three rivertoad livers.",
+            "Report to Ancreta.",
+            "Deliver the rivertoad livers to Anaoc at the Red Rooster Stead."
+        ],
+        "dialogue": [
+            {
+                "name": "ANCRETA",
+                "text": "Me grandda's head of the Red Rooster Stead. Anaoc's his name."
+            },
+            {
+                "name": "ANCRETA",
+                "text": "He asked me to bring him some rivertoad livers, but the mere thought of pullin' slimy livers out o' slimy frogs gives me the shivers."
+            },
+            {
+                "name": "ANCRETA",
+                "text": "Maybe ye'd care to fetch a liver or three for me? Ye can get 'em by slayin' the rivertoads what dwell 'round the Eyes."
+            },
+            {
+                "name": "ANCRETA",
+                "text": "Yer a lifesaver, 'venturer! Now, I'd take these livers to Grandda meself, but I can't just up an' leave me post. Not to mention the mere sight of those slimy things makes me stomach churn."
+            },
+            {
+                "name": "ANCRETA",
+                "text": "Would ye mind doin' the deliverin' in me stead? Find ol' Anaoc at the Red Rooster Stead, and ye can turn those rivertoad livers to gil."
+            },
+            {
+                "name": "ANAOC",
+                "text": "I swear, this is the last time I send that granddaughter of mine to fetch rivertoad livers!"
+            },
+            {
+                "name": "ANAOC",
+                "text": "Why, these are the livers I asked for! &lt;sigh&gt; I should've known better. Ancreta has been dainty since she was a wee lass. I regret any trouble we've caused you."
+            },
+            {
+                "name": "ANAOC",
+                "text": "I heard that the New Worlders use fish livers as fertilizer, and so I thought I would give <span class=\"emphasis\">toad</span> livers a try."
+            },
+            {
+                "name": "ANAOC",
+                "text": "A farmer can't be afraid to try new things. Nay, he must grow his knowledge as he grows his crops."
+            },
+            {
+                "name": "ANAOC",
+                "text": "That's how this farm grew to be what it is. You'd do well to stick around and see."
+            }
+        ],
+        "reward": {
+            "gil": 128,
+            "xp": 560
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 4,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66199
+            ]
+        },
+        "next": [
+            66012
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002605",
+            "obj": {
+                "i": 1002605,
+                "n": "Ancreta",
+                "l": 31,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002571",
+            "obj": {
+                "i": 1002571,
+                "n": "Anaoc",
+                "l": 31,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66199",
+            "obj": {
+                "i": 66199,
+                "n": "Fool Me Once",
+                "g": 91,
+                "l": "Limsa Lominsa",
+                "s": 40
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66012",
+            "obj": {
+                "i": 66012,
+                "n": "Wool's Errand",
+                "g": 91,
+                "l": "Lower La Noscea",
+                "s": 60
+            }
+        }
+    ]
+}

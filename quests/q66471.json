@@ -1,0 +1,167 @@
+{
+    "quest": {
+        "name": "Love's Hard Labor",
+        "location": "Coerthas Central Highlands",
+        "id": 66471,
+        "patch": 2.0,
+        "sort": 390,
+        "eventIcon": 71221,
+        "issuer": 1006698,
+        "target": 1006698,
+        "involved": [
+            1006477
+        ],
+        "genre": 94,
+        "journal": [
+            "What Charmine the chirurgeon seeks is an infusion for her ailing infirmary, but she will settle for an adventurer instead.",
+            "Charmine's patient is past all help that can be provided by the undersupplied infirmary. Raging at her own helplessness, the chirurgeon ministers to her charge in the only way left─by bidding you send word to her betrothed, Laurence, a deserter condemned to the dungeons.",
+            "Roused from his gloom by the shocking news, Laurence urges you out after only a few hurried words. Your destination must be the forest to the southeast, for when the music of love and death plays, there is naught to do but dance.",
+            "Laurence's treasure turns out to be an alchemic concoction of Ul'dahn origin. What you hold in your hand cost a man his freedom, and may save a woman's life. Deliver it to Charmine forthwith, and the Fury take you if you drop it.",
+            "Charmine's eyes widen at the sight of medicine so precious, and she immediately deduces Laurence's sacrifice. You sense in her fury and even disgust at the cruelty of war, and an iron determination to keep alight this guttering candle..."
+        ],
+        "objectives": [
+            "Speak with Laurence.",
+            "Search the forest.",
+            "Deliver the alchemic concoction to Charmine."
+        ],
+        "dialogue": [
+            {
+                "name": "CHARMINE",
+                "text": "Ah, the poor soul! She has a betrothed, yet she will die without hearing his voice speak the words of passing."
+            },
+            {
+                "name": "CHARMINE",
+                "text": "He deserted, you see, on the eve of a battle with the dragons... He now languishes in the dungeons."
+            },
+            {
+                "name": "CHARMINE",
+                "text": "I cannot give her more time! Not with such medicines as I possess, at any rate. At the very least, take word to her love, Laurence, that he might say such prayers as he is able."
+            },
+            {
+                "name": "LAURENCE",
+                "text": "What can an adventurer want with a man whose purse is empty and name besmirched? What? The words of passing!? No, they said she was on the mend!"
+            },
+            {
+                "name": "LAURENCE",
+                "text": "If you have ever loved, hear me. There is something hid in the forest southeast of here; you shall know it by the sign. Take it to her chirurgeon, I beg you."
+            },
+            {
+                "name": "LAURENCE",
+                "text": "My curse upon this place, that condemns a man for doing what becomes a man. Leave me now, hurry!"
+            },
+            {
+                "name": "CHARMINE",
+                "text": "Ah, the poor soul, she still breathes, but... Adventurer! Does he pray for her soul?"
+            },
+            {
+                "name": "CHARMINE",
+                "text": "An alchemic concoction! As costly as it is hard to obtain... You say 'twas hid in the forest?"
+            },
+            {
+                "name": "CHARMINE",
+                "text": "...This bottle holds the truth of Laurence's desertion. He ran that he might find it for her. And when he knew he was to be captured, he took great pains to hide it, knowing his pursuers would have simply destroyed it as a traitor's refuse."
+            },
+            {
+                "name": "CHARMINE",
+                "text": "I cannot thank you enough for keeping faith in him. Now, if you will pardon me, I have a patient to save!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 3,
+                    "id": 4553,
+                    "one": 1
+                },
+                {
+                    "num": 3,
+                    "id": 4556,
+                    "one": 1
+                }
+            ],
+            "xp": 10800
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 39,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66460
+            ]
+        },
+        "next": [
+            66480
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006698",
+            "obj": {
+                "i": 1006698,
+                "n": "Charmine",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006477",
+            "obj": {
+                "i": 1006477,
+                "n": "Laurence",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "4553",
+            "obj": {
+                "i": 4553,
+                "n": "Mega-Potion",
+                "l": 45,
+                "c": 20603,
+                "t": 44,
+                "p": 528
+            }
+        },
+        {
+            "type": "item",
+            "id": "4556",
+            "obj": {
+                "i": 4556,
+                "n": "Hi-Ether",
+                "l": 35,
+                "c": 20622,
+                "t": 44,
+                "p": 432
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66460",
+            "obj": {
+                "i": 66460,
+                "n": "Ye of Little Faith",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 202
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66480",
+            "obj": {
+                "i": 66480,
+                "n": "Blood Sacrifice",
+                "g": 94,
+                "l": "Coerthas Central Highlands",
+                "s": 400
+            }
+        }
+    ]
+}

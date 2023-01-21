@@ -1,0 +1,207 @@
+{
+    "quest": {
+        "name": "Power of Deduction",
+        "location": "North Shroud",
+        "id": 66335,
+        "patch": 2.0,
+        "sort": 153,
+        "icon": 100126,
+        "eventIcon": 71201,
+        "issuer": 1006240,
+        "target": 1002780,
+        "involved": [
+            1007541
+        ],
+        "genre": 1,
+        "journal": [
+            "Medrod is troubled by the dearth of new developments in the murder investigation.",
+            "While uncertain for a time, Ivaurault is now convinced that it was a winged eyeball that he encountered at the rocky area to the west. There may well be another victim out there, waiting to be discovered. The three friends would leave the task of investigating to the expert─you.",
+            "As the three friends had feared, there was indeed another victim. The authorities must be informed. Bear your grisly find back to Fallgourd Float, and show it to Aethelmaer.",
+            "A cursory examination of the body turns up a button engraved with a lily motif. A similar object had been discovered upon an earlier victim. Could this be a clue to solving the mysterious deaths?"
+        ],
+        "objectives": [
+            "Search for a maiden's corpse west of Fallgourd.",
+            "Present the ravaged corpse to Aethelmaer."
+        ],
+        "dialogue": [
+            {
+                "name": "MEDROD",
+                "text": "&lt;sigh&gt; There've been no promising leads in the murders. I can scarce get a wink of sleep, knowing that the killer is still at large."
+            },
+            {
+                "name": "MEDROD",
+                "text": "Judging by your furrowed brows, I take it this sorry business troubles you as much as it does me."
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "I had been pondering my encounter. I was uncertain for a time, but there can be no doubt: it was a winged eyeball that I witnessed. It's implausible that I could have mistaken so distinct a creature for a banemite."
+            },
+            {
+                "name": "MEDROD",
+                "text": "But you and I were malms apart. How could we have both seen it at precisely the same time?"
+            },
+            {
+                "name": "MEDROD",
+                "text": "What's more, our adventurer friend here had a run-in with the banemite at the very spot you claimed to see that fiendish eyeball. Isn't that right?"
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "There must be an explanation! I <span class=\"emphasis\">know</span> I saw an eyeball with wings─I would wager an apple tart on it!"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "Oooh, he's serious. But listen, mayhap it's not as mysterious as we're making it out to be. There's no reason why there couldn't be─"
+            },
+            {
+                "name": "AIDEEN",
+                "text": "&lt;gasp&gt; Gods, of course... There must be <span class=\"emphasis\">more than one</span> of the buggers! Ugh, it's so obvious. But then that means...since there have been repeated sightings of these fiends...then there must be even more victims as yet undiscovered..."
+            },
+            {
+                "name": "YAMASHI",
+                "text": "(-All-)&lt;gulp&gt;"
+            },
+            {
+                "name": "MEDROD",
+                "text": "I-I do believe we're out of our depth. We ought to leave the rest to the expert."
+            },
+            {
+                "name": "AIDEEN",
+                "text": "Y-Yes, we're just civilians, after all. Good luck, adventurer. It was a pleasure knowing you!"
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "While I burn to know the truth, some things are best left unknown. Lest you have forgotten, it was at the rocky area to the west that I had my encounter."
+            },
+            {
+                "name": "IVAURAULT",
+                "text": "Should you discover aught of note, you will want to alert the authorities. There is a guardhouse nearby. The Serpents there should be pleased for any information that pertains to the security of the region."
+            },
+            {
+                "name": "DUMMY",
+                "text": "(Retrieve body, fight monster that pops.)"
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "Greetings, adventurer. Is there aught I might assist you with?"
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "Gods be good, not again..."
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "No matter how many bodies I see, I cannot seem to get used to the horrid sight. Poor woman..."
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "Identical deaths have been reported in the Central Shroud. While the masked stranger you seek does not seem to feature in any, sightings of the winged eyeball are common enough. The creature appears to be <span class=\"emphasis\">moving</span> the bodies, but to what end, none can say."
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "The victims have all been young women. All are found with their faces mutilated beyond recognition. It's been difficult to identify them, so as to notify their next of─"
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "Hm? This button, engraved with a lily motif... The very same object was found upon another victim. A family sigil, or that of an organization, perhaps?"
+            },
+            {
+                "name": "AETHELMAER",
+                "text": "Either way, I dare to hope that this find will prove pivotal in solving the murders."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            },
+            {
+                "name": "ACCESS",
+                "text": "The enemy is still about!"
+            }
+        ],
+        "reward": {
+            "gil": 2297,
+            "xp": 12580
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 28,
+                    "id": 130
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                66322,
+                66323
+            ]
+        },
+        "next": [
+            66336
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006240",
+            "obj": {
+                "i": 1006240,
+                "n": "Medrod",
+                "l": 57,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002780",
+            "obj": {
+                "i": 1002780,
+                "n": "Aethelmaer",
+                "l": 57,
+                "q": 3,
+                "t": "Serpent Sergeant"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007541",
+            "obj": {
+                "i": 1007541,
+                "n": "Mangled Corpse",
+                "l": 57,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66322",
+            "obj": {
+                "i": 66322,
+                "n": "Seeing Eye to Winged Eye",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 152
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66323",
+            "obj": {
+                "i": 66323,
+                "n": "Rock of Rancor",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 151
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66336",
+            "obj": {
+                "i": 66336,
+                "n": "Secret of the White Lily",
+                "g": 1,
+                "l": "North Shroud",
+                "s": 154
+            }
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "quest": {
+        "name": "Matoya's Cave",
+        "location": "Idyllshire",
+        "id": 67195,
+        "patch": 3.0,
+        "sort": 84,
+        "eventIcon": 71201,
+        "issuer": 1012421,
+        "target": 1012423,
+        "involved": [
+            1012420,
+            1012422
+        ],
+        "genre": 3,
+        "journal": [
+            "Y'shtola is ready to lead you to Matoya's Cave.",
+            "According to Y'shtola, the cave in which Matoya resides is situated on the southern edge of the Dravanian hinterlands. Follow the road south through the Answering Quarter, ford the stream when you come to a broken bridge, and rejoin your companions at the base of a bluff.",
+            "You arrive at the bluff, but there is no cave to be seen. Set aside your skepticism and do as Y'shtola bids: lay a hand upon the nearby wall, and have the other ready to draw your weapon.",
+            "Laying your hand on the wall, you are set upon by ferocious frogs, but they are no match for you. Speak with Y'shtola to receive further instructions.",
+            "Y'shtola leads you inside the cave, where you are greeted by Matoya. Following a touching reunion and a brief trip down memory lane, Alphinaud reveals to the old hermit the purpose of your visit: building an aetheric ram and gaining entry to Azys Lla. Much to Y'shtola's surprise, her ordinarily truculent master agrees to lend her aid to your cause."
+        ],
+        "objectives": [
+            "Speak with Y'shtola outside Matoya's Cave.",
+            "Examine the wall and defeat any enemies that appear.",
+            "Speak with Y'shtola."
+        ],
+        "dialogue": [
+            {
+                "name": "YSHTOLA",
+                "text": "The cave in which Matoya resides is situated on the southern edge of the hinterlands."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "In choosing the spot, my master desired privacy above all else. As such, the cave is extremely well hidden; you'll not find it unless you know to look for it."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "We shall follow the road south until we reach a bridge. Rather than cross it, however, we shall ford the stream it spans, thence head straight until we arrive at the base of a bluff."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "But the final leg of our journey remains. Let us go and meet the legendary Matoya."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "This is the entrance.<br>...Hm? You seem unconvinced, <span class=\"highlight\">Forename</span>. Well, that will only add to the surprise."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "A word of warning before we proceed: stubborn geniuses make poor hosts, and time will have done naught to improve my master's temperament."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Doubt not but that there will be sentinels and traps both to deter unwanted guests. But we'll not be deterred, will we?"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Go on and touch the wall yonder. You will want to have your weapon near at hand."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "All kinds of herbs grow here, and they appear very well tended."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "What are you waiting for? Go on and touch the wall yonder."
+            },
+            {
+                "name": "BALLOON",
+                "text": "None shall pass, ribbit!"
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "Those sentinels may suffice to discourage the average trespasser, but not the Warrior of Light."
+            },
+            {
+                "name": "YSHTOLA",
+                "text": "The way should now be clear. Come, let us go and see my master."
+            }
+        ],
+        "reward": {
+            "gil": 801,
+            "xp": 86400
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67194
+            ]
+        },
+        "next": [
+            67196,
+            67502,
+            67503,
+            67504,
+            67505,
+            67507
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012421",
+            "obj": {
+                "i": 1012421,
+                "n": "Y'shtola",
+                "l": 2082,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012423",
+            "obj": {
+                "i": 1012423,
+                "n": "Y'shtola",
+                "l": 2001,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012420",
+            "obj": {
+                "i": 1012420,
+                "n": "Alphinaud",
+                "l": 2082,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012422",
+            "obj": {
+                "i": 1012422,
+                "n": "Alphinaud",
+                "l": 2001,
+                "q": 4
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67194",
+            "obj": {
+                "i": 67194,
+                "n": "Leaving Idyllshire",
+                "g": 3,
+                "l": "Idyllshire",
+                "s": 83
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67196",
+            "obj": {
+                "i": 67196,
+                "n": "Forbidden Knowledge",
+                "g": 3,
+                "l": "Matoya's Cave",
+                "s": 85
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67502",
+            "obj": {
+                "i": 67502,
+                "n": "Saro Roggo's Common Life",
+                "g": 99,
+                "l": "Matoya's Cave",
+                "s": 5901,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67503",
+            "obj": {
+                "i": 67503,
+                "n": "A Straightforward Fancy",
+                "g": 99,
+                "l": "Matoya's Cave",
+                "s": 5902
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67504",
+            "obj": {
+                "i": 67504,
+                "n": "A Statuesque Interest",
+                "g": 99,
+                "l": "Matoya's Cave",
+                "s": 5903
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67505",
+            "obj": {
+                "i": 67505,
+                "n": "A Self-possessed Pastime",
+                "g": 99,
+                "l": "Matoya's Cave",
+                "s": 5904
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67507",
+            "obj": {
+                "i": 67507,
+                "n": "Have I Toad You Lately",
+                "g": 99,
+                "l": "Matoya's Cave",
+                "s": 5906
+            }
+        }
+    ]
+}

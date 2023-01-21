@@ -1,0 +1,186 @@
+{
+    "quest": {
+        "name": "Waterbringer",
+        "location": "East Shroud",
+        "id": 66809,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005562,
+        "target": 1005562,
+        "involved": [
+            1005883
+        ],
+        "genre": 37,
+        "journal": [
+            "Ponnixia seeks aid in tending to the fungi of the forest.",
+            "Ponnixia would have you provide water for the moonspore, a giant mushroom that shines bright in the shadowy Sylphlands. Ponnixia encourages you to seek the assistance of the spell-crafting mysterious sylph before embarking, to ensure that your presence goes undetected by the darkness-favoring touched sylphs who dwell within.",
+            "The mysterious sylph works her magic to render you transparent. Steal three phials of deepspring water from the hostile sylphs.<br><br>※You must complete the task before the enchantment expires. The fragrant blooms you encounter on your path will extend the duration of the spell.",
+            "You have surreptitiously obtained three phials of deepspring water from the unsuspecting sylphs. Provide the thirsting moonspore with the sustenance it requires.",
+            "Rejuvenated by the pristine waters, the moonspore shimmers and glows ever brighter. Inform Ponnixia that the deed is done.",
+            "Heartened to hear that the moonspore will continue to shine strong in the darkness, Ponnixia thanks you for your efforts. Once again, you have proven yourself a beacon of hope to Little Solace."
+        ],
+        "objectives": [
+            "Speak with the mysterious sylph at the entrance to the Sylphlands.",
+            "Steal deepspring water from the hostile sylphs.",
+            "Water the moonspore in Moonspore Grove.",
+            "Report to Ponnixia."
+        ],
+        "dialogue": [
+            {
+                "name": "PONNIXIA",
+                "text": "Brave one returns, and this one's spirits soar. This one would once more ask brave one's aid, yes."
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "Brave one knows moonspore, yes? Moonspore is big, beautiful one. In dark and scary Sylphlands, moonspore brings sweet smells and bright lights."
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "Touched ones prefer shadows, care not for moonspore. Touched ones give clear-water only to stinkspores and gapemaws. Moonspore flickers and fades."
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "Brave one must steal clear-water from touched ones. Give to moonspore, make forest brighter and safer for all ones. These ones will help, yes. Brave one must speak to mysterious one. Brave one will not be seen."
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "Brave one must steal clear-water from touched ones. Give to moonspore, make forest brighter and safer for all ones. These ones will help, yes. Brave one must speak to mysterious one. Brave one will not be seen."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Walking one will water moonspore? Walking one is friend to these ones, indeed. Stand still─this one will hide walking one from sight."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Sweet smells make magic stronger. Walking one should remember this, if walking one wishes not to be seen."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Walking one must steal clear-water from touched ones, give to thirsting moonspore. Three phials moonspore must drink."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Ponnixia awaits word of walking one's success. This one wishes walking one luck."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Sweet smells make magic stronger. Walking one should remember this, if walking one wishes not to be seen."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Walking one must steal clear-water from touched ones, give to thirsting moonspore. Three phials moonspore must drink."
+            },
+            {
+                "name": "ZEXIA",
+                "text": "Ponnixia awaits word of walking one's success. This one wishes walking one luck."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "A sylphic incantation is about to render you transparent. Hurry and steal phials of deepspring water from the hostile sylphs before the magic is lifted."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "The incantation will expire in thirty-five seconds, after which time you will be unable to complete your task. Return to the mysterious sylph to have the spell cast anew."
+            },
+            {
+                "name": "DECRIPT",
+                "text": "The fragrant blooms you encounter on the way will extend the duration of the incantation. Seek them out if the spell's power begins to wane."
+            },
+            {
+                "name": "RECOVER",
+                "text": "A fragrant mist envelops you!"
+            },
+            {
+                "name": "NOTRECOVER",
+                "text": "It is not safe to perform this action while visible. Return to the mysterious sylph to have the incantation cast anew."
+            },
+            {
+                "name": "PONNIXIA",
+                "text": "Thanks to brave one, moonspore shines on in the darkness, and these ones may yet bring touched ones back to the light. These ones owe brave one much."
+            },
+            {
+                "name": "SYLPHENEMY",
+                "text": "(-Hostile Sylph-)The forest is no place for walking ones. Begone!"
+            },
+            {
+                "name": "SYLPHENEMY",
+                "text": "(-Hostile Sylph-)Hm? Clear-water is no more!? &lt;sigh&gt; Back to the spring for this one..."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Invigorated by the crisp water, the moonspore shimmers and shines bright."
+            }
+        ],
+        "reward": {
+            "gil": 600,
+            "reputation": 14,
+            "items": [
+                {
+                    "num": 7,
+                    "id": 28
+                },
+                {
+                    "id": 21072
+                }
+            ],
+            "xp": 9315
+        },
+        "reqs": {
+            "beastrank": 2,
+            "jobs": [
+                {
+                    "lvl": 45,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005562",
+            "obj": {
+                "i": 1005562,
+                "n": "Ponnixia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005883",
+            "obj": {
+                "i": 1005883,
+                "n": "Mysterious Sylph",
+                "l": 55,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21072",
+            "obj": {
+                "i": 21072,
+                "n": "Venture",
+                "l": 1,
+                "c": 65049,
+                "t": 100
+            }
+        }
+    ]
+}

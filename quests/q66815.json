@@ -1,0 +1,194 @@
+{
+    "quest": {
+        "name": "Sympathy for the Sentinel",
+        "location": "East Shroud",
+        "id": 66815,
+        "patch": 2.1,
+        "sort": 0,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 2,
+        "eventIcon": 71222,
+        "issuer": 1005563,
+        "target": 1005563,
+        "genre": 37,
+        "journal": [
+            "Moxia gazes wistfully in your direction.",
+            "Moxia relates to you the tragic tale of the ancient ones, guardians of the forest whose once-kindly hearts have been poisoned by the rampant contamination of the Sylphlands. Fighting back tears, she bids you slay the great trees and obtain three acorns.",
+            "You have put the sentinels out of their suffering, and obtained three acorns in the process. Next, obtain three phials of water from the springs in the vicinity of the Seedbed and the Hanging Barbs.",
+            "Water and acorns in hand, return to Little Solace and hand the items over to Moxia.",
+            "Though saddened at the sentinels' fate, Moxia is resolved to honor their memory by planting a new generation of gentle guardians. You have again proven yourself a friend to Little Solace, and this is surely not the last time the sylphs will beseech your aid."
+        ],
+        "objectives": [
+            "Slay Sylphlands sentinels and obtain sentinel acorns.",
+            "Obtain deepspring water from the Sylphlands springs.",
+            "Deliver the acorns and the water to Moxia."
+        ],
+        "dialogue": [
+            {
+                "name": "MOXIA",
+                "text": "O, ancient ones, kindly ones... &lt;sob&gt; Forgive these ones..."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Does brave one know? Since long before walking ones walked this place, these ones have kept the company of the trees. The gentlest of the trees were the ancient ones. The ancient ones watched over these ones, and kept these ones safe."
+            },
+            {
+                "name": "MOXIA",
+                "text": "...Then touched ones began to fill the forest with clouds of poison and hate. Ancient ones turned to gnarled, twisted ones, and once-gentle branches came crashing and lashing at these ones, that ancient ones once did love and protect."
+            },
+            {
+                "name": "MOXIA",
+                "text": "It is too late to save ancient ones, but there is still a way to save what ancient ones once were. First, though it pains this one's heart, this one must ask brave one to end ancient ones' suffering."
+            },
+            {
+                "name": "MOXIA",
+                "text": "After doing so, this one asks brave one to bring back ancient ones' seed-corns, along with three phials of deepspring water."
+            },
+            {
+                "name": "MOXIA",
+                "text": "The springs by the Seedbed or the Hanging Barbs should suffice, this one thinks, but be wary─naughty ones abound."
+            },
+            {
+                "name": "MOXIA",
+                "text": "This one asks that brave one bring back ancient ones' seed-corns, along with three phials of fresh water from deep spring. So will the cycle of life begin anew."
+            },
+            {
+                "name": "MOXIA",
+                "text": "Did brave one bring the...&lt;sniffle&gt;...acorns and water that this one seeks?"
+            },
+            {
+                "name": "MOXIA",
+                "text": "Brave one is strong indeed to quiet the ancient ones. This one is most grateful."
+            },
+            {
+                "name": "MOXIA",
+                "text": "These ones must never forget the ancient ones' kindness, but it is time for the cycle of life to begin anew. Yes, this one is certain."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21075
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5717,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005563",
+            "obj": {
+                "i": 1005563,
+                "n": "Moxia",
+                "l": 55,
+                "q": 10
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21075",
+            "obj": {
+                "i": 21075,
+                "n": "Sylphic Goldleaf",
+                "l": 1,
+                "c": 65051,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5717",
+            "obj": {
+                "i": 5717,
+                "n": "Quickarm Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Skill Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

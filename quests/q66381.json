@@ -1,0 +1,143 @@
+{
+    "quest": {
+        "name": "Give a Man a Drink",
+        "location": "Eastern La Noscea",
+        "id": 66381,
+        "patch": 2.0,
+        "sort": 173,
+        "eventIcon": 71201,
+        "issuer": 1006305,
+        "target": 1006312,
+        "involved": [
+            1006311
+        ],
+        "genre": 1,
+        "journal": [
+            "Shamani Lohmani appears to be in deep thought.",
+            "Reflecting on his past, Shamani Lohmani has decided that he cannot bear to disappoint his former captain, and he swears that he will find a suitable wine for the banquet. In the meantime, he asks that you deliver a bottle of his own original wine to Drest, a man who saved his life several years ago. Though he does not know exactly where Drest now lives, he does know that the man sometimes works at the Raincatcher Gully docks. Speak with Rhitskylt and see what he knows of Drest.",
+            "Rhitskylt knows little of Drest, and is more than happy to keep it that way. However, he does know that Drest lives alone at the Severed String, which lies far to the southwest of the docks. Traverse the jungle and deliver Shamani Lohmani's wine to the hermit.",
+            "You find Drest living alone in a squalid shack. Though he accepts your gift of wine, he does so with great trepidation. It is immediately clear to you that there is something very, very wrong with this disheveled, nervous man..."
+        ],
+        "objectives": [
+            "Speak with Rhitskylt.",
+            "Deliver the wine to Drest."
+        ],
+        "dialogue": [
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "I must say, this talk of Bacchus wine has made me rather nostalgic. Indeed, there is much I miss about my life with the Company of Heroes."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "After everything the captain has done for me, I could not bear to disappoint him..."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "Aye, have no fear. I swear that I shall find a suitable wine for the banquet─though I may need some time to think of a solution."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "In the meantime, there is a favor I would ask of you."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "Two years ago, in the deepest depths of my despair, I stumbled across Vylbrand as a vagabond drunk. I suspect I was looking for a place to die, because I very nearly found one not far from here."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "It was there that a man named Drest took me in and nursed me back to health. And it was he who gave me my first taste of Bacchus wine, which helped me to find my new calling. Though I am still a novice in the arts of winemaking, I would like him to know that I am pursuing my dream."
+            },
+            {
+                "name": "SHAMANILOHMANI",
+                "text": "This wine is my own original creation, and I would be most grateful if you delivered it to him in my stead. Drest sometimes works at the Raincatcher Gully docks, so perhaps Rhitskylt can tell you where to find him."
+            },
+            {
+                "name": "RHIITSKYLT",
+                "text": "Drest? Oh, you mean the hermit. Aye, I toss him a few gil when we need an extra pair of hands. He doesn't talk about himself, and I sure as hells don't ask."
+            },
+            {
+                "name": "RHIITSKYLT",
+                "text": "When a man's got a face with scars like that, you best leave well enough alone, I say. If you've a mind to find him, though, then head southwest to the Severed String."
+            },
+            {
+                "name": "DREST",
+                "text": "What...what do you want?"
+            },
+            {
+                "name": "DREST",
+                "text": "W-Wine? I...I didn't ask for this!<br>Who sent you!?<br>I...I... &lt;groan&gt;"
+            }
+        ],
+        "reward": {
+            "xp": 16380
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 33,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66379
+            ]
+        },
+        "next": [
+            66382
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006305",
+            "obj": {
+                "i": 1006305,
+                "n": "Shamani Lohmani",
+                "l": 32,
+                "q": 9
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006312",
+            "obj": {
+                "i": 1006312,
+                "n": "Drest",
+                "l": 32,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006311",
+            "obj": {
+                "i": 1006311,
+                "n": "Rhitskylt",
+                "l": 32,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66379",
+            "obj": {
+                "i": 66379,
+                "n": "It Won't Work",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 172
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66382",
+            "obj": {
+                "i": 66382,
+                "n": "That Weight",
+                "g": 1,
+                "l": "Eastern La Noscea",
+                "s": 174
+            }
+        }
+    ]
+}

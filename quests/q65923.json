@@ -1,0 +1,123 @@
+{
+    "quest": {
+        "name": "Salvaging the Scene",
+        "location": "Central Shroud",
+        "id": 65923,
+        "patch": 2.0,
+        "sort": 65,
+        "eventIcon": 71201,
+        "issuer": 1000503,
+        "target": 1000470,
+        "genre": 1,
+        "journal": [
+            "Armelle, a local at the Mirror Planks, wishes you to salvage cargo from a wreckage on the road.",
+            "Armelle has asked that you retrieve the cargo from a wagon that was attacked by some vicious denizen of the forest. Head to the site of the incident and salvage all that you can find.",
+            "You have salvaged the scattered cargo. Make your way to Bentbranch Meadows and deliver the goods to Keitha.",
+            "The spate of recent troubles in the surrounding woods has Keitha concerned for the fate of her ranch. She asks that you stand ready should Bentbranch Meadows have need of your skills."
+        ],
+        "objectives": [
+            "Salvage the cargo.",
+            "Deliver the cargo to Keitha at Bentbranch Meadows."
+        ],
+        "dialogue": [
+            {
+                "name": "SYSTEM",
+                "text": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+            },
+            {
+                "name": "ARMELLE",
+                "text": "Might you assist me with another matter, <span class=\"alternative-container\"><span class=\"alternative\">milady</span><span class=\"alternative\">sir</span></span>? A wagon that departed from Quarrymill was overturned on the road when some large, ill-tempered forest beast chose that moment to defend its territory."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "By Nophica's grace, the driver escaped without serious injury, but the wagon's cargo was not so fortunate. With none willing to risk another encounter with the creature, I can only assume the goods remain strewn across the ground where the incident occurred."
+            },
+            {
+                "name": "ARMELLE",
+                "text": "Simply follow the road here to the south and you should come across the wreckage. Salvage what cargo you can, and deliver it to Keitha at Bentbranch Meadows if you would be so kind."
+            },
+            {
+                "name": "KEITHA",
+                "text": "You have a delivery for me?"
+            },
+            {
+                "name": "KEITHA",
+                "text": "Ah, this's the shipment I was waitin' on from Quarrymill. I heard the wagon ran afoul o' some great monstrosity just up the path from the Mirror Planks, but I see you've managed to scrape together a few bits and pieces."
+            },
+            {
+                "name": "KEITHA",
+                "text": "Seems I can't get through two bells these days without hearin' some new tale o' horrors in the Deepcroft or bandit cutthroats prowlin' the woods hereabouts."
+            },
+            {
+                "name": "KEITHA",
+                "text": "Makes me wonder if me chocobos are safe at night, it does. If we're ever in need of a 'venturer's skills, I hope you'll be around to lend a hand."
+            },
+            {
+                "name": "POP",
+                "text": "You feel the ground tremble beneath your feet..."
+            }
+        ],
+        "reward": {
+            "gil": 160,
+            "xp": 6160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65920
+            ]
+        },
+        "next": [
+            65697
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000503",
+            "obj": {
+                "i": 1000503,
+                "n": "Armelle",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000470",
+            "obj": {
+                "i": 1000470,
+                "n": "Keitha",
+                "l": 54,
+                "q": 9
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65920",
+            "obj": {
+                "i": 65920,
+                "n": "A Hearer Is Often Late",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 63
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65697",
+            "obj": {
+                "i": 65697,
+                "n": "Leia's Legacy",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 71
+            }
+        }
+    ]
+}

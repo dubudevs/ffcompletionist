@@ -1,0 +1,116 @@
+{
+    "quest": {
+        "name": "Veni, Vundu, Vici",
+        "location": "The Sea of Clouds",
+        "id": 67707,
+        "patch": 3.1,
+        "sort": 11,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 6,
+        "eventIcon": 71222,
+        "issuer": 1016089,
+        "target": 1016089,
+        "genre": 45,
+        "journal": [
+            "Muna Vanu is troubled by growing Vundu aggressions.<br>※The difficulty of this quest will be synced to your current level.",
+            "Muna Vanu has heard troubling reports of Vundu activity at the border of Zundu territory. Unfortunately, his tribe does not have the manpower to respond to these threats. He asks that you patrol the border in his stead, and protect the Gundu from any encroachers you come across. Travel to the border in the northeast and search there for Vundu scouts.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+            "You have defeated a number of Vundu scouts lurking just within the borders of Zundu territory. Return to Muna Vanu and let him know that this threat to the sovereignty of his tribe has been assuaged.",
+            "Muna Vanu offers his most sincere thanks for your efforts. His tribe still owes the Zundu a great debt of gratitude, and your efforts have gone a long way in repaying their kindness. By the same token, through your contributions to the Gundu, Muna Vanu finds they have become similarly indebted to you."
+        ],
+        "objectives": [
+            "Search for Vundu scouts northeast of Ok' Zundu.",
+            "Report to Muna Vanu."
+        ],
+        "dialogue": [
+            {
+                "name": "MUNAVANU",
+                "text": "If we position scouts here...and here... Oh, <span class=\"highlight\">Forename</span>! Muna Vanu does not hear your approach! Perhaps netherling can lend <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> strength to Gundu?"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Zundu say they see Vundu scouts nearby. Our tribe must patrol its territory, but has not the warriors to do so. Please, help us find evil Vundu scouts and drive them away!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Vundu land borders Zundu land northeast of here. Please search that area. Find their scouts and show Vundu full fury of Gundu!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Why are netherlings here!?"
+            },
+            {
+                "name": "BALLOON",
+                "text": "You cannot stop us, netherling!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "<span class=\"highlight\">Forename</span>! Word reaches Muna Vanu of your exploits! Gundu descend upon vile Vundu wretches with force of violent gale!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Vundu scouts grow more daring each day. We hear of them hunting in Zundu territory─eating Zundu food!"
+            },
+            {
+                "name": "MUNAVANU",
+                "text": "Netherling's work helps us repay debt to Zundu. But now we owe debt to <span class=\"emphasis\">you</span>, <span class=\"highlight\">Forename</span>. Fear not. Gundu do not forget your help."
+            }
+        ],
+        "reward": {
+            "gil": 609,
+            "reputation": 50,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21074
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 1,
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016089",
+            "obj": {
+                "i": 1016089,
+                "n": "Muna Vanu",
+                "l": 2100,
+                "q": 30
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21074",
+            "obj": {
+                "i": 21074,
+                "n": "Vanu Whitebone",
+                "l": 1,
+                "c": 65055,
+                "t": 100
+            }
+        }
+    ]
+}

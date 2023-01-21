@@ -1,0 +1,169 @@
+{
+    "quest": {
+        "name": "Church Warrant",
+        "location": "Amh Araeng",
+        "id": 69038,
+        "patch": 5.0,
+        "sort": 6160,
+        "eventIcon": 71221,
+        "issuer": 1027923,
+        "target": 1027923,
+        "genre": 115,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Tofrith wishes to share the tale of a passing traveler."
+        ],
+        "objectives": [
+            "Speak with the traveling historian.",
+            "Slay the cursed weapon and retrieve the traveling historian's pack.",
+            "Return the pack to the traveling historian.",
+            "Share the news with Tofrith."
+        ],
+        "dialogue": [
+            {
+                "name": "TOFRITH",
+                "text": "Another traveler are you? Place is crawlin' with 'em, it seems. Just had one askin' me about local ruins, so I pointed him in the direction of Kelk."
+            },
+            {
+                "name": "TOFRITH",
+                "text": "I tried to tell him about all the evil weapons skulkin' around the place, but I think my words of warnin' went in one ear and out the other."
+            },
+            {
+                "name": "TOFRITH",
+                "text": "I've half a mind to go in there after and drag him out of harm's way. Trouble is, I'm not much of a fighter, so I'd only end up gettin' meself killed."
+            },
+            {
+                "name": "TOFRITH",
+                "text": "You, on the other hand, might stand a chance. Will you go and see if you can find the daft bugger?"
+            },
+            {
+                "name": "TOFRITH",
+                "text": "Can't say I see the appeal in spendin' me life travelin'. Not knowin' where your next meal's comin' from, gettin' chased around by all sorts of horrible creatures. Sod that!"
+            },
+            {
+                "name": "MINER03502",
+                "text": "You are come to my rescue! A thousand blessings upon you!"
+            },
+            {
+                "name": "MINER03502",
+                "text": "Though I feel that curses are more appropriate for those evil weapons! They stole <span class=\"emphasis\">my</span> weapon─of the standard, non-enchanted variety─my only means of defense."
+            },
+            {
+                "name": "MINER03502",
+                "text": "That was not the only thing they took from me. They have my pack, with all of my supplies and apparatus inside! Would you be able to help me reclaim it?"
+            },
+            {
+                "name": "MINER03502",
+                "text": "They carried it up those stairs and into the deeper reaches of the ruins. Do be quick, lest they devour my field notes!"
+            },
+            {
+                "name": "MINER03502",
+                "text": "Oh! I do hope the contents have not incurred any damage!"
+            },
+            {
+                "name": "MINER03502",
+                "text": "Praise be! My instruments and such are largely unscathed! And most importantly, my field notes are all present and correct. I do not know what I would have done if I had lost the fruits of my research into the Church of the First Light!"
+            },
+            {
+                "name": "MINER03502",
+                "text": "I daresay the name rings a bell. Most have heard of this ancient religion, yet few know its history. If it pleases you, I may offer a relatively succinct summary of my findings."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Speak on."
+            },
+            {
+                "name": "A1",
+                "text": "Sorry. More pressing matters require my attention."
+            },
+            {
+                "name": "MINER03502",
+                "text": "The Church of the First Light was one of the most widespread religions and had followers in every corner of Norvrandt."
+            },
+            {
+                "name": "MINER03502",
+                "text": "It began with the original inhabitants, the elves, and eventually took root among the other races."
+            },
+            {
+                "name": "MINER03502",
+                "text": "This included not only their allies, the Humes, but the Galdjent and Drahn, with whom they shared a tumultuous relationship."
+            },
+            {
+                "name": "MINER03502",
+                "text": "The Church of the First Light's influence grew to such an extent that it surpassed even that of the monarchs and rulers of the various nations."
+            },
+            {
+                "name": "MINER03502",
+                "text": "That was until the Flood of Light changed everything. The Light that they so revered was not their salvation, but their destruction."
+            },
+            {
+                "name": "MINER03502",
+                "text": "As you may well imagine, those who survived quickly abandoned the religion, and its teachings were all but forgotten. I have made it my life's work to see that these people and their ways are not similarly lost to the sands of time."
+            },
+            {
+                "name": "MINER03502",
+                "text": "Though I understand the perils involved with the exploration of ancient ruins, I feel we must do our utmost to retain what knowledge we can of the world that existed before the Flood."
+            },
+            {
+                "name": "MINER03502",
+                "text": "Yes, quite. Places to go, things to slay, I expect."
+            },
+            {
+                "name": "MINER03502",
+                "text": "Ahem. It seems that we have dallied here long enough. However, it would be remiss of me to part from you without offering my gratitude for the retrieval of my irreplaceable research materials."
+            },
+            {
+                "name": "MINER03502",
+                "text": "I will return to Twine and give my thanks to Tofrith for suggesting that I visit these ruins. It was a most worthwhile expedition indeed. Fare thee well!"
+            },
+            {
+                "name": "TOFRITH",
+                "text": "Our mutual acquaintance, the travelin' fruitcake, came by to thank me. Not that I really did much besides sending you to help."
+            },
+            {
+                "name": "TOFRITH",
+                "text": "Anyway, he left this for you. Show of gratitude, or summink."
+            }
+        ],
+        "reward": {
+            "gil": 832
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                69149
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1027923",
+            "obj": {
+                "i": 1027923,
+                "n": "Tofrith",
+                "l": 2955,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69149",
+            "obj": {
+                "i": 69149,
+                "n": "On Track",
+                "g": 8,
+                "l": "Amh Araeng",
+                "s": 720
+            }
+        }
+    ]
+}

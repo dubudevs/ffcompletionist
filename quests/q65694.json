@@ -1,0 +1,181 @@
+{
+    "quest": {
+        "name": "Sting in a Bottle",
+        "location": "Central Shroud",
+        "id": 65694,
+        "patch": 2.0,
+        "sort": 120,
+        "eventIcon": 71221,
+        "issuer": 1000501,
+        "target": 1000473,
+        "involved": [
+            1000741
+        ],
+        "genre": 92,
+        "journal": [
+            "Waltheof, a resident of the Mirror Planks, is seeking someone to assist him in his work.",
+            "Engage the hornet swarms sighted on the road that runs beside the Mirror Planks and collect four bags of their husks.",
+            "You have collected the bags of hornet husks. Deliver them to Waltheof at the Mirror Planks.",
+            "Deliver the bottle of stingbrew to Margault at Bentbranch Meadows.",
+            "You have delivered the bottle of stingbrew to Margault. The potent liquor made from fermented hornet husks is vital for protecting gysahl greens from pests. For the sake of the chocobos, you hope the leafy vegetable is thoroughly washed before feeding time..."
+        ],
+        "objectives": [
+            "Slay hornet swarms and collect their husks.",
+            "Deliver the hornet husks to Waltheof.",
+            "Deliver the bottle of stingbrew to Margault at Bentbranch Meadows."
+        ],
+        "dialogue": [
+            {
+                "name": "WALTHEOF",
+                "text": "Can I interest you in another job? This one'll ask a little more of your skills, I promise."
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "What I need is for you to swat some of those hornet swarms you see buzzing about the place and collect their husks. About four bags' worth should be enough."
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "Hm? What am I going to do with a pile of dead vilekin? Well, the sooner you give them to me, the sooner you'll find out!"
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "You have the husks? Good, good, hand them over, then."
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "Ah, these are perfect. Hope they didn't sting you too terribly. Now all we do is take some bottles of liquor, and squeeze these beauties inside like so... And there we have it─a fresh batch of my special stingbrew!"
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "The ranchers of Bentbranch Meadows put in an order for a bottle quite some time ago, but gathering those husks is always such a chore... Ahem. Speaking of chores, would you mind taking this to them as soon as you're able?"
+            },
+            {
+                "name": "WALTHEOF",
+                "text": "The lass you're after goes by the name of Margault. Give her the stingbrew, along with my regards. Oh, and, um...apologize for the delay, would you?"
+            },
+            {
+                "name": "MARGAULT",
+                "text": "Yes, I am Margault. How might I...?"
+            },
+            {
+                "name": "MARGAULT",
+                "text": "Ah, the stingbrew! At last! I am aware of what must be done to acquire this, and am most grateful to you. Few folk are willing to run <span class=\"emphasis\">towards</span> a swarm of wrathful hornets."
+            },
+            {
+                "name": "MARGAULT",
+                "text": "Ordinarily, this liquor is drunk for the unique and not altogether unpleasant stinging sensation it causes on one's tongue. It is, however, also an indispensable tool for repelling insects. We sprinkle it over the fields where the gysahl greens are planted."
+            },
+            {
+                "name": "MARGAULT",
+                "text": "Thanks to you, the crops will be untouched by pests this year. I hope one of our well-fed chocobos can return the favor by serving you as a mount someday."
+            }
+        ],
+        "reward": {
+            "gil": 220,
+            "items": [
+                {
+                    "id": 27636,
+                    "one": 1
+                },
+                {
+                    "id": 3320,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 2625
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                65922
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000501",
+            "obj": {
+                "i": 1000501,
+                "n": "Waltheof",
+                "l": 54,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000473",
+            "obj": {
+                "i": 1000473,
+                "n": "Margault",
+                "l": 54,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000741",
+            "obj": {
+                "i": 1000741,
+                "n": "Eylgar",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "27636",
+            "obj": {
+                "i": 27636,
+                "n": "Hard Leather Kecks",
+                "l": 12,
+                "c": 45099,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "3320",
+            "obj": {
+                "i": 3320,
+                "n": "Striped Cotton Slops",
+                "l": 13,
+                "c": 45296,
+                "t": 36,
+                "p": 297
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65922",
+            "obj": {
+                "i": 65922,
+                "n": "Walking the Planks",
+                "g": 92,
+                "l": "Central Shroud",
+                "s": 110
+            }
+        }
+    ]
+}

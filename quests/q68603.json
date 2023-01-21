@@ -1,0 +1,176 @@
+{
+    "quest": {
+        "name": "For Fast, Temporary Relief",
+        "location": "The Fringes",
+        "id": 68603,
+        "patch": 4.2,
+        "sort": 32,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 10,
+        "eventIcon": 71222,
+        "issuer": 1024773,
+        "target": 1024773,
+        "involved": [
+            1025075,
+            1025076,
+            1025077
+        ],
+        "genre": 53,
+        "journal": [
+            "Eshana seems on the verge of panicking.<br><br>※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+        ],
+        "objectives": [
+            "Use the Ananta healing salve on wounded Resistance fighters.",
+            "Report to Eshana."
+        ],
+        "dialogue": [
+            {
+                "name": "ESHANA",
+                "text": "<span class=\"highlight\">Forename</span>, our ssscouts, they've been attacked! Left for dead by sssome territorial predator!"
+            },
+            {
+                "name": "ESHANA",
+                "text": "The messenger who limped into camp sssays they were ssset upon along their patrol route in Virdjala."
+            },
+            {
+                "name": "ESHANA",
+                "text": "They're in need of immediate attention, and I have no other sssoldiers to sssend. Quickly, take this healing sssalve and find our injured comrades!"
+            },
+            {
+                "name": "SOLDIERA03067",
+                "text": "Hells below, it hurts..."
+            },
+            {
+                "name": "SOLDIERA03067",
+                "text": "Wait, what is that you're smearing on...oh. Oh! The pain is gone!"
+            },
+            {
+                "name": "SOLDIERA03067",
+                "text": "Thank you! I think...yes, I can make it back on my own now."
+            },
+            {
+                "name": "SOLDIERB03067",
+                "text": "&lt;gasp&gt; Well, that's it then.<br>I'm done for..."
+            },
+            {
+                "name": "SOLDIERB03067",
+                "text": "My thanks─you've dragged me back from death's doorstep! I've walked this route a time or two and thought I knew what to expect... I'll be more careful on my way back to the castellum."
+            },
+            {
+                "name": "SOLDIERC03067",
+                "text": "Ah... Oh gods, the pain..."
+            },
+            {
+                "name": "SOLDIERC03067",
+                "text": "Ow... Ow...? Oh."
+            },
+            {
+                "name": "SOLDIERC03067",
+                "text": "I don't know what was in that ointment, but it seems the bleeding's stopped. I'd best report in. My thanks!"
+            },
+            {
+                "name": "ESHANA",
+                "text": "Thank you, <span class=\"highlight\">Forename</span>─all the ssscouts are accounted for."
+            },
+            {
+                "name": "ESHANA",
+                "text": "Were you perhapsss curious about the sssalve I had you use? It is an old Ananta remedy that numbs the wound and clotsss the blood...for a time."
+            },
+            {
+                "name": "ESHANA",
+                "text": "As sssuch, these ointmentsss are perfect for emergency treatment out in the field. For long term healing, however, the ressstorative alchemies of your people are far sssuperior."
+            },
+            {
+                "name": "ESHANA",
+                "text": "The Gatekeepers will, of course, ssseek to employ the bessst combination of both. Thank you again for your ssswift assistance."
+            }
+        ],
+        "reward": {
+            "gil": 550,
+            "reputation": 60,
+            "items": [
+                {
+                    "num": 15,
+                    "id": 28
+                },
+                {
+                    "id": 21935
+                }
+            ]
+        },
+        "reqs": {
+            "beastrank": 6,
+            "jobs": [
+                {
+                    "lvl": 60,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1024773",
+            "obj": {
+                "i": 1024773,
+                "n": "Eshana",
+                "l": 2406,
+                "q": 28
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025075",
+            "obj": {
+                "i": 1025075,
+                "n": "Wounded Scout",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025076",
+            "obj": {
+                "i": 1025076,
+                "n": "Wincing Scout",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025077",
+            "obj": {
+                "i": 1025077,
+                "n": "Bleeding Scout",
+                "l": 2406,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21935",
+            "obj": {
+                "i": 21935,
+                "n": "Ananta Dreamstaff",
+                "l": 1,
+                "c": 65061,
+                "t": 100
+            }
+        }
+    ]
+}

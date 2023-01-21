@@ -1,0 +1,156 @@
+{
+    "quest": {
+        "name": "Pass the Poacher",
+        "location": "Gridania",
+        "id": 67665,
+        "patch": 3.2,
+        "sort": 102,
+        "repeatable": 1,
+        "icon": 100534,
+        "eventIcon": 71222,
+        "issuer": 1016897,
+        "target": 1016897,
+        "genre": 199,
+        "journal": [
+            "The cock-a-hoop collector awaits you with bated breath.<br>※This quest is available for a limited time only.",
+            "The overenthusiastic Au Ra explains the simple activity to you, delivering a Hatching–tide decoration to her hiding counterpart. However, she says you must do so without it getting snatched by any spriggans strolling around the quarter. Pick up one of the egg decorations from the basket to begin. <br><br>※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+            "You have picked up one of the decorative eggs. Carry it safely to the collector-in-training hiding in Old Gridania, avoiding any spriggans that may cross your path.",
+            "Adeptly sneaking past the coddled spriggans, you eventually arrive at the Lalafell's hiding place and deliver the egg decoration to him and he attempts to see you off with some egg humor. Return to Mih Khetto's Amphitheatre and report to the cock-a-hoop collector.",
+            "The cock-a-hoop collector hands over a fortune egg and welcomes you to challenge again, but not before charming you with more of her eccentric disposition."
+        ],
+        "objectives": [
+            "Pick up the decorative egg.",
+            "Deliver the decorative egg to the collector-in-training.",
+            "Report to the cock-a-hoop collector."
+        ],
+        "dialogue": [
+            {
+                "name": "EGGHUNTINGSTAFFA02129",
+                "text": "Hello there, friend! Fancy yourself stealthy enough to outsmart a spriggan? Why not try your hand at Pass the Poacher?"
+            },
+            {
+                "name": "EGGHUNTINGSTAFFA02129",
+                "text": "The task is quite simple─it's the eggsecution that is tricky! Beside me is a basket from which you will choose one decoration. Careful not to over-eggsert yourself, though─they are quite heavy!"
+            },
+            {
+                "name": "EGGHUNTINGSTAFFA02129",
+                "text": "You will need to deliver it to my compeer, who has hidden himself somewhere in the quarter. However, if you wander too close to one of the coddled spriggans meandering about, the greedy creature will grab the egg right out of your grasp. You will have to return to fetch another."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Deliver the decorative egg to the collector-in-training in Old Gridania."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "Beware the spriggans lying in wait. Being caught en route or leaving Old Gridania will result in failure."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "You will have four minutes to complete the task. Should you fail, return to the starting location and begin anew."
+            },
+            {
+                "name": "EGGHUNTINGSTAFFA02129",
+                "text": "Gods, I love this job."
+            },
+            {
+                "name": "SPRIGAN",
+                "text": "Big egg! Big shiny eeegg! My biiig shiiiny eeeeeegg!"
+            },
+            {
+                "name": "POPMESSAGE",
+                "text": "You lose the decorative egg."
+            },
+            {
+                "name": "SPRIGAN",
+                "text": "Eeegg! Eeegg! Gimme eeeeeegg!"
+            },
+            {
+                "name": "EGGHUNTINGSTAFFB02129",
+                "text": "I appreciate you coming all this way, but you appear to be empty-handed! Return to my mentor and fetch yourself a festive decoration."
+            },
+            {
+                "name": "EGGHUNTINGSTAFFB02129",
+                "text": "You've found me! The spriggans did not cause you much trouble, did they? You may report back to the egg...uh, egg...enthusiastic lass at the amphitheatre."
+            },
+            {
+                "name": "EGGHUNTINGSTAFFB02129",
+                "text": "Er, eggsemplary work, <span class=\"alternative-container\"><span class=\"alternative\">madam</span><span class=\"alternative\">sir</span></span>! ...Whew, this is not as easy as it looks."
+            },
+            {
+                "name": "EGGHUNTINGSTAFFA02129",
+                "text": "My fellow Dreamer told me by linkpearl that you have successfully carried the decoration to him. Well done! Here you are, your prize!"
+            },
+            {
+                "name": "EGGHUNTINGSTAFFA02129",
+                "text": "Let me know if you wish to embark on another delivery eggspedition!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 14944
+                }
+            ],
+            "xp": 0
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 15,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                67664
+            ]
+        },
+        "next": [
+            67668
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1016897",
+            "obj": {
+                "i": 1016897,
+                "n": "Cock-a-hoop Collector",
+                "l": 53,
+                "q": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "14944",
+            "obj": {
+                "i": 14944,
+                "n": "Chipped Fortune Egg",
+                "l": 1,
+                "c": 21308,
+                "t": 85
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67664",
+            "obj": {
+                "i": 67664,
+                "n": "Jihli Dreams of Egg Hunts",
+                "g": 199,
+                "l": "Gridania",
+                "s": 101
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67668",
+            "obj": {
+                "i": 67668,
+                "n": "Eggsaltation of a Lark",
+                "g": 199,
+                "l": "Gridania",
+                "s": 105
+            }
+        }
+    ]
+}

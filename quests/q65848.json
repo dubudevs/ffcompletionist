@@ -1,0 +1,129 @@
+{
+    "quest": {
+        "name": "My First Axe",
+        "location": "Limsa Lominsa",
+        "id": 65848,
+        "patch": 2.0,
+        "sort": 12,
+        "icon": 100053,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1000927,
+        "target": 1000927,
+        "genre": 129,
+        "journal": [
+            "Axemaster Wyrnzoen would have you test the edge of your new axe in combat.",
+            "As a new student of the axe, you are bid by the hulking Roegadyn to waste no time in testing the edge of your chosen weapon in combat. Head to the outskirts of Limsa Lominsa and slay three lost lambs, three wharf rats, and three little ladybugs.",
+            "You have slain the specified creatures. Return to the Marauders' Guild and report to Axemaster Wyrnzoen.",
+            "You return to the guild with a greater awareness of your weapon's brutal potential. To fully realize that potential, however, Wyrnzoen encourages you to hone your skill and strength with relentless determination.<br><br>※The next marauder quest will be available from Wyrnzoen upon reaching level 5."
+        ],
+        "objectives": [
+            "Slay wharf rats as a marauder.",
+            "Slay lost lambs as a marauder.",
+            "Slay little ladybugs as a marauder.",
+            "Report to Axemaster Wyrnzoen at the Marauders' Guild."
+        ],
+        "dialogue": [
+            {
+                "name": "WYRNZOEN",
+                "text": "Aye, you cut a striking figure, <span class=\"highlight\">Forename</span>. But heroic posing is unlikely to cut a swath through your enemies."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "You stand now as a student of the axe─let us waste no time in testing the edge of your chosen weapon. You shall wade straightway into combat as befits a novice of our discipline."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Go forth and slay the bleating, scurrying, crawling pests that plague the outskirts of Limsa Lominsa."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Lost lambs, wharf rats, and little ladybugs shall be your piteous adversaries this day. Return to me once three of each creature have fallen to your blade."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "You are returned to me a different <span class=\"alternative-container\"><span class=\"alternative\">woman</span><span class=\"alternative\">man</span></span>. Already your face shows a harder cast; a realization of the slaughter of which you are capable."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "But there is much training to be done before you will wield the axe to its fullest potential. Learn well your lessons, build your strength, and make of each swing an instinctive act."
+            },
+            {
+                "name": "WYRNZOEN",
+                "text": "Every blow of your weapon will clear another step towards the mastery of the marauder way. Implacable, relentless─such must be your momentum on both the practice grounds and the battlefield."
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The next marauder quest will be available from Wyrnzoen upon reaching level 5."
+            }
+        ],
+        "reward": {
+            "gil": 115,
+            "xp": 100
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 1,
+                    "id": 4
+                }
+            ],
+            "quests": [
+                65846
+            ]
+        },
+        "next": [
+            65849,
+            65851
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000927",
+            "obj": {
+                "i": 1000927,
+                "n": "Wyrnzoen",
+                "l": 28,
+                "q": 12,
+                "t": "Guildmaster"
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65846",
+            "obj": {
+                "i": 65846,
+                "n": "Way of the Marauder",
+                "g": 129,
+                "l": "Limsa Lominsa",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65849",
+            "obj": {
+                "i": 65849,
+                "n": "Axe in the Stone",
+                "g": 129,
+                "l": "Limsa Lominsa",
+                "s": 50,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65851",
+            "obj": {
+                "i": 65851,
+                "n": "Wake of Destruction",
+                "g": 129,
+                "l": "Limsa Lominsa",
+                "s": 100,
+                "f": 1
+            }
+        }
+    ]
+}

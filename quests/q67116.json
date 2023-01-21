@@ -1,0 +1,290 @@
+{
+    "quest": {
+        "name": "Coming to Ishgard",
+        "location": "Intercessory",
+        "id": 67116,
+        "patch": 3.0,
+        "sort": 1,
+        "icon": 100393,
+        "eventIcon": 71201,
+        "issuer": 1010925,
+        "target": 1012313,
+        "involved": [
+            1010926,
+            1012308,
+            1012309,
+            1012310,
+            1012311,
+            1012312,
+            1012314,
+            1012315,
+            1013101
+        ],
+        "genre": 3,
+        "journal": [
+            "The time for action has come, and Alphinaud knows what he must do.",
+            "The Scions of the Seventh Dawn, once proclaimed the saviors of Eorzea, are now condemned as murderers─betrayed by the Crystal Braves and forced to flee the banquet held to celebrate the very victory they helped to bring about. One by one, your comrades remained behind in a bid to aid your escape, until you alone emerged from the tunnels beneath Ul'dah to be reunited with Alphinaud and seek refuge in Coerthas. But will you ever find sanctuary behind the walls of Ishgard? Having bided your time in Camp Dragonhead for what feels like an age, you finally have your answer: <span class=\"emphasis\">yes</span>. As wards of House Fortemps, you will be granted admission to the city proper. Haurchefant will tell you more.",
+            "In the end, it is as simple as speaking with a sentry at the Gates of Judgement. All has been arranged, and none will deny you passage.",
+            "Eyeing you warily, the sentry motions for you to enter. The Steps of Faith await─and beyond, Ishgard.",
+            "As you arrive in Foundation, you find that the destruction wrought by the wyverns is still fresh. Nearby, a well-dressed man beckons to you─presumably the manservant of whom Lord Haurchefant spoke.",
+            "The House Fortemps manservant welcomes you to Ishgard, and bids you follow him to the family manor in the Pillars above, where Haurchefant awaits.",
+            "At the manor, Haurchefant presents you to Count Edmont de Fortemps, who invites you to treat his home as your own. When Alphinaud expresses concern over the possible repercussions of harboring foreign fugitives, Edmont reassures you that your reputation does not concern him, and expresses confidence that his fellow Ishgardians will come to accept your presence given time."
+        ],
+        "objectives": [
+            "Speak with Haurchefant.",
+            "Speak with the Temple Knight gateguard at the Gates of Judgement.",
+            "Speak with the House Fortemps manservant.",
+            "Speak with Haurchefant outside Fortemps Manor in the Pillars."
+        ],
+        "dialogue": [
+            {
+                "name": "ALPHINAUD",
+                "text": "Not at all the circumstances under which I had hoped to visit Ishgard for the first time, but so be it."
+            },
+            {
+                "name": "TATARU",
+                "text": "They say the winds can be rather fierce on the Steps of Faith. Be sure to wrap up before we go!"
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "I must go on ahead and speak with the count. Fear not, however, for everything has been arranged."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "The sentries at the Gates of Judgement have been informed of our decision. You need but state your names, and they will allow you to pass."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "My manservant shall be waiting for you at the city gates, ready to escort you to our manor, where we shall meet again. Until then!"
+            },
+            {
+                "name": "TEMPLEKNIGHT01580",
+                "text": "Wards of House Fortemps? Ah, yes... You may pass."
+            },
+            {
+                "name": "SCENE00005",
+                "text": "Proceed to Ishgard?"
+            },
+            {
+                "name": "SCENE00005",
+                "text": "Yes"
+            },
+            {
+                "name": "SCENE00005",
+                "text": "No"
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "From afar, the spires did not seem so tall..."
+            },
+            {
+                "name": "TATARU",
+                "text": "Gods... I feel like a child in a giant's castle!"
+            },
+            {
+                "name": "BUTLER01580",
+                "text": "Greetings, <span class=\"alternative-container\"><span class=\"alternative\">Mistress</span><span class=\"alternative\">Master</span></span> <span class=\"highlight\">Surname</span>. On behalf of House Fortemps, I bid you welcome to Ishgard."
+            },
+            {
+                "name": "BUTLER01580",
+                "text": "My lord humbly requests your presence at his residence in the Pillars."
+            },
+            {
+                "name": "BUTLER01580",
+                "text": "If you all would come with me..."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "To look upon the splendor of these heights, one would little suspect the ruin wrought by the wyverns below..."
+            },
+            {
+                "name": "TATARU",
+                "text": "Is it just me, or is the air up here different? You can almost <span class=\"emphasis\">smell</span> the wealth and power! Gods, it's making me feel faint..."
+            },
+            {
+                "name": "HOUSEFORTEMPSGUARD01580",
+                "text": "Greetings, <span class=\"alternative-container\"><span class=\"alternative\">miss</span><span class=\"alternative\">sir</span></span>, and welcome to Fortemps Manor."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "The Warrior of Light and <span class=\"alternative-container\"><span class=\"alternative\">her</span><span class=\"alternative\">his</span></span> brave companions, walking the streets of Ishgard at last! What a glorious sight!"
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "I cannot tell you how long I have waited for this day. Allow me to present to you my family home: Fortemps Manor!"
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "I should like nothing more than to show you around, but everyone is gathered to receive you."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Come, my friends! Introductions must be made!"
+            }
+        ],
+        "reward": {
+            "gil": 799,
+            "xp": 48000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 50,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                65964
+            ]
+        },
+        "next": [
+            67117,
+            67274
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1010925",
+            "obj": {
+                "i": 1010925,
+                "n": "Alphinaud",
+                "l": 1429,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012313",
+            "obj": {
+                "i": 1012313,
+                "n": "Haurchefant",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1010926",
+            "obj": {
+                "i": 1010926,
+                "n": "Tataru",
+                "l": 1429,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012308",
+            "obj": {
+                "i": 1012308,
+                "n": "Haurchefant",
+                "l": 1429,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012309",
+            "obj": {
+                "i": 1012309,
+                "n": "Temple Knight Gateguard",
+                "l": 63,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012310",
+            "obj": {
+                "i": 1012310,
+                "n": "House Fortemps Manservant",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012311",
+            "obj": {
+                "i": 1012311,
+                "n": "Alphinaud",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012312",
+            "obj": {
+                "i": 1012312,
+                "n": "Tataru",
+                "l": 2300,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012314",
+            "obj": {
+                "i": 1012314,
+                "n": "Alphinaud",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012315",
+            "obj": {
+                "i": 1012315,
+                "n": "Tataru",
+                "l": 2301,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013101",
+            "obj": {
+                "i": 1013101,
+                "n": "House Fortemps Guard",
+                "l": 2301,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65964",
+            "obj": {
+                "i": 65964,
+                "n": "Before the Dawn",
+                "g": 2,
+                "l": "Coerthas Central Highlands",
+                "s": 100
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67117",
+            "obj": {
+                "i": 67117,
+                "n": "Taking in the Sights",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67274",
+            "obj": {
+                "i": 67274,
+                "n": "The Way of the Dodo",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5001
+            }
+        }
+    ]
+}

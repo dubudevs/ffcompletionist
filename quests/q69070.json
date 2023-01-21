@@ -1,0 +1,161 @@
+{
+    "quest": {
+        "name": "His Secret Shame",
+        "location": "Lakeland",
+        "id": 69070,
+        "patch": 5.0,
+        "sort": 7110,
+        "icon": 100862,
+        "eventIcon": 71221,
+        "issuer": 1030689,
+        "target": 1030681,
+        "genre": 113,
+        "journal": [
+            "<span class=\"highlight-red\"> Quest Sync</span><br>Mauwyl wears an increasingly uneasy expression.",
+            "Mauwyl once again worries for Tolas, who has yet to return from making his rounds. Worried that harm may have befallen his friend, he suggests that the two of you split up and search for the knight. The young woodcutter will return and search within the Imperative, and bids you search without.<br><br>※Please note that the difficulty of this quest has been synced to your current level.",
+            "Scouring the woods, you find an ashen-faced Tolas cowering before a vicious monster. As the veteran knight seems, for reasons unknown, too terrified to swing his blade, you take it upon yourself to slay the fiend and come to his aid.",
+            "You make quick work of the beast, rescuing Tolas from a fate most dire. The knight ruefully discloses that he has found himself unable to fight ever since the recent battle, with the events of that day tormenting his conscience even still. He assails himself as a coward who valued his own safety over the lives of his men, and declares himself unworthy to carry on his grandfather's name. In the end, he returns to the stronghold to think over matters, pleading you not to divulge his secret shame to his friend.",
+            "Back at the Imperative, Mauwyl expresses his gratitude to you for bringing Tolas back safe and sound. He nevertheless remains concerned for his friend, who he says has barely uttered a word since his return. You resolve to sojourn at the stronghold a bit longer, that you might help the troubled knight dispel his demons."
+        ],
+        "objectives": [
+            "Search for Tolas.",
+            "Rescue Tolas.",
+            "Speak with Mauwyl."
+        ],
+        "dialogue": [
+            {
+                "name": "MAUWYL",
+                "text": "Whatever is keeping Tolas? He should have returned from his rounds by now. Do you suppose he's forgotten about us?"
+            },
+            {
+                "name": "MAUWYL",
+                "text": "...No, that wouldn't be like him. Call it a hunch, but I have a bad feeling about this. Let's split up and look for him. I'll go see if he's returned to the stronghold. Why don't you search around outside?"
+            },
+            {
+                "name": "TOLAS",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "TOLAS",
+                "text": "&lt;pant&gt; &lt;pant&gt; Thank you, friend. You...you saved my life. Oh, the ignominy of it all..."
+            },
+            {
+                "name": "TOLAS",
+                "text": "I, a knight and veteran of a thousand battles, nigh laid low by some puny beast I should have been able to slay with mine eyes closed. And yet, the moment I drew my sword, my arm began to tremble..."
+            },
+            {
+                "name": "TOLAS",
+                "text": "Ever since that day it has been like this. I had lost men to the sin eaters before, of course...but this time was different. So powerful was our foe, so crushing was our defeat. I can still hear the screams of my men echoing endlessly throughout my skull."
+            },
+            {
+                "name": "TOLAS",
+                "text": "Why, damn it!? Why do I still live when they had to die!? But no, I know the answer... It is because I am a coward. I could have risked my life to save them, yet I fought only to preserve my own worthless hide."
+            },
+            {
+                "name": "TOLAS",
+                "text": "My superiors, my fellow soldiers sing my praises only because they do not know the truth. If they did, I would be cast out of the guard in dishonor. I am a craven, unworthy of my grandfather's blood."
+            },
+            {
+                "name": "TOLAS",
+                "text": "I beg of you, friend. Do not speak to the others─Mauwyl, in particular─of my terrible secret. I must carry the shame of my deeds on my own until such a day as I can redeem myself."
+            },
+            {
+                "name": "Q1",
+                "text": "What will you say?"
+            },
+            {
+                "name": "A1",
+                "text": "Your friend worries for you."
+            },
+            {
+                "name": "A1",
+                "text": "..."
+            },
+            {
+                "name": "TOLAS",
+                "text": "And so I should tell him, you say? Indeed, Mauwyl's concern is touching. And yet...!"
+            },
+            {
+                "name": "TOLAS",
+                "text": "You cannot agree? Mayhap you believe I should tell my friend? I know that he worries for me. And yet...!"
+            },
+            {
+                "name": "TOLAS",
+                "text": "I would ponder this matter alone. Pray leave me be for a while."
+            },
+            {
+                "name": "TOLAS",
+                "text": "..."
+            },
+            {
+                "name": "MAUWYL",
+                "text": "Thank you ever so much for tracking down Tolas! I am relieved indeed to see my friend safe and sound."
+            },
+            {
+                "name": "MAUWYL",
+                "text": "And yet, he has barely spoken a word to me since his return! Whatever is the matter this time?"
+            }
+        ],
+        "reward": {
+            "gil": 715
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 70,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                69069
+            ]
+        },
+        "next": [
+            69071
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1030689",
+            "obj": {
+                "i": 1030689,
+                "n": "Mauwyl",
+                "l": 2953,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1030681",
+            "obj": {
+                "i": 1030681,
+                "n": "Mauwyl",
+                "l": 2953,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69069",
+            "obj": {
+                "i": 69069,
+                "n": "Scars of War",
+                "g": 111,
+                "l": "The Crystarium",
+                "s": 7101
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69071",
+            "obj": {
+                "i": 69071,
+                "n": "A Much-needed Respite",
+                "g": 113,
+                "l": "Lakeland",
+                "s": 7120
+            }
+        }
+    ]
+}

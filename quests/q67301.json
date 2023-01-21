@@ -1,0 +1,168 @@
+{
+    "quest": {
+        "name": "Intermediate Dragonslaying",
+        "location": "Coerthas Western Highlands",
+        "id": 67301,
+        "patch": 3.0,
+        "sort": 5112,
+        "icon": 100468,
+        "eventIcon": 71221,
+        "issuer": 1013710,
+        "target": 1013710,
+        "involved": [
+            1014138
+        ],
+        "genre": 94,
+        "journal": [
+            "Dominiac wants to enact the next step in his plan.",
+            "Saintrelmaux is preparing for the next step in Dominiac's plan. Dominiac asks you to travel to the top of the cliff north of the Convictory and provide any assistance that might be needed.",
+            "The tulihand you slew did indeed attract a larger dragon─a wadjet. It fled with the corpse of its thrall to beneath the cliff to the northwest. The men who tried to stop it were kicked aside by the skittering beast. Track it down and kill it while Saintrelmaux and his retainer tend to the wounded.",
+            "You track down and slay the wadjet. Report back to Saintrelmaux.",
+            "Saintrelmaux ponders the Dravanians' motivations behind collecting the bodies of their comrades. His retainer suggests that they respect their fallen warriors, but Saintrelmaux argues that even the Ishgardians do not afford their soldiers that courtesy. Regardless, they set off to gather the body of the wadjet. Report back to Dominiac and advise him of the plan's satisfactory progress.",
+            "Dominiac is pleased to hear that the information you gathered was indeed accurate─that the body of the weaker dragon attracted a more powerful one. With this success, he plans to attract ever more powerful Dravanians to slay."
+        ],
+        "objectives": [
+            "Speak with Saintrelmaux.",
+            "Slay the wadjet to the northwest of the Convictory.",
+            "Speak with Saintrelmaux.",
+            "Report to Dominiac."
+        ],
+        "dialogue": [
+            {
+                "name": "DOMINIAC",
+                "text": "The time has come to enact the next step in my plan! Saintrelmaux is already making preparations."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "He should be above the cliff to the north of the Convictory. Meet up with him there and lend him a hand. Thank you, adventurer."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Saintrelmaux is above the cliff to the north. Please go and help him prepare for the next step in my plan."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Ah, you're finally here. You might be pleased to note that the information you obtained was indeed correct. Some horrible Dravanian beast─it looked like a wadjet─came up out of nowhere, grabbed the slain tulihand's body in its claws, and scuttled off as quickly as it had appeared."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "There was something of a scuffle as it escaped and it kicked our men about a bit. The creature itself scurried away under the cliff to the northwest of the Convictory. Please chase it down! We'll see to the wounded."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "The Dravanian fled to under the cliffs northwest of here. Please chase it down and deal with it before it gets away."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Thank you. I didn't see the fight itself, but having seen you in combat before, I think I have a good idea of how it turned out. We'll collect the body and put it somewhere the Dravanians can see it."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "But these Dravanians sure are a curious bunch. Whatever are they trying to achieve by gathering the corpses of the weaker thralls? What are they using the bodies for?"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "(-Saintrelmaux's Retainer-)They say that the smarter animals out there have feelings. Perhaps the Dravanians are simply showing respect for their fallen comrades. Perhaps they can't stand to see their friends' bodies torn apart by the elements. Perhaps they just want to let them rest in peace."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "Hahahahaha! You do have some peculiar ideas sometimes. You really think that these monsters have feelings!? That they respect each other!?"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "No! They're no different to us! The strong use the weak as tools. There's not a shred of respect to be seen. Your entire hypothesis is─"
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "I'm sorry, I'm ranting. We'll head out and collect the dead wadjet. You report back to Dominiac and let him know that things are proceeding according to plan."
+            },
+            {
+                "name": "SAINTRELMAUX",
+                "text": "We'll collect the wadjet's body. You return to Dominiac and let him know that his plan is proceeding as expected."
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Ah! Back already! Did the information you gathered turn out to be accurate? Were you able to attract a larger dragon?"
+            },
+            {
+                "name": "DOMINIAC",
+                "text": "Good, good. It seems that the next step in my plan has unfolded quite nicely! If things continue like this, we should be able to bag quite an impressive catch before long."
+            }
+        ],
+        "reward": {
+            "gil": 667,
+            "xp": 25200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 51,
+                    "id": 34
+                }
+            ],
+            "questsType": "all",
+            "quests": [
+                67142,
+                67300
+            ]
+        },
+        "next": [
+            67302
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1013710",
+            "obj": {
+                "i": 1013710,
+                "n": "Dominiac",
+                "l": 2200,
+                "q": 6
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1014138",
+            "obj": {
+                "i": 1014138,
+                "n": "Saintrelmaux",
+                "l": 2200,
+                "q": 2
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67142",
+            "obj": {
+                "i": 67142,
+                "n": "Sounding Out the Amphitheatre",
+                "g": 3,
+                "l": "Coerthas Western Highlands",
+                "s": 27
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67300",
+            "obj": {
+                "i": 67300,
+                "n": "Introductory Dragonslaying",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5111
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67302",
+            "obj": {
+                "i": 67302,
+                "n": "Advanced Dragonslaying",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5113
+            }
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "quest": {
+        "name": "The Tail's the Best Part",
+        "location": "Western La Noscea",
+        "id": 66941,
+        "patch": 2.2,
+        "sort": 35,
+        "interval": "daily",
+        "repeatable": 1,
+        "beast": 4,
+        "eventIcon": 71222,
+        "issuer": 1005940,
+        "target": 1005940,
+        "genre": 41,
+        "journal": [
+            "Seww has a culinary favor to ask of you.",
+            "Though Seww and his spawnbrothers can subsist on a diet of fish, he longs for the days when they could feast on amphibian flesh. Search the Sapsa Spawning Grounds for the Tridents' private herd of axolotls, and slay one for its tail meat.",
+            "Now that you have obtained the rubbery flesh of an axolotl, you can follow the remainder of Seww's instructions. Find a cooking trough in which to stew the tail meat, and defend yourself from Trident warriors who wander in to partake of the boiling fish broth.",
+            "You have fended off the attacks of several ravenous Sahagin soldiers. Stew the axolotl meat in the cooking trough, and then retrieve it before the flesh dissolves into the boiling broth.",
+            "You have successfully retrieved the slab of now-tender tail meat. Return to Novv's Nursery and deliver the steaming flesh to Seww.",
+            "You deliver the tender tail meat to an appreciative Seww. The spawnling's unusually effusive compliments suggest that any future contributions of axolotl flesh will be accepted with equal enthusiasm."
+        ],
+        "objectives": [
+            "Obtain a slab of rubbery tail meat from an axolotl.",
+            "Find and secure a broth trough.",
+            "Let the axolotl tail stew in the broth trough before retrieving the tender tail meat.",
+            "Deliver the tender tail meat to Seww."
+        ],
+        "dialogue": [
+            {
+                "name": "SEWW",
+                "text": "Pshhh... I have a favor to ask of you, <span class=\"highlight\">Forename</span>. While my shhhpawnbrothers and I can shhhurvive on fishhh alone, it would do much for our shhhpirits to fill our bellies with a different kind of flesh."
+            },
+            {
+                "name": "SEWW",
+                "text": "It has been an age shhhince we have feashhhted on axolotl─we used to hunt the creatures often, but then the Tridentshhh herded them all into the shhhpawning grounds."
+            },
+            {
+                "name": "SEWW",
+                "text": "If you were to venture into Trident territory and bring back a shhhucculent tail, you would do much to endear yourshhhelf to my people."
+            },
+            {
+                "name": "SEWW",
+                "text": "And if you truly wishhh to bring ushhh a treat, then shhhtew the fleshhh in the boiling fishhh broth of the Shhhapsa warriors until it becomes juicy and tender."
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... You may be accoshhhted by hungry Tridentshhh while you wait for the meat to shhhoften. Like moshhht shhholdiers, they take any threat to their food shhhupply very shhheriously."
+            },
+            {
+                "name": "SEWW",
+                "text": "The clutch would be moshhht grateful if you could head into the shhhpawning grounds and hunt down an axolotl."
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh... The clutch would be even <span class=\"emphasis\">more</span> grateful if you could shhhtew the meat in one of the Shhhapsa broth troughs before you return. Just beware of Trident warriors coming in to feed..."
+            },
+            {
+                "name": "POP",
+                "text": "Your cooking efforts are interrupted by hungry Sahagin warriors!"
+            },
+            {
+                "name": "POP",
+                "text": "The enemy is still about!"
+            },
+            {
+                "name": "POP",
+                "text": "（★未使用／削除予定★）"
+            },
+            {
+                "name": "SYSTEM",
+                "text": "The rubbery axolotl tail slowly softens in the boiling broth..."
+            },
+            {
+                "name": "SEWW",
+                "text": "Have you returned to reshhhcue ushhh from our unending diet of fishhh?"
+            },
+            {
+                "name": "SEWW",
+                "text": "Pshhh! That wonderful shhhmell! You shhhtewed the meat! Thishhh may be your greateshhht contribution to the clutch yet!"
+            },
+            {
+                "name": "BALLOON",
+                "text": "Pshhh! Shhhtep away from the trough, shhhorewalker!"
+            }
+        ],
+        "reward": {
+            "gil": 780,
+            "reputation": 20,
+            "items": [
+                {
+                    "num": 10,
+                    "id": 28
+                },
+                {
+                    "id": 21077
+                },
+                {
+                    "id": 5667,
+                    "one": 1
+                },
+                {
+                    "id": 5677,
+                    "one": 1
+                },
+                {
+                    "id": 5722,
+                    "one": 1
+                }
+            ],
+            "xp": 10473
+        },
+        "reqs": {
+            "beastrank": 3,
+            "jobs": [
+                {
+                    "lvl": 48,
+                    "id": 34
+                }
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1005940",
+            "obj": {
+                "i": 1005940,
+                "n": "Seww",
+                "l": 33,
+                "q": 13
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "21077",
+            "obj": {
+                "i": 21077,
+                "n": "Rainbowtide Psashp",
+                "l": 1,
+                "c": 65053,
+                "t": 100
+            }
+        },
+        {
+            "type": "item",
+            "id": "5667",
+            "obj": {
+                "i": 5667,
+                "n": "Heavens' Eye Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Direct Hit Rate",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5677",
+            "obj": {
+                "i": 5677,
+                "n": "Savage Might Materia IV",
+                "l": 70,
+                "c": 20224,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Determination",
+                    "category": 0
+                }
+            }
+        },
+        {
+            "type": "item",
+            "id": "5722",
+            "obj": {
+                "i": 5722,
+                "n": "Quicktongue Materia IV",
+                "l": 70,
+                "c": 20228,
+                "t": 58,
+                "materia": {
+                    "tier": 3,
+                    "value": 4,
+                    "attr": "Spell Speed",
+                    "category": 0
+                }
+            }
+        }
+    ]
+}

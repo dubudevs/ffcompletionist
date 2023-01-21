@@ -1,0 +1,146 @@
+{
+    "quest": {
+        "name": "Where's My Juice",
+        "location": "Coerthas Central Highlands",
+        "id": 66454,
+        "patch": 2.0,
+        "sort": 380,
+        "eventIcon": 71221,
+        "issuer": 1006436,
+        "target": 1001679,
+        "genre": 94,
+        "journal": [
+            "When a merchant is wroth, there is usually coin to be made in solving a problem─and Edwyn is looking very wroth indeed.",
+            "An order of ceruleum has yet to arrive from Ul'dah, and Edwyn is furious at the supplier. Go to the markets of the Sapphire Avenue Exchange, find Syntgoht, and /doubt his words, and he may spill the truth.",
+            "Under the weight of your skepticism, Syntgoht admits that there is a problem with the ceruleum shipment, and hints that he is as much a victim as Edwyn. His waffling will not do much to ease Edwyn's mistrust of Ul'dahns, you fear."
+        ],
+        "objectives": [
+            "Question Syntgoht with much /doubt."
+        ],
+        "dialogue": [
+            {
+                "name": "EDWYN",
+                "text": "Hey, you! No time for niceties, I'm waiting on ceruleum. That Ul'dahn cutpurse what calls himself a trader is late with his shipment!"
+            },
+            {
+                "name": "EDWYN",
+                "text": "Ceruleum burns like an alewife in winter, and there's no going without it to make the firesand for the ballistas. Curse that Syntgoht... What does he think we're fighting here, ladybugs?"
+            },
+            {
+                "name": "EDWYN",
+                "text": "You look like you'd enjoy a spot of heat! Find out where my ceruleum order is─go to Syntgoht and, you know, lean on him a little. Question him, like."
+            },
+            {
+                "name": "EDWYN",
+                "text": "I tell you, those Ul'dahns─<span class=\"alternative-container\"><span class=\"alternative\">keen on being paid, not keen on doing their work!</span><span class=\"alternative\">keen on being paid, not keen on doing their work...present company excluded, of course!</span></span> Can't trust 'em, especially that lot on the Sapphire Avenue Exchange!"
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "Welcome, <span class=\"emphasis\">welcome</span>! What might a discerning─ Oh, not here to buy? Then might I suggest you browse quietly? I am quite busy."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "From Edwyn in Coerthas? Oh dear. My friend─may I call you that? Oh, well then, <span class=\"highlight\">Forename</span>, there's a problem with the ceruleum and if you think Edwyn is vexed, you have no idea how difficult this is for <span class=\"emphasis\">me</span>."
+            },
+            {
+                "name": "SYNTGOHT",
+                "text": "Listen, friend, there are only two wares for you here: a <span class=\"emphasis\">bargain</span>, or <span class=\"emphasis\">begone</span>! I'm in the midst of inventorying and have no time for your giddy-goat!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 3405,
+                    "one": 1
+                },
+                {
+                    "id": 3402,
+                    "one": 1
+                },
+                {
+                    "num": 6,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 10105
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 38,
+                    "id": 1
+                }
+            ]
+        },
+        "next": [
+            66455
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006436",
+            "obj": {
+                "i": 1006436,
+                "n": "Edwyn",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001679",
+            "obj": {
+                "i": 1001679,
+                "n": "Syntgoht",
+                "l": 41,
+                "q": 12
+            }
+        },
+        {
+            "type": "item",
+            "id": "3405",
+            "obj": {
+                "i": 3405,
+                "n": "Boarskin Breeches",
+                "l": 38,
+                "c": 45354,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "3402",
+            "obj": {
+                "i": 3402,
+                "n": "Boarskin Subligar",
+                "l": 37,
+                "c": 45173,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66455",
+            "obj": {
+                "i": 66455,
+                "n": "Hold for Customer Support",
+                "g": 93,
+                "l": "Ul'dah",
+                "s": 380
+            }
+        }
+    ]
+}

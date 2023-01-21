@@ -1,0 +1,120 @@
+{
+    "quest": {
+        "name": "Mind Games",
+        "location": "Southern Thanalan",
+        "id": 66365,
+        "patch": 2.0,
+        "sort": 310,
+        "eventIcon": 71221,
+        "issuer": 1006287,
+        "target": 1006287,
+        "involved": [
+            1006736
+        ],
+        "genre": 93,
+        "journal": [
+            "The reserved U'tykha Tia would have you light a fire within his struggling novice, U'kahzuna.",
+            "U'tykha Tia informs you that he has the novice ranger U'kahzuna out practicing her skills on roving Amalj'aa in the east of the Sagolii Desert. As previously, he seems aware that she yet needs a push in order for her to reach her potential. Sensing that a teachable moment is nigh, he bids you seek U'kahzuna in the Sagolii Desert, and then defeat three Amalj'aa with her as witness.",
+            "Three lizardmen have been dispatched by your hands, and U'kahzuna is perfectly caught between mortification and fury. Now, /psych her up as U'tykha Tia has requested.",
+            "You have psyched up U'kahzuna with great subtlety and finesse. Go and make your report to U'tykha Tia.",
+            "Before you can celebrate your successful demonstration, U'tykha Tia mentions with some irritation that U'khuba Tia saw fit to upbraid U'kahzuna on her return. He is worried that, without further intervention, the young ranger may cease her attempts to better herself."
+        ],
+        "objectives": [
+            "Defeat Amalj'aa in the eastern Sagolii Desert.",
+            "Find U'kahzuna and /psych her up.",
+            "Report to U'tykha Tia."
+        ],
+        "dialogue": [
+            {
+                "name": "UTYKHATIA",
+                "text": "Ah, a familiar scent. I like the way you handled yourself the last time. Would you be my helping hand in the desert once more?"
+            },
+            {
+                "name": "UTYKHATIA",
+                "text": "You remember U'kahzuna, don't you? I have her where she needs to be─out hunting Amalj'aa in the eastern Sagolii Desert, humbled, petulant, and with no idea how to gather her wits or her skills."
+            },
+            {
+                "name": "UTYKHATIA",
+                "text": "The kindling is laid; all it needs is a spark. Go east and dispatch three Amalj'aa before U'kahzuna's eyes─harden that heart of hers, so weighed down already with shame and pique. Then, with a deft <span class=\"highlight\">psych</span>, strike upon that flint."
+            },
+            {
+                "name": "UKAHZUNA",
+                "text": "I-I'm sorry! I hate having to repeat that over and over, I just... I have no idea what I'm doing. I got this far into their encampment, and then I froze! <span class=\"emphasis\">Argh</span>! It's all so pointless!"
+            },
+            {
+                "name": "UKAHZUNA",
+                "text": "<span class=\"emphasis\">Ah</span>! Adventurer, I bore witness to your deeds! You...you were amazing. I felt as though I was in a daze, but now I'm fully aroused! I... I shall need time to consider your actions this day. Farewell."
+            },
+            {
+                "name": "UTYKHATIA",
+                "text": "Well done and thank you, adventurer. But I'm afraid someone may have wrecked our effort. That double-dyed fool U'khuba saw fit to give her another of his lectures as soon as she rode back in."
+            },
+            {
+                "name": "UTYKHATIA",
+                "text": "Grrrah! The man is such a fool! His scolding ways have cost us more novices than the desert and the beastmen combined. U'khuba has little love for anyone but himself."
+            }
+        ],
+        "reward": {
+            "gil": 1650,
+            "xp": 7600
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 31,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66359
+            ]
+        },
+        "next": [
+            66366
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006287",
+            "obj": {
+                "i": 1006287,
+                "n": "U'tykha Tia",
+                "l": 45,
+                "q": 3
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006736",
+            "obj": {
+                "i": 1006736,
+                "n": "U'kahzuna",
+                "l": 45,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66359",
+            "obj": {
+                "i": 66359,
+                "n": "Fetch the Freshman",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 310
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66366",
+            "obj": {
+                "i": 66366,
+                "n": "U Don't Know Me",
+                "g": 93,
+                "l": "Southern Thanalan",
+                "s": 310
+            }
+        }
+    ]
+}

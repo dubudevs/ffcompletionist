@@ -1,0 +1,127 @@
+{
+    "quest": {
+        "name": "Green Thumb",
+        "location": "Eastern Thanalan",
+        "id": 66173,
+        "patch": 2.0,
+        "sort": 170,
+        "eventIcon": 71221,
+        "issuer": 1003941,
+        "target": 1003941,
+        "genre": 93,
+        "journal": [
+            "Jospaire is moved by the plants sprouting around the fallen goobbue.",
+            "In a secluded area to the east of Drybone, you have found Jospaire, a botanist studying the newly grown foliage surrounding a fallen goobbue. To prevent the unique plants from succumbing to the desert heat, Jospaire bids you bring him some muddy water from the pond to the west.",
+            "You have collected the muddy spring water. Deliver it to Jospaire.",
+            "Not content with merely watering the greenery, Jospaire now asks you to remove the vilekin eggs that have been laid in the area before they hatch and begin to feed.",
+            "You have spared the plants a grisly death at the maws of vilekin larvae. Speak with Jospaire once more.",
+            "Little to your surprise, Jospaire has yet another request. He bids you pour stingbrew over thick bramble and slay any syrphid clouds that come forth.",
+            "You have slain enough syrphid clouds to ensure the plants' safety. Speak with Jospaire to see if the botanist has any further tasks for you.",
+            "Jospaire is elated that the plants have been saved. After completing his survey of the area, he means to take word of his extraordinary discovery back to the Botanists' Guild in Gridania."
+        ],
+        "objectives": [
+            "Obtain a pot of muddy spring water.",
+            "Deliver muddy spring water to Jospaire.",
+            "Remove vilekin eggs from the plants.",
+            "Speak with Jospaire.",
+            "Pour stingbrew on thick bramble patches and slay syrphid clouds.",
+            "Speak with Jospaire."
+        ],
+        "dialogue": [
+            {
+                "name": "JOSPAIRE",
+                "text": "By the gods, the life that's sprouted here... I've never seen anything like it! But how could this be!? Perhaps it was─<br>Oh... Er... Hello there."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "Ahem, you must forgive me. I was just admiring the plants taking root about this goobbue carcass, and...well, I suppose I forgot myself in the moment."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "But truly, have you ever seen such lovely flowers? I would wager that not even the wealthiest Ul'dahns could claim to have laid eyes on their like before."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "Please, a favor, I beg of you. I dare not let these beauties out of my sight! But their soil is parched and the plants wilting. Would you fetch me some muddy spring water from the pond to the west?"
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "Please tell me you've got the water. It would be a travesty to lose this phenomenon."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "Perfect! This will quench the roots' thirst nicely. But..."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "I fear that is not all I must ask of you. The petals and stems are covered with vilekin eggs. Should they hatch, the larvae will devour every last leaf, petal, and stem! Please, you must remove any eggs that you find."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "Well done yet again, my friend! I daresay we have stayed another disaster."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "But our job is not yet finished. Syrphid clouds still lurk among the undergrowth. If left unchecked, they will undoubtedly infest the plants with their eggs once more."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "Here, this stingbrew is sure to bring the beasts out of hiding. Pour it over any thick bramble you see, and slay whatever comes forth!"
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "What more can I say to express my gratitude? Through your efforts, this exceptional bit of greenery will enjoy many more vibrant days."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "As a botanist from Gridania, I have had the opportunity to study plants the realm over. Yet I cannot claim to have seen such verdure before."
+            },
+            {
+                "name": "JOSPAIRE",
+                "text": "I am convinced that what we see before us sprouted from this goobbue's death. There is a certain beauty to it all, no? A remarkable discovery. I cannot wait to finish up my research and take word back to Guildmaster Fufucha!"
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "gil": 214,
+            "xp": 3640
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 17,
+                    "id": 1
+                }
+            ],
+            "quests": [
+                66160
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1003941",
+            "obj": {
+                "i": 1003941,
+                "n": "Jospaire",
+                "l": 44,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66160",
+            "obj": {
+                "i": 66160,
+                "n": "A Dying Wish",
+                "g": 93,
+                "l": "Eastern Thanalan",
+                "s": 170
+            }
+        }
+    ]
+}

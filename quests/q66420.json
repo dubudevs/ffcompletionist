@@ -1,0 +1,178 @@
+{
+    "quest": {
+        "name": "Cold Reception",
+        "location": "North Shroud",
+        "id": 66420,
+        "patch": 2.0,
+        "sort": 191,
+        "eventIcon": 71201,
+        "issuer": 1006371,
+        "target": 1006372,
+        "genre": 1,
+        "journal": [
+            "Vortefaurt wishes to tell you of the final flight of the <span class=\"emphasis\">Enterprise</span>.",
+            "According to Vortefaurt, the <span class=\"emphasis\">Enterprise</span> disappeared over the mountains of Coerthas to the northwest. Presuming it was not destroyed during the Calamity, he recommends that you elicit the cooperation of the astrologians at the Observatorium, who were doubtless monitoring the skies that night and possess information that may be valuable to the search. However, as Ishgardians are wont to turn away outsiders, Vortefaurt advises you to first offer your services to the soldiers who guard the Observatorium, as a gesture of goodwill.",
+            "Your offer of aid is curtly refused by the Ishgardian knight. It may require aggressive efforts on your part to convince the locals that you mean no harm."
+        ],
+        "objectives": [
+            "Speak with Ludovoix at the Observatorium."
+        ],
+        "dialogue": [
+            {
+                "name": "VORTEFAURT",
+                "text": "'Twas on the eve of the Battle of Carteneau, nigh on five years ago. I held the spire alone that night, while the bulk of our forces marched to meet the enemy in the field."
+            },
+            {
+                "name": "VORTEFAURT",
+                "text": "Then, all of a sudden, the most fantastic airship I'd ever seen splits the sky overhead! I could only watch in shock as it disappeared over the mountains to the northwest. If the <span class=\"emphasis\">Enterprise</span> wasn't destroyed during the Calamity, I'd wager it's still somewhere in Coerthas."
+            },
+            {
+                "name": "VORTEFAURT",
+                "text": "The astrologians at the Observatorium may have records which could help. But to obtain them, you would need to deal with the Ishgardians who control the region. I wouldn't expect much, though─the High Houses have long been concerned with their own affairs above all else. When Dalamud descended, they took shelter behind their gates, and even now they have little regard for the plights of other nations."
+            },
+            {
+                "name": "VORTEFAURT",
+                "text": "Nevertheless, they may deign to assist you should you prove yourself useful. Consider providing your services to the soldiers who guard the Observatorium. Though they may refuse you at first, I've little doubt they would accept aid freely offered."
+            },
+            {
+                "name": "LUDOVOIX",
+                "text": "Excuse me, can you repeat that? You wish to offer your services to House Durendaire? And what, pray tell, do you wish to receive in exchange?"
+            },
+            {
+                "name": "LUDOVOIX",
+                "text": "Hah, how absurd! As if we would permit an outsider to peruse the records of the Observatorium."
+            },
+            {
+                "name": "LUDOVOIX",
+                "text": "Do not mistake our courtesy for friendliness. The Holy See of Ishgard may allow foreigners to travel freely within these lands, but we do not intend to offer succor to strangers."
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 27655,
+                    "one": 1
+                },
+                {
+                    "id": 3131,
+                    "one": 1
+                },
+                {
+                    "id": 3125,
+                    "one": 1
+                },
+                {
+                    "num": 4,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 18900
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 36,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                66419
+            ]
+        },
+        "next": [
+            66422
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006371",
+            "obj": {
+                "i": 1006371,
+                "n": "Vortefaurt",
+                "l": 57,
+                "q": 3,
+                "t": "Serpent Commander"
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1006372",
+            "obj": {
+                "i": 1006372,
+                "n": "Ludovoix",
+                "l": 63,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "27655",
+            "obj": {
+                "i": 27655,
+                "n": "Altered Heavy Steel Armor",
+                "l": 35,
+                "c": 48196,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "3131",
+            "obj": {
+                "i": 3131,
+                "n": "Linen Robe",
+                "l": 36,
+                "c": 42063,
+                "t": 35,
+                "p": 3528
+            }
+        },
+        {
+            "type": "item",
+            "id": "3125",
+            "obj": {
+                "i": 3125,
+                "n": "Linen Shirt",
+                "l": 35,
+                "c": 42227,
+                "t": 35,
+                "p": 3369
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66419",
+            "obj": {
+                "i": 66419,
+                "n": "He Who Waited Behind",
+                "g": 1,
+                "l": "Eastern Thanalan",
+                "s": 190
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66422",
+            "obj": {
+                "i": 66422,
+                "n": "The Unending War",
+                "g": 1,
+                "l": "Coerthas Central Highlands",
+                "s": 192
+            }
+        }
+    ]
+}

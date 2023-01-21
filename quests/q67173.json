@@ -1,0 +1,715 @@
+{
+    "quest": {
+        "name": "He Who Would Not Be Denied",
+        "location": "Ishgard",
+        "id": 67173,
+        "patch": 3.0,
+        "sort": 58,
+        "eventIcon": 71201,
+        "issuer": 1012750,
+        "target": 1012753,
+        "involved": [
+            1012748,
+            1012751,
+            1012752,
+            1012754,
+            1012755
+        ],
+        "genre": 3,
+        "journal": [
+            "Lord Haurchefant has more than a few questions to ask.",
+            "Lord Haurchefant listens with increasing incredulity as you recount your journey to the Churning Mists with Estinien and Ysayle. Yet the fruits of this unlikely alliance are there for all to see: Nidhogg has fallen, and the heretics have quit the city in peace. Keen to break the news to his father and Ser Aymeric, Haurchefant bids you join him at Fortemps Manor.",
+            "Though glad of your victory, Count Edmont and the others are deeply troubled by the revelation that the Ishgardian faith is built upon a lie. Overcome with emotion, Ser Aymeric leaves to confront the archbishop with the truth, despite the others' warnings that he is certain to be branded a heretic for his trouble.<br><br>Though all present are doubtful as to the wisdom of Ser Aymeric's plan, Lucia is determined to support her commander, going so far as to contemplate his rescue. She proceeds to reveal that Ser Aymeric is the illegitimate son of Thordan VII─a fact she hopes will serve to stay the archbishop's hand. Fearing the worst, however, you join Alphinaud, Estinien, and Lord Haurchefant in volunteering to assist Lucia should the lord commander be taken prisoner. Find out how she means to proceed.",
+            "While grateful for your assistance, Lucia believes it will not be enough. To be assured of success, you will need to enlist the aid of others. But who?"
+        ],
+        "objectives": [
+            "Return to Fortemps Manor.",
+            "Speak with Lucia."
+        ],
+        "dialogue": [
+            {
+                "name": "HAURCHEFANT",
+                "text": "That, my friends, was rather too close for comfort. Praise Halone that things did not end in bloodshed. I confess, I was more than a little dismayed to see you in the company of the Lady Iceheart. Whatever is going on, <span class=\"highlight\">Forename</span>?"
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Beg pardon...? You traveled to the Churning Mists together? ...Along with <span class=\"emphasis\">Estinien</span>!?"
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Never was there a more unlikely alliance─nor one so magnificently effective! Nidhogg, dead; the heretics, pacified─Father and Ser Aymeric must know of this!"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Let us break the news to them together. I will bring Ser Aymeric to Fortemps Manor."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Hmm...yes, an excellent suggestion."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Very well. <span class=\"highlight\">Forename</span> and I shall await you there!"
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Let us see how long this peace lasts..."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Though your assistance is most welcome, I fear it will not be enough."
+            },
+            {
+                "name": "LUCIA",
+                "text": "Few as we are, we will struggle to reach the lord commander. If we are to succeed, we must needs recruit others to our cause."
+            },
+            {
+                "name": "ALPHINAUD",
+                "text": "Far be it from me to criticize a man for his blind idealism─but he might at least have <span class=\"emphasis\">pretended</span> to consider another course."
+            },
+            {
+                "name": "ESTINIEN",
+                "text": "Hmph. Of all the people... He should know better."
+            },
+            {
+                "name": "HAURCHEFANT",
+                "text": "Have no fear, Father! My arm will not falter; my shield will not break. I promise you: we <span class=\"emphasis\">shall</span> prevail!"
+            },
+            {
+                "name": "EDMONT",
+                "text": "If we must risk the fortunes of our house to bring this truth to light, then so be it. But are you truly prepared to do this? To face the Heavens' Ward in battle, if you must?"
+            }
+        ],
+        "reward": {
+            "gil": 712,
+            "items": [
+                {
+                    "id": 10701,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10743,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10785,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "id": 10869,
+                    "one": 1,
+                    "hq": 1
+                },
+                {
+                    "num": 5,
+                    "id": 5825,
+                    "one": 1
+                }
+            ],
+            "xp": 72000
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 56,
+                    "id": 142
+                }
+            ],
+            "quests": [
+                67172
+            ]
+        },
+        "next": [
+            67174,
+            67405,
+            67406,
+            67407,
+            67408,
+            67409,
+            67410,
+            67411,
+            67412,
+            67413,
+            67414,
+            67415,
+            67416,
+            67417,
+            67418,
+            67419,
+            67420,
+            67421,
+            67422,
+            67423,
+            67424,
+            67425,
+            67426,
+            67427,
+            67428,
+            67429,
+            67430,
+            67431,
+            67432,
+            67433,
+            67434,
+            67435,
+            67436,
+            67437,
+            67438,
+            67439,
+            67440
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012750",
+            "obj": {
+                "i": 1012750,
+                "n": "Haurchefant",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012753",
+            "obj": {
+                "i": 1012753,
+                "n": "Lucia",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012748",
+            "obj": {
+                "i": 1012748,
+                "n": "Estinien",
+                "l": 2300,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012751",
+            "obj": {
+                "i": 1012751,
+                "n": "Alphinaud",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012752",
+            "obj": {
+                "i": 1012752,
+                "n": "Estinien",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012754",
+            "obj": {
+                "i": 1012754,
+                "n": "Haurchefant",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1012755",
+            "obj": {
+                "i": 1012755,
+                "n": "Count Edmont De Fortemps",
+                "l": 2320,
+                "q": 2
+            }
+        },
+        {
+            "type": "item",
+            "id": "10701",
+            "obj": {
+                "i": 10701,
+                "n": "Dragonskin Breeches of Fending",
+                "l": 139,
+                "c": 45661,
+                "t": 36,
+                "p": 16512
+            }
+        },
+        {
+            "type": "item",
+            "id": "10743",
+            "obj": {
+                "i": 10743,
+                "n": "Dragonskin Breeches of Maiming",
+                "l": 139,
+                "c": 45662,
+                "t": 36,
+                "p": 16512
+            }
+        },
+        {
+            "type": "item",
+            "id": "10785",
+            "obj": {
+                "i": 10785,
+                "n": "Dragonskin Breeches of Striking",
+                "l": 139,
+                "c": 45663,
+                "t": 36,
+                "p": 16512
+            }
+        },
+        {
+            "type": "item",
+            "id": "10869",
+            "obj": {
+                "i": 10869,
+                "n": "Dragonskin Breeches of Scouting",
+                "l": 139,
+                "c": 45664,
+                "t": 36,
+                "p": 16512
+            }
+        },
+        {
+            "type": "item",
+            "id": "5825",
+            "obj": {
+                "i": 5825,
+                "n": "Allagan Silver Piece",
+                "l": 25,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67172",
+            "obj": {
+                "i": 67172,
+                "n": "Unrest in Ishgard",
+                "g": 3,
+                "l": "The Churning Mists",
+                "s": 57
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67174",
+            "obj": {
+                "i": 67174,
+                "n": "Ill-weather Friends",
+                "g": 3,
+                "l": "Fortemps Manor",
+                "s": 59
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67405",
+            "obj": {
+                "i": 67405,
+                "n": "Keeping the Ledger",
+                "g": 78,
+                "l": "Ishgard",
+                "s": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67406",
+            "obj": {
+                "i": 67406,
+                "n": "Caught in the Act",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5604
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67407",
+            "obj": {
+                "i": 67407,
+                "n": "Laying the First Brick",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5611
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67408",
+            "obj": {
+                "i": 67408,
+                "n": "Into the Mists",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5605
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67409",
+            "obj": {
+                "i": 67409,
+                "n": "Enlisted",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5602
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67410",
+            "obj": {
+                "i": 67410,
+                "n": "Honoring the Past",
+                "g": 96,
+                "l": "Ishgard",
+                "s": 5603,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67411",
+            "obj": {
+                "i": 67411,
+                "n": "Respecting the Sheave",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5601
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67412",
+            "obj": {
+                "i": 67412,
+                "n": "Spring Cleaning",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5602
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67413",
+            "obj": {
+                "i": 67413,
+                "n": "No Nests Allowed",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5603
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67414",
+            "obj": {
+                "i": 67414,
+                "n": "Bitter Is the Night",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5604
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67415",
+            "obj": {
+                "i": 67415,
+                "n": "These Things Take Time",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5607
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67416",
+            "obj": {
+                "i": 67416,
+                "n": "Thar Be Dragons",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5610
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67417",
+            "obj": {
+                "i": 67417,
+                "n": "Cleaning House",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5605
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67418",
+            "obj": {
+                "i": 67418,
+                "n": "Finders Keepers",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5606
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67419",
+            "obj": {
+                "i": 67419,
+                "n": "An Unwelcome Surprise",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5608
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67420",
+            "obj": {
+                "i": 67420,
+                "n": "A Meter Too Far",
+                "g": 100,
+                "l": "The Churning Mists",
+                "s": 5609
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67421",
+            "obj": {
+                "i": 67421,
+                "n": "Two Scoops",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5601
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67422",
+            "obj": {
+                "i": 67422,
+                "n": "A Den of Evil",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5602
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67423",
+            "obj": {
+                "i": 67423,
+                "n": "The Old Man and the Lake",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5603
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67424",
+            "obj": {
+                "i": 67424,
+                "n": "When the Ice Melts",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5604
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67425",
+            "obj": {
+                "i": 67425,
+                "n": "Unknown Ultimatum",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5609
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67426",
+            "obj": {
+                "i": 67426,
+                "n": "Personal Effects",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5610
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67427",
+            "obj": {
+                "i": 67427,
+                "n": "Ayleth Absconds",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5611
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67428",
+            "obj": {
+                "i": 67428,
+                "n": "A Missing Tooth",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5612
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67429",
+            "obj": {
+                "i": 67429,
+                "n": "A Noble Purpose",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5613
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67430",
+            "obj": {
+                "i": 67430,
+                "n": "Remember the Fallen",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5606
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67431",
+            "obj": {
+                "i": 67431,
+                "n": "To the Convictor Go the Spoils",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5605
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67432",
+            "obj": {
+                "i": 67432,
+                "n": "Supply Lines",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5607
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67433",
+            "obj": {
+                "i": 67433,
+                "n": "The Mother of Invention",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5608
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67434",
+            "obj": {
+                "i": 67434,
+                "n": "A War without End",
+                "g": 94,
+                "l": "Coerthas Western Highlands",
+                "s": 5614
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67435",
+            "obj": {
+                "i": 67435,
+                "n": "Crying over Spilled Food",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5601
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67436",
+            "obj": {
+                "i": 67436,
+                "n": "Beefing Up the Reserves",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5603
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67437",
+            "obj": {
+                "i": 67437,
+                "n": "Search and Rescue",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5605
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67438",
+            "obj": {
+                "i": 67438,
+                "n": "A Cropper's Duty",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5606
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67439",
+            "obj": {
+                "i": 67439,
+                "n": "Hatching Ideas",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5604
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67440",
+            "obj": {
+                "i": 67440,
+                "n": "A Tall Order to Fill",
+                "g": 97,
+                "l": "The Sea of Clouds",
+                "s": 5602
+            }
+        }
+    ]
+}

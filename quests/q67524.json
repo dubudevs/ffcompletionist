@@ -1,0 +1,83 @@
+{
+    "quest": {
+        "name": "A Crude Facsimile",
+        "location": "Azys Lla",
+        "id": 67524,
+        "patch": 3.0,
+        "sort": 5910,
+        "eventIcon": 71221,
+        "issuer": 1012294,
+        "target": 1012294,
+        "genre": 102,
+        "journal": [
+            "The Allagan auditing node is quietly clicking, buzzing, and whirring.",
+            "The Allagan auditing node has detected several unregistered items nearby and has asked you to retrieve them so that they can be tested. Gather five cermet containers so that they may be audited.",
+            "You have retrieved the cermet containers. Take them back to the auditing node for testing.",
+            "The auditing node has examined the containers and determined that they contain Garlean replicas of Allagan technology. The worrying nature of this revelation is somewhat offset by the fact that they seem to be very poor facsimiles of the originals."
+        ],
+        "objectives": [
+            "Obtain cermet containers.",
+            "Deliver the containers to the auditing node."
+        ],
+        "dialogue": [
+            {
+                "name": "AUDITINGSYSTEM",
+                "text": "Unregistered goods detected. &lt;beep&gt; Items identified as cermet containers of Garlean origin. Further investigation necessary. Please retrieve five containers for testing."
+            },
+            {
+                "name": "AUDITINGSYSTEM",
+                "text": "Unregistered goods detected. &lt;beep&gt; Please retrieve five cermet containers for testing."
+            },
+            {
+                "name": "AUDITINGSYSTEM",
+                "text": "Please place unregistered goods in examination receptacle for testing. &lt;beep&gt;"
+            },
+            {
+                "name": "AUDITINGSYSTEM",
+                "text": "Specimens received. Scanning... &lt;beep&gt; &lt;beep&gt; Scanning complete. Containers appear to contain replicas of Allagan technological artifacts. Replicas are of a significantly inferior quality to minimum Allagan standards. Workmanship is of an extremely poor level."
+            },
+            {
+                "name": "AUDITINGSYSTEM",
+                "text": "Most unfortunate. We shall have to take measures to protect the reputation of Allagan innovation and artisanship."
+            }
+        ],
+        "reward": {
+            "gil": 705,
+            "xp": 43200
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 59,
+                    "id": 34
+                }
+            ],
+            "quests": [
+                67202
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1012294",
+            "obj": {
+                "i": 1012294,
+                "n": "Auditing Node",
+                "l": 2101,
+                "q": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "67202",
+            "obj": {
+                "i": 67202,
+                "n": "Chimerical Maintenance",
+                "g": 3,
+                "l": "Azys Lla",
+                "s": 91
+            }
+        }
+    ]
+}

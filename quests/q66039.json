@@ -1,0 +1,154 @@
+{
+    "quest": {
+        "name": "Give It to Me Raw",
+        "location": "Western Thanalan",
+        "id": 66039,
+        "patch": 2.0,
+        "sort": 47,
+        "eventIcon": 71201,
+        "issuer": 1002061,
+        "target": 1002061,
+        "genre": 1,
+        "journal": [
+            "Drunken Stag needs someone to retrieve the raw Nashachite he dropped outside the mines.",
+            "Drunken Stag was forced to abandon a haul of raw Nashachite outside Copperbell Mines, and is still unable to reach it due to an infestation of prism coblyns. Search for his gemstones and slay any beasts that interfere.",
+            "You have recovered the raw Nashachite. Deliver it to Drunken Stag outside Copperbell Mines.",
+            "Now that the haul of raw Nashachite has been secured, a timely delivery to Dadanen may prevent his impending fall into destitution."
+        ],
+        "objectives": [
+            "Search for the raw Nashachite.",
+            "Return the raw Nashachite to Drunken Stag."
+        ],
+        "dialogue": [
+            {
+                "name": "DRUNKENSTAG",
+                "text": "The “product” you heard Dadanen going on about is a valuable gemstone known as raw Nashachite. I managed to dig up a goodly amount just before the mines were closed off, actually."
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "Packed it up and hauled it out, even. But then them Twelve-damned coblyns came along. Not like any coblyns I'd seen before, and hungry only for the good rocks. They had eyes for my gemstones, so I had no choice but to oblige."
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "The Stone Torches had their hands full evacuating the mines, so they ignored the beasts. Even now, they're only concerned with keeping people out. Please, friend, if you're willing to face the coblyns, would you bring me my Nashachite?"
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "How did you fare, friend? Did you find the raw Nashachite?"
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "Beautiful, isn't it? Rarer than many stones, and more expensive than most. They say the green is the same as the eyes of Nanasha Ul Nasha, who once ruled as the sultana."
+            },
+            {
+                "name": "DRUNKENSTAG",
+                "text": "This should save Dadanen from his troubles...if there's enough left. There's far less here than what I found. I reckon those coblyns made a meal of the stuff. Bloody waste..."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "id": 2662,
+                    "one": 1
+                },
+                {
+                    "id": 2661,
+                    "one": 1
+                },
+                {
+                    "num": 2,
+                    "id": 5824,
+                    "one": 1
+                }
+            ],
+            "xp": 3420
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65864
+            ]
+        },
+        "next": [
+            65865
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1002061",
+            "obj": {
+                "i": 1002061,
+                "n": "Drunken Stag",
+                "l": 42,
+                "q": 3
+            }
+        },
+        {
+            "type": "item",
+            "id": "2662",
+            "obj": {
+                "i": 2662,
+                "n": "Bronze Sallet",
+                "l": 10,
+                "c": 40020,
+                "t": 34,
+                "p": 283
+            }
+        },
+        {
+            "type": "item",
+            "id": "2661",
+            "obj": {
+                "i": 2661,
+                "n": "Amateur's Hempen Coif",
+                "l": 10,
+                "c": 41527,
+                "t": 34,
+                "p": 226
+            }
+        },
+        {
+            "type": "item",
+            "id": "5824",
+            "obj": {
+                "i": 5824,
+                "n": "Allagan Bronze Piece",
+                "l": 15,
+                "c": 26001,
+                "t": 61
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65864",
+            "obj": {
+                "i": 65864,
+                "n": "Supply and Demands",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65865",
+            "obj": {
+                "i": 65865,
+                "n": "The Perfect Swarm",
+                "g": 1,
+                "l": "Western Thanalan",
+                "s": 55
+            }
+        }
+    ]
+}

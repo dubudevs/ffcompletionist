@@ -1,0 +1,80 @@
+{
+    "quest": {
+        "name": "Skeletons in My Deepcroft",
+        "location": "Central Shroud",
+        "id": 65918,
+        "patch": 2.0,
+        "sort": 62,
+        "eventIcon": 71201,
+        "target": 1000491,
+        "genre": 0,
+        "journal": [
+            "Lothaire has work for an adventurer well versed in combat.",
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Lothaire at Galvanth's Spire.</span><br><br>※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings.",
+            "You lay the departed souls to rest a final time. Return to Lothaire and tell him of your accomplishments.",
+            "Thanks to your efforts, travelers on the road to Bentbranch will have less to fear in the future. However, the ultimate cause behind the increase of magicked bones has yet to be determined, and Lothaire wonders what could drive the dead to walk again."
+        ],
+        "objectives": [
+            "<span class=\"highlight-yellow\">* This quest has been adjusted. Please abandon the quest and restart it by speaking to Lothaire at Galvanth's Spire.</span>"
+        ],
+        "dialogue": [
+            {
+                "name": "LOTHAIRE",
+                "text": "I must admit that Eylgar is right, and that this road has grown too hazardous for travelers. Since you have shown yourself to be so adept at slaying beasts, perhaps you could be of further assistance."
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "I would have you journey to the Tam–Tara Deepcroft and slay the magicked bones which have escaped from within."
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "These abominations are beginning to wander as far as the main road, and I have had to rescue several wagons from their mindless assaults. Even a slight reduction in their numbers would improve the situation."
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "It is no small feat to face the walking dead. The road is much safer now, thanks to you."
+            },
+            {
+                "name": "LOTHAIRE",
+                "text": "Such an unnatural thing, for the fallen to rise again...and in such great numbers. Those who perished in the Calamity deserve to rest in peace, yet something or someone has roused them from their slumber..."
+            }
+        ],
+        "reward": {
+            "xp": 6160
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 10,
+                    "id": 130
+                }
+            ],
+            "quests": [
+                65917
+            ]
+        }
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000491",
+            "obj": {
+                "i": 1000491,
+                "n": "Lothaire",
+                "l": 54,
+                "q": 3
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65917",
+            "obj": {
+                "i": 65917,
+                "n": "Migrant Marauders",
+                "g": 1,
+                "l": "Central Shroud",
+                "s": 57
+            }
+        }
+    ]
+}

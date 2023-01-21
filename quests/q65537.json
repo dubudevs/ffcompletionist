@@ -1,0 +1,128 @@
+{
+    "quest": {
+        "name": "A Good Adventurer Is Hard to Find",
+        "location": "Gridania",
+        "id": 65537,
+        "patch": 2.0,
+        "sort": 10,
+        "eventIcon": 71221,
+        "issuer": 1000146,
+        "target": 1000195,
+        "genre": 92,
+        "journal": [
+            "Bernadette is searching for adventurers eager to prove their mettle.",
+            "Bernadette informs you that the Gods' Quiver is seeking ambitious adventurers to assist them, and encourages you to present yourself before Chansteloup outside the Archers' Guild.",
+            "Though skeptical, Chansteloup is willing to offer you an opportunity to prove your worth."
+        ],
+        "objectives": [
+            "Speak with Chansteloup."
+        ],
+        "dialogue": [
+            {
+                "name": "BERNADETTE",
+                "text": "Newly come to Gridania, are you? In search of fame and fortune, perhaps?"
+            },
+            {
+                "name": "BERNADETTE",
+                "text": "If you have confidence in your abilities, I urge you to speak with Chansteloup of the Gods' Quiver. You can find him standing vigil before the Archers' Guild."
+            },
+            {
+                "name": "BERNADETTE",
+                "text": "The creatures of the Twelveswood have been behaving most unnaturally of late, and it has fallen to the Gods' Quiver to pacify them. Alas, they are sorely undermanned."
+            },
+            {
+                "name": "BERNADETTE",
+                "text": "For this reason, they seek able adventurers to supplement their ranks. I am certain that your offer of aid would be well received."
+            },
+            {
+                "name": "CHANSTELOUP",
+                "text": "Bernadette sent <span class=\"emphasis\">you</span> to me? Hmph!"
+            },
+            {
+                "name": "CHANSTELOUP",
+                "text": "Well, inexperienced or not, if you wish to prove your worth to the people of Gridania, you were right to come."
+            },
+            {
+                "name": "CHANSTELOUP",
+                "text": "You <span class=\"emphasis\">do</span> wish to prove yourself, do you not?"
+            }
+        ],
+        "reward": {
+            "items": [
+                {
+                    "num": 10,
+                    "id": 4
+                },
+                {
+                    "num": 2,
+                    "id": 4551
+                }
+            ],
+            "xp": 50
+        },
+        "reqs": {
+            "quests": [
+                65575
+            ]
+        },
+        "next": [
+            65573
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1000146",
+            "obj": {
+                "i": 1000146,
+                "n": "Bernadette",
+                "l": 52,
+                "q": 4
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000195",
+            "obj": {
+                "i": 1000195,
+                "n": "Chansteloup",
+                "l": 52,
+                "q": 4
+            }
+        },
+        {
+            "type": "item",
+            "id": "4551",
+            "obj": {
+                "i": 4551,
+                "n": "Potion",
+                "l": 10,
+                "c": 20601,
+                "t": 44,
+                "p": 28
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65575",
+            "obj": {
+                "i": 65575,
+                "n": "Coming to Gridania",
+                "g": 92,
+                "l": "Gridania",
+                "s": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65573",
+            "obj": {
+                "i": 65573,
+                "n": "Population Control",
+                "g": 92,
+                "l": "Gridania",
+                "s": 40
+            }
+        }
+    ]
+}

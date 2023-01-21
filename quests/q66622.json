@@ -1,0 +1,177 @@
+{
+    "quest": {
+        "name": "The Archer's Anthem",
+        "location": "South Shroud",
+        "id": 66622,
+        "patch": 2.0,
+        "sort": 2,
+        "icon": 100103,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1006750,
+        "target": 1006750,
+        "genre": 151,
+        "journal": [
+            "Jehantel wishes to teach you how to learn a new song.",
+            "You have learned from Jehantel a method for acquiring a new melody. Travel to Raincatcher Gully in eastern La Noscea, and wait at the specified destination. Defeat the spirits that appear to release them from their suffering.",
+            "You have defeated the spirits and, in so doing, sensed something of their undying regret. Return to the South Shroud and report to Jehantel at his camp west of Quarrymill.",
+            "After reporting your success to Jehantel, the bard appears satisfied with the changes the defeat of the spirits has wrought in your soul. Return to your training and perfect your performance of the new melody you have earned.<br><br>※The next bard quest will be available from Jehantel upon reaching level 40."
+        ],
+        "objectives": [
+            "Defeat the spirits of Raincatcher Gully.",
+            "Report to Jehantel at his camp west of Quarrymill."
+        ],
+        "dialogue": [
+            {
+                "name": "JEHANTEL",
+                "text": "Ah, that glint of determination in your eyes is a testament to your newfound strength. You put me in mind of my salad days, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Hm? You would know why I <span class=\"emphasis\">truly</span> abandoned the battlefield and became a bard?"
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "That I took an arrow in the knee is what most folk believe...but it is quite clear you are not “most folk.” Very well. I shan't insult your intelligence with an untruth."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "For now, allow me to answer by saying that everything in creation is given to change, and man most of all. I was drawn to the power of song─the power to touch the very souls of men─and decided that I must pursue it."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Sadly, that power has been all but forgotten in this age of cynicism. Such songs as those performed by tavern bards serve no purpose beyond the amusement of drunkards."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "But that was not always the way of it. There was a time when song could shape the outcome of conflict."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Ever since nations first quarreled, armies have fielded archers wherewith they rained death upon the enemy from afar. As the battle unfolded, however, the distinction between the lines of friend and foe would grow hazy. Yet the archer's part did not end there."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "He had to stay ever alert, with arrow nocked and eyes trained upon the struggle."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Even as his comrades fell, turning the earth red with their blood, the archer could ill afford to avert his gaze, lest that moment cost another his life."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "One need not have a vivid imagination to appreciate the torrent of emotions that raged within him in that moment."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Nerves near to fraying, his breast fit to burst, the archer did the only thing he could: he sang. His bow became a makeshift instrument, plucked as an accompaniment."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "At first, the archer sang only to still the roiling within. But his voice chanced to carry to his comrades. It inspirited those engaged in combat, lending strength to their sword arms. And to those who lay upon the precipice of death, it granted a measure of peace."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Realizing the tactical potential of song, yet loath to set aside skilled archers for that purpose, armies began raising dedicated regiments of minstrels."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "But the members of such units were no warriors, <span class=\"highlight\">Forename</span>."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Fair of voice and nimble of finger, these career minstrels could find a place in the hall of any lord."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Yet they knew naught of the burden borne by those who charge into battle─whose lot is to dance with death and sup on pain. And so their songs rang hollow, holding no power over the hearts of men."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "In eastern La Noscea, spirits are said to haunt the trees of Raincatcher Gully. I would ask you to travel there and await the emergence of these specters."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Through force of arms you are to release the spirits from their tormented existence and, in the doing, ease their unfathomable suffering. With such a deed might you draw forth an ancient melody from the Soul of the Bard."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Welcome back, <span class=\"highlight\">Forename</span>. In your eyes I see a layer of understanding...of regret, and of futility. And in your heart? It now echoes with the strains of an old song, newly discovered."
+            },
+            {
+                "name": "JEHANTEL",
+                "text": "Embrace this song, and as you play it in battle shall ever more powerful emotions beset and temper your soul. When your stock of tales has grown, pray return and regale me with stories of your adventures."
+            },
+            {
+                "name": "POP",
+                "text": "You sense a hostile presence!"
+            }
+        ],
+        "reward": {
+            "action": 3561,
+            "xp": 18040
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 35,
+                    "id": 24
+                }
+            ],
+            "quests": [
+                66621
+            ]
+        },
+        "next": [
+            66623
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1006750",
+            "obj": {
+                "i": 1006750,
+                "n": "Jehantel",
+                "l": 56,
+                "q": 11
+            }
+        },
+        {
+            "type": "action",
+            "id": "3561",
+            "obj": {
+                "i": 3561,
+                "n": "the Warden's Paean",
+                "c": 2609,
+                "j": 23,
+                "t": 4,
+                "l": 35
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66621",
+            "obj": {
+                "i": 66621,
+                "n": "A Song of Bards and Bowmen",
+                "g": 151,
+                "l": "Gridania",
+                "s": 1,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "66623",
+            "obj": {
+                "i": 66623,
+                "n": "Bard's-eye View",
+                "g": 151,
+                "l": "South Shroud",
+                "s": 3,
+                "f": 1
+            }
+        }
+    ]
+}
