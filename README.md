@@ -8,3 +8,5 @@ A WIP tool to tell YOU what quests to complete to unlock everything
 - Visualisation
 - Interactive web app
 - More than just instances
+- Fix ( hack
+- Fix "any" hack
