@@ -23,7 +23,7 @@ def generatedag():
             print("oops at " + str(jfile["quest"]["id"]))
 
     questsexpanded = []
-
+ 
     for quest in quests:
         for next in quest[1]:
             questsexpanded.append((quest[0], next))
@@ -48,7 +48,7 @@ def getinstancepaths():
     directory = "instances"
     towrite = ""
     for filename in os.listdir(directory):
-        #thispath = []
+        thispath = []
         try:
             f = os.path.join(directory, filename)
             if os.path.isfile(f):
