@@ -11,6 +11,7 @@ A WIP tool to tell YOU what quests to complete to unlock everything
 - Fix ( hack
 - Fix "any" hack
 - Generalise getinstancepaths()
+- is 99999 a problem?
 
 # Completed todo
 - Fetch character's quests from Lodestone - requires setting character id and session cookie in secretfile.py (check cookies in browser, must be logged in - ldst_sess)
