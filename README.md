@@ -12,4 +12,4 @@ A WIP tool to tell YOU what quests to complete to unlock everything
 - Fix "any" hack
 
 # Completed todo
-- Fetch character's quests from Lodestone - requires setting session cookie in secretfile.py (check cookies in browser, must be logged in - ldst_sess)
+- Fetch character's quests from Lodestone - requires setting character id and session cookie in secretfile.py (check cookies in browser, must be logged in - ldst_sess)
