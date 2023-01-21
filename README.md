@@ -7,3 +7,4 @@ A WIP tool to tell YOU what quests to complete to unlock everything
 - Find/fix bugs
 - Visualisation
 - Interactive web app
+- More than just instances
