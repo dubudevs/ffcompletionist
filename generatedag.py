@@ -48,7 +48,7 @@ def getinstancepaths():
     directory = "instances"
     towrite = ""
     for filename in os.listdir(directory):
-        thispath = []
+        #thispath = []
         try:
             f = os.path.join(directory, filename)
             if os.path.isfile(f):
