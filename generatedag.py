@@ -48,14 +48,12 @@ def getinstancepaths():
     directory = "instances"
     towrite = ""
     for filename in os.listdir(directory):
-        #thispath = []
         try:
             f = os.path.join(directory, filename)
             if os.path.isfile(f):
                 jfile = json.load(open(f, encoding='utf8'))
                 path = ""
                 path = list(dict.fromkeys(get_all_pred2(jfile["instance"]["unlockedByQuest"], g1)))
-                #thispath.append((jfile["instance"]["id"],path))
                 towrite = towrite + str((jfile["instance"]["id"],path)) + "\n"
                 
         except Exception as e: 
