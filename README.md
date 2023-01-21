@@ -10,3 +10,6 @@ A WIP tool to tell YOU what quests to complete to unlock everything
 - More than just instances
 - Fix ( hack
 - Fix "any" hack
+
+# Completed todo
+- Fetch character's quests from Lodestone - requires setting session cookie in secretfile.py (check cookies in browser, must be logged in - ldst_sess)
