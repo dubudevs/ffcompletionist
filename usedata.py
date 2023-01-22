@@ -149,10 +149,10 @@ def getinstancepathslocal():
 
 def findtodo():
     # Move up every instance's tree starting from level 1 and find the first uncompleted quest. Considers "dead quests" completed.
-    quests = getplayerquests() + getdeadquests() + getdeadquests2()
+    quests = getplayerquests() + getdeadquests() + getdeadquests2() + getdupes()
     # graph = generatedag()
     # deadquests = getdeadquests2()
-    getinstancepaths()
+    # getinstancepaths()
     paths = getinstancepathslocal()
 
     for i in quests:
@@ -176,8 +176,51 @@ def findtodo():
     return list(dict.fromkeys(todo))
 
 
+def getdupes():
+    # There are a couple of quests that share the same name. From the scraped data it is very hard to differentiate these.
+    # Todo: Differentiate, possibly by icon
+    directory = "quests"
+    quests = []
+    dupeid = []
+    for filename in os.listdir(directory):
+        try:
+            f = os.path.join(directory, filename)
+            if os.path.isfile(f):
+                jfile = json.load(open(f, encoding='utf8'))
+                quests.append(jfile["quest"]["name"])
+
+        except Exception as e: 
+            print(e)
+            continue
+    
+    dupes=[i for i in quests if quests.count(i)>1]
+    print(dupes)
+
+    for filename in os.listdir(directory):
+        try:
+            f = os.path.join(directory, filename)
+            if os.path.isfile(f):
+                jfile = json.load(open(f, encoding='utf8'))
+                if jfile["quest"]["name"] in dupes:
+                    dupeid.append(jfile["quest"]["id"])
+
+        except Exception as e: 
+            print(e)
+            continue
+
+    print(dupeid)
+
+    #with open("dupe.txt", "w") as file:
+    #    file.write(str(dupeid))
+
+    return dupeid
+
 
 if __name__ == "__main__":
+
     todo = findtodo()
+    garland =  "https://garlandtools.org/db/#"
     for quest in todo:
         print(quest + " - " + titlefromid(quest) + " - " + locfromid(quest))
+        garland = garland + f"quest/{quest},"
+    print(garland[:-1])
