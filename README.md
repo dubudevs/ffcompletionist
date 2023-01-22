@@ -1,6 +1,8 @@
 # ffcompletionist
 A WIP tool to tell YOU what quests to complete to unlock everything
 
+Fetch your data using getplayerdata.py (you'll need to figure out which functions you want for now) and then use usedata.py to generate a list of quests to do and a GT link for easy reading.
+
 # Todo
 - Fetch ~~quests~~ and levels from API (requires scraping and cookie wrangling)
 - Use a single API rather than two for fetching data
