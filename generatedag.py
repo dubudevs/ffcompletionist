@@ -2,9 +2,10 @@ import networkx as nx
 from matplotlib import pyplot as plt
 import os
 import json
-
+import getplayerdata
 
 def generatedag():
+    # Generate the Directional Acyclic Graph of all quests and their relations. The final quest in the line will be a requirement for quest 99999 (todo).
     directory = "quests"
     quests = []
     for filename in os.listdir(directory):
@@ -37,6 +38,7 @@ def generatedag():
 
 
 def get_all_pred2(node, graph):
+    # Get all ancestors (requirement path) of a node. Ordered.
     nodelist = []
     for pred in nx.ancestors(graph, node):
         nodelist.append(pred)
@@ -44,6 +46,8 @@ def get_all_pred2(node, graph):
 
 
 def getinstancepaths():
+    # Get the full ordered requirement path for all "instances"
+    # Todo: Generalise
     g1 = generatedag()
     directory = "instances"
     towrite = ""
@@ -67,21 +71,30 @@ def getinstancepaths():
 
 
 def getplayerquests():
+    # Read the local quests file into a list
     with open("myQuests.txt") as file:
         quests = [line.rstrip() for line in file]
     return quests
 
 
 def titlefromid(id):
+    # Get the name of a quest from its ID
     jfile = json.load(open("quests/q" + str(id) + ".json", encoding='utf8'))
     return jfile["quest"]["name"]
 
 def locfromid(id):
+    # Get the location of a quest from its ID
     jfile = json.load(open("quests/q" + str(id) + ".json", encoding='utf8'))
     return jfile["quest"]["location"]
 
 
+def getlevel():
+    # This makes a web request and returns highest job level
+    getplayerdata.getlevel()
+    return getplayerdata.getlevel()
+
 def getdeadquests():
+    # Some quests are useless/cause issues, all sub level 15 quests are assumed as are quests with ( in the name, eg (Twin Adder) and (Flame Immortal)
     directory = "quests"
     quests = []
     for filename in os.listdir(directory):
@@ -103,6 +116,8 @@ def getdeadquests():
     return quests
 
 def getdeadquests2():
+    # Consider quests that require one of "any" quest completed
+    # Todo: Find a decent way to implement this in networkx
     directory = "quests"
     quests = []
     for filename in os.listdir(directory):
@@ -126,15 +141,17 @@ def getdeadquests2():
 
 
 def getinstancepathslocal():
+    # Read instance quest paths from local file rather than generating them
     with open('paths.txt', 'r') as f:
         paths = [line.rstrip() for line in f]
     return paths
 
 
 def findtodo():
-    graph = generatedag()
+    # Move up every instance's tree starting from level 1 and find the first uncompleted quest. Considers "dead quests" completed.
     quests = getplayerquests() + getdeadquests() + getdeadquests2()
-    deadquests = getdeadquests2()
+    # graph = generatedag()
+    # deadquests = getdeadquests2()
     getinstancepaths()
     paths = getinstancepathslocal()
 
