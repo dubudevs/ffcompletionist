@@ -178,7 +178,7 @@ def findtodo():
 
 def getdupes():
     # There are a couple of quests that share the same name. From the scraped data it is very hard to differentiate these. Consider dupes dead for now.
-    # Todo: Differentiate, possibly by icons
+    # Todo: Differentiate, possibly by icon
     directory = "quests"
     quests = []
     dupeid = []
