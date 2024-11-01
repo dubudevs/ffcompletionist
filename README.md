@@ -19,3 +19,5 @@ Fetch your data using getplayerdata.py (you'll need to figure out which function
 - Fetch character's quests from Lodestone - requires setting character id and session cookie in secretfile.py (check cookies in browser, must be logged in - ldst_sess)
 - Levels can be scraped, but I dont think I will do anything with them
 - Garland Tools lists work as a very nice way to visualise
+
+.
